@@ -4,12 +4,12 @@ title: Let’s talk about Homomorphic Encryption
 date: '2020-05-22 12:16:28'
 image: /assets/images/content/cyber-security.jpg
 tags:
-  - Homomorphic Encryption
-  - Encryption
-  - Linaro
-category: Blog
+- Homomorphic Encryption
+- Linaro
+category: blog
 author: joakim.bech
 ---
+
 #### **Homomorphic Encryption.**
 
 Encryption is something that all of us are using whether we know it or not. Many of the things that you are doing on a daily basis requires some kind of encryption to protect your information from being read and used by others. Encryption by itself is a big and complex topic, covering topics like source of randomness, different encryption algorithms, different modes, how often to use (or not use) encryption keys. In this blog post we’re going to set aside the traditional encryption as we’re used to and instead have a look at something called Homomorphic Encryption (HE). The word homomorphic in Homomorphic Encryption implies that it is possible to modify data. Malleability usually is a property that we don’t want when working with encryption, which is one of the reasons why we have to add some kind of MAC (HMAC etc.) on top of our encryption to be able to protect the integrity of our ciphertext. Contrary to traditional encryption, this is actually a necessary property when working with Homomorphic Encryption. This will not be a deep dive in the algorithms and the mathematics involved, simply because me as author of this article is still learning about all this. Instead it’s meant to serve as an eye opener to a technology that might be important in a few years from now. In short there are use cases that could serve as a business opportunity and be a source for revenue for the ones willing to invest time and money in this early on.

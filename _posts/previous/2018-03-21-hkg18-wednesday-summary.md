@@ -1,17 +1,27 @@
 ---
 author: linaro
-date: 2018-03-21 09:50:00.000
+date: 2018-03-21 09:50:00
 title: Highlights of Day Three at HKG18
-description: >-
-    Here is a brief summary of the highlights from Ecosystem Day at Linaro Connect HKG18.
-categories:
-  - blog
+description: Here is a brief summary of the highlights from Ecosystem Day at Linaro
+  Connect HKG18.
+category: blog
 published: true
-tags: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, Microsoft, Microsoftazure, Xilinx, FPGA, Data centre, Hyper Scale, X96'
-keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, Microsoft, Microsoftazure, Xilinx, FPGA, Data centre, Hyper Scale, X96
+tags:
+- Arm
+- Linux
+- Kernel
+- Linaro
+- Open Source
+- Machine Learning
+- AI
+- 96Boards
+keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards,
+  Cloud, Edge Computing, Microsoft, Microsoftazure, Xilinx, FPGA, Data centre, Hyper
+  Scale, X96
 image: /assets/images/blog/Ecosystemday-original.jpg
 layout: post
 ---
+
 # Highlights of Ecosystem Day at Linaro Connect HKG18
 
 Ecosystem Day has arrived! Ecosystem Day brought together the leading Arm vendors, end users and the open source development community in Hong Kong to discuss the latest products, developments and open source software support. It was a day filled with sessions on best practises, practical workshops, demonstrations and technology outlooks by experts from the Arm ecosystem.

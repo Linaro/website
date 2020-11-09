@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2011-12-21 12:14:19
 description: CAMBRIDGE, UK - 21 DEC 2011
 layout: post
@@ -22,8 +21,6 @@ Developers are able to create optimized Linux-based devices with the support of 
 
 Linaro operates openly, and these accelerated builds are the latest downloads enabling advanced product development on hardware from its member companies. Linaro's goal is to provide consolidated and optimized open source software building blocks that provide companies with a foundation on which they can rapidly build and deliver innovative, differentiated solutions.
 
-
 ### Join us for Linaro Connect Q1.12
-
 
 Linaro Connect is held every three to four months to bring the Linux on Arm community together to work on the latest system-on-chip (SoC) developments, plan new engineering efforts and hold engineering hacking sessions. These events give the Linux community an opportunity to be a part of the Linaro team and help to define the Arm tools, Linux kernels and builds of key Linux distributions including Android and Ubuntu on member SoCs. Join us for our next event February 6-10th in San Francisco, California. Learn more at [connect.linaro.org](https://connect.linaro.org/)

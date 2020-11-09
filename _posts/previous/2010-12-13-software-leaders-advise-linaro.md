@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2010-12-13 12:08:44
 description: CAMBRIDGE, UK - 13 DEC 2010
 layout: post

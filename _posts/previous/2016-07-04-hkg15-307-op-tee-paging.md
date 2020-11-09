@@ -1,11 +1,9 @@
 ---
 author: op-tee
-tags:
-- OP-TEE
-title: 'HKG15-307 &#58; OP-TEE paging'
-date: 2016-07-04 12:00:00 Z
-categories:
-- Blog
+tags: []
+title: HKG15-307 &#58; OP-TEE paging
+date: 2016-07-04 12:00:00+00:00
+category: blog
 layout: post
 image: /assets/images/blog/hkg15-307-op-tee-paging-image.jpg
 ---
@@ -14,7 +12,7 @@ OP-TEE has a pager which can use DDR as backing store to allow usage of more vir
 
 {% include media.html media_url="https://www.youtube.com/embed/hCYjlBPxEbY" %}
 
---------
+---
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/vqGtPdP9HDCR1U" %}
 

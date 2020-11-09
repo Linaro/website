@@ -6,14 +6,8 @@ link: /blog/hardware-update/snowball-new-cortex-a9-community-board-from-st-erics
 slug: snowball-new-cortex-a9-community-board-from-st-ericsson
 title: Snowball - New Cortex A9 community board from ST-Ericsson
 wordpress_id: 3373
-categories:
-  - Blog
-tags:
-  - Hardware
-  - board
-  - community
-  - CortexA9
-  - ST-Ericsson
+category: blog
+tags: []
 ---
 
 Barcelona, Mobile World Congress, Feb. 15, 2011

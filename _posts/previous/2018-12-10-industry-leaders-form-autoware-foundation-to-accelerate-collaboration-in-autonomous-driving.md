@@ -1,15 +1,26 @@
 ---
-title: Industry leaders form Autoware Foundation to accelerate collaboration in autonomous driving
+title: Industry leaders form Autoware Foundation to accelerate collaboration in autonomous
+  driving
 author: linaro
 layout: post
 date: 2018-12-10 09:00:00+00:00
-description: >-
-    Linaro Ltd, the open source collaborative engineering organization, Japan-based intelligent vehicle technology company Tier IV, Inc., and US-based autonomous mobility systems software company Apex.AI announced today the formation of the Autoware Foundation.  
-categories: News
-tags: Linaro, AI, Networking, Security, Big Data, TierIV, Tier4, Autoware.ai, ROS, 96Boards, Autoware Foundation, Membership
+description: Linaro Ltd, the open source collaborative engineering organization, Japan-based
+  intelligent vehicle technology company Tier IV, Inc., and US-based autonomous mobility
+  systems software company Apex.AI announced today the formation of the Autoware Foundation.
+category: news
+tags:
+- Linaro
+- AI
+- Networking
+- Security
+- Big Data
+- ROS
+- 96Boards
+- Membership
 image: /assets/images/content/road-timelapse.jpg
 ---
-Linaro Ltd, the open source collaborative engineering organization, Japan-based intelligent vehicle technology company Tier IV, Inc., and US-based autonomous mobility systems software company Apex.AI announced today the formation of the Autoware Foundation. 
+
+Linaro Ltd, the open source collaborative engineering organization, Japan-based intelligent vehicle technology company Tier IV, Inc., and US-based autonomous mobility systems software company Apex.AI announced today the formation of the Autoware Foundation.
 
 The Autoware Foundation is a non-profit organisation created to initiate, grow, and fund open source collaborative engineering Autoware projects, starting with Autoware.AI, Autoware.Auto, and Autoware.IO. Autoware.AI is the original Autoware project started in 2015 by Shinpei Kato at Nagoya University that is being used globally by more than 100 companies in more than 30 vehicles today. Autoware.Auto is a rewrite of Autoware using ROS 2.0 for certifiable software stacks used in vehicles. Autoware.IO focuses on heterogeneous platform support based on 96Boards products, vehicle control interfaces as well as a collection of third-party software and hardware tools to help deliver the core values of Autoware. Examples of Autoware.IO projects include simulators, device drivers for sensors, by-wire controllers for vehicles, and hardware-independent programs for SoC boards.
 
@@ -35,13 +46,13 @@ Shinpei Kato from Tier IV and the University of Tokyo, Jan Becker from Apex.AI a
 
 > “We’re excited to be part of the Autoware Foundation. We share a common vision of building new industries on open platforms. It’s exciting to see Autoware committing to using and contributing to ROS 2, and we look forward to further collaboration between our communities,” said Brian Gerkey, CEO, Open Robotics (OSRF).
 
-> “SiFive welcomes the Autoware initiative, as an open-source self-driving software stack is a natural fit to high-performance AI hardware based on the free and open RISC-V architecture.” said Krste Asanovic, Chief Architect at SiFive. 
+> “SiFive welcomes the Autoware initiative, as an open-source self-driving software stack is a natural fit to high-performance AI hardware based on the free and open RISC-V architecture.” said Krste Asanovic, Chief Architect at SiFive.
 
 > “We are very proud to be Autoware Foundation members. Xilinx’s flexible and adaptive processing platforms will contribute to define projects towards the development of semi-autonomous and autonomous platforms with Autoware Foundation members,” said Dan Isaacs, Director of Automotive Strategy & Market Development, Xilinx Inc.
 
 > “Apex.AI is thrilled to be part of the Autoware Foundation. An open source project of this scope needs to be independent from a single company and must embrace the community supporting it. Therefore we are following the example of the Linux Foundation and Open Robotics by putting all Autoware projects under the roof of this foundation” said Jan Becker, Director on the Board of the Autoware Foundation and Co-Founder and CEO of Apex.AI, Inc.
 
-> “Autoware has recognized momentum in the industry and we are excited to be able to build on its success to offer open source projects supporting the deployment of the world’s leading autonomous vehicle technology” said Yang Zhang, Board Director of the Autoware Foundation and Director of 96Boards. “Linaro 96Boards program will help define the standardized hardware platforms on which to maintain and grow the Autoware code base and extend support for it across a broader range of SoC solutions.” 
+> “Autoware has recognized momentum in the industry and we are excited to be able to build on its success to offer open source projects supporting the deployment of the world’s leading autonomous vehicle technology” said Yang Zhang, Board Director of the Autoware Foundation and Director of 96Boards. “Linaro 96Boards program will help define the standardized hardware platforms on which to maintain and grow the Autoware code base and extend support for it across a broader range of SoC solutions.”
 
 > “Thanks to everyone involved for making this a memorable launch for the Autoware Foundation. Autoware drives innovations for everyone who loves open-source software and autonomous driving technology. We can never make it alone. We are all here to open the way to the future together,” said Shinpei Kato, Board of Directors of the Autoware Foundation and Founder of Tier IV, Inc. “Tier IV's vision is to democratize an ecosystem for intelligent vehicles. To this end, Tier IV provides mobility service platforms and software toolchains that enable Autoware to be deployed in the emerging market.”
 
@@ -51,6 +62,6 @@ The Autoware board invites companies in the automotive industry to collaborate o
 
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 300 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. 96Boards is Linaro’s initiative to build a single worldwide software and hardware community across low-cost development boards based on Arm technology. A large range of products compliant with the 96Boards specifications are already available worldwide and this range is supplemented with additional hardware functionality provided through standardized mezzanine boards. 
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. 96Boards is Linaro’s initiative to build a single worldwide software and hardware community across low-cost development boards based on Arm technology. A large range of products compliant with the 96Boards specifications are already available worldwide and this range is supplemented with additional hardware functionality provided through standardized mezzanine boards.
 
 To find out more, please visit [https://www.linaro.org](/) and [https://www.96Boards.org](https://www.96boards.org/).

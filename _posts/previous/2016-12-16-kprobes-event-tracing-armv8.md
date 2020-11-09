@@ -6,124 +6,77 @@ link: /blog/kprobes-event-tracing-armv8/
 slug: kprobes-event-tracing-armv8
 title: Kprobes Event Tracing on Armv8
 wordpress_id: 11979
-categories:
-- Blog
+category: blog
 tags:
-- arm64
-- Armv8
-- Jprobes
-- kernel
-- Kprobes
-- Kretprobes
-- Perf
-- Tracing
+- Arm64
+- Kernel
 ---
+
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
 
-
 ## Introduction
-
 
 Kprobes is a kernel feature that allows instrumenting the kernel by setting arbitrary breakpoints that call out to developer-supplied routines before and after the breakpointed instruction is executed (or simulated). See the kprobes documentation[[1]](https://github.com/torvalds/linux/blob/master/Documentation/features/debug/kprobes/arch-support.txt) for more information. Basic kprobes functionality is selected with CONFIG_KPROBES. Kprobes support was added to mainline for arm64 in the v4.8 release.
 
 In this article we describe the use of kprobes on arm64 using the debugfs event tracing interfaces from the command line to collect dynamic trace events. This feature has been available for some time on several architectures (including arm32), and is now available on arm64. The feature allows use of kprobes without having to write any code.
 
-
 ## Types of Probes
-
 
 The kprobes subsystem provides three different types of dynamic probes described below.
 
-
 ### Kprobes
-
 
 The basic probe is a software breakpoint kprobes inserts in place of the instruction you are probing, saving the original instruction for eventual single-stepping (or simulation) when the probe point is hit.
 
-
 ### Kretprobes
-
 
 Kretprobes is a part of kprobes that allows intercepting a returning function instead of having to set a probe (or possibly several probes) at the return points. This feature is selected whenever kprobes is selected, for supported architectures (including Armv8).
 
-
 ### Jprobes
-
 
 Jprobes allows intercepting a call into a function by supplying an intermediary function with the same calling signature, which will be called first. Jprobes is a programming interface only and cannot be used through the debugfs event tracing subsystem. As such we will not be discussing jprobes further here. Consult the kprobes documentation if you wish to use jprobes.
 
-
 ## Invoking Kprobes
-
 
 Kprobes provides a set of APIs which can be called from kernel code to set up probe points and register functions to be called when probe points are hit. Kprobes is also accessible without adding code to the kernel, by writing to specific event tracing debugfs files to set the probe address and information to be recorded in the trace log when the probe is hit. The latter is the focus of what this document will be talking about. Lastly kprobes can be accessed through the perf command.
 
-
 ### Kprobes API
-
 
 The kernel developer can write functions in the kernel (often done in a dedicated debug module) to set probe points and take whatever action is desired right before and right after the probed instruction is executed. This is well documented in kprobes.txt.
 
-
 ### Event Tracing
-
 
 The event tracing subsystem has its own documentation[[2]](https://github.com/torvalds/linux/blob/master/Documentation/trace/events.rst) which might be worth a read to understand the background of event tracing in general. The event tracing subsystem serves as a foundation for both tracepoints and kprobes event tracing. The event tracing documentation focuses on tracepoints, so bear that in mind when consulting that documentation. Kprobes differs from tracepoints in that there is no predefined list of tracepoints but instead arbitrary dynamically created probe points that trigger the collection of trace event information. The event tracing subsystem is controlled and monitored through a set of debugfs files. Event tracing (CONFIG_EVENT_TRACING) will be selected automatically when needed by something like the kprobe event tracing subsystem.
 
-
 #### Kprobes Events
-
 
 With the kprobes event tracing subsystem the user can specify information to be reported at arbitrary breakpoints in the kernel, determined simply by specifying the address of any existing probeable instruction along with formatting information. When that breakpoint is encountered during execution kprobes passes the requested information to the common parts of the event tracing subsystem which formats and appends the data to the trace log, much like how tracepoints works. Kprobes uses a similar but mostly separate collection of debugfs files to control and display trace event information. This feature is selected with CONFIG_KPROBE_EVENT. The kprobetrace documentation[[3]](https://github.com/torvalds/linux/blob/master/Documentation/trace/kprobetrace.rst) provides the essential information on how to use kprobes event tracing and should be consulted to understand details about the examples presented below.
 
-
 ### Kprobes and Perf
-
 
 The perf tools provide another command line interface to kprobes. In particular "perf probe" allows probe points to be specified by source file and line number, in addition to function name plus offset, and address. The perf interface is really a wrapper for using the debugfs interface for kprobes.
 
-
 ## Arm64 Kprobes
-
 
 All of the above aspects of kprobes are now implemented for arm64, in practice there are some differences from other architectures though:
 
+- Register name arguments are, of course, architecture specific and can be found in the Arm Arm.
 
+- Not all instruction types can currently be probed. Currently unprobeable instructions include mrs/msr (except DAIF read), exception generation instructions, eret, and hint (except for the nop variant). In these cases it is simplest to just probe a nearby instruction instead. These instructions are blacklisted from probing because the changes they cause to processor state are unsafe to do during kprobe single-stepping or instruction simulation, because the single-stepping context kprobes constructs is inconsistent with what the instruction needs, or because the instruction can’t tolerate the additional processing time and exception handling in kprobes (ldx/stx).
 
+- An attempt is made to identify instructions within a ldx/stx sequence and prevent probing, however it is theoretically possible for this check to fail resulting in allowing a probed atomic sequence which can never succeed. Be careful when probing around atomic code sequences.
 
+- Note that because of the details of Linux Arm64 calling conventions it is not possible to reliably duplicate the stack frame for the probed function and for that reason no attempt is made to do so with jprobes, unlike the majority of other architectures supporting jprobes. The reason for this is that there is insufficient information for the callee to know for certain the amount of the stack that is needed.
 
-  * Register name arguments are, of course, architecture specific and can be found in the Arm Arm.
+- Note that the stack pointer information recorded from a probe will reflect the particular stack pointer in use at the time the probe was hit, be it the kernel stack pointer or the interrupt stack pointer.
 
-
-
-
-  * Not all instruction types can currently be probed. Currently unprobeable instructions include mrs/msr (except DAIF read), exception generation instructions, eret, and hint (except for the nop variant). In these cases it is simplest to just probe a nearby instruction instead. These instructions are blacklisted from probing because the changes they cause to processor state are unsafe to do during kprobe single-stepping or instruction simulation, because the single-stepping context kprobes constructs is inconsistent with what the instruction needs, or because the instruction can’t tolerate the additional processing time and exception handling in kprobes (ldx/stx).
-
-
-  * An attempt is made to identify instructions within a ldx/stx sequence and prevent probing, however it is theoretically possible for this check to fail resulting in allowing a probed atomic sequence which can never succeed. Be careful when probing around atomic code sequences.
-
-
-  * Note that because of the details of Linux Arm64 calling conventions it is not possible to reliably duplicate the stack frame for the probed function and for that reason no attempt is made to do so with jprobes, unlike the majority of other architectures supporting jprobes. The reason for this is that there is insufficient information for the callee to know for certain the amount of the stack that is needed.
-
-
-
-
-  * Note that the stack pointer information recorded from a probe will reflect the particular stack pointer in use at the time the probe was hit, be it the kernel stack pointer or the interrupt stack pointer.
-
-
-  * There is a list of kernel functions which cannot be probed, usually because they are called as part of kprobes processing. Part of this list is architecture-specific and also includes things like exception entry code.
-
-
-
+- There is a list of kernel functions which cannot be probed, usually because they are called as part of kprobes processing. Part of this list is architecture-specific and also includes things like exception entry code.
 
 ## Using Kprobes Event Tracing
 
-
 One common use case for kprobes is instrumenting function entry and/or exit. It is particularly easy to install probes for this since one can just use the function name for the probe address. Kprobes event tracing will look up the symbol name and determine the address. The Armv8 calling standard defines where the function arguments and return values can be found, and these can be printed out as part of the kprobe event processing.
 
-
 ### Example: Function entry probing
-
 
 Instrumenting a USB ethernet driver reset function:
 
@@ -157,11 +110,9 @@ kworker/0:0-4             [000] d... 10972.102939:   p_ax88772_reset_0:
 
 Here we can see the value of the pointer argument passed in to our probed function. Since we did not use the optional labelling features of kprobes event tracing the information we requested is automatically labeled _arg1_.  Note that this refers to the first value in the list of values we requested that kprobes log for this probe, not the actual position of the argument to the function. In this case it also just happens to be the first argument to the function we’ve probed.
 
-
 ### Example: Function entry and return probing
 
-
-The kretprobe feature is used specifically to probe a function return. At function entry the kprobes subsystem will be called and will set up a hook to be called at function return, where it will record the requested event information. For the most common case the return information, typically in the X0 register, is quite useful. The return value in %x0 can also be referred to as _$retval_. The following example also demonstrates how to provide a human-readable label to be displayed with the information of interest.
+The kretprobe feature is used specifically to probe a function return. At function entry the kprobes subsystem will be called and will set up a hook to be called at function return, where it will record the requested event information. For the most common case the return information, typically in the X0 register, is quite useful. The return value in %x0 can also be referred to as _\$retval_. The following example also demonstrates how to provide a human-readable label to be displayed with the information of interest.
 
 Example of instrumenting the kernel _\_do_fork()_ function to record arguments and results using a kprobe and a kretprobe:
 
@@ -174,9 +125,7 @@ EOF
 $ echo 1 > events/kprobes/enable
 ```
 
-
-At this point every call to _do_fork() will produce two kprobe events recorded into the "_trace_" file, one reporting the calling argument values and one reporting the return value. The return value shall be labeled "_pid_" in the trace file. Here are the contents of the trace file after three fork syscalls have been made:
-
+At this point every call to _do_fork() will produce two kprobe events recorded into the "\_trace_" file, one reporting the calling argument values and one reporting the return value. The return value shall be labeled "_pid_" in the trace file. Here are the contents of the trace file after three fork syscalls have been made:
 
 ```
 $ cat trace
@@ -201,7 +150,6 @@ $ cat trace
 
 ### Example: Dereferencing pointer arguments
 
-
 For pointer values the kprobe event processing subsystem also allows dereferencing and printing of desired memory contents, for various base data types. It is necessary to manually calculate the offset into structures in order to display a desired field.
 
 Instrumenting the _do_wait()_ function:
@@ -218,7 +166,7 @@ Note that the argument labels used in the first probe are optional and can be us
 
 The probe labels (after the colon) are optional and will be used to identify the probe in the log. The label must be unique for each probe. If unspecified a useful label will be automatically generated from a nearby symbol name, as has been shown in earlier examples.
 
-Also note the "_$retval_" argument could just be specified as "_%x0_".
+Also note the "_\$retval_" argument could just be specified as "_%x0_".
 
 Here are the contents of the "_trace_" file after two fork syscalls have been made:
 
@@ -241,9 +189,7 @@ $ cat trace
              bash-1702  [002] d..1   175.347349: wait_r: (SyS_wait4+0x74/0xe4 <- do_wait) arg1=0xfffffffffffffff6
 ```
 
-
 ### Example: Probing arbitrary instruction addresses
-
 
 In previous examples we have inserted probes for function entry and exit, however it is possible to probe an arbitrary instruction (with a few exceptions). If we are placing a probe inside a C function the first step is to look at the assembler version of the code to identify where we want to place the probe. One way to do this is to use gdb on the vmlinux file and display the instructions in the function where you wish to place the probe. An example of doing this for the _module_alloc_ function in arch/arm64/kernel/modules.c follows. In this case, because gdb seems to prefer using the weak symbol definition and it’s associated stub code for this function, we get the symbol value from System.map instead:
 
@@ -352,22 +298,15 @@ $ cat kprobe_profile
 p_0xffff20000809521c                                 6            0
 ```
 
-
 This indicates that there have been a total of 8 hits each of the two breakpoints we set, which of course is consistent with the trace log data.  More kprobe_profile features are described in the kprobetrace documentation.
 
 There is also the ability to further filter kprobes events.  The debugfs files used to control this are listed in the kprobetrace documentation while the details of their contents are (mostly) described in the trace events documentation.
 
-
 ## Conclusion
-
 
 Linux on Armv8 now is on parity with other architectures supporting the kprobes feature. Work is being done by others to also add uprobes and systemtap support. These features/tools and other already completed features (e.g.: perf, coresight) allow the Linux Armv8 user to debug and test performance as they would on other, older architectures.
 
-
-
-* * *
-
-
+---
 
 Bibliography
 

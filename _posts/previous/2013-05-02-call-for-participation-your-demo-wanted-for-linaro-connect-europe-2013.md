@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-05-02 15:48:01
 description: Show off how you are pairing Linaro's engineering output--a build, toolchain,
   or code--and Arm processor-based hardware solutions at the LCE13 Demo Friday event.
@@ -11,7 +10,6 @@ layout: post
 link: /blog/community-blog/call-for-participation-your-demo-wanted-for-linaro-connect-europe-2013/
 slug: call-for-participation-your-demo-wanted-for-linaro-connect-europe-2013
 tags:
-- Community
 - Connect Events
 title: 'CALL FOR PARTICIPATION: Your Demo Wanted for Linaro Connect Europe 2013'
 wordpress_id: 2677
@@ -27,18 +25,17 @@ If you or someone you know is interested in the opportunity to demonstrate how y
 
 In your email please include the following:
 
+- Name
 
-  * Name
+- Company
 
-  * Company
+- Title of demonstration
 
-  * Title of demonstration
+- Description of demonstration (The demonstration must be Linaro related, and those presenting the demonstration should be able to tell attendees how Linaro is making their product or demonstration better)
 
-  * Description of demonstration (The demonstration must be Linaro related, and those presenting the demonstration should be able to tell attendees how Linaro is making their product or demonstration better)
+- Any equipment requirements
 
-  * Any equipment requirements
-
-  * Participants must be available to set up their demonstration prior to the start of the event and immediately after event ends.
+- Participants must be available to set up their demonstration prior to the start of the event and immediately after event ends.
 
 Please create a poster that lets attendees know all about your demonstration. The template for creating the demonstration poster is available [here](/assets/downloads/Demo-Friday-Demo-Poster-Template_LCE13_Dublin.odp). All posters must be returned to Linaro by **Friday June 7** in order to guarantee printing for Demo Friday event. Poster Size when printed will be A2 (11.7x16.5 inches).
 

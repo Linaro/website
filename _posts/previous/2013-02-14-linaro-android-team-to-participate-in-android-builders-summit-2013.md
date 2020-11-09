@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-02-14 21:28:43
 description: Find out how you can connect with Linaro during the The Android Builders
   Summit or The Embedded Linux Conference 2013?
@@ -13,7 +12,6 @@ link: /blog/community-blog/linaro-android-team-to-participate-in-android-builder
 slug: linaro-android-team-to-participate-in-android-builders-summit-2013
 tags:
 - Android
-- Community
 title: Linaro Android Team to Participate in Android Builders Summit 2013
 wordpress_id: 2346
 ---
@@ -33,20 +31,13 @@ Stop by any of the sessions where Linaro is participating to learn more about Li
 **About the Linaro Android Team:**
 The primary goals of the Linaro Android Team is to develop and release tested[ monthly builds](http://releases.linaro.org/) of Android for Galaxy Nexus, Panda, Snowball, Origen and Versatile Express, collaborate with upstream[ development efforts](https://wiki-archive.linaro.org/Platform/Android/UpstreamWork) and perform monthly[ toolchain benchmarking](https://wiki-archive.linaro.org/Platform/Android/AndroidToolchainBenchmarking).
 
+- [Meeting](https://wiki-archive.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net\*
 
+- Mailing List:  mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
 
+- IRC Channel: #linaro-android on irc.linaro.org or irc.freenode.net
 
-  * [Meeting](https://wiki-archive.linaro.org/Platform/Android/Meetings): Weekly on Wednesday at 1300 UTC in #linaro-meeting on irc.freenode.net*
-
-
-  * Mailing List:  mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
-
-
-  * IRC Channel: #linaro-android on irc.linaro.org or irc.freenode.net
-
-
-  * [Team Members](/about/)
-
+- [Team Members](/about/)
 
 **About Linaro:**
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation. To ensure commercial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online.

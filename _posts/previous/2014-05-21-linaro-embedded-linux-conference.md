@@ -1,7 +1,6 @@
 ---
 author: linus.walleij
-categories:
-- Blog
+category: blog
 date: 2014-05-21 20:40:35
 description: Overview of Linaro's participation at Embedded Linux Conference in May
   2014
@@ -9,9 +8,9 @@ layout: post
 link: /blog/linaro-embedded-linux-conference/
 slug: linaro-embedded-linux-conference
 tags:
-- kernel
+- Kernel
 - Linaro
-- Linux on Arm
+- Linux On Arm
 - Open Source
 title: Linaro At Embedded Linux Conference
 wordpress_id: 5861

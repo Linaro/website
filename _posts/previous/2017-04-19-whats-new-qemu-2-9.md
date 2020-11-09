@@ -6,11 +6,9 @@ link: /blog/core-dump/whats-new-qemu-2-9/
 slug: whats-new-qemu-2-9
 title: What's new in QEMU 2.9
 wordpress_id: 12315
-categories:
-- Blog
+category: blog
 tags:
-- Core Dump
-- qemu
+- Qemu
 ---
 
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
@@ -25,7 +23,6 @@ Linaro engineers takes an active part in development and maintenance of the proj
 
 Building on previous work to enable EL3 (the secure CPU mode provided by the security extensions as part of TrustZone) we now fully support the hypervisor CPU exception level EL2. As most Arm hypervisors require support for virtualization in the interrupt controller as well, and since we only support the virtualization extensions in our emulated GICv3 (not GICv2), users who want to run hypervisors in the emulated AArch64 machine using EL2 must so far select a GICv3 interrupt controller for the emulated machine.
 
-
 ```bash
     qemu-system-aarch64 ${QEMU_OPTS} \
       -machine gic-version=3 \
@@ -35,7 +32,6 @@ Building on previous work to enable EL3 (the secure CPU mode provided by the sec
 This is especially useful if you want to debug 64-bit Arm hypervisor and often developers don't have access to AArch64 hardware while traveling or attending conference.
 
 While it is still slow compared to running KVM on real hardware, it is convenient for testing EL2 code on a developers desktop with the power of the GDB stub. QEMU is often used extensively for automated testing and CI, and supporting hypervisors inside emulated environments is crucial for supporting CI on Arm using commodity x86 hardware. With the introduction of MTTCG (see next section), this even scales for multi-core and can be used to discover SMP-related race conditions.
-
 
 ## 2 Multi-threaded TCG for System Emulation
 
@@ -51,7 +47,6 @@ Currently MTTCG is enabled by default for both 32 and 64 bit Arm chips as well a
 
 ## 3 Cortex M fixes
 
-
 In the last few years Linaro has been mostly concentrating on the A-profile (Application profile) Arm processors. These are the ones designed to run full-stack operating systems like Linux. With the growing interest in Internet of Things (IoT), we are starting to turn our attention to the M-profile (Microcontroller). The Microcontroller profile processors are targeted at much more constrained low-latency, and low-power deeply embedded applications. Their memory is usually measured in kilobytes (kB) rather than megabytes (MB) so they tend to run custom run-loops or highly constrained real-time operating systems (RTOS) like [Zephyr](https://www.zephyrproject.org/).
 
 While QEMU nominally supports the Cortex-M3 processor, support for boards using it has been sporadic and the result is a situation where there have been long standing un-fixed bugs and important features missing. As the architecture has progressed support for the newer M-profile CPUs has also lagged.
@@ -61,6 +56,6 @@ This summary is not intended to be exhaustive and has concentrated on Arm specif
 
 {% include media.html media_url="https://youtu.be/4MKXWM0koGw" %}
 
-* * *
+---
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/vAVCMSPoB3KzS7" %}

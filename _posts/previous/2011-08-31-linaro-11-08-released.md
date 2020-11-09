@@ -1,7 +1,6 @@
 ---
 author: fathi.boudra
-categories:
-- Blog
+category: blog
 date: 2011-08-31 21:15:16
 description: Information about the Linaro 11.08 release. Feature highlights, ready
   to use binary images for Android and Ubuntu.
@@ -10,9 +9,7 @@ layout: post
 link: /blog/releases-blog/linaro-11-08-released/
 slug: linaro-11-08-released
 tags:
-- Releases
 - Linaro
-- release
 title: Linaro 11.08 Released
 ---
 
@@ -30,9 +27,7 @@ We encourage everybody to use the 11.08 release. The download links for all imag
 See the detailed highlights of this release to get a better overview of what was done by the individual teams. The release details are linked from the "Details" column for each release artifact on the release information:
 [http://wiki-archive.linaro.org/Cycles/1108/Release#Release_Information](http://wiki-archive.linaro.org/Cycles/1108/Release#Release_Information)
 
-
 ## Using the Android-based images
-
 
 The Android-based images come in three parts: system, userdata and boot. These need to be combined to form a complete Android install. For an explanation of how to do this please see:
 [http://wiki-archive.linaro.org/Platform/Android/ImageInstallation](http://wiki-archive.linaro.org/Platform/Android/ImageInstallation)
@@ -41,48 +36,32 @@ If you are interested in getting the source and building these images yourself p
 [http://wiki-archive.linaro.org/Platform/Android/GetSource](http://wiki-archive.linaro.org/Platform/Android/GetSource)
 [http://wiki-archive.linaro.org/Platform/Android/BuildSource](http://wiki-archive.linaro.org/Platform/Android/BuildSource)
 
-
 ## Using the Ubuntu-based images
-
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 [http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
-
 ## Getting involved
-
 
 More information on Linaro can be found on our websites:
 
+- Homepage: [](/)
 
-
-
-  * Homepage: [](/)
-
-
-  * Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
-
+- Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
+- Announcements:
+  [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-  * Announcements:
-[http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
+- Development:
+  [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-
-  * Development:
-[http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
-
-
-  * IRC:
-#linaro on irc.linaro.org or irc.freenode.net
-#linaro-android on irc.linaro.org or irc.freenode.net
-
-
-
+- IRC:
+  #linaro on irc.linaro.org or irc.freenode.net
+  #linaro-android on irc.linaro.org or irc.freenode.net
 
 ## Known issues with this release
-
 
 For any errata issues, please see:
 [http://wiki-archive.linaro.org/Cycles/1108/Release#Known_Issues](http://wiki-archive.linaro.org/Cycles/1108/Release#Known_Issues)

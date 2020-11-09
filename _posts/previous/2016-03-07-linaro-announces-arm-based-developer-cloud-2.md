@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2016-03-07 11:01:23
 description: Linaro announces the rollout of an Armv8 based Developer Cloud today
   at Linaro Connect in Bangkok.
@@ -11,15 +10,13 @@ layout: post
 link: /news/linaro-announces-arm-based-developer-cloud-2/
 slug: linaro-announces-arm-based-developer-cloud-2
 tags:
-- Armv8
-- Developer cloud
+- Developer Cloud
 - LEG
 - Linaro
 - Linux
-- Linux on Arm
-- members
+- Linux On Arm
+- Members
 - Open Source
-- Opensource
 title: Linaro announces Arm Based Developer Cloud
 wordpress_id: 10071
 ---
@@ -56,7 +53,6 @@ Access to the Developer Cloud will be provided via the [linaro.cloud](http://lin
 “Since the founding of the Linaro Enterprise Group in 2012, Red Hat has been at the forefront in developing key open standards for the Arm ecosystem, and our active participation through the Fedora and CentOS communities as well as the Red Hat Arm Partner Early Access Program has helped to extend the reach of cloud computing to encompass Arm architecture” said Jon Masters, chief Arm architect, Red Hat. “We are pleased to see the availability of Linaro Developer Cloud and look forward to additional innovation streams that it will enable.”
 
 #### About Linaro
-
 
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 200 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 

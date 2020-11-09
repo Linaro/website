@@ -5,13 +5,9 @@ layout: post
 link: /blog/industry-blog/the-need-for-linaro/
 slug: the-need-for-linaro
 title: The need for Linaro
-categories:
-- Blog
+category: blog
 tags:
-- Industry
-- arm
-- gnu
-- launch
+- Arm
 - Linux
 - Open Source
 ---

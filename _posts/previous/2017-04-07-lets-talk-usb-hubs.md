@@ -6,8 +6,7 @@ link: /blog/lets-talk-usb-hubs/
 slug: lets-talk-usb-hubs
 title: So, let’s talk USB hubs.
 wordpress_id: 12308
-categories:
-- Blog
+category: blog
 ---
 
 Back when Linaro and LAVA Lab started, there was very little need for USB device support connected to our LAVA dispatcher servers. However, as time went on, more and more devices started coming to us with USB serial, and more latterly with USB OTG, which we would use to flash test images onto fastboot based devices, particularly [96Boards](http://www.96boards.org). Initially, since there was very little USB, we could plug directly into the server, but when the number rose to more than a handful, we had to start using hubs.
@@ -41,6 +40,6 @@ I looked on the Cambrionix web site. OMG. They had EtherSync - an 8 port USB hub
 
 I phoned Cambrionix to tell them I was impressed, and suggested we have a meeting. Luca and I, the Lab team, went there and sat with them. They lent me an EtherSync. It was like they’d given me a brick of pure gold. I held it in my hands, not wanting to believe the holy grail was really in my hands at last.
 
-We got the EtherSync back to the office and started testing. It’s impressive. It’s running a stripped down Linux on an Arm processor. They have a Linux daemon that Steve McIntyre suggested I should integrate as a systemd service. It seemed to work beautifully. Then we started noticing something. Over time, a server with a port connected to it would freeze. I emailed their software guy. Within a week I got an email from him. They’d found a bug in the USB/IP software stack that was causing the lock up. And, *gulp*, they’d upstreamed the fix. These guys are already in the light. Not too long after, I got an email from Andrew - the software guy - that it was now in the 4.6 kernel. In the meantime I’d created a new python script for controlling it, and was testing it in isolation.
+We got the EtherSync back to the office and started testing. It’s impressive. It’s running a stripped down Linux on an Arm processor. They have a Linux daemon that Steve McIntyre suggested I should integrate as a systemd service. It seemed to work beautifully. Then we started noticing something. Over time, a server with a port connected to it would freeze. I emailed their software guy. Within a week I got an email from him. They’d found a bug in the USB/IP software stack that was causing the lock up. And, _gulp_, they’d upstreamed the fix. These guys are already in the light. Not too long after, I got an email from Andrew - the software guy - that it was now in the 4.6 kernel. In the meantime I’d created a new python script for controlling it, and was testing it in isolation.
 
 The rest, as they say, is history. We bought a stack more of the 15 port hubs, and we are gradually replacing every hub in the lab. They really are that good.

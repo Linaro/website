@@ -1,7 +1,6 @@
 ---
 author: frans.gifford
-categories:
-- Blog
+category: blog
 date: 2011-12-01 14:16:11
 description: HOWTO run LAVA Android tests on a local machine.
 keywords: LAVA, android, linaro, testing, howto
@@ -10,10 +9,10 @@ link: /blog/lava-blog/local-lava-testing-of-android-ics/
 slug: local-lava-testing-of-android-ics
 tags:
 - Android
-- LAVA
-- android
-- lava
-- testing
+- Lava
+- Android
+- Lava
+- Testing
 title: Local LAVA testing of Android ICS
 wordpress_id: 986
 ---
@@ -27,7 +26,6 @@ The Linaro Android team automatically test daily platform builds on our LAVA ser
 There are two options here, Ubuntu users can use the validation team's ppa[3]:
 
 `sudo apt-get install lava-android-test`.
-
 
 Hackers can install from source into a python virtualenv:
 

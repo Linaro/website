@@ -3,16 +3,16 @@ layout: post
 title: Porting Linux to AArch64 Laptops
 date: '2019-09-26 01:00:00'
 tags:
- - Arm
- - Linux
- - Open Source
- - Collaborative Engineering
- - AArch64
- - Porting
-category: Blog
+- Arm
+- Linux
+- Open Source
+- Collaborative Engineering
+- Aarch64
+category: blog
 image: /assets/images/content/porting-linux-featured-image.jpg
 author: lee.jones
 ---
+
 As the AArch64 Laptops collaboration between Linaro and Arm is wrapping up, we felt it would be helpful to summarise the project and take a quick victory lap.
 
 Since late last year, on and off, we have been trying to find specification compliant methods of booting Linux distributions on a series of laptops based on various Qualcomm Snapdragon System-on-Chips (SoC). These laptops left the factory running a bespoke version of Windows 10 called Windows on Snapdragon. Our brief was to try and "fix" them to run mainline Linux as well.

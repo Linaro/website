@@ -1,22 +1,21 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2017-03-06 08:01:29
-description: >-
-    Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that Fujitsu Limited1 has joined Linaro as a member of the Linaro Enterprise Group (LEG) and a founding member of the LEG High Performance Computing Special Interest Group (HPC SIG).
+description: Linaro Ltd, the open source collaborative engineering organization developing
+  software for the Arm® ecosystem, today announced that Fujitsu Limited1 has joined
+  Linaro as a member of the Linaro Enterprise Group (LEG) and a founding member of
+  the LEG High Performance Computing Special Interest Group (HPC SIG).
 layout: post
 link: /news/linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm/
 slug: linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm
 tags:
-- arm
-- enterprise
-- Fujitsu
+- Arm
 - LEG
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on Arm
+- Linux On Arm
 - Membership
 title: Linaro Announces Fujitsu's Collaboration to Accelerate High Performance Computing
   on Arm
@@ -43,7 +42,7 @@ Linaro now has over 35 member companies working together to accelerate open sour
 
 **Notes:**
 
-1: Fujitsu is the leading Japanese information and communication technology (ICT) company, offering a full range of technology products, solutions, and services. Approximately 156,000 Fujitsu people support customers in more than 100 countries. We use our experience and the power of ICT to shape the future of society with our customers. Fujitsu Limited (TSE: 6702) reported consolidated revenues of 4.7 trillion yen (US$41 billion) for the fiscal year ended March 31, 2016. For more information, please see [http://www.fujitsu.com](http://www.fujitsu.com).
+1: Fujitsu is the leading Japanese information and communication technology (ICT) company, offering a full range of technology products, solutions, and services. Approximately 156,000 Fujitsu people support customers in more than 100 countries. We use our experience and the power of ICT to shape the future of society with our customers. Fujitsu Limited (TSE: 6702) reported consolidated revenues of 4.7 trillion yen (US\$41 billion) for the fiscal year ended March 31, 2016. For more information, please see [http://www.fujitsu.com](http://www.fujitsu.com).
 
 2: The Scalable Vector Extension (SVE) has been developed by Arm specifically for vectorization of HPC scientific workloads as an extension to the Armv8-A architecture. It complements the NEON 128-bit SIMD (Single Instruction, Multiple Data) instruction set and, while the longer SVE vectors benefit HPC, the extension also offers an opportunity to benefit other systems over the longer term as they scale to support increased data level parallelism.
 

@@ -10,11 +10,11 @@ link: /blog/vm-system-specification-v2-arm-processors/
 slug: vm-system-specification-v2-arm-processors
 title: VM System Specification V2 for Arm Processors
 wordpress_id: 11304
-categories:
-- Blog
+category: blog
 tags:
-- white paper
+- White Paper
 ---
+
 Christoffer Dall, Virtualization Tech Lead
 Version 2.0, Last Revised: April 4th, 2016
 

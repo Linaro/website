@@ -1,18 +1,19 @@
 ---
 layout: post
 title: NXP Becomes Club Member of Linaro
-date: "2019-09-23 01:00:00"
+date: '2019-09-23 01:00:00'
 image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
 tags:
-  - Linaro
-  - NXP
-  - Club Member
-  - Membership
-  - Members
-category: News
+- Linaro
+- NXP
+- Club Member
+- Membership
+- Members
+category: news
 author: linaro
 ---
-[San Diego, USA; 23 September 2019] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that NXP Semiconductors® has joined Linaro as a Club member. 
+
+[San Diego, USA; 23 September 2019] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that NXP Semiconductors® has joined Linaro as a Club member.
 
 NXP and Linaro have already collaborated extensively. In recent years, they have worked together on IoT & embedded development, secure multimedia encryption, toolchain and 96Boards (the hardware specifications created by Linaro to make the latest Arm-based processors available to developers at a reasonable cost). Together with 96Boards, NXP has launched several boards featuring different SoCs including iMX7, iMX8, LS series silicons and MCUs.
 

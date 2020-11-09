@@ -1,22 +1,19 @@
 ---
 author: jennifer.castelino
-categories:
-  - Blog
+category: blog
 date: 2014-03-06 19:04:06
 description: Recap of the Thursday activities that took place at LCA14
 layout: post
 link: /blog/connect-update/review-of-thursday-at-lca14-team-day/
 slug: review-of-thursday-at-lca14-team-day
 tags:
-  - Connect Events
-  - conference
-  - connect
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - Opensource
+- Connect Events
+- Connect
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- Open Source
 title: Review of Thursday at LCA14 - "Team Day"
 wordpress_id: 3532
 ---

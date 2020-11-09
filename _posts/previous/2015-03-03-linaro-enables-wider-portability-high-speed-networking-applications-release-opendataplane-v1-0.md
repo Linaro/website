@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2015-03-03 14:00:23
 description: OpenDataPlane (ODP) enables proven software portability between network
   compute platforms, regardless of the underlying instruction set architecture (ISA),
@@ -10,26 +9,19 @@ layout: post
 link: /news/linaro-enables-wider-portability-high-speed-networking-applications-release-opendataplane-v1-0/
 slug: linaro-enables-wider-portability-high-speed-networking-applications-release-opendataplane-v1-0
 tags:
-- connect
-- Data Plane
+- Connect
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on Arm
+- Linux On Arm
 - Networking
-- NFV
-- ODP
 - Open Source
-- OpenDataPlane
-- Opensource
-- SDN
 title: Linaro Enables Wider Portability of High Speed Networking Applications with
   Release of OpenDataPlane v1.0
 wordpress_id: 8220
 ---
 
 ## OpenDataPlane (ODP) enables proven software portability between network compute platforms, regardless of the underlying instruction set architecture (ISA), as well as transparent support for any hardware or software acceleration capability.
-
 
 Cambridge, UK; 3 March 2015
 
@@ -44,8 +36,6 @@ LNG members anticipate that ODP will be a key building block in the realization 
 Included in this release is the definition of the ODP v1.0 APIs, an open source reference implementation of these APIs that can run on any Linux platform, as well as a validation suite that can be used by ODP implementations to verify that they conform to the ODP v1.0 API set. Additional implementations of ODP v1.0 targeting specific SoC platforms will be announced by their respective owners in the coming weeks.
 
 **For more information about ODP, to download a copy of version 1.0, or to become involved in the project, please visit [OpenDataPlane.org.](http://www.opendataplane.org/)**
-
-
 
 **_Supporting Quotes_**
 
@@ -73,9 +63,7 @@ Included in this release is the definition of the ODP v1.0 APIs, an open source 
 
 “Mobile broadband operators face a spread of challenges and exciting new opportunities to build profitability. Traffic growth continues almost unbounded, demanding new network capacity, yet traffic patterns are increasingly unpredictable. At the same time, providing a great network experience for subscribers is extremely important and will become critical as a principal driver of revenue. To meet these needs, operators require extreme flexibility in their network and operations to satisfy their customers by responding with rapid time-to-market performance. In parallel, they need to see a drastic reduction in their total ‘production’ cost per bit. OpenDataPlane is a continuation in our effort to provide better application portability, faster time-to-market, higher performance and lower power across all networking applications,” said Jarmo Hillo, Head of Processor Technology at Nokia Networks.
 
-
-* * *
-
+---
 
 **About Linaro**
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 150 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors to Linux kernels since 3.10.

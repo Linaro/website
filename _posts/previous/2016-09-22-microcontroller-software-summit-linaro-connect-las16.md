@@ -6,15 +6,13 @@ link: /blog/microcontroller-software-summit-linaro-connect-las16/
 slug: microcontroller-software-summit-linaro-connect-las16
 title: Microcontroller Software Summit at Linaro Connect LAS16
 wordpress_id: 11590
-categories:
-- Blog
+category: blog
 tags:
-- Cortex-M
 - IoT
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on Arm
+- Linux On Arm
 - LITE
 - Open Source
 ---
@@ -29,18 +27,18 @@ Finally, as we connect devices to the internet, security is of paramount concern
 
 In addition to the Summit there are several IOT and embedded sessions that will go into more depth on particular RTOSes, software environments, and security topics relevant to the microcontroller space.
 
-* LAS16-100: Zephyr Technical Overview
+- LAS16-100: Zephyr Technical Overview
 
-* LAS16-112 mbed OS Technical Overview
+- LAS16-112 mbed OS Technical Overview
 
-* LAS16-104: Apache MyNewt technical overview
+- LAS16-104: Apache MyNewt technical overview
 
-* LAS16-108: JerryScript and other scripting languages for IoT
+- LAS16-108: JerryScript and other scripting languages for IoT
 
-* LAS16-203: Platform security architecture for embedded devices
+- LAS16-203: Platform security architecture for embedded devices
 
-* LAS16-300K2: Geoff Thorpe - IoT Zephyr
+- LAS16-300K2: Geoff Thorpe - IoT Zephyr
 
-* LAS16-407: Internet of Tiny Linux (IoTL): the sequel.
+- LAS16-407: Internet of Tiny Linux (IoTL): the sequel.
 
 To Learn more about these sessions and Linaro Connect visit:  [https://connect.linaro.org/las16/](https://connect.linaro.org/las16/)

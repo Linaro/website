@@ -1,63 +1,58 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - September 2020
-description: September's Engineering Highlights include a brief summary of our
-  recent Virtual Connect 2020 (LVC20) event. There is also a synopsis of the
-  Android Micro Conference at Linux Plumbers. Our blog channel continues to be
-  populated with the latest topics and this month we highlight four of the
-  latest articles that have been published including OpenOCD at Linaro, Enabling
-  UEFI Secure Boot on U-Boot, Force Idle When a CPU Is Overheating and BFQ saved
-  me from thrashing.
-date: 2020-10-12T12:29:25.000Z
+description: September's Engineering Highlights include a brief summary of our recent
+  Virtual Connect 2020 (LVC20) event. There is also a synopsis of the Android Micro
+  Conference at Linux Plumbers. Our blog channel continues to be populated with the
+  latest topics and this month we highlight four of the latest articles that have
+  been published including OpenOCD at Linaro, Enabling UEFI Secure Boot on U-Boot,
+  Force Idle When a CPU Is Overheating and BFQ saved me from thrashing.
+date: 2020-10-12 12:29:25+00:00
 image: /assets/images/content/binary-2910663_1920.jpg
 tags:
-  - LVC20
-  - Connect
-  - Virtual Connect
-  - engineering highlights
-  - Linaro
-  - Arm
-  - Arm64
-  - Linux kernel
-  - trusted firmware
-  - UEFI
-  - OP-TEE
-  - Secure Boot
-  - CPU
-  - BFQ
-  - Android
-  - open source
-  - HPC
-category: Blog
+- Connect
+- Engineering Highlights
+- Linaro
+- Arm
+- Arm64
+- Linux Kernel
+- Trusted Firmware
+- UEFI
+- CPU
+- Android
+- Open Source
+- HPC
+category: blog
 author: jon.burcham@linaro.org
 ---
+
 ## LVC20 Wrap Up
 
 {% include image.html path="/assets/images/content/connect-2020-virtual-1-.jpg" class="small-inline left" alt="Linaro Virtual Connect 2020 logo" %}
 
-In early 2020 we were looking forward to our twice annual Linaro Connect event and to welcoming the 400+ Linaro employees, assignees, members, partners and others in the open source community. Well, as you all know things in 2020 haven’t quite gone as planned but we are happy to be able to host Linaro Virtual Connect as a way to preserve some of the things we love most about Linaro Connect. 
+In early 2020 we were looking forward to our twice annual Linaro Connect event and to welcoming the 400+ Linaro employees, assignees, members, partners and others in the open source community. Well, as you all know things in 2020 haven’t quite gone as planned but we are happy to be able to host Linaro Virtual Connect as a way to preserve some of the things we love most about Linaro Connect.
 
-The shift to a virtual event has been a learning experience for everyone - events team, speakers, and attendees and we thank you for your patience and willingness to try something new. One benefit of a virtual event is that attendees and speakers who have not been able to attend Linaro Connect in the past have had the chance to participate.  We are very happy to have so many of you invested in Linaro Connect and pleased that we are still able to deliver the important technical content.
+The shift to a virtual event has been a learning experience for everyone - events team, speakers, and attendees and we thank you for your patience and willingness to try something new. One benefit of a virtual event is that attendees and speakers who have not been able to attend Linaro Connect in the past have had the chance to participate. We are very happy to have so many of you invested in Linaro Connect and pleased that we are still able to deliver the important technical content.
 
 With all the changes 2020 has brought, Linaro Connect continued to the tradition of quality sessions at the forefront of Arm ecosystem development. The three days were staggered at different start times to accommodate as many time zones as feasible. With a large percentage of sessions prerecorded, we were able to feature speakers from around the world.
 
-There were an astounding 1,476 individual registrations, three times the in person Connect average. Live conversations started during the sessions and continued in the Slack channels afterwards. For a change of pace, Kassidy Holmes led participants through a 1 hour foundational yoga flow on Wednesday. On Thursday, Martin Jackson wrapped up the week with a lively acoustic set.   
+There were an astounding 1,476 individual registrations, three times the in person Connect average. Live conversations started during the sessions and continued in the Slack channels afterwards. For a change of pace, Kassidy Holmes led participants through a 1 hour foundational yoga flow on Wednesday. On Thursday, Martin Jackson wrapped up the week with a lively acoustic set.
 
 The most popular sessions (by registration counts) were.
 
-* [Arm64 Linux Kernel Architecture Update](https://lvc20.sched.com/event-goers/adfde6a151331482f8037ffcb2440e56)
-* [Trusted Firmware Project Update](https://lvc20.sched.com/event-goers/06e61cea5736945a61870dbdae81512a)
-* [Arm Architecture 2020 Extensions](https://lvc20.sched.com/event-goers/fcda9a5f34400338debca060c1dd2032)
-* [PSA Secure Partitions in OP-TEE](https://lvc20.sched.com/event-goers/12ccff0741601ae997bf4057c56ccec3)
-* [Enable UEFI Secure Boot Using OP-TEE as a Secure Partition](https://lvc20.sched.com/event-goers/ee38e4c30840e698eb7d34578f1d5633)
+- [Arm64 Linux Kernel Architecture Update](https://lvc20.sched.com/event-goers/adfde6a151331482f8037ffcb2440e56)
+- [Trusted Firmware Project Update](https://lvc20.sched.com/event-goers/06e61cea5736945a61870dbdae81512a)
+- [Arm Architecture 2020 Extensions](https://lvc20.sched.com/event-goers/fcda9a5f34400338debca060c1dd2032)
+- [PSA Secure Partitions in OP-TEE](https://lvc20.sched.com/event-goers/12ccff0741601ae997bf4057c56ccec3)
+- [Enable UEFI Secure Boot Using OP-TEE as a Secure Partition](https://lvc20.sched.com/event-goers/ee38e4c30840e698eb7d34578f1d5633)
 
 ## Tuesday September 22 Highlights
 
 [LVC20-100K1 Opening Keynote by Li Gong](https://connect.linaro.org/resources/lvc20/lvc20-100k1/)
 
-Li noted that Linaro ranked #5 in patches committed in the Linux kernel between 2007-2019, even though Linaro is only 10 years old.  Li noted that new companies are starting up at a brisk pace. Companies are making their own chips, carrying differentiation from the system level to the chip level. The cost of chip design has significantly declined making custom chip design more affordable. This is a way to secure access to IP and supplies particularly in the face of on-going shortages and trade wars (see China/US). This of course has a direct impact on SoC vendors. In Li’s view, the Arm ecosystem is composed not only of hardware vendors but now major software vendors are playing a role. Linaro is enlarging its scope for these new companies and the software vendors with the idea of a franchise company. A franchise, in this context, is a sub ecosystem within the Arm ecosystem. An example is Google and Android. Linaro also has simplified its membership model to four tiers - Core, Club, Group and Project while continuing to focus on delivering value through its corps of maintainers and skilled developers. Finally, Linaro is opening up its projects and processing to a worldwide audience. 
+Li noted that Linaro ranked #5 in patches committed in the Linux kernel between 2007-2019, even though Linaro is only 10 years old. Li noted that new companies are starting up at a brisk pace. Companies are making their own chips, carrying differentiation from the system level to the chip level. The cost of chip design has significantly declined making custom chip design more affordable. This is a way to secure access to IP and supplies particularly in the face of on-going shortages and trade wars (see China/US). This of course has a direct impact on SoC vendors. In Li’s view, the Arm ecosystem is composed not only of hardware vendors but now major software vendors are playing a role. Linaro is enlarging its scope for these new companies and the software vendors with the idea of a franchise company. A franchise, in this context, is a sub ecosystem within the Arm ecosystem. An example is Google and Android. Linaro also has simplified its membership model to four tiers - Core, Club, Group and Project while continuing to focus on delivering value through its corps of maintainers and skilled developers. Finally, Linaro is opening up its projects and processing to a worldwide audience.
 
-[LVC20-100K2 Why Standardisation on the Edge is Critical for Success by Peter Robinson](https://connect.linaro.org/resources/lvc20/lvc20-100k2/) 
+[LVC20-100K2 Why Standardisation on the Edge is Critical for Success by Peter Robinson](https://connect.linaro.org/resources/lvc20/lvc20-100k2/)
 
 While “Edge” means many things to many people, in order for Edge solutions to be a success, the key is using the Open Standards Data Center model.. Edge platforms face several challenges including environmental, scale and cost. Which will vary depending on which Edge “tier” that platform plays in. Open standards,as with the IBM PC and various networking standards (TCP, HTTP), lower barriers to entry and protect investments in time, money and knowledge. Enterprise standards are useful. In addition to knowledge reuse, you are not locked into a single platform. You can use the right hardware with the same base software stack using the same or similar security models and processes. Provisioning and on-boarding end devices need to be deployed with general knowledge at large scale (10 of thousands) across geographic regions. Using OCI container solutions provides consistency and scalability. Standardisation in edge computing giving manufacturers and consumers more, not less, choice.
 
@@ -95,7 +90,7 @@ Jose notes that every company is becoming a software company. And how a company 
 
 This session was an Interview (by John Stultz) with Todd Kjos, Google, about the reason for, and challenges with, Generic Kernel Image (GKI) project. Fragmentation is in the way of keeping Android devices up-to-date with latest kernel patches (bugs, **security**, h/w, etc) - based on LTS kernel. Google is keeping Pixel devices up-to-date but few others are doing the same. A module kernel approach to allow Google to keep the kernel up-to-date and allow vendors to maintain their customizations. Tools keep track of ABI stable symbols (KMI - Kernel Module Interface - subset of the full kernel ABI). Google strongly recommends vendors to send their changes into the upstream kernel. Benefit of common use and less fragmentation (when differentiation isn’t actually required but has happened in the past). Therefore helping vendors to eliminate unnecessary technical debt.
 
-- - -
+---
 
 With distinguished presenters from around the world and from some world class leading businesses, our Virtual Connect delivered 65 sessions. This content covers some of the groundbreaking topics of the moment and will be added to our already vast amount of resources that has been compiled over the last 10 years ago, when Linaro was first founded.
 
@@ -115,14 +110,14 @@ By John Stultz, Senior Engineer, Linaro Consumer Group (LCG)
 
 {% include image.html path="/assets/images/content/LCG.png" class="small-inline left" alt="Linaro Consumer Group logo" %} This year's Linux Plumbers conference, which is traditionally one of the most productive community conferences each year, was virtually held this year August 24th-28th. While different from previous years in format, it was still very productive and the Android Microconference was a highlight of the event for the Linaro Consumer Group
 
-Once again this year, Linaro was involved in the planning and organizing of the Android  Microconference, as well as participating by giving multiple talks and contributing to discussions.
+Once again this year, Linaro was involved in the planning and organizing of the Android Microconference, as well as participating by giving multiple talks and contributing to discussions.
 
 Specifically:
 
-* John Stultz along with the other panelists, Lina Iyer (a past Linaro assignee) from Qualcomm as well as Pete Zhang from NXP, provided some details on each of their experiences with the Generic Kernel Image (GKI) effort as part of the [GKI ecosystem experience panel](https://linuxplumbersconf.org/event/7/contributions/791/).
-* Sumit Semwall gave a [summary of the upstreaming work both in progress, and todo that has come out of the GKI effort](https://linuxplumbersconf.org/event/7/contributions/793/), as well as a [summary of the state of running mainline kernels on AOSP](https://linuxplumbersconf.org/event/7/contributions/785/).
-* John Stultz also gave a talk on both [the ION to DMA BUF Heaps transition, as well as potential optimizations to DMA BUF cache handling](https://linuxplumbersconf.org/event/7/contributions/788/).
-* Sam Protsenko gave a talk on potential ways to [consolidate AOSP bootloader implementations](https://linuxplumbersconf.org/event/7/contributions/782/) to reduce effort required by vendors.
+- John Stultz along with the other panelists, Lina Iyer (a past Linaro assignee) from Qualcomm as well as Pete Zhang from NXP, provided some details on each of their experiences with the Generic Kernel Image (GKI) effort as part of the [GKI ecosystem experience panel](https://linuxplumbersconf.org/event/7/contributions/791/).
+- Sumit Semwall gave a [summary of the upstreaming work both in progress, and todo that has come out of the GKI effort](https://linuxplumbersconf.org/event/7/contributions/793/), as well as a [summary of the state of running mainline kernels on AOSP](https://linuxplumbersconf.org/event/7/contributions/785/).
+- John Stultz also gave a talk on both [the ION to DMA BUF Heaps transition, as well as potential optimizations to DMA BUF cache handling](https://linuxplumbersconf.org/event/7/contributions/788/).
+- Sam Protsenko gave a talk on potential ways to [consolidate AOSP bootloader implementations](https://linuxplumbersconf.org/event/7/contributions/782/) to reduce effort required by vendors.
 
 Outside of Linaro driven sessions, there were also a number of other very interesting talks and discussions.
 
@@ -144,13 +139,13 @@ With 16 sessions in four and a half hours, the Android Microconference covered a
 
 By Omair Javaid, Linaro
 
-{% include image.html path="/assets/images/content/micro-board.png" class="small-inline left" alt="Image of a micro board" %} 
+{% include image.html path="/assets/images/content/micro-board.png" class="small-inline left" alt="Image of a micro board" %}
 
 The [Open On-Chip Debugger (OpenOCD)](http://www.openocd.org/) is an open source software development tool which allows on-chip debugging and programming of applications via JTAG/SWD hardware interface. OpenOCD runs on a host computer along with a debugger like GDB. GDB communicates with OpenOCD over RSP protocol similar to debugging an application running on hardware. Read more [here](https://www.linaro.org/blog/open-on-chip-debugger-ocd-at-linaro/).
 
 ## Enabling UEFI Secure Boot on U-Boot
 
-By Takahiro Akashi, Socionext {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core engineering icon" %}  U-Boot is a favorite boot loader for embedded devices, supporting a variety of architectures and platforms. In the last few years, a number of new UEFI interfaces have been brought into U-Boot, and the latest element added is Secure Boot. How does it work and what is it designed to protect you against?
+By Takahiro Akashi, Socionext {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core engineering icon" %} U-Boot is a favorite boot loader for embedded devices, supporting a variety of architectures and platforms. In the last few years, a number of new UEFI interfaces have been brought into U-Boot, and the latest element added is Secure Boot. How does it work and what is it designed to protect you against?
 
 **UEFI U-Boot**
 
@@ -162,7 +157,7 @@ Read more [here](https://www.linaro.org/blog/enabling-uefi-secure-boot-on-u-boot
 
 By Daniel Lezcano, Linaro
 
-{% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline right" alt="Core engineering icon" %} 
+{% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline right" alt="Core engineering icon" %}
 
 Today’s CPUs are more and more powerful. More powerful in terms of compute capacity, but also in terms of heat creation.
 

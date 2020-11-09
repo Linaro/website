@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2015-02-11 21:45:45
 description: Overview of the keynotes and photo contest at Linaro Connect Hong Kong
   2015

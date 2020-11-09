@@ -1,18 +1,14 @@
 ---
 author: jennifer.castelino
-categories:
-- News
+category: news
 date: 2014-08-20 15:21:50
 description: 'CAMBRIDGE, UK; 20 AUGUST 2014:'
 layout: post
 link: /news/linaro-announces-keynote-speakers-linaro-connect-usa-2014/
 slug: linaro-announces-keynote-speakers-linaro-connect-usa-2014
 tags:
-- connect
-- LCU14
-- LCU14 keynote speakers
-- Linaro Connect USA
-- Linaro events
+- Connect
+- Linaro Events
 title: Linaro announces Keynote Speakers for Linaro Connect USA 2014
 wordpress_id: 6344
 ---
@@ -27,17 +23,17 @@ Additionally, Linaro Connect USA 2014 will feature demos of Linaro members’ pr
 
 **Confirmed keynote speakers and topics include:**
 
-  * Paul Eremenko, Director of Project Ara at Google, will discuss  “What if hardware was more like software? Google’s Project Ara and the democratization of the hardware ecosystem.”
+- Paul Eremenko, Director of Project Ara at Google, will discuss  “What if hardware was more like software? Google’s Project Ara and the democratization of the hardware ecosystem.”
 
-  * Dr. Ken Morse, CTO, Connected Devices and SP Video Infrastructure at Cisco, will present “Enabling Internet Speed for Service Providers”
+- Dr. Ken Morse, CTO, Connected Devices and SP Video Infrastructure at Cisco, will present “Enabling Internet Speed for Service Providers”
 
-  * Linda Knippers, Distinguished Technologist at HP, will give a keynote on “Fueling HP Moonshot”
+- Linda Knippers, Distinguished Technologist at HP, will give a keynote on “Fueling HP Moonshot”
 
-  * Christian Reis, VP Hyperscale at Canonical, will present “Mythology and Potential of the Arm Server”
+- Christian Reis, VP Hyperscale at Canonical, will present “Mythology and Potential of the Arm Server”
 
-  * George Grey, CEO of Linaro, will give an overview of  "Linaro Past, Present and Future"
+- George Grey, CEO of Linaro, will give an overview of  "Linaro Past, Present and Future"
 
-  * Dr. Christos Kolias, Senior Research Scientist at Orange Silicon Valley  will present  “NFV:  Empowering the Network”
+- Dr. Christos Kolias, Senior Research Scientist at Orange Silicon Valley  will present  “NFV:  Empowering the Network”
 
 For more information about Linaro Connect USA 2014, including how to register and to view the schedule, please visit:  [https://connect.linaro.org/lcu14/](https://connect.linaro.org/lcu14/)
 

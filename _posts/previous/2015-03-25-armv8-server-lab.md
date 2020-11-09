@@ -1,7 +1,6 @@
 ---
 author: david.mandala
-categories:
-- Blog
+category: blog
 date: 2015-03-25 14:17:50
 description: Overview of the process and challenges faced in setting up Linaro's Armv8
   server lab in Austin, Texas
@@ -9,11 +8,9 @@ layout: post
 link: /blog/armv8-server-lab/
 slug: armv8-server-lab
 tags:
-- arm
-- Armv8
-- Armv8 server
-- Linux on Arm
-- server
+- Arm
+- Linux On Arm
+- Server
 title: "Armv8 Server Lab\t"
 wordpress_id: 8336
 ---
@@ -30,23 +27,22 @@ ISV’s and Community members may apply for access ([Linaro.cloud](https://linar
 
 In November we started a beta test to make sure we could actually deploy these systems in a safe and useful manner.  The test ran until February.  Some of the most interesting usages have been:
 
-  * Debian using three servers for native Arm 64­bit compilation for jessie release and onward.
-  * OpenStack testing
-  * Ceph file system testing
-  * Linaro Toolchain group using two servers to offset the time lost from the Linaro Lab move
-  * Researchers testing and porting server applications
-  * Application profiling with Score-P/Scalasca
-
+- Debian using three servers for native Arm 64­bit compilation for jessie release and onward.
+- OpenStack testing
+- Ceph file system testing
+- Linaro Toolchain group using two servers to offset the time lost from the Linaro Lab move
+- Researchers testing and porting server applications
+- Application profiling with Score-P/Scalasca
 
 At the beginning of March we completed the beta test and continue to provide systems for use to ISV’s and researchers.  We are generally running at 80% to 90% capacity and look forward to more ISV’s accessing and porting software to the Arm server platform.
 
 In our next blog your will hear from Linaro’s Andy Doan where he will talk about the Ubuntu rack deployment and using Ubuntu’s MAAS and juju to deploy Open Stack on Arm.  Andy had a few challenges in deploying maas/openstack that he will present:
 
-  * patching uboot
-  * fix /etc/network problems with maas deployed juju nodes
-  * using local mirrors rather than ubuntu mirrors of MAAS to pin things down to a known working version
+- patching uboot
+- fix /etc/network problems with maas deployed juju nodes
+- using local mirrors rather than ubuntu mirrors of MAAS to pin things down to a known working version
 
-* * *
+---
 
 _(1.) Requires executing an NDA with Red Hat and being part of their Arm early access program_
 _(2.) Requires executing an NDA with AMD for access to the AMD server hardware at this time.  Only Red Hat and Fedora Linux is available on the AMD systems.._

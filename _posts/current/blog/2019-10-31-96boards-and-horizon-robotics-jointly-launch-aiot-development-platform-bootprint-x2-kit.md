@@ -1,21 +1,18 @@
 ---
 layout: post
-title: >-
-  Linaro and Horizon Robotics jointly launch AIoT development platform:
-  BOOTPRINT X2 kit
+title: 'Linaro and Horizon Robotics jointly launch AIoT development platform: BOOTPRINT
+  X2 kit'
 date: '2019-10-31 11:48:43'
 image: /assets/images/content/27094831048_6ecb96f52a_o.jpg
 tags:
-  - 96Boards
-  - Horizon Robotics
-  - AI
-  - Bootprint X2 kit
-  - Arm
-  - developer
-  - hardware specification
-category: News
+- 96Boards
+- AI
+- Arm
+- Developer
+category: news
 author: linaro
 ---
+
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, and 96Boards Partner Horizon Robotics today announced the launch of the BOOTPRINT X2 kit. 96Boards is a range of hardware specifications created by Linaro to make the latest Arm-based processors available to developers at a reasonable cost.
 
 BOOTPRINT X2 is an edge AI computing development platform integrating “front-end, edge and cloud”, providing a complete reference solution from device to cloud integration. The solution is based on the service interface of the public cloud, which is convenient for developers to leverage cloud resources to form a flexible AI solution. This not only greatly expands the ecological potential of the development platform, but also significantly accelerates the efficiency of application deployment. It provides AI engineers, application developers and partner companies with comprehensive support for development and verification of edge AI perception solution, helping them reduce total cost and time to market.
@@ -28,13 +25,11 @@ BOOTPRINT X2 is based on 96Boards SoC independent open platform specification an
 
 The BOOTPRINT X2 development kit will be available soon in three models:
 
-
 {% include image.html path="/assets/images/content/basic-version-bootprint-x2-kit.png" alt="Figure 1: Basic Version: BOOTPRINT X2 Kit" %}
 
 {% include image.html path="/assets/images/content/standard-version-bootprint-x2-camera-kit.png" alt="Figure 2: Standard Version: BOOTPRINT X2 Camera Kit" %}
 
 {% include image.html path="/assets/images/content/fusion-version-bootprint-x2-fusion-kit.png" alt="Figure 3: Fusion Version: BOOTPRINT X2 Fusion Kit" %}
-
 
 In addition to this, Horizon Robotics will also be launching a comprehensive eco-partnership program, involving a developer training program around the platform, a developer online community and offering a wide variety of business collaboration opportunities.
 

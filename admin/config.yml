@@ -7,8 +7,8 @@ backend:
   open_authoring: true
 publish_mode: editorial_workflow
 logo_url: https://www.linaro.org/assets/images/content/Linaro-Logo.svg
-site_url: https://staging.linaro.org
-display_url: https://staging.linaro.org
+site_url: https://www.linaro.org
+display_url: https://www.linaro.org
 show_preview_links: true
 slug:
   encoding: "ascii"
@@ -94,57 +94,57 @@ collections:
             name: "projects"
             widget: "list"
             fields:
-            - label: "Project Contact Information"
-              name: "Project Contact Information"
-              widget: object
-              fields:
-                - label: "Meetings"
-                  name: "Meetings"
-                  widget: text
-                - label: "Point of Contact"
-                  name: "Point of Contact"
-                  widget: text
-            - label: "Project Information"
-              name: "Project Information"
-              widget: object
-              fields:
-                - label: "Health Check Report"
-                  name: "Health Check Report"
-                  widget: text
-                - label: "JIRA Structure"
-                  name: "JIRA Structure"
-                  widget: text
-                - label: "Plan Of Record"
-                  name: "Plan Of Record"
-                  widget: text
-                - label: "Project Homepage"
-                  name: "Project Homepage"
-                  widget: text
-                - label: "description"
-                  name: "description"
-                  widget: text
-                - label: "title"
-                  name: "title"
-                  widget: text
-            - label: "Project Ownership"
-              name: "Project Ownership"
-              widget: object
-              fields:
-                - label: "Governing Entity"
-                  name: "Governing Entity"
-                  widget: text
-                - label: "Project Owner"
-                  name: "Project Owner"
-                  widget: text
-                - label: "Technical Lead"
-                  name: "Technical Lead"
-                  widget: text
-            - label: "icon"
-              name: "icon"
-              widget: string
-            - label: "key"
-              name: "key"
-              widget: string
+              - label: "Project Contact Information"
+                name: "Project Contact Information"
+                widget: object
+                fields:
+                  - label: "Meetings"
+                    name: "Meetings"
+                    widget: text
+                  - label: "Point of Contact"
+                    name: "Point of Contact"
+                    widget: text
+              - label: "Project Information"
+                name: "Project Information"
+                widget: object
+                fields:
+                  - label: "Health Check Report"
+                    name: "Health Check Report"
+                    widget: text
+                  - label: "JIRA Structure"
+                    name: "JIRA Structure"
+                    widget: text
+                  - label: "Plan Of Record"
+                    name: "Plan Of Record"
+                    widget: text
+                  - label: "Project Homepage"
+                    name: "Project Homepage"
+                    widget: text
+                  - label: "description"
+                    name: "description"
+                    widget: text
+                  - label: "title"
+                    name: "title"
+                    widget: text
+              - label: "Project Ownership"
+                name: "Project Ownership"
+                widget: object
+                fields:
+                  - label: "Governing Entity"
+                    name: "Governing Entity"
+                    widget: text
+                  - label: "Project Owner"
+                    name: "Project Owner"
+                    widget: text
+                  - label: "Technical Lead"
+                    name: "Technical Lead"
+                    widget: text
+              - label: "icon"
+                name: "icon"
+                widget: string
+              - label: "key"
+                name: "key"
+                widget: string
   - label: "Website Data Files & Settings"
     name: "config"
     editor:
@@ -1566,7 +1566,7 @@ collections:
         widget: list
         allow_add: true
         hint: "List your tags"
-      - { label: "Category", name: "category", widget: hidden, default: "News" }
+      - { label: "Category", name: "category", widget: hidden, default: "news" }
       - {
           label: "Author",
           name: "author",
@@ -1628,8 +1628,9 @@ collections:
         display_fields: ["projects.*.key"]
         valueField: "projects.*.key"
         multiple: true
+        required: false
         hint: "Tag a single related project"
-      - { label: "Category", name: "category", widget: hidden, default: "Blog" }
+      - { label: "Category", name: "category", widget: hidden, default: "blog" }
       - {
           label: "Author",
           name: "author",
@@ -1679,7 +1680,7 @@ collections:
           label: "Category",
           name: "category",
           widget: select,
-          options: ["Blog", "News"],
+          options: ["blog", "news"],
         }
       - {
           label: "Author",
@@ -1864,7 +1865,7 @@ collections:
     identifier_field: name
     description: >
       This collection allows you to add/edit/delete authors. These are dynamically pulled in when writing
-      posts. When deleting authors the change is made directly to the develop branch (which causes a staging.linaro.org build).
+      posts. When deleting authors the change is made directly to the develop branch (which causes a www.linaro.org build).
     editor:
       preview: false
     fields:

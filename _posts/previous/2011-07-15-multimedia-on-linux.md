@@ -6,16 +6,14 @@ title: Multimedia on Linux
 image: /assets/images/content/multimedia.jpg
 author: kiko
 slug: multimedia-on-linux
-date: 2011-07-15T16:01:50.000Z
-tags:
-  - Industry
+date: 2011-07-15 16:01:50+00:00
+tags: []
 link: /blog/industry-blog/multimedia-on-linux/
-categories:
-  - Blog
-description: Discussion of Multimedia on Linux challenges and Linaro.org's work
-  with Multimedia on Linux
-category: Blog
+category: blog
+description: Discussion of Multimedia on Linux challenges and Linaro.org's work with
+  Multimedia on Linux
 ---
+
 Multimedia is one of the most important reasons Linux is used on Arm: mobile phones, tablets, digital TV stations and desktop all fundamentally require multimedia playback and recording. It is also one of the most complex and poorly-understood areas on Linux, stemming from the inherent challenges in providing high performance multimedia, IP restrictions on technology and content and the impressive rate at which new formats and capabilities have been developed to match increasing network and processing power.
 
 Linaro’s Multimedia Working Group is focused on addressing the major challenges silicon vendors and OEMs face when supporting multimedia functionality on Arm devices. During the 1105 cycle the MMWG ran a number of initial projects on different problem areas:
@@ -28,9 +26,9 @@ Linaro’s Multimedia Working Group is focused on addressing the major challenge
 
 • Multimedia validation tools, allowing better understanding of dynamic system behavior
 
-These initial efforts identified a number of deeper challenges in the area of multimedia. First, while OpenMAX IL has been advertised and adopted as a standard solution for hardware and software codec integration, it does not provide sufficient definition to allow implementation of an efficient multimedia stack, leading vendors to further extend the specification with platform-specific solutions. Second, while there is indeed much work happening in the software codec optimization area, this work is scattered across vendor repositories and vendor sites; there is no coordinated effort to bring together development in this area and allow the ecosystem to build a truly golden set of codecs. Finally, while pulseaudio itself turns out to be reasonably optimized for power consumption, the ALSA group has been developing a userspace API to allow higher-level control of a device’s audio modes, known as ALSA Use Case Management, and adoption across Arm vendors has yet to pick up, leading to reduced functionality and increased fragmentation where vendors might implemented their own solution. More information on ALSA UCM has been published by Slimlogic at [http://www.slimlogic.co.uk/2009/02/alsa-use-case-manager/](<>)http://www.slimlogic.co.uk/2009/02/alsa-use-case-manager/
+These initial efforts identified a number of deeper challenges in the area of multimedia. First, while OpenMAX IL has been advertised and adopted as a standard solution for hardware and software codec integration, it does not provide sufficient definition to allow implementation of an efficient multimedia stack, leading vendors to further extend the specification with platform-specific solutions. Second, while there is indeed much work happening in the software codec optimization area, this work is scattered across vendor repositories and vendor sites; there is no coordinated effort to bring together development in this area and allow the ecosystem to build a truly golden set of codecs. Finally, while pulseaudio itself turns out to be reasonably optimized for power consumption, the ALSA group has been developing a userspace API to allow higher-level control of a device’s audio modes, known as ALSA Use Case Management, and adoption across Arm vendors has yet to pick up, leading to reduced functionality and increased fragmentation where vendors might implemented their own solution. More information on ALSA UCM has been published by Slimlogic at [http://www.slimlogic.co.uk/2009/02/alsa-use-case-manager/]()http://www.slimlogic.co.uk/2009/02/alsa-use-case-manager/
 
-In this cycle the Multimedia WG has started tackling those wider problems, starting with a mini-summit focused on establishing the current state of affairs, which was run in Austin, TX earlier in June. Present at the mini-summit were representatives from Linaro members, OpenMAX and NVidia and others. 
+In this cycle the Multimedia WG has started tackling those wider problems, starting with a mini-summit focused on establishing the current state of affairs, which was run in Austin, TX earlier in June. Present at the mini-summit were representatives from Linaro members, OpenMAX and NVidia and others.
 
 One of the key findings out of the mini-summit was that, while there are indeed significant shortcomings in the specification, the OpenMAX group itself has been studying this area and is interested in a wider discussion around solutions. We have been invited to present our feedback formally to the group and will participate in the OpenMAX face-to-face meeting to run in Q3 2011. There was significant controversy around how much work Linaro would lead in this area, as it was perceived this could undermine the OpenMAX consortium’s work; we have agreed to coordinate with Khronos on any design and development work we execute. Next steps in this area beyond the Khronos engagement are collecting feedback from Google on their plans for OpenMAX going forward, since up to now it has been the API through which vendors have provided access to their components.
 

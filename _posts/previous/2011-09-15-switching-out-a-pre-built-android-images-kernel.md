@@ -6,15 +6,13 @@ link: /blog/switching-out-a-pre-built-android-images-kernel/
 slug: switching-out-a-pre-built-android-images-kernel
 title: Switching out a Pre-Built Android Image's Kernel
 wordpress_id: 4129
-categories:
-- Blog
+category: blog
 tags:
 - Android
-- kernel
-- rebuild
+- Kernel
 ---
-Many people just want to update the kernel of a pre-built Android build.
 
+Many people just want to update the kernel of a pre-built Android build.
 
 ## Find the Kernel
 
@@ -41,7 +39,6 @@ $git checkout linaro-android-3.0
 
 ## Grab the Toolchain
 
-
 ```bash
 $wget --no-check-certificate https://android-build.linaro.org/jenkins/job/linaro-android_toolchain-4.6-linaro-master-with-generic-target/18/artifact/build/out/android-toolchain-eabi-linaro-4.6-2011.08-18-2011-09-12_08-38-17-linux-x86.tar.bz2
 
@@ -49,9 +46,7 @@ $tar -jxvf android-toolchain-eabi-linaro-4.6-2011.08-18-2011-09-12_08-38-17-linu
 
 ```
 
-
 ## Find the defconfig
-
 
 The defconfig can be found in the "complete output" link. You can get a copy with:
 
@@ -60,9 +55,7 @@ $wget --no-check-certificate https://android-build.linaro.org/jenkins/job/linaro
 $cat consoleText | grep ARCH=arm
 ```
 
-
 ## Rebuild the Kernel
-
 
 From the consoleText output you can extract the make line and build with the toolchain listed on the build page:
 
@@ -85,7 +78,6 @@ $wget --no-check-certificate https://android-build.linaro.org/jenkins/job/linaro
 
 ## Program the Images
 
-
 The linaro-image-tools package allows you to easily program the compressed tar balls onto an SD card.
 
 `$bzr branch lp:linaro-image-tools`
@@ -96,9 +88,7 @@ Insert an SD card:
 $./linaro-image-tools/linaro-android-media-create --mmc /dev/sdc --dev panda --system system.tar.bz2 --userdata userdata.tar.bz2 --boot boot.tar.bz2
 ```
 
-
 ## Update the Kernel
-
 
 Mount the first partition:
 
@@ -124,18 +114,10 @@ $sync
 
 ```
 
-
-
 ## Examine the Serial Port
-
-
 
 `$minicom -D /dev/ttyUSB0 -w -C minicom.txt`
 
-
-
 ## Try It!
-
-
 
 Insert the card in Panda and boot your custom kernel!

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-04-04 13:21:28
 description: Amit Pundir, Android Engineer at Linaro, tells readers about some of
   the new features being offered in the 12.03 Linaro Android Origen release.
@@ -11,9 +10,6 @@ link: /blog/community-blog/whats-new-in-the-12-03-linaro-android-origen-release/
 slug: whats-new-in-the-12-03-linaro-android-origen-release
 tags:
 - Android
-- Community
-- Hardware
-- Releases
 title: What's new in the 12.03 Linaro Android Origen release?
 wordpress_id: 1488
 ---

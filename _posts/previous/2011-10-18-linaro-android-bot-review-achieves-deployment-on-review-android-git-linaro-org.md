@@ -1,7 +1,6 @@
 ---
 author: frans.gifford
-categories:
-- Blog
+category: blog
 date: 2011-10-18 13:21:18
 description: First deployment of Linaro Android Review Bot. This integrates our Gerrit
   code review system with our Jenkins build system and LAVA validation and test system.
@@ -12,15 +11,12 @@ link: /blog/lava-blog/linaro-android-bot-review-achieves-deployment-on-review-an
 slug: linaro-android-bot-review-achieves-deployment-on-review-android-git-linaro-org
 tags:
 - Android
-- LAVA
-- android
-- automation
-- continuous integration
-- gerrit
-- jenkins
-- lava
+- Lava
+- Android
+- Automation
+- Lava
 - Linaro
-- linaro android review bot
+- Linaro Android Review Bot
 title: Linaro Android Bot Review Achieves Deployment On Review.android.git.linaro.org
 wordpress_id: 699
 ---

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2016-01-27 14:00:24
 description: Linaro announces a complete open source Software Reference Platform for
   servers running on Armv8-A processors.
@@ -14,12 +13,10 @@ tags:
 - LEG
 - Linaro
 - Linux
-- Linux on Arm
-- lmg
-- members
+- Linux On Arm
+- Members
 - Open Source
-- Opensource
-- servers
+- Servers
 title: Linaro announces Software Reference Platform for Arm servers
 wordpress_id: 9936
 ---

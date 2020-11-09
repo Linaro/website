@@ -1,28 +1,27 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 comments: true
 date: 2015-07-09 23:58:58
 description: "Linux maintainers see hundreds of patches during a Kernel version and
-  there\xE2\x80\x99s never enough time to thoroughly test every change. The LAVA team
-  has been working with these maintainers to leverage Linaro\xE2\x80\x99s LAVA automation
+  thereâ\x80\x99s never enough time to thoroughly test every change. The LAVA team
+  has been working with these maintainers to leverage Linaroâ\x80\x99s LAVA automation
   and test platform."
-excerpt: "Linux maintainers see hundreds of patches during a Kernel version and there\u2019s
+excerpt: "Linux maintainers see hundreds of patches during a Kernel version and there’s
   never enough time to thoroughly test every change.  At Linaro, we wanted to expand
   the system and add the capabilities to perform additional test activities beyond
   build and boot and leverage our LAVA test framework.  Thus the LAVA team has been
-  working with these maintainers to leverage Linaro\u2019s LAVA automation and test
-  platform.  \n"
+  working with these maintainers to leverage Linaro’s LAVA automation and test platform.
+  \ \n"
 layout: post
 link: /blog/more-than-300000-boots-and-counting-an-update-on-the-upstream-test-system-kernelci-org/
 slug: more-than-300000-boots-and-counting-an-update-on-the-upstream-test-system-kernelci-org
 tags:
-- arm
-- kernel
-- lava
-- Linux on Arm
-- maintainers
+- Arm
+- Kernel
+- Lava
+- Linux On Arm
+- Maintainers
 title: 'More than 300,000 boots and counting: An update on the upstream test system
   - kernelci.org'
 wordpress_id: 8894
@@ -30,9 +29,7 @@ wordpress_id: 8894
 
 _**Authors: Alan Bennett, Tyler Baker, Kevin Hilman and Milo Casagrande**_
 
-
 Linux maintainers see hundreds of patches during a Kernel version and there’s never enough time to thoroughly test every change. However, it’s always helpful to identify regressions early to prevent lost time bisecting failures after the fact. For years, a core group of arm-soc maintainers have been maintaining a build and boot test system, built from the ground up to make sure regressions were quickly spotted and addressed. At Linaro, we wanted to expand the system and add the capabilities to perform additional test activities beyond build and boot and leverage our LAVA test framework. Thus the LAVA team has been working with these maintainers to leverage Linaro’s LAVA automation and test platform.
-
 
 Of course, with our experience we thought this would be a simple task, however we had to perform many experiments before we ended up with a system that was fast enough and robust enough to live up to scrutiny. In the end, we built a stand-alone system from the ground up leveraging Jenkins, Pyboot, LAVA, some custom scripts and built a dashboard system. A few key points we addressed during the last 12-18 months.
 
@@ -71,63 +68,63 @@ Having an early warning system for build and boot regressions upstream has also 
 
 **What’s next?**
 
-  * Adding more platforms and shared labs
-  * Extending the system to encompass some tests (In-Kernel / kselftest, LKP, etc...)
-  * Continue working on the in-kernel test infrastructure, kselftest
-    * Help the project maintain cross compilation support and any build/test conflicts
-    * Future Plans
-      * Unify test output format to be machine parseable
-      * Automate test execution on Arm64, Arm, and x86 architectures
-  * Auto-boot-bisection; Now that we have a system to identify failures, we leverage the system to help identify the change within a tree that caused a failure by bisecting and booting kernels across target platforms
-  * Now that we are beginning to add test capabilities, we are also working on overall test result parsing, display and generating clean email reports
+- Adding more platforms and shared labs
+- Extending the system to encompass some tests (In-Kernel / kselftest, LKP, etc...)
+- Continue working on the in-kernel test infrastructure, kselftest
+  - Help the project maintain cross compilation support and any build/test conflicts
+  - Future Plans
+    - Unify test output format to be machine parseable
+    - Automate test execution on Arm64, Arm, and x86 architectures
+- Auto-boot-bisection; Now that we have a system to identify failures, we leverage the system to help identify the change within a tree that caused a failure by bisecting and booting kernels across target platforms
+- Now that we are beginning to add test capabilities, we are also working on overall test result parsing, display and generating clean email reports
 
 **Recently added boards and other test coverage improvements**
 
-  * Recently, we have added some new device targets:
-    * Optimus-a80 (Allwinner A80 SoC),
-    * Cubieboard 4 (Allwinner A80 SoC),
-    * ZTE zx296702-ad1,
-    * Annapurna Labs alpine-db,
-    * Huawei hi6220-hikey,
-    * Qualcomm DB410c (apq8016-sbc)
-    * aarch64-kvms (allowing us to boot test mainline kernels Arm kvm’s on APM and Arm Juno platforms)
-    * Gumstix OMAP4 Duovero
-    * Gumstix AM335x Pepper
-    * SmartRG SR400ac
-    * MediaTek 8135 EVB P1
-  * Boot targets added to include NFS and MMC boot targets
+- Recently, we have added some new device targets:
+  - Optimus-a80 (Allwinner A80 SoC),
+  - Cubieboard 4 (Allwinner A80 SoC),
+  - ZTE zx296702-ad1,
+  - Annapurna Labs alpine-db,
+  - Huawei hi6220-hikey,
+  - Qualcomm DB410c (apq8016-sbc)
+  - aarch64-kvms (allowing us to boot test mainline kernels Arm kvm’s on APM and Arm Juno platforms)
+  - Gumstix OMAP4 Duovero
+  - Gumstix AM335x Pepper
+  - SmartRG SR400ac
+  - MediaTek 8135 EVB P1
+- Boot targets added to include NFS and MMC boot targets
 
 **Testing supporting the 96boards.org initiative**
 
 When the 96boards arrive, both physically and as support also arrives in the upstream kernel, we’ll make sure they are added.
 
-  * Hi6220-Hikey (https://kernelci.org/boot/hi6220-hikey/): The recent enablement patch series for getting minimal HiKey support into the 4.2 Linux kernel, you can follow the link to see it booting in 4.2 RCs
-  * Dragonboard 410c (apq8016) (https://kernelci.org/boot/apq8016-sbc/) has also been added, and providing Linaro’s Qualcomm Land Team with build & boot testing as well as mainline kernel build and boot testing
+- Hi6220-Hikey (https://kernelci.org/boot/hi6220-hikey/): The recent enablement patch series for getting minimal HiKey support into the 4.2 Linux kernel, you can follow the link to see it booting in 4.2 RCs
+- Dragonboard 410c (apq8016) (https://kernelci.org/boot/apq8016-sbc/) has also been added, and providing Linaro’s Qualcomm Land Team with build & boot testing as well as mainline kernel build and boot testing
 
 **Some notable bugs found**
 
 [kernelci.org bug tracker can be found here: [https://github.com/kernelci/kernel-bugs/issues](https://github.com/kernelci/kernel-bugs/issues)]
 
-  * Allwinner Boot Failures
-  * [https://github.com/kernelci/kernel-bugs/issues/23](https://github.com/kernelci/kernel-bugs/issues/23)
-  * IMX6Q Boot Failures
-    * [https://github.com/kernelci/kernel-bugs/issues/20](https://github.com/kernelci/kernel-bugs/issues/20)
-  * X86 Boot Failures
-    * [https://github.com/kernelci/kernel-bugs/issues/22](https://github.com/kernelci/kernel-bugs/issues/22)
-  * Stable 3.19.7 Boot Failures
-    * [https://github.com/kernelci/kernel-bugs/issues/24](https://github.com/kernelci/kernel-bugs/issues/24)
+- Allwinner Boot Failures
+- [https://github.com/kernelci/kernel-bugs/issues/23](https://github.com/kernelci/kernel-bugs/issues/23)
+- IMX6Q Boot Failures
+  - [https://github.com/kernelci/kernel-bugs/issues/20](https://github.com/kernelci/kernel-bugs/issues/20)
+- X86 Boot Failures
+  - [https://github.com/kernelci/kernel-bugs/issues/22](https://github.com/kernelci/kernel-bugs/issues/22)
+- Stable 3.19.7 Boot Failures
+  - [https://github.com/kernelci/kernel-bugs/issues/24](https://github.com/kernelci/kernel-bugs/issues/24)
 
 **What the community is saying**
 
-  * [https://web.archive.org/web/2019*/https://plus.google.com/105446846339629686466/posts/EsvEPznMhyM](https://web.archive.org/web/2019*/https://plus.google.com/105446846339629686466/posts/EsvEPznMhyM)
-  * [https://web.archive.org/web/2019*/https://plus.google.com/+DanielStone/posts/7JsNfUdpU1t](https://web.archive.org/web/2019*/https://plus.google.com/+DanielStone/posts/7JsNfUdpU1t)
-  * AT91 family of processors join the group of multi-zImage platforms [https://web.archive.org/web/2019*/https://plus.google.com/104934465431918795983/posts/fQfh8yL3PwW](https://web.archive.org/web/2019*/https://plus.google.com/104934465431918795983/posts/fQfh8yL3PwW)
-  * Discussed as a resource in Tim Bird’s State of Embedded Linux for April 2015 [http://elinux.org/images/1/15/Status-of-Embedded-Linux-2015-04-JJ52.pdf](http://elinux.org/images/1/15/Status-of-Embedded-Linux-2015-04-JJ52.pdf)
+- [https://web.archive.org/web/2019\*/https://plus.google.com/105446846339629686466/posts/EsvEPznMhyM](https://web.archive.org/web/2019*/https://plus.google.com/105446846339629686466/posts/EsvEPznMhyM)
+- [https://web.archive.org/web/2019\*/https://plus.google.com/+DanielStone/posts/7JsNfUdpU1t](https://web.archive.org/web/2019*/https://plus.google.com/+DanielStone/posts/7JsNfUdpU1t)
+- AT91 family of processors join the group of multi-zImage platforms [https://web.archive.org/web/2019\*/https://plus.google.com/104934465431918795983/posts/fQfh8yL3PwW](https://web.archive.org/web/2019*/https://plus.google.com/104934465431918795983/posts/fQfh8yL3PwW)
+- Discussed as a resource in Tim Bird’s State of Embedded Linux for April 2015 [http://elinux.org/images/1/15/Status-of-Embedded-Linux-2015-04-JJ52.pdf](http://elinux.org/images/1/15/Status-of-Embedded-Linux-2015-04-JJ52.pdf)
 
 **Helpful Links**
 
-  * Boot failure bug tracker: [https://github.com/kernelci/kernel-bugs/issues](https://github.com/kernelci/kernel-bugs/issues)
-  * Kernel build report mailing list: [https://lists.linaro.org/mailman/listinfo/kernel-build-reports](https://lists.linaro.org/mailman/listinfo/kernel-build-reports)
-  * kernelci.org wiki: [https://github.com/kernelci/kernelci-doc/wiki/KernelCI](https://github.com/kernelci/kernelci-doc/wiki/KernelCI)
-  * kernelci.org api: [http://api.kernelci.org](http://api.kernelci.org)
-  * kernelci.org frontend: [http://kernelci.org/](http://kernelci.org/?May2015)
+- Boot failure bug tracker: [https://github.com/kernelci/kernel-bugs/issues](https://github.com/kernelci/kernel-bugs/issues)
+- Kernel build report mailing list: [https://lists.linaro.org/mailman/listinfo/kernel-build-reports](https://lists.linaro.org/mailman/listinfo/kernel-build-reports)
+- kernelci.org wiki: [https://github.com/kernelci/kernelci-doc/wiki/KernelCI](https://github.com/kernelci/kernelci-doc/wiki/KernelCI)
+- kernelci.org api: [http://api.kernelci.org](http://api.kernelci.org)
+- kernelci.org frontend: [http://kernelci.org/](http://kernelci.org/?May2015)

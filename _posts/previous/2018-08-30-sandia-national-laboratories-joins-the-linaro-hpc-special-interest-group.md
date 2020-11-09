@@ -3,10 +3,16 @@ title: Sandia National Laboratories joins the Linaro HPC Special Interest Group
 author: linaro
 layout: post
 date: 2018-08-30 09:00:00+00:00
-description: >-
-  Linaro Ltd, the open source collaborative engineering organization developing software for the Arm ecosystem, announced today that Sandia National Laboratories (Sandia) has joined Linaro’s High Performance Compute (HPC) Special Interest Group as an advanced end user of mission-critical HPC systems. 
-categories: News
-tags: Arm, Linaro, Sandia Laboratories, Members, Membership
+description: Linaro Ltd, the open source collaborative engineering organization developing
+  software for the Arm ecosystem, announced today that Sandia National Laboratories
+  (Sandia) has joined Linaro’s High Performance Compute (HPC) Special Interest Group
+  as an advanced end user of mission-critical HPC systems.
+category: news
+tags:
+- Arm
+- Linaro
+- Members
+- Membership
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that Sandia National Laboratories (Sandia) has joined Linaro’s High Performance Compute (HPC) Special Interest Group as an advanced end user of mission-critical HPC systems.

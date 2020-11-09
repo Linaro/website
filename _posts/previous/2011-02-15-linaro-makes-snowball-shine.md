@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2011-02-15 12:10:12
 description: CAMBRIDGE, UK - 15 FEB 2011
 layout: post

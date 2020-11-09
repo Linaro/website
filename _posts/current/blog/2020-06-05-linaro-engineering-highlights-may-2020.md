@@ -1,32 +1,29 @@
 ---
 layout: post
-title: "Linaro Engineering Highlights: May 2020"
-description: >+
-  Welcome to the May 2020 edition of the Linaro Engineering Highlights. This
-  blog details all of the latest news and many of the developments that Linaro
-  has been working on during May. This includes the Linaro AI Project, Firmware
-  Framework for Arm, KissCache the new Caching Server, Tuxpub - a serverless
-  cloud-based artifact server, RDK and i.MX8, a Raspberry Pi Libcamera
-  Initiative, LEDGE Reference Platform Stage 3, Linaro Tech Days Sessions from
-  the LITE team, Trusted-Firmware-M Integration with Zephyr 2.3 and Community
-  News.
+title: 'Linaro Engineering Highlights: May 2020'
+description: 'Welcome to the May 2020 edition of the Linaro Engineering Highlights.
+  This blog details all of the latest news and many of the developments that Linaro
+  has been working on during May. This includes the Linaro AI Project, Firmware Framework
+  for Arm, KissCache the new Caching Server, Tuxpub - a serverless cloud-based artifact
+  server, RDK and i.MX8, a Raspberry Pi Libcamera Initiative, LEDGE Reference Platform
+  Stage 3, Linaro Tech Days Sessions from the LITE team, Trusted-Firmware-M Integration
+  with Zephyr 2.3 and Community News.
 
-date: 2020-06-05T11:58:17.000Z
+
+  '
+date: 2020-06-05 11:58:17+00:00
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
 tags:
-  - Linaro
-  - Engineering
-  - Highlights
-  - KissCache
-  - Tuxpub
-  - Ledge
-  - Raspberry Pi
-  - Firmware
-  - AI
-  - Projects
-category: Blog
+- Linaro
+- KissCache
+- Tuxpub
+- Ledge
+- Raspberry Pi
+- AI
+category: blog
 author: jon.burcham@linaro.org
 ---
+
 ### **Linaro AI Project: uTVM**
 
 By Tom Gall, Director, AI/ML Project Lead
@@ -47,7 +44,7 @@ Engineering related to the project has already begun:
 
 [First microTVM testcase (Merged)](https://github.com/tom-gall/incubator-tvm/commit/30e3ce99a7dc7aef9c388e0ebc05018b4c4ba721)
 
-The project is open to club/core Members to join.  If a Member is not a club or core Member or part of the LITE-SC, they may also join by either joining LITE or by becoming a project member.
+The project is open to club/core Members to join. If a Member is not a club or core Member or part of the LITE-SC, they may also join by either joining LITE or by becoming a project member.
 
 Email tom.gall@linaro.org for details or questions.
 
@@ -69,7 +66,7 @@ By Ryan Arnold, Director, System Technologies
 
 Unlike classical proxies like Squid that transparently intercept traffic, in order to use KissCache one must explicitly prefix the requested URL by the URL of the local KissCache instance. KissCache will download the requested resource in the background while streaming it to the client. Kisscache’s primary use case is for downloading and caching https (secure) content. It preserves the chain of trust, whereas Squid really only works properly with non-secure content.
 
-If many clients are requesting the same resource, KissCache will download it only once and stream the content to every client. In the last month, Linaro’s KissCache deployment handled more than 160k requests, serving 32TB of data while only downloading 1TB from outside of the Linaro lab. This has a real cost savings of over $2000 per month.
+If many clients are requesting the same resource, KissCache will download it only once and stream the content to every client. In the last month, Linaro’s KissCache deployment handled more than 160k requests, serving 32TB of data while only downloading 1TB from outside of the Linaro lab. This has a real cost savings of over \$2000 per month.
 
 ### **Tuxpub - The Serverless Cloud-Based Artifact Server**
 
@@ -85,13 +82,13 @@ The original implementation of Tuxpub used Javascript, but we quickly realised i
 
 We built a wishlist of the following features and requirements that we felt a proper file server would honour and set about building tuxpub:
 
-* Serverless methodology for easy deployment and management
-* Ability to block the index page so people cannot browse other folders
-* Allow users to access a JSON output of the page for easy downloading
+- Serverless methodology for easy deployment and management
+- Ability to block the index page so people cannot browse other folders
+- Allow users to access a JSON output of the page for easy downloading
 
 The following is a sample file browser front-end being served by tuxpub for the TuxBuild project:
 
- {% include image.html path="/assets/images/content/tuxpub_lrg.png" alt="sample file" %}
+{% include image.html path="/assets/images/content/tuxpub_lrg.png" alt="sample file" %}
 
 ###### **How easy is it to deploy and manage?**
 
@@ -112,9 +109,9 @@ Linaro can deploy our tuxpub instances with two lines of code and a config file!
   }
 ```
 
-With these files a developer needs to build up a [pipenv](https://realpython.com/pipenv-guide/) file with *“pipenv install --deploy”*, and then deploy it into AWS Lambda with *“zappa deploy dev”*.
+With these files a developer needs to build up a [pipenv](https://realpython.com/pipenv-guide/) file with _“pipenv install --deploy”_, and then deploy it into AWS Lambda with _“zappa deploy dev”_.
 
-One can even run the application locally with *“S3_BUCKET=storage.dev.lkft.org S3_REGION=us-east-1 ROOT_INDEX_LISTING=True FLASK_APP=tuxpub flask run”*.
+One can even run the application locally with _“S3_BUCKET=storage.dev.lkft.org S3_REGION=us-east-1 ROOT_INDEX_LISTING=True FLASK_APP=tuxpub flask run”_.
 
 ##### **What are the limitations?**
 
@@ -134,9 +131,9 @@ By Tom Gall, Director, Linaro Consumer Group
 
 {% include image.html path="/assets/images/content/multimedia.jpg" class="small-inline left" alt="Multimedia icon" %}
 
-The RDK 3.0 port to iMX8M reached a new milestone where <https://rdkcentral.com/> now contains detailed information on how to [build](https://wiki.rdkcentral.com/display/RDK/Build+Procedure+for+64bit+RDK+Media+Client+using+Thud+Yocto+2.6) and also [run](https://wiki.rdkcentral.com/display/RDK/Run+RDK+3.0+Features+on+i.MX8MQ) the RDK 3.0 on MCIMX8M-EVK NXP board. In addition, work has already progressed rapidly on the migration to Yocto Dunfell LTS release which is documented [here](https://wiki.rdkcentral.com/display/RDK/Yocto+3.1+LTS+build+procedure+for+RDK-V+on+i.MX8MQ). The i.MX8M SoC has become the Linaro reference SoC for secure video path developments for the major ecosystems  Linaro is involved with for secure video (RDK, Linux  & AOSP) where a fully secure video pipeline is required.
+The RDK 3.0 port to iMX8M reached a new milestone where <https://rdkcentral.com/> now contains detailed information on how to [build](https://wiki.rdkcentral.com/display/RDK/Build+Procedure+for+64bit+RDK+Media+Client+using+Thud+Yocto+2.6) and also [run](https://wiki.rdkcentral.com/display/RDK/Run+RDK+3.0+Features+on+i.MX8MQ) the RDK 3.0 on MCIMX8M-EVK NXP board. In addition, work has already progressed rapidly on the migration to Yocto Dunfell LTS release which is documented [here](https://wiki.rdkcentral.com/display/RDK/Yocto+3.1+LTS+build+procedure+for+RDK-V+on+i.MX8MQ). The i.MX8M SoC has become the Linaro reference SoC for secure video path developments for the major ecosystems Linaro is involved with for secure video (RDK, Linux & AOSP) where a fully secure video pipeline is required.
 
-Features showcased in the i.MX8M RDK port include the App Manager <https://www.sparkui.org/> framework. This is a cross platform application engine that allows STB applications to be written in JavaScript but access the native rendering functionality of the underlying platform. The other main showcased feature is the Thunder application framework (aka, WPEFramework) and the integration of DRM technologies from Linaro into the wpewebkit browser to facilitate the playback of protected content. Linaro has upstreamed many patches to [meta-wpe](https://github.com/WebPlatformForEmbedded/meta-wpe), [Thunder](https://github.com/rdkcentral/Thunder), [ThunderNanoServices](https://github.com/rdkcentral/ThunderNanoServices), [WPEWebKit](https://github.com/WebPlatformForEmbedded/WPEWebKit) and the ocdm-* plugins as part of this project. It has been an example of the productive collaboration that can happen inside Linaro between Comcast, NXP and Linaro engineers.
+Features showcased in the i.MX8M RDK port include the App Manager <https://www.sparkui.org/> framework. This is a cross platform application engine that allows STB applications to be written in JavaScript but access the native rendering functionality of the underlying platform. The other main showcased feature is the Thunder application framework (aka, WPEFramework) and the integration of DRM technologies from Linaro into the wpewebkit browser to facilitate the playback of protected content. Linaro has upstreamed many patches to [meta-wpe](https://github.com/WebPlatformForEmbedded/meta-wpe), [Thunder](https://github.com/rdkcentral/Thunder), [ThunderNanoServices](https://github.com/rdkcentral/ThunderNanoServices), [WPEWebKit](https://github.com/WebPlatformForEmbedded/WPEWebKit) and the ocdm-\* plugins as part of this project. It has been an example of the productive collaboration that can happen inside Linaro between Comcast, NXP and Linaro engineers.
 
 ### **Raspberry Pi Libcamera Initiative**
 
@@ -144,7 +141,7 @@ By Tom Gall, Director, Linaro Consumer Group
 
 {% include image.html path="/assets/images/content/pi-lib-camera.png" class="small-inline left" alt="Raspberry Pi Libcamera icon" %}
 
-The [libcamera](http://libcamera.org/) project reached a big new milestone with the joint announcement from RPi foundation and libcamera projects on the first fully open source camera stack including 3A (auto exposure, auto gain control, auto white balance) algorithms. This is the first SoC in libcamera to become fully enabled in terms of 3A, and as far as we are aware the first time 3A algorithms have been fully open sourced in any meaningful way.  More about the announcement can be found [here](https://www.raspberrypi.org/blog/an-open-source-camera-stack-for-raspberry-pi-using-libcamera/.).
+The [libcamera](http://libcamera.org/) project reached a big new milestone with the joint announcement from RPi foundation and libcamera projects on the first fully open source camera stack including 3A (auto exposure, auto gain control, auto white balance) algorithms. This is the first SoC in libcamera to become fully enabled in terms of 3A, and as far as we are aware the first time 3A algorithms have been fully open sourced in any meaningful way. More about the announcement can be found [here](https://www.raspberrypi.org/blog/an-open-source-camera-stack-for-raspberry-pi-using-libcamera/.).
 
 ### **LEDGE Reference Platform Stage 3 available**
 
@@ -152,14 +149,14 @@ By Francois Ozog, Director, Linaro Edge and Fog Computing
 
 {% include image.html path="/assets/images/content/ledge.jpg" class="small-inline left" alt="Ledge icon" %}
 
-The LEDGE  Reference Platform builds on the Generic Kernel Image concept pioneered by Google for Android. The ultimate goal is that Linaro members and Linux distribution providers (commercial or not) can deliver a single binary image that can be booted on any Embedded Base Boot Requirement (EBBR) compliant platform. The LEDGE Reference Platform builds on the efforts of the Dependable Boot project which focuses on building an EBBR  compliant firmware environment.
+The LEDGE Reference Platform builds on the Generic Kernel Image concept pioneered by Google for Android. The ultimate goal is that Linaro members and Linux distribution providers (commercial or not) can deliver a single binary image that can be booted on any Embedded Base Boot Requirement (EBBR) compliant platform. The LEDGE Reference Platform builds on the efforts of the Dependable Boot project which focuses on building an EBBR compliant firmware environment.
 
 In more technical terms, LEDGE Reference Platform is a lightweight highly secure and robust container runtime environment that has dependable boot and update capabilities. It comes with a full set of security policies with SELinux, Integrity Measurement Architecture enabled and other technologies that can be further adapted to specific markets.
 
 There are actually three images built: 64 bits, 32 bits, 32 bits with LPAE enabled. With Stage 3, the LEDGE Reference Platform can be booted with UEFI SecureBoot (U-Boot or EDK2) and it was verified that:
 
-* A single 64 bits image can be booted on QEMU, NXP LS21060ARDB, Socionext Synquacer( and expect to achieve this with kernel 5.8 on TI AM65XX)
-* A single 32 bits image can be booted on TI AM572x and BEAGLEBOARD-X15,  ST STM32MP157C-DK2 and QEMU
+- A single 64 bits image can be booted on QEMU, NXP LS21060ARDB, Socionext Synquacer( and expect to achieve this with kernel 5.8 on TI AM65XX)
+- A single 32 bits image can be booted on TI AM572x and BEAGLEBOARD-X15, ST STM32MP157C-DK2 and QEMU
 
 Reference Platform stage 4 has started. It will come with an integrated standard and generalized firmware update features based on UEFI update capsules. We shall build on system-d defined boot-blessing capabilities to provide a robust boot orchestration scheme that will leverage hardware anti-bricking and anti-rollback features.
 
@@ -169,7 +166,7 @@ By Vicky Janicki, Linaro IoT and Embedded Group
 
 {% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="Lite icon" %}
 
-The Linaro Embedded and IoT Team ran a 3 session series in April and May under the Linaro Tech Days Banner. Vincent Wan (TI) reviewed “[Power Management On Zephyr](https://connect.linaro.org/resources/ltd20/ltd20-402/)” to start. For the second session, Paul Sokolovskyy (Linaro) presented “[Update on LAVA Testing for Bare Metal Systems](https://connect.linaro.org/resources/ltd20/ltd20-403/)” which charted LITE’s effort to enhance LAVA to work more effectively with MCU’s. Manivannan Sadhasivam, a kernel engineer from Linaro Developer Services presented  “[LoRa Meets Zephyr](https://connect.linaro.org/resources/ltd20/ltd20-404/)” which included a brief history of LoRa, what is currently working and what remains. All three sessions can be found on the [Linaro Tech Days Resource Page](https://connect.linaro.org/linaro-tech-days/).
+The Linaro Embedded and IoT Team ran a 3 session series in April and May under the Linaro Tech Days Banner. Vincent Wan (TI) reviewed “[Power Management On Zephyr](https://connect.linaro.org/resources/ltd20/ltd20-402/)” to start. For the second session, Paul Sokolovskyy (Linaro) presented “[Update on LAVA Testing for Bare Metal Systems](https://connect.linaro.org/resources/ltd20/ltd20-403/)” which charted LITE’s effort to enhance LAVA to work more effectively with MCU’s. Manivannan Sadhasivam, a kernel engineer from Linaro Developer Services presented “[LoRa Meets Zephyr](https://connect.linaro.org/resources/ltd20/ltd20-404/)” which included a brief history of LoRa, what is currently working and what remains. All three sessions can be found on the [Linaro Tech Days Resource Page](https://connect.linaro.org/linaro-tech-days/).
 
 ### **Trusted-Firmware-M Integration with Zephyr 2.3**
 
@@ -179,7 +176,7 @@ By Kevin Townsend, Senior Engineer, Linaro IoT and Embedded Group
 
 The upcoming 2.3 release of Zephyr now features out of the box support for Trusted-Firmware-M, including hardware emulation via QEMU, meaning you don’t require physical access to a supported development board.
 
-Zephyr is configured to run in the non-secure processing environment, and TF-M is used in the secure processing environment, with communication between the two environments happening over  TF-M’s IPC mechanism. Both secure and non-secure images are signed, and validated by the secure BL2 bootloader at startup. Zephyr applications can make direct use of the PSA APIs for Cryptography, Initial Attestation, etc., and the IPC mechanism will be handled transparently from an application point of view.
+Zephyr is configured to run in the non-secure processing environment, and TF-M is used in the secure processing environment, with communication between the two environments happening over TF-M’s IPC mechanism. Both secure and non-secure images are signed, and validated by the secure BL2 bootloader at startup. Zephyr applications can make direct use of the PSA APIs for Cryptography, Initial Attestation, etc., and the IPC mechanism will be handled transparently from an application point of view.
 
 ##### **General Requirements**
 
@@ -191,8 +188,8 @@ Zephyr 2.3 RC1 was used writing this, but 2.3 may be finalised by the time you r
 
 At present, the TF-M integration has been tested on the following platforms, and will not work on Windows out of the box:
 
-* Ubuntu 18.04 using Zephyr SDK 0.11.3
-* macOS Mojave using QEMU 4.2.0 with gcc-arm-none-eabi-7-2018-q2-update
+- Ubuntu 18.04 using Zephyr SDK 0.11.3
+- macOS Mojave using QEMU 4.2.0 with gcc-arm-none-eabi-7-2018-q2-update
 
 ##### **Zephyr Setup**
 
@@ -220,7 +217,7 @@ $ brew install srecord
 
 ##### **QEMU Setup**
 
- If you are using the Zephyr SDK on Linux, QEMU 4.2.0 is already included in the SDK and no further action is required.
+If you are using the Zephyr SDK on Linux, QEMU 4.2.0 is already included in the SDK and no further action is required.
 
 If you are using OS X, however, you will also need to install QEMU and make it available on your system path. QEMU 4.0.0 included support for the AN521 target, but we recommend using QEMU 4.2.0 or higher, which is the release used in the Zephyr SDK and during the TF-M/Zephyr integration work. This is generally as easy as running:
 
@@ -330,9 +327,9 @@ Consult the PSA API documentation or TF-M source code, linked below, for details
 
 The following links are useful to further develop custom applications based on Zephyr 2.3+ and TF-M:
 
-* PSA API Documentation: Click [here](https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation)
-* TF-M Source Code:[](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/) Click [here](https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/tree/).
-* Zephyr’s fork of TF-M for any pull requests or bug reports: Click [here](https://github.com/zephyrproject-rtos/trusted-firmware-m).[](https://github.com/zephyrproject-rtos/trusted-firmware-m)
+- PSA API Documentation: Click [here](https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation)
+- TF-M Source Code:[](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/) Click [here](https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/tree/).
+- Zephyr’s fork of TF-M for any pull requests or bug reports: Click [here](https://github.com/zephyrproject-rtos/trusted-firmware-m).[](https://github.com/zephyrproject-rtos/trusted-firmware-m)
 
 ### **Community News**
 
@@ -340,4 +337,4 @@ By Mike Holmes, Foundational Technologies
 
 {% include image.html path="/assets/images/content/stewardship.jpg" class="small-inline left" alt="Stewardship icon" %}
 
-The [Linux Test Project test suite stable release for "May 2020"](https://lwn.net/Articles/820636/) has been released with notable contributions from Linaro. Viresh Kumar  (Kernel Working Group) was featured in the top three for his effort to provide complete coverage of the Syscalls in the LTP suite.
+The [Linux Test Project test suite stable release for "May 2020"](https://lwn.net/Articles/820636/) has been released with notable contributions from Linaro. Viresh Kumar (Kernel Working Group) was featured in the top three for his effort to provide complete coverage of the Syscalls in the LTP suite.

@@ -1,32 +1,29 @@
 ---
 layout: post
-title: " High Performance Computing (HPC), Reflection and Forward-looking."
-description: In 2018 we discussed the first step for ARM into High Performance
-  Computing (HPC). Since then, Linaro has been working to increase awareness of
-  the successes within the High Performance Computing ARM ecosystem. HPC now
-  forms a key part of our activities, plus an association with Fugaku - the No.1
-  Supercomputer in the world (according to the Top500 bi-annual review).
-date: 2020-06-26T04:22:14.000Z
+title: ' High Performance Computing (HPC), Reflection and Forward-looking.'
+description: In 2018 we discussed the first step for ARM into High Performance Computing
+  (HPC). Since then, Linaro has been working to increase awareness of the successes
+  within the High Performance Computing ARM ecosystem. HPC now forms a key part of
+  our activities, plus an association with Fugaku - the No.1 Supercomputer in the
+  world (according to the Top500 bi-annual review).
+date: 2020-06-26 04:22:14+00:00
 image: /assets/images/content/hpc-bg.jpg
 tags:
-  - Arm high performance computing
-  - TOFU
-  - opensource toolchains
-  - high performance computing
-  - Cloud-Native computing
-  - HPC
-  - Arm
-  - Linaro
-  - Fugaku
-  - supercomputers
-  - supercomputing
-  - Linaro developer cloud
-  - Sandia
-  - Fujitsu
-  - open HPC
+- Arm High Performance Computing
+- TOFU
+- Opensource Toolchains
+- High Performance Computing
+- HPC
+- Arm
+- Linaro
+- Fugaku
+- Supercomputers
+- Supercomputing
+- Linaro Developer Cloud
+- Open Hpc
 related_projects:
-  - HPCAI
-category: Blog
+- HPCAI
+category: blog
 author: paul.isaacs
 ---
 

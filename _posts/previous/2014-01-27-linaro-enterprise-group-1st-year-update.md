@@ -1,7 +1,6 @@
 ---
 author: andrea.gallo
-categories:
-- Blog
+category: blog
 date: 2014-01-27 20:29:16
 description: Overview of the Linaro Enterprise Groups one year update. Details on
   what has been accomplished in the first year and what the team will be focused on
@@ -11,11 +10,10 @@ layout: post
 link: /blog/linaro-enterprise-group-1st-year-update/
 slug: linaro-enterprise-group-1st-year-update
 tags:
-- embedded
+- Embedded
 - Linaro
 - Open Source
-- Opensource
-- software
+- Software
 title: Linaro Enterprise Group 1st Year update
 wordpress_id: 3269
 ---
@@ -36,4 +34,4 @@ The LEG optimization engineers ensured that the LAMP stack (PHP, Python, memcach
 
 The LEG Steering Committee recommended that the Workload team investigate Open Stack first as the most practical test case for virtualization. LEG is cooperating with the core Virtualization team in enabling OpenStack on top of KVM/QEMU and XEN. The initial proof of concept phase was completed before LCU13 when OpenStack was able to provision a virtual machine (VM) on both the Calxeda Midway and APM Mustang platforms with KVM support. Cooperation with Calxeda and Canonical engineers (32-bit platforms) and with APM experts (64-bit platforms) proved to be key for this achievement. The team is now planning the strategy to clean up the patches and build an official solution to support OpenStack on Arm with both KVM and XEN.
 
- Overall, it has been a really exciting and productive first year with LEG!
+Overall, it has been a really exciting and productive first year with LEG!

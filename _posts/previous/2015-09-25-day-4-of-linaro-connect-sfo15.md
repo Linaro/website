@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2015-09-25 00:20:25
 description: Overview of the keynotes and sessions that took place during day 4 of
   Linaro Connect San Francisco 2015.
@@ -11,7 +10,7 @@ layout: post
 link: /blog/day-4-of-linaro-connect-sfo15/
 slug: day-4-of-linaro-connect-sfo15
 tags:
-- connect
+- Connect
 - Connect Events
 - Linaro
 - Linaro Connect
@@ -21,11 +20,9 @@ wordpress_id: 9459
 
 {% include image.html path="/assets/images/blog/LNG-day-image.jpg" alt="LNG day image" %}
 
-
 Linaro Connect San Francisco 2015 day four was another packed day of keynotes and sessions as well as demos. Thursday was a day dedicated to Linaro Networking Group and included many sessions focused on Open Data Plane, Kernel & Core as well as an afternoon of demos for attendees to view.
 
-
-Both of the morning keynotes were centered around networking.  First up wa Dave Neary who works on SDN and NFV community strategy as a member of Red Hat’s Open Source and Standards team and is active in OPNFV. Dave's talk was titled "An NFV Primer: The Next Generation for Telco". He spoke about changes in the Telco industry and how the industry is more competitive than ever. He then went on to talk about the promise of NFV.
+Both of the morning keynotes were centered around networking. First up wa Dave Neary who works on SDN and NFV community strategy as a member of Red Hat’s Open Source and Standards team and is active in OPNFV. Dave's talk was titled "An NFV Primer: The Next Generation for Telco". He spoke about changes in the Telco industry and how the industry is more competitive than ever. He then went on to talk about the promise of NFV.
 
 {% include media.html media_url="https://www.youtube.com/watch?v=HPooPahP5Co" %}
 
@@ -199,6 +196,5 @@ Energy Aware Scheduling: Power vs. Performance policy
 </tr>
 </tbody>
 </table>
-
 
 Be sure to check back in tomorrow for the final day of Linaro Connect. Tomorrow will start out with a keynote by Karen Sandler on "Ideology in Open Source Compliance" following that will be a Security Panel discussion. To learn more about the agenda tomorrow please visit: [https://connect.linaro.org/resources/sfo15/](https://connect.linaro.org/resources/sfo15/)

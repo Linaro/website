@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2016-08-18 14:34:13
 description: 'Cambridge, UK: 18 August 2016'
 layout: post

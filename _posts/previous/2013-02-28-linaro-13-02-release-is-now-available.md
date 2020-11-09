@@ -1,14 +1,12 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-02-28 18:58:24
 description: Links to all the downloads for the Linaro 13.02 release
 layout: post
 link: /blog/releases-blog/linaro-13-02-release-is-now-available/
 slug: linaro-13-02-release-is-now-available
-tags:
-- Releases
+tags: []
 title: Linaro 13.02 Release is Now Available
 wordpress_id: 2480
 ---
@@ -17,12 +15,9 @@ wordpress_id: 2480
 
 ## The Linaro 13.02 release is now available for [download](/downloads/)!
 
-
 The Linaro 13.02 release highlights the quality, effort and work of all the Linaro Teams – Working Groups, Landing Teams and Platform Teams – who have provided all the updates and new features that are integrated on top of Android and Ubuntu during this release cycle. The 13.02 cycle shows the reality of a dream and desire to unify, improve and build a better more effective future for Linux on Arm. Linux on Arm is not a dream, but together--Linaro, its Members, Groups, and community--continue to make the visions of Linux on Arm a reality.
 
-
 ## About this release:
-
 
 The Linaro Engineering Group (LEG)  released Linaro UEFI 2013.02 which fixed several bugs targeting the Arndale boards. LEG also added Arm support to libhugetlbfs, merged into next branch--package is available from Linaro's Overlay PPA.
 
@@ -34,21 +29,15 @@ The Linaro Kernel team was able to update the AB8500 driver with pinctrl patches
 
 The Linaro Toolchain Team released Linaro GCC 4.7-2013.02-01 based off GCC 4.7.2+svn195745 and includes arm/aarch64-4.7-branch up to svn revision 195716, support for Cortex-A7 backported from trunk. The 2013.02 Linaro Toolchain Binaries release were updated to latest Linaro GCC 4.7 2013.02-01 which included upgrades for binutils to v2.23.1, eglibc to v2.17 and the kernel header to v3.7.
 
-
 ## Announcements
-
 
 More exciting news for the 13.02 cycle in addition to all the work done for this release came with the [announcement](/news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/) by George Grey, Linaro CEO about the formation of a new Linaro engineering group--The Linaro Networking Group (LNG).  [LNG](/blog/arm-leg-and-now-lng-linaro-forms-a-new-engineering-group/) is a group dedicated to accelerating Linux networking on Arm. Membership to this group is based on a new Linaro membership category which will initially include Arm, equipment OEMs, silicon partners and distribution partners to leverage and extend Linaro’s existing shared engineering, legal and open source collaboration resources and infrastructure. Discussion of LNG's focus areas and the formal kick off for the group will happen during Linaro Connect Asia 2013 on 4-8 March in Hong Kong.
 
-
 ## Linaro Connect
-
 
 Registration for [LCA-13 in Hong Kong](https://connect.linaro.org) is now closed, however, remote participation is available. More information about you can participate remotely can be found at: [https://connect.linaro.org/about/](https://connect.linaro.org/about/)
 
-
 ## Using this Release
-
 
 We encourage everybody to use the 13.02 release. The download links for all images and components are available on our downloads page:
 
@@ -79,20 +68,20 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 **============**
 More information on Linaro can be found on our websites:
 
-* Homepage: [](/)
-* Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
+- Homepage: [](/)
+- Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
-* Announcements:
-[http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
+- Announcements:
+  [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-* Development:
-[http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
+- Development:
+  [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-* IRC:
-#linaro on irc.linaro.org or irc.freenode.net
-#linaro-android irc.linaro.org or irc.freenode.net
+- IRC:
+  #linaro on irc.linaro.org or irc.freenode.net
+  #linaro-android irc.linaro.org or irc.freenode.net
 
 **Known issues with this release**
 ** =====================**

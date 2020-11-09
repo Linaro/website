@@ -1,11 +1,13 @@
 ---
 author: david.rusling
-date: 2017-12-13 8:00:00+00:00
+date: 2017-12-13 08:00:00+00:00
 layout: post
 title: CTO Year in Review
-categories:
-  - blog
-tags: Arm, Automotive, Ecosystem, Hardware, 96boards, 2017, CTO, CTO Blog
+category: blog
+tags:
+- Arm
+- Automotive
+- 96Boards
 keywords: Arm, Automotive, Ecosystem, Hardware, 96boards, 2017, CTO, CTO Blog
 image: /assets/images/blog/cto-2017-end-of-year.jpg
 ---

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2015-02-09 12:58:09
 description: Marvell invests in enabling the open source development community with
   the development of a new cost-effective quad-core Arm 64-bit development board
@@ -9,13 +8,12 @@ layout: post
 link: /news/linaro-announces-marvell-founding-member-linaro-community-boards-group/
 slug: linaro-announces-marvell-founding-member-linaro-community-boards-group
 tags:
-- connect
+- Connect
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on Arm
+- Linux On Arm
 - Open Source
-- Opensource
 title: Linaro announces Marvell as a founding member of the Linaro Community Boards
   Group
 wordpress_id: 7930
@@ -37,12 +35,9 @@ The LCG has been formed to support the new 96Boards initiative. 96Boards is the 
 
 “As a founding member of the Linaro Community Boards Group (LCG), Marvell is pleased to participate in the launch of the 96Boards initiative,” said Philip Poulidis, Vice President and General Manager, Internet of Things Business Unit at Marvell. Linaro is a key place for collaborative software and hardware engineering on the Arm architecture and we are proud of our long-standing work with the Arm ecosystem, enabling the “Smart Life, Smart Lifestyle,” for consumers around the globe. We believe in providing cost-effective, best-in-class platforms for new developer communities to be able to create a wider array of applications with products such as the 64-bit quad core PXA1928.”
 
-
-
 **About Linaro** Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 150 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors to Linux kernels since 3.10.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit []().
-
 
 **About Marvell** Marvell (NASDAQ: MRVL) is a global leader in providing complete silicon solutions and Kinoma® software enabling the “Smart Life and Smart Lifestyle.” From mobile communications to storage, Internet of Things (IoT), cloud infrastructure, digital entertainment and in-home content delivery, Marvell’s diverse product portfolio aligns complete platform designs with industry-leading performance, security, reliability and efficiency. At the core of the world’s most powerful consumer, network and enterprise systems, Marvell empowers partners and their customers to always stand at the forefront of innovation, performance and mass appeal. By providing people around the world with mobility and ease of access to services adding value to their social, private and work lives, Marvell is committed to enhancing the human experience.
 

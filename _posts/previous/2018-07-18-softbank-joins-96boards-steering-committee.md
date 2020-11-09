@@ -3,13 +3,22 @@ title: SoftBank joins Linaro 96Boards Steering Committee
 author: linaro
 layout: post
 date: 2018-07-18 09:00:00+00:00
-description: >-
-    Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that Japanese telecommunications giant SoftBank Corp. has joined the 96Boards initiative as a Steering Committee member.
+description: Linaro Ltd, the open source collaborative engineering organization developing
+  software for the Arm® ecosystem, announced today that Japanese telecommunications
+  giant SoftBank Corp. has joined the 96Boards initiative as a Steering Committee
+  member.
 image: /assets/images/content/softbank-joins-96boards.png
-categories: news
-tags: Open Source, Arm, Linaro, Members, SoftBank, 96boards, 96Boards SC, Membership
+category: news
+tags:
+- Open Source
+- Arm
+- Linaro
+- Members
+- 96Boards
+- Membership
 published: true
 ---
+
 [Cambridge, UK; 18 July 2018] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that Japanese telecommunications giant SoftBank Corp. has joined the 96Boards initiative as a Steering Committee member. SoftBank and Linaro began cooperating in Japan in September 2017 to enable the interconnection between SoftBank IoT Platform and the Consumer Edition (CE) and Internet of Things Edition (IE) 96Boards products. The 96Boards Steering Committee provides a neutral forum in which SoftBank can cooperate closely with other 96Boards partners and promote its online services and 96Boards related products to developers.
 
 96Boards is Linaro’s initiative to build a single worldwide software and hardware community across low-cost development boards based on Arm technology. A large range of products compliant with the 96Boards specifications are already available worldwide and this range is supplemented with additional hardware functionality provided through standardized mezzanine boards. With open source software and support for cloud services already available, SoftBank’s increased involvement in 96Boards will extend the range of services available to developers using 96Boards products and boost the presence of 96Boards products in Japan.

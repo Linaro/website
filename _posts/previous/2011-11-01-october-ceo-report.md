@@ -1,7 +1,6 @@
 ---
 author: george.grey
-categories:
-- Blog
+category: blog
 date: 2011-11-01 14:45:07
 description: Discussion on the latest developments within Linaro
 keywords: Linaro, Arm, Linux kernel, Linux, kernel, Arm SOCs, opensource, Arm Cortex,

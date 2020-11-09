@@ -1,7 +1,6 @@
 ---
 author: jennifer.castelino
-categories:
-- Blog
+category: blog
 date: 2014-09-24 21:06:33
 description: Overview of what took place on the Friday of Linaro Connect USA 2014.
   Links to presentations, videos and session descriptions are included in the blog
@@ -11,24 +10,22 @@ link: /blog/last-day-linaro-connect-2014/
 slug: last-day-linaro-connect-2014
 tags:
 - Connect Events
-- android
-- connect
+- Android
+- Connect
 - Connect Events
-- kernel
+- Kernel
 - Linaro
 - Linux
-- Linux on Arm
+- Linux On Arm
 - LSK
 - Open Source
-- Opensource
-- software
-- toolchain
-- video
+- Software
+- Toolchain
 title: Last Day of Linaro Connect 2014
 wordpress_id: 6715
 ---
 
-Friday September 19th was the last day of Linaro Connect USA 2014. The week ended with an afternoon keynote by Jim Zemlin, Executive Direcotr of the Linux Foundation after a packed morning of sessions covering topics from all segments.  Following the keynote, there were demonstrations of some of the latest Linux developments on Arm.  The demonstrations also included interactive demonstrations showcasing Arm-processor-based boards and Linaro builds by Linaro members, partners and the community. This was a great opportunity for everyone to get a hands on demonstration of what Linaro is enabling with Arm processor-based boards for Linux on Arm.
+Friday September 19th was the last day of Linaro Connect USA 2014. The week ended with an afternoon keynote by Jim Zemlin, Executive Direcotr of the Linux Foundation after a packed morning of sessions covering topics from all segments. Following the keynote, there were demonstrations of some of the latest Linux developments on Arm. The demonstrations also included interactive demonstrations showcasing Arm-processor-based boards and Linaro builds by Linaro members, partners and the community. This was a great opportunity for everyone to get a hands on demonstration of what Linaro is enabling with Arm processor-based boards for Linux on Arm.
 
 After a fantastic week in Burlingame, CA we are already looking forward to our next Connect. Our next Linaro Connect will be February 9-13, 2015 in Hong Kong. Registration is now open -[ reserve your spot today!](https://connect.linaro.org/hkg15/)
 
@@ -351,7 +348,6 @@ LSK
 </tbody>
 </table>
 
-
 ### A week in pictures
 
 Overall it was a great week with many exciting activities where those attending had a chance to learn, share their experience, network with leaders in their field and see demonstrations of the work that Linaro is doing. Below are just a few photos of the activities that took place. To see all the photos from the week please visit our flickr page: [https://www.flickr.com/photos/linaroorg/](https://www.flickr.com/photos/linaroorg/)
@@ -371,7 +367,6 @@ Many parties and team dinners took place during the week, including the Connect 
 {% include image.html path="/assets/images/blog/parties.jpg" alt="Linaro Connect parties" %}
 
 {% include image.html path="/assets/images/blog/party-3.5.jpg" alt="Linaro Connect party 3.5" %}
-
 
 **Sessions, Learning and Hacking**
 

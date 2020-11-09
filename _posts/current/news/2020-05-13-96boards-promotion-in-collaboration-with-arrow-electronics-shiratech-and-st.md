@@ -1,25 +1,22 @@
 ---
 layout: post
 title: 96Boards Promotion in collaboration with Arrow Electronics, Shiratech and ST
-description: >
-  96Boards have teamed up with Arrow Electronics, ST, and Shiratech and are
-  excited to announce that there are 500 Avenger96 or Stinger96 boards to be
-  given away (conditions apply). 
+description: '96Boards have teamed up with Arrow Electronics, ST, and Shiratech and
+  are excited to announce that there are 500 Avenger96 or Stinger96 boards to be given
+  away (conditions apply).
+
+  '
 date: 2020-05-13 02:15:57
 image: /assets/images/content/96boards-avenger.png
 tags:
-  - 96Boards
-  - Arrow Electronics
-  - Shiratech
-  - ST
-  - Avenger96
-  - Promotion
-  - Giveaway
-  - Stinger96
-category: News
+- 96Boards
+- Shiratech
+- Stinger96
+category: news
 author: jon.burcham@linaro.org
 ---
-[96Boards](https://www.96boards.org/) have teamed up with[ Arrow Electronics](https://www.arrow.com/), [ST](https://www.st.com/content/st_com/en.html) and Shiratech and are excited to announce that there are 500 Avenger96 or Stinger96 boards to be given away.* Linaro are proud to enable the community to come together and to use these boards to build some new and exciting projects. Yang Zhang (Director at 96Boards) commented "We are excited to partner with 96Boards members and partners - Arrow, ST and Shiratech to launch this Campaign, giving away some of the most popular 96Boards compliant development platform featuring STM32MP157. This continues to show our commitment to the wide ecosystem, enabling developers from kernel all the way up to product designers; accelerating time to market with good upstreaming practice; serving SoC vendors and product development with dedicated and unified hardware and software support."
+
+[96Boards](https://www.96boards.org/) have teamed up with[ Arrow Electronics](https://www.arrow.com/), [ST](https://www.st.com/content/st_com/en.html) and Shiratech and are excited to announce that there are 500 Avenger96 or Stinger96 boards to be given away.\* Linaro are proud to enable the community to come together and to use these boards to build some new and exciting projects. Yang Zhang (Director at 96Boards) commented "We are excited to partner with 96Boards members and partners - Arrow, ST and Shiratech to launch this Campaign, giving away some of the most popular 96Boards compliant development platform featuring STM32MP157. This continues to show our commitment to the wide ecosystem, enabling developers from kernel all the way up to product designers; accelerating time to market with good upstreaming practice; serving SoC vendors and product development with dedicated and unified hardware and software support."
 
 The Avenger96 board featuring STM32MP157 is a highly integrated multi-market system-on-chip designed to enable secure and space constraint applications within the Internet of Things (IoT). The Avenger96 board features dual Arm Cortex-A7 cores and an Arm Cortex-M4 core. In addition, an extensive set of interfaces and connectivity peripherals are included to interface to cameras, touch-screen displays and MMC/SD cards. It also fully supports wireless communication, including WLAN and BLE.
 

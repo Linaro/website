@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2015-04-02 11:57:14
 description: Alibaba Group joins Linaro to accelerate development of software platforms
   for Arm Powered servers
@@ -9,11 +8,10 @@ layout: post
 link: /news/linaro-announces-alibaba-group-as-latest-member/
 slug: linaro-announces-alibaba-group-as-latest-member
 tags:
-- arm
-- Armv8
+- Arm
 - LEG
 - Linaro
-- Linux on Arm
+- Linux On Arm
 title: Linaro announces Alibaba Group as latest member
 wordpress_id: 8428
 ---
@@ -35,8 +33,6 @@ In 2014, three members publicly demonstrated fully integrated Armv8-A 64-bit ser
 “As one of the world’s largest cloud operators, Alibaba is continually pushing technology boundaries to efficiently deploy new services at a massive scale,” said Lakshmi Mandyam, Director, Server Systems and Ecosystems, Arm. “Their collaboration with the Arm ecosystem will accelerate and expand open source software choices for companies wishing to deploy Armv8-A based servers. We welcome Alibaba’s participation in Linaro and the new dimension it will bring to an already vibrant community.”
 
 “Since its start in November 2012, the Linaro Enterprise Group and its members have been developing an open source software platform in preparation for the release of multiple Armv8-A 64-bit silicon solutions,” said Robert Booth, Linaro's Chief Operating Officer (COO). “Now is the right time for data center hosts and others to accelerate the launch of industry leading solutions by helping define actual workloads and by working with Linaro's engineering organization to develop and optimize the software. We are excited to welcome Alibaba as a Linaro member and look forward to working with them and benefiting from their breadth of sector experience to help fully realize the advantages of the Arm architecture in this market place.”
-
-
 
 **About Linaro**
 

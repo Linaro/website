@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2016-08-16 16:39:55
 description: 'Cambridge, UK: 16 August 2016'
 layout: post
@@ -9,7 +8,8 @@ link: /news/archermind-joins-96boards-launches-deci-core-armv8-product/
 slug: archermind-joins-96boards-launches-deci-core-armv8-product
 title: ArcherMind Joins 96Boards and Launches Deca-Core Armv8 Product
 wordpress_id: 11328
-tags:  Membership
+tags:
+- Membership
 ---
 
 Cambridge, UK: 16 August 2016
@@ -52,7 +52,7 @@ HDMI Full-size Type-A, support 1080P@ 30 fps
 _Wireless_
 MT6631 chip
 WLAN 802.11a/b/g/n 2.4GHz and 5GHz(On-board BT and WLAN antenna)
-_Bluetooth_® wireless technology 4.1 +HS compliant
+*Bluetooth*® wireless technology 4.1 +HS compliant
 GPS (with antenna connector)
 
 _USB interface_

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-04-03 20:36:23
 description: Check out this photo montage that takes you through Linaro Connect Asia
   2013 in pictures.
@@ -20,8 +19,6 @@ wordpress_id: 2636
 [Linaro Connect Europe 2013](https://connect.linaro.org) planning is now underway and [registration is open](/blog/registration-for-linaro-connect-europe-2013-in-dublin-ireland-now-open/).
 
 Linaro Connect Europe 2013 will take place on 8-12 July at The Burlington Hotel in Dublin, Ireland.
-
-
 
 Check out this [photo montage](http://youtu.be/mNZWOFNrT2Q) that takes you through [Linaro Connect Asia 2013](https://wiki-archive.linaro.org/Events/LCA13/) in pictures. This montage includes pictures from the Meet and Greet, hacking rooms, plenaries, mini summits, awards 2012, Demo Friday, group photo and more.
 

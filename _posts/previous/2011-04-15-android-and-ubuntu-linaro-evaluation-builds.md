@@ -1,7 +1,6 @@
 ---
 author: steve.taylor
-categories:
-- Blog
+category: blog
 date: 2011-04-15 18:21:03
 description: Overview of the Android and Ubuntu Linaro evaluation builds and the progress
   made so far and what is planned for the future.
@@ -10,13 +9,8 @@ layout: post
 link: /blog/android-and-ubuntu-linaro-evaluation-builds/
 slug: android-and-ubuntu-linaro-evaluation-builds
 tags:
-- Evaluation builds
-- Landing teams
-- LEBs
 - OSS
-- test heads
-- validation
-- working groups
+- Validation
 title: Android and Ubuntu Linaro Evaluation Builds
 wordpress_id: 3381
 ---

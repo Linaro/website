@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2013-10-28 12:30:08
 description: Linaro has joined the Open Compute Project (OCP) as an official member
   and contributes the LAVA LMP (Linaro Multi-purpose probe) to the foundation
@@ -16,9 +15,7 @@ wordpress_id: 4430
 
 SANTA CLARA, US - 28 OCT 2013
 
-
 ## Linaro has joined the Open Compute Project (OCP) as an official member and contributes the LAVA LMP (Linaro Multi-purpose probe) to the foundation
-
 
 Linaro, the not-for-profit engineering organization developing open source software for the Arm® architecture, today announced that it has joined the Open Compute Project (OCP), an initiative launched by Facebook in 2011 to increase technology efficiencies and reduce the environmental impact of data centers.
 

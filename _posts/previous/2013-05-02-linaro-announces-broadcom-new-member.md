@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2013-05-02 12:25:47
 description: CAMBRIDGE, UK - 2 MAY 2013
 layout: post
@@ -21,11 +20,11 @@ Broadcom, a global innovation leader in semiconductor solutions for wired and wi
 
 “We look forward to working with Linaro and the open source community to drive the Linux-on-Arm architecture,” said Ajith Mekkoth, Broadcom Vice President, Software Engineering, Mobile Platform Solutions.  “Together with Linaro, we are committed to accelerating innovation in the development of Linux-based devices and furthering the adoption of open-source software across the network.”
 
-Linaro has a unique business model where multiple companies jointly invest in a software engineering team that creates core open source software in a collaborative and transparent environment. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro becoming one of the largest company contributors to recent Linux kernels*. Linaro’s contribution to improving Arm’s support in the open source Linux community has also been recognized by Linus Torvalds**.
+Linaro has a unique business model where multiple companies jointly invest in a software engineering team that creates core open source software in a collaborative and transparent environment. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro becoming one of the largest company contributors to recent Linux kernels\*. Linaro’s contribution to improving Arm’s support in the open source Linux community has also been recognized by Linus Torvalds\*\*.
 
-**Sources**: _Some 3.8 development statistics_ Jonathan Corbet, LWN, 13 February 2013: [https://lwn.net/Articles/537110/](https://lwn.net/Articles/537110/) (subscription required); _Statistics from the 3.7 development cycle_ Jonathan Corbet, LWN, 28 November 2012:[http://lwn.net/Articles/527191/](http://lwn.net/Articles/527191/)(subscription required) and earlier LWN articles.
+**Sources**: *Some 3.8 development statistics* Jonathan Corbet, LWN, 13 February 2013: [https://lwn.net/Articles/537110/](https://lwn.net/Articles/537110/) (subscription required); *Statistics from the 3.7 development cycle* Jonathan Corbet, LWN, 28 November 2012:[http://lwn.net/Articles/527191/](http://lwn.net/Articles/527191/)(subscription required) and earlier LWN articles.
 
-**Sources**: _Linaro Connect (LCA13) Monday Keynote: Jon Corbet founder of LWN.net,_ 4 March 2013:[http://www.youtube.com/watch?v=JAmPRljN_Ww](http://www.youtube.com/watch?v=JAmPRljN_Ww) (from 13 minutes 15 seconds. ); _Torvalds touts Linux’s advances in power, Arm and cell phones_ Paula Rooney, ZDNet, 30 August 2012:[http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)
+**Sources**: *Linaro Connect (LCA13) Monday Keynote: Jon Corbet founder of LWN.net,* 4 March 2013:[http://www.youtube.com/watch?v=JAmPRljN_Ww](http://www.youtube.com/watch?v=JAmPRljN_Ww) (from 13 minutes 15 seconds. ); *Torvalds touts Linux’s advances in power, Arm and cell phones* Paula Rooney, ZDNet, 30 August 2012:[http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)
 
 [](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)**About Linaro**
 

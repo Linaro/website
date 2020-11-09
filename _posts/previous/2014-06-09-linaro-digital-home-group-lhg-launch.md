@@ -1,7 +1,6 @@
 ---
 author: mark.gregotski
-categories:
-- Blog
+category: blog
 date: 2014-06-09 19:48:48
 description: Linaro publicly announced the formation of LHG with the founding member
   companies. LHG will focus on supporting the proliferation of Arm processors and
@@ -11,9 +10,7 @@ layout: post
 link: /blog/linaro-digital-home-group-lhg-launch/
 slug: linaro-digital-home-group-lhg-launch
 tags:
-- arm
-- digital home
-- Digital Home group
+- Arm
 - Linaro
 title: Linaro Digital Home Group (LHG) Launch
 wordpress_id: 5986

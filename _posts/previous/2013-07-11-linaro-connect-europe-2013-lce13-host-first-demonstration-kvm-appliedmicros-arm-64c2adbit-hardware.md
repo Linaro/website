@@ -10,12 +10,10 @@ slug: linaro-connect-europe-2013-lce13-host-first-demonstration-kvm-appliedmicro
 title: Linaro Connect Europe 2013 (LCE13) to Host First Demonstration of KVM on AppliedMicro’s
   Arm® 64­bit Hardware
 wordpress_id: 4428
-categories:
-- News
+category: news
 ---
 
 DUBLIN, IRELAND - 11 JUL 2013
-
 
 ## In summary
 
@@ -52,5 +50,3 @@ Media Contact: Michael Major, Applied Micro Circuits Corporation
 +1-408-542-8831
 
 [mmajor@apm.com](mailto:mmajor@apm.com)
-
-

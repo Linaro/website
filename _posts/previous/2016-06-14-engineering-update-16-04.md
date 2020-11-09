@@ -11,16 +11,12 @@ link: /blog/engineering-update-16-04/
 slug: engineering-update-16-04
 title: First open source W3C EME solution provided on the 96Boards HiKey platform
 wordpress_id: 10695
-categories:
-- Blog
+category: blog
 tags:
 - 96Boards
-- hardware
-- LHG
 - Linaro
 - Linux
-- Linux on Arm
-- Opensource
+- Linux On Arm
 ---
 
 _**Authors:  Mark Gregotski and Zoltan Kuscsik**_
@@ -31,17 +27,15 @@ This Chromium browser-based implementation is an end-to-end solution that retrie
 
 The build instructions are provided here:  [https://github.com/kuscsik/96boards-manifest](https://github.com/kuscsik/96boards-manifest)
 
-
 ### **The Clear Key build is comprised of the following components:**
 
-  * Chromium v45
-  * Wayland (v1.9)-Weston
-  * Mali 450MP4 GPU r6p0 release with graphics drivers (supporting drm/kms, dma-buf)
-  * OpenCDM
-  * OP-TEE v. 2.0
-  * Sample Trusted Application (AES Decryption)
-  * Linux kernel v. 4.5
-
+- Chromium v45
+- Wayland (v1.9)-Weston
+- Mali 450MP4 GPU r6p0 release with graphics drivers (supporting drm/kms, dma-buf)
+- OpenCDM
+- OP-TEE v. 2.0
+- Sample Trusted Application (AES Decryption)
+- Linux kernel v. 4.5
 
 A link to real encrypted video content to playback!
 
@@ -59,17 +53,13 @@ The W3C EME specification details the messaging flow between elements that suppo
 
 The content is decrypted using an AES Decryption Trusted Application that resides in Secure World running on the secure OP-TEE OS in Arm TrustZone.
 
-
 {% include image.html path="/assets/images/blog/ClearKey2.png" alt="ClearKey2" %}
 
 _Linaro ClearKey Implementation_
 
-
 So go ahead and give this a try.  The engineers in LHG have also created full W3C EME OP-TEE integrations with commercial DRMs such as Microsoft’s PlayReady and Google’s Widevine on both Linux- and Android-based solutions.  You will be able to see and hear more about LHG’s work in this area in our upcoming Connect event in Las Vegas in September ([LAS16](https://connect.linaro.org/las16/)).
 
-
 ### **Some additional interesting links:**
-
 
 W3C Encrypted Media Extensions
 

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-02-25 14:57:53
 description: Karim Yaghmour, CEO Opersys discusses the upcoming Embedded Android Training
   Workshop that is scheduled to take place at the upcoming Linaro Connect Asia 2013..
@@ -13,7 +12,6 @@ link: /blog/community-blog/karim-yaghmour-ceo-of-opersys-talks-about-the-upcomin
 slug: karim-yaghmour-ceo-of-opersys-talks-about-the-upcoming-embedded-android-training-workshop
 tags:
 - Android
-- Community
 - Connect Events
 title: 'Karim Yaghmour, CEO of Opersys Talks About the Upcoming Embedded Android Training
   Workshop '
@@ -24,20 +22,15 @@ wordpress_id: 2458
 
 In this [Google+ Hangout on Air]()https://web.archive.org/web/2019*/https://plus.google.com/u/0/events/cqde9n1fdiqnv0gcqj868ivuj0g, Karim and Zach discuss topics such as:
 
+- The Embedded Android Training Workshop Sessions
 
-  * The Embedded Android Training Workshop Sessions
+- Karim's latest book,  Embedded Android, O'Reilly ([early release available)]()http://shop.oreilly.com/product/0636920021094.do
 
+- Why they are excited to be at Linaro Connect Asia 2013
 
-  * Karim's latest book,  Embedded Android, O'Reilly ([early release available)]()http://shop.oreilly.com/product/0636920021094.do
+- The Android Track Sessions
 
-
-  * Why they are excited to be at Linaro Connect Asia 2013
-
-
-  * The Android Track Sessions
-
-
-  * And more...
+- And more...
 
 More information about Linaro Connect can be found at: [Connect](https://connect.linaro.org)
 

@@ -1,7 +1,6 @@
 ---
 author: greg.bellows
-categories:
-- Blog
+category: blog
 comments: true
 date: 2015-01-22 10:57:37
 description: Since the last post, the bulk of the Arm CPU Security Extension support
@@ -13,10 +12,9 @@ excerpt: Since the last post, the bulk of the Arm CPU Security Extension support
 layout: post
 slug: testing-qemu-arm-trustzone
 tags:
-- Core Dump
-- arm
-- qemu
-- testing
+- Arm
+- Qemu
+- Testing
 - TrustZone
 title: Testing QEMU Arm TrustZone
 wordpress_id: 7787
@@ -32,22 +30,17 @@ Since the last post, the bulk of the Arm CPU Security Extension support has made
 
 Achieving backwards compatibility and allowing easy future use of Arm TrustZone, we are introducing the following configuration changes:
 
-  * The Security Extensions will be available only on machines supporting Arm1176, Cortex-A8, Cortex-A9, and Cortex A-15 CPUs.
+- The Security Extensions will be available only on machines supporting Arm1176, Cortex-A8, Cortex-A9, and Cortex A-15 CPUs.
 
+- The Arm Security extensions are currently only supported, and enabled by default, on the Versatile Express and the virt machine models. All other machine models will have the Arm Security extensions disabled by default.
 
-  * The Arm Security extensions are currently only supported, and enabled by default, on the Versatile Express and the virt machine models. All other machine models will have the Arm Security extensions disabled by default.
+- A ‘-secure=on/off’ machine option is introduced to allow the override of the default security extension settings on the above supported machines. This option is unavailable on all other machine models. Disabling the security extension will restore the legacy behavior to no secure state.
 
+- Using the -kernel command line option to run Linux on an Arm Versatile Express machine model will result in it booting into the secure state by default. If undesirable, the user may disable the security extension as described above.
 
-  * A ‘-secure=on/off’ machine option is introduced to allow the override of the default security extension settings on the above supported machines. This option is unavailable on all other machine models. Disabling the security extension will restore the legacy behavior to no secure state.
+- Use of the -kernel command line option to run Linux on a QEMU virt machine model will result in it booting into non-secure state by default. If undesirable, the user may disable the security extension as described above.
 
-
-  * Using the -kernel command line option to run Linux on an Arm Versatile Express machine model will result in it booting into the secure state by default. If undesirable, the user may disable the security extension as described above.
-
-
-  * Use of the -kernel command line option to run Linux on a QEMU virt machine model will result in it booting into non-secure state by default. If undesirable, the user may disable the security extension as described above.
-
-
-  * Use of the -bios command line option on either the Arm Versatile Express or QEMU virt machine models will result in the machines starting up in secure state,  from cold reset, as defined by the Arm architecture. If undesirable, the user may disable the security extension as described above. The -bios command is the preferred approach for running TrustZone enabled environments.
+- Use of the -bios command line option on either the Arm Versatile Express or QEMU virt machine models will result in the machines starting up in secure state,  from cold reset, as defined by the Arm architecture. If undesirable, the user may disable the security extension as described above. The -bios command is the preferred approach for running TrustZone enabled environments.
 
 ### Testing Goals
 
@@ -77,16 +70,13 @@ The below diagram depicts one possible secure bootloader environment.
 
 In a typical Arm TrustZone environment, a bootloader is responsible for loading and initiating execution of the secure world software and possibly the non-secure world software as well. Most often, secure and non-secure software are separate binary images that are loaded into one or more ROM locations. The bootloader is usually sophisticated enough to perform the required amount of device initialization and image loading.
 
-
 ### Test Image Layout
-
 
 Given the standalone nature of the QEMU Arm TrustZone test, it would be overkill to use something as complicated as a bare-metal bootloader. Instead, to simplify the testing setup, we construct a single test binary by concatenating separate secure and non-secure images into a single file. Each of the images have fixed offsets in the binary file and are linked at a known starting virtual addresses for easy loading and execution of each image. The benefit of using a single binary is that QEMU can be invoked by simply using the -bios command line option to point to our single test binary.
 
 {% include image.html path="/assets/images/blog/Test-Image-Layout-2.jpg" alt="Test-Image-Layout-2" %}
 
 ### Test Image Loading
-
 
 As defined by the Arm architecture, the CPU resets in the secure world and executes code from RAM at a predefined physical address. By loading the single binary into an execute-in-place flash device in QEMU mapped at the reset address, execution begins in the secure image which contains a small bootloader responsible for initializing the secure world. The secure world then initializes monitor mode which makes it possible to transition between the secure and non-secure worlds. The bootloader is also responsible for loading the non-secure image as well as eventually booting the non-secure software by going through monitor mode.
 
@@ -98,20 +88,15 @@ The QEMU TrustZone test comprises 3 primary components.
 
 #### Secure world component
 
-
 The primary responsibility of the secure world component is to facilitate the execution of test cases directed at it. This is accomplished through dedicated supervisor (SVC) and monitor mode (SMC) exception handlers with predefined opcodes for routing and executing test cases supplied from the non-secure world. In addition, the secure world component includes the primary bootloader and hardware initialization for the secure world as well as abort handlers for catching and reporting expected and unexpected exceptions.
 
 The only tests included and directly executed by the secure world component are preliminary checks for security extension support and validation of the initial processor state.  Otherwise, the majority of the test cases are defined in the non-secure user mode component and dispatched to the secure world. The secure world infrastructure is capable of executing tests in either supervisor (PL1) or user (PL0) mode.
 
-
 #### Monitor component
-
 
 The primary responsibility of the monitor component is to handle transitioning between the secure and non-secure worlds, just like in a real Trusted Execution Environment. Transitions are performed through the use of predefined opcodes for directing SMC exceptions.
 
-
 #### Non-secure world component
-
 
 The non-secure world component is the main test component and contains the bulk of the actual test cases. The non-secure world includes both supervisor mode (PL1) and user mode (PL0) functionality.
 
@@ -119,12 +104,9 @@ The privileged functionality is responsible for non-secure world initialization 
 
 The unprivileged functionality consists of the suite of TrustZone test functions executed in the varying modes and states.
 
-
 ### Test Case Execution
 
-
 As depicted below, all test functions originate as part of the non-secure user mode functionality. Each test function is dispatched to a specific processor mode and secure state from non-secure user mode through a series of SVC and SMC calls. The test function dispatching allows data to be passed to the function as well as allowing status to be returned to the origin.
-
 
 {% include image.html path="/assets/images/blog/non-secure-user-mode-quem-trustzon-4.jpg" alt="non-secure-user-mode-quem-trustzon-4" %}
 
@@ -133,7 +115,6 @@ This framework is intended to resemble the real-world usage while validating tha
 Test execution behaves as you might expect with a Trusted Execution Environment (TEE) by initiating secure operations from a user mode application. The executed test functions validate QEMU’s implementation of the TrustZone features while utilizing the features themselves. Just like a Trusted Execution Environment, execution utilizes secure monitor calls for transitioning between the worlds. As well, TrustZone features are leveraged to keep these worlds isolated.
 
 # Test Status
-
 
 Currently, the test provides the necessary infrastructure for validating the proper operation of code executing in the secure and non-secure worlds. The infrastructure includes functionality for performing transitions between the worlds as well as utilities for verifying exception behavior. As well, the below set of tests are provided for testing certain TrustZone architectural features as well as to serve as an example.
 
@@ -306,7 +287,6 @@ Test for the secure to non-secure world handshake. This test is provided to insu
 </tbody>
 </table>
 
-
 ### TrustZone QEMU Availability
 
 #### Where can I TrustZone enabled QEMU?
@@ -315,9 +295,7 @@ Since the past blog post ([/blog/core-dump/arm-trustzone-qemu/](/blog/arm-trustz
 
 The instructions in the previous blog post are still relevant and may be followed for executing secure images.
 
-
 #### Where can I find the QEMU TrustZone validation test?
-
 
 The early QEMU TrustZone tests are available via GIT. Once cloned, change directory to the newly created test root directory (qemu.tztest in the below example), the test can be configured and built for a given architecture. Running configure with no options builds the test for Versatile Express with a Arm Cortex A15.
 
@@ -339,6 +317,7 @@ The tests can then be run with the following command from the root of the QEMU d
     $ ./arm-softmmu/qemu-system-arm -machine vexpress-a15 -cpu cortex-a15 -serial stdio -m 1024 -bios $PATH_TO_TESTDIR/arm/tztest.img
 
 ```
+
 Alternatively, the test can be configured for and run on QEMU’s virt device:
 
 ```bash
@@ -350,11 +329,9 @@ Alternatively, the test can be configured for and run on QEMU’s virt device:
 
 ```
 
-
 Currently, the tests are restricted to the Arm Versatile Express and Virt machine models, but can be expanded in the future to include other models.
 
 ### References
-
 
 [1] [http://www.arm.com/products/processors/technologies/TrustZone/index.php](http://www.arm.com/products/processors/technologies/trustzone/index.php)
 

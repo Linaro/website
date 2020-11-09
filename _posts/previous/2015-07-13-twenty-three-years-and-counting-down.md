@@ -1,7 +1,6 @@
 ---
 author: john.stultz
-categories:
-- Blog
+category: blog
 comments: true
 date: 2015-07-13 22:24:39
 description: On Jan 19th 2038, the number of seconds since the Unix Epoc (Jan 1st
@@ -15,12 +14,7 @@ layout: post
 link: /blog/core-dump/twenty-three-years-and-counting-down/
 slug: twenty-three-years-and-counting-down
 tags:
-- Core Dump
-- 32-bit systems
-- epoc
 - Linux
-- unix
-- y2038
 title: Twenty three years and counting down
 wordpress_id: 8971
 ---
@@ -31,11 +25,11 @@ If fact, much of our work is focused on the ever changing. Product lifecycles ha
 
 But some far out events can be expected and responsibly planned for. Weather will wear on our houses, and roofs will need to be replaced. Children will grow and (with luck) will need money for college. We will get too old to work and will have to retire. It is all mostly mundane: life will likely continue on much as it has, but some day there will be an urgent need, and if we plan, those needs can hopefully be met.
 
-**The [y2038 issue](https://en.wikipedia.org/wiki/Year_2038_problem) is one of those items. On Jan 19th 2038*, the number of seconds since the Unix Epoc (Jan 1st 1970) will be larger than can be held in a signed 32-bit value. This means on 32-bit systems time will overflow and jump back to 1901. This is very similar to “Y2K” for 32-bit Unix/Posix systems.**
+**The [y2038 issue](https://en.wikipedia.org/wiki/Year_2038_problem) is one of those items. On Jan 19th 2038\*, the number of seconds since the Unix Epoc (Jan 1st 1970) will be larger than can be held in a signed 32-bit value. This means on 32-bit systems time will overflow and jump back to 1901. This is very similar to “Y2K” for 32-bit Unix/Posix systems.**
 
 To most, twenty three years in the future is an unimaginably long way out. More than half of most of our careers, and longer than some kernel developers have been alive! Why fret now? Surely the world will have moved to 64-bit systems by then! Twenty three years is plenty of time to fix things!
 
-This may be true, but it is not a matter of just getting a solution in place on the eve of Jan 19th 2038*.
+This may be true, but it is not a matter of just getting a solution in place on the eve of Jan 19th 2038\*.
 
 As processing power and RAM gets cheaper and physically smaller, many use cases that conventionally used specialized tiny microcontrollers, are using more general purpose 32-bit SoCs, and using Linux for their OS.
 
@@ -67,4 +61,4 @@ If you’re interested in helping out with the effort, mailing list info and arc
 
 And the wiki page for the effort is here: [http://kernelnewbies.org/y2038](http://kernelnewbies.org/y2038)
 
-_*Please excuse our typo in the original version. The correct date should be January 19, 2038._
+_\*Please excuse our typo in the original version. The correct date should be January 19, 2038._

@@ -1,29 +1,26 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2014-05-29 15:59:15
 description: "Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon,
-  STMicroelectronics and ZTE have joined Linaro\xE2\x80\x99s new Segment Group focused
+  STMicroelectronics and ZTE have joined Linaroâ\x80\x99s new Segment Group focused
   on accelerating open source development for Arm processors in digital home applications"
-excerpt: "Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon, STMicroelectronics
-  and ZTE have joined Linaro\u2019s new Segment Group focused on accelerating open
-  source development for Arm processors in digital home applications"
+excerpt: Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon, STMicroelectronics
+  and ZTE have joined Linaro’s new Segment Group focused on accelerating open source
+  development for Arm processors in digital home applications
 layout: post
 link: /news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/
 slug: leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms
 tags:
-- digital home
 - Linaro
 - Linux
-- Linux on Arm
+- Linux On Arm
 - Open Source
 title: 'Leaders in Digital Home Solutions Collaborate with Linaro on Arm Linux Platforms '
 wordpress_id: 5907
 ---
 
 ## Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon, STMicroelectronics and ZTE have joined Linaro’s new Segment Group focused on accelerating open source development for Arm processors in digital home applications
-
 
 CAMBRIDGE, UK; 29 MAY 2014
 
@@ -39,14 +36,13 @@ Members of LHG will collaborate on fundamental software platforms to enable rapi
 
 The LHG steering committee has selected the following key initiatives for the software engineering effort:
 
-  1. A common core Linux platform. The Linaro Stable Kernel (LSK) is based on the kernel.org long-term supported (LTS) kernel. LHG will leverage this with a Group-focused baseline and add features such as DRM (digital rights management), DLNA (Digital Living Network Alliance) and CVP-2 (Commercial Video Profile 2). LHG will provide a core Linux platform build with versions to support the base layer of the RDK (Reference Design Kit), Android-based products, and manufacturer-specific Linux-based products. The LHG platform will support different vendor applications and user interfaces.
+1. A common core Linux platform. The Linaro Stable Kernel (LSK) is based on the kernel.org long-term supported (LTS) kernel. LHG will leverage this with a Group-focused baseline and add features such as DRM (digital rights management), DLNA (Digital Living Network Alliance) and CVP-2 (Commercial Video Profile 2). LHG will provide a core Linux platform build with versions to support the base layer of the RDK (Reference Design Kit), Android-based products, and manufacturer-specific Linux-based products. The LHG platform will support different vendor applications and user interfaces.
 
-  2. Development of improved media framework APIs. LHG will work to establish standardized APIs to different media hardware, codecs, accelerators, and other peripheral functions across multiple members’ SoCs to improve middleware portability
+2. Development of improved media framework APIs. LHG will work to establish standardized APIs to different media hardware, codecs, accelerators, and other peripheral functions across multiple members’ SoCs to improve middleware portability
 
-  3. Development of a standard media security platform based on Arm Trustzone® technology. This will deliver an open source implementation of the W3C Encrypted Media Extensions (EME) standard for TrustZone-based Arm SoCs.
+3. Development of a standard media security platform based on Arm Trustzone® technology. This will deliver an open source implementation of the W3C Encrypted Media Extensions (EME) standard for TrustZone-based Arm SoCs.
 
-  4. Integration of key open source standards-based software. The LHG steering committee will identify key open sourced standards to be integrated by the group’s engineering team. Items already under discussion include optimized HTML5 support and DLNA CVP-2.
-
+4. Integration of key open source standards-based software. The LHG steering committee will identify key open sourced standards to be integrated by the group’s engineering team. Items already under discussion include optimized HTML5 support and DLNA CVP-2.
 
 As with LEG and LNG, LHG will utilize output from Linaro’s core engineering group and will have a representative on the Linaro Technical Steering Committee (TSC). Key shared areas include the Linaro Automated Validation Architecture (LAVA) test and continuous integration (CI) farm for member SoC enablement and validation, multicore power management, virtualization and Armv8 64-bit development**.**
 
@@ -55,8 +51,6 @@ As with LEG and LNG, LHG will utilize output from Linaro’s core engineering gr
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 200 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: its goal is to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The majority of Linaro’s engineering work is open to all online. To find out more, please visit [](/).
-
-
 
 **Linaro Home Group (LHG) Founding Member Testimonials**
 

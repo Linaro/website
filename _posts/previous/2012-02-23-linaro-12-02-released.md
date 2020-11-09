@@ -1,14 +1,12 @@
 ---
 author: david.zinman
-categories:
-- Blog
+category: blog
 date: 2012-02-23 19:23:18
 description: Links to all the downloads for the Linaro 12.02 release
 layout: post
 link: /blog/releases-blog/linaro-12-02-released/
 slug: linaro-12-02-released
-tags:
-- Releases
+tags: []
 title: Linaro 12.02 Released
 wordpress_id: 1278
 ---
@@ -19,41 +17,35 @@ We are pleased to announce the release of Linaro 12.02.
 
 Linaro 12.02 contains components delivered by all Linaro Teams --Working Groups, Landing Teams and Platform Teams-- and brings an abundance of exciting updates and new features which are integrated on top of Android and Ubuntu.
 
-During the 12.02 cycle, Linaro hosted its [Linaro Connect Q1.12](https://connect.linaro.org/resources/) in Redwood City, California on 6-10 February.  Many Linaro Team members also participated in the [2nd Annual Android Builders Summit]()https://events.linuxfoundation.org/events/android-builders-summit on 13-14 February and the [Embedded Linux Conference](https://events.linuxfoundation.org/) on 15-17 February also held in Redwood City, California and hosted by the [LInux Foundation](http://www.linuxfoundation.org/).
+During the 12.02 cycle, Linaro hosted its [Linaro Connect Q1.12](https://connect.linaro.org/resources/) in Redwood City, California on 6-10 February. Many Linaro Team members also participated in the [2nd Annual Android Builders Summit]()https://events.linuxfoundation.org/events/android-builders-summit on 13-14 February and the [Embedded Linux Conference](https://events.linuxfoundation.org/) on 15-17 February also held in Redwood City, California and hosted by the [LInux Foundation](http://www.linuxfoundation.org/).
 
-During the Linaro Connect event there were daily [plenary, planning, and hacking sessions](https://connect.linaro.org/resources/#schedule) which attendees were encouraged to attend and take part in.  This event also marked the first time which [Google+ Hangouts](http://www.google.com/+/learnmore/) were used during a Connect event to encourage remote participation from those developers around the globe.  Also, held during this Connect event was the ever growing [Demo Friday event](https://connect.linaro.org/resources/) where Linaro, its [community](/resources/), [partners](/membership/) and [members](/membership/) came together and demonstrated the agile development process which is highlighted monthly in each of our releases.
+During the Linaro Connect event there were daily [plenary, planning, and hacking sessions](https://connect.linaro.org/resources/#schedule) which attendees were encouraged to attend and take part in. This event also marked the first time which [Google+ Hangouts](http://www.google.com/+/learnmore/) were used during a Connect event to encourage remote participation from those developers around the globe. Also, held during this Connect event was the ever growing [Demo Friday event](https://connect.linaro.org/resources/) where Linaro, its [community](/resources/), [partners](/membership/) and [members](/membership/) came together and demonstrated the agile development process which is highlighted monthly in each of our releases.
 
 Highlights from this Linaro Connect event which influence this and future releases include:
 
 **Plenary Sessions:**
 
-* [ David Rusling, Linaro CTO, Phase III Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=ZSoCCRF7Hl0&list=UUAl2MfCBjH5y0nIym0ujHfg&index=9&feature=plcp)
+- [ David Rusling, Linaro CTO, Phase III Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=ZSoCCRF7Hl0&list=UUAl2MfCBjH5y0nIym0ujHfg&index=9&feature=plcp)
 
+- [George Grey, Linaro CEO, Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=Cl4Yr9rf7fQ&list=UUAl2MfCBjH5y0nIym0ujHfg&index=8&feature=plcp)
 
-* [George Grey, Linaro CEO, Plenary Presentation at Linaro Connect Q1.12](http://www.youtube.com/watch?v=Cl4Yr9rf7fQ&list=UUAl2MfCBjH5y0nIym0ujHfg&index=8&feature=plcp)
+- [Kiko, Linaro Engineering VP: Arm, the new mainstream](http://www.youtube.com/watch?v=86Ox3wWOWTw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=7&feature=plcp)
 
+- [Linaro Connect Plenary: Andrea Gallo of ST-ERICSSON](http://www.youtube.com/watch?v=-WnsPPq_A50&list=UUAl2MfCBjH5y0nIym0ujHfg&index=5&feature=plcp)
 
-* [Kiko, Linaro Engineering VP: Arm, the new mainstream](http://www.youtube.com/watch?v=86Ox3wWOWTw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=7&feature=plcp)
-
-
-* [Linaro Connect Plenary: Andrea Gallo of ST-ERICSSON](http://www.youtube.com/watch?v=-WnsPPq_A50&list=UUAl2MfCBjH5y0nIym0ujHfg&index=5&feature=plcp)
-
-
-* [Tim Bird of the Linux Foundation at Linaro Connect](http://www.youtube.com/watch?v=dub3HgezCAs&list=UUAl2MfCBjH5y0nIym0ujHfg&index=2&feature=plcp)
+- [Tim Bird of the Linux Foundation at Linaro Connect](http://www.youtube.com/watch?v=dub3HgezCAs&list=UUAl2MfCBjH5y0nIym0ujHfg&index=2&feature=plcp)
 
 **Interviews:**
 
-* [Linaro Connect: Patrik Klinger Talks Snowball & The Igloo Community](http://www.youtube.com/watch?v=cxYdyEEb9X4&list=UUAl2MfCBjH5y0nIym0ujHfg&index=6&feature=plcp)
+- [Linaro Connect: Patrik Klinger Talks Snowball & The Igloo Community](http://www.youtube.com/watch?v=cxYdyEEb9X4&list=UUAl2MfCBjH5y0nIym0ujHfg&index=6&feature=plcp)
 
-
-* [Tim Bird and David Rusling Chat at Linaro Connect](http://www.youtube.com/watch?v=xgdTzBl-3wQ&list=UUAl2MfCBjH5y0nIym0ujHfg&index=1&feature=plcp)
+- [Tim Bird and David Rusling Chat at Linaro Connect](http://www.youtube.com/watch?v=xgdTzBl-3wQ&list=UUAl2MfCBjH5y0nIym0ujHfg&index=1&feature=plcp)
 
 **Demos:**
 
-* [Ubuntu TV Demo on Arm](http://www.youtube.com/watch?v=tpIFaAxyFGE&list=UUAl2MfCBjH5y0nIym0ujHfg&index=4&feature=plcp)
+- [Ubuntu TV Demo on Arm](http://www.youtube.com/watch?v=tpIFaAxyFGE&list=UUAl2MfCBjH5y0nIym0ujHfg&index=4&feature=plcp)
 
-
-* [XBMC on ST-ERICSSON's Snowball](http://www.youtube.com/watch?v=14p-WOFAWWw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=3&feature=plcp)
+- [XBMC on ST-ERICSSON's Snowball](http://www.youtube.com/watch?v=14p-WOFAWWw&list=UUAl2MfCBjH5y0nIym0ujHfg&index=3&feature=plcp)
 
 Other video from Linaro can be found on the [Linaro Youtube channel](http://www.youtube.com/user/linaroorg).
 
@@ -63,7 +55,7 @@ By using proper image builds and validation with [LAVA](https://wiki-archive.lin
 
 The Linaro Dev Platform team will now be responsible for packaging and maintenance of all the LT kernel flavors. Responsibilities will include validating the kernel daily with LAVA, and only publishing the kernels (which pass validation testing) to be used by the LEB images (until the new linux-linaro tree is in place).
 
-During both Linaro Connect Q1.12 and the Embedded Linux Conference (ELC), Rob Clark and Sumit Semwal demo'd v4l2+drm buffer sharing with dmabuf as part of the Unified Memory Management work carried out by Linaro and its members.  The Multimedia team worked to improve the validation outlook on LAVA for audio and created test definitions which are related to e2e tests-- which will run on LAVA for Ubuntu and Android, as well as a number of benchmarks (LJT, Realvideo). The first internal demo of the dashboard for Graphics benchmarks with glmark2 was showcased at this Linaro Connect and the [Linaro Graphics team](https://wiki-archive.linaro.org/WorkingGroups/Middleware/Graphics) notes that even at this early stage the dashboard shows great promise to detect graphics related performance regressions. The CMA testing suite on LAVA was also updated and follows the newest versions of CMA patches--Contiguous Memory Allocator - part of the Unified Memory Management effort.
+During both Linaro Connect Q1.12 and the Embedded Linux Conference (ELC), Rob Clark and Sumit Semwal demo'd v4l2+drm buffer sharing with dmabuf as part of the Unified Memory Management work carried out by Linaro and its members. The Multimedia team worked to improve the validation outlook on LAVA for audio and created test definitions which are related to e2e tests-- which will run on LAVA for Ubuntu and Android, as well as a number of benchmarks (LJT, Realvideo). The first internal demo of the dashboard for Graphics benchmarks with glmark2 was showcased at this Linaro Connect and the [Linaro Graphics team](https://wiki-archive.linaro.org/WorkingGroups/Middleware/Graphics) notes that even at this early stage the dashboard shows great promise to detect graphics related performance regressions. The CMA testing suite on LAVA was also updated and follows the newest versions of CMA patches--Contiguous Memory Allocator - part of the Unified Memory Management effort.
 
 We encourage everybody to use the 12.02 release. The download links for all images and components are available on our downloads page:
 
@@ -88,36 +80,31 @@ If you are interested in getting the source and building these images yourself p
 
 [http://wiki-archive.linaro.org/Platform/Android/BuildSource](http://wiki-archive.linaro.org/Platform/Android/BuildSource)
 
-
 ## Using the Ubuntu-based images
 
 The Ubuntu-based images consist of two parts. The first part is a hardware pack, which can be found under the hwpacks directory and contains hardware specific packages (such as the kernel and bootloader). The second part is the rootfs, which is combined with the hardware pack to create a complete image. For more information on how to create an image please see:
 
 [http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
-
-
 ## Getting involved
 
-
-
 More information on Linaro can be found on our websites:
-* Homepage: []()
-* Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org)
+
+- Homepage: []()
+- Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org)
 
 Also subscribe to the important Linaro mailing lists and join our IRC
 channels to stay on top of Linaro developments:
 
-* Announcements:
-[http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
+- Announcements:
+  [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-* Development:
-[http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
+- Development:
+  [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-* IRC:
-#linaro on irc.linaro.org or irc.freenode.net
-#linaro-android irc.linaro.org or irc.freenode.net
-
+- IRC:
+  #linaro on irc.linaro.org or irc.freenode.net
+  #linaro-android irc.linaro.org or irc.freenode.net
 
 ## Known issues with this release
 

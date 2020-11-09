@@ -1,24 +1,21 @@
 ---
 author: shovan
-categories:
-- News
+category: news
 date: 2015-05-01 12:00:04
-description: "Linaro Ltd, the collaborative engineering organization developing open
-  source software for the Arm\xC2\xAE architecture, today added the Advanced Technologies
+description: Linaro Ltd, the collaborative engineering organization developing open
+  source software for the ArmÂ® architecture, today added the Advanced Technologies
   and Projects (ATAP) Group of Google Inc. as a member of the Linaro Mobile Group
-  (LMG)."
-excerpt: "Linaro Ltd, the collaborative engineering organization developing open source
-  software for the Arm\xAE architecture, today added the Advanced Technologies and
-  Projects (ATAP) Group of Google Inc. as a member of the Linaro Mobile Group (LMG)."
+  (LMG).
+excerpt: Linaro Ltd, the collaborative engineering organization developing open source
+  software for the Arm® architecture, today added the Advanced Technologies and Projects
+  (ATAP) Group of Google Inc. as a member of the Linaro Mobile Group (LMG).
 layout: post
 link: /news/google-atap-joins-linaro-mobile-group-to-extend-collaboration-in-project-ara/
 slug: google-atap-joins-linaro-mobile-group-to-extend-collaboration-in-project-ara
 tags:
-- google
-- google atap
+- Google
 - Linaro
 - Linaro Mobile Group
-- lmg
 title: Google ATAP joins Linaro Mobile Group to extend collaboration in Project Ara
 wordpress_id: 8503
 ---

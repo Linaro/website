@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-02-29 22:48:01
 description: FXI Technologies, is now accepting pre-orders for its USB sized, any
   screen, Linaro LEB based cloud computer--Cotton Candy.
@@ -10,10 +9,7 @@ keywords: Linaro, Linux on Arm, Android, Ubuntu, Cotton Candy, FXI Technologies,
 layout: post
 link: /blog/industry-blog/linaro-sweetens-cotton-candys-success/
 slug: linaro-sweetens-cotton-candys-success
-tags:
-- Community
-- Hardwares
-- Industry
+tags: []
 title: Linaro Sweetens Cotton Candy's Success
 wordpress_id: 1311
 ---
@@ -21,7 +17,6 @@ wordpress_id: 1311
 {% include image.html path="/assets/images/blog/logo_cstick_white.png" class="small-inline" %}
 
 FXI Technologies, Inc. [announced](https://www.arm.com/markets/home/cstick-cotton-candy.php) from [Mobile World Congress](https://www.mobileworldcongress.com/) earlier this week that [it is now accepting pre-orders](https://www.arm.com/markets/home/cstick-cotton-candy.php) for its light weight,  USB sized, any screen cloud computer—[Cotton Candy](http://www.fxitech.com/products/).
-
 
 FXI Technologies announced the launch of [cstick.com](https://www.arm.com/markets/home/cstick-cotton-candy.php)—the Cotton Candy developer site—in the same press release.
 
@@ -33,9 +28,9 @@ Linaro community specialist, Amber Graner, asked FXI Technologies  founder and 
 
 Cotton Candy has been on display at this week’s Mobile World Congress and according to FXI Technologies, it is the unique architecture that allows the device to serve as a companion to smartphones, tablets, notebook PCs and Macs and will add smart capabilities to existing displays, set top boxes and game consoles.
 
-The specifications for Cotton Candy include an Arm® Cortex™-A9 (1GHz) CPU from Samsung, an Arm Mali™-400 MP (Quad-core, 1.2GHz) GPU, Wi-Fi and _Bluetooth_® wireless technology , HDMI output and the Android operating system. It decodes MPEG-4, H.264 and other video formats and display HD graphics on any HDMI equipped screen.  A [pdf product brief](http://www.fxitech.com/wp-content/uploads/2010/12/productbrief_cottoncandy.pdf) is also available.
+The specifications for Cotton Candy include an Arm® Cortex™-A9 (1GHz) CPU from Samsung, an Arm Mali™-400 MP (Quad-core, 1.2GHz) GPU, Wi-Fi and *Bluetooth*® wireless technology , HDMI output and the Android operating system. It decodes MPEG-4, H.264 and other video formats and display HD graphics on any HDMI equipped screen.  A [pdf product brief](http://www.fxitech.com/wp-content/uploads/2010/12/productbrief_cottoncandy.pdf) is also available.
 
-The cost for Cotton Candy is $199.00 and doesn't include tax and shipping.  More information about ordering can be found on the [cstick store site](https://www.arm.com/markets/home/cstick-cotton-candy.php).
+The cost for Cotton Candy is \$199.00 and doesn't include tax and shipping.  More information about ordering can be found on the [cstick store site](https://www.arm.com/markets/home/cstick-cotton-candy.php).
 
 **About FXI**
 

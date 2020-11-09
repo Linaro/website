@@ -4,15 +4,15 @@ title: ' Linaro in OpenStack'
 date: '2020-01-16 02:35:45'
 image: /assets/images/content/DataCenter.jpg
 tags:
-  - datacenter
-  - cloud
-  - servers
-  - OpenStack
-  - AArch64
-  - Linaro Developer Cloud
-category: Blog
+- Datacenter
+- Servers
+- OpenStack
+- Aarch64
+- Linaro Developer Cloud
+category: blog
 author: Marcin.Juszkiewicz
 ---
+
 During the first years of OpenStack’s existence, Arm architecture was mostly used in the embedded and mobile space. Servers were not part of the picture.
 
 In 2011 came the AArch64 – 64-bit architecture from Arm Ltd. Two years later the first servers arrived. Distributions started supporting new architecture, several embedded/mobile devices landed in the hands of users and developers. More and more projects added support for AArch64/Arm64 architecture.

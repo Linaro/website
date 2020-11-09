@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2015-02-09 01:55:53
 description: Actions Technology invests in enabling the open source development community
   with the development of a new cost-effective Arm 64-bit development board
@@ -12,9 +11,8 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on Arm
+- Linux On Arm
 - Open Source
-- Opensource
 title: Linaro announces Actions Technology as a founding member of the Linaro Community
   Boards Group
 wordpress_id: 7925
@@ -42,7 +40,7 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 **About Actions Technology (Zhuhai)**
 
-Actions Technology focuses on solutions for smart handheld and smart home devices. Its main products are tablet, over-the-Top (“OTT”) set-top boxes and _Bluetooth_® wireless technology boombox solutions, along with total product and technology solutions based on the Android platform. These products feature high performance, low power multi-core CPUs and GPUs, supporting high resolution displays and wireless connectivity. Actions Technology currently has nearly 500 employees, 425 of whom are engineers. Among these engineers, more than half have over three years of research and development experience. Actions Technology is ranked among the first in terms of engineering talent, project experience and product quality within the IC design industry in China. Zhuhai Actions Technology is a wholly owned subsidiary of Actions Semiconductor Co. Ltd..
+Actions Technology focuses on solutions for smart handheld and smart home devices. Its main products are tablet, over-the-Top (“OTT”) set-top boxes and *Bluetooth*® wireless technology boombox solutions, along with total product and technology solutions based on the Android platform. These products feature high performance, low power multi-core CPUs and GPUs, supporting high resolution displays and wireless connectivity. Actions Technology currently has nearly 500 employees, 425 of whom are engineers. Among these engineers, more than half have over three years of research and development experience. Actions Technology is ranked among the first in terms of engineering talent, project experience and product quality within the IC design industry in China. Zhuhai Actions Technology is a wholly owned subsidiary of Actions Semiconductor Co. Ltd..
 
 **About Actions Semiconductor Co., Ltd.**
 

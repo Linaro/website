@@ -1,14 +1,20 @@
 ---
-title: Linaro announces launch of Machine Intelligence Initiative 
+title: Linaro announces launch of Machine Intelligence Initiative
 author: linaro
 layout: post
 date: 2018-09-17 09:00:00+00:00
-description: >-
-  Linaro announces launch of Machine Intelligence Initiative to reduce redundant engineering and fragmentation in the deep learning and neural network acceleration ecosystem and accelerate development of new technology solutions. 
-categories: News
-tags: Linaro, Linaro Connect, Arm, Arm NN, Neural Networks, Machine Intelligence, Google, TensorFlow
+description: Linaro announces launch of Machine Intelligence Initiative to reduce
+  redundant engineering and fragmentation in the deep learning and neural network
+  acceleration ecosystem and accelerate development of new technology solutions.
+category: news
+tags:
+- Linaro
+- Linaro Connect
+- Arm
+- Google
 ---
-Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that it is launching its Machine Intelligence Initiative as a focal point for collaborative engineering in this space. Arm is supporting this new initiative with engineering resources and by opening up Arm’s Neural Network (NN) inference engine to external contributions. Arm, Linaro, and the other members of the Machine Intelligence Initiative will collaborate to reduce redundant engineering and fragmentation in the deep learning and neural network acceleration ecosystem and accelerate development of new technology solutions. 
+
+Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that it is launching its Machine Intelligence Initiative as a focal point for collaborative engineering in this space. Arm is supporting this new initiative with engineering resources and by opening up Arm’s Neural Network (NN) inference engine to external contributions. Arm, Linaro, and the other members of the Machine Intelligence Initiative will collaborate to reduce redundant engineering and fragmentation in the deep learning and neural network acceleration ecosystem and accelerate development of new technology solutions.
 
 “The development of a common software interface supporting industry-leading frameworks and tools is one of the biggest requirements in accelerating adoption of machine learning by developers,” said Robert Elliott, director of applied machine learning, Arm. “Arm is addressing this with our donation of the Arm NN inference engine to the Machine Intelligence Initiative, which will quickly enable the Linaro community and Arm ecosystem to deploy machine learning across the widest number of applications.”
 
@@ -31,21 +37,3 @@ In addition to working on reducing redundant software engineering, Linaro and it
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 300 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [https://www.linaro.org](/) and [https://www.96Boards.org](https://www.96Boards.org/).
-
-
-
-
-
-
-
-
-
-
- 
-
-  
-
-
-
-
-

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-06-27 18:01:37
 description: The Linaro 13.06 release is now available for download!
 keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE-Dublin,
@@ -10,16 +9,12 @@ keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE-Dub
 layout: post
 link: /blog/releases-blog/linaro-13-06-released/
 slug: linaro-13-06-released
-tags:
-- Releases
+tags: []
 title: Linaro 13.06 Released!
 wordpress_id: 2787
 ---
 
->
 > Without deviation from the norm, progress is not possible.  ~Frank Zappa
->
->
 
 ## The Linaro 13.06 release is now available for download!
 
@@ -75,17 +70,17 @@ With the Linaro provided downloads and with Arm’s Fast Models virtual platform
 
 More information on Linaro can be found on our websites:
 
-* Homepage: [](/)
+- Homepage: [](/)
 
-* Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
+- Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
-* Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
+- Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-* Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
+- Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-* IRC:
+- IRC:
 
 #linaro on irc.linaro.org or irc.freenode.net
 

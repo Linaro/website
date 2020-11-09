@@ -1,20 +1,18 @@
 ---
 layout: post
-title: >-
-  Microsoft to talk IoT security with Azure Sphere at the upcoming Linaro
-  Connect San Diego 2019
+title: Microsoft to talk IoT security with Azure Sphere at the upcoming Linaro Connect
+  San Diego 2019
 date: '2019-09-10 09:22:35'
 image: /assets/images/content/microsoft-sphere-2.jpg
 tags:
-  - Microsoft
-  - Azure Sphere
-  - Linaro Connect
-  - Linux
-  - Security
-  - IoT and Embedded
-category: Blog
+- Linaro Connect
+- Linux
+- Security
+- IoT and Embedded
+category: blog
 author: andrea.gallo
 ---
+
 In less than a week, we will be hosting Linaro Connect at San Diego Paradise Point, September 23-27, 2019. We are pleased to announce that the Microsoft Azure Sphere team will be joining us, presenting an Azure Sphere IoT Track on Tuesday, September 24. If you are attending Linaro Connect you can register for these sessions by going to [the event schedule](https://connect.linaro.org/schedule/). For those following remotely, Linaro Connect keynotes will be streamed live on [Linaro’s YouTube channel](https://www.youtube.com/LinaroOrg/live) and resources for sessions will be made available by the end of the week on the [Linaro Connect website](https://connect.linaro.org/resources/). Here is a snapshot of what you can expect:
 
 ## How do we keep billions of internet connected devices secure?

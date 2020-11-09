@@ -1,18 +1,19 @@
 ---
 layout: post
-title: 96Boards announces launch of Rockchip RK3399 Board Compliant with 96Boards SOM specification
-date: "2019-09-24 01:00:00"
+title: 96Boards announces launch of Rockchip RK3399 Board Compliant with 96Boards
+  SOM specification
+date: '2019-09-24 01:00:00'
 image: /assets/images/content/PR_96Boards_banner_pic.jpg
 tags:
-  - Linaro
-  - 96boards
-  - SoM
-category: News
+- Linaro
+- 96Boards
+category: news
 author: linaro
 ---
+
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, and 96Boards Manufacturing Partner Geniatech today announced the launch of another Rockchip RK3399 Board and Carrier Board.
 
-The module adopts the [96Board Computing SOM specification launched in April 2019](/news/linaro-announces-launch-of-96boards-system-on-module-som-specification/). The SOM specification is based on a standard form factor and is compatible across SoCs. This means more choice and flexibility for developers, who can seamlessly plug and play between a range of different SOM solutions. The launch of the RK3399 provides yet another SOM solution, delivering low power consumption and high efficiency, with a CPU frequency up to 1.8 GHZ and excellent image processing ability. The RK3399 SOM can also be combined with the carrier board to form a complete industrial application motherboard, which can be applied in various embedded Internet of Things fields. Boards can be purchased directly from Geniatech’s website [https://www.geniatech.com/product/som3399/](https://www.geniatech.com/product/som3399/). 
+The module adopts the [96Board Computing SOM specification launched in April 2019](/news/linaro-announces-launch-of-96boards-system-on-module-som-specification/). The SOM specification is based on a standard form factor and is compatible across SoCs. This means more choice and flexibility for developers, who can seamlessly plug and play between a range of different SOM solutions. The launch of the RK3399 provides yet another SOM solution, delivering low power consumption and high efficiency, with a CPU frequency up to 1.8 GHZ and excellent image processing ability. The RK3399 SOM can also be combined with the carrier board to form a complete industrial application motherboard, which can be applied in various embedded Internet of Things fields. Boards can be purchased directly from Geniatech’s website [https://www.geniatech.com/product/som3399/](https://www.geniatech.com/product/som3399/).
 
 1. The SOM 3399 includes the following features:
 
@@ -27,30 +28,30 @@ T860MP4 Quad-core GPUdeliversexcellent image processing ability
 4Kx2K up to 60fpsHD Resolution
 
 Supports 4Kx2K (VP9H.265/HEVC/H.264/AVC), 1080P @ 60fps multi-format video decoding (MPEG-1,MPEG-2,MPEG-4,VC-1),and video encoder for H.264 up to HP@level 4.1, MVC and VP8. 
-Multiple video input and output interfaces 
+Multiple video input and output interfaces
 
 2 MIPI-DSI input interfaces with two ISP image processors, and Embed two VOPs. Supports dual-screen simultaneous/dual-screen display.
 
-Ultra-high integration - ultra-small size 
+Ultra-high integration - ultra-small size
 
-The core board integrates RK3399, CPU DDR, eMMC, a power management module, and Ethernet PHY chip. It has high integration, which greatly reduces the design difficulty of the application backplane and helps enterprises to quickly develop mass production specific application products. 
+The core board integrates RK3399, CPU DDR, eMMC, a power management module, and Ethernet PHY chip. It has high integration, which greatly reduces the design difficulty of the application backplane and helps enterprises to quickly develop mass production specific application products.
 
 **Product Specification**
 
-| | |
-|--- | ---- |
-| SOC | Rockchip RK3399  |
-| CPU | Dual-core Cortex-A72 up to 1.8GHz
-Quad-core Cortex-A53 up to 1.4GHz  |
-| GPU | ARM® Mali-T860 MP4 Quad-core GPU
-Support OpenGL ES1.1/2.0/3.0, OpenCL1.2, DirectX11.1 etc. Support AFBC  |
-| RAM | 4GB LPDDR4  |
-| Storage | 8GB EMMC  |
-| Power | 5V  |
-| System Support  | Android, Linux   |
-| Size | 85mm×50mm×6mm   |
-| PCB specification | Rockchip RK3399  |
-| Interface Type | 4 100PIN high speed connectors  |
+|                                                                        |                                   |
+| ---------------------------------------------------------------------- | --------------------------------- |
+| SOC                                                                    | Rockchip RK3399                   |
+| CPU                                                                    | Dual-core Cortex-A72 up to 1.8GHz |
+| Quad-core Cortex-A53 up to 1.4GHz                                      |
+| GPU                                                                    | ARM® Mali-T860 MP4 Quad-core GPU  |
+| Support OpenGL ES1.1/2.0/3.0, OpenCL1.2, DirectX11.1 etc. Support AFBC |
+| RAM                                                                    | 4GB LPDDR4                        |
+| Storage                                                                | 8GB EMMC                          |
+| Power                                                                  | 5V                                |
+| System Support                                                         | Android, Linux                    |
+| Size                                                                   | 85mm×50mm×6mm                     |
+| PCB specification                                                      | Rockchip RK3399                   |
+| Interface Type                                                         | 4 100PIN high speed connectors    |
 
 2. 96Boards SoM Carrier Board
 
@@ -59,7 +60,6 @@ In addition to the 96Boards SOM RK3399, 96Boards and Geniatech have also launche
 {% include image.html path="/assets/images/content/som-pr-image.png" %}
 
 {% include image.html path="/assets/images/content/som-pr-image-2.png" %}
-
 
   <table  class="table table-responsive" style="border:none;border-collapse:collapse;">
     <tbody style="border-left:1px solid #000;">
@@ -269,7 +269,6 @@ In addition to the 96Boards SOM RK3399, 96Boards and Geniatech have also launche
       </tr>
     </tbody>
   </table>
-
 
 **About Linaro**
 

@@ -1,19 +1,16 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2016-08-30 12:41:20
-description: "Cambridge, UK: 30\xC2\_August 2016"
+description: 'Cambridge, UK: 30Â August 2016'
 layout: post
 link: /news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/
 slug: linaro-announces-first-development-board-compliant-96boards-tv-platform-specification
 tags:
 - 96Boards
-- arm
-- Enterprise edition
-- Hisilicon
+- Arm
 - Linux
-- Linux on Arm
+- Linux On Arm
 - Open Source
 title: Linaro Announces First Development Board Compliant with 96Boards TV Platform
   Specification
@@ -22,7 +19,7 @@ wordpress_id: 11512
 
 Cambridge, UK: 30 August 2016
 
-Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today announced support for the HiSilicon ‘Poplar’ board - the first development board compliant with the 96Boards Enterprise Edition TV Platform specification. The board is the latest addition to the 96Boards family, the open specification defining a platform for the delivery of low-cost 32-bit and 64-bit Arm ecosystem developer boards. It is available to purchase for under $100 from [Tocoding](http://en.tocoding.com/index.php/96boards-poplar/)[ Technologies](http://en.tocoding.com/index.php/96boards-poplar/).
+Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today announced support for the HiSilicon ‘Poplar’ board - the first development board compliant with the 96Boards Enterprise Edition TV Platform specification. The board is the latest addition to the 96Boards family, the open specification defining a platform for the delivery of low-cost 32-bit and 64-bit Arm ecosystem developer boards. It is available to purchase for under \$100 from [Tocoding](http://en.tocoding.com/index.php/96boards-poplar/)[ Technologies](http://en.tocoding.com/index.php/96boards-poplar/).
 
 Developed by HiSilicon, Poplar is a TV reference development board targeted at set-top box (STB) developers, the hobby community, and the open-source community. The board features the Hi3798C V200 with an integrated quad-core 64-bit Arm Cortex A53 processor and high performance Mali T720 GPU, making it capable of running any commercial set-top solution based on Linux or Android. Its high performance specification also supports a premium user experience with up to H.265 HEVC decoding of 4K video at 60 frames per second. The board will be launched with Android 5.1.1 pre-installed for an instant boot out of the box.
 
@@ -36,50 +33,7 @@ The Poplar board will serve as a common platform for LHG members to continue cre
 
 Developers using the Poplar board can experiment with “secure world” operating systems, such as OP-TEE, running on Arm TrustZone™, with reference platform builds provided by Linaro. The Poplar board has security processing capabilities that allow developers to integrate commercial DRMs and downloadable conditional access (DCAS) solutions. Poplar supports HDCP 2.2 copy protection to protect 4K Ultra HD content.
 
-
 {% include image.html path="/assets/images/blog/chart-4.jpg" alt="Chart 4 Image" %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 For more information, visit [http://www.96boards.org/product/poplar/](http://www.96boards.org/product/poplar/)
 

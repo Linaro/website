@@ -8,15 +8,13 @@ link: /blog/96boards-openhours-week-2/
 slug: 96boards-openhours-week-2
 title: 96Boards OpenHours week 2
 wordpress_id: 10630
-categories:
-- Blog
+category: blog
 tags:
 - 96Boards
-- android
-- hardware
+- Android
 - Linaro
 - Linux
-- Linux on Arm
+- Linux On Arm
 ---
 
 The second week of our ongoing [96Boards OpenHours](http://www.96boards.org/openhours/) took place yesterday.  For those of you unfamiliar with our 96Boards OpenHours, it is a weekly session every Thursday at 4pm BST. We begin these sessions with a short demo, presentation or tutorial and then it is open to answer any questions regarding 96Boards products, the specifications, troubleshooting etc..  This is a great place to get answers to any questions you may have, including bringing any questions from the forums that may not have been answered to your satisfaction.  OpenHours is a great place to get real-time answers to your questions.

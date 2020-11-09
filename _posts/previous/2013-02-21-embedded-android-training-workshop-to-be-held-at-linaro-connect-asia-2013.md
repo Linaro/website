@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-02-21 17:14:23
 description: Karim Yaghmour CEO, Opersys Inc., will be leading a 4-part Embedded Android
   Training Workshop during the upcoming Linaro Connect Asia (LCA-13) in Hong Hong.
@@ -27,23 +26,17 @@ While Android has been created for mobile devices -- phones first and now tablet
 
 Specifically, we will start by introducing Android's overall architecture and then proceed to peel Android's layer one-by-one. First, we will cover the Android Open Source Project (AOSP), the open source project under which Android's source code is released. We will then dig into the native Android user-space, Android's power tools, and cover how hardware support is implemented in Android. Given that Android is built on top of Linux, we will also go over some embedded Linux tricks and see how the kernel is modified to support the Android user-space. In addition, we will look at the System Server, the Android Framework and core Android applications, and how to customize them.
 
-
 ## Schedule (all times are listed in[ HKT](https://www.timeanddate.com/worldclock/converter.html))
 
-  * **10:00 AM** - Monday 4 March  - **[Android Internals](https://lca-13.zerista.com/event/member/72385)** - Grand Ballroom A
+- **10:00 AM** - Monday 4 March  - **[Android Internals](https://lca-13.zerista.com/event/member/72385)** - Grand Ballroom A
 
+- **12:00 PM** - Wednesday 6 March - **[Working with AOSP](https://lca-13.zerista.com/event/member/72386)** - Grand Ballroom B
 
-  * **12:00 PM** - Wednesday 6 March - **[Working with AOSP](https://lca-13.zerista.com/event/member/72386)** - Grand Ballroom B
+- **09:00 AM** - Thursday 7 March - **[Native Android User-Space](https://lca-13.zerista.com/event/member/72387)** - Grand Ballroom B
 
-
-  * **09:00 AM** - Thursday 7 March - **[Native Android User-Space](https://lca-13.zerista.com/event/member/72387)** - Grand Ballroom B
-
-
-  * **10:00 AM** - Friday 8 March - **[Using and Customizing the  Android Framework](https://lca-13.zerista.com/event/member/72388)** - Grand Ballroom B
-
+- **10:00 AM** - Friday 8 March - **[Using and Customizing the  Android Framework](https://lca-13.zerista.com/event/member/72388)** - Grand Ballroom B
 
 ## Attending the Sessions
-
 
 Individuals who are interested in attending this workshop can do so either in person or through remote participation.
 
@@ -54,18 +47,13 @@ _**Remote Participation**_
 The workshop will be live streamed via Google+ Hangouts on Air.  Instructions for remote participation can be found at:[ https://connect.linaro.org/lcu14/](https://connect.linaro.org/lcu14/)
 For the best remote participation experience you’ll need to do the following:
 
+- Add Linaro onAir to your Google+ circles-[ https://web.archive.org/web/2019\*/https://plus.google.com/u/0/116754366033915823792/posts](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts)
 
-  * Add Linaro onAir to your Google+ circles-[ https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts)
+- Bookmark the YouTube Linaro onAir channel –[ https://web.archive.org/web/2019\*/https://plus.google.com/u/0/116754366033915823792](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792)
 
+- Join the IRC channel for the named room (TBC) on freenode once LCA13 begins.
 
-  * Bookmark the YouTube Linaro onAir channel –[ https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792)
-
-
-  * Join the IRC channel for the named room (TBC) on freenode once LCA13 begins.
-
-
-  * You can join these channels using your IRC client or you can use webchat.
-
+- You can join these channels using your IRC client or you can use webchat.
 
 After you have added the[ Linaro onAir Google+ Page](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792/posts) to your Google+ circles or bookmarked the[ Linaro onAir Youtube channel](https://web.archive.org/web/2019*/https://plus.google.com/u/0/116754366033915823792) and figured out what sessions you would like to attend all you have to do is watch the live stream and add your comments, questions, or feedback to the corresponding IRC Channel. Each etherpad for the sessions will also list the link for the live stream and the IRC Channel for those sessions. (Remember the IRC Channel matches the room that the session is in) Once the session ends the etherpad will also contain the link to the session so anyone who missed the live stream can get to it from the LCA-13 schedule.
 

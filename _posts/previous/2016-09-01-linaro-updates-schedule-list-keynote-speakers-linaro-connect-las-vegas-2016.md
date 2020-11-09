@@ -1,22 +1,19 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2016-09-01 20:13:11
-description: "Cambridge, UK: 1\xC2\_September 2016"
+description: 'Cambridge, UK: 1Â September 2016'
 layout: post
 link: /news/linaro-updates-schedule-list-keynote-speakers-linaro-connect-las-vegas-2016/
 slug: linaro-updates-schedule-list-keynote-speakers-linaro-connect-las-vegas-2016
 tags:
-- conference
-- connect
+- Connect
 - Connect Events
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on Arm
+- Linux On Arm
 - Open Source
-- Opensource
 title: Linaro Updates Schedule and List of Keynote Speakers for Linaro Connect Las
   Vegas 2016
 wordpress_id: 11545
@@ -28,22 +25,18 @@ Cambridge, UK: 1 September 2016
 
 The keynote speakers currently scheduled for Linaro Connect LAS16 are:
 
-  * George Grey, **Linaro **CEO, on Monday 26th September
-  * Morgan Quigley, **Open Source Robotics Foundation** Chief Architect, on Monday 26th September
-  * Sarah Sharp, **Otter Tech** Founder, on Tuesday 27th September
-  * Geoff Thorpe, **NXP **Head of Security Center of Excellence, on Wednesday 28th September
-  * Brian Richardson, **Intel **Senior Technical Marketing Engineer, on Thursday 29th September
-  * Jono Bacon, **Jono Bacon Consulting** Founder, on Friday 30th September
+- George Grey, **Linaro **CEO, on Monday 26th September
+- Morgan Quigley, **Open Source Robotics Foundation** Chief Architect, on Monday 26th September
+- Sarah Sharp, **Otter Tech** Founder, on Tuesday 27th September
+- Geoff Thorpe, **NXP **Head of Security Center of Excellence, on Wednesday 28th September
+- Brian Richardson, **Intel **Senior Technical Marketing Engineer, on Thursday 29th September
+- Jono Bacon, **Jono Bacon Consulting** Founder, on Friday 30th September
 
+The keynotes are followed by discussion sessions, presentations and lots of engineering hacking. The agenda covers a broad range of open source topics, with a special focus on the Monday on IoT and Embedded, Tuesday on Mobile, Wednesday on Home and Servers, Thursday on Networking and Friday on Community. In addition, Linaro Connect will be hosting three mini conferences after the keynotes on the Tuesday, Wednesday and Thursday. All attendees are welcome to join. The [topics](https://connect.linaro.org/about/) for the conferences are:
 
-The keynotes are followed by discussion sessions, presentations and lots of engineering hacking. The agenda covers a broad range of open source topics, with a special focus on the Monday on IoT and Embedded, Tuesday on Mobile, Wednesday on Home and Servers, Thursday on Networking and Friday on Community. In addition, Linaro Connect will be hosting three mini conferences after the keynotes on the Tuesday, Wednesday and Thursday. All attendees are welcome to join. The [topics](https://connect.linaro.org/about/) for the conferences are:  
-
-
-
-  * Firmware on Tuesday 27th September
-  * Cortex-M Software on Wednesday 28th September
-  * AOSP on Thursday 29th September
-
+- Firmware on Tuesday 27th September
+- Cortex-M Software on Wednesday 28th September
+- AOSP on Thursday 29th September
 
 The theme for LAS16 is _Engineers and Devices Working Together._  Linaro’s leadership in the Arm ecosystem relies on engineers from many different companies working together with the latest technology to develop and optimize software. The collaborative engineering process is key to Linaro’s success and is what makes being part of Linaro so unique. LAS16 will be all about the engineers, the process involved in building and testing software, and enjoying working with technology. Linaro Connect LAS16 will be held at the beautiful JW Marriott Hotel in Las Vegas, Nevada.  To learn more about attending this event visit:  [https://connect.linaro.org/las16/](https://connect.linaro.org/las16/)
 

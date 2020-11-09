@@ -1,14 +1,12 @@
 ---
 author: fathi.boudra
-categories:
-- Blog
+category: blog
 date: 2012-03-29 20:52:35
 description: Links to all the downloads for the Linaro 12.03 release
 layout: post
 link: /blog/releases-blog/linaro-12-03-release/
 slug: linaro-12-03-release
-tags:
-- Releases
+tags: []
 title: Linaro 12.03 release
 wordpress_id: 1477
 ---
@@ -23,7 +21,7 @@ We are pleased to announce the release of Linaro 12.03.
 Linaro 12.03 contains components delivered by all Linaro Teams –Working
 Groups, Landing Teams and Platform Teams– and brings an abundance of
 exciting updates and new features which are integrated on top of Android
-and Ubuntu.  We, together with our members, partners and community
+and Ubuntu. We, together with our members, partners and community
 continue to build future of Linux on Arm and the 12.03 release is one more
 step toward that future.
 
@@ -50,17 +48,17 @@ glmark2, glcompbench, glproxy, nux and Unity.
 Pre-built release images for the Android and Ubuntu LEBs are currenly
 available with each of the Linaro monthly releases; however, new with the
 Linaro 12.03 release is that now developers can get daily pre-builds of the
-Ubuntu LEB which will be based on the current release of Ubuntu.  Pre-built
+Ubuntu LEB which will be based on the current release of Ubuntu. Pre-built
 images can be found at snapshots.linaro.org.
 
 "The introduction of prebuilt images for Linaro's daily output will widen the
 reach of Linaro's integrated evaluation builds. One advantage to the
 availability of these daily builds is that it gives professionals using Windows
 and MacOSX the opportunity to more easily install these images using the
-standard tools which are commonly available in these environments",  says
+standard tools which are commonly available in these environments", says
 Alexander Sack, Technical Director, Linaro Platforms.
 
-Linaro Member Services Program Director, Vicky  Janicki, says “Pre-built
+Linaro Member Services Program Director, Vicky Janicki, says “Pre-built
 images save time and effort for our Members and their customers as a
 starting point for their work. Instead of hunting in different places for code,
 images, and working out licensing agreements, an engineer simply goes to
@@ -76,7 +74,7 @@ ecosystem to help develop and plan the future of Linux on Arm.
 
 A 'Call for Submissions' for Linaro Connect Q2.12 Plenaries was also
 announced --Do you have a great idea you would like to present to the
-Linaro Connect Q2.12 attendees?   Want to share a Linaro success story
+Linaro Connect Q2.12 attendees? Want to share a Linaro success story
 and motivate, inspire, excite or educate attendees? Then this is an
 opportunity for you to get involved in this Linaro Connect event. More
 information on how to submit your plenary talk ideas can be found in on the
@@ -95,8 +93,7 @@ artifact on the release information:
 
 [http://wiki-archive.linaro.org/Cycles/1203/Release#Release_Information](http://wiki-archive.linaro.org/Cycles/1203/Release#Release_Information)
 
-Using the Android-based images
-=======================
+# Using the Android-based images
 
 The Android-based images come in three parts: system, userdata and boot.
 These need to be combined to form a complete Android install. For an
@@ -112,8 +109,7 @@ yourself please see the following pages:
 
 [http://wiki-archive.linaro.org/Platform/Android/BuildSource](http://wiki-archive.linaro.org/Platform/Android/BuildSource)
 
-Using the Ubuntu-based images
-=======================
+# Using the Ubuntu-based images
 
 The Ubuntu-based images consist of two parts. The first part is a hardware
 pack, which can be found under the hwpacks directory and contains hardware
@@ -123,48 +119,31 @@ image. For more information on how to create an image please see:
 
 [http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation](http://wiki-archive.linaro.org/Platform/DevPlatform/Ubuntu/ImageInstallation)
 
-Getting involved
-============
+# Getting involved
 
 More information on Linaro can be found on our websites:
 
+- Homepage: []()
 
-
-
-  * Homepage: []()
-
-
-  * Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org)
-
+- Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org)
 
 Also subscribe to the important Linaro mailing lists and join our IRC
 channels to stay on top of Linaro developments:
 
-
-  * Announcements:
-
+- Announcements:
 
 [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-
-
-
-  * Development:
-
+- Development:
 
 [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-
-
-
-  * IRC:
-
+- IRC:
 
 #linaro on irc.linaro.org or irc.freenode.net
 #linaro-android irc.linaro.org or irc.freenode.net
 
-Known issues with this release
-======================
+# Known issues with this release
 
 For any errata issues, please see:
 

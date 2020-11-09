@@ -1,11 +1,9 @@
 ---
 author: op-tee
-tags:
-- OP-TEE
+tags: []
 title: HKG15-303 &#58; Secure Playback Using OP-TEE
-date: 2016-07-04 12:00:00 Z
-categories:
-- Blog
+date: 2016-07-04 12:00:00+00:00
+category: blog
 layout: post
 image: /assets/images/blog/hkg15-303-secure-playback-using-op-tee-image.jpg
 ---
@@ -14,9 +12,8 @@ Give high level overview of the components involved in a DRM/Secure. Playback us
 
 {% include media.html media_url="https://www.youtube.com/embed/WJS5ygNGaO8" %}
 
---------
+---
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/2535bYcJNr1ljK" %}
-
 
 [HKG15-303: Secure Playback using OP-TEE](https://www.slideshare.net/linaroorg/hkg15303-secure-playback-using-optee) from [Linaro](http://www.slideshare.net/linaroorg)

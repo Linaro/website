@@ -1,7 +1,6 @@
 ---
 author: steve.taylor
-categories:
-- Blog
+category: blog
 date: 2013-10-29 12:47:32
 description: Recap of events that took place on Monday October 28th 2013 at Linaro
   Connect 2013
@@ -15,47 +14,38 @@ title: Linaro Connect USA 2013 Begins- Monday Recap
 wordpress_id: 3115
 ---
 
-[Linaro Connect USA 2013](https://connect.linaro.org/lcu13/) opened on Monday 28 October and is being held in Santa Clara, California. LCU13 kicked off with Linaro’s CEO, George Grey announcing that [Linaro has joined the Open Compute Project (OCP)](/news/linaro-brings-open-source-test-platform-open-compute-project/) and will contribute the LAVA LMP (Linaro Multi-purpose probe) to the foundation. Linaro has become the place where a broad cross-section of companies collaborate on the future of Linux software on Arm-based servers. Linaro’s intention in joining [OCP](http://www.opencompute.org/) is to bring together the hardware and software discussion and help accelerate the release of more efficient server solutions. 
+[Linaro Connect USA 2013](https://connect.linaro.org/lcu13/) opened on Monday 28 October and is being held in Santa Clara, California. LCU13 kicked off with Linaro’s CEO, George Grey announcing that [Linaro has joined the Open Compute Project (OCP)](/news/linaro-brings-open-source-test-platform-open-compute-project/) and will contribute the LAVA LMP (Linaro Multi-purpose probe) to the foundation. Linaro has become the place where a broad cross-section of companies collaborate on the future of Linux software on Arm-based servers. Linaro’s intention in joining [OCP](http://www.opencompute.org/) is to bring together the hardware and software discussion and help accelerate the release of more efficient server solutions.
 
-In addition to the announcement about OCP Mr. Grey gave a presentation discussing “Servers to the Internet of Things”. Linaro also had two guest speakers, Dong Wei_, _HP Fellow, UEFI Forum VP (Chief Executive) and ACPI SIG Secretary, who discussed_ “_Enabling next generation configuration and power management on Arm_” and Jim Zemlin from the Linux Foundation.
+In addition to the announcement about OCP Mr. Grey gave a presentation discussing “Servers to the Internet of Things”. Linaro also had two guest speakers, Dong Wei*, \_HP Fellow, UEFI Forum VP (Chief Executive) and ACPI SIG Secretary, who discussed* “_Enabling next generation configuration and power management on Arm_” and Jim Zemlin from the Linux Foundation.
 
 There were several sessions that took place on Monday after the keynotes had concluded. These sessions included:
 
-  * [Opening Keynote](http://lcu-13.zerista.com/event/member/85091): [View Video](http://www.youtube.com/watch?v=CgdK-1WTJvc), [Download Presentation](http://people.linaro.org/linaro-connect/lcu13/presentations/LCU13%2016-9.pdf)
+- [Opening Keynote](http://lcu-13.zerista.com/event/member/85091): [View Video](http://www.youtube.com/watch?v=CgdK-1WTJvc), [Download Presentation](http://people.linaro.org/linaro-connect/lcu13/presentations/LCU13%2016-9.pdf)
 
+- [Arm SoC Tree Status, Maintenance & Future](http://lcu-13.zerista.com/event/member/85092): [View Video](http://www.youtube.com/watch?v=i00ypb7SzNI), [Download Presentation](http://people.linaro.org/linaro-connect/lcu13/presentations/Arm%20SoC%20Tree%20Status,%20Maintenance%20&%20Future.pdf)
 
-  * [Arm SoC Tree Status, Maintenance & Future](http://lcu-13.zerista.com/event/member/85092): [View Video](http://www.youtube.com/watch?v=i00ypb7SzNI), [Download Presentation](http://people.linaro.org/linaro-connect/lcu13/presentations/Arm%20SoC%20Tree%20Status,%20Maintenance%20&%20Future.pdf)
+- [Introduction to Arm Trusted Firmware](http://lcu-13.zerista.com/event/member/85121): [View Video](http://www.youtube.com/watch?v=q32BEMMxmfw), [Download Presentation](http://people.linaro.org/linaro-connect/lcu13/presentations/Arm%20Trusted%20Firmare%20for%20Armv8-A.LCU13.pdf)
 
+- [New Infrastructure Discussion](http://lcu-13.zerista.com/event/member/85093): [ Download Presentation](https://www.slideshare.net/linaroorg/toolchain-infrastructure)
 
-  * [Introduction to Arm Trusted Firmware](http://lcu-13.zerista.com/event/member/85121): [View Video](http://www.youtube.com/watch?v=q32BEMMxmfw), [Download Presentation](http://people.linaro.org/linaro-connect/lcu13/presentations/Arm%20Trusted%20Firmare%20for%20Armv8-A.LCU13.pdf)
+- [Arm Performance Optimizations](http://lcu-13.zerista.com/event/member/85096): [View Video](http://www.youtube.com/watch?v=1JNFmOgqL_w)
 
+- [Android not in sync with upstream & external projects](http://lcu-13.zerista.com/event/member/85097): [View Video](http://www.youtube.com/watch?v=tgVmianNZrQ), [Download Presentation](https://www.slideshare.net/linaroorg/android-not-insyncwithupstreamexternalprojects)
 
-  * [New Infrastructure Discussion](http://lcu-13.zerista.com/event/member/85093): [ Download Presentation](https://www.slideshare.net/linaroorg/toolchain-infrastructure)
+- [BOF for handling co-processors for PM](http://lcu-13.zerista.com/event/member/85098): [View Video](http://www.youtube.com/watch?v=GSewe9ZsYdc)
 
+- [Power-efficient scheduling, and the latest news from the kernel summit](http://lcu-13.zerista.com/event/member/85099): [View Video](http://www.youtube.com/watch?v=1_Og7sc8r3U)
 
-  * [Arm Performance Optimizations](http://lcu-13.zerista.com/event/member/85096): [View Video](http://www.youtube.com/watch?v=1JNFmOgqL_w)
+- [Virtualization Update](http://lcu-13.zerista.com/event/member/85101): [View Video](http://www.youtube.com/watch?v=jIe9ruvHUNY),
 
-
-  * [Android not in sync with upstream & external projects](http://lcu-13.zerista.com/event/member/85097): [View Video](http://www.youtube.com/watch?v=tgVmianNZrQ), [Download Presentation](https://www.slideshare.net/linaroorg/android-not-insyncwithupstreamexternalprojects)           
-
-
-  * [BOF for handling co-processors for PM](http://lcu-13.zerista.com/event/member/85098): [View Video](http://www.youtube.com/watch?v=GSewe9ZsYdc)
-
-
-  * [Power-efficient scheduling, and the latest news from the kernel summit](http://lcu-13.zerista.com/event/member/85099): [View Video](http://www.youtube.com/watch?v=1_Og7sc8r3U)
-
-
-  * [Virtualization Update](http://lcu-13.zerista.com/event/member/85101): [View Video](http://www.youtube.com/watch?v=jIe9ruvHUNY),        
-
-
-  * [World of Unified Memory Management](http://lcu-13.zerista.com/event/member/85100): [Download Presentation](https://www.slideshare.net/linaroorg/world-ofumm)
-
+- [World of Unified Memory Management](http://lcu-13.zerista.com/event/member/85100): [Download Presentation](https://www.slideshare.net/linaroorg/world-ofumm)
 
 On Tuesday Linaro will be kicking off their first official “Crazy Shirt Day” which looks like it will showcase the attendees creative side. [Look for pictures on Facebook ](https://www.facebook.com/media/set/?set=a.651333068221919.1073741827.155974581091106&type=1)tomorrow to vote for your favorites.
 
 Linaro Connect is starting today with several exciting [keynotes.](https://connect.linaro.org/lcu13/) First up is a fireside chat with Frank Frankovsky and Vijay Rao, both from Facebook. Then Jarmo Hillo Head of Processor Technology at Nokia Solutions and Networks, Technology and Innovations, Research will give a talk about High End Telecom Networking. George Grey is also expected to make a short appearance with a networking-related announcement.
 
 After the keynotes there will be several sessions for attendees to participate in. Including:
+
 <table cellpadding="0" cellspacing="0" border="0" class="table responsive-table" >
 <tbody >
 <tr >

@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2014-03-18 14:06:23
 description: Telecoms and networking leader ZTE joins Linaro to promote global development
   of open source software
@@ -13,7 +12,6 @@ wordpress_id: 5329
 ---
 
 ## Telecoms and networking leader ZTE joins Linaro to promote global development of open source software
-
 
 CAMBRIDGE, UK - 18 MAR 2014
 

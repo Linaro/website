@@ -1,17 +1,27 @@
 ---
 author: linaro
-date: 2018-03-22 14:50:00.000
+date: 2018-03-22 14:50:00
 title: Highlights of Day Four at HKG18
-description: >-
-    Here is a brief summary of the highlights from the fourth day at Linaro Connect HKG18.
-categories:
-  - blog
+description: Here is a brief summary of the highlights from the fourth day at Linaro
+  Connect HKG18.
+category: blog
 published: true
-tags: 'HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, Linux Foundation, OpenChain Project, Opensource Governance, HiSilicon'
-keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards, Cloud, Edge Computing, Linux Foundation, OpenChain Project, Opensource Governance, HiSilicon
+tags:
+- Arm
+- Linux
+- Kernel
+- Linaro
+- Open Source
+- Machine Learning
+- AI
+- 96Boards
+keywords: HKG18, Arm, Linux, Kernel, Linaro, Open Source, Machine Learning, AI, 96Boards,
+  Cloud, Edge Computing, Linux Foundation, OpenChain Project, Opensource Governance,
+  HiSilicon
 image: /assets/images/blog/Thursdaykeynotes.jpg
 layout: post
 ---
+
 # Highlights of the fourth day at Linaro Connect HKG18
 
 We started the fourth day of Linaro Connect with two keynotes from HiSilicon and the OpenChain Project, Linux Foundation.

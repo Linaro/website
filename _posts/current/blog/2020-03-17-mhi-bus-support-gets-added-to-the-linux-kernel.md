@@ -4,13 +4,12 @@ title: MHI bus support gets added to the Linux kernel
 date: '2020-03-17 08:37:59'
 image: /assets/images/content/code.jpg
 tags:
-  - MHI
-  - Modem Host Interface
-  - Linux kernel
-  - Qualcomm
-category: Blog
+- Linux Kernel
+- Qualcomm
+category: blog
 author: manivannan.sadhasivam
 ---
+
 Greg Kroah Hartman once said, “Buses are hard and complex. It is hard to write a bus. But it turns out that there are one or two new buses every kernel release”.
 
 Recently, [a patch series](https://lkml.org/lkml/2020/1/23/249) was posted to LKML for adding MHI (Modem Host Interface) bus support to the Linux kernel. This article will briefly talk about the internals of MHI and its implementation in the Linux kernel.
@@ -79,7 +78,7 @@ Reset is the default MHI state after power-up. MHI can also enter reset state la
 
 #### MHI_STATE_READY
 
-Once the device comes out of reset and is ready, it will set READY field in the MMIO register indicating that it is ready to accept MHI operations. The MHI stack running on the host will detect this change.  In response, the host will prepare data structures and initialize the MHI MMIO register space.
+Once the device comes out of reset and is ready, it will set READY field in the MMIO register indicating that it is ready to accept MHI operations. The MHI stack running on the host will detect this change. In response, the host will prepare data structures and initialize the MHI MMIO register space.
 
 #### MHI_STATE_M0
 
@@ -105,7 +104,7 @@ MHI supports downloading the device firmware over BHI (Boot Host Interface) prot
 mhi_ctrl->fw_image = "amss.bin";
 ```
 
-It should be noted that there can only be  one firmware supplied at a time. If the device requires both AMSS and SBL images to be downloaded, then both firmware needs to be clubbed into a single firmware file, or another protocol is required to supplement the loading of additional firmware files. For the first case, additional properties shall be provided by the controller driver as below:
+It should be noted that there can only be one firmware supplied at a time. If the device requires both AMSS and SBL images to be downloaded, then both firmware needs to be clubbed into a single firmware file, or another protocol is required to supplement the loading of additional firmware files. For the first case, additional properties shall be provided by the controller driver as below:
 
 ```c
 mhi_ctrl->sbl_size = SZ_512K;
@@ -166,7 +165,7 @@ struct mhi_controller {
 };
 ```
 
-The above structure represents an MHI controller in the kernel. Note the `cntrl_dev` pointer in the structure, which is used to pass the underlying transport's (e.g. PCI-E) device pointer to the MHI stack. Since the MHI stack itself is not involved in the physical data transmission, it relies on the existing physical interfaces to do DMA mapping, runtime PM handling of the  device etc. Also, each controller will have a `mhi_dev` associated with it, which will be the child device of physical bus device as per the device model.
+The above structure represents an MHI controller in the kernel. Note the `cntrl_dev` pointer in the structure, which is used to pass the underlying transport's (e.g. PCI-E) device pointer to the MHI stack. Since the MHI stack itself is not involved in the physical data transmission, it relies on the existing physical interfaces to do DMA mapping, runtime PM handling of the device etc. Also, each controller will have a `mhi_dev` associated with it, which will be the child device of physical bus device as per the device model.
 
 Note that for the `struct device` created for controllers, there are no drivers to bind to. For this reason, the callbacks which are required to be present in the driver structure will be present in the `struct mhi_controller` itself.
 
@@ -203,13 +202,13 @@ struct mhi_driver {
 
 The above structure represents an MHI driver in the kernel. There is a `struct device_driver` for each MHI driver so that it can bind to the corresponding `struct device`. Also, there are few callbacks available which are required by the MHI stack. So a client driver should pass relevant functions for these. The purposes of these callbacks are explained below:
 
-| Name | Description |
-| ---- | ----------- |
-| `probe`      | MHI client driver's probe function called during `mhi_driver_register` |
-| `remove`     | MHI client driver's remove function called during `mhi_driver_unregister` |
-| `ul_xfer_cb` | Callback used by the MHI stack to notify the client driver of the uplink transfer status. This callback will be executed for both transfer success and failure. |
+| Name         | Description                                                                                                                                                       |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `probe`      | MHI client driver's probe function called during `mhi_driver_register`                                                                                            |
+| `remove`     | MHI client driver's remove function called during `mhi_driver_unregister`                                                                                         |
+| `ul_xfer_cb` | Callback used by the MHI stack to notify the client driver of the uplink transfer status. This callback will be executed for both transfer success and failure.   |
 | `dl_xfer_cb` | Callback used by the MHI stack to notify the client driver of the downlink transfer status. This callback will be executed for both transfer success and failure. |
-| `status_cb`  | Callback used by the MHI stack to notify client driver of events such as pending data, state transition etc... |
+| `status_cb`  | Callback used by the MHI stack to notify client driver of events such as pending data, state transition etc...                                                    |
 
 The registered client drivers will be available in sysfs under: `/sys/bus/mhi/drivers/`
 

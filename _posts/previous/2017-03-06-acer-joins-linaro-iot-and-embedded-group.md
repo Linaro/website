@@ -1,20 +1,18 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2017-03-06 07:55:31
-description: "Budapest, Hungary; \xC2\_6 March\xC2\_2017"
+description: Budapest, Hungary; Â 6 MarchÂ 2017
 layout: post
 link: /news/acer-joins-linaro-iot-and-embedded-group/
 slug: acer-joins-linaro-iot-and-embedded-group
 tags:
-- Acer
 - IoT
 - Linaro
 - Linaro Connect
-- linaro members
+- Linaro Members
 - Linux
-- Linux on Arm
+- Linux On Arm
 - LITE
 title: Acer joins Linaro IoT and Embedded Group
 wordpress_id: 12213

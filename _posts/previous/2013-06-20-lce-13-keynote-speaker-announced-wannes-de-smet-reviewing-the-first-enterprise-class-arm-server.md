@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-06-20 15:06:28
 description: Linaro announces Wannes De Smet an Applied IT researcher at Sizing Servers
   will be giving the Tuesday, July 9th keynote at Linaro Connect Europe 2013 (LCE-13).
@@ -21,7 +20,6 @@ wordpress_id: 2774
 
 We’re delighted to announce that Wannes De Smet an Applied IT researcher at [Sizing Servers](http://www.sizingservers.be/) will be giving the Tuesday, July 9th keynote at [Linaro Connect Europe 2013](https://connect.linaro.org) (LCE-13).
 
-
 As an Applied IT researcher, Wannes improves server and data center efficiency by researching ways to make current infrastructure perform better using less power. Working with industry leaders and hot startups, he reviews next-gen hardware and formulates advise towards small and enterprise customers. Wannes also is a virtualisation expert with a strong programming background.
 
 In his keynote titled, '[Reviewing the first enterprise-class Arm server](http://lce-13.zerista.com/event/member/79608)', Wannes will will provide some insight in the benchmarking process and the advanced software stresstest tool which are used at Sizing Servers, along with a description of the Boston/Calxeda hardware and their results.
@@ -29,6 +27,5 @@ In his keynote titled, '[Reviewing the first enterprise-class Arm server](http:/
 Below is the abstract of this talk:
 
 Last year a lot of hype started building around Arm servers, garnering interest from the Sizing Servers lab to determine how well these Arm CPUs actually perform. Testing was performed on the first real Arm server, from Calxeda, to gauge its processing power and power efficiency during standard intrinsic benchmarks as well as realistic workloads. Besides benchmarking we provided a brief introduction to the hardware itself and the management software used to for the Calxeda EnergyCore. You can read our full review at [Anandtech](http://www.anandtech.com/show/6757/calxedas-arm-server-tested).
-
 
 More information on the LCE-13 schedule can be found at: [https://connect.linaro.org/about/](https://connect.linaro.org/about/)

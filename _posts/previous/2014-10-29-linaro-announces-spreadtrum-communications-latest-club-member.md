@@ -1,7 +1,6 @@
 ---
 author: shovan
-categories:
-- News
+category: news
 date: 2014-10-29 16:54:06
 description: Leading China fabless semiconductor company Spreadtrum Communications
   joins Linaro to influence development direction of open source software
@@ -10,9 +9,7 @@ excerpt: Leading China fabless semiconductor company Spreadtrum Communications j
 layout: post
 link: /news/linaro-announces-spreadtrum-communications-latest-club-member/
 slug: linaro-announces-spreadtrum-communications-latest-club-member
-tags:
-- Club
-- Spreadtrum
+tags: []
 title: Linaro announces Spreadtrum Communications as latest Club Member
 wordpress_id: 7141
 ---
@@ -23,7 +20,7 @@ CAMBRIDGE, UK – 29 OCTOBER 2014
 
 Linaro Ltd, the not-for-profit engineering organization developing open source software for the Arm® architecture, today announced that Spreadtrum Communications (Shanghai) Co., Ltd. has joined Linaro as a Club Member.
 
-Spreadtrum has been at the forefront of bringing competitively priced mobile platforms based on Android operating systems to the market since 2012, and most recently has worked with customers on the launch of sub-US$40 Firefox OS smartphones in India and other countries. The company offers mobile smartphone platforms based on Arm’s Cortex-A processors.
+Spreadtrum has been at the forefront of bringing competitively priced mobile platforms based on Android operating systems to the market since 2012, and most recently has worked with customers on the launch of sub-US\$40 Firefox OS smartphones in India and other countries. The company offers mobile smartphone platforms based on Arm’s Cortex-A processors.
 
 “We are very happy to join the Linaro community and to collaborate with other companies on driving software innovation in mobile platforms,” said Xiaomao Xiao, VP of Software Platform at Spreadtrum. “Spreadtrum has worked with open source software for many years and we can clearly see the advantage of taking an active role in the open source communities, working to accelerate development on a range of platforms.”
 

@@ -1,17 +1,13 @@
 ---
 author: fathi.boudra
-categories:
-- Blog
+category: blog
 date: 2011-05-28 22:11:09
 description: Links to all the downloads for the Linaro 11.05 release
 layout: post
 link: /blog/releases-blog/linaro-11-05-released/
 slug: linaro-11-05-released
 tags:
-- Releases
-- '11.05'
 - Linaro
-- release
 title: Linaro 11.05 released
 wordpress_id: 3385
 ---
@@ -26,23 +22,17 @@ We encourage everybody to use the 11.05 release. The download links for all imag
 
 Highlights of this release:
 
-  * Linaro GCC 4.5, GCC 4.6 and GDB 7.2 2011.05, recently released components created by the Toolchain Working Group.
+- Linaro GCC 4.5, GCC 4.6 and GDB 7.2 2011.05, recently released components created by the Toolchain Working Group.
 
+- Linaro Kernel 2011.05-2.6.38, the first source tarball release of Linux Linaro done by the Kernel Working Group.
 
-  * Linaro Kernel 2011.05-2.6.38, the first source tarball release of Linux Linaro done by the Kernel Working Group.
+- Linaro Evaluation Builds (LEBs) for Android and Ubuntu on PandaBoard with 3D graphics acceleration.
 
+- Android cross toolchain based on latest gcc-linaro and gdb-linaro
 
-  * Linaro Evaluation Builds (LEBs) for Android and Ubuntu on PandaBoard with 3D graphics acceleration.
+- Host development tools (cross compiler, image builders) readily integrated for the Ubuntu distribution users (Lucid, Maverick and Natty support).
 
-
-  * Android cross toolchain based on latest gcc-linaro and gdb-linaro
-
-
-  * Host development tools (cross compiler, image builders) readily integrated for the Ubuntu distribution users (Lucid, Maverick and Natty support).
-
-
-  * And many more...
-
+- And many more...
 
 **Using the Android-based images**
 
@@ -62,22 +52,17 @@ The Ubuntu-based images consist of two parts. The first part is a hardware pack,
 
 More information on Linaro can be found on our websites:
 
-  * Homepage: []()
+- Homepage: []()
 
-
-  * Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org)
-
+- Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org)
 
 Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
 
+- Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
-  * Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
+- Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
 
-
-  * Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
-
-
-  * IRC: #linaro on irc.linaro.org or irc.freenode.net
+- IRC: #linaro on irc.linaro.org or irc.freenode.net
 
 #linaro-android irc.linaro.org or irc.freenode.net
 

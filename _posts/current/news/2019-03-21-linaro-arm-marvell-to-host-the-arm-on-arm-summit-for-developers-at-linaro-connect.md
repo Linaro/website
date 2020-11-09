@@ -1,23 +1,23 @@
 ---
-title: >-
-  Linaro, Arm, Marvell to host the “Arm on Arm” Summit for developers at Linaro Connect
+title: Linaro, Arm, Marvell to host the “Arm on Arm” Summit for developers at Linaro
+  Connect
 author: linaro
 layout: post
 date: 2019-03-21 07:00:00
-description: >-
-   Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, together with Arm and Marvell, is pleased to announce the final schedule for the Arm on Arm Summit at Linaro Connect Bangkok 2019. The summit, which features key technology leaders across the industry, aims to encourage diversity of supply from Arm-based hardware vendors while showcasing the value of the world’s largest compute ecosystem.
-categories:
-  - News
+description: Linaro Ltd, the open source collaborative engineering organization developing
+  software for the Arm® ecosystem, together with Arm and Marvell, is pleased to announce
+  the final schedule for the Arm on Arm Summit at Linaro Connect Bangkok 2019. The
+  summit, which features key technology leaders across the industry, aims to encourage
+  diversity of supply from Arm-based hardware vendors while showcasing the value of
+  the world’s largest compute ecosystem.
+category: news
 tags:
-  - Linaro
-  - Arm
-  - Marvell
-  - Open Source
-  - Arm on Arm
-  - Linaro Connect Summit
-  - BKK19
+- Linaro
+- Arm
+- Open Source
 image: /assets/images/blog/session-at-yvr18.jpg
 ---
+
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, together with Arm and Marvell, is pleased to announce the final schedule [for the Arm on Arm Summit at Linaro Connect Bangkok 2019.](https://connect.linaro.org/) The summit, which features key technology leaders across the industry, aims to encourage diversity of supply from Arm-based hardware vendors while showcasing the value of the world’s largest compute ecosystem.
 
 Experts from Arm, [Gyrfalcon](https://www.gyrfalcontech.ai/), HiSilicon, Linaro, Marvell, Packet, and [Socionext](http://www.socionext.com/en/) will come together at the Centara Grand in Bangkok, Thailand. The Arm on Arm summit will provide attendees with updates and demonstrations on achievements to-date, including the examination of native software development and deployment targeting Arm platforms using Arm-based hosts.
@@ -30,7 +30,7 @@ Developers will also see a multitude of Arm-based hardware platforms including l
 
 > “Arm native development has never been easier,” said Thomas Molgaard, director of Software Technology Management, Arm. “With the emergence of Arm-based laptops, readily available desktop PCs, and
 > most recently the Arm Neoverse™ system development platform (SDP), all running the industry’s most widely-used operating systems, developers have a wealth of robust hardware platforms to develop
-> for Arm-based solutions.”  
+> for Arm-based solutions.”
 
 > “The Arm-based server ecosystem is gaining momentum around both open source and commercial software support,” said Larry Wikelius, vice president of Ecosystem and
 > Partner Enabling at Marvell Semiconductor, Inc. “Specifically, end users of the Marvell® ThunderX2® 64-bit processor, based on the Armv8-A architecture, are expanding their application deployment

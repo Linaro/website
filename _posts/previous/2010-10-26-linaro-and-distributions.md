@@ -6,15 +6,12 @@ link: /blog/community-blog/linaro-and-distributions/
 slug: linaro-and-distributions
 title: Linaro and Distributions
 wordpress_id: 4107
-categories:
-- Blog
+category: blog
 tags:
-- Community
-- arm
-- distributions
-- gcc
+- Arm
 - Linux
 ---
+
 Linaro works in upstream open source projects, ensuring that the Arm architecture and embedded platforms are well supported. Along the way, the Arm community is learning how to be more open and collaborative, both within the open source community and between ourselves. It's a very interesting, worthy of a future blog entry; watching Arm and its partners adapting themselves to align with an open source based platform world.
 
 The difficulty with upstream working is the lag between upstream work, upstream stable releases and inclusion in distributions and, therefore, products.This is particularly critical for code bases with long development cycles. GCC, for example, makes one major release per year, in spring, with several bug fixing updates. That is, new features come out once a year and, any code donated before the end of 2010 will come out in the 4.6.0 branch made around April 2011. Worse still, the 4.6 branch will not be used by distributions until it is considered to be stable. This will be 4.6.1 and will not be used by distributions until Autumn 2011. In other words, any code donated into GCC before end of 2010 will not be used by a distribution until Autumn 2011. Of course, other code bases have different release cadences. The Linux kernel is creating new point releases roughly every couple of months.

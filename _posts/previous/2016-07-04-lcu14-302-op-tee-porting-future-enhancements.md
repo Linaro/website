@@ -1,11 +1,9 @@
 ---
 author: op-tee
-tags:
-- OP-TEE
-title: 'LCU14-302 &#58; OP-TEE Porting and Future Enhancements'
-date: 2016-07-04 12:00:00 Z
-categories:
-- Blog
+tags: []
+title: LCU14-302 &#58; OP-TEE Porting and Future Enhancements
+date: 2016-07-04 12:00:00+00:00
+category: blog
 layout: post
 image: /assets/images/blog/lcu14-302-op-tee-porting-future-enhancements-image.jpg
 ---
@@ -14,7 +12,7 @@ SWG is porting OP-TEE to ARMv8 using Fixed Virtual Platform. Initially OP-TEE is
 
 {% include media.html media_url="https://www.youtube.com/embed/JViplz-ah9M" %}
 
---------
+---
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/NUSDUEsiVcHWrt" %}
 

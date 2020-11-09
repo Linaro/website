@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2011-05-27 12:11:29
 description: CAMBRIDGE, UK - 27 MAY 2011
 layout: post
@@ -16,28 +15,19 @@ CAMBRIDGE, UK - 27 MAY 2011
 
 ## Milestone highlights Linaro delivering on its promise to make it easier and quicker to develop open source products
 
-
 Linaro, a not-for-profit open source software engineering company, is marking its first anniversary with demonstrations of the latest open source software running on its members' hardware at Linaro Developer Summit (LDS) and Computex. The company also announced Linaro Partner Program, an initiative designed to help companies and organizations get involved with Linaro's engineering effort.
 
 Linaro was launched at Computex in 2010 by Arm, IBM, Freescale, Samsung, ST-Ericsson and TI with the mission to create an open source engineering organization that provides aligned engineering and investment into open source projects to reduce fragmentation, increase optimization and make it easier for OEMs and ODMs to develop Linux-based products.
 
-
 ### Key milestones:
 
-	
-  * In the first year, Linaro has built a team of more than 100 talented open source developers that have worked on the open source Linux platform on member chips and delivered code upstream that benefits all Linux-based distributions.
-
-	
-  * The latest tools, code and optimizations have been used to create Linaro Evaluation Builds for Android and Ubuntu, making it easier for device manufacturers to use Linaro's engineering.
-
-	
-  * To help device makers get to market more quickly, Linaro has focused on delivering product quality software and has created the Linaro Automated Validation Architecture (LAVA) platform which runs on a test farm of members' low-cost boards.
-
+- In the first year, Linaro has built a team of more than 100 talented open source developers that have worked on the open source Linux platform on member chips and delivered code upstream that benefits all Linux-based distributions.
+- The latest tools, code and optimizations have been used to create Linaro Evaluation Builds for Android and Ubuntu, making it easier for device manufacturers to use Linaro's engineering.
+- To help device makers get to market more quickly, Linaro has focused on delivering product quality software and has created the Linaro Automated Validation Architecture (LAVA) platform which runs on a test farm of members' low-cost boards.
 
 The demonstrations at LDS showcased the Android and Ubuntu Linaro Evaluation Builds for the first time and will be extended further at Computex to include new hardware that will be launched at the show. To follow Linaro's engineering progress, an up-to-date status report can be found at [https://releases.linaro.org](https://releases.linaro.org/)
 
 "The demonstration of Android and Ubuntu Linaro Evaluation Builds and the development of the validation test farm are tangible proof points of the progress Linaro has made on delivering on its mission," said George Grey, Chief Executive Officer of Linaro. "We have delivered consolidation and performance features upstream, worked with our members on support for their latest SoCs, created optimized implementations of popular distributions and focused on the development and testing of product quality software for the benefit of our members."
-
 
 ### Linaro Partner Program
 
@@ -48,7 +38,6 @@ Linaro also announced today the Linaro Partner Program, which is designed to ena
 At launch, the Linaro Partner Program includes Thundersoft, Canonical, Mentor Graphics, Genesi and Collabora. Companies interested in aligning with Linaro and joining the Linaro Partner Program should contact the management team.
 
 ### Linaro Founding Member Quotes
-
 
 "Over the last year, Linaro has succeeded by helping make it easier and quicker to bring open source based devices to market," said James McNiven, vice president of Software Alliances of Arm. "Linaro has demonstrated the efficiencies that can be achieved by adopting a coordinated approach to open source and working closely with the Arm Partner community."
 
@@ -62,9 +51,7 @@ At launch, the Linaro Partner Program includes Thundersoft, Canonical, Mentor Gr
 
 "Linaro is delivering on the goal of quickening time to market for our i.MX processors," said Glen Burchers, consumer and industrial segment marketing director for Freescale Semiconductor. "Our customers now have confidence that the Linux mainline kernel is up to date with the latest Freescale code submissions."
 
-
 ### Linaro Partner Quotes
-
 
 "ThunderSoft is pleased to see many common system requirements being addressed in Linaro project. By joining the Linaro Partner Program, ThunderSoft is better armed to deliver the Arm-based software solution to our customers more solidly and more efficiently," said Duan ZhiQiang, chief technology officer of Thundersoft.
 

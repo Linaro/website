@@ -4,14 +4,14 @@ title: The end of an Era
 date: '2020-02-06 09:09:55'
 image: /assets/images/content/2038_image.jpg
 tags:
-  - '2038'
-  - Linux Kernel
-  - Arm
-  - open source
-  - software
-category: Blog
+- Linux Kernel
+- Arm
+- Open Source
+- Software
+category: blog
 author: arnd.bergmann
 ---
+
 With the linux-5.6 merge window, a project ends that has kept me busy for nearly six years: preventing the “Epochalypse” by changing every single instance of a 32-bit time_t in the kernel to a type that does not roll over on 2038-01-19.
 
 While both John Stultz and I had been thinking about and prototyping partial solutions even earlier, the year 2014 is when we started discussing more openly in Linaro and the wider kernel community about what needed to happen. In a team effort, John started rewriting the core timekeeping support of the kernel, working his way out, while I would work my way down from the outside, starting with file systems and then system calls and device drivers with the goal of getting this done by the end of the year.
@@ -32,12 +32,12 @@ Converting the VFS code to use 64-bit inode timestamps took countless rewrites o
 
 This is an effect that can be observed a lot in kernel development: when you work on a simple bugfix, there is a good chance that development or review finds a much larger issue that also wants to be addressed, at which point it becomes near impossible to get the simple change merged without also addressing the wider problem. Issues that we addressed along the way include:
 
-* Changing the time functions away from getnstimeofday() to ktime_get() and similar conversions addressed the bugs with leap seconds, with time going backwards from settimeofday() as well as some particularly inefficient code.
-* File system timestamps are now checked for overflow in a consistent way, and interpreted the same way on 32-bit and 64-bit architectures, extending the range to at least year 2106 where possible.
-* The system call tables are now generated from machine readable files, and all architectures support at least the set of standard system calls that are available to newly added architectures.
-* Converting all the architectures led to the decision to [clean out architectures that are no longer actively used or maintained](https://lwn.net/Articles/748074/)
-* David Howells contributed the statx() system call that solves passing 64-bit timestamps along with many other features that are not present in stat().
-* The handling for 32-bit compat tasks on 64-bit kernels is more consistent with the native system calls now, after a lot of the compat syscalls were rewritten to be shared with time32 support for 32-bit architectures. Most importantly, the compat ioctl() handling is now completely reworked and always handled by the driver rather than a centralized conversion function that easily gets out of sync.
+- Changing the time functions away from getnstimeofday() to ktime_get() and similar conversions addressed the bugs with leap seconds, with time going backwards from settimeofday() as well as some particularly inefficient code.
+- File system timestamps are now checked for overflow in a consistent way, and interpreted the same way on 32-bit and 64-bit architectures, extending the range to at least year 2106 where possible.
+- The system call tables are now generated from machine readable files, and all architectures support at least the set of standard system calls that are available to newly added architectures.
+- Converting all the architectures led to the decision to [clean out architectures that are no longer actively used or maintained](https://lwn.net/Articles/748074/)
+- David Howells contributed the statx() system call that solves passing 64-bit timestamps along with many other features that are not present in stat().
+- The handling for 32-bit compat tasks on 64-bit kernels is more consistent with the native system calls now, after a lot of the compat syscalls were rewritten to be shared with time32 support for 32-bit architectures. Most importantly, the compat ioctl() handling is now completely reworked and always handled by the driver rather than a centralized conversion function that easily gets out of sync.
 
 ### Endgame
 
@@ -51,9 +51,9 @@ For glibc, work is still ongoing, the plan at the moment is to move over to 64-b
 
 So far it is looking good for the distro port, as most of the y2038 problems have already been found by the various BSD Unixes that changed over years ago (thanks guys!), so a lot of the remaining problems are either Linux specific, or in applications that have never been ported to anything other than Linux. I expect that once we get into larger scale testing, we will find several sets of problems:
 
-* Bugs that got introduced by an incorrect conversion to the time64 interfaces, breaking existing source code regardless of the time_t definition, like the regressions that are inevitably caused by any larger change and hopefully found quickly. For instance, we broke the sparc architecture port multiple times, but then also found ancient sparc bugs from a previous large-scale change that are now fixed.
-* Problems of an incorrect or incomplete conversion, breaking 32-bit software after the conversion to 64-bit time_t, e.g. a format string printing a time_t as a ‘long’ type rather than a ‘long long’, software that mixes the libc data types with direct calls to low-level kernel interfaces like futex(), or source packages that contain outdated copies of kernel headers such as linux/input.h or sound/asound.h.
-* 32-bit software that works correctly with 64-bit time_t until 2038 but then still fails because of an incorrect truncation to a ‘long’ type when it defines its own types rather than using the ones from system headers.
-* Anything that uses fixed 32-bit representation for time_t values remains broken on both 32-bit and 64-bit applications. This often involves on-disk or over-the-wire data formats that are hard to change.
+- Bugs that got introduced by an incorrect conversion to the time64 interfaces, breaking existing source code regardless of the time_t definition, like the regressions that are inevitably caused by any larger change and hopefully found quickly. For instance, we broke the sparc architecture port multiple times, but then also found ancient sparc bugs from a previous large-scale change that are now fixed.
+- Problems of an incorrect or incomplete conversion, breaking 32-bit software after the conversion to 64-bit time_t, e.g. a format string printing a time_t as a ‘long’ type rather than a ‘long long’, software that mixes the libc data types with direct calls to low-level kernel interfaces like futex(), or source packages that contain outdated copies of kernel headers such as linux/input.h or sound/asound.h.
+- 32-bit software that works correctly with 64-bit time_t until 2038 but then still fails because of an incorrect truncation to a ‘long’ type when it defines its own types rather than using the ones from system headers.
+- Anything that uses fixed 32-bit representation for time_t values remains broken on both 32-bit and 64-bit applications. This often involves on-disk or over-the-wire data formats that are hard to change.
 
 The biggest challenge will be to find and update all the devices that are already being deployed without the necessary bug fixes. The general move to 64-bit hardware even in deeply embedded systems helps ensure that most machines only run into the last set of problems, but 32-bit hardware will be deployed for many years to come, and will increasingly run on old software as fewer developers are motivated to work on them.

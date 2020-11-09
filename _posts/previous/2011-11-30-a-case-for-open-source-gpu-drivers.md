@@ -6,11 +6,8 @@ link: /blog/community-blog/a-case-for-open-source-gpu-drivers/
 slug: a-case-for-open-source-gpu-drivers
 title: A Case for Open-Source GPU Drivers
 wordpress_id: 960
-categories:
-- Blog
-tags:
-- Community
-- Hardware
+category: blog
+tags: []
 ---
 
 For some time after I signed on as the graphics working group tech lead at Linaro, upon meeting someone new, the first thing after "nice to meet you" was invariably, "When do we get free drivers?".  Ideologically, this seems like an automatic "great idea".  After all, Linux is all about free (definitely in terms of software, mostly in terms of beer :-), open-source software and the ability of the user to decide what (or what not) to run on his or her hardware.  Drivers, however, are a tricky subject.  As much as I would like to believe that software is software, my experience with a number of driver teams at various GPU and computer companies tells me that things are not always so simple.

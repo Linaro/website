@@ -1,12 +1,10 @@
 ---
 author: op-tee
-tags:
-- OP-TEE
+tags: []
 title: FREE Webinar &#58 TEE kernel support is now upstream &#58 What this means for
   Open Source Security
 date: 2017-06-02 12:00:00
-categories:
-- Blog
+category: blog
 layout: post
 future: true
 image: /assets/images/blog/optee-bg.jpg
@@ -22,10 +20,10 @@ image: /assets/images/blog/optee-bg.jpg
 
 TEE security infrastructure is now upstream in the Linux kernel, thanks to the hard work of many people in the ARM open source ecosystem. In this upcoming webinar, Joakim Bech and Jens Wiklander of the Linaro Security Working Group explain:
 
-*   Why upstream Linux kernel driver support is an important milestone.
-*   The relationship with specifications such as GlobalPlatform.
-*   A recap of the design principles for the TEE driver.
-*   How to get involved with TEE development.
+- Why upstream Linux kernel driver support is an important milestone.
+- The relationship with specifications such as GlobalPlatform.
+- A recap of the design principles for the TEE driver.
+- How to get involved with TEE development.
 
 This webinar is based on the work of the Linaro Security Working Group. Their work helps Linaro achieve its mission of providing upstream open source support for the ARM ecosystem. The webinar will be of interest to developers and engineering managers who would like the latest status on TEE support in Linux, particularly those looking to develop secure applications with e.g. OP-TEE. It’s also a great case study for those interested in the challenges of Linux kernel upstreaming. There will be the opportunity to ask questions before, during and after the webinar.
 

@@ -1,19 +1,24 @@
 ---
 author: linaro
-date: 2018-03-19 0:00:00.000
+date: 2018-03-19 00:00:00
 title: Linaro Announces OpenDataPlane Tiger Moth LTS Software
-description: >-
-    Linaro Ltd, the open source collaborative engineering organization developing software for the Arm ecosystem, today announced the availability of the
-    second Long Term Support (LTS) release of OpenDataPlane
-categories:
-  - News
+description: Linaro Ltd, the open source collaborative engineering organization developing
+  software for the Arm ecosystem, today announced the availability of the second Long
+  Term Support (LTS) release of OpenDataPlane
+category: news
 published: true
-tags: Linaro, Connect, HKG18, OpenDataPlane, New Release, LTS, Tiger, Moth, Software
+tags:
+- Linaro
+- Connect
+- LTS
+- Software
 keywords: Linaro, Connect, HKG18, OpenDataPlane, New Release, LTS, Tiger, Moth, Software
 image: /assets/images/blog/odp-press-release-hkg18.png
 layout: post
 ---
+
 ## Linaro Announces OpenDataPlane Tiger Moth LTS Software Release with Support for Arm and x86
+
 **Software Defined Data Plane Supports SoCs, SmartNICs, and Servers**
 **With Full Support for Accelerated IPsec Processing**
 
@@ -116,6 +121,7 @@ in close collaboration with Linaro,” said Daniel Forsgren, President of the Op
 Foundation.
 
 ## About LNG
+
 The Linaro Networking Group (LNG) was founded in February 2013 by twelve member
 companies. The OpenDataPlane project was established from the start of LNG to produce an
 open-source, cross-platform application programming interface (API) for the networking data
@@ -124,6 +130,7 @@ acceleration capabilities, as well as linear scalability for applications deploy
 system environments.
 
 ## About Linaro
+
 Linaro is leading collaboration on open source development in the Arm ecosystem. The
 company has over 300 engineers working on consolidating and optimizing open source
 software for the Arm architecture, including developer tools, the Linux kernel, Arm power

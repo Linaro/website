@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2011-08-23 12:13:45
 description: CAMBRIDGE, UK - 23 AUG 2011
 layout: post
@@ -14,27 +13,16 @@ wordpress_id: 4412
 
 CAMBRIDGE, UK - 23 AUG 2011
 
-
 ## First Linaro Connect Event Enhances Device Tree Support to Accelerate Development of Linux on Arm
-
 
 More than 150 Linux engineers gathered in Cambridge this month to collaborate on the development of Linux on Arm at the first quarterly Linaro™TM Connect event.
 
 Linaro, the not-for-profit open source software engineering company founded by Arm, IBM, TI, Samsung, Freescale and ST-Ericsson is working on consolidation and optimization of Linux on Arm SoCs. Device Tree, a mechanism for describing hardware configuration for the Linux kernel, was among the many topics covered at the recent Linaro Connect event. Members of the Arm Linux community set out to simplify porting of the Linux kernel to the diverse platforms developed by Arm silicon vendors and ODMs. By the end of the weeklong event many patches had been produced that will be queued up for the Linux 3.2 release kernel tree including:
 
-
-	
-  * Device drivers for Freescale iMX converted to use Device Tree-based discovery.
-
-	
-  * Code developed to bridge between the Device Tree model and TI OMAP's HWMOD, used to describe complex power and clock domains.
-
-	
-  * Initial support for Device Tree added to Samsung Exynos, Qualcomm MSM86 and Atmel AT91 boards, including a serial console described by the Device Tree.
-
-	
-  * Initial skeleton work for Device Tree implemented for the Arm Versatile board.
-
+- Device drivers for Freescale iMX converted to use Device Tree-based discovery.
+- Code developed to bridge between the Device Tree model and TI OMAP's HWMOD, used to describe complex power and clock domains.
+- Initial support for Device Tree added to Samsung Exynos, Qualcomm MSM86 and Atmel AT91 boards, including a serial console described by the Device Tree.
+- Initial skeleton work for Device Tree implemented for the Arm Versatile board.
 
 "We have seen some pretty amazing output from the Linaro Connect," said Christian Reis, Vice President of Engineering at Linaro. "Not only around the Device Tree work, but also including major progress on the Continuous Memory Allocator, DMA mapping and buffer sharing frameworks in collaboration with the Arm kernel maintainers."
 
@@ -50,11 +38,6 @@ Looking forward, Linaro plans to co-locate many of the quarterly Linaro Connect 
 
 Linaro announced the dates of future Linaro Connect events:
 
-	
-  * October 31 - November 4, 2011 in Orlando, Florida, co-located with the Ubuntu Developer Summit
-
-	
-  * February 6 - 10, 2012 in San Francisco, California, co-located with Embedded Linux Conference and Android Builders Summit to be held the following week
-
-	
-  * May 7 - 11, 2012, co-located with Ubuntu Developer Summit
+- October 31 - November 4, 2011 in Orlando, Florida, co-located with the Ubuntu Developer Summit
+- February 6 - 10, 2012 in San Francisco, California, co-located with Embedded Linux Conference and Android Builders Summit to be held the following week
+- May 7 - 11, 2012, co-located with Ubuntu Developer Summit

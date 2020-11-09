@@ -4,13 +4,14 @@ title: Update on HiKey/HiKey960 efforts in AOSP
 date: '2020-04-20 11:21:20'
 image: /assets/images/content/hikey-image1.png
 tags:
-  - HiKey
-  - HiKey960
-  - AOSP
-  - Android Open Source Project
-category: Blog
+- HiKey
+- HiKey960
+- AOSP
+- Android Open Source Project
+category: blog
 author: john.stultz
 ---
+
 Back in 2016, after an amazing six-month effort of collaboration between various groups in Linaro, HiSilicon, and Google, the HiKey board was the first 64bit ARM dev board that was officially supported in AOSP/master using a v3.18 kernel.
 
 {% include image.html path="/assets/images/content/hikey-image1.png" class="medium-inline right" alt="hikey-image1" %}

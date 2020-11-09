@@ -7,14 +7,10 @@ link: /blog/core-dump/op-tee-open-source-security-mass-market/
 slug: op-tee-open-source-security-mass-market
 title: OP-TEE, open-source security for the mass-market
 wordpress_id: 6500
-categories:
-  - Blog
+category: blog
 tags:
-  - Core Dump
-  - android
-  - Android L
-  - emulator
-  - qemu
+- Android
+- Qemu
 ---
 
 {% include image.html path="/assets/images/blog/thumb_STMicroTransparent.png" alt="thumb_STMicroTransparent" class="small-inline" %}

@@ -1,24 +1,23 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2017-03-06 12:00:37
-description: "Linaro Ltd, the open source collaborative engineering organization developing
-  software for the Arm\xC2\xAE ecosystem, today announced that Google Inc. has joined
-  Linaro as a Club member."
-excerpt: "Linaro Ltd, the open source collaborative engineering organization developing
-  software for the Arm\xAE ecosystem, today announced that Google Inc. has joined
-  Linaro as a Club member."
+description: Linaro Ltd, the open source collaborative engineering organization developing
+  software for the ArmÂ® ecosystem, today announced that Google Inc. has joined Linaro
+  as a Club member.
+excerpt: Linaro Ltd, the open source collaborative engineering organization developing
+  software for the Arm® ecosystem, today announced that Google Inc. has joined Linaro
+  as a Club member.
 layout: post
 link: /news/google-becomes-club-member-linaro/
 slug: google-becomes-club-member-linaro
 tags:
-- club member
-- google
+- Club Member
+- Google
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on Arm
+- Linux On Arm
 - Membership
 title: Google Becomes Club Member of Linaro
 wordpress_id: 12216

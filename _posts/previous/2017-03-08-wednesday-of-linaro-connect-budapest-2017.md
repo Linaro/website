@@ -2,8 +2,7 @@
 amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
-categories:
-- Blog
+category: blog
 comments: false
 date: 2017-03-08 22:21:47
 excerpt: The third day of Linaro Connect Budapest 2017 (BUD17) had a theme of networking
@@ -18,8 +17,6 @@ slideshare_presentation_url: None
 slug: wednesday-of-linaro-connect-budapest-2017
 speakers: None
 tags:
-- BUD17
-- daily blog
 - Linaro Connect
 title: Wednesday of Linaro Connect Budapest 2017
 video_length: 00:00
@@ -55,11 +52,7 @@ Below is a list of the keynotes and sessions that took place on Wednesday along 
 
 <td markdown="1">
 
-
-
 **Track**
-
-
 
 </td>
 

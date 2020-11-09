@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2013-02-13 12:23:28
 description: CAMBRIDGE, UK - 13 FEB 2013
 layout: post
@@ -17,40 +16,39 @@ Linaro, the not-for-profit engineering organization developing open source softw
 
 This year Linaro CEO, George Grey, and many key engineers for Linaro will be speaking in several sessions. The time and topic of these talks are:
 
-  * **George Grey, Chief Executive Officer**
+- **George Grey, Chief Executive Officer**
 
-    * Wednesday, February 20
+  - Wednesday, February 20
 
-      * 9:00am: Keynote - Working Together to Accelerate Linux Development - Jim Zemlin, Executive Director, The Linux Foundation and George Grey, CEO, Linaro
+    - 9:00am: Keynote - Working Together to Accelerate Linux Development - Jim Zemlin, Executive Director, The Linux Foundation and George Grey, CEO, Linaro
 
-  * **Jesse Barker,Graphics Working Group**
+- **Jesse Barker,Graphics Working Group**
 
-    * Thursday, February 21
-      * 4:00pm: Common Display Framework (Part I)
-	  * 5:00pm: Common Display Framework (Part II)
+  - Thursday, February 21
+    - 4:00pm: Common Display Framework (Part I)
+    - 5:00pm: Common Display Framework (Part II)
 
-  * **Mark Orvek, Director, Kernel Working Groups**
+- **Mark Orvek, Director, Kernel Working Groups**
 
-    * Thursday, February 21
-	
-      * 1:45pm: Application Diversity Demands Accelerated Linux Innovation
+  - Thursday, February 21
 
-  * **Mans Rullgard, Toolchain Engineer**
+    - 1:45pm: Application Diversity Demands Accelerated Linux Innovation
 
-    * Thursday, February 21
-	
-      * 4:00pm: Designing for Optimization
+- **Mans Rullgard, Toolchain Engineer**
 
-  * **Mathieu Poirier, Kernel Engineer**
+  - Thursday, February 21
 
-    * Friday, February 22
-      * 9:00am: In Kernel Switcher: A Solution to Support Arm's New big.LITTLE Implementation
+    - 4:00pm: Designing for Optimization
+
+- **Mathieu Poirier, Kernel Engineer**
+
+  - Friday, February 22
+    - 9:00am: In Kernel Switcher: A Solution to Support Arm's New big.LITTLE Implementation
 
 Stop by any of our speaking sessions to learn more about Linaro's work in consolidating and optimizing open source software for the Arm architecture.
 
 About Linaro:
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 120 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation. To ensure commercial quality software, Linaro's work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro's engineering work is open to all online.
-
 
 **Join us at Linaro Connect**
 

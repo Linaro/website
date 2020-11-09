@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-03-27 03:04:06
 description: Linaro issues Call for Submissions for the Plenary Sessions at the Linaro
   Connect Q2.12 event to be held at the Gold Coast Hotel, Hong Kong, 28 May - 1 June.
@@ -10,15 +9,12 @@ keywords: Linaro, Linux on Arm, Linaro Connect, Q2.12, developers, Plenary Sessi
 layout: post
 link: /blog/industry-blog/call-for-submissions-linaro-connect-q2-12-plenaries/
 slug: call-for-submissions-linaro-connect-q2-12-plenaries
-tags:
-- Community
-- Industry
+tags: []
 title: 'Call for Submissions : Linaro Connect Q2.12 Plenaries'
 wordpress_id: 1447
 ---
 
 {% include image.html path="/assets/images/blog/Linaro-Connect.jpg" alt="Linaro Connect Logo" class="small-inline" %}
-
 
 The submission process for [Linaro Connect Q2.12](https://connect.linaro.org/resources/#welcome) plenaries is now open!
 
@@ -30,17 +26,13 @@ Do you have a _**great idea**_ you would like to present to the Linaro Connect Q
 
 Plenary Submissions and suggested plenary sessions can be added to the [wiki](https://wiki-archive.linaro.org/Events/LinaroConnectQ2.12/Plenaries); however, for your submission to be considered it needs to be emailed to [David Rusling, Linaro CTO](mailto:david.rusling@linaro.org),  and should include the following information:
 
+- **Plenary Title:**
 
-  * **Plenary Title:**
+- **3-5 Sentence abstract about what this talk will be about and how it is connected to Linaro.**
 
+- **Presenters Name, Company**
 
-  * **3-5 Sentence abstract about what this talk will be about and how it is connected to Linaro.**
-
-
-  * **Presenters Name, Company**
-
-
-**The deadline for plenary submissions is 4 May 2012**. This way presenters have time to finish their slide decks *prior* to arriving at Linaro Connect and will allow event planners time for to finalized the schedule a head of time.
+**The deadline for plenary submissions is 4 May 2012**. This way presenters have time to finish their slide decks _prior_ to arriving at Linaro Connect and will allow event planners time for to finalized the schedule a head of time.
 
 More information about the plenary sessions and the selection process can be found on the [wiki](https://wiki-archive.linaro.org/Events/LinaroConnectQ2.12/Plenaries)
 

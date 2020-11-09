@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2013-01-10 12:22:58
 description: CAMBRIDGE, UK - 10 JAN 2013
 layout: post
@@ -16,11 +15,10 @@ CAMBRIDGE, UK - 10 JAN 2013
 Linaro, the not-for-profit engineering organization developing open source software for the Arm architecture, announced that they will be participating in the Open Compute Summit being held January 16 -17, 2013 at the Santa Clara Convention Center. The Open Compute Summit is an International conference sponsored by the Open Compute Project and is focused on companies and projects in the industry that are collectively developing the most efficient computing infrastructure possible.
 
 Linaro is a sponsor of the event and will be both exhibiting and presenting at the event. The time and topic of their talk is:
-	
-  * January 16th during the industry luminaries session from 3:30pm to 6:00pm
 
-	
-    * George Grey, CEO of Linaro, will present "Building interoperability in low-power SOCs"
+- January 16th during the industry luminaries session from 3:30pm to 6:00pm
+
+  - George Grey, CEO of Linaro, will present "Building interoperability in low-power SOCs"
 
 Linaro will also have a booth at the event and be presenting and answering questions regarding Linaro's work in consolidating and optimizing open source software for the Arm architecture.
 

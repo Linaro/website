@@ -4,15 +4,16 @@ title: Can we make AI Super?
 date: '2019-11-20 10:24:06'
 image: /assets/images/content/abstract1.jpg
 tags:
-  - AI
-  - Artificial Intelligence
-  - Machine Learning
-  - HPC
-  - Supercomputers
-category: Blog
+- AI
+- Artificial Intelligence
+- Machine Learning
+- HPC
+- Supercomputers
+category: blog
 author: paul.isaacs
 ---
-Linaro works with hardware vendors and software developers to help coordinate and build the toolkits for improved calculation libraries. We work to defragment the market by supporting ONNX, TFLite and TVM to translate to Arm NN supported inferencing optimised hardware.  Linaro's HPC group aims to assist in optimising libraries and infrastructure dependencies that distribute the calculation requirements across servers, clusters, HPC nodes and supercomputers. But beyond Machine Learning and inferencing, where is the full scope of the truly cognitive AI? In this blog, Linaro's HPC Tech Lead Paul Isaac's talks about the history of AI and future opportunities made possible through super computing.
+
+Linaro works with hardware vendors and software developers to help coordinate and build the toolkits for improved calculation libraries. We work to defragment the market by supporting ONNX, TFLite and TVM to translate to Arm NN supported inferencing optimised hardware. Linaro's HPC group aims to assist in optimising libraries and infrastructure dependencies that distribute the calculation requirements across servers, clusters, HPC nodes and supercomputers. But beyond Machine Learning and inferencing, where is the full scope of the truly cognitive AI? In this blog, Linaro's HPC Tech Lead Paul Isaac's talks about the history of AI and future opportunities made possible through super computing.
 
 ## **Can we make AI super?**
 
@@ -24,7 +25,7 @@ Artificial Intelligence is a term first coined in the last 100 years to aspire t
 
 If we are to believe the current hyperbole and inflationary ideas that media, in its many forms, including fictional Hollywood block-busters present to us, many might think Artificial Intelligence is on the brink of being solved… and taking over the world to establish itself as our overlord!
 
-Linaro’s High Performance Computing Special Interest Group (HPC SIG) is nothing like an AI Overlord. We enable and validate the testing of HPC-related toolchains and libraries, through continuous integration (CI) processes, to ensure the end-user/researcher can perform their number crunching activities.  Scenarios such as particle physics, planet formation, universe mapping and Machine Learning require enormous amounts of computational power that HPC and SuperComputer infrastructures enable. We do however, have a special interest in seeing where Artificial Intelligence development may lead us and whether the current path is the right one.
+Linaro’s High Performance Computing Special Interest Group (HPC SIG) is nothing like an AI Overlord. We enable and validate the testing of HPC-related toolchains and libraries, through continuous integration (CI) processes, to ensure the end-user/researcher can perform their number crunching activities. Scenarios such as particle physics, planet formation, universe mapping and Machine Learning require enormous amounts of computational power that HPC and SuperComputer infrastructures enable. We do however, have a special interest in seeing where Artificial Intelligence development may lead us and whether the current path is the right one.
 
 ## Are we there yet?
 

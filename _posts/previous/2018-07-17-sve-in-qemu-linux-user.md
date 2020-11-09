@@ -1,12 +1,15 @@
-﻿---
+---
 title: SVE in QEMU's linux-user mode
 author: alex.bennee
 layout: post
 date: 2018-07-17 09:00:00+00:00
-description: >-
-    ARM SVE support has finally landed in the latest version of QEMU.
-categories: Blog
-tags: Arm, Armv8, linaro, SVE, QEMU
+description: ARM SVE support has finally landed in the latest version of QEMU.
+category: blog
+tags:
+  - Arm
+  - Linaro
+  - SVE
+  - Qemu
 published: true
 ---
 
@@ -14,7 +17,7 @@ Arm’s innovative [Scalable Vector Extension](https://community.arm.com/process
 
 The SVE instruction set also provides some additional features which are worth taking advantage of. These include a fault handling mechanism called the First Fault Register which allows you to defer expensive calculations to avoid crossing page boundaries and instead handle reaching non-accessible pages as just another boundary condition for your loop. Another feature of note is scatter/gather load/store support which allows complex structures to be quickly loaded into registers in fewer instructions.
 
-While SVE enabled hardware is on its way, it’s going to be a while before anyone outside of a silicon lab can get their hands on real hardware. In the meantime, software developers want to be able to port and test their software now so they can be ready for the arrival of real SVE enabled chips. With the release of QEMU 3.0, they will be able to do just that. Thanks to QEMU's linux-user emulation, we now have the ability to develop and test userspace Arm binaries utilising SVE. 
+While SVE enabled hardware is on its way, it’s going to be a while before anyone outside of a silicon lab can get their hands on real hardware. In the meantime, software developers want to be able to port and test their software now so they can be ready for the arrival of real SVE enabled chips. With the release of QEMU 3.0, they will be able to do just that. Thanks to QEMU's linux-user emulation, we now have the ability to develop and test userspace Arm binaries utilising SVE.
 
 If you want to learn more about the history of vector processing and the implications it has for dynamic binary translation, watch the [talk I gave at KVM Forum last year](https://www.youtube.com/watch?v=IYHTwnde0g8).
 
@@ -38,7 +41,7 @@ Setting /usr/bin/qemu-aarch64_be as binfmt interpreter for aarch64_be
 ..
 Setting /usr/bin/qemu-microblaze as binfmt interpreter for microblaze
 Setting /usr/bin/qemu-microblazeel as binfmt interpreter for microblazeel
-```	
+```
 
 It is important that the interpreter for aarch64 binaries points at /usr/bin/qemu-aarch64 as this is where we will be installing the QEMU support binary in our docker images.
 
@@ -54,7 +57,7 @@ And then build:
 
 ```bash
 make -j8
-```	
+```
 
 The -j option specifies how many units to compile at a time, typically you set it to the number of cores your system has. If you are running on a beefy server hardware, feel free to crank the number higher ;-)
 
@@ -68,17 +71,16 @@ Fortunately all the details of the build are hidden behind QEMU’s build system
 make docker-binfmt-image-debian-ubuntu-bionic-arm64 \
   DEB_ARCH=arm64 DEB_TYPE=bionic DEB_URL=http://ports.ubuntu.com \
   EXECUTABLE=./aarch64-linux-user/qemu-aarch64 V=1
-```	
+```
 
 The V=1 will show you what’s going on under the hood as the bootstrapping process will take a while to complete. Once it has completed there should be an image in your local docker repository tagged qemu:debian-ubuntu-bionic-arm64. We can run it to verify that everything worked ok:
-
 
 ```bash
 $ docker run --rm -it qemu:debian-ubuntu-bionic-arm64 /bin/bash
 root@e68be4cb7b0f:/# uname -a
 Linux e68be4cb7b0f 4.15.0-23-generic #25-Ubuntu SMP Wed May 23 18:02:16 UTC 2018 aarch64 aarch64 aarch64 GNU/Linux
 root@e68be4cb7b0f:/# exit
-```	
+```
 
 While uname reports the host kernel version, as far as the binaries are concerned they are running on an AArch64 machine. Another cool aspect about QEMU’s docker support is that it has automatically created a user in the container that is mapped to the current user on the host. This allows us to spin up a container process with the users privileges. This is useful when combined with dockers [volume mounts](https://docs.docker.com/storage/volumes/) to allow access to the host file-system as it means any files will be owned by the user and not the all powerful "root" user.
 
@@ -105,9 +107,10 @@ root@c4dc9b5426ad:/# gcc --version
 gcc (Ubuntu 8-20180414-1ubuntu2) 8.0.1 20180414 (experimental) [trunk revision 259383]
 ...
 root@c4dc9b5426ad:/# exit
-```	
+```
 
 We have done the following things:
+
 1. Added the universe repository (for gcc/g++-8)
 2. Updated the repo lists
 3. Installed gcc-8 and some other useful tools
@@ -122,14 +125,14 @@ c4dc9b5426ad        qemu:debian-ubuntu-bionic-arm64   "/bin/bash"              2
 e174632927ba        238519b386bc                      "/bin/sh"                5 hours ago         Exited (0) 5 hours ago                         friendly_mayer
 ad33c7bc7558        0da2cdd3455f                      "/bin/sh"                8 hours ago         Exited (0) 8 hours ago                         silly_noether
 ...
-```	
+```
 
 The first entry on the list is the one we have justed exited, so we commit that as a new image:
 
 ```bash
 $ docker commit -m "setup arm64 env" adoring_goodall development:bionic-arm64-sve
 sha256:25b770e5ce8a5b55ebbccad3b90b58a3474c4acdc5a70ca8ad42fdaf9f273f53
-```	
+```
 
 The sha256 is the new image id, but we have tagged it as development:bionic-arm64-sve so we can use a friendly name in the future.
 
@@ -142,13 +145,13 @@ First off all check out the git repository on the host system:
 ```bash
 $ git clone https://git.linaro.org/toolchain/cortex-strings.git cortex-strings.git
 $ cd cortex-strings.git
-```	
+```
 
 We shall now start our development container as the user with our host path mounted:
 
 ```bash
 $ docker run --rm -it -u $(id -u) -v $(pwd):$(pwd) -w $(pwd) development:bionic-arm64-sve /bin/bash
-```	
+```
 
 The remaining steps are run inside our container:
 
@@ -157,7 +160,7 @@ user@container:~/cortex-strings.git $ ./autogen.sh
 user@container:~/cortex-strings.git $ ./configure --with-sve --enable-static --disable-shared
 user@container:~/cortex-strings.git $ make -j
 user@container:~/cortex-strings.git $ make check -j
-```	
+```
 
 At the end you should be presented with the result of the self-test:
 
@@ -185,7 +188,7 @@ Testsuite summary for cortex-strings 1.1-2012.06~dev
 # XPASS: 0
 # ERROR: 0
 ======================================================================
-```	
+```
 
 Not sure we have just run SVE enabled code? Let’s examine it with gdb:
 
@@ -219,6 +222,6 @@ Dump of assembler code for function strcpy:
   0x0000000000002410 <+80>:    ret
 End of assembler dump.
 (gdb)
-```	
+```
 
-And there you have it. You can see predicate instructions `ptrue`, vector loads `ldff1b  {z0.b}` and resetting of the first fault register `setffr`.
+And there you have it. You can see predicate instructions `ptrue`, vector loads `ldff1b {z0.b}` and resetting of the first fault register `setffr`.

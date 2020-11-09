@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-07-07 21:46:30
 description: LCE13 is all about engineering. Find out what goes into planning and
   building the future of Linux on Arm. Find out how to participate remotely.
@@ -11,12 +10,8 @@ layout: post
 link: /blog/community-blog/welcome-to-linaro-connect-europe-2013/
 slug: welcome-to-linaro-connect-europe-2013
 tags:
-- Community
 - Connect Events
-- Hangouts on Air
-- community
 - Connect Events
-- Hangouts on Air
 title: Welcome to Linaro Connect Europe 2013
 wordpress_id: 2802
 ---

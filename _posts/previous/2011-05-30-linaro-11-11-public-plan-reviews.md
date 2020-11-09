@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2011-05-30 04:42:09
 description: Public phone calls to review plans for the 2011.11 engineering cycle.
   Anyone is welcome to join and ask questions through IRC.
@@ -9,10 +8,7 @@ layout: post
 link: /blog/community-blog/linaro-11-11-public-plan-reviews/
 slug: linaro-11-11-public-plan-reviews
 tags:
-- Community
-- Engineering cycle
 - Linaro
-- plans
 title: Linaro 11.11 public plan reviews
 wordpress_id: 3386
 ---
@@ -25,29 +21,19 @@ In case you can't dial in, audio streams and IRC logs will be available after ea
 
 The calls will happen daily at 15:00 UTC, starting on Tuesday, May 31:
 
+- Tuesday, May 31: Power Management Working Group (Amit Kucheria)
 
+- Wednesday, June 1: Toolchain Working Group (Michael Hope)
 
+- Thursday, June 2: Graphics Working Group (Jesse Barker)
 
-  * Tuesday, May 31: Power Management Working Group (Amit Kucheria)
+- Friday, June 3: Infrastructure and Validation (James Westby and Paul Larson)
 
+- Monday, June 6: Android and Developer Platform (Zach Pfeffer and Ricardo Salveti)
 
-  * Wednesday, June 1: Toolchain Working Group (Michael Hope)
+- Tuesday, June 7: Kernel Working Group (Deepak Saxena)
 
-
-  * Thursday, June 2: Graphics Working Group (Jesse Barker)
-
-
-  * Friday, June 3: Infrastructure and Validation (James Westby and Paul Larson)
-
-
-  * Monday, June 6: Android and Developer Platform (Zach Pfeffer and Ricardo Salveti)
-
-
-  * Tuesday, June 7: Kernel Working Group (Deepak Saxena)
-
-
-  * Wednesday, June 8: Office of the CTO (David Rusling)
-
+- Wednesday, June 8: Office of the CTO (David Rusling)
 
 All the details and dial-in numbers can be found on Linaro's developer wiki: [https://wiki-archive.linaro.org/Cycles/1111/PublicPlanReview](https://wiki-archive.linaro.org/Cycles/1111/PublicPlanReview)
 

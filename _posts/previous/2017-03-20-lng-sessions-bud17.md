@@ -19,8 +19,7 @@ video_length: 00:00
 video_thumbnail: None
 wordpress_id: 5613
 youtube_video_url: None
-categories:
-- Blog
+category: blog
 permalink: /blog/:title/
 ---
 
@@ -39,11 +38,7 @@ The initial implementation will target Cavium OCTEON TX SoC to accelerate IP Com
 **Session ID:** BUD17-103
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-103/](https://connect.linaro.org/resources/bud17/bud17-103/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** PCI-e EndPoint mode of operation in OpenDataPlane(ODP) – BUD17-107
 
@@ -58,11 +53,7 @@ The initial implementation will target Cavium OCTEON TX SoC
 **Session ID:** BUD17-107
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-107/](https://connect.linaro.org/resources/bud17/bud17-107/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** High performance software packet scheduler – BUD17-111
 
@@ -73,11 +64,7 @@ The initial implementation will target Cavium OCTEON TX SoC
 **Session ID:** BUD17-111
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-111/](https://connect.linaro.org/resources/bud17/bud17-111/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** Journey of a packet – BUD17-300
 
@@ -89,11 +76,7 @@ Describe step by step what components a packet goes through and details cases wh
 **Session ID:** BUD17-300
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-300/](https://connect.linaro.org/resources/bud17/bud17-300/)
 
-
-
-* * *
-
-
+---
 
 **Session Name:** ODP IPsec offload panel – BUD17-306
 
@@ -108,11 +91,7 @@ Implementation perspective
 ** Session ID:** BUD17-306
 **Resource page:** [http://connect.linaro.org/resource/bud17/bud17-306/](https://connect.linaro.org/resources/bud17/bud17-306/)
 
-
-
-* * *
-
-
+---
 
 **Session Name: **High resolution data plane timers – BUD17-320
 

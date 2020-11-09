@@ -1,15 +1,13 @@
 ---
 author: deepak.saxena
-categories:
-- Blog
+category: blog
 date: 2011-09-09 14:17:05
 description: Discusses the changes in the Linaro Kernel
 keywords: Linaro, Linux, kernel, Arm,
 layout: post
 link: /blog/industry-blog/the-evolution-of-the-linaro-kernel/
 slug: the-evolution-of-the-linaro-kernel
-tags:
-- Industry
+tags: []
 title: The Evolution of the Linaro Kernel
 wordpress_id: 4126
 ---
@@ -37,11 +35,11 @@ To improve upon this, Linaro is making a number of adjustments to its kernel pro
 
 **Linaro will be actively testing a number of trees, including:**
 
-* Linus Torvald’s mainline tree
-* The "for-next" branch of the arm-soc tree, a key consolidation point for for various SOC trees
-* [Russell King’s Arm tree](http://ftp.arm.linux.org.uk/git/gitweb.cgi?p=linux-2.6-arm.git;a=summary), which contains core Arm architecture changes
-* Stephen Rothwell's linux-next tree
-* **linux-linaro** itself
+- Linus Torvald’s mainline tree
+- The "for-next" branch of the arm-soc tree, a key consolidation point for for various SOC trees
+- [Russell King’s Arm tree](http://ftp.arm.linux.org.uk/git/gitweb.cgi?p=linux-2.6-arm.git;a=summary), which contains core Arm architecture changes
+- Stephen Rothwell's linux-next tree
+- **linux-linaro** itself
 
 Testing this set of trees enables us to quickly catch mainline-affecting issues. By testing often and early, we can ensure that member platforms are always working upstream, and substantially decrease the maintenance burden for internal BSP trees. In addition, this work will provide a validated baseline with improved Arm support and testing that member’s engineering teams can use for development of new features and SOC ports.
 

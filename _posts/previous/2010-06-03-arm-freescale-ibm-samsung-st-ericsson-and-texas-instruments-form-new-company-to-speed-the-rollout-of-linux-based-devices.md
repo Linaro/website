@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2010-06-03 11:50:19
 description: CAMBRIDGE, UK - 3 JUN 2010
 layout: post
@@ -16,42 +15,31 @@ CAMBRIDGE, UK - 3 JUN 2010
 
 ## Linaro unites industry leaders to foster innovation in the Linux® community through a common foundation of tools and software
 
-  * Arm, Freescale, IBM, Samsung, ST-Ericsson and Texas Instruments have created the not-for-profit company, Linaro, committed to providing new resources and industry alignment for open source software developers using Linux on the world’s most sophisticated semiconductor System-on-Chips (SoCs).
+- Arm, Freescale, IBM, Samsung, ST-Ericsson and Texas Instruments have created the not-for-profit company, Linaro, committed to providing new resources and industry alignment for open source software developers using Linux on the world’s most sophisticated semiconductor System-on-Chips (SoCs).
 
+- Linaro will invest resources in open source projects that can then be used by Linux-based distributions such as Android, LiMo, MeeGo, Ubuntu and webOS.
 
-  * Linaro will invest resources in open source projects that can then be used by Linux-based distributions such as Android, LiMo, MeeGo, Ubuntu and webOS.
+- Linaro will provide a stable and optimized base for distributions and developers by creating new releases of optimized tools, kernel and middleware software validated for a wide range of SoCs, every six months.
 
+- Linaro's base of software and tools will be applicable to a wide range of markets, helping reduce time-to-market for products such as smart phones, tablets, digital televisions, automotive entertainment and enterprise equipment.
 
-  * Linaro will provide a stable and optimized base for distributions and developers by creating new releases of optimized tools, kernel and middleware software validated for a wide range of SoCs, every six months.
-
-
-  * Linaro's base of software and tools will be applicable to a wide range of markets, helping reduce time-to-market for products such as smart phones, tablets, digital televisions, automotive entertainment and enterprise equipment.
-
-
-  * Linaro's first software and tools release is due out in November 2010, and will provide optimizations for the latest range of Arm® Cortex™-A family of processors.
-
+- Linaro's first software and tools release is due out in November 2010, and will provide optimizations for the latest range of Arm® Cortex™-A family of processors.
 
 Arm,  Freescale Semiconductor, IBM, Samsung, ST-Ericsson and Texas Instruments Incorporated (TI), today announced the formation of Linaro, a not-for-profit open source software engineering company dedicated to enhancing open source innovation for the next wave of always-connected, always-on computing. Linaro's work will help developers and manufacturers provide consumers with more choice, more responsive devices and more diverse applications on Linux-based systems.
 
 Linaro aligns the expertise of industry-leading electronics companies to accelerate innovation among Linux developers on the most advanced semiconductor SoCs (System-on-Chip). The current wave of "always-connected, always-on" devices requires complex SoCs to achieve the performance and low power consumers demand. Linaro was formed to increase investment in open source, address the challenges in developing products for sophisticated consumer markets and provide the support of a broad array of semiconductor products from multiple companies. By providing the common foundations of tools and software for other distributions and stacks to build upon, Linaro enables greater operational efficiency for the electronics industry.
 
-
 ### Background
-
 
 Traditionally, the Linux and open-source software communities focused on solving the software problems of enterprise and computing markets with a limited choice of processor platforms. The open source community is transitioning to create advanced Web-centric consumer devices using high profile open source based distributions and a wide range of high-performance, low-power Arm®-based SoCs. Linaro will make it easier and quicker to develop advanced products with these high profile distributions by creating software commonality across semiconductor SoCs, from multiple companies.
 
-
 ### Consumer Benefits
-
 
 In addition to providing a focal point for open source software developers, consumers will benefit by the formation of Linaro. Linaro's outputs will accelerate the abundance of new consumer products that use Linux-based distributions such as Android, LiMo, MeeGo, Ubuntu and webOS in conjunction with advanced semiconductor SoCs to provide the new features consumers desire at the lowest possible power consumption.
 
 "The dramatic growth of open source software development can now be seen in internet-based, always-connected mobile and consumer products," said Tom Lantzsch, executive officer, Linaro. "Linaro will help accelerate this trend further by increasing investment on key open source projects and providing industry alignment with the community to deliver the best Linux-based products for the benefit of the consumer."
 
-
 ### Linaro Software and Tools
-
 
 Linaro will work with the growing number of Linux distributions to create regular releases of optimized tools and foundation software that can be used widely by the industry, increasing compatibility across semiconductors from multiple suppliers. As a result, Linaro's resources and open source solutions will allow device manufacturers to speed up development time, improve performance and reduce engineering time spent on non-differentiating, low-level software. Linux distributions, open source and proprietary software projects will benefit from Linaro's investment, with more stable code becoming widely available as a common base for innovation.
 
@@ -63,9 +51,7 @@ In addition to Arm and IBM, four of the world's leading application processor co
 
 Linaro is a growing organization with additional partners expected to join, thus expanding the range of expertise that is brought to the open source community[.](http://docs.google.com/Doc?docid=0AfNxEG8hx8WWZGp2M2czM18zMmg0ZmRocnRt&hl=en#annotation1) Companies interested in joining are invited to discuss membership with Linaro executives.
 
-
 ### Founding Member quotes
-
 
 "Arm and our partners have a long history of working with, and supporting, open source software development for complex SoCs based on the Arm architecture," said Warren East, Arm CEO. "As a founding member of Linaro, we are working together with the broader open source community to accelerate innovation for the next generation of computing, focusing on delivering a rich connected experience across the diversity of devices in our daily lives."
 
@@ -79,9 +65,7 @@ Linaro is a growing organization with additional partners expected to join, thus
 
 "Linaro is intently focused on delivering critical open source components to enable developers building on Arm-based processors. An important element of that delivery is a more complete, higher quality development toolset that increases performance. In our leadership role, TI will support Linaro's efforts by leveraging our open source expertise-evidenced by our participation in Linux kernel enhancement submissions and our support of popular industry development boards," said Remi El-Ouazzane, vice president and general manager, OMAP Platform Business Unit, TI.
 
-
 ### Industry quotes
-
 
 "The existence of Linaro will significantly simplify the process of making Linux-based consumer devices available to market," said Jane Silber, CEO of Canonical. "By standardising many of the core software components, companies can focus on creating great user experiences on embedded devices through to smart phones. Canonical is delighted to participate in what will be a significant driver of the success of Linux on Arm, in the consumer electronics market."
 

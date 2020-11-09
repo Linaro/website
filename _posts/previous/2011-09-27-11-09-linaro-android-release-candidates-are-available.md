@@ -5,21 +5,17 @@ layout: post
 link: /blog/11-09-linaro-android-release-candidates-are-available/
 slug: 11-09-linaro-android-release-candidates-are-available
 title: 11.09 Linaro Android Release Candidates are Available
-categories:
-- Blog
-tags:
-- Linaro Android 11.09 Release Candidate
+category: blog
+tags: []
 ---
 
 We've all been hard at work creating the best Linaro Android release yet!
 
 Visit these links to tryout each build:
 
-
 ## Staging Panda
 
 [https://android-build.linaro.org/builds/~linaro-android/staging-panda-11.09-release/#build=1]()https://android-build.linaro.org/builds/~linaro-android/staging-panda-11.09-release/#build=1
-
 
 ## Panda
 

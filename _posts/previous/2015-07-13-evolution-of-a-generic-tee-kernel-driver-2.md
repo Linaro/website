@@ -1,7 +1,6 @@
 ---
 author: joakim.bech
-categories:
-- Blog
+category: blog
 comments: true
 date: 2015-07-13 19:05:06
 description: Getting a TEE driver into Linux upstream has been the ultimate goal for
@@ -13,9 +12,7 @@ excerpt: ' Getting a TEE driver into Linux upstream has been the ultimate goal f
 layout: post
 slug: evolution-of-a-generic-tee-kernel-driver-2
 tags:
-- Core Dump
 - Linaro
-- OP-TEE
 - Security
 - TEE
 - TrustZone

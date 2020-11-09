@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-05-25 16:09:18
 description: Linaro thanks its sponsors for their up role in the upcoming Q2.12 Linaro
   Connect being held at the Gold Coast Hotel in Hong Kong on 28 May-1 June.
@@ -11,9 +10,7 @@ layout: post
 link: /blog/industry-blog/thank-you-to-our-sponsors/
 slug: thank-you-to-our-sponsors
 tags:
-- Community
 - Connect Events
-- Industry
 title: Thank you to our sponsors!
 wordpress_id: 1645
 ---
@@ -29,7 +26,6 @@ Diamond sponsors— [Arm](http://www.arm.com/) and [Canonical](http://www.canon
 Gold sponsor— [Samsung](http://www.samsung.com/us/#latest-home)
 
 Media sponsors— [Linux Journal](https://en.wikipedia.org/wiki/Linux_Journal), [Ubuntu User Magazine](http://www.ubuntu-user.com/), and [LinuxQuestions.Org](http://www.linuxquestions.org/)
-
 
 Thanks to our Sponors: Arm, Canonical, Samsung, Linux Journal, Ubuntu User and Linux Questions!
 

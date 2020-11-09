@@ -1,42 +1,27 @@
 ---
 layout: post
-title: " Linaro Developer Cloud Kubernetes as a Service"
-description: Recently, Linaro Developer Cloud has supported Kubernetes as a
-  Service, and we have finally passed all the conformance tests from CNCF as the
-  Certified Kubernetes - Hosted. The Linaro Developer Cloud Kubernetes service
-  makes it easy for you to deploy, manage, and scale Kubernetes clusters to run
-  containerised applications on the Arm64 platform.
-date: 2020-07-24T12:55:00.000Z
+title: ' Linaro Developer Cloud Kubernetes as a Service'
+description: Recently, Linaro Developer Cloud has supported Kubernetes as a Service,
+  and we have finally passed all the conformance tests from CNCF as the Certified
+  Kubernetes - Hosted. The Linaro Developer Cloud Kubernetes service makes it easy
+  for you to deploy, manage, and scale Kubernetes clusters to run containerised applications
+  on the Arm64 platform.
+date: 2020-07-24 12:55:00+00:00
 image: /assets/images/content/code_highway_under_2mb.jpg
 tags:
-  - Octavia-ingress-controller
-  - K8s-keystone-auth
-  - Magnum
-  - Linaro Developer Cloud Kubernetes
-  - Linaro
-  - Arm
-  - Arm64
-  - Linaro Data Center Group
-  - open-source cloud IAAS
-  - PAAS
-  - OpenStack
-  - Kubernetes
-  - Ceph
-  - Linaro Developer Cloud
-  - Debian
-  - CentOS
-  - OpenStack Powered Cloud
-  - AWS EKS
-  - Azure AKS
-  - Huawei Cloud
-  - CCE
-  - CNCF
-  - Octavia
-  - heat
-  - Cinder-CSI-driver
+- Linaro Developer Cloud Kubernetes
+- Linaro
+- Arm
+- Arm64
+- Linaro Data Center Group
+- PAAS
+- OpenStack
+- Kubernetes
+- Linaro Developer Cloud
+- OpenStack Powered Cloud
 related_projects:
-  - CLOUD
-category: Blog
+- CLOUD
+category: blog
 author: kevin.zhao@linaro.org
 ---
 

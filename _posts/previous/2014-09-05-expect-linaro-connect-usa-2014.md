@@ -1,7 +1,6 @@
 ---
 author: steve.taylor
-categories:
-- Blog
+category: blog
 date: 2014-09-05 20:18:13
 description: Overview of the events taking place at Linaro Connect USA 2014 the week
   of September 14-19th in Burlingame, California.
@@ -10,7 +9,6 @@ link: /blog/connect-update/expect-linaro-connect-usa-2014/
 slug: expect-linaro-connect-usa-2014
 tags:
 - Connect Events
-- conference
 - Connect Events
 - Linaro
 - Linaro Connect

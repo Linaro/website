@@ -6,16 +6,14 @@ link: /blog/bud17-registration-launched/
 slug: bud17-registration-launched
 title: Linaro Connect Budapest (BUD17) Registration has launched!
 wordpress_id: 11924
-categories:
-- Blog
+category: blog
 tags:
 - Connect Events
-- conference
-- connect
+- Connect
 - Connect Events
 - Linaro
 - Linux
-- Linux on Arm
+- Linux On Arm
 ---
 
 We are pleased to announce that registration for [Linaro Connect ](https://connect.linaro.org/attend/)Budapest (BUD17) has opened!  Linaro Connect has become the event to attend if you are interested in Linux development and related ecosystems on Arm, bringing together engineers and industry experts to discuss, learn, network and push forward new technologies. The event will begin on Monday 6 March at 8.30am with a Welcome keynote by Linaro CEO George Grey and finish on Friday 10 March at 2pm with Demo Friday.
@@ -26,13 +24,11 @@ BUD17 will take place at the Corinthia Hotel. The hotel is in the very heart of 
 
 The cost for the full week pass is $2,500. A single day pass will be $900. The registration fee includes access to all keynotes and technical sessions, as well as breakfast, lunch, coffee breaks and any socials relating to the date you have purchased a ticket for. If you purchase the pass for the full week, you will receive access to the full week’s agenda.
 
-We offer an Early Bird Discount to all those who register before Friday 6 January 2017. This brings the cost for the full week down to $2,000.
+We offer an Early Bird Discount to all those who register before Friday 6 January 2017. This brings the cost for the full week down to \$2,000.
 
 If you are a Keynote Speaker, Sponsor, Linaro Employee, Assignee or Member, please contact [connect@linaro.org](mailto:connect@linaro.org) to obtain the appropriate link and discount code to register. For all others, please click on the button below to register:
 
-
 ### **[Register here ](http://linaro.co/BUD17)**
-
 
 **Accommodation**
 

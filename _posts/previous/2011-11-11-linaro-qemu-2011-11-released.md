@@ -1,15 +1,13 @@
 ---
 author: fathi.boudra
-categories:
-- Blog
+category: blog
 date: 2011-11-11 16:42:23
 description: Announcement of the Linaro QEMU 2011.11 release. New features and known
   issues.
 layout: post
 link: /blog/releases-blog/linaro-qemu-2011-11-released/
 slug: linaro-qemu-2011-11-released
-tags:
-- Releases
+tags: []
 title: Linaro QEMU 2011.11 released
 wordpress_id: 866
 ---
@@ -23,23 +21,24 @@ number of Arm-focused bug fixes and enhancements.
 
 New in this month's release:
 
-- The Arm vexpress-a9, versatilepb, versatileab and realview-*
-boards now have audio support (thanks to Mathieu Sonet who
-contributed a PL041 implementation upstream)
+- The Arm vexpress-a9, versatilepb, versatileab and realview-\*
+  boards now have audio support (thanks to Mathieu Sonet who
+  contributed a PL041 implementation upstream)
 - Support for multiple instances of the "-sd" option on the
-command line has been dropped; this was never present in
-upstream QEMU and has been removed for consistency. Use
-"-drive,if=sd,index=N,file=file.img" for N=0,1,2... instead
+  command line has been dropped; this was never present in
+  upstream QEMU and has been removed for consistency. Use
+  "-drive,if=sd,index=N,file=file.img" for N=0,1,2... instead
 - Fixes LP: [#886980](http://launchpad.net/bugs/886980): 8 and 16 bit reads from the OMAP GPIO module
-would crash due to an infinite recursion
+  would crash due to an infinite recursion
 - Fixes LP: [#823902](http://launchpad.net/bugs/823902): problems running multithreaded programs in
-linux-user mode
+  linux-user mode
 
 Known issues:
+
 - Graphics do not work for OMAP3 based models (beagle, overo)
-with 11.10 Linaro images.
+  with 11.10 Linaro images.
 - This release of qemu-linaro is known not to work on Arm hosts.
-(See LP: [#883133](http://launchpad.net/bugs/883133), [#883136](http://launchpad.net/bugs/883136))
+  (See LP: [#883133](http://launchpad.net/bugs/883133), [#883136](http://launchpad.net/bugs/883136))
 
 NB: if you run QEMU on a host system without properly configured
 audio you might find that QEMU now hangs at some point; you can

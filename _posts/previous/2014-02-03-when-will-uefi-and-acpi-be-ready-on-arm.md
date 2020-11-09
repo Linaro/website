@@ -1,7 +1,6 @@
 ---
 author: grant.likely
-categories:
-- Blog
+category: blog
 date: 2014-02-03 18:58:27
 description: Why are we doing UEFI & ACPI? Who should be using UEFI/ACPI? Will U-Boot
   and FDT continue to be supported? Can hardware provide both ACPI & FDT? Can ACPI
@@ -14,11 +13,11 @@ layout: post
 link: /blog/when-will-uefi-and-acpi-be-ready-on-arm/
 slug: when-will-uefi-and-acpi-be-ready-on-arm
 tags:
-- kernel
+- Kernel
 - Linaro
 - Linux
-- Linux on Arm
-- software
+- Linux On Arm
+- Software
 title: When Will UEFI and ACPI Be Ready On Arm?
 wordpress_id: 3284
 ---
@@ -27,9 +26,7 @@ As part of the work to prepare for Arm servers, the Linaro Enterprise Group has 
 
 Yet this work has raised questions about what it means for the rest of the Arm Linux world. Why are we doing UEFI & ACPI? Who should be using UEFI/ACPI? Will U-Boot and FDT continue to be supported? Can hardware provide both ACPI & FDT? Can ACPI and FDT coexist? And so on. I want to quickly address those questions in this blog post, and then I want to discuss a development plan to get UEFI and ACPI onto shipping servers.
 
-
 ### Table Of Content
-
 
 Why UEFI and ACPI?
 Current Status
@@ -43,9 +40,7 @@ GRUB on UEFI
 Linux on UEFI (CONFIG_EFI_STUB)
 ACPI
 
-
 ## **Why UEFI and ACPI?**
-
 
 Note: I am only talking about general purpose Armv8 servers here. Not mobile, not embedded. At this present time, I don’t see any compelling reason to adopt ACPI outside of the server market. If you are not doing server work you can stop reading right now and keep using what you already have.
 
@@ -65,10 +60,7 @@ Ultimately, Arm and the companies it consulted came to the consensus that ACPI i
 
 I expect Arm will be publishing a firmware document requiring both UEFI and ACPI in the near future.
 
-
-
 ## **Current Status**
-
 
 At this present moment, mainline only supports FDT. I think I’m safe in saying that among the Arm kernel maintainers we’re committed to FDT. It is not going away. Any hardware that provides an FDT that boots mainline Linux will continue to be supported. You can build a device with FDT and it will be supported for the long term. Similarly, there are no plans to deprecate U-Boot support, or any other boot loader for that matter. ACPI and UEFI support will happily coexist with FDT and support for other bootloaders.
 
@@ -76,17 +68,11 @@ ACPI support is not yet in mainline. The patches for Arm are done and have been 
 
 So, for the vendors who do want to use ACPI, what are they supposed to do? Ship ACPI (which doesn’t work yet)? Ship FDT and upgrade to ACPI later? Ship both (but how does that work)? In an effort to clarify, here is how I see the world:
 
-
-
 ## **What Should Vendors Do?**
-
 
 Given the current state of mainline support, what should vendors ship on their hardware? In typically helpful form, I answer, “it depends”. To keep the answer simple, I’ve split up my suggestions into three categories based on when hardware is going to ship: immediately, in the next year, and in the long term (2+ years).
 
-
-
 ## **For Hardware Shipping Very Shortly**
-
 
 There are two questions to answer, which firmware should vendors use, and which hardware description. I’ll start with firmware. At this moment, Linux UEFI support is essentially complete. The patches have been reviewed positively and will probably get merged in the next merge window. UEFI will also work equally well with either an FDT or an ACPI hardware description. Plus the TianoCore UEFI project can already boot a Linux kernel without any additional patches. Anyone planning to ship servers is the near future should plan on using UEFI right from the start.
 
@@ -104,10 +90,7 @@ On a related note, UEFI may also provide SMBIOS to the kernel regardless of whet
 
 FDT, SMBIOS and ACPI tables are provided to the kernel via the UEFI Configuration Table. The configuration table is a list of key value pairs. Keys are well known GUIDs, and the value is a pointer to the data structure. SMBIOS and ACPI GUIDs are specified in the UEFI spec. The FDT GUID has been [posted for review](http://sourceforge.net/mailarchive/message.php?msg_id=31731478). FDT and SMBIOS data structures must be in memory allocated as EFI_RUNTIME_DATA.
 
-
-
 ## **For a Year From Now**
-
 
 In about a year from now I would make the prediction that ACPI support is in mainline. My recommendations are the same as above, with the following exceptions:
 
@@ -115,44 +98,29 @@ For widest range of support, platforms should support both FDT and ACPI. Some op
 
 My opinion is that Linux should use only FDT or only ACPI, but not both! [Edit: by this I mean not both at the same time. It is perfectly fine for an OS to have support for both, as long as only one is used at a time] I think that when provided with both, the kernel should default to ACPI and ignore the FDT (this is up for debate; Eventually I think this is what the kernel should do, and I think we should start with that policy simply because trying to change the policy at some arbitrary point in time will probably be a lot more painful than starting with the default that we want to ultimately get to).
 
-
-
 ## **The Long View**
-
 
 Servers must provide ACPI, but vendors can optionally choose to provide an FDT if they need to support an OS which doesn’t have ACPI support. For example, this may be an issue for the Xen hypervisor which does not yet have a design for adding Arm ACPI support. The kernel should prefer ACPI if provided, but there are no plans to deprecate FDT support. As far as the kernel is concerned, FDT and ACPI are on equal footing. We will not refuse to boot a server that provides FDT.
 
 I cannot speak for OS vendors and hardware vendors on this topic. They may make their own statements on what is required to support the platform. So, while the kernel will fully support both FDT and ACPI descriptions, vendors may require ACPI.
 
-
-
 ## **Implementation Details**
-
 
 Here I’m going to talk about how everything works together. There are a lot of moving parts in the firmware architecture described above, so it helps to have a description of how the parts interact.
 
-
-
 ## **UEFI**
-
 
 The TianoCore UEFI project has a complete, open source UEFI implementation that includes support for both 32 and 64 bit Arm architectures. It can be used to build UEFI firmware which is compliant with the UEFI spec. UEFI cannot boot Linux directly, but requires a Linux specific OS loader which is not part of the UEFI spec. There is a legacy LinuxLoader in the UEFI tree, but as it is not standardized there is no guarantee that it will be included in firmware. Best practice is to use the native UEFI support in the kernel.
 
 UEFI passes all hardware description tables to an OS loader via the UEFI configuration table.
 
-
-
 ## **GRUB on UEFI**
-
 
 GRUB UEFI support has been ported to Arm and works almost identically to GRUB UEFI on x86. The patches have been merged into mainline and will be part of the GRUB release 2.02.
 
 Internally, the most significant difference between x86 and Arm GRUB support is that on x86 GRUB the boot_params structure is used to pass additional data to the kernel, while on Arm it uses an FDT.
 
-
-
 ## **Linux on UEFI (CONFIG_EFI_STUB)**
-
 
 The current set of ready-to-merge patches to the Linux kernel add support for both CONFIG_EFI_STUB and UEFI runtime services. CONFIG_EFI_STUB embeds a UEFI OS loader into the kernel image itself which allows UEFI to boot the kernel as a native UEFI binary. The stub takes care of setting up the system the way Linux wants it and jumping into the kernel. The kernel-proper entry point remains exactly the same as it is now and a CONFIG_EFI_STUB kernel is still bootable on U-Boot and other bootloaders.
 
@@ -162,10 +130,7 @@ If both ACPI and FDT are provided by firmware, then all hardware description in 
 
 UEFI runtime services are also supported. The stub will pass the UEFI system table pointer through to the kernel and the kernel will reserve UEFI memory regions so that it can call back into UEFI code to query and manipulate boot variables, the hardware clock, and system wakeup.
 
-
-
 ## **ACPI**
-
 
 As described above, the kernel will use ACPI if present in the configuration table, and fall back to FDT otherwise. The kernel will not attempt to use both ACPI and FDT hardware descriptions.
 
@@ -173,21 +138,15 @@ One potential problem is that Kexec may interact poorly with ACPI. The OS isn’
 
 _Re-published with permission from Grant Likely from his original blog post at_ [http://www.secretlab.ca/archives/27](http://www.secretlab.ca/archives/27)
 
+---
 
-* * *
+1. Arm32 Runtime Service: [http://lwn.net/Articles/575363/](http://lwn.net/Articles/575363/)
 
+2. Arm32 CONFIG_EFI_STUB: [http://lwn.net/Articles/575352/](http://lwn.net/Articles/575352/)
 
-  1. Arm32 Runtime Service: [http://lwn.net/Articles/575363/](http://lwn.net/Articles/575363/)
+3. Arm64 CONFIG_EFI_STUB and Runtime services:
+   [https://lkml.org/lkml/2013/11/29/373](https://lkml.org/lkml/2013/11/29/373)
 
+4. With the caveat that if nobody notices, is it really an ABI breakage? There are many embedded platforms which want to keep the FDT in lock step with the kernel and the build toolchain reflects that
 
-  2. Arm32 CONFIG_EFI_STUB: [http://lwn.net/Articles/575352/](http://lwn.net/Articles/575352/)
-
-
-  3. Arm64 CONFIG_EFI_STUB and Runtime services:
-[https://lkml.org/lkml/2013/11/29/373](https://lkml.org/lkml/2013/11/29/373)
-
-
-  4. With the caveat that if nobody notices, is it really an ABI breakage? There are many embedded platforms which want to keep the FDT in lock step with the kernel and the build toolchain reflects that
-
-
-  5. This is still up for debate, the priority of ACPI over FDT may yet be changed
+5. This is still up for debate, the priority of ACPI over FDT may yet be changed

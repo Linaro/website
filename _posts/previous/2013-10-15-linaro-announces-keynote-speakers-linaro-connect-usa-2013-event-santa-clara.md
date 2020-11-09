@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2013-10-15 12:29:28
 description: CAMBRIDGE, UK - 15 OCT 2013
 layout: post
@@ -14,15 +13,14 @@ wordpress_id: 4429
 
 CAMBRIDGE, UK - 15 OCT 2013
 
-
 [Linaro](/), the not-for-profit engineering organization developing open source software for the Arm architecture, today announced the keynote speakers for the upcoming [Linaro Connect USA 2013](https://connect.linaro.org/lcu13/) (LCU13) that will take place October 28th – November 1st in Santa Clara, California.  The conference will feature several [keynote speakers](https://connect.linaro.org/lcu13/) that will speak on a range of topics from High End Telecom Networking to Transformative Technology in the Internet of Things (IoT), data center and mobile, new developments in Linux and the Open Compute Project.  Linaro’s Chief Executive Officer, George Grey, will welcome attendees to LCU13 and speak about the future for open source software across a full range of segments, from servers to the Internet of Things (IoT).
 
 Keynote speakers scheduled for the Linaro Connect USA 2013 include:
 
-  * George Grey - Chief Executive Officer, Linaro
-  * Jim Zemlin – Executive Director, Linux Foundation	
-  * Frank Frankovsky – Vice President of Infrastructure, Facebook
-  * Jarmo Hillo – Head of Processor Technology, Nokia Solutions and Networks
+- George Grey - Chief Executive Officer, Linaro
+- Jim Zemlin – Executive Director, Linux Foundation
+- Frank Frankovsky – Vice President of Infrastructure, Facebook
+- Jarmo Hillo – Head of Processor Technology, Nokia Solutions and Networks
 
 In addition to the above keynotes at LCU13, attendees are invited to join the Arm TechCon keynote by Arm CEO Simon Segars. The Linaro Connect week-long agenda also features sessions on Android, Graphics and Multimedia, Kernel Consolidation, Platform Development, Power Management, QA and Infrastructure, Tools, Validation and LAVA, and training.  Along with the regular track sessions, there will be an additional networking mini summit on Tuesday October 29th from 9.00am - 1.00pm.
 

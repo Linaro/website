@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-01-12 22:29:14
 description: Announcement of the 2012.01 release of Linaro GCC 4.6 and Linaro GCC
   4.5. Release notes and download information.
@@ -10,13 +9,10 @@ layout: post
 link: /blog/releases-blog/linaro-gcc-4-6-and-4-5-2012-01-released/
 slug: linaro-gcc-4-6-and-4-5-2012-01-released
 tags:
-- Releases
-- gcc
 - Linaro
-- Linux on Arm
+- Linux On Arm
 - Open Source
-- Releases
-- toolchain
+- Toolchain
 - Working Group
 title: Linaro GCC 4.6 and 4.5 2012.01 released
 wordpress_id: 1181
@@ -26,64 +22,35 @@ wordpress_id: 1181
 
 No changes were made in Linaro GDB this month and, as such, no release has been made.
 
-
-
 ### Linaro GCC 2012.01
-
-
 
 Linaro GCC 4.6 2012.01 is the eleventh release in the 4.6 series. Based off the latest GCC 4.6.2+svn182894 release, it contains a few bug fixes from over the Christmas break.
 
 **Interesting changes**
 
-
-
-
-  * Updates to 4.6.2+svn182894
-
+- Updates to 4.6.2+svn182894
 
 Fixes:
 
+- PR51301 ICE in vectorized widening multiplies
 
-  * PR51301 ICE in vectorized widening multiplies
+- LP: #897583 Code generation bug with -O2 (-foptimize-sibling-calls)
 
-
-  * LP: #897583 Code generation bug with -O2 (-foptimize-sibling-calls)
-
-
-  * LP: #736661 armel FTBFS due to compiler ICE
-
-
-
-
+- LP: #736661 armel FTBFS due to compiler ICE
 
 ### Linaro GCC 4.5 2012.01
-
-
 
 Linaro GCC 4.5 2012.01 is the seventeenth release in the 4.5 series.
 
 **Interesting changes**
 
-
-
-
-  * Updates to 4.5.3+svn182893
-
+- Updates to 4.5.3+svn182893
 
 **Fixes**
 
-
-
-
-  * LP: #736661 armel FTBFS due to compiler ICE
-
-
-
-
+- LP: #736661 armel FTBFS due to compiler ICE
 
 ### Common details
-
 
 **The source tarballs are available from:**
 [https://launchpad.net/gcc-linaro/+milestone/4.6-2012.01](https://launchpad.net/gcc-linaro/+milestone/4.6-2012.01)

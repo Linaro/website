@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-02-08 17:32:45
 description: Linaro held its first virtual KVM/QEMU mini-summit to synchronize on
   the current state of the Virtualization and to plan the work which needs to be done
@@ -17,7 +16,7 @@ wordpress_id: 2291
 
 Linaro held a virtual [KVM/QEMU Mini-Summit](https://wiki-archive.linaro.org/LEG/Engineering/Virtualization) on the 4th and 6th of February. There were 17 attendees representing five companies all collaborating on the future of Virtualization on Arm.
 
-In an email, to [the linaro-dev mailing list](http://lists.linaro.org/pipermail/linaro-dev/2013-February/015296.html ), [Serge Broslavsky](/about/ ), Project Manager on the Technical Management team at Linaro, noted that the main goal for the mini-summit was to synchronize on the current state of Virtualization and to plan the work which needs to be done in this area.
+In an email, to [the linaro-dev mailing list](http://lists.linaro.org/pipermail/linaro-dev/2013-February/015296.html), [Serge Broslavsky](/about/), Project Manager on the Technical Management team at Linaro, noted that the main goal for the mini-summit was to synchronize on the current state of Virtualization and to plan the work which needs to be done in this area.
 
 **Day One**
 On the first day of the mini-summit included a discussion of the current status of the KVM on Armv7 and Armv8, IO Virtualization, virtio and IOMMU support code. The current process of maintainer-ship and a prioritized list of any outstanding tasks or development on v7 was reviewed.  The attendees also discussed what role Linaro could play in regards to development and testing.
@@ -34,14 +33,13 @@ _**About the Linaro Virtualization Team**_
 
 _The direction of the Linaro Virtualization Team is set by the [LEG Steering Committee](https://wiki-archive.linaro.org/LEG-SC) and [Linaro Steering Committee](https://wiki-archive.linaro.org/TSC). Work is done by a virtual team comprised of assignees from various teams within Linaro._
 
-  * _Meeting: TBD_
+- _Meeting: TBD_
 
-  * _Mailing List: mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
+- _Mailing List: mailto:linaro-dev@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
 
-  * _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
+- _IRC Channel: #linaro on irc.linaro.org or irc.freenode.net_
 
-  * _[Team Members](https://wiki-archive.linaro.org/LEG/Engineering/Virtualization)_
-
+- _[Team Members](https://wiki-archive.linaro.org/LEG/Engineering/Virtualization)_
 
 _More information about the Linaro Virtualization Team can be found at: [https://wiki-archive.linaro.org/LEG/Engineering/Virtualization](https://wiki-archive.linaro.org/LEG/Engineering/Virtualization)_
 

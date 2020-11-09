@@ -1,7 +1,6 @@
 ---
 author: mark.brown
-categories:
-- Blog
+category: blog
 date: 2013-08-29 22:48:04
 description: Overview about the Linaro Stable Kernel. Includes updates from the team
   and information about the beta release.
@@ -12,15 +11,11 @@ link: /blog/android-blog/linaro-stable-kernel-overview/
 slug: linaro-stable-kernel-overview
 tags:
 - Android
-- '13.08'
-- android
+- Android
 - AOSP
-- big.little
-- kernel
+- Kernel
 - LSK
 - LTS
-- release
-- stable
 title: Linaro Stable Kernel overview
 wordpress_id: 2899
 ---

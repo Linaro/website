@@ -1,21 +1,17 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2017-03-06 07:57:57
 description: Budapest, Hungary; 6 March 2017
 layout: post
 link: /news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/
 slug: hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm
 tags:
-- arm
-- Arm servers
-- enterprise
-- HXT
+- Arm
 - LEG
 - Linaro
 - Linaro Connect
-- linaro members
+- Linaro Members
 - Membership
 title: HXT Semiconductor Joins Linaro to Accelerate Advanced Server Development on
   Arm

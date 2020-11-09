@@ -1,19 +1,17 @@
 ---
 layout: post
 title: Working on VirtIO
-description: A summary of the history of VirtIO and the areas Linaro is working
-  on for the future.
-date: 2020-05-20T16:00:00.000Z
+description: A summary of the history of VirtIO and the areas Linaro is working on
+  for the future.
+date: 2020-05-20 16:00:00+00:00
 image: /assets/images/content/tech_background_1.jpg
 tags:
-  - linaro
-  - QEMU
-  - virtio
-  - OASIS
-  - standards
+- Linaro
+- Qemu
+- VirtIO
 related_projects:
-  - STR
-category: Blog
+- STR
+category: blog
 author: alex.bennee
 published: true
 ---

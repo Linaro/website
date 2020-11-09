@@ -1,11 +1,9 @@
 ---
 author: op-tee
-tags:
-- OP-TEE
-title: 'SFO15-205 &#58; OP-TEE Content with Microsoft PlayReady on ARM TrustZone'
-date: 2016-07-04 12:00:00 Z
-categories:
-- Blog
+tags: []
+title: SFO15-205 &#58; OP-TEE Content with Microsoft PlayReady on ARM TrustZone
+date: 2016-07-04 12:00:00+00:00
+category: blog
 layout: post
 image: /assets/images/blog/sfo15-205-op-tee-content-microsoft-playready-arm-trustzone-image.jpg
 ---
@@ -14,7 +12,7 @@ This presentation gives an overview of how various components of set-top softwar
 
 {% include media.html media_url="https://www.youtube.com/embed/defbtpsw6h8" %}
 
---------
+---
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/vV2qaEapeo7HHX" %}
 

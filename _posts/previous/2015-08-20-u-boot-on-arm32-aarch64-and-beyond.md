@@ -1,27 +1,21 @@
 ---
 author: linus.walleij
-categories:
-  - blog
+category: blog
 comments: true
 date: 2015-08-20 16:14:21
-description:
-  U-Boot became the de facto bootloader on most Arm systems during the
+description: U-Boot became the de facto bootloader on most Arm systems during the
   early 2000s. What is the best bootloader to use for any one system is a subject
   of debate.
-excerpt:
-  "U-Boot became the de facto bootloader on most Arm systems during the early
+excerpt: U-Boot became the de facto bootloader on most Arm systems during the early
   2000s.  What is the best bootloader to use for any one system is a subject of debate.
-  There have been pushes to different \u201Cthere can be only one\u201D approaches,
-  but the recent consensus is to \u201Cuse the right tool for the job\u201D  Learn
-  more"
+  There have been pushes to different “there can be only one” approaches, but the
+  recent consensus is to “use the right tool for the job”  Learn more
 layout: post
 link: /blog/core-dump/u-boot-on-arm32-aarch64-and-beyond/
 slug: u-boot-on-arm32-aarch64-and-beyond
 tags:
-  - Core Dump
-  - AArch64
-  - arm
-  - U-Boot
+- Aarch64
+- Arm
 title: U-Boot on Arm32, AArch64 and beyond
 wordpress_id: 9094
 ---

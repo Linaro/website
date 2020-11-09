@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 comments: true
 date: 2015-07-29 23:54:31
 description: Linaro Connect is celebrating it's fifth anniversary and has evolved
@@ -12,12 +11,11 @@ layout: post
 link: /blog/five-years-of-linaro-connect/
 slug: five-years-of-linaro-connect
 tags:
-- community
-- connect
+- Connect
 - Connect Events
 - Linaro
 - Linaro Connect
-- Linux on Arm
+- Linux On Arm
 title: Five years of Linaro Connect
 wordpress_id: 9056
 ---

@@ -3,21 +3,18 @@ title: Challenges of Stabilising Power and Performance Results in a Board Farm
 author: lisa.nguyen
 layout: post
 date: 2019-03-20 09:00:00
-description: >-
-    In Linaro, the Power Management Working Group (PMWG) manages a board farm to boot Linux and Android kernels and run tests across various boards.
-categories:
-  - Blog
+description: In Linaro, the Power Management Working Group (PMWG) manages a board
+  farm to boot Linux and Android kernels and run tests across various boards.
+category: blog
 tags:
-  - Linaro
-  - Arm
-  - Performance
-  - Board Farm
-  - Open Source
-  - PMWG
-  - Power Management
-  - PMWG Farm
+- Linaro
+- Arm
+- Performance
+- Open Source
+- Power Management
 image: /assets/images/blog/collect-power-measurements-in-ci.png
 ---
+
 In Linaro, the Power Management Working Group (PMWG) manages a board farm to boot Linux and Android kernels and run tests across various boards. Some of our board farm’s objectives include:
 
 - To collect power and performance results for each board type
@@ -37,7 +34,6 @@ Our CI process is illustrated in the flowchart that we created for our farm demo
 #### PMWG CI Flowchart
 
 {% include image.html path="/assets/images/blog/collect-power-measurements-in-ci.png" alt="PMWG CI Flowchart" %}
-
 
 Each developer in PMWG has their own branch and we use automerge to merge changes to an integration tree automatically. When an update is detected, we trigger a build and start the process of creating and submitting a CI job.
 
@@ -70,7 +66,6 @@ The job was canceled by a user
 The aim is to keep the infrastructure errors to less than 1%. In some CI instances, an infrastructure error triggers an automatic resubmission. This is under control of the QI team.
 
 Here is a snippet of a lab health report:
-
 
 ```
 Total jobs:     136
@@ -207,23 +202,15 @@ The troubleshooting did not end there. We removed the daughter board, used a USB
 
 To solve our overheating issues, we increased the cooling times by running eight iterations of 15 second idle workloads in between tests, totaling two minutes in cooldown time. In the initial test results, we noticed that the multimedia workloads “consumed” less power than the idle workloads, which did not make sense.
 
-
-
 We kept our tools as current as possible. We upgraded LAVA from v1 to v2 and learned how to rewrite jobs in YAML instead of JSON. We also moved to Workload Automation v3, taking advantage of the newer energy measurement instrument. Although we acknowledge that the latest version of tools can generate regressions occasionally.
-
-
 
 Originally we had one large CI job that took four hours to complete on average. Then we decided to split the CI job into two smaller ones: one for multimedia use cases (audio and video), and the other to run vellamo only. Having a dedicated vellamo CI job would be less likely to impact other tests like idle. We also cut the amount of time to run our tests in half by running smaller CI jobs.
 
-
-
 We started tracking performance trends for kernel versions 4.9, 4.14, and 4.19. 4.9 is our reference for this comparison chart below.
 
-
-
 ### Tracking performance trends for kernel versions 4.9, 4.14, and 4.19
-{% include image.html path="/assets/images/blog/tracking-performance-trends.png" alt="Tracking performance trends for kernel versions 4.9, 4.14, and 4.19" %}
 
+{% include image.html path="/assets/images/blog/tracking-performance-trends.png" alt="Tracking performance trends for kernel versions 4.9, 4.14, and 4.19" %}
 
 ## Recommendations
 
@@ -245,6 +232,5 @@ arm-probe --config &lt;/path/to/config&gt; -z
 ## Future
 
 With our success in collecting power and performance results for Android, we hope to do the same for the Linux kernel. We also want to test patches from the Linux/Arm kernel mailing list to find any regressions and report back to the developers. Lastly, we hope to collaborate with kernelci to share resources and provide more useful results to kernel maintainers and contributors other than boot test reports.
-
 
 For more information on the PMWG board farm, visit [https://www.linaro.org/engineering/core/arm-power-management/pmwg-farm/](/engineering/core/arm-power-management/pmwg-farm/).

@@ -2,8 +2,7 @@
 amazon_s3_presentation_url: None
 amazon_s3_video_url: None
 author: connect
-categories:
-- Blog
+category: blog
 comments: false
 date: 2017-03-07 02:00:51
 excerpt: See what happened during the first day of Linaro Connect Budapest 2017.  Watch
@@ -36,7 +35,6 @@ There were also many announcements during the opening keynote regarding new memb
 After all the announcements George then talked about Linaro's mission and also some of the myths surrounding the Linaro. He went on to talk about Linaro collaboration ideas and ways to make Linaro better as well as the Linaro technical landscape going into detail about each of the Linaro segment groups. He continued by going through some of the key themes for the week such as security, automated testing, the rise of the containers and hosting on ARM not x86.  There were also some great demos given during the keynote. To see all the demos and George's slides visit: [http://connect.linaro.org/resource/bud17/bud17-100k1/ ](https://connect.linaro.org/resources/bud17/bud17-100k1/)
 
 After the keynote in the afternoon the sessions began. Below is a list of the sessions that took place on Monday.
-
 
 <table width="100%" >
 <tbody >

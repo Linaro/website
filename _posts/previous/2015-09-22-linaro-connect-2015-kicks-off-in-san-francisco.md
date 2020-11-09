@@ -7,17 +7,14 @@ link: /blog/linaro-connect-2015-kicks-off-in-san-francisco/
 slug: linaro-connect-2015-kicks-off-in-san-francisco
 title: Linaro Connect 2015 Kicks Off in San Francisco
 wordpress_id: 9371
-categories:
-- Blog
+category: blog
 ---
 
 {% include image.html path="/assets/images/blog/SFO15-Linaro-Banner-Monday-Group.jpg" alt="Linaro Connect SFO15 banner" %}
 
-
 The largest Linaro Connect to date began today in San Francisco. Linaro Connect San Francisco 2015 (SFO15) will take place this entire week from September 21-25, 2015. This marks the fifth anniversary of Linaro Connect and there are many exciting things planned for this week.
 
 The day began with two opening keynotes. The first was by George Grey, CEO of Linaro. George began his keynote by welcoming the attendees to the fifth anniversary of Linaro Connect and Linaro. He discussed some of the highlights over the last five years and what to expect going forward. He then went into some of the benefits that members get when they join Linaro. There was an announcement about a new group that is being formed by the end of 2015 in Linaro called, [Linaro IoT & Embedded Group (LITE) ](https://youtu.be/5viiqYeOATI?t=24m14s)which will focus on Cortex-A Linux devices. There were also several [demonstrations around the 96Boards initiative](https://youtu.be/5viiqYeOATI?t=33m25s) during the keynote. Following the Welcome keynote was a keynote by Simon Segars, CEO of Arm who gave a talk on ["Collaboration: Key to Delivery During Market Disruption"](https://youtu.be/5viiqYeOATI?t=50m57s)
-
 
 The Monday sessions began after lunch and attendees had many different tracks to choose from including those focused on security which is the overall theme for the week as well as several on community and networking among others. Below is a list of sessions that have content available.
 
@@ -189,10 +186,8 @@ Validation
 </tbody>
 </table>
 
+Be sure to check back in tomorrow morning to watch two great keynotes live. First up, at 8:50am (PST) will be Neil Trevett, Vice President of Mobile Ecosystems at NVIDIA, who will give a keynote titled ["Open Standards and Open Source Together – How Khronos APIs Accelerate Fast and Cool Applications"](https://connect.linaro.org/resources/sfo15/). You can watch the keynote streamed live here: [https://web.archive.org/web/2019\*/https://plus.google.com/u/1/events/c9u3phgkckq0sn8tfearacbpfvo](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c9u3phgkckq0sn8tfearacbpfvo)
 
-Be sure to check back in tomorrow morning to watch two great keynotes live. First up, at 8:50am (PST) will be Neil Trevett, Vice President of Mobile Ecosystems at NVIDIA, who will give a keynote titled ["Open Standards and Open Source Together – How Khronos APIs Accelerate Fast and Cool Applications"](https://connect.linaro.org/resources/sfo15/). You can watch the keynote streamed live here: [https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c9u3phgkckq0sn8tfearacbpfvo](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/c9u3phgkckq0sn8tfearacbpfvo)
-
-The second keynote tomorrow will begin at 9:20am (PST) and the speaker will be John Simmons, Media Platform Architect at Microsoft, who will give a keynote on ["The Web and Digital Rights Management – the technical solution to the Web-DRM paradox and its disruptive implications"](https://connect.linaro.org/resources/sfo15/). You can watch this keynote streamed live here: [https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/cpd8iven7d60tidsvd7ntcnjl4k](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/cpd8iven7d60tidsvd7ntcnjl4k)
-
+The second keynote tomorrow will begin at 9:20am (PST) and the speaker will be John Simmons, Media Platform Architect at Microsoft, who will give a keynote on ["The Web and Digital Rights Management – the technical solution to the Web-DRM paradox and its disruptive implications"](https://connect.linaro.org/resources/sfo15/). You can watch this keynote streamed live here: [https://web.archive.org/web/2019\*/https://plus.google.com/u/1/events/cpd8iven7d60tidsvd7ntcnjl4k](https://web.archive.org/web/2019*/https://plus.google.com/u/1/events/cpd8iven7d60tidsvd7ntcnjl4k)
 
 Visit [https://connect.linaro.org/sfo15/](https://connect.linaro.org/sfo15/) for updates throughout the week.

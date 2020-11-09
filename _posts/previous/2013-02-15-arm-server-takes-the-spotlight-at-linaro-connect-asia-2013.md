@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2013-02-15 15:56:10
 description: The Arm Server is taking a front row seat at Linaro Connect Asia 2013
   in Hong Kong as Andrea Gallo, Director of the Linaro Enterprise Group (LEG) and
@@ -13,15 +12,12 @@ layout: post
 link: /blog/community-blog/arm-server-takes-the-spotlight-at-linaro-connect-asia-2013/
 slug: arm-server-takes-the-spotlight-at-linaro-connect-asia-2013
 tags:
-- Community
 - Connect Events
-- Hangouts on Air
 title: Arm Server takes the spotlight at Linaro Connect Asia 2013
 wordpress_id: 2364
 ---
 
 The Arm Server is taking a front row seat at Linaro Connect Asia 2013 in Hong Kong as [Andrea Gallo, Director of the Linaro Enterprise Group (LEG)](/about/) and his team host an Arm Server Mini-Summit.
-
 
 ## **Arm Server Mini-Summit**
 
@@ -37,46 +33,38 @@ When asked about why he was personally excited to be attending and participating
 
 The mini-summit will take place on Tuesday 5 March with sessions on the following topics:
 
-  * **UEFI**: Updates on the maintainership rules, Linaro tree, SCT and test integration in LAVA, collaboration with Arm and the Tianocore community, technical achievements and plans for the next steps, discussion on PXE boot.
+- **UEFI**: Updates on the maintainership rules, Linaro tree, SCT and test integration in LAVA, collaboration with Arm and the Tianocore community, technical achievements and plans for the next steps, discussion on PXE boot.
 
-  * **ACPI**: Updates on ACPICA porting on Arm and initial trials with ACPI tables and the ASL. Plans for the next steps.
+- **ACPI**: Updates on ACPICA porting on Arm and initial trials with ACPI tables and the ASL. Plans for the next steps.
 
-  * **Verticals- Web Server and Caching Technologies:** Enable the web server vertical application use case, define the configuration towards evaluating the performance and identifying potential bottlenecks. Discuss about caching technologies and reverse proxies.
+- **Verticals- Web Server and Caching Technologies:** Enable the web server vertical application use case, define the configuration towards evaluating the performance and identifying potential bottlenecks. Discuss about caching technologies and reverse proxies.
 
-  * **Verticals- HipHopVM and Hadoop Distributed File System**: Updates on HipHopVM porting onto the v8 Foundation model, interpreter and bytecode jitting. Updates on Hadoop Distributed Filesystem performance.
-
+- **Verticals- HipHopVM and Hadoop Distributed File System**: Updates on HipHopVM porting onto the v8 Foundation model, interpreter and bytecode jitting. Updates on Hadoop Distributed Filesystem performance.
 
 Members of the [Linaro Enterprise Group (LEG)](/engineering/datacenter-and-cloud/) took time out for a quick Google+ Hangout on Air where they discussed the mini-summit and what they were looking forward to about not only the mini-summit but LCA13-Hong Kong as well.
 
 ## **Other Server Sessions at LCA13-Hong Kong**
 
-
 In addition to these sessions taking place at the mini-summit other server sessions throughout the week include:
 
+- **Introducing XEN Arm:** With the introduction of[ virtualization extensions](https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/virtualization-on-arm-with-xen) on Arm processors, the Xen community has taken steps to add Arm support for Arm CPUs to the[ Xen Hypervisor](http://www.xen.org/products/xenhyp.html). This port is executed as part of of the Hypervisor project, with no separate codebase.
 
-  * **Introducing XEN Arm:** With the introduction of[ virtualization extensions](https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/virtualization-on-arm-with-xen) on Arm processors, the Xen community has taken steps to add Arm support for Arm CPUs to the[ Xen Hypervisor](http://www.xen.org/products/xenhyp.html). This port is executed as part of of the Hypervisor project, with no separate codebase.
+- **KVM:** Common session with the Kernel WG and others about KVM status and plans for A15 and v8 architectures, IO virtualization and OpenStack as a test case.
 
-  * **KVM:** Common session with the Kernel WG and others about KVM status and plans for A15 and v8 architectures, IO virtualization and OpenStack as a test case.
+- **Verticals-Distributed computing:** Discussion on distributed computing, OpenMPI, Hadoop, OpenStack
 
-  * **Verticals-Distributed computing:** Discussion on distributed computing, OpenMPI, Hadoop, OpenStack
+- **Birds of a Feather [(BOF)](<http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing)>) Code Generation Session:** GCC, OpenJDK, HipHopVM and other projects all target the generation of native AArch64 assembly code. This session brings together the key engineers from each project with the aim of sharing experiences, best practices and design patterns.
 
-  * **Birds of a Feather [(BOF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing)) Code Generation Session:** GCC, OpenJDK, HipHopVM and other projects all target the generation of native AArch64 assembly code. This session brings together the key engineers from each project with the aim of sharing experiences, best practices and design patterns.
+- **Assembly Dependencies:** Update on the scanning of Ubuntu and Fedora packages for assembly dependencies and plans for optimizations.
 
-  * **Assembly Dependencies:** Update on the scanning of Ubuntu and Fedora packages for assembly dependencies and plans for optimizations.
-
-  * **LAVA and hyperscale multi-node server testing:** Update and plans to support testing of hyperscale multi-node servers with LAVA, discussions around distributed storage or cloud computing test cases, etc.
-
+- **LAVA and hyperscale multi-node server testing:** Update and plans to support testing of hyperscale multi-node servers with LAVA, discussions around distributed storage or cloud computing test cases, etc.
 
 It’s not too late to join us in Hong Kong and registration for Linaro Connect Asia 2013 is still [open](http://linaro.eventbrite.co.uk/).
 
-
 ### More information:
 
+- **LCA13-Hong Kong**: [Connect](https://connect.linaro.org)
 
-  * **LCA13-Hong Kong**: [Connect](https://connect.linaro.org)
+- **Remote Participation: **[https://connect.linaro.org/about/](https://connect.linaro.org/about/)
 
-
-  * **Remote Participation: **[https://connect.linaro.org/about/](https://connect.linaro.org/about/)
-
-
-  * **Schedule: **[https://connect.linaro.org/about/](https://connect.linaro.org/about/)
+- **Schedule: **[https://connect.linaro.org/about/](https://connect.linaro.org/about/)

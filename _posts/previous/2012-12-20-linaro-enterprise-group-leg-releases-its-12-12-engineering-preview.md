@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2012-12-20 21:50:47
 description: Linaro Enterprise Group (LEG) Meets Aggressive Release Goals - the 12.12
   "Engineering Preview" Release is Now Available
@@ -12,14 +11,12 @@ keywords: Linaro, Linux on Arm, Linux, Open Source, Arm, Canonical, Red Hat, Fed
 layout: post
 link: /blog/releases-blog/linaro-enterprise-group-leg-releases-its-12-12-engineering-preview/
 slug: linaro-enterprise-group-leg-releases-its-12-12-engineering-preview
-tags:
-- Releases
+tags: []
 title: Linaro Enterprise Group (LEG) Releases its 12.12 "Engineering Preview"
 wordpress_id: 2172
 ---
 
 ### Linaro Enterprise Group (LEG) Meets Aggressive Release Goals - the 12.12 "Engineering Preview" Release is Now Available
-
 
 The [Linaro Enterprise Group](/engineering/datacenter-and-cloud/) (LEG) which was [announced](/news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/) earlier this year, today meets its goal of delivering its initial software before the end of 2012 and announces its first release[1]--a LEG ‘Engineering Preview” Release.
 
@@ -35,23 +32,19 @@ Full details of this release, can be found on the LEG release wiki page at: [htt
 
 _**This is an engineering preview and should NOT be used for production purposes.**_
 
-
 ### GETTING INVOLVED
+
 More information on Linaro can be found on our websites:
 
-  * Homepage: [/engineering/groups/ldcg/](/engineering/datacenter-and-cloud/)
+- Homepage: [/engineering/groups/ldcg/](/engineering/datacenter-and-cloud/)
 
-
-  * Wiki: [https://wiki-archive.linaro.org/LEG](https://wiki-archive.linaro.org/LEG)
-
+- Wiki: [https://wiki-archive.linaro.org/LEG](https://wiki-archive.linaro.org/LEG)
 
 Also subscribe to the LEG mailing list and join our IRC channel to stay on top of Linaro developments:
 
-  * LEG's public mailing list - [linaro-enterprise](http://lists.linaro.org/mailman/listinfo/linaro-enterprise). Archive is [here](http://lists.linaro.org/pipermail/linaro-enterprise/)
+- LEG's public mailing list - [linaro-enterprise](http://lists.linaro.org/mailman/listinfo/linaro-enterprise). Archive is [here](http://lists.linaro.org/pipermail/linaro-enterprise/)
 
-
-  * IRC #linaro-enterprise on irc.freenode.net. You can use the [web](http://webchat.freenode.net/) or your [favourite IRC client](https://wiki-archive.linaro.org/GettingInvolved/IRC).
-
+- IRC #linaro-enterprise on irc.freenode.net. You can use the [web](http://webchat.freenode.net/) or your [favourite IRC client](https://wiki-archive.linaro.org/GettingInvolved/IRC).
 
 For individuals or organizations who wish to get involved with LEG, please consider joining us at our next Linaro Connect Event--Linaro Connect Asia 2013 (LCA13) at the Gold Coast Hotel in Hong Kong on 4-8 March.  This is your opportunity to help build the future of Linux on Arm.  [Registration for this event is now open](/blog/registration-opens-for-linaro-connect-asia-2013-book-early/).
 

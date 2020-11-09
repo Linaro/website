@@ -1,7 +1,6 @@
 ---
 author: george.grey
-categories:
-- Blog
+category: blog
 date: 2014-01-14 21:22:02
 description: A look back at achievements in 2013 within Linaro and a look forward
   into 2014 goals. This blog looks at the progress Linaro has made in a short time
@@ -12,20 +11,17 @@ layout: post
 link: /blog/linaro-2013-year-end-review/
 slug: linaro-2013-year-end-review
 tags:
-- android
-- arm
-- embedded
-- kernel
+- Android
+- Arm
+- Embedded
+- Kernel
 - Linaro Connect
 - Linux
-- Linux on Arm
+- Linux On Arm
 - Open Source
-- Opensource
-- release
-- release cycle
-- software
-- toolchain
-- tools
+- Software
+- Toolchain
+- Tools
 title: Linaro 2013 Year End Review
 wordpress_id: 3247
 ---
@@ -36,7 +32,7 @@ With growth in membership and resources Linaro has been able to deliver more tha
 
 ### **Let’s quickly summarize some of the achievements:**
 
-[Membership](/membership/) has grown to two Core members, six Club members and 16 Group members. This has enabled Linaro to grow to 106 employees and 95 assignees – providing a $40M+ engineering organization working on the Arm software ecosystem directed by, and for the benefit of, its members.
+[Membership](/membership/) has grown to two Core members, six Club members and 16 Group members. This has enabled Linaro to grow to 106 employees and 95 assignees – providing a \$40M+ engineering organization working on the Arm software ecosystem directed by, and for the benefit of, its members.
 
 Linaro has along the way become one of the most important company contributors to the Linux kernel, and is home to several kernel subsystem maintainers. Linaro also contributes to many other open source projects including GNU, AOSP, OpenEmbedded/Yocto, and OpenJDK.
 
@@ -50,42 +46,36 @@ The [Linaro Networking Group (LNG)](/engineering/) is still in its early stages,
 
 [LAVA](https://wiki-archive.linaro.org/Platform/LAVA) has continued to evolve to meet the needs of Linaro and our members both in the hardware lab and in the cloud. Increasing deployment and feedback from members has led to significant efforts in product documentation and training. New product features have included multimode support for server and networking configurations, improved user interfaces, and additional test and benchmark support.
 
-
-### **Looking Forward****
+### **Looking Forward\*\***
 
 While much of our work is common to Armv7 and Armv8 it is clear that the major story of 2014 is going to be the delivery of multiple Armv8 SoCs into the market targeting multiple segments – mobile, digital home, networking equipment and servers. Much of our work over the last two years will come to fruition as these products roll out with Linux distributions including Android, Ubuntu and Red Hat, incorporating many technical contributions from Linaro and its members.
-
 
 ### **Making the most of Linaro Membership**
 
 As the year comes to an end members ask “how to quantify the ROI from Linaro”? The follow up is often “What do members get that non-members don’t?”
 
-A simple analysis shows that members are realizing an increasing ROI as membership of Linaro grows, and that an ROI of 3-5x or more is being delivered. The answer to the second question lies in the value of driving and contributing to a $40M software engineering organization that is delivering key technology to the Arm ecosystem, without which all member’s engineering costs would be substantially higher. Members get substantial tangible and intangible advantages from membership of Linaro. Nevertheless, how can the ROI be calculated at 3-5x when Linaro upstreams all output to the open source community for everyone to use at no cost?
+A simple analysis shows that members are realizing an increasing ROI as membership of Linaro grows, and that an ROI of 3-5x or more is being delivered. The answer to the second question lies in the value of driving and contributing to a \$40M software engineering organization that is delivering key technology to the Arm ecosystem, without which all member’s engineering costs would be substantially higher. Members get substantial tangible and intangible advantages from membership of Linaro. Nevertheless, how can the ROI be calculated at 3-5x when Linaro upstreams all output to the open source community for everyone to use at no cost?
 
 The apparent paradox can be resolved only by understanding the difference between working within the open source community effectively, and simply using the output. Followers try to do the latter with decidedly mixed results. Products take longer to get to market, and development cost and maintenance cost increases over time. Leaders, including Linaro’s members, realize that to truly extract the maximum value from open source you must be part of the engineering effort that collaboratively creates it.
 
 ### **An Arm SoC vendor can take one of three positions:**
 
-  1. Software is not important to our business plan – we just deliver silicon.
+1. Software is not important to our business plan – we just deliver silicon.
 
+2. Software is important and we will build out our software organization to deliver all required software, taking from open source as needed.
 
-  2. Software is important and we will build out our software organization to deliver all required software, taking from open source as needed.
+3. Software is important and business success comes from investing in open source development to reduce costs, enabling further investment in proprietary innovation.
 
-
-  3. Software is important and business success comes from investing in open source development to reduce costs, enabling further investment in proprietary innovation.
-
-**I would argue that the first option is no longer a tenable strategy**. Customers demand high quality software, and Arm SoC differentiation and innovation requires excellent software support that meets the needs of the various application ecosystems. 
+**I would argue that the first option is no longer a tenable strategy**. Customers demand high quality software, and Arm SoC differentiation and innovation requires excellent software support that meets the needs of the various application ecosystems.
 
 **The second option is to do everything in house.** While possible, this is not efficient. As more vendors turn to open source, building software inside the community is increasingly important. Internal duplicated development of common features is hard, if not impossible, to upstream. The result is an increasingly large set of patches and software that must be maintained and supported out of tree through the entire product life cycle. The cost of this approach increases dramatically over time.
 
 **The third option is where Linaro fits.** It recognizes that non-differentiated software does not create competitive value. Investing in Linaro shares the cost of common software development. The more members Linaro attract, the higher the return to each member. Linaro enables members to spend more of their software budget on delivering their own value-add. Linaro helps everyone raise the open source bar more quickly for the Arm architecture. This commoditization of the core common software and APIs/frameworks enables more resources to be applied to each vendor’s differentiation and innovation, while maintaining critical software compatibility across SoCs.
 
-
 ### In summary:
-
 
 **“As standardized middleware and application ecosystems evolve, the ultimate cost of building everything yourself is much higher than sharing the cost of common software development.”**
 
-We also believe that because of the range of activities in Linaro, being outside and attempting to be a follower is now at least as expensive as becoming a member of Linaro. It also causes delayed time to market.  
+We also believe that because of the range of activities in Linaro, being outside and attempting to be a follower is now at least as expensive as becoming a member of Linaro. It also causes delayed time to market.
 
 I look forward to 2014 with great optimism, and the entire Linaro team has a strong determination to continue to deliver further value to all our members.

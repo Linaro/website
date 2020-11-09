@@ -6,11 +6,11 @@ link: /blog/android-blog/trying-the-jellybean-on-samsungs-origen-board/
 slug: trying-the-jellybean-on-samsungs-origen-board
 title: Trying Linaro Jellybean Android on Samsung's Origen board
 wordpress_id: 1769
-categories:
-- Blog
+category: blog
 tags:
 - Android
 ---
+
 ## Overview
 
 This post takes you through trying a prebuilt build on a Samsung Origen and then reproducing that exact build.
@@ -23,13 +23,13 @@ Go to [Jellybean Origen build 22 ]() and go through the instructions on the page
 
 Download and make executable linaro_android_build_cmds.sh from the "Downloads" section of the [Jellybean Origen build 22 ]() with the following commands:
 
-
 ```bash
 
 wget http://snapshots.linaro.org/android/~linaro-android/origen-jb-gcc47-samsunglt-stable-blob/22/linaro_android_build_cmds.sh
 chmod +x linaro_android_build_cmds.sh
 
 ```
+
 **Now get the pinned-manifest.xml with:**
 
 ```bash
@@ -65,6 +65,5 @@ export TARGET_TOOLS_PREFIX=android-toolchain-eabi/bin/arm-linux-androideabi-
 make -j${CPUS} boottarball systemtarball userdatatarball
 
 ```
-
 
 Enjoy!

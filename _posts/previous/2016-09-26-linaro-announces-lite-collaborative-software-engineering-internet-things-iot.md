@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- News
+category: news
 date: 2016-09-26 18:11:36
 description: Cambridge, UK; 26 September 2016
 layout: post
@@ -12,10 +11,9 @@ tags:
 - Linaro
 - Linaro Connect
 - Linux
-- Linux on Arm
+- Linux On Arm
 - LITE
 - Open Source
-- Opensource
 title: Linaro Announces LITE - Collaborative Software Engineering for the Internet
   of Things (IoT)
 wordpress_id: 11666
@@ -35,11 +33,11 @@ Linaro has recently joined the Linux Foundation Zephyr Project as a Platinum mem
 
 Founding members of LITE are Arm, Canonical, Huawei, NXP, RDA, Red Hat, Spreadtrum, STMicroelectronics, Texas Instruments and ZTE. Additional ecosystem semiconductor vendors, software companies, service providers and product manufacturers are expected to join LITE over the coming months.
 
-LITE is today releasing a preview of technology that will be delivered in the initial LITE IoT Reference Platform release to be made in December 2016. An end to end open source sensor solution running on multiple vendor SoCs will be demonstrated at the opening keynote of the Linaro Connect conference in Las Vegas, USA, and made available to the developer community at [www.96Boards.org/carbon](https://www.96boards.org/product/carbon/). 
+LITE is today releasing a preview of technology that will be delivered in the initial LITE IoT Reference Platform release to be made in December 2016. An end to end open source sensor solution running on multiple vendor SoCs will be demonstrated at the opening keynote of the Linaro Connect conference in Las Vegas, USA, and made available to the developer community at [www.96Boards.org/carbon](https://www.96boards.org/product/carbon/).
 
 “The success of the Arm ecosystem is built on choice and the work of our many partners,” said Charlene Marini, vice president of segment marketing, Arm. “Linaro has a proven track record in fostering collaboration on developing, optimizing and maintaining software solutions across a diverse range of applications. Linaro will apply those same successful principles to LITE to help rapidly mature the IoT software ecosystem in support of the Arm architecture.”
 
-“The Internet of Things is driving the next wave of innovation across devices and the cloud,” said Oliver Ries, Director of Engineering at Canonical. “Snap packages, the universal app packaging format for Linux, allow developers to distribute the same application on any device irrespective of operating system, from IoT gateways all the way to cloud server. Canonical will work with LITE to enable Snap-based Ubuntu Core support in the Linaro Reference Platforms, leading the way in reducing fragmentation and accelerating time to market for secure Arm devices." 
+“The Internet of Things is driving the next wave of innovation across devices and the cloud,” said Oliver Ries, Director of Engineering at Canonical. “Snap packages, the universal app packaging format for Linux, allow developers to distribute the same application on any device irrespective of operating system, from IoT gateways all the way to cloud server. Canonical will work with LITE to enable Snap-based Ubuntu Core support in the Linaro Reference Platforms, leading the way in reducing fragmentation and accelerating time to market for secure Arm devices."
 
 "Having an end-to-end secure and open source software stack is critical to realizing the full potential of IoT integration between sensor, client devices and the cloud,” said Zhong Youping, Huawei LiteOS OSDT Director. “Linaro has demonstrated its ability to bring together partners to solve large engineering challenges.”
 
@@ -49,7 +47,7 @@ LITE is today releasing a preview of technology that will be delivered in the in
 
 “IoT is all about disruption and we expect to see not only a plethora of new hardware solutions, but also new approaches to software,” said Dr. Leo Li, Chairman and CEO of Spreadtrum Communications. “In working closely with Linaro we have learnt the value of collaboration with our competitors and partners on non-differentiating technology and we feel that LITE membership will not only help our existing strategies, but also help us be prepared to benefit from the potential disruption in the industry.”
 
-“As a long-time Linaro partner, ST sees this new initiative as a strong step in achieving our joint effort with Linaro to define and deliver a reference open-source software platform that can run over the multiple RTOSes used by our customers as well as Arm mbed,” said Laurent Desseignes, Ecosystem Marketing Manager, STMicroelectronics. “The wide choices of products available within all the STM32 families will facilitate the wide adoption of the LITE software reference platform and speed-up innovation for IoT applications.”  
+“As a long-time Linaro partner, ST sees this new initiative as a strong step in achieving our joint effort with Linaro to define and deliver a reference open-source software platform that can run over the multiple RTOSes used by our customers as well as Arm mbed,” said Laurent Desseignes, Ecosystem Marketing Manager, STMicroelectronics. “The wide choices of products available within all the STM32 families will facilitate the wide adoption of the LITE software reference platform and speed-up innovation for IoT applications.”
 
 “Fragmentation has been a feature of the embedded landscape since the beginning as many applications have been specialized and relatively low volume,” said Huang Yihua , ZTE Director of strategy planning department. “As smarter embedded technology is used across a broader range of high volume applications, software portability, connectivity and maintenance becomes more and more important. We see Linaro and LITE as a neutral environment in which we can collaborate with our competitors and partners to develop non-differentiating open source software building blocks that will reduce fragmentation,deploy software quickly and accelerate innovation.”
 

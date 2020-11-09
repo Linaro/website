@@ -1,19 +1,16 @@
 ---
 author: shovan
-categories:
-- News
+category: news
 date: 2015-01-22 16:50:47
-description: "CAMBRIDGE, UK \xE2\x80\x93\xC2\_22 JANUARY 2015"
+description: "CAMBRIDGE, UK â\x80\x93Â 22 JANUARY 2015"
 layout: post
 link: /news/linaro-announces-keynote-speakers-demos-upcoming-linaro-connect-hong-kong/
 slug: linaro-announces-keynote-speakers-demos-upcoming-linaro-connect-hong-kong
 tags:
-- connect
+- Connect
 - Connect Events
-- HKG2015
 - Linaro
 - Linaro Connect
-- Linaro Connect Hong Kong 2015
 title: ' Linaro Announces Keynote Speakers and Demos For Upcoming Linaro Connect Hong
   Kong'
 wordpress_id: 7799
@@ -25,43 +22,41 @@ CAMBRIDGE, UK – 22 JANUARY 2015
 
 **Industry speakers for** [**Linaro Connect Hong Kong 2015 keynotes**](https://connect.linaro.org/hkg15/) **include:**
 
-  * Jon Masters - Chief Arm Architect, Redhat
+- Jon Masters - Chief Arm Architect, Redhat
 
-  * Dejan Milojicic - Senior Researcher & Manager, HP Labs
+- Dejan Milojicic - Senior Researcher & Manager, HP Labs
 
-  * Bob Monkman - Enterprise Segment Marketing Manager, Arm
+- Bob Monkman - Enterprise Segment Marketing Manager, Arm
 
-  * Greg Kroah-Hartman – Linux Foundation Fellow
+- Greg Kroah-Hartman – Linux Foundation Fellow
 
-  * Warren Rehman -  Android Partner Engineering Manager, Google
-
+- Warren Rehman -  Android Partner Engineering Manager, Google
 
 The Linaro Connect agenda also features sessions covering: Android, Armv8-A, Automation & Validation, Digital Home, Enterprise Servers, LAVA, Linux Kernel, Networking, Power Management, Security, Toolchain, Virtualization and multiple training sessions. Additionally, [Linaro Connect Hong Kong 2015 will feature the following demos: ](https://connect.linaro.org/hkg15/)
 
-  * Linaro Clear Key CDM
-  
-  * Chromium on Wayland with Gstreamer
+- Linaro Clear Key CDM
 
-  * Linaro Web Browser Test Framework
+- Chromium on Wayland with Gstreamer
 
-  * Demo of VLANd
+- Linaro Web Browser Test Framework
 
-  * l2fwd
+- Demo of VLANd
 
-  * OVS - x86 - Arm
+- l2fwd
 
-  * ODP on Cavium platform
+- OVS - x86 - Arm
 
-  * OpenJDK running on all Armv8 hardware
+- ODP on Cavium platform
 
-  * OpenStack running on Armv8 hardware
+- OpenJDK running on all Armv8 hardware
 
-  * Android support for clang 3.6 and gcc 5.0
+- OpenStack running on Armv8 hardware
 
-  * Ceph on remote server cluster
+- Android support for clang 3.6 and gcc 5.0
 
-  * UEFI on BeagleBone Black
+- Ceph on remote server cluster
 
+- UEFI on BeagleBone Black
 
 In addition, the engineering teams will be working throughout the week on the available hardware and this will spawn additional demos, including the results of the LAVA team Week of Hacking. The demos will feature in some of the keynotes and at other times during the week, but participants will get to see most of them all together at Demo Friday. The Linaro Networking Group (LNG) is also planning a special demo session at the end of its focused sessions on Thursday.
 

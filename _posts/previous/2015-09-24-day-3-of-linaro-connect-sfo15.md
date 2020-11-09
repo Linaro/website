@@ -1,7 +1,6 @@
 ---
 author: linaro
-categories:
-- Blog
+category: blog
 date: 2015-09-24 03:33:57
 description: Overview of the keynotes and sessions that took place during day 3 of
   Linaro Connect San Francisco 2015.
@@ -11,7 +10,7 @@ layout: post
 link: /blog/day-3-of-linaro-connect-sfo15/
 slug: day-3-of-linaro-connect-sfo15
 tags:
-- connect
+- Connect
 - Connect Events
 - Linaro
 - Linaro Connect
@@ -30,7 +29,6 @@ The first keynote speaker of the day was Dr. Suresh Gopalakrishnan who is the 
 The second keynote of the day was given by Tiger Hu, architect of Alibaba Infrastructure Service. The title of the keynote was "Cloud Computing Infrastructure of the DT Era".
 
 Following the keynotes the attendees were able to choose from several different tracks of sessions. Below are some of the sessions that have materials available.
-
 
 <table width="1020" class="table responsive-table">
 <tbody >
