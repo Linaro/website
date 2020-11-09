@@ -2,19 +2,18 @@
 author: mark.orvek
 category: blog
 date: 2015-02-04 22:20:59
-description:
-  A look ahead of what will be taking place during Linaro Connect Hong
+description: A look ahead of what will be taking place during Linaro Connect Hong
   Kong 2015.
 layout: post
 link: /blog/welcome-linaro-connect-hong-kong-2015/
 slug: welcome-linaro-connect-hong-kong-2015
 tags:
-  - connect
-  - Connect Events
-  - Linaro
-  - Linaro Connect
-  - Linux on Arm
-  - Open Source
+- Connect
+- Connect Events
+- Linaro
+- Linaro Connect
+- Linux On Arm
+- Open Source
 title: Welcome to Linaro Connect Hong Kong 2015!
 wordpress_id: 7859
 ---

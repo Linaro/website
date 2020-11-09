@@ -1,9 +1,7 @@
 ---
 author: op-tee
-tags:
-  - OP-TEE
-title:
-  FREE Webinar &#58 TEE kernel support is now upstream &#58 What this means for
+tags: []
+title: FREE Webinar &#58 TEE kernel support is now upstream &#58 What this means for
   Open Source Security
 date: 2017-06-02 12:00:00
 category: blog

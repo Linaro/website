@@ -8,15 +8,12 @@ layout: post
 link: /news/rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group/
 slug: rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group
 tags:
-  - Linaro
-  - Linaro Mobile Group
-  - Linux
-  - Linux on Arm
-  - lmg
-  - Open Source
-  - Opensource
-title:
-  Rapidly growing Chinese mobile phone maker Tinno Mobile joins Linaro Mobile
+- Linaro
+- Linaro Mobile Group
+- Linux
+- Linux On Arm
+- Open Source
+title: Rapidly growing Chinese mobile phone maker Tinno Mobile joins Linaro Mobile
   Group
 wordpress_id: 9608
 ---

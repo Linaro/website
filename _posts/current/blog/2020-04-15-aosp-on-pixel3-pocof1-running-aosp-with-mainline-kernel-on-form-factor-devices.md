@@ -1,15 +1,10 @@
 ---
 layout: post
-title: >-
-  AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernel on form-factor
-  devices)
-date: "2020-04-15 11:37:57"
+title: AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernel on form-factor devices)
+date: '2020-04-15 11:37:57'
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
 tags:
-  - AOSP
-  - Dragonboard 845c
-  - SDM845
-  - Google Pixel3
+- AOSP
 category: blog
 author: amit.pundir@linaro.org
 ---

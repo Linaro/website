@@ -8,11 +8,10 @@ layout: post
 link: /blog/android-blog/using-markets-with-linaro-android-builds/
 slug: using-markets-with-linaro-android-builds
 tags:
-  - Android
-  - android
-  - app
-  - Linaro
-  - market
+- Android
+- Android
+- App
+- Linaro
 title: Using App Markets with Linaro Android builds
 wordpress_id: 748
 ---

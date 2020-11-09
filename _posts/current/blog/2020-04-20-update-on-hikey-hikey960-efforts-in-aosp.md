@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Update on HiKey/HiKey960 efforts in AOSP
-date: "2020-04-20 11:21:20"
+date: '2020-04-20 11:21:20'
 image: /assets/images/content/hikey-image1.png
 tags:
-  - HiKey
-  - HiKey960
-  - AOSP
-  - Android Open Source Project
+- HiKey
+- HiKey960
+- AOSP
+- Android Open Source Project
 category: blog
 author: john.stultz
 ---

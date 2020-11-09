@@ -6,8 +6,7 @@ description: CAMBRIDGE, UK - 15 OCT 2013
 layout: post
 link: /news/linaro-announces-keynote-speakers-linaro-connect-usa-2013-event-santa-clara/
 slug: linaro-announces-keynote-speakers-linaro-connect-usa-2013-event-santa-clara
-title:
-  Linaro Announces Keynote Speakers for Linaro Connect USA 2013 Event in Santa
+title: Linaro Announces Keynote Speakers for Linaro Connect USA 2013 Event in Santa
   Clara
 wordpress_id: 4429
 ---

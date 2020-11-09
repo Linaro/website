@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Linaro donates OP-TEE into the Trusted Firmware Project
-date: "2019-09-23 01:00:00"
+date: '2019-09-23 01:00:00'
 image: /assets/images/content/PR_Trusted_Firmware_banner_pic.jpg
 tags:
-  - Linaro
-  - OP-TEE
-  - Trusted Firmware
+- Linaro
+- Trusted Firmware
 category: news
 author: linaro
 ---

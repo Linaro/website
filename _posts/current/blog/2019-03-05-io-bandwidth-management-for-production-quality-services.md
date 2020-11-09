@@ -3,25 +3,18 @@ title: I/O-bandwidth management for production-quality services
 author: paolo.valente
 layout: post
 date: 2019-03-05 09:00:00
-description: >-
-  This article guides us through the techniques used to guarantee I/O
-  bandwidth to clients, containers, virtual machines and any other type
-  of entities accessing shared storage. Probably unexpectedly, we'll
-  discover that these techniques entail dramatic throughput losses (up
-  to 80-90%). On the bright side, we will also see a new solution that
-  seems to give hope for recovering at least 90% of the loss.
+description: This article guides us through the techniques used to guarantee I/O bandwidth
+  to clients, containers, virtual machines and any other type of entities accessing
+  shared storage. Probably unexpectedly, we'll discover that these techniques entail
+  dramatic throughput losses (up to 80-90%). On the bright side, we will also see
+  a new solution that seems to give hope for recovering at least 90% of the loss.
 category: blog
 tags:
-  - Linaro
-  - Arm
-  - Open
-  - Source
-  - Admin
-  - Linaro Connect
-  - linux kernel
-  - IO
-  - bandwidth
-  - BFQ
+- Linaro
+- Arm
+- Linaro Connect
+- Linux Kernel
+- IO
 image: /assets/images/blog/servers-cern.jpg
 ---
 

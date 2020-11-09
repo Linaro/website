@@ -1,27 +1,28 @@
 ---
 related_project:
-  - DTE
+- DTE
 layout: post
 title: Device Tree - Future Improvements
-description: "Over the years there have been countless discussions around Device
-  Tree. It is not a problem that has gone unnoticed. Still the impression seems
-  to be that little is actually happening. Why is that? Linaro are working with
-  many SoC vendors and we have maintainers in the projects discussed within this
-  article. Since Linaro is a neutral player in the Arm ecosystem, we believe
-  that Linaro is the perfect organization to address challenging problems, such
-  as the ones described within this blog. "
+description: 'Over the years there have been countless discussions around Device Tree.
+  It is not a problem that has gone unnoticed. Still the impression seems to be that
+  little is actually happening. Why is that? Linaro are working with many SoC vendors
+  and we have maintainers in the projects discussed within this article. Since Linaro
+  is a neutral player in the Arm ecosystem, we believe that Linaro is the perfect
+  organization to address challenging problems, such as the ones described within
+  this blog. '
 date: 2020-10-23 11:08:40
 image: /assets/images/content/devicetree-logo_vertical-devicetree.png
 tags:
-  - Device Tree
-  - Arm ecosystem
-  - Linaro
-  - Linux Kernel
+- Device Tree
+- Arm Ecosystem
+- Linaro
+- Linux Kernel
 related_projects:
-  - DTE
+- DTE
 category: Blog
 author: joakim.bech
 ---
+
 # Device Tree - Future improvements
 
 Device Tree has been around for a long time and is a well known technology for engineers working with embedded devices. One of the key goals with Device Tree was to separate specific settings related to a specific SoC into separate configurations, in a way that would make it possible to run a generic kernel (Linux kernel) and provide different Device Tree Blobs (the name that refers to the compiled form of a Device Tree configuration, DTB for short) for different hardware configurations. Originating from [Open Firmware](https://www.kernel.org/doc/html/latest/devicetree/usage-model.html#history), Device Tree was picked up by the Linux kernel roughly fifteen years ago, as an effort to try and sort out what at the time was a rather [messy](https://lkml.org/lkml/2011/3/17/492) configuration of Arm devices. Today, you will find hundreds of DTS-files in the Linux kernel tree for all sorts of devices coming from a plethora of SoC manufacturers. In Linux kernel v5.8 there are 1833 *.dts files, which shows the Device Tree approach of doing device configuration in Linux kernel has been pretty successful.

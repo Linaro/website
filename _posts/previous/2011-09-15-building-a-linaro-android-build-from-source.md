@@ -4,7 +4,7 @@ date: 2011-09-15 21:54:56+00:00
 layout: post
 link: /blog/building-a-linaro-android-build-from-source/
 slug: building-a-linaro-android-build-from-source
-title: "Building a Linaro Android Build from Source"
+title: Building a Linaro Android Build from Source
 category: blog
 ---
 

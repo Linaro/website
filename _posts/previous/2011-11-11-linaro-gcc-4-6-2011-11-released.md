@@ -2,18 +2,14 @@
 author: fathi.boudra
 category: blog
 date: 2011-11-11 16:28:12
-description:
-  Announcement and release notes for the 2011.11 release of Linaro gcc
+description: Announcement and release notes for the 2011.11 release of Linaro gcc
   4.6
 layout: post
 link: /blog/releases-blog/linaro-gcc-4-6-2011-11-released/
 slug: linaro-gcc-4-6-2011-11-released
 tags:
-  - Releases
-  - gcc
-  - Linaro
-  - release
-  - toolchain
+- Linaro
+- Toolchain
 title: Linaro GCC 4.6 2011.11 released
 wordpress_id: 862
 ---

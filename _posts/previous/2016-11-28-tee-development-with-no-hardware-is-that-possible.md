@@ -2,28 +2,22 @@
 author: joakim.bech
 category: blog
 date: 2016-11-28 17:06:06
-description:
-  "The question is whether you actually need hardware for TEE development.
+description: 'The question is whether you actually need hardware for TEE development.
   As it turns out, QEMU officially received TrustZone support at the beginning of
-  this year. But just the support in QEMU isn\u2019t enough: you will still need the
-  software for the TEE."
-excerpt:
-  Read about System Trace Module (STM) which can not only collect trace data
+  this year. But just the support in QEMU isn’t enough: you will still need the software
+  for the TEE.'
+excerpt: Read about System Trace Module (STM) which can not only collect trace data
   from software sources, but also monitor hardware events. Learn how to write traces
   to STM and how many approaches to do this, etc.
 layout: post
 link: /blog/tee-development-with-no-hardware-is-that-possible/
 slug: tee-development-with-no-hardware-is-that-possible
 tags:
-  - Core Dump
-  - Armv7
-  - Linaro
-  - Linux
-  - Linux on Arm
-  - OP-TEE
-  - Opensource
-  - qemu
-  - TEE
+- Linaro
+- Linux
+- Linux On Arm
+- Qemu
+- TEE
 title: TEE Development With No Hardware - Is That Possible?
 wordpress_id: 11914
 ---

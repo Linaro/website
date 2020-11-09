@@ -8,7 +8,7 @@ title: Linaro Connect Bangkok 2016 - Scheduling...
 wordpress_id: 9988
 category: blog
 tags:
-  - Connect Events
+- Connect Events
 ---
 
 ## Going to BKK16? You will need to know Pathable

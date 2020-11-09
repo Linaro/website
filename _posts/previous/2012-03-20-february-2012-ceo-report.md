@@ -8,10 +8,8 @@ layout: post
 link: /blog/industry-blog/february-2012-ceo-report/
 slug: february-2012-ceo-report
 tags:
-  - Industry
-  - arm
-  - Linaro
-  - market
+- Arm
+- Linaro
 title: February 2012 CEO Report
 wordpress_id: 1405
 ---

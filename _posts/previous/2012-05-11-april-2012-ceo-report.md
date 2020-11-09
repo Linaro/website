@@ -2,18 +2,15 @@
 author: george.grey
 category: blog
 date: 2012-05-11 21:13:36
-description:
-  Discussion on how Linaro's work affects many segments other than mobile
+description: Discussion on how Linaro's work affects many segments other than mobile
   and enabling optimized hardware for a particular application, the software platforms
   required to drive them are becoming increasingly complex.
-keywords:
-  Linaro, CEO report, Arm SoC, Arm Architecture, Linux, open-source software,
+keywords: Linaro, CEO report, Arm SoC, Arm Architecture, Linux, open-source software,
   Arm,  big.LITTLE
 layout: post
 link: /blog/industry-blog/april-2012-ceo-report/
 slug: april-2012-ceo-report
-tags:
-  - Industry
+tags: []
 title: April 2012 CEO Report
 wordpress_id: 1626
 ---

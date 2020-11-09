@@ -1,16 +1,14 @@
 ---
 author: linaro
 categories:
-  - news
-date: 2017-04-26T11:16:13.000Z
-description: >-
-  [96Boards OpenHours 25 April 2017 6.00pm PST, 26 April 2017 9.00am CST] Linaro
-  Ltd, the open source collaborative engineering organization developing
-  software for the ArmÂ® ecosystem, today announced the availability of the
-  HiKey 960 96Boards development platform from Linaro Core member Huawei.
-  Designed to provide access to the latest Arm mobile technology for AOSP
-  developers, this new board is now listed on the 96Boards website and is
-  available through global distribution channels.
+- news
+date: 2017-04-26 11:16:13+00:00
+description: '[96Boards OpenHours 25 April 2017 6.00pm PST, 26 April 2017 9.00am CST]
+  Linaro Ltd, the open source collaborative engineering organization developing software
+  for the ArmÂ® ecosystem, today announced the availability of the HiKey 960 96Boards
+  development platform from Linaro Core member Huawei. Designed to provide access
+  to the latest Arm mobile technology for AOSP developers, this new board is now listed
+  on the 96Boards website and is available through global distribution channels.'
 featured_on_home: true
 home_cat: boards
 layout: post

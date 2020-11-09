@@ -7,8 +7,7 @@ slug: ubuntu-linaro-evaluation-build-2012-03-1-for-snowball
 title: Ubuntu Linaro Evaluation Build 2012.03.1 for Snowball
 wordpress_id: 1492
 category: blog
-tags:
-  - Releases
+tags: []
 ---
 
 This is an intermediate release due to problems with HDMI output around the 2012.03 release date.

@@ -1,9 +1,8 @@
 ---
 author: op-tee
-tags:
-  - OP-TEE
-title: "LCU14-302 &#58; OP-TEE Porting and Future Enhancements"
-date: 2016-07-04 12:00:00 Z
+tags: []
+title: LCU14-302 &#58; OP-TEE Porting and Future Enhancements
+date: 2016-07-04 12:00:00+00:00
 category: blog
 layout: post
 image: /assets/images/blog/lcu14-302-op-tee-porting-future-enhancements-image.jpg

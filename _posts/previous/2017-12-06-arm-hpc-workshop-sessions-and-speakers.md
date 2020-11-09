@@ -5,10 +5,8 @@ layout: post
 title: Arm HPC Workshop Sessions and Speakers
 category: blog
 tags:
-  - Arm
-  - HPC
-  - Workshop
-  - Japan
+- Arm
+- HPC
 keywords: Arm, HPC, Workshop, Japan
 image: /assets/images/blog/arm-hpc-bg.png
 ---

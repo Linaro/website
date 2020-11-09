@@ -1,28 +1,15 @@
 ---
 layout: post
 title: New Collaboration Between 96Boards and Dronecode
-description: 96Boards and Dronecode have come together to collaborate on open
-  drone standards. This will help to define the standard for next phase mass
-  adoption of the open source drone technology.
-date: 2020-06-16T11:52:20.000Z
+description: 96Boards and Dronecode have come together to collaborate on open drone
+  standards. This will help to define the standard for next phase mass adoption of
+  the open source drone technology.
+date: 2020-06-16 11:52:20+00:00
 image: /assets/images/content/electricity-1288717_1920.jpg
 tags:
-  - Dronecode
-  - 96Boards
-  - Dronecode
-  - Pixhawk hardware
-  - Pixhawk
-  - Arm
-  - ARM-based
-  - SoC
-  - Dr. Yang Zhang
-  - PX4 Autopilot
-  - MAVLink
-  - QGroundControl
-  - MAVSDK
-  - Linux Foundation
-  - Dr. Lorenz Meier
-  - Pixhawk standard
+- 96Boards
+- Arm
+- SoC
 category: news
 author: jon.burcham@linaro.org
 ---

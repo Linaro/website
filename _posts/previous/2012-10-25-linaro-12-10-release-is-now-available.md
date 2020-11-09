@@ -2,22 +2,17 @@
 author: linaro
 category: blog
 date: 2012-10-25 16:35:47
-description:
-  Find out how you can get the latest Linaro release--12.10, what the highlights
+description: Find out how you can get the latest Linaro release--12.10, what the highlights
   are for this release and how you can participate in LCE 12-Copenhagen remotely.
-keywords:
-  Linaro, Linux on Arm, Open Source, Releases, Working Group, Landing Teams,
+keywords: Linaro, Linux on Arm, Open Source, Releases, Working Group, Landing Teams,
   Community, Ubuntu, Android, 12.10. Linaro 12.10, Linaro Connect, Bella Center, Copenhagen,
   Demo Friday
 layout: post
 link: /blog/community-blog/linaro-12-10-release-is-now-available/
 slug: linaro-12-10-release-is-now-available
 tags:
-  - Android
-  - Community
-  - Connect Events
-  - Hardware
-  - Releases
+- Android
+- Connect Events
 title: Linaro 12.10 Release is Now Available
 wordpress_id: 1959
 ---

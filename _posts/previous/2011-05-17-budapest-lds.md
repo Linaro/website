@@ -7,14 +7,12 @@ layout: post
 link: /blog/budapest-lds/
 slug: budapest-lds
 tags:
-  - memory management
-  - kernel
-  - upsteaming
-  - tsc
+- Kernel
+- Tsc
 title: Budapest LDS
 wordpress_id: 3383
 work_tags:
-  - tsc
+- tsc
 ---
 
 I've just got back from a busy week at the Linaro Developer Summit in Budapest. At the last LDS we decided that we wanted to integrate the activities of the TSC (Technical Steering Committee) into the developer summit, rather than have a parallel event. We were successful, but boy was I busy.

@@ -7,12 +7,9 @@ slug: the-need-for-linaro
 title: The need for Linaro
 category: blog
 tags:
-  - Industry
-  - arm
-  - gnu
-  - launch
-  - Linux
-  - Open Source
+- Arm
+- Linux
+- Open Source
 ---
 
 Arm® is not so well known outside of its partnership. Its business model is to collaborate with our partners, helping to create low power, embedded systems. Arm processors are in many devices that today we take for granted; from web surfing mobile phones, tablet computers and high definition televisions. As part of creating processor designs, we have used open source software, including GNU tools and Linux®. Firstly to help design features, secondly to help prove that we've got the design right and thirdly to enable our partners and their customers to create great products. Over the years we've learned, sometimes painfully, how to work with the open source community to ensure that our technology is well understood and supported. It is not very well known, but Arm donates to many, many open source projects.

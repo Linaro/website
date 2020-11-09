@@ -2,20 +2,18 @@
 author: linaro
 category: blog
 date: 2011-11-05 13:38:43
-description:
-  A first set of HD videos from Linaro Connect Q4.11 in Orlando, Florida.
+description: A first set of HD videos from Linaro Connect Q4.11 in Orlando, Florida.
   Technical discussions and interviews with Linaro and community engineers.
 keywords: linaro,connect,videos,arm,linux
 layout: post
 link: /blog/connect-update/connect-videos/
 slug: connect-videos
 tags:
-  - Connect Events
-  - arm
-  - connect
-  - Linaro
-  - Linux
-  - video
+- Connect Events
+- Arm
+- Connect
+- Linaro
+- Linux
 title: First videos from Linaro Connect Q4.11
 wordpress_id: 812
 ---

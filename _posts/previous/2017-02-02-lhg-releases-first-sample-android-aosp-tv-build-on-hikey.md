@@ -2,24 +2,22 @@
 author: linaro
 category: blog
 date: 2017-02-02 21:36:03
-description:
-  "Linaro Home Digital Home Group (LHG) has released an initial implementation
-  of Android \xE2\x80\x9CAOSP TV\xE2\x80\x9D for the 96Boards HiKey platform. See
-  the blog for more."
+description: "Linaro Home Digital Home Group (LHG) has released an initial implementation
+  of Android â\x80\x9CAOSP TVâ\x80\x9D for the 96Boards HiKey platform. See the blog
+  for more."
 layout: post
 link: /blog/lhg-releases-first-sample-android-aosp-tv-build-on-hikey/
 slug: lhg-releases-first-sample-android-aosp-tv-build-on-hikey
 tags:
-  - 96Boards
-  - android
-  - AOSP
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - Opensource
-title: "LHG Releases First Sample Android \u201CAOSP TV\u201D build on HiKey"
+- 96Boards
+- Android
+- AOSP
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- Open Source
+title: LHG Releases First Sample Android “AOSP TV” build on HiKey
 wordpress_id: 12154
 ---
 

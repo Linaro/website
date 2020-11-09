@@ -1,29 +1,25 @@
 ---
 layout: post
-title: "Linaro Engineering Highlights: May 2020"
-description: >+
-  Welcome to the May 2020 edition of the Linaro Engineering Highlights. This
-  blog details all of the latest news and many of the developments that Linaro
-  has been working on during May. This includes the Linaro AI Project, Firmware
-  Framework for Arm, KissCache the new Caching Server, Tuxpub - a serverless
-  cloud-based artifact server, RDK and i.MX8, a Raspberry Pi Libcamera
-  Initiative, LEDGE Reference Platform Stage 3, Linaro Tech Days Sessions from
-  the LITE team, Trusted-Firmware-M Integration with Zephyr 2.3 and Community
-  News.
+title: 'Linaro Engineering Highlights: May 2020'
+description: 'Welcome to the May 2020 edition of the Linaro Engineering Highlights.
+  This blog details all of the latest news and many of the developments that Linaro
+  has been working on during May. This includes the Linaro AI Project, Firmware Framework
+  for Arm, KissCache the new Caching Server, Tuxpub - a serverless cloud-based artifact
+  server, RDK and i.MX8, a Raspberry Pi Libcamera Initiative, LEDGE Reference Platform
+  Stage 3, Linaro Tech Days Sessions from the LITE team, Trusted-Firmware-M Integration
+  with Zephyr 2.3 and Community News.
 
-date: 2020-06-05T11:58:17.000Z
+
+  '
+date: 2020-06-05 11:58:17+00:00
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
 tags:
-  - Linaro
-  - Engineering
-  - Highlights
-  - KissCache
-  - Tuxpub
-  - Ledge
-  - Raspberry Pi
-  - Firmware
-  - AI
-  - Projects
+- Linaro
+- KissCache
+- Tuxpub
+- Ledge
+- Raspberry Pi
+- AI
 category: blog
 author: jon.burcham@linaro.org
 ---

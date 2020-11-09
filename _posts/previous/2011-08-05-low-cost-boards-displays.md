@@ -2,18 +2,14 @@
 author: linaro
 category: blog
 date: 2011-08-05 15:04:54
-description:
-  Linaro Matt Waddel shares his experience running desktop distributions
+description: Linaro Matt Waddel shares his experience running desktop distributions
   with Linaro software on development boards, for extended durations, and at a public
   event
 layout: post
 link: /blog/hardware-update/low-cost-boards-displays/
 slug: low-cost-boards-displays
 tags:
-  - Hardware
-  - board
-  - desktop
-  - Linaro
+- Linaro
 title: Using Arm low cost boards for displays
 ---
 

@@ -1,17 +1,16 @@
 ---
 layout: post
 title: Linaro works with Riscure to secure the TEE ecosystem
-date: "2019-09-19 07:00:00"
+date: '2019-09-19 07:00:00'
 image: /assets/images/content/linaro-and-riscure-release-banner.jpg
 tags:
-  - Linaro
-  - Riscure
-  - OP-TEE
-  - Security
-  - Open Source
-  - Arm
-  - IoT
-  - Embedded
+- Linaro
+- Riscure
+- Security
+- Open Source
+- Arm
+- IoT
+- Embedded
 category: news
 author: linaro
 ---

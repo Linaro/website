@@ -7,10 +7,7 @@ slug: second-engineering-cycle-highlights
 title: Second Engineering Cycle Highlights
 wordpress_id: 3376
 category: blog
-tags:
-  - Engineering cycle
-  - Evaluation builds
-  - Landing teams
+tags: []
 ---
 
 As we come to the end of our second engineering cycle, I thought it would be interesting to highlight some of the most significant initiatives happening in Linaro. I believe these four initiatives are having the biggest impact on how we are demonstrating Linaro delivering on its initial [mandate](/about/).

@@ -8,7 +8,7 @@ title: Trying Linaro Jellybean Android on Samsung's Origen board
 wordpress_id: 1769
 category: blog
 tags:
-  - Android
+- Android
 ---
 
 ## Overview

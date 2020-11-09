@@ -10,19 +10,15 @@ excerpt: 'Learn how the CoreSight framework found in the Linux kernel has been i
   with trace decoding.  The topic of trace decoding with openCSD will be covered in
   an upcoming post.
 
-'
+  '
 keywords: CoreSight, Perf, OpenCSD Library
 layout: post
 link: /blog/core-dump/coresight-perf-and-the-opencsd-library/
 slug: coresight-perf-and-the-opencsd-library
 tags:
-- Core Dump
-- CoreSight
-- kernel
+- Kernel
 - Linux
-- Linux on Arm
-- OpenCSD library
-- Perf
+- Linux On Arm
 title: CoreSight, Perf and the OpenCSD Library
 wordpress_id: 10726
 ---

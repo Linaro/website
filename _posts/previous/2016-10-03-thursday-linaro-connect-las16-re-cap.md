@@ -8,14 +8,13 @@ title: Thursday Linaro Connect LAS16 Re-cap
 wordpress_id: 11721
 category: blog
 tags:
-  - connect
-  - Connect Events
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - Opensource
+- Connect
+- Connect Events
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- Open Source
 ---
 
 The Thursday keynote was given by Brian Richardson who is an an Intel technical evangelist and is a blogger for the Intel Software Evangelists project, a former writer for linux.com, and executive producer for DragonConTV. Brian gave a keynote on "[TianoCore - Open Source UEFI Community Update](https://www.youtube.com/watch?v=kQ5X8vqdSu0)". Brian spoke about the TianoCore project which hosts EDK II, an open source implementation of the Unified Extensible Firmware Interface (UEFI). He discussed how EDK II has become the defacto UEFI implementation for Arm and Intel platforms, expanding standards based firmware across multiple architectures. He gave an update on the current status of the TianoCore project, plans for future improvements, and talked about why firmware is critical in today’s digital ecosystem.

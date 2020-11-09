@@ -1,14 +1,14 @@
 ---
 layout: post
 title: What is Linaro?
-date: "2019-09-13 01:15:44"
+date: '2019-09-13 01:15:44'
 image: /assets/images/content/davidblogsep2019.jpg
 tags:
-  - arm
-  - linux
-  - open source
-  - collaborative engineering
-  - linaro
+- Arm
+- Linux
+- Open Source
+- Collaborative Engineering
+- Linaro
 category: blog
 author: david.rusling
 ---

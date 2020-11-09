@@ -2,30 +2,22 @@
 author: linaro
 category: blog
 date: 2016-12-16 16:35:39
-description:
-  Linaro 16.12 release is now available for download. See the detailed
+description: Linaro 16.12 release is now available for download. See the detailed
   highlights of this release to get an overview of what has been accomplished by the
   Working Groups, Landing Teams and Platform Teams.
 layout: post
 link: /blog/linaro-16-12-release-available-for-download/
 slug: linaro-16-12-release-available-for-download
 tags:
-  - Releases
-  - android
-  - arm
-  - Armv8
-  - Connect Events
-  - Engineering cycle
-  - Evaluation builds
-  - kernel
-  - Linaro
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - release
-  - release cycle
-  - software
-  - ubuntu
+- Android
+- Arm
+- Connect Events
+- Kernel
+- Linaro
+- Linux
+- Linux On Arm
+- Open Source
+- Software
 title: Linaro 16.12 Release Available for Download
 wordpress_id: 11975
 ---

@@ -2,32 +2,25 @@
 author: christoffer.dall
 category: blog
 date: 2016-06-16 18:37:46
-description:
-  While PCIe passthrough (the process of assigning a PCIe device to a VM,
+description: While PCIe passthrough (the process of assigning a PCIe device to a VM,
   also known as device assignment) is supported through a mostly architecture-agnostic
   subsystem called VFIO, there are intricate details of an Arm-based system that require
   special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
   on Arm server systems.
-excerpt:
-  "The first study of Arm virtualization performance on server hardware, including
+excerpt: 'The first study of Arm virtualization performance on server hardware, including
   multi-core measurements of two popular Arm and x86 hypervisors, KVM and Xen. We
   show how Arm hardware support for virtualization can enable much faster transitions
-  between VMs and the hypervisor, a key hypervisor operation. "
+  between VMs and the hypervisor, a key hypervisor operation. '
 layout: post
 link: /blog/core-dump/on-the-performance-of-arm-virtualization/
 slug: on-the-performance-of-arm-virtualization
 tags:
-  - Core Dump
-  - arm
-  - Arm servers
-  - KVM
-  - Linux
-  - Linux on Arm
-  - PCIe
-  - virtualization
-  - VM
-  - x86 hypervisors
-  - Xen
+- Arm
+- KVM
+- Linux
+- Linux On Arm
+- Virtualization
+- VM
 title: On the Performance of Arm Virtualization
 wordpress_id: 10716
 ---

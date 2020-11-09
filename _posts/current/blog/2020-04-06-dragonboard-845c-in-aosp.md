@@ -1,15 +1,13 @@
 ---
 layout: post
 title: DragonBoard 845c in AOSP
-date: "2020-04-06 01:48:45"
+date: '2020-04-06 01:48:45'
 image: /assets/images/content/48806078402_a2756594c6_k.jpg
 tags:
-  - Dragonboard 845c
-  - DB845c
-  - Android
-  - AOSP
-  - Linux Kernel
-  - upstreaming
+- Android
+- AOSP
+- Linux Kernel
+- Upstreaming
 category: blog
 author: john.stultz
 ---

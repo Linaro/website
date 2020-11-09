@@ -7,15 +7,13 @@ layout: post
 link: /blog/connect-update/wednesday-at-lca14/
 slug: wednesday-at-lca14
 tags:
-  - Connect Events
-  - conference
-  - connect
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - Opensource
+- Connect Events
+- Connect
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- Open Source
 title: Wednesday at LCA14
 wordpress_id: 3505
 ---

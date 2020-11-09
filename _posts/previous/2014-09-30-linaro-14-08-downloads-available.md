@@ -2,28 +2,21 @@
 author: koen.kooi
 category: blog
 date: 2014-09-30 23:14:24
-description:
-  The Linaro 14.08 release is now available for immediate download. Here
+description: The Linaro 14.08 release is now available for immediate download. Here
   you will find links to all the products in this release.
 layout: post
 link: /blog/linaro-14-08-downloads-available/
 slug: linaro-14-08-downloads-available
 tags:
-  - Releases
-  - android
-  - connect
-  - Engineering cycle
-  - Evaluation builds
-  - kernel
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - LSK
-  - Opensource
-  - release cycle
-  - toolchain
-  - ubuntu
+- Android
+- Connect
+- Kernel
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- LSK
+- Toolchain
 title: Linaro 14.08 Available for Download!
 wordpress_id: 6429
 ---

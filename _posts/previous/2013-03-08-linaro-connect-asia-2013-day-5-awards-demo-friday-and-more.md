@@ -2,19 +2,16 @@
 author: linaro
 category: blog
 date: 2013-03-08 00:08:23
-description:
-  As the sun rises over the Gold Coast Hotel this morning we are reminded
+description: As the sun rises over the Gold Coast Hotel this morning we are reminded
   that Linaro Connect Asia 2013 in Hong Kong comes to an end today.It's been a busy
   week of training workshops, mini-summits, planning, hacking, interviewing, and more.
-keywords:
-  Linux, Arm, Linux on Arm, Linaro Connect. Linaro Connect Asia 2013, LCA13,
+keywords: Linux, Arm, Linux on Arm, Linaro Connect. Linaro Connect Asia 2013, LCA13,
   Day 5, Awards, Demo Friday
 layout: post
 link: /blog/community-blog/linaro-connect-asia-2013-day-5-awards-demo-friday-and-more/
 slug: linaro-connect-asia-2013-day-5-awards-demo-friday-and-more
 tags:
-  - Community
-  - Connect Events
+- Connect Events
 title: Linaro Connect Asia 2013 Day 5 - Awards, Demo Friday and more
 wordpress_id: 2554
 ---

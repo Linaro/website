@@ -8,14 +8,8 @@ title: Kprobes Event Tracing on Armv8
 wordpress_id: 11979
 category: blog
 tags:
-  - arm64
-  - Armv8
-  - Jprobes
-  - kernel
-  - Kprobes
-  - Kretprobes
-  - Perf
-  - Tracing
+- Arm64
+- Kernel
 ---
 
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}

@@ -2,18 +2,16 @@
 author: mark.gregotski
 category: blog
 date: 2015-06-16 13:28:03
-description:
-  Linaro Home Group celebrates it's one year anniversary. Read an update
+description: Linaro Home Group celebrates it's one year anniversary. Read an update
   on what the team is working on as well as a recap from the first year.
 layout: post
 link: /blog/lhg-one-year-anniversary/
 slug: lhg-one-year-anniversary
 tags:
-  - android
-  - LHG
-  - Linaro
-  - Linaro Digital Home Group
-  - RDK
+- Android
+- Linaro
+- Linaro Digital Home Group
+- RDK
 title: LHG One-Year Anniversary
 wordpress_id: 8668
 ---

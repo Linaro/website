@@ -2,31 +2,27 @@
 author: jennifer.castelino
 category: blog
 date: 2014-09-16 21:26:20
-description:
-  Linaro Connect USA 2014 began today Monday September 15, 2014 in Burlingame,
+description: Linaro Connect USA 2014 began today Monday September 15, 2014 in Burlingame,
   California. Here is a recap of what took place the first day of the event.
 layout: post
 link: /blog/lcu14-monday-wrap/
 slug: lcu14-monday-wrap
 tags:
-  - Connect Events
-  - android
-  - AOSP
-  - arm
-  - Armv8
-  - conference
-  - connect
-  - Connect Events
-  - embedded
-  - kernel
-  - lava
-  - Linaro
-  - Linaro Connect
-  - LSK
-  - Open Source
-  - Opensource
-  - toolchain
-  - Linaro Mobile Group
+- Connect Events
+- Android
+- AOSP
+- Arm
+- Connect
+- Connect Events
+- Embedded
+- Kernel
+- Lava
+- Linaro
+- Linaro Connect
+- LSK
+- Open Source
+- Toolchain
+- Linaro Mobile Group
 title: LCU14 Monday Wrap-up
 wordpress_id: 6682
 ---

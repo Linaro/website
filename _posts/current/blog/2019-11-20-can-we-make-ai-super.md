@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Can we make AI Super?
-date: "2019-11-20 10:24:06"
+date: '2019-11-20 10:24:06'
 image: /assets/images/content/abstract1.jpg
 tags:
-  - AI
-  - Artificial Intelligence
-  - Machine Learning
-  - HPC
-  - Supercomputers
+- AI
+- Artificial Intelligence
+- Machine Learning
+- HPC
+- Supercomputers
 category: blog
 author: paul.isaacs
 ---

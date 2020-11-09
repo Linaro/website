@@ -2,23 +2,18 @@
 author: koen.kooi
 category: blog
 date: 2014-07-31 23:14:37
-description:
-  The Linaro 14.07 release is now available for immediate download. Here
+description: The Linaro 14.07 release is now available for immediate download. Here
   you will find links to all the products in this release.
 layout: post
 link: /blog/linaro-14-07-available-download/
 slug: linaro-14-07-available-download
 tags:
-  - android
-  - connect
-  - kernel
-  - Landing teams
-  - Open Source
-  - Opensource
-  - release
-  - release cycle
-  - software
-  - toolchain
+- Android
+- Connect
+- Kernel
+- Open Source
+- Software
+- Toolchain
 title: Linaro 14.07 Available for Download!
 wordpress_id: 6239
 ---

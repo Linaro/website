@@ -2,24 +2,19 @@
 author: khasim.mohammed
 category: blog
 date: 2014-09-08 13:00:53
-description:
-  Multiple engineering teams at Arm and Linaro have worked together to
+description: Multiple engineering teams at Arm and Linaro have worked together to
   provide this feature rich, pre-integrated build of Android for the Juno Arm Development
   Platform (ADP)
-excerpt:
-  The latest Linaro 14.08 AOSP software build provides developers a unique
+excerpt: The latest Linaro 14.08 AOSP software build provides developers a unique
   pre-integrated Android software distribution that enables them to more easily conduct
   64-bit development for Android on Armv8-A based SOCs & platforms.
 layout: post
 link: /blog/android-blog/android-development-made-easy-64-bit-armv8-platforms/
 slug: android-development-made-easy-64-bit-armv8-platforms
 tags:
-  - Android
-  - 64-bit
-  - android
-  - AOSP
-  - Armv8
-  - Development
+- Android
+- Android
+- AOSP
 title: Android development made easy for 64-bit Armv8 platforms
 wordpress_id: 6569
 ---

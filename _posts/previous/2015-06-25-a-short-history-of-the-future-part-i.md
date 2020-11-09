@@ -2,21 +2,19 @@
 author: david.rusling
 category: blog
 date: 2015-06-25 14:33:55
-description:
-  Overview of how Linaro began and why it was created. David Rusling discusses
+description: Overview of how Linaro began and why it was created. David Rusling discusses
   some of the challenges in the beginning and what was done to overcome them.
-excerpt:
-  Overview of how Linaro began and why it was created. David Rusling discusses
+excerpt: Overview of how Linaro began and why it was created. David Rusling discusses
   some of the challenges in the beginning and what was done to overcome them.
 layout: post
 link: /blog/a-short-history-of-the-future-part-i/
 slug: a-short-history-of-the-future-part-i
 tags:
-  - arm
-  - Linaro
-  - Linux
-  - Linux on Arm
-  - software
+- Arm
+- Linaro
+- Linux
+- Linux On Arm
+- Software
 title: A short History of the Future - Part I
 wordpress_id: 8807
 ---

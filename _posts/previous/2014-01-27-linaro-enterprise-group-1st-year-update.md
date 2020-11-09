@@ -2,8 +2,7 @@
 author: andrea.gallo
 category: blog
 date: 2014-01-27 20:29:16
-description:
-  Overview of the Linaro Enterprise Groups one year update. Details on
+description: Overview of the Linaro Enterprise Groups one year update. Details on
   what has been accomplished in the first year and what the team will be focused on
   going forward.
 keywords: LEG, Linaro, Arm, open source software, Linux, Armv7, 64-bit, LAVA
@@ -11,11 +10,10 @@ layout: post
 link: /blog/linaro-enterprise-group-1st-year-update/
 slug: linaro-enterprise-group-1st-year-update
 tags:
-  - embedded
-  - Linaro
-  - Open Source
-  - Opensource
-  - software
+- Embedded
+- Linaro
+- Open Source
+- Software
 title: Linaro Enterprise Group 1st Year update
 wordpress_id: 3269
 ---

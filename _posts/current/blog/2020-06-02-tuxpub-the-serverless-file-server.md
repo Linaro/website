@@ -1,18 +1,13 @@
 ---
 layout: post
 title: tuxpub - The Serverless File Server
-date: "2020-06-02 12:10:28"
+date: '2020-06-02 12:10:28'
 image: /assets/images/content/code_highway_small.jpg
 tags:
-  - tuxpub
-  - Server
-  - File server
-  - severless
-  - Benjamin
-  - Copeland
-  - tux build
-  - tuxboot
-  - ""
+- Tuxpub
+- Server
+- Tux Build
+- Tuxboot
 category: blog
 author: ben.copeland@linaro.org
 ---

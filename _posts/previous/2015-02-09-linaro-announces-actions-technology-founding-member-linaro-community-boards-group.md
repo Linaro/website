@@ -2,21 +2,18 @@
 author: linaro
 category: news
 date: 2015-02-09 01:55:53
-description:
-  Actions Technology invests in enabling the open source development community
+description: Actions Technology invests in enabling the open source development community
   with the development of a new cost-effective Arm 64-bit development board
 layout: post
 link: /news/linaro-announces-actions-technology-founding-member-linaro-community-boards-group/
 slug: linaro-announces-actions-technology-founding-member-linaro-community-boards-group
 tags:
-  - Linaro
-  - Linaro Connect
-  - Linux
-  - Linux on Arm
-  - Open Source
-  - Opensource
-title:
-  Linaro announces Actions Technology as a founding member of the Linaro Community
+- Linaro
+- Linaro Connect
+- Linux
+- Linux On Arm
+- Open Source
+title: Linaro announces Actions Technology as a founding member of the Linaro Community
   Boards Group
 wordpress_id: 7925
 ---

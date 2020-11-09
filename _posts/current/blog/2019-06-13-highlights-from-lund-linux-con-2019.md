@@ -3,19 +3,16 @@ title: Highlights from Lund Linux Con 2019
 author: niklas.cassel
 layout: post
 date: 2019-06-13 00:00:00
-description: >-
-  A few weeks ago, Linaro attended Lund Linux Con 2019, the largest conference
+description: A few weeks ago, Linaro attended Lund Linux Con 2019, the largest conference
   in Scandinavia focused on the Linux Kernel. Here are some of the highlights.
 category: blog
 tags:
-  - Linaro
-  - Open Source
-  - Arm
-  - Linux
-  - Lund Linux Con
-  - Kernel
-  - Software
-  - Engineering
+- Linaro
+- Open Source
+- Arm
+- Linux
+- Kernel
+- Software
 image: /assets/images/blog/uncompressed_crowd4.JPG
 ---
 

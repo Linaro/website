@@ -3,16 +3,12 @@ title: Linaro and Arm sponsoring the upcoming UEFI Plugfest!
 author: linaro
 layout: post
 date: 2018-10-08 09:00:00+00:00
-description: >-
-  Linaro and Arm are sponsoring the upcoming UEFI Plugfest in Taipei.
+description: Linaro and Arm are sponsoring the upcoming UEFI Plugfest in Taipei.
 category: blog
 tags:
-  - Linaro
-  - Arm
-  - UEFI Plugfest
-  - Taipei
-  - Server
-  - Arm 64bit
+- Linaro
+- Arm
+- Server
 ---
 
 On the firmware side, testing device interoperability with Arm servers is critical to developing the Arm infrastructure ecosystem. That is why Linaro and Arm have decided to sponsor the upcoming UEFI Plugfest and encourage Arm partners to participate.

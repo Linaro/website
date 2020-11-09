@@ -2,19 +2,16 @@
 author: linaro
 category: blog
 date: 2013-05-02 15:48:01
-description:
-  Show off how you are pairing Linaro's engineering output--a build, toolchain,
+description: Show off how you are pairing Linaro's engineering output--a build, toolchain,
   or code--and Arm processor-based hardware solutions at the LCE13 Demo Friday event.
-keywords:
-  Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE13-Dublin,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE13-Dublin,
   Announcement, Call for Participation, Demo Friday
 layout: post
 link: /blog/community-blog/call-for-participation-your-demo-wanted-for-linaro-connect-europe-2013/
 slug: call-for-participation-your-demo-wanted-for-linaro-connect-europe-2013
 tags:
-  - Community
-  - Connect Events
-title: "CALL FOR PARTICIPATION: Your Demo Wanted for Linaro Connect Europe 2013"
+- Connect Events
+title: 'CALL FOR PARTICIPATION: Your Demo Wanted for Linaro Connect Europe 2013'
 wordpress_id: 2677
 ---
 

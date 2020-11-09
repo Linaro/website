@@ -3,8 +3,7 @@ author: george.grey
 category: blog
 date: 2011-08-15 15:38:40
 description: Update on Linaro activities for July 2011
-keywords:
-  Linux Kernel, Arm, SoCs, evaluation builds, Arm toolchain, Test, Validation,
+keywords: Linux Kernel, Arm, SoCs, evaluation builds, Arm toolchain, Test, Validation,
   Android
 layout: post
 link: /blog/july-ceo-report/

@@ -2,18 +2,15 @@
 author: linaro
 category: blog
 date: 2013-03-21 15:30:41
-description:
-  Join Linaro at the Burlington Hotel in Dublin Ireland on 8-12 July for
+description: Join Linaro at the Burlington Hotel in Dublin Ireland on 8-12 July for
   Linaro Connect Europe 2013. Register today.
-keywords:
-  Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE13-Dublin,
+keywords: Linaro, Linux on Arm, Open Source, Linux, Arm, Linaro Connect, LCE13-Dublin,
   Announcement, Registration
 layout: post
 link: /blog/community-blog/registration-for-linaro-connect-europe-2013-in-dublin-ireland-now-open/
 slug: registration-for-linaro-connect-europe-2013-in-dublin-ireland-now-open
 tags:
-  - Community
-  - Connect Events
+- Connect Events
 title: Registration for Linaro Connect Europe 2013 in Dublin, Ireland Now Open
 wordpress_id: 2579
 ---

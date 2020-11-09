@@ -6,8 +6,7 @@ description: Links to all the downloads for the Linaro 12.02 release
 layout: post
 link: /blog/releases-blog/linaro-12-02-released/
 slug: linaro-12-02-released
-tags:
-  - Releases
+tags: []
 title: Linaro 12.02 Released
 wordpress_id: 1278
 ---

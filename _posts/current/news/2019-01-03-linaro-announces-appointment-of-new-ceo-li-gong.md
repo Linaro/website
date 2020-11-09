@@ -3,15 +3,14 @@ title: Linaro announces appointment of new CEO Li Gong
 author: linaro
 layout: post
 date: 2019-01-03 09:00:00+00:00
-description: >-
-  Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that the company has appointed Li Gong as its new CEO.
+description: Linaro Ltd, the open source collaborative engineering organization developing
+  software for the Arm® ecosystem, announced today that the company has appointed
+  Li Gong as its new CEO.
 category: news
 tags:
-  - Linaro
-  - Arm
-  - CEO
-  - Open Source
-  - Admin
+- Linaro
+- Arm
+- Open Source
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that the company has appointed Li Gong as its new CEO.

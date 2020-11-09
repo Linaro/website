@@ -7,7 +7,7 @@ layout: post
 link: /blog/lava-blog/first-android-leb-being-available-on-snowball/
 slug: first-android-leb-being-available-on-snowball
 tags:
-  - LAVA
+- Lava
 title: First Android LEB available on Snowball
 ---
 

@@ -8,11 +8,8 @@ title: Towards Linaro 10.11
 wordpress_id: 4112
 category: blog
 tags:
-  - arm
-  - launchpad
-  - Linux
-  - release
-  - ubuntu
+- Arm
+- Linux
 ---
 
 > "Any intelligent fool can make things bigger and more complex... It takes a touch of genius - and a lot of courage to move in the opposite direction". - ** Albert Einstein **

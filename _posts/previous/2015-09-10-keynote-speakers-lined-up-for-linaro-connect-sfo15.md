@@ -2,13 +2,11 @@
 author: linaro
 category: news
 date: 2015-09-10 21:13:28
-description:
-  Linaro announced the complete line up of keynote speakers for the upcoming
+description: Linaro announced the complete line up of keynote speakers for the upcoming
   Linaro Connect San Francisco (SFO15) that will take place September 21st - 25th
   in Burlingame, California. The San Francisco conference will feature several keynote
   speakers.
-excerpt:
-  Linaro announced the complete line up of keynote speakers for the upcoming
+excerpt: Linaro announced the complete line up of keynote speakers for the upcoming
   Linaro Connect San Francisco (SFO15) that will take place September 21st - 25th
   in Burlingame, California. The San Francisco conference will feature several keynote
   speakers.

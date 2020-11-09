@@ -1,18 +1,17 @@
 ---
 wordpress_id: 4416
 layout: post
-title: Video plays a key role in expanding Linaro’s community and building the
-  future of Linux on Arm
+title: Video plays a key role in expanding Linaro’s community and building the future
+  of Linux on Arm
 image: /assets/images/content/linaro-logo.png
-tags:
-  - Hong Kong 2012
+tags: []
 category: news
 author: linaro
 slug: video-plays-key-role-expanding-linaros-community-building-future-linux-arm
 date: 2012-06-29 12:18:55
 link: /news/video-plays-key-role-expanding-linaros-community-building-future-linux-arm/
 categories:
-  - news
+- news
 description: HONG KONG - 29 JUN 2012
 ---
 

@@ -7,17 +7,13 @@ layout: post
 link: /news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/
 slug: hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm
 tags:
-  - arm
-  - Arm servers
-  - enterprise
-  - HXT
-  - LEG
-  - Linaro
-  - Linaro Connect
-  - linaro members
-  - Membership
-title:
-  HXT Semiconductor Joins Linaro to Accelerate Advanced Server Development on
+- Arm
+- LEG
+- Linaro
+- Linaro Connect
+- Linaro Members
+- Membership
+title: HXT Semiconductor Joins Linaro to Accelerate Advanced Server Development on
   Arm
 wordpress_id: 12223
 ---

@@ -3,19 +3,19 @@ title: SoftBank joins Linaro 96Boards Steering Committee
 author: linaro
 layout: post
 date: 2018-07-18 09:00:00+00:00
-description: >-
-  Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that Japanese telecommunications giant SoftBank Corp. has joined the 96Boards initiative as a Steering Committee member.
+description: Linaro Ltd, the open source collaborative engineering organization developing
+  software for the Arm® ecosystem, announced today that Japanese telecommunications
+  giant SoftBank Corp. has joined the 96Boards initiative as a Steering Committee
+  member.
 image: /assets/images/content/softbank-joins-96boards.png
 category: news
 tags:
-  - Open Source
-  - Arm
-  - Linaro
-  - Members
-  - SoftBank
-  - 96boards
-  - 96Boards SC
-  - Membership
+- Open Source
+- Arm
+- Linaro
+- Members
+- 96Boards
+- Membership
 published: true
 ---
 
