@@ -4,7 +4,7 @@ title: Linaro and the Linux Kernel
 description: TBC
 date: 2020-11-09 02:34:26
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
-strap_image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
+strap_image: ""
 tags:
   - Linaro
   - Linux
@@ -106,6 +106,22 @@ Linaro maintainership in the Linux kernel. The following table lists the maintai
 
 The next table shows the noticeable achievements of Linaro in terms of functionalities for the Linux kernel, the list is not exhaustive but it shows Linaro is a major player in the Linux kernel ecosystem.
 
+{% include image.html path="/assets/images/content/linaro-noticeable-achievements-1.png" alt="Linaro noticeable achievements table by year" %}
+
+{% include image.html path="/assets/images/content/linaro-noticeable-achievements-2.png" alt="Linaro noticeable achievements table by year" %}
+
+{% include image.html path="/assets/images/content/linaro-noticeable-achievements-3.png" alt="Linaro noticeable achievements table by year" %}
+
+{% include image.html path="/assets/images/content/linaro-noticeable-achievements-4.png" alt="Linaro noticeable achievements table by year" %}
+
 \[1] [Force Idle When a CPU Is Overheating](https://www.linaro.org/blog/force-idle-when-a-cpu-is-overheating/)
 
 \[2] [Thermal Notifications With Netlink](https://www.linaro.org/blog/thermal-notifications-with-netlink/)
+
+## Conclusion
+
+Linaro is a consortium dedicated to supporting the ARM architecture in the open source ecosystem. It is deeply involved in the Linux kernel development as well as other open source projects. Its role is to educate the members and make them comfortable with the open source development process.
+
+The ARM architecture, especially on the mobile and the embedded systems, is constantly evolving with more complexity and technical challenges to solve. For a decade, Linaro did a great number of achievements, especially in the Linux kernel side. It successfully kept reducing the gap between the custom and mainstream kernels since then. That must be a continuous effort and, with the market pressure, the temptation of coming back to the out of mainstream kernels model is high. There is always the risk of returning to the code fragmentation.
+
+The ARM architecture has practically replaced all other architectures in embedded systems since Linaro started, which would not have been possible without creating and maintaining subsystems and platforms on the long term.
