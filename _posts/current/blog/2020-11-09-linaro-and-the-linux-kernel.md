@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Linaro and the Linux Kernel
-description: TBC
+description: "A contribution to the Linux kernel requires experience and over 10
+  years ago Linaro took the lead as a consortium to consolidate the Linux
+  kernel. In this article we look at the work that Linaro continues to undertake
+  and the contributions the company has made, together with the wider open
+  source community. "
 date: 2020-11-09 02:34:26
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
 strap_image: ""
