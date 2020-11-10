@@ -24,7 +24,7 @@ The solution is to upstream the product code into the Linux kernel. However, the
 
 In front of these apparent ecosystems incompatibility, Linaro takes place and creates a bridge between the open source and the industry, by guiding them to upstream the code in a long term vision on the ARM architecture.
 
-# The Linux kernel
+# The Linux Kernel
 
 ## Some numbers
 
@@ -44,7 +44,7 @@ The only way to work in a sane way, in the long term, is to upstream the code in
 
 ## The community
 
-The community is a group of people contributing to the same project by proposing changes. Those are reviewed by the community members and accepted if they make sense and if nobody complains, or when there is an agreement after a technical debate. All the discussions are oriented towards technical facts. The proposed changes must be beneficial to the community. The maintainers are special members: they have the knowledge and the history of the project, as well as the last word and the responsibility of commiting the changes.
+The community is a group of people contributing to the same project by proposing changes. Those are reviewed by the community members and accepted if they make sense and if nobody complains, or when there is an agreement after a technical debate. All the discussions are oriented towards technical facts. The proposed changes must be beneficial to the community. The maintainers are special members. They have the knowledge and the history of the project, as well as the last word and the responsibility of commiting the changes.
 
 ## The mindset
 
@@ -52,7 +52,7 @@ The focus of the community is on making the project better. For this reason any 
 
 That could be really hard for employees who are asked to code upstream in an open source project if the management misunderstands its philosophy. The employees will be torn between deadlines and technical achievements.
 
-# The industry
+# The Industry
 
 ## The turnover on the projects
 
@@ -66,7 +66,7 @@ However, such an approach for a company is not obvious, especially because of th
 
 ## Linaro
 
-The ARM architecture is massively deployed all around the world. The licensing model allows different companies to implement their version of the SoC. It results in the kernel making use of the different features on the SoC can be different for the same architecture. That was particularly true for the ARMv7. The different SoC vendors clone the Android kernel which is itself a clone of the Linux kernel, and implement the same features on their side. The resulting code fragmentation is considerable. Linaro took the lead as a consortium to consolidate the Linux kernel, along other open projects, over a decade ago.
+The ARM architecture is massively deployed all around the world. The licensing model allows different companies to implement their version of the SoC. It results in the kernel making use of the different features on the SoC, which can be different for the same architecture. That was particularly true for the ARMv7. The different SoC vendors clone the Android kernel which is itself a clone of the Linux kernel, and implement the same features on their side. The resulting code fragmentation is considerable. Linaro took the lead as a consortium to consolidate the Linux kernel, along with other open projects, over a decade ago.
 
 ## Acting as a bridge between two ecosystems
 
