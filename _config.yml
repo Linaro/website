@@ -200,23 +200,18 @@ edit-on-github:
 breadcrumb_schema: true
 # Shema.org settings used in the schema.html include.
 schema:
-  "@type": "Corporation"
+  "@context": "https://schema.org"
+  "@type": "Organization"
   "name": "Linaro"
   "url": "https://www.linaro.org"
+  "email": "contact@linaro.org"
   "logo": "https://www.linaro.org/assets/images/content/linaro-logo.png"
   "contactPoint":
     "@type": "ContactPoint"
     "telephone": "01223 400060"
     "contactType": "customer service"
     "availableLanguage": "en"
-  "sameAs":
-    - "https://facebook.com/LinaroOrg"
-    - "https://twitter.com/LinaroOrg"
-    - "https://instagram.com/LinaroOrg"
-    - "https://www.linkedin.com/company/1026961/"
-    - "https://youtube.com/LinaroOrg"
-    - "https://github.com/linaro"
-    - "https://www.linaro.org"
+  "sameAs": "https://www.linaro.org"
 # FESS search label
 search_label: Linaro
 # ----------- JEKYLL PLUGINS ---------------------
