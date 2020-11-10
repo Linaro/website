@@ -42,7 +42,7 @@ function createPageElements(items) {
         page_element +=
           '<a target="_blank" href="' +
           val.item_url +
-          '" class="card-link btn btn-primary">View Presentation</a>';
+          '" class="m-2 btn btn-primary">View Presentation</a>';
       }
       if (
         val.hasOwnProperty("item_video_url") &&
@@ -50,14 +50,20 @@ function createPageElements(items) {
         val.item_video_url.length > 0
       ) {
         page_element +=
-          "<a target='_blank' class='card-link btn btn-primary' href='" +
+          "<a target='_blank' class='m-2 btn btn-primary' href='" +
           val.item_url +
           "'>Watch Video</a>";
       }
       page_element += "</div>";
+      var dateObj = new Date(extractDateString(val.item_date_published));
       page_element +=
         "<div class='card-footer'><small class='text-muted'>" +
-        extractDateString(val.item_date_published) +
+        dateObj.toLocaleDateString("en-US", {
+          weekday: "long",
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        }) +
         "</small></div>";
       page_element += "</div>";
       page_element += "</div>";
