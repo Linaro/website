@@ -86,7 +86,7 @@ Given the implication of these developers in the open source ecosystem, they hav
 
 ## Consolidation of the kernel features
 
-One of the major goals of Linaro is to reduce the code fragmentation with the different SoC vendors specific kernels and for the mainstream. The features added in the custom kernels can be similar and the Linaro engineers have the role to identify the common pieces, improve them if it is possible and propose a generic solution to be merged in the mainstream. The impact on the custom solutions is immediate as the mainstream must ensure backward compatibility.
+One of the major goals of Linaro is to reduce the code fragmentation with the different SoC vendors, specific kernels, and for the mainstream. The features added in the custom kernels can be similar and the Linaro engineers have the role to identify the common pieces, improve them if it is possible, and propose a generic solution to be merged in the mainstream. The impact on the custom solutions is immediate, because the mainstream must ensure backward compatibility.
 
 ## Linaro Challenges
 
@@ -122,6 +122,6 @@ The next table shows the noticeable achievements of Linaro in terms of functiona
 
 Linaro is a consortium dedicated to supporting the ARM architecture in the open source ecosystem. It is deeply involved in the Linux kernel development as well as other open source projects. Its role is to educate the members and make them comfortable with the open source development process.
 
-The ARM architecture, especially on the mobile and the embedded systems, is constantly evolving with more complexity and technical challenges to solve. For a decade, Linaro did a great number of achievements, especially in the Linux kernel side. It successfully kept reducing the gap between the custom and mainstream kernels since then. That must be a continuous effort and, with the market pressure, the temptation of coming back to the out of mainstream kernels model is high. There is always the risk of returning to the code fragmentation.
+The ARM architecture, especially on the mobile and the embedded systems, is constantly evolving with more complexity and technical challenges to solve. For a decade, Linaro did a great number of achievements, especially in the Linux kernel side. It has successfully kept reducing the gap between the custom and mainstream kernels since then. That must be a continuous effort and, with the market pressure, the temptation of coming back to the out of mainstream kernels model is high. There is always the risk of returning to the code fragmentation.
 
 The ARM architecture has practically replaced all other architectures in embedded systems since Linaro started, which would not have been possible without creating and maintaining subsystems and platforms on the long term.
