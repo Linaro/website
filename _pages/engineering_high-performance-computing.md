@@ -7,12 +7,12 @@ js-package: engineering
 members:
   key: hpc-sig
 image: /assets/images/content/HPCCol.svg
-related_resources_tracks: HPC
+related_resources_tracks: https://connect.linaro.org/assets/json/hpc.json
 jumbotron:
-    title: High Performance Computing
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/hpc-bg.jpg
+  title: High Performance Computing
+  inner_class: dotted
+  description: ""
+  image: /assets/images/content/hpc-bg.jpg
 flow:
   - row: container_row
     style: large_type introduction_row py-0
@@ -52,8 +52,6 @@ flow:
   - row: custom_include_row
     source: engineering_related_resources.html
 ---
-
-
 
 ### Linaro HPC Upcoming Events and Resources from Previous Events:
 
