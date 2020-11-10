@@ -14,9 +14,9 @@ author: daniel.lezcano
 ---
 # Introduction
 
-A contribution to the Linux kernel requires experience. The development happens in a large meritocracy community, with a development process based on technical public discussions. There is no deadline, no profit, only one thing matters: make Linux better.
+A contribution to the Linux kernel requires experience. The development happens in a large meritocracy community, with a development process based on technical public discussions. There is no deadline, no profit, only one thing matters. Make Linux better.
 
-The industry has a different goal, which is to reduce the time to market as much as possible. That usually implies some short term development at the cost of misdesigns, duplicated efforts and individual changes without taking care of the existing. In addition, the turnover on the projects prevents any form of capitalization of the knowledge for a long term support.
+The industry has a different goal, which is to reduce the time to market as much as possible. That usually implies some short term development at the cost of misdesigns, duplicated efforts and individual changes without taking care of the existing. In addition, the turnover on the projects prevents any form of capitalisation of the knowledge for a long term support.
 
 These opposite goals lead to a fragmentation of the Linux code. In the long term, the gap between the Linux kernel and the product code is too large. The development time increases as well as the product validation with the consequence of a longer time to market.
 
@@ -28,15 +28,15 @@ In front of these apparent ecosystems incompatibility, Linaro takes place and cr
 
 ## Some numbers
 
-In 2019 the Linux kernel had 27.8 million lines of code, dispatched in 66492 files. That is the result of 75,000 commits per year, 18750 commits per kernel release. 15600 persons have contributed from 1600 companies since 2005. The Linux kernel is worth 14.4 billion dollars.
+In 2019 the Linux kernel had 27.8 million lines of code, dispatched in 66492 files. That is the result of 75,000 commits per year, 18,750 commits per kernel release. 15,600 persons have contributed from 1,600 companies since 2005. The Linux kernel is worth 14.4 billion dollars.
 
 [Linaro was the top #1 contributor to the Linux kernel for the v4.9 version.](https://www.linaro.org/blog/linaro-1-contributor-linux-kernel-4-9-release/)
 
 ## Why upstream?
 
-The open source projects are usually protected by a GPL license. Anyone can make a copy of the project, do modifications and redistribute it. However this is allowed only if the changes are published with the source code and the scripts to generate the binaries. That allows full control over the cloned project and gets rid of the review process of the corresponding community. This attractive solution has a major drawback among others. From the open source community perspective, those changes don’t exist and the original project will evolve independently. As we saw, there is a large number of changes per year for the Linux kernel, so both projects will diverge very quickly.
+The open source projects are usually protected by a GPL license. Anyone can make a copy of the project, carry out modifications and redistribute it. However, this is allowed only if the changes are published with the source code and the scripts to generate the binaries. Thus, that allows full control over the cloned project and gets rid of the review process of the corresponding community. This attractive solution has a major drawback among others. From the open source community perspective, those changes don’t exist and the original project will evolve independently. As we saw, there is a large number of changes per year for the Linux kernel, so both projects will diverge very quickly.
 
-In the next versions of the original project, more features will be available, so an update of the cloned project will be inevitable to merge the new features. Unfortunately, at this point, there is no guarantee that the specific changes in the cloned project will be compatible with the new original project version, i.e merge conflicts, redesign, subtle bugs, revalidation of the current code. These are some of the costs of keeping the changes outside of the mainstream.
+In the next versions of the original project, more features will be available, so an update of the cloned project will be inevitable to merge the new features. Unfortunately, at this point, there is no guarantee that the specific changes in the cloned project will be compatible with the new original project version, i.e. merge conflicts, redesign, subtle bugs, revalidation of the current code. These are some of the costs of keeping the changes outside of the mainstream.
 
 Version after version, the cost of porting the product specific code in the new project releases will be higher. This will continue to increase until it reaches the point where the cost will be prohibitive, blocking the future features coming from the mainstream, like a branch breaking under a heavy load.
 
@@ -58,9 +58,9 @@ That could be really hard for employees who are asked to code upstream in an ope
 
 Whatever the project, the management uses the engineer as resources equivalent to each other. They move them around depending on the load for different projects. That implies a latency for an engineer to be fully operational because of the learning curve ramp up. Another reason for changing the teams often is to prevent an engineer from being compulsory. Whatever we think about this managerial model, these are the facts and the reasons why some companies can not accumulate enough knowledge and credits in the open source ecosystem.
 
-## Capitalization of the knowledge
+## Capitalisation of the knowledge
 
-Some companies understood the importance of the open source development process and they created entities in their companies to handle the upstreaming support for their platforms. They operate autonomously to prevent conflicts between non-open source management and open source developers. This model allowed the creation of dedicated teams for the development of open source projects where the employees could become key players inside the community, capitalizing the knowledge and the experience. The open source community is based on a meritocratie, so the time to gain credits and confidence is saved by keeping some employees full time on the project.
+Some companies understood the importance of the open source development process and they created entities in their companies to handle the upstreaming support for their platforms. They operate autonomously to prevent conflicts between non-open source management and open source developers. This model allowed the creation of dedicated teams for the development of open source projects where the employees could become key players inside the community, capitalising the knowledge and the experience. The open source community is based on a meritocratie, so the time to gain credits and confidence is saved by keeping some employees full time on the project.
 
 However, such an approach for a company is not obvious, especially because of the open source development process misunderstanding, the pressure of the hierarchy for lean manufacturing, short term releases and the cost of putting in place an open source center. Another aspect is how the management perceives their employees evolving in the open source ecosystem autonomously.
 
