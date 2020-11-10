@@ -3,7 +3,7 @@ layout: flow
 image: /assets/images/content/LDCG col.svg
 permalink: /engineering/datacenter-and-cloud/
 js-package: engineering
-related_resources_tracks: Data Center
+related_resources_tracks: https://connect.linaro.org/assets/json/cloud.json
 title: Datacenter & Cloud
 description: |-
   The datacenter and cloud ecosystems continue to grow and evolve at breakneck speed, with new technologies being introduced at a high rate. On the software front, open source is the dominant driving force, due to the open and collaborative engineering.
@@ -19,17 +19,17 @@ related_tags:
   - HPC
   - Developer Cloud
 jumbotron:
-    title: Datacenter & Cloud
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/ldcg-bg.jpg
+  title: Datacenter & Cloud
+  inner_class: dotted
+  description: ""
+  image: /assets/images/content/ldcg-bg.jpg
 flow:
   - row: container_row
     style: members_row bg-light
     sections:
-        - format: custom_include
-          params: ldcg
-          source: related_members.html
+      - format: custom_include
+        params: ldcg
+        source: related_members.html
   - row: container_row
     style: large_type introduction_row py-0
     sections:
@@ -46,11 +46,11 @@ flow:
   - row: container_row
     style: youtube_embed_row bg-light
     sections:
-        - format: youtube
-          style: #
-          url: https://www.youtube.com/watch?v=WOQErwKoBxc
+      - format: youtube
+        style: #
+        url: https://www.youtube.com/watch?v=WOQErwKoBxc
         #   poster_image: /assets/images/test/background-image1.jpg
-          title: Arm on Arm Panel Discussion 2019
+        title: Arm on Arm Panel Discussion 2019
   - row: container_row
     style: large_type introduction_row py-0 info_row
     sections:

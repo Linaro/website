@@ -1,15 +1,15 @@
 ---
 title: Consumer
 description: |-
-    Most that are familiar with Android might think of consumer phones that are available in the average retail shop and naturally think that Google and the creator of the phone are the ones that perform all of the work to create the product. In reality, a number of important pieces of software in Android are open source and developed in the open. The Linux kernel is inside of all Android phones.
+  Most that are familiar with Android might think of consumer phones that are available in the average retail shop and naturally think that Google and the creator of the phone are the ones that perform all of the work to create the product. In reality, a number of important pieces of software in Android are open source and developed in the open. The Linux kernel is inside of all Android phones.
 keywords: Linux, Arm, Mobile, Android, IoT, toolchains, ecosystem, phones, tablets, wearables, LCG, LMG
 image: /assets/images/content/LCG.png
 permalink: /engineering/consumer/
 layout: flow
 js-package: engineering
 members:
-    key: lcg
-related_resources_tracks: Android, LMG, LCG, Linaro Mobile Group, Android
+  key: lcg
+related_resources_tracks: https://connect.linaro.org/assets/json/consumer.json
 other_projects:
   - name: Linaro Confectionary Release (LCR) and AOSP
     url: https://wiki-archive.linaro.org/LMG/AndroidEngineeringDelta
@@ -18,17 +18,17 @@ other_projects:
 related_jira_project: https://projects.linaro.org/projects/LMG/summary
 youtube_playlist: https://www.youtube.com/playlist?list=PLKZSArYQptsOCKDbxvLxNKNWxMCwS0QsB
 jumbotron:
-    title: Consumer
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/consumer-bg.jpg
+  title: Consumer
+  inner_class: dotted
+  description: ""
+  image: /assets/images/content/consumer-bg.jpg
 flow:
   - row: container_row
     style: members_row bg-light
     sections:
-        - format: custom_include
-          params: lcg
-          source: related_members.html
+      - format: custom_include
+        params: lcg
+        source: related_members.html
   - row: container_row
     style: large_type introduction_row py-0
     sections:
