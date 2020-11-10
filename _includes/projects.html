@@ -39,18 +39,18 @@
                                 </div>
                                 <div class="card-body">
                                     <ul class="list-group list-group-flush">
-                                        {% if project["Project Ownership"]["Project Owner"] != "" %}
+                                        {% if project["Project Ownership"]["Project Owner"] and project["Project Ownership"]["Project Owner"] != "" %}
                                         <li class="list-group-item">
                                             <strong>Owner</strong>: {{project["Project Ownership"]["Project Owner"]}}
                                         </li>
                                         {% endif %}
-                                        {% if project["Project Ownership"]["Technical Lead"] != "" %}
+                                        {% if project["Project Ownership"]["Technical Lead"] and  project["Project Ownership"]["Technical Lead"] != "" %}
                                         <li class="list-group-item">
                                             <strong>Technical Lead</strong>:
                                             {{project["Project Ownership"]["Technical Lead"]}}
                                         </li>
                                         {% endif %}
-                                        {% if project["Project Ownership"]["Governing Entity"] != "" %}
+                                        {% if project["Project Ownership"]["Governing Entity"] and project["Project Ownership"]["Governing Entity"] != "" %}
                                         <li class="list-group-item">
                                             <strong>Governing Entity</strong>:
                                             {{project["Project Ownership"]["Governing Entity"]}}
