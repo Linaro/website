@@ -26,7 +26,7 @@ These opposite goals lead to a fragmentation of the Linux code. In the long term
 
 The solution is to upstream the product code into the Linux kernel. However, the lack of experience in open source, the different mindsets and cultures, can lead the upstreaming process to fail.
 
-In front of these apparent ecosystems incompatibility, Linaro takes place and creates a bridge between the open source and the industry, by guiding them to upstream the code in a long term vision on the ARM architecture.
+In front of these apparent ecosystems incompatibility, Linaro takes place and creates a bridge between the open source and the industry, by guiding them to upstream the code in a long term vision on the Arm architecture.
 
 # The Linux Kernel
 
@@ -70,7 +70,7 @@ However, such an approach for a company is not obvious, especially because of th
 
 ## Linaro
 
-The ARM architecture is massively deployed all around the world. The licensing model allows different companies to implement their version of the SoC. It results in the kernel making use of the different features on the SoC, which can be different for the same architecture. That was particularly true for the ARMv7. The different SoC vendors clone the Android kernel which is itself a clone of the Linux kernel, and implement the same features on their side. The resulting code fragmentation is considerable. Linaro took the lead as a consortium to consolidate the Linux kernel, along with other open projects, over a decade ago.
+The Arm architecture is massively deployed all around the world. The licensing model allows different companies to implement their version of the SoC. It results in the kernel making use of the different features on the SoC, which can be different for the same architecture. That was particularly true for the Armv7. The different SoC vendors clone the Android kernel which is itself a clone of the Linux kernel, and implement the same features on their side. The resulting code fragmentation is considerable. Linaro took the lead as a consortium to consolidate the Linux kernel, along with other open projects, over a decade ago.
 
 ## Acting as a bridge between two ecosystems
 
@@ -80,7 +80,7 @@ But Linaro is much more than that. The core engineering will be in charge of und
 
 In addition, the SoC vendors will assign some engineers of their teams to the different Linaro projects. These will be guided through the open source development process, gain experience and share it with their company.
 
-Linaro consolidates the ARM architecture code fragmentation and helps the companies to understand what open source is.
+Linaro consolidates the Arm architecture code fragmentation and helps the companies to understand what open source is.
 
 ## Capitalization of the knowledge
 
@@ -100,7 +100,7 @@ Another aspect is the nature of Linaro which joins different members to collabor
 
 ## Linaro achievements
 
-Linaro maintainership in the Linux kernel. The following table lists the maintainers of the Linux kernel for the ARM architecture, the drivers and the generic frameworks. The frameworks are bigger in terms of size and changes submission traffic. This table demonstrates how Linaro is involved in the Linux kernel development and how de facto it has a voice in the community to make the upstreaming process as smooth as possible. Since its creation, Linaro has merged more than 23,000 changes in the kernel, especially in the generic frameworks where the implementation and the submission process are harder than a driver.
+Linaro maintainership in the Linux kernel. The following table lists the maintainers of the Linux kernel for the Arm architecture, the drivers and the generic frameworks. The frameworks are bigger in terms of size and changes submission traffic. This table demonstrates how Linaro is involved in the Linux kernel development and how de facto it has a voice in the community to make the upstreaming process as smooth as possible. Since its creation, Linaro has merged more than 23,000 changes in the kernel, especially in the generic frameworks where the implementation and the submission process are harder than a driver.
 
 {% include image.html path="/assets/images/content/linux-kernel-blog-1.png" alt="maintainer framework and driver table" %}
 
@@ -124,8 +124,8 @@ The next table shows the noticeable achievements of Linaro in terms of functiona
 
 ## Conclusion
 
-Linaro is a consortium dedicated to supporting the ARM architecture in the open source ecosystem. It is deeply involved in the Linux kernel development as well as other open source projects. Its role is to educate the members and make them comfortable with the open source development process.
+Linaro is a consortium dedicated to supporting the Arm architecture in the open source ecosystem. It is deeply involved in the Linux kernel development as well as other open source projects. Its role is to educate the members and make them comfortable with the open source development process.
 
-The ARM architecture, especially on the mobile and the embedded systems, is constantly evolving with more complexity and technical challenges to solve. For a decade, Linaro did a great number of achievements, especially in the Linux kernel side. It has successfully kept reducing the gap between the custom and mainstream kernels since then. That must be a continuous effort and, with the market pressure, the temptation of coming back to the out of mainstream kernels model is high. There is always the risk of returning to the code fragmentation.
+The Arm architecture, especially on the mobile and the embedded systems, is constantly evolving with more complexity and technical challenges to solve. For a decade, Linaro did a great number of achievements, especially in the Linux kernel side. It has successfully kept reducing the gap between the custom and mainstream kernels since then. That must be a continuous effort and, with the market pressure, the temptation of coming back to the out of mainstream kernels model is high. There is always the risk of returning to the code fragmentation.
 
-The ARM architecture has practically replaced all other architectures in embedded systems since Linaro started, which would not have been possible without creating and maintaining subsystems and platforms on the long term.
+The Arm architecture has practically replaced all other architectures in embedded systems since Linaro started, which would not have been possible without creating and maintaining subsystems and platforms on the long term.
