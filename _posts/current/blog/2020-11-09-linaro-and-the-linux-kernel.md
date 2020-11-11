@@ -102,11 +102,11 @@ Another aspect is the nature of Linaro which joins different members to collabor
 
 Linaro maintainership in the Linux kernel. The following table lists the maintainers of the Linux kernel for the ARM architecture, the drivers and the generic frameworks. The frameworks are bigger in terms of size and changes submission traffic. This table demonstrates how Linaro is involved in the Linux kernel development and how de facto it has a voice in the community to make the upstreaming process as smooth as possible. Since its creation, Linaro has merged more than 23,000 changes in the kernel, especially in the generic frameworks where the implementation and the submission process are harder than a driver.
 
-{% include image.html path="/assets/images/content/linux-kernel-blog-1.png" alt="maintainer, framework and driver table" %}
+{% include image.html path="/assets/images/content/linux-kernel-blog-1.png" alt="maintainer framework and driver table" %}
 
-{% include image.html path="/assets/images/content/linux-kernel-blog-2.png" alt="maintainer, framework and driver table" %}
+{% include image.html path="/assets/images/content/linux-kernel-blog-2.png" alt="maintainer framework and driver table" %}
 
-{% include image.html path="/assets/images/content/linux-kernel-blog-3.png" alt="maintainer, framework and driver table" %}
+{% include image.html path="/assets/images/content/linux-kernel-blog-3.png" alt="maintainer framework and driver table" %}
 
 The next table shows the noticeable achievements of Linaro in terms of functionalities for the Linux kernel, the list is not exhaustive but it shows Linaro is a major player in the Linux kernel ecosystem.
 
