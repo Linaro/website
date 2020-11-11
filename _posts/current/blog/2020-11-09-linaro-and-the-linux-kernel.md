@@ -8,7 +8,6 @@ description: "A contribution to the Linux kernel requires experience and over 10
   source community. "
 date: 2020-11-09 02:34:26
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
-strap_image: ""
 tags:
   - Linaro
   - Linux
@@ -16,6 +15,7 @@ tags:
 category: blog
 author: daniel.lezcano
 ---
+
 # Introduction
 
 A contribution to the Linux kernel requires experience. The development happens in a large meritocracy community, with a development process based on technical public discussions. There is no deadline, no profit, only one thing matters. Make Linux better.
