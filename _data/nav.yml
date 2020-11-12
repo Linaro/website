@@ -131,6 +131,8 @@ pages:
             url: https://connect.linaro.org/resources/yvr18/
           - text: Hong Kong 2018
             url: https://connect.linaro.org/resources/hkg18/
+          - text: Linaro Virtual Connect 2020
+            url: https://connect.linaro.org/resources/lvc20/
     title: Resources
   - options:
       - text: Technical Support
