@@ -27,7 +27,7 @@ jobs:
 
       - name: Trigger 96Boards update
         run: |
-          curl -X POST https://api.github.com/repos/96Boards/website/dispatches \
-          -H 'Accept: application/vnd.github.everest-preview+json' \
-          -u ${{ secrets.LINARO_BUILD_KEY }} \
-          --data '{"event_type": "UpdateMembers", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
+        curl -X POST https://api.github.com/repos/96Boards/website/dispatches \
+        -H 'Accept: application/vnd.github.everest-preview+json' \
+        -u ${{ secrets.LINARO_BUILD_KEY }} \
+        --data '{"event_type": "UpdateMembers", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
