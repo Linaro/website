@@ -121,6 +121,8 @@ pages:
         options:
           - text: All Resources
             url: https://connect.linaro.org/resources/
+          - text: Linaro Virtual Connect 2020
+            url: https://connect.linaro.org/resources/lvc20/
           - text: Linaro Tech Days 2020
             url: https://connect.linaro.org/resources/ltd20/
           - text: San Diego 2019
@@ -131,8 +133,6 @@ pages:
             url: https://connect.linaro.org/resources/yvr18/
           - text: Hong Kong 2018
             url: https://connect.linaro.org/resources/hkg18/
-          - text: Linaro Virtual Connect 2020
-            url: https://connect.linaro.org/resources/lvc20/
     title: Resources
   - options:
       - text: Technical Support
