@@ -47,31 +47,128 @@ During this work, a lot of cleanup was requested by maintainers. These additiona
 
 Linaro ranked as the 5th largest contributor by changesets in Linux 5.9  \[1]: 
 
-
 **By Changesets**
 
-| (None)       | 1377 | 9.3% |
-| ------------ | ---- | ---- |
-| Intel        | 1336 | 9.0% |
-| Red Hat      | 1006 | 6.8% |
-| (Unknown)    | 895  | 6.0% |
-| AMD          | 848  | 5.7% |
-| Linaro       | 842  | 5.7% |
-| Google       | 662  | 4.5% |
-| SUSE         | 554  | 3.7% |
-| (Consultant) | 504  | 3.4% |
-| IBM          | 478  | 3.2% |
+| (None)       | 1377    | 9.3%     |
+| ------------ | ------- | -------- |
+| Intel        | 1336    | 9.0%     |
+| Red Hat      | 1006    | 6.8%     |
+| (Unknown)    | 895     | 6.0%     |
+| AMD          | 848     | 5.7%     |
+| **Linaro**   | **842** | **5.7%** |
+| Google       | 662     | 4.5%     |
+| SUSE         | 554     | 3.7%     |
+| (Consultant) | 504     | 3.4%     |
+| IBM          | 478     | 3.2%     |
 
 Linaro’s position was driven by a prodigious 520 changesets from Lee Jones (Developer Services) who was the most prolific contributor to 5.9.
 
-| Lee Jones            | 520 | 3.5% |
-|----------------------|-----|------|
-| Christoph Hellwig    | 292 | 2.0% |
-| Randy Dunlap         | 261 | 1.8% |
-| Alexander A. Klimov  | 187 | 1.3% |
-| Ben Skeggs           | 137 | 0.9% |
-| Chris Wilson         | 135 | 0.9% |
-| Laurent Pinchart     | 135 | 0.9% |
-| Evan Quan            | 113 | 0.8% |
-| Pierre-Louis Bossart | 113 | 0.8% |
-| Gustavo A. R. Silva  | 110 | 0.7% |
+**By Changesets**
+
+| **Lee Jones**        | **520** | **3.5%** |
+| -------------------- | ------- | -------- |
+| Christoph Hellwig    | 292     | 2.0%     |
+| Randy Dunlap         | 261     | 1.8%     |
+| Alexander A. Klimov  | 187     | 1.3%     |
+| Ben Skeggs           | 137     | 0.9%     |
+| Chris Wilson         | 135     | 0.9%     |
+| Laurent Pinchart     | 135     | 0.9%     |
+| Evan Quan            | 113     | 0.8%     |
+| Pierre-Louis Bossart | 113     | 0.8%     |
+| Gustavo A. R. Silva  | 110     | 0.7%     |
+
+Even  by lines changed, which is a less useful metric, Linaro was 10th
+
+**By Lines Changes**
+
+| AMD        | 243874    | 29.4%    |
+| ---------- | --------- | -------- |
+| Intel      | 56635     | 6.8%     |
+| Red Hat    | 39347     | 4.8%     |
+| IBM        | 35658     | 4.3%     |
+| (None)     | 30232     | 3.7%     |
+| Google     | 29715     | 3.6%     |
+| (Unknown)  | 29421     | 3.6%     |
+| Mellanox   | 24149     | 2.9%     |
+| Facebook   | 22410     | 2.7%     |
+| **Linaro** | **19271** | **2.3%** |
+
+Increasingly, Linaro’s  involvement in testing is also reaching the spotlight. Naresh Kamboju from the Kernel Validation team (KV) achieved the 6th spot as a reporter of issues. It has to be pointed out that the top three spots are taken by bots that can churn out impressive numbers of reports. LKFT has aspirations to reach into this bot territory.
+
+ **Reported By**
+
+| kernel test robot  | 169 | 17.1% |
+| ------------------ | --- | ----- |
+| Syzbot             | 91  | 9.2%  |
+| Hulk Robot         | 67  | 6.8%  |
+| Dan Carpenter      | 23  | 2.3%  |
+| Stephen Rothwell   | 17  | 1.7%  |
+| Naresh Kamboju     | 16  | 1.6%  |
+| Randy Dunlap       | 16  | 1.6%  |
+| Lars-Peter Clausen | 13  | 1.3%  |
+| Qian Cai           | 12  | 1.2%  |
+| Colin Ian King     | 8   | 0.8%  |
+
+\[1] <https://lwn.net/Articles/834085/> Jonathan Corbet
+
+## Accelerating libcamera Qcam format conversion using OpenGL shaders
+
+**By Show Liu, MultiMedia Working Group (MMWG), Socionext**
+
+{% include image.html path="/assets/images/content/pi-lib-camera.png" class="small-inline left" alt="libcamera image" %}
+
+[Libcamera](https://libcamera.org/) is an open source friendly camera stack and userspace library. It provides an intuitive API and methods to control the complexity of camera hardware for multiple platforms. The “qcam” application is one of the builtin example programs in libcamera to demonstrate how to handle the cameras using the libcamera APIs. It is a Qt based GUI application that provides camera preview and capture functions. Qcam builds the pipeline using the libcamera pipeline handler. The pipeline handler will generate the configuration for the camera and also set the pixel format and the resolution for the camera stream. In the case of the Rock Pi 4B(Rockchip RK3399) platform with Sony imx219 sensor, the pixel format will be set to YUV “NV12” format before starting the capture. After starting the capture, qcam grabs the frames from the camera sensor according to the configuration.
+
+To display the “NV12” format frames in Qt framework, it needs to be converted to RGBA pixel format which is then rendered by the Qpainter component. However the default CPU software conversion is not very efficient. For example when doing the conversion on the CPU of a RockPi4B which has a RK3399 SoC, we get the following framerates in QCam:
+
+Capture frame size set to **640 x 480**, the frame rate is around **13.4x** fps.
+
+Capture frame size set to **1280 x 720**, the frame rate is around **4.5x** fps.
+
+Capture frame size set to **1920 x 1080**, the frame rate is even down to around **2.0x fps**.
+
+As libcamera is helping to solve a longstanding pain point in the Linux ecosystem (the management of complex cameras), Linaro decided to contribute to accelerating Qcam so we can have a much more performant demo of libcamera based stack on some of the platforms Linaro cares most about. Moving these heavy loading tasks to the GPU would be more efficient and there are already lots of examples about sharing the loading with the GPU that can be referenced.
+
+It also has the nice property of resulting in a demo that combines the great advances made in libcamera with the progress that has also happened in [Mesa](https://gitlab.freedesktop.org/mesa/mesa/) project on the Gallium Panfrost driver.
+
+To enable the OpenGL support for “qcam”, the QOpenGLWidget, QOpenGLFunctions and QOpenGLShaderProgram 3 main Qt OpenGL components would be added to handle the OpenGL format convert and frame rendering. The new class is inherited from QOpenGLWidget and QOpenGLFunctions.
+
+And in this new class, reimplement the initializeGL(), resizeGL() and paintGL() 3 virtual functions that provided by QOpenGLWidget.
+
+**initializeGL()** : Sets up the OpenGL resources and state.
+
+**resizeGL()** : Sets up the OpenGL viewport, projection, etc.
+
+**paintGL()** : Renders the OpenGL scene.
+
+See our upcoming blog post for more detail on what was implemented in these apis, but the code has already been merged into libcamera git tree. Interested readers can refer to the following commits in libcamera repo
+
+* <https://git.linuxtv.org/libcamera.git/commit/?id=4a4a3e715b8314c56a2a32788d92fdec464af7b7>
+* <https://git.linuxtv.org/libcamera.git/commit/?id=2daa704c968c8aa7a4b209450f228b41e9d42d85>
+* <https://git.linuxtv.org/libcamera.git/commit/?id=9db6ce0ba499eba53db236558d783a4ff7aa3896>
+* <https://git.linuxtv.org/libcamera.git/commit/?id=219cbfe76b5a7d9d8206c71aa6115ff8befcff9b>
+
+The result of moving the format conversion onto the GPU, is that the qcam frame rate improved a lot. On RockPi4b platform the frame rate now reaches **30.0x** fps with the capture resolution set to **1920x1080**.
+
+## Linaro Linux Plumbers reports
+
+{% include image.html path="/assets/images/content/linux-plumbers-conference.png" class="small-inline left" alt="Linux Plumbers Conference icon" %}Ten engineers from Linaro participated in LPC, hosting micro conferences or presenting topics for discussion.
+
+#### Scheduler Fairness Micro Conference
+
+Vincent presented an update about the fairness problem of the cfs load balancer. 
+
+There are cases which can't be statically balanced and need dynamic and smarter tasks migration to ensure same running time for all tasks (according to their nice priority). After describing a typical problem where the unfairness can reach more than 40%, Vincent described multiple root cause of the unfairness: [Watch recording](https://youtu.be/UQNOT20aCEg)
+
+## Android Micro Conference
+
+The summary of the Android Micro Conference was published in the [September 2020 Engineering Highlights.](https://www.linaro.org/blog/linaro-engineering-highlights-september-2020/)
+
+
+## DMA BUF Heap Transition in AOSP
+**By John Stultz, LCG**
+
+{% include image.html path="/assets/images/content/LCG.png" class="LCG icont" alt="Linux Plumbers Conference icon" %}LCG.png
+
+
+
