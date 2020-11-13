@@ -32,7 +32,7 @@ Videos of the session are available through November 23, 2020 to registered atte
 
 ## Linaro Top Contributor To Linux Test Project (LTP)
 
-{% include image.html path="/assets/images/content/linux-kernel-security.pngg" class="small-inline left" alt="linux-kernel-security image" %}Viresh Kumar from the Kernel Working Group (KWG) has been addressing missing syscalls in the Linux Test Project activity since October 2019, contributing 108 commits to date.
+{% include image.html path="/assets/images/content/linux-kernel-security.png" class="small-inline left" alt="linux-kernel-security image" %}Viresh Kumar from the Kernel Working Group (KWG) has been addressing missing syscalls in the Linux Test Project activity since October 2019, contributing 108 commits to date.
 Major areas of work during the previous year have included:
 
 * Support added for following (12+) syscalls: pidfd_open, io_pgetevents, fsmount, fsopen, fsconfig, fsmount, move_mount, fspick, open_tree, openat2, pidfd_send_signal, clone3.
@@ -168,7 +168,7 @@ The summary of the Android Micro Conference was published in the [September 2020
 
 **By John Stultz, LCG**
 
-{% include image.html path="/assets/images/content/LCG.png" class="LCG icont" alt="Linux Plumbers Conference icon" %}
+{% include image.html path="/assets/images/content/LCGpng" class="small-inline left" alt="LCG icon" %}
 
 With the DMA BUF Heaps interface (designed to replace ION) now upstream, work is quickly happening to migrate both AOSP and vendor ION usage and heap implementations to DMA BUF Heaps. The ION framework, originally written by Rebecca Schultz Zavin, was one of the early-ish (~2010) components of the Android patchset and it provided a way for userspace to allocate memory buffers that would be efficiently shared between multiple devices. The primary benefit of this overother DRM device allocators was the idea that userspace best understands the path of a buffer through the system. For example one buffer might be used for a camera pipeline:
 
