@@ -168,7 +168,7 @@ The summary of the Android Micro Conference was published in the [September 2020
 
 **By John Stultz, LCG**
 
-{% include image.html path="/assets/images/content/LCGpng" class="small-inline left" alt="LCG icon" %}
+{% include image.html path="/assets/images/content/LCG.png" class="small-inline left" alt="LCG icon" %}
 
 With the DMA BUF Heaps interface (designed to replace ION) now upstream, work is quickly happening to migrate both AOSP and vendor ION usage and heap implementations to DMA BUF Heaps. The ION framework, originally written by Rebecca Schultz Zavin, was one of the early-ish (~2010) components of the Android patchset and it provided a way for userspace to allocate memory buffers that would be efficiently shared between multiple devices. The primary benefit of this overother DRM device allocators was the idea that userspace best understands the path of a buffer through the system. For example one buffer might be used for a camera pipeline:
 
