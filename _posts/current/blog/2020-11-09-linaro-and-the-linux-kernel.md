@@ -2,7 +2,7 @@
 layout: post
 title: Linaro and the Linux Kernel
 description: "A contribution to the Linux kernel requires experience and over 10
-  years ago Linaro took the lead as a consortium to consolidate the Linux
+  years ago, Linaro took the lead as a consortium to consolidate the Linux
   kernel. In this article we look at the work that Linaro continues to undertake
   and the contributions the company has made, together with the wider open
   source community. "
@@ -15,7 +15,6 @@ tags:
 category: blog
 author: daniel.lezcano
 ---
-
 # Introduction
 
 A contribution to the Linux kernel requires experience. The development happens in a large meritocracy community, with a development process based on technical public discussions. There is no deadline, no profit, only one thing matters. Make Linux better.
@@ -94,7 +93,7 @@ One of the major goals of Linaro is to reduce the code fragmentation with the di
 
 ## Linaro Challenges
 
-Acting as a bridge between the members and the open source ecosystem, Linaro has the responsibility of connecting both worlds. Because Linaro is involved in the open source projects, one side of the connection is easier than the other. On the other side, Linaro tries to move custom solutions to generic solutions. This implies that this puts into question the work already done by the member engineers who may never have faced an audit of their code, or their design, via a review process. Member engineers could perceive that as an act of depreciation, a hostile OPA to take control of the code. In addition, the misunderstanding of the open source ecosystem can exacerbate this feeling.
+Acting as a bridge between the members and the open source ecosystem, Linaro has the responsibility of connecting both worlds. Because Linaro is involved in the open source projects, one side of the connection is easier than the other. On the other side, Linaro tries to move custom solutions to generic solutions. This implies that this puts into question the work already done by the member engineers who may never have faced an audit of their code, or their design, via a review process. Member engineers could perceive that as an act of depreciation, a hostile takeover to take control of the code. In addition, the misunderstanding of the open source ecosystem can exacerbate this feeling.
 
 Another aspect is the nature of Linaro which joins different members to collaborate on the common parts in order to prevent duplicated work and code fragmentation. Linaro has the responsibility to collect information to understand the technical needs of the different members and identify the common parts. A difficult task as the members are competitors on the market.
 
