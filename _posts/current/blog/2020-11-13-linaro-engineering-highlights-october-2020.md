@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - October 2020
-description: TBC
+description: "October's Engineering highlights include an overview of the new
+  Arm Devsummit,  Linaro's contributions for the Linux Kernel 5.9, "
 date: 2020-11-13 01:15:35
 image: /assets/images/content/iot_planet_under_2mb.jpg
 tags:
