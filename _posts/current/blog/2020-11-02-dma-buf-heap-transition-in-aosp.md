@@ -6,7 +6,7 @@ description: The ION framework was one of the early components of the Android
   would be efficiently shared between multiple devices. In this article John
   Stultz takes a detailed look at the DMA BUF Heaps interface that is designed
   to replace ION.
-date: 2020-11-02 03:44:32
+date: 2020-11-17 03:44:32
 image: /assets/images/content/tech_background__under_2mb.jpg
 tags:
   - AOSP
