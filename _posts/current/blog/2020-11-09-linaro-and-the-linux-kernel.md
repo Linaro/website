@@ -124,3 +124,6 @@ Linaro is a consortium dedicated to supporting the Arm architecture in the open 
 The Arm architecture, especially on the mobile and the embedded systems, is constantly evolving with more complexity and technical challenges to solve. For a decade, Linaro did a great number of achievements, especially in the Linux kernel side. It has successfully kept reducing the gap between the custom and mainstream kernels since then. That must be a continuous effort and, with the market pressure, the temptation of coming back to the out of mainstream kernels model is high. There is always the risk of returning to the code fragmentation.
 
 The Arm architecture has practically replaced all other architectures in embedded systems since Linaro started, which would not have been possible without creating and maintaining subsystems and platforms on the long term.
+
+## About The Author
+Daniel is a member within the Kernel Working Group (KWG). The group's primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple Arm SoCs and Arm-based platforms.
