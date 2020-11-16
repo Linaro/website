@@ -4,12 +4,13 @@ description: >-
   The Power Management Working Group is tasked with creating infrastructure,
   guidelines and tools to enable superior power management on multiple Arm SoCs.
 permalink: /engineering/core/arm-power-management/pmwg-farm/
+related_resources_tracks: https://connect.linaro.org/assets/json/power.json
 js-package: engineering
 layout: flow
 jumbotron:
   image: /assets/images/content/engineering/context/stewardship.jpg
   title: Power Management Farm
-  description: ''
+  description: ""
   inner_class: dotted
 flow:
   - row: container_row
@@ -23,6 +24,7 @@ flow:
     source: engineering_related_resources.html
 image: /assets/images/content/engineering/png/core_engineering.png
 ---
+
 ## Overview
 
 Linaro's Power Management Working Group manages a board farm to boot kernels and run tests across various devices. Our main objectives include:
@@ -75,20 +77,22 @@ The WAv3 default device configuration files and agendas can be found from the Li
 If you are planning to use arm energy probes to collect power measurements, you may need to perform one or more of these actions:
 
 - Check the probe is connected to the device. Some soldering may be needed.
-- On the host machine, install the 
+- On the host machine, install the
 
-libudev-dev package and add your username to the dialout group. Then run 
+libudev-dev package and add your username to the dialout group. Then run
 
 ls -l ../dev/ttyACM0.
-- Find the probe ID by running 
 
-ls /dev/serial/by-id/ on the host machine. The output should look similar to this format: 
+- Find the probe ID by running
+
+ls /dev/serial/by-id/ on the host machine. The output should look similar to this format:
 
 /dev/serial/by-id/usb-NXP_SEMICOND_ARM_Energy_Probe_S_NOXXXXXXXX-if00.
+
 - Update the LAVA device configuration file to include 
-{% raw  %}
-{% set static_info = [{'board_id': 'S_NOXXXXXXXX'}] %} where S_NOXXXXXXXX is the probe ID.
-{% endraw  %}
+  {% raw  %}
+  {% set static_info = [{'board_id': 'S_NOXXXXXXXX'}] %} where S_NOXXXXXXXX is the probe ID.
+  {% endraw  %}
 
 ### Data post processing
 
@@ -109,9 +113,10 @@ This example is created to get users running Workload Automation on Hikey Androi
 If you need general **LAVA** help (e.g. how to submit a job, how to install LAVA, tips for writing test definitions), please try one of the following suggestions:
 
 - Read the LAVA [documentation](https://docs.lavasoftware.org/lava/contents.html). It is thoroughly written.
-- Email questions to the LAVA users mailing list at 
+- Email questions to the LAVA users mailing list at
 
 &lt;lava-users AT lists DOT lavasoftware DOT org&gt; so the LAVA team and other LAVA users can assist you, especially when everyone is in different timezones. Please attach job logs and job definition in your email if you have any. It is also very helpful to list the steps taken to reproduce your problem.
+
 - Visit the [LAVA Software Community Project](https://www.lavasoftware.org/) website.
 - Have a Linaro LDAP account and want to try running your first LAVA job? Visit [here](https://validation.linaro.org/static/docs/v2/first_steps.html#linaro-lab-users).
 

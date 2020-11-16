@@ -20,7 +20,7 @@ title: U-Boot on Arm32, AArch64 and beyond
 wordpress_id: 9094
 ---
 
-U-Boot became the de facto bootloader on most Arm systems during the early 2000s. It grew out of an earlier flora of smaller and custom boot loaders such as RedBoot and Open Handhelds Arm Bootloader. Currently the main alternatives are [the Little Kernel bootloader](https://developer.qualcomm.com/download/db410c/little-kernel-boot-loader-overview.pdf), which has been used by Qualcomm and Google for a series of Android devices, and the [UEFI-compliant Tianocore](http://www.tianocore.org/) (also known as EDK II) bootloader.
+U-Boot became the de facto bootloader on most Arm systems during the early 2000s. It grew out of an earlier flora of smaller and custom boot loaders such as RedBoot and Open Handhelds Arm Bootloader. Currently the main alternatives are [the Little Kernel bootloader](https://developer.qualcomm.com/qfile/28821/lm80-p0436-1_little_kernel_boot_loader_overview.pdf), which has been used by Qualcomm and Google for a series of Android devices, and the [UEFI-compliant Tianocore](http://www.tianocore.org/) (also known as EDK II) bootloader.
 
 What is the best bootloader to use for any one system is a subject of debate. There have been pushes to different “there can be only one” approaches, but the recent consensus is to “use the right tool for the job”, while people may have differing opinions on what the right tool is.
 

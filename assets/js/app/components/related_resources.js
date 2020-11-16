@@ -41,8 +41,8 @@ function createPageElements(items) {
       ) {
         page_element +=
           '<a target="_blank" href="' +
-          val.item_presentation_url +
-          '" class="card-link btn btn-primary">Presentation</a>';
+          val.item_url +
+          '" class="m-2 btn btn-primary">View Presentation</a>';
       }
       if (
         val.hasOwnProperty("item_video_url") &&
@@ -50,14 +50,20 @@ function createPageElements(items) {
         val.item_video_url.length > 0
       ) {
         page_element +=
-          "<a target='_blank' class='card-link btn btn-primary' href='" +
-          val.item_video_url +
-          "'>Video</a>";
+          "<a target='_blank' class='m-2 btn btn-primary' href='" +
+          val.item_url +
+          "'>Watch Video</a>";
       }
       page_element += "</div>";
+      var dateObj = new Date(extractDateString(val.item_date_published));
       page_element +=
         "<div class='card-footer'><small class='text-muted'>" +
-        extractDateString(val.item_date_published) +
+        dateObj.toLocaleDateString("en-US", {
+          weekday: "long",
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        }) +
         "</small></div>";
       page_element += "</div>";
       page_element += "</div>";
@@ -72,74 +78,40 @@ $(document).ready(function () {
   // Check the related_resources div exists
   if ($("#related_resources").length > 0) {
     // Tracks to search resources for.
-    var required_tracks = $("#related_resources").data("related-tracks");
-    if (required_tracks.indexOf(",") > -1) {
-      required_tracks = required_tracks.split(",").map(function (item) {
-        return item.trim();
-      });
-    } else {
-      required_tracks = [required_tracks];
-    }
-    // Fetch relevant Connect resources
-    $.getJSON("https://connect.linaro.org/assets/json/connects.json", function (
-      data
-    ) {
-      $.each(data, function (key, val) {
-        var split_date_string = val["start_date"].split(" ")[0].split("-");
-        var start_date = new Date(
-          split_date_string[0],
-          split_date_string[1],
-          split_date_string[2]
-        );
-        if (start_date.getTime() < new Date().getTime()) {
-          // Get the JSON url for each Linaro Connect
-          var json_url =
-            "https://connect.linaro.org/assets/json/" +
-            val.id.toLowerCase() +
-            "/data.json";
-          $.getJSON(json_url, function (data) {
-            // Loop through all resources for specific connect
-            $.each(data, function (key, specific_resource) {
-              // Find resources that match the required tracks
-              if (specific_resource.hasOwnProperty("tracks")) {
-                // Loop over required tracks
-                $.each(required_tracks, function (key, val) {
-                  // Check that the resource contains one of the required tracks
-                  if (specific_resource.tracks.indexOf(val) > -1) {
-                    var event = specific_resource.event_id.toUpperCase();
-                    // Create a new item
-                    var item = {
-                      item_title: specific_resource.title,
-                      item_url: specific_resource.url,
-                      item_video_url: specific_resource.youtube_video_url,
-                      item_thumbnail: specific_resource.thumbnail,
-                      item_event: "Linaro Connect " + event,
-                      item_date_published: specific_resource.date_published,
-                    };
-                    if (
-                      specific_resource.hasOwnProperty(
-                        "amazon_s3_presentation_url"
-                      )
-                    ) {
-                      item["item_presentation_url"] =
-                        specific_resource.amazon_s3_presentation_url;
-                    }
-                    // Add item to the items array
-                    items.push(item);
-                    // Break out of each loop
-                    return false;
-                  }
-                });
-              }
-            });
-          });
+    var required_tracks_url = $("#related_resources").data(
+      "related-tracks-url"
+    );
+    $.getJSON(required_tracks_url, function (data) {
+      console.log(data);
+      // Loop through all resources for specific connect
+      $.each(data, function (key, specific_resource) {
+        var event = specific_resource.event_id.toUpperCase();
+        // Create a new item
+        var item = {
+          item_title: specific_resource.title,
+          item_url: specific_resource.url,
+          item_youtube_video_url: specific_resource.youtube_video_url,
+          item_thumbnail: specific_resource.thumbnail,
+          item_event: "Linaro Connect " + event,
+          item_date_published: specific_resource.date_published,
+        };
+        if (specific_resource.hasOwnProperty("amazon_s3_presentation_url")) {
+          item["item_presentation_url"] =
+            specific_resource.amazon_s3_presentation_url;
         }
+        if (specific_resource.hasOwnProperty("amazon_s3_video_url")) {
+          item["item_video_url"] = specific_resource.amazon_s3_video_url;
+        }
+        console.log(item);
+        // Add item to the items array
+        items.push(item);
       });
     });
   }
 });
 // Display resources once the ajaxStop event is fired
 $(document).ajaxStop(function () {
+  console.log(items);
   var page_elements = createPageElements(items);
   $("#related_resources").html(page_elements);
 });
