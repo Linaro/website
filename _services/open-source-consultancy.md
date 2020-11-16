@@ -2,18 +2,23 @@
 title: Open Source Consultancy and Licensing
 jumbotron:
     title: Open Source Consultancy and Licensing
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
+    title-class: my-4
+    buttons:
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase ds_contact_form_btn
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase ds_contact_form_btn
 permalink: /services/open-source-consultancy/
-keywords: open source, consulting, community, licensing, training
-icon: /assets/images/content/DeveloperServices-icons_consultancy.svg
-layout: flow
-tag: services
-js-package: services
-image:
-    name: LinaroDSVertical.png
-    path: /assets/images/content/LinaroDSVertical.png
+keywords: 
+- open source
+- consulting
+- community
+- licensing
+- training
+icon: /assets/images/content/Icon_OSS.svg
 flow:
     - row: main_content_row
       style: text_block

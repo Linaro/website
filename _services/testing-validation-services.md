@@ -2,18 +2,26 @@
 title: Testing and Validation Services
 jumbotron:
     title: Testing and Validation Services
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
+    title-class: my-4
+    buttons:
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase ds_contact_form_btn
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase ds_contact_form_btn
 permalink: /services/testing-validation-services/
-keywords: testing, automated testing, validation, LAVA, continuous integration, CI, test plan, test development
-icon: /assets/images/content/DeveloperServices-icons_validation.svg
-layout: flow
-tag: services
-js-package: services
-image:
-    name: LinaroDSVertical.png
-    path: /assets/images/content/LinaroDSVertical.png
+keywords: 
+- testing
+- automated testing
+- validation
+- LAVA
+- continuous integration
+- CI
+- test plan
+- test development
+icon: /assets/images/content/Icon_Testing___Validation.svg
 flow:
     - row: main_content_row
       style: text_block

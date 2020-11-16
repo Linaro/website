@@ -2,15 +2,26 @@
 title: Hands on Training
 jumbotron:
     title: Hands on Training
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
+    title-class: my-4
+    buttons:
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase ds_contact_form_btn
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase ds_contact_form_btn
 permalink: /services/hands-on-training/
-keywords: training, Linux, Arm, open source, onsite, remote, mentoring, tailored to needs
-layout: flow
-tag: services
-js-package: services
-image: /assets/images/content/LinaroDSVertical.png
+icon: /assets/images/content/Icon_Hands_on_training.svg
+keywords: 
+- training
+- Linux
+- Arm
+- open source
+- onsite
+- remote
+- mentoring
+- tailored to needs
 flow:
     - row: container_row
       style: large_type

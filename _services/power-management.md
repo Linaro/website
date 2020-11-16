@@ -2,18 +2,24 @@
 title: Power Management Tuning Services
 jumbotron:
     title: Power Management Tuning Services
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
+    title-class: my-4
+    buttons:
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase ds_contact_form_btn
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase ds_contact_form_btn
 permalink: /services/power-management/
-keywords: Linux, kernel, power management, EAS, Energy Aware Scheduler, PSCI
-icon: /assets/images/content/DeveloperServices-icons_power.svg
-layout: flow
-tag: services
-js-package: services
-image:
-    name: LinaroDSVertical.png
-    path: /assets/images/content/LinaroDSVertical.png
+keywords: 
+- Linux Kernel
+- power management
+- EAS
+- Energy Aware Scheduler
+- PSCI
+icon: /assets/images/content/Icon_Power_Management_Tuning.svg
+image: /assets/images/content/LinaroDSVertical.png
 flow:
     - row: main_content_row
       style: text_block
@@ -36,7 +42,8 @@ Linaro has a world class team with deep understanding of the Arm architecture an
 - Hands on experience tuning the Energy Aware Scheduler in the Linux kernel for several SoCs
 - Experience maintaining long term EAS branches in the Linaro Stable Kernel (LSK) for use by Linaro members
 - A strong working relationship with upstream kernel developers; our team is recognized for its world class work
-- Deep understanding of whole system power state management technologies like PSCI, DVFS, EAS
+- Deep understanding of whole system power state management technologies like PSCI
+- DVFS, EAS
 - Power management skills in a variety of commercial niches (mobile, set top box, embedded devices)
 
 Let Linaro Developer Services help improve the power management capabilities of your product.

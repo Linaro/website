@@ -2,18 +2,27 @@
 title: Toolchain Optimization Services
 jumbotron:
     title: Toolchain Optimization Services
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
+    title-class: my-4
+    buttons:
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase ds_contact_form_btn
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase ds_contact_form_btn
 permalink: /services/toolchain-optimization-services/
-keywords: GCC, GDB, Binutils, glibc, LLVM, toolchain, compiler, optimization, microarchitecture
-icon: /assets/images/content/DeveloperServices-icons_toolchain.svg
-layout: flow
-tag: services
-js-package: services
-image:
-    name: LinaroDSVertical.png
-    path: /assets/images/content/LinaroDSVertical.png
+keywords: 
+- GCC
+- GDB
+- Binutils
+- glibc
+- LLVM
+- toolchain
+- compiler
+- optimization
+- microarchitecture
+icon: /assets/images/content/Icon_Toolchain_Optimization.svg
 flow:
     - row: main_content_row
       style: text_block

@@ -2,18 +2,26 @@
 title: Kernels and Long Term Support Services
 jumbotron:
     title: Kernels and Long Term Support Services
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
+    title-class: my-4
+    buttons:
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase ds_contact_form_btn
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase ds_contact_form_btn
 permalink: /services/kernel-lts/
-keywords: Linux, LTS, kernel, maintenance, porting, upgrading, support, Zephyr
-icon: /assets/images/content/DeveloperServices-icons_kernels.svg
-layout: flow
-tag: services
-js-package: services
-image:
-    name: LinaroDSVertical.png
-    path: /assets/images/content/LinaroDSVertical.png
+keywords: 
+- Linux
+- LTS
+- kernel
+- maintenance
+- porting
+- upgrading
+- support
+- Zephyr
+icon: /assets/images/content/Icon_Kernel_and_Long-term_Support.svg
 flow:
     - row: main_content_row
       style: text_block
