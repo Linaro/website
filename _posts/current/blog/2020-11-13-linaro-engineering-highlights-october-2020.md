@@ -16,8 +16,7 @@ author: jon.burcham@linaro.org
 ---
 # 2020 Arm DevSummit
 
-{% include image.html path="/assets/images/content/simon-segars.jpg" class="small-inline left" alt="Simon Segars - Arm CEO image" %} For 2020, Arm retooled its fall conference to be more developer oriented as Arm DevSummit. With the recent news that Nvidia is acquiring Arm, the keynote by Arm CEO Simon Segars and fireside chat with both Simon Segars and Nvidia CEO Jensen Huang provided an opportunity to comment on the potential benefits of an Arm - Nvidia partnership. Both CEO’s endorsed Linaro as partners in Open Source work now and in the future. Mark Hambleton, Arm Vice President of Open Source Software, reinforced this view in his keynote titled “The Software Side of Arm”. 
-{% include image.html path="/assets/images/content/jenson-haung.jpg" class="small-inline left" alt="Jenson Huang - Nvidia CEO image" %} 
+{% include image.html path="/assets/images/content/simon-segars.jpg" class="small-inline left" alt="Simon Segars - Arm CEO image" %} For 2020, Arm retooled its fall conference to be more developer oriented as Arm DevSummit. With the recent news that Nvidia is acquiring Arm, the keynote by Arm CEO Simon Segars and fireside chat with both Simon Segars and Nvidia CEO Jensen Huang provided an opportunity to comment on the potential benefits of an Arm - Nvidia partnership. {% include image.html path="/assets/images/content/jenson-haung.jpg" class="small-inline left" alt="Jenson Huang - Nvidia CEO image" %} Both CEO’s endorsed Linaro as partners in Open Source work now and in the future. Mark Hambleton, Arm Vice President of Open Source Software, reinforced this view in his keynote titled “The Software Side of Arm”. 
 
 Linaro engineers and collaborators [contributed 15 sessions](https://devsummit.arm.com/agenda/?search=Linaro#/) including:
 
@@ -54,70 +53,69 @@ Linaro ranked as the 5th largest contributor by changesets in Linux 5.9  \[1]:
 
 **By Changesets**
 
-| (None)       | 1377    | 9.3%     |
-| ------------ | ------- | -------- |
-| Intel        | 1336    | 9.0%     |
-| Red Hat      | 1006    | 6.8%     |
-| (Unknown)    | 895     | 6.0%     |
-| AMD          | 848     | 5.7%     |
-| **Linaro**   | **842** | **5.7%** |
-| Google       | 662     | 4.5%     |
-| SUSE         | 554     | 3.7%     |
-| (Consultant) | 504     | 3.4%     |
-| IBM          | 478     | 3.2%     |
+| (None)       | 1377    |   9.3%     |
+| ------------ | ------- | ---------- |
+| Intel        | 1336    |   9.0%     |
+| Red Hat      | 1006    |   6.8%     |
+| (Unknown)    | 895     |   6.0%     |
+| AMD          | 848     |   5.7%     |
+| **Linaro**   | **842** |   **5.7%** |
+| Google       | 662     |   4.5%     |
+| SUSE         | 554     |   3.7%     |
+| (Consultant) | 504     |   3.4%     |
+| IBM          | 478     |   3.2%     |
 
 Linaro’s position was driven by a prodigious 520 changesets from Lee Jones (Developer Services) who was the most prolific contributor to 5.9.
 
 **By Changesets**
 
-| **Lee Jones**        | **520** | **3.5%** |
-| -------------------- | ------- | -------- |
-| Christoph Hellwig    | 292     | 2.0%     |
-| Randy Dunlap         | 261     | 1.8%     |
-| Alexander A. Klimov  | 187     | 1.3%     |
-| Ben Skeggs           | 137     | 0.9%     |
-| Chris Wilson         | 135     | 0.9%     |
-| Laurent Pinchart     | 135     | 0.9%     |
-| Evan Quan            | 113     | 0.8%     |
-| Pierre-Louis Bossart | 113     | 0.8%     |
-| Gustavo A. R. Silva  | 110     | 0.7%     |
+| **Lee Jones**        | **520** |   **3.5%** |
+| -------------------- | ------- | ---------- |
+| Christoph Hellwig    | 292     |   2.0%     |
+| Randy Dunlap         | 261     |   1.8%     |
+| Alexander A. Klimov  | 187     |   1.3%     |
+| Ben Skeggs           | 137     |   0.9%     |
+| Chris Wilson         | 135     |   0.9%     |
+| Laurent Pinchart     | 135     |   0.9%     |
+| Evan Quan            | 113     |   0.8%     |
+| Pierre-Louis Bossart | 113     |   0.8%     |
+| Gustavo A. R. Silva  | 110     |   0.7%     |
 
 Even  by lines changed, which is a less useful metric, Linaro was 10th
 
 **By Lines Changes**
 
-| AMD        | 243874    | 29.4%    |
-| ---------- | --------- | -------- |
-| Intel      | 56635     | 6.8%     |
-| Red Hat    | 39347     | 4.8%     |
-| IBM        | 35658     | 4.3%     |
-| (None)     | 30232     | 3.7%     |
-| Google     | 29715     | 3.6%     |
-| (Unknown)  | 29421     | 3.6%     |
-| Mellanox   | 24149     | 2.9%     |
-| Facebook   | 22410     | 2.7%     |
-| **Linaro** | **19271** | **2.3%** |
+| AMD        | 243874    |   29.4%    |
+| ---------- | --------- | ---------- |
+| Intel      | 56635     |   6.8%     |
+| Red Hat    | 39347     |   4.8%     |
+| IBM        | 35658     |   4.3%     |
+| (None)     | 30232     |   3.7%     |
+| Google     | 29715     |   3.6%     |
+| (Unknown)  | 29421     |   3.6%     |
+| Mellanox   | 24149     |   2.9%     |
+| Facebook   | 22410     |   2.7%     |
+| **Linaro** | **19271** |   **2.3%** |
 
 Increasingly, Linaro’s  involvement in testing is also reaching the spotlight. Naresh Kamboju from the Kernel Validation team (KV) achieved the 6th spot as a reporter of issues. It has to be pointed out that the top three spots are taken by bots that can churn out impressive numbers of reports. LKFT has aspirations to reach into this bot territory.
 
  **Reported By**
 
-| kernel test robot  | 169 | 17.1% |
-| ------------------ | --- | ----- |
-| Syzbot             | 91  | 9.2%  |
-| Hulk Robot         | 67  | 6.8%  |
-| Dan Carpenter      | 23  | 2.3%  |
-| Stephen Rothwell   | 17  | 1.7%  |
-| Naresh Kamboju     | 16  | 1.6%  |
-| Randy Dunlap       | 16  | 1.6%  |
-| Lars-Peter Clausen | 13  | 1.3%  |
-| Qian Cai           | 12  | 1.2%  |
-| Colin Ian King     | 8   | 0.8%  |
+| kernel test robot  | 169 |   17.1% |
+| ------------------ | --- | ------- |
+| Syzbot             | 91  |   9.2%  |
+| Hulk Robot         | 67  |   6.8%  |
+| Dan Carpenter      | 23  |   2.3%  |
+| Stephen Rothwell   | 17  |   1.7%  |
+| Naresh Kamboju     | 16  |   1.6%  |
+| Randy Dunlap       | 16  |   1.6%  |
+| Lars-Peter Clausen | 13  |   1.3%  |
+| Qian Cai           | 12  |   1.2%  |
+| Colin Ian King     | 8   |   0.8%  |
 
 \[1] <https://lwn.net/Articles/834085/> Jonathan Corbet
 
 ## Accelerating libcamera Qcam format conversion using OpenGL shaders
-
 **By Show Liu, MultiMedia Working Group (MMWG), Socionext**
 
 {% include image.html path="/assets/images/content/pi-lib-camera.png" class="small-inline left" alt="libcamera image" %}
