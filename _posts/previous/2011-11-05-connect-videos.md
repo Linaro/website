@@ -1,13 +1,13 @@
 ---
 author: linaro
 category: blog
-date: 2011-11-05 13:38:43
 description: A first set of HD videos from Linaro Connect Q4.11 in Orlando, Florida.
   Technical discussions and interviews with Linaro and community engineers.
 keywords: linaro,connect,videos,arm,linux
 layout: post
-link: /blog/connect-update/connect-videos/
+image: /assets/images/content/RGB-Linaro_Standard.png
 slug: connect-videos
+date: 2011-11-05 13:38:43
 tags:
 - Connect Events
 - Arm
@@ -17,7 +17,6 @@ tags:
 title: First videos from Linaro Connect Q4.11
 wordpress_id: 812
 ---
-
 [Linaro Connect Q4.11](https://connect.linaro.org/) was a great place to learn about Linaro projects and to contribute to them, as well as to build tighter ties with the Linaro engineers and community.
 
 For those who couldn't participate to this event, here are all the videos that I shot. Note that I mostly didn't cover plenaries, because they were either filmed by [Novacut](https://launchpad.net/novacut) or by the Ubuntu video crew, with better equipment. As soon as their videos are available, we will let you know through a comment to this article.
@@ -62,7 +61,7 @@ The cluster is made of 6 panda boards, that means 12 cores with 6 GB of RAM. We 
 
 Noritsuna explained how his cluster runs the Google App Engine (http://code.google.com/appengine/), and allows to dispatch a Google app on a selected board.
 
-Details can be found [here](http://www.siprop.org/ja/2.0/index.php?product/pandacloud).
+Details can be found [here](http://www.siprop.org/ja/2.0/index.php?product/pandacloud%20[1]).
 
 ### Day 2 - Enabling low cost power measurement - Dave Anders
 
