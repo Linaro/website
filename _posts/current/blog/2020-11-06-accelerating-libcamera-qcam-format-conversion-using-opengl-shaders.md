@@ -17,7 +17,7 @@ tags:
 related_projects:
   - ASA
 category: blog
-author: jon.burcham@linaro.org
+author: show.liu@linaro.org
 ---
 # libcamera
 
@@ -347,3 +347,7 @@ After moving the format conversion to the GPU, the qcam frame rate improved a lo
 4. <https://learnopengl.com/Getting-started/Hello-Triangle>
 5. <https://learnopengl.com/Getting-started/Textures>
 6. <https://git.linuxtv.org/libcamera.git/tree/src/qcam>
+
+## About the Author
+
+Show is an engineer within the multimedia working group. For further information on this group, click [here](<https://www.linaro.org/engineering/multimedia/)>).
