@@ -8,6 +8,9 @@
   }
 }
 #wrapper {
+  nav#main-navigation {
+    z-index: 999;
+  }
   .blog-post-item-col {
     a {
       color: black;
