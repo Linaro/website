@@ -23,18 +23,18 @@ image: /assets/images/content/LinaroDSVertical.png
 flow:
     - row: main_content_row
       style: text_block
-    - row: custom_include_row
-      source: services/prospectus_registration_form.html
     - row: container_row
-      style:  large_type bg-primary text-dark
+      style: large_type bg-white text-dark text-center
       sections:
         - format: title
           title_content:
             size: h2
-            style: text-dark
-            text: To find out more about Developer Services please complete this form
+            style: text-dark font-weight-bold my-4
+            text: Need help with open source software? Let Linaro Developer Services help you.
         - format: custom_include
-          source: services/developer_services_form.html
+          source: services/icon_links.html
+    - row: custom_include_row
+      source: services/developer_services_form.html
 ---
 
 Linaro has a world class team with deep understanding of the Arm architecture and Linux power management framework.  In Developer Services we have:

@@ -32,7 +32,7 @@ flow:
     - row: main_content_row
       style: text_block
     - row: container_row
-      style:  large_type bg-white text-dark text-center
+      style: large_type bg-white text-dark text-center
       sections:
         - format: title
           title_content:
@@ -41,8 +41,8 @@ flow:
             text: Need help with open source software? Let Linaro Developer Services help you.
         - format: custom_include
           source: services/icon_links.html
-        - row: custom_include_row
-          source: services/developer_services_form.html
+    - row: custom_include_row
+      source: services/developer_services_form.html
 icon: /assets/images/content/Icon_96boards.svg
 ---
 Linaro Developer Services has a wealth of experience with Linaro's 96Boards program.  We have developed the complete BSP for several boards and have provided aid to many other board and SoC manufacturers.  We offer the following services:
