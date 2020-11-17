@@ -82,6 +82,7 @@ defaults:
       type: "services"
     values:
       layout: flow
+      css_bundle: services
       js-package: services
       image: /assets/images/content/LinaroDSVertical.png
   - scope:
