@@ -2,33 +2,38 @@
 title: Security, TrustZone and OP-TEE
 jumbotron:
   title: Security, TrustZone and OP-TEE
-  inner_class: dotted
-  description: ""
-  image: /assets/images/content/developer_services_bg.jpg
+  image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
+  title-class: my-4
+  buttons:
+    - title: Contact Form
+      url: "#contact_form"
+      style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase ds_contact_form_btn
+    - title: Contact Form
+      url: "#contact_form"
+      style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase ds_contact_form_btn
 permalink: /services/security/
-keywords: Security, Trustzone, OP-TEE, Secure Boot, GlobalPlatform
-icon: /assets/images/content/DeveloperServices-icons_Security.svg
-layout: flow
-tag: services
-js-package: services
-image:
-  name: LinaroDSVertical.png
-  path: /assets/images/content/LinaroDSVertical.png
+keywords: 
+- Security
+- Trustzone
+- OP-TEE
+- Secure Boot
+- GlobalPlatform
+icon: /assets/images/content/Icon_Security.svg
 flow:
   - row: main_content_row
     style: text_block
-  - row: custom_include_row
-    source: services/prospectus_registration_form.html
   - row: container_row
-    style: services_form large_type bg-primary text-dark
+    style: large_type bg-white text-dark text-center
     sections:
       - format: title
         title_content:
           size: h2
-          style: text-dark
-          text: To find out more about Developer Services please complete this form
+          style: text-dark font-weight-bold my-4
+          text: Need help with open source software? Let Linaro Developer Services help you.
       - format: custom_include
-        source: services/developer_services_form.html
+        source: services/icon_links.html
+  - row: custom_include_row
+    source: services/developer_services_form.html
 ---
 
 Linaro Developer Services has significant experience securing Arm systems; including secure boot, working with TrustZone, porting OP-TEE and working with Trusted Applications.

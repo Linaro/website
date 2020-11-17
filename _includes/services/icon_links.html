@@ -1,0 +1,18 @@
+<div class="col col-12 services_icons">
+  <div class="row">
+    {% for service in site.services %}
+    <div class="col col-6 col-sm-4 col-md-3 service_col h-100 py-4">
+      <div class="ds_wrapper">
+        <a href="{{service.url}}">
+          <img
+            class="img-fluid ds_image"
+            alt="{{service.title}} icon"
+            src="{{service.icon}}"
+          />
+          <h4 class="ds_title text-dark my-3">{{service.title}}</h4>
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

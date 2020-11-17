@@ -40,6 +40,8 @@ collections:
   company:
     output: true
     permalink: /membership/:name/
+  services:
+    output: true
   core:
     output: true
     permalink: /:collection/:path/
@@ -76,6 +78,13 @@ defaults:
     values:
       layout: author
       image: /assets/images/social-media-image.png
+  - scope:
+      type: "services"
+    values:
+      layout: flow
+      css_bundle: services
+      js-package: services
+      image: /assets/images/content/LinaroDSVertical.png
   - scope:
       path: "_posts/events"
     values:

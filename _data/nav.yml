@@ -86,29 +86,7 @@ pages:
     url: /projects/
   - title: Membership
     url: /membership/
-  - options:
-      - text: Overview
-        url: /services/
-      - text: Bootloaders
-        url: /services/bootloaders/
-      - text: BSP’s, Builds and Support
-        url: /services/bsp-builds-support/
-      - text: Hands on Training
-        url: /services/hands-on-training/
-      - text: Kernels and Long Term Support
-        url: /services/kernel-lts/
-      - text: Open Source Consultancy
-        url: /services/open-source-consultancy/
-      - text: Power Management Tuning
-        url: /services/power-management/
-      - text: Security
-        url: /services/security/
-      - text: Testing and Validation
-        url: /services/testing-validation-services/
-      - text: Toolchain Optimization
-        url: /services/toolchain-optimization-services/
-      - text: 96Boards
-        url: /services/96boards/
+  - url: /services/
     title: Services
   - options:
       - text: Blog

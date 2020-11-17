@@ -708,7 +708,930 @@ collections:
                     widget: string
                     required: false
           - label: "Background Image"
-            name: "background-image"
+            name: "image"
+            widget: "image"
+            required: false
+            media_library:
+              config:
+                multiple: false
+          - label: Header Buttons
+            name: buttons
+            widget: list
+            fields:
+              - {
+                  label: "Button Title",
+                  name: title,
+                  widget: string,
+                  required: false,
+                  hint: "The title of your button",
+                }
+              - {
+                  label: "Button URL",
+                  name: url,
+                  widget: string,
+                  required: false,
+                  hint: "The url your button will link to.",
+                }
+              - {
+                  label: "Button Class",
+                  name: class,
+                  widget: string,
+                  required: false,
+                  hint: "Add an additional class to your button for custom styling.",
+                }
+              - {
+                  label: "Button Icon",
+                  name: icon,
+                  widget: string,
+                  required: false,
+                  hint: "Optionally add a font awesome icon to your button. Required format - 'fa fa-download' visit https://fontawesome.com/v4.7.0/icons/ for a full list of icons available.",
+                }
+          - label: "Background Carousel Images"
+            name: "carousel-images"
+            widget: "image"
+            required: false
+            media_library:
+              config:
+                multiple: true
+      - label: "Flow"
+        name: "flow"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Row Type"
+            name: "row"
+            widget: "select"
+            default: "main_content_row"
+            options:
+              [
+                "main_content_row",
+                "container_row",
+                "full_width_row",
+                "custom_include_row",
+              ]
+            hint: "Select a row type to get started. Defaults to main_content_row which will display the 'Page Content' section inside a container."
+          - label: "Custom Include Source"
+            name: "source"
+            widget: "string"
+            hint: "Enter the name of a Jekyll include to use as a custom include."
+            required: false
+          - label: "Row Style"
+            name: "style"
+            widget: "string"
+            hint: "Enter an optional style to be applied to your row."
+            required: false
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            typeKey: "format"
+            required: false
+            hint: "Add sections to your flow row (e.g title, feature_block, buttons, block, slider)"
+            types:
+              - {
+                  label: "Section Format",
+                  name: "format",
+                  widget: "select",
+                  multiple: false,
+                  required: false,
+                  options:
+                    [
+                      "title",
+                      "members",
+                      "text",
+                      "buttons",
+                      "block",
+                      "custom_include",
+                      "tabs",
+                      "feature_block",
+                      "slider",
+                      "youtube",
+                    ],
+                }
+              - label: Text
+                type: text
+                summary: "{{fields.text_content.text}}"
+                name: text
+                widget: "object"
+                fields:
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
+                  - label: "Text Section Content"
+                    name: "text_content"
+                    widget: object
+                    fields:
+                      - { label: "Text", widget: markdown, name: "text" }
+              - label: Title
+                type: title
+                name: title
+                typeKey: "format"
+                summary: "{{fields.title_content.text}}"
+                widget: "object"
+                fields:
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
+                  - label: "Title Section Content"
+                    name: "title_content"
+                    widget: object
+                    fields:
+                      - {
+                          label: "Text",
+                          name: text,
+                          required: false,
+                          widget: string,
+                          hint: "Text for your title",
+                        }
+                      - label: "Title Size"
+                        name: "size"
+                        widget: select
+                        required: false
+                        options:
+                          - { label: "1", value: "h1" }
+                          - { label: "2", value: "h2" }
+                          - { label: "3", value: "h3" }
+                          - { label: "4", value: "h4" }
+                          - { label: "5", value: "h5" }
+              - label: Blocks
+                type: block
+                name: block
+                widget: "object"
+                fields:
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
+                  - label: "Blocks Section Content"
+                    name: "block_section_content"
+                    widget: object
+                    hint: "Content for a blocks section"
+                    required: false
+                    fields:
+                      - label: "Block Width"
+                        name: item_width
+                        widget: select
+                        required: false
+                        options: ["3", "4", "6"]
+                      - label: "Blocks"
+                        name: blocks
+                        widget: list
+                        hint: "Add the content for your blocks"
+                        required: false
+                        fields:
+                          - {
+                              label: "Block Title",
+                              name: title,
+                              widget: string,
+                              required: false,
+                            }
+                          - {
+                              label: "Block URL",
+                              name: url,
+                              required: false,
+                              widget: string,
+                              hint: "Provide a url for your block to link to",
+                            }
+                          - {
+                              label: "Block Modal Content",
+                              name: modal_content,
+                              required: false,
+                              widget: markdown,
+                            }
+                          - {
+                              label: "Block Background Image",
+                              name: background_image,
+                              widget: image,
+                              required: false,
+                              hint: "Provide a background image for your block",
+                            }
+                          - {
+                              label: Block Content Image,
+                              name: image,
+                              widget: image,
+                              required: false,
+                              hint: "An image to be displayed inside the block",
+                            }
+                          - {
+                              label: "Block Text",
+                              name: description,
+                              widget: markdown,
+                              required: false,
+                              hint: "Provide text content for your block",
+                            }
+                          - {
+                              label: Block Style,
+                              name: style,
+                              widget: string,
+                              required: false,
+                              hint: "CSS classes to be applied to a given block.",
+                            }
+                          - {
+                              label: Block Content Style,
+                              name: content_style,
+                              widget: string,
+                              required: false,
+                              hint: "CSS classes to be applied to a given blocks content.",
+                            }
+                          - label: "Block Buttons"
+                            name: buttons
+                            widget: list
+                            required: false
+                            identifier_field: url
+                            fields:
+                              - {
+                                  label: "Button Title",
+                                  name: "title",
+                                  widget: string,
+                                  required: false,
+                                }
+                              - {
+                                  label: "Button URL",
+                                  name: "url",
+                                  widget: string,
+                                  required: false,
+                                }
+                              - {
+                                  label: "Button Icon",
+                                  name: "icon",
+                                  required: false,
+                                  widget: string,
+                                  hint: "Format is fa fa-icon-name - see fontawesome 4.7 icons",
+                                }
+                              - {
+                                  label: "Button Style",
+                                  name: "style",
+                                  widget: string,
+                                  required: false,
+                                  hint: "btn-primary, btn-secondary, btn-danger, btn-warning",
+                                }
+              - label: Tabs
+                type: tabs
+                name: tabs
+                widget: "object"
+                fields:
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
+                  - label: "Tabs Section Content"
+                    name: "tabs"
+                    widget: list
+                    hint: "Content for a tabs section"
+                    identifier_field: title
+                    required: false
+                    fields:
+                      - label: "Tab Title"
+                        name: title
+                        widget: string
+                        required: false
+                      - label: "Tab Content"
+                        name: content
+                        widget: markdown
+                        hint: "Markdown content for your tab."
+                        required: false
+              - label: Feature Block
+                type: feature_block
+                name: feature_block
+                widget: "object"
+                fields:
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
+                  - label: "Feature Block Section Content"
+                    name: "feature_block_content"
+                    widget: object
+                    hint: "Feature Block Section Content"
+                    required: false
+                    fields:
+                      - label: Position
+                        name: "position"
+                        widget: select
+                        options: ["left", "right"]
+                        required: false
+                        hint: "Align your feature block media content to the left or the right."
+                      - label: Text
+                        name: "text"
+                        widget: text
+                        required: false
+                        hint: "Text content for your feature block"
+                      - label: Title
+                        name: "title"
+                        widget: string
+                        required: false
+                        hint: "The title for your feature block"
+                      - label: Type
+                        name: "type"
+                        widget: select
+                        options: ["youtube_video", "image", "slider"]
+                        hint: "Select the media type for your feature block"
+                        required: false
+                      - label: "Image Content"
+                        name: "image_content_path"
+                        widget: image
+                        hint: "Select an image for your image type feature block"
+                        required: false
+                      - label: "Video Content"
+                        name: "youtube"
+                        widget: object
+                        required: false
+                        fields:
+                          - {
+                              label: YouTube Video URL,
+                              name: url,
+                              widget: string,
+                              required: false,
+                            }
+                          - {
+                              label: Poster Image,
+                              name: poster_image,
+                              widget: image,
+                              required: false,
+                              hint: "The image to be displayed before the video is played.",
+                            }
+                      - label: "Feature block buttons"
+                        name: buttons
+                        widget: list
+                        required: false
+                        fields:
+                          - {
+                              label: "Button Title",
+                              name: "title",
+                              widget: string,
+                              required: false,
+                            }
+                          - {
+                              label: "Button URL",
+                              name: "url",
+                              widget: string,
+                              required: false,
+                            }
+                          - {
+                              label: "Button Icon",
+                              name: "icon",
+                              required: false,
+                              widget: string,
+                              hint: "Format is fa fa-icon-name - see fontawesome 4.7 icons",
+                            }
+                          - {
+                              label: "Button Style",
+                              name: "class",
+                              widget: string,
+                              required: false,
+                              hint: "btn-primary, btn-secondary, btn-danger, btn-warning",
+                            }
+                  - label: "Slider Content"
+                    name: "slider_content"
+                    widget: object
+                    hint: "The content details of a slider section"
+                    required: false
+                    fields:
+                      - {
+                          label: "Enable Lightbox",
+                          name: lightbox_enabled,
+                          widget: boolean,
+                          required: false,
+                          hint: "Allow slider images to show in a lightbox (popup)",
+                        }
+                      - {
+                          label: "Slide Delay",
+                          name: seconds_per_slide,
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Enable Arrow Navigation",
+                          name: nav,
+                          widget: boolean,
+                          required: false,
+                          hint: "Toggle the arrow navigation on the slider",
+                        }
+                      - {
+                          label: "Enable Slider Dots",
+                          name: dots,
+                          widget: boolean,
+                          required: false,
+                          hint: "Toggle the slider dots",
+                        }
+                      - {
+                          label: "Mobile Items (XS)",
+                          name: "xs_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Tablet Items (SM)",
+                          name: "sm_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Small Desktop Items (MD)",
+                          name: "md_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Desktop Items (LG)",
+                          name: "lg_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - label: "Slider Items"
+                        name: items
+                        widget: list
+                        required: false
+                        hint: "A list of items to display in the slider section"
+                        fields:
+                          - {
+                              label: "Image",
+                              name: image,
+                              widget: image,
+                              required: false,
+                            }
+                          - {
+                              label: "Alt",
+                              name: alt,
+                              widget: string,
+                              required: false,
+                            }
+                          - {
+                              label: "Title",
+                              name: title,
+                              widget: string,
+                              required: false,
+                            }
+                  - label: "Slider Items Data Source"
+                    name: source
+                    widget: string
+                    required: false
+                    hint: "A name of a Jekyll data file to use for the source of items"
+              - label: Carousel Slider
+                type: slider
+                name: slider
+                widget: "object"
+                fields:
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
+                  - label: "Slider Section Content"
+                    name: "slider_content"
+                    widget: object
+                    hint: "The content details of a slider section"
+                    required: false
+                    fields:
+                      - {
+                          label: "Enable Lightbox",
+                          name: lightbox_enabled,
+                          widget: boolean,
+                          required: false,
+                          hint: "Allow slider images to show in a lightbox (popup)",
+                        }
+                      - {
+                          label: "Slide Delay",
+                          name: seconds_per_slide,
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Enable Arrow Navigation",
+                          name: nav,
+                          widget: boolean,
+                          required: false,
+                          hint: "Toggle the arrow navigation on the slider",
+                        }
+                      - {
+                          label: "Enable Slider Dots",
+                          name: dots,
+                          widget: boolean,
+                          required: false,
+                          hint: "Toggle the slider dots",
+                        }
+                      - {
+                          label: "Mobile Items (XS)",
+                          name: "xs_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Tablet Items (SM)",
+                          name: "sm_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Small Desktop Items (MD)",
+                          name: "md_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - {
+                          label: "Desktop Items (LG)",
+                          name: "lg_items",
+                          widget: "number",
+                          required: false,
+                        }
+                      - label: "Slider Items"
+                        name: items
+                        widget: list
+                        required: false
+                        hint: "A list of items to display in the slider section"
+                        fields:
+                          - {
+                              label: "Image",
+                              name: image,
+                              widget: image,
+                              required: false,
+                            }
+                          - {
+                              label: "Alt",
+                              name: alt,
+                              widget: string,
+                              required: false,
+                            }
+                          - {
+                              label: "Title",
+                              name: title,
+                              widget: string,
+                              required: false,
+                            }
+                      - label: "Slider Items Data Source"
+                        name: source
+                        widget: string
+                        required: false
+                        hint: "A name of a Jekyll data file to use for the source of items"
+              - label: Buttons
+                type: buttons
+                name: buttons
+                widget: "object"
+                fields:
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
+                  - label: "Buttons Section Content"
+                    name: "buttons_content"
+                    widget: list
+                    hint: "Content for the buttons section"
+                    required: false
+                    fields:
+                      - {
+                          label: "Button Title",
+                          name: "title",
+                          widget: string,
+                          required: false,
+                        }
+                      - {
+                          label: "Button URL",
+                          name: "url",
+                          widget: string,
+                          required: false,
+                        }
+                      - {
+                          label: "Button Icon",
+                          name: "icon",
+                          required: false,
+                          widget: string,
+                          hint: "Format is fa fa-icon-name - see fontawesome 4.7 icons",
+                        }
+                      - {
+                          label: "Button Style",
+                          name: "style",
+                          widget: string,
+                          required: false,
+                          hint: "btn-primary, btn-secondary, btn-danger, btn-warning",
+                        }
+              - label: YouTube
+                type: youtube
+                name: youtube
+                widget: "object"
+                summary: "{{fields.title}}"
+                fields:
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
+                  - label: "YouTube URL"
+                    name: "url"
+                    widget: string
+                    hint: "URL of the youtube video"
+                    required: true
+                  - label: "Title of Video"
+                    name: "title"
+                    widget: string
+                    hint: "Title of the video used for SEO/captions"
+                    required: true
+              - label: Members
+                type: members
+                name: members
+                widget: "object"
+                fields:
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
+                  - label: "Members Section Content"
+                    name: "members_content"
+                    widget: object
+                    hint: "A list of members logos to display"
+                    required: false
+                    fields:
+                      - label: "Member Item Width"
+                        name: item_width
+                        widget: select
+                        required: false
+                        options: ["3", "4", "6", "5ths"]
+                      - label: "Members Jekyll Data File Source"
+                        name: source
+                        widget: string
+                        required: false
+                        hint: "Advanced: Use a Jekyll Data file for the source of the members"
+                      - label: "Members"
+                        widget: list
+                        name: "items"
+                        hint: "List of members"
+                        required: false
+                        fields:
+                          - {
+                              label: "Member Name",
+                              name: "name",
+                              widget: string,
+                              required: false,
+                            }
+                          - label: "Member Image"
+                            name: "image"
+                            widget: object
+                            required: false
+                            fields:
+                              - {
+                                  label: "Image",
+                                  name: "path",
+                                  widget: image,
+                                  required: false,
+                                  hint: "Full path to your image",
+                                }
+                              - {
+                                  label: "Image Alt",
+                                  name: "alt",
+                                  widget: string,
+                                  required: false,
+                                  hint: "Alt tag for your image",
+                                }
+                          - label: "Member URL"
+                            name: "url"
+                            widget: string
+                            required: false
+                            hint: "URL for the member/company website"
+              - label: Custom Include Section
+                type: custom_include
+                summary: "{{fields.source}}"
+                name: custom_include
+                widget: "object"
+                fields:
+                  - label: "Source"
+                    name: "source"
+                    widget: "string"
+                    required: false
+                    hint: "The name of the jekyll include to use for custom include sections."
+      - label: "Image"
+        name: "image"
+        widget: image
+        default: "/assets/images/social-media-image.png"
+        required: false
+      - {
+          label: "Page Content",
+          name: "body",
+          widget: "markdown",
+          required: false,
+        }
+  - label: "Developer Services"
+    name: "developer_services"
+    folder: "_services"
+    identifier_field: "title"
+    summary: "{{fields.title}}"
+    editor:
+      preview: false
+    preview_path: "{{slug}}"
+    create: true
+    description: >
+      Manage the individual Developer Services pages. To edit the landing page visit the Pages section of NetlifyCMS.
+    slug: "{{permalink}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "text",
+          required: true,
+        }
+      - { label: "URL", name: "permalink", widget: "string", required: true }
+      - {
+          label: "Keywords",
+          name: "keywords",
+          widget: list,
+          allow_add: true,
+          hint: "Add meta tag keywords",
+        }
+      - label: "Header"
+        name: "jumbotron"
+        widget: "object"
+        fields:
+          - label: "Title"
+            name: "title"
+            required: false
+            widget: "string"
+          - label: "Title Class"
+            name: "title-class"
+            required: false
+            widget: "string"
+          - label: "Inner Class"
+            name: "inner_class"
+            required: false
+            widget: "string"
+          - label: "Description"
+            name: "description"
+            widget: "text"
+            required: false
+          - label: "Include"
+            name: "include"
+            widget: "string"
+            hint: "Provides a link to an optional header include."
+            required: false
+          - label: "Slider"
+            name: "slider"
+            widget: list
+            required: false
+            fields:
+              - label: "Slide Title"
+                name: "title"
+                required: false
+                widget: "string"
+              - label: "Slide Description"
+                name: "description"
+                required: false
+                default: ""
+                widget: "text"
+              - label: "Title Class"
+                name: "title-class"
+                required: false
+                widget: "string"
+                hint: "Adds a css style to the title. Leave blank if unsure."
+              - label: "Slide Type"
+                name: "type"
+                required: false
+                widget: "string"
+                hint: "Provide a slide type tag that indicates the type of the slide i.e Press Release / Blog etc."
+              - label: "Slide Style"
+                name: "slide-class"
+                widget: string
+                required: false
+                hint: "Adds inline style attributes to the slide background. Leave blank if unsure."
+              - label: "Darken"
+                name: "darken"
+                widget: "boolean"
+                default: true
+                required: false
+                hint: "Adds the dark filter to the background image. This should usually be toggled."
+              - label: "Slide Image"
+                name: "image"
+                widget: "image"
+                required: false
+                hint: "Adds the background image for your slide."
+              - label: "Slide Buttons"
+                name: "buttons"
+                widget: list
+                required: false
+                fields:
+                  - label: "Button Title"
+                    name: "title"
+                    widget: string
+                    required: false
+                  - label: "Button URL"
+                    name: "url"
+                    widget: string
+                    required: false
+          - label: "Background Image"
+            name: "image"
             widget: "image"
             required: false
             media_library:

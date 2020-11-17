@@ -1,0 +1,63 @@
+#wrapper {
+  .services_form {
+    height: 100%;
+    object-fit: cover;
+    input[type="checkbox"] + label {
+      font-size: 16px !important;
+    }
+    .form-group.checkbox_group {
+      background-color: white;
+      border-radius: 5px;
+      padding: 10px;
+    }
+    input::-webkit-input-placeholder {
+      /* Edge */
+      color: black;
+      font-weight: bolder;
+    }
+    input:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: black;
+      font-weight: bolder;
+    }
+    input::placeholder {
+      color: black;
+      font-weight: bolder;
+    }
+    textarea::-webkit-input-placeholder {
+      /* Edge */
+      color: black;
+      font-weight: bolder;
+    }
+    textarea:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: black;
+      font-weight: bolder;
+    }
+    textarea::placeholder {
+      color: black;
+      font-weight: bolder;
+    }
+  }
+  #dev_services_contact_modal {
+    .modal-content {
+      background-color: #98cc33;
+    }
+    .form-group {
+      padding: 10px;
+      background-color: white;
+    }
+  }
+  #dev_services_overview_download {
+    .modal-content {
+      background-color: #98cc33;
+    }
+    .form-group {
+      padding: 10px;
+      background-color: white;
+    }
+  }
+  .ds_image {
+    height: 100px;
+  }
+}

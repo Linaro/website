@@ -1,0 +1,65 @@
+<div class="icons">
+  <div class="row">
+  {% if include.object.feature_block_content.title == "Leverage our Arm Software Expertise" %}
+   {% for service in site.services %}
+      {% if service.title == "Hands on Training" or service.title == "Open Source Consultancy and Licensing" %}
+        <div class="col col-6 col-sm-6 col-md-4 text-center py-2">
+          <a href="{{service.url}}">
+            <img
+              class="img-fluid ds_image related_icon"
+              src="{{service.icon}}"
+              alt="{{service.title}} icon"
+            />
+            <h5 class="text-dark my-2">{{service.title}}</h5>
+          </a>
+        </div>
+      {% endif %} 
+    {% endfor %} 
+  {% elsif include.object.feature_block_content.title == "Secure your product" %}
+    {% for service in site.services %} 
+      {% if service.title == "Security, TrustZone and OP-TEE" or service.title == "Bootloaders and Boot Architecture" %}
+        <div class="col col-6 col-sm-6 col-md-4 text-center py-2">
+          <a href="{{service.url}}">
+            <img
+              class="img-fluid ds_image related_icon"
+              src="{{service.icon}}"
+              alt="{{service.title}} icon"
+            />
+            <h5 class="text-dark my-2">{{service.title}}</h5>
+          </a>
+        </div>
+      {% endif %} 
+    {% endfor %}
+  {% elsif include.object.feature_block_content.title == "Maintain quality cost-effectively" %}
+    {% for service in site.services %}
+      {% if service.title == "Testing and Validation Services" or service.title == "Kernels and Long Term Support Services" %}
+        <div class="col col-6 col-sm-6 col-md-4 text-center py-2">
+          <a href="{{service.url}}">
+            <img
+              class="img-fluid ds_image related_icon"
+              src="{{service.icon}}"
+              alt="{{service.title}} icon"
+            />
+            <h5 class="text-dark my-2">{{service.title}}</h5>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% elsif include.object.feature_block_content.title == "Build, test and deploy faster" %}
+    {% for service in site.services %} 
+      {% if service.title == "AOSP and Linux BSPs, Builds and Support" or service.title == "Power Management Tuning Services" or service.title == "Toolchain Optimization Services" or service.title == "96Boards Product Development & Support"%}
+        <div class="col col-6 col-sm-6 col-md-4 text-center py-2">
+          <a href="{{service.url}}">
+            <img
+              class="img-fluid ds_image related_icon"
+              src="{{service.icon}}"
+              alt="{{service.title}} icon"
+            />
+            <h5 class="text-dark my-2">{{service.title}}</h5>
+          </a>
+        </div>
+      {% endif %}
+   {% endfor %}
+  {% endif %}
+</div>
+</div>

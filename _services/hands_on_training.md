@@ -2,31 +2,39 @@
 title: Hands on Training
 jumbotron:
     title: Hands on Training
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/developer_services_bg.jpg
+    image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
+    title-class: my-4
+    buttons:
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase ds_contact_form_btn
+      - title: Contact Form
+        url: "#contact_form"
+        style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase ds_contact_form_btn
 permalink: /services/hands-on-training/
-keywords: training, Linux, Arm, open source, onsite, remote, mentoring, tailored to needs
-layout: flow
-tag: services
-js-package: services
-image: /assets/images/content/LinaroDSVertical.png
+icon: /assets/images/content/Icon_Hands_on_training.svg
+keywords: 
+- training
+- Linux
+- Arm
+- open source
+- onsite
+- remote
+- mentoring
+- tailored to needs
 flow:
+    - row: main_content_row
+      style: text_block
     - row: container_row
       style: large_type
       sections:
         - format: text
           text_content:
             text: |
-                Linaro Developer Services provides customised training on a variety of topics. Moreover we provide expert instructors who are real world engineers and are specialists in delivering hands-on training
-                across Linux and Arm technology.
-        - format: text
-          text_content:
-            text: |
-                Our courses are flexible, can be delivered onsite or remotely and tailored to the member’s exact needs if preferred. All training
-                modules are structured to meet the requirements of your team. Mentoring can also be provided.
+              Linaro Developer Services provides customised training on a variety of topics. Moreover we provide expert instructors who are real world engineers and are specialists in delivering hands-on training
+              across Linux and Arm technology.
 
-                The courses incorporate many emerging technologies, together with the latest best practices. Topics include: -
+              Our courses are flexible, can be delivered onsite or remotely and tailored to the member’s exact needs if preferred. All training modules are structured to meet the requirements of your team. Mentoring can also be provided. The courses incorporate many emerging technologies, together with the latest best practices. Topics include: -
         - format: collapse
           style: #
           panels:
@@ -89,16 +97,16 @@ flow:
                 We have trained many engineers across key areas such as OP-TEE, Energy Aware Scheduler, Arm Trusted Firmware, Power Management and Open Source development to name but a few.
 
                 Contact Linaro Developer Services today to discuss your specific training requirements.
-    - row: custom_include_row
-      source: services/prospectus_registration_form.html
     - row: container_row
-      style: services_form large_type bg-primary text-dark
+      style: large_type bg-white text-dark text-center
       sections:
         - format: title
           title_content:
             size: h2
-            style: text-dark
-            text: To find out more about Developer Services please complete this form
+            style: text-dark font-weight-bold my-4
+            text: Need help with open source software? Let Linaro Developer Services help you.
         - format: custom_include
-          source: services/developer_services_form.html
+          source: services/icon_links.html
+    - row: custom_include_row
+      source: services/developer_services_form.html
 ---
