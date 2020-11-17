@@ -7,6 +7,7 @@ description: |-
 layout: flow
 permalink: /services/
 js-package: services
+css_bundle: services
 jumbotron: 
   style: dev_services text-center
   title: "Linaro Developer Services"
