@@ -36,54 +36,42 @@ flow:
         style: dev_services_block
         feature_block_content:
           position: left
+          custom_include: services/related_icons.html
           type: image
           image_content_path: /assets/images/content/Rocket_1.png
           title: Leverage our Arm Software Expertise
           text: >
             Linaro employs many of the world’s leading Arm Software experts. All of this expertise is available to you through Linaro Developer Services.
-          buttons:
-            - title: Learn More
-              url: /membership/
-              style: btn-primary homepage_call_to_action
       - format: feature_block
         style: dev_services_block
         feature_block_content:
           position: left
+          custom_include: services/related_icons.html
           type: image
           image_content_path: /assets/images/content/Rocket_2.png
           title: Secure your product
           text: >
             Specialists in security and Trusted Execution Environment (TEE) on Arm, we leverage open source to ensure you benefit from the latest upstream features and security fixes.
-          buttons:
-            - title: Learn More
-              url: /membership/
-              style: btn-primary homepage_call_to_action
       - format: feature_block
         style: dev_services_block
         feature_block_content:
           position: left
+          custom_include: services/related_icons.html
           type: image
           image_content_path: /assets/images/content/Rocket_3.png
           title: Maintain quality cost-effectively
           text: >
             We upstream code to reduce the cost and effort needed to maintain your product. We offer continuous integration (CI) and automated validation for your software, ensuring the highest possible quality.
-          buttons:
-            - title: Learn More
-              url: /membership/
-              style: btn-primary homepage_call_to_action
       - format: feature_block
         style: dev_services_block
         feature_block_content:
           position: left
+          custom_include: services/related_icons.html
           type: image
           image_content_path: /assets/images/content/Rocket_4.png
           title: Build, test and deploy faster
           text: >
             We support every aspect of product delivery, from building secure board support packages (BSP’s), product validation and long-term support & maintenance.
-          buttons:
-            - title: Learn More
-              url: /membership/
-              style: btn-primary homepage_call_to_action
   - row: custom_include_row
     source: services/developer_services_form.html
 ---
