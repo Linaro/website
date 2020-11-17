@@ -1,4 +1,23 @@
 #wrapper {
   #dev_services_contact_modal {
+    .modal-content {
+      background-color: #98cc33;
+    }
+    .form-group {
+      padding: 10px;
+      background-color: white;
+    }
+  }
+  #dev_services_overview_download {
+    .modal-content {
+      background-color: #98cc33;
+    }
+    .form-group {
+      padding: 10px;
+      background-color: white;
+    }
+  }
+  .ds_image.related_icon {
+    height: 100px;
   }
 }
