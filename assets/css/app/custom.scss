@@ -11,6 +11,36 @@
   nav#main-navigation {
     z-index: 999;
   }
+  #main_content {
+    ul {
+      list-style: none;
+      li {
+        &::before {
+          content: "\2022";
+          color: $primary;
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+          margin-left: -1em;
+        }
+        ul > li {
+          &::before {
+            content: "\2022";
+            color: transparent;
+            font-weight: bold;
+            display: block;
+            width: 0.5em;
+            left: -0.5em;
+            height: 0.5em;
+            border: 1px solid $primary;
+            border-radius: 100%;
+            position: relative;
+            top: 0.5em;
+          }
+        }
+      }
+    }
+  }
   .blog-post-item-col {
     a {
       color: black;
@@ -24,50 +54,6 @@
       -webkit-box-shadow: none;
       box-shadow: none;
       -moz-box-shadow: none;
-    }
-  }
-  .row.row.services_form {
-    height: 100%;
-    object-fit: cover;
-    input[type="checkbox"] + label {
-      font-size: 16px !important;
-    }
-    .form-group.checkbox_group {
-      background-color: white;
-      border-radius: 5px;
-      padding: 10px;
-    }
-    input::-webkit-input-placeholder {
-      /* Edge */
-      color: black;
-      font-weight: bolder;
-    }
-    input:-ms-input-placeholder {
-      /* Internet Explorer 10-11 */
-      color: black;
-      font-weight: bolder;
-    }
-    input::placeholder {
-      color: black;
-      font-weight: bolder;
-    }
-    textarea::-webkit-input-placeholder {
-      /* Edge */
-      color: black;
-      font-weight: bolder;
-    }
-    textarea:-ms-input-placeholder {
-      /* Internet Explorer 10-11 */
-      color: black;
-      font-weight: bolder;
-    }
-    textarea::placeholder {
-      color: black;
-      font-weight: bolder;
-    }
-    img {
-      height: 100%;
-      object-fit: cover;
     }
   }
 
