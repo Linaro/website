@@ -26,15 +26,15 @@ flow:
     - row: custom_include_row
       source: services/prospectus_registration_form.html
     - row: container_row
-      style: services_form large_type bg-primary text-dark
+      style:  large_type bg-primary text-dark
       sections:
         - format: title
           title_content:
             size: h2
             style: text-dark
             text: To find out more about Developer Services please complete this form
-        - format: custom_include
-          source: services/developer_services_form.html
+          - row: custom_include_row
+            source: services/developer_services_form.html
 ---
 Linaro Developer Services has extensive experience aiding customers with BSP maintenance, optimization and builds.
 

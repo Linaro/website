@@ -28,7 +28,7 @@ flow:
     - row: custom_include_row
       source: services/prospectus_registration_form.html
     - row: container_row
-      style: services_form large_type bg-primary text-dark
+      style:  large_type bg-primary text-dark
       sections:
         - format: title
           title_content:

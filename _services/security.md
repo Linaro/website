@@ -25,7 +25,7 @@ flow:
   - row: custom_include_row
     source: services/prospectus_registration_form.html
   - row: container_row
-    style: services_form large_type bg-primary text-dark
+    style:  large_type bg-primary text-dark
     sections:
       - format: title
         title_content:
@@ -33,7 +33,7 @@ flow:
           style: text-dark
           text: To find out more about Developer Services please complete this form
       - format: custom_include
-        source: services/developer_services_form.html
+        source: services/developer_.html
 ---
 
 Linaro Developer Services has significant experience securing Arm systems; including secure boot, working with TrustZone, porting OP-TEE and working with Trusted Applications.
