@@ -62,8 +62,20 @@ feedback_form.onsubmit = (e) => {
       });
   }
 };
-
 $(document).ready(function () {
+  // Developer Services Contact Form
+  if ($(".ds_contact_form_btn").length > 0) {
+    $(".ds_contact_form_btn").on("click", () => {
+      $("#dev_services_contact_modal").modal("toggle");
+    });
+  }
+  // Developer Services Overview Download
+  if ($(".ds_overview_download").length > 0) {
+    $(".ds_overview_download").on("click", () => {
+      $("#dev_services_overview_download").modal("toggle");
+    });
+  }
+  // Check form exists in HTML
   if ($("#customfield_12905").length > 0) {
     $("#other_services").on("click", function () {
       $("#customfield_12905").prop("disabled", function (i, v) {
