@@ -3,7 +3,7 @@
     font-size: 16px;
   }
   .jumbotron.dev_services img.header_background_image {
-    filter: brightness(0.7);
+    filter: brightness(0.6);
   }
   .ds_wrapper {
     padding: 15px;
@@ -22,7 +22,7 @@
     }
     @include media-breakpoint-up(lg) {
       p.lead {
-        font-size: 3rem;
+        font-size: 2.5rem;
         width: 80%;
         position: relative;
         margin: auto;
