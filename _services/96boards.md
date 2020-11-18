@@ -2,7 +2,7 @@
 title: 96Boards Product Development & Support
 jumbotron:
     title: 96Boards Product Development & Support
-    inner_class: text-center
+    class: dev_services text-center
     title-class: my-4
     image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
     buttons:

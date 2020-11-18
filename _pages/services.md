@@ -9,7 +9,7 @@ permalink: /services/
 js-package: services
 css_bundle: services
 jumbotron: 
-  style: dev_services text-center
+  class: dev_services text-center
   title: "Linaro Developer Services"
   inner_class: dev_services text-center
   title-class: my-md-4
@@ -34,6 +34,7 @@ flow:
     style: large_type
     sections:
       - format: text
+        style: larger_type
         text_content:
           text: >
             From initial design through to development, implementation, support and training, Linaro Developer

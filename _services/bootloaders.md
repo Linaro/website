@@ -3,6 +3,7 @@ title: Bootloaders and Boot Architecture
 jumbotron:
     title: Bootloaders and Boot Architecture
     title-class: my-4
+    class: dev_services text-center
     image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
     buttons:
       - title: Contact Form
