@@ -9,7 +9,7 @@ permalink: /services/
 js-package: services
 css_bundle: services
 jumbotron: 
-  style: dev_services text-center
+  class: dev_services text-center
   title: "Linaro Developer Services"
   inner_class: dev_services text-center
   title-class: my-md-4
