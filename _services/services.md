@@ -4,10 +4,7 @@ description: |-
   We at Linaro Developer Services are Arm software engineering experts. We pride ourselves on
   the breadth of our hands-on experience and knowledge, depth of our capabilities, quality of
   our work and professionalism of the engagements with our customers.
-layout: flow
 permalink: /services/
-js-package: services
-css_bundle: services
 jumbotron: 
   class: dev_services text-center
   title: "Linaro Developer Services"
@@ -32,6 +29,9 @@ flow:
         feature_block_content:
           position: left
           custom_include: services/related_icons.html
+          related_services:
+            - Hands on Training
+            - Open Source Consultancy and Licensing
           type: image
           image_content_path: /assets/images/content/Rocket_1.png
           title: Leverage our Arm Software Expertise
@@ -42,6 +42,9 @@ flow:
         feature_block_content:
           position: left
           custom_include: services/related_icons.html
+          related_services:
+            - Security, TrustZone and OP-TEE
+            - Bootloaders and Boot Architecture
           type: image
           image_content_path: /assets/images/content/Rocket_2.png
           title: Secure your product
@@ -52,6 +55,9 @@ flow:
         feature_block_content:
           position: left
           custom_include: services/related_icons.html
+          related_services:
+            - Testing and Validation Services
+            - Kernels and Long Term Support Services
           type: image
           image_content_path: /assets/images/content/Rocket_3.png
           title: Maintain quality cost-effectively
@@ -62,6 +68,11 @@ flow:
         feature_block_content:
           position: left
           custom_include: services/related_icons.html
+          related_services:
+            - AOSP and Linux BSPs, Builds and Support
+            - Power Management Tuning Services
+            - 96Boards Product Development & Support
+            - Toolchain Optimization Services
           type: image
           image_content_path: /assets/images/content/Rocket_4.png
           title: Build, test and deploy faster
