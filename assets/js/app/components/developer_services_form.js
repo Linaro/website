@@ -16,28 +16,29 @@ feedback_form.onsubmit = (e) => {
   if (customfield_12401.value === "") {
     message = message + "You must provide a Company name.<br>";
   }
-  var checked_count = 0;
-  $("#feedback_form")
-    .find('input[type="checkbox"]')
-    .each(function () {
-      if ($(this).is(":checked")) {
-        checked_count += 1;
-      }
-    });
-  if (checked_count === 0) {
-    $(".checkbox_group").addClass("invalid");
-    message = message + "You must select at least one service of interest.<br>";
-  } else {
-    if ($("#other_services").is(":checked")) {
-      if ($("#customfield_12905").val().length > 0) {
-        $(".checkbox_group").removeClass("invalid");
-      } else {
-        $(".checkbox_group").addClass("invalid");
-      }
-    } else {
-      $(".checkbox_group").removeClass("invalid");
-    }
-  }
+  // Removing validation on checkbox fields.
+  // var checked_count = 0;
+  // $("#feedback_form")
+  //   .find('input[type="checkbox"]')
+  //   .each(function () {
+  //     if ($(this).is(":checked")) {
+  //       checked_count += 1;
+  //     }
+  //   });
+  // if (checked_count === 0) {
+  //   $(".checkbox_group").addClass("invalid");
+  //   message = message + "You must select at least one service of interest.<br>";
+  // } else {
+  //   if ($("#other_services").is(":checked")) {
+  //     if ($("#customfield_12905").val().length > 0) {
+  //       $(".checkbox_group").removeClass("invalid");
+  //     } else {
+  //       $(".checkbox_group").addClass("invalid");
+  //     }
+  //   } else {
+  //     $(".checkbox_group").removeClass("invalid");
+  //   }
+  // }
   if (message !== "") {
     $("#feedback_form").addClass("was-validated");
     // feedback_error.innerHTML = `<p>${message}</p>`;
