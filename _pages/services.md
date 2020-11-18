@@ -34,6 +34,7 @@ flow:
     style: large_type
     sections:
       - format: text
+        style: larger_type
         text_content:
           text: >
             From initial design through to development, implementation, support and training, Linaro Developer
