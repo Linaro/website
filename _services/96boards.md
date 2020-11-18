@@ -6,10 +6,10 @@ jumbotron:
     title-class: my-4
     image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
     buttons:
-      - title: Contact Form
+      - title: Contact Us
         url: "#contact_form"
         style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase ds_contact_form_btn
-      - title: Contact Form
+      - title: Contact Us
         url: "#contact_form"
         style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase ds_contact_form_btn
 permalink: /services/96boards/
