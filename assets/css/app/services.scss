@@ -1,4 +1,20 @@
 #wrapper {
+  .dev_services_block h5.text-dark.my-2 {
+    font-size: 16px;
+  }
+  .dev_services {
+    p.lead {
+      font-size: 1.5rem;
+    }
+    @include media-breakpoint-up(lg) {
+      p.lead {
+        font-size: 3rem;
+        width: 80%;
+        position: relative;
+        margin: auto;
+      }
+    }
+  }
   .services_form {
     height: 100%;
     object-fit: cover;
@@ -37,6 +53,9 @@
     textarea::placeholder {
       color: black;
       font-weight: bolder;
+    }
+    .checkbox label {
+      font-size: 14px;
     }
   }
   #dev_services_contact_modal {
