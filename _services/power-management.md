@@ -4,6 +4,7 @@ jumbotron:
     title: Power Management Tuning Services
     image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
     title-class: my-4
+    class: dev_services text-center
     buttons:
       - title: Contact Form
         url: "#contact_form"
