@@ -79,6 +79,7 @@ flow:
           text: >
             We support every aspect of product delivery, from building secure board support packages (BSP’s), product validation and long-term support & maintenance.
   - row: container_row
+    style: text-center
     sections:
       - format: buttons
         buttons_content:
