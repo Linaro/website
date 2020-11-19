@@ -2016,6 +2016,11 @@ collections:
                         options: ["youtube_video", "image", "slider"]
                         hint: "Select the media type for your feature block"
                         required: false
+                      - label: Related Services
+                        name: "related_services"
+                        widget: list
+                        allow_add: true
+                        required: false
                       - label: "Image Content"
                         name: "image_content_path"
                         widget: image

@@ -4,10 +4,7 @@ description: |-
   We at Linaro Developer Services are Arm software engineering experts. We pride ourselves on
   the breadth of our hands-on experience and knowledge, depth of our capabilities, quality of
   our work and professionalism of the engagements with our customers.
-layout: flow
 permalink: /services/
-js-package: services
-css_bundle: services
 jumbotron: 
   class: dev_services text-center
   title: "Linaro Developer Services"
@@ -15,19 +12,6 @@ jumbotron:
   title-class: my-md-4
   description: "Helping you build, deploy and maintain your products on Arm"
   image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
-  buttons:
-    - title: Contact Form
-      url: "#ds_contact_form"
-      style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block ds_contact_form_btn
-    - title: Contact Form
-      url: "#ds_contact_form"
-      style: btn btn-primary btn-sm my-2 d-inline-block d-md-none ds_contact_form_btn
-    - title: Download Developer Services Overview
-      url: "#download_services_overview"
-      style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block ds_overview_download
-    - title: Download Developer Services Overview
-      url: "#download_services_overview"
-      style: btn btn-primary btn-sm my-2 d-inline-block d-md-none ds_overview_download
 image: /assets/images/content/LinaroDSVertical.png
 flow:
   - row: container_row
@@ -45,6 +29,9 @@ flow:
         feature_block_content:
           position: left
           custom_include: services/related_icons.html
+          related_services:
+            - Hands on Training
+            - Open Source Consultancy and Licensing
           type: image
           image_content_path: /assets/images/content/Rocket_1.png
           title: Leverage our Arm Software Expertise
@@ -55,6 +42,9 @@ flow:
         feature_block_content:
           position: left
           custom_include: services/related_icons.html
+          related_services:
+            - Security, TrustZone and OP-TEE
+            - Bootloaders and Boot Architecture
           type: image
           image_content_path: /assets/images/content/Rocket_2.png
           title: Secure your product
@@ -65,6 +55,9 @@ flow:
         feature_block_content:
           position: left
           custom_include: services/related_icons.html
+          related_services:
+            - Testing and Validation Services
+            - Kernels and Long Term Support Services
           type: image
           image_content_path: /assets/images/content/Rocket_3.png
           title: Maintain quality cost-effectively
@@ -75,11 +68,33 @@ flow:
         feature_block_content:
           position: left
           custom_include: services/related_icons.html
+          related_services:
+            - AOSP and Linux BSPs, Builds and Support
+            - Power Management Tuning Services
+            - 96Boards Product Development & Support
+            - Toolchain Optimization Services
           type: image
           image_content_path: /assets/images/content/Rocket_4.png
           title: Build, test and deploy faster
           text: >
             We support every aspect of product delivery, from building secure board support packages (BSP’s), product validation and long-term support & maintenance.
+  - row: container_row
+    style: text-center
+    sections:
+      - format: buttons
+        buttons_content:
+          - title: Contact Us
+            url: "#ds_contact_form"
+            style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block ds_contact_form_btn
+          - title: Contact Us
+            url: "#ds_contact_form"
+            style: btn btn-primary btn-sm my-2 d-inline-block d-md-none ds_contact_form_btn
+          - title: Download Developer Services Overview
+            url: "#download_services_overview"
+            style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block ds_overview_download
+          - title: Download Developer Services Overview
+            url: "#download_services_overview"
+            style: btn btn-primary btn-sm my-2 d-inline-block d-md-none ds_overview_download
   - row: custom_include_row
     source: services/developer_services_form.html
 ---
