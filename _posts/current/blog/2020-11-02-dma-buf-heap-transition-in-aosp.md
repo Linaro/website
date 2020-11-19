@@ -13,7 +13,7 @@ tags:
   - DMA BUF Heaps
   - ION
 related_projects: []
-category: Blog
+category: blog
 author: john.stultz
 ---
 # DMA BUF Heaps to replace ION
