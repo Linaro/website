@@ -21,6 +21,6 @@ Luca and Simone have enabled debugging in Open Portable Trusted Execution Enviro
 
 ASLR (Address Space Layout Randomization) in OP-TEE environment randomizes memory locations of executing applications to improve security against malicious accesses. This feature doesn't allow to debug an application without considering this randomization, because locations of executed applications are set at runtime.
 
-So, for gdb to be able to debug an application, it has to retrieve the correct load address of that application. This is exactly what this script does, getting the actual load address from OP-TEE to allow debugging.
+So, for GDB to be able to debug an application, it has to retrieve the correct load address of that application. This is exactly what this script does, getting the actual load address from OP-TEE to allow debugging.
 
 This contribution was developed under the supervision of Joakim Bech and Jens Wiklander from Linaro and was officially adopted. See [here](https://github.com/OP-TEE/optee_os/pull/3847/commits/1713ef286d19b7079a0275f7ebb6f8facd3a980e)
