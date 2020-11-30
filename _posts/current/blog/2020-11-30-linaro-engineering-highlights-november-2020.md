@@ -1,7 +1,12 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - November 2020
-description: TBC
+description: The November highlights are full of the latest updates and news
+  from Linaro. Topics include; LITE updates, MCUboot & a new Linaro Community
+  Project, Security and Zephyr updates. Plus, future improvements for Device
+  Tree, Kernel Working Group news, setting up ARM32 architecture, Kernel
+  validation team updates, LEDGE team news, Arm 32bit startup sequence and a
+  major eBPF fix on Aarch64 to name but a few.
 date: 2020-12-14 11:54:02
 image: /assets/images/content/electricity-1288717_1920.jpg
 tags:
@@ -53,6 +58,10 @@ We have drafted a membership presentation and have a draft charter (based on the
 Linus Walleij of the Kernel Working Group has posted some additional information on how the ARM32 startup sequence works.
 {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering icon" %}
 
+## [ARM32 Page Tables](https://people.kernel.org/linusw/arm32-page-tables)
+
+“As I continue to describe in different postings how the ARM32 start-up sequence works, it becomes necessary to explain in-depth the basic kernel concepts around page tables and how it is implemented on ARM32 platforms.
+
 To understand the paging setup, we need to repeat and extend some Linux paging lingo. Some good background is to read [Mel Gormans description of the Linux page tables](https://www.kernel.org/doc/gorman/html/understand/understand006.html) from his book “Understanding the Linux Virtual Memory Manager”. This book was published in 2007 and is based on Mel’s PhD thesis from 2003. Some stuff has happened in the 13 years since then, but the basics still hold. It is necessary to understand the new layers in the page tables such as the [five layers of page tables](https://lwn.net/Articles/717293/) currently used in the Linux kernel.”
 
 ## [Setting Up the ARM32 Architecture, part 1](https://people.kernel.org/linusw/setting-up-the-arm32-architecture-part-1)
@@ -69,4 +78,39 @@ arm_memblock_init() in arch/arm/mm/init.c is called, resulting in a number of me
 
 ## Kernel Validation Team (KVT) finds the first issues with the KASAN support for Armv7 - 32 bit
 
-{% include image.html path="/assets/images/content/lkft-icon.png" class="small-inline left" alt="LKFT icon" %}
+{% include image.html path="/assets/images/content/lkft-icon.png" class="small-inline left" alt="LKFT icon" %} Linus Walleji from the KWG has worked on the ARMv7 enablement of KASAN which was delivered in the recent 5.11 release.
+
+KASAN is the Linux kernel support for a kernel address sanitization. (KASAN, <http://lwn.net/Articles/612153/>) uses compiler instrumentation present in GCC 4.9 and above based releases to identify invalid memory accesses as they occur with low-performance overhead. KASAN can be used to both improve testing of code and help developers diagnose problems.This feature requires per architecture implementation in the kernel that was available for x86-64 systems but previously not for ARMv7 systems. 
+
+The first issue \[1] KASAN for Armv7 uncovered quickly followed the merge. Naresh Kamboju reported the first bug revealed two hours after discovery on a Beaglebone X15, six hours later, Vignesh\[2] posted a fix.
+
+A quote from Naresh "Since the LKFT project is running 40,000 test cases on each build we had a great chance to find early regressions. Our team is actively reporting regressions, and testing debug patches and proposed fix patches. This way LKFT is playing a major role in Linux kernel validation."
+
+All this and the test loop is not yet complete! Arm KASAN enabled testing is happening on qemu_arm and TI x15 boards, but both currently fail to boot \[3].
+Failure to boot is a blocker for running a full LKFT test plan. When we solve this boot problem, we will have ample opportunity to find regressions on arm KASAN builds.
+
+1. BUG: KASAN: global-out-of-bounds in soc_device_match on arm. <https://lore.kernel.org/linux-next/CA+G9fYvQ9R2i8FsQcvb7f8aYv1v1+vq_OsOtg9YEtHGRvx+zxQ@mail.gmail.com/>
+2. serial: 8250: 8250_omap: Fix possible array out of bounds access. <https://lore.kernel.org/linux-serial/20201111112653.2710-1-vigneshr@ti.com/>
+3. arm: kasan: WARNING: CPU: 0 PID: 0 at arch/arm/kernel/insn.c:47 __arm_gen_branch. <https://lore.kernel.org/linux-next/CA+G9fYtrOq66zz8ux=G+SDH7ZUJevv-L0W+xvtERHAJCuCmj_g@mail.gmail.com/>
+
+# LEDGE Team News
+
+## Linux EFI Stub as a minimal EFI OS Loader
+
+ **By lias Apalodimas, LEDGE Technical Lead**
+
+{% include image.html path="/assets/images/content/ledge.jpg" class="small-inline left" alt="Ledge icon" %} 
+
+UEFI booting process (as in EDK2 and U-Boot) assumes the operating system provides an EFI application that stages memory with all necessary artifacts before transferring execution to the OS kernel. In that context, Linux can be booted directly if configured without an initial ram disk (or it is embedded in the kernel) and the device tree or ACPI tables passed as EFI tables. If there is an initial ram disk (initrd), the standard solution is to have grub.efi stage memory and chain-boot to linux kernel.
+
+The Linux EFI stub has been extended to behave as a Linux loader, avoiding the need of grub. The EFI Stub calls the EFI boot tile service to locate and possibly measure (in the measured boot / Trusted Computing Group terms) the initrd.
+
+As a result of this change, the initrd can be located in a different filesystem from the kernel and there is no need to maintain Linux logic in grub that has to be aware of the internal kernel structures and memory limitations of the initrd placement. With this new approach the file is loaded into memory only when requested, into a kernel provided memory area, limiting the area of [Time-of-Check Time-of-Use](https://cwe.mitre.org/data/definitions/367.html) (TOCTOU) attacks. Users will be allowed to place the initrd file on any firmware accessible partition instead of just the ESP one. The necessary patches for this were also upstreamed in U-Boot’s EFI implementation.
+
+## Major eBPF fix on Aarch64
+
+**By lias Apalodimas, LEDGE Technical Lead**
+
+eBPF is the in-kernel bytecode interpreter that was introduced to deal with packet filtering and that ended up being a key technology for overall debugging and other kernel observability tooling. It is also used to build fast userland data planes that can compete with DPDK on a performance basis but has the elegance to keep natural Linux networking stack connectivity for non accelerated traffic.
+
+Aarch64 eBPF used to work properly up until eBPF bounded loops were introduced. After that introduction several test cases were [failing](https://lkml.org/lkml/2020/9/17/262) in arm64 on the BPF verifier. This prohibited arm64 platforms running BPF programs that would jump back on the 1st instruction. The patch to fix this is now upstream.
