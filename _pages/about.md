@@ -7,10 +7,10 @@ css_bundle: about
 js-package: about
 layout: flow
 jumbotron:
-  inner_class: dotted
+  class: about_page text-center h-auto
   title: Arm Software Experts
   description: ""
-  image: /assets/images/content/tech_background_1.jpg
+  image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:
   - row: container_row
     style: large_type introduction_row py-0
@@ -50,12 +50,10 @@ flow:
             Linaro works within many different verticals and within each of these verticals there are many different
             [projects](/projects/). As an important partner within the open source community, Linaro has over one hundred
             maintainers. We are also one of the top contributors to the development of the Linux kernel.
-  - row: container_row
-    sections: 
-      - format: custom_include
-        source: about/maintainers_by_project.html
-      - format: custom_include
-        source: about/maintainers_by_company.html
+  - row: custom_include_row
+    source: about/maintainers_by_project.html
+  - row: custom_include_row
+    source: about/maintainers_by_company.html
   - row: container_row
     sections:
       - format: title
@@ -103,119 +101,9 @@ flow:
           text: >
             Linaro’s work spans a wide range of technologies. To find out more about what work we do in
             each vertical, click on the relevant picture below.
-      - format: block
-        style: text-center text-white
-        block_section_content:
-            item_width: "3"
-            blocks:
-                - title: Artificial Intelligence
-                  url: /engineering/artificial-intelligence/
-                  image: /assets/images/content/engineering/context/artificial_intelligence.jpg
-                  background_image: true
-                  style: d-flex
-                  content_style: d-flex flex-column align-items-center justify-content-center
-                  buttons:
-                    - title: More Details
-                      url: /engineering/artificial-intelligence/
-                      style: btn-primary
-                      icon: fa fa-arrow-right
-                - title: Autonomous Vehicles
-                  url: /engineering/autonomous-vehicles/
-                  image: /assets/images/content/engineering/context/autonomous_vehicles.jpg
-                  background_image: true
-                  style: d-flex
-                  content_style: d-flex flex-column align-items-center justify-content-center
-                  buttons:
-                    - title: More Details
-                      url: /engineering/autonomous-vehicles/
-                      style: btn-primary
-                      icon: fa fa-arrow-right
-                - title: Consumer (Mobile & Android)
-                  url: /engineering/consumer/
-                  image: /assets/images/content/engineering/context/consumer.jpg
-                  background_image: true
-                  style: d-flex
-                  content_style: d-flex flex-column align-items-center justify-content-center
-                  buttons:
-                    - title: More Details
-                      url: /engineering/consumer/
-                      style: btn-primary
-                      icon: fa fa-arrow-right
-                - title: Datacenter & Cloud
-                  url: /engineering/datacenter-and-cloud/
-                  image: /assets/images/content/engineering/context/datacenter_and_cloud.jpg
-                  background_image: true
-                  style: d-flex
-                  content_style: d-flex flex-column align-items-center justify-content-center
-                  buttons:
-                    - title: More Details
-                      url: /engineering/datacenter-and-cloud/
-                      style: btn-primary
-                      icon: fa fa-arrow-right
-                - title: Edge & Fog Computing
-                  url: /engineering/edge-and-fog-computing/
-                  image: /assets/images/content/engineering/context/edge_and_fog_computing.jpg
-                  background_image: true
-                  style: d-flex
-                  content_style: d-flex flex-column align-items-center justify-content-center
-                  buttons:
-                    - title: More Details
-                      url: /engineering/edge-and-fog-computing/
-                      style: btn-primary
-                      icon: fa fa-arrow-right
-                - title: High Performance Computing
-                  url: /engineering/high-performance-computing/
-                  image: /assets/images/content/engineering/context/high_performance_computing.jpg
-                  background_image: true
-                  style: d-flex
-                  content_style: d-flex flex-column align-items-center justify-content-center
-                  buttons:
-                    - title: More Details
-                      url: /engineering/high-performance-computing/
-                      style: btn-primary
-                      icon: fa fa-arrow-right
-                - title: IoT & Embedded
-                  url: /engineering/iot-and-embedded/
-                  image: /assets/images/content/engineering/context/iot_and_embedded.jpg
-                  background_image: true
-                  style: d-flex
-                  content_style: d-flex flex-column align-items-center justify-content-center
-                  buttons:
-                    - title: More Details
-                      url: /engineering/iot-and-embedded/
-                      style: btn-primary
-                      icon: fa fa-arrow-right
-                - title: Security
-                  url: /engineering/core/security/
-                  image: /assets/images/content/engineering/context/security.jpg
-                  background_image: true
-                  style: d-flex
-                  content_style: d-flex flex-column align-items-center justify-content-center
-                  buttons:
-                    - title: More Details
-                      url: /engineering/core/security/
-                      style: btn-primary
-                      icon: fa fa-arrow-right
-                - title: Core Engineering
-                  url: /engineering/core/
-                  image: /assets/images/content/engineering/context/stewardship.jpg
-                  background_image: true
-                  style: d-flex
-                  content_style: d-flex flex-column align-items-center justify-content-center
-                  buttons:
-                    - title: More Details
-                      url: /engineering/core/
-                      style: btn-primary
-                      icon: fa fa-arrow-right
-                - title: Multimedia
-                  url: /engineering/multimedia/
-                  image: /assets/images/content/engineering/context/multimedia.jpg
-                  background_image: true
-                  style: d-flex
-                  content_style: d-flex flex-column align-items-center justify-content-center
-                  buttons:
-                    - title: More Details
-                      url: /engineering/multimedia/
-                      style: btn-primary
-                      icon: fa fa-arrow-right
+  - row: container_row
+    style: bg-secondary
+    sections:
+      - format: custom_include
+        source: components/engineering_slider.html
 ---
