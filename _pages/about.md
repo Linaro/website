@@ -4,12 +4,13 @@ description: |-
   Linaro has driven open source software development on Arm since 2010, providing the tools, Linux kernel quality and security needed for a solid foundation to innovate on.
 permalink: /about/
 css_bundle: about
+js-package: about
 layout: flow
 jumbotron:
   inner_class: dotted
   title: Arm Software Experts
   description: ""
-  image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
+  image: /assets/images/content/tech_background_1.jpg
 flow:
   - row: container_row
     style: large_type introduction_row py-0
@@ -24,15 +25,38 @@ flow:
         style: text-left
         text_content:
           text: >
-            Linaro was founded in 2010 and since its inception it has driven open source software development on Arm. Linaro provides the tools, Linux kernel quality and security needed for a solid foundation to innovate on. At the time, multiple companies were frequently trying to upstream the same code, causing fragmentation and delay to product deployments. Linaro was therefore formed to consolidate the Arm code base and provide a much-needed collaborative forum for companies to work together on foundational open source software on Arm. Today these same principles of collaboration still apply, except we now work across a breadth of Engineering specialisms within many different verticals. Our [membership](/membership/) base is diverse and includes some of the most prominent names within the industry. However, our principles of eliminating duplication of effort, reducing fragmentation and aiding speed to market remain at the core of our business.
-
+            Linaro has driven open source software development on Arm since 2010, providing the tools, Linux kernel
+            quality, multimedia and security needed for a solid foundation to innovate on. One of the main reasons
+            Linaro was formed was to consolidate the Arm code base as multiple companies were frequently trying to
+            upstream the same code - causing fragmentation and delay to product deployments. Linaro was therefore
+            formed to provide a collaborative forum for companies to work together on foundational open source
+            software on Arm. For more information on the work we do on tools, Linux kernel quality, multimedia and
+            security, go to [https://www.linaro.org/engineering/core/](/engineering/core/)
   - row: container_row
-    style: key_stats_row bg-secondary
+    style: bg-secondary
     sections:
-      - format: custom_include
-        source: about/key_stats.html
+      - format: youtube
+        style: about_youtube_section
+        url: https://www.youtube.com/watch?v=E_m19nFNz-4
+        poster_image: /assets/images/content/about_page_video_poster.png
+        title: About Linaro
   - row: container_row
-    style: large_type detail_row
+    style: large_type introduction_row py-0
+    sections:
+      - format: text
+        style: text-left
+        text_content:
+          text: >
+            Linaro works within many different verticals and within each of these verticals there are many different
+            [projects](/projects/). As an important partner within the open source community, Linaro has over one hundred
+            maintainers. We are also one of the top contributors to the development of the Linux kernel.
+  - row: container_row
+    sections: 
+      - format: custom_include
+        source: about/maintainers_by_project.html
+      - format: custom_include
+        source: about/maintainers_by_company.html
+  - row: container_row
     sections:
       - format: title
         style: text-left
@@ -43,18 +67,22 @@ flow:
         style: text-left
         text_content:
           text: >
-            As a collaborative forum, Linaro is not just the place where Arm software is consolidated, developed and maintained. We also bring companies together to identify business opportunities and enable new markets on Arm architecture. This has resulted in multiple Linaro groups focused on specific verticals, including Artificial Intelligence, Autonomous Vehicles, Consumer, Datacenter & Cloud, Edge & Fog Computing and IoT & Embedded.
-      - format: title
-        style: text-left
-        title_content:
-          size: h2
-          text: Pioneering technology in trusted partnership with member companies
-      - format: text
-        style: text-left
-        text_content:
-          text: >
-            Linaro is member driven. Member engineers’ work with Linaro engineers to solve common software problems. Member companies also sit on technical steering committees where they collectively make decisions, together with Linaro and other members, on what work needs to be done and when. Being a Linaro member in eﬀect means shaping the future of Arm software. In addition to Linaro membership, companies can also leverage Linaro Arm software expertise on speciﬁc projects by working with Linaro Developer Services.
+            As a collaborative forum, Linaro is not just the place where Arm software is consolidated, developed and
+            maintained. We also bring companies together to identify business opportunities and enable new markets
+            on Arm architecture. This has resulted in multiple Linaro groups focused on specific verticals that now
+            includes Artificial Intelligence, Autonomous Vehicles, Consumer, Datacenter & Cloud, Edge & Fog
+            Computing and IoT & Embedded. In 2016 Linaro also created 96Boards, a range of hardware
+            specifications which are open and define a standard board layout for SoC-agnostic development platforms
+            - making the latest Arm-based processors available to developers at a reasonable cost. For more
+            information on 96Boards, go to [www.96Boards.org](https://www.96boards.org).
 
+            Linaro is member driven. Member engineers’ work with Linaro engineers to solve common software
+            problems. Our members also sit on technical steering committees where together with Linaro and other
+            member companies, decisions are made on what work needs to be done. Being a Linaro member in effect
+            means shaping the future of Arm software.
+
+            In addition to Linaro membership, companies can also leverage Linaro Arm software expertise on specific
+            projects by working with Linaro Developer Services.
   - row: container_row
     style: members_slider_row bg-light
     sections:
