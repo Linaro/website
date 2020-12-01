@@ -1,18 +1,36 @@
-<div class="row" id="maintainers_by_company">
+<div class="row maintainers_data_row" id="maintainers_by_company"
+ data-maintainers-by-company="{{site.data.maintainers["maintainers_by_company"] | jsonify | uri_escape}}">
     <div class="col col-12 header_section">
-        <div class="row">
-            <div class="col col-12 col-md-3 stat_block">
-                <h3 class="stats font-weight-bold">{{site.data.maintainers["maintainers_by_project"] | size }}</h3>
-            </div>
-            <div class="col col-12 col-md-3 stat_block">
-                <h2 class="header">Maintainers by Company</h2>
+        <div class="row py-0">
+            <div class="container">
+                <div class="row py-0">
+                    <div class="col col-12 col-md-3 stat_block">
+                        <h3 class="stats font-weight-bold">{{site.data.maintainers["maintainers_by_project"] | size }}</h3>
+                        <h4 class="d-block d-md-none section_label font-weight-bold text-center">
+                            Projects
+                        </h4>
+                    </div>
+                    <div class="col col-12 col-md-9 stat_title_block d-flex">
+                        <h2 class="header mb-md-auto mt-2 text-center text-md-left w-100">Maintainers by Company</h2>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="col col-12 graph_section">
-        <span class="section_label">
-            Projects
-        </span>
-        <canvas id="maintainersByCompanyChart"></canvas>
+        <div class="container">
+            <div class="row py-0 d-none d-md-flex">
+                <div class="col col-12 col-md-3 text-center label_col bg-secondary text-white">
+                    <h4 class="section_label mb-0 p-1">
+                        Projects
+                    </h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-12">
+                    <canvas class="canvasTop" id="maintainersByCompanyChart"></canvas>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
