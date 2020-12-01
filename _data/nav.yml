@@ -2,7 +2,7 @@ universal_nav: true
 search:
   enabled: true
   label: Linaro
-expand_breakpoint: lg
+expand_breakpoint: xl
 brand:
   # custom_include: nav/brand.html
   path: /assets/images/Linaro-Logo.svg
