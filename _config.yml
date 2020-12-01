@@ -36,7 +36,7 @@ hover_nav_dropdowns: true
 # Set the class used to animate dropdowns e.g. fade-up / fade-down
 nav_dropdowns_animation_class: fade-down
 # The bootstrap breakpoint at which the navbars will expand
-nav_expand_breakpoint: lg
+nav_expand_breakpoint: xl
 sass:
   style: compressed
   load_paths:
