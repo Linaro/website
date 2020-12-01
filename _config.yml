@@ -28,6 +28,15 @@ exclude:
   - .sass-cache
   - staging.linaro.org
   - production.linaro.org
+# Breadcrumb banner image
+breadcrumb_banner: /assets/images/content/code_banner.jpg
+# Toggle the animated navbar dropdown feature
+# Navbar dropdowns will open on hover
+hover_nav_dropdowns: true
+# Set the class used to animate dropdowns e.g. fade-up / fade-down
+nav_dropdowns_animation_class: fade-down
+# The bootstrap breakpoint at which the navbars will expand
+nav_expand_breakpoint: lg
 sass:
   style: compressed
   load_paths:
