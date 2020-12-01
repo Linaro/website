@@ -1,0 +1,18 @@
+<div class="row" id="maintainers_by_company">
+    <div class="col col-12 header_section">
+        <div class="row">
+            <div class="col col-12 col-md-3 stat_block">
+                <h3 class="stats font-weight-bold">{{site.data.maintainers["maintainers_by_project"] | size }}</h3>
+            </div>
+            <div class="col col-12 col-md-3 stat_block">
+                <h2 class="header">Maintainers by Company</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col col-12 graph_section">
+        <span class="section_label">
+            Projects
+        </span>
+        <canvas id="maintainersByCompanyChart"></canvas>
+    </div>
+</div>
