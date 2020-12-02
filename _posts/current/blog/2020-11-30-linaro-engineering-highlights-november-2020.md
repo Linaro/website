@@ -23,7 +23,7 @@ author: jon.burcham@linaro.org
 # LITE Updates
 
 **By Vicky Janicki, Engineering Director LITE**
-{% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="LITE Icon" %}The LITE team is busy contributing to the next Zephyr 1.5 release due at the end of January 2021, the TF-M 1.2 release (due by the end of month) and MCUboot 1.7 (also due at the end of the month. Four LITE engineers were ranked in the top 10 contributors for the MCUboot release.
+{% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="LITE Icon" %}The LITE team is busy contributing to the next Zephyr 1.5 release due at the end of January 2021, the TF-M 1.2 release (due by the end of month) and MCUboot 1.7 (also due at the end of the month). Four LITE engineers were ranked in the top 10 contributors for the MCUboot release.
 
 ## MCUboot - A New Linaro Community Project
 
@@ -41,7 +41,7 @@ We have drafted a membership presentation and have a draft charter (based on the
 
 ## [Security and Zephyr Project](https://www.zephyrproject.org/security-and-the-zephyr-project/)
 
-{% include image.html path="/assets/images/content/zephyr_project-logo.png" class="small-inline left" alt="Zephyr Project icon" %} Part of the charter for the Zephyr Project specifies that there shall be a security subcommittee. This committee consists of an individual from each Platinum member company, along with two elected positions, a Security Architect (currently me),and a Chair. The Chair is responsible for running the regular security meetings (every two weeks), and the Architect is responsible for the overall security of the project. **[Continue Reading here..](https://www.zephyrproject.org/security-and-the-zephyr-project/)**
+{% include image.html path="/assets/images/content/zephyr_project-logo.png" class="small-inline left" alt="Zephyr Project icon" %} Part of the charter for the Zephyr Project specifies that there shall be a security subcommittee. This committee consists of an individual from each Platinum member company, along with two elected positions, a Security Architect (currently me), and a Chair. The Chair is responsible for running the regular security meetings (every two weeks), and the Architect is responsible for the overall security of the project. **[Continue Reading here..](https://www.zephyrproject.org/security-and-the-zephyr-project/)**
 
 ## [Device Tree - Future Improvements](https://www.linaro.org/blog/device-tree-future-improvements/)
 
@@ -66,9 +66,9 @@ To understand the paging setup, we need to repeat and extend some Linux paging l
 
 ## [Setting Up the ARM32 Architecture, part 1](https://people.kernel.org/linusw/setting-up-the-arm32-architecture-part-1)
 
-“After we have considered [how the ARM32 kernel uncompressed](https://people.kernel.org/linusw/how-the-arm32-linux-kernel-decompresses) and [the early start-up when the kernel jumps from executing in physical memory to executing in virtual memory](https://people.kernel.org/linusw/how-the-arm32-kernel-starts) we now want to see what happens next all the way until the kernel sets up the proper page tables and starts executing from properly paged virtual memory.
+“After we have considered [how the ARM32 kernel uncompressed](https://people.kernel.org/linusw/how-the-arm32-linux-kernel-decompresses) and [the early start-up when the kernel jumps from executing in physical memory to executing in virtual memory](https://people.kernel.org/linusw/how-the-arm32-kernel-starts) we now want to see what happens next, all the way until the kernel sets up the proper page tables and starts executing from properly paged virtual memory.
 
-To provide a specific piece of the story that does not fit into this linear explanation of things, i have also posted a separate article on [how the ARM32 page tables work](https://people.kernel.org/linusw/arm32-page-tables). This will be referenced in the text where you might need to recapture that part.
+To provide a specific piece of the story that does not fit into this linear explanation of things, I have also posted a separate article on [how the ARM32 page tables work](https://people.kernel.org/linusw/arm32-page-tables). This will be referenced in the text where you might need to recapture that part.
 
 ## [Setting Up the ARM32 Architecture, part 2](https://people.kernel.org/linusw/setting-up-the-arm32-architecture-part-2)
 
@@ -80,7 +80,7 @@ arm_memblock_init() in arch/arm/mm/init.c is called, resulting in a number of me
 
 {% include image.html path="/assets/images/content/lkft-icon.png" class="small-inline left" alt="LKFT icon" %} Linus Walleji from the KWG has worked on the ARMv7 enablement of KASAN which was delivered in the recent 5.11 release.
 
-KASAN is the Linux kernel support for a kernel address sanitization. (KASAN, <http://lwn.net/Articles/612153/>) uses compiler instrumentation present in GCC 4.9 and above based releases to identify invalid memory accesses as they occur with low-performance overhead. KASAN can be used to both improve testing of code and help developers diagnose problems.This feature requires per architecture implementation in the kernel that was available for x86-64 systems but previously not for ARMv7 systems. 
+KASAN is the Linux kernel support for a kernel address sanitization. (KASAN, <http://lwn.net/Articles/612153/>) uses compiler instrumentation present in GCC 4.9 and above based releases to identify invalid memory accesses as they occur with low-performance overhead. KASAN can be used to both improve testing of code and help developers diagnose problems. This feature requires per architecture implementation in the kernel that was available for x86-64 systems but previously not for ARMv7 systems. 
 
 The first issue \[1] KASAN for Armv7 uncovered quickly followed the merge. Naresh Kamboju reported the first bug revealed two hours after discovery on a Beaglebone X15, six hours later, Vignesh\[2] posted a fix.
 
