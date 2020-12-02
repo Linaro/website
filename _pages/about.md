@@ -35,11 +35,8 @@ flow:
   - row: container_row
     style: bg-secondary
     sections:
-      - format: youtube
-        style: about_youtube_section
-        url: https://www.youtube.com/watch?v=E_m19nFNz-4
-        poster_image: /assets/images/content/about_page_video_poster.png
-        title: About Linaro
+      - format: custom_include
+        source: about/youtube_embed.html
   - row: container_row
     style: large_type introduction_row py-0
     sections:
