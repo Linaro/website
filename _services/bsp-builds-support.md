@@ -10,7 +10,7 @@ keywords:
   - Debian
   - BSP
 jumbotron:
-  title: AOSP and Linux BSPs, Builds and Support
+  title: Linux  & Android Boards Support Package. Builds and Support.
   title-class: my-3
   class: dev_services text-center
   image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
