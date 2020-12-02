@@ -4,6 +4,29 @@
       filter: brightness(0.5);
     }
   }
+  // Video Embed
+  .video-player {
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    border: 5px solid white;
+    img {
+      filter: brightness(0.5);
+    }
+    .video-player__btn {
+      color: #fff;
+      font-size: 100px;
+      @include media-breakpoint-down(md) {
+        transform: scale(1);
+      }
+      transform: scale(2);
+      left: 50%;
+      margin: -33px 0 0 -44px;
+      position: absolute;
+      text-shadow: 0 1px 1px #9c3;
+      top: 50%;
+    }
+  }
   .maintainers_data_row {
     .col.col-12.col-md-3.stat_block {
       background-color: #cfcfcf;
@@ -31,6 +54,12 @@
       top: -136px;
       position: relative;
       margin-bottom: -136px;
+    }
+    .chart-container {
+      height: 500px;
+      @include media-breakpoint-down(md) {
+        height: 800px !important;
+      }
     }
     @include media-breakpoint-down(md) {
       .canvasTop {
