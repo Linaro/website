@@ -5,6 +5,7 @@ description: |-
   the breadth of our hands-on experience and knowledge, depth of our capabilities, quality of
   our work and professionalism of the engagements with our customers.
 permalink: /services/
+service_id: 99
 jumbotron: 
   class: dev_services text-center
   title: "Linaro Developer Services"
