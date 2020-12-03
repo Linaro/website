@@ -57,9 +57,6 @@
     }
     .chart-container {
       height: 500px;
-      @include media-breakpoint-down(md) {
-        height: 800px !important;
-      }
     }
     @include media-breakpoint-down(md) {
       .canvasTop {
