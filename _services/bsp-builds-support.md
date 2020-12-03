@@ -42,7 +42,7 @@ flow:
     source: services/developer_services_form.html
 icon: /assets/images/content/Icon_BSP_s_Builds___Support.svg
 ---
-Linaro Developer Services has extensive experience aiding customers with BSP maintenance, optimization and builds.
+Linaro are the BSP experts. We have extensive engineering experience helping companies with BSP development, maintenance, optimisation and long term support.
 
 - Operating system support
     - Linux variants: OpenEmbedded/Yocto and Debian
