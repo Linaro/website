@@ -1546,6 +1546,13 @@ collections:
         }
       - { label: "URL", name: "permalink", widget: "string", required: true }
       - {
+          label: "Service ID",
+          name: "service_id",
+          widget: "hidden",
+          required: true,
+          default: 99,
+        }
+      - {
           label: "Keywords",
           name: "keywords",
           widget: list,
@@ -2018,9 +2025,13 @@ collections:
                         required: false
                       - label: Related Services
                         name: "related_services"
-                        widget: list
-                        allow_add: true
+                        widget: "relation"
+                        collection: "developer_services"
+                        displayFields: [title]
+                        searchFields: [title]
+                        valueField: "service_id"
                         required: false
+                        multiple: true
                       - label: "Image Content"
                         name: "image_content_path"
                         widget: image
