@@ -2,6 +2,7 @@
 title: Linux  & Android Boards Support Package. Builds and Support.
 description: Linux  & Android Boards Support Package. Builds and Support
 permalink: /services/bsp-builds-support/
+service_id: 3
 keywords:
   - AOSP
   - Linux
@@ -23,7 +24,6 @@ jumbotron:
       url: "#contact_form"
       style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase
         ds_contact_form_btn
-icon: /assets/images/content/Icon_BSP_s_Builds___Support.svg
 flow:
   - row: main_content_row
     style: text_block
@@ -40,6 +40,7 @@ flow:
         source: services/icon_links.html
   - row: custom_include_row
     source: services/developer_services_form.html
+icon: /assets/images/content/Icon_BSP_s_Builds___Support.svg
 ---
 Linaro Developer Services are the BSP experts. We have extensive engineering experience helping companies with BSP development, maintenance, optimization, and long term support.
 
