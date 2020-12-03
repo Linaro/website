@@ -110,11 +110,9 @@
           <div class="form-group checkbox_group">
             <div class="row py-0">
               <div class="col col-12">
-                <strong
-                  >Which services are you interested in?</strong
-                >
+                <strong>Which services are you interested in?</strong>
               </div>
-              <div class="col col-12 col-sm-6" >
+              <div class="col col-12 col-sm-6">
                 <div class="checkbox d-block">
                   <input
                     type="checkbox"
@@ -156,7 +154,7 @@
                   <label for="customfield_12904-4">Security</label>
                 </div>
               </div>
-              <div class="col col-12 col-sm-6" >
+              <div class="col col-12 col-sm-6">
                 <div class="checkbox d-block">
                   <input
                     type="checkbox"
@@ -200,7 +198,7 @@
                   <label for="customfield_12904-8">Arm Server Deployment</label>
                 </div>
               </div>
-              <div class="col col-12 col-sm-6" >
+              <div class="col col-12 col-sm-6">
                 <div class="checkbox d-block">
                   <input
                     type="checkbox"
@@ -255,7 +253,11 @@
               placeholder="How did you hear about Linaro?"
             ></textarea>
           </div>
-          <button id="btnSubmit" type="submit" class="btn btn-secondary btn-lg btn-default">
+          <button
+            id="btnSubmit"
+            type="submit"
+            class="btn btn-secondary btn-lg btn-default"
+          >
             Submit
           </button>
           <div id="feedback_error"></div>
@@ -315,6 +317,9 @@
             novalidate
           >
             <div id="mc_embed_signup_scroll">
+              <h2>
+                Please complete to download the Developer Services Overview
+              </h2>
               <div class="indicates-required">
                 <span class="asterisk">*</span> indicates required
               </div>
@@ -328,6 +333,18 @@
                   name="EMAIL"
                   class="required email"
                   id="mce-EMAIL"
+                />
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-COMPANY"
+                  >Company name <span class="asterisk">*</span>
+                </label>
+                <input
+                  type="text"
+                  value=""
+                  name="COMPANY"
+                  class="required"
+                  id="mce-COMPANY"
                 />
               </div>
               <div id="mce-responses" class="clear">
@@ -351,11 +368,10 @@
                   value=""
                 />
               </div>
-
               <div class="clear">
                 <input
                   type="submit"
-                  value="Submit"
+                  value="Subscribe"
                   name="subscribe"
                   id="mc-embedded-subscribe"
                   class="button"
@@ -374,14 +390,8 @@
             window.ftypes = new Array();
             fnames[0] = "EMAIL";
             ftypes[0] = "email";
-            fnames[1] = "FNAME";
-            ftypes[1] = "text";
-            fnames[2] = "LNAME";
-            ftypes[2] = "text";
-            fnames[3] = "ADDRESS";
-            ftypes[3] = "address";
-            fnames[4] = "PHONE";
-            ftypes[4] = "phone";
+            fnames[5] = "COMPANY";
+            ftypes[5] = "text";
           })(jQuery);
           var $mcj = jQuery.noConflict(true);
         </script>
