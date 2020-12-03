@@ -110,14 +110,12 @@ $(document).ready(() => {
       },
     },
   };
-  window.onload = function () {
-    var ctx = document
-      .getElementById("maintainersByCompanyChart")
-      .getContext("2d");
-    window.myPie = new Chart(ctx, companyConfig);
-    var ctx = document
-      .getElementById("maintainersByProjectChart")
-      .getContext("2d");
-    window.myPie = new Chart(ctx, projectConfig);
-  };
+  var ctx = document
+    .getElementById("maintainersByCompanyChart")
+    .getContext("2d");
+  window.myPie = new Chart(ctx, companyConfig);
+  var ctx = document
+    .getElementById("maintainersByProjectChart")
+    .getContext("2d");
+  window.myPie = new Chart(ctx, projectConfig);
 });
