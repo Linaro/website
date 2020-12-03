@@ -23,15 +23,17 @@ $(document).ready(() => {
   var maintainersByProjectLabels = maintainersByProjectData.map((item) => {
     return item.name;
   });
+  // Create the colours array for Maintainers by Project
+  var colourIndex = 0;
   var maintainersByProjectColours = maintainersByProjectData.map((item) => {
-    let randomColourOptions = ["#0081ab", "#98ccdd", "#65b4cd"];
-    if (item.name === "Linux Kernel") {
-      return "#0081ab";
+    let coloursArray = ["#0081ab", "#339abc", "#66b3cd", "#99cddd", "#cce6ee"];
+    let returnColour = coloursArray[colourIndex];
+    if (colourIndex === 4) {
+      colourIndex = 0;
     } else {
-      var randomNumber =
-        Math.floor(Math.random() * (randomColourOptions.length - 0 + 1)) + 0;
-      return randomColourOptions[randomNumber];
+      colourIndex += 1;
     }
+    return returnColour;
   });
   const maintainersByCompanyData = JSON.parse(
     decodeURIComponent(
@@ -46,11 +48,11 @@ $(document).ready(() => {
   });
   var maintainersByCompanyColours = maintainersByCompanyData.map((item) => {
     if (item.name === "Linaro") {
-      return "#99cc33";
+      return "rgba(153, 204, 51, 1)";
     } else if (item.name !== "ST") {
-      return "#c1e084";
+      return "rgba(193, 224, 132, 1)";
     } else {
-      return "#ebf5d7";
+      return "rgba(235, 245, 215, 1)";
     }
   });
   // Setup the configs for charts
@@ -70,6 +72,7 @@ $(document).ready(() => {
       maintainAspectRatio: false,
       responsive: true,
       legend: {
+        display: false,
         position: "bottom",
       },
       plugins: {
@@ -92,10 +95,11 @@ $(document).ready(() => {
       labels: maintainersByProjectLabels,
     },
     options: {
+      cutoutPercentage: 30,
       responsive: true,
       maintainAspectRatio: false,
-      cutoutPercentage: 30,
       legend: {
+        display: false,
         position: "bottom",
       },
       plugins: {
