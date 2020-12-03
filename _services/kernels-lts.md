@@ -1,5 +1,6 @@
 ---
 title: Kernels and Long Term Support Services
+service_id: 5
 jumbotron:
     title: Kernels and Long Term Support Services
     image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
