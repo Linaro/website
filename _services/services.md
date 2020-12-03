@@ -5,6 +5,7 @@ description: |-
   the breadth of our hands-on experience and knowledge, depth of our capabilities, quality of
   our work and professionalism of the engagements with our customers.
 permalink: /services/
+service_id: 99
 jumbotron: 
   class: dev_services text-center
   title: "Linaro Developer Services"
@@ -30,8 +31,8 @@ flow:
           position: left
           custom_include: services/related_icons.html
           related_services:
-            - Hands on Training
-            - Open Source Consultancy and Licensing
+            - 4
+            - 6
           type: image
           image_content_path: /assets/images/content/Rocket_1.png
           title: Leverage our Arm Software Expertise
@@ -43,8 +44,8 @@ flow:
           position: left
           custom_include: services/related_icons.html
           related_services:
-            - Security, TrustZone and OP-TEE
-            - Bootloaders and Boot Architecture
+            - 8
+            - 2
           type: image
           image_content_path: /assets/images/content/Rocket_2.png
           title: Secure your product
@@ -56,8 +57,8 @@ flow:
           position: left
           custom_include: services/related_icons.html
           related_services:
-            - Testing and Validation Services
-            - Kernels and Long Term Support Services
+            - 9
+            - 5
           type: image
           image_content_path: /assets/images/content/Rocket_3.png
           title: Maintain quality cost-effectively
@@ -69,10 +70,10 @@ flow:
           position: left
           custom_include: services/related_icons.html
           related_services:
-            - AOSP and Linux BSPs, Builds and Support
-            - Power Management Tuning Services
-            - 96Boards Product Development & Support
-            - Toolchain Optimization Services
+            - 3
+            - 7
+            - 1
+            - 10
           type: image
           image_content_path: /assets/images/content/Rocket_4.png
           title: Build, test and deploy faster

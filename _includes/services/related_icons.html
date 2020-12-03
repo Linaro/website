@@ -2,7 +2,7 @@
   <div class="row">
   {% for related_service in include.object.feature_block_content.related_services %}
     {% for service in site.services %}
-      {% if service.title == related_service %}
+      {% if service.service_id == related_service %}
         <div class="col col-6 col-sm-6 text-center py-2">
           <a href="{{service.url}}">
             <img

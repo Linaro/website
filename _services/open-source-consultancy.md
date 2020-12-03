@@ -1,5 +1,6 @@
 ---
 title: Open Source Consultancy and Licensing
+service_id: 6
 jumbotron:
     title: Open Source Consultancy and Licensing
     image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
