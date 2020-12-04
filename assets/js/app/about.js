@@ -57,7 +57,7 @@ $(document).ready(() => {
   });
   // Setup the configs for charts
   var companyConfig = {
-    type: "doughnut",
+    type: "outlabeledPie",
     data: {
       datasets: [
         {
@@ -76,6 +76,16 @@ $(document).ready(() => {
         position: "bottom",
       },
       plugins: {
+        outlabels: {
+          text: "%l",
+          color: "black",
+          stretch: 45,
+          font: {
+            resizable: true,
+            minSize: 12,
+            maxSize: 18,
+          },
+        },
         deferred: {
           yOffset: "50%", // defer until 50% of the canvas height are inside the viewport
           delay: 200, // delay of 500 ms after the canvas is considered inside the viewport
@@ -84,7 +94,7 @@ $(document).ready(() => {
     },
   };
   var projectConfig = {
-    type: "doughnut",
+    type: "outlabeledPie",
     data: {
       datasets: [
         {
@@ -102,7 +112,19 @@ $(document).ready(() => {
         display: false,
         position: "bottom",
       },
+      zoomOutPercentage: 30,
       plugins: {
+        outlabels: {
+          zoomOutPercentage: 30,
+          text: "%l",
+          color: "black",
+          stretch: 45,
+          font: {
+            resizable: true,
+            minSize: 12,
+            maxSize: 18,
+          },
+        },
         deferred: {
           yOffset: "50%", // defer until 50% of the canvas height are inside the viewport
           delay: 200, // delay of 500 ms after the canvas is considered inside the viewport
@@ -113,9 +135,9 @@ $(document).ready(() => {
   var ctx = document
     .getElementById("maintainersByCompanyChart")
     .getContext("2d");
-  window.myPie = new Chart(ctx, companyConfig);
+  window.companyPie = new Chart(ctx, companyConfig);
   var ctx = document
     .getElementById("maintainersByProjectChart")
     .getContext("2d");
-  window.myPie = new Chart(ctx, projectConfig);
+  window.projectPie = new Chart(ctx, projectConfig);
 });
