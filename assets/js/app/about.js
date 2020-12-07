@@ -71,12 +71,18 @@ $(document).ready(() => {
       cutoutPercentage: 30,
       maintainAspectRatio: false,
       responsive: true,
+      layout: {
+        padding: 20,
+      },
       legend: {
         display: false,
         position: "bottom",
       },
+      // zoomOutPercentage: 5,
       plugins: {
         outlabels: {
+          // zoomOutPercentage: 5,
+          backgroundColor: "rgba(1,1,1,0)",
           text: "%l",
           color: "black",
           stretch: 45,
@@ -105,7 +111,10 @@ $(document).ready(() => {
       labels: maintainersByProjectLabels,
     },
     options: {
-      cutoutPercentage: 30,
+      layout: {
+        padding: 100,
+      },
+      cutoutPercentage: 10,
       responsive: true,
       maintainAspectRatio: false,
       legend: {
@@ -117,8 +126,10 @@ $(document).ready(() => {
         outlabels: {
           zoomOutPercentage: 30,
           text: "%l",
+          backgroundColor: "rgba(1,1,1,0)",
           color: "black",
-          stretch: 45,
+          lineColor: "black",
+          stretch: 10,
           font: {
             resizable: true,
             minSize: 12,
