@@ -128,7 +128,7 @@ $(document).ready(() => {
           text: "%l",
           backgroundColor: "rgba(1,1,1,0)",
           color: "black",
-          lineColor: "black",
+          // lineColor: "rgba(61,61,61,1)",
           stretch: 10,
           font: {
             resizable: true,
