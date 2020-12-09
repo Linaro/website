@@ -1,4 +1,14 @@
 $(document).ready(() => {
+  // Add some invisible elements with Bootstrap CSS visibile utility classes
+  $("body").append(
+    "<div style='display:none;' class='viewport-check'><span class='d-block'></span><span class='d-sm-block'></span><span class='d-md-block'></span><span class='d-lg-block'></span><span class='d-xl-block'></span></div>"
+  );
+  // Checks if the span is set to display blcok via CSS
+  function checkIfBlock(target) {
+    var target = $(target).css("display") == "block";
+    return target;
+  }
+
   // YouTube embed
   const videoEmbed = $(".videoPlayer");
   function updateVideo() {
@@ -17,12 +27,32 @@ $(document).ready(() => {
       $("#maintainers_by_project").data("maintainers-by-project")
     )
   );
+  // const filteredMaintainersByProject = maintainersByProjectData.map((item) => {
+  //   console.log(item);
+  //   if (parseInt(item.num) > 1) {
+  //     return item;
+  //   }
+  // });
   var maintainersByProjectNums = maintainersByProjectData.map((item) => {
     return item.num;
   });
   var maintainersByProjectLabels = maintainersByProjectData.map((item) => {
     return item.name;
   });
+  var maintainersByProjectDisplayValues = maintainersByProjectData.map(
+    (item) => {
+      if (parseInt(item.num) > 1) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  );
+  var maintainersByProjectDisplayValuesMobile = maintainersByProjectData.map(
+    (item) => {
+      return false;
+    }
+  );
   // Create the colours array for Maintainers by Project
   var colourIndex = 0;
   var maintainersByProjectColours = maintainersByProjectData.map((item) => {
@@ -46,6 +76,16 @@ $(document).ready(() => {
   var maintainersByCompanyLabels = maintainersByCompanyData.map((item) => {
     return item.name;
   });
+  var maintainersByCompanyDisplayValues = maintainersByProjectData.map(
+    (item) => {
+      return true;
+    }
+  );
+  var maintainersByCompanyDisplayValuesMobile = maintainersByCompanyData.map(
+    (item) => {
+      return false;
+    }
+  );
   var maintainersByCompanyColours = maintainersByCompanyData.map((item) => {
     if (item.name === "Linaro") {
       return "rgba(153, 204, 51, 1)";
@@ -68,24 +108,25 @@ $(document).ready(() => {
       labels: maintainersByCompanyLabels,
     },
     options: {
-      cutoutPercentage: 30,
+      cutoutPercentage: 10,
       maintainAspectRatio: false,
       responsive: true,
       layout: {
-        padding: 20,
+        padding: 40,
       },
       legend: {
         display: false,
         position: "bottom",
       },
-      // zoomOutPercentage: 5,
+      zoomOutPercentage: 20,
       plugins: {
         outlabels: {
-          // zoomOutPercentage: 5,
+          zoomOutPercentage: 20,
           backgroundColor: "rgba(1,1,1,0)",
           text: "%l",
+          display: maintainersByCompanyDisplayValues,
           color: "black",
-          stretch: 45,
+          stretch: 20,
           font: {
             resizable: true,
             minSize: 12,
@@ -112,7 +153,7 @@ $(document).ready(() => {
     },
     options: {
       layout: {
-        padding: 100,
+        padding: 40,
       },
       cutoutPercentage: 10,
       responsive: true,
@@ -121,15 +162,16 @@ $(document).ready(() => {
         display: false,
         position: "bottom",
       },
-      zoomOutPercentage: 30,
+      zoomOutPercentage: 10,
       plugins: {
         outlabels: {
-          zoomOutPercentage: 30,
+          zoomOutPercentage: 10,
           text: "%l",
           backgroundColor: "rgba(1,1,1,0)",
           color: "black",
+          display: maintainersByProjectDisplayValues,
           // lineColor: "rgba(61,61,61,1)",
-          stretch: 10,
+          stretch: 45,
           font: {
             resizable: true,
             minSize: 12,
@@ -143,12 +185,62 @@ $(document).ready(() => {
       },
     },
   };
-  var ctx = document
-    .getElementById("maintainersByCompanyChart")
-    .getContext("2d");
-  window.companyPie = new Chart(ctx, companyConfig);
-  var ctx = document
-    .getElementById("maintainersByProjectChart")
-    .getContext("2d");
-  window.projectPie = new Chart(ctx, projectConfig);
+
+  function checkSize() {
+    // Set some variables to use with the if checks below
+    var mediaQueryXs = checkIfBlock(".viewport-check .d-block");
+    var mediaQuerySm = checkIfBlock(".viewport-check .d-sm-block");
+    var mediaQueryMd = checkIfBlock(".viewport-check .d-md-block");
+    var mediaQueryLg = checkIfBlock(".viewport-check .d-lg-block");
+    var mediaQueryXl = checkIfBlock(".viewport-check .d-xl-block");
+    if (
+      mediaQueryMd === true ||
+      mediaQueryLg === true ||
+      mediaQueryXl === true
+    ) {
+      try {
+        window.projectPie.destroy();
+        window.companyPie.destroy();
+      } catch (err) {
+        console.log("No charts to destory.");
+      }
+      projectConfig["options"]["plugins"]["outlabels"][
+        "display"
+      ] = maintainersByProjectDisplayValues;
+      var ctx = document
+        .getElementById("maintainersByCompanyChart")
+        .getContext("2d");
+      window.companyPie = new Chart(ctx, companyConfig);
+      var ctx = document
+        .getElementById("maintainersByProjectChart")
+        .getContext("2d");
+      window.projectPie = new Chart(ctx, projectConfig);
+    } else if (mediaQueryXs === true || mediaQuerySm === true) {
+      try {
+        window.projectPie.destroy();
+        window.companyPie.destroy();
+      } catch (err) {
+        console.log("No charts to destory.");
+      }
+      projectConfig["options"]["plugins"]["outlabels"][
+        "display"
+      ] = maintainersByProjectDisplayValuesMobile;
+      companyConfig["options"]["plugins"]["outlabels"][
+        "display"
+      ] = maintainersByCompanyDisplayValuesMobile;
+      var ctx = document
+        .getElementById("maintainersByProjectChart")
+        .getContext("2d");
+      window.projectPie = new Chart(ctx, projectConfig);
+      var ctx = document
+        .getElementById("maintainersByCompanyChart")
+        .getContext("2d");
+      window.companyPie = new Chart(ctx, companyConfig);
+    }
+  }
+  // Reload demo on  window resize
+  $(window).resize(function () {
+    checkSize();
+  });
+  checkSize();
 });
