@@ -1,5 +1,6 @@
 ---
 title: Hands on Training
+service_id: 4
 jumbotron:
     title: Hands on Training
     image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
