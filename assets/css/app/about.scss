@@ -51,14 +51,17 @@
       position: relative;
     }
     .canvasTop {
-      top: -136px;
+      top: -139px;
       position: relative;
-      margin-bottom: -136px;
+      margin-bottom: -80px;
     }
-    .chart-container {
-      height: 500px;
-    }
+    // .chart-container {
+    //   height: 500px;
+    // }
     @include media-breakpoint-down(md) {
+      .chart-container {
+        height: 300px;
+      }
       .canvasTop {
         top: 0;
         position: relative;
