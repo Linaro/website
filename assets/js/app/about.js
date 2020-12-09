@@ -8,7 +8,6 @@ $(document).ready(() => {
     var target = $(target).css("display") == "block";
     return target;
   }
-
   // YouTube embed
   const videoEmbed = $(".videoPlayer");
   function updateVideo() {
@@ -27,12 +26,6 @@ $(document).ready(() => {
       $("#maintainers_by_project").data("maintainers-by-project")
     )
   );
-  // const filteredMaintainersByProject = maintainersByProjectData.map((item) => {
-  //   console.log(item);
-  //   if (parseInt(item.num) > 1) {
-  //     return item;
-  //   }
-  // });
   var maintainersByProjectNums = maintainersByProjectData.map((item) => {
     return item.num;
   });
@@ -207,6 +200,9 @@ $(document).ready(() => {
       projectConfig["options"]["plugins"]["outlabels"][
         "display"
       ] = maintainersByProjectDisplayValues;
+      companyConfig["options"]["plugins"]["outlabels"][
+        "display"
+      ] = maintainersByCompanyDisplayValues;
       var ctx = document
         .getElementById("maintainersByCompanyChart")
         .getContext("2d");
