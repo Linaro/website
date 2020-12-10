@@ -23,4 +23,4 @@ ASLR (Address Space Layout Randomization) in OP-TEE environment randomizes memor
 
 So, for GDB to be able to debug an application, it has to retrieve the correct load address of that application. This is exactly what this script does, getting the actual load address from OP-TEE to allow debugging.
 
-This contribution was developed under the supervision of Joakim Bech and Jens Wiklander from Linaro and was officially adopted. See [here](https://github.com/OP-TEE/optee_os/pull/3847/commits/1713ef286d19b7079a0275f7ebb6f8facd3a980e)
+This contribution was developed under the supervision of Joakim Bech and Jens Wiklander from Linaro. Patches have been sent individually to the OP-TEE maintainers who are evaluating and refining the patches so they should be ready to be included in the OP-TEE project.

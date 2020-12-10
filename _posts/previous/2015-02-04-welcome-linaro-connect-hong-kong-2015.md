@@ -1,26 +1,25 @@
 ---
-author: mark.orvek
-category: blog
-date: 2015-02-04 22:20:59
-description: A look ahead of what will be taking place during Linaro Connect Hong
-  Kong 2015.
-layout: post
-link: /blog/welcome-linaro-connect-hong-kong-2015/
-slug: welcome-linaro-connect-hong-kong-2015
-tags:
-- Connect
-- Connect Events
-- Linaro
-- Linaro Connect
-- Linux On Arm
-- Open Source
-title: Welcome to Linaro Connect Hong Kong 2015!
 wordpress_id: 7859
+layout: post
+title: Welcome to Linaro Connect Hong Kong 2015!
+image: /assets/images/content/hkg18-tech-banner.jpg
+tags:
+  - Connect
+  - Connect Events
+  - Linaro
+  - Linaro Connect
+  - Linux On Arm
+  - Open Source
+category: blog
+author: mark.orvek
+slug: welcome-linaro-connect-hong-kong-2015
+date: 2015-02-04 22:20:59
+link: /blog/welcome-linaro-connect-hong-kong-2015/
+description: A look ahead of what will be taking place during Linaro Connect Hong Kong 2015.
 ---
-
 {% include image.html path="/assets/images/blog/hotelbuilding1.jpg" alt="Hong Kong 2015 Hotel"%}
 
-We are returning to Hong Kong for this year’s[ Linaro Connect](https://connect.linaro.org/hkg15/) in Asia. Hong Kong is such a great city with lots of restaurants, night life, culture and the awesome Symphony of Lights [1] that was named the “World's Largest Permanent Light and Sound Show by Guinness World Records”.
+We are returning to Hong Kong for this year’s[ Linaro Connect](https://connect.linaro.org/hkg15/) in Asia. Hong Kong is such a great city with lots of restaurants, night life, culture and the awesome Symphony of Lights \[1] that was named the “World's Largest Permanent Light and Sound Show by Guinness World Records”.
 
 This year the event will be held at the [Regal Airport Hotel](http://www.regalhotel.com/regal-airport-hotel/en/home/home.html) that is conveniently located at the Hong Kong International Airport. You will be able to literally walk from the airport to your hotel room in just a few minutes!
 
@@ -37,7 +36,7 @@ We will continue the Linaro Theme days that we introduced at Linaro Connect USA 
 
 Monday, is of course, opening day. George Grey, Linaro CEO, will delivery his [opening keynote](https://connect.linaro.org/resources/hkg15/). Expect a bit of ‘shock and awe’ as George announces something new and exciting from Linaro. This has been in the works for several months and promises to be a significant boost for the community of Arm developers. That’s all I can say at the moment. George has sworn me to secrecy. You won’t want to miss this keynote!
 
-We have also switched things around on Monday. After the opening keynote, the engineering teams will gather for individual kick-off meetings. The kick-off meetings will be an opportunity for the teams to do their ‘meet-n-greet’ and prepare for their sessions, hacking and week of social activities. Although the teams regularly meet by video, audio and Internet chat, they only see each other face-to-face a few times a year.  Social interaction is still very important to biology-based lifeforms (computers haven’t taken control yet :) [2,3]). Monday afternoon will be the start of sessions for the week. These sessions will include interesting topics relevant to the community of developers.
+We have also switched things around on Monday. After the opening keynote, the engineering teams will gather for individual kick-off meetings. The kick-off meetings will be an opportunity for the teams to do their ‘meet-n-greet’ and prepare for their sessions, hacking and week of social activities. Although the teams regularly meet by video, audio and Internet chat, they only see each other face-to-face a few times a year.  Social interaction is still very important to biology-based lifeforms (computers haven’t taken control yet :) \[2]). Monday afternoon will be the start of sessions for the week. These sessions will include interesting topics relevant to the community of developers.
 
 Monday afternoon, Tuesday through Thursday mornings, and Friday morning are packed with sessions on a variety of topics ranging from Armv8, U-Boot64, Arm Coresight, ACPI, UEFI, ODP (OpenDataPlane), Chromium Blink and EME, OP-TEE, Arm Trustzone, building for 64-bit AOSP and Energy Aware Scheduling (EAS) to name just a few. A series of training events, some updated from Linaro Connect USA 2014 and a few new ones, are scheduled in the afternoons on Tuesday through Thursday. Check the [full schedule](https://connect.linaro.org/resources/hkg15/) for a day-by-day list of all the sessions.
 
@@ -49,8 +48,6 @@ After the Friday keynote and mornings sessions, Joe Bates will provide his closi
 
 See you all in Hong Kong!
 
-[1] [http://www.discoverhongkong.com/eng/see-do/highlight-attractions/harbour-view/a-symphony-of-lights.jsp](http://www.discoverhongkong.com/eng/see-do/highlight-attractions/harbour-view/a-symphony-of-lights.jsp)
+\[1] <http://www.discoverhongkong.com/eng/see-do/highlight-attractions/harbour-view/a-symphony-of-lights.jsp>
 
-[2] [http://www.independent.co.uk/news/science/stephen-hawking-transcendence-looks-at-the-implications-of-artificial-intelligence--but-are-we-taking-ai-seriously-enough-9313474.html](http://www.independent.co.uk/news/science/stephen-hawking-transcendence-looks-at-the-implications-of-artificial-intelligence--but-are-we-taking-ai-seriously-enough-9313474.html)
-
-[3] [http://www.techradar.com/us/news/world-of-tech/scared-of-robots-bill-gates-voices-concern-about-the-future-of-ai-1282712](http://www.techradar.com/us/news/world-of-tech/scared-of-robots-bill-gates-voices-concern-about-the-future-of-ai-1282712)[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+\[2] <http://www.independent.co.uk/news/science/stephen-hawking-transcendence-looks-at-the-implications-of-artificial-intelligence--but-are-we-taking-ai-seriously-enough-9313474.html>
