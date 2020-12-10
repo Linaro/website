@@ -55,9 +55,9 @@
       position: relative;
       margin-bottom: -80px;
     }
-    // .chart-container {
-    //   height: 500px;
-    // }
+    .chart-container {
+      height: 500px;
+    }
     @include media-breakpoint-down(md) {
       .chart-container {
         height: 300px;

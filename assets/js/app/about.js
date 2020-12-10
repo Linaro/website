@@ -120,7 +120,7 @@ $(document).ready(() => {
           text: "%l",
           display: maintainersByCompanyDisplayValues,
           color: "black",
-          stretch: 20,
+          stretch: 45,
           font: {
             resizable: true,
             minSize: 12,
