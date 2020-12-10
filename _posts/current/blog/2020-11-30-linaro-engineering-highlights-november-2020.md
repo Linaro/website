@@ -23,7 +23,7 @@ author: jon.burcham@linaro.org
 # LITE Updates
 
 **By Vicky Janicki, Engineering Director LITE**
-{% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="LITE Icon" %}The LITE team is busy contributing to the next Zephyr 1.5 release due at the end of January 2021, the TF-M 1.2 release (due by the end of month) and MCUboot 1.7 (also due at the end of the month). Four LITE engineers were ranked in the top 10 contributors for the MCUboot release.
+{% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="LITE Icon" %}The LITE team is busy contributing to the next Zephyr 2.5 release due at the end of January 2021, the TF-M 1.2 release (due by the end of month) and MCUboot 1.7 (also due at the end of the month). Four LITE engineers were ranked in the top 10 contributors for the MCUboot release.
 
 ## MCUboot - A New Linaro Community Project
 
