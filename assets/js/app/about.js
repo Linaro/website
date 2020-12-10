@@ -102,6 +102,7 @@ $(document).ready(() => {
     },
     options: {
       cutoutPercentage: 10,
+      rotation: 45,
       maintainAspectRatio: false,
       responsive: true,
       layout: {
