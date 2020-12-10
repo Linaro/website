@@ -2,13 +2,11 @@ universal_nav: true
 search:
   enabled: true
   label: Linaro
+expand_breakpoint: xl
 brand:
-  image:
-    enabled: true
-    name: linaro-svg.html
-    svg: true
-  text: Linaro
-  url: /
+  # custom_include: nav/brand.html
+  path: /assets/images/Linaro-Logo.svg
+  alt: Linaro logo
 pages:
   - options:
       - text: Overview
