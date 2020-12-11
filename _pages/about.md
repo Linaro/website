@@ -33,6 +33,11 @@ flow:
             software on Arm. For more information on the work we do on tools, Linux kernel quality, multimedia and
             security, go to [https://www.linaro.org/engineering/core/](/engineering/core/)
   - row: container_row
+    style: bg-light-green
+    sections:
+      - format: custom_include
+        source: about/blocks.html
+  - row: container_row
     style: bg-secondary
     sections:
       - format: custom_include
