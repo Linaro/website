@@ -4,7 +4,7 @@ $secondary: #575757;
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
-  "danger": #ff4136
+  "danger": #ff4136,
 );
 // Universal Navbar
 $universal_navbar_height_padding: 0px;
@@ -14,19 +14,24 @@ $universal_navbar_bg_color: $primary;
 $navbar_height_padding: 5px;
 $navbar_text_color: #575757;
 $navbar_bg_color: #fff;
+$nav_expand_point: "xl";
 // Jumbotron
 $jumbotron_bg_color: lightgray;
 $jumbotron_height: 350px;
 // Typography
 @font-face {
   font-display: fallback;
-  font-family: 'Lato';
-  src: url('/assets/fonts/lato/Lato-regular.eot'); /* IE9 Compat Modes */
-  src: url('/assets/fonts/lato/Lato-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/assets/fonts/lato/Lato-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/assets/fonts/lato/Lato-regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/assets/fonts/lato/Lato-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/assets/fonts/lato/Lato-regular.svg') format('svg'); /* Legacy iOS */
+  font-family: "Lato";
+  src: url("/assets/fonts/lato/Lato-regular.eot"); /* IE9 Compat Modes */
+  src: url("/assets/fonts/lato/Lato-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/lato/Lato-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/assets/fonts/lato/Lato-regular.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("/assets/fonts/lato/Lato-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("/assets/fonts/lato/Lato-regular.svg")
+      format("svg"); /* Legacy iOS */
 }
 // Fonts
 $font-family-base: "Lato";
@@ -41,3 +46,9 @@ $cookie_consent_bg: #000;
 $cookie_consent_text_color: #fff;
 // Breadcrumb
 $breadcrumb_bg_color: #e9ecef;
+// Sticky Tab Bar
+$tabbed_nav_height: 80px;
+$tabbed_nav_bg: #fff;
+$tabbed_nav_text_colour: #000;
+$tabbed_nav_active_bg_colour: $secondary;
+$tabbed_nav_active_colour: #fff;
