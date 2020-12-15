@@ -8,3 +8,4 @@ staging.linaro.org
 Gemfile.lock
 .asset_pipeline
 .jekyll-cache
+*:Zone.Identifier

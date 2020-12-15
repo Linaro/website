@@ -1,0 +1,52 @@
+<div class="col col-12 blocks block_row">
+    <div class="row justify-content-center">
+        <div class="col col-12 col-sm-6 col-lg-3 block_column mt-0">
+            <a href="/about/team/">
+                <div class="card h-100 background_image text-white text-center mb-4 mb-lg-0">
+                    {% assign block_image = block.image %}
+                    {% capture block_image_alt %}Team block image {% endcapture %}
+                    {% picture card_block_image "/assets/images/content/Linaro_Team.jpg" --alt {{block_image_alt}} %}
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                        <h5 class="card-title text-uppercase">Team</h5>
+                    </div>
+                </div>
+            </a>
+        </div>    
+        <div class="col col-12 col-sm-6 col-lg-3 block_column mt-0">
+            <a href="/news/">
+                <div class="card h-100 background_image text-white text-center mb-4 mb-lg-0">
+                    {% assign block_image = block.image %}
+                    {% capture block_image_alt %}News block image {% endcapture %}
+                    {% picture card_block_image "/assets/images/content/Linaro_News.jpg" --alt {{block_image_alt}} %}
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                        <h5 class="card-title text-uppercase">News</h5>
+                    </div>
+                </div>
+            </a>
+        </div>    
+        <div class="col col-12 col-sm-6 col-lg-3 block_column mt-0">
+            <a href="/careers/">
+                <div class="card h-100 background_image text-white text-center mb-4 mb-lg-0">
+                    {% assign block_image = block.image %}
+                    {% capture block_image_alt %}Careers image {% endcapture %}
+                    {% picture card_block_image "/assets/images/content/Linaro_Careers.jpg" --alt {{block_image_alt}} %}
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                        <h5 class="card-title text-uppercase">Careers</h5>
+                    </div>
+                </div>
+            </a>
+        </div>    
+        <div class="col col-12 col-sm-6 col-lg-3 block_column mt-0">
+            <a href="/contact/">
+                <div class="card h-100 background_image text-white text-center mb-4 mb-lg-0">
+                    {% assign block_image = block.image %}
+                    {% capture block_image_alt %}Contact us image {% endcapture %}
+                    {% picture card_block_image "/assets/images/content/Linaro_Contact_Us.jpg" --alt {{block_image_alt}} %}
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                        <h5 class="card-title text-uppercase">Contact us</h5>
+                    </div>
+                </div>
+            </a>
+        </div>    
+    </div>
+</div>

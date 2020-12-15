@@ -4,6 +4,19 @@
       filter: brightness(0.5);
     }
   }
+  .block_row {
+    .card {
+      height: 200px !important;
+      picture {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 0;
+        height: 100%;
+      }
+    }
+  }
   // Video Embed
   .video-player {
     overflow: hidden;
