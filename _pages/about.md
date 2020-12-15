@@ -19,8 +19,8 @@ flow:
         style: text-left
         title_content:
           size: h2
-          style: display-4
-          text: Driving open source software development on Arm
+          style: display-4 large_header
+          text: Driving Open Source Software Development on Arm
       - format: text
         style: text-left
         text_content:
@@ -62,7 +62,8 @@ flow:
         style: text-left
         title_content:
           size: h2
-          text: Enabling new markets through collaborative engineering
+          style: display-4 large_header
+          text: Enabling New Markets through Collaborative Engineering
       - format: text
         style: text-left
         text_content:
@@ -92,11 +93,11 @@ flow:
     style: large_type centered_type engineering_blocks_row
     sections:
       - format: title
-        style: text-center
+        style: text-left
         title_content:
           size: h2
-          style: display-4
-          text: End to End Solutions using Arm Technology
+          style: display-4 large_header
+          text: End to End Solutions using Arm Technology 
       - format: text
         style: text-left
         text_content:
