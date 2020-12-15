@@ -1,4 +1,4 @@
-<div class="col col-12 blocks">
+<div class="col col-12 blocks block_row">
     <div class="row justify-content-center">
         <div class="col col-12 col-sm-6 col-lg-3 block_column">
             <a href="/about/team/">
@@ -6,7 +6,7 @@
                     {% assign block_image = block.image %}
                     {% capture block_image_alt %}Team block image {% endcapture %}
                     {% picture card_block_image "/assets/images/content/Linaro_Team.jpg" --alt {{block_image_alt}} %}
-                    <div class="card-body">
+                    <div class="card-body d-flex align-items-center justify-content-center">
                         <h5 class="card-title text-uppercase">Team</h5>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                     {% assign block_image = block.image %}
                     {% capture block_image_alt %}News block image {% endcapture %}
                     {% picture card_block_image "/assets/images/content/Linaro_News.jpg" --alt {{block_image_alt}} %}
-                    <div class="card-body">
+                    <div class="card-body d-flex align-items-center justify-content-center">
                         <h5 class="card-title text-uppercase">News</h5>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                     {% assign block_image = block.image %}
                     {% capture block_image_alt %}Careers image {% endcapture %}
                     {% picture card_block_image "/assets/images/content/Linaro_Careers.jpg" --alt {{block_image_alt}} %}
-                    <div class="card-body">
+                    <div class="card-body d-flex align-items-center justify-content-center">
                         <h5 class="card-title text-uppercase">Careers</h5>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                     {% assign block_image = block.image %}
                     {% capture block_image_alt %}Contact us image {% endcapture %}
                     {% picture card_block_image "/assets/images/content/Linaro_Contact_Us.jpg" --alt {{block_image_alt}} %}
-                    <div class="card-body">
+                    <div class="card-body d-flex align-items-center justify-content-center">
                         <h5 class="card-title text-uppercase">Contact us</h5>
                     </div>
                 </div>
