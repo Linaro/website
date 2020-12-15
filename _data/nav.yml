@@ -8,111 +8,17 @@ brand:
   path: /assets/images/Linaro-Logo.svg
   alt: Linaro logo
 pages:
-  - options:
-      - text: Overview
-        url: /about/
-      - options:
-          - text: The Team
-            url: /about/team/
-          - text: Awards
-            url: /awards/
-        text: Team
-      - options:
-          - text: News
-            url: /news/
-          - text: Blog
-            url: /blog/
-          - text: Events
-            url: /events/
-          - text: Planet Linaro
-            url: /planet/
-        text: News & Events
-      - text: Careers
-        url: /careers/
-      - text: Community Projects
-        url: /community-projects/
-      - text: Contact Us
-        url: /contact/
-      - text: Legal
-        url: /legal/
-    title: About
-  - options:
-      - text: Overview
-        url: /engineering/
-      - text: Artificial Intelligence
-        url: /engineering/artificial-intelligence/
-      - text: Autonomous Vehicles
-        url: /engineering/autonomous-vehicles/
-      - text: Consumer
-        url: /engineering/consumer/
-      - text: Core Engineering on Arm
-        options:
-          - text: Overview
-            url: /engineering/core/
-          - text: Core Technologies & Tools
-            url: /engineering/core/ctt/
-          - text: Kernel Validation
-            url: /engineering/core/kernel-validation-and-testing/
-          - text: Toolchain
-            url: /engineering/core/toolchain/
-          - text: Kernel
-            url: /engineering/core/kernel/
-          - text: Power Management
-            url: /engineering/core/arm-power-management/
-          - text: Power Management EAS
-            url: /engineering/core/arm-power-management/eas/
-          - text: Power Management Farm
-            url: /engineering/core/arm-power-management/pmwg-farm/
-          - text: Security
-            url: /engineering/core/security/
-          - text: Devicetree Evolution
-            url: /engineering/core/devicetree-evolution/
-      - text: Datacenter & Cloud
-        url: /engineering/datacenter-and-cloud/
-      - text: Edge & Fog Computing
-        url: /engineering/edge-and-fog-computing/
-      - text: High Performance Computing
-        url: /engineering/high-performance-computing/
-      - text: IoT & Embedded
-        url: /engineering/iot-and-embedded/
-      - text: Multimedia
-        url: /engineering/multimedia/
-      - text: Security
-        url: /engineering/security/
-    title: Engineering
   - title: Projects
     url: /projects/
   - title: Membership
     url: /membership/
-  - url: /services/
-    title: Services
-  - options:
-      - text: Blog
-        url: /blog/
-      - text: News
-        url: /news/
-      - text: Events
-        url: /events/
-      - text: Connect Resources
-        options:
-          - text: All Resources
-            url: https://connect.linaro.org/resources/
-          - text: Linaro Virtual Connect 2020
-            url: https://connect.linaro.org/resources/lvc20/
-          - text: Linaro Tech Days 2020
-            url: https://connect.linaro.org/resources/ltd20/
-          - text: San Diego 2019
-            url: https://connect.linaro.org/resources/san19/
-          - text: Bangkok 2019
-            url: https://connect.linaro.org/resources/bkk19/
-          - text: Vancouver 2018
-            url: https://connect.linaro.org/resources/yvr18/
-          - text: Hong Kong 2018
-            url: https://connect.linaro.org/resources/hkg18/
-    title: Resources
-  - options:
-      - text: Technical Support
-        url: /support/
-      - text: Downloads
-        url: /downloads/
-    title: Support
+  - title: Services
+    url: /services/
+  - title: Resources
+    url: https://connect.linaro.org/resources/
+  - title: Blogs
+    url: /blog/
+  - title: Events
+    url: /events/
+  - title: About
+    url: /about/
