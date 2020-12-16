@@ -3,38 +3,16 @@ title: Accelerating deployment of Arm-based solutions
 description: Linaro accelerates deployment of Arm-based solutions
 permalink: "/"
 layout: flow
-jumbotron:
-  inner_class: dotted
-  slider:
-    - darken: true
-      title: Linaro accelerates product deployment in the Arm ecosystem
-      image: /assets/images/content/code_banner.jpg
-      inner_class: dotted
+css_bundle: home
+js-package: home
 flow:
+  - row: custom_include_row
+    source: home/homepage_header.html
   - row: container_row
+    style: bg-secondary
     sections:
-      - format: title
-        style: text-center
-        title_content:
-          style: display-5
-          size: h2
-          text: >
-            Linaro brings together industry and the open source engineering
-            community to collaboratively develop software on Arm.
       - format: custom_include
-        source: membership/grouped_members_section.html
-    style: introduction_row
-  - row: container_row
-    sections:
-      - format: title
-        style: text-center
-        title_content:
-          size: h2
-          style: display-5 text-white
-          text: Delivering end to end solutions using Arm technology
-      - format: custom_include
-        source: components/engineering_slider.html
-    style: engineering_row bg-secondary
+        source: home/stats_slider_row.html
   - row: container_row
     sections:
       - format: custom_include
