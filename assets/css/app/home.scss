@@ -1,42 +1,90 @@
-// Website Revamp 2019
 #flow_wrapper {
-    .row.introduction_row {
-      h2 {
-        border: 5px dotted #0083b0;
-        border-radius: 10px;
-        max-width: 600px;
-        padding: 20px;
-        margin: auto;
-      }
-    }
-  .row.call_to_action_sections {
-    .feature_block {
-      border: 5px dotted #0083b0;
-      border-radius: 10px;
-      margin-bottom: 40px;
-      img.img-responsive {
+  .member_badge {
+    background-color: #eee;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  span.stat {
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    -webkit-text-fill-color: #575757; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    display: block;
+  }
+  .members_slider_wrapper {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    .item {
+      height: 182px !important;
+      img.member_image {
         width: 100%;
-      }
-      &:nth-child(2) {
-        border-color: $primary !important;
-        .btn {
-          background-color: $primary !important;
-        }
-      }
-      @include media-breakpoint-down(sm){
-        .block__image {
-          margin-top: 20px;
-        }
+        height: 100px;
+        object-fit: contain;
       }
     }
   }
-  .row.testimonial_row {
-    background-color: #d1d1d1;
-  }
-  .row.engineering_row {
-    background-color: #666666;
-    h2 {
-      color: white;
+  #homepage_header.background_image {
+    z-index: 0;
+    height: auto !important;
+    &:before {
+      position: absolute;
+      content: "";
+      height: 15px;
+      width: 100%;
+      top: 0;
+      z-index: 2;
+      left: 0;
+      background-color: #ccc;
+      background: linear-gradient(
+        to left,
+        rgba(#000, 1) 0%,
+        rgba(#fff, 1) 100%
+      );
+      width: 100%;
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      top: 0;
+      z-index: 1;
+      left: 0;
+      background: linear-gradient(
+        to left,
+        rgba(#000, 0) 0%,
+        rgba(#000, 1) 100%
+      );
+    }
+    .header_background_image {
+      filter: brightness(0.6);
+    }
+    .inner_content_wrapper {
+      z-index: 2;
+      position: relative;
+      h1 {
+        font-size: 60px !important;
+        margin-top: 80px;
+        span.font-weight-bolder {
+          font-weight: 900;
+        }
+      }
+      div#header_icons_row {
+        margin: 100px 0;
+      }
+    }
+    #header_icons_row {
+      img {
+        width: 80% !important;
+        height: 100px;
+        margin: 20px 0px;
+        object-fit: contain;
+      }
     }
   }
 }
