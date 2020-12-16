@@ -9,7 +9,7 @@
         {% endfor %}
     {% endfor %}
     {% for individual in technical_steering_committee %}
-        <div class="col col-12 col-sm-6 col-md-4 text-center team_item">
+        <div class="col col-12 col-sm-6 col-md-4 text-center team_item py-3">
             <div class="modal team_modal fade" id="{{individual.name | slugify}}">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-5">
+            <div class="card h-100 mb-5">
                 <img class="card-img-top equal-height-card-img lazyload"
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     data-src="{% if individual.image and individual.image != '' %}{{individual.image}}{% else %}/assets/images/content/placeholder.jpg{% endif %}"
