@@ -1,18 +1,21 @@
 ---
 layout: post
-title: History of the Interconnect framework
-description: |-
-  HEADING TBC
-
-  TBC
+title: History Of The Interconnect Framework
+description: The Interconnect API is a framework for configuring the on-chip
+  interconnects in the system. The framework tunes the system for the best power
+  and performance while taking into account the aggregated traffic between the
+  different endpoints. It was merged in January 2019 and is available in the
+  Linux kernel since v5.1. In this article I’ll share more about the history
+  behind it.
 date: 2020-12-14 03:08:37
 image: /assets/images/content/city.jpg
 tags:
-  - TBC
+  - Power & Performance
+  - BUS scaling
 related_projects:
   - PERF
 category: blog
-author: jon.burcham@linaro.org
+author: georgi.djakov@linaro.org
 ---
 # MAIN HEADING
 
@@ -56,9 +59,3 @@ Linux v5.11 will support multiple platforms by four different vendors. There are
 
 Many thanks to the people who participated in the initial discussions or provided feedback during the development:
 Vincent Guittot, Saravana Kannan, Sean Sweeney, David Dai, Mike Turquette, Kevin Hilman, Alexandre Bailon, Bjorn Andersson, Daniel Lezcano, Ulf Hansson, Rob Herring, Rafael Wysocki, Evan Green, Viresh Kumar, Greg Kroah-Hartman and others.
-
-References:
-
-1. <https://www.slideshare.net/linaroorg/bkk16500-dissecting-the-2m-loc-qc-fork>
-2. <https://connect.linaro.org/resources/san19/san19-300k2/>
-3. <https://lwn.net/Articles/754923/>
