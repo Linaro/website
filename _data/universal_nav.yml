@@ -33,4 +33,5 @@ items:
         url: "https://www.op-tee.org"
       - title: Trusted Firmware
         url: "https://www.trustedfirmware.org/"
+    hamburger_toggle: true
     title: Projects
