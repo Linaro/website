@@ -3,7 +3,7 @@ $(document).ready(() => {
     $("#homepage_header").offset().top + $("#homepage_header").height();
   var sticky_icons_row = $("#header_icons_row_sticky");
   // Calculate the margin needed to add row below the navbars.
-  var wrapper_margin_top = $("#main-navigation").height();
+  var wrapper_margin_top = $("#main-navigation").css("height");
   function sticky_icons() {
     // Scroll value
     var scroll = $(window).scrollTop();
