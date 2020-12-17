@@ -9,8 +9,12 @@ $theme-colors: (
 );
 // Universal Navbar
 $universal_navbar_height_padding: 0px;
-$universal_navbar_text_color: #fff;
+$universal_navbar_text_color: #000;
+$universal_navbar_active_text_hover_color: #fff;
+$universal_navbar_icon_color: #fff;
 $universal_navbar_bg_color: $primary;
+$universal_navbar_active_text_color: #fff;
+$universal_navbar_active_bg_color: #000;
 // Main Navbar
 $navbar_height_padding: 5px;
 $navbar_text_color: #575757;
