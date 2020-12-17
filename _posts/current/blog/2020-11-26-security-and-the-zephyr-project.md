@@ -13,7 +13,7 @@ tags:
   - Security
   - Lite
 category: blog
-author: jon.burcham@linaro.org
+author: david.brown@linaro.org
 ---
 # Security
 
