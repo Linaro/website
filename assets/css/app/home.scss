@@ -1,4 +1,11 @@
 #flow_wrapper {
+  .row.testimonial_row {
+    border-top: 10px solid white;
+    background-color: #d1d1d1 !important;
+  }
+  i.icon-youtube-play {
+    color: #99cc33;
+  }
   div#header_icons_row_sticky {
     background-color: #575757;
   }
@@ -82,17 +89,27 @@
         }
       }
       div#header_icons_row {
+        h3 {
+          font-size: 16px;
+        }
         margin: 100px 0;
         img.icon_image {
           width: 80% !important;
           height: 100px;
-          margin: 20px 0px;
+          margin: 5px 0px;
           object-fit: contain;
         }
       }
     }
   }
   #header_icons_row_sticky {
+    max-height: 240px;
+    .owl-item {
+      height: 240px;
+    }
+    h3 {
+      font-size: 16px;
+    }
     &:before {
       position: absolute;
       content: "";
@@ -131,7 +148,7 @@
     img.icon_image {
       width: 80% !important;
       height: 100px;
-      margin: 20px 0px;
+      margin: 5px 0px;
       object-fit: contain;
     }
     img.header_background_image {
