@@ -25,7 +25,7 @@ flow:
         style: text-center
         title_content:
           size: h2
-          text: Lianaro Developer Services
+          text: Linaro Developer Services
       - format: text
         text_content:
           text: >
