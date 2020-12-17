@@ -17,7 +17,7 @@ flow:
     sections:
       - format: custom_include
         source: components/testimonial_slider.html
-    style: testimonial_row
+    style: testimonial_row bg-light
   - row: container_row
     style: dev_services_blocks
     sections:
