@@ -66,11 +66,11 @@ $(document).ready(() => {
       nav: false,
       rewind: true,
       dots: false,
-      lazyLoad: true,
+      lazyLoad: false,
       autoplay: true,
       animateOut: "fadeOut",
       animateIn: "fadeIn",
-      autoplayTimeout: 4000,
+      autoplayTimeout: 2000,
       responsiveClass: true,
       responsive: {
         0: {
