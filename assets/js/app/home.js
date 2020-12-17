@@ -1,6 +1,8 @@
 $(document).ready(() => {
   var stickyOffset =
-    $("#homepage_header").offset().top + $("#homepage_header").height();
+    $("#homepage_header").offset().top +
+    $("#homepage_header").height() -
+    $("#main-navigation").height();
   var sticky_icons_row = $("#header_icons_row_sticky");
   // Calculate the margin needed to add row below the navbars.
   var wrapper_margin_top = $("#main-navigation").css("height");
