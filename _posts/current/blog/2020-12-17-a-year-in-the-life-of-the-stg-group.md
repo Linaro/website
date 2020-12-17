@@ -9,4 +9,66 @@ tags:
 category: blog
 author: jon.burcham@linaro.org
 ---
-TBC
+# Linaro STG 2020 Year In Review
+
+## 2020 Objectives
+
+This year the 2020 objectives for the STG team focused around 5 key topics:
+
+1. Provide LKFT Remote Labs Product 
+2. Improve LAVA User Experience \[Committed]
+3. Implement OnDemand TuxBuild Public Offering \[Committed]
+4. Implement OnDemand Linux kernel boot testing prototype 
+5. Support infrastructure stakeholder requests and SLAs \[Committed]
+
+This was an extremely ambitious plan and in retrospect was overly ambitious. The objectives were about how STG would continue to move Linaro forward measurably in 2020 and not just how the team would execute against their responsibilities.
+
+Moving into 2021 the objectives will be even more focused.
+
+## STG 2020 Report Card
+
+STG has done exceptionally well in executing on two of the committed and one aspirational objectives.
+
+### Provide LKFT Remote Labs Product
+
+Members of Linaro have always been intrigued by the idea of having their devices in LKFT but there are often too many unknowns to make pursuing this technology a high priority for members.
+
+As LKFT 2.0 started to adopt elements of the tuxbuild backend and implemented new gitlab-ci based pipelines LKFT became a demonstration platform for how Linaro members can use the TuxSuite products to implement their own LKFT-like processes that exactly fit their business needs. This is a much better proposition to Linaro members and it’s much easier for STG implement the technology.
+
+### Improve LAVA User Experience
+
+The LAVA user experience continues to be an issue. There is much discussion about what needs to improve in LAVA in order to make the onboarding of remote-labs as effortless (and maintainable) as possible. In reality the time has not yet come for the remote-labs concept. When we have the product which will use the remote-labs concept, the LAVA user experience improvements will be a natural key-result. It’s time might be coming soon!
+
+### Implement OnDemand TuxBuild Public Offering
+
+TuxBuild is on track for general open enrollment in January 2021 and is already an integral part of LKFT and LTS kernel maintenance, as well as being adopted by Linaro kernel engineers for their daily development and testing pipelines. TuxBuild’s constant-time build capabilities across large build sets can change the culture of Linux kernel engineering to increase the breadth of build testing as the standard.
+
+
+
+We’re proud of the fact that Android phone users have benefited from Google using TuxBuild since April 2020. They’re performing batch Android security patch build testing for Android Common Kernels on a monthly basis
+
+
+
+## Implement OnDemand Linux kernel boot testing prototype
+
+The TuxBoot prototype was an ambitious project to test the hypothesis that we could build an infinitely scalable Linux kernel boot system booting on cloud-hosted QEMU instances managed by ephemeral LAVA instances, using the serverless design principles proven by TuxBuild.
+
+
+
+The goal was to produce a boot demo demonstrating a TuxBuild-like API able to boot 100 Linux kernels as described above in a two month time-frame. The team executed flawlessly, and we were able to provide our demo only a few weeks after our original ambitious target.
+
+
+
+TuxBoot will transform into a TuxTest prototype in the very near future.
+
+## Support infrastructure stakeholder requests and SLAs  
+
+Most engineers in STG have something to do with executing against our LTS testing SLA. This objective is mostly about sustained commitment and operational excellence. Linaro is the only kernel testing organization that has reported on every LTS release in the last year. We are the most consistent kernel testing organization in the industry and Greg KH relies on both our LKFT process and our internal tooling on a weekly basis.
+
+
+
+Going forward, the Linaro lab will continue to innovate in order to insulate our SLA against un-expected downtime. We expect to start rolling our per-DUT dispatchers on vulnerable workloads over the coming months, and we’re experimenting with rack density improvements and solid-state PDU prototypes to eliminate PDU failure rates. As well, we’ll slowly move to a cloud-hosted LAVA master environment and start improving our ability to enroll off-premises devices as our business needs demand.
+
+
+
+<!--EndFragment-->
