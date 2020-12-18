@@ -2,7 +2,9 @@
 layout: post
 title: A Year In The Life Of The STG Group
 description: "In this article we look at the work from just one of Linaro's many
-  engineering teams. "
+  engineering teams - STG. This group have been very busy as usual, introducing
+  many technical improvements as well as some completely new technologies, such
+  as tuxsuite. "
 date: 2020-12-17 05:20:53
 image: /assets/images/content/abstract-small.jpg
 tags:
@@ -86,13 +88,10 @@ LAVAche is an interesting solution to the problem of QEMU scalability in LAVA in
 The LAVA test plans project was created to combine test-definitions (see below) with LAVA device types and produce valid LAVA job templates. The task isn’t easy because LAVA job definitions tend to use implicit dependencies, for example some types of deployments only work for certain devices. At the same time the goal of LAVA test plans was to produce a valid LAVA job for every possible combination of LAVA device type and test-definitions test. Currently the project is used by the LKFT team but there are a number of proposals to use it in Linaro Developer Services projects.
 
 ### Test-Definitions
-
 For several years the [test-definitions](https://github.com/Linaro/test-definitions) project has provided a good base for LAVA test encapsulation. This year it received one important improvement - documentation. The documentation is now auto generated and available in [readthedocs.io](https://test-definitions.readthedocs.io/en/latest/). This project is used quite heavily both inside and outside of Linaro (see [github fork metrics](https://github.com/Linaro/test-definitions/network/members)). This project provides a powerful ‘network’ effect for Linaro because it establishes Linaro as experts in automated testing.
 
 {% include image.html path="/assets/images/content/lkft.png" class="small-inline left" alt="LKFT logo" %}
-
 ### LKFT 2.0
-
 The idea behind LKFT 2.0 is that we could pivot our architecture to develop and make use of discrete and reusable components which improve our ability to scale, lead to developer-controlled LKFT pipelines, and reuse of components outside of the Linux Kernel Quality project directly. This is exactly what has happened. LKFT is now using TuxBuild as the Linux kernel build engine. We’re also making LKFT pipelines available to Linux kernel developers and we’re working on reporting concepts which are applicable everywhere.
 
 LKFT 2.0 now includes the following components:
