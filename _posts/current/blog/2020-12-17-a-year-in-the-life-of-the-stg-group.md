@@ -111,7 +111,7 @@ LKFT 2.0 now includes the following components:
 
 Each of these components can and are often reused outside of LKFT for their specific purpose. Together, they provide all of the functionality needed to deliver LKFT. What’s really interesting about this list is that many of the innovations from this year have already been adopted in LKFT, but by no means is LKFT the only place these are usable.
 
-{% include image.html path="/assets/images/content/tuxsuite.png"alt="LKFT logo" %}
+{% include image.html path="/assets/images/content/tuxsuite.png" alt="tuxsuite logo" %}
 ## TuxSuite
 The term ‘TuxSuite’ might be new to many people since this ‘branding’ term was just recently decided upon as the name of the suite of tools we’re building.
 
