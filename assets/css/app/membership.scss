@@ -1,8 +1,62 @@
 // Website Revamp 2019
 #wrapper {
+  i.icon-youtube-play {
+    color: $primary;
+  }
+  .about_header {
+    img {
+      filter: brightness(0.8) !important;
+    }
+  }
   #flow_wrapper {
-    .membership_row {
-      margin-bottom: 40px;
+    .block__text {
+      border: none !important;
+    }
+    .card {
+      border: 1px solid #00bce4;
+      h5 {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 40px;
+        font-size: 24px;
+        font-weight: bolder;
+        margin-top: 0px !important;
+      }
+    }
+    .row.members_row {
+      border-top: 6px dotted #ccc;
+      position: relative;
+      .member_image {
+        height: 100px !important;
+        width: 100%;
+        background-color: white;
+        padding: 0 20px;
+        object-fit: contain !important;
+      }
+    }
+    .members_badge {
+      width: 200px;
+      background-color: #ccc;
+      position: absolute;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      top: -30px; /* left: 50%; */
+      h3 {
+        font-size: 18px;
+        margin-bottom: 0px;
+      }
+    }
+    .membership_blocks {
+      img.header_background_image {
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
     }
     .core_membership_row {
       background-color: #d0ecf3;
