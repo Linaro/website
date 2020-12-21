@@ -8,6 +8,7 @@ js-package: membership
 css_bundle: membership
 layout: flow
 jumbotron:
+  class: text-center about_header
   title: Shape the future of Arm Software
   image: /assets/images/content/Membership_banner_image.jpg
 flow:
@@ -33,51 +34,38 @@ flow:
         style: text-center
         buttons_content:
             - title: Enquire about membership today
-              url: "#enquire_form"
+              url: "#membership_form"
               style: btn-primary enquire_button text-uppercase
-  - row: custom_include_row
-    source: membership/membership_blocks.html
+  - row: container_row
+    style: membership_blocks text-dark
+    background_image: /assets/images/content/code_banner.jpg
+    sections:
+       - format: block
+         style: text-dark
+         item_width: "4"
+         block_section_content:
+           blocks:
+              - title: No need to differentiate on the basics
+                description: > 
+                  Collaboration on common software allows participating member companies to direct more resources towards differentiating their products.
+                style: membership_block
+              - title: Faster problem solving = accelerated time to market
+                description: > 
+                  Having engineers from all the member companies work together with Linaro engineers - many of which are world-reknowned Arm software experts - means more eyes on the problem.
+                style: membership_block
+              - title: Arm & Open Source Software Expertise
+                description: > 
+                  If you want a say in how Arm software evolves and want to work with leading technology companies to develop and implement actual engineering solutions, Linaro membership is for you.
+                style: membership_block
   - row: container_row
     sections:
       - format: title
-        style: text-center
         title_content:
           size: h2
           text: Open Source Projects Linaro Contribute to
       - format: custom_include
         source: membership/projects_slider.html
     style: large_type bg-light centered_type projects_row
-  - row: container_row
-    sections:
-      - format: title
-        style: text-center
-        title_content:
-          size: h2
-          text: Membership Levels
-      - format: text
-        style: text-center
-        text_content:
-          text: >-
-            There are three types of membership - Core, Club and Group - each
-            offering a different level of engagement. To read the complete
-            membership rules, [click
-            here](/assets/downloads/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf)
-      - format: custom_include
-        source: membership/level_blocks.html
-    style: large_type centered_type membership_levels
-  - row: container_row
-    sections:
-      - format: custom_include
-        source: components/members_slider.html
-    style: members_slider_row bg-light
-  - row: container_row
-    sections:
-      - format: text
-        text_content:
-          text: >
-            To view Linaro members by membership levels and groups, click
-            [here](/members-by-group/)
-    style: large_type centered_type members_by_group_row
   - row: container_row
     sections:
       - format: title
@@ -129,15 +117,21 @@ flow:
     style: large_type centered_type membership_row group_membership_row bg-light-gray
   - row: container_row
     sections:
+      - format: title
+        style: text-center text-white
+        title_content:
+          size: h3
+          style: display-4 large_header
+          text: Delivering End to End Solutions using Arm Technology 
       - format: custom_include
         source: components/engineering_slider.html
-    style: engineering_slider_row gray_row bg-secondary
+    style: engineering_slider_row gray_row bg-secondary text-white
   - row: container_row
     sections:
       - format: title
         title_content:
           size: h2
-          style: text-white
+          style: text-dark
           text: To find out more about membership please complete this form
       - format: custom_include
         source: membership/membership_form.html
