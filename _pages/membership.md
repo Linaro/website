@@ -9,66 +9,41 @@ css_bundle: membership
 layout: flow
 jumbotron:
   title: Shape the future of Arm Software
-  description: ''
-  image: /assets/images/content/memberhsip_bg.jpg
-  inner_class: dotted
+  image: /assets/images/content/Membership_banner_image.jpg
 flow:
   - row: container_row
     sections:
-      - format: custom_include
-        source: membership/grouped_members_section.html
-  - row: container_row
+      - format: title
+        title_content:
+          size: h2
+          text: Linaro Membership
+      - format: text
+        text_content:
+          text: >
+            Linaro membership allows you to shape the future of Arm software together with Linaro and other industry
+            leaders. Collaborating on common projects significantly reduces software fragmentation across the many
+            Arm platforms, enabling participating companies and the community to reduce their costs for development
+            and validation of Arm-based software.
+  - row: custom_include_row
+    source: membership/grouped_members_row.html
+  - row: container_row 
+    style: text-center
     sections:
-      - format: text
-        text_content:
-          text: >
-            Linaro is member driven. Member engineers work with Linaro engineers
-            to solve common software problems. Why?
-      - format: title
-        title_content:
-          size: h2
-          text: No need to differentiate on the basics
-      - format: text
-        text_content:
-          text: >
-            Because collaborating on common software allows participating member
-            companies to direct more resources towards differentiating their
-            products. In effect, collaborating on non-differentiation allows you
-            to focus more on differentiation.
-      - format: title
-        title_content:
-          size: h2
-          text: Faster problem solving = accelerated time to market
-      - format: text
-        text_content:
-          text: >-
-            Having engineers from all the member companies work together with
-            Linaro engineers - many of which are world-reknowned Arm software
-            experts - means more eyes on the problem. The more people who look
-            at the problem, the quicker it gets solved and the better the
-            solution. And the quicker the basics are resolved, the faster you
-            get your product to market.
-      - format: title
-        title_content:
-          size: h2
-          text: Arm & Open Source Software Expertise
-      - format: text
-        text_content:
-          text: >
-            Linaro is the collaboration platform for Arm software, formed in
-            2010 for this very purpose. We contribute to over 70 open source
-            projects, many of which we maintain. If you want a say in how Arm
-            software evolves and want to work with leading technology companies
-            to develop and implement actual engineering solutions, Linaro
-            membership is for you.
-    style: large_type main_text_row
+      - format: buttons
+        style: text-center
+        buttons_content:
+            - title: Enquire about membership today
+              url: "#enquire_form"
+              style: btn-primary enquire_button text-uppercase
+  - row: custom_include_row
+    source: membership/membership_blocks.html
   - row: container_row
     sections:
       - format: title
         style: text-center
         title_content:
           size: h2
-          text: OPEN SOURCE PROJECTS LINARO CONTRIBUTE TO
+          text: Open Source Projects Linaro Contribute to
       - format: custom_include
         source: membership/projects_slider.html
     style: large_type bg-light centered_type projects_row
