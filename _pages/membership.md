@@ -121,7 +121,6 @@ flow:
         style: text-center text-white
         title_content:
           size: h3
-          style: display-4 large_header
           text: Delivering End to End Solutions using Arm Technology 
       - format: custom_include
         source: components/engineering_slider.html
