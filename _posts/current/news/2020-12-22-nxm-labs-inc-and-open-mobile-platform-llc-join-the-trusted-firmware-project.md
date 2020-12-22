@@ -5,8 +5,8 @@ description: Linaro is proud to announce that NXM Labs Inc. and Open Mobile
   Platforms LLC have joined the Trusted Firmware Project. This is the the open
   governance community project hosted by Linaro Community Projects.
 date: 2020-12-22 12:53:59
-image: /assets/images/content/trustedfirmware.png
-strap_image: /assets/images/content/trusted-firmware-logo.png
+image: /assets/images/content/linaro-logo.png
+strap_image: /assets/images/content/trustedfirmware-logo_standard.png
 tags:
   - Trusted Firmware
 category: news
