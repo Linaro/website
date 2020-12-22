@@ -2,17 +2,18 @@
 layout: post
 title: A Year In The Life Of The STG Group
 description: "In this article we look at the work from just one of Linaro's many
-  engineering teams - STG. This group have been very busy as usual, introducing
-  many technical improvements as well as some completely new technologies, such
-  as tuxsuite. "
+  engineering teams - System Technologies Group (STG). This group have been very
+  busy as usual, introducing many technical improvements as well as some
+  completely new technologies, such as TuxSuite. "
 date: 2020-12-17 05:20:53
 image: /assets/images/content/abstract-small.jpg
 tags:
   - STG
+  - Tuxsuite
 category: blog
 author: jon.burcham@linaro.org
 ---
-# Linaro STG 2020 Year In Review
+# Linaro System Technologies Group (STG) 2020 Year In Review
 
 ## 2020 Objectives
 This year the 2020 objectives for the STG team focused around 5 key topics:
