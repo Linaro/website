@@ -35,7 +35,7 @@
     .item {
       height: 182px !important;
       img.member_image {
-        width: 100%;
+        width: 200px;
         height: 100px;
         object-fit: contain;
       }
@@ -97,7 +97,7 @@
         }
         margin: 100px 0;
         img.icon_image {
-          width: 80% !important;
+          width: 60% !important;
           height: 100px;
           margin: 5px 0px;
           object-fit: contain;
@@ -149,7 +149,7 @@
       z-index: 2;
     }
     img.icon_image {
-      width: 80% !important;
+      width: 60% !important;
       height: 100px;
       margin: 5px 0px;
       object-fit: contain;
