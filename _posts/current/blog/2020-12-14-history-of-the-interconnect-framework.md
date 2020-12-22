@@ -7,7 +7,7 @@ description: The Interconnect API is a framework for configuring the on-chip
   different endpoints. It was merged in January 2019 and is available in the
   Linux kernel since v5.1. In this article I’ll share more about the history
   behind it.
-date: 2020-12-14 03:08:37
+date: 2020-12-22 04:28:00
 image: /assets/images/content/city.jpg
 tags:
   - Power & Performance
