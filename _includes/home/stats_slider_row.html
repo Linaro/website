@@ -13,7 +13,7 @@
 {% assign sorted_members = unique_linaro_members | sort: 'name' %}
 
 <div class="row">
-    <div class="col col-12 col-md-8">
+    <div class="col col-12 col-lg-8">
         <div class="row">
     <div class="owl-carousel owl-theme" id="stats_slider">
         <div class="item row">
@@ -63,8 +63,8 @@
     </div>        
     </div>        
     </div>
-    <div class="col col-12 col-md-4 members_slider_section">
-        <div class="members_slider_wrapper my-4">
+    <div class="col col-12 col-lg-4 members_slider_section">
+        <div class="members_slider_wrapper my-4 ml-lg-3">
             <div class="owl-carousel owl-theme" id="members_home_slider">
                 {% for group in site.data.members %}
                     {% if group.id == "core" or group.id == "club" or group.id == "group"%}
