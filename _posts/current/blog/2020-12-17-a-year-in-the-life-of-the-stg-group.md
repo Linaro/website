@@ -5,7 +5,7 @@ description: "In this article we look at the work from just one of Linaro's many
   engineering teams - System Technologies Group (STG). This group have been very
   busy as usual, introducing many technical improvements as well as some
   completely new technologies, such as TuxSuite. "
-date: 2020-12-17 05:20:53
+date: 2020-12-22 01:00:00
 image: /assets/images/content/abstract-small.jpg
 tags:
   - STG
