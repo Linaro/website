@@ -43,6 +43,12 @@ flow:
                 - title: Get in Touch
                   url: mailto:contact@linaro.org?subject=Services
                   icon: fa fa-email
+            - title: Careers
+              style: text-dark
+              buttons:
+                - title: Get in Touch
+                  url: mailto:careers@linaro.org?subject=Careers
+                  icon: fa fa-email
           item_width: "3"
         format: block
         style: text-center text-dark organisation-section
