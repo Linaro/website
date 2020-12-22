@@ -1,27 +1,27 @@
 ---
-author: grant.likely
-category: blog
-date: 2014-02-03 18:58:27
-description: Why are we doing UEFI & ACPI? Who should be using UEFI/ACPI? Will U-Boot
-  and FDT continue to be supported? Can hardware provide both ACPI & FDT? Can ACPI
-  and FDT coexist? And so on. I want to quickly address those questions in this blog
-  post, and then I want to discuss a development plan to get UEFI and ACPI onto shipping
-  servers.
-keywords: Linaro, software on Arm, Linux, Linux on Arm, UEFI, ACPI, enterprisse software,
-  Arm, U-Boot, FDT, kernel
-layout: post
-link: /blog/when-will-uefi-and-acpi-be-ready-on-arm/
-slug: when-will-uefi-and-acpi-be-ready-on-arm
-tags:
-- Kernel
-- Linaro
-- Linux
-- Linux On Arm
-- Software
-title: When Will UEFI and ACPI Be Ready On Arm?
 wordpress_id: 3284
+layout: post
+keywords: Linaro, software on Arm, Linux, Linux on Arm, UEFI, ACPI, enterprisse
+  software, Arm, U-Boot, FDT, kernel
+title: When Will UEFI and ACPI Be Ready On Arm?
+image: /assets/images/content/RGB-Linaro_Standard.png
+category: blog
+author: grant.likely
+slug: when-will-uefi-and-acpi-be-ready-on-arm
+date: 2014-02-03 18:58:27
+tags:
+  - Kernel
+  - Linaro
+  - Linux
+  - Linux On Arm
+  - Software
+link: /blog/when-will-uefi-and-acpi-be-ready-on-arm/
+description: Why are we doing UEFI & ACPI? Who should be using UEFI/ACPI? Will
+  U-Boot and FDT continue to be supported? Can hardware provide both ACPI & FDT?
+  Can ACPI and FDT coexist? And so on. I want to quickly address those questions
+  in this blog post, and then I want to discuss a development plan to get UEFI
+  and ACPI onto shipping servers.
 ---
-
 As part of the work to prepare for Arm servers, the Linaro Enterprise Group has spent the last year getting ACPI and UEFI working on Arm. We’ve been working closely with Arm and Arm’s partners on this to make sure the firmware architecture meets the needs of the server market.
 
 Yet this work has raised questions about what it means for the rest of the Arm Linux world. Why are we doing UEFI & ACPI? Who should be using UEFI/ACPI? Will U-Boot and FDT continue to be supported? Can hardware provide both ACPI & FDT? Can ACPI and FDT coexist? And so on. I want to quickly address those questions in this blog post, and then I want to discuss a development plan to get UEFI and ACPI onto shipping servers.
@@ -96,7 +96,7 @@ In about a year from now I would make the prediction that ACPI support is in mai
 
 For widest range of support, platforms should support both FDT and ACPI. Some operating systems will only support ACPI, others only FDT. ACPI will probably be stabilizing to the point that if support is in mainline, then we will continue to support the platform in Linux.
 
-My opinion is that Linux should use only FDT or only ACPI, but not both! [Edit: by this I mean not both at the same time. It is perfectly fine for an OS to have support for both, as long as only one is used at a time] I think that when provided with both, the kernel should default to ACPI and ignore the FDT (this is up for debate; Eventually I think this is what the kernel should do, and I think we should start with that policy simply because trying to change the policy at some arbitrary point in time will probably be a lot more painful than starting with the default that we want to ultimately get to).
+My opinion is that Linux should use only FDT or only ACPI, but not both! \[Edit: by this I mean not both at the same time. It is perfectly fine for an OS to have support for both, as long as only one is used at a time] I think that when provided with both, the kernel should default to ACPI and ignore the FDT (this is up for debate; Eventually I think this is what the kernel should do, and I think we should start with that policy simply because trying to change the policy at some arbitrary point in time will probably be a lot more painful than starting with the default that we want to ultimately get to).
 
 ## **The Long View**
 
@@ -136,17 +136,13 @@ As described above, the kernel will use ACPI if present in the configuration tab
 
 One potential problem is that Kexec may interact poorly with ACPI. The OS isn’t supposed to unpack the DSDT more than once, which would happen if the kernel kexecs into another kernel (each kernel will unpack it on boot). However, x86 has been doing kexec for years so this may not actually be a problem in the real world.
 
-_Re-published with permission from Grant Likely from his original blog post at_ [http://www.secretlab.ca/archives/27](http://www.secretlab.ca/archives/27)
+*Re-published with permission from Grant Likely from his original blog post.*
 
----
+- - -
 
-1. Arm32 Runtime Service: [http://lwn.net/Articles/575363/](http://lwn.net/Articles/575363/)
-
-2. Arm32 CONFIG_EFI_STUB: [http://lwn.net/Articles/575352/](http://lwn.net/Articles/575352/)
-
+1. Arm32 Runtime Service: <http://lwn.net/Articles/575363/>
+2. Arm32 CONFIG_EFI_STUB: <http://lwn.net/Articles/575352/>
 3. Arm64 CONFIG_EFI_STUB and Runtime services:
-   [https://lkml.org/lkml/2013/11/29/373](https://lkml.org/lkml/2013/11/29/373)
-
+   <https://lkml.org/lkml/2013/11/29/373>
 4. With the caveat that if nobody notices, is it really an ABI breakage? There are many embedded platforms which want to keep the FDT in lock step with the kernel and the build toolchain reflects that
-
 5. This is still up for debate, the priority of ACPI over FDT may yet be changed
