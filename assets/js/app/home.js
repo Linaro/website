@@ -53,7 +53,7 @@ $(document).ready(() => {
       autoplay: true,
       animateOut: "fadeOut",
       animateIn: "fadeIn",
-      autoplayTimeout: 4000,
+      autoplayTimeout: 6000,
       responsiveClass: true,
       responsive: {
         0: {
