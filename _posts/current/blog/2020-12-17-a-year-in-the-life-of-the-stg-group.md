@@ -71,7 +71,7 @@ Repeating the success from last year the KV team and LSS teams have successfully
 ## Reported By
 All the work we have done on LKFT tooling, process, and initiative of our reporting individuals comes together with successful reported-by and regression reports to both Greg KH, and Linus Torvalds. There have been many demonstrations of Linaro engineers expertly navigating the upstream bug reporting process successfully. This leads to the establishment of Linaro as experts in the area of Linux kernel testing.
 
-{% include image.html path="/assets/images/content/squad.png" alt="SQUAD logo" %}
+{% include image.html path="/assets/images/content/squad.png" class="small-inline left"alt="SQUAD logo" %}
 
 ### Squad Client
 Squad client was started as an effort to improve test report customization for the end users. As initially designed, server based reporting was difficult to use and hard to customize. Together with LKQ engineers we came up with a simple, API-based, command line tool that allows users to produce customizable reports from the data collected in SQUAD. The tool is still in active development and is already used by Linaro Developer Services. The LKQ team is starting to make greater use of this project in their effort to improve kernel testing reports.
@@ -111,7 +111,7 @@ LKFT 2.0 now includes the following components:
 
 Each of these components can and are often reused outside of LKFT for their specific purpose. Together, they provide all of the functionality needed to deliver LKFT. What’s really interesting about this list is that many of the innovations from this year have already been adopted in LKFT, but by no means is LKFT the only place these are usable.
 
-{% include image.html path="/assets/images/content/tuxsuite.png" alt="tuxsuite logo" %}
+{% include image.html path="/assets/images/content/tuxsuite.png"class="small-inline left" alt="tuxsuite logo" %}
 ## TuxSuite
 The term ‘TuxSuite’ might be new to many people since this ‘branding’ term was just recently decided upon as the name of the suite of tools we’re building.
 
