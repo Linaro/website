@@ -17,7 +17,7 @@ related_projects:
 category: blog
 author: georgi.djakov@linaro.org
 ---
-# MAIN HEADING
+# Saving Power & Improving Performance With Dynamic Interconnect Scaling
 
 {% include image.html path="/assets/images/content/interconnect-framework-timeline.png" alt="Interconnect Framework Timeline" %}
 
@@ -43,7 +43,7 @@ In 2017, I started posting RFC patches on the mailing lists. The initial feedbac
 
 ## Scaling Interconnect Bus
 
-Then in April 2018, Vincent Guittot and I made a presentation ([Scaling Interconnect bus](https://lwn.net/Articles/754923/)) at the OSPM Summit. Explaining the idea to other kernel experts and maintainers with more details and example use-cases helped considerably to get a clearer picture. This was a common problem, which was solved differently in the SoC vendor kernels - often by introducing hacks and abusing existing frameworks. There was definitely a need for a common solution. I proposed a new API and the feedback was very positive with people agreeing that such functionality deserves a new framework. However, we had other problems to soon tackle. The first one was adding bandwidth support to OPP for consumers that can’t determine their own bandwidth needs. The second one was to allow shared paths to be used by CPUs and DSPs coexisting in the same SoC.
+Then in April 2018, Vincent Guittot and I made a presentation (Scaling Interconnect bus) at the [OSPM Summit](https://lwn.net/Articles/754923/). Explaining the idea to other kernel experts and maintainers with more details and example use-cases helped considerably to get a clearer picture. This was a common problem, which was solved differently in the SoC vendor kernels - often by introducing hacks and abusing existing frameworks. There was definitely a need for a common solution. I proposed a new API and the feedback was very positive with people agreeing that such functionality deserves a new framework. However, we had other problems to soon tackle. The first one was adding bandwidth support to OPP for consumers that can’t determine their own bandwidth needs. The second one was to allow shared paths to be used by CPUs and DSPs coexisting in the same SoC.
 
 During the next few months, I just continued updating the patches and in September I made  another presentation at Linaro Connect (On-chip interconnect API). Then in November, Vincent Guittot kindly offered to make the same presentation at the Linux Plumbers Conference.
 
