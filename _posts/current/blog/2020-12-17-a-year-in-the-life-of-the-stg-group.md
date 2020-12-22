@@ -11,7 +11,7 @@ tags:
   - STG
   - Tuxsuite
 category: blog
-author: jon.burcham@linaro.org
+author: ryan.arnold@linaro.org
 ---
 # Linaro System Technologies Group (STG) 2020 Year In Review
 
