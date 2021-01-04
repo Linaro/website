@@ -22,7 +22,7 @@ tags:
   - UEFI
   - Arm
 category: blog
-author: jon.burcham@linaro.org
+author: ilias.apalodimas@linaro.org
 ---
 # **Intro**
 
