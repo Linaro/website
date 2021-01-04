@@ -1,6 +1,6 @@
 [
     {
-        "theme": "Android Ecosystem",
+        "name": "Android Ecosystem",
         "members": [
             {
                 "image": "https://static.linaro.org/common/member-logos/arm.jpg",
@@ -35,7 +35,7 @@
         ]
     },
     {
-        "theme": "Artificial Intelligence",
+        "name": "Artificial Intelligence",
         "members": [
             {
                 "image": "https://static.linaro.org/common/member-logos/arm.jpg",
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "theme": "IoT & Embedded",
+        "name": "IoT & Embedded",
         "members": [
             {
                 "image": "https://static.linaro.org/common/member-logos/arm.jpg",
@@ -95,7 +95,7 @@
         ]
     },
     {
-        "theme": "Kernel, Toolchain & Security",
+        "name": "Kernel, Toolchain & Security",
         "members": [
             {
                 "image": "https://static.linaro.org/common/member-logos/arm.jpg",
@@ -125,7 +125,7 @@
         ]
     },
     {
-        "theme": "OS Build & Test",
+        "name": "OS Build & Test",
         "members": [
             {
                 "image": "https://static.linaro.org/common/member-logos/arm.jpg",
@@ -140,7 +140,7 @@
         ]
     },
     {
-        "theme": "Trusted Substrate",
+        "name": "Trusted Substrate",
         "members": [
             {
                 "image": "https://static.linaro.org/common/member-logos/arm.jpg",
