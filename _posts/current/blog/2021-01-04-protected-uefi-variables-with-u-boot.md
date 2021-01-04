@@ -15,7 +15,6 @@ description: >-
   But what's the status of devices running on U-Boot?
 date: 2021-01-04 02:16:09
 image: /assets/images/content/tech_background.jpg
-strap_image: ""
 tags:
   - Bootloaders
   - Security
