@@ -2,7 +2,7 @@
 id: 2
 title: Android Ecosystem
 permalink: /android-ecosytem/
-image: /assets/images/content/Android Ecosystem.png
+image: /assets/images/content/Android_Ecosystem.png
 description: >
     Is Android a strategic OS for your company? Member companies and Linaro
     collaborate together with Google to improve the Android ecosystem. Our work is
@@ -18,7 +18,7 @@ jumbotron:
         primarily in the Linux Kernel. By making decisions and coordinating engineering
         activity together, the Android ecosystem is more healthy which results in better
         Android products and improved efficiency creating those products.
-    image: /assets/images/content/Android Ecosystem.png
+    image: /assets/images/content/Android_Ecosystem.png
 flow:
     - row: container_row
       sections:
@@ -48,16 +48,16 @@ flow:
                 buttons:
                    - title: View
                      url: /about/
-    - row: container_row
-      style: bg-secondary related_projects
-      sections:
-        - format: title
-          title_content:
-            size: h2
-            text: >
-                Related Projects
-        - format: custom_include
-          source: themes/related_projects.html
+    # - row: container_row
+    #   style: bg-secondary related_projects
+    #   sections:
+    #     - format: title
+    #       title_content:
+    #         size: h2
+    #         text: >
+    #             Related Projects
+    #     - format: custom_include
+    #       source: themes/related_projects.html
     - row: container_row
       style: associated_members
       sections:
