@@ -6,7 +6,6 @@ description: Linaro is proud to announce that NXM Labs Inc. and Open Mobile
   governance community project hosted by Linaro Community Projects.
 date: 2021-01-04 11:47:48
 image: /assets/images/content/linaro-logo.png
-strap_image: ""
 tags:
   - Trusted Firmware
 category: news
