@@ -6,7 +6,11 @@ date: 2021-01-04 02:16:09
 image: /assets/images/content/tech_background.jpg
 strap_image: ""
 tags:
+  - Bootloaders
+  - Security
+  - U-Boot
   - UEFI
+  - Arm
 category: blog
 author: jon.burcham@linaro.org
 ---
@@ -200,3 +204,34 @@ BootOrder:
     NV|BS|RT, DataSize = 0x2
 =>
 ```
+
+
+
+### **Set/Get a variable**
+
+```
+=> setenv -e -nv -bs -rt test2 test2
+=> printenv -e test2
+test2:
+    8be4df61-93ca-11d2-aa0d-00e098032b8c EFI_GLOBAL_VARIABLE_GUID
+    NV|BS|RT, DataSize = 0x5
+=>
+```
+
+
+
+### **Check available storage**
+
+```
+=> efidebug query -bs -rt -nv
+Max storage size 16284
+Remaining storage size 15188
+Max variable size 8132
+=>
+```
+
+
+
+## **Next Steps**
+
+Since U-Boot's EFI support is getting richer I'll try installing Debian on Armv8 designed to work as a [workstation](https://www.solid-run.com/arm-servers-networking-platforms/honeycomb-workstation/)
