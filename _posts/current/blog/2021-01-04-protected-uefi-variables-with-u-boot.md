@@ -90,7 +90,7 @@ make -C edk2/BaseTools
 build -p $ACTIVE_PLATFORM -b RELEASE -a AARCH64 -t GCC5 -n $(nproc)
 ```
 
-The StandAloneMM binary is located at **[Build/MmStandaloneRpmb/RELEASE_GCC5/FV/BL32_AP_MM.fd](Build/MmStandaloneRpmb/RELEASE_GCC5/FV/BL32_AP_MM.fd)**
+The StandAloneMM binary is located at *Build/MmStandaloneRpmb/RELEASE_GCC5/FV/BL32_AP_MM.fd*
 
 ### **Building OP-TEE**
 
@@ -107,8 +107,6 @@ popd
 ```
 
 ***CAUTION***: OP-TEE will program the RPMB key (which is one time programmable). If your platform port of OP-TEE doesn't have a way of retrieving a secure key from the hardware you might end up with the default `CFG_RPMB_TESTKEY`.
-
-
 
 ### **Building U-Boot**
 
@@ -144,21 +142,15 @@ Each board has, unfortunately, it's own way of creating the final firmware image
 
 On your first boot, if the RPMB key is not programmed, OP-TEE will do that for you.
 
-
-
 ```
 D/TC:?? 00 tee_rpmb_write_and_verify_key:1069 RPMB INIT: Writing Key value:
 D/TC:?? 00 tee_rpmb_write_and_verify_key:1070 00000000fc142dc0  xx xx xx xx xx xx xx xx  xx xx xx xx xx xx xx xx
 D/TC:?? 00 tee_rpmb_write_and_verify_key:1070 00000000fc142dd0  xx xx xx xx xx xx xx xx  xx xx xx xx xx xx xx xx
 ```
 
-
-
 ### **Print variables**
 
 Notice OP-TEE probing before accessing the variables **OP-TEE: revision 3.11 (e6e7781f**
-
-
 
 ```
 => printenv -e
@@ -215,8 +207,6 @@ BootOrder:
 =>
 ```
 
-
-
 ### **Set/Get a variable**
 
 ```
@@ -228,8 +218,6 @@ test2:
 =>
 ```
 
-
-
 ### **Check available storage**
 
 ```
@@ -239,8 +227,6 @@ Remaining storage size 15188
 Max variable size 8132
 =>
 ```
-
-
 
 ## **Next Steps**
 
