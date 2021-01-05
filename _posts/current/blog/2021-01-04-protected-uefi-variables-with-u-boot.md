@@ -229,7 +229,3 @@ Remaining storage size 15188
 Max variable size 8132
 =>
 ```
-
-## **Next Steps**
-
-Since U-Boot's EFI support is getting richer I'll try installing Debian on Armv8 designed to work as a [workstation](https://www.solid-run.com/arm-servers-networking-platforms/honeycomb-workstation/)
