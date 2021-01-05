@@ -10,7 +10,7 @@
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=281#\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
                 "Project Homepage": "",
-                "Theme": "Artifical Intelligence",
+                "Theme": "Artificial Intelligence",
                 "description": "Artificial Intelligence related activities that span from Server, Edge to Micro-controllers. <br><br><ul><li> Micro-Controller activity is primarily focused on MicroTVM an open source AI compiler framework under active development.</li><li> Cortex-A related efforts involve the following AI frameworks : ArmNN, ACL (Arm Compute Library), ONNX, PyTorch, Tensorflow, Tensorflow Lite and Tensorflow Micro. </li></ul>The project includes a CI system which is made up of a diverse set of member hardware to perform validation and benchmarking to catch regressions. Many open source AI framework communities do not include an ARM as such having one an important in order to advance our work",
                 "title": "AI Project"
             },
@@ -96,6 +96,7 @@
                 "Plan Of Record": "",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/DTE\">https://collaborate.linaro.org/display/DTE</a>",
                 "description": "",
+                "Theme": "Trusted Substrate",
                 "title": "Device Tree Evolution"
             },
             "Project Ownership": {
@@ -115,6 +116,7 @@
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/GNU?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
+                "Theme": "Kernel, Toolchain & Security",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/GNU\">https://collaborate.linaro.org/display/GNU</a>",
                 "description": "Development of GNU Toolchain:<br><ul><li> GCC compiler</li><ul><li> We improve Link-Time Optimizations (LTO), SVE auto-vectorization optimizations, and microarchitecture-specific optimizations for popular Arm cores.</li><li> We improve performance and scalability of Libgomp (GNU OpenMP runtime)</li><li> We support compiler sanitizers (ASAN, TSAN, etc.) in GCC.  Sanitizers are developed under LLVM Toolchain project, and sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.</ul></li><li> GDB debugger</li><ul><li> We develop support for new ARMv8.x architectural features and improve debugging experience.</ul></li><li> Glibc C Library</li><ul><li> We implement both target-specific and generic optimizations in Glibc.  We then aim to propagate all relevant Glibc improvements to Newlib and Bionic C libraries.</ul></li><li> GNU Binutils assembler, BFD and Gold linkers</li><ul><li> In Binutils we implement ELF section-level optimizations, as well as workarounds for hardware errata.</li></ul></li></ul>",
                 "title": "GNU Toolchain"
@@ -138,6 +140,7 @@
                 "Plan Of Record": "",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/HPCSIG\">https://collaborate.linaro.org/display/HPCSIG</a>",
                 "description": "High Performance Computing & Artificial Intelligence<br><br>Drive the adoption of ARM in HPC through standardisation, interoperability, orchestration and use case development. Leverage ARM-based hardware around server class infrastructure, multi-gigabit interconnect support, scalable vector extensions and software ecosystem support to build exascale HPC deployments. The engineering focus is on OpenHPC, application performance, AI solutions, SVE enablement and hardware deployment.",
+                "Theme": "Artificial Intelligence",
                 "title": "HPC-AI"
             },
             "Project Ownership": {
@@ -157,6 +160,7 @@
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LLVM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
+                "Theme": "Kernel, Toolchain & Security",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/LLVM\">https://collaborate.linaro.org/display/LLVM</a>",
                 "description": "Development of LLVM Toolchain:<br><ul><li> Clang compiler</li><ul><li> We implement new and improve existing code-size and code-speed optimizations for AArch64 and ARM targets.</ul></li><li> LLDB debugger</li><ul><li> We develop support for new ARMv8.x architectural features and improve debugging experience.</ul></li><li> Compiler-RT runtime libraries</li><ul><li> We port and improve compiler sanitizers (ASAN, TSAN, etc.) to AArch64 and ARM architectures.  Sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.</ul></li><li> LLD linker</li><ul><li> In LLD linker we implement ELF section-level optimizations, as well as workarounds for hardware errata.</li></ul></li></ul>",
                 "title": "LLVM Toolchain"
@@ -178,6 +182,7 @@
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
+                "Theme": "Trusted Substrate",
                 "Project Homepage": "<a href=\"https://optee.readthedocs.io/en/latest/ \">https://optee.readthedocs.io/en/latest/ </a>and <a href=\"https://collaborate.linaro.org/display/LOC\">https://collaborate.linaro.org/display/LOC</a>",
                 "description": "OP-TEE is an open source TEE that has been well received by SoC vendors and OEMs and has been deployed in mobile phones, tablets, cameras, set-top boxes etc. On this project page you will find what Linaro plans to work with when it comes to OP-TEE.<br><br>----<br><br>Linaro used to own the OP-TEE project, but in September 2019 the ownership was transferred to the TrustedFirmware.org project. Despite that Linaro still continues to contribute to the OP-TEE project just as before, the only difference is that Linaro should from now on be seen as any other contributor to the OP-TEE project. To try to avoid confusion with OP-TEE at TrustedFirmware.org, we've named our project \"Linaro OP-TEE contributions\".<br><br>This means that Linaro makes an internal roadmap for OP-TEE, a roadmap that is in sync with the members of Linaro as well as with the TrustedFirmware.org project. ",
                 "title": "Linaro's OP-TEE Contributions"
@@ -199,6 +204,7 @@
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LKQ?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
+                "Theme": "Android Ecosystem",
                 "Project Homepage": "<a href=\"https://lkft.linaro.org/ \">https://lkft.linaro.org/ </a>and <a href=\"https://collaborate.linaro.org/display/LKQ\">https://collaborate.linaro.org/display/LKQ</a>",
                 "description": "Our mission is to improve the quality of the Linux kernel by performing functional testing on Arm hardware. Our focus is on LTS, stable, and upstream development branches.",
                 "title": "Linux Kernel Quality"
@@ -241,6 +247,7 @@
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/PERF?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
+                "Theme": "Kernel, Toolchain & Security",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/PERF\">https://collaborate.linaro.org/display/PERF</a>",
                 "description": "Performance and Power Management have always been tightly linked because the power consumption often arises as a variable of the performance of the system. Mobile Phone world has been one of the most active contributors in this area with the aim to run always more powerful systems on always more constrained batteries. In fact,  most of systems can\u2019t afford to simply put everything to its maximum performance level but has to follow either a thermal budget or a maximum power budget.  In this way, large systems also have to deal with those constraints in order to use their power budget efficiently and reach maximum performances. This project aims to improve the efficiency of all ARM based Linux systems, small or large, by improving Linux subsystems that influence its performance or power consumption, which includes the scheduler or the thermal framework in addition to the traditional power management subsystems.",
                 "title": "Power and Performance Project"
@@ -262,6 +269,7 @@
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/VIRT?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
+                "Theme": "Kernel, Toolchain & Security",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/QEMU/\">https://collaborate.linaro.org/display/QEMU/</a>",
                 "description": "Expanding various tools (especially QEMU) to emulate new ARM architectural features so open source projects can rapidly adopt the latest technology. We also continually improve ARMs hardware virtualization aiming for feature parity with other popular enterprise architectures.",
                 "title": "QEMU"
@@ -304,6 +312,7 @@
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/SCMI?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
+                "Theme": "Kernel, Toolchain & Security",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/SCMI\">https://collaborate.linaro.org/display/SCMI</a>",
                 "description": "System Control and Management Interface (SCMI) has been designed to standardize the interface between a power coprocessor and other parts of a SoC. That includes the application processor (AP)  on which we can have both rich OS like Linux but also a TEE like OP-TEE.<br>Each client of the power coprocessor has its own access point with specific control permissions on the power resources. But on some \u201cmedium/small\u201d systems, the power coprocessor may not be present or doesn\u2019t provide enough access points. In such a case, the AP itself has to control and filter the access to the power resources.<br>For security reason, the TEE must have the control of shared resources and populate the authorized resources to the non secure world. The TEE acts as a power coprocessor from Linux PoV and we can keep the SCMI interface.",
                 "title": "System Control and Management Interface"
@@ -325,6 +334,7 @@
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=280#\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
+                "Theme": "Kernel, Toolchain & Security",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/UM/Upstream+Maintainership+Home\">https://collaborate.linaro.org/display/UM/Upstream+Maintainership+Home</a>",
                 "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result, as maintainers, they become responsible for keeping their code upstream in sync with the overall development of respective upstream projects.",
                 "title": "Upstream Maintainership"
@@ -346,6 +356,7 @@
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/RPROC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
+                "Theme": "Kernel, Toolchain & Security",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/rproc\">https://collaborate.linaro.org/display/rproc</a>",
                 "description": "Advance and promote development related to the remoteproc and rpmsg kernel subsystems.  More specifically identify features commonly sought after by the <a href=\"https://www.openampproject.org/\">OpenAMP</a> community and assist with their implementation.  ",
                 "title": "remoteproc/rpmsg Evolution"
