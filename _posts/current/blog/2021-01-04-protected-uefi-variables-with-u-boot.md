@@ -21,6 +21,8 @@ tags:
   - U-Boot
   - UEFI
   - Arm
+related_projects:
+  - LKQ
 category: blog
 author: ilias.apalodimas@linaro.org
 ---
