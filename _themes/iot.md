@@ -48,16 +48,16 @@ flow:
                 buttons:
                    - title: View
                      url: /about/
-    # - row: container_row
-    #   style: bg-secondary related_projects
-    #   sections:
-    #     - format: title
-    #       title_content:
-    #         size: h2
-    #         text: >
-    #             Related Projects
-    #     - format: custom_include
-    #       source: themes/related_projects.html
+    - row: container_row
+      style: related_projects bg-secondary text-white
+      sections:
+        - format: title
+          title_content:
+            size: h2
+            text: >
+                Related Projects
+        - format: custom_include
+          source: themes/related_projects.html
     - row: container_row
       style: associated_members
       sections:
