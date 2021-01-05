@@ -1,2 +1,64 @@
 #wrapper {
+  img.members-img {
+    height: 150px;
+  }
+  .related_project {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-weight: 900;
+    transition: all 500ms ease;
+    &:hover {
+      -webkit-box-shadow: 2px 4px 16px 6px rgba(56, 56, 56, 1);
+      -moz-box-shadow: 2px 4px 16px 6px rgba(56, 56, 56, 1);
+      box-shadow: 2px 4px 16px 6px rgba(56, 56, 56, 1);
+    }
+  }
+  .theme_banner {
+    z-index: 0;
+    height: auto !important;
+    &:before {
+      position: absolute;
+      content: "";
+      height: 15px;
+      width: 100%;
+      top: 0;
+      z-index: 2;
+      left: 0;
+      background-color: #ccc;
+      background: linear-gradient(
+        to left,
+        rgba(#000, 1) 0%,
+        rgba(#fff, 1) 100%
+      );
+      width: 100%;
+      border-bottom: 1px solid #000;
+    }
+    h1 {
+      margin-bottom: 30px !important;
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      top: 0;
+      z-index: 1;
+      left: 0;
+      background: linear-gradient(
+        to left,
+        rgba(#000, 0) 0%,
+        rgba(#000, 1) 100%
+      );
+    }
+    .inner_content_wrapper {
+      z-index: 2;
+      max-width: 800px;
+      position: relative;
+    }
+    .header_background_image {
+      filter: brightness(0.6);
+    }
+  }
 }
