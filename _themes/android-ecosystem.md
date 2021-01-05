@@ -1,7 +1,7 @@
 ---
 id: 2
 title: Android Ecosystem
-permalink: /android-ecosytem/
+permalink: /android-ecosystem/
 image: /assets/images/content/Android_Ecosystem.png
 description: >
     Is Android a strategic OS for your company? Member companies and Linaro
@@ -11,7 +11,7 @@ description: >
     Android products and improved efficiency creating those products.
 jumbotron:
     class: theme_banner 
-    title: Android Ecosytem
+    title: Android Ecosystem
     description: >
         Is Android a strategic OS for your company? Member companies and Linaro
         collaborate together with Google to improve the Android ecosystem. Our work is

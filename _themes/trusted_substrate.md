@@ -49,7 +49,7 @@ flow:
                 style: text-center
                 buttons:
                    - title: View
-                     url: /about/
+                     url: /blog/tags/?tag=Trusted%20Firmware
     - row: container_row
       style: related_projects bg-secondary text-white
       sections:
