@@ -133,13 +133,13 @@ Each of these components can and are often reused outside of LKFT for their spec
 
 {% include image.html path="/assets/images/content/tuxsuite.png" class="small-inline left" alt="tuxsuite logo" %}
 
-## [TuxSuite](tuxsuite.com)
+## [TuxSuite](https://tuxsuite.com/)
 
 The term ‘TuxSuite’ might be new to many people since this ‘branding’ term was just recently decided upon as the name of the suite of tools we’re building.
 
 {% include image.html path="/assets/images/content/tuxmake.png" class="small-inline left" alt="tuxmake logo" %}
 
-### [TuxMake](gitlab.com/Linaro/tuxmake)
+### [TuxMake](https://gitlab.com/Linaro/tuxmake)
 
 TuxMake is an open source project that provides curated build environments and tools (in containers) that are necessary for building Linux kernels. It provides for kernel builds what git provides for kernel source, that is portable and reproducible builds. It’s a problem that much of the upstream Linux development community 
 doesn’t even realize they have (collectively spending incredible amounts of time dealing with broken builds and frustration about lack of build reproducibility). TuxMake has delivered on its promises and is currently being fully integrated into TuxBuild. TuxMake has a chance to change Linux kernel development best-practices. We’re hoping for industry adoption of TuxMake in the future.
@@ -157,6 +157,6 @@ TuxPub is the “Serverless File Server”. It’s a file server that does not r
 TuxBoot is the sibling service to TuxBuild. TuxBoot was conceived with the grand vision of being able to boot any Linux kernel built by TuxBuild in emulation, in constant time. The first step in this vision was to execute a prototype. The prototype started with a very narrow mission--to prove that we could boot test 100 Linux kernels simultaneously “in the cloud” using ephemeral LAVA hosted QEMU instances. This required learning cloud-native ‘serverless’ methodologies so that there is no TuxBoot infrastructure running when there are no TuxBoot jobs being executed. This meant learning AWS Amazon Machine Images (AMI), AWS queuing with SQS, Auto-scaling groups, AWS spot instance ‘on-demand’ virtual machine management, AWS APIs, and AWS Lambda. They used TuxBuild as a model for the API and serverless backend but had to solve major technological problems to get the ASG model working properly.
 
 {% include image.html path="/assets/images/content/tuxbuild.png" class="small-inline left" alt="tuxbuild logo" %}
-[TuxBuild](gitlab.com/Linaro/tuxbuild) has been impressively reliable over the last year, with zero downtime, attributable to the continuous deployment methodology of the development team as well as a testament to the power of the serverless methodologies when implemented according to “best-practices”. The Tux team has been making consistent improvements in the areas of scalability for the last year. Not only have they been executing disciplined weekly load tests which have helped them find scalability corner-cases (such as abnormalities in how AWS reaps spot-instances immediately after allocating them), but they’ve also been working on fundamental improvements to how we manage hitting foreign git-servers at scale.
+[TuxBuild](https://gitlab.com/Linaro/tuxbuild) has been impressively reliable over the last year, with zero downtime, attributable to the continuous deployment methodology of the development team as well as a testament to the power of the serverless methodologies when implemented according to “best-practices”. The Tux team has been making consistent improvements in the areas of scalability for the last year. Not only have they been executing disciplined weekly load tests which have helped them find scalability corner-cases (such as abnormalities in how AWS reaps spot-instances immediately after allocating them), but they’ve also been working on fundamental improvements to how we manage hitting foreign git-servers at scale.
 
 We learned a lot about how to crash git server hosts in the last year while scale-testing TuxBuild and we realized that in order to execute on our vision for TuxBuild we could not have TuxBuild hammering kernel.org, github.com, or gitlab.com with thousands of simultaneous fetch requests or we might get sternly worded emails from those service providers. As a remedy we developed a serverless git repo cache and mirror mechanism, proprietary to TuxBuild, that prevents TuxBuild from saturating external git servers.
