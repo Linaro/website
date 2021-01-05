@@ -1,53 +1,15 @@
 <div class="col col-12">
     <div class="row">
-        <div class="col col-12 col-sm-6">
-            <a href="/projects/">
-                <div class="related_project">
-                    Artificial Intelligence
+        {% for project in site.data.projects %}
+            {% if project["Project Information"]["Theme"] == page.title %}
+                <div class="col col-12 col-sm-6">
+                    <a href="/projects/#{{project["key"]}}">
+                        <div class="related_project">
+                            {{project["Project Information"]["title"]}}
+                        </div>
+                    </a>
                 </div>
-            </a>
-        </div>
-        <div class="col col-12 col-sm-6">
-            <a href="/projects/">
-                <div class="related_project">
-                    Artificial Intelligence
-                </div>
-            </a>
-        </div>
-        <div class="col col-12 col-sm-6">
-            <a href="/projects/">
-                <div class="related_project">
-                    Artificial Intelligence
-                </div>
-            </a>
-        </div>
-        <div class="col col-12 col-sm-6">
-            <a href="/projects/">
-                <div class="related_project">
-                    Artificial Intelligence
-                </div>
-            </a>
-        </div>
-        <div class="col col-12 col-sm-6">
-            <a href="/projects/">
-                <div class="related_project">
-                    Artificial Intelligence
-                </div>
-            </a>
-        </div>
-        <div class="col col-12 col-sm-6">
-            <a href="/projects/">
-                <div class="related_project">
-                    Artificial Intelligence
-                </div>
-            </a>
-        </div>
-        <div class="col col-12 col-sm-6">
-            <a href="/projects/">
-                <div class="related_project">
-                    Artificial Intelligence
-                </div>
-            </a>
-        </div>
+            {% endif %}
+        {% endfor %}
     </div>
 </div>
