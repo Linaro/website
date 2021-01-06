@@ -13,6 +13,7 @@ jumbotron:
   image: /assets/images/content/Membership_banner_image.jpg
 flow:
   - row: container_row
+    style: pb-5
     sections:
       - format: title
         title_content:
@@ -51,7 +52,7 @@ flow:
                 style: membership_block
               - title: Faster problem solving = accelerated time to market
                 description: > 
-                  Having engineers from all the member companies work together with Linaro engineers - many of which are world-reknowned Arm software experts - means more eyes on the problem.
+                  Having engineers from all the member companies work together with Linaro engineers - many of which are world-renowned Arm software experts - means more eyes on the problem.
                 style: membership_block
               - title: Arm & Open Source Software Expertise
                 description: > 
