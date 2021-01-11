@@ -113,7 +113,6 @@ If you are interested in this work please subscribe to the [boot-architecture](h
 ### Preface
 
 **By Mark Orvek**
-
 {% include image.html path="/assets/images/content/mark-orvek.png" class="small-inline left" alt="Photo of Mark Orvek" %}
 At the risk of being repetitious, 2020 has been a historic year due to the COVID pandemic.  It has had a direct or indirect impact on all of us.  I offer my condolences to all, like me, who have experienced personal loss due to the pandemic. As 2020 winds down, I am hopeful for the future and I am confident recovery will happen in the coming months.
 
@@ -236,3 +235,63 @@ The majority of the goals defined at Linaro Connect 2019 Bangkok (BKK19), regard
 Continuing our effort in Trusted Substrate, a number of features have been merged (or are in the process of merging) in U-Boot. Features like UEFI secure boot, Capsule Updates, EFI RNG protocol and EFI TCG2 protocol, provide additional functionality, security and greatly enhance the chain of trust. It’s worth mentioning that some LEDGE engineers became maintainers in projects to which they contribute.
 
 Continuing the work on secure devices, we are working on secure, rollback and brick protected firmware upgrades, collaborating with Arm in defining the protocol and providing a proof of concept.
+
+## LEDGE Reference Platform
+
+The LEDGE reference platform evolved substantially since last year. We now offer prebuilt images for a range of boards. Although the scope of the platform up to now was to provide a reference OS, we also provide prebuilt images that can be easily deployed on a range of platforms. Those images include, apart from the OS itself, an EBBR compliant firmware.
+
+The reference platform consumed the majority of the work done upstream. As a consequence, we can now provide images that have EFI enabled and use an architecture agnostic way of loading an initramfs. We are currently working on adding the rest of the features, like TCG2 protocol support, using the firmware TPM which we now provide.
+
+PARSEC (Platform AbstRaction for SECurity, an API to hardware security and cryptographic services) support was added, including its daemon and the required user-space libraries which currently use our FirmwareTPM device. PARSEC integration included a meta-rust layer to be enabled and developed bitbake recipes can be used as examples of packaging embedded applications written in the Rust programming language. We also solved the problem of fetching Rust application dependencies with the Cargo tool.
+
+During integration of Trusted Substrate work, we found and solved bugs:
+
+1. Wrong calculation crypto signature in uefi U-Boot if virtual machine was run with a different amount of memory. The connection patch was merged on the community review stage.
+2. Depending on virtual machine memory size, the initrd image can not be loaded. This was an issue with the communication protocol between UEFI uboot and UEFI kernel stab, which allocated memory and copies there initrd. The fix went to 5.10 kernel.
+
+We also added documentation for LEDGE RP- the LEDGE User guide and LEDGE Developer Howto. (<https://linaro.github.io/ledge-doc>). Documents are also generated during the Open Embedded build.
+
+We removed the injection of the OPTEE compatible node to QEMU device tree. Previously we did that with -dtb qemu parameter, later with patching QEMU. Now OPTEE OS itself adds this node.
+
+## QEMU BSA
+
+Support of the QEMU virtual machine as a reference machine to run LEDGE/Trusted Substrate work continued with enhancements for QEMU with reboot, machine power down enhancements for secure boot. We made several proposals and sent these as patches to the QEMU mailing list:
+
+* sbsa watchdog for qemu virt platform matching linux kernel sbsa-gwdt driver. Maxim Uvarov’s  patch was integrated with the Sashi Mallela patch. The combined patch finally was merged.
+* For LEDGE RP we enabled wdt_i6300esb PCI watchdog.
+* A proposal to use sbsa_ec controller to reboot QEMU secure virtual machine was sent as patches to QEMU and Arm Trusted Firmware mailing lists.  But discussion of next improvement sbsa_ec may break the virt platform, so the community decided to use secure gpio (pl061) to reboot/shutdown a virtual machine from the secure world.  Maxim is working on a new set of patches.
+
+## CI
+
+On the CI front we continued adding tests for the reference platform. Since the firmware development paved the way on the previous cycle, one major addition is the FWTS test suite running in LAVA.
+
+## Community leadership
+
+LEDGE has been active in promoting Trusted Substrate and LEDGE Reference Platform as an Arm Cassini implementation at various organizations and during a number of events.
+
+The most salient results are:
+
+* Reference to Linaro and Trusted Substrate in Industrial Internet Consortium [Distributed Computing in the Edge](https://www.iiconsortium.org/pdf/IIoT-Distributed-Computing-in-the-Edge.pdf)
+* Industrial Internet Consortium Journal of Innovation article on [Over-The-Air updates in automotive sector](https://www.iiconsortium.org/news/joi-articles/2020-March-JoI-Why-Are-OTA-Updates-Needed-for-ITS.pdf)
+* Bright Talk [Trusted Substrate webinar](https://www.brighttalk.com/webcast/679/427036)
+* Bosch webinar on [over-the-air updates for off-road machinery](https://bit.ly/3oXYVcQ)
+* FOSDEM presentation for [XDP](https://archive.fosdem.org/2020/schedule/event/xdp_and_page_pool_api/)
+* NetDev presentation on [page_pool API and XDP](https://netdevconf.info/0x14/session.html?tutorial-add-XDP-support-to-a-NIC-driver)
+* ArmDevSummit presentation on [LEDGE RP](https://devsummit.arm.com/agenda/?search=ledge#/)
+
+## System Technologies
+**By Ryan Arnold, Engineering Director, System Technologies**
+
+2020 has been an extremely busy year for the Linaro System Technologies Group. Included below are the highlights of the impressive contribution of this team.
+
+### Keep The Lights On - The Tip Of The Iceberg
+
+In the last year, the Linaro STG team has resolved a stunning 800+ LSS tickets. This represents requests from across Linaro’s segment and working groups, projects where we provide services directly to Members, Linaro developer services, Linaro landing teams, Linaro community projects (such as Trusted Firmware), directed projects such as Morello, and our own internal needs. These 800+ tickets do not include software feature requests that are a part of the collection of open-source software that we created and continue to maintain.
+
+### LTS Kernel Testing SLA - 100% of all LTS releases validated in less than 48 hours!
+
+Repeating the success from last year, the KV team and LSS teams have successfully validated all (100%) LTS releases in less than 48 hours, exceeding our goal of 80%. This took discipline and in some cases extreme effort to achieve.
+
+### Kernel Image Repacking (KIR)
+
+[KIR](https://github.com/Linaro/kir) is a tool that allows repacking of kernel images into boot images and/or rootfs images. KIR was written to eliminate the need to have a custom rootfs build for every LKFT LAVA job. Any LKFT job can run any kernel without additional modifications. This allows functional test bisections to be much easier to accomplish, and allows us to reduce the amount of time it takes to execute an LKFT build since we’re able to build the rootfs images out-of-band from the kernels being tested.
