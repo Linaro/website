@@ -137,12 +137,14 @@ https://www.linkedin.com/in/jon-burcham/
 The [2020 OSPM summit](http://retis.sssup.it/ospm-summit/), which is a significant event for the Linux kernel world, was covered by Jonathan Corbet publisher of [LWN](http://lwn.net). Jonathan wrote an article [“Imbalance Detection and Fairness in CPU Scheduler”](https://lwn.net/Articles/821123/) for the May 22, 2020 issue highlighting the work Vincent Guittot is driving within the KWG and the Linux community. Closer to home we published an [overview of VirtIO work](https://www.linaro.org/blog/virtio-work/) and [The Evolution Of The QEMU Translator](https://collaborate.linaro.org/display/EMR/Linaro+Engineering+Highlights+2020.07) both written by Alex Bennée. In August, Daniel Lezcano published two power management articles. The first was “[Using Energy Model to Stay in TDP Budget](https://www.linaro.org/blog/using-energy-model-to-stay-in-tdp-budget/) ” and [“Thermal Notifications with Netlink”](https://www.linaro.org/blog/thermal-notifications-with-netlink/) . Linus Walleij contributed a widely read article “[How the ARM32 Linux kernel decompresses](https://people.kernel.org/linusw/how-the-arm32-linux-kernel-decompresses)” which was reprinted in the August 13, 2021 issue of LWN. In September, we wrote articles on [BFQ](https://www.linaro.org/blog/bfq-saved-me-from-thrashing/), [Force Idle When a CPU Is Overheating](https://www.linaro.org/blog/force-idle-when-a-cpu-is-overheating/), [Enabling UEFI Secure Boot on U-Boot](https://www.linaro.org/blog/enabling-uefi-secure-boot-on-u-boot/) and [OpenOCD at Linaro](https://www.linaro.org/blog/open-on-chip-debugger-ocd-at-linaro/). In November, a [sequence of articles on Arm32](https://www.linaro.org/blog/linaro-engineering-highlights-november-2020/) by Linus Walleij was published with a wrapup in December of [an overview of the future of 32-bit Linux](https://www.linaro.org/blog/32-bit-linux-bright-future-or-end-of-life/).
 
 ## Linaro Consumer Group
+
 **By Tom Gall, Engineering Director, LCG**
 
 {% include image.html path="/assets/images/content/LCG.png" class="small-inline left" alt="Linaro Consumer Group icon" %}
 Over the course of the past year,  LCG has been focused in 3 areas of involvement within the Android ecosystem. These are Premium Supported Developer Boards for Android, Kernel Engineering for Android and Android Common Kernel Validation in collaboration with LKFT.
 
 ### Premium Supported Developer Boards for Android
+
 LCG consolidated its focus on the Member development boards that we had helped push into the AOSP master tree. We maintain these development boards in AOSP, keeping them up-to-date across Android 8, Android 9, Android 10, Android 11, and AOSP with kernel versions that include 4.4, 4.9, 4.14, 4.19, 5.4, 5.10 and mainline. At present, these boards are: Qualcomm’s Dragonboard 845c, HiSilicon’s HiKey and Hikey960, and TI’s X15.
 
 These boards serve as a great vehicle to do feature development (ex GKIv2, etc), upstreaming, CI and validation for all things Android. They have been instrumental in development and demonstration of new Android features. More details are in the following section.
@@ -150,6 +152,7 @@ These boards serve as a great vehicle to do feature development (ex GKIv2, etc),
 Our mainline-tracking activities on these boards have made sure that breakages between Android userspace and mainline kernels are found, reported and fixed as soon as the upstream kernels are released - naturally most of these are found during the merge windows. This also provided the validation paths needed for changes posted upstream.
 
 ## Kernel Engineering for Android
+
 Kernel engineering for Android was largely concentrated on Android feature enablement and validation, dmabuf heap updates and keeping form-factor devices in sync with mainline kernels.
 
 As Android continues to evolve, the team focussed on enabling new Android features on the current devices - both the development boards and formfactor devices. GKIv2 was implemented on all the devices and continues to be validated. Relevant patches were posted upstream, keeping in line with the upstream-focus of the GKI effort. New features such as FBE, replacing ION with dmabuf heaps, and clk_sync_state were added and validated on the devices.
@@ -165,6 +168,7 @@ Our Android graphics open stack focus with the Dragonboard 845c continued, where
 In our other upstreaming efforts, we pushed fixes for the devices we manage. Android kernel debt reduction was largely focussed around GKI v2. It was also augmented by increased participation from Google engineers on upstreaming new features. We continue to maintain dmabuf, dmabuf heaps, drm_hwcomposer and timekeeping, while being highly active as reviewers in the areas of interest.
 
 ## Android Common Kernel Validation
+
 Android common kernel validation continued to be a strategic focus for the team. So far this year, we have run 402 Million tests, reported in 237 test reports sent through the year. A total of 422 kernels were tested.
 
 All the board/kernel/userspace combinations mentioned above as our premium supported development boards are under test. Test runs include regular runs of defined subsets of CTS and VTS that exercise the kernel, as well as periodic full CTS/VTS runs on the boards. 
@@ -173,9 +177,11 @@ With these large numbers of tests being run weekly, average weekly triaging for 
 Community wise, we had an active year. We were highly active in the Linux Plumbers Android Microconference - both as organising committee members and presenters - driving key discussions and design decisions. John Stultz posted a couple of articles around cache handling and dma-api on LWN. We also did various demos at Linux Plumbers Conference (LPC) and Virtual Connect, notable ones including showcasing GKIv2 and mainline work on Poco F1.
 
 ## AI Project
+
 Over this past year the Linaro AI Project has focused on impact to Servers, Edge and Microcontrollers. Some of accomplishments include:
 
 ### Servers
+
 Linaro now hosts the community build for AArch64 TensorFlow. This is an achievement of the CI infrastructure and the engineering effort to overcome build dependencies.
 
 The Server perspective acknowledges that inferencing dominates the Machine Learning element of AI. By exploring the Training component of machine learning (ML), servers provide the added resource requirements for the ML Models to be built that inference relies upon.
@@ -183,6 +189,7 @@ The Server perspective acknowledges that inferencing dominates the Machine Learn
 In addition to ML Frameworks, Servers explore novel approaches to AI to see how these can be applied to disaggregated/distributed computing environments.
 
 ### Edge
+
 ArmNN/ACL made several releases through the course of the year. The Arm team collaborating through the AI Project took in patches to add a Python interface. Boost dependencies have started to be removed. Performance and other notable improvements happened through the course of the year.
 
 ONNX-RT/ONNX activity this year included the integration of ACL and then ArmNN as part of ONNX-RT. A number of performance improvements were authored by the NXP team that complement these integrations using the ONNX-RT on Arm.
@@ -190,12 +197,15 @@ ONNX-RT/ONNX activity this year included the integration of ACL and then ArmNN a
 TVM is a deep learning compiler that supplies superior performance. This year saw many large performance improvements for Arm platforms. Those engaged on the project benefited from performance updates having visibility as improvements landed. TVMC was integrated into the project. This major contribution by the Arm team gives TVM a command line interface to compile, run, profile and tune models without having to author any python code. This helps to make TVM far more usable to those who aren’t experts in AI or TVM. ACL was also integrated into TVM. This toolbox of performance optimized kernels while not fully utilized yet will help to improve performance of inference on Arm. Ethos-N NPU support was also integrated into TVM. Efficient use of offload technologies on Arm is a key attribute of why companies are collaborating on TVM.
 
 ### Microcontrollers
+
 The µTVM project was launched in coordination with the LITE segment group. The goal is to complete the vision bringing the superior effectiveness of AI Deep Learning compilers to Arm microcontrollers. The direct benefit to Members is the ability to add to their SDK product portfolio. Members collaborating/coordinating through the project increase their value by directly impacting the engineering priorities to align with their own. As the project has gotten off the ground, Zephyr and Mbed RTOS integration is one of the first achievements. The prototype code has started to evolve with the runtime and rpc mechanisms moving forward. There is plenty to do in 2021 on this project.
 
 TensorFlow Lite Micro is another important piece of the AI Project. As LITE launches their CI system, we will be integrating Tensorflow Lite Micro workloads into this CI. We will be working with Members through the next engineering cycle to identify Tensorflow Lite Micro engineering activities through LITE.
 
 ### Linaro IoT and Embedded Group
-**By Vicky Janicki, Engineering Director, LITE**
+
+**By Vicky Janicki, Engineering Director, LITE**
+
 {% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="Linaro IoT and Embedded Group" %}
 
 Over the past year, the LITE team has been expanding the reach of several LITE contributing technology areas. Trusted Firmware for Cortex-M (TF-M) is a maturing codebase. Kevin Townsend (Linaro) has been contributing in various ways to reduce the barriers to successful use. To this end, he has contributed working sample applications showing realistic use cases with TF-M based authentication and certificate management. Kevin has contributed blogs and sessions at conferences such as Arm DevSummit as part of this effort.  TF-M also can now be used out of the box with QEMU on Zephyr. Both David Vincze (Arm) and Andrei Gansari (NXP) were active contributors to the TF-M 1.1 (July) and TF-M 1.2 releases with board support and testing. 
@@ -210,3 +220,19 @@ The team worked closely with the LAVA and Lab teams over the past year to develo
 
 Kumar, a senior Zephyr project maintainer ended the year as the #1 contributor across three releases - 2.2 (March), 2.3 (June) and 2.4 (September). In addition to his role as TSC member, Kumar has released 6 updates to the SDK. Erwan Gouriou (ST) was ranked #10.  LITE team members added support for the Arm Musca S1, the NXP LPC55S and ST boards. This fall, Kevin began work on supporting uTVM on Zephyr, starting with building it within the Zephyr build system.
 
+## Linaro Edge and Fog Computing Group
+
+**By François-Frédéric Ozog, Engineering Director, LEDGE**
+
+{% include image.html path="/assets/images/content/ledge.jpg" class="small-inline left" alt="Linaro Edge Networking Group icon" %}
+Based on our Member needs, our focus this year was UEFI (mostly U-Boot and EDK2) contributions, the LEDGE Reference Platform and Linux kernel fixes.
+
+### Trusted Substrate
+
+The project that started as Dependable Boot last year, evolved into Trusted Substrate. The Dependable boot code is still there and is a vital piece of Trusted Substrate, which aims towards SystemReady compliant firmware, while adding a substantial amount of security on the chain of trust. There is strong collaboration between Linaro and Arm around Trusted Substrate as a foundational element of Service Oriented Architecture for the Embedded Edge (SOAFEE).
+
+The majority of the goals defined at Linaro Connect 2019 Bangkok (BKK19), regarding U-Boot EFI subsystem were achieved. Up to now platforms could either support OP-TEE or EFI variables stored securely, since OP-TEE and StandAloneMM are mutually exclusive. Patches in U-Boot, OP-TEE and EDK2 have been merged, which allow OP-TEE and StandAloneMM to coexist. Moreover, storing the EFI variables in an RPMB partition of an eMMC is also available, which allows small embedded devices without a flash in the secure world to protect their EFI variables against a variety of attacks.
+
+Continuing our effort in Trusted Substrate, a number of features have been merged (or are in the process of merging) in U-Boot. Features like UEFI secure boot, Capsule Updates, EFI RNG protocol and EFI TCG2 protocol, provide additional functionality, security and greatly enhance the chain of trust. It’s worth mentioning that some LEDGE engineers became maintainers in projects to which they contribute.
+
+Continuing the work on secure devices, we are working on secure, rollback and brick protected firmware upgrades, collaborating with Arm in defining the protocol and providing a proof of concept.
