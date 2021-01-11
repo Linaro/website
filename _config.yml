@@ -51,6 +51,8 @@ collections:
     permalink: /membership/:name/
   services:
     output: true
+  themes:
+    output: true
   core:
     output: true
     permalink: /:collection/:path/
@@ -93,6 +95,13 @@ defaults:
       layout: flow
       css_bundle: services
       js-package: services
+      image: /assets/images/content/LinaroDSVertical.png
+  - scope:
+      type: "themes"
+    values:
+      layout: flow
+      css_bundle: themes
+      js-package: themes
       image: /assets/images/content/LinaroDSVertical.png
   - scope:
       path: "_posts/events"
