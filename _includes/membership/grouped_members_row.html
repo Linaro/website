@@ -1,0 +1,69 @@
+<div class="row members_row py-4 core_members">
+    <div class="container">
+            <div class="members_badge">
+                <h3 class="text-uppercase">
+                    Core Members
+                </h3>
+            </div>
+            <div class="col col-12">
+                <div class="row d-flex justify-content-center">
+                        {% for member_group in site.data.members %}
+                            {% if member_group.id == "core" %}
+                                {% for member in member_group.members %}
+                                <div class="col col-6 col-sm-4 col-md-3">
+                                    <img class="lazyload member_image" alt="{{member.name}} logo" data-src="{{member.image}}" 
+                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+                                </div>
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                </div>
+            </div>
+    </div>
+</div>
+<div class="row members_row py-4 club_members">
+    <div class="container">
+            <div class="members_badge">
+                <h3 class="text-uppercase">
+                    Club Members
+                </h3>
+            </div>
+            <div class="col col-12">
+                <div class="row d-flex justify-content-center">
+                        {% for member_group in site.data.members %}
+                            {% if member_group.id == "club" %}
+                                {% for member in member_group.members %}
+                                <div class="col col-6 col-sm-4 col-md-3">
+                                    <img class="lazyload member_image" alt="{{member.name}} logo" data-src="{{member.image}}" 
+                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+                                </div>
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                </div>
+            </div>
+    </div>
+</div>
+<div class="row members_row py-4 group_members">
+    <div class="container">
+            <div class="members_badge">
+                <h3 class="text-uppercase">
+                    Group Members
+                </h3>
+            </div>
+            <div class="col col-12">
+                <div class="row d-flex justify-content-center">
+                        {% for member_group in site.data.members %}
+                            {% if member_group.id == "group" %}
+                                {% for member in member_group.members %}
+                                <div class="col-6 col-sm-4 col-md">
+                                    <img class="lazyload member_image" alt="{{member.name}} logo" data-src="{{member.image}}" 
+                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+                                </div>
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                </div>
+            </div>
+    </div>
+</div>
