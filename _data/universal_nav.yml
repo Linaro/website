@@ -1,22 +1,37 @@
 items:
   - active: true
     title: Linaro
-    url: 'https://www.linaro.org/'
+    url: "https://www.linaro.org/"
   - title: Connect
-    url: 'https://connect.linaro.org'
+    url: "https://connect.linaro.org"
   - title: 96Boards
-    url: 'https://www.96boards.org'
-  - title: Developer Cloud
-    url: 'https://linaro.cloud'
+    url: "https://www.96boards.org"
+  - title: Twitter
+    icon: icon-twitter
+    url: "https://twitter.com/LinaroOrg"
+  - title: Facebook
+    icon: icon-facebook
+    url: "http://facebook.com/LinaroOrg"
+  - title: LinkedIn
+    icon: icon-linkedin
+    url: "https://www.linkedin.com/company/1026961"
+  - title: YouTube
+    icon: icon-youtube
+    url: "https://www.youtube.com/LinaroOrg"
   - options:
       - title: 96Boards.ai
-        url: 'https://www.96boards.ai'
-      - title: devicetree.org
-        url: 'https://www.devicetree.org'
+        url: "https://www.96boards.ai"
+      - title: Developer Cloud
+        url: "https://linaro.cloud"
+      - title: Device Tree
+        url: "https://www.devicetree.org"
+      - title: ML PLatform
+        url: "https://www.mlplatform.org"
       - title: OpenAMP
-        url: 'https://www.openampproject.org'
+        url: "https://www.openampproject.org"
       - title: OP-TEE
-        url: 'https://www.op-tee.org'
+        url: "https://www.op-tee.org"
       - title: Trusted Firmware
-        url: 'https://www.trustedfirmware.org/'
+        url: "https://www.trustedfirmware.org/"
+    hamburger_toggle: true
     title: Projects
