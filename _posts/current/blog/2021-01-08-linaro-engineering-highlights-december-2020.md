@@ -378,3 +378,31 @@ TuxBoot is the sibling service to TuxBuild. TuxBoot was conceived with the grand
 We learned a lot about how to crash git server hosts in the last year while scale-testing TuxBuild and we realized that in order to execute on our vision for TuxBuild we could not have TuxBuild hammering kernel.org, github.com, or gitlab.com with thousands of simultaneous fetch requests or we might get sternly worded emails from those service providers. As a remedy we developed a serverless git repo cache and mirror mechanism, proprietary to TuxBuild, that prevents TuxBuild from saturating external git servers.
 
 ## LDCG
+
+{% include image.html path="/assets/images/content/ledge.jpg" class="small-inline left" alt="Linaro Edge Networking Group icon" %}
+
+This year we have had a goal to move the Colocation datacentre facility from London to Cambridge. The Colo hosts the infrastructure for the Linaro Developer Cloud. This is a free service to enable Any developer to gain access to Arm-based Server-grade environments.
+
+Over the years the hardware at the Colo has been added to with products, sometimes early access before general release, from Qualcomm, HP, Marvell, Mellanox and Huawei. As we go to print with these highlights, the latest addition will be from Fujitsu. Moving forward, we have transitioned and retired older hardware whilst still being able to maintain our overall compute capacity.
+
+The relocation of facilities has also given us an opportunity to re-evaluate how services are delivered at the Colo. Until now, allocation of workloads have been siloed per team/function 
+to specific racks/chassis. To improve general availability of chassis across varying workloads and to optimise power consumption, we are in the process of consolidating chassis access and applying live migration of workloads across optimal numbers of chassis and will power-down spare chassis between workloads.
+
+LDCG covers more than the infrastructure. Each of our teams focus on specific areas of Arm-based server requirements. We have also had a number of new recruits this year.
+
+In Server Architecture this year we welcomed Shashi Mallela, based in Canada. Shashi is helping to develop the Arm SystemReady SR subset for emulation, otherwise known as SBSA QEMU. On its own, QEMU provides an emulation environment for a range of architectures. The SBSA variant provides a whole chassis emulation environment so that developers can try libraries that interact with whole systems rather than pure CPU/Linux Kernel focus. This can be used for pre-availability of hardware testing. SBSA QEMU forms the emulation environment for our SmartNIC research too.
+
+Our avid Cloud developers, Kevin Zhao & Xinliang, both based in China, have been identifying and coding to enable Arm-based support in the Ceph storage platform which ended up also enhancing functionality on non-Arm-based architectures too. Ceph is the storage backend that underpins the whole LDCG datacentre solution. Our virtual machine environment is managed within OpenStack, a community project which enables Live Migration services, which are key to the new datacentre layout. Notwithstanding that, the Cloud team have managed to enable Linaro to be recognised as a Kubernetes-certified test environment, which sits atop OpenStack/Ceph.
+
+{% include image.html path="/assets/images/content/hpc-supercomputer-image.png" class="small-inline left" alt="HPC Supercomputer image" %}
+Arm may have begun in the mobile space but has grown significantly to incorporate not only the server space but now leads the HPC space with the Fujitsu/Riken Fugaku 158,576 node 29MegaWatt supercomputer. Linaro doesn’t want to get left behind in this supercomputer wave and so being installed this Christmas 2020, alongside our existing 6-node ThunderX2-based HPC, is our very own 8-node 1.5KiloWatt variant of Fugaku! We’ve already heard from quite a few of you requesting access.
+
+Feeding into our new datacentre layout and supercomputer will be the need to handle Big Data. Our very own Ganesh Raju, based in the US, just celebrated the release of BigTop v1.5. Ganesh and his Arm Member engineers have been working hard to ensure the various components that make up Big Top all built correctly, and plugged the holes with new code as needed. Big Top will be the stack that houses our Machine Learning models that devour CPU cores for number crunching needs.
+
+For our AI component too, Arm has added two Member engineers to help with our ML Framework development. So, with the rest of LDCG’s assignee and Member engineers - Marcin Juszkiewicz , Masato Fukumori, Masahisa Kojima, Jun He, Guillame Gardet, Nathan Sircombe, Crefeda Rodrigues, Yuqi Gu, LDCG is looking strong for 2021.
+
+This year we have seen the amalgamation of two workgroups, HPC-SIG and AI on Servers, to form the HPC SmartScale project (HPC-AI). It’s also where we’ve seen growth in welcoming new recruits Andrew Goodbody and Takis Mavrodakos. We’re also actively recruiting now for a third! All are based in Cambridge. Andrew and Takis have been providing the physical work of maneuvering the servers from our old London Colo to the Cambridge site, whilst remotely Kevin and Xinliang have been sending many requests to plug Cable 43 to Port 98 and Cable 23 to Switch 2. The list goes on. Well done all - it’s a mammoth task. When the move is over, I’m sure they’ll enjoy the sole focus of software development!
+
+HPC-AI is to promote the Arm-based use of servers in high performance environments and enable intelligent decision making based on input streams. It’s an environment that wouldn’t be possible without all of the components that make up LDCG and the collaboration with notably TCWG and the rest of Linaro.
+
+What? We can do more! We are just beginning the challenge to take-on and support Neoverse in the Hyperscaler environment. This means, cloud-native, disaggregated heterogeneous, distributed computing that utilises AI/ML for smart-enablement of the backend for all those incoming API/RPC calls from the EDGE and IoT fields. Watch this space!
