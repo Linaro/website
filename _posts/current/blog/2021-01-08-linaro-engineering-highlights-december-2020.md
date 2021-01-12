@@ -377,4 +377,4 @@ TuxBoot is the sibling service to TuxBuild. TuxBoot was conceived with the grand
 
 We learned a lot about how to crash git server hosts in the last year while scale-testing TuxBuild and we realized that in order to execute on our vision for TuxBuild we could not have TuxBuild hammering kernel.org, github.com, or gitlab.com with thousands of simultaneous fetch requests or we might get sternly worded emails from those service providers. As a remedy we developed a serverless git repo cache and mirror mechanism, proprietary to TuxBuild, that prevents TuxBuild from saturating external git servers.
 
-<!--EndFragment-->
+## LDCG
