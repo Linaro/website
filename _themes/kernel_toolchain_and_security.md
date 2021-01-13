@@ -5,7 +5,7 @@ permalink: /kernel-toolchain-and-security/
 image: /assets/images/content/Kernel_Toolchain_Security.png
 description: >
     Fundamentals are the technologies that are essential to maintaining
-    the health of software.. We want to facilitate the access to
+    the health of software. We want to facilitate the access to
     maintainers, support regression testing, improve compiler technology
     and increase the security across the Arm ecosystem
 jumbotron:
