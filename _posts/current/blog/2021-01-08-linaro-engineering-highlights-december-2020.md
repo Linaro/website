@@ -2,7 +2,7 @@
 layout: post
 title: Linaro Engineering Highlights - December 2020
 description: This edition of the monthly Engineering Highlights is feature
-  packed with several updates. together with a roundup on the year of some of
+  packed with several updates, together with a roundup on the year of some of
   the key projects.
 date: 2021-01-08 12:08:24
 image: /assets/images/content/code.jpg
@@ -20,7 +20,7 @@ author: jon.burcham@linaro.org
 # The Future of 32-bit Linux
 
 {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering icon" %}
-The news cycle for processors and system-on-chip (SoC) products these days is all about 64-bit cores powering the latest computers and smartphones, so it’s easy to be misled into thinking that all 32-bit technology is obsolete. That quickly leads to the idea of removing support for 32-bit hardware, which would clearly make life easier for kernel developers in a number of ways. At the same time, a majority of embedded systems used today do use 32-bit processors , so a valid question is if this will ever 
+The news cycle for processors and system-on-chip (SoC) products these days is all about 64-bit cores powering the latest computers and smartphones, so it’s easy to be misled into thinking that all 32-bit technology is obsolete. That quickly leads to the idea of removing support for 32-bit hardware, which would clearly make life easier for kernel developers in a number of ways. At the same time, a majority of embedded systems used today use 32-bit processors , so a valid question is if this will ever 
 change, or if 32-bit will continue to be the best choice for devices that do not require significant resources.
 
 To find an answer, it is worth taking a look at different types of systems supported in Linux today, how they have evolved over time with the introduction of 64-bit processors, why they remain popular, and what challenges these face today and in the future. [Continue reading](https://lwn.net/Articles/838807/)
@@ -86,7 +86,7 @@ Which model is correct?  The answer should be “both”.  We wish to always hav
 
 ## DTB ABI testing (DTB as part of firmware model)
 
-In theory, new kernels should work with older DTBs for most modern Arm SoCs.  However this is very rarely tested and not at all formally.  If we believe in this model, we need to start testing it.  We need to test older DTBs with the latest kernel versions.  How old is older?  Ideally all LTS kernels in the past 6 years but we need to start somewhere so the idea is to start with current LTS - 1.  For example, the Linux 5.11-rc releases should be tested against 5.4.  We can’t test all platforms so we will start with a few that support the idea.  A simple boot test will not be sufficient. We will need to quickly checkout as many peripherals as possible because this is the most likely area to break when the DTB info is incompatible.
+In theory, new kernels should work with older DTBs for most modern Arm SoCs.  However this is very rarely tested and not at all formally.  If we believe in this model, we need to start testing it.  We need to test older DTBs with the latest kernel versions.  How old is older?  Ideally all LTS kernels in the past 6 years, but we need to start somewhere so the idea is to start with current LTS - 1.  For example, the Linux 5.11-rc releases should be tested against 5.4.  We can’t test all platforms so we will start with a few that support the idea.  A simple boot test will not be sufficient. We will need to quickly checkout as many peripherals as possible because this is the most likely area to break when the DTB info is incompatible.
 
 Ideally old kernels should work with new DTBs also.  If not, you could have one OS upgrade your firmware and it would break another OS that was previously working.  This version of the test is probably a lower priority than the case above, so we will suggest holding off on this testing until the first version is worked out more.
 
