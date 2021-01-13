@@ -4,22 +4,12 @@ title: OS Build & Test
 permalink: /os-build-and-test/
 image: /assets/images/content/OS_Build_test.png
 description: >
-    Improve the quality of Operating System kernels (Linux, Android,
-    Zephyr) by providing the software tools and processes to allow
-    scalable....
-
-    Facilitate expanded testing coverage and higher software quality in
-    various operating systems -- Linux, Android, and Zephyr
+    Improve the quality of Operating System kernels (Linux, Android and Zephyr) by providing the software tools and processes to allow scalability. Facilitate expanded testing coverage and higher software quality in various operating systems including Linux, Android and Zephyr.
 jumbotron:
     class: theme_banner 
     title: Accelerated Operating System Build and Test Services
     description: >
-        Improve the quality of Operating System kernels (Linux, Android,
-        Zephyr) by providing the software tools and processes to allow
-        scalable....
-
-        Facilitate expanded testing coverage and higher software quality in
-        various operating systems -- Linux, Android, and Zephyr
+        Improve the quality of Operating System kernels (Linux, Android and Zephyr) by providing the software tools and processes to allow scalability. Facilitate expanded testing coverage and higher software quality in various operating systems including Linux, Android and Zephyr.
     image: /assets/images/content/OS_Build_test.png
 flow:
     - row: container_row
