@@ -1,5 +1,6 @@
 ---
 ---
+
 @charset "UTF-8";
 //Bootstrap Overrides
 @import "app/overrides";
@@ -7,11 +8,12 @@
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 //Boostrap Includes
-@import 'bootstrap/bootstrap';
+@import "bootstrap/bootstrap";
 // Linaro Jekyll Theme Includes
 @import "core";
 // App Includes
 @import "app/components/membership_slider";
 @import "app/components/testimonial_block";
 @import "app/components/engineering_slider";
+@import "app/membership";
 @import "app/custom";
