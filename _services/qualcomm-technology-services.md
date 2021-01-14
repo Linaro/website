@@ -21,9 +21,19 @@ keywords:
 icon: /assets/images/content/Icon_Qualcomm.svg
 image: /assets/images/content/LinaroDSVertical.png
 flow:
-    - row: main_content_row
-      style: text_block py-5 dotted-border-bottom
     - row: container_row
+      style: text_block py-5 dotted-border-bottom
+      sections:
+        - format: text
+          style: larger_type
+          text_content:
+            text: >     
+                Linaro Developer Services is a leader in providing Linux BSP development,
+                maintenance and optimization for Qualcomm platforms. Linaro software engineers are
+                recognized worldwide as experts in the Linux kernel community, and the maintainers in
+                the official Linux kernel for main key Qualcomm subsystems and drivers.
+    - row: container_row
+      style: larger_type
       sections:
         - format: custom_include
           source: services/qualcomm_advantage_network.html
@@ -75,7 +85,3 @@ flow:
       source: services/developer_services_form.html
 ---
 
-Linaro Developer Services is a leader in providing Linux BSP development,
-maintenance and optimization for Qualcomm platforms. Linaro software engineers are
-recognized worldwide as experts in the Linux kernel community, and the maintainers in
-the official Linux kernel for main key Qualcomm subsystems and drivers.
