@@ -1,5 +1,5 @@
 ---
-title: Linaro Developer Services for Qualcomm Platforms
+title: Qualcomm Technology Services
 service_id: 11
 jumbotron:
     title: Linaro Developer Services for Qualcomm Platforms
