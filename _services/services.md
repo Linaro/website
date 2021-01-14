@@ -16,7 +16,7 @@ jumbotron:
 image: /assets/images/content/LinaroDSVertical.png
 flow:
   - row: container_row
-    style: large_type
+    style: #
     sections:
       - format: text
         style: larger_type
