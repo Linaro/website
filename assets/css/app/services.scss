@@ -5,6 +5,31 @@
   .jumbotron.dev_services img.header_background_image {
     filter: brightness(0.6);
   }
+  .text_block_section {
+    padding: 18px !important;
+    background-color: white;
+    margin: 30px 10px;
+    h3 {
+      font-weight: bolder;
+    }
+  }
+  .dotted-border-bottom {
+    border-bottom: 6px dotted #ccc;
+  }
+  .large_type {
+    font-size: 2rem;
+  }
+  .text_blocks {
+    &:after {
+      content: "";
+      width: 100%;
+      height: 60px;
+      background-color: white;
+      bottom: -20px;
+      position: relative;
+      border-bottom: 6px dotted #ccc;
+    }
+  }
   .ds_wrapper {
     padding: 15px;
     transition: all 800ms ease;
