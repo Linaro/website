@@ -18,7 +18,7 @@ keywords:
 - Qualcomm Platforms
 - Linux BSP
 - Linux kernel
-icon: /assets/images/content/ODP-logo-hd.svg
+icon: /assets/images/content/Icon_Qualcomm.svg
 image: /assets/images/content/LinaroDSVertical.png
 flow:
     - row: main_content_row
