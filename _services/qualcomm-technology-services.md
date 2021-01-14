@@ -33,7 +33,7 @@ flow:
                 recognized worldwide as experts in the Linux kernel community, and the maintainers in
                 the official Linux kernel for main key Qualcomm subsystems and drivers.
     - row: container_row
-      style: larger_type
+      style: large_type
       sections:
         - format: custom_include
           source: services/qualcomm_advantage_network.html
@@ -50,7 +50,9 @@ flow:
                 to build their products:
 
                 - to upgrade Qualcomm Technologies downstream legacy Linux kernel BSP to up-to-date Linux releases and Long Term Support (LTS)
+
                 - to develop and upstream optimized drivers for hardware platforms based on Qualcomm Technologies processors
+
                 - to migrate customers from locked down binary blob drivers to open source solutions (GPU, Compute, Connectivity...).
         - format: text
           style: text_block_section
@@ -59,7 +61,9 @@ flow:
                 ### Significant experience and proven leadership in the Linux community
 
                 - Linaro Developer Services has significant experience and proven leadership in the Linux community with more than 2500 Qualcomm Technologies related contributions in the kernel.org Linux releases.
+
                 - Linaro Developer Services engineers maintain many key Qualcomm subsystems and drivers such as Qualcomm platforms drivers and device tree, Remoteproc/rpmsg, Audio (including Slimbus, Soundwire and compressed audio), Ethernet, Modem IPA, Modem Host Interface (MHI), Thermal management.
+
                 - Linaro Developer Services delivers and maintains Linux and Android reference BSP for the DragonBoardTM 410c and the DragonBoardTM 820c and the Qualcomm® Robotics RB3 and Qualcomm Robotics RB5 platforms
         - format: text
           style: text_block_section
