@@ -88,7 +88,7 @@ $(document).ready(() => {
           items: 3,
         },
         1200: {
-          items: 6,
+          items: 5,
         },
       },
     });

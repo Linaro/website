@@ -12,8 +12,13 @@
 
 {% assign sorted_members = unique_linaro_members | sort: 'name' %}
 
-<div class="row">
+<div class="row  d-flex align-items-center justify-content-center"">
     <div class="col col-12 col-lg-8">
+        <div class="row">
+            <div class="col col-12 text-center">
+                <h3 class="text-white display-4 stats_heading">Open Source Expertise</h3>
+            </div>
+        </div>
         <div class="row">
     <div class="owl-carousel owl-theme" id="stats_slider">
         <div class="item row">
@@ -56,12 +61,17 @@
             <div class="col col-12 col-md-4 stats_col">
                 <span class="stat">866</span>
                 <p class="font-weight-bold text-white text-center">
-                    Parches submitted per month
+                    Patches submitted per month
                 </p>
             </div>
         </div>  
     </div>        
-    </div>        
+    </div>
+        <div class="row">
+            <div class="col col-12 text-center">
+                <a href="/kernel-toolchain-and-security/" class="btn btn-primary text-uppercase">Learn more</a>
+            </div>
+        </div>        
     </div>
     <div class="col col-12 col-lg-4 members_slider_section">
         <div class="members_slider_wrapper my-4 ml-lg-3">
