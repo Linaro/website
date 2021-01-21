@@ -59,7 +59,6 @@ flow:
           related_services:
             - 9
             - 5
-            - 11
           type: image
           image_content_path: /assets/images/content/Rocket_3.png
           title: Maintain quality cost-effectively
@@ -80,6 +79,20 @@ flow:
           title: Build, test and deploy faster
           text: >
             We support every aspect of product delivery, from building secure board support packages (BSP’s), product validation and long-term support & maintenance.
+      - format: feature_block
+        style: dev_services_block
+        feature_block_content:
+          position: left
+          custom_include: services/related_icons.html
+          related_services:
+            - 11
+          type: image
+          image_content_path: /assets/images/content/Rocket_5.png
+          title: Qualcomm Advantage Network
+          text: >
+            Linaro Developer Services is a leader in providing Linux
+            BSP development, maintenance and optimization for
+            Qualcomm platforms.
   - row: container_row
     style: text-center
     sections:
