@@ -87,7 +87,7 @@ You will therefore need to prove yourself to them. One excellent way of doing th
 
 Please note that I am not asking you to do anything that I have not done myself.  My being the world's expert on RCU in the early 2000s did not enable me to ignore the concerns of the Linux kernel community, despite the fact that they were not yet up to speed on SMP scalability in general, let alone RCU in particular. The version of RCU that Dipankar Sarma eventually got accepted into the Linux kernel did resemble my original design more than it did any of the competing proposals, but: (1) my original design was improved significantly by all the feedback, (2) the discussion helped Dipankar and I learn quite a bit about the Linux kernel, and (3) the discussion helped the Linux kernel maintainers learn quite a bit about RCU. For more details on this journey, see:
 
-[http://web.cecs.pdx.edu/~walpole/papers/OSRepilog.pdf](http://web.cecs.pdx.edu/~walpole/papers/OSRepilog.pdf)  -- The next challenge is getting your fix accepted. This works quite a bit differently in FOSS projects than in proprietary projects.
+http://web.cecs.pdx.edu/~walpole/papers/OSRepilog.pdf  -- The next challenge is getting your fix accepted. This works quite a bit differently in FOSS projects than in proprietary projects.
 
 ### **Getting a bugfix accepted**
 
