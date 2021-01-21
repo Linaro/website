@@ -314,6 +314,7 @@
                 "Plan Of Record": "",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/TS/Trusted+Substrate+Home\">https://collaborate.linaro.org/display/TS/Trusted+Substrate+Home</a>",
                 "description": "Trusted Substrate project ambition is to upstream all necessary technologies in multiple projects to enable SystemReady compliance. Projects can be Trusted Firmware, OP-TEE, U-Boot, SCP, Linux kernel (EFI stub) and others.",
+                "Theme": "Trusted Substrate",
                 "title": "Trusted Substrate"
             },
             "Project Ownership": {
