@@ -1,5 +1,5 @@
 ---
-title: Qualcomm Technology Services
+title: Qualcomm Platforms Services
 service_id: 11
 jumbotron:
     title: Linaro Developer Services for Qualcomm Platforms
@@ -28,9 +28,7 @@ flow:
           style: larger_type
           text_content:
             text: >     
-                Linaro Developer Services is a leader in providing Linux BSP development,
-                maintenance and optimization for Qualcomm platforms. Linaro software engineers are
-                recognized worldwide as experts in the Linux kernel community, and the maintainers in
+                Linaro Developer Services is a leader in providing Linux BSP development, maintenance and optimization for Qualcomm platforms such as Qualcomm Snapdragon. Linaro software engineers are recognized worldwide as experts in the Linux kernel community, and the maintainers in
                 the official Linux kernel for main key Qualcomm subsystems and drivers.
     - row: container_row
       style: large_type
@@ -49,18 +47,18 @@ flow:
                 Linaro Developer Services has extensive experience aiding companies who use Qualcomm platforms
                 to build their products:
 
-                - to upgrade Qualcomm Technologies downstream legacy Linux kernel BSP to up-to-date Linux releases and Long Term Support (LTS)
+                - to upgrade Qualcomm downstream legacy Linux kernel BSP to up-to-date Linux releases and Long Term Support (LTS)
 
-                - to develop and upstream optimized drivers for hardware platforms based on Qualcomm Technologies processors
+                - to develop and upstream optimized drivers for hardware platforms based on Qualcomm processors, such as Qualcomm Snapdragon
 
-                - to migrate customers from locked down binary blob drivers to open source solutions (GPU, Compute, Connectivity...).
+                - to migrate customers from locked down binary blob drivers to open source solutions (GPU, Compute, Connectivity...)
         - format: text
           style: text_block_section
           text_content:
             text: >
                 ### Significant experience and proven leadership in the Linux community
 
-                - Linaro Developer Services has significant experience and proven leadership in the Linux community with more than 2500 Qualcomm Technologies related contributions in the kernel.org Linux releases.
+                - Linaro Developer Services has significant experience and proven leadership in the Linux community with more than 2500 Qualcomm platforms related contributions in the kernel.org Linux releases.
 
                 - Linaro Developer Services engineers maintain many key Qualcomm subsystems and drivers such as Qualcomm platforms drivers and device tree, Remoteproc/rpmsg, Audio (including Slimbus, Soundwire and compressed audio), Ethernet, Modem IPA, Modem Host Interface (MHI), Thermal management.
 
