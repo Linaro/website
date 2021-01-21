@@ -8,6 +8,11 @@
   }
 }
 #wrapper {
+  .dotted_border_top_bottom {
+    border-top: 5px dotted #eee;
+    border-bottom: 5px dotted #eee;
+    margin-bottom: 40px !important;
+  }
   .large_header {
     font-size: 3rem;
     font-weight: 300;
