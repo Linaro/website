@@ -11,35 +11,15 @@ jumbotron:
     description: >
         Improve the quality of Operating System kernels (Linux, Android and Zephyr) by providing the software tools and processes to allow scalability. Facilitate expanded testing coverage and higher software quality in various operating systems including Linux, Android and Zephyr.
     image: /assets/images/content/OS_Build_test.png
+presentation_link: /about/
+video_link: /about/
+blogs_link: /blog/tags/?tag=Android
 flow:
     - row: container_row
+      style: bg-green
       sections:
-       - format: block
-         style: text-white 
-         item_width: "3"
-         block_section_content:
-           blocks:
-              - title: OS Build & Test Presentation
-                image: /assets/images/content/screen_1.jpg
-                background_image: true
-                style: text-center
-                buttons:
-                   - title: View
-                     url: /about/
-              - title: OS Build & Test Video
-                image: /assets/images/content/screen_2.jpg
-                background_image: true
-                style: text-center
-                buttons:
-                   - title: View
-                     url: /about/
-              - title: OS Build & Test Blogs
-                image: /assets/images/content/screen_3.jpg
-                background_image: true
-                style: text-center
-                buttons:
-                   - title: View
-                     url: /blog/tags/?tag=Android
+       - format: custom_include
+         source: themes/quick_link_blocks.html
     - row: container_row
       style: related_projects bg-secondary text-white
       sections:
@@ -58,6 +38,6 @@ flow:
             size: h2
             text: >
                 Associated Members
-        - format: custom_include
-          source: themes/associated_members.html
+    - row: custom_include_row
+      source: themes/associated_members.html
 ---

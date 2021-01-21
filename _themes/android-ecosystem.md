@@ -19,35 +19,22 @@ jumbotron:
         activity together, the Android ecosystem is more healthy which results in better
         Android products and improved efficiency creating those products.
     image: /assets/images/content/Android_Ecosystem.png
+    buttons:
+      - title: How can we help?
+        url: "#contact_form"
+        style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase theme_contact_btn
+      - title: How can we help?
+        url: "#contact_form"
+        style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase theme_contact_btn
+presentation_link: /about/
+video_link: /about/
+blogs_link: /blog/tags/?tag=Android
 flow:
     - row: container_row
+      style: bg-green
       sections:
-       - format: block
-         style: text-white 
-         item_width: "3"
-         block_section_content:
-           blocks:
-              - title: Android Ecosystem Presentation
-                image: /assets/images/content/screen_1.jpg
-                background_image: true
-                style: text-center
-                buttons:
-                   - title: View
-                     url: /about/
-              - title: Android Ecosystem Video
-                image: /assets/images/content/screen_2.jpg
-                background_image: true
-                style: text-center
-                buttons:
-                   - title: View
-                     url: /about/
-              - title: Android Ecosystem Blogs
-                image: /assets/images/content/screen_3.jpg
-                background_image: true
-                style: text-center
-                buttons:
-                   - title: View
-                     url: /about/
+       - format: custom_include
+         source: themes/quick_link_blocks.html
     - row: container_row
       style: related_projects bg-secondary text-white
       sections:
@@ -66,6 +53,6 @@ flow:
             size: h2
             text: >
                 Associated Members
-        - format: custom_include
-          source: themes/associated_members.html
+    - row: custom_include_row
+      source: themes/associated_members.html
 ---

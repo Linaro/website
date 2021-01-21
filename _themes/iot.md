@@ -11,7 +11,7 @@ description: >
     velit esse cillum dolore eu fugiat nulla pariatur.
 jumbotron:
     class: theme_banner 
-    title: IoT & Embedded
+    title: Internet of Things
     description: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -66,6 +66,6 @@ flow:
             size: h2
             text: >
                 Associated Members
-        - format: custom_include
-          source: themes/associated_members.html
+    - row: custom_include_row
+      source: themes/associated_members.html
 ---

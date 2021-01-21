@@ -21,35 +21,23 @@ jumbotron:
         anti-bricking and anti-roll back protections, and will allow transactional
         updates in asymmetric computing, Cortex-A + Cortex-M solutions.
     image: /assets/images/content/Trusted_Firmware.png
+sub_themes:
+  - Dependable Boot
+  - Over-the-air Updates
+  - Trusted Services
+presentation_link: /about/
+video_link: /about/
+blogs_link: /blog/tags/?tag=Trusted%20Firmware
 flow:
     - row: container_row
       sections:
-       - format: block
-         style: text-white 
-         item_width: "3"
-         block_section_content:
-           blocks:
-              - title: Trusted Substrate Presentation
-                image: /assets/images/content/screen_1.jpg
-                background_image: true
-                style: text-center
-                buttons:
-                   - title: View
-                     url: /about/
-              - title: Trusted Substrate Video
-                image: /assets/images/content/screen_2.jpg
-                background_image: true
-                style: text-center
-                buttons:
-                   - title: View
-                     url: /about/
-              - title: Trusted Substrate Blogs
-                image: /assets/images/content/screen_3.jpg
-                background_image: true
-                style: text-center
-                buttons:
-                   - title: View
-                     url: /blog/tags/?tag=Trusted%20Firmware
+        - format: custom_include
+          source: themes/sub_theme_blocks.html
+    - row: container_row
+      style: bg-green
+      sections:
+       - format: custom_include
+         source: themes/quick_link_blocks.html
     - row: container_row
       style: related_projects bg-secondary text-white
       sections:
@@ -68,6 +56,6 @@ flow:
             size: h2
             text: >
                 Associated Members
-        - format: custom_include
-          source: themes/associated_members.html
+    - row: custom_include_row
+      source: themes/associated_members.html
 ---

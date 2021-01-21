@@ -17,35 +17,15 @@ jumbotron:
         optimized for Arm experiences on member hardware across a
         range of strategic AI projects.
     image: /assets/images/content/Artifical_Intelligence.png
+presentation_link: /about/
+video_link: /about/
+blogs_link: /blog/tags/?tag=AI
 flow:
     - row: container_row
+      style: bg-green
       sections:
-       - format: block
-         style: text-white 
-         item_width: "3"
-         block_section_content:
-           blocks:
-              - title: AI Presentation
-                image: /assets/images/content/screen_1.jpg
-                background_image: true
-                style: text-center
-                buttons:
-                   - title: View
-                     url: /about/
-              - title: AI Video
-                image: /assets/images/content/screen_2.jpg
-                background_image: true
-                style: text-center
-                buttons:
-                   - title: View
-                     url: /about/
-              - title: AI Blogs
-                image: /assets/images/content/screen_3.jpg
-                background_image: true
-                style: text-center
-                buttons:
-                   - title: View
-                     url: /blog/tags/?tag=AI
+       - format: custom_include
+         source: themes/quick_link_blocks.html
     - row: container_row
       style: related_projects bg-secondary text-white
       sections:
@@ -64,6 +44,6 @@ flow:
             size: h2
             text: >
                 Associated Members
-        - format: custom_include
-          source: themes/associated_members.html
+    - row: custom_include_row
+      source: themes/associated_members.html
 ---
