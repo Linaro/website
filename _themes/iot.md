@@ -1,6 +1,7 @@
 ---
 id: 3
 title: IoT & Embedded
+sub_theme: false
 permalink: /iot-and-embedded/
 image: /assets/images/content/IoT_Embedded.png
 description: >
@@ -19,6 +20,13 @@ jumbotron:
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
         velit esse cillum dolore eu fugiat nulla pariatur.
     image: /assets/images/content/IoT_Embedded.png
+    buttons:
+      - title: How can we help?
+        url: "#contact_form"
+        style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase theme_contact_btn
+      - title: How can we help?
+        url: "#contact_form"
+        style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase theme_contact_btn
 flow:
     - row: container_row
       sections:

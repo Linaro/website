@@ -1,6 +1,11 @@
 ---
 id: 1
 title: Artificial Intelligence
+sub_theme: false
+sub_themes:
+  - HPC / Server
+  - Edge
+  - Microcontrollers
 permalink: /artificial-intelligence/
 image: /assets/images/content/Artifical_Intelligence.png
 description: >
@@ -21,11 +26,8 @@ presentation_link: /about/
 video_link: /about/
 blogs_link: /blog/tags/?tag=AI
 flow:
-    - row: container_row
-      style: bg-green
-      sections:
-       - format: custom_include
-         source: themes/quick_link_blocks.html
+    - row: custom_include_row
+      source: themes/sub_theme_blocks.html
     - row: container_row
       style: related_projects bg-secondary text-white
       sections:
@@ -36,6 +38,11 @@ flow:
                 Related Projects
         - format: custom_include
           source: themes/related_projects.html
+    - row: container_row
+      style: bg-green
+      sections:
+       - format: custom_include
+         source: themes/quick_link_blocks.html
     - row: container_row
       style: associated_members
       sections:

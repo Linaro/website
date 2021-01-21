@@ -1,6 +1,7 @@
 ---
 id: 6
 title: Trusted Substrate
+sub_theme: false
 permalink: /trusted-substrate/
 image: /assets/images/content/Trusted_Firmware.png
 description: >
@@ -21,6 +22,13 @@ jumbotron:
         anti-bricking and anti-roll back protections, and will allow transactional
         updates in asymmetric computing, Cortex-A + Cortex-M solutions.
     image: /assets/images/content/Trusted_Firmware.png
+    buttons:
+      - title: How can we help?
+        url: "#contact_form"
+        style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase theme_contact_btn
+      - title: How can we help?
+        url: "#contact_form"
+        style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase theme_contact_btn
 sub_themes:
   - Dependable Boot
   - Over-the-air Updates
@@ -29,15 +37,8 @@ presentation_link: /about/
 video_link: /about/
 blogs_link: /blog/tags/?tag=Trusted%20Firmware
 flow:
-    - row: container_row
-      sections:
-        - format: custom_include
-          source: themes/sub_theme_blocks.html
-    - row: container_row
-      style: bg-green
-      sections:
-       - format: custom_include
-         source: themes/quick_link_blocks.html
+    - row: custom_include_row
+      source: themes/sub_theme_blocks.html
     - row: container_row
       style: related_projects bg-secondary text-white
       sections:
@@ -48,6 +49,11 @@ flow:
                 Related Projects
         - format: custom_include
           source: themes/related_projects.html
+    - row: container_row
+      style: bg-green
+      sections:
+       - format: custom_include
+         source: themes/quick_link_blocks.html
     - row: container_row
       style: associated_members
       sections:

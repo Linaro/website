@@ -1,6 +1,7 @@
 ---
 id: 4
-title: Kernel, Toolchain & Security
+title: Open Source Expertise
+sub_theme: false
 permalink: /kernel-toolchain-and-security/
 image: /assets/images/content/Kernel_Toolchain_Security.png
 description: >
@@ -10,13 +11,20 @@ description: >
     and increase the security across the Arm ecosystem
 jumbotron:
     class: theme_banner 
-    title: Kernel, Toolchain & Security
+    title: Open
     description: >
         Fundamentals are the technologies that are essential to maintaining
         the health of software. We want to facilitate the access to
         maintainers, support regression testing, improve compiler technology
         and increase the security across the Arm ecosystem
     image: /assets/images/content/Kernel_Toolchain_Security.png
+    buttons:
+      - title: How can we help?
+        url: "#contact_form"
+        style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase theme_contact_btn
+      - title: How can we help?
+        url: "#contact_form"
+        style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase theme_contact_btn
 presentation_link: /about/
 video_link: /about/
 blogs_link: /blog/tags/?tag=Toolchain

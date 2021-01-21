@@ -1,6 +1,7 @@
 ---
 id: 2
 title: Android Ecosystem
+sub_theme: false
 permalink: /android-ecosystem/
 image: /assets/images/content/Android_Ecosystem.png
 description: >
@@ -11,7 +12,7 @@ description: >
     Android products and improved efficiency creating those products.
 jumbotron:
     class: theme_banner 
-    title: Android Ecosystem
+    title: Android&trade; Ecosystem
     description: >
         Is Android a strategic OS for your company? Member companies and Linaro
         collaborate together with Google to improve the Android ecosystem. Our work is
