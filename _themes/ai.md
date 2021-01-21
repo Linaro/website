@@ -7,6 +7,8 @@ sub_themes:
   - Edge
   - Microcontrollers
 permalink: /artificial-intelligence/
+icon: /assets/images/content/Icon_AI.svg
+icon_dark: /assets/images/content/Black_AI.svg
 image: /assets/images/content/Artifical_Intelligence.png
 description: >
     Linaro and collaborating members are working to bring best in class

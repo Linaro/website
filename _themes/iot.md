@@ -4,6 +4,8 @@ title: IoT & Embedded
 sub_theme: false
 permalink: /iot-and-embedded/
 image: /assets/images/content/IoT_Embedded.png
+icon: /assets/images/content/Icon_IoT_Embedded.svg
+icon_dark: /assets/images/content/Black_IoT.svg
 description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

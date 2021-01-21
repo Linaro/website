@@ -4,6 +4,8 @@ title: Trusted Substrate
 sub_theme: false
 permalink: /trusted-substrate/
 image: /assets/images/content/Trusted_Firmware.png
+icon: /assets/images/content/Icon_Trusted_Substrate.svg
+icon_dark: /assets/images/content/Black_Trusted_Substrate.svg
 description: >
     Trusted Substrate is a BIOS that brings standards based secure booting and
     over-the-air (OTA) updates to the most trust demanding embedded
@@ -54,6 +56,29 @@ flow:
       sections:
        - format: custom_include
          source: themes/quick_link_blocks.html
+    - row: container_row
+      sections:
+       - format: text
+         text_content: 
+          text: >
+            ### Is the project for me?
+
+
+            If you are a product builder you may want to lead specific aspects of the ownership lifecycle, software supply chain integration or
+            over-the-air updates for instance. Some tenders may require compliance to regulatory or industry specific trust related documentation
+            (NIST, UN.WP29, ASIL...). Membership gives you an opportunity to have a strong influence on the scope of the relevant specifications
+            that Trusted Substrate need to cover.
+            
+
+            If you are an operating system provider, you may want to influence the feature and interface implementation aspects. Membership gives
+            you an opportunity to push for completeness of implementation that sometimes has optional components but required in your use cases.
+            If you are an SoC vendor, you may want to ensure all your digital trust technologies are properly exposed and that your product meets all
+            requirements from product builders. Membership gives you all opportunities to push and promote your secure element and, crypto
+            accelerations innovations as well as silicon based hardware attack mitigations.
+
+
+            If your business relies on a trusted application such as Digital Rights Management, Digital Wallet or fingerprint authentication, you may
+            want to lead the transformation of the trusted application life cycle and lead the specification and technical roadmap on this topic.
     - row: container_row
       style: associated_members
       sections:

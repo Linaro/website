@@ -4,6 +4,8 @@ title: Android Ecosystem
 sub_theme: false
 permalink: /android-ecosystem/
 image: /assets/images/content/Android_Ecosystem.png
+icon: /assets/images/content/Icon_AOSP.svg
+icon_dark: /assets/images/content/Black_Android.svg
 description: >
     Is Android a strategic OS for your company? Member companies and Linaro
     collaborate together with Google to improve the Android ecosystem. Our work is
