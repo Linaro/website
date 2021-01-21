@@ -13,7 +13,7 @@ jumbotron:
       - title: Contact Us
         url: "#contact_form"
         style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase ds_contact_form_btn
-permalink: /services/power-management/
+permalink: /services/qualcomm-platform-services/
 keywords: 
 - Qualcomm Platforms
 - Linux BSP
