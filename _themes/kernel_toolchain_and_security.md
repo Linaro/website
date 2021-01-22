@@ -1,6 +1,6 @@
 ---
 id: 4
-title: Open Source Expertise
+title: Kernel, Toolchain & Security
 sub_theme: false
 permalink: /kernel-toolchain-and-security/
 image: /assets/images/content/Kernel_Toolchain_Security.png
