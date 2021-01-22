@@ -88,7 +88,7 @@ flow:
             - 11
           type: image
           image_content_path: /assets/images/content/Rocket_5.png
-          title: Qualcomm Advantage Network
+          title: Qualcomm Platforms Services
           text: >
             Linaro Developer Services is a leader in providing Linux
             BSP development, maintenance and optimization for
