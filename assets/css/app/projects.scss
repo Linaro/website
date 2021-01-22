@@ -1,0 +1,17 @@
+#wrapper {
+  #project_theme_tabs {
+    a.nav-link {
+      &.active {
+        background-color: #e6e6e6;
+      }
+    }
+  }
+  .projects_info_row {
+    background-color: #e6e6e6;
+  }
+  .project_container {
+    img {
+      height: 48px;
+    }
+  }
+}
