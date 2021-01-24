@@ -31,15 +31,15 @@
         <div class="row" id="project_panel_section">
             <div class="col col-12">
                 {% for project in site.data.projects["projects"] %}
-                    <div class="row p-0" id="{{project["key"]}}-info">
+                    <div class="row p-0" id="{{project['key']}}-info">
                         <div class="col col-12 col-sm-6 d-none">
                             <div class="row">
                                 <div class="col col-12">
-                                    <a href="/projects/?project_id="{{project["key"]}}">
+                                    <a href="/projects/?project_id={{project['key']}}">
                                         <div class="project_container bg-white d-flex align-items-center p-3 my-3">
-                                            <img data-src="{{project["icon"]}}"
+                                            <img data-src="{{project['icon']}}"
                                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                            alt="{{project["Project Information"].title}} icon" class="mr-2 lazyload">
+                                            alt="{{project['Project Information'].title}} icon" class="mr-2 lazyload">
                                             <h4 class="text-dark font-weight-bold">{{project["Project Information"].title}}</h4>
                                         </div>
                                     </a>
@@ -123,14 +123,14 @@
                     {% endif %}
                 {% endfor %}
             <div class="card mb-3">
-                <div class="card-header" id="heading-{{project["key"]}}">
+                <div class="card-header" id="heading-{{project['key']}}">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed text-dark pl-0" data-toggle="collapse"
-                            data-target="#{{project["key"]}}" aria-expanded="false"
-                            aria-controls="{{project["Project Information"].title | slugify}}">
-                            <img data-src="{{project["icon"]}}"
+                            data-target="#{{project['key']}}" aria-expanded="false"
+                            aria-controls="{{project['Project Information'].title | slugify}}">
+                            <img data-src="{{project['icon']}}"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                alt="{{project["Project Information"].title}} icon" class="mr-2 lazyload">
+                                alt="{{project['Project Information'].title}} icon" class="mr-2 lazyload">
                             {{project["Project Information"].title}}
                         </button>
                     </h5>
@@ -138,9 +138,9 @@
                         {{project["Project Information"].description}}
                     </p>
                 </div>
-                <div id="{{project["key"]}}" class="collapse" aria-labelledby="heading-{{project["key"]}}"
+                <div id="{{project['key']}}" class="collapse" aria-labelledby="heading-{{project['key']}}"
                     data-parent="#accordion">
-                    <div class="card-body pb-0"">
+                    <div class="card-body pb-0">
                             <div class=" row py-0">
                         {% if project["Project Ownership"] %}
                         {% if project["Project Ownership"]["Project Owner"] != "" or project["Project Ownership"]["Technical Lead"] != "" or project["Project Ownership"]["Governing Entity"] != "" %}
@@ -300,7 +300,7 @@
                         </div>
                         {% if related_blogs_len > 5 %}
                         <div class="col col-12 mb-4 text-center">
-                            <a class="btn btn-primary" href="/projects/{{project["key"] | downcase }}/posts/">
+                            <a class="btn btn-primary" href="/projects/{{project['key'] | downcase }}/posts/">
                                 View all posts
                             </a>
                         </div>
