@@ -77,11 +77,11 @@
                         <div class="row">
                         {% for project in site.data.projects["projects"] %}
                             <div class="col col-12 col-sm-6">
-                                <a href="/projects/?project_id={{project["key"]}}">
+                                <a href="/projects/?project_id={{project['key']}}">
                                     <div class="project_container bg-white d-flex align-items-center p-3 my-3">
-                                        <img data-src="{{project["icon"]}}"
+                                        <img data-src="{{project['icon']}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        alt="{{project["Project Information"].title}} icon" class="mr-2 lazyload">
+                                        alt="{{project['Project Information'].title}} icon" class="mr-2 lazyload">
                                         <h4 class="text-dark font-weight-bold">{{project["Project Information"].title}}</h4>
                                     </div>
                                 </a>
@@ -96,11 +96,11 @@
                                     {% for project in site.data.projects["projects"] %}
                                         {% if project["Project Information"]["Theme"] == theme.title %}
                                             <div class="col col-12 col-sm-6">
-                                                <a href="/projects/?project_id={{project["key"]}}">
+                                                <a href="/projects/?project_id={{project['key']}}">
                                                     <div class="project_container bg-white d-flex align-items-center p-3 my-3">
-                                                        <img data-src="{{project["icon"]}}"
+                                                        <img data-src="{{project['icon']}}"
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        alt="{{project["Project Information"].title}} icon" class="mr-2 lazyload">
+                                                        alt="{{project['Project Information'].title}} icon" class="mr-2 lazyload">
                                                         <h4 class="text-dark font-weight-bold">{{project["Project Information"].title}}</h4>
                                                     </div>
                                                 </a>
@@ -293,7 +293,7 @@
                                 {% for post in sorted_related_posts%}
                                 <li class="list-group-item">
                                     <a href="{{post.url}}">{{post.title}} - {{post.date | date: "%A, %B %-d, %Y"}} 
-                                        <span class="badge {% if post.category == "blog" %}badge-primary{% else %}bade-secondary{% endif %} ml-2">{{post.category}}</span></a>
+                                        <span class="badge {% if post.category == 'blog' %}badge-primary{% else %}bade-secondary{% endif %} ml-2">{{post.category}}</span></a>
                                 </li>
                                 {% endfor %}
                             </ul>
