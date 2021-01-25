@@ -3,9 +3,9 @@
         <div class="row pb-0">
             <div class="col col-12">
                 <!--Theme tabs-->
-                <ul class="nav nav-tabs" id="project_theme_tabs">
-                    <li class="nav-item">
-                        <a class="nav-link d-flex flex-column align-items-center justify-content-center active" data-toggle="tab" href="#allProjects">
+                <ul class="nav nav-tabs row d-none d-lg-flex h-100 pb-0" id="project_theme_tabs">
+                    <li class="nav-item col text-center h-100">
+                        <a class="font-weight-bold text-dark nav-link d-flex flex-column align-items-center justify-content-center active h-100" data-toggle="tab" href="#allProjects">
                             <img class="tab_icon" src="/assets/images/content/Black_All_projects.svg"
                             alt="{{theme.title}} icon"/>
                             All Projects
@@ -13,8 +13,8 @@
                     </li>
                     {% for theme in site.themes %}
                         {% unless theme.sub_theme %}
-                            <li class="nav-item">
-                                <a class="nav-link d-flex flex-column align-items-center justify-content-center" data-toggle="tab" href="#{{theme.title | slugify}}">
+                            <li class="nav-item col text-center h-100">
+                                <a class="font-weight-bold text-dark nav-link d-flex flex-column align-items-center justify-content-center h-100" data-toggle="tab" href="#{{theme.title | slugify}}">
                                     <img class="tab_icon" src="{{theme.icon_dark}}" alt="{{theme.title}} icon"/>
                                     {{theme.title}}
                                 </a>
@@ -22,17 +22,26 @@
                         {% endunless %}
                     {% endfor%}
                 </ul>
+                <!--Theme tabs mobile dropdown-->
+                <select class="form-control d-block d-lg-none mb-4" id="themeSelect">
+                    <option value="allProjects">All Projects</option>
+                    {% for theme in site.themes %}
+                        {% unless theme.sub_theme %}
+                            <option value="{{theme.title | slugify}}">{{theme.title}}</option>
+                        {% endunless %}
+                    {% endfor %}
+                </select>
             </div>
         </div>
     </div>
 </div>
 <div class="row projects_info_row">
     <div class="container">
-        <div class="row" id="project_panel_section">
+        <div class="row py-0" id="project_panel_section">
             <div class="col col-12">
                 {% for project in site.data.projects["projects"] %}
-                    <div class="row p-0" id="{{project['key']}}-info">
-                        <div class="col col-12 col-sm-6 d-none">
+                    <div class="row project_info_row p-0" id="{{project['key']}}-info">
+                        <div class="col col-12 col-sm-6 project_info_col d-none">
                             <div class="row">
                                 <div class="col col-12">
                                     <a href="/projects/?project_id={{project['key']}}">
@@ -53,7 +62,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col col-12 col-sm-6 d-none">
+                        <div class="col col-12 col-sm-6 project_info_col d-none">
                             <div class="row">
                                 <div class="col col-12">
                                     <div class="projects_content_container bg-white p-3 my-3">
@@ -69,7 +78,7 @@
                 {% endfor %}
             </div>
         </div>
-        <div class="row">
+        <div class="row pt-0">
             <div class="col col-12">
                 <!-- Theme Tabs -->
                 <div class="tab-content">
@@ -77,8 +86,8 @@
                         <div class="row">
                         {% for project in site.data.projects["projects"] %}
                             <div class="col col-12 col-sm-6">
-                                <a href="/projects/?project_id={{project['key']}}">
-                                    <div class="project_container bg-white d-flex align-items-center p-3 my-3">
+                                <a href="/projects#allProjects_{{project['key']}}">
+                                    <div class="project_container project_container_anchor bg-white d-flex align-items-center p-3 my-3" data-project-id="{{project['key']}}" data-theme-id="allProjects">
                                         <img data-src="{{project['icon']}}"
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                         alt="{{project['Project Information'].title}} icon" class="mr-2 lazyload">
@@ -96,8 +105,8 @@
                                     {% for project in site.data.projects["projects"] %}
                                         {% if project["Project Information"]["Theme"] == theme.title %}
                                             <div class="col col-12 col-sm-6">
-                                                <a href="/projects/?project_id={{project['key']}}">
-                                                    <div class="project_container bg-white d-flex align-items-center p-3 my-3">
+                                                <a href="/projects#{{theme.title | slugify}}_{{project['key']}}">
+                                                    <div class="project_container project_container_anchor bg-white d-flex align-items-center p-3 my-3" data-project-id="{{project['key']}}" data-theme-id="{{theme.title | slugify}}">
                                                         <img data-src="{{project['icon']}}"
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                                         alt="{{project['Project Information'].title}} icon" class="mr-2 lazyload">
