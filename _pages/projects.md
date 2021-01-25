@@ -5,6 +5,7 @@ description: >-
 layout: flow
 permalink: /projects/
 css_bundle: projects
+js-package: projects
 jumbotron:
     class: projects_banner text-center
     title: Projects
