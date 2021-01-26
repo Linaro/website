@@ -24,6 +24,13 @@ jumbotron:
         optimized for Arm experiences on member hardware across a
         range of strategic AI projects.
     image: /assets/images/content/Artifical_Intelligence.png
+    buttons:
+      - title: How can we help?
+        url: "#contact_form"
+        style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase theme_contact_btn
+      - title: How can we help?
+        url: "#contact_form"
+        style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase theme_contact_btn
 presentation_link: /about/
 video_link: /about/
 blogs_link: /blog/tags/?tag=AI
