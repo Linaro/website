@@ -1,8 +1,8 @@
 ---
-id: 4
-title: Kernel & Toolchain
+id: 12
+title: Security
 sub_theme: false
-permalink: /kernel-and-toolchain/
+permalink: /security/
 image: /assets/images/content/Kernel_Toolchain_Security.png
 icon: /assets/images/content/Black_Kernel.svg
 icon_dark: /assets/images/content/Black_Kernel.svg
@@ -13,7 +13,7 @@ description: >
     and increase the security across the Arm ecosystem
 jumbotron:
     class: theme_banner 
-    title: Open Source Expertise
+    title: Security
     description: >
         Fundamentals are the technologies that are essential to maintaining
         the health of software. We want to facilitate the access to
