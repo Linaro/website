@@ -78,4 +78,6 @@ flow:
                 Associated Members
     - row: custom_include_row
       source: themes/associated_members.html
+    - row: custom_include_row
+      source: themes/theme_contact_form.html
 ---
