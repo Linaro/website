@@ -8,6 +8,11 @@
   }
 }
 #wrapper {
+  .card-header button {
+    white-space: normal;
+    margin-right: 12px;
+    width: 100%;
+  }
   .dotted_border_top_bottom {
     border-top: 5px dotted #eee;
     border-bottom: 5px dotted #eee;
