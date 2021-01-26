@@ -1,47 +1,63 @@
-$(document).ready(() => {
-  // Check URL for deep link and open relevant theme
-  // and project.
-  $("#themeSelect").on("change", function () {
-    var theme_val = this.value;
-    // Updated the browser page hash value
-    window.location.hash = theme_val;
-    // Close any open projects
-    closeOpenProjects();
-    // Show the theme tab.
-    showThemeTab(theme_val);
+function hideAllProjectCollapses(callback = false) {
+  $(".collapse").collapse("hide");
+  $(`.project_card`).addClass("d-none");
+  $(`.project_card`).each(function () {
+    if ($(this).hasClass("d-block")) {
+      $(this).removeClass("d-block");
+    }
   });
-  // Handle project toggle
-  $(".project_container").on("click", function () {
-    //Remove the selected class from prior project selections
-    $(".project_container").removeClass("selected");
-    // Add to current clicked project.
-    $(this).addClass("selected");
-  });
-});
-function closeOpenProjects() {
-  $(".project_info_col").addClass("d-none");
-  $(".project_info_col").removeClass("d-block");
-  $(".project_container").removeClass("selected");
+  if (callback !== false) callback();
 }
-function showThemeTab(id) {
-  $(`#project_theme_tabs a[href="#${id}"]`).tab("show");
+function filterOnTheme(theme, callback = false) {
+  // Close any open projects
+  hideAllProjectCollapses();
+  // Switch theme tab / selecet menu
+  if ($("#themeSelectCollapse").is(":visible")) {
+    // Make sure the correct theme is selected
+    $("#themeSelectCollapse").val(theme);
+    // Update the projects menu to show only theme related projects
+    $("#projectsDropdown > .dropdown-menu > button").addClass("d-none");
+    $("#projectsDropdown > .dropdown-menu > button").each(function () {
+      if ($(this).hasClass("d-block")) {
+        $(this).removeClass("d-block");
+      }
+    });
+    // Show project buttons with the given theme id.
+    if (theme === "allProjects") {
+      $(`#projectsDropdown > .dropdown-menu > button`).addClass("d-block");
+    } else {
+      $(
+        `#projectsDropdown > .dropdown-menu > button[data-theme='${theme}']`
+      ).addClass("d-block");
+    }
+  } else {
+    $(`#project_theme_tabs a[data-theme='${theme}']`).tab("show");
+    if (theme === "allProjects") {
+      $(".project_card").addClass("d-block");
+    } else {
+      $(`.project_card[data-theme='${theme}']`).addClass("d-block");
+    }
+  }
+  if (callback) callback();
 }
-function showProject(id) {
-  // Hide previously visible project
-  $(".project_info_col").addClass("d-none");
-  $(".project_info_col").removeClass("d-block");
-  // Show selected project.
-  $(`#${id}-info .project_info_col`).removeClass("d-none");
-  $(`#${id}-info .project_info_col`).addClass("d-block");
-  scroll_to_anchor(`#${id}-info`);
+function showProjectCollapse(projectId) {
+  console.log("Showing project collapse");
+  if ($(`.project_card[data-project-id='${projectId}']`).hasClass("d-none")) {
+    $(`.project_card[data-project-id='${projectId}']`).removeClass("d-none");
+  }
+  $(`.project_card[data-project-id='${projectId}']`).addClass("d-block");
+  $(`#${projectId}`).collapse("show");
+  if (!$(`#${projectId}`).hasClass("show")) {
+    $(`#${projectId}`).addClass("show");
+  }
+  if (!$("#themeSelectCollapse").is(":visible")) {
+    scroll_to_anchor(`#${projectId}`);
+  }
 }
-
 function handleHashChange(hash) {
   var separatedHash;
-  if (hash.indexOf("#") !== -1) {
-    hash = hash.split("#")[1];
-  }
-  separatedHash = hash.split("_");
+  separatedHash = hash.replace("#", "").split("_");
+  console.log(separatedHash);
   var projectId = "";
   var themeId = "";
   var projectIdArr = [];
@@ -54,13 +70,12 @@ function handleHashChange(hash) {
     // Only the theme or project ID exists
     // For backwards compatability we need to check
     // to see if the id is a theme or project.
-
-    $(".project_container_anchor").each(function () {
+    $(".project_card").each(function () {
       if (projectIdArr.indexOf($(this).data("project-id")) === -1) {
         projectIdArr.push($(this).data("project-id"));
       }
-      if (themeIdArr.indexOf($(this).data("theme-id")) === -1) {
-        themeIdArr.push($(this).data("theme-id"));
+      if (themeIdArr.indexOf($(this).data("theme")) === -1) {
+        themeIdArr.push($(this).data("theme"));
       }
     });
     // Check the separated hash to see if it matches a project or theme id.
@@ -71,59 +86,85 @@ function handleHashChange(hash) {
       themeId = separatedHash[0];
     }
   }
-  // show the correct project info panel.
-  if (projectId !== "") {
-    showProject(projectId);
-  }
+  console.log(themeId);
+  console.log(projectId);
   // show the correct theme tab
   if (themeId !== "") {
-    showThemeTab(themeId);
+    filterOnTheme(themeId, function () {
+      // show the correct project info panel.
+      console.log("running callback.");
+      if (projectId !== "") {
+        showProjectCollapse(projectId);
+      }
+    });
+  } else if (projectId !== "") {
+    // show the correct project info panel.
+    showProjectCollapse(projectId);
   }
 }
-
 function scroll_to_anchor(hash) {
   const splitHash = hash.split("#");
   $([document.documentElement, document.body]).animate(
     {
-      scrollTop: $("#" + splitHash[1]).offset().top - 100,
+      scrollTop: $("#" + splitHash[1]).offset().top - 200,
     },
     500
   );
-  //   $("#projects #" + splitHash[1]).collapse("show");
-  //   url = location.href.replace(/\/#/, "/#");
-  //   history.replaceState(null, null, url);
-  setTimeout(() => {
-    $(window).scrollTop(0);
-  }, 400);
 }
-
 // Projects links
 function handleDeepLinkHash() {
   let url = location.href.replace(/\/$/, "");
+  var hash = "";
   if (location.hash) {
-    handleHashChange(location.hash);
+    if (location.hash.indexOf("#") !== -1) {
+      hash = location.hash.split("#")[1];
+    } else {
+      hash = location.hash;
+    }
+    handleHashChange(hash);
   }
   // On hash get project ID / theme id and open tab / theme.
-  $(window).on("hashchange", function () {
-    var hash = window.location.hash;
-    handleHashChange(hash);
-  });
+  // $(window).on("hashchange", function () {
+  //   var hash = window.location.hash;
+  //   handleHashChange(hash);
+  // });
 
   //   $(".collapse").on("show.bs.collapse", function (e) {
   //     let newUrl;
   //     const hash = $(this).attr("id");
-  //     if (url.lastIndexOf("/projects/") > -1) {
-  //       console.log("projects url exists");
-  //       newUrl =
-  //         url.substring(0, url.lastIndexOf("/projects/")) + "/projects/#" + hash;
-  //     } else {
-  //       newUrl = url.substring(0, url.lastIndexOf("/")) + "/projects/#" + hash;
-  //     }
-  //     history.replaceState(null, null, newUrl);
+  //
   //   });
 }
-$('#project_theme_tabs a[data-toggle="tab"]').on("shown.bs.tab", function (e) {
-  closeOpenProjects();
-});
 
-handleDeepLinkHash();
+$(document).ready(() => {
+  // If we are on a mobile screen
+  // 1) Hide all the project cards
+  if ($("#themeSelectCollapse").is(":visible")) {
+    hideAllProjectCollapses();
+    // Projects dropdown on click handler setup
+    $("#projectsDropdown button.dropdown-item").on("click", function (e) {
+      hideAllProjectCollapses();
+      window.location.hash = `${$(this).data("theme")}_${$(this).data(
+        "project-id"
+      )}`;
+      showProjectCollapse($(this).data("project-id"));
+    });
+  }
+  $("#project_theme_tabs a").on("click", function () {
+    var theme_val = $(this).data("theme");
+    filterOnTheme(theme_val);
+  });
+  // Check URL for deep link and open relevant theme
+  // and project.
+  $("#themeSelectCollapse").on("change", function () {
+    var theme_val = this.value;
+    // Show the theme tab.
+    filterOnTheme(theme_val);
+  });
+  // // Detect change in accordion and update the page hash.
+  $("#accordion").on("show.bs.collapse", function (e) {
+    let hash = `${$(e.target).data("theme")}_${$(e.target).data("project-id")}`;
+    window.location.hash = hash;
+  });
+  handleDeepLinkHash();
+});
