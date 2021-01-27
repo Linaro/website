@@ -69,11 +69,6 @@
                 "url": "/membership/fujitsu/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/comcast.jpg",
-                "name": "Comcast",
-                "url": "/membership/comcast/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/samsung.jpg",
                 "name": "Samsung",
                 "url": "/membership/samsung/"
