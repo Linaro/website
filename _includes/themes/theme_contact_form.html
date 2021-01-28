@@ -6,11 +6,11 @@
   aria-labelledby="themeContactFormHeader"
   aria-hidden="true"
 >
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content text-white border border-white bg-primary">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content border border-white bg-primary">
       <div class="modal-header">
         <h5
-          class="modal-title font-weight-bold border-bottom pb-3 text-dark"
+          class="modal-title font-weight-bold pb-3"
           id="themeContactFormHeader"
         >
           Please complete this form and we will contact you to discuss how we
@@ -26,6 +26,7 @@
         </button>
       </div>
       <div class="modal-body">
+        <div id="feedback_response"></div>
         <form id="theme_contact_form" class="needs-validation" novalidate>
           <input type="hidden" name="form_id" value="2" />
           <div class="form-group">
@@ -81,12 +82,12 @@
             </div>
           </div>
 
-          <div class="form-group checkbox_group">
+          <div class="form-group checkbox_group bg-white p-3">
             <div class="row py-0">
-              <div class="col col-12">
+              <d1iv class="col col-12 pb-3">
                 <strong>Which services are you interested in?</strong>
               </div>
-              <div class="col col-12 col-sm-6">
+              <div class="col col-12 col-md-6">
                 <div class="checkbox d-block">
                   <input
                     type="checkbox"
@@ -120,7 +121,7 @@
                   <label for="customfield_12906-2">IoT & Embedded</label>
                 </div>
               </div>
-              <div class="col col-12 col-sm-6">
+              <div class="col col-12 col-md-6">
                 <div class="checkbox d-block">
                   <input
                     type="checkbox"
@@ -165,8 +166,8 @@
                   <label class="my-0 mx-2" for="other">Other</label>
                   <input
                     type="text"
-                    name="customfield_12906"
-                    id="customfield_12906-6"
+                    name="customfield_12907"
+                    id="customfield_12907"
                     disabled="true"
                     class="form-control"
                   />
@@ -181,6 +182,7 @@
             >
             Submit
             </button>
+            <div id="feedback_error"></div>
         </form>
       </div>
     </div>
