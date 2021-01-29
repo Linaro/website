@@ -54,7 +54,7 @@ Linaro’s contributions to LTP are again in the [top 5 of contributors](https:/
 
 **By Yvan Roux, ST assignee, Toolchain WG**
 
-{% include image.html path="/assets/images/content/llvm-compiler-infrastructure-icon.png" class="small-inline left" alt="LLVM Compiler Infrastructure- con.png" 
+{% include image.html path="/assets/images/content/llvm-compiler-infrastructure-icon.png" class="small-inline left" alt="LLVM Compiler Infrastructure- con.png" %}
 Our final Machine Outliner patches, enabling this optimization for 32-bit ARM targets, were integrated this month into LLVM mainline.
 
 Machine Outlining is a code-size optimization initially developed for AArch64. It runs just before code emission and works by identifying repeated sequences of instructions, and replaces them with a call to a new function made of these instructions. In a nutshell, it can be seen as the reverse of a well known inlining optimization.
