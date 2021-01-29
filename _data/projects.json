@@ -305,12 +305,12 @@
         },
         {
             "Project Contact Information": {
-                "Meetings": "Every Second Thursday of the month, 2pm CET<br>TO join:<br><a href=\"https://applications.zoom.us/addon/invitation/detail?meetingUuid=5KZ7V7nRQLOPnvM2xWLYxQ%3D%3D&signature=c9ddb10200a49a381c5058a9e9d5194f50b9f6eb9afac8bca39411edf88a41ae\">https://applications.zoom.us/addon/invitation/detail?meetingUuid=5KZ7V7nRQLOPnvM2xWLYxQ%3D%3D&signature=c9ddb10200a49a381c5058a9e9d5194f50b9f6eb9afac8bca39411edf88a41ae</a>",
+                "Meetings": "Join our <a href=\"https://applications.zoom.us/addon/invitation/detail?meetingUuid=5KZ7V7nRQLOPnvM2xWLYxQ%3D%3D&signature=c9ddb10200a49a381c5058a9e9d5194f50b9f6eb9afac8bca39411edf88a41ae\">Zoom call</a> Every Second Thursday of the month, 2pm CET.",
                 "Point of Contact": ""
             },
             "Project Information": {
                 "Health Check Report": "",
-                "JIRA Structure": "<a href=\" https://projects.linaro.org/projects/TS?selectedItem=com.almworks.jira.structure:wi-projectnav-structure&s=292#\">Scope of work breakdown</a>",
+                "JIRA Structure": "<a href=\" https://projects.linaro.org/secure/StructureBoard.jspa?s=292#\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/TS/Trusted+Substrate+Home\">https://collaborate.linaro.org/display/TS/Trusted+Substrate+Home</a>",
                 "description": "Trusted Substrate project ambition is to upstream all necessary technologies in multiple projects to enable SystemReady compliance. Projects can be Trusted Firmware, OP-TEE, U-Boot, SCP, Linux kernel (EFI stub) and others.",
