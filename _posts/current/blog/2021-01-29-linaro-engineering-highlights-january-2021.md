@@ -31,7 +31,7 @@ The Interconnect API is a framework for configuring the on-chip interconnects in
 ## Portable and Reproducible Kernel Builds with TuxMake
 
 **By Dan Rue, Linaro Principal Technical Lead**
-{% include image.html path="/assets/images/content/tuxmake.png" class="small-inline left" alt="TuxMake Logo" 
+{% include image.html path="/assets/images/content/tuxmake.png" class="small-inline left" alt="TuxMake Logo" %}
 
 [TuxMake](https://gitlab.com/Linaro/tuxmake) is an open-source project from Linaro that began in May 2020 and is designed to make building Linux kernels easier. It provides a command-line interface and a Python library, along with a full set of curated portable build environments distributed as container images. With TuxMake, a developer can build any supported combination of target architecture, toolchain, kernel configuration, and make targets.
 
@@ -40,7 +40,7 @@ Building a Linux kernel is not difficult. Follow the documentation, install the 
 ## Open Source Project Criticality Score
 
 **By Joakim Bech and Vicky Janicki**
-{% include image.html path="/assets/images/content/open-source-security-foundation-icon.png" class="small-inline left" alt="Open Source Security Foundation icon.png" 
+{% include image.html path="/assets/images/content/open-source-security-foundation-icon.png" class="small-inline left" alt="Open Source Security Foundation icon.png" %}
 
 The [Open Source Security Foundation](https://openssf.org/) (OSSF) recently published a new tool called the [Open Source Project Criticality Score](https://github.com/ossf/criticality_score) (in Beta). The goals are to generate a criticality score for every open source project, create a list of critical projects that the open source community depends on, and use this data to proactively improve the security posture of these critical projects. A project's criticality score defines the influence and importance of a project. It is a number between 0 (least-critical) and 1 (most-critical). The criticality score is calculated from 10 project usage metrics such as number of contributors, closed issues count and how recently the project was updated. Currently only github hosted projects are analyzed. The results are captured in a CSV such as [this one](https://www.googleapis.com/download/storage/v1/b/ossf-criticality-score/o/c_top_200.csv?generation=1608792512994781&alt=media).
 
