@@ -41,7 +41,7 @@
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         {% for project in site.data.projects["projects"] %}
                             <button class="dropdown-item" data-project-id="{{project['key']}}"
-                             data-theme="{{project['Project Information']['Theme'] | slugify}}">
+                             data-themes="{% for theme in project['Project Information']['Theme']%}{{ theme | slugify }}{% unless forloop.last %},{% endunless%}{% endfor %}">
                                 <img data-src="{{project['icon']}}"
                                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                             alt="{{project['Project Information'].title}} icon" class="mr-2 lazyload">
@@ -66,12 +66,13 @@
                                 {% assign related_blogs = related_blogs | push: post %}
                             {% endif %}
                         {% endfor %}
-                        <div class="card project_card mb-3" data-project-id="{{project['key']}}" data-theme="{{project['Project Information']['Theme'] | slugify}}" >
+                        <div class="card project_card mb-3" data-project-id="{{project['key']}}"
+                         data-themes="{% for theme in project['Project Information']['Theme']%}{{ theme | slugify }}{% unless forloop.last %},{% endunless%}{% endfor %}" >
                             <div class="card-header" id="heading-{{project['key']}}">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed text-dark text-left pl-0" data-toggle="collapse"
                                         data-target="#{{project['key']}}" aria-expanded="false"
-                                        aria-controls="{{project['Project Information'].title | slugify}}">
+                                        aria-controls="{{project['Project Information'].title | slugify }}">
                                         <img data-src="{{project['icon']}}"
                                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                             alt="{{project['Project Information'].title}} icon" class="mr-2 lazyload">
@@ -80,7 +81,7 @@
                                 </h5>
                             </div>
                             <div id="{{project['key']}}" data-project-id="{{project['key']}}" 
-                            data-theme="{{project['Project Information']['Theme'] | slugify}}" class="collapse" aria-labelledby="heading-{{project['key']}}"
+                            data-themes="{% for theme in project['Project Information']['Theme']%}{{ theme | slugify }}{% unless forloop.last %},{% endunless%}{% endfor %}" class="collapse" aria-labelledby="heading-{{project['key']}}"
                                 data-parent="#accordion">
                                 <div class="card-body pb-0">
                                     <p class="lead">
