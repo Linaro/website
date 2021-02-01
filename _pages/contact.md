@@ -63,7 +63,7 @@ flow:
 
 ## Legal Information
 
-The Linaro legal pages/documents can be found here - [/legal/](/legal)
+The Linaro legal pages/documents can be found here - [/legal/](/legal/)
 
 ## Getting Involved with the Community
 
