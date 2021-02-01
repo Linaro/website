@@ -166,6 +166,21 @@
                 "image": "https://static.linaro.org/common/member-logos/google.jpg",
                 "name": "Google",
                 "url": "/membership/google/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+                "name": "HiSilicon",
+                "url": "/membership/hisilicon/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/quic.jpg",
+                "name": "QuIC",
+                "url": "/membership/quic/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
+                "name": "Socionext",
+                "url": "/membership/socionext/"
             }
         ]
     },
