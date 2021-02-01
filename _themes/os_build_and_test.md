@@ -7,12 +7,12 @@ image: /assets/images/content/OS_Build_test.png
 icon: /assets/images/content/Icon_OS_Build_Test.svg
 icon_dark: /assets/images/content/Black_OS_Build_Test.svg
 description: >
-    Improve the quality of Operating System kernels (Linux, Android and Zephyr) by providing the software tools and processes to allow scalability. Facilitate expanded testing coverage and higher software quality in various operating systems including Linux, Android and Zephyr.
+    Improve the quality of Operating System kernels (Linux, Android, Zephyr) by providing the software tools and processes to allow continuous build, functional testing and regression detection.  Facilitate expanded testing coverage and higher software quality in various operating systems - Linux, Android, and RTOSs.  Rapid deployment of automated testing powered by 10+ experience in the Arm embedded ecosystem.
 jumbotron:
     class: theme_banner 
-    title: Accelerated Operating System Build and Test Services
+    title: Rapid Operating System Build and Test
     description: >
-        Improve the quality of Operating System kernels (Linux, Android and Zephyr) by providing the software tools and processes to allow scalability. Facilitate expanded testing coverage and higher software quality in various operating systems including Linux, Android and Zephyr.
+        Improve the quality of Operating System kernels (Linux, Android, Zephyr) by providing the software tools and processes to allow continuous build, functional testing and regression detection.  Facilitate expanded testing coverage and higher software quality in various operating systems - Linux, Android, and RTOSs.  Rapid deployment of automated testing powered by 10+ experience in the Arm embedded ecosystem
     image: /assets/images/content/OS_Build_test.png
     buttons:
       - title: How can we help?

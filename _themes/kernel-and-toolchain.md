@@ -3,7 +3,7 @@ id: 4
 title: Kernel & Toolchain
 sub_theme: false
 permalink: /kernel-and-toolchain/
-image: /assets/images/content/Kernel_Toolchain_Security.png
+image: /assets/images/content/code_banner.jpg
 icon: /assets/images/content/Black_Kernel.svg
 icon_dark: /assets/images/content/Black_Kernel.svg
 description: >
