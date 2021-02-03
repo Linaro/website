@@ -96,8 +96,6 @@ flow:
             can participate in any of Linaro’s segment groups. At an additional
             fee, they can also have access to their own dedicated engineering
             team and participate in additional Linaro projects.
-      - format: custom_include
-        source: membership/club_membership_testimonial.html
     style: large_type centered_type membership_row club_membership_row  bg-green
   - row: container_row
     sections:
@@ -113,8 +111,6 @@ flow:
             group. Linaro manages the following groups: Artificial Intelligence,
             Autonomous Vehicles, Consumer, Datacenter & Cloud, Edge & Fog
             Computing, IoT & Embedded and HPC.
-      - format: custom_include
-        source: membership/group_membership_testimonial.html
     style: large_type centered_type membership_row group_membership_row bg-light-gray
   - row: container_row
     sections:
