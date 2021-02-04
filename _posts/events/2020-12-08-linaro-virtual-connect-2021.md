@@ -12,7 +12,7 @@ description: >-
   Due to the current climate we are running these events virtually. The next Linaro Connect will be held virtually March 23-25, 2021. 
 
 
-  http://connect.linaro.org/
+  http://connect.linaro.org/  
 location: "Virtual "
 date: 2020-12-08 07:25:37
 event_date: 2021-03-23 08:25:37
