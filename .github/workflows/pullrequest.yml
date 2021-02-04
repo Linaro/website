@@ -46,10 +46,18 @@ jobs:
       - name: Check routing rules
         run: /srv/github-action-scripts/test-routing-rules.sh
 
-      - name: Run Pa11y scan
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: CheckSite
-          repo: linaro-its/pa11y-ci-container
-          token: ${{ secrets.BUILD_REPO_TOKEN }}
-          inputs: '{ "uri": "${{ env.SITE_URL }}" }'
+      - name: Calculate test site url for a11y scan
+        run: |
+          PR_NUMBER=$(jq -r ".pull_request.number" $GITHUB_EVENT_PATH)
+          BUILDDIR="$AWS_STATIC_SITE_URL-$PR_NUMBER"
+          echo "TEST_URL=$BUILDDIR.ghactions.linaro.org" >> $GITHUB_ENV
+
+      - run: env
+
+      # - name: Run Pa11y scan
+      #   uses: benc-uk/workflow-dispatch@v1
+      #   with:
+      #     workflow: CheckSite
+      #     repo: linaro-its/pa11y-ci-container
+      #     token: ${{ secrets.BUILD_REPO_TOKEN }}
+      #     inputs: '{ "uri": "${{ env.SITE_URL }}" }'
