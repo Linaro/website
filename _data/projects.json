@@ -185,7 +185,7 @@
                 "Plan Of Record": "",
                 "Theme": ["OS Build & Test"],
                 "Project Homepage": "<a href=\"https://lkft.linaro.org/ \">https://lkft.linaro.org/ </a>and <a href=\"https://collaborate.linaro.org/display/LKQ\">https://collaborate.linaro.org/display/LKQ</a>",
-                "description": "Our mission is to improve the quality of the Linux kernel by performing functional testing on Arm hardware. Our focus is on LTS, stable, and upstream development branches.",
+                "description": "Our core mission is to improve the quality of the Linux kernel by testing its upstream releases on Arm and X86 hardware as well as virtual platforms of various architectures.  We focus on long term support kernels (LTS), stable, and upstream development branches.<br><br><br><br><br><br>",
                 "title": "Linux Kernel Quality"
             },
             "Project Ownership": {

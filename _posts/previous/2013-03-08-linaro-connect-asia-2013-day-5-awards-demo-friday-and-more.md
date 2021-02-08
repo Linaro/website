@@ -32,7 +32,7 @@ Please note: If the slide deck is not there for a session you are looking for it
 
 The sessions that were streamed using Google+ Hangouts on Air can be found on the [Linaro On Air Youtube Channel.](http://www.youtube.com/user/LinaroOnAir)
 
-The video interviews and sessions that were filmed by FormsCom can be found on the [LinaroOrg YouTube Channel](/blog).
+The video interviews and sessions that were filmed by FormsCom can be found on the [LinaroOrg YouTube Channel](/blog/).
 
 The video interviews and sessions recorded by Nicolas "Charbax" Charbonnier can be found on [armdevices.net]().
 
