@@ -3,14 +3,7 @@ sub_theme: true
 image: /assets/images/content/Datacenter.jpg
 title: HPC / Server
 description: >
-    Lorem ipsum dolor sit amet,
-    consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore
-    et dolore magna aliqua. Ut enim ad
-    commodo consequat...
+    HPC/Server activities focus on training and inference. It is performance and functionality oriented activity to improve Arm based HPC/Server for a range of AI workloads...
 ---
-Lorem ipsum dolor sit amet,
-consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad
-commodo consequat.
+HPC/Server activities focus on training and inference. It is performance and functionality oriented activity to improve Arm based HPC/Server for a range of AI workloads. The underlying ML Frameworks and dependencies are built from source to verify compatibility across a diverse set of stack permutations. Development within novel AI approaches beyond ML are also considered.
+
