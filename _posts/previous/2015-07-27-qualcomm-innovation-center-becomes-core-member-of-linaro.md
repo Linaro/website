@@ -1,7 +1,7 @@
 ---
 author: linaro
 category: news
-comments: true
+comments: false
 date: 2015-07-27 15:42:17
 description: Qualcomm Innovation Center becomes Core Member of Linaro
 excerpt: Qualcomm Innovation Center becomes Core Member of Linaro

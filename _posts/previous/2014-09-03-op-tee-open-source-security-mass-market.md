@@ -1,6 +1,6 @@
 ---
 author: joakim.bech
-comments: true
+comments: false
 date: 2014-09-03 17:06:05+00:00
 layout: post
 link: /blog/core-dump/op-tee-open-source-security-mass-market/
