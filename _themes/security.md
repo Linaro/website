@@ -148,12 +148,9 @@ collaboration with Arm and other partners we are exploring things that might be 
 
 ### Zephyr and MCUBoot
 
-Linaro is working with the Zephyr project on various technologies, but the security side has been an important area where Linaro played a
-key role in the creation of the security architecture. The Zephyr Security Architect is a Linaro employee who is heading the security
-architecture discussions, and has led the team in the creation of various security processes for the project, including working with MITRE
-to bring Zephyr in as a CVE Numbering Authority, and developing the process of handling vulnerabilities. This person also ported, and
-continues as a maintainer with the MCUboot project, the secure bootloader that is used as the primary bootloader for Zephyr. This person
-also works with the IETF through the process of developing several standards (RFCs) relevant to the security of Zephyr.
+Linaro is working with the [Zephyr project](https://www.zephyrproject.org/) on various technologies, but the security side has been an important area where Linaro played a key role in the creation of the security architecture. Our work in security architecture ranges from cryptographic algorithm support to be utilized by system and communication protocols, to key management, and tamper/intrusion detection systems. Additionally, it takes into account the security extensions associated with the ARMv8-M architecture, using Trusted Firmware for Cortex-M and Arm’s Platform Security Architecture (PSA). In October 2019, we built and certified a PSA Level 1 hardware and software platform implementation using Zephyr. The Zephyr Security Architect is a Linaro employee who is heading the security architecture discussions, and has led the team in the creation of various security processes for the project. This includes working with MITRE to bring Zephyr in as a CVE Numbering Authority, and developing the process of handling vulnerabilities. This person also ported, and continues as a maintainer with the MCUboot project. This is the secure bootloader that is used as the primary bootloader for Zephyr. This person also works with the IETF through the process of developing several standards (RFCs) relevant to the security of Zephyr. 
+
+
 
 ### StandAloneMM
 
