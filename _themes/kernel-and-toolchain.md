@@ -4,7 +4,7 @@ title: Kernel & Toolchain
 sub_theme: false
 permalink: /kernel-and-toolchain/
 image: /assets/images/content/code_banner.jpg
-icon: /assets/images/content/Black_Kernel.svg
+icon: /assets/images/content/Kernel_White.svg
 icon_dark: /assets/images/content/Black_Kernel.svg
 description: >
     Fundamentals are the technologies that are essential to maintaining
