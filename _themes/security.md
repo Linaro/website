@@ -4,8 +4,8 @@ title: Security
 sub_theme: false
 permalink: /security/
 image: /assets/images/content/Kernel_Toolchain_Security.png
-icon: /assets/images/content/Black_Kernel.svg
-icon_dark: /assets/images/content/Black_Kernel.svg
+icon: /assets/images/content/Icon_Security_White.svg
+icon_dark: /assets/images/content/Icon_Security_Black.svg
 description: >
     Security is no longer an option, it's a vital ingredient to be able to protect intellectual
     property, communications, bank accounts, personal digital belongings etc. The list is almost
