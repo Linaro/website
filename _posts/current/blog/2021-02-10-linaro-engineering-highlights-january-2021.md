@@ -10,7 +10,7 @@ description: >-
   Outliner
 
   and SVE/SVE2 support in LLVM Debugger (LLDB).
-date: 2021-01-29 12:12:46
+date: 2021-02-10 11:00:00
 image: /assets/images/content/the_world.jpg
 tags:
   - Engineering Highlights
@@ -64,16 +64,11 @@ The typical code size reduction is around 5% for ARM and 4% for Thumb2 mode -- a
 The optimization will be available in the upcoming LLVM 12 release, and it is enabled by default for M-profile cores at -Oz optimization level. It can also be turned on with -*moutline* compiler flag.
 
 ## SVE/SVE2 support in LLVM Debugger (LLDB)
+
 **By Omair Javaid, Senior Engineer, Toolchain WG**
-
-
 
 The Scalable Vector Extension (SVE) adds extra SIMD capabilities and larger variable-length vector registers. SVE is different from standard vector architectures because its vector registers can change size at run-time and may have different sizes for each thread.
 
-
-
 Linaro has successfully developed and upstreamed SVE/SVE2 support in LLDB debugger. Upcoming LLVM 12 release will host full-featured SVE support, including support for dynamically changing vector registers in both native and remote configurations.
-
-
 
 In the coming weeks Linaro toolchain team will publish a blog post describing SVE features in LLDB and how to debug a demo SVE application using LLDB debugger.
