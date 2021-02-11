@@ -12,11 +12,7 @@ jumbotron:
     class: theme_banner 
     title: Internet of Things
     description: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur.
+        IoT is an enabling infrastructure that companies, cities and individuals need in place to act on the data and insights from connected devices. As the 5th wave of computing (AI, IoT and 5G) quickly approaches, fragmentation in the Arm ecosystem is hindering the deployment of increasingly sophisticated devices. Linaro and its Members are collaborating to build best in class common tools, libraries and interfaces while supporting common standards that will enable rapid deployment of secure solutions at lower cost points, more efficient deployments and easier maintenance.
     image: /assets/images/content/IoT_Embedded.png
     buttons:
       - title: How can we help?
