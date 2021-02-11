@@ -33,9 +33,11 @@
                                         <div class="modal-body">
                                             {{theme.content}}
                                         </div>
+                                        {% if theme.content_link %}
                                         <div class="modal-footer justify-content-start">
-                                            <a class="btn btn-primary text-uppercase text-dark" href="{{theme.permalink}}">Learn More</a>
+                                            <a class="btn btn-primary text-uppercase text-dark" href="{{content_link}}">Learn More</a>
                                         </div>
+                                        {% endif %}
                                     </div>
                                 </div>
                             </div>
