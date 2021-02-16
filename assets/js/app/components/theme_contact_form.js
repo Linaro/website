@@ -46,7 +46,7 @@ theme_contact_form.onsubmit = (e) => {
       {
         method: "POST",
         body: JSON.stringify(formDataPayloadBody),
-        headers: { "X-Api-Key": "bUyfIZrV6JaXBtT6ZRfQA3j1i1tsL76k1cSWl8t2" },
+        headers: { "X-Api-Key": "xpIcQXHk0Y1XUmBBH4xUl5ScFxgddlFnEpQeSzO3" },
       }
     )
       .then((response) => response.json())
