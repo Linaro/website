@@ -12,7 +12,7 @@ tags:
 - Lava
 ---
 
-This blog post talks about the core topics that LAVA deals with, dives into the architecture of the stack as it exists today and provides some background rationale for the design choices we made. If you are not familiar with LAVA you may want to read the [introduction](/blog/lava-introduction/) first.
+This blog post talks about the core topics that LAVA deals with, dives into the architecture of the stack as it exists today and provides some background rationale for the design choices we made. If you are not familiar with LAVA you may want to read the introduction first.
 
 LAVA is a broad project and to make it more manageable for day-to-day engineering we have separated it into a collection of smaller projects, focused on a narrow topic. Today LAVA has the following key sub-projects:
 

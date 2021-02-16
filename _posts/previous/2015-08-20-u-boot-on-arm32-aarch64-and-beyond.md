@@ -1,7 +1,7 @@
 ---
 author: linus.walleij
 category: blog
-comments: true
+comments: false
 date: 2015-08-20 16:14:21
 description: U-Boot became the de facto bootloader on most Arm systems during the
   early 2000s. What is the best bootloader to use for any one system is a subject
