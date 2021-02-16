@@ -36,8 +36,6 @@ EAS is the culmination of a lot of discussion in the past years on LKML and in 
 
 #### Energy Aware Scheduling workshop @ Kernel Summit 2014
 
-[A summary of the EAS workshop](/blog/summary-energy-aware-scheduling-workshop-linux-kernel-summit-2014/)
-
 [LWN summary on the EAS workshop](http://lwn.net/Articles/609969/)
 
 [Another LWN article on the EAS workshop](http://lwn.net/Articles/609561/)

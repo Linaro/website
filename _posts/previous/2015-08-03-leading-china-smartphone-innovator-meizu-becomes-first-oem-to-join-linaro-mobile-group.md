@@ -1,7 +1,7 @@
 ---
 author: linaro
 category: news
-comments: true
+comments: false
 date: 2015-08-03 12:26:09
 description: "Meizu becomes first OEM to join Linaro Mobile Group. As a current and
   potential customer of several of Linaroâ\x80\x99s silicon supplier members, Meizu

@@ -1,7 +1,7 @@
 ---
 author: linaro
 category: blog
-comments: true
+comments: false
 date: 2014-09-26 08:54:06
 description: The blog post describes why introducing Arm TrustZone support in QEMU
   is important and the accompanying benefits. The post outlines the turbulent history
