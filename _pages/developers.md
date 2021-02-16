@@ -55,12 +55,6 @@ d="M1408 768q0 139-94 257t-256.5 186.5-353.5 68.5q-86 0-176-16-124 88-278 128-36
 Join us at the next [Linaro Connect](https://connect.linaro.org/) and subscribe to relevant [Linaro mailing
 lists](http://lists.linaro.org/mailman/listinfo).
 
-**New to free and open source software (FOSS)?**
-
-* See this [introduction](/blog/make-positive-difference-foss-project/) on getting involved and maximizing your
-contributions, written by Paul McKenney, [RCU](http://www.rdrop.com/users/paulmck/RCU/ "Introduction to RCU")
-Maintainer and member of Linaro’s OCTO.
-
 **Running Linaro builds on your hardware**
 
 * There are two ways to get a Linaro build on your hardware. The fastest way is to grab a milestone image and

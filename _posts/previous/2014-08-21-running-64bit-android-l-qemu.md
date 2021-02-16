@@ -1,6 +1,6 @@
 ---
 author: alex.bennee
-comments: true
+comments: false
 date: 2014-08-21 07:00:04+00:00
 layout: post
 link: /blog/core-dump/running-64bit-android-l-qemu/

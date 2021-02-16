@@ -1,7 +1,7 @@
 ---
 author: peter.maydell
 category: blog
-comments: true
+comments: false
 date: 2015-06-22 23:02:00
 description: "Over the years Iâ\x80\x99ve picked up a few tricks for tracking down
   problems in QEMU, and it seemed worth writing them up."

@@ -1,7 +1,7 @@
 ---
 author: jacopo.mondi
 category: blog
-comments: true
+comments: false
 date: 2015-07-22 20:22:08
 description: This article explains how to add a new service and associated application
   APIs to Android Lollipop 5
