@@ -503,44 +503,23 @@ collections:
             name: "brand"
             widget: object
             fields:
-              - { label: Text, name: text, widget: string }
-              - label: Image
-                name: image
-                widget: object
-                fields:
-                  - {
-                      label: Enabled,
-                      name: enabled,
-                      widget: boolean,
-                      default: true,
-                    }
-                  - {
-                      label: Name,
-                      name: name,
-                      widget: string,
-                      default: true,
-                      required: false,
-                    }
-                  - {
-                      label: SVG,
-                      name: svg,
-                      widget: boolean,
-                      default: true,
-                      required: false,
-                    }
-                  - {
-                      label: Path,
-                      name: path,
-                      widget: image,
-                      default: true,
-                      required: false,
-                    }
               - {
-                  label: Url,
-                  name: url,
+                  label: Custom Include,
+                  name: custom_include,
                   widget: string,
                   required: false,
-                  default: /,
+                }
+              - {
+                  label: Image Path,
+                  name: path,
+                  widget: image,
+                  required: false,
+                }
+              - {
+                  label: Alt for Image,
+                  name: alt,
+                  widget: string,
+                  required: false,
                 }
           - label: "Navigation Items"
             name: "pages"
