@@ -7,7 +7,6 @@ tags:
 - Linux
 - Open Source
 - Collaborative Engineering
-- Aarch64
 category: blog
 image: /assets/images/content/porting-linux-featured-image.jpg
 author: lee.jones

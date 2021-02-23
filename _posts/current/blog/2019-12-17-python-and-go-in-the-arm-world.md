@@ -5,7 +5,6 @@ date: '2019-12-17 03:46:40'
 image: /assets/images/content/code_banner.jpg
 tags:
 - Arm
-- Arm64
 - Python
 - Servers
 category: blog

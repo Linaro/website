@@ -1,21 +1,21 @@
 ---
 layout: post
 title: DMA BUF Heap Transition in AOSP
-description: The ION framework was one of the early components of the Android
-  patchset. It provided a way for userspace to allocate memory buffers that
-  would be efficiently shared between multiple devices. In this article John
-  Stultz takes a detailed look at the DMA BUF Heaps interface that is designed
-  to replace ION.
+description: The ION framework was one of the early components of the Android patchset.
+  It provided a way for userspace to allocate memory buffers that would be efficiently
+  shared between multiple devices. In this article John Stultz takes a detailed look
+  at the DMA BUF Heaps interface that is designed to replace ION.
 date: 2020-11-17 03:44:32
 image: /assets/images/content/tech_background__under_2mb.jpg
 tags:
-  - AOSP
-  - DMA BUF Heaps
-  - ION
+- Android Ecosystem
+- DMA BUF Heaps
+- ION
 related_projects: []
 category: blog
 author: john.stultz
 ---
+
 # DMA BUF Heaps to replace ION
 
 With the DMA BUF Heaps interface (designed to replace ION) now upstream, work is quickly happening to migrate both AOSP and vendor ION usage and heap implementations to DMA BUF Heaps.

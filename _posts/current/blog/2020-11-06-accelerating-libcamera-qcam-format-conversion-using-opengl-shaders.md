@@ -1,24 +1,24 @@
 ---
 layout: post
 title: Accelerating libcamera Qcam format conversion using OpenGL shaders
-description: "Libcamera is an open source friendly camera stack and userspace
-  library.  It provides an intuitive API and methods to control the complexity
-  of camera hardware for multiple platforms. As libcamera is helping to solve a
-  longstanding pain point in the Linux ecosystem (the management of complex
-  cameras), we decided to contribute to accelerating Qcam so we can have a much
-  more performant demo of libcamera on some of the platforms Linaro cares about.
-  "
+description: 'Libcamera is an open source friendly camera stack and userspace library.  It
+  provides an intuitive API and methods to control the complexity of camera hardware
+  for multiple platforms. As libcamera is helping to solve a longstanding pain point
+  in the Linux ecosystem (the management of complex cameras), we decided to contribute
+  to accelerating Qcam so we can have a much more performant demo of libcamera on
+  some of the platforms Linaro cares about. '
 date: 2020-11-06 10:26:43
 image: /assets/images/content/code_highway-2-.jpg
 tags:
-  - libcamera
-  - RockPi4B
-  - Rockchip RK3399
+- libcamera
+- RockPi4B
+- Rockchip RK3399
 related_projects:
-  - ASA
+- ASA
 category: blog
 author: show.liu@linaro.org
 ---
+
 # libcamera
 
 [libcamera](https://libcamera.org/) is an open source friendly camera stack and userspace library. It provides an intuitive API and methods to control the complexity of camera hardware for multiple platforms. The “qcam” application is one of the built-in example programs in libcamera to demonstrate how to handle the cameras using the libcamera APIs. It is a Qt based GUI application that provides camera preview and capture functions.\*\*

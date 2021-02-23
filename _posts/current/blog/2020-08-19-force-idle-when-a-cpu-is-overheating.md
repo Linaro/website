@@ -14,7 +14,6 @@ tags:
 - Linux Kernel
 - Embedded
 - PELT
-- Arm64
 related_projects:
 - PERF
 category: blog

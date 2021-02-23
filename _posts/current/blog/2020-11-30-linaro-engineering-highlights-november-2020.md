@@ -1,25 +1,26 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - November 2020
-description: The November highlights are full of the latest updates and news
-  from Linaro. Topics include; LITE updates, MCUboot & a new Linaro Community
-  Project, Security and Zephyr updates. Plus, future improvements for Device
-  Tree, Kernel Working Group news, setting up ARM32 architecture, Kernel
-  validation team updates, LEDGE team news, Arm 32bit startup sequence and a
-  major eBPF fix on Aarch64 to name but a few.
+description: The November highlights are full of the latest updates and news from
+  Linaro. Topics include; LITE updates, MCUboot & a new Linaro Community Project,
+  Security and Zephyr updates. Plus, future improvements for Device Tree, Kernel Working
+  Group news, setting up ARM32 architecture, Kernel validation team updates, LEDGE
+  team news, Arm 32bit startup sequence and a major eBPF fix on Aarch64 to name but
+  a few.
 date: 2020-12-14 11:54:02
 image: /assets/images/content/electricity-1288717_1920.jpg
 tags:
-  - Engineering Highlights
-  - Lite
-  - Device Tree
-  - Kernel Working Group
-  - Ledge
+- Engineering Highlights
+- Lite
+- Device Tree
+- Kernel Working Group
+- Ledge
 related_projects:
-  - DTE
+- DTE
 category: blog
 author: jon.burcham@linaro.org
 ---
+
 # LITE Updates
 
 **By Vicky Janicki, Engineering Director LITE**

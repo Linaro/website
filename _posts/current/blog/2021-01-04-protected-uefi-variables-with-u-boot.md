@@ -1,31 +1,33 @@
 ---
 layout: post
 title: Protected UEFI Variables With U-Boot
-description: >-
-  Critical system variables, like the UEFI ones, must be protected against a
-  variety of attacks.
+description: 'Critical system variables, like the UEFI ones, must be protected against
+  a variety of attacks.
 
-  On Arm servers and desktops, which typically run EDK2, dedicated flashes are used. Those
+  On Arm servers and desktops, which typically run EDK2, dedicated flashes are used.
+  Those
 
-  would normally be accessible from the secure world only, since they are storing critical
+  would normally be accessible from the secure world only, since they are storing
+  critical
 
   variables for our systems integrity and security.
 
 
-  But what's the status of devices running on U-Boot?
+  But what''s the status of devices running on U-Boot?'
 date: 2021-01-04 02:16:09
 image: /assets/images/content/tech_background.jpg
 tags:
-  - Bootloaders
-  - Security
-  - U-Boot
-  - UEFI
-  - Arm
+- Bootloaders
+- Security
+- U-Boot
+- UEFI
+- Arm
 related_projects:
-  - LKQ
+- LKQ
 category: blog
 author: ilias.apalodimas@linaro.org
 ---
+
 # **Intro**
 
 Critical system variables, like the UEFI ones, must be protected against a variety of attacks. On Arm servers and desktops, which typically run EDK2, dedicated flashes are used. Those would normally be accessible from the secure world only, since they are storing critical variables for our systems integrity and security.

@@ -1,25 +1,24 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - January 2021
-description: >-
-  January highlight's include a blog from Georgi Djakov on Saving Power &
-  Improving Performance With Dynamic Interconnect Scaling, an article on
-  creating Portable and Reproducible Kernel Builds with TuxMake, plus
-  information on a new tool called the Open Source Project Criticality Score.
-  Furthermore, there are articles on the LLVM Code-Size Optimization: Machine
-  Outliner
+description: 'January highlight''s include a blog from Georgi Djakov on Saving Power
+  & Improving Performance With Dynamic Interconnect Scaling, an article on creating
+  Portable and Reproducible Kernel Builds with TuxMake, plus information on a new
+  tool called the Open Source Project Criticality Score. Furthermore, there are articles
+  on the LLVM Code-Size Optimization: Machine Outliner
 
-  and SVE/SVE2 support in LLVM Debugger (LLDB).
+  and SVE/SVE2 support in LLVM Debugger (LLDB).'
 date: 2021-02-10 11:00:00
 image: /assets/images/content/the_world.jpg
 tags:
-  - Engineering Highlights
-  - TuxMake
-  - Open Source Security Foundation
-  - LLVM
+- Engineering Highlights
+- TuxMake
+- Open Source Security Foundation
+- LLVM
 category: blog
 author: jon.burcham@linaro.org
 ---
+
 # [Saving Power & Improving Performance With Dynamic Interconnect Scaling](https://www.linaro.org/blog/history-of-the-interconnect-framework/)
 
 **By Georgi Djakov, Linaro engineer, Kernel Working Group**
