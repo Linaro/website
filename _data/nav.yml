@@ -24,7 +24,6 @@ pages:
     options:
       - text: Blogs
         url: /blog/
-        options: []
       - text: Events
         url: /events/
       - text: News
