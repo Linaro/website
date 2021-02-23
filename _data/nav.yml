@@ -17,6 +17,8 @@ pages:
     url: https://connect.linaro.org/resources/
   - title: Support
     url: /support/
+  - title: Downloads
+    url: /downloads/
   - title: About
     url: /about/
     options:
