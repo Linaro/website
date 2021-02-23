@@ -2,13 +2,7 @@
   "items": [
     {
       "title": "Android Ecosystem",
-      "tags": [
-        "5YearAward",
-        "Android Ecosystem",
-        "LCG",
-        "Linaro Mobile Group",
-        "Smartphone"
-      ]
+      "tags": ["Android Ecosystem", "LCG", "Linaro Mobile Group", "Smartphone"]
     },
     {
       "title": "Artificial Intelligence",
