@@ -1,4 +1,13 @@
 $(document).ready(function () {
+  // Add some invisible elements with Bootstrap CSS visibile utility classes
+  $("body").append(
+    "<div style='display:none;' class='viewport-check'><span class='d-block'></span><span class='d-sm-block'></span><span class='d-md-block'></span><span class='d-lg-block'></span><span class='d-xl-block'></span></div>"
+  );
+  // Checks if the span is set to display blcok via CSS
+  function checkIfBlock(target) {
+    var target = $(target).css("display") == "block";
+    return target;
+  }
   // Fetch the maintainers data
   const maintainersByProjectData = JSON.parse(
     decodeURIComponent(
