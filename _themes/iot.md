@@ -15,10 +15,10 @@ jumbotron:
         IoT is an enabling infrastructure that companies, cities and individuals need in place to act on the data and insights from connected devices. As the 5th wave of computing (AI, IoT and 5G) quickly approaches, fragmentation in the Arm ecosystem is hindering the deployment of increasingly sophisticated devices. Linaro and its Members are collaborating to build best in class common tools, libraries and interfaces while supporting common standards that will enable rapid deployment of secure solutions at lower cost points, more efficient deployments and easier maintenance.
     image: /assets/images/content/IoT_Embedded.png
     buttons:
-      - title: How can we help?
+      - title: How can Linaro help?
         url: "#contact_form"
         style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase theme_contact_btn
-      - title: How can we help?
+      - title: How can Linaro help?
         url: "#contact_form"
         style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase theme_contact_btn
 presentation_link: /about/
