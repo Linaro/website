@@ -1,0 +1,67 @@
+<head>
+    {% include components/http2.html %}
+    <meta charset="UTF-8">
+    <title>
+        {% if page.title %}
+            {{page.title}} - {{site.title}}
+        {% else %}
+            {{site.title}}
+        {% endif %}
+    </title>
+    {% include components/css.html %}
+
+    {% if page.description %}
+        {% assign description = page.description %}
+    {% else %}
+        {% assign description = site.description %}
+    {% endif %}
+
+    {% if page.title %}
+        {% assign title = page.title %}
+    {% else %}
+        {% assign title = site.title %}
+    {% endif %}
+
+    {% if page.image %}
+        {% assign image = page.image | absolute_url %}
+    {% else %}
+        {% assign image = site.social_media_share_image | absolute_url %}
+    {% endif %}
+
+    <link rel="icon" href="{{site.favicon}}" type="image/png" />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <!-- Meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Jekyll v4" />
+    <meta name="description" content="{{description}}" />
+    <!--Open Graph-->
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:description" content="{{description}}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:site_name" content="Linaro" />
+    <meta property="og:image" content="{{image}}" />
+    <!--Twitter Cards-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="{{image}}" />
+    <meta property="twitter:title" content="{{title}}" />
+    {% if site.twitter_username %}
+    <meta name="twitter:site" content="@{{site.twitter_username}}" />
+    {% endif %}
+    {% if site.google_analytics.enabled %}
+        <meta name="analytics_code" content="{{site.google_analytics.code}}">
+    {% endif %}
+    {% if page.tags %}
+        <meta name="keywords" content="{{page.tags | join: ", "}}">
+    {% elsif page.keywords %}
+        <meta name="keywords" content="{{page.keywords | join: ", "}}">
+    {% endif %}
+    {% include_cached components/schema.html %}
+    {% if page.url != "/" and site.breadcrumb_schema %}
+    <!--Breadcrumb Schema-->
+    {% capture breadcrumb_schema %}{"@context": "http://schema.org","@type": "Webpage", "breadcrumb": {"@context": "https://schema.org","@type": "BreadcrumbList","itemListElement":[{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}{% assign breadcrumb_path = "/" %}{% for crumb in crumbs offset: 1 %}{% assign crumb_limit = forloop.index | plus: 1 %}{% capture breadcrumb_path %}{{breadcrumb_path}}{{crumb}}/{% endcapture%}{"@type": "ListItem","position": {{forloop.index}},"item":{"@id": "{{breadcrumb_path | absolute_url}}","name": "{% assign page_data = site.pages | where: "url", breadcrumb_path | first %}{% if page_data.title %}{{page_data.title}}{% else %}{{breadcrumb_path}}{% endif %}"}}{% unless forloop.last %},{% endunless %}{% endfor %}]}}{% endcapture %}
+    <script type="application/ld+json">{{breadcrumb_schema | strip_newlines | strip }}</script>
+    {% endif %}
+    {% if page.schema %}<script type="application/ld+json">{{page.schema | jsonify }}</script>{% endif %}
+    <meta name="ahrefs-site-verification" content="884732389275fe4790b2ee707211ad7ffc1f6cd7a8a11b49e631f7e47ca1ec7e">
+</head>

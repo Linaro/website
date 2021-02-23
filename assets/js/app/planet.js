@@ -13,19 +13,19 @@ $(document).ready(function () {
 var mainFeed = [];
 // Store a list of all the rss feeds
 var feeds = [
-    "http://www.workofard.com/feed/", // Ard Biesheuvel
-    "https://pierrchen.blogspot.com/rss.xml", // Bin Chen
-    "https://marcin.juszkiewicz.com.pl/feed/", // Marcin Juszkiewicz
-    "https://fullshovel.wordpress.com/feed/", // Tom Gall
-    "https://translatedcode.wordpress.com/feed/", // Peter Maydell
-    "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro", // Riku Voipio
-    "http://nerdrambles.wordpress.com/category/Linaro/feed/", // James Arnett
-    "http://www.bennee.com/~alex/blog/tag/linaro/feed/", // Alex Bennee
-    "https://station.eciton.net/index.rss", // Leif Lindholm
-    "https://blog.duraffort.fr/feed/tag/linaro/rss", // Remi Duraffort
-    "https://www.davidb.org/index.xml", // David Brown
-    "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/", // Daniel Thompson
-    "https://feedmix.novaclic.com/atom2rss.php?source=https%3A%2F%2Ftherub.org%2Ffeed.xml", // Dan rue
+  "http://www.workofard.com/feed/", // Ard Biesheuvel
+  "https://pierrchen.blogspot.com/rss.xml", // Bin Chen
+  "https://marcin.juszkiewicz.com.pl/feed/", // Marcin Juszkiewicz
+  "https://fullshovel.wordpress.com/feed/", // Tom Gall
+  "https://translatedcode.wordpress.com/feed/", // Peter Maydell
+  "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro", // Riku Voipio
+  "http://nerdrambles.wordpress.com/category/Linaro/feed/", // James Arnett
+  "https://www.bennee.com/~alex/blog/tag/linaro/feed", // Alex Bennee
+  "https://station.eciton.net/index.rss", // Leif Lindholm
+  // "https://blog.duraffort.fr/feed/tag/linaro/rss", // Remi Duraffort
+  "https://www.davidb.org/index.xml", // David Brown
+  "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/", // Daniel Thompson
+  "https://feedmix.novaclic.com/atom2rss.php?source=https%3A%2F%2Ftherub.org%2Ffeed.xml", // Dan rue
 ];
 var sortableFeeds = feeds.slice();
 
@@ -103,6 +103,9 @@ function getJSON(url) {
       // console.log(response);
       addFeedChannel(response.feed);
       for (i = 0; i < response.items.length; i++) {
+        if (response.items[i].author === "") {
+          response.items[i].author = response.feed.title;
+        }
         if (i == response.items.length - 1) {
           addJSONToGlobalArr(response.items[i], (end = true));
         } else {
@@ -116,7 +119,11 @@ function getJSON(url) {
 console.log("Generating the Planet Linaro feed...");
 
 for (i = 0; i < feeds.length; i++) {
-  var items = getJSON(feeds[i]);
+  try {
+    var items = getJSON(feeds[i]);
+  } catch (err) {
+    console.log(err);
+  }
 }
 
 // outputs list of feeds their original sites
@@ -181,7 +188,7 @@ function outputFeed() {
     var sortedFeed = mainFeed.slice(0).sort(sort_by_date_desc); //Create a new array
     console.log(sortedFeed.sort(sort_by_date_desc));
   }
-
+  console.log(sortedFeed);
   for (n = 0; n < sortedFeed.slice(0, 25).length; n++) {
     var uniqueId = string_to_slug(sortedFeed[n].guid);
     var textEl = '<div class="card">';
