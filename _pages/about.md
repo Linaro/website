@@ -43,20 +43,6 @@ flow:
       - format: custom_include
         source: about/youtube_embed.html
   - row: container_row
-    style: large_type introduction_row py-0
-    sections:
-      - format: text
-        style: text-left
-        text_content:
-          text: >
-            Linaro works within many different verticals and within each of these verticals there are many different
-            [projects](/projects/). As an important partner within the open source community, Linaro has over one hundred
-            maintainers. We are also one of the top contributors to the development of the Linux kernel.
-  - row: custom_include_row
-    source: about/maintainers_by_project.html
-  - row: custom_include_row
-    source: about/maintainers_by_company.html
-  - row: container_row
     sections:
       - format: title
         style: text-left

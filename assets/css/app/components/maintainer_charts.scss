@@ -1,0 +1,42 @@
+.maintainers_data_row {
+  .col.col-12.col-md-3.stat_block {
+    background-color: #cfcfcf;
+  }
+  .header_section .row {
+    background-color: #e6e6e6;
+  }
+  h3.stats.font-weight-bold {
+    font-size: 125px;
+    display: block;
+    text-align: center;
+    color: black;
+  }
+  h2.header {
+    font-size: 40px;
+    color: black;
+  }
+  h4.section_label.mb-0.p-1 {
+    font-size: 30px;
+    top: -3px;
+    font-weight: lighter;
+    position: relative;
+  }
+  .canvasTop {
+    top: -139px;
+    position: relative;
+    margin-bottom: -80px;
+  }
+  .chart-container {
+    height: 500px;
+  }
+  @include media-breakpoint-down(md) {
+    .chart-container {
+      height: 300px;
+    }
+    .canvasTop {
+      top: 0;
+      position: relative;
+      margin-bottom: 0;
+    }
+  }
+}
