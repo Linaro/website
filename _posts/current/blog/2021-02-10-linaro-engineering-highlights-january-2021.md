@@ -25,7 +25,7 @@ author: jon.burcham@linaro.org
 
 {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering Icon" %}
 
-The Interconnect API is a framework for configuring the on-chip interconnects in the system. It provides an API for drivers to express their bandwidth needs when transferring data and interacting with the different hardware blocks in the system. The framework tunes the system for the best power and performance while taking into account the aggregated traffic between the different endpoints. It was merged in January 2019 and is available in the Linux kernel since v5.1. In this article I’ll share more about the history behind it. [Continued here.](https://www.linaro.org/blog/history-of-the-interconnect-framework/)
+The Interconnect API is a framework for configuring the on-chip interconnects in the system. It provides an API for drivers to express their bandwidth needs when transferring data and interacting with the different hardware blocks in the system. The framework tunes the system for the best power and performance while taking into account the aggregated traffic between the different endpoints. It was merged in January 2019 and is available in the Linux kernel since v5.1. In this article I’ll share more about the history behind it. [Continued here.](/blog/history-of-the-interconnect-framework/)
 
 ## Portable and Reproducible Kernel Builds with TuxMake
 
