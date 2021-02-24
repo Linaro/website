@@ -1,19 +1,20 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - October 2020
-description: October's Engineering highlights include an overview of the new Arm
-  Devsummit,  Linaro's contributions for the Linux Kernel 5.9. Plus an overview
-  of recent blogs including 'Accelerating libcamera Qcam format conversion using
-  OpenGL shaders' and 'DMA BUF Heap Transition in AOSP'.
+description: October's Engineering highlights include an overview of the new Arm Devsummit,  Linaro's
+  contributions for the Linux Kernel 5.9. Plus an overview of recent blogs including
+  'Accelerating libcamera Qcam format conversion using OpenGL shaders' and 'DMA BUF
+  Heap Transition in AOSP'.
 date: 2020-11-13 01:15:35
 image: /assets/images/content/iot_planet_under_2mb.jpg
 tags:
-  - Linaro
-  - Engineering highlights
-  - Linux
+- Linaro
+- Engineering highlights
+- Linux
 category: blog
 author: jon.burcham@linaro.org
 ---
+
 # 2020 Arm DevSummit
 
 {% include image.html path="/assets/images/content/simon-segars.jpg" class="small-inline left" alt="Simon Segars - Arm CEO image" %} For 2020, Arm retooled its fall conference to be more developer oriented as Arm DevSummit. With the recent news that Nvidia is acquiring Arm, the keynote by Arm CEO Simon Segars and fireside chat with both Simon Segars and Nvidia CEO Jensen Huang provided an opportunity to comment on the potential benefits of an Arm - Nvidia partnership. {% include image.html path="/assets/images/content/jenson-haung.jpg" class="small-inline left" alt="Jenson Huang - Nvidia CEO image" %} Both CEO’s endorsed Linaro as partners in Open Source work now and in the future. Mark Hambleton, Arm Vice President of Open Source Software, reinforced this view in his keynote titled “The Software Side of Arm”. 

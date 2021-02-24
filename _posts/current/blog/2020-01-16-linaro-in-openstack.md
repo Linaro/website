@@ -7,7 +7,7 @@ tags:
 - Datacenter
 - Servers
 - OpenStack
-- Aarch64
+- Arm
 - Linaro Developer Cloud
 category: blog
 author: Marcin.Juszkiewicz

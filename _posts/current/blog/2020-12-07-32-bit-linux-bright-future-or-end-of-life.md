@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "32-bit Linux: Bright Future Or End Of Life?"
-description: The news for processors and system-on-chip (SoC) products these
-  days is all about 64-bit cores powering the latest computers and smartphones.
-  Yet, will 32-bit continue to be the best choice for devices that do not
-  require significant resources? In this article Arnd Bergmann takes a look into
-  the past, present and possible future of this technology.
+title: '32-bit Linux: Bright Future Or End Of Life?'
+description: The news for processors and system-on-chip (SoC) products these days
+  is all about 64-bit cores powering the latest computers and smartphones. Yet, will
+  32-bit continue to be the best choice for devices that do not require significant
+  resources? In this article Arnd Bergmann takes a look into the past, present and
+  possible future of this technology.
 date: 2020-12-07 11:27:17
 image: /assets/images/content/road-timelapse.jpg
 tags:
-  - Linux
+- Linux
 category: blog
 author: arnd.bergmann
 ---
+
 # The future of 32-bit Linux
 
 The news cycle for processors and system-on-chip (SoC) products these days is all about 64-bit cores powering the latest computers and smartphones, so it’s easy to be misled into thinking that all 32-bit technology is obsolete. That quickly leads to the idea of removing support for 32-bit hardware, which would clearly make life easier for kernel developers in a number of ways. At the same time, a majority of embedded systems used today do use 32-bit processors, so a valid question is if this will ever change, or if 32-bit will continue to be the best choice for devices that do not require significant resources.

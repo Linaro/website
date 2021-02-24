@@ -1,16 +1,17 @@
 ---
 layout: post
 title: Add support to retrieve correct TA load address with ASLR enabled
-description: Recently two interns enabled debugging in Open Portable Trusted
-  Execution Environment (OPTEE) using GDB. This blog details their contributions
-  and achievements which is now available for the open source community.
+description: Recently two interns enabled debugging in Open Portable Trusted Execution
+  Environment (OPTEE) using GDB. This blog details their contributions and achievements
+  which is now available for the open source community.
 date: 2020-11-26 12:46:01
 image: /assets/images/content/intern.jpg
 tags:
-  - OP-TEE
+- OP-TEE
 category: blog
 author: paolo.valente
 ---
+
 # Proud to Support Internships.
 
 Recently two interns worked with Linaro to solve a real engineering problem. We are grateful for the work they undertook and this blog details their achievements: -

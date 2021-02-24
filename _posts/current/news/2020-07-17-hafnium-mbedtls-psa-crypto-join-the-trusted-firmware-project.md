@@ -15,7 +15,6 @@ tags:
 - Linaro
 - Arm
 - Google
-- Linaro
 - NXP
 - ST Microelectronics
 category: news

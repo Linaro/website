@@ -4,7 +4,7 @@ title: AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernel on form-factor d
 date: '2020-04-15 11:37:57'
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
 tags:
-- AOSP
+- Android Ecosystem
 category: blog
 author: amit.pundir@linaro.org
 ---

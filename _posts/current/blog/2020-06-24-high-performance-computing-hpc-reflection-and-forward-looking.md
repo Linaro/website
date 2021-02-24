@@ -9,11 +9,10 @@ description: In 2018 we discussed the first step for ARM into High Performance C
 date: 2020-06-26 04:22:14+00:00
 image: /assets/images/content/hpc-bg.jpg
 tags:
-- Arm High Performance Computing
+- HPC
 - TOFU
 - Opensource Toolchains
 - High Performance Computing
-- HPC
 - Arm
 - Linaro
 - Fugaku

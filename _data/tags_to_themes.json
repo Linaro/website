@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "title": "Android Ecosystem",
+      "tags": ["Android Ecosystem", "LCG", "Linaro Mobile Group", "Smartphone"]
+    },
+    {
+      "title": "Artificial Intelligence",
+      "tags": ["AI", "Artificial Intelligence", "Machine Learning"]
+    },
+    {
+      "title": "Neoverse at Hyperscale",
+      "tags": [
+        "Big Data",
+        "Datacenter",
+        "Datacenter & Cloud",
+        "Developer Cloud",
+        "High Performance Computing",
+        "HPC",
+        "LDCG",
+        "LEG",
+        "Linaro Data Center Group",
+        "Linaro Developer Cloud",
+        "Linaro Developer Cloud Kubernetes",
+        "OpenStack",
+        "OpenStack Powered Cloud",
+        "Server",
+        "Servers"
+      ]
+    },
+    { "title": "Trusted Substrate", "tags": ["Edge", "Ledge"] },
+    {
+      "title": "IoT & Embedded",
+      "tags": [
+        "Embedded",
+        "IoT and Embedded",
+        "LITE",
+        "Lite",
+        "MbedTLS",
+        "Mobile Group",
+        "OpenAMP",
+        "PSA Certified",
+        "Zephyr"
+      ]
+    },
+    {
+      "title": "Kernel & Toolchain",
+      "tags": [
+        "IO",
+        "IO Scheduler",
+        "Kernel",
+        "Kernel Summit",
+        "Kernel Validation Team",
+        "Kernel Working Group",
+        "Linus Torvalds",
+        "Linux",
+        "Linux Kernel",
+        "Linux On Arm",
+        "Linux Scheduler",
+        "LinuxCon",
+        "Maintainers",
+        "Opensource Toolchains",
+        "Power & Performance",
+        "Power Management",
+        "Thermal",
+        "Thermal Framework",
+        "Thermal Notifications",
+        "Toolchain",
+        "Toolchain Working Group",
+        "Tools",
+        "Upstream",
+        "Upstreaming"
+      ]
+    },
+    {
+      "title": "OS Build & Test",
+      "tags": [
+        "Lava",
+        "Linaro Stable Kernel",
+        "Linux Kernel Functional Test",
+        "LKFT",
+        "LSK",
+        "Testing",
+        "Tux Build",
+        "Tuxboot",
+        "TuxMake",
+        "Tuxpub",
+        "Tuxsuite",
+        "Validation"
+      ]
+    },
+    {
+      "title": "Security",
+      "tags": [
+        "OP-TEE",
+        "Riscure",
+        "Security",
+        "Security Extensions",
+        "TEE",
+        "Trusted Firmware"
+      ]
+    }
+  ]
+}

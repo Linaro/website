@@ -12,14 +12,13 @@ image: /assets/images/content/10-year-graphic-horizonal1.png
 tags:
 - Linaro
 - Arm
-- Arm Ecosystem
 - Networking
 - Datacentre
 - Big Data
 - SoC
 - Linux
 - Linux Kernel
-- Android
+- Android Ecosystem
 - Ledge
 - Linus Torvalds
 category: blog
