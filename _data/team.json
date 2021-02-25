@@ -33,16 +33,6 @@
       ]
     },
     {
-      "name": "Larry Wikelius",
-      "title": "Marvell",
-      "company": "Marvell",
-      "image": "/assets/images/content/2018-09-20-larry-w-pic.jpg",
-      "bio": "Larry Wikelius currently serves as Vice President – Ecosystem and Partner Enabling for Marvell. He originally held this position with Cavium and has continued in this role following Marvell’s acquisition of the company in July 2018. He has built a network of strategic partners and blue-chip companies like Nvidia, HPE and Microsoft in fully supporting Arm®-based servers for the first time in the server industry.  Prior to Marvell and Cavium Wikelius was co-founder of Calxeda, one of the first companies to develop and market Arm®-based servers.  At Calxeda Wikelius recruited and led the software organization and was part of the original Arm server group at Linaro.  Wikelius holds an MBA from Northeastern University and a BS Computer Science from the University of Minnesota.",
-      "teams": [
-        "technical_steering_committee"
-      ]
-    },
-    {
       "name": "Rob Oshana",
       "title": "NXP",
       "company": "NXP",
@@ -66,16 +56,6 @@
       "name": "Trilok Soni",
       "title": "Qualcomm",
       "company": "Qualcomm",
-      "teams": [
-        "technical_steering_committee"
-      ]
-    },
-    {
-      "name": "Bill Mills",
-      "title": "Linaro",
-      "company": "Linaro",
-      "image": "/assets/images/people/bill-mills.png",
-      "bio": "Bill’s computing experience began at age 15 when he soldered together his first computer. It had a hex keypad and 256 bytes of memory. Bill maintains that this was the high point of his technical achievement and everything else has been a downward slide.\nBill is Chief Technologist for Open Source Solutions and Distinguish Member of Technical Staff. Since 2007 Bill has been working to ensure that TI is acting as a member of the open source community. He acts as a representative for TI in various open source communities and advocates for open source concerns and methods within TI.\nBill has been developing software professionally for over 25 years. Prior to his current position, Bill has a wide variety of experience. Examples include being the system architect for TI’s high density voice gateways and for multiple TI SOCs, technical lead for an in-house real-time executive, and sole developer for a windowed source level debugger for an emulator with trace and hardware break and watch points. In his current position Bill started TI’s open-embedded based Arago-project and is the technical lead for the linux-c6x project that has brought uCLinux to TI’s C6000 DSPs. Bill is a member of the Yocto Project Advisory board.\n",
       "teams": [
         "technical_steering_committee"
       ]
