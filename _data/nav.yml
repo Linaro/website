@@ -13,8 +13,6 @@ pages:
     url: /membership/
   - title: Services
     url: /services/
-  - title: Resources
-    url: https://connect.linaro.org/resources/
   - title: Support
     url: /support/
   - title: Downloads
