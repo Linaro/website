@@ -177,17 +177,6 @@
       "teams": [
         "board_of_directors"
       ]
-    },
-    {
-      "name": "Jon Humphreys",
-      "title": "Board member for Linaro Club members",
-      "company": "Texas Instruments",
-      "order": "6",
-      "image": "/assets/images/people/JohnHumphreys.jpg",
-      "bio": "Jon Humphreys is the director of Linux Core Product Development at Texas Instruments. He has over 25 years of experience in embedded software development, including toolchain and embedded OSes. He has worked with Linaro on TI’s behalf since 2015. Jon holds a Bachelor of Science in Electrical Engineering from Rice University and a Master of Science in Computer Science from the University of Houston.",
-      "teams": [
-        "board_of_directors"
-      ]
     }
   ]
 }
