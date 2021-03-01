@@ -1,0 +1,80 @@
+<div class="col col-12 tags">
+    <div id="tag_cloud" class="d-none">
+    {% assign themes_to_tags = site.tags_to_themes.items | sort %}
+    {% for group in themes_to_tags %}
+        <a class="btn btn-secondary my-2" href="?theme={{group.title | slugify}}">
+            {{group.title}}
+        </a>
+    {% endfor %}
+    </div>
+    <a type="button" class="btn btn-secondary d-none" id="view_all_tags_btn">View all tags</a>
+</div>
+<div class="col col-12 tagged_posts" id="tagged_posts">
+    {% for group in themes_to_tags  %}
+    <div class="tag_list {{group.title | slugify}} d-none">   
+        <h3>{{ group.title }}</h3>
+        <ul class="list-unstyled">
+            {% assign theme_posts = "" | split: "," %}
+            {% for post in site.posts %}
+            {% if include.object.category %}
+            {% if post.tags %}
+                {% if post.category == include.object.category %}
+                            {% for tag in post.tags %}
+                                {% for theme_tag in group.tags %}
+                                    {% if theme_tag == tag %}
+                                        {% unless theme_posts contains post %}
+                                            {% assign theme_posts = theme_posts | push: post %}
+                                        {% endunless %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                {% else %}
+                    {% for tag in post.tags %}
+                        {% for theme_tag in group.tags %}
+                            {% if theme_tag == tag %}
+                                {% unless theme_posts contains post %}
+                                    {% assign theme_posts = theme_posts | push: post %}
+                                {% endunless %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                {% endif %}
+            {% endif %}
+                
+            {% for post in theme_posts %}
+                <li class="media" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                        {% assign author = site.authors | where: "username", post.author | first %}
+                        {% assign author-url = author.url %}
+                        {% assign author_name = author.name %}
+                        {% capture author_image_alt %}{{author_name}} image{% endcapture %}
+                        {% if author.image %}
+                            {% assign author_image = author.image %}
+                        {% else %}
+                            {% assign author_image = site.avatar_placeholder %}
+                        {% endif %}
+                        <div class="d-block d-md-inline-block mx-auto my-2 m-md-2 text-md-left text-center">
+                            <a href="{{author-url}}" itemprop="url" rel="author">
+                                {% picture author_thumbnail {{author_image}} --alt {{author_image_alt}} %}
+                            </a>
+                        </div>
+                        
+                        <div class="media-body">
+                            <a href="{{ post.url }}">
+                            <h5 class="mt-0 mb-1">{{post.title}}</h5>
+                            <div class="post_meta" >
+                                Posted by <strong itemprop="name" rel="author">{{author_name}}</strong> on 
+                                <time datetime="{{post.date}}" >{{post.date |  date: "%A, %B %-d, %Y"}}</time>
+                            </div>
+                            {% if post.description %}
+                                {{post.description | truncate: 50 }}
+                            {% else %}
+                                {{ post.content | strip_html | truncate: 50 }}
+                            {% endif %}
+                            </a>
+                        </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</div>
