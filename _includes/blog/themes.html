@@ -1,17 +1,17 @@
-<div class="col col-12 tags">
-    <div id="tag_cloud" class="d-none">
-    {% assign themes_to_tags = site.tags_to_themes.items | sort %}
+<div class="col col-12 themes">
+    <div id="theme_cloud" class="d-none">
+    {% assign themes_to_tags = site.data.tags_to_themes.items %}
     {% for group in themes_to_tags %}
         <a class="btn btn-secondary my-2" href="?theme={{group.title | slugify}}">
             {{group.title}}
         </a>
     {% endfor %}
     </div>
-    <a type="button" class="btn btn-secondary d-none" id="view_all_tags_btn">View all tags</a>
+    <a type="button" class="btn btn-secondary d-none" id="view_all_themes_btn">View all themes</a>
 </div>
-<div class="col col-12 tagged_posts" id="tagged_posts">
+<div class="col col-12 tagged_posts" id="theme_posts">
     {% for group in themes_to_tags  %}
-    <div class="tag_list {{group.title | slugify}} d-none">   
+    <div class="theme_list {{group.title | slugify}} d-none">   
         <h3>{{ group.title }}</h3>
         <ul class="list-unstyled">
             {% assign theme_posts = "" | split: "," %}
