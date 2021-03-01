@@ -1,15 +1,17 @@
 ---
-title: Blog Posts based on Themes
-permalink: /blog/themes/
+title: New posts based on Themes
+permalink: /news/themes/
 description: >
   Filter blog posts by theme.
 jumbotron:
-  title: Blog Posts by Theme
+  title: New posts by Theme
+  description: >
+    Find theme tagged news posts here.
 flow:
   - row: container_row
     sections:
       - format: custom_include
         source: blog/themes.html
-        category: blog
+        category: news
 ---
 
