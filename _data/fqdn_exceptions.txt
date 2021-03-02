@@ -7,3 +7,11 @@ www.tier4.jp
 www.deltavision.io
 www.qualcomm.com
 www.lemaker.org
+openhpc.community
+openssf.org
+www.dpdk.org
+kernelci.org
+www.edgexfoundry.org
+www.automotivelinux.org
+events19.linuxfoundation.org
+www.openbmc.org
