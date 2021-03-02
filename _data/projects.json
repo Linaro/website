@@ -237,6 +237,27 @@
         {
             "Project Contact Information": {
                 "Meetings": "",
+                "Point of Contact": ""
+            },
+            "Project Information": {
+                "Health Check Report": "",
+                "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=294#\">Workf breakdown</a>",
+                "Plan Of Record": "",
+                "Project Homepage": "",
+                "description": "This is an open project template used to create future open projects.",
+                "title": "OpenEuler"
+            },
+            "Project Ownership": {
+                "Governing Entity": "TSC",
+                "Project Owner": "",
+                "Technical Lead": ""
+            },
+            "icon": "https://projects.linaro.org/secure/projectavatar?pid=13003&avatarId=14407",
+            "key": "EULR"
+        },
+        {
+            "Project Contact Information": {
+                "Meetings": "",
                 "Point of Contact": "Join the conversation by joining the <a href=\"https://op-lists.linaro.org/mailman/listinfo/perf-dev\">perf-dev mailing list</a>."
             },
             "Project Information": {
