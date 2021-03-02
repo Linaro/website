@@ -15,3 +15,4 @@ www.edgexfoundry.org
 www.automotivelinux.org
 events19.linuxfoundation.org
 www.openbmc.org
+www.edgexfoundry.org
