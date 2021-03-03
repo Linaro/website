@@ -11,7 +11,7 @@
             </a>
         </div>
         <div class="col col-12 col-md-4">
-            <a href="{{page.video_link}}">
+            <a href="https://connect.linaro.org/resources/?theme={{page.title | url_encode}}">
                 <div class="block_wrapper my-4 text-center">
                     <img class="icon_image d-block mx-auto my-3" src="/assets/images/content/Icon_Video_presentation.svg" alt="Video Presentation Icon"/>
                     <h3 class="text-dark">
@@ -21,7 +21,7 @@
             </a>
         </div>
         <div class="col col-12 col-md-4">
-            <a href="{{page.blogs_link}}">
+            <a href="/blog/themes/?theme={{page.title | slugify}}">
                 <div class="block_wrapper my-4 text-center">
                     <img class="icon_image d-block mx-auto my-3" src="/assets/images/content/Icon_blog.svg" alt="Blogs Icon"/>
                     <h3 class="text-dark">
