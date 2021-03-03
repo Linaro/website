@@ -12,10 +12,8 @@ tags:
 - Linaro
 - Arm
 - AI
-- Arm64
 - Linux
 - Kernel
-- Arm Ecosystem
 - LKFT
 category: blog
 author: jon.burcham@linaro.org

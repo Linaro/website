@@ -6,8 +6,7 @@ image: /assets/images/content/hikey-image1.png
 tags:
 - HiKey
 - HiKey960
-- AOSP
-- Android Open Source Project
+- Android Ecosystem
 category: blog
 author: john.stultz
 ---

@@ -1,32 +1,31 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - January 2021
-description: >-
-  January highlight's include a blog from Georgi Djakov on Saving Power &
-  Improving Performance With Dynamic Interconnect Scaling, an article on
-  creating Portable and Reproducible Kernel Builds with TuxMake, plus
-  information on a new tool called the Open Source Project Criticality Score.
-  Furthermore, there are articles on the LLVM Code-Size Optimization: Machine
-  Outliner
+description: 'January highlight''s include a blog from Georgi Djakov on Saving Power
+  & Improving Performance With Dynamic Interconnect Scaling, an article on creating
+  Portable and Reproducible Kernel Builds with TuxMake, plus information on a new
+  tool called the Open Source Project Criticality Score. Furthermore, there are articles
+  on the LLVM Code-Size Optimization: Machine Outliner
 
-  and SVE/SVE2 support in LLVM Debugger (LLDB).
+  and SVE/SVE2 support in LLVM Debugger (LLDB).'
 date: 2021-02-10 11:00:00
 image: /assets/images/content/the_world.jpg
 tags:
-  - Engineering Highlights
-  - TuxMake
-  - Open Source Security Foundation
-  - LLVM
+- Engineering Highlights
+- TuxMake
+- Open Source Security Foundation
+- LLVM
 category: blog
 author: jon.burcham@linaro.org
 ---
-# [Saving Power & Improving Performance With Dynamic Interconnect Scaling](https://www.linaro.org/blog/history-of-the-interconnect-framework/)
+
+# [Saving Power & Improving Performance With Dynamic Interconnect Scaling](/blog/history-of-the-interconnect-framework/)
 
 **By Georgi Djakov, Linaro engineer, Kernel Working Group**
 
 {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering Icon" %}
 
-The Interconnect API is a framework for configuring the on-chip interconnects in the system. It provides an API for drivers to express their bandwidth needs when transferring data and interacting with the different hardware blocks in the system. The framework tunes the system for the best power and performance while taking into account the aggregated traffic between the different endpoints. It was merged in January 2019 and is available in the Linux kernel since v5.1. In this article I’ll share more about the history behind it. [Continued here.](https://www.linaro.org/blog/history-of-the-interconnect-framework/)
+The Interconnect API is a framework for configuring the on-chip interconnects in the system. It provides an API for drivers to express their bandwidth needs when transferring data and interacting with the different hardware blocks in the system. The framework tunes the system for the best power and performance while taking into account the aggregated traffic between the different endpoints. It was merged in January 2019 and is available in the Linux kernel since v5.1. In this article I’ll share more about the history behind it. [Continued here.](/blog/history-of-the-interconnect-framework/)
 
 ## Portable and Reproducible Kernel Builds with TuxMake
 

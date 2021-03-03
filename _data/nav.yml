@@ -4,7 +4,6 @@ search:
   label: Linaro
 expand_breakpoint: xl
 brand:
-  # custom_include: nav/brand.html
   path: /assets/images/Linaro-Logo.svg
   alt: Linaro logo
 pages:
@@ -14,13 +13,17 @@ pages:
     url: /membership/
   - title: Services
     url: /services/
-  - title: Resources
-    url: https://connect.linaro.org/resources/
-  - title: Blogs
-    url: /blog/
-  - title: Events
-    url: /events/
-  - title: About
-    url: /about/
   - title: Support
     url: /support/
+  - title: Downloads
+    url: /downloads/
+  - title: About
+    options:
+      - text: About Us
+        url: /about/
+      - text: Blogs
+        url: /blog/
+      - text: Events
+        url: /events/
+      - text: News
+        url: /news/

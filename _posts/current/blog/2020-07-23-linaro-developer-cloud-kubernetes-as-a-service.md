@@ -12,7 +12,6 @@ tags:
 - Linaro Developer Cloud Kubernetes
 - Linaro
 - Arm
-- Arm64
 - Linaro Data Center Group
 - PAAS
 - OpenStack

@@ -1,20 +1,21 @@
 ---
 layout: post
 title: Security and the Zephyr Project
-description: David Brown is currently the Security Architect for the Zephyr
-  Project. In May of 2020, the project received a report from the NCC group
-  outlining several dozen vulnerabilities found in the Zephyr codebase. This
-  blog explains the process and measures taken to resolve these vulnerabilities
-  and to ensure the codebase is secure.
+description: David Brown is currently the Security Architect for the Zephyr Project.
+  In May of 2020, the project received a report from the NCC group outlining several
+  dozen vulnerabilities found in the Zephyr codebase. This blog explains the process
+  and measures taken to resolve these vulnerabilities and to ensure the codebase is
+  secure.
 date: 2020-11-26 04:21:45
 image: /assets/images/content/cyber-security.jpg
 tags:
-  - Zephyr
-  - Security
-  - Lite
+- Zephyr
+- Security
+- Lite
 category: blog
 author: david.brown@linaro.org
 ---
+
 # Security
 
 David Brown is the Security Architect for the Zephyr Project. He is also the security lead for the Linaro IoT and Embedded (LITE) working group. In addition to general security of IoT devices, David is a maintainer for the MCUboot secure bootloader project.

@@ -70,6 +70,27 @@
         {
             "Project Contact Information": {
                 "Meetings": "",
+                "Point of Contact": "[Peter <a href=\"mailto:Griffin|peter.griffin@linaro.org]\">Griffin|peter.griffin@linaro.org]</a>"
+            },
+            "Project Information": {
+                "Health Check Report": "",
+                "JIRA Structure": "<a href=\" https://projects.linaro.org/projects/CAM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure&s=259#\">Scope of work breakdown </a>",
+                "Plan Of Record": "",
+                "Project Homepage": "",
+                "description": "This project focuses on making Arm and Linaro members SoCs a first class citizen in the Linux camera ecosystem. Primarily through development on the libcamera open source library which provides complex camera support to Chrome OS, Linux and Android but also Camera related work in the Linux kernel and RDK-C camera stack.",
+                "title": "Camera"
+            },
+            "Project Ownership": {
+                "Governing Entity": "TSC",
+                "Project Owner": "Tom Gall <a class=\"email-icon\" href=\"mailto:tom.gall@linaro.org\"><span class=\"icon-mail\"></span></a>",
+                "Technical Lead": "Peter Griffin <a class=\"email-icon\" href=\"mailto:peter.griffin@linaro.org\"><span class=\"icon-mail\"></span></a>"
+            },
+            "icon": "https://projects.linaro.org/secure/projectavatar?pid=12300&avatarId=13900",
+            "key": "CAM"
+        },
+        {
+            "Project Contact Information": {
+                "Meetings": "",
                 "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/cloud-dev\">CLOUD-dev mailing list</a>."
             },
             "Project Information": {
@@ -161,7 +182,7 @@
             },
             "Project Information": {
                 "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LOC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
+                "JIRA Structure": "<a href=\"https://projects.linaro.org/issues/?filter=15927\">https://projects.linaro.org/issues/?filter=15927</a>",
                 "Plan Of Record": "",
                 "Theme": ["Trusted Substrate"],
                 "Project Homepage": "<a href=\"https://optee.readthedocs.io/en/latest/ \">https://optee.readthedocs.io/en/latest/ </a>and <a href=\"https://collaborate.linaro.org/display/LOC\">https://collaborate.linaro.org/display/LOC</a>",
@@ -218,6 +239,27 @@
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=12904&avatarId=10202",
             "key": "LSE"
+        },
+        {
+            "Project Contact Information": {
+                "Meetings": "",
+                "Point of Contact": ""
+            },
+            "Project Information": {
+                "Health Check Report": "",
+                "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=294#\">Workf breakdown</a>",
+                "Plan Of Record": "",
+                "Project Homepage": "",
+                "description": "This is an open project template used to create future open projects.",
+                "title": "OpenEuler"
+            },
+            "Project Ownership": {
+                "Governing Entity": "TSC",
+                "Project Owner": "",
+                "Technical Lead": ""
+            },
+            "icon": "https://projects.linaro.org/secure/projectavatar?pid=13003&avatarId=14407",
+            "key": "EULR"
         },
         {
             "Project Contact Information": {

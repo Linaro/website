@@ -1,4 +1,9 @@
-function slugify(string) {
+/**
+ * Slugify a string
+ * @param {String} string The string to be slugified.
+ * @returns {String} Returns slugified url friendly string
+ */
+const slugify = (string) => {
   const a =
     "àáâäæãåāăąçćčđďèéêëēėęěğǵḧîïíīįìłḿñńǹňôöòóœøōõőṕŕřßśšşșťțûüùúūǘůűųẃẍÿýžźż·/_,:;";
   const b =
@@ -15,7 +20,32 @@ function slugify(string) {
     .replace(/\-\-+/g, "-") // Replace multiple - with single -
     .replace(/^-+/, "") // Trim - from start of text
     .replace(/-+$/, ""); // Trim - from end of text
-}
+};
+/**
+ * Gets a url param by a given name
+ * @param {String} sParam The name of a url GET param to retrieve
+ * @returns {String/Boolean} Returns the value of a param or true if not value is set
+ */
+var getUrlParameter = (sParam) => {
+  // Get the url data.
+  var sPageURL = window.location.search.substring(1),
+    urlVariables = sPageURL.split("&"),
+    sParameterName,
+    i;
+  // Loop over url variables and split  to get param name
+  for (i = 0; i < urlVariables.length; i++) {
+    sParameterName = urlVariables[i].split("=");
+    // If the param name exists
+    if (sParameterName[0] === sParam) {
+      return sParameterName[1] === undefined
+        ? true
+        : decodeURIComponent(sParameterName[1]);
+    } else {
+      return undefined;
+    }
+  }
+};
+
 $(document).ready(function () {
   // Clipboard JS
   if ($("div.highlight").length > 0) {
@@ -46,22 +76,6 @@ $(document).ready(function () {
   }
   // Tagged Posts
   if ($("#tagged_posts").length > 0) {
-    var getUrlParameter = (sParam) => {
-      var sPageURL = window.location.search.substring(1),
-        sURLVariables = sPageURL.split("&"),
-        sParameterName,
-        i;
-
-      for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split("=");
-
-        if (sParameterName[0] === sParam) {
-          return sParameterName[1] === undefined
-            ? true
-            : decodeURIComponent(sParameterName[1]);
-        }
-      }
-    };
     var tag = getUrlParameter("tag");
     if (tag !== undefined) {
       console.log(tag);
@@ -75,6 +89,24 @@ $(document).ready(function () {
       });
     } else {
       $(`#tag_cloud`).removeClass("d-none");
+    }
+  }
+  // Theme Posts
+  if ($("#theme_posts").length > 0) {
+    var theme = getUrlParameter("theme");
+    // Check the value is not undefined
+    if (theme !== undefined) {
+      console.log(theme);
+      $(".theme_list").addClass("d-none");
+      $(`.theme_list.${slugify(theme)}`).addClass("d-block");
+      $(`#theme_cloud`).addClass("d-none");
+      $(`#view_all_themes_btn`).addClass("d-inline-block");
+      $(this).html(theme);
+      $("#view_all_themes_btn").on("click", function () {
+        window.location.replace(window.location.pathname);
+      });
+    } else {
+      $(`#theme_cloud`).removeClass("d-none");
     }
   }
   if ($("#jumbotron-slider").length > 0) {
@@ -284,11 +316,12 @@ $(document).ready(function () {
   });
 
   //   Multi-level dropdowns
-  $(".navbar .dropdown-menu > li:not(.dropdown-item)").on("click", function (
-    e
-  ) {
-    e.stopPropagation();
-  });
+  $(".navbar .dropdown-menu > li:not(.dropdown-item)").on(
+    "click",
+    function (e) {
+      e.stopPropagation();
+    }
+  );
   $(".navbar .dropdown-item").on("click", function (e) {
     var $el = $(this).children(".dropdown-toggle");
     var $parent = $el.offsetParent(".dropdown-menu");

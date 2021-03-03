@@ -14,12 +14,11 @@ tags:
 - Engineering Highlights
 - Linaro
 - Arm
-- Arm64
 - Linux Kernel
 - Trusted Firmware
 - UEFI
 - CPU
-- Android
+- Android Ecosystem
 - Open Source
 - HPC
 category: blog
