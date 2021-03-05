@@ -107,18 +107,18 @@ flow:
 
                 **Flang**
 
-                - [http://lab.llvm.org:8011/#/builders/32](http://lab.llvm.org:8011/#/builders/32)
-                - [http://lab.llvm.org:8011/#/builders/33](http://lab.llvm.org:8011/#/builders/33)
-                - [http://lab.llvm.org:8011/#/builders/66](http://lab.llvm.org:8011/#/builders/66)
+                - http://lab.llvm.org:8011/#/builders/32
+                - http://lab.llvm.org:8011/#/builders/33
+                - http://lab.llvm.org:8011/#/builders/66
 
                 **WoA**
-                - [http://lab.llvm.org:8011/#/builders/65](http://lab.llvm.org:8011/#/builders/65)
-                - [http://lab.llvm.org:8011/#/builders/120](http://lab.llvm.org:8011/#/builders/120)
+                - http://lab.llvm.org:8011/#/builders/65
+                - http://lab.llvm.org:8011/#/builders/120
 
                 **LLDB**
 
-                - [http://lab.llvm.org:8011/#/builders/96](http://lab.llvm.org:8011/#/builders/96)
-                - [http://lab.llvm.org:8011/#/builders/17](http://lab.llvm.org:8011/#/builders/17)
+                - http://lab.llvm.org:8011/#/builders/96
+                - http://lab.llvm.org:8011/#/builders/17
             - title: Open Source Tools
               content: |
                 Linaro develops and maintains open source software tools for device automation that enable continuous integration testing
