@@ -1,5 +1,6 @@
 <div class="col col-12">
     <div class="row">
+        {% if page.presentation_link and page.presentation_link != "" %}
         <div class="col col-12 col-md-4">
             <a href="{{page.presentation_link}}">
                 <div class="block_wrapper my-4 text-center">
@@ -10,6 +11,7 @@
                 </div>
             </a>
         </div>
+        {% endif %}
         <div class="col col-12 col-md-4">
             <a href="https://connect.linaro.org/resources/?theme={{page.title | url_encode}}">
                 <div class="block_wrapper my-4 text-center">
