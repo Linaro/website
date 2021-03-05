@@ -12,7 +12,7 @@ jumbotron:
     class: theme_banner 
     title: Internet of Things
     description: >
-        IoT is an enabling infrastructure that companies, cities and individuals need in place to act on the data and insights from connected devices. As the 5th wave of computing (AI, IoT and 5G) quickly approaches, fragmentation in the Arm ecosystem is hindering the deployment of increasingly sophisticated devices. Linaro and its Members are collaborating to build best in class common tools, libraries and interfaces while supporting common standards that will enable rapid deployment of secure solutions at lower cost points, more efficient deployments and easier maintenance.
+        As the 5th wave of computing (AI, IoT and 5G) quickly approaches, fragmentation in the Arm ecosystem is hindering the deployment of increasingly sophisticated devices.  Linaro and Member companies are collaborating to integrate the latest security and most-up-to-date technologies for Arm-based IoT devices. Member companies benefit from Linaro’s expertise in testing as all RTOS platforms adopted are tested continuously to ensure secure deployment and high quality.
     image: /assets/images/content/IoT_Embedded.png
     buttons:
       - title: How can Linaro help?

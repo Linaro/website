@@ -7,20 +7,16 @@ image: /assets/images/content/OS_Build_test.png
 icon: /assets/images/content/Icon_OS_Build_Test.svg
 icon_dark: /assets/images/content/Black_OS_Build_Test.svg
 description: >
-    Improve the quality of Operating System kernels (Linux, Android, Zephyr) by providing the software tools and processes to allow continuous build, functional testing and regression detection.  Facilitate expanded testing coverage and higher software quality in various operating systems - Linux, Android, and RTOSs.  Rapid deployment of automated testing powered by 10+ experience in the Arm embedded ecosystem.
+  Linaro and member companies collaborate to improve the quality of Operating System kernels (Linux, Android, Zephyr) by providing the software tools and processes to allow continuous build,functional testing and regression detection. In addition, Linaro facilitates expanded testing coverage and higher software quality in various operating systems such as  Linux, Android, and RTOSs. Linaro has 10+ years experience working in the Arm embedded space and specialises in rapid deployment of automated testing.
 jumbotron:
     class: theme_banner 
     title: Rapid Operating System Build and Test
     description: |
-      Improve the quality of Operating System kernels (Linux, Android, Zephyr) by
-      providing the software tools and processes to allow continuous build,functional
-      testing and regression detection.
+      Linaro and member companies collaborate to improve the quality of Operating System kernels (Linux, Android, Zephyr) by providing the software tools and processes to allow continuous build,functional testing and regression detection.
       
-      Facilitate expanded testing coverage and higher software quality in various
-      operating systems -- Linux, Android, and RTOSs.
+      In addition, Linaro facilitates expanded testing coverage and higher software quality in various operating systems such as  Linux, Android, and RTOSs.
       
-      Rapid deployment of automated testing powered by 10+ experience in the Arm
-      embedded ecosystem
+      Linaro has 10+ years experience working in the Arm embedded space and specialises in rapid deployment of automated testing.
     image: /assets/images/content/OS_Build_test.png
     buttons:
       - title: How can Linaro help?

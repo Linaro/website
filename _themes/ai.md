@@ -17,12 +17,10 @@ description: >
     range of strategic AI projects.
 jumbotron:
     class: theme_banner 
-    title: Innovation within Open Source projects that bring Artificial Intelligence solutions to Arm devices
+    title: Innovation within Open Source projects that bring Artificial Intelligence solutions to Arm devices/systems
     description: >
-        Linaro and collaborating members are working to bring best in class
-        ML Inferencing & AI to the Arm ecosystem. This involves pushing
-        optimized for Arm experiences on member hardware across a
-        range of strategic AI projects.
+        Linaro and collaborating members are working to bring best in class ML Inferencing & AI to the Arm ecosystem.
+        This involves pushing experiences  optimized for Arm on member hardware across a range of strategic AI projects. 
     image: /assets/images/content/Artifical_Intelligence.png
     buttons:
       - title: How can Linaro help?

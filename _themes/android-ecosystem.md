@@ -16,11 +16,7 @@ jumbotron:
     class: theme_banner 
     title: Android&trade; Ecosystem
     description: >
-        Is Android a strategic OS for your company? Member companies and Linaro
-        collaborate together with Google to improve the Android ecosystem. Our work is
-        primarily in the Linux Kernel. By making decisions and coordinating engineering
-        activity together, the Android ecosystem is more healthy which results in better
-        Android products and improved efficiency creating those products.
+        Is Android a strategic OS for your company? Member companies and Linaro collaborate together with Google to improve the Android ecosystem. Our work is primarily in the Linux Kernel. By making decisions and coordinating the engineering activities together, the Android ecosystem is more healthy, this leads to improved development efficiency and better Android products.
     image: /assets/images/content/Android_Ecosystem.png
     buttons:
       - title: How can Linaro help?

@@ -7,18 +7,12 @@ image: /assets/images/content/code_banner.jpg
 icon: /assets/images/content/Kernel_White.svg
 icon_dark: /assets/images/content/Black_Kernel.svg
 description: >
-    Fundamentals are the technologies that are essential to maintaining
-    the health of software. We want to facilitate the access to
-    maintainers, support regression testing, improve compiler technology
-    and increase the security across the Arm ecosystem
+    Kernel and toolchain technologies are essential to maintaining the health of software. We facilitate the access to maintainers, support regression testing, improve compiler technology and increase security across the Arm ecosystem.
 jumbotron:
     class: theme_banner 
     title: Kernel & Toolchain
     description: >
-        Fundamentals are the technologies that are essential to maintaining
-        the health of software. We want to facilitate the access to
-        maintainers, support regression testing, improve compiler technology
-        and increase the security across the Arm ecosystem
+        Kernel and toolchain technologies are essential to maintaining the health of software. We facilitate the access to maintainers, support regression testing, improve compiler technology and increase security across the Arm ecosystem.
     image: /assets/images/content/Kernel_Toolchain_Security.png
     buttons:
       - title: How can Linaro help?
