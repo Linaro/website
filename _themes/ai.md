@@ -31,9 +31,7 @@ jumbotron:
       - title: How can Linaro help?
         url: "#contact_form"
         style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase theme_contact_btn
-presentation_link: /about/
-video_link: /about/
-blogs_link: /blog/tags/?tag=AI
+presentation_link: https://linaro.co/ai-slides
 flow:
     - row: custom_include_row
       source: themes/sub_theme_blocks.html

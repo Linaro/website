@@ -33,9 +33,7 @@ jumbotron:
       - title: How can Linaro help?
         url: "#contact_form"
         style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase theme_contact_btn
-presentation_link: /about/
-video_link: /about/
-blogs_link: /blog/tags/?tag=Toolchain
+presentation_link: https://linaro.co/security-slides
 flow:
     - row: main_content_row
     - row: container_row
