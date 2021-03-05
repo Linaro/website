@@ -11,7 +11,7 @@ description: >
 jumbotron:
     class: theme_banner 
     title: Rapid Operating System Build and Test
-    description: >
+    description: |
       Improve the quality of Operating System kernels (Linux, Android, Zephyr) by
       providing the software tools and processes to allow continuous build,functional
       testing and regression detection.
@@ -34,7 +34,7 @@ flow:
       sections:
         - format: text
           text_content:
-            text: >
+            text: |
               **Firmware, Kernel, File-System, System Libraries, and Toolchains. These are colloquially known as an operating system.**
 
               Linaro provides the software tools to rapidly detect build and functional-test regressions in Linux, Android, Zephyr, and
