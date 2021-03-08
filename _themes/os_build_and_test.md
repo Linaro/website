@@ -44,6 +44,7 @@ flow:
               Linaro member companies even build their own communities around testing in Linaro through Linaro directed projects.
               Linaro members spend more time focusing on differentiating technology and are able to have testing teams that can focus
               on last-mile testing by working directly with Linaro.
+
         - format: tabs
           tabs:
             - title: Kernel Quality
@@ -53,6 +54,10 @@ flow:
                 bug fixes and improve the quality of stable releases (by detecting regressions before release), improve the frequency of
                 product device updates through increasing quality confidence, and improve the breadth of testing available to developers
                 and device manufacturers before they commit their code to releases.
+                
+                ![LKFT logo](/assets/images/content/lkft.png){:.small-inline.left}
+
+                ![LKFT content 1](/assets/images/content/lkft-image-1.png){:.medium-inline.right}
 
                 Linaro’s Linux Kernel Quality program covers both Linux
                 kernel testing and testing of the LTS-derived
@@ -66,6 +71,8 @@ flow:
                 the Linux LTS trees to date against a variety of embedded, emulated, and server platforms. We work weekly with LTS
                 maintainers to execute testing and report regressions on the latest release-candidates before the releases are made.
               
+                ![LKFT content 2](/assets/images/content/lkft-image-2.png){:.medium-inline.left}
+
                 We also build and functional test (Android CTS & VTS) Android Common
                 Kernels weekly and report regressions in the Linux kernel and AOSP
                 directly to Linux upstream maintainers and Google respectively. To date
