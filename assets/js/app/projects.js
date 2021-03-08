@@ -1,155 +1,195 @@
-// Define the sources to prepend the jsonp script elements and retreive the data.
-// "" will use the current domain - this can be set to a cdn FQDN
-var patchesDataSources = [
-    "https://static.linaro.org/assets/json/perProjectPatches.json",
-];
-// Globally accessible JSON data for patches stats
-var allJSONData = "";
-// Chart.js Options when creating a new chart
-var chartOptions = {
-    responsive: true,
-    maintainAspectRatio: false,
-    scales: {
-        xAxes: [{
-            stacked: true
-        }],
-        yAxes: [{
-            stacked: false
-        }]
+function hideAllProjectCollapses(callback = false) {
+  $(".collapse").collapse("hide");
+  $(`.project_card`).addClass("d-none");
+  $(`.project_card`).each(function () {
+    if ($(this).hasClass("d-block")) {
+      $(this).removeClass("d-block");
     }
-};
-// This function takes a project link name and pulls in the required data and 
-// displays as a graph.
-function setupGraph(projectLinkName, period){
-    // Check to see if the period parameter is undefined - if so then set it - pre ES6
-    period = typeof period !== 'undefined' ? period : "7";
-    // Create a new data source object for use in instantiating the Chart.js graph
-    dataSource = {};
-    // Loop through the jsonData and pull relevant patches details
-    var projectData = "";
-    for (var i = 0; i < allJSONData.length; i++) {
-        if (allJSONData[i]["project_link_name"] === projectLinkName) {
-            projectData = allJSONData[i];
-        }
-    }
-    // Get the stats labels and data required for graph        
-    var statsLabels = Object.keys(projectData[period]).reverse();
-    var submittedPatches = [];
-    var acceptedPatches = [];
-    // Get the submitted/accepted patches
-    for (i = 0; i < statsLabels.length; i++) {
-        submittedPatches.push(projectData[period][statsLabels[i]][0]);
-        acceptedPatches.push(projectData[period][statsLabels[i]][1]);
-    }
-    // Create the data array for the charts
-    var dataSource = {
-        labels: statsLabels,
-        datasets: [
-            {
-                label: "Submitted Patches",
-                backgroundColor: "rgba(124,168,45,0.3)",
-                borderColor: "rgba(124,168,45,1)",
-                borderWidth: "1px",
-                pointStyle: "cross",
-                pointBackgroundColor: "rgba(70,94,26,1)",
-                pointBorderColor: "rgba(70,94,26,1)",
-                pointStrokeColor: "#688d24",
-                pointHighlightFill: "#cde2a7",
-                pointHighlightStroke: "rgba(220,220,220,1)",
-                data: submittedPatches
-            },
-            {
-                label: "Accepted Patches",
-                fillColor: "rgba(124,168,45,0.3)",
-                strokeColor: "rgba(124,168,45,1)",
-                pointColor: "rgba(70,94,26,1)",
-                pointStrokeColor: "#688d24",
-                pointHighlightFill: "#cde2a7",
-                pointHighlightStroke: "rgba(220,220,220,1)",
-                data: acceptedPatches
-            }
-        ]
-    };
-    // Get the ID of the chart in question.
-    var chartId = "projectStatsChart-" + projectLinkName + "-" + period;
-    console.log("Creating chart:",chartId);
-    // Get the context of the canvas element we want to select
-    var ctx = document.getElementById(chartId).getContext('2d');
-    console.log(dataSource);
-    // Instantiate a new chart using 'data'
-    var myChart = new Chart(ctx, {
-        type: "line",
-        data: dataSource,
-        options: chartOptions
-    });
+  });
+  if (callback !== false) callback();
 }
-// Process the perProjectPatches.json file and add data to relevant graphs
-function createInitialGraph() {
-    var projectLinkName = $("ul.stats-period-tabs > li.active > a").data("link-name");
-    var chartPeriod = $("ul.stats-period-tabs > li.active > a").data("chart-period");
-    setupGraph(projectLinkName, chartPeriod);
-}
-// Main on-load function
-$(window).on("load", function () {
-    $(function () {
-        var options = {
-            selectorAttribute: "data-target",
-            backToTop: true
-        };
-        // $('.nav-tabs').stickyTabs(options);
-        $('.nav-tabs').stickyTabs(options);
+function filterOnTheme(theme, callback = false) {
+  console.log("filtering on theme: ", theme);
+  // Close any open projects
+  hideAllProjectCollapses();
+  // Switch theme tab / selecet menu
+  if ($("#themeSelectCollapse").is(":visible")) {
+    // Make sure the correct theme is selected
+    $("#themeSelectCollapse").val(theme);
+    // Update the projects menu to show only theme related projects
+    $("#projectsDropdown > .dropdown-menu > button").addClass("d-none");
+    $("#projectsDropdown > .dropdown-menu > button").each(function () {
+      if ($(this).hasClass("d-block")) {
+        $(this).removeClass("d-block");
+      }
     });
-    // Main Event Listeners
-    // Show Bootstrap tooltip on scroll
-    $(window).on("scroll", function(){
-       $("#subProjectsDropdown").tooltip().mouseover();
-       setTimeout(function(){ $("#subProjectsDropdown").tooltip('hide'); }, 3000);
-    });
-    // Event listener for when bootstrap tabs are toggled to setup graphs for that tab
-    $('.projects-tab-panel a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        console.log("Period panel has been clicked!");
-        var projectLinkName = $(e.target).data("link-name");
-        var projectName = $(e.target).data("project-name");
-        var chartPeriod = $(e.target).data("chart-period");
-        $(".currentProject").html(projectName);
-        // Setup the graph based on the event target's data-chart value
-        console.log(projectLinkName);
-        setupGraph(projectLinkName, chartPeriod);
-    });
-    // Event listener for when bootstrap tabs are toggled to setup graphs for that tab
-    $('.subProjects a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        console.log("Sub Project tab has been clicked!");
-        var projectLinkName = $(e.target).data("link-name");
-        var chartPeriod = $(e.target).data("chart-period");
-        $(".currentProject").html(projectLinkName);
-        // Setup the graph based on the event target's data-chart value
-        console.log(projectLinkName);
-        setupGraph(projectLinkName, chartPeriod);
-    });
-    // Enable tooltips
-    $('body').tooltip({
-        selector: '[data-toggle="tooltip"]'
-    });
-    // Check to see if the patches graph canvas elements exist in the DOM
-    if ($(".projectStatsChart").length > 0) {
-        // Loop through the sources and the separate script elements.
-        for (i = 0; i < patchesDataSources.length; i++) {
-            $.ajax({
-                url: patchesDataSources[i],
-                dataType: 'json',
-                complete: function (jsonResponse) {
-                    jsonData = JSON.parse(jsonResponse.responseText);
-                    allJSONData = allJSONData.concat(jsonData);
-                }
-            });
+    // Show project buttons with the given theme id.
+    if (theme === "allProjects") {
+      $(`#projectsDropdown > .dropdown-menu > button`).addClass("d-block");
+    } else {
+      // $(
+      //   `#projectsDropdown > .dropdown-menu > button[data-theme='${theme}']`
+      // ).addClass("d-block");
+      $(`#projectsDropdown > .dropdown-menu > button`).each(function () {
+        var themes = $(this).data("themes").split(",");
+        for (let i = 0; i < themes.length; i++) {
+          if (themes[i] === theme) {
+            $(this).addClass("d-block");
+          }
         }
+      });
+    }
+  } else {
+    $(`#project_theme_tabs a[data-theme='${theme}']`).tab("show");
+    if (theme === "allProjects") {
+      $(".project_card").addClass("d-block");
+    } else {
+      // $(`.project_card[data-theme='${theme}']`).addClass("d-block");
+      $(`.project_card`).each(function () {
+        var themes = $(this).data("themes").split(",");
+        for (let i = 0; i < themes.length; i++) {
+          if (themes[i] === theme) {
+            $(this).addClass("d-block");
+          }
+        }
+      });
+    }
+  }
+  if (callback) callback();
+}
+function showProjectCollapse(projectId) {
+  console.log("Showing project collapse");
+  if ($(`.project_card[data-project-id='${projectId}']`).hasClass("d-none")) {
+    $(`.project_card[data-project-id='${projectId}']`).removeClass("d-none");
+  }
+  $(`.project_card[data-project-id='${projectId}']`).addClass("d-block");
+  $(`#${projectId}`).collapse("show");
+  if (!$(`#${projectId}`).hasClass("show")) {
+    $(`#${projectId}`).addClass("show");
+  }
+  if (!$("#themeSelectCollapse").is(":visible")) {
+    scroll_to_anchor(`#${projectId}`);
+  }
+}
+function handleHashChange(hash) {
+  var separatedHash;
+  separatedHash = hash.replace("#", "").split("_");
+  console.log(separatedHash);
+  var projectId = "";
+  var themeId = "";
+  var projectIdArr = [];
+  var themeIdArr = [];
+  // If _ exists then theme and project exists
+  if (separatedHash.length > 1) {
+    themeId = separatedHash[0];
+    projectId = separatedHash[1];
+  } else {
+    // Only the theme or project ID exists
+    // For backwards compatability we need to check
+    // to see if the id is a theme or project.
+    $(".project_card").each(function () {
+      if (projectIdArr.indexOf($(this).data("project-id")) === -1) {
+        projectIdArr.push($(this).data("project-id"));
+      }
+      var themes = $(this).data("themes").split(",");
+      for (let i = 0; i < themes.length; i++) {
+        if (themeIdArr.indexOf(themes[i]) === -1) {
+          themeIdArr.push(themes[i]);
+        }
+      }
+    });
+    // Check the separated hash to see if it matches a project or theme id.
+    if (projectIdArr.indexOf(separatedHash[0]) !== -1) {
+      projectId = separatedHash[0];
+    }
+    console.log(themeIdArr);
+    if (themeIdArr.indexOf(separatedHash[0]) !== -1) {
+      themeId = separatedHash[0];
+    }
+  }
+  // show the correct theme tab
+  if (themeId !== "") {
+    filterOnTheme(themeId, function () {
+      // show the correct project info panel.
+      console.log("running callback.");
+      if (projectId !== "") {
+        showProjectCollapse(projectId);
+      }
+    });
+  } else if (projectId !== "") {
+    // show the correct project info panel.
+    showProjectCollapse(projectId);
+  }
+}
+function scroll_to_anchor(hash) {
+  const splitHash = hash.split("#");
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $("#" + splitHash[1]).offset().top - 200,
+    },
+    500
+  );
+}
+// Projects links
+function handleDeepLinkHash() {
+  let url = location.href.replace(/\/$/, "");
+  var hash = "";
+  if (location.hash) {
+    if (location.hash.indexOf("#") !== -1) {
+      hash = location.hash.split("#")[1];
+    } else {
+      hash = location.hash;
+    }
+    handleHashChange(hash);
+  }
+  // On hash get project ID / theme id and open tab / theme.
+  // $(window).on("hashchange", function () {
+  //   var hash = window.location.hash;
+  //   handleHashChange(hash);
+  // });
 
-        // Wait for all ajax requests to stop
-        $(document).ajaxStop(function () {
-            createInitialGraph();;
-        });
-    }
-    else {
-        console.log("No patches graphs found!");
-    }
+  //   $(".collapse").on("show.bs.collapse", function (e) {
+  //     let newUrl;
+  //     const hash = $(this).attr("id");
+  //
+  //   });
+}
+
+$(document).ready(() => {
+  // If we are on a mobile screen
+  // 1) Hide all the project cards
+  if ($("#themeSelectCollapse").is(":visible")) {
+    hideAllProjectCollapses();
+    // Projects dropdown on click handler setup
+    $("#projectsDropdown button.dropdown-item").on("click", function (e) {
+      hideAllProjectCollapses();
+      window.location.hash = `${$(this).data("themes").split(",")[0]}_${$(
+        this
+      ).data("project-id")}`;
+      console.log(
+        `${$(this).data("themes").split(",")[0]}_${$(this).data("project-id")}`
+      );
+      console.log($(this).data("themes"));
+      showProjectCollapse($(this).data("project-id"));
+    });
+  }
+  $("#project_theme_tabs a").on("click", function () {
+    var theme_val = $(this).data("theme");
+    filterOnTheme(theme_val);
+  });
+  // Check URL for deep link and open relevant theme
+  // and project.
+  $("#themeSelectCollapse").on("change", function () {
+    var theme_val = this.value;
+    // Show the theme tab.
+    filterOnTheme(theme_val);
+  });
+  // // Detect change in accordion and update the page hash.
+  $("#accordion").on("show.bs.collapse", function (e) {
+    let hash = `${$(e.target).data("themes").split(",")[0]}_${$(e.target).data(
+      "project-id"
+    )}`;
+    window.location.hash = hash;
+  });
+  handleDeepLinkHash();
 });

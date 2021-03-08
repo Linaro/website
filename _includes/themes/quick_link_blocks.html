@@ -1,0 +1,36 @@
+<div class="col col-12">
+    <div class="row d-flex flex-row justify-content-center align-items-center">
+        {% if page.presentation_link and page.presentation_link != "" %}
+        <div class="col col-12 col-md-4">
+            <a href="{{page.presentation_link}}">
+                <div class="block_wrapper my-4 text-center">
+                    <img class="icon_image d-block mx-auto my-3" src="/assets/images/content/Icon_slide_deck.svg" alt="Presentations Icon"/>
+                    <h3 class="text-dark">
+                        {{page.title}} Main Presentation Deck 
+                    </h3>
+                </div>
+            </a>
+        </div>
+        {% endif %}
+        <div class="col col-12 col-md-4">
+            <a href="https://connect.linaro.org/resources/?theme={{page.title | url_encode}}">
+                <div class="block_wrapper my-4 text-center">
+                    <img class="icon_image d-block mx-auto my-3" src="/assets/images/content/Icon_Video_presentation.svg" alt="Video Presentation Icon"/>
+                    <h3 class="text-dark">
+                        {{page.title}} Video Resources
+                    </h3>
+                </div>
+            </a>
+        </div>
+        <div class="col col-12 col-md-4">
+            <a href="/blog/themes/?theme={{page.title | slugify}}">
+                <div class="block_wrapper my-4 text-center">
+                    <img class="icon_image d-block mx-auto my-3" src="/assets/images/content/Icon_blog.svg" alt="Blogs Icon"/>
+                    <h3 class="text-dark">
+                        {{page.title}} Blogs
+                    </h3>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

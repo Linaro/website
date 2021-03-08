@@ -8,6 +8,43 @@
   }
 }
 #wrapper {
+  .tabbed_content {
+    img {
+      margin: 10px 40px;
+      object-fit: contain;
+      &.left {
+        float: left;
+      }
+      &.square-inline {
+        height: 100px;
+        width: 100px;
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+      &.right {
+        float: right;
+      }
+      &.small-inline {
+        height: 150px;
+      }
+      &.medium-inline {
+        height: 200px;
+      }
+      &.large-inline {
+        height: 250px;
+      }
+    }
+  }
+  .card-header button {
+    white-space: normal;
+    margin-right: 12px;
+    width: 100%;
+  }
+  .dotted_border_top_bottom {
+    border-top: 5px dotted #eee;
+    border-bottom: 5px dotted #eee;
+    margin-bottom: 40px !important;
+  }
   .large_header {
     font-size: 3rem;
     font-weight: 300;

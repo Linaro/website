@@ -1,0 +1,52 @@
+#wrapper {
+  #accordion .card-header {
+    img {
+      height: 48px;
+    }
+  }
+  span.icon-mail {
+    top: -14px;
+    position: relative;
+  }
+  #projectsDropdown {
+    .dropdown-menu.show {
+      max-width: 100%;
+      left: 0px !important;
+      position: absolute !important;
+      button.dropdown-item {
+        max-width: 100vw;
+        white-space: normal;
+      }
+    }
+  }
+  .projects_banner {
+    height: auto !important;
+    img.header_background_image {
+      filter: brightness(0.6) !important;
+    }
+  }
+  .project_container.selected {
+    background-color: black !important;
+    h4 {
+      background-color: black !important;
+      color: white !important;
+    }
+  }
+  #project_theme_tabs {
+    border-bottom: 0px;
+    a.nav-link {
+      &.active {
+        background-color: #e6e6e6;
+        border: none;
+      }
+    }
+  }
+  .projects_info_row {
+    background-color: #e6e6e6;
+  }
+  .project_container {
+    img {
+      height: 48px;
+    }
+  }
+}

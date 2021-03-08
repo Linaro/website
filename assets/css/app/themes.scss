@@ -1,0 +1,125 @@
+#wrapper {
+  img.members-img {
+    height: 150px;
+  }
+  img.icon_image {
+    height: 120px;
+  }
+  .row.sub_themes {
+    position: relative;
+    &:after {
+      content: "";
+      height: 200px;
+      width: 100%;
+      background-color: #575757;
+      position: absolute;
+      bottom: 0;
+      z-index: 0;
+    }
+    .sub_theme_blocks .card {
+      position: relative;
+      z-index: 1;
+    }
+  }
+  .background_image_modal {
+    .modal-content {
+      img.img-fluid {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      &:before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        filter: opacity(0.7);
+        position: absolute;
+        top: 0;
+        z-index: 1;
+      }
+      .modal-body {
+        z-index: 2;
+      }
+      .modal-footer {
+        z-index: 2;
+        border-top: none;
+      }
+      .modal-header {
+        position: relative;
+        z-index: 2;
+        border-bottom: none;
+        h5 {
+          width: 100%;
+        }
+        button.close {
+          opacity: 1;
+          color: white;
+        }
+      }
+    }
+  }
+  .bordered-row {
+    border: 2px solid white;
+  }
+  .related_project {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-weight: 900;
+    transition: all 500ms ease;
+    &:hover {
+      -webkit-box-shadow: 2px 4px 16px 6px rgba(56, 56, 56, 1);
+      -moz-box-shadow: 2px 4px 16px 6px rgba(56, 56, 56, 1);
+      box-shadow: 2px 4px 16px 6px rgba(56, 56, 56, 1);
+    }
+  }
+  .theme_banner {
+    z-index: 0;
+    height: auto !important;
+    &:before {
+      position: absolute;
+      content: "";
+      height: 15px;
+      width: 100%;
+      top: 0;
+      z-index: 2;
+      left: 0;
+      background-color: #ccc;
+      background: linear-gradient(
+        to left,
+        rgba(#000, 1) 0%,
+        rgba(#fff, 1) 100%
+      );
+      width: 100%;
+      border-bottom: 1px solid #000;
+    }
+    h1 {
+      margin-bottom: 30px !important;
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      top: 0;
+      z-index: 1;
+      left: 0;
+      background: linear-gradient(
+        to left,
+        rgba(#000, 0) 0%,
+        rgba(#000, 1) 100%
+      );
+    }
+    .inner_content_wrapper {
+      z-index: 2;
+      max-width: 800px;
+      position: relative;
+    }
+    .header_background_image {
+      filter: brightness(0.9);
+    }
+  }
+}

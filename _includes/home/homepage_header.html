@@ -1,0 +1,48 @@
+<div
+  class="jumbotron row d-flex align-items-center jumbotron-fluid background_image"
+id="homepage_header">
+    {% picture header_image "/assets/images/content/IMAGE_HOMEPAGE.jpg" --alt "Blue and purple tech waves" %}
+  <div class="container">
+    <div class="inner_content_wrapper text-center">
+      <h1>
+        <span class="font-weight-bolder">Accelerating deployment</span> in the
+        <span class="font-weight-bolder text-primary"><br/>Arm Ecosystem</span>
+      </h1>
+      <div class="icons row header_icons d-flex align-items-center justify-content-center" id="header_icons_row">
+        {% for theme in site.themes %}
+          {% unless theme.sub_theme %}
+            {% unless theme.title == "Kernel & Toolchain" or theme.title == "Security" %}
+                <div class="col col-6 col-sm-4 col-lg-2 py-3">
+                  <div class="icon_wrapper d-flex justify-content-between flex-column h-100 align-items-center">
+                    <img class="icon_image" src="{{theme.icon}}" alt="{{theme.title}} icon"/>
+                    <h3 class="text-white font-weight-bold">{{theme.title}}</h3>
+                    <a href="{{theme.url}}" class="btn btn-primary text-uppercase">Learn More</a>
+                  </div>
+                </div>
+            {% endunless %}
+          {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="icons container-fluid d-none header_icons animate__animated animate__fadeIn animate__faster" id="header_icons_row_sticky">
+    {% picture header_image "/assets/images/content/IMAGE_HOMEPAGE.jpg" --alt "Blue and purple tech waves" %}
+    <div class="container icons_container">
+        <div class="owl-carousel owl-theme" id="sticky_icons_slider">
+            {% for theme in site.themes %}
+              {% unless theme.sub_theme %}
+                {% unless theme.title == "Kernel & Toolchain" or theme.title == "Security"%}
+                    <div class="item text-center py-3 h-100">
+                        <div class="icon_wrapper d-flex justify-content-between flex-column h-100 align-items-center">
+                            <img class="icon_image mx-auto" src="{{theme.icon}}" alt="{{theme.title}} icon"/>
+                            <h3 class="text-white font-weight-bold">{{theme.title}}</h3>
+                            <a href="{{theme.url}}" class="btn btn-primary text-uppercase">Learn More</a>
+                        </div>
+                    </div>
+                {% endunless %}
+              {% endunless %}
+            {% endfor %}
+        </div>
+    </div>
+  </div>

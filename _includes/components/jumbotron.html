@@ -65,9 +65,9 @@
             <div class="inner_content_wrapper">
             <h1 class="">{{page.jumbotron.title}}</h1>
             {% if page.jumbotron.description %}
-            <p class="lead">
-                {{page.jumbotron.description }}
-            </p>
+            <div class="lead">
+                {{page.jumbotron.description | markdownify }}
+            </div>
             {% endif %}
             {% if page.jumbotron.buttons %}
             <p class="lead">

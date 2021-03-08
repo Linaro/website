@@ -1,0 +1,18 @@
+<div class="col col-12">
+    <div class="row bordered-row">
+        {% for project in site.data.projects["projects"] %}
+            {% assign project_themes = project["Project Information"]["Theme"] %}
+            {% for theme in project_themes %}
+                {% if theme == page.title %}
+                    <div class="col col-12 col-sm-6">
+                        <a href="/projects/#{{project['key']}}">
+                            <div class="related_project">
+                                {{project["Project Information"]["title"]}}
+                            </div>
+                        </a>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>

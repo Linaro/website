@@ -1,0 +1,13 @@
+---
+layout: null
+---
+[
+    {% for theme in site.themes %}
+    {
+        "id": "{{ theme.id }}",
+        "name": "{{ theme.title }}",
+        "image": "{{ theme.image }}",
+        "description": "{{ theme.description }}",
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

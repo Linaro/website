@@ -1,0 +1,50 @@
+<div class="row blocks sub_themes">
+    <div class="container">
+        <div class="row sub_theme_blocks">
+            {% for sub_theme in page.sub_themes %}
+                {% for theme in site.themes %}
+                    {% if theme.title == sub_theme %}
+                        <div class="col col-12 col-md-4 py-5 py-md-2">
+                            <div class="card h-100 background_image text-white border border-white rounded-0">
+                                {% capture image_alt %}{{theme.title}}{% endcapture%}
+                                {% picture card_block_image {{theme.image}} --alt {{image_alt}}%}
+                                <div class="card-body">
+                                    <h4 class="card-title font-weight-bold border-bottom pb-3">{{theme.title}}</h4>
+                                    <p class="card-text">{{theme.description}}</p>
+                                    <button type="button" class="btn btn-primary text-uppercase text-dark" data-toggle="modal"
+                                    data-target="#{{theme.title | slugify}}">
+                                        Learn more
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade background_image_modal" id="{{theme.title | slugify}}" tabindex="-1" role="dialog" 
+                            aria-labelledby="{{theme.title | slugify}}-title" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content text-white border border-white">
+                                        {% capture image_alt %}{{theme.title}}{% endcapture%}
+                                        {% picture feature_block_image {{theme.image}} --alt {{image_alt}}%}
+                                        <div class="modal-header">
+                                            <h5 class="modal-title font-weight-bold border-bottom pb-3" id="{{theme.title | slugify}}-title">{{theme.title}}</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            {{theme.content}}
+                                        </div>
+                                        {% if theme.content_link %}
+                                        <div class="modal-footer justify-content-start">
+                                            <a class="btn btn-primary text-uppercase text-dark" href="{{content_link}}">Learn More</a>
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
