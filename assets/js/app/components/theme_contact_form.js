@@ -42,11 +42,11 @@ theme_contact_form.onsubmit = (e) => {
     formDataPayloadBody[checkboxGroupName] = data.getAll(checkboxGroupName);
     // Send the POST request.
     fetch(
-      "https://avqfk3gzg2.execute-api.us-east-1.amazonaws.com/prod/formSubmit",
+      "https://pvwhresjz0.execute-api.us-east-1.amazonaws.com/dev/formSubmit",
       {
         method: "POST",
         body: JSON.stringify(formDataPayloadBody),
-        headers: { "X-Api-Key": "ox9fSkYfRK16mxy5Gv6pM121H7iAubAQ6uzsDmoW" },
+        headers: { "X-Api-Key": "xpIcQXHk0Y1XUmBBH4xUl5ScFxgddlFnEpQeSzO3" },
       }
     )
       .then((response) => response.json())
