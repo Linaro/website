@@ -19,15 +19,15 @@
                 {% if include.object.category %}
                     {% if post.tags %}
                         {% if post.category == include.object.category %}
-                                    {% for tag in post.tags %}
-                                        {% for theme_tag in group.tags %}
-                                            {% if theme_tag == tag %}
-                                                {% unless theme_posts contains post %}
-                                                    {% assign theme_posts = theme_posts | push: post %}
-                                                {% endunless %}
-                                            {% endif %}
-                                        {% endfor %}
+                                {% for tag in post.tags %}
+                                    {% for theme_tag in group.tags %}
+                                        {% if theme_tag == tag %}
+                                            {% unless theme_posts contains post %}
+                                                {% assign theme_posts = theme_posts | push: post %}
+                                            {% endunless %}
+                                        {% endif %}
                                     {% endfor %}
+                                {% endfor %}
                         {% else %}
                             {% for tag in post.tags %}
                                 {% for theme_tag in group.tags %}
@@ -42,7 +42,7 @@
                     {% endif %}
                 {% endif %}
             {% endfor %}
-                
+            {% assign theme_posts = theme_posts | sort: 'date' | reverse  %}
             {% for post in theme_posts %}
                 <li class="media" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
                         {% assign author = site.authors | where: "username", post.author | first %}
