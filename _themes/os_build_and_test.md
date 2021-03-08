@@ -55,9 +55,9 @@ flow:
                 product device updates through increasing quality confidence, and improve the breadth of testing available to developers
                 and device manufacturers before they commit their code to releases.
                 
-                ![LKFT logo](/assets/images/content/lkft.png){:.small-inline.left}
+                ![LKFT logo](/assets/images/content/LKFT.svg){:.small-inline.left}
 
-                ![LKFT content 1](/assets/images/content/lkft-image-1.png){:.medium-inline.right}
+                ![LKFT content 1](/assets/images/content/156m_tests.png){:.medium-inline.right}
 
                 Linaro’s Linux Kernel Quality program covers both Linux
                 kernel testing and testing of the LTS-derived
@@ -71,7 +71,7 @@ flow:
                 the Linux LTS trees to date against a variety of embedded, emulated, and server platforms. We work weekly with LTS
                 maintainers to execute testing and report regressions on the latest release-candidates before the releases are made.
               
-                ![LKFT content 2](/assets/images/content/lkft-image-2.png){:.medium-inline.left}
+                ![LKFT content 2](/assets/images/content/530m_tests.png){:.medium-inline.left}
 
                 We also build and functional test (Android CTS & VTS) Android Common
                 Kernels weekly and report regressions in the Linux kernel and AOSP
@@ -82,6 +82,8 @@ flow:
             - title: Testing Services
               content: |
                 Linaro maintains a variety of open source project CI and testing frameworks. These include CI testing for the following
+
+                ![Tuxsuite logo](/assets/images/content/tuxsuite.svg){:.square-inline.left}
 
                 TuxSuite™ by Linaro is the backbone of our Linaro’s testing efforts. This is now available as a
                 commercial service to help anyone interested in improving their Linux kernel testing to do so rapidly and
@@ -95,6 +97,8 @@ flow:
 
                 To achieve this Linaro provides support to a number of CI artifacts:-
 
+                ![GNU logo](/assets/images/content/GNU.svg){:.square-inline.left}
+
                 #### GNU Toolchain build and integration testing
 
                 Integration release testing builds
@@ -104,6 +108,8 @@ flow:
                 - These builds are for experimental environments only, providing support for system integrators to
                 check an upcoming GNU official release.
                 https://snapshots.linaro.org/gnu-toolchain/
+
+                ![LLVM logo](/assets/images/content/LLVM.svg){:.square-inline.left}
 
                 #### LLVM Toolchain build-bots
 
@@ -131,16 +137,22 @@ flow:
                 Linaro develops and maintains open source software tools for device automation that enable continuous integration testing
                 of firmware, OSes and workloads on a variety of device classes, from MCU/IoT devices, to embedded boards, to servers.
 
+                ![LAVA logo](/assets/images/content/LAVA.svg){:.square-inline.left}
+
                 **LAVA** is the open source Linaro Automation and Validation Architecture. It is the industry standard soft-
                 ware for embedded device and testing automation, but also works with IoT and server-grade devices.
                 It can perform firmware, OS (boot and functional), application, and producer-consumer testing. Being the
                 creators of LAVA, Linaro has over a decade of experience refining this automation software. Linaro’s
                 members guide development of represents member interest
 
+                ![TuxMake logo](/assets/images/content/tuxmake.svg){:.square-inline.left}
+
                 **TuxMake™** automates Linux builds across different architectures, configurations, targets, and toolchains.
                 Specify your choices, and TuxMake drives the build for you, doing the same steps in the same way every
                 time. TuxMake provides portable build environments using standard container images so that your team
                 can perform the exact same build across different systems.
+
+                ![Squad logo](/assets/images/content/squad.svg){:.square-inline.left}
 
                 **SQUAD** is Linaro’s open source Software Quality Dashboard software. It is cloud-deployable and scala-
                 ble software for scheduling, aggregating, the collection of software test-results, and presenting them 
