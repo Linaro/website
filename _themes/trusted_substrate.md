@@ -35,9 +35,7 @@ sub_themes:
   - Dependable Boot
   - Over-the-air Updates
   - Trusted Services
-presentation_link: /about/
-video_link: /about/
-blogs_link: /blog/tags/?tag=Trusted%20Firmware
+presentation_link: https://linaro.co/trusted-substrate-slides
 flow:
     - row: custom_include_row
       source: themes/sub_theme_blocks.html
