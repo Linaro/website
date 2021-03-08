@@ -8,6 +8,25 @@
   }
 }
 #wrapper {
+  img {
+    margin: 10px;
+    object-fit: contain;
+    &.left {
+      float: left;
+    }
+    &.right {
+      float: right;
+    }
+    &.small-inline {
+      height: 150px;
+    }
+    &.medium-inline {
+      height: 200px;
+    }
+    &.large-inline {
+      height: 250px;
+    }
+  }
   .card-header button {
     white-space: normal;
     margin-right: 12px;
