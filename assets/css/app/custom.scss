@@ -10,14 +10,14 @@
 #wrapper {
   .tabbed_content {
     img {
-      margin: 10px;
+      margin: 10px 40px;
       object-fit: contain;
       &.left {
         float: left;
       }
       &.square-inline {
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
         border: 1px solid #ccc;
         padding: 10px;
       }
