@@ -427,7 +427,9 @@
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=280#\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/UM/Upstream+Maintainership+Home\">https://collaborate.linaro.org/display/UM/Upstream+Maintainership+Home</a>",
-                "Theme": [],
+                "Theme": [
+                    "Kernel & Toolchain"
+                ],
                 "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result, as maintainers, they become responsible for keeping their code upstream in sync with the overall development of respective upstream projects.",
                 "title": "Upstream Maintainership"
             },
