@@ -37,9 +37,7 @@
                 "Theme": [
                     "Kernel & Toolchain",
                     "Security",
-                    "Virtualization",
-                    "",
-                    ""
+                    "Virtualization"
                 ],
                 "description": "Primarily focused on Server Standardisation. Examples to include SBSA, xBBR to enable simplified adoption of mainline builds on new server hardware.",
                 "title": "Arm Server Architecture"
@@ -63,8 +61,7 @@
                 "Plan Of Record": "",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/BDDS\">https://collaborate.linaro.org/display/BDDS</a>",
                 "Theme": [
-                    "Artificial Intelligence",
-                    ""
+                    "Artificial Intelligence"
                 ],
                 "description": "Make ARM64 a first class citizen in the Hadoop/Spark community and scale-out analytics",
                 "title": "Big Data & Data Science"
@@ -88,8 +85,7 @@
                 "Plan Of Record": "",
                 "Project Homepage": "",
                 "Theme": [
-                    "Android Ecosystem",
-                    ""
+                    "Android Ecosystem"
                 ],
                 "description": "This project focuses on making Arm and Linaro members SoCs a first class citizen in the Linux camera ecosystem. Primarily through development on the libcamera open source library which provides complex camera support to Chrome OS, Linux and Android but also Camera related work in the Linux kernel and RDK-C camera stack.",
                 "title": "Camera"
@@ -113,8 +109,7 @@
                 "Plan Of Record": "",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/CLOUD\">https://collaborate.linaro.org/display/CLOUD</a>",
                 "Theme": [
-                    "Artificial Intelligence",
-                    ""
+                    "Artificial Intelligence"
                 ],
                 "description": "The Cloud infrastructure team focuses on cloud infrastructure technologies such as Kubernetes, OpenStack, Ceph, and container runtime. <br><br>We dedicate to make open-source cloud infrastructure projects have the capabilities of easy deployment, easy management, and good performance on Arm64.<br><br>We also run the Linaro Developer Cloud. It is a pure open-source cloud, free for developers. It offers the virtual machine instances and Kubernetes as a service. Link: www.linaro.cloud",
                 "title": "Cloud Infrastructure"
@@ -138,8 +133,7 @@
                 "Plan Of Record": "",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/GNU\">https://collaborate.linaro.org/display/GNU</a>",
                 "Theme": [
-                    "Kernel & Toolchain",
-                    ""
+                    "Kernel & Toolchain"
                 ],
                 "description": "Development of GNU Toolchain:<br><ul><li> GCC compiler</li><ul><li> We improve Link-Time Optimizations (LTO), SVE auto-vectorization optimizations, and microarchitecture-specific optimizations for popular Arm cores.</li><li> We improve performance and scalability of Libgomp (GNU OpenMP runtime)</li><li> We support compiler sanitizers (ASAN, TSAN, etc.) in GCC.  Sanitizers are developed under LLVM Toolchain project, and sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.</ul></li><li> GDB debugger</li><ul><li> We develop support for new ARMv8.x architectural features and improve debugging experience.</ul></li><li> Glibc C Library</li><ul><li> We implement both target-specific and generic optimizations in Glibc.  We then aim to propagate all relevant Glibc improvements to Newlib and Bionic C libraries.</ul></li><li> GNU Binutils assembler, BFD and Gold linkers</li><ul><li> In Binutils we implement ELF section-level optimizations, as well as workarounds for hardware errata.</li></ul></li></ul>",
                 "title": "GNU Toolchain"
@@ -164,8 +158,7 @@
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/HPCSIG\">https://collaborate.linaro.org/display/HPCSIG</a>",
                 "Theme": [
                     "Artificial Intelligence",
-                    "OS Build & Test",
-                    ""
+                    "OS Build & Test"
                 ],
                 "description": "High Performance Computing & Artificial Intelligence<br><br>Drive the adoption of ARM in HPC through standardisation, interoperability, orchestration and use case development. Leverage ARM-based hardware around server class infrastructure, multi-gigabit interconnect support, scalable vector extensions and software ecosystem support to build exascale HPC deployments. The engineering focus is on OpenHPC, application performance, AI solutions, SVE enablement and hardware deployment.",
                 "title": "HPC-AI"
@@ -238,8 +231,7 @@
                 "Project Homepage": "<a href=\"https://lkft.linaro.org/ \">https://lkft.linaro.org/ </a>and <a href=\"https://collaborate.linaro.org/display/LKQ\">https://collaborate.linaro.org/display/LKQ</a>",
                 "Theme": [
                     "OS Build & Test",
-                    "Android Ecosystem",
-                    ""
+                    "Android Ecosystem"
                 ],
                 "description": "Our core mission is to improve the quality of the Linux kernel by testing its upstream releases on Arm and X86 hardware as well as virtual platforms of various architectures.  We focus on long term support kernels (LTS), stable, and upstream development branches.<br><br><br><br><br><br>",
                 "title": "Linux Kernel Quality"
@@ -312,8 +304,7 @@
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/PERF\">https://collaborate.linaro.org/display/PERF</a>",
                 "Theme": [
                     "Kernel & Toolchain",
-                    "Android Ecosystem",
-                    ""
+                    "Android Ecosystem"
                 ],
                 "description": "Performance and Power Management have always been tightly linked because the power consumption often arises as a variable of the performance of the system. Mobile Phone world has been one of the most active contributors in this area with the aim to run always more powerful systems on always more constrained batteries. In fact,  most of systems can\u2019t afford to simply put everything to its maximum performance level but has to follow either a thermal budget or a maximum power budget.  In this way, large systems also have to deal with those constraints in order to use their power budget efficiently and reach maximum performances. This project aims to improve the efficiency of all ARM based Linux systems, small or large, by improving Linux subsystems that influence its performance or power consumption, which includes the scheduler or the thermal framework in addition to the traditional power management subsystems.",
                 "title": "Power and Performance"
@@ -413,8 +404,7 @@
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/TS/Trusted+Substrate+Home\">https://collaborate.linaro.org/display/TS/Trusted+Substrate+Home</a>",
                 "Theme": [
                     "Trusted Substrate",
-                    "IoT & Embedded",
-                    ""
+                    "IoT & Embedded"
                 ],
                 "description": "Trusted Substrate project ambition is to upstream all necessary technologies in multiple projects to enable SystemReady compliance. Projects can be Trusted Firmware, OP-TEE, U-Boot, SCP, Linux kernel (EFI stub) and others.",
                 "title": "Trusted Substrate"
@@ -437,9 +427,7 @@
                 "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=280#\">Scope of work breakdown</a>",
                 "Plan Of Record": "",
                 "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/UM/Upstream+Maintainership+Home\">https://collaborate.linaro.org/display/UM/Upstream+Maintainership+Home</a>",
-                "Theme": [
-                    ""
-                ],
+                "Theme": [],
                 "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result, as maintainers, they become responsible for keeping their code upstream in sync with the overall development of respective upstream projects.",
                 "title": "Upstream Maintainership"
             },
