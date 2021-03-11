@@ -30,7 +30,7 @@ Tensorflow’s name comes from the mathematical object called tensors. They are 
 
 In Tensorflow the convolution is done via a sequence of reshape and contract operations which boils down to usual matrix multiplication. In order for this transformation to give appropriate results, a well known conversion step known as im2col is applied which projects higher ranking tensors into matrices. The classical im2col algorithm requires a considerable amount of memory usage because of it’s redundant nature, the diagram below outlines the general procedure. 
 
-{% include image.html path="/assets/images/content/im2col-algorithym.png"alt="im2col algorithym" %} 
+{% include image.html path="/assets/images/content/im2col-algorithym.png" alt="im2col algorithym" %}
 
 Tensorflow uses a hybrid alternative with virtual tensors. Once the projection is done, general matrix multiplication can be used to calculate the convolution. This is usually a very fast alternative to directly calculating the convolution because gemm libraries are highly optimized.
 
@@ -54,7 +54,7 @@ The machine used to test was a Cavium ThunderX1 with 16Gb of RAM. The matrix mul
 
 The experiment consisted of a classification task taken from resnet50. We executed each test 1024 times for Tensorflow taken from master at 02/02/2021 and compiled with the current Eigen archive and then the same source code with our updated GEMM kernel. Average execution time per run for master was 0.37 seconds with a standard deviation of 0.005 against our version with 0.34 seconds and standard deviation of 0.005 as well. The total execution time for master was 377.38 seconds and on our version 353.96 seconds. Basic statistical tests reject the null hypothesis.
 
-{% include image.html path="/assets/images/content/mlperf-convolution-benchmark.png"alt="MLPerf Convolution benchmark" %} 
+{% include image.html path="/assets/images/content/mlperf-convolution-benchmark.png" alt="MLPerf Convolution benchmark" %}
 
 ### Conclusion and future work
 
