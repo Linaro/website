@@ -285,9 +285,9 @@
                 "title": "OpenEuler"
             },
             "Project Ownership": {
-                "Governing Entity": "TSC",
-                "Project Owner": "",
-                "Technical Lead": ""
+                "Governing Entity": "LDCG SC",
+                "Project Owner": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>",
+                "Technical Lead": "Xinliang Liu <a class=\"email-icon\" href=\"mailto:xinliang.liu@linaro.org\"><span class=\"icon-mail\"></span></a>"
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=13003&avatarId=14407",
             "key": "EULR"
