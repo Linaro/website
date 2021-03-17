@@ -336,7 +336,7 @@
             "Project Ownership": {
                 "Governing Entity": "TSC",
                 "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Maxim Kuvyrkov <a class=\"email-icon\" href=\"mailto:maxim.kuvyrkov@linaro.org\"><span class=\"icon-mail\"></span></a>"
+                "Technical Lead": "Alex Benn\u00e9e <a class=\"email-icon\" href=\"mailto:alex.bennee@linaro.org\"><span class=\"icon-mail\"></span></a>"
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=10305&avatarId=14214",
             "key": "QEMU"
