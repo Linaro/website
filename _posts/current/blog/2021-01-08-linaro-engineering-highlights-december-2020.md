@@ -277,7 +277,7 @@ The most salient results are:
 * Bosch webinar on [over-the-air updates for off-road machinery](https://bit.ly/3oXYVcQ)
 * FOSDEM presentation for [XDP](https://archive.fosdem.org/2020/schedule/event/xdp_and_page_pool_api/)
 * NetDev presentation on [page_pool API and XDP](https://netdevconf.info/0x14/session.html?tutorial-add-XDP-support-to-a-NIC-driver)
-* ArmDevSummit presentation on [LEDGE RP](https://devsummit.arm.com/agenda/?search=ledge#/)
+* ArmDevSummit presentation on LEDGE RP (https://devsummit.arm.com/agenda/?search=ledge#/)
 
 ## System Technologies
 
