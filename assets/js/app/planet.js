@@ -13,7 +13,7 @@ $(document).ready(function () {
 var mainFeed = [];
 // Store a list of all the rss feeds
 var feeds = [
-  "http://www.workofard.com/feed/", // Ard Biesheuvel
+  // "http://www.workofard.com/feed/", // Ard Biesheuvel
   "https://pierrchen.blogspot.com/rss.xml", // Bin Chen
   "https://marcin.juszkiewicz.com.pl/feed/", // Marcin Juszkiewicz
   "https://fullshovel.wordpress.com/feed/", // Tom Gall

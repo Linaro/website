@@ -1,10 +1,10 @@
 ---
 title: Arm Dev Summit China 2020 (Virtual)
 event: arm-dev-summit-china-2020
-event_url: https://devsummit.arm.com/cn/agenda/?search=linaro#/
+event_url: https://devsummit.arm.com/
 description: |+
   Linaro related sessions can be found here: 
-  https://devsummit.arm.com/cn/agenda/?search=linaro#/
+  https://devsummit.arm.com/
 
 location: "Virtual, China timezone based "
 date: 2020-10-08 03:08:02
