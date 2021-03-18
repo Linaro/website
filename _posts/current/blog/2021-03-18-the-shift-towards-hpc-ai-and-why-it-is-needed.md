@@ -26,7 +26,7 @@ There is a need to scale to handle the Petabytes of data, deliver the results ac
 
 How do we address these computational needs? 
 
-## Introducing Linaro’s HPC AI Project 
+## Introducing Linaro’s HPC AI Project
 
 Linaro’s HPC AI Project aims to develop technologies which leverage Artificial Intelligence (AI) in infrastructure management tasks such as orchestration and autoscaling. Managing workloads isn’t just about bandwidth. It is also about knowing when to prioritise what task. This is achieved by supporting workloads through intelligent enablement of infrastructure.  
 
@@ -44,4 +44,10 @@ These efforts will be leveraged by the entire HPC community moving forward as Li
 
 ## Want to learn more?
 
-In my upcoming talk at Linaro Virtual Connect 2021 next week, I will talk about the journey of data centre transitions and readiness to support AI on a Smart Scalable HPC, including our latest “8-node” Supercomputer. From computational resource selection to Cloud-native software that brings it all together. The session is free to attend so make sure to register [here](https://connect.linaro.org/register/) if you'd like to find out more. Once registered, you will receive an invitation to our event tool Pine where you can access the session.
+In my upcoming talk at Linaro Virtual Connect 2021 next week, I will talk about the journey of data centre transitions and readiness to support AI on a Smart Scalable HPC, including our latest “8-node” Supercomputer. From computational resource selection to Cloud-native software that brings it all together. The session is free to attend so make sure to register by clicking the link below if you'd like to find out more. Once registered, you will receive an invitation to our event tool Pine where you can access the session.
+
+**LVC21-103: A Journey Towards a Smart Scalable HPC for AI** 
+
+Tuesday 23 March, 16.15-16.40
+
+[Register here](https://connect.linaro.org/register/) to access the session and attend
