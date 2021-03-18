@@ -19,7 +19,7 @@ author: jon.burcham@linaro.org
 
 {% include image.html path="/assets/images/content/simon-segars.jpg" class="small-inline left" alt="Simon Segars - Arm CEO image" %} For 2020, Arm retooled its fall conference to be more developer oriented as Arm DevSummit. With the recent news that Nvidia is acquiring Arm, the keynote by Arm CEO Simon Segars and fireside chat with both Simon Segars and Nvidia CEO Jensen Huang provided an opportunity to comment on the potential benefits of an Arm - Nvidia partnership. {% include image.html path="/assets/images/content/jenson-haung.jpg" class="small-inline left" alt="Jenson Huang - Nvidia CEO image" %} Both CEO’s endorsed Linaro as partners in Open Source work now and in the future. Mark Hambleton, Arm Vice President of Open Source Software, reinforced this view in his keynote titled “The Software Side of Arm”. 
 
-Linaro engineers and collaborators [contributed 15 sessions](https://devsummit.arm.com/agenda/?search=Linaro#/) including:
+Linaro engineers and collaborators contributed 15 sessions (https://devsummit.arm.com/agenda/?search=Linaro#/) including:
 
 * Paul Isaacs’ , Director LDCG, HPC-SIG “Beyond ML – A Neuromorphic Approach to AI”
 * Ilias Apalodimas, LEDGE Tech Lead “LEDGE Reference Platform: Architecture and Generic Kernel Image”

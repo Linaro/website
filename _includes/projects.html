@@ -3,7 +3,7 @@
         <div class="row pb-0">
             <div class="col col-12">
                 <!--Theme tabs-->
-                <ul class="nav nav-tabs row d-none d-lg-flex h-100 pb-0" id="project_theme_tabs">
+                <ul class="nav nav-tabs row d-none d-xl-flex h-100 pb-0" id="project_theme_tabs">
                     <li class="nav-item col text-center h-100">
                         <a class="font-weight-bold text-dark nav-link d-flex flex-column align-items-center justify-content-center active h-100" data-toggle="tab" 
                         data-theme="allProjects" href="#allProjects">
@@ -25,7 +25,7 @@
                     {% endfor%}
                 </ul>
                 <!--Theme tabs mobile dropdown-->
-                <select class="form-control d-block d-lg-none mb-4" id="themeSelectCollapse">
+                <select class="form-control d-block d-xl-none mb-4" id="themeSelectCollapse">
                     <option value="allProjects">All Projects</option>
                     {% for theme in site.themes %}
                         {% unless theme.sub_theme %}
@@ -34,7 +34,7 @@
                     {% endfor %}
                 </select>
                 <!--Projects mobile dropdown-->
-                <div class="dropdown d-block d-lg-none mb-4" id="projectsDropdown">
+                <div class="dropdown d-block d-xl-none mb-4" id="projectsDropdown">
                     <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Select Project
                     </button>
