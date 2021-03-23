@@ -33,7 +33,7 @@ Provided that the above specification is implemented in full, additional functio
 
 {% include image.html path="/assets/images/content/2d-reference-drawing-extension-b-version.jpg" alt="2D Reference Drawing Extension B Version" %}
 
-96Boards Manufacturing Partner Beiqi Cloud has developed two new boards which are compliant with the new specification. The TB-96AIoT-1126CE is based on Rockchip’s RV1126 while the TB-96AI-3568-CE is based on the RK3568 platform. The two boards can share one mezzanine board and will be available to purchase in May from Beiqi Cloud's website.
+96Boards Manufacturing Partner Beiqi Cloud has developed two new boards which are compliant with the new specification. The TB-96AIoT-1126CE is based on Rockchip’s RV1126 while the TB-96AI-3568-CE is based on the RK3568 platform. The two boards can share one mezzanine board and will be available to purchase in May from [here](https://www.beiqicloud.com).
 
 The TB-96AIoT-1126CE (which is based on Rockchip RV1126) is a low cost platform with integrated ISP and dual camera, TPU and ethernet port.  It can be used in a wide range of different scenarios , such as:
 
@@ -54,7 +54,7 @@ Linaro leads collaboration in the Arm ecosystem and helps companies work with th
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit <https://www.linaro.org> and <https://www.96Boards.org>.
 
 **About Beiqi Cloud**
-Beiqi Cloud is a 96Boards Manufacturing Lead partner, and also one of the most powerful solution designers and manufacturers of the Rockchip SOC platform. The supporting manufacturer has passed ISO9001-2008, ISO 14001-2004 and OHSAS 18001-2001. Please contact sales@beiqicloud.com for business cooperation and for more information about the SoM board and Carrier board, please visit [](https://www.beiqicloud.com)Beiqi Cloud's website.
+Beiqi Cloud is a 96Boards Manufacturing Lead partner, and also one of the most powerful solution designers and manufacturers of the Rockchip SOC platform. The supporting manufacturer has passed ISO9001-2008, ISO 14001-2004 and OHSAS 18001-2001. Please contact sales@beiqicloud.com for business cooperation and for more information about the SoM board and Carrier board, please visit [](https://www.beiqicloud.com)<https://www.beiqicloud.com>.
 
 **About Rockchip**
 Rockchip is one of China’s leading fabless semiconductor companies and has been honored with China Chip Awards twelve times. Since its establishment, Rockchip has been committed to providing technical innovation and prompt support to fuel successful growth for customers. Being a pioneering IC design company, Rockchip offers comprehensive and professional end-to-end SoC (system-on-chip) for AI, smart voice, IPC, fast charger, tablet, IPTV/OTT-Box, ARM PC, embedded applications, VR, robot, drone, image processor, CVR, Internet of Things (IoT) and smart audio products. For more information, please visit <https://www.rock-chips.com/a/en/>.
