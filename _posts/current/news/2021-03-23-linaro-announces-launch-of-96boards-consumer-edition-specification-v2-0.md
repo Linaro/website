@@ -50,11 +50,14 @@ The TB-96AI-3568-CE (which is based on Rockchip RK3568) supports Quad core Arm C
 {% include image.html path="/assets/images/content/tb-96ai-3568-ce-pcb-image.png" alt="TB-96ai-3568ce pcb Image.png" %}
 
 **About Linaro**
+
 Linaro leads collaboration in the Arm ecosystem and helps companies work with the latest open source technology. The company has over 250 engineers working on more than 70 open source projects, developing and optimizing software and tools, ensuring smooth product roll outs, and reducing maintenance costs. Work happens across a wide range of technologies including artificial intelligence, automotive, datacenter & cloud, edge & fog computing, high performance computing, IoT & embedded and mobile. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce costly and unnecessary fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro consistently being listed as one of the top ten company contributors, worldwide, to Linux kernels since 3.10.
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit <https://www.linaro.org> and <https://www.96Boards.org>.
 
 **About Beiqi Cloud**
+
 Beiqi Cloud is a 96Boards Manufacturing Lead partner, and also one of the most powerful solution designers and manufacturers of the Rockchip SOC platform. The supporting manufacturer has passed ISO9001-2008, ISO 14001-2004 and OHSAS 18001-2001. Please contact sales@beiqicloud.com for business cooperation and for more information about the SoM board and Carrier board, please visit [](https://www.beiqicloud.com)<https://www.beiqicloud.com>.
 
 **About Rockchip**
+
 Rockchip is one of China’s leading fabless semiconductor companies and has been honored with China Chip Awards twelve times. Since its establishment, Rockchip has been committed to providing technical innovation and prompt support to fuel successful growth for customers. Being a pioneering IC design company, Rockchip offers comprehensive and professional end-to-end SoC (system-on-chip) for AI, smart voice, IPC, fast charger, tablet, IPTV/OTT-Box, ARM PC, embedded applications, VR, robot, drone, image processor, CVR, Internet of Things (IoT) and smart audio products. For more information, please visit <https://www.rock-chips.com/a/en/>.
