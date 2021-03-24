@@ -25,7 +25,7 @@ var feeds = [
   // "https://blog.duraffort.fr/feed/tag/linaro/rss", // Remi Duraffort
   "https://www.davidb.org/index.xml", // David Brown
   "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/", // Daniel Thompson
-  "https://feedmix.novaclic.com/atom2rss.php?source=https%3A%2F%2Ftherub.org%2Ffeed.xml", // Dan rue
+  // "https://feedmix.novaclic.com/atom2rss.php?source=https%3A%2F%2Ftherub.org%2Ffeed.xml", // Dan rue
 ];
 var sortableFeeds = feeds.slice();
 
