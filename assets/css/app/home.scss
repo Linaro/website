@@ -113,6 +113,7 @@
   }
   #header_icons_row_sticky {
     max-height: 240px;
+    z-index: 99;
     h3 {
       font-size: 16px;
     }
