@@ -140,6 +140,16 @@ defaults:
       path: app
     values:
       sitemap: false
+  -
+    scope:
+      path: remote
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "_pages/projects/"
+    values:
+      sitemap: false
   - scope:
       path: ""
       type: "company"
