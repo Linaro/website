@@ -1,7 +1,8 @@
 <div
   class="jumbotron row d-flex align-items-center jumbotron-fluid background_image"
 id="homepage_header">
-    {% picture header_image "/assets/images/content/IMAGE_HOMEPAGE.jpg" --alt "Blue and purple tech waves" %}
+    {% assign alt = "Blue and purple tech waves" %}
+    {% picture header_image "/assets/images/content/IMAGE_HOMEPAGE.jpg" --alt {{alt}} %}
   <div class="container">
     <div class="inner_content_wrapper text-center">
       <h1>
@@ -27,7 +28,7 @@ id="homepage_header">
   </div>
 </div>
 <div class="icons container-fluid d-none header_icons animate__animated animate__fadeIn animate__faster" id="header_icons_row_sticky">
-    {% picture header_image "/assets/images/content/IMAGE_HOMEPAGE.jpg" --alt "Blue and purple tech waves" %}
+    {% picture header_image "/assets/images/content/IMAGE_HOMEPAGE.jpg" --alt Blue and purple tech waves %}
     <div class="container icons_container">
         <div class="owl-carousel owl-theme" id="sticky_icons_slider">
             {% for theme in site.themes %}
