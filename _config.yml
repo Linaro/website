@@ -132,7 +132,12 @@ defaults:
       comments: false
   -
     scope:
-      path: assets/**/*.pdf"
+      path: "assets/downloads/*.pdf"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "assets/pdf/*.pdf"
     values:
       sitemap: false
   -
