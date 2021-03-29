@@ -45,6 +45,7 @@ plugins:
   - japr
   - jekyll_picture_tag
   - jekyll-tidy
+  - jekyll-sitemap
 collections:
   company:
     output: true
@@ -88,6 +89,7 @@ defaults:
       type: "authors"
     values:
       layout: author
+      sitemap: false
       image: /assets/images/social-media-image.png
   - scope:
       type: "services"
@@ -128,6 +130,16 @@ defaults:
       tags_enabled: false
       permalink: "/awards/5-years/:title/"
       comments: false
+  -
+    scope:
+      path: assets/**/*.pdf"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: app
+    values:
+      sitemap: false
   - scope:
       path: ""
       type: "company"
