@@ -1,6 +1,7 @@
 ---
 title: Blog Posts based on Themes
 permalink: /blog/themes/
+sitemap: false
 description: >
   Filter blog posts by theme.
 jumbotron:

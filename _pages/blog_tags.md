@@ -1,6 +1,7 @@
 ---
 title: Tagged Blog Posts
 permalink: /blog/tags/
+sitemap: false
 description: >
   Filter blog posts by tag.
 jumbotron:

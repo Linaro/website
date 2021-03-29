@@ -1,6 +1,7 @@
 ---
 title: New posts based on Themes
 permalink: /news/themes/
+sitemap: false
 description: >
   Filter blog posts by theme.
 jumbotron:

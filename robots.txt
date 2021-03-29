@@ -3,6 +3,8 @@
 {% if site.production %}
 User-agent: *
 Sitemap: {{site.url}}/sitemap.xml
+Disallow: /blog/tags/
+Disallow: /news/tags/
 {% else %}
 User-agent: *
 Disallow: /
