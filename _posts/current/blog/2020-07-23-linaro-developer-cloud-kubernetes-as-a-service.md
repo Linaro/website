@@ -24,7 +24,7 @@ category: blog
 author: kevin.zhao@linaro.org
 ---
 
-# **Linaro Data Center Group (LDCG)**
+## **Linaro Data Center Group (LDCG)**
 
 The Cloud Infrastructure team in Linaro sits inside a group known as the Linaro Data Center and Cloud Group (LDCG). The Cloud Infrastructure focuses on open-source cloud IAAS, PAAS, and storage projects such as OpenStack, Kubernetes, and Ceph. The rest of LDCG spend their time working with Arm Server Architecture, Big Data, and HPC (High-Performance Computing).
 

@@ -27,7 +27,7 @@ related_projects:
 - AI
 ---
 
-# Introducing TuxMake
+## Introducing TuxMake
 
 By Dan Rue, Principal Technical Lead, Kernel Validation Team (KVT)
 

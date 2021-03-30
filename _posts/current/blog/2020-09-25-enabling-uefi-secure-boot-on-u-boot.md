@@ -19,8 +19,6 @@ category: blog
 author: takahiro.akashi@linaro.org
 ---
 
-# Enabling UEFI Secure Boot on U-Boot
-
 U-Boot is a favorite boot loader for embedded devices, supporting a variety of architectures and platforms. In the last few years, a number of new UEFI interfaces have been brought into U-Boot, and the latest element added is Secure Boot. How does it work and what is it designed to protect you against?
 
 ## UEFI U-Boot

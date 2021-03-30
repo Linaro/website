@@ -19,7 +19,7 @@ category: blog
 author: jon.burcham@linaro.org
 ---
 
-# [Saving Power & Improving Performance With Dynamic Interconnect Scaling](/blog/history-of-the-interconnect-framework/)
+## [Saving Power & Improving Performance With Dynamic Interconnect Scaling](/blog/history-of-the-interconnect-framework/)
 
 **By Georgi Djakov, Linaro engineer, Kernel Working Group**
 

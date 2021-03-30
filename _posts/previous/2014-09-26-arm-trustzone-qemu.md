@@ -21,8 +21,6 @@ title: Arm TrustZone in QEMU
 wordpress_id: 6913
 ---
 
-# Arm® TrustZone® in QEMU
-
 Ever used an application on your smartphone or tablet that accesses security sensitive information such as banking, personal health information, or credit cards? The demand for mobile devices to do more and more is rapidly growing and includes increased security sensitive tasks. At the same time, malicious apps are also flooding mobile app stores in hopes of exploiting security holes to take advantage of unsuspecting users.
 
 Can we rely on certain apps to protect our personal data and prevent undesired and unauthorized access? The current solution is to present users with warning dialogs when downloading applications and otherwise trust the rest of the system. This does not work for a number of reasons. First, existing protection and isolation principles may not work. Second, applications may not be implemented according to secure programming guidelines. Third, other users of devices (such as children or friends) may download malicious applications without the main user realizing it.

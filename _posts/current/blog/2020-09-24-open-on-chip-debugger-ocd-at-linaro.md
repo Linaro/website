@@ -16,7 +16,7 @@ category: blog
 author: Omair.Javaid@linaro.org
 ---
 
-# Open on Chip Debugger
+## Open on Chip Debugger
 
 The [Open On-Chip Debugger (OpenOCD)](http://www.openocd.org/) is an open source software development tool which allows on-chip debugging and programming of applications via JTAG/SWD hardware interface. OpenOCD runs on a host computer along with a debugger like GDB. GDB communicates with OpenOCD over RSP protocol similar to debugging an application running on hardware.
 

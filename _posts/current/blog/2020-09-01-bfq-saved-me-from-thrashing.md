@@ -16,7 +16,7 @@ category: blog
 author: linus.walleij
 ---
 
-# Benefits of the BFQ I/O scheduler
+## Benefits of the BFQ I/O scheduler
 
 Recently my less-used desktop computer became sluggish, and would randomly crash. It seemed to be fully occupied with disk activity and quickly became uninteractive to the point that not even ssh login would work. This is easily identified as [thrashing](<https://en.wikipedia.org/wiki/Thrashing_(computer_science)>): constantly swapping to disk because of short core memory.
 

@@ -16,7 +16,7 @@ category: blog
 author: john.stultz
 ---
 
-# DMA BUF Heaps to replace ION
+## DMA BUF Heaps to replace ION
 
 With the DMA BUF Heaps interface (designed to replace ION) now upstream, work is quickly happening to migrate both AOSP and vendor ION usage and heap implementations to DMA BUF Heaps.
 
