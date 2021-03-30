@@ -4,6 +4,8 @@ permalink: /events/
 image: /assets/images/content/yvr18-group-photo.jpg
 description: >
     Linaro attends, hosts and sponsors many events each year. See the events we are a part of below.
+jumbotron:
+  title: Events
 flow:
     - row: container_row
       sections:

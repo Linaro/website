@@ -4,6 +4,8 @@ permalink: /news/
 description: >
   Here you can find all of the latest Linaro news.
 tags_enabled: true
+jumbotron:
+  title: News
 flow:
   - row: container_row
     sections:
