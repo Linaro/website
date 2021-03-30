@@ -1,0 +1,10 @@
+.hub-home img {
+    width: 20%;
+    padding: 5px;
+}
+table.hub-home {
+    border: 0px;
+}
+table.hub-home tr:nth-of-type(even) {
+    background: #fff;
+}

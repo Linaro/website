@@ -1,0 +1,980 @@
+/** 
+ * Linaro Remote Blueprint CSS
+ * Last updated: 05-07-2011
+ */
+ 
+/* Misc Styles and defaults 
+-------------------------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #333;
+ 	font-size: 62.5%; 
+ 	font-family: Verdana, Lucida, sans-serif; 
+	background: #999;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+.clear{
+	clear:both;
+}
+
+/* CONTAINER
+----------------------------------------- */
+#BgContainer {
+	width: 100%;  
+	text-align:center;
+	margin: 0 auto; 
+	padding:0 auto;
+	background: url(http://www.linaro.org/remote/images/lin-bg-wide.jpg) no-repeat top center;
+}
+#Container { 
+	width: 980px;
+	text-align:center;
+	margin: 0 auto; 
+	padding-bottom:15px;
+
+	
+	
+}
+#Layout {
+	width: 940px;
+	min-height:500px;
+	clear: both;
+	overflow: hidden;
+	padding:15px 20px;
+	margin: 15px auto;
+	background: url(http://www.linaro.org/remote/images/lin-bg-cont.png) no-repeat top left;
+}
+
+#Layout-header {
+	width: 940px;
+	clear: both;
+	padding:5px;
+	margin:10px auto;
+	height:140px;
+
+	
+}
+
+#Content {
+	width: 720px;
+	float: right; 	
+	margin: 0;
+	text-align: left;
+}
+
+.singlecolumn {width:900px !important;}
+
+
+
+/* HEADER
+----------------------------------------- */
+#Header { 
+ 	width: 940px; 
+ 	margin: 0 auto;
+	background: url(http://www.linaro.org/remote/images/lin-logo.png) no-repeat top left;
+	height:130px;
+	position:relative;
+}
+ 	#Header h1 { 
+	  	color: #fff; 
+		font-size: 3.2em; 
+		font-family: Tahoma, Verdana, sans-serif;
+		font-weight: 300;
+		padding: 20px 0 0 30px;
+	}
+	#Header p {
+		font-size: 1.4em;
+		color: #fff;
+		clear: left;
+		margin: 0 0 0 100px;
+	}
+
+
+    
+/* BREADCRUMBS
+-------------------------------------------- */
+#Breadcrumbs { 
+ 	color: #444;
+	text-align: left;
+	font-size: 0.9em; 
+	margin: 0px 5px 10px 10px;
+}
+	#Breadcrumbs p {
+		margin: 0;
+	}
+	
+#Breadcrumbs a {color:#888;}
+
+
+/* SIDEBARS
+-------------------------------------- */
+
+
+#Sidebar { 
+ 	width: 180px; 
+	float: left;  
+	margin: 40px 0 0 10px;
+	padding: 0;
+}
+	#Sidebar .sidebarBox {
+		margin: 0 0 5px 0;
+		padding-bottom: 2px;
+	
+	}
+	#Sidebar ul {
+		margin: 2px 0 5px 5px;
+	}
+		#Sidebar ul li {
+			margin: 8px 2px;
+			list-style: none;
+			
+		}
+		
+
+		
+				#Sidebar ol li {
+			margin: 8px 2px;
+			list-style-position: inside;
+			
+		}
+	#Sidebar h3 { 
+		clear: both; 
+		color: #d23a57;
+		font-weight: bold; 
+		font-size: 14px; 
+		margin: 0 0 10px 0;
+		line-height: 1.8;
+		padding: 1px 0 0 10px;
+		
+	}
+	
+	#Sidebar .sidebarBottom {
+
+	
+	}
+	#Sidebar a em {
+		font-style: normal;
+	}
+	
+
+	#Sidebar p {
+		font-size: 11px;
+	 	clear: both;
+	 	margin: 10px 10px 0 10px;
+	}
+	
+	
+#Sidebar .sideExtend {margin:15px 0; padding:15px 0; border-top:3px dotted #a1cd41;}
+
+#Sidebar .sideExtend h4 {border:0 !important; padding-left:35px !important; margin-bottom:3px; font-size:14px; background:url(http://www.linaro.org/remote/images/icons/sidebar-extend.gif) no-repeat 5px center;}
+	
+	/* MENU2 */
+    ul#Menu2 li { 
+    	font-size: 0.9em; 
+    	margin: 1px 0 5px 4px;
+        list-style: none;
+		background-position:left center;
+    }
+    	ul#Menu2 li a {
+            display: block;
+            width: 176px;
+            font-size: 11px;
+            height: 1.8em;
+            line-height: 1.8em;
+            color: #666;
+			font-weight:normal;
+      	}
+			ul#Menu2 li em {
+				padding-left: 8px;
+				display: block;
+			}
+				ul#Menu2 li li em {
+					padding-left: 0;
+				}
+      	/* Level 1 
+      	- We use 3 elements for the nav to get 3 background images applied.
+            * span - topleft rounded corner
+            * em - bottomleft rounded corner
+            * a - arrow on the right
+            <a><span><em></em></span></a>
+      	*/
+      	ul#Menu2 li a:hover,
+      	ul#Menu2 li a.current,
+      	ul#Menu2 li a.current:hover {
+        	background: #DCDCDC url(http://www.linaro.org/remote/images/sidebarSideArrow.gif) no-repeat right center;
+        	color: #333;
+			cursor: pointer;
+            text-decoration: none;
+      	}
+	  	ul#Menu2 li a.current {
+	  		font-weight: 700;
+	  	}
+      	ul#Menu2 li a.section,
+      	ul#Menu2 li a.section:hover {
+            background: #DCDCDC;
+            font-weight: 700;
+            width: 173px; 
+      	}
+      	ul#Menu2 li a.levela:hover span,
+      	ul#Menu2 li a.current span,
+      	ul#Menu2 li a.section span,
+      	ul#Menu2 li a.section:hover span,
+      	ul#Menu2 li a.current:hover span {
+			background: transparent url(http://www.linaro.org/remote/images/sidebarTopLeftHover.gif) no-repeat left top;
+			display: block;
+			width: 100%;
+			height: 100%;
+		} 
+		ul#Menu2 li a.levela:hover em,
+		ul#Menu2 li a.current em,
+		ul#Menu2 li a.section em,
+		ul#Menu2 li a.section:hover em,
+		ul#Menu2 li a.current:hover em {
+        	background: transparent url(http://www.linaro.org/remote/images/sidebarBottomLeftHover.gif) no-repeat left bottom;
+			display: block;
+			width: 100%;
+            height: 100%;
+      	}
+      		ul#Menu2 li ul {
+            	height: 100%;
+            	position: relative;
+            	margin: -4px 0 0 0;
+            	width: 193px;
+            	padding: 4px 0 10px 0;
+            	background: #DCDCDC url(http://www.linaro.org/remote/images/sidebarSectionBottom.png) no-repeat bottom left;
+      		}
+      			ul#Menu2 li ul li {
+            		width: 160px;
+            		background: #DCDCDC;
+            		padding: 0;
+            		font-size: 0.8em;
+            		display: inline;
+            		margin: 0;
+      			}
+      				ul#Menu2 li ul li ul {
+            			background: #DCDCDC;
+            			margin-left: 0;
+      				}	
+      
+					ul#Menu2 li li a.current,
+      				ul#Menu2 li li a.section,
+      				ul#Menu2 li li a.section:hover,
+      				ul#Menu2 li li a.current:hover {
+            			color: #555;
+            			font-weight: 700;
+            			background: #DCDCDC;
+      				}
+      					ul#Menu2 li li ul {
+            				margin: 0 0 0 10px;
+            				padding: 0;
+            				width: 175px;
+      					}
+      					ul#Menu2 li li ul .roundWhite {
+            				margin-bottom: -10px;
+      					}
+      			
+			/* Sub Menu */
+      		ul#Menu2 li a.levelb {
+            	font-size: 1.7em;
+            	text-indent: 8px;
+            	width: 188px;
+				background: transparent;
+            	margin-left: 10px;
+      		}
+	  		ul#Menu2 li a.levelb:hover,
+      		ul#Menu2 li li a.current,
+      		ul#Menu2 li li a.current:hover,
+      		ul#Menu2 li li a.section,
+      		ul#Menu2 li li a.section:hover {
+            	background: #BCBCBC url(http://www.linaro.org/remote/images/sidebarSideArrow2.gif) no-repeat right center;
+            	text-decoration: none;
+            	display: block;
+            	color: #fff;
+      		}
+      		ul#Menu2 li a.levelb:hover span,
+      		ul#Menu2 li li a.current span,
+      		ul#Menu2 li li a.current:hover span,
+      		ul#Menu2 li li a.section span,
+      		ul#Menu2 li li a.section:hover span {
+            	background: transparent url(http://www.linaro.org/remote/images/sidebarTopLeftHover2.gif) no-repeat left top;
+            	display: block;
+            	width: 100%;
+            	height: 100%;
+      		} 	
+      		ul#Menu2 li a.levelb:hover em,
+      		ul#Menu2 li li a.current em,
+      		ul#Menu2 li li a.current:hover em,
+      		ul#Menu2 li li a.section em,
+      		ul#Menu2 li li a.section:hover em {
+            	background: transparent url(http://www.linaro.org/remote/images/sidebarBottomLeftHover2.gif) no-repeat left bottom;
+            	display: block;
+            	width: 100%;
+            	height: 100%;
+      		}
+
+
+/* SEARCH RESULTS STYLES
+------------------------------------------------ */
+ul#SearchResults {
+	margin: 10px 0;
+}
+	ul#SearchResults li {
+		list-style: none;
+		margin: 5px 0;
+		font-size: 1em;
+	}
+
+
+/* FORM STYLES
+----------------------------------------- */
+
+form.search {padding:15px 0 0 0; text-align:right;}
+form.search fieldset { }
+form.search .text {font-size:11px; padding:4px; border:1px solid #ccc; font-weight:normal; width:200px; -webkit-border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -moz-box-shadow:inset  0px 2px 3px #bbb; -webkit-box-shadow:inset  0px 2px 3px #bbb; color:#666;}
+form.search .submit {border:0; background:#A1CD41; color:#dbecb5; font-size:10px; padding:4px; font-weight:normal; margin:0 30px 0 4px; cursor:pointer; -webkit-border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; outline:none;}
+
+
+a.logolink{display:block;position:absolute; top:15px; left:50%; width:230px; height:110px; z-index:100; margin-left:-480px; }
+
+
+
+/* TABLE STYLES
+----------------------------------------- */
+
+table.borderless, table.borderless td {border:1px dotted #aaa;}
+
+table h3 {margin-top:3px !important; padding-top:3px !important;}
+
+
+iframe {border:0; overflow:hidden; margin:0;}
+
+
+/* GENERIC TYPOGRAPHY STYLES 
+-------------------------------------------- */
+
+ a {outline:none;}
+.typography {padding:10px 20px 10px 10px;}
+.typography * {
+	font-family: Verdana, Lucida, Arial, sans-serif; 
+	text-align:left;
+}
+
+/* PARAGRAPHS 
+-------------------------------------------- */
+.typography p, #Layout-header p { 
+ 	color: #222;
+ 	line-height: 18px;
+ 	font-size: 11px;
+	margin: 0 0 14px 0;
+}
+
+#Layout-header p, #Layout-header h2 {padding:10px 5px 0 140px;}
+
+
+
+/* QUOTES
+-------------------------------------------- */
+.typography blockquote {
+	margin: 10px;
+	font-size: 1.4em;
+	color: #777;
+	font-style: italic;
+}	
+.typography q {
+	display:block;
+	font-size: 0.8em;
+	margin: 1em 1em;
+	padding: 0.5em;
+	border: 1px #ccc solid;
+}
+
+/* LINKS 
+-------------------------------------------- */
+
+.typography a { 
+ 	text-decoration: none;
+	font-weight:bold; 
+	color: #88b12d;
+	
+}
+	.typography a:hover { 
+ 		text-decoration: underline;
+	}
+
+	/* LINK ICONS - shows type of file
+	------------------------------------ */
+	.typography a[href$=".pdf"],
+	.typography a[href$=".PDF"],
+	.typography a.pdf {
+		padding: 2px;
+		padding-left: 20px;
+		background: url(http://www.linaro.org/remote/images/icons/page_white_acrobat.png) no-repeat left center;
+	}
+	.typography a[href$=".doc"],
+	.typography a[href$=".DOC"],
+	.typography a[href$=".docx"],
+	.typography a[href$=".DOCX"],
+	.typography a.doc {
+		padding: 2px;
+		padding-left: 20px;
+		background: url(http://www.linaro.org/remote/images/icons/page_word.png) no-repeat left center;
+	}
+	.typography a[href$=".xls"],
+	.typography a[href$=".XLS"],
+	.typography a[href$=".xlsx"],
+	.typography a[href$=".XLSX"],
+	.typography a.xls {
+		padding: 2px;
+		padding-left: 20px;
+		background: url(http://www.linaro.org/remote/images/icons/page_excel.png) no-repeat left center;
+	}
+	.typography a[href$=".gz"],
+	.typography a[href$=".GZ"],
+	.typography a[href$=".gzip"],
+	.typography a[href$=".GZIP"],
+	.typography a[href$=".zip"],
+	.typography a[href$=".ZIP"],
+	.typography a.archive {
+		padding: 2px;
+		padding-left: 20px;
+		background: url(http://www.linaro.org/remote/images/icons/page_white_zip.png) no-repeat left center;
+	}
+	.typography a[href$=".exe"],
+	.typography a[href$=".EXE"],
+	.typography a.application {
+		padding: 2px;
+		padding-left: 20px;
+		background: url(http://www.linaro.org/remote/images/icons/application.png) no-repeat left center;
+	}
+
+
+/* LIST STYLES 
+-------------------------------------------- */
+.typography ul 
+{
+	margin: 0 0 18px 15px;
+	list-style-type:none;
+}
+
+.typography ol {
+	margin: 0 0 18px 15px;
+
+}
+
+	.typography ul li {
+		margin: 5px 0px;
+		font-size:11px;
+		padding-left:20px;
+		line-height:18px;
+		color:#222;
+		background: url(http://www.linaro.org/remote/images/lin-bullet.gif) no-repeat left 2px;
+		
+	}
+
+	.typography ol li {
+		margin: 5px 0px;
+		font-size:11px;
+			list-style-position: inside;
+		line-height:18px;
+		color:#222;
+		
+		
+	}
+
+		.typography li li {
+			
+		}
+		
+/* HEADER STYLES 
+-------------------------------------------- */
+
+.typography h1,
+.typography h2, #Layout-header h2  { 
+	color: #98c13d; 
+	margin: 0 0 12px 0;
+	font-weight: 300;
+	font-family: Verdana, sans-serif;
+}
+
+#Layout-header h2 {margin:0;}
+
+.typography h1 {
+	font-size: 24px;
+}
+.typography h2, #Layout-header h2 { 
+color: #333; 
+ 	font-size: 18px; 
+	font-weight: normal;
+}	
+.typography h3 {
+	color: #222;
+	margin: 20px 0 5px 0;
+	padding-bottom:5px;
+	border-bottom:1px dotted #999;
+	font-weight: 300;
+	clear: both;
+	font-size: 14px;
+}
+.typography h4 {
+	font-size: 16px;
+	color: #222;
+	width: 95%;
+	font-weight: 300;
+	line-height: 18px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 16px 0;
+}
+.typography h5 {
+	font-size: 14px;
+	color: #222;
+	font-weight: 700;
+	margin: 0 0 12px 0;
+}
+.typography h6 {
+	font-size: 13px;
+	color: #555;
+	line-height: 1.4em;
+	margin: 0 0 12px 0;
+}
+
+/* PRE STYLES 
+-------------------------------------------- */	
+.typography pre {
+	font-family:"Courier New",Courier;
+	display:block;
+	font-size:1.2em;
+	margin:2em 5em;
+	padding:0.5em;
+	border:1px #ccc solid;
+	background:#eee;;
+}
+
+/* TABLE STYLING 
+-------------------------------------------- */
+.typography table {
+	margin: 0 0 18px 0;
+	font-size: 11px;
+	color: #666;
+	border-collapse:collapse;
+}
+	.typography tr {}
+	
+		.typography td {
+			border:1px solid #999;
+			padding:5px;
+		}
+
+/* WYSIWYG EDITOR ALIGNMENT CLASSES 
+-------------------------------------------- */
+.typography .left {
+	text-align: left;
+}
+.typography .center {
+	text-align: center;
+}
+.typography .right {
+	text-align: right;
+}
+
+/* IMAGES 
+-------------------------------------------- */
+.typography img {
+	border: none;
+}
+	.typography img.right {
+		float: right;
+		margin-left: 20px;
+	}
+	.typography img.left {
+		float: left;
+	}
+	.typography img.leftAlone {
+		float: left;
+		margin-right: 100%;
+	}
+	.typography img.center {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+
+
+
+/* Additional list and link items 
+-------------------------------------------- */
+
+
+a.buttonlink {color:#fff !important; font-size:11px !important; display: inline-block;  height:35px; min-width:100px; clear:both; background: url(http://www.linaro.org/remote/images/button-left.gif) no-repeat left top; zoom: 1; *display: inline;}
+a.buttonlink span { display:block; margin:0; padding:7px 10px; width:auto; background: url(http://www.linaro.org/remote/images/button-right.gif) no-repeat right top; text-align:center;}
+
+
+
+
+/* SEARCH RESULTS
+-------------------------------------------- */
+
+.searchpage {margin-left:210px; margin-right:20px;}
+#searchResults {padding-top:20px; margin-top:20px; border-top:1px dotted #aaa;}
+
+#searchResults ul li {background:none;}
+#searchResults h3 a {color:#222; font-weight:normal;}
+#searchResults h3 a:hover {color:#98c13d; text-decoration:none;}
+/* Pagination */
+
+ 
+.page_numbers {
+	margin-right: 2px;
+	font-size: 12px;
+	background: #fff;
+	border: 1px solid #999;
+	display: block;
+	float: left; }
+ 
+	.page_numbers a {
+		font-weight: normal !important;
+		display: block;
+		padding: 3px 4px;
+		color: #444 !important; }
+ 
+
+.searchPaging {margin:10px 30px;}
+.searchPaging span {margin-right: 2px;
+	font-size: 11px !important;
+	background: #fff;
+	border: 1px solid #999;
+	display: block;
+	float: left;}
+.searchPaging span a {font-weight: normal !important;
+		display: block !important;
+		padding: 3px 4px !important;
+		color: #444 !important;}
+		
+.searchPaging .current a, .searchPaging span a:hover {
+	background: #666;
+	color: #fff !important; text-decoration:none; }
+
+
+
+
+
+
+
+/* Basics */
+
+ 
+.podstyle {
+border:1px solid #fff;
+	background: #f7f7f7; /* old browsers */
+    background: -moz-linear-gradient(top, #f7f7f7 0%, #d8d8d8 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#d8d8d8)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#d8d8d8',GradientType=0 ); /* ie */
+	background: -o-linear-gradient(top, #f7f7f7 0%,#d8d8d8 100%); /* opera */
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow:0 1px 4px #111;
+	-moz-box-shadow:0 1px 4px #111;
+	-webkit-box-shadow:0 1px 4px #111;
+	box-shadow:0 1px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow:0 1px 4px rgba(0,0,0,0.5);
+	-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.5);
+
+
+} 
+
+.typography .podstyle  li {
+
+		background: url(http://www.linaro.org/remote/images/bullet.png) no-repeat 3px 4px;
+		
+	}
+ 
+ p.podstyle {padding:10px;
+ 		width:290px;
+		margin:0 0 10px 10px;
+		min-height: 130px;
+        _height: 130px;
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align:top;
+        zoom: 1;
+        *display: inline;
+       }
+ 
+/* Header area */
+#header {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	clear: both; }
+ 
+#utility {
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+	height:85px;
+	}
+ 
+	#utility a.logolink {
+		padding: 0;
+		margin: 0;
+		margin-left: 0;
+		left: 0;
+		top: 0;
+		background:url(http://www.linaro.org/remote/images/logo.png) no-repeat 0 0;
+		width: 150px;
+		height: 70px;
+		display: block;
+		float: left;
+		position: relative !important; }
+ 
+	#utility form.search {
+		position: relative;
+		margin: 0;
+		padding: 20px 0;
+		border: 0;
+		width: 800px;
+		float: left;
+		display: block;
+		text-align: right; }
+ 
+		#utility form.search input.submit { margin-right: 0; }
+		
+		
+		
+/* Navigation 
+-------------------------------------------- */		
+		
+#nav {
+	margin:10px 3px;
+	height:35px;
+	position:relative;
+	clear:both;
+	width: 954px;
+	margin: 0 auto;
+	text-align: left;
+	
+	} 
+ 
+#nav ul { 
+ 		float: left;
+		margin:0;
+		height:30px;
+		
+	}
+		#nav ul li { 
+	 		list-style: none; 
+			margin: 0; 
+			padding:0 6px;
+			float: left;
+			position:relative;
+			display: block;
+			height:35px;
+			border-right:1px solid #bbb;
+			border-left:1px solid #fff;
+		
+		}
+		
+		#nav ul li:first-child {border-left:0;}	
+  			#nav ul li a {
+  				position:relative;
+  				top:-10px;
+				text-decoration: none;
+				display: block; 
+				height:35px;
+				line-height: 30px;
+				font-size: 1.2em; 
+				padding: 10px 0 0 0;
+				color: #333;
+				text-shadow:0 1px 0 #fff;
+			}
+			
+					
+					
+    			#nav ul li a.current,
+	    		#nav ul li a.section,
+	    		#nav ul li a.section:hover,
+	    		#nav ul li a.current:hover { 
+				 	font-weight:normal;
+				 	color: #444;
+					}
+				#nav ul li a.current span,
+				#nav ul li a.section span,
+	    		#nav ul li a.section:hover span,
+				#nav ul li a.current:hover span {
+					font-weight:normal;
+					color: #444;
+				}
+
+#nav ul li ul {
+	position: absolute;
+	width: auto;
+	top:35px;
+	left: -999em;
+	z-index:100;
+	border-top:1px solid #fff;
+	
+}
+
+#nav  li:hover ul {
+	left: 0;
+	
+	
+}
+
+#nav  li:hover ul li {
+	width: 200px;
+}
+
+#nav  li:hover ul li a {top:0;}
+
+		#nav ul li ul li{ 
+	 		padding:0;
+		
+			height:30px;
+			border-right:0;
+			border-left:0;
+		
+		}
+		
+	
+
+#nav li.current {font-weight:bold;}
+#nav li.current li {font-weight:normal;}
+
+
+
+#nav li li a:hover {background:#777 !important;}
+
+#nav li li:first-child {box-shadow:inset 0 3px 2px #444;
+	-moz-box-shadow: inset 0 3px 2px #444;
+	-webkit-box-shadow: inset 0 3px 2px #444; }
+
+#nav li li.menu-footer {height:10px; margin:0 0 0 2px; padding:0; width:100%; -webkit-border-bottom-left-radius:6px; -moz-border-radius-bottomleft:6px;  -webkit-border-bottom-right-radius:6px; -moz-border-radius-bottomright:6px; }
+
+
+
+
+ 
+/* Content area */
+#wrapper {
+	width: 100%;
+	background:url(http://www.linaro.org/remote/images/bg-content.jpg) repeat-x 0 0;
+	text-align: center;
+	padding: 10px 0 0 0;
+	clear: both; }
+ 
+#container {
+	width: 960px;
+	margin: 0 auto; }
+	
+	
+/* Main content area */
+
+#headline h1 {color:#a1cd41; text-align:left; margin:15px 10px 0 10px; font-weight:normal; font-size:26px;}
+
+#headline #Breadcrumbs { margin:10px 10px 2px 10px; float:right;}
+#headline #Breadcrumbs p {color:#a1cd41; }
+#headline #Breadcrumbs a {}
+
+#contentarea {
+	width: 960px;
+	margin: 15px auto;
+	text-align:left;
+	background:#fff;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+
+}
+
+#Sidebar {float:none;
+margin:20px 10px 0 10px;
+width:230px;
+		min-height: 300px;
+        _height: 300px;
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align:top;
+        zoom: 1;
+        *display: inline; 
+
+}
+
+#Content {float:none;
+margin:15px 0 0 0;
+width:700px;
+		min-height: 300px;
+        _height: 300px;
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align:top;
+        zoom: 1;
+        *display: inline; 
+
+}
+
+
+#footer {
+	width: 100%;
+	background:url(http://www.linaro.org/remote/images/bg-footer.gif) repeat-x 0 0;
+	padding: 15px 0 30px 0;
+	text-align: center;
+	clear: both; }
+ 
+	#footer p {
+		display: block;
+		width: 960px;
+		margin: 0 auto;
+		color: #fff; }
+ 
+		#footer p a {
+			color: #fff;
+			text-decoration: none; }
+ 
+/* Linaro Family */
+#family {
+	position: relative;
+	top: 0;
+	width: 100%;
+	clear: both;
+	font-size: 10px;
+	color: #a1cd41;
+	text-align: right;
+	padding: 5px 0;
+	margin: 0;
+	background: #010101;
+	border-bottom: 2px solid #a1cd41;
+	height: 15px;
+	overflow: hidden; }
+ 
+	#family a {
+		font-size: 10px;
+		color: #eee;
+		padding-right: 12px;
+		padding-left: 5px;
+		text-decoration: none; }
+ 
+		#family a:hover { color: #a1cd41; }

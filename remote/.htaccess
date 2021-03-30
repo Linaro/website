@@ -1,0 +1,16 @@
+# BEGIN Plogger Reset
+
+#<IfModule mod_rewrite.c>
+#RewriteEngine off 
+#</IfModule>
+# END Plogger Reset
+
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{QUERY_STRING} !time [NC]
+RewriteCond %{TIME} ^(.*)
+#RewriteRule .* http://%{HTTP_HOST}%{REQUEST_URI}?time=%1 [R,L]
+
+
+

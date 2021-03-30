@@ -1,0 +1,394 @@
+/**
+ * Remote CSS for http://www.linaro.org/
+ * This version 2011-04-28 by Ian Davenport, Freshleaf Media Ltd 
+ */
+
+/* Basics */
+body {
+	background: #999;
+	margin: 0;
+	padding: 0; }
+ 
+.podstyle {
+border:1px solid #fff;
+	background: #f7f7f7; /* old browsers */
+    background: -moz-linear-gradient(top, #f7f7f7 0%, #d8d8d8 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#d8d8d8)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#d8d8d8',GradientType=0 ); /* ie */
+	background: -o-linear-gradient(top, #f7f7f7 0%,#d8d8d8 100%); /* opera */
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow:0 1px 4px #111;
+	-moz-box-shadow:0 1px 4px #111;
+	-webkit-box-shadow:0 1px 4px #111;
+	box-shadow:0 1px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow:0 1px 4px rgba(0,0,0,0.5);
+	-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.5);
+
+
+} 
+ 
+ 
+/* Header area */
+#header {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	clear: both; }
+ 
+#utility {
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+	height:85px;
+	}
+ 
+	#utility a.logolink {
+		padding: 0;
+		margin: 0;
+		margin-left: 0;
+		left: 0;
+		top: 0;
+		background:url(http://www.linaro.org/remote/images/logo.png) no-repeat 0 0;
+		width: 150px;
+		height: 70px;
+		display: block;
+		float: left;
+		position: relative !important; }
+ 
+	#utility form.search {
+		position: relative;
+		margin: 0;
+		padding: 20px 0;
+		border: 0;
+		width: 800px;
+		float: left;
+		display: block;
+		text-align: right; }
+ 
+		#utility form.search input.submit { margin-right: 0; }
+ 
+#nav {
+	margin:10px 3px;
+	height:35px;
+	position:relative;
+	clear:both;
+	width: 954px;
+	margin: 0 auto;
+	text-align: left;
+	
+	} 
+ 
+#nav ul { 
+ 		float: left;
+		margin:0;
+		height:30px;
+		
+	}
+		#nav ul li { 
+	 		list-style: none; 
+			margin: 0; 
+			padding:0 6px;
+			float: left;
+			position:relative;
+			display: block;
+			height:35px;
+			border-right:1px solid #bbb;
+			border-left:1px solid #fff;
+		
+		}
+		
+		#nav ul li:first-child {border-left:0;}	
+  			#nav ul li a {
+  				position:relative;
+  				top:-10px;
+				text-decoration: none;
+				display: block; 
+				height:35px;
+				line-height: 30px;
+				font-size: 1.2em; 
+				padding: 10px 0 0 0;
+				color: #333;
+				text-shadow:0 1px 0 #fff;
+			}
+			
+					
+					
+    			#nav ul li a.current,
+	    		#nav ul li a.section,
+	    		#nav ul li a.section:hover,
+	    		#nav ul li a.current:hover { 
+				 	font-weight:normal;
+				 	color: #444;
+					}
+				#nav ul li a.current span,
+				#nav ul li a.section span,
+	    		#nav ul li a.section:hover span,
+				#nav ul li a.current:hover span {
+					font-weight:normal;
+					color: #444;
+				}
+
+#nav ul li ul {
+	position: absolute;
+	width: auto;
+	top:35px;
+	left: -999em;
+	z-index:100;
+}
+
+#nav  li:hover ul {
+	left: 0;
+	
+	
+}
+
+#nav  li:hover ul li {
+	width: 200px;
+}
+
+#nav  li:hover ul li a {top:0;}
+
+		#nav ul li ul li{ 
+	 		padding:0;
+		
+			height:30px;
+			border-right:0;
+			border-left:0;
+		
+		}
+		
+#nav ul li#Parent107 {border-right:none;}
+#nav ul li#Parent107 a {background: url(http://www.linaro.org/themes/base/images/icons/contact.png) no-repeat left top; padding-left:50px; }
+#nav ul li#Parent107:hover, #nav ul li#Parent107.sfhover {background-color:#9e9e9e; -webkit-border-top-left-radius:6px; -moz-border-radius-topleft:6px;  -webkit-border-top-right-radius:6px; -moz-border-radius-topright:6px;} 
+#nav ul li#Parent107:hover a, #nav ul li#Parent107.sfhover a{color:#fff; text-shadow:none;} 
+#nav ul li#Parent107 li a {background:none; color:#fff; height:20px; line-height:20px; margin:0; width:95%; text-align:left; padding:5px; border-bottom:1px solid #aaa;}
+#nav ul li#Parent107 li {background:#9e9e9e;  margin:0; }
+
+
+#nav ul li#Parent96 {width:auto; padding-right:10px;}
+#nav ul li#Parent96 a {background: url(http://www.linaro.org/themes/base/images/icons/downloads.png) no-repeat left top; padding-left:45px; }
+#nav ul li#Parent96:hover, #nav ul li#Parent1.sfhover {background-color:#9e9e9e; -webkit-border-radius:6px; -moz-border-radius:6px;} 
+#nav ul li#Parent96:hover a, #nav ul li#Parent1.sfhover a{color:#fff; text-shadow:none;} 
+#nav ul li#Parent96 li a {background:none; padding-left:5px; color:#aaa;}
+#nav ul li#Parent96 li {background:#9e9e9e;}
+
+#nav ul li#Parent2 a {background: url(http://www.linaro.org/themes/base/images/icons/about.png) no-repeat left top; padding-left:50px; }
+#nav ul li#Parent2:hover, #nav ul li#Parent2.sfhover {background-color:#9e9e9e; -webkit-border-top-left-radius:6px; -moz-border-radius-topleft:6px;  -webkit-border-top-right-radius:6px; -moz-border-radius-topright:6px;} 
+#nav ul li#Parent2:hover a, #nav ul li#Parent2.sfhover a{color:#fff; text-shadow:none;} 
+
+
+#nav ul li#Parent2 li a {background:none; color:#fff; text-shadow:none; height:20px; line-height:20px; margin:0; width:95%; text-align:left; padding:5px; border-bottom:1px solid #aaa;}
+#nav ul li#Parent2 li {background:#9e9e9e;  margin:0; }
+#nav ul li#Parent3 {width:120px;}
+#nav ul li#Parent3 a {background: url(http://www.linaro.org/themes/base/images/icons/community.png) no-repeat left top; padding-left:40px; }
+
+
+#nav ul li#Parent3:hover, #nav ul li#Parent3.sfhover {background-color:#9e9e9e; -webkit-border-top-left-radius:6px; -moz-border-radius-topleft:6px;  -webkit-border-top-right-radius:6px; -moz-border-radius-topright:6px;} 
+#nav ul li#Parent3:hover a, #nav ul li#Parent3.sfhover a{color:#fff;} 
+#nav ul li#Parent3 li a {background:none; color:#fff; text-shadow:none; height:20px; line-height:20px; margin:0; width:95%; text-align:left; padding:5px; border-bottom:1px solid #aaa;}
+#nav ul li#Parent3 li {background:#9e9e9e; margin:0;}
+
+
+
+#nav li.current {font-weight:bold;}
+
+#nav li li a:hover {background:#777 !important;}
+
+#nav li li:first-child {-webkit-border-top-right-radius:6px; -moz-border-radius-topright:6px; }
+
+#nav li li.menu-footer {height:10px; margin:0 0 0 2px; padding:0; width:100%; -webkit-border-bottom-left-radius:6px; -moz-border-radius-bottomleft:6px;  -webkit-border-bottom-right-radius:6px; -moz-border-radius-bottomright:6px; }
+
+
+
+
+ 
+/* Content area */
+#wrapper {
+	width: 100%;
+	background:url(http://www.linaro.org/remote/images/bg-content.jpg) repeat-x 0 0;
+	text-align: center;
+	padding: 10px 0 0 0;
+	clear: both; }
+ 
+#container {
+	width: 960px;
+	margin: 0 auto; }
+	
+	
+#pagecopy {
+	width: 960px;
+	margin: 15px auto;
+	text-align:left;
+	background:#fff;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+
+
+}	
+	
+	
+/* Homepage-specific */
+.hero {width: 960px;
+	margin: 25px auto 10px;
+	padding:0;
+	text-align:left;
+	}
+
+a.heroimage {display:block; float:right;}
+a.heroimage img {border:0;}
+
+.herotext {padding:15px;}
+.herotext h1 {color:#a1cd41; font-weight:normal; font-size:28px;}
+.herotext p {color:#fff; font-weight:normal; font-size:12px; line-height:1.4em;margin:7px 0;}
+.herotext p:first-child {color:#fff; font-size:15px !important;}
+
+.herotext h2 {color:#fff; font-weight:normal; font-size:18px; margin:30px 0 10px;}
+
+.herotext a.armlink,.herotext a.ubulink, .herotext a.andlink,.herotext a.ubolink {padding:3px;  margin-right:4px; margin-bottom:10px; display:block; width:85px; text-align:center; float:left; }
+
+.herotext a.ubulink {width:95px}
+.herotext a.andlink {width:110px}
+.herotext a.ubolink {width:85px}
+
+.herotext a img {border:0; padding:0; margin:0; }
+
+.herotext a:hover {
+	background: #d8d8d8; /* old browsers */
+
+}
+
+.herotext h3 a {color:#fff !important; font-weight:normal !important; font-size:11px !important; margin-left:320px !important; text-decoration:none; }
+.herotext h3 a:hover {background:none; text-decoration:underline; }
+
+
+#headlines {width: 960px;
+	margin: 5px auto 10px;
+	padding:0;
+	text-align:left;
+	clear:both;
+	height:35px;
+	}
+
+
+.homepage {
+padding:10px 0!important;
+background:#fff url(http://www.linaro.org/remote/images/tri-bg.jpg) no-repeat 35px top !important;
+
+}
+
+
+.trileft {width:310px;
+		margin:0 0 0 10px;
+		min-height: 100px;
+        _height: 100px;
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align:top;
+        zoom: 1;
+        *display: inline;
+    }
+
+.trimid {width:310px;
+		margin:0;
+		min-height: 100px;
+        _height: 100px;
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align:top;
+        zoom: 1;
+        *display: inline;
+
+			}
+
+.triright {width:305px;
+		margin:0 10px 0 0;
+		min-height: 100px;
+        _height: 100px;
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align:top;
+        zoom: 1;
+        *display: inline; 
+}
+
+
+
+
+
+
+
+/* Footer area */
+
+#social {width: 960px;
+		margin: 5px auto 20px;
+		text-align:left;
+		}
+
+#social ul {height:55px;}
+#social li {list-style: none; 
+			margin: 0; 
+			float: left;
+			position:relative;
+			display: block;
+			height:35px;
+			padding:10px 10px 10px 75px;
+			border-right:1px solid #bbb;
+			border-left:1px solid #fff;
+			width:152px;
+			text-shadow:0 1px 0 #fff;
+			}
+			
+	#social li:first-child {border-left:0;}
+	#social li.last-child {border-right:0;}	
+			
+#social li a {display:block; text-shadow:0 1px 0 #fff;}
+
+
+
+
+
+#footer {
+	width: 100%;
+	background:url(http://www.linaro.org/remote/images/bg-footer.gif) repeat-x 0 0;
+	padding: 15px 0 30px 0;
+	text-align: center;
+	clear: both; }
+ 
+	#footer p {
+		display: block;
+		width: 960px;
+		margin: 0 auto;
+		color: #fff; }
+ 
+		#footer p a {
+			color: #fff;
+			text-decoration: none; }
+ 
+/* Linaro Family */
+#family {
+	position: relative;
+	top: 0;
+	width: 100%;
+	clear: both;
+	font-size: 10px;
+	color: #a1cd41;
+	text-align: right;
+	padding: 5px 0;
+	margin: 0;
+	background: #010101;
+	border-bottom: 2px solid #a1cd41;
+	height: 15px;
+	overflow: hidden; }
+ 
+	#family a {
+		font-size: 10px;
+		color: #eee;
+		padding-right: 12px;
+		padding-left: 5px;
+		text-decoration: none; }
+ 
+		#family a:hover { color: #a1cd41; }
