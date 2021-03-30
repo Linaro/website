@@ -36,20 +36,7 @@
       <div class="modal-body">
         <div id="feedback_response"></div>
         <form id="feedback_form" class="needs-validation" novalidate>
-          <input type="hidden" name="form-index" id="form-index" value="1" />
-          <input
-            type="hidden"
-            name="feedback-from-url"
-            id="feedback-from-url"
-            value=""
-          />
-          <input type="hidden" name="feedback-priority" value="10102" />
-          <input
-            type="hidden"
-            name="feedback-summary"
-            value="Developer Services request"
-          />
-          <input type="hidden" name="feedback-body" value="" />
+          <input type="hidden" name="form_id" value="1" />
           <div class="form-group">
             <input
               type="text"
@@ -80,7 +67,7 @@
             <input
               type="email"
               id="feedback_email"
-              name="feedback-email"
+              name="email"
               class="form-control"
               placeholder="Email address (required)"
               required
