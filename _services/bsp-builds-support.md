@@ -42,7 +42,7 @@ flow:
     source: services/developer_services_form.html
 icon: /assets/images/content/Icon_BSP_s_Builds___Support.svg
 ---
-Linaro are the BSP experts. We have extensive engineering experience helping companies with BSP development, maintenance, optimisation and long term support.
+## Linaro are the BSP experts. We have extensive engineering experience helping companies with BSP development, maintenance, optimisation and long term support.
 
 **Operating system support**
 
@@ -52,17 +52,13 @@ Linaro are the BSP experts. We have extensive engineering experience helping com
 **Services**
 
 * Analysis of existing BSPs to provide a comprehensive assessment and development recommendations
-
 * Improved customer BSPs providing better maintainability, quality and performance
 
 **We have significant experience working with customers on**
 
 * High level design and implementation of complex subsystems
-
 * Platform extensions, OS optimizations
-
 * Middleware development and integration
-
 * Maintaining builds, testing and supporting BSP’s
 
 Developer Services maintains high standards for design, implementation and testing all while following customer guidelines and regulatory/compliance specifications as needed.  Let us help you maintain your BSP.
