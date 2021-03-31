@@ -16,50 +16,46 @@ feedback_form.onsubmit = (e) => {
   if (customfield_12401.value === "") {
     message = message + "You must provide a Company name.<br>";
   }
-  // Removing validation on checkbox fields.
-  // var checked_count = 0;
-  // $("#feedback_form")
-  //   .find('input[type="checkbox"]')
-  //   .each(function () {
-  //     if ($(this).is(":checked")) {
-  //       checked_count += 1;
-  //     }
-  //   });
-  // if (checked_count === 0) {
-  //   $(".checkbox_group").addClass("invalid");
-  //   message = message + "You must select at least one service of interest.<br>";
-  // } else {
-  //   if ($("#other_services").is(":checked")) {
-  //     if ($("#customfield_12905").val().length > 0) {
-  //       $(".checkbox_group").removeClass("invalid");
-  //     } else {
-  //       $(".checkbox_group").addClass("invalid");
-  //     }
-  //   } else {
-  //     $(".checkbox_group").removeClass("invalid");
-  //   }
-  // }
   if (message !== "") {
     $("#feedback_form").addClass("was-validated");
-    // feedback_error.innerHTML = `<p>${message}</p>`;
   } else {
     feedback_error.innerHTML = "";
-    // Copy some field values over to new names to keep the feedback
-    // plugin happy.
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
     // Loop over them and prevent submission
     var data = new FormData(feedback_form);
-    data.append("first-name", customfield_10902.value);
-    data.append("last-name", customfield_10903.value);
-    data.append("company-name", customfield_12401.value);
-    fetch("https://servicedesk.linaro.org/plugins/servlet/feedback/create", {
-      method: "POST",
-      body: data,
-    })
-      .then((response) => response.text())
+    var formData = [...data];
+    var formDataPayloadBody = {};
+    for (var index in formData) {
+      if (formData[index][1] !== "") {
+        formDataPayloadBody[formData[index][0]] = formData[index][1];
+      }
+    }
+    // Get the checkbox group name val.
+    var checkboxGroupName = "";
+    $(".checkbox_group input[type=checkbox]").each(function () {
+      if ($(this).attr("name") !== "other_services") {
+        checkboxGroupName = $(this).attr("name");
+        return true;
+      }
+    });
+    // Make sure all the checkbox values are submitted as an array.
+    formDataPayloadBody[checkboxGroupName] = data.getAll(checkboxGroupName);
+    console.log(formDataPayloadBody);
+
+    // Send the POST request.
+    fetch(
+      "https://avqfk3gzg2.execute-api.us-east-1.amazonaws.com/prod/formSubmit",
+      {
+        method: "POST",
+        body: JSON.stringify(formDataPayloadBody),
+        headers: { "X-Api-Key": "ox9fSkYfRK16mxy5Gv6pM121H7iAubAQ6uzsDmoW" },
+      }
+    )
+      .then((response) => response.json())
       .then((result) => {
+        console.log(result);
         feedback_form.style.display = "none";
-        feedback_response.innerHTML = result;
+        feedback_response.innerHTML = result.message;
       });
   }
 };
