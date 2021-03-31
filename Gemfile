@@ -1,7 +1,7 @@
 
 source "https://rubygems.org"
 # Jekyll Theme
-gem 'linaro-jekyll-theme', "4.3.2"
+gem 'linaro-jekyll-theme', "4.3.3"
 # Jekyll Plugins
 group :jekyll_plugins do
    gem "closure-compiler"
