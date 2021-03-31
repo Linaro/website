@@ -23,14 +23,14 @@
 <div class="col col-12">
     <div class="owl-carousel owl-theme members_slider">
         {% for member in sorted_members %}
-        <a href="{{member.url}}" target="_self">
+        <div target="_self">
             <div class="item">
                 <div class="member_image">
                     <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                         alt="{{member.name}} logo" data-src="{{member.image}}" />
                 </div>
             </div>
-        </a>
+        </div>
         {% endfor %}
     </div>
 </div>

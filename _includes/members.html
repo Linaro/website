@@ -49,14 +49,14 @@
           {% assign sorted_members = group.members | sort: 'name' %} {% for
           member in sorted_members %}
           <div class="col-lg-2 col-md-3 col-sm-4 col col-6 vcenter-img">
-            <a href="{{member.url}}" class="member_image">
+            <div class="member_image">
               <img
                 data-src="{{member.image}}"
                 alt="{{member.name}}"
                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                 class="img-fluid members-img lazyload center-block"
               />
-            </a>
+            </div>
           </div>
           {% endfor %}
         </div>
@@ -68,14 +68,14 @@
           {% assign advisory_board = group.advisory_board | sort: 'name' %} {%
           for member in advisory_board %}
           <div class="col-lg-2 col-md-3 col-sm-4 col col-6 vcenter-img">
-            <a href="{{member.url}}" class="member_image">
+            <div class="member_image">
               <img
                 data-src="{{member.image}}"
                 alt="{{member.name}}"
                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                 class="img-fluid members-img lazyload center-block"
               />
-            </a>
+            </div>
           </div>
           {% endfor %}
         </div>

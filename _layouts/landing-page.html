@@ -58,11 +58,9 @@ js-package: engineering
                 <div class="members-wrapper">
                     {% for member in group.members %}
                     <div class="col-xs-6 col-sm-3">
-                        <a href="{{member.url}}">
                             <img class="lazyload img-fluid"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{member.image}}"
                                 alt="{{member.name}}" />
-                        </a>
                     </div>
                     {% endfor %}
                 </div>
