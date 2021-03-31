@@ -15,8 +15,7 @@ tags:
 category: blog
 author: david.brown@linaro.org
 ---
-
-# Security
+## Security
 
 David Brown is the Security Architect for the Zephyr Project. He is also the security lead for the Linaro IoT and Embedded (LITE) working group. In addition to general security of IoT devices, David is a maintainer for the MCUboot secure bootloader project.
 

@@ -28,7 +28,7 @@ category: blog
 author: ilias.apalodimas@linaro.org
 ---
 
-# **Intro**
+## **Intro**
 
 Critical system variables, like the UEFI ones, must be protected against a variety of attacks. On Arm servers and desktops, which typically run EDK2, dedicated flashes are used. Those would normally be accessible from the secure world only, since they are storing critical variables for our systems integrity and security.
 

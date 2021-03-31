@@ -29,7 +29,7 @@ wordpress_id: 10013
 
 While PCIe passthrough (the process of assigning a PCIe device to a VM, also known as device assignment) is supported through a mostly architecture-agnostic subsystem called VFIO, there are intricate details of an Arm-based system that require special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough on Arm server systems.
 
-# Message Signaled Interrupts
+## Message Signaled Interrupts
 
 MSIs are an alternative to wire based interrupts. A device using MSIs does not need a dedicated line to the interrupt controller. Instead, to trigger interrupts a device simply writes at a specific memory address belonging to a piece of HW that can generate interrupts as a result of the memory write.  Such hardware is typically referred to as an MSI controller. The MSI controller derives an interrupt ID from the written message.
 

@@ -12,8 +12,8 @@ jumbotron:
 flow:
     - row: main_content_row
 ---
-# Downloads and help for Meltdown and Spectre
-## Open Source Projects
+## Downloads and help for Meltdown and Spectre
+### Open Source Projects
 #### Arm
 * General Spectre & Meltdown information from Arm, please see: [https://developer.arm.com/support/security-update](https://developer.arm.com/support/security-update)
 * Trusted Firmware has a separate security advisories page, please see here: [https://github.com/Arm-software/arm-trusted-firmware/wiki/Arm-Trusted-Firmware-Security-Advisory-TFV-6](https://github.com/Arm-software/arm-trusted-firmware/wiki/Arm-Trusted-Firmware-Security-Advisory-TFV-6)

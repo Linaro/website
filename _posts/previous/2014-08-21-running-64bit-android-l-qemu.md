@@ -13,7 +13,7 @@ tags:
 - Qemu
 ---
 
-# Running Android L Developer Preview on 64-bit Arm QEMU
+## Running Android L Developer Preview on 64-bit Arm QEMU
 
 {% include image.html path="/assets/images/blog/quem.jpg" alt="QEMU" %}
 

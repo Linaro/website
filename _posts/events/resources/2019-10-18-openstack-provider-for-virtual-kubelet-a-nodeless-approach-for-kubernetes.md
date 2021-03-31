@@ -1,6 +1,6 @@
 ---
 event: open-infrastructure-summit-2019
-title: Standard Firmware, device identity and onboarding
+title: Is there an easy way to use Kubernetes inside OpenStack?
 description: >
   Nowadays everyone talks about Kubernetes. There are also many useful tools for user to get Kubernetes services in OpenStack. However, for those who just focus their workloads and applications, launching and maintaining Kubernetes cluster is nightmare. Is there an easy way to use Kubernetes inside OpenStack?
 date: "2019-10-18 03:00:00+00:00"

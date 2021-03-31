@@ -12,7 +12,7 @@ category: blog
 author: paolo.valente
 ---
 
-# Proud to Support Internships.
+## Proud to Support Internships.
 
 Recently two interns worked with Linaro to solve a real engineering problem. We are grateful for the work they undertook and this blog details their achievements: -
 

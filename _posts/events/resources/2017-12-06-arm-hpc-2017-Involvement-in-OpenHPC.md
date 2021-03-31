@@ -10,7 +10,7 @@ tags:
 keywords: Arm, HPC, Workshop, Japan
 event: arm-hpc-2017
 image: /assets/images/blog/arm-hpc-bg.png
-title: Compilation of COSMO for GPU using LLVM
+title: Current status of OpenHPC
 speakers:
  - name: Takeharu Kato
    company: Fujitsu

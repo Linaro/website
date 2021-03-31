@@ -21,7 +21,7 @@ category: blog
 author: jon.burcham@linaro.org
 ---
 
-# LITE Updates
+## LITE Updates
 
 **By Vicky Janicki, Engineering Director LITE**
 {% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="LITE Icon" %}The LITE team is busy contributing to the next Zephyr 2.5 release due at the end of January 2021, the TF-M 1.2 release (due by the end of month) and MCUboot 1.7 (also due at the end of the month). Four LITE engineers were ranked in the top 10 contributors for the MCUboot release.
@@ -52,7 +52,7 @@ We have drafted a membership presentation and have a draft charter (based on the
 
 **[Continue reading](https://www.linaro.org/blog/device-tree-future-improvements/)….**
 
-# Kernel Working Group News
+## Kernel Working Group News
 
 ## Arm 32bit startup sequence
 
@@ -94,7 +94,7 @@ Failure to boot is a blocker for running a full LKFT test plan. When we solve th
 2. serial: 8250: 8250_omap: Fix possible array out of bounds access. <https://lore.kernel.org/linux-serial/20201111112653.2710-1-vigneshr@ti.com/>
 3. arm: kasan: WARNING: CPU: 0 PID: 0 at arch/arm/kernel/insn.c:47 __arm_gen_branch. <https://lore.kernel.org/linux-next/CA+G9fYtrOq66zz8ux=G+SDH7ZUJevv-L0W+xvtERHAJCuCmj_g@mail.gmail.com/>
 
-# LEDGE Team News
+## LEDGE Team News
 
 ## Linux EFI Stub as a minimal EFI OS Loader
 

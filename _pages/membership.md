@@ -41,6 +41,8 @@ flow:
           - title: Enquire about membership today
             url: "#membership_form"
             style: btn-primary enquire_button text-uppercase
+          - title: View membership rules
+            url: /assets/downloads/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf
   - row: container_row
     style: membership_blocks text-dark
     background_image: /assets/images/content/code_banner.jpg

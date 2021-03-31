@@ -15,7 +15,7 @@ category: blog
 author: daniel.lezcano
 ---
 
-# Introduction
+## Introduction
 
 A contribution to the Linux kernel requires experience. The development happens in a large meritocracy community, with a development process based on technical public discussions. There is no deadline, no profit, only one thing matters. Make Linux better.
 
@@ -27,7 +27,7 @@ The solution is to upstream the product code into the Linux kernel. However, the
 
 In front of these apparent ecosystems incompatibility, Linaro takes place and creates a bridge between the open source and the industry, by guiding them to upstream the code in a long term vision on the Arm architecture.
 
-# The Linux Kernel
+## The Linux Kernel
 
 ## Some numbers
 

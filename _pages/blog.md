@@ -4,6 +4,8 @@ permalink: /blog/
 description: >
   This is the official Linaro blog.
 tags_enabled: true
+jumbotron:
+  title: Blog
 flow:
   - row: container_row
     sections:

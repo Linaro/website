@@ -17,7 +17,7 @@ category: blog
 author: jon.burcham@linaro.org
 ---
 
-# The Future of 32-bit Linux
+## The Future of 32-bit Linux
 
 {% include image.html path="/assets/images/content/core-eng.jpg" class="small-inline left" alt="Core Engineering icon" %}
 The news cycle for processors and system-on-chip (SoC) products these days is all about 64-bit cores powering the latest computers and smartphones, so it’s easy to be misled into thinking that all 32-bit technology is obsolete. That quickly leads to the idea of removing support for 32-bit hardware, which would clearly make life easier for kernel developers in a number of ways. At the same time, a majority of embedded systems used today use 32-bit processors , so a valid question is if this will ever 
