@@ -12,6 +12,8 @@ function filterOnTheme(theme, callback = false) {
   console.log("filtering on theme: ", theme);
   // Close any open projects
   hideAllProjectCollapses();
+  // Hide any theme descriptions.
+  $(".theme_description").addClass("d-none");
   // Switch theme tab / selecet menu
   if ($("#themeSelectCollapse").is(":visible")) {
     // Make sure the correct theme is selected
@@ -30,6 +32,8 @@ function filterOnTheme(theme, callback = false) {
       // $(
       //   `#projectsDropdown > .dropdown-menu > button[data-theme='${theme}']`
       // ).addClass("d-block");
+      // Show relevant theme description
+      $(`.theme_description[data-theme='${theme}']`).addClass("d-block");
       $(`#projectsDropdown > .dropdown-menu > button`).each(function () {
         var themes = $(this).data("themes").split(",");
         for (let i = 0; i < themes.length; i++) {
@@ -45,6 +49,8 @@ function filterOnTheme(theme, callback = false) {
       $(".project_card").addClass("d-block");
     } else {
       // $(`.project_card[data-theme='${theme}']`).addClass("d-block");
+      // Show relevant theme description
+      $(`.theme_description[data-theme='${theme}']`).addClass("d-block");
       $(`.project_card`).each(function () {
         var themes = $(this).data("themes").split(",");
         for (let i = 0; i < themes.length; i++) {
