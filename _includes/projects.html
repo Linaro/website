@@ -61,9 +61,6 @@
                 {% for theme in site.themes %}
                 <div class="theme_description d-none" data-theme-id="{{theme.title | slugify}}">
                     {% unless theme.sub_theme %}
-                    <h2>
-                        {{theme.jumbotron.title}}
-                    </h2>
                     {{theme.jumbotron.description | markdownify}}
                     {% endunless %}
                 </div>
