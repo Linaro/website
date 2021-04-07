@@ -42,3 +42,8 @@ items:
       ogv: https://static.linaro.org/videos/JonMastersTestimonial.ogv
       webm: https://static.linaro.org/videos/JonMastersTestimonial.webm
       mp4: https://static.linaro.org/videos/JonMastersTestimonial.mp4
+    attribution: "Jon Masters, Red Hat "
+    quote: Linaro is that rare case where you have a consortium of companies coming
+      together. It does have an agenda where we all want particular things for
+      open source, but we’re actually delivering useful, constructive
+      engineering solutions at the same time.
