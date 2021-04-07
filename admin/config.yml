@@ -378,6 +378,8 @@ collections:
             widget: "list"
             fields:
               - { label: Title, name: title, widget: string }
+              - { label: Quote, name: quote, widget: string }
+              - { label: Attribution, name: attribution, widget: string }
               - { label: Cover Image, name: cover_image, widget: image }
               - label: Video
                 name: video
