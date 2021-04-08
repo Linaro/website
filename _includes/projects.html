@@ -58,6 +58,15 @@
     <div class="container">
         <div class="row">
             <div class="col col-12">
+                {% for theme in site.themes %}
+                <div class="theme_description d-none" data-theme-id="{{theme.title | slugify}}">
+                    {% unless theme.sub_theme %}
+                    {{theme.jumbotron.description | markdownify}}
+                    {% endunless %}
+                </div>
+                {% endfor %}
+            </div>
+            <div class="col col-12">
                 <div id="accordion">
                     {% for project in site.data.projects["projects"] %}
                         {% assign related_blogs = '' | split: ',' %}
