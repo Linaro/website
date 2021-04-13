@@ -151,8 +151,13 @@ As we have seen, Machine Outlining is always a win-win for code size optimizatio
 ## Bibliography
 
 \[1] <https://webdocs.cs.ualberta.ca/~amaral/papers/ZhaoAmaralSBAC05.pdf>
+
 \[2] <https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36912.pdf>
+
 \[3] <https://lists.llvm.org/pipermail/llvm-dev/2016-August/104170.html>
+
 \[4] <https://www.youtube.com/watch?v=yorld-WSOeU>
+
 \[5] <https://en.wikipedia.org/wiki/Longest_common_substring_problem>
+
 \[6] <http://web.cs.iastate.edu/~cs548/suffix.pdf>
