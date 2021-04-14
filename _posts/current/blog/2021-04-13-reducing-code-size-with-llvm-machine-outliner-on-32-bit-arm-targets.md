@@ -29,21 +29,7 @@ As mentioned above, the Machine Outliner objective is code size reduction, close
 
 Let’s look at a simple example:
 
-```
- 1 extern int do_something(int);
- 2 
- 3 int calc_1(int a, int b) {
- 4   return do_something(a*(a-b));
- 5 }
- 6 
- 7 int calc_2(int a, int b) {
- 8   return do_something(a*(a+b));
- 9 }
-10 
-11 int calc_3(int num) {
-12   return do_something(num*num*num);
-13 }
-```
+{% include image.html path="/assets/images/content/machine-outliner-example-1.png" alt="Machine Outliner Example 1" %}
 
 In the Arm assembly generated for this C code, we can see (on the left side) that the highlighted instructions on lines <3,4,5>, <9,10,11> and <15,16,17> are exactly the same, and thus candidates for being outlined. The Machine Outliner will identify this redundancy, extract the code into a new function, and replace it by calls to this function as can be seen below:
 
@@ -69,46 +55,11 @@ In the example below, the two functions calc_1 and calc_2 can be represented by 
 
 Now that we have a list of candidates, we have to take care that outlining these pieces of code will not break the program behavior and will actually reduce its size. Indeed not all instructions can be safely extracted. Conditional branches are part of the instructions or sequences which can’t be safely outlined, like when an operand is an index of a constant pool or jumptable for instance or if the sequence contains a label which is used to compute an offset position-independent code (PIC) mode, etc… Thus, such candidates are removed from the list. See below a slightly modified example:
 
-```
- 1 calc_1:
- 2   cmp     r0, r1
- 3   movle   r0, #42
- 4   bxle    lr
- 5   sub r1, r0, r1
- 6   mul r0, r1, r0
- 7   b do_something
- 8 
- 9 calc_2:
-10   cmp     r0, r1
-11   movle   r0, #42
-12   bxle    lr
-13   add r1, r1, r0
-14   mul r0, r1, r0
-15   b do_something
-```
+{% include image.html path="/assets/images/content/machine-outliner-removal-of-unsafe-or-unbeneficial-cases.png" alt="Machine Outliner-Removal of unsafe or unbeneficial cases" %}
 
 We have two candidates on lines <2,3,4> and <10,11,12> and two more on lines <6,7> and <14,15> which would, once outlined, give the code below which is broken. Indeed the return instruction outlined on line 14 is predicated and is only executed if r0 is lower or equal to r1, which means that if it is not the case when OUTLINED_FUNCTION_0 is called on line 2, the program will not come back to perform the subtraction on line 3 as it should do, but fallthrough and execute the multiplication on line 17 which is not the correct behaviour of the program.
 
-```
- 1 calc_1:
- 2   b OUTLINED_FUNCTION_0
- 3   sub r1, r0, r1
- 4   b OUTLINED_FUNCTION_1
- 5 
- 6 calc_2:
- 7   b OUTLINED_FUNCTION_0
- 8   add r1, r1, r0
- 9   b OUTLINED_FUNCTION_1
-10 
-11 OUTLINED_FUNCTION_0:
-12   cmp     r0, r1
-13   movle   r0, #42
-14   bxle    lr           ; Fallthrough if r0 > r1
-15         ⬇
-16 OUTLINED_FUNCTION_1:
-17   mul r1, r2, r0
-18   b do_something
-```
+{% include image.html path="/assets/images/content/machine-outliner-example-2-of-removal-of-unsafe-or-unbeneficial-cases-.png" alt="Machine Outliner-Example 2 of Removal of unsafe or unbeneficial cases" %}
 
 Let’s continue with our example, now that unsafe candidates have been removed, we only have two instructions from two call sites outlined into one function, the size of our binary file is 28 bytes (12 instructions of 4 bytes: 5 in calc_1, 5 in calc_2 and 2 in OUTLINED_FUNCTION_1) which is the same size as the file obtained without outlining, so there is no point in doing it in such cases. To guarantee that the code size is reduced when a candidate is outlined, we need to check that this inequality is true, and remove the candidates otherwise:
 
