@@ -440,31 +440,6 @@
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=12905&avatarId=10201",
             "key": "UM"
-        },
-        {
-            "Project Contact Information": {
-                "Meetings": "TBD",
-                "Point of Contact": ""
-            },
-            "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/RPROC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/rproc\">https://collaborate.linaro.org/display/rproc</a>",
-                "Theme": [
-                    "Kernel & Toolchain",
-                    "IoT & Embedded"
-                ],
-                "description": "Advance and promote development related to the remoteproc and rpmsg kernel subsystems.  More specifically identify features commonly sought after by the <a href=\"https://www.openampproject.org/\">OpenAMP</a> community and assist with their implementation.  ",
-                "title": "remoteproc/rpmsg Evolution"
-            },
-            "Project Ownership": {
-                "Governing Entity": "TSC",
-                "Project Owner": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Mathieu Poirier <a class=\"email-icon\" href=\"mailto:mathieu.poirier@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=12701&avatarId=10009",
-            "key": "RPROC"
         }
     ]
 }
