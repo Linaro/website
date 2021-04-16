@@ -197,30 +197,6 @@
         },
         {
             "Project Contact Information": {
-                "Meetings": "Once a month an email thread will be started at <a href=\"https://lists.trustedfirmware.org/mailman/listinfo/op-tee \">https://lists.trustedfirmware.org/mailman/listinfo/op-tee </a>where we gather topics to discuss. No topics == no meeting. All information such as connection details will be found in the email thread. So, for people interested we encourage you to subscribe to that mailinglist.",
-                "Point of Contact": "Join the conversation at <a href=\"https://www.trustedfirmware.org/contact/\">https://www.trustedfirmware.org/contact/</a>"
-            },
-            "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/issues/?filter=15927\">https://projects.linaro.org/issues/?filter=15927</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://optee.readthedocs.io/en/latest/ \">https://optee.readthedocs.io/en/latest/ </a>and <a href=\"https://collaborate.linaro.org/display/LOC\">https://collaborate.linaro.org/display/LOC</a>",
-                "Theme": [
-                    "Security"
-                ],
-                "description": "OP-TEE is an open source TEE that has been well received by SoC vendors and OEMs and has been deployed in mobile phones, tablets, cameras, set-top boxes etc. On this project page you will find what Linaro plans to work with when it comes to OP-TEE.<br><br>----<br><br>Linaro used to own the OP-TEE project, but in September 2019 the ownership was transferred to the TrustedFirmware.org project. Despite that Linaro still continues to contribute to the OP-TEE project just as before, the only difference is that Linaro should from now on be seen as any other contributor to the OP-TEE project. To try to avoid confusion with OP-TEE at TrustedFirmware.org, we've named our project \"Linaro OP-TEE contributions\".<br><br>This means that Linaro makes an internal roadmap for OP-TEE, a roadmap that is in sync with the members of Linaro as well as with the TrustedFirmware.org project. ",
-                "title": "Linaro's OP-TEE Contributions"
-            },
-            "Project Ownership": {
-                "Governing Entity": "TSC",
-                "Project Owner": "Ruchika Gupta <a class=\"email-icon\" href=\"mailto:ruchika.gupta@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Ruchika Gupta <a class=\"email-icon\" href=\"mailto:ruchika.gupta@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=12911&avatarId=14207",
-            "key": "LOC"
-        },
-        {
-            "Project Contact Information": {
                 "Meetings": "TBD",
                 "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/lkq-dev\">LKQ-dev mailing list</a>."
             },
