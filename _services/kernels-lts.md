@@ -46,6 +46,7 @@ icon: /assets/images/content/Icon_Kernel_and_Long-term_Support.svg
 ---
 ## Linaro Developer Services has deep and wide kernel engineering and maintenance expertise.
 
+\
 **We can maintain your kernel and backport key kernel features**
 
 **We have helped many companies successfully**
