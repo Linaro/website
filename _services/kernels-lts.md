@@ -44,7 +44,8 @@ flow:
     source: services/developer_services_form.html
 icon: /assets/images/content/Icon_Kernel_and_Long-term_Support.svg
 ---
-## Linaro Developer Services has deep and wide kernel engineering and maintenance expertise.
+## \
+Linaro Developer Services has deep and wide kernel engineering and maintenance expertise.
 
 \
 **We can maintain your kernel and backport key kernel features**
