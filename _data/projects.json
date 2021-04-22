@@ -209,7 +209,7 @@
                     "OS Build & Test",
                     "Android Ecosystem"
                 ],
-                "description": "Our core mission is to improve the quality of the Linux kernel by testing its upstream releases on Arm and X86 hardware as well as virtual platforms of various architectures.  We focus on long term support kernels (LTS), stable, and upstream development branches.<br><br><br><br><br><br>",
+                "description": "The mission of the Linux Kernel Quality project is to improve the quality of the Linux kernel by testing its upstream and Android Common kernel  on releases on Arm and X86 hardware and virtual platforms of various architectures.<br><br>You can learn more at <a href=\"https://lkft.linaro.org/\">lkft.linaro.org</a><br><br><br><br>",
                 "title": "Linux Kernel Quality"
             },
             "Project Ownership": {
@@ -251,7 +251,7 @@
             },
             "Project Information": {
                 "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=294#\">Workf breakdown</a>",
+                "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=294#\">Work breakdown</a>",
                 "Plan Of Record": "",
                 "Project Homepage": "",
                 "Theme": [
