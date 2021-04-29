@@ -7,7 +7,7 @@ description: The 5.12 Kernel was released this week and saw several of Linaro's
   and test and review credits. This blog talks about some of the work that
   contributed to these impressive stats.
 date: 2021-04-29 01:02:09
-image: /assets/images/content/code.jpg
+image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
   - Linux kernel
   - 5.12 kernel release
