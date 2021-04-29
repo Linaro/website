@@ -83,3 +83,7 @@ in the entry as this is what is used to make sure the events are listed in the c
       city: Vancouver
       country: Canada
 ```
+
+## URL Redirections
+
+Redirection rules are defined in `_data/routingrules.json`. Please note that if the left hand side does **not** reference a file then it **must** end with `(/?|/index.html)$` otherwise the URL will not match.
