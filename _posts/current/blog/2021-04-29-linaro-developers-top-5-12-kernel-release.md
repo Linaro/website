@@ -22,7 +22,7 @@ The 5.12 kernel release was published this week and featured Linaro yet again in
 
 {% include image.html path="/assets/images/content/5.12-most-active-employers.png" alt="List of 5.12 Most Active Employers" %}
 
-In addition to several Linaro engineers being featured in the top twenty contributors to the 5.12 release by changesets and lines changed (which we will talk about later), Linaro also features in the lists for bug reporters (Arnd Bergmann) and Test and Review credis (Linaro assignee Linus Walleij). Code is only accepted into a code base once it has been reviewed and only a few people have the skills to review a core change and make a decision as to whether it can be incorporated or not. For Linaro to be featured in these lists highlights the significant role we play in detecting issues and limiting regressions. 
+In addition to several Linaro engineers being featured in the top twenty contributors to the 5.12 release by changesets and lines changed (which we will talk about later), Linaro also features in the lists for bug reporters (Arnd Bergmann) and Test and Review credits (Linaro assignee Linus Walleij). Code is only accepted into a code base once it has been reviewed and only a few people have the skills to review a core change and make a decision as to whether it can be incorporated or not. For Linaro to be featured in these lists highlights the significant role we play in detecting issues and limiting regressions. 
 
 {% include image.html path="/assets/images/content/kernel-5.12-bug-reporters-and-test-and-review-credits-.png" alt="Tables showing 5.12 Most Active Bug Reporters and Test and Review Credits" %}
 
