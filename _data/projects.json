@@ -83,7 +83,7 @@
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\" https://projects.linaro.org/projects/CAM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure&s=259#\">Scope of work breakdown </a>",
                 "Plan Of Record": "",
-                "Project Homepage": "",
+                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/CAMERA/Camera+Home\">https://collaborate.linaro.org/display/CAMERA/Camera+Home</a>",
                 "Theme": [
                     "Android Ecosystem"
                 ],
