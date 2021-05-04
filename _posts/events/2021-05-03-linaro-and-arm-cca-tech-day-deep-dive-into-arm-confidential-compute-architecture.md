@@ -1,10 +1,10 @@
 ---
-title: "Linaro and Arm CCA Tech Day: Deep dive into Arm Confidential Compute
+title: "Linaro and Arm CCA Tech Day: Deep dive into the Arm Confidential Compute
   Architecture "
 event: linaro-arm-cca-tech-day-2021
 event_url: ""
 description: >+
-  Linaro and Arm CCA Tech Day: Deep dive into Arm Confidential Compute
+  Linaro and Arm CCA Tech Day: Deep dive into the Arm Confidential Compute
   Architecture 
 
 
@@ -14,8 +14,7 @@ description: >+
   The agenda will include sessions on the Realm Management Extension as well as software and attestation architectures. Speakers will be presenting live and there will be opportunities for participants to ask questions. The full agenda will be posted on May 25. Registration is free and will open on May 25.
 
 
-  <a title="Add to Calendar" class="addeventatc" data-id="QA6370104" href="https://www.addevent.com/event/QA6370104" target="_blank" rel="nofollow">Add to Calendar</a>
-  	<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+  <a title="Add to Calendar" class="addeventatc" data-id="QA6370104" href="https://www.addevent.com/event/QA6370104" target="_blank" rel="nofollow">Add to Calendar</a> 	<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 
 location: "Online "
 date: 2021-05-03 09:59:28
