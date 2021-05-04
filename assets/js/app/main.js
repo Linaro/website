@@ -233,7 +233,9 @@ $(document).ready(function () {
               <div class="media-body">
                   <a href="${random_items[i].url}">
                       <h5 class="mt-0 mb-1">${random_items[i].title}</h5>
-                      <em class="suggested_post_date">${random_items[i].date}</em>
+                      <em class="suggested_post_date">${new Date(
+                        random_items[i].date
+                      ).toLocaleDateString()}</em>
                       <p>
                       ${random_items[i].description}
                       </p>
@@ -261,7 +263,9 @@ $(document).ready(function () {
               <div class="media-body">
                   <a href="${data[i].url}">
                       <h5 class="mt-0 mb-1">${data[i].title}</h5>
-                      <em class="suggested_post_date">${data[i].date_published}</em>
+                      <em class="suggested_post_date">${new Date(
+                        data[i].date_published
+                      ).toLocaleDateString()}</em>
                       <p>
                       ${data[i].summary}
                       </p>
