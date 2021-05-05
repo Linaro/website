@@ -228,6 +228,8 @@ $(document).ready(function () {
         // Now split the date into its constituent parts.
         var date_parts = date_split[0].split('-');
         // Javascript counts months from 0 ...
+        console.log(random_items[i].date);
+        console.log(`Year=${date_parts[0]}, month=${date_parts[1]}, day=${date_parts[2]}`);
         var date_obj = new Date(date_parts[0], date_parts[1] - 1, date_parts[2]);
         other_posts_elements += `<li class="media flex-column flex-sm-row">
               <picture>
@@ -269,6 +271,8 @@ $(document).ready(function () {
         // Now split the date into its constituent parts.
         var date_parts = date_split[0].split('-');
         // Javascript counts months from 0 ...
+        console.log(data[i].date_published);
+        console.log(`Year=${date_parts[0]}, month=${date_parts[1]}, day=${date_parts[2]}`);
         var date_obj = new Date(date_parts[0], date_parts[1] - 1, date_parts[2]);
         latest_posts_elements += `<li class="media flex-column flex-sm-row">
               <picture>
