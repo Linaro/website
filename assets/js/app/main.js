@@ -265,7 +265,7 @@ $(document).ready(function () {
         // Safari doesn't cope with "-".
         // Start by splitting the date string on a space to separate
         // the actual date.
-        var date_split = data[i].date.split(' ');
+        var date_split = data[i].date_published.split(' ');
         // Now split the date into its constituent parts.
         var date_parts = date_split.split('-');
         // Javascript counts months from 0 ...
