@@ -220,6 +220,15 @@ $(document).ready(function () {
     $.getJSON("/assets/json/posts.json", function (data) {
       var random_items = getRandom(data, 5);
       for (let i = 0; i < random_items.length; i++) {
+        // Need a more robust way of getting the date string because
+        // Safari doesn't cope with "-".
+        // Start by splitting the date string on a space to separate
+        // the actual date.
+        var date_split = random_items[i].date.split(' ');
+        // Now split the date into its constituent parts.
+        var date_parts = date_split.split('-');
+        // Javascript counts months from 0 ...
+        var date_obj = new Date(date_parts[0], date_parts[1] - 1, date_parts[2]);
         other_posts_elements += `<li class="media flex-column flex-sm-row">
               <picture>
                 <source srcset="${
@@ -233,9 +242,7 @@ $(document).ready(function () {
               <div class="media-body">
                   <a href="${random_items[i].url}">
                       <h5 class="mt-0 mb-1">${random_items[i].title}</h5>
-                      <em class="suggested_post_date">${new Date(
-                        random_items[i].date
-                      ).toLocaleDateString()}</em>
+                      <em class="suggested_post_date">${date_obj.toLocaleDateString()}</em>
                       <p>
                       ${random_items[i].description}
                       </p>
@@ -254,6 +261,15 @@ $(document).ready(function () {
     var latest_posts_elements = "";
     $.getJSON("/assets/json/recentPosts.json", function (data) {
       for (let i = 0; i < data.length; i++) {
+        // Need a more robust way of getting the date string because
+        // Safari doesn't cope with "-".
+        // Start by splitting the date string on a space to separate
+        // the actual date.
+        var date_split = random_items[i].date.split(' ');
+        // Now split the date into its constituent parts.
+        var date_parts = date_split.split('-');
+        // Javascript counts months from 0 ...
+        var date_obj = new Date(date_parts[0], date_parts[1] - 1, date_parts[2]);
         latest_posts_elements += `<li class="media flex-column flex-sm-row">
               <picture>
                 <source srcset="${data[i].image_webp}" type="image/webp">
@@ -263,9 +279,7 @@ $(document).ready(function () {
               <div class="media-body">
                   <a href="${data[i].url}">
                       <h5 class="mt-0 mb-1">${data[i].title}</h5>
-                      <em class="suggested_post_date">${new Date(
-                        data[i].date_published
-                      ).toLocaleDateString()}</em>
+                      <em class="suggested_post_date">${date_obj.toLocaleDateString()}</em>
                       <p>
                       ${data[i].summary}
                       </p>
