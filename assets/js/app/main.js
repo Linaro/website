@@ -220,17 +220,10 @@ $(document).ready(function () {
     $.getJSON("/assets/json/posts.json", function (data) {
       var random_items = getRandom(data, 5);
       for (let i = 0; i < random_items.length; i++) {
-        // Need a more robust way of getting the date string because
-        // Safari doesn't cope with "-".
-        // Start by splitting the date string on a space to separate
-        // the actual date.
-        var date_split = random_items[i].date.split(' ');
-        // Now split the date into its constituent parts.
-        var date_parts = date_split[0].split('-');
-        // Javascript counts months from 0 ...
-        console.log(random_items[i].date);
-        console.log(`Year=${date_parts[0]}, month=${date_parts[1]}, day=${date_parts[2]}`);
-        var date_obj = new Date(date_parts[0], date_parts[1] - 1, date_parts[2]);
+        // Unlike the Recent Posts JSON file, the date in the Other Posts
+        // JSON file is formatted in "English", e.g. Thursday, February 13, 2020
+        // which can be parsed by Date.
+        var date_obj = new Date(random_items[i].date);
         other_posts_elements += `<li class="media flex-column flex-sm-row">
               <picture>
                 <source srcset="${
@@ -244,7 +237,7 @@ $(document).ready(function () {
               <div class="media-body">
                   <a href="${random_items[i].url}">
                       <h5 class="mt-0 mb-1">${random_items[i].title}</h5>
-                      <em class="suggested_post_date">${date_obj.toLocaleDateString()}</em>
+                      <em class="suggested_post_date">${date_obj.toDateString()}</em>
                       <p>
                       ${random_items[i].description}
                       </p>
@@ -283,7 +276,7 @@ $(document).ready(function () {
               <div class="media-body">
                   <a href="${data[i].url}">
                       <h5 class="mt-0 mb-1">${data[i].title}</h5>
-                      <em class="suggested_post_date">${date_obj.toLocaleDateString()}</em>
+                      <em class="suggested_post_date">${date_obj.toDateString()}</em>
                       <p>
                       ${data[i].summary}
                       </p>
