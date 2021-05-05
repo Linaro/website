@@ -226,7 +226,7 @@ $(document).ready(function () {
         // the actual date.
         var date_split = random_items[i].date.split(' ');
         // Now split the date into its constituent parts.
-        var date_parts = date_split.split('-');
+        var date_parts = date_split[0].split('-');
         // Javascript counts months from 0 ...
         var date_obj = new Date(date_parts[0], date_parts[1] - 1, date_parts[2]);
         other_posts_elements += `<li class="media flex-column flex-sm-row">
@@ -265,11 +265,9 @@ $(document).ready(function () {
         // Safari doesn't cope with "-".
         // Start by splitting the date string on a space to separate
         // the actual date.
-        var date_published = data[i].date_published;
-        console.log('date_published is "'+date_published+'" ('+typeof(date_published)+')');
-        var date_split = date_published.split(' ');
+        var date_split = data[i].date_published.split(' ');
         // Now split the date into its constituent parts.
-        var date_parts = date_split.split('-');
+        var date_parts = date_split[0].split('-');
         // Javascript counts months from 0 ...
         var date_obj = new Date(date_parts[0], date_parts[1] - 1, date_parts[2]);
         latest_posts_elements += `<li class="media flex-column flex-sm-row">
