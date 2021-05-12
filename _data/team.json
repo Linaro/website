@@ -33,16 +33,6 @@
       ]
     },
     {
-      "name": "Rob Oshana",
-      "title": "NXP",
-      "company": "NXP",
-      "image": "/assets/images/people/RobOshana.jpg",
-      "bio": "Rob Oshana is Vice President of Software Engineering R&D for the Microcontroller and Microprocessor business line at NXP, responsible for software enablement, IoT connectivity, software middleware and security, operating systems, machine learning, software services and advanced technologies.  He serves on multiple industry advisory boards and is a recognized international speaker.  He has published numerous books and articles on software engineering and embedded systems.  He is also an adjunct professor at the University of Texas and Southern Methodist University and is a Senior Member of IEEE.",
-      "teams": [
-        "technical_steering_committee"
-      ]
-    },
-    {
       "name": "Azzedine Touzni ",
       "title": "Qualcomm",
       "company": "Qualcomm",
@@ -97,17 +87,6 @@
       "company": "Linaro",
       "image": "/assets/images/people/david-rusling.png",
       "bio": "David always enjoyed mathematics, but America’s space program together with ‘Star Trek’ made him think that computers were really interesting and so he graduated in 1982 with a degree in Computer Science. At Digital Equipment Corporation he got involved in the port of Linux® to the Alpha processor. This gave him an abiding respect for the power of open source in general and Linux in particular. He worked on StrongArm before moving to Arm where he added tools experience. At Arm he continued to be involved in open source and as a reward for his meddling was made an Arm Fellow. He helped create Linaro, becoming its CTO in 2010.\nWhen he’s not being a techno-dweeb, David enjoys photography, hiking, cooking, fine wines and friends.\n",
-      "teams": [
-        "technical_steering_committee",
-        "executive_team"
-      ]
-    },
-    {
-      "name": "Mark Orvek",
-      "title": "VP of Engineering at Linaro",
-      "company": "Linaro",
-      "image": "/assets/images/people/mark-orvek.png",
-      "bio": "Mark joined Linaro as Director of Working Groups in August 2012. Prior to this he was Vice President of Engineering and Services at MontaVista Software. He joined MontaVista in 1999 as the director of engineering, responsible for new product development focused on making the Linux operating system suitable for embedded systems and embedded applications. He managed the development of key technologies for Linux including multi-architecture platform support, real-time, carrier grade high availability, small footprint, fast boot, power management and most recently the MontaVista Linux 6 Integration Platform. Before MontaVista, he was an R&D Section Manager at Hewlett-Packard (HP), holding various positions including technical field support, development engineer, R&D Project Manager and R&D Section Manager in HP’s business servers and Real-time embedded board computers. Mark holds BS degrees in Electrical Engineering from Rochester Institute of Technology and in Computer Science from California State University at Dominguez Hills.\n",
       "teams": [
         "technical_steering_committee",
         "executive_team"
