@@ -310,7 +310,7 @@
   "^/projects/power(/?|/index.html)$ /engineering/groups/lcg/ [R,L,NC]",
   "^/projects/bigdata(/?|/index.html)$ /engineering/groups/ldcg/ [R,L,NC]",
   "^/projects/reference-digital-media-platforms-for-arm(/?|/index.html)$ /engineering/groups/lcg/ [R,L,NC]",
-  "^/process(/?|/index.html)$ https://collaborate.linaro.org/display/Proc/Engineering+Process [R,L,NC]",
+  "^/process(/?|/index.html)$ https://linaro.atlassian.net/wiki/spaces/Proc/overview [R,L,NC]",
   "^/redirected-service(/?|/index.html)$ / [R,L,NC]",
   "^/services-linux/bootloaders(/?|/index.html)$ /services/bootloaders/ [R,L,NC]",
   "^/services-linux/linux-kernel(/?|/index.html)$ /services/kernels-lts/ [R,L,NC]",
