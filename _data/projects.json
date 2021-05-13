@@ -44,8 +44,8 @@
             },
             "Project Ownership": {
                 "Governing Entity": "LDCG SC",
-                "Project Owner": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>"
+                "Project Owner": "Elsie Wahlig <a class=\"email-icon\" href=\"mailto:elsie.wahlig@linaro.org\"><span class=\"icon-mail\"></span></a>",
+                "Technical Lead": "Elsie Wahlig <a class=\"email-icon\" href=\"mailto:elsie.wahlig@linaro.org\"><span class=\"icon-mail\"></span></a>"
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=12910&avatarId=10904",
             "key": "ASA"
@@ -165,8 +165,8 @@
             },
             "Project Ownership": {
                 "Governing Entity": "LDCG SC",
-                "Project Owner": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>"
+                "Project Owner": "Tom Gall <a class=\"email-icon\" href=\"mailto:tom.gall@linaro.org\"><span class=\"icon-mail\"></span></a>",
+                "Technical Lead": "Tom Gall <a class=\"email-icon\" href=\"mailto:tom.gall@linaro.org\"><span class=\"icon-mail\"></span></a>"
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=11202&avatarId=14303",
             "key": "HPCAI"
