@@ -26,8 +26,8 @@ description: >
 
   #LVC21F #LinaroConnect 
 date: 2021-05-18 11:46:25
-event_date: 2021-05-18 11:46:25
-event_end_date: 2021-05-18 11:46:25
+event_date: 2021-09-21 03:46:25
+event_end_date: 2021-09-23 03:46:25
 image: /assets/images/content/lvc21f_logo.png
 event_type: sponsor
 ---
