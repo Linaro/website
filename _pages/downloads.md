@@ -156,11 +156,17 @@ LMBs are full system builds of popular open-source products set up at the reques
 
 File description:
 
+[LEDGE RP 0.2 ledge-multi-armv7](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-multi-armv7/17/)
+[LEDGE RP 0.2 ledge-multi-armv8](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-multi-armv8/17/)
+[LEDGE RP 0.2 ledge-qemux86-64](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-qemux86-64/17/)
+[LEDGE RP 0.2 ledge-synquacer](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-synquacer/17/)
+[LEDGE RP 0.2 ledge-ti-am572x](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-ti-am572x/17/)
+
+Where:
 * firmware.uefi.uboot.bin: U-Boot based firmware with TF-A and OP-TEE support
 * firmware.uefi-edk2.bin: EDK2 based firmware
 * ledge-iot-ledge-xxxxxxx-0.1.rootfs.wic.gz: Zipped imaged of IoT reference platform
 * ledge-gateway-ledge-xxxxxxx-0.1.rootfs.wic.gz: zipped image of the gateway reference platform
 * ledge-kernel-uefi-certs.ext4.img: Signatures used on EFI secureboot
-
-For [full documentation](https://linaro.github.io/ledge-doc/index.html#document-chapter6-prebuilt-images)\
-To [download the files](http://releases.linaro.org/components/ledge/rp-0.1/)
+* ledge-dev-howto.pdf - Developer Howto Documentation
+* ledge-user-guide.pdf - User Guide Documentation
