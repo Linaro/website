@@ -18,8 +18,8 @@ description: >+
 
 
 date: 2021-05-18 11:42:17
-event_date: 2021-05-18 11:42:17
-event_end_date: 2021-05-18 11:42:17
+event_date: 2021-09-14 03:42:17
+event_end_date: 2021-09-15 03:42:17
 image: /assets/images/content/screen-shot-2021-05-18-at-11.45.37-am.png
 event_type: sponsor
 ---
