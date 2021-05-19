@@ -18,6 +18,7 @@ tags:
   - Robotics RB5
   - Dragonboard 820c
   - Robotics RB3
+  - Snapdragon
 category: blog
 author: nicolas.dechesne
 ---
