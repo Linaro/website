@@ -152,9 +152,11 @@ LMBs are full system builds of popular open-source products set up at the reques
 
 - - -
 
-## LEDGE downloads: -
+## LEDGE downloads: 
 
-File description:
+The LEDGE Reference Platform (RP) is a lightweight highly secure and robust container runtime environment that has dependable boot and update capabilities. It comes with a full set of security policies with SELinux, IMA (Linux Kernel Integrity Measurement Architecture) and other technologies and builds on SystemReady-IR and EBBR specifications. 
+
+The complete Ledge Reference Platform v0.2 Release can be accessed here: 
 
 [LEDGE RP 0.2 ledge-multi-armv7](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-multi-armv7/17/)
 [LEDGE RP 0.2 ledge-multi-armv8](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-multi-armv8/17/)
@@ -163,6 +165,7 @@ File description:
 [LEDGE RP 0.2 ledge-ti-am572x](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-ti-am572x/17/)
 
 Where:
+
 * firmware.uefi.uboot.bin: U-Boot based firmware with TF-A and OP-TEE support
 * firmware.uefi-edk2.bin: EDK2 based firmware
 * ledge-iot-ledge-xxxxxxx-0.1.rootfs.wic.gz: Zipped imaged of IoT reference platform
