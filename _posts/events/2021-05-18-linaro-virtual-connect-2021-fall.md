@@ -16,9 +16,9 @@ description: >
 
   Full schedule announcement and attendee registration opens August 3, 2021
 
-  Pre-recorded session videos due from speakers September 10, 2021
+  Pre-recorded session videos due from speakers September 1, 2021
 
-  Linaro Virtual Connect Fall: September 21-23, 2021 
+  Linaro Virtual Connect Fall: September 8-10, 2021 
 
 
 
@@ -26,8 +26,8 @@ description: >
 
   #LVC21F #LinaroConnect 
 date: 2021-05-18 11:46:25
-event_date: 2021-09-21 03:46:25
-event_end_date: 2021-09-23 03:46:25
-image: /assets/images/content/lvc21f_logo.png
+event_date: 2021-09-08 07:46:25
+event_end_date: 2021-09-10 07:46:25
+image: /assets/images/content/screen-shot-2021-05-21-at-9.38.56-am.png
 event_type: sponsor
 ---
