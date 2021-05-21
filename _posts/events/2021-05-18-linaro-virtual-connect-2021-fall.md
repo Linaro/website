@@ -3,22 +3,14 @@ title: "Linaro Virtual Connect 2021 Fall "
 event: lvc21-fall
 event_url: https://connect.linaro.org/
 description: >
-  Linaro Connect is an event that runs twice a year that brings together the Arm
-  Ecosystem. This is the ONLY event where developers, maintainers of both
-  hardware and software can collaborate and discuss common problems.
+  Linaro Virtual Connect Fall will be held September 8-10, 2021.
 
+  Linaro Connect is an event that runs twice a year that brings together the Arm Ecosystem. This is the ONLY event where developers, maintainers of both hardware and software can collaborate and discuss common problems. The Call for proposals opens on May 25 and closes on July 13. Notifications of acceptance will be sent out on July 20 and the full schedule will be announced on August 3. Registration is free and will open on August 3. 
 
-  Timeline: 
-
-  Deadline to submit proposals July 13, 2021
-
-  Submission notifications July 20, 2021
-
-  Full schedule announcement and attendee registration opens August 3, 2021
+  Deadline to submit proposals July 13, 2021Submission notifications July 20, 2021. Full schedule announcement and attendee registration opens August 3, 2021
 
   Pre-recorded session videos due from speakers September 1, 2021
 
-  Linaro Virtual Connect Fall: September 8-10, 2021 
 
 
 
