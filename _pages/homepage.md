@@ -1,10 +1,17 @@
 ---
 title: Accelerating deployment of Arm-based solutions
 description: Linaro accelerates deployment of Arm-based solutions
-permalink: "/"
-layout: flow
-css_bundle: home
+permalink: /
+keywords:
+  - arm software
+  - engineering
+  - open source
+  - linaro
+  - linux
+  - software projects
 js-package: home
+css_bundle: home
+layout: flow
 flow:
   - row: custom_include_row
     source: home/homepage_header.html
@@ -19,10 +26,15 @@ flow:
       - format: text
         style: text-left
         text_content:
-          text: >
-            Linaro works within many different verticals and within each of these verticals there are many different
-            [projects](/projects/). As an important partner within the open source community, Linaro has over one hundred
-            maintainers. We are also one of the top contributors to the development of the Linux kernel.
+          text: Linaro has driven open source software development on Arm since 2010.
+            Companies become members to work with us and other industry leaders
+            on [software projects](https://www.linaro.org/projects/) which
+            deliver standardization and a base to differentiate on. Together we
+            develop strategy which is then implemented by Linaro and member
+            company engineers. Bringing engineering resource together to
+            collaborate on common software projects reduces overall
+            fragmentation, allowing member companies to reduce their costs for
+            development and validation of Arm-based software.
   - row: custom_include_row
     source: about/maintainers_by_project.html
   - row: custom_include_row
@@ -43,16 +55,17 @@ flow:
       - format: text
         text_content:
           text: >
-            Linaro Developer Services help companies build their products on Arm. From initial design through to
-            planning, implementation and support and training, Linaro Developer Services help you leverage open source
-            on Arm to ensure fast time to market, exceptional quality and security, and cost effective long term
-            maintenance.
+            Linaro Developer Services help companies build their products on
+            Arm. From initial design through to planning, implementation and
+            support and training, Linaro Developer Services help you leverage
+            open source on Arm to ensure fast time to market, exceptional
+            quality and security, and cost effective long term maintenance.
       - format: custom_include
         source: home/dev_services_blocks.html
       - format: buttons
         style: text-center my-3
         buttons_content:
           - title: Learn More
-            url: /services/ # Required - button url
+            url: /services/
             style: btn btn-primary text-uppercase
 ---
