@@ -1,9 +1,9 @@
 ---
 title: Projects
-description: "The arm open source projects below are only a subset of the
-  leading edge Arm developments actively being worked on by Linaro, its member
-  partners, and the open source community.  Join us in the common goal of
-  accelerating your product deployment within the Arm ecosystem!   "
+description: "The open source projects below are only a subset of the leading
+  edge developments actively being worked on by Linaro, its member partners, and
+  the open source community.  Join us in the common goal of accelerating your
+  product deployment within the Arm ecosystem!   "
 permalink: /projects/
 keywords:
   - arm open source project
