@@ -5,7 +5,7 @@ event_url: https://events.linuxfoundation.org/px4-developer-summit/
 description: >+
   The PX4 Developer Summit is the annual flagship conference hosted by the
   Dronecode Foundation for the drone development community September 14-15,
-  2021.
+  2021.  
 
 
   The event is designed for software developers, hardware engineers, system integrators, and academia. Join us while we explore together the latest technologies in the PX4 Ecosystem. 
@@ -14,7 +14,7 @@ description: >+
   Get a complete overview of how the PX4 Ecosystem works and the opportunity to network with maintainers, contributors, and key stakeholders from organizations using our open technologies.
 
 
-  96Boards is proud to be a platinum sponsor of the #PX4DevSummit
+  96Boards is proud to be a platinum sponsor of the #PX4DevSummit  
 
 
 date: 2021-05-18 11:42:17
