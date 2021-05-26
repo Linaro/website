@@ -20,7 +20,7 @@ Complete your [free registration](https://www.eventbrite.co.uk/e/linaro-and-arm-
 
 **Agenda**
 
-View the agenda below or via this [direct link](https://events.pinetool.ai/2092/#sessions). <style>
+View the agenda below or via this [direct link](https://events.pinetool.ai/2092/#sessions). Please note: the agenda below should pick up your local timezone. It will begin at 14:00 UTC on June 23.  <style>
 	#pine-sessions {
 		width: 100%;
 		height: 600px;
