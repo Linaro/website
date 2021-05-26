@@ -10,8 +10,6 @@ event_end_date: 2021-06-23 01:59:28
 image: /assets/images/content/cca-banner_v4.jpg
 event_type: sponsor
 ---
-**Linaro and Arm CCA Tech Event: Deep dive into the Arm Confidential Compute Architecture** 
-
 Linaro and Arm are hosting a half-day online event to introduce the Arm Confidential Compute Architecture to developers in the open source community. This will be the first opportunity for developers to familiarize themselves with the hardware and software architectures and the resources available to enable OSS software development and upstreaming.
 
 The agenda will include sessions on the Realm Management Extension as well as software and attestation architectures. Speakers will be presenting live and there will be opportunities for participants to ask questions. 
@@ -19,7 +17,6 @@ The agenda will include sessions on the Realm Management Extension as well as so
 **[Registration](https://www.eventbrite.co.uk/preview?eid=156790910835/)**
 
 Complete your [free registration](https://www.eventbrite.co.uk/preview?eid=156790910835/) and you will receive an invite to login to the PINE.ai event platform before the June 23 event date. [](https://www.eventbrite.co.uk/preview?eid=156790910835/)
-
 
 **[Agenda](https://events.pinetool.ai/2092/#sessions)**
 
@@ -31,31 +28,24 @@ View the agenda below or via this [direct link](https://events.pinetool.ai/2092/
 		display: block;
 	}
 
-	@media screen and (max-width: 1200px) {
-		#pine-sessions {
-			height: 500px;
-		}
+```
+@media screen and (max-width: 1200px) {
+	#pine-sessions {
+		height: 500px;
 	}
+}
 
-	@media screen and (max-width: 768px) {
-		#pine-sessions {
-			height: 420px;
-		}
+@media screen and (max-width: 768px) {
+	#pine-sessions {
+		height: 420px;
 	}
+}
+```
+
 </style>
 
 <iframe id="pine-sessions" src="https://events.pinetool.ai/2092/#widgets/sessions"></iframe>
 		
-
-
-
-
-
-
-
-
-
-
 
 Add Linaro and Arm CCA event to your calendar
 
