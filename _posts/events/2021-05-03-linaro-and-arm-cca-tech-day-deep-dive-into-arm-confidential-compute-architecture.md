@@ -14,11 +14,11 @@ Linaro and Arm are hosting a half-day online event to introduce the Arm Confiden
 
 The agenda will include sessions on the Realm Management Extension as well as software and attestation architectures. Speakers will be presenting live and there will be opportunities for participants to ask questions. 
 
-**[Registration](https://www.eventbrite.co.uk/preview?eid=156790910835/)**
+**Registration**
 
-Complete your [free registration](https://www.eventbrite.co.uk/preview?eid=156790910835/) and you will receive an invite to login to the PINE.ai event platform before the June 23 event date. [](https://www.eventbrite.co.uk/preview?eid=156790910835/)
+Complete your [free registration](https://www.eventbrite.co.uk/e/linaro-and-arm-cca-tech-event-tickets-156790910835) and you will receive an invite to login to the PINE.ai event platform before the June 23 event date. [Register](https://www.eventbrite.co.uk/e/linaro-and-arm-cca-tech-event-tickets-156790910835)[](https://www.eventbrite.co.uk/preview?eid=156790910835/)
 
-**[Agenda](https://events.pinetool.ai/2092/#sessions)**
+**Agenda**
 
 View the agenda below or via this [direct link](https://events.pinetool.ai/2092/#sessions). <style>
 	#pine-sessions {
