@@ -26,23 +26,7 @@ View the agenda below or via this [direct link](https://events.pinetool.ai/2092/
 		height: 600px;
 		border: 0;
 		display: block;
-	}
-
-```
-@media screen and (max-width: 1200px) {
-	#pine-sessions {
-		height: 500px;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	#pine-sessions {
-		height: 420px;
-	}
-}
-```
-
-</style>
+	}</style>
 
 <iframe id="pine-sessions" src="https://events.pinetool.ai/2092/#widgets/sessions"></iframe>
 		
