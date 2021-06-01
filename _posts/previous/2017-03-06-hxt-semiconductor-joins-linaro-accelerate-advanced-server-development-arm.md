@@ -1,23 +1,22 @@
 ---
-author: linaro
-category: news
-date: 2017-03-06 07:57:57
-description: Budapest, Hungary; 6 March 2017
-layout: post
-link: /news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/
-slug: hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm
-tags:
-- Arm
-- LEG
-- Linaro
-- Linaro Connect
-- Linaro Members
-- Membership
-title: HXT Semiconductor Joins Linaro to Accelerate Advanced Server Development on
-  Arm
 wordpress_id: 12223
+layout: post
+title: HXT Semiconductor Joins Linaro to Accelerate Advanced Server Development on Arm
+image: /assets/images/content/code.jpg
+tags:
+  - Arm
+  - LEG
+  - Linaro
+  - Linaro Connect
+  - Linaro Members
+  - Membership
+category: news
+author: linaro
+slug: hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm
+date: 2017-03-06 07:57:57
+link: /news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/
+description: Budapest, Hungary; 6 March 2017
 ---
-
 Budapest, Hungary; 6 March 2017
 
 Linaro Limited, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that Guizhou Huaxintong Semiconductor Technology Co., Ltd (HXT Semiconductor) has joined Linaro as a member of the Linaro Enterprise Group (LEG).
@@ -32,10 +31,10 @@ LEG was established in November 2012 as the first vertical segment group within 
 
 **About Guizhou Huaxintong Semiconductor Technologies Co., Ltd. (HXT Semiconductor)**
 
-Guizhou Huaxintong Semiconductor Technologies Co., Ltd is a joint venture between the People’s Government of Guizhou Province and Qualcomm, registered at Gui’An New Area, Guizhou Province, with operations and R&D center in Beijing and Shanghai. HXT Semiconductor specializes in designing, developing, and selling sophisticated server chips that will fulfill the needs of enterprises in China. Its establishment will contribute to the growth of China’s IC industry and improve the design and development capacities of China’s chips industry. In this way it will help China to achieve the dream of strong chips. To learn more, please visit: [http://www.hxt-semitech.com/.](http://www.hxt-semitech.com/.)
+Guizhou Huaxintong Semiconductor Technologies Co., Ltd is a joint venture between the People’s Government of Guizhou Province and Qualcomm, registered at Gui’An New Area, Guizhou Province, with operations and R&D center in Beijing and Shanghai. HXT Semiconductor specializes in designing, developing, and selling sophisticated server chips that will fulfill the needs of enterprises in China. Its establishment will contribute to the growth of China’s IC industry and improve the design and development capacities of China’s chips industry. In this way it will help China to achieve the dream of strong chips. 
 
 **About Linaro**
 
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company is headquartered in the UK with over 300 engineers working in 26 countries on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit []() and [http://www.96Boards.org](http://www.96boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](http://www.96boards.org).
