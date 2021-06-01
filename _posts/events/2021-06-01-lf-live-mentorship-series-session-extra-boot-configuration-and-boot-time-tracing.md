@@ -20,11 +20,9 @@ event_end_date: 2021-07-13 08:47:43
 image: /assets/images/content/screen-shot-2021-06-01-at-4.50.20-pm.png
 event_type: presenter
 ---
-
-
 Join LF for **Extra Boot Configuration and Boot-time Tracing**, with Masami Hiramatsu, Tech Lead at Linaro.
 
-July 13 | 5:30 – 7:00pm PDT (UTC-7)
+July 13 from 5:30 – 7:00pm PDT (UTC-7)
 
 Boot-time tracing allows you to operate ftrace (tracefs) when booting up the Linux kernel. The boot-time tracing supports various ftrace features, including function tracing, trace events, dynamic events (kprobes), histograms, trace instances and other tracers. The setting of this boot-time tracing is done via the extra boot configuration (or “bootconfig” for short), which is something like sysctl.conf but passed to kernel in the early boot stage. The bootconfig itself is also a useful feature for setting up the kernel and init boot arguments written in a structured key-value list.
 
