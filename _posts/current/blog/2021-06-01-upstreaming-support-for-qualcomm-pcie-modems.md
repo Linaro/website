@@ -27,7 +27,6 @@ The arrival of fifth-generation mobile networks, known as 5G, promises an even m
 
 Qualcomm manufactures cellular modems such as the Snapdragon X24 (LTE) or X55 (5G) and these are integrated into various OEM WWAN modules. In the last 18 months, Linaro, in collaboration with multiple OEM modem manufacturers and with Qualcomm, has worked on upstreaming PCIe-based Qualcomm 4G/5G modems support in Linux. With further changes due in the Linux 5.13 release, using a Qualcomm PCIe modem just got a lot easier.
 
-
 # Linux WWAN support for USB modems
 
 For some time now, USB has become a de-facto solution to connect to WWAN/modems. WWAN support in Linux has therefore been mostly driven by USB-based modems integration.
@@ -39,7 +38,7 @@ Unlike other wireless technologies like WiFi or Bluetooth, the Linux kernel does
 * Network devices (e.g. wwan0 iface) used to transport data through USB interfaces optimized for network packet transfer, and implemented as CDC-ECM, CDC-NCM, RNDIS or CDC-MBIM USB classes,
 * Virtual CD-ROM, usually hosting Windows/MacOS drivers and user manual (e.g. /dev/sr1 block device)…
 
-Though all the logical devices contribute to the WWAN/feature as a whole, they are each registered separately. his collection of devices varies depending on the manufacturers and models, and is possibly extended with additional interfaces for debug, firmware upgrade, GPS/GNSS and so on.
+Though all the logical devices contribute to the WWAN/feature as a whole, they are each registered separately. This collection of devices varies depending on the manufacturers and models, and is possibly extended with additional interfaces for debug, firmware upgrade, GPS/GNSS and so on.
 
 Below is the kernel log output on Telit FN980 USB modem connection, it shows several devices being registered:
 
@@ -60,7 +59,6 @@ PCI differs from USB because PCI devices do not offer high level operations and 
 
 To provide something similar to USB interfaces and endpoints, Qualcomm created the **modem-host interface (MHI)**, which can be used by a host to communicate with any PCIe modem implementing this interface. MHI devices are able to expose multiple features and protocols over a set of predefined **channels**. Internally MHI is based on shared memory and ring buffers and defines device states, transfer procedures, channels, low power modes, etc. With this solution, Qualcomm modems can therefore be easily tuned to route the higher level data and control protocols (IP, AT, MBIM…) over either USB or PCIe/MHI transport buses.
 
-
 # The Linux MHI stack
 
 As already described by my colleague, Manivannan Sadhasivam, [the MHI core stack landed in Linux in 2020 (drivers/bus/mhi)](https://www.linaro.org/blog/mhi-bus-support-gets-added-to-the-linux-kernel/). Without getting into too much detail, MHI has been implemented as a standard **Linux bus**, where each physical device is registered as a ‘MHI bus controller’ and on which the logical channels are exposed as logical ‘MHI devices’ that are in turn bound to ‘MHI client drivers’.
@@ -70,7 +68,6 @@ As already described by my colleague, Manivannan Sadhasivam, [the MHI core stack
 Interestingly, the first user of this stack was the ath11k PCI WiFi driver. Although the M in MHI stands for ‘Modem’, MHI only defines the infrastructure for communicating with logical devices and not which features or protocols must be exposed by these devices.
 
 With the MHI bus supported in mainline, Adding support for Qualcomm modems mostly consisted in implementing the missing lower (bus) and upper (functions) layers, respectively the **PCI MHI controller driver** and the **MHI client drivers.**
-
 
 # Adding support for PCIe MHI modems - mhi_pci_generic
 
@@ -89,7 +86,6 @@ For example, a Telit FN980 5G PCIe device exposes the following MHI TX/RX channe
 As any other bus, MHI devices (controllers, clients) are represented under sysfs hierarchy:
 $ ls /sys/bus/mhi/devices
 mhi0  mhi0_DIAG mhi0_IP_HW0 mhi0_QMI
-
 
 # MHI WWAN network driver - mhi_net
 
