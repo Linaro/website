@@ -42,4 +42,4 @@ The Open-CMSIS-Pack project was established in April 2021. Linaro and project me
 
 STMicroelectronics, NXP Semiconductors and Arm are the founding members of the Open-CMSIS-Pack project. If you would like to support and contribute to the Open-CMSIS-Pack project, please contact contact@linaro.org.
 
-For further information about the Open-CMSIS-Pack project, visit [open-cmsis-pack.org](www.open-cmsis-pack.org).
+For further information about the Open-CMSIS-Pack project, visit [open-cmsis-pack.org](https://www.open-cmsis-pack.org/).
