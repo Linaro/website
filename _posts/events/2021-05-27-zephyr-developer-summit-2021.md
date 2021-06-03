@@ -11,7 +11,7 @@ event_type: presenter
 ---
 The Zephyr Project is hosting its first-ever Zephyr Developer Summit, which takes place virtually on June 8-10.
 
-Kevin Hilman from Linaro will present session "Integrating RISC-V PMP Support in Zephyr" on June 10 at 14:00 UTC.
+Kevin Townsend from Linaro will present session "Trusted Firmware M in Zephyr" on June 9 at 15:00 UTC.
 
 Event page: https://zephyrproject.org/event/zephyr-developer-summit/
 
