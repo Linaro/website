@@ -11,6 +11,10 @@ event_type: presenter
 ---
 The Zephyr Project is hosting its first-ever Zephyr Developer Summit, which takes place virtually on June 8-10.
 
-Kevin Hilman from Linaro will present a session. Visit the event page for full schedule details: 
+Kevin Townsend from Linaro will present session "Trusted Firmware M in Zephyr" on June 9 at 15:00 UTC.
 
-https://zephyrproject.org/event/zephyr-developer-summit/
+Event page: https://zephyrproject.org/event/zephyr-developer-summit/
+
+Registration: https://docs.google.com/forms/d/e/1FAIpQLSfoADxWZaMI3BsXiJKOTnIk-IZQMeDM_7xylaE2PBZKpjPWbQ/viewform
+
+Schedule: https://github.com/zephyrproject-rtos/zephyr/wiki/2021-Zephyr-Developer-Summit
