@@ -11,12 +11,14 @@ layout: base
     <div class="container text-center">
         <div class="inner_content_wrapper">
             <h1 class="">{{page.title}}</h1>
+            
             <p>
-                <time datetime="{{page.date}}">{{page.event_date | date: "%A, %B %-d, %Y" }} {% if page.event_end_date %}
+                <time datetime="{{page.date}}">{{page.event_date | date: "%A, %B %-d, %Y" }} 
+                {% if page.event_end_date and page.event_date != page.event_end_date %}
                 - {{page.event_end_date | date: "%A, %B %-d, %Y" }}
                 {% endif %}</time>
             </p>
-            {% if page.event_url %}
+            {% if page.event_url != "" %}
             <p>
                 <a href="{{page.event_url}}" class="btn btn-primary">
                     Visit Website
