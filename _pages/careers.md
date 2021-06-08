@@ -31,6 +31,8 @@ flow:
               at Linaro. Linaro offers you the opportunity to advance your career in an outstanding
               environment for professional growth, all while working alongside a team of world-class open
               source experts on leading edge technology.
+
+              Requests to unsubscribe from (“opt-out”) of communications from Linaro may also be sent to unsubscribe at [remove@linaro.org](mailto:remove@linaro.org).
     - row: container_row
       style: buttons_row
       sections:
