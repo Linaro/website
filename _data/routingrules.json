@@ -311,6 +311,8 @@
   "^/projects/bigdata(/?|/index.html)$ /engineering/groups/ldcg/ [R,L,NC]",
   "^/projects/reference-digital-media-platforms-for-arm(/?|/index.html)$ /engineering/groups/lcg/ [R,L,NC]",
   "^/process(/?|/index.html)$ https://linaro.atlassian.net/wiki/spaces/Proc/overview [R,L,NC]",
+  "^/qualcomm(/?|/index.html)$ /services/qualcomm-platforms-services/ [R,L,NC]",
+  "^/services/qualcomm(/?|/index.html)$ /services/qualcomm-platforms-services/ [R,L,NC]",
   "^/redirected-service(/?|/index.html)$ / [R,L,NC]",
   "^/services-linux/bootloaders(/?|/index.html)$ /services/bootloaders/ [R,L,NC]",
   "^/services-linux/linux-kernel(/?|/index.html)$ /services/kernels-lts/ [R,L,NC]",
@@ -509,5 +511,5 @@
   "^/wp-content/uploads/mk_assets/theme-options-production.css?ver=1473319463$ / [R,L,NC]",
   "^/blog/wp-content/uploads/2011/03/ResizedImage600441-snowball1.jpg$ /blog/ [R,L,NC]",
   "^/wp-content/themes/LinaroTheme/assets/stylesheet/min/core-styles.css?ver=5.2$ / [R,L,NC]",
-  "^/linux-on-arm(/?|/index.html)$ / [R,L,NC]"  
+  "^/linux-on-arm(/?|/index.html)$ / [R,L,NC]"
 ]
