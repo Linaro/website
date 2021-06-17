@@ -1,10 +1,10 @@
 ---
 layout: post
 title: MCUboot becomes a Linaro Community Project
-description: On Thursday 17 June the [MCUboot Project joined the Linaro
-  Community Projects Division, the division of Linaro managing open source
-  community projects, including Trusted Firmware and OpenAMP. MCUboot is a
-  secure bootloader for 32-bit MCUs.
+description: On Thursday 17 June the MCUboot Project joined the Linaro Community
+  Projects Division, the division of Linaro managing open source community
+  projects, including Trusted Firmware and OpenAMP. MCUboot is a secure
+  bootloader for 32-bit MCUs.
 date: 2021-06-17 10:02:48
 image: /assets/images/content/cyber-security.jpg
 tags:
