@@ -46,38 +46,41 @@ To find out more, click on the links below to see what has been done:
 **MMTests patchset**
 This is the patchset that enables the JSON export and load of the test results.
 
-* [https://github.com/gormanm/mmtests/commit/a4e7a9e19eadb8e75f2be3321ba8cef119becd33](<[https://github.com/gormanm/mmtests/commit/a4e7a9e19eadb8e75f2be3321ba8cef119becd33](<* https://github.com/gormanm/mmtests/commit/a4e7a9e19eadb8e75f2be3321ba8cef119becd33>)>)
-* [https://github.com/gormanm/mmtests/commit/27d5d2f1dde49f8d2a782893d6e06ac9f1897340](<[https://github.com/gormanm/mmtests/commit/27d5d2f1dde49f8d2a782893d6e06ac9f1897340](<* https://github.com/gormanm/mmtests/commit/27d5d2f1dde49f8d2a782893d6e06ac9f1897340>)>)
-* [https://github.com/gormanm/mmtests/commit/c964294e9b11a934a59c5ed4df4768a0d79a94a9](<[https://github.com/gormanm/mmtests/commit/c964294e9b11a934a59c5ed4df4768a0d79a94a9](<* https://github.com/gormanm/mmtests/commit/c964294e9b11a934a59c5ed4df4768a0d79a94a9>)>)
-* [https://github.com/gormanm/mmtests/commit/95a39b0750c16da8aadff617ca46011828b96513](<[https://github.com/gormanm/mmtests/commit/95a39b0750c16da8aadff617ca46011828b96513](<* https://github.com/gormanm/mmtests/commit/95a39b0750c16da8aadff617ca46011828b96513>)>)
+<https://github.com/gormanm/mmtests/commit/a4e7a9e19eadb8e75f2be3321ba8cef119becd33>
 
-**Test definition for LAVA**
+<https://github.com/gormanm/mmtests/commit/27d5d2f1dde49f8d2a782893d6e06ac9f1897340>
+
+<https://github.com/gormanm/mmtests/commit/c964294e9b11a934a59c5ed4df4768a0d79a94a9>
+
+<https://github.com/gormanm/mmtests/commit/95a39b0750c16da8aadff617ca46011828b96513>
+
+**[](https://github.com/gormanm/mmtests/commit/95a39b0750c16da8aadff617ca46011828b96513)Test definition for LAVA**
 Here you can see the workflow for LAVA and the python script that formats the metrics that will be sent to LAVA.
 
-* [https://github.com/Linaro/test-definitions/commit/de4c57c2b8d3d877001b898a601b7753d23d2cfc](<[https://github.com/Linaro/test-definitions/commit/de4c57c2b8d3d877001b898a601b7753d23d2cfc](<* https://github.com/Linaro/test-definitions/commit/de4c57c2b8d3d877001b898a601b7753d23d2cfc>)>)
+<https://github.com/Linaro/test-definitions/commit/de4c57c2b8d3d877001b898a601b7753d23d2cfc>
 
-Successful run of a test
+[](https://github.com/Linaro/test-definitions/commit/de4c57c2b8d3d877001b898a601b7753d23d2cfc)Successful run of a test
 This is an example of a successful run of the sysbenchcpu test that shows how the metrics are defined: 
 
-* [https://lkft.validation.linaro.org/scheduler/job/2627776](<https://lkft.validation.linaro.org/scheduler/job/2627776>)
+<https://lkft.validation.linaro.org/scheduler/job/2627776>
 
-## Adding a new testcase to lkp-tests
+## [](https://lkft.validation.linaro.org/scheduler/job/2627776)Adding a new testcase to lkp-tests
 
 by Federico Gelmetti
 
-lkp-tests \[1] is a framework aimed at testing various parts of a kernel, to track its performance and robustness.
-It runs a large set of benchmarks which cover core components of the Linux kernel: virtual memory management, I/O subsystem, process scheduler, file system, network, device drivers, and more. The interest towards lkp-tests was born with the intent of adding the test cases already configured in the suite into Linaro’s test-definitions \[2] suite.
+[lkp-tests](https://01.org/lkp) \[1] is a framework aimed at testing various parts of a kernel, to track its performance and robustness.
+It runs a large set of benchmarks which cover core components of the Linux kernel: virtual memory management, I/O subsystem, process scheduler, file system, network, device drivers, and more. The interest towards lkp-tests was born with the intent of adding the test cases already configured in the suite into Linaro’s [test-definitions](https://github.com/Linaro/test-definitions) \[2] suite.
 
 After a bit of digging, we came to the conclusion that the best route would be to call lkp-tests from test-definitions directly, to avoid exporting all the individual test cases from lkp-tests to test-definitions.
-The first step in this plan is to better understand how lkp-tests works, to see if it can be integrated into test-definitions. The patch I created, available here \[3], does exactly that.
+The first step in this plan is to better understand how lkp-tests works, to see if it can be integrated into test-definitions. The patch I created, available [here](https://github.com/Gelmo96/lkp-tests/commit/e4d4c0bfaacc31a4e48632e4344534fd7dadcf88) \[3], does exactly that.
 
 The commit message describes in detail all the steps and components required to add a new test case from the ground up in lkp-tests, in order to provide useful basic information for the subsequent phases of the integration.
 The patch is by no means a full implementation of a new test for lkp-tests, but rather a writeup with a practical example of how the framework works and what it needs to operate correctly, that can be referred to later in the development to speed up the integration project.
 
 **Resources:**
-\[1] https://01.org/lkp
-\[2] https://github.com/Linaro/test-definitions
-\[2] https://github.com/Gelmo96/lkp-tests/commit/e4d4c0bfaacc31a4e48632e4344534fd7dadcf88
+\[1] <https://01.org/lkp>
+\[2] <https://github.com/Linaro/test-definitions>
+\[3] <https://github.com/Gelmo96/lkp-tests/commit/e4d4c0bfaacc31a4e48632e4344534fd7dadcf88>
 
 ## Conclusion
 
