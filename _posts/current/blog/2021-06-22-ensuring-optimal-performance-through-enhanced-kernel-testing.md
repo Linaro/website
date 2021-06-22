@@ -78,6 +78,7 @@ The commit message describes in detail all the steps and components required to 
 The patch is by no means a full implementation of a new test for lkp-tests, but rather a writeup with a practical example of how the framework works and what it needs to operate correctly, that can be referred to later in the development to speed up the integration project.
 
 **Resources:**
+
 \[1] <https://01.org/lkp>
 
 \[2] <https://github.com/Linaro/test-definitions>
