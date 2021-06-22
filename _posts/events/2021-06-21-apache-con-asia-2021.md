@@ -7,8 +7,8 @@ description: Join us from the comfort of your own home for three days of Apache
   Search to Tomcat and more.
 location: "Virtual "
 date: 2021-06-21 07:28:14
-event_date: 2021-08-08 03:28:14
-event_end_date: 2021-06-21 07:28:14
+event_date: 2021-08-06 07:28:14
+event_end_date: 2021-08-08 11:28:14
 image: /assets/images/content/screen-shot-2021-06-21-at-7.30.56-pm.png
 event_type: presenter
 ---
