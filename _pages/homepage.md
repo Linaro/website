@@ -1,13 +1,6 @@
 ---
 title: Accelerating deployment of Arm-based solutions
-description: Linaro has driven open source software development on Arm since
-  2010. Companies become members to work with us and other industry leaders on
-  software projects which deliver standardization and a base to differentiate
-  on. Together we develop strategy which is then implemented by Linaro and
-  member company engineers. Bringing engineering resource together to
-  collaborate on common software projects reduces overall fragmentation,
-  allowing member companies to reduce their costs for development and validation
-  of Arm-based software.
+description: The collaboration platform for the Arm partnership. Members can collaborate on open source software, where solutions are discussed & worked upon.
 permalink: /
 keywords:
   - arm software

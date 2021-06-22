@@ -1,12 +1,12 @@
 ---
 title: Careers at Linaro
 description: |-
-    If you have a passion for working on open source projects and being part of a community then you belong at Linaro. Linaro offers its employees the opportunity to work with leading edge technology and the latest hardware.
+    We offer employees the opportunity to work with latest hardware & leading edge technology. If you love working on open source projects, then you belong at Linaro. 
 layout: flow
 permalink: /careers/
 js-package: careers
 jumbotron:
-    title: Want to help build technology for the future?
+    title: Careers at Linaro
     description: ""
     inner_class: text-center
     image: /assets/images/content/careers-image-1.jpg
