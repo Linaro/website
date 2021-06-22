@@ -31,7 +31,7 @@ While functional testing plays a critical role in ensuring the quality of the ke
 
 In this blog, Linaro Interns Mirco Romagnoli and Federico Gelmetti talk about the functionality they have enabled to support performance testing. 
 
-## Add MMTests support to LAVA
+## Adding MMTests support to LAVA
 
 by Mirco Romagnoli 
 
@@ -79,7 +79,9 @@ The patch is by no means a full implementation of a new test for lkp-tests, but 
 
 **Resources:**
 \[1] <https://01.org/lkp>
+
 \[2] <https://github.com/Linaro/test-definitions>
+
 \[3] <https://github.com/Gelmo96/lkp-tests/commit/e4d4c0bfaacc31a4e48632e4344534fd7dadcf88>
 
 ## Conclusion
