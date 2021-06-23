@@ -1,9 +1,7 @@
 ---
 title: Linaro Developer Services
 description: |-
-  We at Linaro Developer Services are Arm software engineering experts. We pride ourselves on
-  the breadth of our hands-on experience and knowledge, depth of our capabilities, quality of
-  our work and professionalism of the engagements with our customers.
+  We pride ourselves on being Arm software engineering experts with our experience & knowledge, capabilities, quality of our work & professionalism with our customers.
 permalink: /services/
 service_id: 99
 jumbotron: 

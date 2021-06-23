@@ -1,11 +1,11 @@
 ---
-title: Blog
+title: Our Blog
 permalink: /blog/
 description: >
-  This is the official Linaro blog.
+  Read our official Linaro blog posts to get the latest updates and news within the industry. 
 tags_enabled: true
 jumbotron:
-  title: Blog
+  title: Our Blog
 flow:
   - row: container_row
     sections:

@@ -1,8 +1,6 @@
 ---
-title: About Linaro
-description: Linaro has driven open source software development on Arm since
-  2010, providing the tools, Linux kernel quality and security needed for a
-  solid foundation to innovate on.
+title: About
+description: Linaro has driven open source software development on Arm since 2010, providing the tools, Linux kernel quality and security needed for a solid foundation to innovate on.
 permalink: /about/
 keywords:
   - Arm
@@ -12,7 +10,7 @@ css_bundle: about
 layout: flow
 jumbotron:
   class: about_page text-center h-auto
-  title: Arm Software Experts
+  title: About Linaro
   description: ""
   image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:
