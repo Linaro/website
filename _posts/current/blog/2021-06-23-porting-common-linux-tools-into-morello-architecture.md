@@ -22,7 +22,7 @@ author: linaro
 ---
 ## Introduction
 
-[Morello](https://developer.arm.com/architectures/cpu-architecture/a-profile/morello) is a research program developed by Arm in collaboration with the University of Cambridge. Its aim is to develop and use a Capability Hardware Enhanced RISC Instructions (CHERI) architecture. Morello makes use of non-software-forgeable 128(+1)-bit Capabilities, which should be able to limit how references are used. This has the potential to improve memory safety, which should, in turn, make future systems more secure. Capabilities can also help with software compartmentalization, ensuring that  the effects of an attack are less severe. In order to test the architecture, there is currently a Morello compatible Android build
+[Morello](https://developer.arm.com/architectures/cpu-architecture/a-profile/morello) is a research program developed by Arm in collaboration with the University of Cambridge. Its aim is to develop and use a Capability Hardware Enhanced RISC Instructions (CHERI) architecture. Morello makes use of non-software-forgeable 128(+1)-bit Capabilities, which should be able to limit how references are used. This has the potential to improve memory safety, which should, in turn, make future systems more secure. Capabilities can also help with software compartmentalization, ensuring that  the effects of an attack are less severe. In order to test the architecture, there is currently a Morello compatible Android build.
 
 Since Morello is a research project, it has many loose ends and open questions. A key element for new software projects is that they’re somewhat easy to get started with and work with. The purpose of the work undertaken by Linaro interns Lorenzo Carletti and Camilla Memola (overseen by Joakim Bech, Distinguished Engineer at Linaro) was to understand where Morello falls on the scale. Is it really complicated and cumbersome to work with or is it something that is fairly easy to get started with? By working on the Morello project, the Linaro interns were able to report back to the people running the project as to what work was needed to simplify getting started. 
 
@@ -53,7 +53,7 @@ The steps followed to do the porting can be found here: <https://github.com/Cami
 
 With some initial guidance it wasn’t too difficult to port applications to run as pure capability binaries if you are somewhat used to working with an Android/AOSP build environment. 
 
-We set no rules about the tools and applications to port, but we ended up with two that are used a lot on a daily basis, namely curl and wget. Officially more than 250 companies are using curl in one way or another. So, it made a lot of sense to see what it’d take to port curl to run as a pure capability application in Morello. Wget is a similar tool, probably not as popular as curl, but wget is something that lots of people are using in shell-scripts etc, so definitely a good choice.
+We set no rules about the tools and applications to port, but we ended up with two that are used a lot on a daily basis, namely curl and wget. Officially more than [250 companies](https://curl.se/docs/companies.html) are using curl in one way or another. So, it made a lot of sense to see what it’d take to port curl to run as a pure capability application in Morello. Wget is a similar tool, probably not as popular as curl, but wget is something that lots of people are using in shell-scripts etc, so definitely a good choice.
 
 ## How to get involved with the Morello project
 
