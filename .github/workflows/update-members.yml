@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  confluence:
-    runs-on: self-hosted
-    steps:
-      - name: Rebuild Confluence pages
-        run: cd /srv/github-action-scripts && pipenv run python rebuild_confluence_pages.py
+#   confluence:
+#     runs-on: self-hosted
+#     steps:
+#       - name: Rebuild Confluence pages
+#         run: cd /srv/github-action-scripts && pipenv run python rebuild_confluence_pages.py
 
   website:
     runs-on: self-hosted
