@@ -280,7 +280,6 @@
   "^/engineering/engineering-projects/output(/?|/index.html)$ /downloads/ [R,L,NC]",
   "^/engineering/getting-started(/?|/index.html)$ /developers/ [R,L,NC]",
   "^/engineering/getting-started/discuss(/?|/index.html)$ /developers/ [R,L,NC]",
-  "^/engineering/getting-started/discuss/irc-logs(/?|/index.html)$ /contact/irc/ [R,L,NC]",
   "^/engineering/getting-started/low-cost-development-boards(/?|/index.html)$ /developers/ [R,L,NC]",
   "^/engineering/getting-started/low-cost-development-boards/32543(/?|/index.html)$ /developers/ [R,L,NC]",
   "^/engineering/getting-started/low-cost-development-boards/beagleboard-xm-and-beaglebone(/?|/index.html)$ /developers/ [R,L,NC]",

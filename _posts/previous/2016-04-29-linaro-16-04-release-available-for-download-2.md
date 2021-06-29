@@ -65,17 +65,11 @@ More information on Linaro can be found on our websites:
 
 - Wiki: [http://wiki-archive.linaro.org](http://wiki-archive.linaro.org/)
 
-Also subscribe to the important Linaro mailing lists and join our IRC channels to stay on top of Linaro developments:
+Also subscribe to the important Linaro mailing lists to stay on top of Linaro developments:
 
 - Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
 
 - Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
-
-- IRC:
-
-  - #linaro on irc.linaro.org or irc.freenode.net
-
-  - #linaro-android irc.linaro.org or irc.freenode.net
 
 **KNOWN ISSUES WITH THIS RELEASE**
 
