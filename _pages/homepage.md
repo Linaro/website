@@ -48,10 +48,10 @@ flow:
           size: h2
       - format: text
         text_content:
-          text: "If you want to work with Linaro’s technical domain experts and other
+          text: If you want to work with Linaro’s technical domain experts and other
             industry leaders on solving common problems, then Linaro membership
             is the option for you. Click on the videos below to find out why our
-            members choose to partner with Linaro:"
+            members choose to partner with Linaro.
       - format: buttons
         buttons_content:
           - title: Learn more
@@ -66,23 +66,18 @@ flow:
     style: dev_services_blocks
     sections:
       - format: title
-        style: text-center
         title_content:
-          size: h2
           text: Linaro Developer Services
       - format: text
         text_content:
           text: If you want to leverage Linaro’s Arm and open source software expertise on
             a specific project, then working with Linaro Developer Services is
-            the right option for you.
-      - format: text
-        text_content:
-          text: >
-            Linaro Developer Services help companies build their products on
-            Arm. From initial design through to planning, implementation and
-            support and training, Linaro Developer Services help you leverage
-            open source on Arm to ensure fast time to market, exceptional
-            quality and security, and cost effective long term maintenance.
+            the right option for you. Linaro Developer Services help companies
+            build their products on Arm. From initial design through to
+            planning, implementation and support and training, Linaro Developer
+            Services help you leverage open source on Arm to ensure fast time to
+            market, exceptional quality and security, and cost effective long
+            term maintenance.
       - format: custom_include
         source: home/dev_services_blocks.html
       - format: buttons
