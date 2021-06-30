@@ -63,14 +63,6 @@ flow:
         source: components/testimonial_slider.html
     style: testimonial_row bg-light
   - row: container_row
-    style: large_type introduction_row py-0
-    sections:
-      - format: text
-        text_content:
-          text: If you want to leverage Linaro’s Arm and open source software expertise on
-            a specific project, then working with Linaro Developer Services is
-            the right option for you.
-  - row: container_row
     style: dev_services_blocks
     sections:
       - format: title
@@ -78,6 +70,11 @@ flow:
         title_content:
           size: h2
           text: Linaro Developer Services
+      - format: text
+        text_content:
+          text: If you want to leverage Linaro’s Arm and open source software expertise on
+            a specific project, then working with Linaro Developer Services is
+            the right option for you.
       - format: text
         text_content:
           text: >
