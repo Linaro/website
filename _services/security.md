@@ -41,7 +41,7 @@ flow:
     source: services/developer_services_form.html
 icon: /assets/images/content/Icon_Security.svg
 ---
-## Linaro Developer Services has significant experience securing Arm systems; including secure boot, working with TrustZone, porting OP-TEE and working with Trusted Applications.
+## [Linaro Developer Services](https://www.linaro.org/services/) has significant experience securing Arm systems; including secure boot, working with TrustZone, porting OP-TEE and working with Trusted Applications.
 
 **Open Portable Trusted Execution Environment (OP-TEE)**
 
@@ -53,4 +53,4 @@ icon: /assets/images/content/Icon_Security.svg
 
   \-  TEE Internal Core API v1.1 [specification](https://globalplatform.org/)
 
-**Let Developer Services help your company with all aspects of security related to product implementation on Arm.**
+**[Let Developer Services help your company](https://www.linaro.org/contact/) with all aspects of security related to product implementation on Arm.**
