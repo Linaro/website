@@ -45,7 +45,8 @@ flow:
 icon: /assets/images/content/Icon_Kernel_and_Long-term_Support.svg
 ---
 ## \
-Linaro Developer Services has deep and wide kernel engineering and maintenance expertise.
+
+[Linaro Developer Services ](https://www.linaro.org/services/)has deep and wide kernel engineering and maintenance expertise.
 
 \
 **We can maintain your kernel and backport key kernel features**
@@ -57,4 +58,4 @@ Linaro Developer Services has deep and wide kernel engineering and maintenance e
 * Provide long term support and maintenance of the kernel for their product platforms
 * Upgrade to newer kernels and builds smoothly when needed
 
-**Let Developer Services help you leverage the full benefit and advantage of Linux and Zephyr on Arm.**
+**[Let Developer Services help you](https://www.linaro.org/contact/) leverage the full benefit and advantage of Linux and Zephyr on Arm.**
