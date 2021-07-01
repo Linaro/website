@@ -50,7 +50,7 @@ flow:
 icon: /assets/images/content/Icon_96boards.svg
 image: /assets/images/content/LinaroDSVertical.png
 ---
-## Linaro Developer Services has a wealth of experience with Linaro's 96Boards program.  We have developed the complete BSP for several boards and have provided aid to many other board and SoC manufacturers.  We offer the following services:
+## [Linaro Developer Services](https://www.linaro.org/services/) has a wealth of experience with Linaro's 96Boards program.  We have developed the complete BSP for several boards and have provided aid to many other board and SoC manufacturers.  We offer the following services:
 
 \
 **Architecture and design consultancy**
@@ -77,4 +77,4 @@ image: /assets/images/content/LinaroDSVertical.png
 
   * Bootloaders, kernels, OS changes
 
-Let Linaro Developer Services help provide superb software support for your 96Board.
+[Let Linaro Developer Services help](https://www.linaro.org/contact/) provide superb software support for your 96Board.
