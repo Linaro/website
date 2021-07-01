@@ -44,7 +44,7 @@ flow:
     source: services/developer_services_form.html
 icon: /assets/images/content/Icon_Testing___Validation.svg
 ---
-## Linaro Developer Services provides comprehensive continuous integration (CI) testing for client’s development and product software.  We offer the following services:
+## [Linaro Developer Services](https://www.linaro.org/services/) provides comprehensive continuous integration (CI) testing for client’s development and product software.  We offer the following services:
 
 * CI loop planning and deployment services
 * Test plan development and test development
@@ -61,4 +61,4 @@ Linaro is the developer and maintainer of LAVA (Linaro Automated Validation Arch
 
   \-  Experience designing and deploying similar test farms at member sites
 
-Need help with testing?  Talk to Developer Services today!
+Need help with testing?  [Talk to Linaro Developer Services toda](https://www.linaro.org/contact/)y!
