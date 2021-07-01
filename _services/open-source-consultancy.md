@@ -41,7 +41,7 @@ flow:
     source: services/developer_services_form.html
 icon: /assets/images/content/Icon_OSS.svg
 ---
-## Developer Services has extensive experience successfully building working relationships with open source communities.
+## [Linaro Developer Services](https://www.linaro.org/services/) has extensive experience successfully building working relationships with open source communities.
 
 * We provide advice and training to customers to help them significantly improve their working relationship with open source communities and successfully achieve their goals
 * We have significant expertise with the wide range of open source licenses currently in use in the open source
@@ -50,4 +50,4 @@ icon: /assets/images/content/Icon_OSS.svg
 * Our expertise enables clients to maximize their use of open source in their product platforms without worry
 * Extensive experience reviewing client code before submission to communities enabling faster acceptance
 
-Need help with open source software?  Let Linaro Developer Services help you.
+Need help with open source software?  [Let Linaro Developer Services](https://www.linaro.org/contact/) help you.
