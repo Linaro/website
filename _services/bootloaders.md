@@ -41,7 +41,7 @@ flow:
     source: services/developer_services_form.html
 icon: /assets/images/content/Icon_Bootloaders.svg
 ---
-## Linaro Developer Services has broad experience helping companies plan and implement the right bootloader architecture for their commercial product platform, including:
+## [Linaro Developer Services](https://www.linaro.org/services/) has broad experience helping companies plan and implement the right bootloader architecture for their commercial product platform, including:
 
 * **Arm Trusted Firmware**
 * **UEFI**
@@ -59,6 +59,6 @@ icon: /assets/images/content/Icon_Bootloaders.svg
 * Worked with customers to implement challenging product secure boot requirements
 * Example: Delivered complete trusted boot architecture using U-Boot and Linux on customer selected boards
 
-**Developer Services is a direct contributor to the Arm Trusted Firmware, UEFI and U-Boot projects**
+**Linaro Developer Services is a direct contributor to the Arm Trusted Firmware, UEFI and U-Boot projects**
 
-Developer Services is able to confidently design and deliver secure boot solutions.  Let us help you get your board booting faster.
+Linaro Developer Services is able to confidently design and deliver secure boot solutions.  [Let us help you](https://www.linaro.org/contact/) get your board booting faster.
