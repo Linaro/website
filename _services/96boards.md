@@ -1,6 +1,8 @@
 ---
 title: 96Boards Product Development & Support
-description: " "
+description: Linaro Developer Services has a wealth of experience with Linaro's
+  96Boards program.  We have developed the complete BSP for several boards and
+  have provided aid to many other board and SoC manufacturers.
 permalink: /services/96boards/
 service_id: 1
 keywords:
