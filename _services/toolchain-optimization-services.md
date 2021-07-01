@@ -45,7 +45,7 @@ flow:
     source: services/developer_services_form.html
 icon: /assets/images/content/Icon_Toolchain_Optimization.svg
 ---
-## Linaro has world class teams with deep understanding of the Arm architecture and Arm toolchain (GNU toolchain and LLVM).  Linaro Developer Services has deep experience with:
+## Linaro has world class teams with deep understanding of the Arm architecture and Arm toolchain (GNU toolchain and LLVM).  [Linaro Developer Services](https://www.linaro.org/services/) has deep experience with:
 
 * Microarchitecture optimizations (tuning, custom instructions scheduler, and advanced optimizations)
 * Optimization of libraries, both code generation against custom workloads and algorithmic optimizations
@@ -53,4 +53,4 @@ icon: /assets/images/content/Icon_Toolchain_Optimization.svg
 * Providing rapid response to toolchain issues
 * Developer Services has significant experience with development in this area for Arm architectural licensees
 
-Interested in a toolchain tuned for your SoC?  Let Linaro Developer Services help you.
+Interested in a toolchain tuned for your SoC?  [Let Linaro Developer Services help you](https://www.linaro.org/contact/).
