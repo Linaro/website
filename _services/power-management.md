@@ -42,7 +42,7 @@ flow:
 icon: /assets/images/content/Icon_Power_Management_Tuning.svg
 image: /assets/images/content/LinaroDSVertical.png
 ---
-## Linaro has a world class team with deep understanding of the Arm architecture and Linux power management framework.  In Developer Services we have:
+## Linaro has a world class team with deep understanding of the Arm architecture and Linux power management framework.  In [Linaro Developer Services](https://www.linaro.org/services/) we have:
 
 * Hands on experience tuning the Energy Aware Scheduler in the Linux kernel for several SoCs
 * Experience maintaining long term EAS branches in the Linaro Stable Kernel (LSK) for use by Linaro members
@@ -51,4 +51,4 @@ image: /assets/images/content/LinaroDSVertical.png
 * DVFS, EAS
 * Power management skills in a variety of commercial niches (mobile, set top box, embedded devices)
 
-Let Linaro Developer Services help improve the power management capabilities of your product.
+[Let Linaro Developer Services help](https://www.linaro.org/contact/) improve the power management capabilities of your product.
