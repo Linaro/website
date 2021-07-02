@@ -1,11 +1,11 @@
 ---
-title: Blog Posts based on Themes
+title: News & Blog Posts based on Themes
 permalink: /blog/themes/
 sitemap: false
 description: >
-  Filter blog posts by theme.
+  Filter news & blog posts by theme.
 jumbotron:
-  title: Blog Posts by Theme
+  title: News & Blog Posts by Theme
 flow:
   - row: container_row
     sections:
