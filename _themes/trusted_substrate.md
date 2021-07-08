@@ -31,6 +31,12 @@ jumbotron:
       - title: How can Linaro help?
         url: "#contact_form"
         style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase theme_contact_btn
+      - title: Download White Paper
+        url: "/"
+        style: btn btn-primary white_on_black_btn btn-lg my-md-3 d-none d-md-inline-block text-uppercase theme_contact_btn
+      - title: Download White Paper
+        url: "/"
+        style: btn btn-primary white_on_black_btn btn-sm my-2 d-inline-block d-md-none text-uppercase theme_contact_btn
 sub_themes:
   - Dependable Boot
   - Over-the-air Updates
@@ -59,18 +65,22 @@ flow:
        - format: text
          text_content: 
           text: |
-            **Trusted Substrate** is a BIOS that brings standards based secure booting and over-the-air (OTA) updates to the most trust-demanding computing environments.
-            It builds on Arm SystemReady specifications to deliver best in class solutions for industrial, automotive and telecom edge. OTA is a key value of Trusted Substrate as it allows any firmware components to be updated with anti-bricking and anti-roll back protections, and will allow transactional updates in asymmetric computing, cortex-A+cortex-M  solutions.
+            ### Trusted Substrate Panel Discussion
 
-            **Dependable Boot**
-            When exposed outside data centers, computers of all sizes are vulnerable to a whole new set of risks. Linaro Trusted Substrate aims to mitigate such threats as defined in various documents from NIST on firmware security or from the United Nations on Vehicle cybersecurity. For instance, a key aspect of a Dependable Boot process is that BIOS should behave in a deterministic manner under physical attacks such as glitching. 
-
-            **Over-the-air updates**
-            Over-the-air updates have been around for a while but this process needs to reach a degree of scalability and trust never seen before. Standard bricking and rollback protections of any updated BIOS component is a must. A key challenge is to allow full transactional updates of complex boards with heterogeneous computing,  accelerators and various micro-controllers: all firmware components must be updated to a new version or not updated at all. Last but not least, vouching for the successful update of a system (firmware, operating system, application software) should be flexible to accommodate rich policies.
-
-            **Trust Services**
-            Trusted Substrate is being developed to facilitate portable Trust Services across processor architectures and platforms. For instance, Linaro expects to reduce the cost of developing and maintaining Trust Services such as  Digital Rights Management and Digital Wallets.
-
+            The goal of the Trusted Substrate panel is to discuss what’s new on the firmware planet and how it is influencing Linux. In addition to this, panelists will discuss their views on: The value of standardized firmware interfaces, particularly on OTA The strategic value of firmware as it is changing role The continued importance of working upstream Safety certification in industrial and automotive areas.
+    - row: container_row
+      style: youtube_embed_row bg-light
+      sections:
+        - format: youtube
+          style: #
+          url: https://www.youtube.com/watch?v=8Ttg-p7-uys
+          #   poster_image: /assets/images/test/background-image1.jpg
+          title: LVC21-300K2 Trusted Substrate Panel
+    - row: container_row
+      sections:
+       - format: text
+         text_content: 
+          text: |
             ### Is the project for me?
 
             If you are a product builder you may want to lead specific aspects of the ownership lifecycle, software supply chain integration or over-the-air updates for instance. Some tenders may require compliance to regulatory or industry specific trust related documentation (NIST,  UN.WP29, ASIL…).
@@ -83,8 +93,6 @@ flow:
             Membership gives you the opportunity to push and promote your secure element and your innovative crypto accelerators as well as silicon based hardware attack mitigations.
 
             If your business relies on trusted applications such as Digital Rights Management, Digital Wallet or fingerprint authentication, you may want to lead the transformation of the trusted application life cycle and lead its specification and technical roadmap.
-
-
     - row: container_row
       style: associated_members
       sections:
