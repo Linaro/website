@@ -3,32 +3,6 @@
         {
             "Project Contact Information": {
                 "Meetings": "",
-                "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/asa-dev\">ASA-dev mailing list</a>.<br>"
-            },
-            "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/ASA?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/ASA\">https://collaborate.linaro.org/display/ASA</a>",
-                "Theme": [
-                    "Kernel & Toolchain",
-                    "Security",
-                    "Virtualization"
-                ],
-                "description": "Primarily focused on Server Standardisation. Examples to include SBSA, xBBR to enable simplified adoption of mainline builds on new server hardware.",
-                "title": "Arm Server Architecture"
-            },
-            "Project Ownership": {
-                "Governing Entity": "LDCG SC",
-                "Project Owner": "Elsie Wahlig <a class=\"email-icon\" href=\"mailto:elsie.wahlig@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Elsie Wahlig <a class=\"email-icon\" href=\"mailto:elsie.wahlig@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=12910&avatarId=10904",
-            "key": "ASA"
-        },
-        {
-            "Project Contact Information": {
-                "Meetings": "",
                 "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/bdds-dev\">BDDS-dev mailing list</a>.<br>"
             },
             "Project Information": {
