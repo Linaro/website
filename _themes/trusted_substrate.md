@@ -74,7 +74,7 @@ flow:
         - format: youtube
           style: #
           url: https://www.youtube.com/watch?v=8Ttg-p7-uys
-          #   poster_image: /assets/images/test/background-image1.jpg
+          poster_image: /assets/images/content/LVC21-300K2-poster.png
           title: LVC21-300K2 Trusted Substrate Panel
     - row: container_row
       sections:
