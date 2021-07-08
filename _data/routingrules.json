@@ -1,4 +1,5 @@
 [
+  "^/admin(/?|/index.html)$ /admin/#/ [R,L,NC]",
   "^/%20https:/lwn.net/Articles/507986(/?|/index.html)$ / [R,L,NC]",
   "^/2016/10(/?|/index.html)$ / [R,L,NC]",
   "^/96boards(/?|/index.html)$ https://www.96boards.org [R,L,NC]",
