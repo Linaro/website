@@ -350,6 +350,7 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Link, name: url, widget: string, required: false }
+              - { label: Icon, name: icon, widget: string, required: false }
               - {
                   label: Active,
                   name: active,
