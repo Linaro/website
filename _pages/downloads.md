@@ -1,9 +1,6 @@
 ---
 title: Builds & Downloads
-description: Linaro maintains various development repositories and makes regular
-  releases of many builds including Android, LAVA Test Framework, Key Toolchains
-  and builds for specific member products. This page provides links to many of
-  the more popular downloads produced by Linaro’s engineering teams.
+description: We maintain development repositories & make regular releases of many builds including Android, LAVA Test Framework, Key Toolchains & builds for specific products.
 permalink: /downloads/
 keywords:
   - Cortex-A GCC 8.3-2019.03

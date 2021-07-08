@@ -5,8 +5,7 @@ event_url: ""
 description: "Deep dive into the Arm Confidential Compute Architecture "
 location: "Online "
 date: 2021-05-03 09:59:28
-event_date: 2021-06-23 02:00:51
-event_end_date: 2021-06-23 01:59:28
+event_date: 2021-06-23 02:00:00
 image: /assets/images/content/cca-banner_v4.jpg
 event_type: sponsor
 ---
