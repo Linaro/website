@@ -1,14 +1,14 @@
 ---
-title: Projects
+title: Our Projects
 description: >-
-   The projects below are only a subset of the leading edge Arm developments actively being worked on by Linaro, its member partners, and the open source community.  Join us in the common goal of accelerating your product deployment within the Arm ecosystem!
+   Our displayed projects are only a subset of the leading edge Arm developments actively being worked on by Linaro, its member partners, & open source community. 
 layout: flow
 permalink: /projects/
 css_bundle: projects
 js-package: projects
 jumbotron:
     class: projects_banner text-center
-    title: Projects
+    title: Our Projects
     image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:
     - row: container_row
