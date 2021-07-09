@@ -21,7 +21,7 @@ tags:
 category: news
 author: linaro
 ---
-Linaro Ltd, the open-source collaborative engineering organization developing software for the Arm® ecosystem, today announced the availability of the Windows 10 on Arm bot support and binary as part of the LLVM 12.0.0 release.
+Linaro Ltd, the open-source collaborative engineering organization developing software for the Arm® ecosystem, today announced the availability of the Windows 10 on Arm bot support and binary as part of the LLVM 12.0.0 release. 
 
 This is the first LLVM release for Windows 10 on Arm and marks a significant step towards enabling developers to build natively with LLVM on Windows 10 on  Arm. The binary includes a compiler, linker and compiler libraries and will be available to download from [the LLVM Project on GitHub](https://github.com/llvm/llvm-project/releases).
 
