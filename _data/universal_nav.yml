@@ -6,6 +6,8 @@ items:
     url: "https://connect.linaro.org"
   - title: 96Boards
     url: "https://www.96boards.org"
+  - title: CodeLinaro
+    url: "https://www.codelinaro.org/"
   - title: Twitter
     icon: icon-twitter
     url: "https://twitter.com/LinaroOrg"

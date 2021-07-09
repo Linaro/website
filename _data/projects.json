@@ -2,56 +2,6 @@
     "projects": [
         {
             "Project Contact Information": {
-                "Meetings": "Weekly engineering sync meeting on Wednesdays 10am Central Time (US)",
-                "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/ai-dev\">AI-dev mailing list</a>.<br>"
-            },
-            "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=281#\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "",
-                "Theme": [
-                    "Artificial Intelligence"
-                ],
-                "description": "Artificial Intelligence related activities that span from Server, Edge to Micro-controllers. <br><br><ul><li> Micro-Controller activity is primarily focused on MicroTVM an open source AI compiler framework under active development.</li><li> Cortex-A related efforts involve the following AI frameworks : ArmNN, ACL (Arm Compute Library), ONNX, PyTorch, Tensorflow, Tensorflow Lite and Tensorflow Micro. </li></ul>The project includes a CI system which is made up of a diverse set of member hardware to perform validation and benchmarking to catch regressions. Many open source AI framework communities do not include an ARM as such having one an important in order to advance our work",
-                "title": "AI Project"
-            },
-            "Project Ownership": {
-                "Governing Entity": "TSC",
-                "Project Owner": "Tom Gall <a class=\"email-icon\" href=\"mailto:tom.gall@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Tom Gall <a class=\"email-icon\" href=\"mailto:tom.gall@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=11901&avatarId=13207",
-            "key": "AI"
-        },
-        {
-            "Project Contact Information": {
-                "Meetings": "",
-                "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/asa-dev\">ASA-dev mailing list</a>.<br>"
-            },
-            "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/ASA?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/ASA\">https://collaborate.linaro.org/display/ASA</a>",
-                "Theme": [
-                    "Kernel & Toolchain",
-                    "Security",
-                    "Virtualization"
-                ],
-                "description": "Primarily focused on Server Standardisation. Examples to include SBSA, xBBR to enable simplified adoption of mainline builds on new server hardware.",
-                "title": "Arm Server Architecture"
-            },
-            "Project Ownership": {
-                "Governing Entity": "LDCG SC",
-                "Project Owner": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=12910&avatarId=10904",
-            "key": "ASA"
-        },
-        {
-            "Project Contact Information": {
                 "Meetings": "",
                 "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/bdds-dev\">BDDS-dev mailing list</a>.<br>"
             },
@@ -68,7 +18,7 @@
             },
             "Project Ownership": {
                 "Governing Entity": "LDCG SC",
-                "Project Owner": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>",
+                "Project Owner": "Elsie Wahlig <a class=\"email-icon\" href=\"mailto:elsie.wahlig@linaro.org\"><span class=\"icon-mail\"></span></a>",
                 "Technical Lead": "Ganesh Raju <a class=\"email-icon\" href=\"mailto:ganesh.raju@linaro.org\"><span class=\"icon-mail\"></span></a>"
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=12902&avatarId=14204",
@@ -77,13 +27,13 @@
         {
             "Project Contact Information": {
                 "Meetings": "",
-                "Point of Contact": "[Peter <a href=\"mailto:Griffin|peter.griffin@linaro.org]\">Griffin|peter.griffin@linaro.org]</a>"
+                "Point of Contact": "Peter Griffin <a class=\"email-icon\" href=\"mailto:peter.griffin@linaro.org\"><span class=\"icon-mail\"></span></a>"
             },
             "Project Information": {
                 "Health Check Report": "",
                 "JIRA Structure": "<a href=\" https://projects.linaro.org/projects/CAM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure&s=259#\">Scope of work breakdown </a>",
                 "Plan Of Record": "",
-                "Project Homepage": "",
+                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/CAMERA/Camera+Home\">https://collaborate.linaro.org/display/CAMERA/Camera+Home</a>",
                 "Theme": [
                     "Android Ecosystem"
                 ],
@@ -116,7 +66,7 @@
             },
             "Project Ownership": {
                 "Governing Entity": "LDCG SC",
-                "Project Owner": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>",
+                "Project Owner": "Elsie Wahlig <a class=\"email-icon\" href=\"mailto:elsie.wahlig@linaro.org\"><span class=\"icon-mail\"></span></a>",
                 "Technical Lead": "Kevin Zhao <a class=\"email-icon\" href=\"mailto:kevin.zhao@linaro.org\"><span class=\"icon-mail\"></span></a>"
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=10802&avatarId=14209",
@@ -145,31 +95,6 @@
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=11905&avatarId=13106",
             "key": "GNU"
-        },
-        {
-            "Project Contact Information": {
-                "Meetings": "",
-                "Point of Contact": ""
-            },
-            "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/HPC?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/HPCSIG\">https://collaborate.linaro.org/display/HPCSIG</a>",
-                "Theme": [
-                    "Artificial Intelligence",
-                    "OS Build & Test"
-                ],
-                "description": "High Performance Computing & Artificial Intelligence<br><br>Drive the adoption of ARM in HPC through standardisation, interoperability, orchestration and use case development. Leverage ARM-based hardware around server class infrastructure, multi-gigabit interconnect support, scalable vector extensions and software ecosystem support to build exascale HPC deployments. The engineering focus is on OpenHPC, application performance, AI solutions, SVE enablement and hardware deployment.",
-                "title": "HPC-AI"
-            },
-            "Project Ownership": {
-                "Governing Entity": "LDCG SC",
-                "Project Owner": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=11202&avatarId=14303",
-            "key": "HPCAI"
         },
         {
             "Project Contact Information": {
@@ -209,7 +134,7 @@
                     "OS Build & Test",
                     "Android Ecosystem"
                 ],
-                "description": "Our core mission is to improve the quality of the Linux kernel by testing its upstream releases on Arm and X86 hardware as well as virtual platforms of various architectures.  We focus on long term support kernels (LTS), stable, and upstream development branches.<br><br><br><br><br><br>",
+                "description": "The mission of the Linux Kernel Quality project is to improve the quality of the Linux kernel by testing its upstream and Android Common kernel  on releases on Arm and X86 hardware and virtual platforms of various architectures.<br><br>You can learn more at <a href=\"https://lkft.linaro.org/\">lkft.linaro.org</a><br><br><br><br>",
                 "title": "Linux Kernel Quality"
             },
             "Project Ownership": {
@@ -223,35 +148,11 @@
         {
             "Project Contact Information": {
                 "Meetings": "",
-                "Point of Contact": "Vincent Guittot "
-            },
-            "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/LSE?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/LSE\">https://collaborate.linaro.org/display/LSE</a>",
-                "Theme": [
-                    "Kernel & Toolchain"
-                ],
-                "description": "Although a lot of changes happened in the linux storage over the past years with rewrite of the kernel\u2019s block layer and new I/O schedulers, some areas like embedded storage and I/O latency performance still deserve further improvements. The project will focus on delivering these missing features.",
-                "title": "Linux Storage Evolution"
-            },
-            "Project Ownership": {
-                "Governing Entity": "TSC",
-                "Project Owner": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Ulf Hansson <a class=\"email-icon\" href=\"mailto:ulf.hansson@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=12904&avatarId=10202",
-            "key": "LSE"
-        },
-        {
-            "Project Contact Information": {
-                "Meetings": "",
                 "Point of Contact": ""
             },
             "Project Information": {
                 "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=294#\">Workf breakdown</a>",
+                "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=294#\">Work breakdown</a>",
                 "Plan Of Record": "",
                 "Project Homepage": "",
                 "Theme": [
@@ -267,31 +168,6 @@
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=13003&avatarId=14407",
             "key": "EULR"
-        },
-        {
-            "Project Contact Information": {
-                "Meetings": "",
-                "Point of Contact": "Join the conversation by joining the <a href=\"https://op-lists.linaro.org/mailman/listinfo/perf-dev\">perf-dev mailing list</a>."
-            },
-            "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/PERF?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/PERF\">https://collaborate.linaro.org/display/PERF</a>",
-                "Theme": [
-                    "Kernel & Toolchain",
-                    "Android Ecosystem"
-                ],
-                "description": "Performance and Power Management have always been tightly linked because the power consumption often arises as a variable of the performance of the system. Mobile Phone world has been one of the most active contributors in this area with the aim to run always more powerful systems on always more constrained batteries. In fact,  most of systems can\u2019t afford to simply put everything to its maximum performance level but has to follow either a thermal budget or a maximum power budget.  In this way, large systems also have to deal with those constraints in order to use their power budget efficiently and reach maximum performances. This project aims to improve the efficiency of all ARM based Linux systems, small or large, by improving Linux subsystems that influence its performance or power consumption, which includes the scheduler or the thermal framework in addition to the traditional power management subsystems.",
-                "title": "Power and Performance"
-            },
-            "Project Ownership": {
-                "Governing Entity": "TSC",
-                "Project Owner": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=12913&avatarId=10209",
-            "key": "PERF"
         },
         {
             "Project Contact Information": {

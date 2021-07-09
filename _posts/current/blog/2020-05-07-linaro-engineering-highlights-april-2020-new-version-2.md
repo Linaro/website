@@ -116,7 +116,7 @@ All of the above have been merged, while work is in progress for three syscalls 
 
 Linaro IoT and Embedded (LITE)
 
-Kevin Townsend, LITE Senior Engineer, completed certification of the TF-M integration with Zephyr. This effort was featured on the PSA Certified website in the Partner [showcase](https://www.psacertified.org/partner-showcase/).
+Kevin Townsend, LITE Senior Engineer, completed certification of the TF-M integration with Zephyr. This effort was featured on the [PSA Certified website](https://www.psacertified.org/products/zephyr-project/).
 
 {% include image.html path="/assets/images/content/lite.jpg" class="small-inline left" alt="lite.jpg" %}
 

@@ -1,9 +1,6 @@
 ---
 title: Builds & Downloads
-description: Linaro maintains various development repositories and makes regular
-  releases of many builds including Android, LAVA Test Framework, Key Toolchains
-  and builds for specific member products. This page provides links to many of
-  the more popular downloads produced by Linaro’s engineering teams.
+description: We maintain development repositories & make regular releases of many builds including Android, LAVA Test Framework, Key Toolchains & builds for specific products.
 permalink: /downloads/
 keywords:
   - Cortex-A GCC 8.3-2019.03
@@ -127,6 +124,8 @@ The official Arm releases of the pre-built GNU cross-toolchain for AArch64 and A
 
 The official community releases of the pre-built LLVM native toolchain for AArch64 and ARM 32-bit A-Profile cores are built and tested by Linaro and are now available on [LLVM’s GitHub](https://github.com/llvm/llvm-project/releases/).
 
+In addition to the usual Linux-hosted LLVM toolchain, Linaro is now providing [official LLVM Toolchain for Windows on Arm](https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.0/LLVM-12.0.0-woa64.exe) starting with LLVM 12.0.0 release.
+
 Linaro also provides monthly [GNU Toolchain Integration Builds](https://snapshots.linaro.org/gnu-toolchain/) which offer users a snapshot of the upstream build. These builds allow developers to test features from a pre-built binary as soon as it is upstream. 
 
 - - -
@@ -150,15 +149,28 @@ LMBs are full system builds of popular open-source products set up at the reques
 
 - - -
 
-## LEDGE downloads: -
+## LEDGE downloads:
 
-File description:
+The LEDGE Reference Platform (RP) is a lightweight highly secure and robust container runtime environment that has dependable boot and update capabilities. It comes with a full set of security policies with SELinux, IMA (Linux Kernel Integrity Measurement Architecture) and other technologies and builds on SystemReady-IR and EBBR specifications. 
+
+The complete Ledge Reference Platform v0.2 Release can be accessed here: 
+
+[LEDGE RP 0.2 ledge-multi-armv7](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-multi-armv7/17/)
+
+[LEDGE RP 0.2 ledge-multi-armv8](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-multi-armv8/17/)
+
+[LEDGE RP 0.2 ledge-qemux86-64](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-qemux86-64/17/)
+
+[LEDGE RP 0.2 ledge-synquacer](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-synquacer/17/)
+
+[LEDGE RP 0.2 ledge-ti-am572x](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-ti-am572x/17/)
+
+Where:
 
 * firmware.uefi.uboot.bin: U-Boot based firmware with TF-A and OP-TEE support
 * firmware.uefi-edk2.bin: EDK2 based firmware
 * ledge-iot-ledge-xxxxxxx-0.1.rootfs.wic.gz: Zipped imaged of IoT reference platform
 * ledge-gateway-ledge-xxxxxxx-0.1.rootfs.wic.gz: zipped image of the gateway reference platform
 * ledge-kernel-uefi-certs.ext4.img: Signatures used on EFI secureboot
-
-For [full documentation](https://linaro.github.io/ledge-doc/index.html#document-chapter6-prebuilt-images)\
-To [download the files](http://releases.linaro.org/components/ledge/rp-0.1/)
+* ledge-dev-howto.pdf - Developer Howto Documentation
+* ledge-user-guide.pdf - User Guide Documentation
