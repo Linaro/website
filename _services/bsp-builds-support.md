@@ -44,6 +44,7 @@ icon: /assets/images/content/Icon_BSP_s_Builds___Support.svg
 ---
 ## Linaro are the BSP experts. We have extensive engineering experience helping companies with BSP development, maintenance, optimisation and long term support.
 
+\
 **Operating system support**
 
 * Linux variants: OpenEmbedded/Yocto and Debian
@@ -61,4 +62,4 @@ icon: /assets/images/content/Icon_BSP_s_Builds___Support.svg
 * Middleware development and integration
 * Maintaining builds, testing and supporting BSP’s
 
-Developer Services maintains high standards for design, implementation and testing all while following customer guidelines and regulatory/compliance specifications as needed.  Let us help you maintain your BSP.
+[Linaro Developer Services](https://www.linaro.org/services/) maintains high standards for design, implementation and testing all while following customer guidelines and regulatory/compliance specifications as needed.  [Let us help you maintain your BSP](https://www.linaro.org/contact/).

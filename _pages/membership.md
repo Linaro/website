@@ -11,7 +11,7 @@ css_bundle: membership
 layout: flow
 jumbotron:
   class: text-center about_header
-  title: Shape the future of Arm Software
+  title: Linaro Membership
   image: /assets/images/content/Membership_banner_image.jpg
 flow:
   - row: container_row
