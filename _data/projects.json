@@ -27,30 +27,6 @@
         {
             "Project Contact Information": {
                 "Meetings": "",
-                "Point of Contact": "Peter Griffin <a class=\"email-icon\" href=\"mailto:peter.griffin@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\" https://projects.linaro.org/projects/CAM?selectedItem=com.almworks.jira.structure:wi-projectnav-structure&s=259#\">Scope of work breakdown </a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/CAMERA/Camera+Home\">https://collaborate.linaro.org/display/CAMERA/Camera+Home</a>",
-                "Theme": [
-                    "Android Ecosystem"
-                ],
-                "description": "This project focuses on making Arm and Linaro members SoCs a first class citizen in the Linux camera ecosystem. Primarily through development on the libcamera open source library which provides complex camera support to Chrome OS, Linux and Android but also Camera related work in the Linux kernel and RDK-C camera stack.",
-                "title": "Camera"
-            },
-            "Project Ownership": {
-                "Governing Entity": "TSC",
-                "Project Owner": "Tom Gall <a class=\"email-icon\" href=\"mailto:tom.gall@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Peter Griffin <a class=\"email-icon\" href=\"mailto:peter.griffin@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=12300&avatarId=13900",
-            "key": "CAM"
-        },
-        {
-            "Project Contact Information": {
-                "Meetings": "",
                 "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/cloud-dev\">CLOUD-dev mailing list</a>."
             },
             "Project Information": {
@@ -71,30 +47,6 @@
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=10802&avatarId=14209",
             "key": "CLOUD"
-        },
-        {
-            "Project Contact Information": {
-                "Meetings": "",
-                "Point of Contact": ""
-            },
-            "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/GNU?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/GNU\">https://collaborate.linaro.org/display/GNU</a>",
-                "Theme": [
-                    "Kernel & Toolchain"
-                ],
-                "description": "Development of GNU Toolchain:<br><ul><li> GCC compiler</li><ul><li> We improve Link-Time Optimizations (LTO), SVE auto-vectorization optimizations, and microarchitecture-specific optimizations for popular Arm cores.</li><li> We improve performance and scalability of Libgomp (GNU OpenMP runtime)</li><li> We support compiler sanitizers (ASAN, TSAN, etc.) in GCC.  Sanitizers are developed under LLVM Toolchain project, and sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.</ul></li><li> GDB debugger</li><ul><li> We develop support for new ARMv8.x architectural features and improve debugging experience.</ul></li><li> Glibc C Library</li><ul><li> We implement both target-specific and generic optimizations in Glibc.  We then aim to propagate all relevant Glibc improvements to Newlib and Bionic C libraries.</ul></li><li> GNU Binutils assembler, BFD and Gold linkers</li><ul><li> In Binutils we implement ELF section-level optimizations, as well as workarounds for hardware errata.</li></ul></li></ul>",
-                "title": "GNU Toolchain"
-            },
-            "Project Ownership": {
-                "Governing Entity": "TSC",
-                "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Maxim Kuvyrkov <a class=\"email-icon\" href=\"mailto:maxim.kuvyrkov@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=11905&avatarId=13106",
-            "key": "GNU"
         },
         {
             "Project Contact Information": {
