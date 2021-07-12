@@ -32,10 +32,10 @@ jumbotron:
         url: "#contact_form"
         style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase theme_contact_btn
       - title: Download White Paper
-        url: "/"
+        url: https://linaro.co/trusted-substrate-white-paper
         style: btn btn-primary white_on_black_btn btn-lg my-md-3 d-none d-md-inline-block text-uppercase theme_contact_btn
       - title: Download White Paper
-        url: "/"
+        url: https://linaro.co/trusted-substrate-white-paper
         style: btn btn-primary white_on_black_btn btn-sm my-2 d-inline-block d-md-none text-uppercase theme_contact_btn
 sub_themes:
   - Dependable Boot
