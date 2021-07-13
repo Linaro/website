@@ -24,7 +24,7 @@ Linaro has gathered perspectives from companies such as Bosch Rexroth, Microsoft
 
 **About Trusted Substrate**
 
-Trusted Substrate is a collaborative project for the integrated, tested and packaged foundation of open source secure boot and trusted execution environments. The project is a BIOS which brings standards based secure booting and over-the-air (OTA) updates to the most trust demanding embedded computing projects such as automotive and robotics. By choosing Trusted Substrate enabled boards, product makers can rest assured that the behavior of their product will be consistent across SoCs and boards. To find out more about the Trusted Substrate Project, go to [www.linaro.org/trusted-substrate](www.linaro.org/trusted-substrate). 
+Trusted Substrate is a collaborative project for the integrated, tested and packaged foundation of open source secure boot and trusted execution environments. The project is a BIOS which brings standards based secure booting and over-the-air (OTA) updates to the most trust demanding embedded computing projects such as automotive and robotics. By choosing Trusted Substrate enabled boards, product makers can rest assured that the behavior of their product will be consistent across SoCs and boards. To find out more about the Trusted Substrate Project, go to [www.linaro.org/trusted-substrate](https://www.linaro.org/trusted-substrate/). 
 
 **About Linaro** 
 
