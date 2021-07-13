@@ -1,15 +1,16 @@
 ---
-author: alan.bennett
-date: 2011-08-12 21:24:00+00:00
-layout: post
-link: /blog/lava-blog/lava-fundamentals/
-slug: lava-fundamentals
-title: LAVA Fundamentals
 wordpress_id: 4118
-category: blog
+layout: post
+title: LAVA Fundamentals
+image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
-- Lava
-- Lava
+  - Lava
+  - Lava
+author: alan.bennett
+slug: lava-fundamentals
+date: 2011-08-12 21:24:00+00:00
+link: /blog/lava-blog/lava-fundamentals/
+category: blog
 ---
 
 This blog post talks about the core topics that LAVA deals with, dives into the architecture of the stack as it exists today and provides some background rationale for the design choices we made. If you are not familiar with LAVA you may want to read the introduction first.
