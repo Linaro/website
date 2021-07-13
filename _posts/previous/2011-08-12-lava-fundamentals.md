@@ -1,15 +1,16 @@
 ---
-author: alan.bennett
-date: 2011-08-12 21:24:00+00:00
-layout: post
-link: /blog/lava-blog/lava-fundamentals/
-slug: lava-fundamentals
-title: LAVA Fundamentals
 wordpress_id: 4118
-category: blog
+layout: post
+title: LAVA Fundamentals
+image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
-- Lava
-- Lava
+  - Lava
+  - Lava
+author: alan.bennett
+slug: lava-fundamentals
+date: 2011-08-12 21:24:00+00:00
+link: /blog/lava-blog/lava-fundamentals/
+category: blog
 ---
 
 This blog post talks about the core topics that LAVA deals with, dives into the architecture of the stack as it exists today and provides some background rationale for the design choices we made. If you are not familiar with LAVA you may want to read the introduction first.
@@ -32,7 +33,7 @@ Abrek would allow you to customize how a test is installed, how to invoke and fi
 
 During that early period one of the most fundamental interface was formed (that is still around today) that is, the concept of _dashboard bundles_, files containing machine-readable test results. We investigated existing formats but after a lot of mind-storming and thought experiments we realized that none of them could express the kind of data that we were interested in. We used plain text files with hierarchical data structure encoded as JSON. The idea was IMHO quite interesting because unlike virtually all other consolidated QA or CI systems that I came across before the actual data can be freely created, edited and moved around by conventional means and is not trapped in a complex database hidden behind proprietary APIs. A bundle can be written by any program that can output text, transmitted between systems by email, thumb drive or anything in between, uploaded to a dashboard, downloaded and re-sent somewhere else for processing.
 
-Each bundle would contain one or more "test run" that describes the outcome of running a test somewhere. In addition to storing typical "pass/fail/skip/etc" status we wanted to be able to representing benchmarks and performance measurements. As soon as you think of benchmarks you will find the need to store the hardware and software context that describe the environment in which the test was performed. To formalize the format and validate bundles for correctness we have used [JSON Schema](http://tools.ietf.org/html/draft-zyp-json-schema-02). You can [read the actual schema](http://bazaar.launchpad.net/~linaro-validation/linaro-python-dashboard-bundle/trunk/changes) if you are interested in that level of detail. The schema is maintained alongside helper APIs in a library called [linaro-python-dashboard-bundle](https://launchpad.net/linaro-python-dashboard-bundle) (I really wish we could simple drop the "python" part now). Apart from what I already mentioned bundles can have arbitrary text or binary attachments, key-value attributes, references to code branches and a few other interesting features. So far we managed to map all of the tests and results we encountered in a meaningful way but if you think that, based on your experience, something is missing do let us know - the earlier we know the better.
+Each bundle would contain one or more "test run" that describes the outcome of running a test somewhere. In addition to storing typical "pass/fail/skip/etc" status we wanted to be able to representing benchmarks and performance measurements. As soon as you think of benchmarks you will find the need to store the hardware and software context that describe the environment in which the test was performed. To formalize the format and validate bundles for correctness we have used JSON Schema. You can [read the actual schema](http://bazaar.launchpad.net/~linaro-validation/linaro-python-dashboard-bundle/trunk/changes) if you are interested in that level of detail. The schema is maintained alongside helper APIs in a library called [linaro-python-dashboard-bundle](https://launchpad.net/linaro-python-dashboard-bundle) (I really wish we could simple drop the "python" part now). Apart from what I already mentioned bundles can have arbitrary text or binary attachments, key-value attributes, references to code branches and a few other interesting features. So far we managed to map all of the tests and results we encountered in a meaningful way but if you think that, based on your experience, something is missing do let us know - the earlier we know the better.
 
 If you are interested in looking at some real-life bundles you can see them using the integrated bundle viewer built into the dashboard. Note, that while bundle format is well-defined, various programs generate _different bundles_: LAVA dispatcher uses one bundle to store results of all the tests that were ran in one go on a single system ([example]()http://validation.linaro.org/lava-server/dashboard/streams/anonymous/lava-daily/bundles/bea57bc187496dda60a21432934b800712e5b920/), remember to click on bundle viewer tab), a small script that processes measurements from various benchmarks built with specific version of the toolchain stores source code references and uses external attachments not to duplicate large amounts of data ([example]()http://validation.linaro.org/lava-server/dashboard/streams/anonymous/gcc/bundles/04e0bd44704435721a384fb615ef6aea42570520/) while Abrek introspects software and hardware context for a particular test ([example]()http://validation.linaro.org/lava-server/dashboard/streams/anonymous/zyga/bundles/826e8c18b519e40db6aa51c22c65a0f2f62146da/).
 
