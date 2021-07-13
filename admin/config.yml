@@ -268,7 +268,7 @@ collections:
                   label: "Publish Date",
                   name: "date",
                   widget: "datetime",
-                  format: "YYYY-MM-DD hh:mm:ss",
+                  format: "YYYY-MM-DD hh:mm:ss Z",
                   pickerUtc: false,
                 }
       - label: "Projects"
@@ -336,7 +336,7 @@ collections:
                       label: "Item Date",
                       name: "date",
                       widget: datetime,
-                      format: "YYYY-MM-DD hh:mm:ss",
+                      format: "YYYY-MM-DD hh:mm:ss Z",
                       pickerUtc: false,
                       required: false,
                     }
@@ -2470,7 +2470,7 @@ collections:
           label: "Publish Date",
           name: "date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
+          format: "YYYY-MM-DD hh:mm:ss Z",
           pickerUtc: false,
         }
       - label: "Image"
@@ -2523,7 +2523,7 @@ collections:
           label: "Publish Date",
           name: "date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
+          format: "YYYY-MM-DD hh:mm:ss Z",
           pickerUtc: false,
         }
       - label: "Image"
@@ -2580,7 +2580,7 @@ collections:
           label: "Publish Date",
           name: "date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
+          format: "YYYY-MM-DD hh:mm:ss Z",
           pickerUtc: false,
         }
       - label: "Image"
@@ -2656,21 +2656,21 @@ collections:
           label: "Post Publish Date",
           name: "date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
+          format: "YYYY-MM-DD hh:mm:ss Z",
           pickerUtc: false,
         }
       - {
           label: "Event Start Date",
           name: "event_date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
+          format: "YYYY-MM-DD hh:mm:ss Z",
           pickerUtc: false,
         }
       - {
           label: "Event End Date",
           name: "event_end_date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
+          format: "YYYY-MM-DD hh:mm:ss Z",
           pickerUtc: false,
         }
       - {
@@ -2720,7 +2720,7 @@ collections:
           label: "Resource Date",
           name: "date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
+          format: "YYYY-MM-DD hh:mm:ss Z",
           pickerUtc: false,
         }
       - {
