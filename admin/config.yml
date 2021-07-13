@@ -268,8 +268,8 @@ collections:
                   label: "Publish Date",
                   name: "date",
                   widget: "datetime",
-                  format: "YYYY-MM-DD hh:mm:ss",
-                  pickerUtc: true,
+                  format: "YYYY-MM-DD hh:mm:ss Z",
+                  pickerUtc: false,
                 }
       - label: "Projects"
         name: "linaro_project_items"
@@ -336,8 +336,8 @@ collections:
                       label: "Item Date",
                       name: "date",
                       widget: datetime,
-                      format: "YYYY-MM-DD hh:mm:ss",
-                      pickerUtc: true,
+                      format: "YYYY-MM-DD hh:mm:ss Z",
+                      pickerUtc: false,
                       required: false,
                     }
       - label: "Universal Navbar"
@@ -2470,8 +2470,8 @@ collections:
           label: "Publish Date",
           name: "date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          format: "YYYY-MM-DD hh:mm:ss Z",
+          pickerUtc: false,
         }
       - label: "Image"
         name: image
@@ -2523,8 +2523,8 @@ collections:
           label: "Publish Date",
           name: "date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          format: "YYYY-MM-DD hh:mm:ss Z",
+          pickerUtc: false,
         }
       - label: "Image"
         name: image
@@ -2580,8 +2580,8 @@ collections:
           label: "Publish Date",
           name: "date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          format: "YYYY-MM-DD hh:mm:ss Z",
+          pickerUtc: false,
         }
       - label: "Image"
         name: image
@@ -2656,22 +2656,22 @@ collections:
           label: "Post Publish Date",
           name: "date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          format: "YYYY-MM-DD hh:mm:ss Z",
+          pickerUtc: false,
         }
       - {
           label: "Event Start Date",
           name: "event_date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          format: "YYYY-MM-DD hh:mm:ss Z",
+          pickerUtc: false,
         }
       - {
           label: "Event End Date",
           name: "event_end_date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          format: "YYYY-MM-DD hh:mm:ss Z",
+          pickerUtc: false,
         }
       - {
           label: "Event Image",
@@ -2720,8 +2720,8 @@ collections:
           label: "Resource Date",
           name: "date",
           widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          format: "YYYY-MM-DD hh:mm:ss Z",
+          pickerUtc: false,
         }
       - {
           label: "Resource Image",
