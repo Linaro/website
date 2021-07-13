@@ -6,7 +6,6 @@ description: Linaro has a track record of bringing Arm vendors together on the
   Linux kernel and is currently extending this to firmware with the Trusted
   Substrate Project. This press release talks about the White Paper Linaro has
   done on the need for standardization in firmware.
-date: 2021-07-13 09:33:24
 image: /assets/images/content/ledge-bg.jpg
 tags:
   - Trusted Substrate
