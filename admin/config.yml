@@ -269,7 +269,7 @@ collections:
                   name: "date",
                   widget: "datetime",
                   format: "YYYY-MM-DD hh:mm:ss",
-                  pickerUtc: true,
+                  pickerUtc: false,
                 }
       - label: "Projects"
         name: "linaro_project_items"
@@ -337,7 +337,7 @@ collections:
                       name: "date",
                       widget: datetime,
                       format: "YYYY-MM-DD hh:mm:ss",
-                      pickerUtc: true,
+                      pickerUtc: false,
                       required: false,
                     }
       - label: "Universal Navbar"
@@ -2471,7 +2471,7 @@ collections:
           name: "date",
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          pickerUtc: false,
         }
       - label: "Image"
         name: image
@@ -2524,7 +2524,7 @@ collections:
           name: "date",
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          pickerUtc: false,
         }
       - label: "Image"
         name: image
@@ -2581,7 +2581,7 @@ collections:
           name: "date",
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          pickerUtc: false,
         }
       - label: "Image"
         name: image
@@ -2657,21 +2657,21 @@ collections:
           name: "date",
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          pickerUtc: false,
         }
       - {
           label: "Event Start Date",
           name: "event_date",
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          pickerUtc: false,
         }
       - {
           label: "Event End Date",
           name: "event_end_date",
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          pickerUtc: false,
         }
       - {
           label: "Event Image",
@@ -2721,7 +2721,7 @@ collections:
           name: "date",
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss",
-          pickerUtc: true,
+          pickerUtc: false,
         }
       - {
           label: "Resource Image",
