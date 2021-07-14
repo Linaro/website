@@ -2472,6 +2472,7 @@ collections:
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss Z",
           pickerUtc: false,
+          hint: "Please note that these dates are in your local time. Your changes need to be published after the date/time above in order for your changes to appear on the website."
         }
       - label: "Image"
         name: image
@@ -2525,6 +2526,7 @@ collections:
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss Z",
           pickerUtc: false,
+          hint: "Please note that these dates are in your local time. Your changes need to be published after the date/time above in order for your changes to appear on the website."
         }
       - label: "Image"
         name: image
@@ -2582,6 +2584,7 @@ collections:
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss Z",
           pickerUtc: false,
+          hint: "Please note that these dates are in your local time. Your changes need to be published after the date/time above in order for your changes to appear on the website."
         }
       - label: "Image"
         name: image
@@ -2658,6 +2661,7 @@ collections:
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss Z",
           pickerUtc: false,
+          hint: "Please note that these dates are in your local time. Your changes need to be published after the date/time above in order for your changes to appear on the website."
         }
       - {
           label: "Event Start Date",
