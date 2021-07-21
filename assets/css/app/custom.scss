@@ -8,6 +8,55 @@
   }
 }
 #wrapper {
+  .service-block {
+    p.author {
+      font-weight: bold;
+    }
+    background-color: white;
+    padding: 10px;
+    margin: 40px 0;
+  }
+  img.img-fluid.testimonial_logo {
+    height: 50px;
+    width: auto;
+    float: right;
+    padding: 0 20px;
+  }
+  blockquote.testimonial {
+    width: 100%;
+    font-family: "Lato";
+    font-display: swap;
+    font-style: normal;
+    color: #000000;
+    border-left: none;
+    padding: 0;
+    line-height: 1.6;
+    position: relative;
+    background: #ffffff;
+    &::after {
+      font-family: "Lato";
+      font-display: swap;
+      content: "\201D";
+      color: #98cc33;
+      font-size: 4em;
+      height: 10px;
+      display: inline-block;
+      position: relative;
+      top: 40px;
+    }
+    &::before {
+      font-family: "Lato";
+      font-display: swap;
+      content: "\201C";
+      color: #98cc33;
+      font-size: 4em;
+      height: 10px;
+      display: inline-block;
+      position: relative;
+      top: 40px;
+    }
+  }
+
   .btn.btn-primary.white_on_black_btn {
     background-color: #000;
     color: white;
