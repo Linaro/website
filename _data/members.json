@@ -250,6 +250,10 @@
                 "image": "https://static.linaro.org/common/member-logos/quic.jpg",
                 "name": "QuIC",
                 "uri": "https://www.qualcomm.com/"
+            },
+            {
+                "image": "https://static.linaro.org/common/member-logos/oppo.jpg",
+                "name": "OPPO"
             }
         ],
         "membership_group_name": "LCG Members",
