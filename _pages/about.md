@@ -25,25 +25,14 @@ flow:
   - row: container_row
     style: large_type introduction_row py-0
     sections:
-      - format: title
-        style: text-left
-        title_content:
-          size: h2
-          style: display-4 large_header
-          text: Driving Open Source Software Development on Arm
       - format: text
         style: text-left
         text_content:
           text: Linaro has driven open source software development on Arm since 2010,
             providing the tools, Linux kernel quality and security needed for a
-            solid foundation to innovate on. Companies become Linaro members in
-            order to work with Linaro and other industry leaders on common
-            projects. Strategy and roadmaps are discussed and agreed before
-            Linaro's engineers, together with member company engineers,
-            collaborate to deliver the solution. Collaborating on common
-            projects reduces overall software fragmentation, allowing member
-            companies to reduce their costs for development and validation of
-            Arm-based software.
+            solid foundation to innovate on. Linaro works with member companies
+            and the open source community to maintain the Arm software ecosystem
+            and enable new markets on Arm architecture.
   - row: container_row
     style: bg-light-green
     sections:
@@ -56,26 +45,26 @@ flow:
         source: about/youtube_embed.html
   - row: container_row
     sections:
-      - format: title
-        style: text-left
-        title_content:
-          size: h2
-          style: display-4 large_header
-          text: Enabling New Markets through Collaborative Engineering
       - format: text
         style: text-left
         text_content:
-          text: Over the years Linaro has brought companies together to identify business
-            opportunities and enable new markets on Arm architecture. This has
-            resulted in multiple Linaro groups focused on specific verticals
-            that now includes Artificial Intelligence, Autonomous Vehicles,
-            Consumer, Datacenter & Cloud, Edge & Fog Computing and IoT &
-            Embedded. In 2016 Linaro created 96Boards, a range of hardware
-            specifications which are open and define a standard board layout for
-            SoC-agnostic development platforms - making the latest Arm-based
-            processors available to developers at a reasonable cost. For more
-            information on 96Boards, go to
-            [www.96Boards.org](https://www.96boards.org).
+          text: >-
+            As technology has evolved, so has Linaro. While we continue to help
+            maintain and evolve the Arm software ecosystem through the work we
+            do on toolchains, security and continuous integration testing, we
+            also work in several technologies and verticals to enable Arm
+            technology. These include [Artificial
+            Intellgence](https://www.linaro.org/artificial-intelligence/),
+            [Android Ecosystem](https://www.linaro.org/android-ecosystem/),
+            Datacenter and Cloud, [Edge & Fog
+            Computing](https://www.linaro.org/trusted-substrate/) and [IoT and
+            Embedded](https://www.linaro.org/iot-and-embedded/). 
+
+
+            There are multiple ways of engaging with Linaro, [Linaro membership](https://www.linaro.org/membership/) being one of them. If you are interested in leveraging Linaro’s Arm software expertise on your project, go to www.linaro.org/services to speak to [Linaro Developer Services](https://www.linaro.org/services/). 
+
+
+            Alternatively, if you just want to access any of the work we do in the open, go to [www.linaro.org/downloads](https://www.linaro.org/downloads/).
   - row: container_row
     style: members_slider_row bg-light
     sections:
