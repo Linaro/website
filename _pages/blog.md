@@ -1,8 +1,9 @@
 ---
 title: Our Blog
-permalink: /blog/
 description: >
-  Read our official Linaro blog posts to get the latest updates and news within the industry. 
+  Read our official Linaro blog posts to get the latest updates and news within
+  the industry. Test.
+permalink: /blog/
 tags_enabled: true
 jumbotron:
   title: Our Blog
