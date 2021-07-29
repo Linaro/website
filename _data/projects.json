@@ -172,30 +172,6 @@
             },
             "icon": "https://projects.linaro.org/secure/projectavatar?pid=13000&avatarId=14401",
             "key": "TS"
-        },
-        {
-            "Project Contact Information": {
-                "Meetings": "",
-                "Point of Contact": ""
-            },
-            "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=280#\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/UM/Upstream+Maintainership+Home\">https://collaborate.linaro.org/display/UM/Upstream+Maintainership+Home</a>",
-                "Theme": [
-                    "Kernel & Toolchain"
-                ],
-                "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result, as maintainers, they become responsible for keeping their code upstream in sync with the overall development of respective upstream projects.",
-                "title": "Upstream Maintainership"
-            },
-            "Project Ownership": {
-                "Governing Entity": "Linaro",
-                "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Serge Broslavsky <a class=\"email-icon\" href=\"mailto:serge.broslavsky@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=12905&avatarId=10201",
-            "key": "UM"
         }
     ]
 }
