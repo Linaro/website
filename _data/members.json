@@ -148,10 +148,6 @@
     {
         "advisory_board": [
             {
-                "image": "https://static.linaro.org/common/member-logos/cern.jpg",
-                "name": "CERN"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/riken.jpg",
                 "name": "RIKEN"
             }
