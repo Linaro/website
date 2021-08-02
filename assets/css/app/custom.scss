@@ -22,38 +22,44 @@
     float: right;
     padding: 0 20px;
   }
+  .testimonial_cite_row {
+    padding: 0.35em 40px;
+  }
   blockquote.testimonial {
-    width: 100%;
-    font-family: "Lato";
     font-display: swap;
-    font-style: normal;
     color: #000000;
     border-left: none;
-    padding: 0;
-    line-height: 1.6;
-    position: relative;
     background: #ffffff;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
     &::after {
       font-family: "Lato";
       font-display: swap;
-      content: "\201D";
+      content: close-quote;
       color: #98cc33;
       font-size: 4em;
-      height: 10px;
-      display: inline-block;
+      line-height: 0px;
       position: relative;
       top: 40px;
+      display: inline-block;
+      content: "\201D";
     }
     &::before {
       font-family: "Lato";
       font-display: swap;
-      content: "\201C";
+      content: open-quote;
       color: #98cc33;
-      font-size: 4em;
-      height: 10px;
-      display: inline-block;
-      position: relative;
-      top: 40px;
+      font-size: 2em;
+      display: block;
+      padding-left: 10px;
+      content: "\201C";
+      font-size: 80px;
+      position: absolute;
+      left: -20px;
+      top: -20px;
     }
   }
 
