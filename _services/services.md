@@ -94,6 +94,20 @@ flow:
   - row: container_row
     style: text-center
     sections:
+      - format: title
+        style: text-left
+        title_content:
+          size: h2
+          style: display-4 large_header
+          text: What our customers say
+  - row: container_row
+    style: bg-light testimonials
+    sections:
+      - format: custom_include
+        source: services/testimonials.html
+  - row: container_row
+    style: text-center
+    sections:
       - format: buttons
         buttons_content:
           - title: Contact Us
