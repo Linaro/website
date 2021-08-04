@@ -1,29 +1,3 @@
 {
-    "projects": [
-        {
-            "Project Contact Information": {
-                "Meetings": "Join our <a href=\"https://applications.zoom.us/addon/invitation/detail?meetingUuid=5KZ7V7nRQLOPnvM2xWLYxQ%3D%3D&signature=c9ddb10200a49a381c5058a9e9d5194f50b9f6eb9afac8bca39411edf88a41ae\">Zoom call</a> Every Second Thursday of the month, 2pm CET.",
-                "Point of Contact": ""
-            },
-            "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\" https://projects.linaro.org/secure/StructureBoard.jspa?s=292#\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/TS/Trusted+Substrate+Home\">https://collaborate.linaro.org/display/TS/Trusted+Substrate+Home</a>",
-                "Theme": [
-                    "Trusted Substrate",
-                    "IoT & Embedded"
-                ],
-                "description": "Trusted Substrate project ambition is to upstream all necessary technologies in multiple projects to enable SystemReady compliance. Projects can be Trusted Firmware, OP-TEE, U-Boot, SCP, Linux kernel (EFI stub) and others.",
-                "title": "Trusted Substrate"
-            },
-            "Project Ownership": {
-                "Governing Entity": "LEDGE SC",
-                "Project Owner": "Fran\u00e7ois Ozog <a class=\"email-icon\" href=\"mailto:francois.ozog@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Ilias Apalodimas <a class=\"email-icon\" href=\"mailto:ilias.apalodimas@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=13000&avatarId=14401",
-            "key": "TS"
-        }
-    ]
+    "projects": []
 }
