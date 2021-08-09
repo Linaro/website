@@ -1,3 +1,203 @@
 {
-    "projects": []
+    "projects": [
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/ASA/overview\">https://linaro.atlassian.net/wiki/spaces/ASA/overview</a>",
+                "description": null,
+                "title": "Arm Server Architecture"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10031&avatarId=10408",
+            "key": "ASA"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/BDDS/overview\">https://linaro.atlassian.net/wiki/spaces/BDDS/overview</a>",
+                "description": null,
+                "title": "Big Data & Data Science"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10062&avatarId=10564",
+            "key": "BDDS"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CLOUD/overview\">https://linaro.atlassian.net/wiki/spaces/CLOUD/overview</a>",
+                "description": null,
+                "title": "Cloud Infrastructure"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10061&avatarId=10402",
+            "key": "CLOUD"
+        },
+        {
+            "Project Information": {
+                "How to participate": null,
+                "Project Homepage": null,
+                "description": null,
+                "title": "Enhance Software-Defined-Storage on Arm Servers"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10017&avatarId=10560",
+            "key": "STOR"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/GNU/overview\">https://linaro.atlassian.net/wiki/spaces/GNU/overview</a>",
+                "description": null,
+                "title": "GNU Toolchain"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10040&avatarId=10422",
+            "key": "GNU"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/HPCSIG/overview\">https://linaro.atlassian.net/wiki/spaces/HPCSIG/overview</a>",
+                "Theme": [
+                    "Artificial Intelligence"
+                ],
+                "description": null,
+                "title": "HPC-AI"
+            },
+            "icon": null,
+            "key": "HPCAI"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LLVM/overview\">https://linaro.atlassian.net/wiki/spaces/LLVM/overview</a>",
+                "Theme": [
+                    "Kernel & Toolchain"
+                ],
+                "description": null,
+                "title": "LLVM Toolchain"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10052&avatarId=10422",
+            "key": "LLVM"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LKQ\">https://linaro.atlassian.net/wiki/spaces/LKQ</a>",
+                "Project tag line": "We love to test stuff.",
+                "Theme": [
+                    "OS Build & Test"
+                ],
+                "description": "This is a description",
+                "title": "Linaro Kernel Quality"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10063&avatarId=10566",
+            "key": "LKQ"
+        },
+        {
+            "Project Information": {
+                "How to participate": null,
+                "Project Homepage": null,
+                "description": null,
+                "title": "MCU-Driver-HAL"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10020&avatarId=10559",
+            "key": "HAL"
+        },
+        {
+            "Project Information": {
+                "How to participate": null,
+                "Project Homepage": null,
+                "description": null,
+                "title": "Open-CMSIS-Pack"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10013&avatarId=10552",
+            "key": "CMSIS"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": null,
+                "description": null,
+                "title": "OpenEuler"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10067&avatarId=10415",
+            "key": "EULR"
+        },
+        {
+            "Project Information": {
+                "How to participate": null,
+                "Project Homepage": null,
+                "description": null,
+                "title": "Optimize AI for Arm Data Center and Edge"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10024&avatarId=10556",
+            "key": "AIA"
+        },
+        {
+            "Project Information": {
+                "How to participate": null,
+                "Project Homepage": null,
+                "description": null,
+                "title": "Optimize AI for Arm Microcontrollers"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10015&avatarId=10555",
+            "key": "AIM"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/PERF/overview\">https://linaro.atlassian.net/wiki/spaces/PERF/overview</a>",
+                "Theme": [
+                    "Kernel & Toolchain"
+                ],
+                "description": null,
+                "title": "Power and Performance"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10030&avatarId=10421",
+            "key": "PERF"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/QEMU/overview\">https://linaro.atlassian.net/wiki/spaces/QEMU/overview</a>",
+                "description": null,
+                "title": "QEMU"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10037&avatarId=10562",
+            "key": "QEMU"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/STR/overview\">https://linaro.atlassian.net/wiki/spaces/STR/overview</a>",
+                "description": null,
+                "title": "Stratos"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10066&avatarId=10567",
+            "key": "STR"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/SCMI/overview\">https://linaro.atlassian.net/wiki/spaces/SCMI/overview</a>",
+                "Theme": [
+                    "Kernel & Toolchain"
+                ],
+                "description": null,
+                "title": "System Control and Management Interface"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10065&avatarId=10421",
+            "key": "SCMI"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LEDGE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/TS/overview\">https://linaro.atlassian.net/wiki/spaces/TS/overview</a>",
+                "Theme": [
+                    "Trusted Substrate"
+                ],
+                "description": null,
+                "title": "Trusted Substrate"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10071&avatarId=10570",
+            "key": "TS"
+        }
+    ]
 }
