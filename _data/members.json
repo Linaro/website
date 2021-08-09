@@ -118,23 +118,6 @@
     },
     {
         "id": "mi-incubator",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/arm.jpg",
-                "name": "Arm",
-                "uri": "https://www.arm.com/products/development-tools"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
-                "name": "NXP",
-                "uri": "https://www.nxp.com/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
-                "name": "Socionext",
-                "uri": "http://www.socionext.com/en/"
-            }
-        ],
         "membership_group_name": "AI Members",
         "text": "The Artificial Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. This leads to a duplication of effort amongst all players, perpetual cost of re-integration for every new rebasing, and overall increased total cost of ownership.\n\nCompanies interested in working together on common open source software foundations for machine intelligence applications are invited to contact Linaro with the form below.",
         "url": "/engineering/artificial-intelligence/"
@@ -154,26 +137,6 @@
         ],
         "id": "hpc-sig",
         "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/arm.jpg",
-                "name": "Arm",
-                "uri": "https://www.arm.com/products/development-tools"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
-                "name": "HiSilicon",
-                "uri": "https://www.hisilicon.com/en/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
-                "name": "Red Hat",
-                "uri": "https://www.redhat.com/en"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/fujitsu.jpg",
-                "name": "Fujitsu",
-                "uri": "https://www.fujitsu.com/global/"
-            },
             {
                 "image": "https://static.linaro.org/common/member-logos/sandia-national-laboratories.jpg",
                 "name": "Sandia National Laboratories",
