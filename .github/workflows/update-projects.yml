@@ -17,4 +17,4 @@ jobs:
           path: website
 
       - name: Update projects data
-        run: cd /srv/github-action-scripts && pipenv run python generate_project_json.py
+        run: cd /srv/github-action-scripts && pipenv run python project_json_from_cloud.py
