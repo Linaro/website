@@ -22,12 +22,9 @@ flow:
     sections:
       - format: text
         text_content:
-          text: Temporarily out of service. Please check back on Tuesday 10th August. 
-      # - format: text
-      #   text_content:
-      #     text: These arm open source projects are only a subset of the leading edge Arm
-      #       developments actively being worked on by Linaro, its member
-      #       partners, and the open source community.
-  # - row: custom_include_row
-  #   source: projects.html
+          text: These arm open source projects are only a subset of the leading edge Arm
+            developments actively being worked on by Linaro, its member
+            partners, and the open source community.
+  - row: custom_include_row
+    source: projects.html
 ---
