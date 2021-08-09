@@ -32,6 +32,16 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": null,
+                "description": null,
+                "title": "Enhance Software-Defined-Storage on Arm Servers"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10017&avatarId=10560",
+            "key": "STOR"
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/GNU/overview\">https://linaro.atlassian.net/wiki/spaces/GNU/overview</a>",
                 "description": null,
@@ -69,6 +79,26 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": null,
+                "description": null,
+                "title": "MCU-Driver-HAL"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10020&avatarId=10559",
+            "key": "HAL"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": null,
+                "description": null,
+                "title": "Open-CMSIS-Pack"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10013&avatarId=10552",
+            "key": "CMSIS"
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": null,
                 "description": null,
@@ -76,6 +106,26 @@
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10067&avatarId=10415",
             "key": "EULR"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": null,
+                "description": null,
+                "title": "Optimize AI for Arm Data Center and Edge"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10024&avatarId=10556",
+            "key": "AIA"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": null,
+                "description": null,
+                "title": "Optimize AI for Arm Microcontrollers"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10015&avatarId=10555",
+            "key": "AIM"
         },
         {
             "Project Information": {
