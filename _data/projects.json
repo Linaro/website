@@ -2,12 +2,35 @@
     "projects": [
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/GNU/overview\">https://linaro.atlassian.net/wiki/spaces/GNU/overview</a>",
+                "description": null,
+                "title": "Arm GNU Toolchain Enablement and CI"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10040&avatarId=10422",
+            "key": "GNU"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LLVM/overview\">https://linaro.atlassian.net/wiki/spaces/LLVM/overview</a>",
+                "Theme": [
+                    "Kernel & Toolchain"
+                ],
+                "description": null,
+                "title": "Arm LLVM Toolchain Enablement and CI"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10052&avatarId=10422",
+            "key": "LLVM"
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/ASA/overview\">https://linaro.atlassian.net/wiki/spaces/ASA/overview</a>",
                 "description": null,
                 "title": "Arm Server Architecture"
             },
-            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10031&avatarId=10408",
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10031&avatarId=10575",
             "key": "ASA"
         },
         {
@@ -33,25 +56,15 @@
         {
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/GNU/overview\">https://linaro.atlassian.net/wiki/spaces/GNU/overview</a>",
-                "description": null,
-                "title": "GNU Toolchain"
-            },
-            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10040&avatarId=10422",
-            "key": "GNU"
-        },
-        {
-            "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LLVM/overview\">https://linaro.atlassian.net/wiki/spaces/LLVM/overview</a>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/QEMU/overview\">https://linaro.atlassian.net/wiki/spaces/QEMU/overview</a>",
                 "Theme": [
                     "Kernel & Toolchain"
                 ],
-                "description": null,
-                "title": "LLVM Toolchain"
+                "description": "Expanding various tools (especially QEMU) to emulate new ARM architectural features so open source projects can rapidly adopt the latest technology. We also continually improve ARMs hardware virtualization aiming for feature parity with other popular enterprise architectures.",
+                "title": "Enable Arm Architecture in QEMU"
             },
-            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10052&avatarId=10422",
-            "key": "LLVM"
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10037&avatarId=10562",
+            "key": "QEMU"
         },
         {
             "Project Information": {
@@ -61,11 +74,31 @@
                 "Theme": [
                     "OS Build & Test"
                 ],
-                "description": "This is a description",
+                "description": "Ensure and improve ongoing quality for 6 years Linux LTS releases, linux-next, and Linux mainline on the Arm architecture",
                 "title": "Linaro Kernel Quality"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10063&avatarId=10566",
             "key": "LKQ"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CMSIS/overview\">https://linaro.atlassian.net/wiki/spaces/CMSIS/overview</a>",
+                "description": null,
+                "title": "Open-CMSIS-Pack"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10013&avatarId=10552",
+            "key": "CMSIS"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIA/overview\">https://linaro.atlassian.net/wiki/spaces/AIA/overview</a>",
+                "description": "Utilizing mlperf to drive performance improvements in Tensorflow and related AI frameworks",
+                "title": "Optimize AI for Arm Data Center and Edge"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10024&avatarId=10556",
+            "key": "AIA"
         },
         {
             "Project Information": {
@@ -83,19 +116,9 @@
         {
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/QEMU/overview\">https://linaro.atlassian.net/wiki/spaces/QEMU/overview</a>",
-                "description": null,
-                "title": "QEMU"
-            },
-            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10037&avatarId=10562",
-            "key": "QEMU"
-        },
-        {
-            "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/STR/overview\">https://linaro.atlassian.net/wiki/spaces/STR/overview</a>",
                 "description": null,
-                "title": "Stratos"
+                "title": "Stratos - Hyperviso Abstraction"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10066&avatarId=10567",
             "key": "STR"
