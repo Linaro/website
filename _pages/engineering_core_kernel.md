@@ -78,7 +78,7 @@ flow:
           text: >
             - Mailing list: mailto:linaro-kernel@lists.linaro.org ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))
 
-            - IRC: #linaro-kernel on irc.freenode.net
+            - IRC: #linaro-kernel on irc.libera.chat
 
             - Process: The Kernel Working Group works upstream using upstream processes and through lead projects.
   - row: custom_include_row
