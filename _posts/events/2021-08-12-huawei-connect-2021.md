@@ -1,5 +1,5 @@
 ---
-title: "Huawei Connect 2021 "
+title: Huawei Connect 2021
 event: huawei-connect-2021
 event_url: https://www.huawei.com/en/events/huaweiconnect2021
 description: "Huawei Connect 2021. Dive into Digital "
