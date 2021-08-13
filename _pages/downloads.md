@@ -21,9 +21,10 @@ keywords:
   - Binary Toolchain Releases
 layout: flow
 jumbotron:
-  class: header_2021
+  class: header_2021 text-center
   image: /assets/images/content/IMAGE_HOMEPAGE.jpg
   title: Builds & Downloads
+  title-class: font-weight-bold
   description: ""
 flow:
   - row: container_row
@@ -40,10 +41,20 @@ flow:
         block_section_content:
           blocks:
             - title: Linaro's GNU and LLVM Toolchains
+              style: text-center
+              content_style: d-flex align-items-center
             - title: Linaro's Continuous Integration & Validation Tools
+              style: text-center
+              content_style: d-flex align-items-center
             - title: Linaro's Linux releases for Qualcomm™ Snapdragon® processors
+              style: text-center
+              content_style: d-flex align-items-center
             - title: Linaro Developer Cloud
+              style: text-center
+              content_style: d-flex align-items-center
             - title: LEDGE Reference Platform
+              style: text-center
+              content_style: d-flex align-items-center
 ---
 Linaro code exists in many states and is found in many places. Working upstream means that the ultimate goal for most code is to be accepted and incorporated into something like the Linux kernel or GCC (the GNU Compiler) toolchain. The [Patches website](https://patches.linaro.org/) presents this work by team and by upstream project.
 
