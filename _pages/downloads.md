@@ -21,101 +21,29 @@ keywords:
   - Binary Toolchain Releases
 layout: flow
 jumbotron:
-  image: /assets/images/content/downloads-bg.jpg
+  class: header_2021
+  image: /assets/images/content/IMAGE_HOMEPAGE.jpg
   title: Builds & Downloads
   description: ""
-  inner_class: dotted
 flow:
-  - row: main_content_row
+  - row: container_row
+    sections:
+      - format: text
+        text_content:
+          text: |
+            Since 2010, Linaro has played a key role in upstreaming Arm software, with many of its engineers actively maintaining open source projects. This page provides links to downloads currently produced by Linaro’s engineering teams
   - row: container_row
     style: bg-secondary
     sections:
       - format: block
-        item_width: 4
+        item_width: auto
         block_section_content:
           blocks:
-            - buttons:
-                - icon: fa fa-arrow-right
-                  title: View Releases
-                  url: https://releases.linaro.org/
-              description: |
-                Releases is the main repository for Linaro code that has been
-                tested and released. It is possible to navigate down through
-                this site to find code if you know what you are looking for,
-                but we recommend you use the links below for our most popular
-                downloads.
-              title: Releases
-            - buttons:
-                - icon: fa fa-arrow-right
-                  title: View Snapshots
-                  url: https://snapshots.linaro.org/
-              description: |
-                Snapshots code shows Linaro work in progress. Often created on
-                a daily basis, these are literally snapshots of work in
-                progress that are used for testing and development. The code
-                on this site may not work and should only be used by
-                experienced engineers who know exactly what they are doing.
-              title: Snapshots
-            - buttons:
-                - icon: fa fa-arrow-right
-                  title: View Downloads
-                  url: https://releases.linaro.org/components/lava/latest/
-                - icon: fa fa-arrow-right
-                  title: Get Started with LAVA
-                  url: https://validation.linaro.org/static/docs/v2/index.html
-              description: |
-                The Linaro Automated Validation Architecture (LAVA) is a test
-                and continuous integration framework that Linaro uses to
-                validate its releases. The source is open so that members and
-                others can create their own instantiations and run proprietary
-                tests within this standard framework. Click here for the
-                latest downloads.
-              title: LAVA
-            - buttons:
-                - icon: fa fa-arrow-right
-                  title: View Security Downloads
-                  url: /downloads/security/
-              description: |
-                Linaro security downloads are available from several of
-                Linaro’s engineering groups. The most recent work includes
-                collaboration on Meltdown/Spectre fixes backported in to the
-                4.4, 4.9 and 4.14 kernels.
-              title: Security Downloads
-            - buttons:
-                - icon: fa fa-arrow-right
-                  title: View Patches
-                  url: https://patches.linaro.org/
-              description: |
-                Working upstream means that the ultimate goal for most code is
-                to be accepted and incorporated into something like the Linux
-                kernel or GCC tool chain. The Patches website presents this
-                work by team and by upstream project.
-              title: Patches
-            - buttons:
-                - icon: fa fa-arrow-right
-                  title: View LKFT
-                  url: https://lkft.linaro.org/
-              description: |
-                LKFT is Linaro’s Linux Kernel Functional Test framework. The
-                mission of LKFT is to perform functional regression testing on
-                select Linux kernel branches in real time (as they’re updated)
-                and report any regressions as quickly as possible. This is
-                performed by executing a variety of functional-tests on a
-                selection of user-space operating systems.
-              title: LKFT
-            - buttons:
-                - icon: fa fa-arrow-right
-                  title: View Wiki
-                  url: https://wiki.linaro.org/AOSP
-              description: |
-                Linaro Confectionary Release (LCR) is a reference build of the
-                Android Open Source Project (AOSP) for supported development
-                boards that blends board support, latest kernels, AOSP and
-                other Linaro technologies like OPTEE in one place. LCR is
-                provided as is however we are interested in bug reports and
-                will fix them on a best effort basis.  Downloads can be found
-                on both snapshots.linaro.org and releases.linaro.org.
-              title: LCR
+            - title: Linaro's GNU and LLVM Toolchains
+            - title: Linaro's Continuous Integration & Validation Tools
+            - title: Linaro's Linux releases for Qualcomm™ Snapdragon® processors
+            - title: Linaro Developer Cloud
+            - title: LEDGE Reference Platform
 ---
 Linaro code exists in many states and is found in many places. Working upstream means that the ultimate goal for most code is to be accepted and incorporated into something like the Linux kernel or GCC (the GNU Compiler) toolchain. The [Patches website](https://patches.linaro.org/) presents this work by team and by upstream project.
 
