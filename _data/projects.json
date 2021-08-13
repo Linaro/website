@@ -1,103 +1,152 @@
 {
     "projects": [
         {
-            "Project Contact Information": {
-                "Meetings": "",
-                "Point of Contact": ""
-            },
             "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/secure/StructureBoard.jspa?s=294#\">Work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "",
-                "Theme": [
-                    "OS Build & Test"
-                ],
-                "description": "TBD",
-                "title": "OpenEuler"
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/GNU/overview\">https://linaro.atlassian.net/wiki/spaces/GNU/overview</a>",
+                "description": null,
+                "title": "Arm GNU Toolchain Enablement and CI"
             },
-            "Project Ownership": {
-                "Governing Entity": "LDCG SC",
-                "Project Owner": "Paul Isaac's <a class=\"email-icon\" href=\"mailto:paul.isaacs@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Xinliang Liu <a class=\"email-icon\" href=\"mailto:xinliang.liu@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=13003&avatarId=14407",
-            "key": "EULR"
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10040&avatarId=10422",
+            "key": "GNU"
         },
         {
-            "Project Contact Information": {
-                "Meetings": "<a href=\"https://collaborate.linaro.org/display/STR/calendars\">https://collaborate.linaro.org/display/STR/calendars</a>",
-                "Point of Contact": "<a href=\"https://op-lists.linaro.org/mailman/listinfo/stratos-dev\">Join the conversation</a> by subscribing to the project's mailing list."
-            },
             "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/STR?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
-                "Plan Of Record": "<a href=\"https://docs.google.com/presentation/d/e/2PACX-1vQRC2DtoC-EOBMwf_3WgJE_QKiKgFB75pmtZqiX-70-j-sy4zy97DHDQUZCUqKSp-r-vwBAjMEX9WRj/pub?start=false&loop=false&delayms=3000\">Stratos Plan of record</a>",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/STR/Stratos+Home\">https://collaborate.linaro.org/display/STR/Stratos+Home</a>",
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LLVM/overview\">https://linaro.atlassian.net/wiki/spaces/LLVM/overview</a>",
                 "Theme": [
                     "Kernel & Toolchain"
                 ],
-                "description": "There is a growing trend  towards virtualization in areas other than the tradition server environment. The server enviroment is uniform in nature but as we move towards a richer echosystem in automotive, medical and general mobile and the IoT spaces, the rich array of hypervisors and SoCs become a problem.  <br><br>Project Stratos is working towards developing hypervisor agnostic Virtio interfaces and standards.<br>The four key areas of interest are<br><ul><li> High performance Virtio interfaces</li><li> Virtual Machine Monitors with a safety island</li><li> Boot Orchestration</li><li> Written Standards for the hypercalls</li></ul>",
-                "title": "Stratos"
+                "description": null,
+                "title": "Arm LLVM Toolchain Enablement and CI"
             },
-            "Project Ownership": {
-                "Governing Entity": "TSC",
-                "Project Owner": "Mike Holmes <a class=\"email-icon\" href=\"mailto:mike.holmes@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Alex Benn\u00e9e <a class=\"email-icon\" href=\"mailto:alex.bennee@linaro.org\"><span class=\"icon-mail\"></span></a>"
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10052&avatarId=10422",
+            "key": "LLVM"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/ASA/overview\">https://linaro.atlassian.net/wiki/spaces/ASA/overview</a>",
+                "description": null,
+                "title": "Arm Server Architecture"
             },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=12917&avatarId=14213",
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10031&avatarId=10575",
+            "key": "ASA"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/BDDS/overview\">https://linaro.atlassian.net/wiki/spaces/BDDS/overview</a>",
+                "description": null,
+                "title": "Big Data & Data Science"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10062&avatarId=10564",
+            "key": "BDDS"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CLOUD/overview\">https://linaro.atlassian.net/wiki/spaces/CLOUD/overview</a>",
+                "description": null,
+                "title": "Cloud Infrastructure"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10061&avatarId=10402",
+            "key": "CLOUD"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/QEMU/overview\">https://linaro.atlassian.net/wiki/spaces/QEMU/overview</a>",
+                "Theme": [
+                    "Kernel & Toolchain"
+                ],
+                "description": "Expanding various tools (especially QEMU) to emulate new ARM architectural features so open source projects can rapidly adopt the latest technology. We also continually improve ARMs hardware virtualization aiming for feature parity with other popular enterprise architectures.",
+                "title": "Enable Arm Architecture in QEMU"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10037&avatarId=10562",
+            "key": "QEMU"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LKQ\">https://linaro.atlassian.net/wiki/spaces/LKQ</a>",
+                "Project tag line": "We love to test stuff.",
+                "Theme": [
+                    "OS Build & Test"
+                ],
+                "description": "Ensure and improve ongoing quality for 6 years Linux LTS releases, linux-next, and Linux mainline on the Arm architecture",
+                "title": "Linaro Kernel Quality"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10063&avatarId=10566",
+            "key": "LKQ"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CMSIS/overview\">https://linaro.atlassian.net/wiki/spaces/CMSIS/overview</a>",
+                "description": null,
+                "title": "Open-CMSIS-Pack"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10013&avatarId=10552",
+            "key": "CMSIS"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIA/overview\">https://linaro.atlassian.net/wiki/spaces/AIA/overview</a>",
+                "description": "Utilizing mlperf to drive performance improvements in Tensorflow and related AI frameworks",
+                "title": "Optimize AI for Arm Data Center and Edge"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10024&avatarId=10556",
+            "key": "AIA"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/PERF/overview\">https://linaro.atlassian.net/wiki/spaces/PERF/overview</a>",
+                "Theme": [
+                    "Kernel & Toolchain"
+                ],
+                "description": null,
+                "title": "Power and Performance"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10030&avatarId=10421",
+            "key": "PERF"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/STR/overview\">https://linaro.atlassian.net/wiki/spaces/STR/overview</a>",
+                "description": null,
+                "title": "Stratos - Hyperviso Abstraction"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10066&avatarId=10567",
             "key": "STR"
         },
         {
-            "Project Contact Information": {
-                "Meetings": "",
-                "Point of Contact": "Join the conversation by subscribing to the <a href=\"https://op-lists.linaro.org/mailman/listinfo/scmi-dev\">SCMI-dev mailing list</a>.<br>"
-            },
             "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\"https://projects.linaro.org/projects/SCMI?selectedItem=com.almworks.jira.structure:wi-projectnav-structure\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/SCMI\">https://collaborate.linaro.org/display/SCMI</a>",
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/SCMI/overview\">https://linaro.atlassian.net/wiki/spaces/SCMI/overview</a>",
                 "Theme": [
-                    "Android Ecosystem",
-                    "Kernel & Toolchain",
-                    "Security",
-                    "Trusted Substrate"
+                    "Kernel & Toolchain"
                 ],
-                "description": "System Control and Management Interface (SCMI) has been designed to standardize the interface between a power coprocessor and other parts of a SoC. That includes the application processor (AP)  on which we can have both rich OS like Linux but also a TEE like OP-TEE.<br>Each client of the power coprocessor has its own access point with specific control permissions on the power resources. But on some \u201cmedium/small\u201d systems, the power coprocessor may not be present or doesn\u2019t provide enough access points. In such a case, the AP itself has to control and filter the access to the power resources.<br>For security reason, the TEE must have the control of shared resources and populate the authorized resources to the non secure world. The TEE acts as a power coprocessor from Linux PoV and we can keep the SCMI interface.",
+                "description": null,
                 "title": "System Control and Management Interface"
             },
-            "Project Ownership": {
-                "Governing Entity": "TSC",
-                "Project Owner": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Vincent Guittot <a class=\"email-icon\" href=\"mailto:vincent.guittot@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=12403&avatarId=10904",
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10065&avatarId=10421",
             "key": "SCMI"
         },
         {
-            "Project Contact Information": {
-                "Meetings": "Join our <a href=\"https://applications.zoom.us/addon/invitation/detail?meetingUuid=5KZ7V7nRQLOPnvM2xWLYxQ%3D%3D&signature=c9ddb10200a49a381c5058a9e9d5194f50b9f6eb9afac8bca39411edf88a41ae\">Zoom call</a> Every Second Thursday of the month, 2pm CET.",
-                "Point of Contact": ""
-            },
             "Project Information": {
-                "Health Check Report": "",
-                "JIRA Structure": "<a href=\" https://projects.linaro.org/secure/StructureBoard.jspa?s=292#\">Scope of work breakdown</a>",
-                "Plan Of Record": "",
-                "Project Homepage": "<a href=\"https://collaborate.linaro.org/display/TS/Trusted+Substrate+Home\">https://collaborate.linaro.org/display/TS/Trusted+Substrate+Home</a>",
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LEDGE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/TS/overview\">https://linaro.atlassian.net/wiki/spaces/TS/overview</a>",
                 "Theme": [
-                    "Trusted Substrate",
-                    "IoT & Embedded"
+                    "Trusted Substrate"
                 ],
-                "description": "Trusted Substrate project ambition is to upstream all necessary technologies in multiple projects to enable SystemReady compliance. Projects can be Trusted Firmware, OP-TEE, U-Boot, SCP, Linux kernel (EFI stub) and others.",
+                "description": null,
                 "title": "Trusted Substrate"
             },
-            "Project Ownership": {
-                "Governing Entity": "LEDGE SC",
-                "Project Owner": "Fran\u00e7ois Ozog <a class=\"email-icon\" href=\"mailto:francois.ozog@linaro.org\"><span class=\"icon-mail\"></span></a>",
-                "Technical Lead": "Ilias Apalodimas <a class=\"email-icon\" href=\"mailto:ilias.apalodimas@linaro.org\"><span class=\"icon-mail\"></span></a>"
-            },
-            "icon": "https://projects.linaro.org/secure/projectavatar?pid=13000&avatarId=14401",
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10071&avatarId=10570",
             "key": "TS"
         }
     ]
