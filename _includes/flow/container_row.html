@@ -1,0 +1,11 @@
+<div {% if include.object.id %}id="{{include.object.id}}"{% endif %}  class="row {% if include.object.style %}{{include.object.style}}{% endif %}
+{% if include.object.background_image %}background_image_row text-white{% endif %}">
+{% if include.object.background_image %}
+    {% assign row_background_image = include.object.background_image %}
+    {% capture row_background_image_alt %}background image{% endcapture %}
+    {% picture header_image {{row_background_image}} --alt {{block_image_alt}} %}
+{% endif %}
+    <div class="container">
+        {% include flow/flow_inner.html sections=include.object.sections %}
+    </div>
+</div>
