@@ -4,7 +4,7 @@ description: |-
   We pride ourselves on being Arm software engineering experts with our experience & knowledge, capabilities, quality of our work & professionalism with our customers.
 permalink: /services/
 service_id: 99
-jumbotron: 
+jumbotron:
   class: dev_services text-center
   title: "Linaro Developer Services"
   inner_class: dev_services text-center
@@ -23,6 +23,12 @@ flow:
             From initial design through to development, implementation, support and training, Linaro Developer
             Services help you leverage open source on Arm to ensure fast time to market, exceptional quality and security, and
             cost effective long term maintenance.
+      - format: buttons
+        style: #
+        buttons_content:
+          - title: What our customers say
+            url: "#what_our_customers_say"
+            style: btn-primary
       - format: feature_block
         style: dev_services_block
         feature_block_content:
@@ -92,6 +98,7 @@ flow:
             BSP development, maintenance and optimization for
             Qualcomm platforms.
   - row: container_row
+    id: what_our_customers_say
     style: text-center
     sections:
       - format: title
