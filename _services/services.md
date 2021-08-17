@@ -24,11 +24,11 @@ flow:
             Services help you leverage open source on Arm to ensure fast time to market, exceptional quality and security, and
             cost effective long term maintenance.
       - format: buttons
-        style: #
+        style: text-center
         buttons_content:
           - title: What our customers say
             url: "#what_our_customers_say"
-            style: btn-primary
+            style: btn-primary btn-lg
       - format: feature_block
         style: dev_services_block
         feature_block_content:
