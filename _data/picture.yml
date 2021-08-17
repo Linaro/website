@@ -145,7 +145,7 @@ markup_presets:
     fallback_width: 100
     widths: [50, 100]
   heading_icon:
-    markup: data_picture
+    markup: data_auto
     attributes:
       img: 'class="lazyload img-fluid"'
     formats: [webp, original]
