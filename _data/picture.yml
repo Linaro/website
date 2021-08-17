@@ -144,6 +144,14 @@ markup_presets:
     fallback_format: original
     fallback_width: 100
     widths: [50, 100]
+  heading_icon:
+    markup: data_picture
+    attributes:
+      img: 'class="lazyload img-fluid"'
+    formats: [webp, original]
+    fallback_format: original
+    fallback_width: 100
+    widths: [50, 100]
   author_thumbnail_small:
     markup: data_picture
     attributes:
