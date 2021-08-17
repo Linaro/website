@@ -8,6 +8,17 @@
   }
 }
 #wrapper {
+  #flow_wrapper {
+    .title.icon_heading {
+      padding: 9px;
+      border: 1px solid #eee;
+      margin: 20px 0;
+    }
+    .title.block_bg_header {
+      background-color: #e6e6e6;
+      padding: 10px;
+    }
+  }
   .header_2021.background_image {
     z-index: 0;
     height: auto !important;
