@@ -26,7 +26,8 @@ flow:
       - format: text
         style: text-left
         text_content:
-          text: Linaro has driven open source software development on Arm since 2010.
+          text:
+            Linaro has driven open source software development on Arm since 2010.
             Companies become members to work with us and other industry leaders
             on [software projects](https://www.linaro.org/projects/) which
             deliver standardization and a base to differentiate on. Together we
@@ -37,8 +38,6 @@ flow:
             development and validation of Arm-based software.
   - row: custom_include_row
     source: about/maintainers_by_project.html
-  - row: custom_include_row
-    source: about/maintainers_by_company.html
   - row: container_row
     sections:
       - format: custom_include

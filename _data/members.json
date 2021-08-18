@@ -129,12 +129,6 @@
         "url": "/engineering/autonomous-vehicles/"
     },
     {
-        "advisory_board": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/riken.jpg",
-                "name": "RIKEN"
-            }
-        ],
         "id": "hpc-sig",
         "members": [
             {
