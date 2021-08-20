@@ -6,7 +6,8 @@ description: CAMBRIDGE, UK - 3 JUN 2010
 layout: post
 link: /news/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/
 slug: arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices
-title: Arm, Freescale, IBM, Samsung, ST-Ericsson and Texas Instruments Form New Company
+title:
+  Arm, Freescale, IBM, Samsung, ST-Ericsson and Texas Instruments Form New Company
   to Speed the Rollout of Linux-Based Devices
 wordpress_id: 4396
 ---
@@ -49,7 +50,7 @@ The company's first release is planned for November 2010 and will provide perfor
 
 In addition to Arm and IBM, four of the world's leading application processor companies, Freescale, Samsung, ST-Ericsson and Texas Instruments, will align open source engineering efforts within Linaro.
 
-Linaro is a growing organization with additional partners expected to join, thus expanding the range of expertise that is brought to the open source community[.](http://docs.google.com/Doc?docid=0AfNxEG8hx8WWZGp2M2czM18zMmg0ZmRocnRt&hl=en#annotation1) Companies interested in joining are invited to discuss membership with Linaro executives.
+Linaro is a growing organization with additional partners expected to join, thus expanding the range of expertise that is brought to the open source community. Companies interested in joining are invited to discuss membership with Linaro executives.
 
 ### Founding Member quotes
 
