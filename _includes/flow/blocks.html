@@ -29,6 +29,9 @@
                 </div>
                 {% endif %}
                 <div class="col col-12 col-sm{% unless block_width == 'auto' %}-6 col-lg-{{block_width}}{% endunless %} block_column">
+                    {% if block.url %}
+                        <a href="{{block.url}}">
+                    {% endif %}
                     <div class="card h-100 {% if block.background_image %}background_image text-white{% endif %} {% if block.style %}{{block.style}}{% endif %}">
                         {% if block.image %}
                             {% assign block_image = block.image %}
@@ -66,6 +69,9 @@
                             </div>
                         {% endif %}
                     </div>
+                    {% if block.url %}
+                        </a>
+                    {% endif %}
                 </div>
             {% endfor %}
         </div>
