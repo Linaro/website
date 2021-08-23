@@ -42,19 +42,19 @@ flow:
           blocks:
             - title: Linaro's GNU and LLVM Toolchains
               style: text-center
-              content_style: d-flex align-items-center
+              content_style: d-flex align-items-center blue_block
             - title: Linaro's Continuous Integration & Validation Tools
               style: text-center
-              content_style: d-flex align-items-center
+              content_style: d-flex align-items-center blue_block
             - title: Linaro's Linux releases for Qualcomm™ Snapdragon® processors
               style: text-center
-              content_style: d-flex align-items-center
+              content_style: d-flex align-items-center blue_block
             - title: Linaro Developer Cloud
               style: text-center
-              content_style: d-flex align-items-center
+              content_style: d-flex align-items-center blue_block
             - title: LEDGE Reference Platform
               style: text-center
-              content_style: d-flex align-items-center
+              content_style: d-flex align-items-center blue_block
   - row: container_row
     style: text_blocks_1
     sections:
@@ -81,7 +81,7 @@ flow:
         title_content:
           text: LLVM Toolchain
           size: h2
-          icon: /assets/images/projects/gnu.png
+          icon: /assets/images/projects/llvm-icon.PNG
       - format: text
         text_content:
           text: |
@@ -101,7 +101,7 @@ flow:
         title_content:
           text: LAVA - Linaro’s Automated Validation Architecture
           size: h2
-          icon: /assets/images/projects/gnu.png
+          icon: /assets/images/projects/lava-icon.PNG
       - format: text
         text_content:
           text: |
@@ -117,7 +117,7 @@ flow:
         title_content:
           text: Squad - Linaro’s Reporting Tool
           size: h2
-          icon: /assets/images/projects/gnu.png
+          icon: /assets/images/projects/squad-icon.PNG
       - format: text
         text_content:
           text: |
@@ -130,7 +130,7 @@ flow:
         title_content:
           text: Tuxsuite
           size: h2
-          icon: /assets/images/projects/gnu.png
+          icon: /assets/images/projects/tuxsuite-icon.PNG
       - format: text
         text_content:
           text: |
@@ -147,7 +147,6 @@ flow:
           style: font-weight-bold
           text: Linaro Linux releases for Qualcomm™  Snapdragon® processors
           size: h2
-          icon: /assets/images/projects/gnu.png
       # - format: custom_include
       #   source
       - format: text
