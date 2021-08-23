@@ -43,18 +43,23 @@ flow:
             - title: Linaro's GNU and LLVM Toolchains
               style: text-center
               content_style: d-flex align-items-center blue_block
+              url: "#gnu_and_llvm"
             - title: Linaro's Continuous Integration & Validation Tools
               style: text-center
               content_style: d-flex align-items-center blue_block
+              url: "#ci_and_validation"
             - title: Linaro's Linux releases for Qualcomm™ Snapdragon® processors
               style: text-center
               content_style: d-flex align-items-center blue_block
+              url: "#releases_for_snapdragon"
             - title: Linaro Developer Cloud
               style: text-center
               content_style: d-flex align-items-center blue_block
+              url: "#linaro_developer_cloud"
             - title: LEDGE Reference Platform
               style: text-center
               content_style: d-flex align-items-center blue_block
+              url: "#ledge_rp"
   - row: container_row
     style: text_blocks_1
     sections:
@@ -62,6 +67,7 @@ flow:
         style: block_bg_header
         title_content:
           style: font-weight-bold
+          id: gnu_and_llvm
           text: Linaro’s GNU and LLVM Toolchains
           size: h2
       - format: title
@@ -95,6 +101,7 @@ flow:
         title_content:
           style: font-weight-bold
           text: Linaro’s Continuous Integration & Validation Tools
+          id: ci_and_validation
           size: h2
       - format: title
         style: icon_heading
@@ -146,6 +153,7 @@ flow:
         title_content:
           style: font-weight-bold
           text: Linaro Linux releases for Qualcomm™  Snapdragon® processors
+          id: releases_for_snapdragon
           size: h2
       # - format: custom_include
       #   source
@@ -191,6 +199,7 @@ flow:
           style: font-weight-bold
           text: Linaro Developer Cloud - Access to the latest Arm enterprise class cloud instances
           size: h2
+          id: linaro_developer_cloud
       - format: text
         text_content:
           text: |
@@ -202,6 +211,7 @@ flow:
       - format: title
         style: block_bg_header
         title_content:
+          id: ledge_rp
           style: font-weight-bold
           text: LEDGE RP - A secure and robust container runtime environment
           size: h2
