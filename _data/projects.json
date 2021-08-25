@@ -82,6 +82,19 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LI/overview\">https://linaro.atlassian.net/wiki/spaces/LI/overview</a>",
+                "Theme": [
+                    "Android Ecosystem"
+                ],
+                "description": null,
+                "title": "Linux Kernel Development Targeting Android"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10074&avatarId=10572",
+            "key": "ACK"
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CMSIS/overview\">https://linaro.atlassian.net/wiki/spaces/CMSIS/overview</a>",
                 "description": null,
@@ -102,6 +115,19 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIM/overview\">https://linaro.atlassian.net/wiki/spaces/AIM/overview</a>",
+                "Theme": [
+                    "Artificial Intelligence"
+                ],
+                "description": null,
+                "title": "Optimize AI for Arm Microcontrollers"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10015&avatarId=10555",
+            "key": "AIM"
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/PERF/overview\">https://linaro.atlassian.net/wiki/spaces/PERF/overview</a>",
                 "Theme": [
@@ -112,6 +138,19 @@
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10030&avatarId=10421",
             "key": "PERF"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/SDEFAU/overview\">https://linaro.atlassian.net/wiki/spaces/SDEFAU/overview</a>",
+                "Theme": [
+                    "Android Ecosystem"
+                ],
+                "description": "Enablement and Support for strategic developer boards to empower open source Android ecosystem development",
+                "title": "Software Device Enablement for Android Upstream"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10073&avatarId=10571",
+            "key": "AOSP"
         },
         {
             "Project Information": {
@@ -148,6 +187,23 @@
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10071&avatarId=10570",
             "key": "TS"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/UM/overview\">https://linaro.atlassian.net/wiki/spaces/UM/overview</a>",
+                "Theme": [
+                    "Artificial Intelligence",
+                    "Android Ecosystem",
+                    "IoT & Embedded",
+                    "Kernel & Toolchain",
+                    "Security"
+                ],
+                "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result, as maintainers, they become responsible for keeping their code upstream in sync with the overall development of respective upstream projects.",
+                "title": "Upstream Maintainership"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10048&avatarId=10424",
+            "key": "UM"
         }
     ]
 }
