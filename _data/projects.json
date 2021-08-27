@@ -4,7 +4,7 @@
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/GNU/overview\">https://linaro.atlassian.net/wiki/spaces/GNU/overview</a>",
-                "description": null,
+                "description": "Development of GNU Toolchain:<br><br><ul><li> GCC compiler</li><ul><li> We improve Link-Time Optimizations (LTO), SVE auto-vectorization optimizations, and microarchitecture-specific optimizations for popular Arm cores.</li><li> We improve performance and scalability of Libgomp (GNU OpenMP runtime)</li><li> We support compiler sanitizers (ASAN, TSAN, etc.) in GCC.  Sanitizers are developed under LLVM Toolchain project, and sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.</ul></li><li> GDB debugger</li><ul><li> We develop support for new ARMv8.x architectural features and improve debugging experience.</ul></li><li> Glibc C Library</li><ul><li> We implement both target-specific and generic optimizations in Glibc.  We then aim to propagate all relevant Glibc improvements to Newlib and Bionic C libraries.</ul></li><li> GNU Binutils assembler, BFD and Gold linkers</li><ul><li> In Binutils we implement ELF section-level optimizations, as well as workarounds for hardware errata.</li></ul></li></ul>",
                 "title": "Arm GNU Toolchain Enablement and CI"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10040&avatarId=10422",
@@ -17,7 +17,7 @@
                 "Theme": [
                     "Kernel & Toolchain"
                 ],
-                "description": null,
+                "description": "Development of LLVM Toolchain:<br><br><ul><li> Clang compiler</li><ul><li>  We implement new and improve existing code-size and code-speed optimizations for AArch64 and ARM targets.</ul></li><li> LLDB debugger</li><ul><li> We develop support for new ARMv8.x architectural features and improve debugging experience.</ul></li><li> Compiler-RT runtime libraries</li><ul><li>  We port and improve compiler sanitizers (ASAN, TSAN, etc.) to AArch64 and ARM architectures.  Sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.</ul></li><li> LLD linker</li><ul><li> In LLD linker we implement ELF section-level optimizations, as well as workarounds for hardware errata.</li></ul></li></ul>",
                 "title": "Arm LLVM Toolchain Enablement and CI"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10052&avatarId=10422",
@@ -27,7 +27,7 @@
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/ASA/overview\">https://linaro.atlassian.net/wiki/spaces/ASA/overview</a>",
-                "description": null,
+                "description": "Primarily focused on Server Standardisation. Examples to include SBSA, xBBR to enable simplified adoption of mainline builds on new server hardware.",
                 "title": "Arm Server Architecture"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10031&avatarId=10575",
@@ -37,7 +37,7 @@
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/BDDS/overview\">https://linaro.atlassian.net/wiki/spaces/BDDS/overview</a>",
-                "description": null,
+                "description": "Make ARM64 a first class citizen in the Hadoop/Spark community and scale-out analytics",
                 "title": "Big Data & Data Science"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10062&avatarId=10564",
@@ -47,7 +47,7 @@
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CLOUD/overview\">https://linaro.atlassian.net/wiki/spaces/CLOUD/overview</a>",
-                "description": null,
+                "description": "The Cloud infrastructure team focuses on cloud infrastructure technologies such as Kubernetes, OpenStack, Ceph, and container runtime.<br><br>We dedicate to make open-source cloud infrastructure projects have the capabilities of easy deployment, easy management, and good performance on Arm64.<br><br>We also run the Linaro Developer Cloud. It is a pure open-source cloud, free for developers. It offers the virtual machine instances and Kubernetes as a service. Link: www.linaro.cloud",
                 "title": "Cloud Infrastructure"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10061&avatarId=10402",
@@ -82,6 +82,19 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LI/overview\">https://linaro.atlassian.net/wiki/spaces/LI/overview</a>",
+                "Theme": [
+                    "Android Ecosystem"
+                ],
+                "description": null,
+                "title": "Linux Kernel Development Targeting Android"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10074&avatarId=10572",
+            "key": "ACK"
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CMSIS/overview\">https://linaro.atlassian.net/wiki/spaces/CMSIS/overview</a>",
                 "description": null,
@@ -94,6 +107,9 @@
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIA/overview\">https://linaro.atlassian.net/wiki/spaces/AIA/overview</a>",
+                "Theme": [
+                    "Artificial Intelligence"
+                ],
                 "description": "Utilizing mlperf to drive performance improvements in Tensorflow and related AI frameworks",
                 "title": "Optimize AI for Arm Data Center and Edge"
             },
@@ -102,12 +118,25 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIM/overview\">https://linaro.atlassian.net/wiki/spaces/AIM/overview</a>",
+                "Theme": [
+                    "Artificial Intelligence"
+                ],
+                "description": null,
+                "title": "Optimize AI for Arm Microcontrollers"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10015&avatarId=10555",
+            "key": "AIM"
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/PERF/overview\">https://linaro.atlassian.net/wiki/spaces/PERF/overview</a>",
                 "Theme": [
                     "Kernel & Toolchain"
                 ],
-                "description": null,
+                "description": "Performance and Power Management have always been tightly linked because the power consumption often arises as a variable of the performance of the system. Mobile Phone world has been one of the most active contributors in this area with the aim to run always more powerful systems on always more constrained batteries. In fact,  most of systems can\u2019t afford to simply put everything to its maximum performance level but has to follow either a thermal budget or a maximum power budget.  In this way, large systems also have to deal with those constraints in order to use their power budget efficiently and reach maximum performances. This project aims to improve the efficiency of all ARM based Linux systems, small or large, by improving Linux subsystems that influence its performance or power consumption, which includes the scheduler or the thermal framework in addition to the traditional power management subsystems.",
                 "title": "Power and Performance"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10030&avatarId=10421",
@@ -115,9 +144,25 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/SDEFAU/overview\">https://linaro.atlassian.net/wiki/spaces/SDEFAU/overview</a>",
+                "Theme": [
+                    "Android Ecosystem"
+                ],
+                "description": "Enablement and Support for strategic developer boards to empower open source Android ecosystem development",
+                "title": "Software Device Enablement for Android Upstream"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10073&avatarId=10571",
+            "key": "AOSP"
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/STR/overview\">https://linaro.atlassian.net/wiki/spaces/STR/overview</a>",
-                "description": null,
+                "Theme": [
+                    "Automotive"
+                ],
+                "description": "There is a growing trend  towards virtualization in areas other than the tradition server environment. The server enviroment is uniform in nature but as we move towards a richer echosystem in automotive, medical and general mobile and the IoT spaces, the rich array of hypervisors and SoCs become a problem.<br><br>Project Stratos is working towards developing hypervisor agnostic Virtio interfaces and standards.<br>The four key areas of interest are<br><br><ul><li> High performance Virtio interfaces</li><li> Virtual Machine Monitors with a safety island</li><li> Boot Orchestration</li><li> Written Standards for the hypercalls</li></ul>",
                 "title": "Stratos - Hyperviso Abstraction"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10066&avatarId=10567",
@@ -130,7 +175,7 @@
                 "Theme": [
                     "Kernel & Toolchain"
                 ],
-                "description": null,
+                "description": "System Control and Management Interface (SCMI) has been designed to standardize the interface between a power coprocessor and other parts of a SoC. That includes the application processor (AP)  on which we can have both rich OS like Linux but also a TEE like OP-TEE.<br>Each client of the power coprocessor has its own access point with specific control permissions on the power resources. But on some \u201cmedium/small\u201d systems, the power coprocessor may not be present or doesn\u2019t provide enough access points. In such a case, the AP itself has to control and filter the access to the power resources.<br>For security reason, the TEE must have the control of shared resources and populate the authorized resources to the non secure world. The TEE acts as a power coprocessor from Linux PoV and we can keep the SCMI interface.",
                 "title": "System Control and Management Interface"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10065&avatarId=10421",
@@ -143,11 +188,28 @@
                 "Theme": [
                     "Trusted Substrate"
                 ],
-                "description": null,
+                "description": "Trusted Substrate project ambition is to upstream all necessary technologies in multiple projects to enable SystemReady compliance. Projects can be Trusted Firmware, OP-TEE, U-Boot, SCP, Linux kernel (EFI stub) and others.",
                 "title": "Trusted Substrate"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10071&avatarId=10570",
             "key": "TS"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/UM/overview\">https://linaro.atlassian.net/wiki/spaces/UM/overview</a>",
+                "Theme": [
+                    "Artificial Intelligence",
+                    "Android Ecosystem",
+                    "IoT & Embedded",
+                    "Kernel & Toolchain",
+                    "Security"
+                ],
+                "description": "Linaro's engineers are actively participating in upstream engineering communities. As a result, as maintainers, they become responsible for keeping their code upstream in sync with the overall development of respective upstream projects.",
+                "title": "Upstream Maintainership"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10048&avatarId=10424",
+            "key": "UM"
         }
     ]
 }
