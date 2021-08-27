@@ -93,7 +93,7 @@ flow:
           text: |
             The official community releases of the pre-built LLVM native toolchain for AArch64 and ARM 32-bit A-Profile cores are built and tested by Linaro and are now available on [LLVM’s GitHub](https://github.com/llvm/llvm-project/releases/).
 
-            In addition to the usual Linux-hosted LLVM toolchain, Linaro is now providing [official LLVM Toolchain for Windows on Arm](https://www.linaro.org/downloads/) starting with LLVM 12.0.0 release.
+            In addition to the usual Linux-hosted LLVM toolchain, Linaro is now providing [official LLVM Toolchain for Windows on Arm](https://drive.google.com/file/d/1cbqJhHCBK1T6jrDoisv29WstBxjMiPXz/view) starting with LLVM 12.0.0 release.
 
             Interested in Cortex-R and Cortex-M bare-metal targeted toolchains for Arm embedded processors? We’re working with Arm to supply a new release every year (with quarterly updates). Releases are maintained for two years. You can get these directly from [the Arm website](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm).
       - format: title
