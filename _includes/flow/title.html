@@ -1,0 +1,7 @@
+<div class="col col-12 title {% if include.object.title_content.icon %}d-flex flex-direction-row justify-content-between align-items-center{% endif%} {% if include.object.style %}{{include.object.style}}{% endif %}">
+    <{{include.object.title_content.size}}  {% if include.object.title_content.id %}id="{{include.object.title_content.id}}"{% endif %}{% if include.object.title_content.style %}class="{{include.object.title_content.style}}"{% endif %}>{{include.object.title_content.text}}</{{include.object.title_content.size}}>
+    {% if include.object.title_content.icon %}
+        {% capture alt %}{{include.object.title_content.text}} heading image{% endcapture %}
+        {% picture heading_icon {{include.object.title_content.icon}} --alt {{alt}}  %}
+    {% endif %}
+</div>
