@@ -4,6 +4,9 @@
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/GNU/overview\">https://linaro.atlassian.net/wiki/spaces/GNU/overview</a>",
+                "Theme": [
+                    "Kernel & Toolchain"
+                ],
                 "description": "Development of GNU Toolchain:<br><br><ul><li> GCC compiler</li><ul><li> We improve Link-Time Optimizations (LTO), SVE auto-vectorization optimizations, and microarchitecture-specific optimizations for popular Arm cores.</li><li> We improve performance and scalability of Libgomp (GNU OpenMP runtime)</li><li> We support compiler sanitizers (ASAN, TSAN, etc.) in GCC.  Sanitizers are developed under LLVM Toolchain project, and sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.</ul></li><li> GDB debugger</li><ul><li> We develop support for new ARMv8.x architectural features and improve debugging experience.</ul></li><li> Glibc C Library</li><ul><li> We implement both target-specific and generic optimizations in Glibc.  We then aim to propagate all relevant Glibc improvements to Newlib and Bionic C libraries.</ul></li><li> GNU Binutils assembler, BFD and Gold linkers</li><ul><li> In Binutils we implement ELF section-level optimizations, as well as workarounds for hardware errata.</li></ul></li></ul>",
                 "title": "Arm GNU Toolchain Enablement and CI"
             },
@@ -32,6 +35,16 @@
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10031&avatarId=10575",
             "key": "ASA"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/EULR/overview\">https://linaro.atlassian.net/wiki/spaces/EULR/overview</a>",
+                "description": null,
+                "title": "Arm Server CI with the OpenEuler Community"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10067&avatarId=10415",
+            "key": "EULR"
         },
         {
             "Project Information": {
@@ -68,9 +81,34 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/STOR/overview\">https://linaro.atlassian.net/wiki/spaces/STOR/overview</a>",
+                "Theme": [
+                    "Kernel & Toolchain"
+                ],
+                "description": "The goal is to remove the gaps with x86 by collaborating together in the Arm server ecosystem, so that we can provide competitive and leading storage solutions with Arm servers.<br><br>Deliverables are focused around:<br><br><ul><li> Participate in the upstream communities of Ceph/Lustre/BeeGFS/etc for ARM64 support, setup CI testing on Arm servers, and drive the official ARM64 releases;</li><li> Performance optimizations by leveraging key ARM64 architecture features (storage related benchmark testing can be done for the profiling);</li><li> Drive community promotion by members/partners together for storage solutions on Arm servers to help customer adoptions;</li></ul>",
+                "title": "Enhance Software-Defined-Storage on Arm Servers"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10017&avatarId=10560",
+            "key": "STOR"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://www.lavasoftware.org/\">https://www.lavasoftware.org/</a>",
+                "Theme": [
+                    "OS Build & Test"
+                ],
+                "description": "<ul><li> for\u00a0*L*inaro\u00a0*A*utomated\u00a0*V*alidation\u00a0*A*rchitecture.</li></ul>LAVA is a\u00a0_continuous integration_\u00a0system for deploying operating systems onto physical and virtual hardware for running tests.</li></ul>LAVA is also used to managed and share boards among teams.</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul>",
+                "title": "LAVA (and test-definitions)"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10055&avatarId=10411",
+            "key": "STG"
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LKQ\">https://linaro.atlassian.net/wiki/spaces/LKQ</a>",
-                "Project tag line": "We love to test stuff.",
                 "Theme": [
                     "OS Build & Test"
                 ],
@@ -95,8 +133,25 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by Linaro Internal.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://git.ostc-eu.org/groups/OSTC/OHOS/-/milestones\">https://git.ostc-eu.org/groups/OSTC/OHOS/-/milestones</a>",
+                "Theme": [
+                    "Android Ecosystem",
+                    "OS Build & Test"
+                ],
+                "description": "Oniro OS (formerly OpenHarmony OS) is a publicly available open source version of the HarmonyOS operating system. Linaro will join Huawei in the creation of a collaborative engineering effort to further the capabilities of the Oniro OS (around trusted-boot and over-the-air updates), create a collaborative, Oniro OS Open CI testing system, and onboard Linaro Oniro project members and their devices into the project.",
+                "title": "Oniro OS (formerly OpenHarmony OS)"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10016&avatarId=10410",
+            "key": "ONIR"
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CMSIS/overview\">https://linaro.atlassian.net/wiki/spaces/CMSIS/overview</a>",
+                "Theme": [
+                    "IoT & Embedded"
+                ],
                 "description": null,
                 "title": "Open-CMSIS-Pack"
             },
@@ -118,7 +173,7 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIM/overview\">https://linaro.atlassian.net/wiki/spaces/AIM/overview</a>",
                 "Theme": [
                     "Artificial Intelligence"
@@ -144,13 +199,26 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://github.com/linaro/squad\">https://github.com/linaro/squad</a>",
+                "Theme": [
+                    "OS Build & Test"
+                ],
+                "description": "SQUAD is a Software Quality Dashboard written in Python 3. It uses Django.<br><br>See\u00a0<a href=\"https://github.com/Linaro/squad/blob/master/doc\">the documentation folder</a>\u00a0for more documentation, or go\u00a0<a href=\"https://squad.readthedocs.io/\">browse the documentation online</a>",
+                "title": "SQUAD (and squad_client)"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10055&avatarId=10411",
+            "key": "STG"
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/SDEFAU/overview\">https://linaro.atlassian.net/wiki/spaces/SDEFAU/overview</a>",
                 "Theme": [
                     "Android Ecosystem"
                 ],
                 "description": "Enablement and Support for strategic developer boards to empower open source Android ecosystem development",
-                "title": "Software Device Enablement for Android Upstream"
+                "title": "Software Device Enablement for Android"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10073&avatarId=10571",
             "key": "AOSP"
@@ -163,7 +231,7 @@
                     "Automotive"
                 ],
                 "description": "There is a growing trend  towards virtualization in areas other than the tradition server environment. The server enviroment is uniform in nature but as we move towards a richer echosystem in automotive, medical and general mobile and the IoT spaces, the rich array of hypervisors and SoCs become a problem.<br><br>Project Stratos is working towards developing hypervisor agnostic Virtio interfaces and standards.<br>The four key areas of interest are<br><br><ul><li> High performance Virtio interfaces</li><li> Virtual Machine Monitors with a safety island</li><li> Boot Orchestration</li><li> Written Standards for the hypercalls</li></ul>",
-                "title": "Stratos - Hyperviso Abstraction"
+                "title": "Stratos - Hypervisor Abstraction"
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10066&avatarId=10567",
             "key": "STR"
@@ -193,6 +261,19 @@
             },
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10071&avatarId=10570",
             "key": "TS"
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://tuxsuite.com/\">https://tuxsuite.com/</a>",
+                "Theme": [
+                    "OS Build & Test"
+                ],
+                "description": "TuxSuite\u2122 delivers on-demand APIs and tools for building Linux kernels in parallel and at scale.",
+                "title": "TuxSuite"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10055&avatarId=10411",
+            "key": "STG"
         },
         {
             "Project Information": {
