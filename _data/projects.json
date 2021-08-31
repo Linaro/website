@@ -133,20 +133,6 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by Linaro Internal.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://git.ostc-eu.org/groups/OSTC/OHOS/-/milestones\">https://git.ostc-eu.org/groups/OSTC/OHOS/-/milestones</a>",
-                "Theme": [
-                    "Android Ecosystem",
-                    "OS Build & Test"
-                ],
-                "description": "Oniro OS (formerly OpenHarmony OS) is a publicly available open source version of the HarmonyOS operating system. Linaro will join Huawei in the creation of a collaborative engineering effort to further the capabilities of the Oniro OS (around trusted-boot and over-the-air updates), create a collaborative, Oniro OS Open CI testing system, and onboard Linaro Oniro project members and their devices into the project.",
-                "title": "Oniro OS (formerly OpenHarmony OS)"
-            },
-            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10016&avatarId=10410",
-            "key": "ONIR"
-        },
-        {
-            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CMSIS/overview\">https://linaro.atlassian.net/wiki/spaces/CMSIS/overview</a>",
                 "Theme": [
