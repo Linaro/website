@@ -37,7 +37,7 @@ items:
     url: https://www.edgexfoundry.org/
   - name: UEFI
     image: /assets/images/projects/uefi.png
-    url: http://www.uefi.org/
+    url: https://uefi.org/
   - name: OpenBMC
     image: /assets/images/projects/OpenBMC.png
     url: https://www.openbmc.org/
