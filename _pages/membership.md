@@ -11,119 +11,60 @@ css_bundle: membership
 layout: flow
 jumbotron:
   class: text-center about_header
-  title: Linaro Membership
-  image: /assets/images/content/Membership_banner_image.jpg
+  title: Influence the future of Arm Software
+  image: /assets/images/content/member__banner_image.jpg
 flow:
-  - row: container_row
+  - row: container_row bg-light
     style: pb-5
     sections:
-      - format: title
-        title_content:
-          size: h2
-          text: Linaro Membership
-      - format: text
-        text_content:
-          text: >
-            Linaro membership allows you to shape the future of Arm software
-            together with Linaro and other industry leaders. Collaborating on
-            common projects significantly reduces software fragmentation across
-            the many Arm platforms, enabling participating companies and the
-            community to reduce their costs for development and validation of
-            Arm-based software.
-  - row: custom_include_row
-    source: membership/grouped_members_row.html
-  - row: container_row
-    style: text-center
-    sections:
-      - format: buttons
-        style: text-center
-        buttons_content:
-          - title: Enquire about membership today
-            url: "#membership_form"
-            style: btn-primary enquire_button text-uppercase
-          - title: View membership rules
-            url: /assets/downloads/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf
-  - row: container_row
-    style: membership_blocks text-dark
-    background_image: /assets/images/content/code_banner.jpg
-    sections:
-      - format: block
-        style: text-dark
-        item_width: "4"
-        block_section_content:
-          blocks:
-            - title: No need to differentiate on the basics
-              description: >
-                Collaboration on common software allows participating member
-                companies to direct more resources towards differentiating their
-                products.
-              style: membership_block
-            - title: Faster problem solving = accelerated time to market
-              description: >
-                Having engineers from all the member companies work together
-                with Linaro engineers - many of which are world-renowned Arm
-                software experts - means more eyes on the problem.
-              style: membership_block
-            - title: Arm & Open Source Software Expertise
-              description: >
-                If you want a say in how Arm software evolves and want to work
-                with leading technology companies to develop and implement
-                actual engineering solutions, Linaro membership is for you.
-              style: membership_block
-  - row: container_row
-    sections:
-      - format: title
-        title_content:
-          size: h2
-          text: Open Source Projects Linaro Contribute to
       - format: custom_include
-        source: membership/projects_slider.html
-    style: large_type bg-light centered_type projects_row
+        source: membership/members_section.html
+  # - row: container_row
+  #   style: text-center
+  #   sections:
+  #     - format: buttons
+  #       style: text-center
+  #       buttons_content:
+  #         - title: Enquire about membership today
+  #           url: "#membership_form"
+  #           style: btn-primary enquire_button text-uppercase
+  #         - title: View membership rules
+  #           url: /assets/downloads/Membership_Rules_of_Linaro_Limited_Effective_26th_July_20122.pdf
   - row: container_row
+    style: membership_text
     sections:
-      - format: title
-        title_content:
-          size: h2
-          text: Core Membership
       - format: text
         text_content:
           text: >
-            Core members drive the direction of software development in the Arm
-            ecosystem. They can participate in any of Linaro’s projects or
-            segment groups and have access to their own dedicated engineering
-            team.
+            ## Linaro Membership
+
+            Being a Linaro member means collaborating on projects which help enable new markets on Arm and solve
+            common problems. Collaboration significantly reduces software fragmentation across the many Arm
+            platforms, enabling participating companies and the community to reduce their costs for development and
+            validation of Arm-based software.
+
+            **In practise, there are two parts to being a Linaro member.** 
+
+            1. One part is the technical discussions with Linaro and other industry leaders in which roadmaps
+            and strategy are developed and agreed.
+            1. The other part is the collaborative engineering which then takes place between Linaro, member
+            engineers and the open source community to deliver these solutions.
+
+            **In this sense what we offer is unique** - a forum where actual software engineering happens as a result of
+            member companies collaborating with Linaro’s Arm software experts, other industry leaders and the open
+            source community.
+  - row: container_row
+    style: membership_panels bg-light
+    sections:
+      - format: text
+        text_content:
+          text: >
+            ## What is the value of becoming a Linaro member?
+
+            While the level of influence a member company has varies, depending on what membership type they have,
+            all members benefit from three key factors.
       - format: custom_include
-        source: membership/core_membership_testimonial.html
-    style: large_type centered_type membership_row core_membership_row bg-light-blue
-  - row: container_row
-    sections:
-      - format: title
-        title_content:
-          size: h2
-          text: Club Membership
-      - format: text
-        text_content:
-          text: >
-            Club members influence the direction of Arm software development and
-            can participate in any of Linaro’s segment groups. At an additional
-            fee, they can also have access to their own dedicated engineering
-            team and participate in additional Linaro projects.
-    style: large_type centered_type membership_row club_membership_row  bg-green
-  - row: container_row
-    sections:
-      - format: title
-        title_content:
-          size: h2
-          text: Group Membership
-      - format: text
-        text_content:
-          text: >
-            Group members drive strategy within a specific vertical and can
-            participate in any of the Linaro projects set up by their segment
-            group. Linaro manages the following groups: Artificial Intelligence,
-            Autonomous Vehicles, Consumer, Datacenter & Cloud, Edge & Fog
-            Computing, IoT & Embedded and HPC.
-    style: large_type centered_type membership_row group_membership_row bg-light-gray
+        source: membership/members_collapse_panels.html
   - row: container_row
     sections:
       - format: title
