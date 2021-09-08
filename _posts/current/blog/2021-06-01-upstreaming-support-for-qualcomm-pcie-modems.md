@@ -89,7 +89,7 @@ mhi0  mhi0_DIAG mhi0_IP_HW0 mhi0_QMI
 
 # MHI WWAN network driver - mhi_net
 
-The IP_HW0 device represents the data path and is a logical link to the Modem IP accelerator (IPA), and by extension to the cellular network. We Implemented a new **netdev driver**, [mhi_net](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/mhi) to perform the bridging between the MHI layer (MHI transfers) and the Linux network stack (IP packets). 
+The IP_HW0 device represents the data path and is a logical link to the Modem IP accelerator (IPA), and by extension to the cellular network. We Implemented a new **netdev driver**, mhi_net to perform the bridging between the MHI layer (MHI transfers) and the Linux network stack (IP packets). 
 
 {% include image.html path="/assets/images/content/mhi-wwan-network-driver-mhi_net.png" alt="MHI WWAN Network Driver MHI Net" %}
 
