@@ -9,6 +9,119 @@
 }
 #wrapper {
   #flow_wrapper {
+    figure.gradient_quote {
+      blockquote {
+        padding: 0;
+        background-color: white;
+        border-left: 0;
+        &:before {
+          display: none;
+          margin-left: 0px;
+          padding: 0px;
+        }
+      }
+      &:after {
+        content: "\0201D";
+        position: absolute;
+        bottom: -20px;
+        right: -15px;
+        font-size: 68px;
+        text-align: center;
+        line-height: 71px;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        color: $primary;
+      }
+      &:before {
+        content: "\0201C";
+        position: absolute;
+        top: -20px;
+        left: -15px;
+        font-size: 68px;
+        text-align: center;
+        line-height: 71px;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        color: #0083ad;
+      }
+      position: relative;
+      padding: 20px;
+      background-color: white;
+      border: 1px solid red;
+      border: 10px solid;
+      border-image-slice: 1;
+      border-width: 3px;
+      border-image-source: linear-gradient(to top left, $primary, #0083ad);
+    }
+
+    .membership_panels {
+      #accordion {
+        .btn.btn-link {
+          &.collapsed:after {
+            content: "\2303";
+            font-size: 40px;
+            top: 20px;
+          }
+          &::after {
+            content: "\2304";
+            color: #98cc33;
+            right: 0px;
+            top: 20px;
+            position: absolute;
+            font-size: 40px;
+            margin-right: 30px;
+            font-family: "fontello";
+            top: 0;
+          }
+        }
+      }
+      .card {
+        background-color: white;
+        border: none;
+        margin: 40px 0;
+        .card-header {
+          background-color: white;
+          border-bottom: none;
+          .btn {
+            text-align: left;
+            color: #000;
+            font-weight: bold;
+          }
+          h5 {
+            border-bottom: none;
+            padding-bottom: 0px;
+          }
+        }
+      }
+    }
+    .membership_text {
+      ol {
+        list-style: none;
+        padding-left: 0px;
+        li {
+          &:before {
+            content: attr(seq);
+            display: inline-flex;
+
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border: 3px solid #dedede;
+            border-radius: 50%;
+            background-color: $primary;
+            color: #fff;
+            margin-right: 10px;
+            font-weight: bold;
+          }
+          &:nth-child(1):before {
+            background-color: #0083ad;
+          }
+        }
+      }
+    }
     .blue_block {
       h5 {
         color: #11809f;
