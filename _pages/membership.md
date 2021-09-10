@@ -10,8 +10,10 @@ js-package: membership
 css_bundle: membership
 layout: flow
 jumbotron:
-  class: text-center about_header
+  class: text-center about_header header_2021
   title: Influence the future of Arm Software
+  title-class: font-weight-bold my-5
+  inner_class: py-5
   image: /assets/images/content/member__banner_image.jpg
 flow:
   - row: container_row bg-light
@@ -35,7 +37,7 @@ flow:
     sections:
       - format: text
         text_content:
-          text: >
+          text: |
             ## Linaro Membership
 
             Being a Linaro member means collaborating on projects which help enable new markets on Arm and solve
@@ -45,10 +47,12 @@ flow:
 
             **In practise, there are two parts to being a Linaro member.** 
 
-            1. One part is the technical discussions with Linaro and other industry leaders in which roadmaps
-            and strategy are developed and agreed.
-            1. The other part is the collaborative engineering which then takes place between Linaro, member
-            engineers and the open source community to deliver these solutions.
+            <ol>
+              <li seq="1">One part is the technical discussions with Linaro and other industry leaders in which roadmaps
+            and strategy are developed and agreed.</li>
+              <li seq="2">The other part is the collaborative engineering which then takes place between Linaro, member
+            engineers and the open source community to deliver these solutions.</li>
+            </ol>
 
             **In this sense what we offer is unique** - a forum where actual software engineering happens as a result of
             member companies collaborating with Linaro’s Arm software experts, other industry leaders and the open
@@ -57,6 +61,7 @@ flow:
     style: membership_panels bg-light
     sections:
       - format: text
+        class: test
         text_content:
           text: >
             ## What is the value of becoming a Linaro member?
