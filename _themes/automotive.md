@@ -17,7 +17,7 @@ description: >
 jumbotron:
   class: header_2021 theme_banner
   title: Automotive
-  description: |-
+  description: |
     The automotive industry is entering an exciting phase through the Software Defined Vehicle
     momentum, moving more and more away from hardware upgrades to software developments. But
     there is still a long way to go before the Software Defined Vehicle becomes a reality. From the lack of
