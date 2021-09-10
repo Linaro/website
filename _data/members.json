@@ -130,13 +130,6 @@
     },
     {
         "id": "hpc-sig",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/sandia-national-laboratories.jpg",
-                "name": "Sandia National Laboratories",
-                "uri": "https://www.sandia.gov/"
-            }
-        ],
         "membership_group_name": "HPC Members",
         "text": "The Linaro High Performance Compute SIG (LHPS) was launched at Linaro Connect LAS16 in September 2016. \n\nThe HPC SIG is directed by a steering committee that is comprised of representatives from member companies who determine the technical agenda for the group. There is  also an Advisory Board who provide subject matter expertise and guidance as users.  HPC will benefit from Linaro\u2019s other engineering activities in the same way as Linaro\u2019s  other groups do. All groups rely on core engineering work (for example, Toolchain (GCC, LLVM) and Virtualisation (QEMU) and influence the roadmap of these common, shared projects. HPC will also leverage Linaro\u2019s work on the Enterprise Reference Platform and boot architecture from the Linaro Datacenter & Cloud Group (LDCG). \n\nCompanies interested in working together on driving the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development are invited to contact Linaro with the form below.",
         "url": "/engineering/high-performance-computing/"

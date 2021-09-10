@@ -19,6 +19,7 @@ tags:
 category: blog
 author: loic.poulain
 ---
+
 # Introduction
 
 **Wireless Wide Area Network (WWAN)** is a form of wireless network that relies on telecommunication technologies such as 3G or 4G cellular networks for transferring data, specifically IP packets, and thus offering internet access over mobile networks. From the user side, such a network is accessed via a ‘modem’ implementing one or several of the cellular protocols.
@@ -33,10 +34,10 @@ For some time now, USB has become a de-facto solution to connect to WWAN/modems.
 
 Unlike other wireless technologies like WiFi or Bluetooth, the Linux kernel does not offer a unified high level API and device model for WWAN modems. A USB WWAN device is usually enumerated as a set of multiple logical devices, such as:
 
-* TTY serial devices (/dev/ttyUSB*, /dev/ttyACM*) transporting ‘legacy’ AT commands and data via point-to-point protocol (PPP).
-* cdc-wdm character devices (/dev/cdc-wdm*) to transport modern binary based control protocols such as USB-IF MBIM (Mobile Broadband Interface Model) or QMI (Qualcomm Modem/MSM Interface).
-* Network devices (e.g. wwan0 iface) used to transport data through USB interfaces optimized for network packet transfer, and implemented as CDC-ECM, CDC-NCM, RNDIS or CDC-MBIM USB classes,
-* Virtual CD-ROM, usually hosting Windows/MacOS drivers and user manual (e.g. /dev/sr1 block device)…
+- TTY serial devices (/dev/ttyUSB*, /dev/ttyACM*) transporting ‘legacy’ AT commands and data via point-to-point protocol (PPP).
+- cdc-wdm character devices (/dev/cdc-wdm\*) to transport modern binary based control protocols such as USB-IF MBIM (Mobile Broadband Interface Model) or QMI (Qualcomm Modem/MSM Interface).
+- Network devices (e.g. wwan0 iface) used to transport data through USB interfaces optimized for network packet transfer, and implemented as CDC-ECM, CDC-NCM, RNDIS or CDC-MBIM USB classes,
+- Virtual CD-ROM, usually hosting Windows/MacOS drivers and user manual (e.g. /dev/sr1 block device)…
 
 Though all the logical devices contribute to the WWAN/feature as a whole, they are each registered separately. This collection of devices varies depending on the manufacturers and models, and is possibly extended with additional interfaces for debug, firmware upgrade, GPS/GNSS and so on.
 
@@ -46,8 +47,8 @@ Below is the kernel log output on Telit FN980 USB modem connection, it shows sev
 
 This heterogeneous and relatively raw interfacing scheme does not make modems straightforward to use from the user side. For example, the wwan0 network interface is not useful alone and requires configuration using specific commands from one of the control ports (e.g. cdc-wdm0) to pass traffic. Thankfully, some userspace tools have been developed to handle that complexity, such as ModemManager, which
 
-* Identifies which logical devices (tty, net, cdc-wdm…) must be collected together to expose a consolidated view of the ‘WWAN device’ to the user.
-* Abstracts control protocols such as AT, QMI, MBIM to offer a high level unified control interface over DBUS (e.g. enable, connect, scan…).
+- Identifies which logical devices (tty, net, cdc-wdm…) must be collected together to expose a consolidated view of the ‘WWAN device’ to the user.
+- Abstracts control protocols such as AT, QMI, MBIM to offer a high level unified control interface over DBUS (e.g. enable, connect, scan…).
 
 To accomplish this, ModemManager relies on protocol libraries (libqmi, libmbim), sysfs hierarchy, uevents and vendor plugins.
 
@@ -75,21 +76,21 @@ We started with the PCI MHI controller driver, and implemented it as a generic P
 
 We were pleased to find that no changes, except for a few bug fixes, were needed in the MHI core. Once the mhi_pci_generic driver had registered with the MHI core we were able to see the discovered channels and transfer our attention to drivers for the logical devices.
 
-For example, a Telit FN980 5G PCIe device exposes the following MHI TX/RX channels: 
+For example, a Telit FN980 5G PCIe device exposes the following MHI TX/RX channels:
 
-* IP_HW0: Is the path for network data, which is handled on the modem side by the IPA (IP hardware accelerator).
-* QMI: A protocol for controlling the modem that is exactly the same as for the USB variant but is instead routed over PCIe/MHI.
-* DIAG: is the modem diagnostic interface (also known as QCDM).
+- IP_HW0: Is the path for network data, which is handled on the modem side by the IPA (IP hardware accelerator).
+- QMI: A protocol for controlling the modem that is exactly the same as for the USB variant but is instead routed over PCIe/MHI.
+- DIAG: is the modem diagnostic interface (also known as QCDM).
 
 {% include image.html path="/assets/images/content/mhi-core.png" alt="MHI Core" %}
 
 As any other bus, MHI devices (controllers, clients) are represented under sysfs hierarchy:
 $ ls /sys/bus/mhi/devices
-mhi0  mhi0_DIAG mhi0_IP_HW0 mhi0_QMI
+mhi0 mhi0_DIAG mhi0_IP_HW0 mhi0_QMI
 
 # MHI WWAN network driver - mhi_net
 
-The IP_HW0 device represents the data path and is a logical link to the Modem IP accelerator (IPA), and by extension to the cellular network. We Implemented a new **netdev driver**, [mhi_net](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/net/mhi) to perform the bridging between the MHI layer (MHI transfers) and the Linux network stack (IP packets). 
+The IP_HW0 device represents the data path and is a logical link to the Modem IP accelerator (IPA), and by extension to the cellular network. We Implemented a new **netdev driver**, mhi_net to perform the bridging between the MHI layer (MHI transfers) and the Linux network stack (IP packets).
 
 {% include image.html path="/assets/images/content/mhi-wwan-network-driver-mhi_net.png" alt="MHI WWAN Network Driver MHI Net" %}
 
@@ -107,7 +108,7 @@ After some LKML back and forth to refine things, we migrated to a better solutio
 
 Linux 5.13 will be the first release including all the changes required to support any SDX55 or SDX24 based modem. It has been successfully tested with Telit FN980m and Quectel EM120GR-L modules, but more are coming and we already see other vendors adding their PCI IDs.
 
-To support this in userspace we  also added WWAN/MHI support to ModemManager. This is currently only available in the development branches but we anticipate it being included in the ModemManager 1.18.
+To support this in userspace we also added WWAN/MHI support to ModemManager. This is currently only available in the development branches but we anticipate it being included in the ModemManager 1.18.
 
 With all those pieces, using a QCOM PCIe modem is as easy as with ethernet or WiFi networks. NetworkManager, either through command line utility (nmcli) or the graphical network settings, can be used to manage the ‘GSM’ connection:
 
