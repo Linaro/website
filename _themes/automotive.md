@@ -7,28 +7,14 @@ image: /assets/images/content/AutomotiveBanner.jpg
 icon: /assets/images/content/Icon_Security_White.svg
 icon_dark: /assets/images/content/Icon_Security_black.svg
 description: >
-  Security is no longer an option, it's a vital ingredient to be able to protect intellectual
-  property, communications, bank accounts, personal digital belongings etc. The list is almost
-  endless. To develop solutions that meet all the security criterias, you need to have a solid
-  understanding of a vast range of technologies which requires teams of experts. Security has
-  been an important topic for Linaro since the start. Linaro has built a strong team with
-  security expertise and we have proven that we have been able to help other companies as
-  well as communities to thrive. If you believe security is too challenging, we can help you!
+  The automotive industry is entering an exciting phase through the Software Defined Vehicle momentum, moving more and more away from hardware upgrades to software developments. But there is still a long way to go before the Software Defined Vehicle becomes a reality. Challenges still stand in the way such as the lack of standard interfaces and stringent requirements for communication latency of audio, video and sensor data, the need for secure communication between virtual machines and the ability to maintain up-to-date, secure software. All of these challenges have one thing in common - they all require collaborative software engineering to bring standardization and reference open source code bases to automotive. Without open standards the path to delivering the software defined vehicle will be a lot longer and more costly.
 jumbotron:
   class: header_2021 theme_banner
   title: Automotive
   description: |
-    The automotive industry is entering an exciting phase through the Software Defined Vehicle
-    momentum, moving more and more away from hardware upgrades to software developments. But
-    there is still a long way to go before the Software Defined Vehicle becomes a reality. From the lack of
-    standard interfaces and latency to the need for secure communication between virtual machines and
-    the ability to maintain up-to-date, secure software - all of these challenges have one thing in common.
-    They all require collaborative software engineering to bring standardization and reference open source
-    code bases to automotive. Without open standards the path to delivering the software defined vehicle
-    will be a lot longer and more costly.
+    The automotive industry is entering an exciting phase through the Software Defined Vehicle momentum, moving more and more away from hardware upgrades to software developments. But there is still a long way to go before the Software Defined Vehicle becomes a reality. Challenges still stand in the way such as the lack of standard interfaces and stringent requirements for communication latency of audio, video and sensor data, the need for secure communication between virtual machines and the ability to maintain up-to-date, secure software. All of these challenges have one thing in common - they all require collaborative software engineering to bring standardization and reference open source code bases to automotive. Without open standards the path to delivering the software defined vehicle will be a lot longer and more costly.
 
-    Linaro has a track record of bringing standardization to the Linux kernel and is now extending this to
-    automotive. For more information, fill out the form below to get in touch or download our Whitepaper.
+    Linaro has a track record of bringing standardization to the Linux kernel and is now extending this to automotive. For more information, fill out the form below to get in touch or download our Whitepaper
   image: /assets/images/content/AutomotiveBanner.jpg
   buttons:
     - title: How can Linaro help?
