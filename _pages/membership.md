@@ -16,8 +16,8 @@ jumbotron:
   inner_class: py-5
   image: /assets/images/content/member__banner_image.jpg
 flow:
-  - row: container_row bg-light
-    style: pb-5
+  - row: container_row
+    style: bg-light
     sections:
       - format: custom_include
         source: membership/members_section.html
@@ -70,6 +70,17 @@ flow:
             all members benefit from three key factors.
       - format: custom_include
         source: membership/members_collapse_panels.html
+  - row: container_row
+    background_image: /assets/images/content/member__banner_image.jpg
+    style: membership_panels bg-light text-dark
+    sections:
+      - format: text
+        class: test
+        text_content:
+          text: >
+            ## Linaro offers four different types of membership
+      - format: custom_include
+        source: membership/membership_types_tabs.html
   - row: container_row
     sections:
       - format: title
