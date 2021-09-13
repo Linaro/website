@@ -9,6 +9,41 @@
 }
 #wrapper {
   #flow_wrapper {
+    .row.membership_panels.background_image_row {
+      .container {
+        z-index: 9;
+        position: relative;
+      }
+      h2 {
+        font-weight: bold;
+      }
+      li.nav-item.group-style a {
+        background-color: #535353;
+        color: black;
+      }
+      &:after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+        left: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #fff 100%);
+      }
+      picture > img {
+        filter: brightness(0.3) grayscale(1);
+      }
+    }
+    #members_section {
+      .member_image {
+        height: 150px;
+        background-color: white;
+        img {
+          height: 140px;
+        }
+      }
+    }
     figure.gradient_quote {
       blockquote {
         padding: 0;
