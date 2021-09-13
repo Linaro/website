@@ -1,0 +1,21 @@
+{% assign members = '' | split: "," %}
+{% for member_group in site.data.members %}
+    {% if member_group.id == "core" or member_group.id == "club" or member_group.id == "group" %}
+        {% for member in member_group.members %}
+            {% assign members = members | push: member %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+<div class="row" id="members_section">
+    {% for member in members %}
+        {% cycle '', '', '', '', '', '', '<div class="w-100"></div>' %}
+        <div class="col col-6 col-sm-4 col-md py-3 d-flex justify-content-center align-items-center">
+            <div class="member_image">
+                {% if member.uri %}<a href="{{member.uri}}">{% endif %}
+                <img class="lazyload w-100" alt="{{member.name}} logo" data-src="{{member.image}}" 
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+                {% if member.uri %}</a>{% endif %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
