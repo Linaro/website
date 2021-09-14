@@ -9,6 +9,83 @@
 }
 #wrapper {
   #flow_wrapper {
+    .membership_types_tabs {
+      ul#pills-tab {
+        margin-bottom: 0px;
+        li.nav-item {
+          &.core-style {
+            a {
+              background-color: transparent !important;
+              background-color: rgba(0, 130, 173, 0.5) !important;
+              position: relative;
+            }
+          }
+          &.club-style {
+            a {
+              background-color: transparent !important;
+              background-color: rgba(160, 204, 74, 0.5) !important;
+              position: relative;
+            }
+          }
+          &.project-style {
+            a {
+              background-color: transparent !important;
+              background-color: rgba(184, 77, 184, 0.5) !important;
+              position: relative;
+            }
+          }
+          &.group-style {
+            a {
+              background-color: transparent !important;
+              background-color: rgba(88, 88, 88, 0.5) !important;
+              position: relative;
+            }
+          }
+          a {
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            padding: 10px 40px;
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: black;
+            font-size: 16px;
+          }
+        }
+      }
+      .tab-pane {
+        padding: 20px;
+
+        &.core-style {
+          background-color: transparent !important;
+          background-color: rgba(0, 130, 173, 0.5) !important;
+          color: black;
+          position: relative;
+        }
+        &.club-style {
+          background-color: transparent !important;
+          background-color: rgba(160, 204, 74, 0.5) !important;
+          color: black;
+          position: relative;
+        }
+        &.project-style {
+          background-color: transparent !important;
+          background-color: rgba(184, 77, 184, 0.5) !important;
+          color: black;
+          position: relative;
+        }
+        &.group-style {
+          background-color: transparent !important;
+          background-color: rgba(88, 88, 88, 0.5) !important;
+          color: black;
+          position: relative;
+        }
+        p {
+          color: black;
+          position: relative;
+        }
+      }
+    }
     .row.membership_panels.background_image_row {
       .container {
         z-index: 9;
