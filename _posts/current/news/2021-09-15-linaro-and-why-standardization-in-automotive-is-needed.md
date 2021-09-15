@@ -10,7 +10,7 @@ tags:
 category: news
 author: linaro
 ---
-Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced the availability of a white paper on the need for standardization in automotive. Linaro has a track record of bringing Arm vendors together on the Linux kernel and is currently extending this to automotive and the software defined vehicle momentum with projects such as Project Stratos, OP-TEE, Trusted Substrate and Linaro’s Kernel Functional Test. [To download the White Paper “Software Defined Vehicles and the need for standardisation” click here](https://www.linaro.org/automotive). 
+Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced the availability of a white paper on the need for standardization in automotive. Linaro has a track record of bringing Arm vendors together on the Linux kernel and is currently extending this to automotive and the software defined vehicle momentum with projects such as Project Stratos, OP-TEE, Trusted Substrate and Linaro’s Kernel Functional Test. [To download the White Paper “Software Defined Vehicles and the need for standardisation” click here](https://static.linaro.org/assets/automotive_white_paper_0921.pdf). 
 
 Most devices nowadays - smartphones, computers - are intelligent, connected and continuously updated. In order for cars to evolve into connected devices we need to rethink how we build them and move towards software development. While some work is happening which is bringing us closer to the software defined vehicle there is still a long way to go. 
 
