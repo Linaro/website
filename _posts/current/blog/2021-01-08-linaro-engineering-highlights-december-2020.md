@@ -228,7 +228,7 @@ Based on our Member needs, our focus this year was UEFI (mostly U-Boot and EDK2)
 
 ### Trusted Substrate
 
-The project that started as Dependable Boot last year, evolved into Trusted Substrate. The Dependable boot code is still there and is a vital piece of Trusted Substrate, which aims towards SystemReady compliant firmware, while adding a substantial amount of security on the chain of trust. There is strong collaboration between Linaro and Arm around Trusted Substrate as a foundational element of Service Oriented Architecture for the Embedded Edge (SOAFEE).
+The project that started as Dependable Boot last year, evolved into Trusted Substrate. The Dependable boot code is still there and is a vital piece of Trusted Substrate, which aims towards SystemReady compliant firmware, while adding a substantial amount of security on the chain of trust.
 
 The majority of the goals defined at Linaro Connect 2019 Bangkok (BKK19), regarding U-Boot EFI subsystem were achieved. Up to now platforms could either support OP-TEE or EFI variables stored securely, since OP-TEE and StandAloneMM are mutually exclusive. Patches in U-Boot, OP-TEE and EDK2 have been merged, which allow OP-TEE and StandAloneMM to coexist. Moreover, storing the EFI variables in an RPMB partition of an eMMC is also available, which allows small embedded devices without a flash in the secure world to protect their EFI variables against a variety of attacks.
 

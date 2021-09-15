@@ -1,7 +1,7 @@
 ---
-title: 'HDC Cloud 2020 (Remote event) '
+title: "HDC Cloud 2020 (Remote event) "
 event: hdc-2020-remote
-event_url: 'https://www.huaweicloud.com/intl/en-us/HDC.Cloud.html'
+event_url: "https://www.huaweicloud.com/intl/en-us/HDC.Cloud.html"
 description: >-
   HDC.Cloud is Huawei's annual flagship event for global developers in the ICT
   field.
@@ -14,18 +14,19 @@ description: >-
   We look forward to working with you to usher in a new era of computing.
   Together, let's dream big and fly high!
 location: Virtual event
-date: '2020-03-18 12:57:23'
-event_date: '2020-03-27 12:57:23'
-event_end_date: '2020-03-28 12:57:23'
+date: "2020-03-18 12:57:23"
+event_date: "2020-03-27 12:57:23"
+event_end_date: "2020-03-28 12:57:23"
 image: /assets/images/content/ScreenShot2020-03-18at1.00.44PM.png
 event_type: presenter
 categories:
   - Events
 ---
-March 6 session [https://hdcwebinars.​huaweicloud.com/watch/xov8drzm](https://hdcwebinars.huaweicloud.com/watch/xov8drzm)
+
+March 6 session (https://hdcwebinars.huaweicloud.com/watch/xov8drzm)
 
 28th March, 16:20pm~17:20pm, Deep dive into the unified accelerator framework WarpDrive, Zhangfei Gao and Haojian Zhuang
 
 Keynote video from David Rusling
 
-[](https://hdcwebinars.huaweicloud.com/watch/bmb084d7)
+(https://hdcwebinars.huaweicloud.com/watch/bmb084d7)
