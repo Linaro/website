@@ -54,8 +54,10 @@
         }
       }
       .tab-pane {
+        img.svg_image {
+          max-height: 200px;
+        }
         padding: 20px;
-
         &.core-style {
           background-color: transparent !important;
           background-color: rgba(0, 130, 173, 0.5) !important;
