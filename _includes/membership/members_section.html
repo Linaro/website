@@ -1,10 +1,10 @@
 {% assign members = '' | split: "," %}
 {% for member_group in site.data.members %}
-    {% if member_group.id == "core" or member_group.id == "club" or member_group.id == "group" %}
-        {% for member in member_group.members %}
+    {% for member in member_group.members %}
+        {% unless members contains member %}
             {% assign members = members | push: member %}
-        {% endfor %}
-    {% endif %}
+        {% endunless %}
+    {% endfor %}
 {% endfor %}
 <div class="row" id="members_section">
     {% for member in members %}
