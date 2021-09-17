@@ -1,10 +1,12 @@
 {% assign members = '' | split: "," %}
 {% for member_group in site.data.members %}
-    {% for member in member_group.members %}
-        {% unless members contains member %}
-            {% assign members = members | push: member %}
-        {% endunless %}
-    {% endfor %}
+    {% if member_group.id != "boards-sc" and member_group.id != "boards-mp" and member_group.id != "boards-partner" and member_group.id != "boards-ai" %}
+        {% for member in member_group.members %}
+            {% unless members contains member %}
+                {% assign members = members | push: member %}
+            {% endunless %}
+        {% endfor %}
+    {% endif %}
 {% endfor %}
 <div class="row" id="members_section">
     {% for member in members %}
