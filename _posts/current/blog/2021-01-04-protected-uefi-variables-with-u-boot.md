@@ -50,7 +50,7 @@ It turns out that the StandAloneMM binary is self-relocatable, so as long as we 
 
 And less it was!
 
-[OP-TEE](https://github.com/OP-TEE/optee_os/commit/42471ecf25b7/) and [U-Boot](https://github.com/u-boot/u-boot/commit/f042e47e8fb4/) already got patches for that and EDK2 patches are currently on upstream review.
+[OP-TEE](https://github.com/OP-TEE/optee_os/commit/42471ecf25b7) and [U-Boot](https://github.com/u-boot/u-boot/commit/f042e47e8fb4) already got patches for that and EDK2 patches are currently on upstream review.
 
 ## **Combining it all together**
 

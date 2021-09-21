@@ -4,7 +4,7 @@
             <div class="col col-12">
                 <!--Theme tabs-->
                 <ul class="nav nav-tabs row d-none d-xl-flex h-100 pb-0" id="project_theme_tabs">
-                    <li class="nav-item col text-center h-100">
+                    <li class="nav-item col text-center h-100 px-0">
                         <a class="font-weight-bold text-dark nav-link d-flex flex-column align-items-center justify-content-center active h-100" data-toggle="tab" 
                         data-theme="allProjects" href="#allProjects">
                             <img class="tab_icon" src="/assets/images/content/Black_All_projects.svg"
@@ -14,7 +14,7 @@
                     </li>
                     {% for theme in site.themes %}
                         {% unless theme.sub_theme %}
-                            <li class="nav-item col text-center h-100">
+                            <li class="nav-item col text-center h-100 px-0">
                                 <a class="font-weight-bold text-dark nav-link d-flex flex-column align-items-center justify-content-center h-100" data-toggle="tab" 
                                 data-theme="{{theme.title | slugify}}" href="#{{theme.title | slugify}}">
                                     <img class="tab_icon" src="{{theme.icon_dark}}" alt="{{theme.title}} icon"/>

@@ -12,7 +12,7 @@ id="homepage_header">
       <div class="icons row header_icons d-flex align-items-center justify-content-center" id="header_icons_row">
         {% for theme in site.themes %}
           {% unless theme.sub_theme %}
-            {% unless theme.title == "Kernel & Toolchain" or theme.title == "Security" %}
+            {% unless theme.title == "Kernel & Toolchain" or theme.title == "Security" or theme.title == "Automotive" %}
                 <div class="col col-6 col-sm-4 col-lg-2 py-3">
                   <div class="icon_wrapper d-flex justify-content-between flex-column h-100 align-items-center">
                     <img class="icon_image" src="{{theme.icon}}" alt="{{theme.title}} icon"/>
@@ -33,7 +33,7 @@ id="homepage_header">
         <div class="owl-carousel owl-theme" id="sticky_icons_slider">
             {% for theme in site.themes %}
               {% unless theme.sub_theme %}
-                {% unless theme.title == "Kernel & Toolchain" or theme.title == "Security"%}
+                {% unless theme.title == "Kernel & Toolchain" or theme.title == "Security" or theme.title == "Automotive" %}
                     <div class="item text-center py-3 h-100">
                         <div class="icon_wrapper d-flex justify-content-between flex-column h-100 align-items-center">
                             <img class="icon_image mx-auto" src="{{theme.icon}}" alt="{{theme.title}} icon"/>
