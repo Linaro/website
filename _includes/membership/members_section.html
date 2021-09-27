@@ -8,8 +8,9 @@
         {% endfor %}
     {% endif %}
 {% endfor %}
+{% assign sorted_members = members | sort: 'name' %}
 <div class="row" id="members_section">
-    {% for member in members %}
+    {% for member in sorted_members %}
         {% cycle '', '', '', '', '', '', '<div class="w-100"></div>' %}
         <div class="col col-6 col-sm-4 col-md py-3 d-flex justify-content-center align-items-center">
             <div class="member_image">
