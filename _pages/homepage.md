@@ -15,6 +15,8 @@ layout: flow
 flow:
   - row: custom_include_row
     source: home/homepage_header.html
+  - row: custom_include_row
+    source: home/theme_row.html
   - row: container_row
     style: bg-secondary
     sections:
