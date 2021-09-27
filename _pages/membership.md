@@ -47,12 +47,11 @@ flow:
 
             **In practise, there are two parts to being a Linaro member.** 
 
-            <ol>
-              <li seq="1">One part is the technical discussions with Linaro and other industry leaders in which roadmaps
-            and strategy are developed and agreed.</li>
-              <li seq="2">The other part is the collaborative engineering which then takes place between Linaro, member
-            engineers and the open source community to deliver these solutions.</li>
-            </ol>
+            One part is the technical discussions with Linaro and other industry leaders in which roadmaps
+            and strategy are developed and agreed.
+
+            The other part is the collaborative engineering which then takes place between Linaro, member
+            engineers and the open source community to deliver these solutions.
 
             **In this sense what we offer is unique** - a forum where actual software engineering happens as a result of
             member companies collaborating with Linaro’s Arm software experts, other industry leaders and the open
