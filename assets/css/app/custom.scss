@@ -210,32 +210,30 @@
         }
       }
     }
-    .membership_text {
-      ol {
-        list-style: none;
-        padding-left: 0px;
-        li {
-          &:before {
-            content: attr(seq);
-            display: inline-flex;
-
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            border: 3px solid #dedede;
-            border-radius: 50%;
-            background-color: $primary;
-            color: #fff;
-            margin-right: 10px;
-            font-weight: bold;
-          }
-          &:nth-child(1):before {
-            background-color: #0083ad;
-          }
-        }
+    .styled_number {
+      content: attr(seq);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border: 3px solid #dedede;
+      border-radius: 50%;
+      background-color: $primary;
+      color: #fff;
+      margin-right: 10px;
+      font-weight: bold;
+      &.blue {
+        background-color: #0083ad;
+      }
+      &.green {
+        background-color: $primary;
+      }
+      &.orange {
+        background-color: $primary;
       }
     }
+
     .blue_block {
       h5 {
         color: #11809f;
