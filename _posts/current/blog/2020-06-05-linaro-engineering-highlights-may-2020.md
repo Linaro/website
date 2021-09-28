@@ -42,7 +42,7 @@ Engineering related to the project has already begun:
 
 [Arm Ethos-N integration RFC](https://discuss.tvm.ai/t/rfc-ethosn-arm-ethos-n-integration/6680)
 
-[First microTVM testcase (Merged)](https://github.com/tom-gall/incubator-tvm/commit/30e3ce99a7dc7aef9c388e0ebc05018b4c4ba721)
+[First microTVM testcase (Merged)](https://github.com/tom-gall/tvm/commit/30e3ce99a7dc7aef9c388e0ebc05018b4c4ba721)
 
 The project is open to club/core Members to join. If a Member is not a club or core Member or part of the LITE-SC, they may also join by either joining LITE or by becoming a project member.
 
