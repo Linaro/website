@@ -49,7 +49,7 @@
   }
   #homepage_header.background_image {
     z-index: 0;
-    height: auto !important;
+    height: 450px !important;
     &:before {
       position: absolute;
       content: "";
@@ -247,6 +247,10 @@
   #theme_section {
     background-color: $secondary;
     .background_image_row {
+      .header_background_image {
+        filter: brightness(1);
+      }
+      height: 450px;
       &:after {
         position: absolute;
         content: "";
@@ -256,9 +260,10 @@
         z-index: 1;
         left: 0;
         background: linear-gradient(
-          to left,
-          rgba(204, 204, 204, 0.6) 0%,
-          rgba(142, 41, 41, 0%) 100%
+          90deg,
+          rgba(0, 0, 0, 1) 0%,
+          rgba(68, 68, 68, 0.5) 50%,
+          rgba(255, 255, 255, 0) 100%
         );
       }
       .container {
