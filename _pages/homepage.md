@@ -42,7 +42,7 @@ flow:
   - row: custom_include_row
     source: about/maintainers_by_project.html
   - row: container_row
-    style: bg-secondary text-white py-0
+    style: bg-secondary text-white py-0 project_collab_section
     sections:
       - format: title
         style: ""
@@ -57,7 +57,7 @@ flow:
       - format: custom_include
         source: home/projects_section.html
       - format: text
-        style: text-left
+        style: text-left text-white font-weight-bold
         text_content:
           text: |
             [Click here for a complete list of projects.](/projects/)
@@ -81,30 +81,6 @@ flow:
   - row: container_row
     sections:
       - format: custom_include
-        source: components/testimonial_slider.html
-    style: testimonial_row bg-light
-  - row: container_row
-    style: dev_services_blocks
-    sections:
-      - format: title
-        style: text-center
-        title_content:
-          size: h2
-          text: Linaro Developer Services
-      - format: text
-        text_content:
-          text: >
-            Linaro Developer Services help companies build their products on
-            Arm. From initial design through to planning, implementation and
-            support and training, Linaro Developer Services help you leverage
-            open source on Arm to ensure fast time to market, exceptional
-            quality and security, and cost effective long term maintenance.
-      - format: custom_include
-        source: home/dev_services_blocks.html
-      - format: buttons
-        style: text-center my-3
-        buttons_content:
-          - title: Learn More
-            url: /services/
-            style: btn btn-primary text-uppercase
+        source: home/cta_section.html
+    style: cta_section bg-light
 ---
