@@ -3,7 +3,7 @@
     border: none !important;
   }
   img.icon_image {
-    height: 22px;
+    height: 40px;
   }
   .row.testimonial_row {
     border-top: 10px solid white;
@@ -112,10 +112,86 @@
       }
     }
   }
+  .members_row {
+    .member_image {
+      height: 100px;
+      img {
+        height: 100px;
+        object-fit: contain;
+      }
+    }
+  }
   #theme_tabs {
     background-color: #1e1e1e;
+    border-bottom: 5px solid $secondary;
+    border-top: 5px solid $secondary;
+    .theme_title {
+      font-size: 16px;
+    }
+    .nav-link.active {
+      background-color: $secondary;
+      border: 0;
+      border-radius: 0;
+    }
+  }
+  #projects_section {
+    .project_diagram_wrapper img {
+      height: 300px;
+      width: 100%;
+      object-fit: contain;
+    }
+    .project_button_wrapper {
+      .btn {
+        border-radius: 0;
+        border: 0;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        &:hover {
+          background-color: #11809f;
+          color: white;
+        }
+        &.active {
+          background-color: #11809f;
+          color: white;
+        }
+      }
+    }
+  }
+  #theme_slider {
+    button.owl-prev {
+      position: absolute;
+      left: 0;
+      top: 30px;
+      height: 60px;
+      border: none;
+      background-color: $primary !important;
+      width: 20px;
+    }
+    button.owl-next {
+      position: absolute;
+      right: 0;
+      top: 30px;
+      height: 60px;
+      border: none;
+      background-color: $primary !important;
+      width: 20px;
+    }
+    a.nav-link:hover {
+      background-color: #575757;
+    }
+    .owl-stage-outer {
+      height: 100%;
+    }
+    .owl-stage {
+      height: 100%;
+    }
+    .owl-item {
+      height: 100%;
+    }
   }
   #theme_section {
+    background-color: $secondary;
     .background_image_row {
       &:after {
         position: absolute;
