@@ -18,28 +18,66 @@ flow:
   - row: custom_include_row
     source: home/theme_row.html
   - row: container_row
-    style: bg-secondary
+    style: bg-light members_row
     sections:
+      - format: title
+        style: text-center
+        title_content:
+          style: font-weight-bold
+          text: Linaro Members
+          size: h2
       - format: custom_include
-        source: home/stats_slider_row.html
+        source: membership/members_section.html
   - row: container_row
-    style: large_type introduction_row py-0
+    style: bg-secondary stats_row text-white
     sections:
+      - format: title
+        style: text-center
+        title_content:
+          style: font-weight-bold
+          text: Experts in Open Source Software on Arm
+          size: h2
+      - format: custom_include
+        source: home/stats_row.html
+  - row: custom_include_row
+    source: about/maintainers_by_project.html
+  - row: container_row
+    style: bg-secondary text-white py-0
+    sections:
+      - format: title
+        style: ""
+        title_content:
+          style: font-weight-bold
+          text: Projects Linaro and its member companies collaborate on
+          size: h2
       - format: text
         style: text-left
         text_content:
-          text:
-            Linaro has driven open source software development on Arm since 2010.
-            Companies become members to work with us and other industry leaders
-            on [software projects](https://www.linaro.org/projects/) which
-            deliver standardization and a base to differentiate on. Together we
-            develop strategy which is then implemented by Linaro and member
-            company engineers. Bringing engineering resource together to
-            collaborate on common software projects reduces overall
-            fragmentation, allowing member companies to reduce their costs for
-            development and validation of Arm-based software.
-  - row: custom_include_row
-    source: about/maintainers_by_project.html
+          text: This is a snapshot of some of the projects Linaro works on
+      - format: custom_include
+        source: home/projects_section.html
+      - format: text
+        style: text-left
+        text_content:
+          text: |
+            [Click here for a complete list of projects.](/projects/)
+  - row: container_row
+    style: ""
+    sections:
+      - format: title
+        style: ""
+        title_content:
+          style: font-weight-bold
+          text: Collaboration comes in many forms
+          size: h2
+      - format: text
+        style: text-left blockquote
+        text_content:
+          text: |
+            There are multiple ways you can partner with Linaro - be it in collaboration with Linaro and
+            other Linaro members or on a one-to-one basis. In addition, a lot of the work we do is in the
+            open, meaning anything we think can benefit the community at large we will make public on
+            our [Downloads page](/downloads/).
   - row: container_row
     sections:
       - format: custom_include
