@@ -19,7 +19,7 @@ tags:
   - Snapdragon
   - 96Boards
 category: blog
-author: Anibal.limon
+author: vicky.janicki
 ---
 Linaro has released the latest support for Debian and OpenEmbedded releases for the following Qualcomm Snapdragon based [96Boards devices](https://www.96boards.org/) : the [Dragonboard 410c](https://www.96boards.org/product/dragonboard410c/), the [Qualcomm Robotics platforms RB3](https://www.96boards.org/product/rb3-platform/) and the [Qualcomm Robotics platforms RB5](https://www.96boards.org/product/qualcomm-robotics-rb5/).
 
