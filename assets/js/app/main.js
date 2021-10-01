@@ -260,13 +260,19 @@ $(document).ready(function () {
         // Safari doesn't cope with "-".
         // Start by splitting the date string on a space to separate
         // the actual date.
-        var date_split = data[i].date_published.split(' ');
+        var date_split = data[i].date_published.split(" ");
         // Now split the date into its constituent parts.
-        var date_parts = date_split[0].split('-');
+        var date_parts = date_split[0].split("-");
         // Javascript counts months from 0 ...
         console.log(data[i].date_published);
-        console.log(`Year=${date_parts[0]}, month=${date_parts[1]}, day=${date_parts[2]}`);
-        var date_obj = new Date(date_parts[0], date_parts[1] - 1, date_parts[2]);
+        console.log(
+          `Year=${date_parts[0]}, month=${date_parts[1]}, day=${date_parts[2]}`
+        );
+        var date_obj = new Date(
+          date_parts[0],
+          date_parts[1] - 1,
+          date_parts[2]
+        );
         latest_posts_elements += `<li class="media flex-column flex-sm-row">
               <picture>
                 <source srcset="${data[i].image_webp}" type="image/webp">
@@ -356,7 +362,9 @@ $(document).ready(function () {
 
   // Reset forms when bootstrap modal closes.
   $(".modal").on("hidden.bs.modal", function () {
-    $(this).find("form")[0].reset();
+    if ($(this).find("form").length > 0) {
+      $(this).find("form")[0].reset();
+    }
   });
   // Stacked Navbar
   $("#stacked-nav-bar").on("hidden.bs.collapse", function () {

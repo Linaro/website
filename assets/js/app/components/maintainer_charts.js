@@ -201,7 +201,7 @@ $(document).ready(function () {
     } else if (mediaQueryXs === true || mediaQuerySm === true) {
       try {
         window.projectPie.destroy();
-        window.companyPie.destroy();
+        // window.companyPie.destroy();
       } catch (err) {
         console.log("No charts to destory.");
       }
