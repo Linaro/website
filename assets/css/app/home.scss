@@ -3,7 +3,7 @@
     border: none !important;
   }
   img.icon_image {
-    height: 22px;
+    height: 40px;
   }
   .row.testimonial_row {
     border-top: 10px solid white;
@@ -49,7 +49,7 @@
   }
   #homepage_header.background_image {
     z-index: 0;
-    height: auto !important;
+    height: auto;
     &:before {
       position: absolute;
       content: "";
@@ -90,6 +90,7 @@
       h1 {
         font-size: 60px !important;
         margin-top: 80px;
+        margin-bottom: 40px;
         span.font-weight-bolder {
           font-weight: 900;
         }
@@ -111,61 +112,166 @@
       }
     }
   }
-  #header_icons_row_sticky {
-    max-height: 240px;
-    z-index: 99;
-    h3 {
+  .members_row {
+    .member_image {
+      height: 100px;
+      img {
+        height: 100px;
+        object-fit: contain;
+      }
+    }
+  }
+  #theme_tabs {
+    background-color: #1e1e1e;
+    border-bottom: 5px solid $secondary;
+    border-top: 5px solid $secondary;
+    .theme_title {
       font-size: 16px;
     }
-    &:before {
-      position: absolute;
-      content: "";
-      height: 15px;
-      width: 100%;
-      top: 0;
-      z-index: 2;
-      left: 0;
-      background-color: #ccc;
-      background: linear-gradient(
-        to left,
-        rgba(#000, 1) 0%,
-        rgba(#fff, 1) 100%
-      );
-      width: 100%;
-      border-bottom: 1px solid #000;
+    .nav-link.active {
+      background-color: $secondary;
+      border: 0;
+      border-radius: 0;
     }
-    &:after {
-      position: absolute;
-      content: "";
-      height: 100%;
+  }
+  #projects_section {
+    .project_diagram_wrapper img {
+      height: 300px;
       width: 100%;
-      top: 0;
-      z-index: 1;
-      left: 0;
-      background: linear-gradient(
-        to left,
-        rgba(#000, 0) 0%,
-        rgba(#000, 1) 100%
-      );
-    }
-    .icons_container {
-      position: relative;
-      z-index: 2;
-    }
-    img.icon_image {
-      width: 60% !important;
-      height: 50px;
-      margin: 10px 0px;
       object-fit: contain;
     }
-    img.header_background_image {
+    .project_button_wrapper {
+      .btn {
+        border-radius: 0;
+        border: 0;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        &:hover {
+          background-color: #11809f;
+          color: white;
+        }
+        &.active {
+          background-color: #11809f;
+          color: white;
+        }
+      }
+    }
+  }
+  #theme_slider {
+    button.owl-prev {
       position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
       left: 0;
-      object-fit: cover;
-      filter: brightness(0.5);
+      top: 30px;
+      height: 60px;
+      border: none;
+      background-color: $primary !important;
+      width: 20px;
+    }
+    button.owl-next {
+      position: absolute;
+      right: 0;
+      top: 30px;
+      height: 60px;
+      border: none;
+      background-color: $primary !important;
+      width: 20px;
+    }
+    a.nav-link:hover {
+      background-color: #575757;
+    }
+    .owl-stage-outer {
+      height: 100%;
+    }
+    .owl-stage {
+      height: 100%;
+    }
+    .owl-item {
+      height: 100%;
+    }
+  }
+  .project_collab_section {
+    a {
+      color: white;
+    }
+  }
+  .cta_section {
+    .membership_col {
+      @include media-breakpoint-down(md) {
+        border-right: 0 !important;
+      }
+    }
+    background-color: #d1d1d1 !important;
+    .cta_header {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    p.cta_text {
+      height: 140px;
+    }
+    .cta_video_container {
+      height: 400px;
+      .owl-theme .owl-dots .owl-dot span {
+        background-color: white;
+      }
+    }
+    a.btn.btn-secondary.blue {
+      background-color: #11809f;
+      border: 0;
+    }
+    .cta_image_container {
+      height: 400px;
+      img.img-fluid {
+        height: 400px;
+        object-fit: contain;
+      }
+    }
+    span.bullet {
+      height: 40px;
+      width: 40px;
+      background-color: #0083ad;
+      display: inline-block;
+      position: relative;
+      top: 10px;
+      border-radius: 20px;
+      border: 4px solid white;
+      margin-right: 10px;
+      &.blue {
+        background-color: #0083ad;
+      }
+      &.green {
+        background-color: $primary;
+      }
+    }
+  }
+  #theme_section {
+    background-color: $secondary;
+    .background_image_row {
+      .header_background_image {
+        filter: brightness(1);
+      }
+      height: 450px;
+      &:after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+        left: 0;
+        background: linear-gradient(
+          90deg,
+          rgba(0, 0, 0, 1) 0%,
+          rgba(68, 68, 68, 0.5) 50%,
+          rgba(255, 255, 255, 0) 100%
+        );
+      }
+      .container {
+        z-index: 9;
+      }
+    }
+    .theme_content_row {
+      height: 400px;
     }
   }
 }
