@@ -18,7 +18,7 @@ flow:
   - row: custom_include_row
     source: home/theme_row.html
   - row: container_row
-    style: bg-light members_row
+    style: bg-light members_section
     sections:
       - format: title
         style: text-center

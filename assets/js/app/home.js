@@ -24,7 +24,7 @@ $(document).ready(() => {
           items: 4,
         },
         1200: {
-          items: 8,
+          items: 7,
         },
       },
     });

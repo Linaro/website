@@ -8,16 +8,17 @@
         {% endfor %}
     {% endif %}
 {% endfor %}
+{% assign sorted_members = members | sort: 'name' %}
 <div class="row" id="members_section">
-    {% for member in members %}
-        {% cycle '', '', '', '', '', '', '<div class="w-100"></div>' %}
-        <div class="col col-6 col-sm-4 col-md py-3 d-flex justify-content-center align-items-center">
-            <div class="member_image">
+    {% for member in sorted_members %}
+        <div class="col col-6 col-sm-4 col-md py-3 d-flex justify-content-center align-items-center member_col">
+            <div class="member_image rounded">
                 {% if member.uri %}<a href="{{member.uri}}">{% endif %}
-                <img class="lazyload w-100" alt="{{member.name}} logo" data-src="{{member.image}}" 
+                <img class="lazyload w-100 rounded" alt="{{member.name}} logo" data-src="{{member.image}}" 
                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                 {% if member.uri %}</a>{% endif %}
             </div>
         </div>
+        {% cycle '', '', '', '', '<div class="w-100"></div>' %}
     {% endfor %}
 </div>
