@@ -49,7 +49,7 @@
   }
   #homepage_header.background_image {
     z-index: 0;
-    height: auto;
+    height: 450px;
     &:before {
       position: absolute;
       content: "";
@@ -89,8 +89,6 @@
       position: relative;
       h1 {
         font-size: 60px !important;
-        margin-top: 80px;
-        margin-bottom: 40px;
         span.font-weight-bolder {
           font-weight: 900;
         }
@@ -109,15 +107,6 @@
           margin: 5px 0px;
           object-fit: contain;
         }
-      }
-    }
-  }
-  .members_row {
-    .member_image {
-      height: 100px;
-      img {
-        height: 100px;
-        object-fit: contain;
       }
     }
   }
@@ -245,6 +234,18 @@
       }
     }
   }
+  #members_section {
+    .member_col {
+      max-width: 228px;
+      .member_image {
+        height: 100%;
+        img {
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
   #theme_section {
     background-color: $secondary;
     .background_image_row {
@@ -270,9 +271,6 @@
       .container {
         z-index: 9;
       }
-    }
-    .theme_content_row {
-      height: 400px;
     }
   }
 }
