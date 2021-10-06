@@ -159,6 +159,7 @@
     }
   }
   #theme_slider {
+    height: 150px;
     button.owl-prev {
       position: absolute;
       left: 0;
@@ -250,7 +251,7 @@
       .header_background_image {
         filter: brightness(1);
       }
-      height: 450px;
+      height: 300px;
       &:after {
         position: absolute;
         content: "";
