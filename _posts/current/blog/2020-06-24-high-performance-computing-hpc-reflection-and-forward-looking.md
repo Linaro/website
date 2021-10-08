@@ -1,7 +1,8 @@
 ---
 layout: post
-title: ' High Performance Computing (HPC), Reflection and Forward-looking.'
-description: In 2018 we discussed the first step for ARM into High Performance Computing
+title: " High Performance Computing (HPC), Reflection and Forward-looking."
+description:
+  In 2018 we discussed the first step for ARM into High Performance Computing
   (HPC). Since then, Linaro has been working to increase awareness of the successes
   within the High Performance Computing ARM ecosystem. HPC now forms a key part of
   our activities, plus an association with Fugaku - the No.1 Supercomputer in the
@@ -9,19 +10,19 @@ description: In 2018 we discussed the first step for ARM into High Performance C
 date: 2020-06-26 04:22:14+00:00
 image: /assets/images/content/hpc-bg.jpg
 tags:
-- HPC
-- TOFU
-- Opensource Toolchains
-- High Performance Computing
-- Arm
-- Linaro
-- Fugaku
-- Supercomputers
-- Supercomputing
-- Linaro Developer Cloud
-- Open Hpc
+  - HPC
+  - TOFU
+  - Opensource Toolchains
+  - High Performance Computing
+  - Arm
+  - Linaro
+  - Fugaku
+  - Supercomputers
+  - Supercomputing
+  - Linaro Developer Cloud
+  - Open Hpc
 related_projects:
-- HPCAI
+  - HPCAI
 category: blog
 author: paul.isaacs
 ---
@@ -102,7 +103,7 @@ Off loading with a CPU+GPU model can be expensive. Small matrices (<1024x1024) h
 
 The method of interconnection used to link compute nodes can have a significant impact on the performance of the system as a whole. What will be interesting to see is how different the Fugaku Supercomputer styled on Fujitsu’s FX1000 with its TOFU interconnect [compares](https://www.fujitsu.com/global/products/computing/servers/supercomputer/specifications/) to the PCIe/InfiniBand enabled Fujitsu FX700 for real workloads. Keep watching and Linaro’s HPC-SIG could create future blogs on performance tuning vector-enabled CPUs.
 
-High performance computing demands significant investment in skills and budget. If you’re [budget constrained](https://store.avantek.co.uk/arm-servers.html) then it’s still possible to scale up node by node and perhaps forego [commercial licenses](https://developer.arm.com/solutions/hpc/hpc-software) for comparable opensource [toolchains](/engineering/core/toolchain/) and toolkits such as [OpenHPC](https://openhpc.community/).
+High performance computing demands significant investment in skills and budget. If you’re [budget constrained](https://store.avantek.co.uk/arm-servers.html) then it’s still possible to scale up node by node and perhaps forego [commercial licenses](https://developer.arm.com/solutions/hpc/hpc-software) for comparable opensource [toolchains](/kernel-and-toolchain/) and toolkits such as [OpenHPC](https://openhpc.community/).
 
 However your system is built, you can be sure ARM-based solutions can be your equal partner in HPCand Linaro is here to complement the open source ecosystem. Congratulations once again **Fugaku simultaneously #1 in the Graph500, HPCG, and HPL-AI lists.**
 
