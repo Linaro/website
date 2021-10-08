@@ -1,23 +1,24 @@
 ---
 layout: post
 title: Using Energy Model To Stay In TDP Budget
-description: 'An ever-increasing number of embedded devices need fine grain control
+description:
+  "An ever-increasing number of embedded devices need fine grain control
   on their performance in order to limit the power consumption. There are three primary
   reasons for this: to increase the battery life, to protect the components and to
   control the temperature. In this intriguing article, Daniel looks into the power
-  consumption complexities and the challenges this creates.'
+  consumption complexities and the challenges this creates."
 date: 2020-07-29 10:41:16+00:00
 image: /assets/images/content/code-background_1.jpg
 tags:
-- SoC Power Consumption
-- Power Management
-- Thermal Framework
-- GPU
-- RAPL
-- Powercap
-- Device Tree
+  - SoC Power Consumption
+  - Power Management
+  - Thermal Framework
+  - GPU
+  - RAPL
+  - Powercap
+  - Device Tree
 related_projects:
-- PERF
+  - PERF
 category: blog
 author: daniel.lezcano
 ---
@@ -116,7 +117,7 @@ It is reasonable to say the in-kernel logic will greatly increase the efficiency
 
 The powercap energy model based framework will be a very powerful framework, flexible for userspace, unified for AOSP, consistent and safe to coexist with the existing frameworks.
 
-## [About the Kernel Working Group](https://www.linaro.org/engineering/core/kernel/)
+## [About the Kernel Working Group](/kernel-and-toolchain/)
 
 The Kernel Working Group’s (KWG) primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple Arm SoCs and Arm-based platforms.
 
