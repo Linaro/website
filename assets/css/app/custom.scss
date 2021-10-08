@@ -14,6 +14,18 @@
     }
   }
   #flow_wrapper {
+    #members_section {
+      .member_col {
+        max-width: 228px;
+        .member_image {
+          height: 100%;
+          img {
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+      }
+    }
     .membership_types_tabs {
       ul#pills-tab {
         margin-bottom: 0px;

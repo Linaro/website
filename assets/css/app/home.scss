@@ -234,18 +234,6 @@
       }
     }
   }
-  #members_section {
-    .member_col {
-      max-width: 228px;
-      .member_image {
-        height: 100%;
-        img {
-          height: 100%;
-          object-fit: contain;
-        }
-      }
-    }
-  }
   #theme_section {
     background-color: $secondary;
     .background_image_row {
