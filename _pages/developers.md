@@ -124,7 +124,6 @@ website we have the following:**
 answer questions.
 
 **Additional Linaro Community Support can be found at:**
-Mailing Lists – [/contact/mailing-list/](/contact/mailing-list/)
 Downloads – [/downloads/](/downloads/)
 
 Help on filing a bug using Launchpad can be found
