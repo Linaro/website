@@ -72,7 +72,7 @@ by Federico Gelmetti
 It runs a large set of benchmarks which cover core components of the Linux kernel: virtual memory management, I/O subsystem, process scheduler, file system, network, device drivers, and more. The interest towards lkp-tests was born with the intent of adding the test cases already configured in the suite into Linaro’s [test-definitions](https://github.com/Linaro/test-definitions) \[2] suite.
 
 After a bit of digging, we came to the conclusion that the best route would be to call lkp-tests from test-definitions directly, to avoid exporting all the individual test cases from lkp-tests to test-definitions.
-The first step in this plan is to better understand how lkp-tests works, to see if it can be integrated into test-definitions. The patch I created, available [here](https://github.com/Gelmo96/lkp-tests/commit/e4d4c0bfaacc31a4e48632e4344534fd7dadcf88) \[3], does exactly that.
+The first step in this plan is to better understand how lkp-tests works, to see if it can be integrated into test-definitions. The patch I created does exactly that.
 
 The commit message describes in detail all the steps and components required to add a new test case from the ground up in lkp-tests, in order to provide useful basic information for the subsequent phases of the integration.
 The patch is by no means a full implementation of a new test for lkp-tests, but rather a writeup with a practical example of how the framework works and what it needs to operate correctly, that can be referred to later in the development to speed up the integration project.
