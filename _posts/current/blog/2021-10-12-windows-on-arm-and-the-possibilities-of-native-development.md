@@ -26,7 +26,7 @@ In April 2021, [Linaro announced the availability of the Windows 10 on Arm suppo
 
 A few weeks ago we hosted a panel at Linaro Virtual Connect Fall 2021 featuring Arm, Qualcomm and Microsoft where we discussed the current status of Windows on Arm and what work is left to do. This blog is based on public statements captured during the panel discussion on Windows on Arm, highlighting what is possible today and why porting natively is the way to go. [Click here to watch the complete discussion](https://connect.linaro.org/resources/lvc21f/lvc21f-300k2/). 
 
-## The promise of Arm hardware - all day battery life and fast performance 
+## The promise of Arm hardware - all day battery life and fast performance
 
 Arm has proven it is strong on power consumption, fast performance and battery life, making it a good choice for developing new device form factors. At present there are plenty of tools out there that allow you to emulate, meaning all the third party experiences delivered by Windows running on the Arm chip will just work.  
 
