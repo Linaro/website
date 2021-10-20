@@ -1,6 +1,6 @@
 ---
-title: "Aspara Conference 2021 "
-event: aspara-conf-2021
+title: "Apsara Conference 2021 "
+event: apsara-conf-2021
 event_url: https://yunqi.aliyun.com/2021/agenda/session183
 description: >+
   Jammy Zhou (Zhou Jie) from Linaro China will be participating in the following
