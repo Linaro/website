@@ -54,7 +54,7 @@ This is the patchset that enables the JSON export and load of the test results.
 
 <https://github.com/gormanm/mmtests/commit/95a39b0750c16da8aadff617ca46011828b96513>
 
-**[](https://github.com/gormanm/mmtests/commit/95a39b0750c16da8aadff617ca46011828b96513)Test definition for LAVA**
+[](https://github.com/gormanm/mmtests/commit/95a39b0750c16da8aadff617ca46011828b96513)**Test definition for LAVA**
 Here you can see the workflow for LAVA and the python script that formats the metrics that will be sent to LAVA.
 
 <https://github.com/Linaro/test-definitions/commit/de4c57c2b8d3d877001b898a601b7753d23d2cfc>
@@ -82,8 +82,6 @@ The patch is by no means a full implementation of a new test for lkp-tests, but 
 \[1] <https://01.org/lkp>
 
 \[2] <https://github.com/Linaro/test-definitions>
-
-\[3] <https://github.com/Gelmo96/lkp-tests/commit/e4d4c0bfaacc31a4e48632e4344534fd7dadcf88>
 
 ## Conclusion
 
