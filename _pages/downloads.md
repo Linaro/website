@@ -31,11 +31,14 @@ flow:
     sections:
       - format: text
         text_content:
-          text: >
+          text: >-
             Since 2010, Linaro has played a key role in upstreaming Arm
             software, with many of its engineers actively maintaining open
             source projects. This page provides links to downloads currently
-            produced by Linaro’s engineering teams
+            produced by Linaro’s engineering teams. 
+
+
+            If you have any technical queries, go to [Linaro's support page](https://www.linaro.org/support/) to log a ticket with the Linaro Developer Technical Support team. For any other queries [click here](https://www.linaro.org/contact/).
   - row: container_row
     style: bg-secondary
     sections:
