@@ -182,7 +182,7 @@ flow:
             Tuxmake automates Linux builds across different architectures, configurations, targets, and toolchains. Specify your choices, and TuxMake drives the build for you, doing the same steps in the same way every time. [Download Tuxmake here](https://tuxmake.org/#installing-tuxmake).
 
 
-            Tuxrun automates booting and testing Linux under QEMU. It supports almost all architectures supported by TuxMake. [Download Tuxrun here](https://tuxrun.org/install/).
+            Tuxrun automates booting and testing Linux under QEMU. It supports almost all architectures supported by TuxMake. [Download Tuxrun here](https://tuxrun.org/install-pypi/).
       - format: title
         style: block_bg_header
         title_content:
