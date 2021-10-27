@@ -4,8 +4,8 @@ title: Automotive
 sub_theme: false
 permalink: /automotive/
 image: /assets/images/content/AutomotiveBanner.jpg
-icon: /assets/images/content/Icon_Security_White.svg
-icon_dark: /assets/images/content/Icon_Security_black.svg
+icon: /assets/images/content/automotive.svg
+icon_dark: /assets/images/content/automotive_white.svg
 description: >
   The automotive industry is entering an exciting phase through the Software Defined Vehicle momentum, moving more and more away from hardware upgrades to software developments. But there is still a long way to go before the Software Defined Vehicle becomes a reality. Challenges still stand in the way such as the lack of standard interfaces and stringent requirements for communication latency of audio, video and sensor data, the need for secure communication between virtual machines and the ability to maintain up-to-date, secure software. All of these challenges have one thing in common - they all require collaborative software engineering to bring standardization and reference open source code bases to automotive. Without open standards the path to delivering the software defined vehicle will be a lot longer and more costly.
 jumbotron:
