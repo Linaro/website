@@ -17,7 +17,7 @@ author: vinod.koul
 ---
 One of the benefits of Linaro Core and Club memberships is the option to have a Landing Team. A Landing Team is a group of Linaro engineers which is dedicated to one Linaro member, and whose work contributes to both private and public projects. Beginning in 2014, the Linaro Qualcomm Landing Team has been an active contributor to upstream Qualcomm platforms, building stable releases for the 96Boards Dragonboard program and adding support to the next generation Qualcomm mobile platforms. Fostering and partnering with the open source community is a primary goal of this Landing Team, often in the role of maintainers for Qualcomm sub-systems.
 
-In addition, [Linaro Developer Services](https://www.linaro.org/services/) has a dedicated team which provides Linux Board Support Package (BSP) development, maintenance and optimization for Qualcomm platforms such as Qualcomm Snapdragon, to companies building products based on Qualcomm processors. Check out  Linaro Developer Services for additional information on how Linaro Developer services can help.
+In addition, [Linaro Developer Services](https://www.linaro.org/services/) has a dedicated team which provides Linux Board Support Package (BSP) development, maintenance and optimization for Qualcomm platforms such as Qualcomm Snapdragon, to companies building products based on Qualcomm processors. Check out  Linaro Developer Services for additional information on how Linaro Developer services can help. 
 
 In this blog, Senior Engineer Vinod Koul from the Linaro Qualcomm Landing Team shares detailed instructions to get started with the mainline Linux kernel on arm64 Qualcomm Snapdragon based devices.
 
