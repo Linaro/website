@@ -1,12 +1,12 @@
 ---
 title: About Linaro
-description: "Linaro has driven open source software development on Arm since
+description: Linaro has driven open source software development on Arm since
   2010, providing the tools, Linux kernel quality and security needed for a
   solid foundation to innovate on. We are Arm Software Experts who work with
   industry leaders on common projects which deliver standardization and a base
   to differentiate on. Collaborating on common software helps reduce overall
   fragmentation, allowing member companies to accelerate time to market and keep
-  overall development costs down. "
+  overall development costs down. test
 permalink: /about/
 keywords:
   - Arm software
