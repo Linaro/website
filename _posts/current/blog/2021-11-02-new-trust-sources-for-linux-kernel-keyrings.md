@@ -19,21 +19,29 @@ author: sumit.garg
 ---
 {% include image.html path="/assets/images/content/linux-keyrings.png" alt="Linux Keyrings Image" %}
 
+
+
 ## Introduction
 
 Protecting key confidentiality is essential for many kernel security use-cases such as disk encryption, file encryption and protecting the integrity of file metadata. Trusted keys are symmetric keys created within the kernel. The kernel also provides a mechanism to export trusted keys to user-space for storage as an opaque blob and for the user-space to later reload them onto Linux keyring without the user-space knowing how to decrypt the opaque blob. Trusted keys make it impossible for userspace compromises to leak key material. In order to embed trust in Trusted Keys however, there is a requirement for the availability of a Trust Source. 
 
 In this blog, we will look at how we generalized the Trusted Keys sub-system in Linux. This has made it easier for kernel security developers to add support for new trust sources and reduce downstream kernel technical debt.
 
+
+
 ## What is a trust source?
 
 A trust source provides the source of security for Trusted Keys. New trusted keys are created from random numbers generated in the trust source. Trusted keys can be encrypted/decrypted using a unique secret key known only to the trust source, which never leaves the trust source’s boundary. Unique secret key usage via crypto operations is protected by a strong access control policy within the trust source.
+
+
 
 ## Background: Trusted Platform Module as a trust source
 
 Trusted Keys were introduced in the Linux kernel from v2.6.38. Since this feature’s inception, the only trust source has been provided by the Trusted Platform Module (TPM). Thus, if a user needs to leverage Trusted Keys support on specific hardware, there is a need to deploy a TPM device. This requirement made the Trusted Keys feature unavailable on many embedded systems as most of them do not possess a TPM device and adding one to the Bill of Materials is viewed by vendors as expensive.
 
 {% include image.html path="/assets/images/content/trusted-platform-module.png" alt="Trusted Platform Module Image" %}
+
+
 
 ## Using TrustZone as a trust source
 
@@ -42,6 +50,8 @@ Many embedded systems do come with alternative hardware mechanisms such as Arm T
 A Trusted Execution Environment (TEE) based on Arm TrustZone provides hardware based isolation to perform trusted operations. For example, the open source TEE implementation, [Open Portable TEE (OP-TEE)](https://optee.readthedocs.io/en/latest/), is supported on approx. 80 platforms from various SoC vendors. OP-TEE offers a standardized TEE client API (compliant with GlobalPlatform TEE Client API [Specification v1.0](https://globalplatform.org/specs-library/tee-client-api-specification/)) to perform cryptographic operations using a Hardware Unique Key (HUK) that is only accessible within the TEE. The HUK can be utilized to perform encrypt/decrypt operations for Trusted keys. The encrypted trusted key blob can be exported to user-space which can later be decrypted and loaded in kernel keyring.
 
 {% include youtube.html url="https://www.youtube.com/watch?v=kJdI_flEMR4" title="SAN19-413 TEE based Trusted Keys in Linux" %}
+
+
 
 ## Adding a trust source framework
 
@@ -56,6 +66,8 @@ Two other review comments in particular helped us improve the solution. The firs
 As a result, as part of the v5.13 kernel release cycle, the trust source framework and a new trust source as TEE made its way to the mainline kernel. Many thanks to all who were involved in the review and testing process.
 
 {% include image.html path="/assets/images/content/trusted-keys-core.png" alt="Trusted Keys Core Image" %}
+
+
 
 ## Using crypto hardware as a trust source
 
