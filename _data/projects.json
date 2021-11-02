@@ -110,6 +110,16 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AELTS/overview\">https://linaro.atlassian.net/wiki/spaces/AELTS/overview</a>",
+                "description": "The Ecosystem Landscape Dashboard Project is to create and support a public platform to house a unified ecosystem landscape of open source projects.  This platform (a web site) will include a dashboard for each project with resources to educate a developer as to the status about the project.  The vision for the site is as a unified communication hub and connection point to the latest community resources.  Project will enable contributions from communities to assist in growing the platform dataset. <br><br>When successful, it will provide a one-stop resource, which can help everyone find necessary software project information and resources about Arm support through this platform whether it\u2019s the first or the 500th time the user needs community data for development on Arm.  <br><br>This project is *not* limited to one segment and is intended to cover the arm ecosystem.",
+                "title": "Linaro Ecosystem Dashboard"
+            },
+            "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10087&avatarId=10406",
+            "key": "LED"
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LI/overview\">https://linaro.atlassian.net/wiki/spaces/LI/overview</a>",
                 "Theme": [
@@ -270,8 +280,8 @@
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/UM/overview\">https://linaro.atlassian.net/wiki/spaces/UM/overview</a>",
                 "Theme": [
-                    "Artificial Intelligence",
                     "Android Ecosystem",
+                    "Artificial Intelligence",
                     "IoT & Embedded",
                     "Kernel & Toolchain",
                     "Security"
