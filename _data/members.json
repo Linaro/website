@@ -69,11 +69,6 @@
                 "uri": "https://www.samsung.com/uk/"
             },
             {
-                "image": "https://static.linaro.org/common/member-logos/cypress.jpg",
-                "name": "Cypress",
-                "uri": "https://www.cypress.com/"
-            },
-            {
                 "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
                 "name": "Xilinx",
                 "uri": "https://www.xilinx.com/"
@@ -216,11 +211,6 @@
                 "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
                 "name": "NXP",
                 "uri": "https://www.nxp.com/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/cypress.jpg",
-                "name": "Cypress",
-                "uri": "https://www.cypress.com/"
             },
             {
                 "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
