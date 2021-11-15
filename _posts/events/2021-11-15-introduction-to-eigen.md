@@ -1,8 +1,9 @@
 ---
 title: "Introduction to Eigen "
 event: "intro-to-eigen-tech-webinar "
-description: |
-  Webinar Title: Introduction to Eigen 
+description: "Webinar Title: Introduction to Eigen\ 
+
+  \ "
 location: "Online "
 date: 2021-11-15 11:12:18 -05:00
 event_date: 2021-12-09 11:12:18 -05:00
