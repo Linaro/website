@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automatic detection and reporting of performance regressions
-description: In this blog, Paolo Valente and Federico Gelmo talk about the
+description: In this blog, Paolo Valente and Federico Gelmetti talk about the
   progress that has been made on extending Linaro Kernel Functional Test (LKFT)
   functionalities to include automatic detection and reporting of performance
   regressions. All of this work will ultimately help maintainers spot
@@ -20,6 +20,8 @@ related_projects:
 category: blog
 author: paolo.valente
 ---
+By Paolo Valente and Federico Gelmetti
+
 In June 2021 we published [a blog](https://www.linaro.org/blog/ensuring-optimal-performance-through-enhanced-kernel-testing/) where we talked about the efforts being made to extend LKFT (Linaro Kernel Functional Test) functionalities to include automatic detection and reporting of performance regressions.
 
 As stated in that blog, [a patchset was created](https://github.com/Linaro/test-definitions/commit/de4c57c2b8d3d877001b898a601b7753d23d2cfc) for [Linaro test definitions](https://github.com/Linaro/test-definitions/), in order to run [mmtests](https://github.com/gormanm/mmtests) benchmarks in LAVA (Linaro Automation and Validation Architecture), publish the result to SQUAD (Software Quality Dashboard) and then do post processing to find out if we have regressed between the different kernel versions. In addition to this patchset, we are also trying to glue all the pieces together to have a fully working pipeline that can actually notify the people involved if a regression has happened.
