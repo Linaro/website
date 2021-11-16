@@ -8,7 +8,7 @@ location: "Online "
 date: 2021-11-15 11:12:18 -05:00
 event_date: 2021-12-09 11:12:18 -05:00
 event_end_date: 2021-12-09 11:12:18 -05:00
-image: /assets/images/content/techwebinar-graphics.png
+image: /assets/images/content/techwebinars_events_page.jpg
 event_type: webinar
 ---
 **Speaker:** Everton Constantino, Linaro Engineer and Eigen Maintainer \
