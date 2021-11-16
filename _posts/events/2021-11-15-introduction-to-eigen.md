@@ -19,7 +19,7 @@ event_type: webinar
 
 Description: 
 
-Join Linaro’s Developer Services team on Thursday 9th December at 5pm GMT as we explore Eigen - a C++ Template Library for linear algebra and matrix manipulation.  Eigen is a foundational library used by many projects including TensorFlow for ML, and ROS the Robotic Operating System.
+Join us on Thursday 9th December at 5pm GMT as we explore Eigen - a C++ Template Library for linear algebra and matrix manipulation.  Eigen is a foundational library used by many projects including TensorFlow for ML, and ROS the Robotic Operating System.
 
 The webinar will give practical demonstrations of using Eigen in software projects. We will look at how to include Eigen in your build process and also how to use basic features of dense and sparse matrices. We will focus on Eigen's ease of use, and simplicity for getting functionality up and running. Finally, we will provide an introduction to some forthcoming features being proposed for Eigen.
 
