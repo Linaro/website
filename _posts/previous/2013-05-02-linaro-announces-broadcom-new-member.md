@@ -1,13 +1,14 @@
 ---
-author: linaro
-category: news
-date: 2013-05-02 12:25:47
-description: CAMBRIDGE, UK - 2 MAY 2013
-layout: post
-link: /news/linaro-announces-broadcom-new-member/
-slug: linaro-announces-broadcom-new-member
-title: Linaro announces Broadcom as new member
 wordpress_id: 4424
+layout: post
+title: Linaro announces Broadcom as new member
+image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
+category: news
+author: linaro
+slug: linaro-announces-broadcom-new-member
+date: 2013-05-02 12:25:47
+link: /news/linaro-announces-broadcom-new-member/
+description: CAMBRIDGE, UK - 2 MAY 2013
 ---
 
 CAMBRIDGE, UK - 2 MAY 2013
@@ -24,9 +25,9 @@ Linaro has a unique business model where multiple companies jointly invest in a 
 
 **Sources**: *Some 3.8 development statistics* Jonathan Corbet, LWN, 13 February 2013: [https://lwn.net/Articles/537110/](https://lwn.net/Articles/537110/) (subscription required); *Statistics from the 3.7 development cycle* Jonathan Corbet, LWN, 28 November 2012:[http://lwn.net/Articles/527191/](http://lwn.net/Articles/527191/)(subscription required) and earlier LWN articles.
 
-**Sources**: *Linaro Connect (LCA13) Monday Keynote: Jon Corbet founder of LWN.net,* 4 March 2013:[http://www.youtube.com/watch?v=JAmPRljN_Ww](http://www.youtube.com/watch?v=JAmPRljN_Ww) (from 13 minutes 15 seconds. ); *Torvalds touts Linux’s advances in power, Arm and cell phones* Paula Rooney, ZDNet, 30 August 2012:[http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)
+**Sources**: *Linaro Connect (LCA13) Monday Keynote: Jon Corbet founder of LWN.net,* 4 March 2013:[http://www.youtube.com/watch?v=JAmPRljN_Ww](http://www.youtube.com/watch?v=JAmPRljN_Ww) (from 13 minutes 15 seconds. ); *Torvalds touts Linux’s advances in power, Arm and cell phones* Paula Rooney, ZDNet, 30 August 2012
 
-[](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)**About Linaro**
+**About Linaro**
 
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 150 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation.
 
