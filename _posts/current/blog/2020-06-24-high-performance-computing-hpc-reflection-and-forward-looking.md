@@ -1,27 +1,27 @@
 ---
 layout: post
-title: ' High Performance Computing (HPC), Reflection and Forward-looking.'
-description: In 2018 we discussed the first step for ARM into High Performance Computing
-  (HPC). Since then, Linaro has been working to increase awareness of the successes
-  within the High Performance Computing ARM ecosystem. HPC now forms a key part of
-  our activities, plus an association with Fugaku - the No.1 Supercomputer in the
-  world (according to the Top500 bi-annual review).
+title: " High Performance Computing (HPC), Reflection and Forward-looking."
+description: In 2018 we discussed the first step for ARM into High Performance
+  Computing (HPC). Since then, Linaro has been working to increase awareness of
+  the successes within the High Performance Computing ARM ecosystem. HPC now
+  forms a key part of our activities, plus an association with Fugaku - the No.1
+  Supercomputer in the world (according to the Top500 bi-annual review).
 date: 2020-06-26 04:22:14+00:00
 image: /assets/images/content/hpc-bg.jpg
 tags:
-- HPC
-- TOFU
-- Opensource Toolchains
-- High Performance Computing
-- Arm
-- Linaro
-- Fugaku
-- Supercomputers
-- Supercomputing
-- Linaro Developer Cloud
-- Open Hpc
+  - HPC
+  - TOFU
+  - Opensource Toolchains
+  - High Performance Computing
+  - Arm
+  - Linaro
+  - Fugaku
+  - Supercomputers
+  - Supercomputing
+  - Linaro Developer Cloud
+  - Open Hpc
 related_projects:
-- HPCAI
+  - HPCAI
 category: blog
 author: paul.isaacs
 ---
@@ -88,7 +88,7 @@ Having a standards-based server booting a Linux kernel is the infrastructure. Wh
 
 In the scalable vector extension and NEON examples, compiler intrinsics are included in the code as functions to be converted to optimised hardware instructions. A further development could provide instead for the same intrinsics to be hidden in a backend solution whilst the frontend application is converted to cloud-native calls in an abstraction that is hardware agnostic. Linaro's HPC-SIG is collaboratively exploring how Cloud-Native computing could benefit the high performance computing community and provide public-facing easy-to-use solutions.
 
-The balance to be struck of differing workloads is to identify how many everyday applications vs mathematically intensive applications might benefit from SIMD. For example, how many 10,000 core rack of systems like the low-power microservices aimed [B1000N](https://www.bamboosystems.io/b1000n/), based on Linaro member [NXP’s 16-core LX2160A](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/layerscape-multicore-processor-/layerscape-lx2160a-multicore-communications-processor:LX2160A), versus a high-power system kitted with Marvell’s [upcoming 96-core ThunderX3](https://www.forbes.com/sites/moorinsights/2020/04/06/forget-about-x86--neoverse-is-legit/)? The question is not either/or, but how many of both.
+The balance to be struck of differing workloads is to identify how many everyday applications vs mathematically intensive applications might benefit from SIMD. For example, how many 10,000 core rack of systems like the low-power microservices aimed [B1000N](https://www.bamboosystems.io/b1000n/), based on Linaro member [NXP’s 16-core LX2160A](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/layerscape-multicore-processor-/layerscape-lx2160a-multicore-communications-processor:LX2160A), versus a high-power system kitted with Marvell’s upcoming 96-core ThunderX3? The question is not either/or, but how many of both.
 
 **Continuous integration**
 
