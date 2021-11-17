@@ -1,14 +1,16 @@
 ---
 layout: post
 title: Porting Linux to AArch64 Laptops
-date: '2019-09-26 01:00:00'
-tags:
-- Arm
-- Linux
-- Open Source
-- Collaborative Engineering
-category: blog
+description: In this blog, Linaro Engineer Lee Jones talks about the work he has
+  done in porting Linux to AArch64 laptops.
+date: 2019-09-26 01:00:00
 image: /assets/images/content/porting-linux-featured-image.jpg
+tags:
+  - Arm
+  - Linux
+  - Open Source
+  - Collaborative Engineering
+category: blog
 author: lee.jones
 ---
 
@@ -22,7 +24,7 @@ Now in the possession of a working bootloader we were able to take advantage of 
 
 Once we knew it was possible to boot Linux on these devices, the project ramped up and a public repository was created on GitHub called AArch64-Laptops (https://github.com/aarch64-laptops/build). Here we provided a build system for creating pre-built images based on Ubuntu. We also provided documentation describing how to disable Secure Boot on each device, how to build images and get them booted via the SD card. After the project had matured, the GitHub project was used store HOWTOs on the GPU and WiFi stacks and some troubleshooting information for good measure. A community was cultivated surrounding the project. Users submitted bugs & questions and discussed technical topics on the IRC channel (aarch64-laptops @ Freenode) and mailing list (https://lists.linaro.org/mailman/listinfo/aarch64-laptops).
 
-News of the project spread fast, mainly due to the exposure provided by various popular online technical journals and blogs; Liliputing ([https://liliputing.com/2019/02/now-you-can-run-linux-on-some-arm-laptops-designed-for-windows-10-on-arm.html](https://liliputing.com/2019/02/now-you-can-run-linux-on-some-arm-laptops-designed-for-windows-10-on-arm.html)), Phoronix ([https://www.phoronix.com/scan.php?page=news_item&px=Linux-On-The-Win-Arm-Laptops](https://www.phoronix.com/scan.php?page=news_item&px=Linux-On-The-Win-Arm-Laptops)), Foss Bytes ([https://fossbytes.com/linux-on-windows-10-arm-laptops-project/](https://fossbytes.com/linux-on-windows-10-arm-laptops-project/)) and Tech Republic ([https://www.techrepublic.com/article/open-source-project-aims-to-make-ubuntu-usable-on-arm-powered-windows-laptops/](https://www.techrepublic.com/article/open-source-project-aims-to-make-ubuntu-usable-on-arm-powered-windows-laptops/)), to name but a few. It is likely that many of the current owners bought their hardware on the back of the apparent early successes of the project.
+News of the project spread fast, mainly due to the exposure provided by various popular online technical journals and blogs; Liliputing ([https://liliputing.com/2019/02/now-you-can-run-linux-on-some-arm-laptops-designed-for-windows-10-on-arm.html](https://liliputing.com/2019/02/now-you-can-run-linux-on-some-arm-laptops-designed-for-windows-10-on-arm.html)), Phoronix ([https://www.phoronix.com/scan.php?page=news_item&px=Linux-On-The-Win-Arm-Laptops](https://www.phoronix.com/scan.php?page=news_item&px=Linux-On-The-Win-Arm-Laptops)), Foss Bytes ([https://fossbytes.com/linux-on-windows-10-arm-laptops-project/](https://fossbytes.com/linux-on-windows-10-arm-laptops-project/)) and Tech Republic, to name but a few. It is likely that many of the current owners bought their hardware on the back of the apparent early successes of the project.
 
 The project subsequently spent quite a bit of time enabling features; Graphics, USB, core Wireless support, UFS (on-board storage), etc and fixing bugs; SD card detect line inversion, touchpad, keyboard, graphics, MMU (efi=novamap [thank you Ard Biesheuvel) and adding documentation whenever necessary. Once we were able to boot into an Ubuntu Desktop, an automatic Docker/Libvirt based (Libvirt virtual machine inside a Docker container) building infrastructure was built to create new images as they became more featureful and more stable. We utilised the power of PPAs (Personal Package Archives) to keep the user's kernel up-do-date with the latest features and Canonical were kind enough to allow us to distribute test images on Linaro's Release site ([http://releases.linaro.org/aarch64-laptops](http://releases.linaro.org/aarch64-laptops)).
 
