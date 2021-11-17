@@ -1,23 +1,25 @@
 ---
-excerpt: 'AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP, Marvell and
-  Red Hat join existing Linaro members Arm, HiSilicon, Samsung and ST-Ericsson to
-  form new group focused on accelerating Linux development for Arm servers '
+excerpt: "AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP, Marvell
+  and Red Hat join existing Linaro members Arm, HiSilicon, Samsung and
+  ST-Ericsson to form new group focused on accelerating Linux development for
+  Arm servers "
 wordpress_id: 4419
 layout: post
-title: Industry Leaders Collaborate to Accelerate Software Ecosystem for Arm Servers,
-  and Join Linaro
+title: Industry Leaders Collaborate to Accelerate Software Ecosystem for Arm
+  Servers, and Join Linaro
 image: /assets/images/content/linaro-logo.png
 author: linaro
 slug: industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro
 date: 2012-11-01 12:21:45
 tags:
-- Members
+  - Members
 link: /news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/
 categories:
-- news
-description: AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP, Marvell
-  and Red Hat join existing Linaro members Arm, HiSilicon, Samsung and ST-Ericsson
-  to form new group focused on accelerating Linux development for Arm servers
+  - news
+description: AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP,
+  Marvell and Red Hat join existing Linaro members Arm, HiSilicon, Samsung and
+  ST-Ericsson to form new group focused on accelerating Linux development for
+  Arm servers
 category: news
 ---
 
@@ -45,7 +47,7 @@ Arm servers are expected to be initially adopted in hyperscale computing environ
 
 \*Source: Who wrote 3.5? Greg Kroah-Hartman, LWN, 25 July 2012: <https://lwn.net/Articles/507986/> (subscription required)\*\*
 
-Source: Torvalds touts Linux’s advances in power, Arm and cell phones Paula Rooney, ZDNet, 30 August 2012:<http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/>
+Source: Torvalds touts Linux’s advances in power, Arm and cell phones Paula Rooney, ZDNet, 30 August 2012
 
 **About Linaro**
 
