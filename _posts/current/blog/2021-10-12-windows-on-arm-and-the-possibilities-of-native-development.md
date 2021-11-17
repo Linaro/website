@@ -44,7 +44,7 @@ From the toolchain perspective there are several options to choose from, includi
 
 When it comes to third party applications there are multiple options for emulation, using Microsoft’s emulation platform or Arm64 EC which is available with Windows 11. Arm64 EC allows you to run third party applications in emulation while your core components run native. Arm continues to work on upstreaming support and has so far upstreamed Elektron and CEF support, as well as contributed a native build of Chromium. 
 
-As for testing, there are plenty of devices to choose from- both the standard commercial Surface ProX as well as [Qualcomm’s Snapdragon developer kit](https://developer.qualcomm.com/hardware/windows-on-snapdragon/snapdragon-developer-kit) are good options.
+As for testing, there are plenty of devices to choose from- both the standard commercial Surface ProX as well as [Qualcomm’s Snapdragon developer kit](https://developer.qualcomm.com/hardware/windows-on-snapdragon/snapdragon-developer-kit) are good options. You can read more about how to get started with Windows on Snapdragon [in this blog post](https://developer.qualcomm.com/blog/windows-snapdragon-developer-highlights) by Rami Husseini, Director of Product Management for Qualcomm Technologies, Inc.  
 
 ## How do I get involved?
 
