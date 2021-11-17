@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Eigen "
+title: "Linaro Connect Webinar: Introduction to Eigen "
 event: "intro-to-eigen-tech-webinar "
 description: "Webinar Title: Introduction to Eigen\ 
 
