@@ -3,7 +3,7 @@ layout: post
 title: "Reimagining Linaro Virtual Events "
 description: "Linaro Events Blog "
 date: 2021-11-18 11:46:45 -05:00
-image: /assets/images/content/48784720458_63040ac998_k.jpg
+image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 strap_image: ""
 tags: []
 category: blog
