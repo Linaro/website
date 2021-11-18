@@ -8,7 +8,7 @@ strap_image: ""
 tags:
   - Connect
 category: blog
-author: amit.pundir@linaro.org
+author: kristine-dill
 ---
 In Spring 2020, we planned to host Linaro Connect in Budapest, Hungary but due to the start of the COVID-19 pandemic we had to cancel our in-person event and thus began our journey with virtual events. We hosted our first online event [in March 2020](https://connect.linaro.org/resources/ltd20/) and have hosted two Linaro Virtual Connect events per year since then. 
 
