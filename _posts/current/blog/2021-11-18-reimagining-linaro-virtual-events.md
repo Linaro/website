@@ -26,13 +26,15 @@ Until then, here is the current plan for virtual Linaro Tech Days and Linaro Tec
 Linaro Tech Webinar: LIVE: “Introduction to Eigen” \
 by Everton Constantino; Linaro Engineer and Eigen Maintainer\
 Thursday 9th December, 2021 at 17:00 UTC\
-Registration [now open](https://www.linaro.org/events/introduction-to-eigen/) (Cost: Free)
+Registration [now open](https://www.linaro.org/events/introduction-to-eigen/) \
+Cost: Free
 
 Linaro Tech Webinar: LIVE "Kernel Debug Stories"\
 by Daniel Thompson Linaro Principal Tech Lead \
 -February 8 (English language) \
 -February 15 (Mandarin language)\
-Registration will open on January 4 on our [Linaro Events Page](https://www.linaro.org/events) 
+Registration will open on January 4 on our [Linaro Events Page](https://www.linaro.org/events) \
+Cost: Free
 
 Linaro Tech Webinar on Qualcomm Modem/IPA: February 2022\
 Linaro Tech Day on Client Devices: March 2022 \
