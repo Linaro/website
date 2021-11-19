@@ -79,6 +79,11 @@ $(document).ready(function () {
       autoplay: false,
       items: 1,
     });
+    $(".video_modal").on("hidden.bs.modal", function (e) {
+      // do something...
+      let video = $(this).find("video:first-child");
+      video.get(0).pause();
+    });
   }
   if ($("#engineering_slider_mobile").length > 0) {
     $("#engineering_slider_mobile").owlCarousel({
