@@ -1,4 +1,50 @@
 #wrapper {
+  div.highlighted_feature {
+    background-color: #e6f7fd;
+    border-color: #b0e5fa;
+  }
+  .down_triangle {
+    margin-bottom: 55px;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 0;
+      height: 0;
+      border-width: 37px 53px 0 53px;
+      border-color: #d1d1d1 transparent transparent transparent;
+      border-style: solid;
+      bottom: -37px;
+      padding-bottom: -24px;
+    }
+  }
+  .up_triangle {
+    margin-top: 55px;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 0;
+      height: 0;
+      border-width: 0 53px 37px 53px;
+      border-color: transparent transparent #d1d1d1 transparent;
+      border-style: solid;
+      top: -37px;
+      padding-bottom: -24px;
+    }
+  }
+  .dotted-border-top {
+    border-top: 6px dotted #eee;
+  }
+  .dotted-border-bottom {
+    border-bottom: 6px dotted #ccc;
+  }
   .dev_services h1.my-md-4 {
     font-weight: bolder;
   }
@@ -16,9 +62,6 @@
       font-weight: bolder;
     }
   }
-  .dotted-border-bottom {
-    border-bottom: 6px dotted #ccc;
-  }
   .large_type {
     font-size: 2rem;
   }
@@ -34,7 +77,7 @@
     }
   }
   .ds_wrapper {
-    padding: 15px;
+    padding: 10px 5px;
     transition: all 800ms ease;
     border-radius: 20px;
     &:hover {
