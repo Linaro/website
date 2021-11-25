@@ -45,7 +45,7 @@ The algorithm can be divided into three steps:
 
 ### **Identification of candidates**
 
-This is done by walking through all the basic blocks of the program to find the longest repeated sequences of MIR instructions, which can be reduced to the longest common substring problem \[5] where basic blocks are the strings, and instructions the characters.This class of problems can be solved efficiently with a generalized suffix tree representation \[6].
+This is done by walking through all the basic blocks of the program to find the longest repeated sequences of MIR instructions, which can be reduced to the longest common substring problem \[5] where basic blocks are the strings, and instructions the characters.This class of problems can be solved efficiently with a generalized suffix tree representation.
 
 In the example below, the two functions calc_1 and calc_2 can be represented by strings ABABC and AABC respectively. A generalized suffix tree is built after padding these strings with a unique terminator (# and $). The depth of an internal node of this tree represents the length of a candidate and the number of leaf nodes reachable from it, the number of times it is repeated. Looking for repeated substrings which have a minimum length of two in our example will give us BC which is repeated two times, AB repeated three times and ABC repeated two times.
 
@@ -110,5 +110,3 @@ As we have seen, Machine Outlining is always a win-win for code size optimizatio
 \[4] <https://www.youtube.com/watch?v=yorld-WSOeU>
 
 \[5] <https://en.wikipedia.org/wiki/Longest_common_substring_problem>
-
-\[6] <http://web.cs.iastate.edu/~cs548/suffix.pdf>
