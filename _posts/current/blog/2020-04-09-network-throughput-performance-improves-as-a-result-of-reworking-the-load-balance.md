@@ -1,13 +1,18 @@
 ---
 layout: post
-title: Network throughput performance improves as a result of reworking the load balance.
-date: '2020-04-06 04:10:19'
+title: Network throughput performance improves as a result of reworking the load
+  balance.
+description: "The scheduler has seen a lot of change over the past couple of
+  years with the introduction of Per Entity Load Tracking (PELT). This blog
+  talks about how it has been improved over time, including when wrong task
+  placement occurred and how this was fixed. "
+date: 2020-04-06 04:10:19
 image: /assets/images/content/37319206961_0b863ab87d_k.jpg
 tags:
-- PELT
-- CPU
-- Linux Scheduler
-- Linux Kernel
+  - PELT
+  - CPU
+  - Linux Scheduler
+  - Linux Kernel
 category: blog
 author: vincent.guittot
 ---
@@ -68,7 +73,7 @@ dbench
 
 ```
 
-Other people from the community started to raise interest in the rework and wanted to also fix old problems like the suboptimal use of cores on NUMA systems : [The Linux Scheduler: a Decade of Wasted Cores](https://www.ece.ubc.ca/~sasha/papers/eurosys16-final29.pdf). Some regressions have been raised during the review but thanks to the cleanup work, it has often been straightforward to fix them because the culprit piece of code was self contained, we therefore didn’t have to worry about the side effects to unrelated configurations.
+Other people from the community started to raise interest in the rework and wanted to also fix old problems like the suboptimal use of cores on NUMA systems : [The Linux Scheduler: a Decade of Wasted Cores](https://people.ece.ubc.ca/sasha/papers/eurosys16-final29.pdf). Some regressions have been raised during the review but thanks to the cleanup work, it has often been straightforward to fix them because the culprit piece of code was self contained, we therefore didn’t have to worry about the side effects to unrelated configurations.
 
 Although we tried to cover a wide range of behavior during the development and review phases, it was impossible to cover all use cases. Nevertheless, the patchset was considered to be mature enough to be queued for v5.5 with the constraint that we will have to be reactive to fix every regression reported, and that the patchset would be reverted if we were not able to fix it.
 
