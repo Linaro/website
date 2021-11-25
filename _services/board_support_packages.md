@@ -47,28 +47,32 @@ flow:
 
             Linaro Developer Services can help you develop or maintain:
       - format: two_column
-        style: rounded border
+        style: rounded border mt-4
         breakpoint: md
         left_column:
           custom_size: 4
+          style: p-3
           text: |
             **Operating system support**
         right_column:
           custom_size: 8
+          style: p-3
           text: |
             * A Linux BSP using distributions such as OpenEmbedded/Yocto or Debian,
             a Linux kernel based on mainline or one of the stable kernels and firmware
             based on Trusted Firmware or U-Boot.
             * An AOSP (Android Open Source Project) based BSP.
       - format: two_column
-        style: rounded border
+        style: rounded border mt-4
         breakpoint: md
         left_column:
           custom_size: 4
+          style: p-3
           text: |
             **Services**
         right_column:
           custom_size: 8
+          style: p-3
           text: |
             * Analysis of existing BSPs to provide a comprehensive assessment and
             development recommendations
@@ -76,14 +80,16 @@ flow:
             performance
             * Long term support for BSP’s and all their constituent parts.
       - format: two_column
-        style: rounded border
+        style: rounded border mt-4
         breakpoint: md
         left_column:
           custom_size: 4
+          style: p-3
           text: |
             **We have significant experience working with customers on**
         right_column:
           custom_size: 8
+          style: p-3
           text: |
             * High level design and implementation of complex subsystems
             * Platform extensions, OS optimizations

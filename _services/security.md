@@ -53,7 +53,7 @@ flow:
             Linaro Developer Services help companies plan, implement and optimize secure bootloader solutions for their commercial
             product platforms, using:
       - format: text
-        style: border rounded my-3
+        style: border rounded my-3 p-3
         text_content:
           text: |
             Trusted Firmware
