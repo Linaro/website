@@ -30,7 +30,10 @@ flow:
           - title: What our customers say
             url: "#what_our_customers_say"
             style: btn-primary btn-lg
-      - format: feature_block
+  - row: container_row
+    style: dotted-border-top services_feature
+    sections:
+      - format: feature_block_small
         style: dev_services_block
         feature_block_content:
           position: left
@@ -40,8 +43,13 @@ flow:
           text: |
             Linaro employs many of the world’s leading Arm Software
             experts. All of this expertise is available to you through Linaro
-            Developer Services. Read more
-      - format: feature_block
+            Developer Services. 
+
+            [Read more](/services/hands-on-training/)
+  - row: container_row
+    style: dotted-border-top services_feature
+    sections:
+      - format: feature_block_small
         style: dev_services_block
         feature_block_content:
           position: left
@@ -51,8 +59,13 @@ flow:
           text: |
             Specialists in security and Trusted Execution Environment (TEE)
             on Arm, we leverage open source to ensure you benefit from the
-            latest upstream features and security fixes. Read more
-      - format: feature_block
+            latest upstream features and security fixes.
+
+            [Read more](/services/security/)
+  - row: container_row
+    style: dotted-border-top services_feature
+    sections:
+      - format: feature_block_small
         style: dev_services_block
         feature_block_content:
           position: left
@@ -63,8 +76,12 @@ flow:
             We upstream code to reduce the cost and effort needed to maintain
             your product. We offer continuous integration (CI) and automated
             validation for your software, ensuring the highest possible quality.
-            Read more
-      - format: feature_block
+
+            [Read more](/services/testing-and-long-term-support/)
+  - row: container_row
+    style: dotted-border-top services_feature
+    sections:
+      - format: feature_block_small
         style: dev_services_block
         feature_block_content:
           position: left
@@ -74,8 +91,13 @@ flow:
           text: |
             We support every aspect of product delivery, from building secure
             board support packages, product validation and long-term support &
-            maintenance. We help get your products to market faster. Read more
-      - format: feature_block
+            maintenance. We help get your products to market faster.
+
+            [Read more](/services/board-support-packages/)
+  - row: container_row
+    style: dotted-border-top services_feature
+    sections:
+      - format: feature_block_small
         style: dev_services_block
         feature_block_content:
           position: left
@@ -86,8 +108,12 @@ flow:
             We can support deployment of your software on all Arm Platforms -
             from Microcontrollers to HPC super-computers - doing initial ports and
             optimising performance.we help get your products to market faster.
-            Read more
-      - format: feature_block
+
+            [Read more](/services/system-performance-and-optimization/)
+  - row: container_row
+    style: dotted-border-top dotted-border-bottom services_feature highlighted_feature
+    sections:
+      - format: feature_block_small
         style: dev_services_block
         feature_block_content:
           position: left
@@ -97,7 +123,8 @@ flow:
           text: |
             Linaro Developer Services is a leader in providing Linux BSP
             development, maintenance and optimization for Qualcomm platforms.
-            Read more
+
+            [Read more](/services/qualcomm-platforms-services/)
   - row: container_row
     id: what_our_customers_say
     style: text-center
