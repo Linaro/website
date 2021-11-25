@@ -1,26 +1,27 @@
 ---
-title: Bitmain joins Linaro 96Boards Steering Committee, announces Sophon BM1880 Edge
-  Development Board
-author: linaro
 layout: post
+title: Bitmain joins Linaro 96Boards Steering Committee, announces Sophon BM1880
+  Edge Development Board
 date: 2018-11-08 07:00:00+00:00
-description: Linaro Ltd, announced today that leading ASIC-based cryptocurrency mining
-  hardware provider Bitmain has joined the 96Boards initiative as a Steering Committee
-  member and has announced an initial 96Boards product, the Sophon BM1880 Edge Development
-  Board (EDB).
-category: news
+image: /assets/images/content/96boards-specification-consumer-edition-v2.jpg
 tags:
-- Linaro
-- Arm
-- 96Boards
-- Steering Committee
-- Open Source
-- Membership
+  - Linaro
+  - Arm
+  - 96Boards
+  - Steering Committee
+  - Open Source
+  - Membership
+category: news
+author: linaro
+description: Linaro Ltd, announced today that leading ASIC-based cryptocurrency
+  mining hardware provider Bitmain has joined the 96Boards initiative as a
+  Steering Committee member and has announced an initial 96Boards product, the
+  Sophon BM1880 Edge Development Board (EDB).
 ---
 
 [Cambridge, UK; 8 November 2018] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that leading ASIC-based cryptocurrency mining hardware provider Bitmain has joined the 96Boards initiative as a Steering Committee member and has announced an initial 96Boards product, the Sophon BM1880 Edge Development Board (EDB).
 
-Bitmain [launched](https://www.sophon.ai/post/36.html) the BM1880 edge AI chip in October. This is Bitmain’s first AI chip providing high performance, low power Deep Learning computing power for edge devices. The Bitmain BM1880 enables cutting-edge deep learning techniques, like facial recognition, in real-time on small devices without needing an Internet connection. To help develop broad range of AI applications, Bitmain also provides a comprehensive toolchain, including compiler and quantization tools, for developers. The Sophon BM1880 EDB is the first product available to developers who wish to develop with the new chip.
+Bitmain launched the BM1880 edge AI chip in October. This is Bitmain’s first AI chip providing high performance, low power Deep Learning computing power for edge devices. The Bitmain BM1880 enables cutting-edge deep learning techniques, like facial recognition, in real-time on small devices without needing an Internet connection. To help develop broad range of AI applications, Bitmain also provides a comprehensive toolchain, including compiler and quantization tools, for developers. The Sophon BM1880 EDB is the first product available to developers who wish to develop with the new chip.
 
 Bitmain began working with 96Boards after identifying the program as an effective vehicle to give developers access to this new technology. 96Boards is Linaro’s initiative to build a single worldwide software and hardware community across low-cost development boards using the latest Arm technology. A large range of products compliant with the 96Boards specifications is available worldwide and this is supplemented with additional hardware functionality provided through standardized mezzanine boards. The 96Boards Steering Committee provides a neutral forum in which companies can cooperate closely to offer semiconductor products in a standard form factor for rapid product development, testing and prototyping.
 
