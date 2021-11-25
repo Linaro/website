@@ -55,6 +55,35 @@ flow:
             Linaro Developer Services has the expertise and experience in systems libraries and tools to
             make them work well for you on Arm-based systems.
   - row: container_row
+    style: bg-white text-dark dotted-border-bottom
+    sections:
+      - format: two_column
+        style: mb-4
+        breakpoint: md
+        left_column:
+          style: p-3
+          text: |
+            **Combine our Arm system knowledge and your
+            application expertise to deliver your product
+            requirements**
+          include: services/expertise_image.html
+        right_column:
+          style: p-3 coloured_bullet_list
+          text: |
+            **Our areas of expertise include:**
+
+            * Machine Learning: e.g. Tensorflow
+            * Computer Vision: e.g. OpenCV
+            * Linear Algebra: e.g. OpenBLAS, Eigen
+            * System C Libraries: e.g. glibc
+            * Linux Kernel
+            * Compilers: e.g. GCC, LLVM, go
+            * Language Expertise includes: C/C++/
+            Fortran/go
+            * Arm Architecture: Armv8, SVE, HPC,
+            Memory Models.
+
+  - row: container_row
     style: bg-white text-dark
     sections:
       - format: title
