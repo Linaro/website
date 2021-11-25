@@ -252,7 +252,7 @@ flow:
             Linaro Developer Cloud is a heterogeneous cluster managed by Linaro to provide developers with access to the latest Arm enterprise class cloud instances. The cluster is managed with the Openstack-Powered Ussuri release with deployment by Kolla-ansible. It runs all your favorite distributions such as Debian, CentOS, Ubuntu, RHEL and openEuler. The Linaro Developer Cloud is available for development, test, CI and cloud deployments for VM, BM and Kubernetes clusters.
 
 
-            [Sign up here for access to Linaro Developer Cloud and build your project today](https://servicedesk.linaro.org/servicedesk/customer/portal/11)
+            [Sign up here for access to Linaro Developer Cloud and build your project today](https://servicedesk.linaro.org/servicedesk/customer/portal/11/user/login?destination=portal%2F11)
       - format: title
         style: block_bg_header
         title_content:
