@@ -46,5 +46,5 @@ Linaro leads collaboration in the Arm ecosystem and helps companies work with th
 
 Huawei’s products and services are available in more than 170 countries and are used by a third of the world’s population. Fifteen R&D centers have been set up in the United States, Germany, Sweden, Russia, India and China. Huawei Consumer BG is one of Huawei’s three business units and covers smartphones, PC and tablets, wearables and cloud services, etc. Huawei’s global network is built on almost 30 years of expertise in the telecom industry and is dedicated to delivering the latest technological advances to consumers around the world. For any further information please visit our website <https://consumer.huawei.com/en/>.
 
-About OpenHarmony project: <http://www.ostc-eu.org>
+About OpenHarmony project: <https://www.ostc-eu.org/>
 About OpenEuler project: <https://openeuler.org/en>
