@@ -1,16 +1,17 @@
 ---
-layout: flow
-description: >-
-    You will see that there are several ways to become involved and that everything we do is open, not only software but also our wiki and our discussions (on IRC and on our mailing lists).
 title: Developers
+description: You will see that there are several ways to become involved and
+  that everything we do is open, not only software but also our wiki and our
+  discussions (on IRC and on our mailing lists).
 permalink: /developers/
+layout: flow
 jumbotron:
-    image: /assets/images/content/downloads-bg.jpg
-    title: Get Involved
-    inner_class: dotted
-    description: ""
+  image: /assets/images/content/downloads-bg.jpg
+  title: Get Involved
+  inner_class: dotted
+  description: ""
 flow:
-    - row: main_content_row
+  - row: main_content_row
 ---
 **Whether you are an individual or an employee of a organization it is easy to get involved with Linaro**
 
@@ -101,7 +102,7 @@ together guides for using Linaro builds as the basis for real products: currentl
 [Android](https://wiki-archive.linaro.org/LinaroForProductBuilders/Android "Linaro for Android product
 builders") and one for [Ubuntu](https://wiki-archive.linaro.org/LinaroForProductBuilders/Ubuntu "Linaro for
 Ubuntu products builders"). If you have questions, please visit [Linaro
-Support](https://servicedesk.linaro.org/servicedesk/customer/portal/6 "Linaro support") to see if we have
+Support](https://servicedesk.linaro.org/servicedesk/customer/portal/6/user/login?destination=portal%2F6 "Linaro support") to see if we have
 already answered them or post a new question and our community of experts will respond. We hope you will
 consider joining us at [Linaro Connect](https://connect.linaro.org/ "Linaro Connect event") and will see that
 including Linaro as a recommendation in RFQs could accelerate your product development, improve reliability and
@@ -120,11 +121,10 @@ to Linaro, please contact Joe Bates at [contact@linaro.org](mailto:contact@linar
 **We are constantly working to improve our support channels in Linaro. In addition to our wiki documentation and
 website we have the following:**
 
-[Linaro Support](https://support.linaro.org/) is the Linaro support site where developers and users can ask and
+[Linaro Support](https://servicedesk.linaro.org/servicedesk/customer/portal/6/user/login?destination=portal%2F6) is the Linaro support site where developers and users can ask and
 answer questions.
 
 **Additional Linaro Community Support can be found at:**
-Mailing Lists – [/contact/mailing-list/](/contact/mailing-list/)
 Downloads – [/downloads/](/downloads/)
 
 Help on filing a bug using Launchpad can be found

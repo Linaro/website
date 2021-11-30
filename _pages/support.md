@@ -11,7 +11,6 @@ layout: flow
 jumbotron:
   image: /assets/images/content/developer-services-banner.jpg
   title: Linaro Support
-  inner_class: dotted
   description: ''
 flow:
   - row: main_content_row
@@ -42,7 +41,6 @@ flow:
 
             *   [Get Involved](/developers/)
             *   IRC
-            *   [Mailing Lists](/contact/mailing-list/)
             *   [Downloads](/downloads/)
 
             To raise an LDTS ticket simply send an e-mail to [support@linaro.org](mailto:support@linaro.org) or, if you prefer, register at [https://support.linaro.org](https://support.linaro.org/).

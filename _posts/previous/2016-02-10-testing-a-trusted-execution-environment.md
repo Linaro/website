@@ -1,13 +1,14 @@
 ---
-author: joakim.bech
-date: 2016-02-10 13:54:07+00:00
-layout: post
-link: /blog/core-dump/testing-a-trusted-execution-environment/
-slug: testing-a-trusted-execution-environment
-title: Testing a Trusted Execution Environment
 wordpress_id: 9949
-category: blog
+layout: post
+title: Testing a Trusted Execution Environment
+image: /assets/images/content/Linaro-and-Riscure-release-banner.jpg
 tags: []
+author: joakim.bech
+slug: testing-a-trusted-execution-environment
+date: 2016-02-10 13:54:07+00:00
+link: /blog/core-dump/testing-a-trusted-execution-environment/
+category: blog
 ---
 
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
@@ -106,7 +107,7 @@ Today xtest is a test framework that does API testing of the exposed functionali
 
 **Figure 3: xtest standard test result**
 
-If you also enable the GP compliance tests, then you get even better coverage. So the APIs as such are being thoroughly tested and that is all good. However! Since it is security we’re dealing with here, we still have a lot to do when it comes to performing a focused security testing. There exist both concepts and tools and even companies solely dedicated to white box testing, where the goal is to find bugs and potential vulnerabilities in the code. For example, over the years people have found numerous bugs in Linux kernel by using [Trinity](http://codemonkey.org.uk/projects/trinity) ([fuzz tester](https://en.wikipedia.org/wiki/Fuzz_testing)). With Trinity the main goal isn’t strictly about enhancing security but rather to ensure that the system calls in Linux kernel are robust. A crash ([Linux kernel oops](https://en.wikipedia.org/wiki/Linux_kernel_oops)) can in some cases also be an entrance point for a kernel exploit and therefore it is still important to find and fix issues discovered by such tools as Trinity. Having something similar running on the secure side would probably be really useful. We have heard that GlobalPlatform will include fuzz testing in a new test suite that is currently being developed (draft is available for GP members here [TEE Security Test Suite v0.1.0](https://globalplatform.org/)).
+If you also enable the GP compliance tests, then you get even better coverage. So the APIs as such are being thoroughly tested and that is all good. However! Since it is security we’re dealing with here, we still have a lot to do when it comes to performing a focused security testing. There exist both concepts and tools and even companies solely dedicated to white box testing, where the goal is to find bugs and potential vulnerabilities in the code. For example, over the years people have found numerous bugs in Linux kernel by using Trinity ([fuzz tester](https://en.wikipedia.org/wiki/Fuzz_testing)). With Trinity the main goal isn’t strictly about enhancing security but rather to ensure that the system calls in Linux kernel are robust. A crash ([Linux kernel oops](https://en.wikipedia.org/wiki/Linux_kernel_oops)) can in some cases also be an entrance point for a kernel exploit and therefore it is still important to find and fix issues discovered by such tools as Trinity. Having something similar running on the secure side would probably be really useful. We have heard that GlobalPlatform will include fuzz testing in a new test suite that is currently being developed (draft is available for GP members here [TEE Security Test Suite v0.1.0](https://globalplatform.org/)).
 
 There are also [side channel attacks](https://en.wikipedia.org/wiki/Side-channel_attack). Some side channel attacks, like power analysis, cannot be done in software only, but still it would be worth adding tests covering such cases when possible. For example, [timing attacks](https://en.wikipedia.org/wiki/Timing_attack) are something one can do using only software and having test cases automatically performing timing attacks would be very useful. Since we mainly use Arm TrustZone™ it would also be worth adding tests covering the boundaries between the two worlds. I.e add tests that ensure that memory is or isn’t accessible from the other side. There are some memory region tests in xtest already today, but it would be great to  add more tests in this area. With some imagination one could also start to play with [TrustZone Address Space Controller](https://www.arm.com/products/silicon-ip-security) and add tests that ensure that the configuration of that system IP behaves as expected.
 

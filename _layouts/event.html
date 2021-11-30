@@ -18,7 +18,7 @@ layout: base
                 - {{page.event_end_date | date: "%A, %B %-d, %Y" }}
                 {% endif %}</time>
             </p>
-            {% if page.event_url != "" %}
+            {% if page.event_url and page.event_url != "" %}
             <p>
                 <a href="{{page.event_url}}" class="btn btn-primary">
                     Visit Website
