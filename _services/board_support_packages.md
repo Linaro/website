@@ -96,7 +96,7 @@ flow:
             * Middleware development and integration
             * Maintaining builds, testing and supporting BSP’s
       - format: text
-        style: larger_type
+        style: #
         text_content:
           text: |
             In addition to our Board Support Packages, Linaro’s expertise in power management
@@ -115,7 +115,7 @@ flow:
           style: text-dark font-weight-bold my-4
           text: 96Boards Product Development & Support
       - format: text
-        style: larger_type
+        style: #
         text_content:
           text: |
             Linaro Developer Services has a wealth of experience with Linaro’s 96Boards
