@@ -122,13 +122,16 @@ flow:
     style: bg-white text-dark
     sections:
       - format: text
-        style: larger_type
+        style: #
         text_content:
           text: |
             All of this experience working with security on Arm is available to you through Linaro
             Developer Services. We can help you leverage open source to ensure you benefit
             from the latest upstream features and security fixes.
-
+      - format: text
+        style: larger_type
+        text_content:
+          text: |
             Let Linaro Developer Services help your company with all aspects of security related
             to product implementation on Arm.
   - row: container_row

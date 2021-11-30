@@ -42,7 +42,10 @@ flow:
             Linaro is tirelessly working to improve the quality of operating system kernels such as
             Linux and Zephyr by providing the software tools and processes to allow continuous
             build, functional testing and regression detection.
-
+      - format: text
+        style: #
+        text_content:
+          text: |
             We specialise in rapid deployment of automated testing and have created (and
             maintain) projects such as LAVA (Linaro’s Automated Validation Architecture) and
             LKFT (Linaro’s Kernel Functional Test) to help maintain the quality of the kernel.

@@ -92,7 +92,7 @@ flow:
           style: text-dark font-weight-bold my-4
           text: Toolchain Optimization Services
       - format: text
-        style: larger_type
+        style: #
         text_content:
           text: |
             Linaro has world class engineers with a deep understanding of all profiles and
@@ -130,7 +130,7 @@ flow:
           style: text-dark font-weight-bold my-4
           text: Power Management Tuning Services
       - format: text
-        style: larger_type
+        style: #
         text_content:
           text: |
             Linaro has a world class team with a deep understanding of the Arm architecture

@@ -132,13 +132,16 @@ flow:
             * ARMv8 exception model and boot
             * Secure monitor and power management
       - format: text
-        style: larger_type
+        style: #
         text_content:
           text: |
             We have trained many engineers across key areas such as OP-TEE, Energy Aware
             Scheduler, Arm Trusted Firmware, Power Management and Open Source
             development to name but a few.
-
+      - format: text
+        style: larger_type
+        text_content:
+          text: |
             Contact Linaro Developer Services to find out how we can support your team in
             gaining the skills to successfully and efficiently upstream future products.
   - row: container_row
