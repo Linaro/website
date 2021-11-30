@@ -25,4 +25,6 @@ The webinar will give practical demonstrations of using Eigen in software projec
 
 The webinar will assume no previous experience with Eigen. Although a basic understanding of linear algebra and graph theory will be useful, the needed concepts and techniques will be introduced in the webinar. Basic understanding of C++ and usage of templates will be required.
 
-[Register](https://linaro-org.zoom.us/webinar/register/WN_eSmtjO3JRK6qsG3vp8H7KQ) today!
+**[Register](https://linaro-org.zoom.us/webinar/register/WN_eSmtjO3JRK6qsG3vp8H7KQ)** today
+
+This webinar will be broadcasted at 17:00 UTC and the speaker: Eigen Maintainer Everton Constantino will be interacting with the audience live via the chat during the webinar so bring your questions!
