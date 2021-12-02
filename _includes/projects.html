@@ -4,7 +4,7 @@
             <div class="col col-12">
                 <!--Theme tabs-->
                 <ul class="nav nav-tabs row d-none d-xl-flex h-100 pb-0" id="project_theme_tabs">
-                    <li class="nav-item col text-center h-100">
+                    <li class="nav-item col text-center h-100 px-0">
                         <a class="font-weight-bold text-dark nav-link d-flex flex-column align-items-center justify-content-center active h-100" data-toggle="tab" 
                         data-theme="allProjects" href="#allProjects">
                             <img class="tab_icon" src="/assets/images/content/Black_All_projects.svg"
@@ -14,7 +14,7 @@
                     </li>
                     {% for theme in site.themes %}
                         {% unless theme.sub_theme %}
-                            <li class="nav-item col text-center h-100">
+                            <li class="nav-item col text-center h-100 px-0">
                                 <a class="font-weight-bold text-dark nav-link d-flex flex-column align-items-center justify-content-center h-100" data-toggle="tab" 
                                 data-theme="{{theme.title | slugify}}" href="#{{theme.title | slugify}}">
                                     <img class="tab_icon" src="{{theme.icon_dark}}" alt="{{theme.title}} icon"/>
@@ -93,148 +93,26 @@
                             data-themes="{% for theme in project['Project Information']['Theme']%}{{ theme | slugify }}{% unless forloop.last %},{% endunless%}{% endfor %}" class="collapse" aria-labelledby="heading-{{project['key']}}"
                                 data-parent="#accordion">
                                 <div class="card-body pb-0">
-                                    <p class="lead">
-                                        {{project["Project Information"].description}}
-                                    </p>
                                     <div class="row py-0">
-                                    {% if project["Project Ownership"] %}
-                                    {% if project["Project Ownership"]["Project Owner"] != "" or project["Project Ownership"]["Technical Lead"] != "" or project["Project Ownership"]["Governing Entity"] != "" %}
-                                    <div class="col col-12 col-lg-6 mb-4">
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <h5 class="mb-0">
-                                                    Ownership
-                                                </h5>
-                                            </div>
-                                            <div class="card-body">
-                                                <ul class="list-group list-group-flush">
-                                                    {% if project["Project Ownership"]["Project Owner"] and project["Project Ownership"]["Project Owner"] != "" %}
-                                                    <li class="list-group-item">
-                                                        <strong>Owner</strong>: {{project["Project Ownership"]["Project Owner"]}}
-                                                    </li>
-                                                    {% endif %}
-                                                    {% if project["Project Ownership"]["Technical Lead"] and  project["Project Ownership"]["Technical Lead"] != "" %}
-                                                    <li class="list-group-item">
-                                                        <strong>Technical Lead</strong>:
-                                                        {{project["Project Ownership"]["Technical Lead"]}}
-                                                    </li>
-                                                    {% endif %}
-                                                    {% if project["Project Ownership"]["Governing Entity"] and project["Project Ownership"]["Governing Entity"] != "" %}
-                                                    <li class="list-group-item">
-                                                        <strong>Governing Entity</strong>:
-                                                        {{project["Project Ownership"]["Governing Entity"]}}
-                                                    </li>
-                                                    {% endif %}
-                                                </ul>
-                                            </div>
+                                        <div class="col col-12 mb-4">
+                                            {% if project["Project Information"].description %}
+                                                <p class="lead">
+                                                    {{project["Project Information"].description}}
+                                                </p>
+                                            {% endif %}
+                                            {% if project["Project Information"]["Project Homepage"] %}
+                                                <h3>Project Homepage</h3>
+                                                <p>
+                                                    {{project["Project Information"]["Project Homepage"]}}
+                                                </p>
+                                            {% endif %}
+                                            {% if project["Project Information"]["How to participate"] %}
+                                                <h3>How to participate</h3>
+                                                <p>
+                                                    {{project["Project Information"]["How to participate"]}}
+                                                </p>
+                                            {% endif %}
                                         </div>
-                                    </div>
-                                    {% endif %}
-                                    {% endif %}
-                                    {% if project["Project Contact Information"] %}
-                                    {% if project["Project Contact Information"]["Meetings"] != "" or project["Project Contact Information"]["Point of Contact"] != ""  %}
-                                    <div class="col col-12 col-lg-6 mb-4">
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <h5 class="mb-0">
-                                                    Contact Information
-                                                </h5>
-                                            </div>
-                                            <div class="card-body">
-                                                <ul class="list-group list-group-flush">
-                                                    {% if project["Project Contact Information"]["Meetings"] != "" %}
-                                                    <li class="list-group-item">
-                                                        <strong>Meetings</strong>:
-                                                        {{project["Project Contact Information"]["Meetings"]}}
-                                                    </li>
-                                                    {% endif %}
-                                                    {% if project["Project Contact Information"]["Point of Contact"] != "" %}
-                                                    <li class="list-group-item">
-                                                        <strong>Point of Contact</strong>:
-                                                        {{project["Project Contact Information"]["Point of Contact"]}}
-                                                    </li>
-                                                    {% endif %}
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {% endif %}
-                                    {% endif %}
-                                    {% if project["Project Information"] %}
-                                    {% if project["Project Information"]["Project Homepage"] != "" or project["Project Information"]["Health Check Report"] != "" or project["Project Information"]["Plan Of Record"] != "" or project["Project Information"]["JIRA Structure"] != "" %}
-                                    <div class="col col-12 col-lg-6 mb-4">
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <h5 class="mb-0">
-                                                    General Information
-                                                </h5>
-                                            </div>
-                                            <div class="card-body">
-                                                <ul class="list-group list-group-flush">
-                                                    {% if project["Project Information"]["Project Homepage"] != "" %}
-                                                    <li class="list-group-item">
-                                                        <strong>Homepage</strong>:
-                                                        {{project["Project Information"]["Project Homepage"]}}
-                                                    </li>
-                                                    {% endif %}
-                                                    {% if project["Project Information"]["Health Check Report"] != "" %}
-                                                    <li class="list-group-item">
-                                                        <strong>Health Check Report</strong>:
-                                                        {{project["Project Information"]["Health Check Report"]}}
-                                                    </li>
-                                                    {% endif %}
-                                                    {% if project["Project Information"]["Plan Of Record"] != "" %}
-                                                    <li class="list-group-item">
-                                                        <strong>Plan of Record</strong>:
-                                                        {{project["Project Information"]["Plan Of Record"]}}
-                                                    </li>
-                                                    {% endif %}
-                                                    {% if project["Project Information"]["JIRA Structure"] != "" %}
-                                                    <li class="list-group-item">
-                                                        <strong>JIRA Structure</strong>:
-                                                        {{project["Project Information"]["JIRA Structure"]}}
-                                                    </li>
-                                                    {% endif %}
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {% endif %}
-                                    {% endif %}
-                                    {% if project["Project Artefacts"] %}
-                                    {% if project["Project Artefacts"]["Repositories"] != "" or project["Project Artefacts"]["Documentation"] != "" or project["Project Artefacts"]["Downloads"] != "" %}
-                                    <div class="col col-12 col-lg-6 mb-4">
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <h5 class="mb-0">
-                                                    Artefacts
-                                                </h5>
-                                            </div>
-                                            <div class="card-body">
-                                                <ul class="list-group list-group-flush">
-                                                    {% if project["Project Artefacts"]["Repositories"] != "" %}
-                                                    <li class="list-group-item">
-                                                        <strong>Repositories</strong>:
-                                                        {{project["Project Artefacts"]["Repositories"]}}
-                                                    </li>
-                                                    {% endif %}
-                                                    {% if project["Project Artefacts"]["Documentation"] != "" %}
-                                                    <li class="list-group-item">
-                                                        <strong>Documentation</strong>:
-                                                        {{project["Project Artefacts"]["Documentation"]}}
-                                                    </li>
-                                                    {% endif %}
-                                                    {% if project["Project Artefacts"]["Downloads"] != "" %}
-                                                    <li class="list-group-item">
-                                                        <strong>Downloads</strong>: {{project["Project Artefacts"]["Downloads"]}}
-                                                    </li>
-                                                    {% endif %}
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {% endif %}
-                                    {% endif %}
                                     </div>
                                     {% assign related_blogs_len = related_blogs | size %}
                                     {% if related_blogs_len > 0 %}

@@ -1,18 +1,18 @@
 ---
-author: alex.bennee
-comments: false
-date: 2014-08-21 07:00:04+00:00
-layout: post
-link: /blog/core-dump/running-64bit-android-l-qemu/
-slug: running-64bit-android-l-qemu
-title: Running Android L Developer Preview on 64-bit Arm QEMU
 wordpress_id: 6354
-category: blog
+layout: post
+author: alex.bennee
+slug: running-64bit-android-l-qemu
+date: 2014-08-21 07:00:04+00:00
+comments: false
+title: Running Android L Developer Preview on 64-bit Arm QEMU
 tags:
-- Android
-- Qemu
+  - Android
+  - Qemu
+link: /blog/core-dump/running-64bit-android-l-qemu/
+image: /assets/images/content/30921188158_953bca1c9f_k.jpg
+category: blog
 ---
-
 ## Running Android L Developer Preview on 64-bit Arm QEMU
 
 {% include image.html path="/assets/images/blog/quem.jpg" alt="QEMU" %}
@@ -37,7 +37,7 @@ The emulated devices include a fast IPC mechanism known as the “qemu_pipe” t
 
 {% include image.html path="/assets/images/blog/Android-L.jpg" alt="Android-L" %}
 
-Google recently announced [Android L](http://developer.android.com/preview/index.html) at Google I/O. One of the major new features in Android L is the support for the Armv8-A 64-bit architecture. Given the growth in performance and memory capacity of mobile devices, 64-bit support is a crucial feature for embracing the future. We now carry in our pockets what in olden days would have been described as nothing less than a supercomputer.
+Google recently announced Android L at Google I/O. One of the major new features in Android L is the support for the Armv8-A 64-bit architecture. Given the growth in performance and memory capacity of mobile devices, 64-bit support is a crucial feature for embracing the future. We now carry in our pockets what in olden days would have been described as nothing less than a supercomputer.
 
 As you may have noticed, thanks to Linaro, the latest version of upstream QEMU (2.1) now includes full Armv8 system emulation support. This means that users can use upstream QEMU to run a full 64-bit Armv8-A kernel and filesystem, such as a 64-bit Ubuntu cloud image. This was no small endeavour as it involved emulating a completely new instruction set, exception model, CPU implementation, and more. The implementation was verified with a custom instruction verification tool ([RISU](https://git.linaro.org/people/peter.maydell/risu.git)) and was heavily reviewed upstream by an engaged and incredibly supportive upstream QEMU community.
 
@@ -58,30 +58,28 @@ As with all our code we at Linaro do our work in public and with presumption of 
 
 A custom arm64 build of the [ranchu kernel](https://git.linaro.org/people/)
 
-    ARCH=arm64 make ranchu_defconfig
+```
+ARCH=arm64 make ranchu_defconfig
 
-    ARCH=arm64 make CROSS_COMPILE=aarch64-linux-gnu-
+ARCH=arm64 make CROSS_COMPILE=aarch64-linux-gnu-
+```
 
 A patched version of the AOSP tree (master or l-preview branch), with qemu_pipe tweak(http://people.linaro.org/~alex.bennee/android/android-init-tweaks.diff)
 
 ```bash
-
     tar -xvf linaro-devices.tar.gz
 
     source build/envsetup.sh
 
     lunch ranchu-userdebug
-
 ```
 
 A copy of [our QEMU branch](https://git.linaro.org/people/peter.maydell/qemu-arm.git/refs/heads)
 
 ```bash
-
     ./configure --target-list=aarch64-softmmu
 
     make
-
 ```
 
 Some spare time (there is a lot to compile)
@@ -93,7 +91,6 @@ Some spare time (there is a lot to compile)
     _bootcon' -monitor stdio -initrd ranchu-build/ramdisk.img -drive index=2,id=userdata,file=ranchu-build/userdata.img -device virtio-blk-device,drive=us
     erdata -device virtio-blk-device,drive=cache -drive index=1,id=cache,file=ranchu-build/cache.img -device virtio-blk-device,drive=system -drive index=0,id=system,file=ranchu-build/system.img -
     netdev user,id=mynet -device virtio-net-device,netdev=mynet -show-cursor 
-
 ```
 
 I have symlinks in my test directory to try and keep things sane. So ranchu-kernel links to arch/arm64/boot in my kernel tree and ranchu-build links to out/target/product/ranchu in my android tree. Please note the order of the block devices on the command line is important.

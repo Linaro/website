@@ -176,7 +176,7 @@ References
 http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.den0029/index.html
 
 [2]: UEFI Specification 2.4 Revision A
-http://www.uefi.org/sites/default/files/resources/2_4_Errata_A.pdf
+https://uefi.org/sites/default/files/resources/2_4_Errata_A.pdf
 
 [3]: http://www.secretlab.ca/archives/27
 

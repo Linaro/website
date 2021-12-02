@@ -46,82 +46,82 @@ $(document).ready(function () {
     }
     return returnColour;
   });
-  const maintainersByCompanyData = JSON.parse(
-    decodeURIComponent(
-      $("#maintainers_by_company").data("maintainers-by-company")
-    )
-  );
-  var maintainersByCompanyNums = maintainersByCompanyData.map((item) => {
-    return item.num;
-  });
-  var maintainersByCompanyLabels = maintainersByCompanyData.map((item) => {
-    return item.name;
-  });
-  var maintainersByCompanyDisplayValues = maintainersByProjectData.map(
-    (item) => {
-      return true;
-    }
-  );
-  var maintainersByCompanyDisplayValuesMobile = maintainersByCompanyData.map(
-    (item) => {
-      return false;
-    }
-  );
-  var maintainersByCompanyColours = maintainersByCompanyData.map((item) => {
-    if (item.name === "Linaro") {
-      return "rgba(153, 204, 51, 1)";
-    } else if (item.name !== "ST") {
-      return "rgba(193, 224, 132, 1)";
-    } else {
-      return "rgba(235, 245, 215, 1)";
-    }
-  });
+  // const maintainersByCompanyData = JSON.parse(
+  //   decodeURIComponent(
+  //     $("#maintainers_by_company").data("maintainers-by-company")
+  //   )
+  // );
+  // var maintainersByCompanyNums = maintainersByCompanyData.map((item) => {
+  //   return item.num;
+  // });
+  // var maintainersByCompanyLabels = maintainersByCompanyData.map((item) => {
+  //   return item.name;
+  // });
+  // var maintainersByCompanyDisplayValues = maintainersByProjectData.map(
+  //   (item) => {
+  //     return true;
+  //   }
+  // );
+  // var maintainersByCompanyDisplayValuesMobile = maintainersByCompanyData.map(
+  //   (item) => {
+  //     return false;
+  //   }
+  // );
+  // var maintainersByCompanyColours = maintainersByCompanyData.map((item) => {
+  //   if (item.name === "Linaro") {
+  //     return "rgba(153, 204, 51, 1)";
+  //   } else if (item.name !== "ST") {
+  //     return "rgba(193, 224, 132, 1)";
+  //   } else {
+  //     return "rgba(235, 245, 215, 1)";
+  //   }
+  // });
   // Setup the configs for charts
-  var companyConfig = {
-    type: "outlabeledPie",
-    data: {
-      datasets: [
-        {
-          data: maintainersByCompanyNums,
-          backgroundColor: maintainersByCompanyColours,
-        },
-      ],
-      labels: maintainersByCompanyLabels,
-    },
-    options: {
-      cutoutPercentage: 10,
-      rotation: 45,
-      maintainAspectRatio: false,
-      responsive: true,
-      layout: {
-        padding: 40,
-      },
-      legend: {
-        display: false,
-        position: "bottom",
-      },
-      zoomOutPercentage: 20,
-      plugins: {
-        outlabels: {
-          zoomOutPercentage: 20,
-          backgroundColor: "rgba(1,1,1,0)",
-          text: "%l",
-          display: maintainersByCompanyDisplayValues,
-          color: "black",
-          stretch: 45,
-          font: {
-            resizable: true,
-            minSize: 12,
-            maxSize: 18,
-          },
-        },
-        deferred: {
-          yOffset: "50%", // defer until 50% of the canvas height are inside the viewport
-          delay: 200, // delay of 500 ms after the canvas is considered inside the viewport
-        },
-      },
-    },
-  };
+  // var companyConfig = {
+  //   type: "outlabeledPie",
+  //   data: {
+  //     datasets: [
+  //       {
+  //         data: maintainersByCompanyNums,
+  //         backgroundColor: maintainersByCompanyColours,
+  //       },
+  //     ],
+  //     labels: maintainersByCompanyLabels,
+  //   },
+  //   options: {
+  //     cutoutPercentage: 10,
+  //     rotation: 45,
+  //     maintainAspectRatio: false,
+  //     responsive: true,
+  //     layout: {
+  //       padding: 40,
+  //     },
+  //     legend: {
+  //       display: false,
+  //       position: "bottom",
+  //     },
+  //     zoomOutPercentage: 20,
+  //     plugins: {
+  //       outlabels: {
+  //         zoomOutPercentage: 20,
+  //         backgroundColor: "rgba(1,1,1,0)",
+  //         text: "%l",
+  //         display: maintainersByCompanyDisplayValues,
+  //         color: "black",
+  //         stretch: 45,
+  //         font: {
+  //           resizable: true,
+  //           minSize: 12,
+  //           maxSize: 18,
+  //         },
+  //       },
+  //       deferred: {
+  //         yOffset: "50%", // defer until 50% of the canvas height are inside the viewport
+  //         delay: 200, // delay of 500 ms after the canvas is considered inside the viewport
+  //       },
+  //     },
+  //   },
+  // };
   var projectConfig = {
     type: "outlabeledPie",
     data: {
@@ -186,16 +186,14 @@ $(document).ready(function () {
       } catch (err) {
         console.log("No charts to destory.");
       }
-      projectConfig["options"]["plugins"]["outlabels"][
-        "display"
-      ] = maintainersByProjectDisplayValues;
-      companyConfig["options"]["plugins"]["outlabels"][
-        "display"
-      ] = maintainersByCompanyDisplayValues;
-      var ctx = document
-        .getElementById("maintainersByCompanyChart")
-        .getContext("2d");
-      window.companyPie = new Chart(ctx, companyConfig);
+      projectConfig["options"]["plugins"]["outlabels"]["display"] =
+        maintainersByProjectDisplayValues;
+      // companyConfig["options"]["plugins"]["outlabels"]["display"] =
+      //   maintainersByCompanyDisplayValues;
+      // var ctx = document
+      //   .getElementById("maintainersByCompanyChart")
+      //   .getContext("2d");
+      // window.companyPie = new Chart(ctx, companyConfig);
       var ctx = document
         .getElementById("maintainersByProjectChart")
         .getContext("2d");
@@ -203,24 +201,22 @@ $(document).ready(function () {
     } else if (mediaQueryXs === true || mediaQuerySm === true) {
       try {
         window.projectPie.destroy();
-        window.companyPie.destroy();
+        // window.companyPie.destroy();
       } catch (err) {
         console.log("No charts to destory.");
       }
-      projectConfig["options"]["plugins"]["outlabels"][
-        "display"
-      ] = maintainersByProjectDisplayValuesMobile;
-      companyConfig["options"]["plugins"]["outlabels"][
-        "display"
-      ] = maintainersByCompanyDisplayValuesMobile;
+      projectConfig["options"]["plugins"]["outlabels"]["display"] =
+        maintainersByProjectDisplayValuesMobile;
+      // companyConfig["options"]["plugins"]["outlabels"]["display"] =
+      //   maintainersByCompanyDisplayValuesMobile;
       var ctx = document
         .getElementById("maintainersByProjectChart")
         .getContext("2d");
       window.projectPie = new Chart(ctx, projectConfig);
-      var ctx = document
-        .getElementById("maintainersByCompanyChart")
-        .getContext("2d");
-      window.companyPie = new Chart(ctx, companyConfig);
+      // var ctx = document
+      //   .getElementById("maintainersByCompanyChart")
+      //   .getContext("2d");
+      // window.companyPie = new Chart(ctx, companyConfig);
     }
   }
   // Reload demo on  window resize

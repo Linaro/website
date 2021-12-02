@@ -4,13 +4,13 @@ description: |-
   We pride ourselves on being Arm software engineering experts with our experience & knowledge, capabilities, quality of our work & professionalism with our customers.
 permalink: /services/
 service_id: 99
-jumbotron: 
+jumbotron:
   class: dev_services text-center
   title: "Linaro Developer Services"
   inner_class: dev_services text-center
   title-class: my-md-4
   description: "Helping you build, deploy and maintain your products on Arm"
-  image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
+  image: /assets/images/content/Banner_Landing_page.png
 image: /assets/images/content/LinaroDSVertical.png
 flow:
   - row: container_row
@@ -19,79 +19,114 @@ flow:
       - format: text
         style: larger_type
         text_content:
-          text: >
-            From initial design through to development, implementation, support and training, Linaro Developer
-            Services help you leverage open source on Arm to ensure fast time to market, exceptional quality and security, and
-            cost effective long term maintenance.
-      - format: feature_block
+          text: |
+            From initial design through to development, implementation, support and
+            training, Linaro Developer Services help you leverage open source on Arm
+            to ensure fast time to market, exceptional quality and security, and cost
+            effective long term maintenance.
+      - format: buttons
+        style: text-center
+        buttons_content:
+          - title: What our customers say
+            url: "#what_our_customers_say"
+            style: btn-primary btn-lg
+  - row: container_row
+    style: dotted-border-top services_feature
+    sections:
+      - format: feature_block_small
         style: dev_services_block
         feature_block_content:
           position: left
-          custom_include: services/related_icons.html
-          related_services:
-            - 4
-            - 6
           type: image
           image_content_path: /assets/images/content/Rocket_1.png
-          title: Leverage our Arm Software Expertise
-          text: >
-            Linaro employs many of the world’s leading Arm Software experts. All of this expertise is available to you through Linaro Developer Services.
-      - format: feature_block
+          title: Hands-on Training
+          text: |
+            Linaro employs many of the world’s leading Arm Software
+            experts. All of this expertise is available to you through Linaro
+            Developer Services. 
+
+            [Read more](/services/hands-on-training/)
+  - row: container_row
+    style: dotted-border-top services_feature
+    sections:
+      - format: feature_block_small
         style: dev_services_block
         feature_block_content:
           position: left
-          custom_include: services/related_icons.html
-          related_services:
-            - 8
-            - 2
           type: image
           image_content_path: /assets/images/content/Rocket_2.png
-          title: Secure your product
-          text: >
-            Specialists in security and Trusted Execution Environment (TEE) on Arm, we leverage open source to ensure you benefit from the latest upstream features and security fixes.
-      - format: feature_block
+          title: Security
+          text: |
+            Specialists in security and Trusted Execution Environment (TEE)
+            on Arm, we leverage open source to ensure you benefit from the
+            latest upstream features and security fixes.
+
+            [Read more](/services/security/)
+  - row: container_row
+    style: dotted-border-top services_feature
+    sections:
+      - format: feature_block_small
         style: dev_services_block
         feature_block_content:
           position: left
-          custom_include: services/related_icons.html
-          related_services:
-            - 9
-            - 5
           type: image
           image_content_path: /assets/images/content/Rocket_3.png
-          title: Maintain quality cost-effectively
-          text: >
-            We upstream code to reduce the cost and effort needed to maintain your product. We offer continuous integration (CI) and automated validation for your software, ensuring the highest possible quality.
-      - format: feature_block
+          title: Testing and Long Term Support
+          text: |
+            We upstream code to reduce the cost and effort needed to maintain
+            your product. We offer continuous integration (CI) and automated
+            validation for your software, ensuring the highest possible quality.
+
+            [Read more](/services/testing-and-long-term-support/)
+  - row: container_row
+    style: dotted-border-top services_feature
+    sections:
+      - format: feature_block_small
         style: dev_services_block
         feature_block_content:
           position: left
-          custom_include: services/related_icons.html
-          related_services:
-            - 3
-            - 7
-            - 1
-            - 10
           type: image
           image_content_path: /assets/images/content/Rocket_4.png
-          title: Build, test and deploy faster
-          text: >
-            We support every aspect of product delivery, from building secure board support packages (BSP’s), product validation and long-term support & maintenance.
-      - format: feature_block
+          title: Board Support Packages (BSP)
+          text: |
+            We support every aspect of product delivery, from building secure
+            board support packages, product validation and long-term support &
+            maintenance. We help get your products to market faster.
+
+            [Read more](/services/board-support-packages/)
+  - row: container_row
+    style: dotted-border-top services_feature
+    sections:
+      - format: feature_block_small
         style: dev_services_block
         feature_block_content:
           position: left
-          custom_include: services/related_icons.html
-          related_services:
-            - 11
+          type: image
+          image_content_path: /assets/images/content/Rocket_6.png
+          title: System Performance & Optimization
+          text: |
+            We can support deployment of your software on all Arm Platforms -
+            from Microcontrollers to HPC super-computers - doing initial ports and
+            optimising performance.we help get your products to market faster.
+
+            [Read more](/services/system-performance-and-optimization/)
+  - row: container_row
+    style: dotted-border-top dotted-border-bottom services_feature highlighted_feature
+    sections:
+      - format: feature_block_small
+        style: dev_services_block
+        feature_block_content:
+          position: left
           type: image
           image_content_path: /assets/images/content/Rocket_5.png
-          title: Qualcomm Platforms Services
-          text: >
-            Linaro Developer Services is a leader in providing Linux
-            BSP development, maintenance and optimization for
-            Qualcomm platforms.
+          title: Qualcomm Platform Services
+          text: |
+            Linaro Developer Services is a leader in providing Linux BSP
+            development, maintenance and optimization for Qualcomm platforms.
+
+            [Read more](/services/qualcomm-platforms-services/)
   - row: container_row
+    id: what_our_customers_say
     style: text-center
     sections:
       - format: title

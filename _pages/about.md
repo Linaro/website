@@ -75,7 +75,7 @@ flow:
             Alternatively, if you just want to access any of the work we do in the open, go to [www.linaro.org/downloads](https://www.linaro.org/downloads/). On the downloads page we upload all software we work on which we think will benefit the community. 
 
 
-            For all other enquiries, go to [www.linaro.org/contact ](https://www.linaro.org/contact/)
+            For all other enquiries, go to [www.linaro.org/contact ](https://www.linaro.org/contact/)or [download this Introduction to Linaro](https://linaro.co/introduction-to-linaro).
   - row: container_row
     style: members_slider_row bg-light
     sections:

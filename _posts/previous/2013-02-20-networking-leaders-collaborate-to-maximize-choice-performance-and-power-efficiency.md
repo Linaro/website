@@ -1,19 +1,22 @@
 ---
-author: linaro
-category: news
-date: 2013-02-20 12:24:07
-description: Industry leaders including AppliedMicro, Arm, Enea, FreescaleÂ®, LSI,
-  MontaVista, Nokia Siemens Networks and Texas Instruments (TI) have formed a new
-  group focused on accelerating Linux development for Arm processors in cloud and
-  mobile infrastructure.
-excerpt: Industry leaders including AppliedMicro, Arm, Enea, Freescale®, LSI, MontaVista,
-  Nokia Siemens Networks and Texas Instruments (TI) have formed a new group focused
-  on accelerating Linux development for Arm processors in cloud and mobile infrastructure.
-layout: post
-link: /news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/
-slug: networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency
-title: Networking Leaders Collaborate to Maximize Choice, Performance and Power Efficiency
+excerpt: Industry leaders including AppliedMicro, Arm, Enea, Freescale®, LSI,
+  MontaVista, Nokia Siemens Networks and Texas Instruments (TI) have formed a
+  new group focused on accelerating Linux development for Arm processors in
+  cloud and mobile infrastructure.
 wordpress_id: 4422
+layout: post
+title: Networking Leaders Collaborate to Maximize Choice, Performance and Power
+  Efficiency
+image: /assets/images/content/IMAGE_HOMEPAGE.jpg
+category: news
+author: linaro
+slug: networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency
+date: 2013-02-20 12:24:07
+link: /news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/
+description: Industry leaders including AppliedMicro, Arm, Enea, FreescaleÂ®,
+  LSI, MontaVista, Nokia Siemens Networks and Texas Instruments (TI) have formed
+  a new group focused on accelerating Linux development for Arm processors in
+  cloud and mobile infrastructure.
 ---
 
 CAMBRIDGE, UK - 20 FEB 2013
@@ -46,7 +49,7 @@ Linaro expects initial software deliveries from the Linaro Networking Group duri
 
 _\*Sources: Statistics from the 3.7 development cycle Jonathan Corbet, LWN, 28 November 2012: (subscription required), Who wrote 3.5? Greg Kroah-Hartman, LWN, 25 July 2012:[ https://lwn.net/Articles/507986/](https://lwn.net/Articles/507986/) (subscription required) and earlier LWN articles._
 
-_Source: Torvalds touts Linux’s advances in power, Arm and cell phones Paula Rooney, ZDNet, 30 August 2012:[http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/](http://www.zdnet.com/torvalds-touts-linuxs-advances-in-power-arm-and-cell-phones-7000003509/)_
+_Source: Torvalds touts Linux’s advances in power, Arm and cell phones Paula Rooney, ZDNet, 30 August 2012
 
 **About Linaro**
 

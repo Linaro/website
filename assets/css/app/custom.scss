@@ -8,6 +8,329 @@
   }
 }
 #wrapper {
+  .coloured_bullet_list {
+    ul {
+      list-style: none;
+      li {
+        &::before {
+          content: "\2022";
+          color: #9ac43a;
+          padding: 5px 0;
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+          margin-left: -1em;
+        }
+      }
+    }
+  }
+  .reduced_larger_type {
+    font-size: 26px;
+  }
+  .small_text_mobile {
+    @include media-breakpoint-down(sm) {
+      font-size: 16px;
+    }
+  }
+  #flow_wrapper {
+    #members_section {
+      .member_col {
+        max-width: 228px;
+        .member_image {
+          height: 100%;
+          img {
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+    .membership_types_tabs {
+      ul#pills-tab {
+        margin-bottom: 0px;
+        li.nav-item {
+          &.core-style {
+            a {
+              background-color: transparent !important;
+              background-color: rgba(0, 130, 173, 0.5) !important;
+              position: relative;
+            }
+          }
+          &.club-style {
+            a {
+              background-color: transparent !important;
+              background-color: rgba(160, 204, 74, 0.5) !important;
+              position: relative;
+            }
+          }
+          &.project-style {
+            a {
+              background-color: transparent !important;
+              background-color: rgba(184, 77, 184, 0.5) !important;
+              position: relative;
+            }
+          }
+          &.group-style {
+            a {
+              background-color: transparent !important;
+              background-color: rgba(88, 88, 88, 0.5) !important;
+              position: relative;
+            }
+          }
+          a {
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            padding: 10px 40px;
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: black;
+            font-size: 16px;
+          }
+        }
+      }
+      .tab-pane {
+        img.svg_image {
+          max-height: 200px;
+        }
+        padding: 20px;
+        &.core-style {
+          background-color: transparent !important;
+          background-color: rgba(0, 130, 173, 0.5) !important;
+          color: black;
+          position: relative;
+        }
+        &.club-style {
+          background-color: transparent !important;
+          background-color: rgba(160, 204, 74, 0.5) !important;
+          color: black;
+          position: relative;
+        }
+        &.project-style {
+          background-color: transparent !important;
+          background-color: rgba(184, 77, 184, 0.5) !important;
+          color: black;
+          position: relative;
+        }
+        &.group-style {
+          background-color: transparent !important;
+          background-color: rgba(88, 88, 88, 0.5) !important;
+          color: black;
+          position: relative;
+        }
+        p {
+          color: black;
+          position: relative;
+        }
+      }
+    }
+    .row.membership_panels.background_image_row {
+      .container {
+        z-index: 9;
+        position: relative;
+      }
+      h2 {
+        font-weight: bold;
+      }
+      li.nav-item.group-style a {
+        background-color: #535353;
+        color: black;
+      }
+      &:after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+        left: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #fff 100%);
+      }
+      picture > img {
+        filter: brightness(0.3) grayscale(1);
+      }
+    }
+    #members_section {
+      .member_image {
+        height: 150px;
+        background-color: white;
+        img {
+          height: 140px;
+        }
+      }
+    }
+    figure.gradient_quote {
+      blockquote {
+        padding: 0;
+        background-color: white;
+        border-left: 0;
+        &:before {
+          display: none;
+          margin-left: 0px;
+          padding: 0px;
+        }
+      }
+      &:after {
+        content: "\0201D";
+        position: absolute;
+        bottom: -20px;
+        right: -15px;
+        font-size: 68px;
+        text-align: center;
+        line-height: 71px;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        color: $primary;
+      }
+      &:before {
+        content: "\0201C";
+        position: absolute;
+        top: -20px;
+        left: -15px;
+        font-size: 68px;
+        text-align: center;
+        line-height: 71px;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        color: #0083ad;
+      }
+      position: relative;
+      padding: 20px;
+      background-color: white;
+      border: 1px solid red;
+      border: 10px solid;
+      border-image-slice: 1;
+      border-width: 3px;
+      border-image-source: linear-gradient(to top left, $primary, #0083ad);
+    }
+
+    .membership_panels {
+      #accordion {
+        .btn.btn-link {
+          &.collapsed:after {
+            content: "\2303";
+            font-size: 40px;
+            top: 20px;
+          }
+          &::after {
+            content: "\2304";
+            color: #98cc33;
+            right: 0px;
+            top: 20px;
+            position: absolute;
+            font-size: 40px;
+            margin-right: 30px;
+            font-family: "fontello";
+            top: 0;
+          }
+        }
+      }
+      .card {
+        background-color: white;
+        border: none;
+        margin: 40px 0;
+        .card-header {
+          background-color: white;
+          border-bottom: none;
+          .btn {
+            text-align: left;
+            color: #000;
+            font-weight: bold;
+          }
+          h5 {
+            border-bottom: none;
+            padding-bottom: 0px;
+          }
+        }
+      }
+    }
+    .styled_number {
+      content: attr(seq);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border: 3px solid #dedede;
+      border-radius: 50%;
+      background-color: $primary;
+      color: #fff;
+      margin-right: 10px;
+      font-weight: bold;
+      &.blue {
+        background-color: #0083ad;
+      }
+      &.green {
+        background-color: $primary;
+      }
+      &.orange {
+        background-color: #f48414;
+      }
+    }
+
+    .blue_block {
+      h5 {
+        color: #11809f;
+        font-weight: 700;
+      }
+    }
+    .title.icon_heading {
+      padding: 9px;
+      border: 1px solid #eee;
+      margin: 20px 0;
+      img {
+        height: 50px;
+      }
+    }
+    .title.block_bg_header {
+      background-color: #e6e6e6;
+      padding: 10px;
+    }
+  }
+  .header_2021.background_image {
+    z-index: 0;
+    height: auto !important;
+    .inner_content_wrapper {
+      position: relative;
+      z-index: 9;
+    }
+    &:before {
+      position: absolute;
+      content: "";
+      height: 15px;
+      width: 100%;
+      top: 0;
+      z-index: 2;
+      left: 0;
+      background-color: #ccc;
+      background: linear-gradient(
+        to left,
+        rgba(#000, 1) 0%,
+        rgba(#fff, 1) 100%
+      );
+      width: 100%;
+      border-bottom: 1px solid #000;
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      top: 0;
+      z-index: 1;
+      left: 0;
+      background: linear-gradient(
+        to left,
+        rgba(#000, 0) 0%,
+        rgba(#000, 1) 100%
+      );
+    }
+    .header_background_image {
+      filter: brightness(0.6);
+    }
+  }
   .service-block {
     p.author {
       font-weight: bold;
@@ -104,6 +427,7 @@
     border-bottom: 5px dotted #eee;
     margin-bottom: 40px !important;
   }
+
   .large_header {
     font-size: 3rem;
     font-weight: 300;

@@ -11,8 +11,7 @@ layout: flow
 jumbotron:
   image: /assets/images/content/developer-services-banner.jpg
   title: Linaro Support
-  inner_class: dotted
-  description: ""
+  description: ''
 flow:
   - row: main_content_row
   - row: container_row

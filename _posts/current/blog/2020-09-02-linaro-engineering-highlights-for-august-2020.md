@@ -1,20 +1,20 @@
 ---
 layout: post
 title: Linaro Engineering Highlights for August 2020
-description: This blog covers the many developments the teams at Linaro have been
-  working on during August including the initial TVM AI compiler performance numbers
-  on ARM64, using energy model to stay in TDP budget, thermal notifications with Netlink,
-  how the ARM32 Linux kernel decompresses and the history of the Linux kernel and
-  Linaro at one million commits.
+description: This blog covers the many developments the teams at Linaro have
+  been working on during August including the initial TVM AI compiler
+  performance numbers on ARM64, using energy model to stay in TDP budget,
+  thermal notifications with Netlink, how the ARM32 Linux kernel decompresses
+  and the history of the Linux kernel and Linaro at one million commits.
 date: 2020-09-14 04:19:30+00:00
 image: /assets/images/content/10-year-graphic-horizonal1.png
 tags:
-- Linaro
-- Arm
-- AI
-- Linux
-- Kernel
-- LKFT
+  - Linaro
+  - Arm
+  - AI
+  - Linux
+  - Kernel
+  - LKFT
 category: blog
 author: jon.burcham@linaro.org
 ---
@@ -111,7 +111,7 @@ Continue with this article [here](https://people.kernel.org/linusw/how-the-arm32
 
 ### One MIllion Commits
 
-{% include image.html path="/assets/images/content/linux-kernel-security.png" class="small-inline left" alt="Linux Kernel Penguin icon" %} This summer Linaro celebrated [10 years](https://www.linaro.org/blog/linaro-a-decade-of-development/) of collaboration in the Arm ecosystem with a blog post by David Rusling. Now at the end of the summer of 2020, the Linux kernel, which has been a large part of that collaboration, has also celebrated its 1 Millionth commit after 29 years of effort with a write up in [ZDNet](https://www.zdnet.com/google-amp/article/commit-1-million-the-history-of-the-linux-kernel/). \[1]
+{% include image.html path="/assets/images/content/linux-kernel-security.png" class="small-inline left" alt="Linux Kernel Penguin icon" %} This summer Linaro celebrated [10 years](https://www.linaro.org/blog/linaro-a-decade-of-development/) of collaboration in the Arm ecosystem with a blog post by David Rusling. Now at the end of the summer of 2020, the Linux kernel, which has been a large part of that collaboration, has also celebrated its 1 Millionth commit after 29 years of effort with a write up in ZDNet. \[1]
 
 That means that Linaro has been contributing to the Linux kernel for about a third of the kernel’s existence and in that time it has had a tremendous impact, driven initially by efforts to address fragmentation, and later to add or enhance capabilities that expose Arm SoC strengths, a task which continues to this day.
 
