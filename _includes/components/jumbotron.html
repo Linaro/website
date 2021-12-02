@@ -62,7 +62,12 @@
         </video>
     {% endif %}
     <div class="container {% if page.jumbotron.inner_class %}{{page.jumbotron.inner_class}}{% endif %}">
-            <div class="inner_content_wrapper">
+        {% if page.jumbotron.svg %}
+            <div class="jumbotron-svg">
+                {% include {{page.jumbotron.svg}} %}
+            </div>
+        {% endif %}
+        <div class="inner_content_wrapper">
             <h1 {% if page.jumbotron.title-class %}class="{{page.jumbotron.title-class}}"{% endif %}>{{page.jumbotron.title}}</h1>
             {% if page.jumbotron.description %}
             <div class="lead">
@@ -77,6 +82,9 @@
             </p>
             {% endif %}
         </div>
+        {% if page.jumbotron.include %}
+            {% include {{page.jumbotron.include}} %}
+        {% endif %}
     </div>
 </div>
 {% endif %}
