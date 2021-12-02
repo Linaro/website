@@ -629,6 +629,11 @@ collections:
             name: "title-class"
             required: false
             widget: "string"
+          - label: "SVG"
+            name: "svg"
+            hint: "The name of a Jekyll HTML include containing the SVG."
+            required: false
+            widget: "string"
           - label: "Inner Class"
             name: "inner_class"
             required: false
@@ -2694,7 +2699,7 @@ collections:
           label: "Event Type",
           name: "event_type",
           widget: "select",
-          options: ["attend", "sponsor", "workshop", "presenter", "webinar"],
+          options: ["attend", "sponsor", "workshop", "presenter", "webinar", "tech_days"],
           hint: "The type of event that we are listing.",
         }
       - {
