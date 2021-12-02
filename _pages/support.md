@@ -66,8 +66,6 @@ flow:
 
               *   IRC
 
-              *   [Mailing Lists](/contact/mailing-list/)
-
               *   [Downloads](/downloads/)
 
 
