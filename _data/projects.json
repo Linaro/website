@@ -14,7 +14,7 @@
             "key": [
                 "GNU"
             ],
-            "membership": null
+            "membership": []
         },
         {
             "Project Information": {
@@ -30,11 +30,7 @@
             "key": [
                 "LLVM"
             ],
-            "membership": [
-                "code",
-                "club",
-                "project"
-            ]
+            "membership": []
         },
         {
             "Project Information": {
@@ -51,9 +47,6 @@
                 "BDDS"
             ],
             "membership": [
-                "code",
-                "club",
-                "project",
                 "ldcg"
             ]
         },
@@ -72,9 +65,6 @@
                 "CLOUD"
             ],
             "membership": [
-                "code",
-                "club",
-                "project",
                 "ldcg"
             ]
         },
@@ -92,7 +82,7 @@
             "key": [
                 "QEMU"
             ],
-            "membership": null
+            "membership": []
         },
         {
             "Project Information": {
@@ -108,11 +98,7 @@
             "key": [
                 "LKQ"
             ],
-            "membership": [
-                "code",
-                "club",
-                "project"
-            ]
+            "membership": []
         },
         {
             "Project Information": {
@@ -130,9 +116,6 @@
                 "ONIR"
             ],
             "membership": [
-                "code",
-                "club",
-                "project",
                 "ledge",
                 "lite"
             ]
@@ -151,11 +134,7 @@
             "key": [
                 "PERF"
             ],
-            "membership": [
-                "code",
-                "club",
-                "project"
-            ]
+            "membership": []
         },
         {
             "Project Information": {
@@ -171,11 +150,7 @@
             "key": [
                 "STR"
             ],
-            "membership": [
-                "code",
-                "club",
-                "project"
-            ]
+            "membership": []
         },
         {
             "Project Information": {
@@ -191,11 +166,7 @@
             "key": [
                 "SCMI"
             ],
-            "membership": [
-                "code",
-                "club",
-                "project"
-            ]
+            "membership": []
         },
         {
             "Project Information": {
@@ -212,9 +183,6 @@
                 "TS"
             ],
             "membership": [
-                "code",
-                "club",
-                "project",
                 "ledge"
             ]
         },
@@ -236,11 +204,7 @@
             "key": [
                 "UM"
             ],
-            "membership": [
-                "code",
-                "club",
-                "project"
-            ]
+            "membership": []
         }
     ]
 }
