@@ -13,7 +13,8 @@
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10040&avatarId=10422",
             "key": [
                 "GNU"
-            ]
+            ],
+            "membership": null
         },
         {
             "Project Information": {
@@ -28,6 +29,11 @@
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10052&avatarId=10422",
             "key": [
                 "LLVM"
+            ],
+            "membership": [
+                "code",
+                "club",
+                "project"
             ]
         },
         {
@@ -43,6 +49,12 @@
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10062&avatarId=10564",
             "key": [
                 "BDDS"
+            ],
+            "membership": [
+                "code",
+                "club",
+                "project",
+                "ldcg"
             ]
         },
         {
@@ -58,6 +70,12 @@
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10061&avatarId=10402",
             "key": [
                 "CLOUD"
+            ],
+            "membership": [
+                "code",
+                "club",
+                "project",
+                "ldcg"
             ]
         },
         {
@@ -73,7 +91,8 @@
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10037&avatarId=10562",
             "key": [
                 "QEMU"
-            ]
+            ],
+            "membership": null
         },
         {
             "Project Information": {
@@ -88,6 +107,11 @@
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10063&avatarId=10566",
             "key": [
                 "LKQ"
+            ],
+            "membership": [
+                "code",
+                "club",
+                "project"
             ]
         },
         {
@@ -104,6 +128,13 @@
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10016&avatarId=10410",
             "key": [
                 "ONIR"
+            ],
+            "membership": [
+                "code",
+                "club",
+                "project",
+                "ledge",
+                "lite"
             ]
         },
         {
@@ -119,6 +150,11 @@
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10030&avatarId=10421",
             "key": [
                 "PERF"
+            ],
+            "membership": [
+                "code",
+                "club",
+                "project"
             ]
         },
         {
@@ -134,6 +170,11 @@
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10066&avatarId=10567",
             "key": [
                 "STR"
+            ],
+            "membership": [
+                "code",
+                "club",
+                "project"
             ]
         },
         {
@@ -149,6 +190,11 @@
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10065&avatarId=10421",
             "key": [
                 "SCMI"
+            ],
+            "membership": [
+                "code",
+                "club",
+                "project"
             ]
         },
         {
@@ -164,6 +210,12 @@
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10071&avatarId=10570",
             "key": [
                 "TS"
+            ],
+            "membership": [
+                "code",
+                "club",
+                "project",
+                "ledge"
             ]
         },
         {
@@ -183,6 +235,11 @@
             "icon": "https://linaro.atlassian.net/secure/projectavatar?pid=10048&avatarId=10424",
             "key": [
                 "UM"
+            ],
+            "membership": [
+                "code",
+                "club",
+                "project"
             ]
         }
     ]
