@@ -8,7 +8,7 @@ description: >
   as a vehicle for testing to ensure external regressions are caught and quickly
   fixed. One area that has commonly been missing on AOSP development boards is
   open implementations of accelerated video decoding. In this blog, Linaro
-  Engineer Johm Stultz talks about the work Linaro has done to integrate
+  Engineer John Stultz talks about the work Linaro has done to integrate
   accelerated video decording with v412 in AOSP. 
 date: 2021-12-07 08:47:03 +00:00
 image: /assets/images/content/technology-3389917_1920.jpg
