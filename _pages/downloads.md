@@ -262,25 +262,17 @@ flow:
           size: h2
       - format: text
         text_content:
-          text: >
+          text: >-
             The LEDGE Reference Platform (RP) is a lightweight highly secure and
             robust container runtime environment that has dependable boot and
             update capabilities. It comes with a full set of security policies
             with SELinux, IMA (Linux Kernel Integrity Measurement Architecture)
             and other technologies and builds on SystemReady-IR and EBBR
-            specifications.The complete Ledge Reference Platform v0.2 Release
+            specifications.The complete Ledge Reference Platform v0.3 Release
             can be accessed here:
 
 
-            - [LEDGE RP 0.2 ledge-multi-armv7](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-multi-armv7/17/)
-
-            - [LEDGE RP 0.2 ledge-multi-armv8](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-multi-armv8/17/)
-
-            - [LEDGE RP 0.2 ledge-qemux86-64](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-qemux86-64/17/)
-
-            - [LEDGE RP 0.2 ledge-synquacer](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-synquacer/17/)
-
-            - [LEDGE RP 0.2 ledge-ti-am572x](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-ti-am572x/17/)
+            [LEDGE Reference Platform 0.3 Release](http://releases.linaro.org/components/ledge/rp-0.3/) [](http://snapshots.linaro.org/components/ledge/oe/ledge-rp-0.2/ledge-multi-armv7/17/)
 
 
             Additional information relating to the LEDGE Reference Platform can be found here:firmware.uefi.uboot.bin: U-Boot based firmware with TF-A and OP-TEE supportfirmware.uefi-edk2.bin: EDK2 based firmwareledge-iot-ledge-xxxxxxx-0.1.rootfs.wic.gz: Zipped imaged of IoT reference platformledge-gateway-ledge-xxxxxxx-0.1.rootfs.wic.gz: zipped image of the gateway reference platformledge-kernel-uefi-certs.ext4.img: Signatures used on EFI securebootledge-dev-howto.pdf - Developer Howto Documentationledge-user-guide.pdf - User Guide Documentation
