@@ -13,6 +13,9 @@ kramdown:
   syntax_highlighter: rouge
 encoding: utf-8
 safe: false
+livereload_ignore:
+  - .asset_pipeline/assets/js/*.js
+  - .asset_pipeline/assets/js/*.js.gz
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -130,28 +133,23 @@ defaults:
       tags_enabled: false
       permalink: "/awards/5-years/:title/"
       comments: false
-  -
-    scope:
+  - scope:
       path: "assets/**/*.pdf"
     values:
       sitemap: false
-  -
-    scope:
+  - scope:
       path: "admin"
     values:
       sitemap: false
-  -
-    scope:
+  - scope:
       path: app
     values:
       sitemap: false
-  -
-    scope:
+  - scope:
       path: remote
     values:
       sitemap: false
-  -
-    scope:
+  - scope:
       path: "_pages/projects/"
     values:
       sitemap: false
