@@ -44,4 +44,4 @@ STMicroelectronics, NXP Semiconductors and Arm are the founding members of the O
 
 Visit [Open-CMSIS-Pack Project](https://www.open-cmsis-pack.org/index.html) and check out the associated repositories to learn more. You can also follow the links to find notes and recordings of our weekly meetings which you are welcome to join.
 
-For more details please contact [contact@linaro.org](contact@linaro.org).
+For more details please contact contact@linaro.org.
