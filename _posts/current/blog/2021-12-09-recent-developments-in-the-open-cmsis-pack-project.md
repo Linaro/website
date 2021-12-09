@@ -9,7 +9,7 @@ description: >
   software. In this blog we talk about the work that has been achieved so far
   and what the project has planned in the future.
 date: 2021-12-09 09:21:57 +00:00
-image: /assets/images/content/IoT-bg.jpg
+image: /assets/images/content/96b-nitrogen-relays-resize.jpg
 tags:
   - Open-CMSIS-Pack
   - IoT and Embedded
