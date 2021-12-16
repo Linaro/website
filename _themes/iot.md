@@ -7,12 +7,14 @@ image: /assets/images/content/IoT_Embedded.png
 icon: /assets/images/content/Icon_IoT_Embedded.svg
 icon_dark: /assets/images/content/Black_IoT.svg
 description: >
-  IoT is an enabling infrastructure that companies, cities and individuals need in place to act on the data and insights from connected devices. As the 5th wave of computing (AI, IoT and 5G) quickly approaches, fragmentation in the Arm ecosystem is hindering the deployment of increasingly sophisticated devices. Linaro and its Members are collaborating to build best in class common tools, libraries and interfaces while supporting common standards that will enable rapid deployment of secure solutions at lower cost points, more efficient deployments and easier maintenance.
+  Linaro and Member companies are collaborating to integrate the latest security and most-up-to-date technologies for Arm-based IoT devices. This includes security tools for the microcontroller space encapsulating best-practice design choices for constrained devices, working to improve compatibility, component re-use, and to resolve hardware and RTOS diversity, and reference implementations for complex usecases involving security, AI inference and connectivity.
 jumbotron:
   class: theme_banner
-  title: Secure, scalable and smart IoT
+  title: Confidential AI and secure, scalable IoT
   description: >
     Linaro and Member companies are collaborating to integrate the latest security and most-up-to-date technologies for Arm-based IoT devices. This includes security tools for the microcontroller space encapsulating best-practice design choices for constrained devices, working to improve compatibility, component re-use, and to resolve hardware and RTOS diversity, and reference implementations for complex usecases involving security, AI inference and connectivity.
+
+    Linaro is also examining the challenges involved in deploying AI models as secure workloads. AI can be deployed to IoT devices to enable autonomous decisions based on pre-trained inference models. Yet the inconsistent level of security practices in IoT devices remains a long-standing issue. Deploying AI to IoT devices, especially constrained devices, needs a holistic approach to safeguard valuable model IP, potentially confidential input data such as audio or biometrics, and inference results vulnerable to adversarial attacks or spoofing. To read more about these challenges and what we believe to be the solution, download the white paper below on Confidential AI.
   image: /assets/images/content/IoT_Embedded.png
   buttons:
     - title: How can Linaro help?
