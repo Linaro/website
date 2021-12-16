@@ -11,7 +11,7 @@ description: >
 jumbotron:
   class: theme_banner
   title: Confidential AI and secure, scalable IoT
-  description: >
+  description: |
     Linaro and Member companies are collaborating to integrate the latest security and most-up-to-date technologies for Arm-based IoT devices. This includes security tools for the microcontroller space encapsulating best-practice design choices for constrained devices, working to improve compatibility, component re-use, and to resolve hardware and RTOS diversity, and reference implementations for complex usecases involving security, AI inference and connectivity.
 
     Linaro is also examining the challenges involved in deploying AI models as secure workloads. AI can be deployed to IoT devices to enable autonomous decisions based on pre-trained inference models. Yet the inconsistent level of security practices in IoT devices remains a long-standing issue. Deploying AI to IoT devices, especially constrained devices, needs a holistic approach to safeguard valuable model IP, potentially confidential input data such as audio or biometrics, and inference results vulnerable to adversarial attacks or spoofing. To read more about these challenges and what we believe to be the solution, download the white paper below on Confidential AI.
