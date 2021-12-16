@@ -12,7 +12,7 @@ image: /assets/images/content/techwebinars_events_page.jpg
 event_type: webinar
 ---
 **Speaker:** Everton Constantino, Linaro Engineer and Eigen Maintainer \
-**When:** Thursday, December 9th at 17:00 UTC\
+**When:** Thursday, December 9th at 17:00-17:45 UTC (45 minutes duration)\
 **Registration:** [Here](https://linaro-org.zoom.us/webinar/register/WN_eSmtjO3JRK6qsG3vp8H7KQ)  \
 **Cost:** Free\
 **Format:** Zoom webinar 
