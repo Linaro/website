@@ -4,6 +4,7 @@ description: >
   The Linaro Technical Steering Committee (TSC) has technical oversight over all Linaro activities. The TSC is chaired by Linaro’s CTO and includes technologists from each of the Linaro member companies, representatives of Linaro’s engineering projects and teams plus Linaro’s CEO, CTO and VP of Engineering.
 permalink: /tsc/
 layout: flow
+js-package: contactForm
 jumbotron:
   class: text-center header_2021
   title: The Technical Steering Committee
@@ -21,11 +22,11 @@ flow:
 
             Linaro's TSC is open - if you are interested in finding out more or would like to join our upcoming Technical Steering Committee meeting, click the button below.
       - format: buttons
-        style: #
+        style: text-center
         buttons_content:
           - title: Contact
-            url: "mailto:contact@linaro.org?subject=TSC"
-            style: btn-primary btn-lg
+            url: "#contact_form"
+            style: btn btn-primary my-2 text-uppercase engagement_request_contact_btn
   - row: container_row
     style: bg-secondary
     sections:
@@ -54,4 +55,6 @@ flow:
         text_content:
           text: |
             [Notes from previous meeting](/downloads/)
+  - row: custom_include_row
+    source: engagement_request_form.html
 ---
