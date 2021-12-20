@@ -12,7 +12,7 @@ event_type: webinar
 ---
 ### Linaro Connect Webinar: Using Linux kernel for Real-Time Systems
 
-**Description:**\
+**Description:**
 
 Even if it is not yet fully activated, the recent merging of the PREEMPT_RT code into v5.15 has served to increase interest in building real-time systems using the Linux kernel. Linaro is pleased to invite engineers from its core, club and group members to an exclusive training programme to help your teams learn more about this important topic.
 
@@ -25,15 +25,30 @@ Trainees must have experience of either real-time systems or of integrating embe
 * Daniel Thompson, Principal Tech Lead at Linaro
 * Leo Yan, Senior Engineer at Linaro 
 
-This is a two part training. Part one will be held on January 18 and part two will be held on January 25. Both sessions have the following time slots available: 
+This is a two part training. 
+
+* Part one will be held on Tuesday, January 18
+* Part two will be held on Tuesday, January 25
+
+Both sessions have three opportunities to join:
 
 * 2:00AM UTC (in Mandarin / 10 AM CST) 
 * 9:00 AM GMT (in English)
 * 17:00 PM GMT (in English) 
 
 
-Registration: [HERE](https://www.eventbrite.co.uk/e/exclusive-linaro-member-training-using-linux-kernel-for-real-time-systems-tickets-228604360797) (member code required) \
-Members have been emailed with the access code. If you are an employee of a [Linaro member company](https://www.linaro.org/membership/) and need the code, please email marketing@linaro.org 
 
-* Format: Live training via Zoom webinar and Youtube live stream 
-* Duration: 2 hours per session
+Details:
+
+\-Duration of training: 2 hours \
+-Format: Live, Zoom webinar and live streamed to Youtube \
+-Availability: Open to Linaro Members only \
+-Cost: Free\
+-Registration: Open, Complete the form below *Member code required \
+(Members have been emailed with the access code. If you are an employee of a [Linaro member company](https://www.linaro.org/membership/) and need the code, please email marketing@linaro.org)
+
+
+
+Register Below: 
+
+ADD COGNITO FORMS WIDGET
