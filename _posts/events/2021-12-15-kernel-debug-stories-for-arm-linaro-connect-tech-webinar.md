@@ -41,11 +41,16 @@ Kernel debugging involves learning a wide variety of tools whose scope is very d
 
 This training is normally reserved for members only, but we are offering a free and open to the public iteration for the first time. 
 
-There will be 3 opportunities to join this training:
+This is a two part training:
 
-* Feb 8: 9am GMT (in English) 
-* Feb 8: 17pm GMT (in English)
-* Feb 15: 10am CST (in Mandarin)
+* Part 1 will be held on Tuesday, February 8
+* Part 2 will be held on Tuesday, February 15.
+
+Each session has three opportunities to join:
+
+* 2 AM UTC (In Mandarin / 10am CST)
+* 9 AM GMT (In English)
+* 5 PM GMT (In English) 
 
 Duration of training: 2 hours 
 
