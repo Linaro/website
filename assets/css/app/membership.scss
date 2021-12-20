@@ -1,5 +1,25 @@
 // Website Revamp 2019
 #wrapper {
+  .group_wrapper {
+    img {
+      height: 140px;
+    }
+  }
+  .group_member_image {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100%;
+      padding: 10px;
+      background-color: white;
+      height: 75px;
+      object-fit: contain;
+    }
+  }
   i.icon-youtube-play {
     color: $primary;
   }
