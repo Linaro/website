@@ -99,6 +99,26 @@
         "TEE",
         "Trusted Firmware"
       ]
+    },
+    {
+      "title": "Cloud Computing & Servers",
+      "tags": [
+        "Big Data",
+        "Datacenter",
+        "Datacenter & Cloud",
+        "Developer Cloud",
+        "High Performance Computing",
+        "HPC",
+        "LDCG",
+        "LEG",
+        "Linaro Data Center Group",
+        "Linaro Developer Cloud",
+        "Linaro Developer Cloud Kubernetes",
+        "OpenStack",
+        "OpenStack Powered Cloud",
+        "Server",
+        "Servers"
+      ]
     }
   ]
 }
