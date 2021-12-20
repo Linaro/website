@@ -5,8 +5,8 @@ event: linux-for-realtime-systems
 description: "Member only training "
 location: "Online "
 date: 2021-12-07 04:53:30 -05:00
-event_date: 2021-12-07 04:53:30 -05:00
-event_end_date: 2021-12-07 04:53:30 -05:00
+event_date: 2022-01-18 04:53:30 -05:00
+event_end_date: 2022-01-25 04:53:30 -05:00
 image: /assets/images/content/techwebinars_events_page.jpg
 event_type: webinar
 ---
