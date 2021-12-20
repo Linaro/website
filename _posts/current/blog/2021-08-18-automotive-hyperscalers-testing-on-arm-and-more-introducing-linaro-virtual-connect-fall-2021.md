@@ -41,35 +41,15 @@ David Munday, Google
 
 Luca De Ambroggi, Chief Analyst, Informa Tech Automotive Group
 
-
-
-[Tuxsuite keynote](https://events.pinetool.ai/2231/#sessions/67145?referrer%5Bpathname%5D=%2Fsessions&referrer%5Bsearch%5D=&referrer%5Btitle%5D=Sessions)  
-
-Ryan Arnold, Director of System Technologies at Linaro
-
-#### Featured panels and sessions:
-
-[Keynote: Windows on Arm Panel](https://events.pinetool.ai/2231/#sessions/67171?referrer%5Bpathname%5D=%2Fsessions&referrer%5Bsearch%5D=&referrer%5Btitle%5D=Sessions)
-
-Panelists: Marcus Perryman, Principal Software Engineer at Microsoft, David Whaley, Director, Strategic Partnerships at Arm, Rami Husseini, Qualcomm
-
-Moderator: Mike Holmes, Director, Performance & Enablement, Linaro
-
-
+#### Featured panels:
 
 [SystemReady Panel ](https://events.pinetool.ai/2231/#sessions/67180?referrer%5Bpathname%5D=%2Fsessions&referrer%5Bsearch%5D=&referrer%5Btitle%5D=Sessions)
 
 Panelists: Masami Hiramatsu, Tech Lead at Linaro;  Samer El-Haj-Mahmoud, System Architect at Arm; Peng Fan, Senior software Engineer at NXP; Marcin Wojtas, Head of Engineering at Semihalf; Paul Liu, Linaro Senior Software Engineer at Linaro; and more.
 
-[Open Harmony CI with LAVA Remote Labs](https://events.pinetool.ai/2231/#sessions/67127?referrer%5Bpathname%5D=%2Fsessions&referrer%5Bsearch%5D=&referrer%5Btitle%5D=Sessions)
-
-Speaker Stevan Radakovic, Senior Engineer at Linaro 
-
 **Virtual Demo Showcase** 
 
 We plan to host our first ever Virtual Demo Technology Showcase on Thursday, September 9. If you’ve ever been to a Linaro Connect in the past, you may remember our Demo Friday Technology showcase. Participants of Demo Friday prepared a technology demo on a wide variety of Arm Software topics including— OS Build & Test, Edge Computing and its many use cases, Linaro and community enablement including Open source development, Native software development, etc. 
-
-
 
 **Make sure to register to start building your schedule!** 
 

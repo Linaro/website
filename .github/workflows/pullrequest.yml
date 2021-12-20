@@ -41,7 +41,10 @@ jobs:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check links
-        run: /srv/github-action-scripts/check-links.sh --skip-dns-check ${{ github.workspace }}/website/_data/fqdn_exceptions.txt
+        run: >-
+          /srv/github-action-scripts/check-links.sh
+          --skip-dns-check ${{ github.workspace }}/website/_data/fqdn_exceptions.txt
+          --no-external-errors
 
       - name: Check routing rules
         run: /srv/github-action-scripts/test-routing-rules.sh
