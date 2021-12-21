@@ -35,6 +35,24 @@
         {
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/ASA/overview\">https://linaro.atlassian.net/wiki/spaces/ASA/overview</a>",
+                "Theme": [
+                    "Cloud Computing and Servers"
+                ],
+                "description": "Primarily focused on Server Standardisation. Examples to include SBSA, xBBR to enable simplified adoption of mainline builds on new server hardware.",
+                "title": "Arm Server Architecture"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10575",
+            "key": [
+                "ASA"
+            ],
+            "membership": [
+                "ldcg"
+            ]
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/BDDS/overview\">https://linaro.atlassian.net/wiki/spaces/BDDS/overview</a>",
                 "Theme": [
                     "Cloud Computing and Servers"
@@ -86,6 +104,59 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/STOR/overview\">https://linaro.atlassian.net/wiki/spaces/STOR/overview</a>",
+                "Theme": [
+                    "Cloud Computing and Servers",
+                    "Kernel & Toolchain"
+                ],
+                "description": "The goal is to remove the gaps with x86 by collaborating together in the Arm server ecosystem, so that we can provide competitive and leading storage solutions with Arm servers.<br><br>Deliverables are focused around:<br><br><ul><li> Participate in the upstream communities of Ceph/Lustre/BeeGFS/etc for ARM64 support, setup CI testing on Arm servers, and drive the official ARM64 releases;</li><li> Performance optimizations by leveraging key ARM64 architecture features (storage related benchmark testing can be done for the profiling);</li><li> Drive community promotion by members/partners together for storage solutions on Arm servers to help customer adoptions;</li></ul>",
+                "title": "Enhance Software-Defined-Storage on Arm Servers"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10560",
+            "key": [
+                "STOR"
+            ],
+            "membership": [
+                "ldcg"
+            ]
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AELTS/overview\">https://linaro.atlassian.net/wiki/spaces/AELTS/overview</a>",
+                "Theme": [
+                    "Cloud Computing and Servers"
+                ],
+                "description": "The Ecosystem Landscape Dashboard Project is to create and support a public platform to house a unified ecosystem landscape of open source projects.  This platform (a web site) will include a dashboard for each project with resources to educate a developer as to the status about the project.  The vision for the site is as a unified communication hub and connection point to the latest community resources.  Project will enable contributions from communities to assist in growing the platform dataset. <br><br>When successful, it will provide a one-stop resource, which can help everyone find necessary software project information and resources about Arm support through this platform whether it\u2019s the first or the 500th time the user needs community data for development on Arm.  <br><br>This project is *not* limited to one segment and is intended to cover the arm ecosystem.",
+                "title": "Linaro Ecosystem Dashboard"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10406",
+            "key": [
+                "LED"
+            ],
+            "membership": [
+                "ldcg"
+            ]
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LI/overview\">https://linaro.atlassian.net/wiki/spaces/LI/overview</a>",
+                "Theme": [
+                    "Android Ecosystem"
+                ],
+                "description": "Enable and maintain upstream kernels to work well with Android/AOSP.\u00a0<br><br>Parts of this effort include regular testing of upstream kernels with AOSP and the creation of regression reports to the community, and then authoring fixes to specific issues to passing along to the correct community to take action.<br><br>Another area of effort is upstreaming functionality found in the Android Common Kernel, back into the mainline kernel.\u00a0 This makes it easier to test and validate upstream kernels with AOSP, as well as helps broaden the interest and use of functionality developed initially for android, and ensures the functionality continues to work and be maintained as part of the kernel stable ABI guarantee.<br><br>Some of the current ongoing areas of effort have been: GKI: Enabling and improving driver modularity and DMA BUF Heaps transition from ION.",
+                "title": "Linux Kernel Development Targeting Android"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10571",
+            "key": [
+                "AOSP"
+            ],
+            "membership": []
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LKQ\">https://linaro.atlassian.net/wiki/spaces/LKQ</a>",
                 "Theme": [
@@ -105,7 +176,7 @@
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by Linaro Internal.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://git.ostc-eu.org/groups/OSTC/OHOS/-/milestones\">https://git.ostc-eu.org/groups/OSTC/OHOS/-/milestones</a>",
                 "Theme": [
-                    "Android Ecosystem",
+                    "IoT & Embedded",
                     "OS Build & Test"
                 ],
                 "description": "Oniro OS is a publicly available open source version of the HarmonyOS operating system. Linaro will join Huawei in the creation of a collaborative engineering effort to further the capabilities of the OpenHarmony OS (around trusted-boot and over-the-air updates), create a collaborative, OpenHarmony OS Open CI testing system, and onboard Linaro OpenHarmony project members and their devices into the project.",
@@ -117,6 +188,24 @@
             ],
             "membership": [
                 "ledge",
+                "lite"
+            ]
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CMSIS/overview\">https://linaro.atlassian.net/wiki/spaces/CMSIS/overview</a>",
+                "Theme": [
+                    "IoT & Embedded"
+                ],
+                "description": null,
+                "title": "Open-CMSIS-Pack"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10552",
+            "key": [
+                "CMSIS"
+            ],
+            "membership": [
                 "lite"
             ]
         },
@@ -137,6 +226,25 @@
             ],
             "membership": [
                 "ldcg"
+            ]
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIM/overview\">https://linaro.atlassian.net/wiki/spaces/AIM/overview</a>",
+                "Theme": [
+                    "Artificial Intelligence",
+                    "IoT & Embedded"
+                ],
+                "description": null,
+                "title": "Optimize AI for Arm Microcontrollers"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10555",
+            "key": [
+                "AIM"
+            ],
+            "membership": [
+                "lite"
             ]
         },
         {
