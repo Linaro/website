@@ -1,7 +1,9 @@
 #wrapper {
   .related_project_block {
-    padding: 15px;
     border-top: 5px solid $primary;
+    h5.card-title {
+      font-weight: bold;
+    }
   }
   .engagement_block {
     border: 5px solid #eee;
