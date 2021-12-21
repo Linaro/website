@@ -791,6 +791,7 @@ collections:
                       "custom_include",
                       "tabs",
                       "feature_block",
+                      "two_column",
                       "slider",
                       "youtube",
                     ],
@@ -1221,6 +1222,100 @@ collections:
                     widget: string
                     required: false
                     hint: "A name of a Jekyll data file to use for the source of items"
+              - label: Two Column
+                type: two_column
+                name: two_column
+                widget: "object"
+                fields:
+                  - {
+                      label: "Section Style",
+                      name: "style",
+                      widget: "select",
+                      options:
+                        [
+                          "zoom",
+                          "grayscale",
+                          "fixed",
+                          "block_row",
+                          "text-center",
+                          "text-white",
+                        ],
+                      multiple: true,
+                      hint: "Add a style to your section.",
+                      required: false,
+                    }
+                  - label: "Left Column"
+                    name: "left_column"
+                    widget: object
+                    hint: "Content for the left column"
+                    required: false
+                    fields:
+                      - label: Custom Size
+                        name: "custom_size"
+                        widget: text
+                        required: false
+                        hint: "The width of your section on desktop devices. The total width for both the left and right columns must add up to 12."
+                      - label: "Image"
+                        name: "image"
+                        widget: image
+                        hint: "Select an image."
+                        required: false
+                      - label: "Image alt"
+                        name: "image_alt"
+                        widget: text
+                        hint: "Alt text for your image."
+                        required: false
+                      - label: "Style"
+                        name: "style"
+                        widget: text
+                        hint: "List of css classes for your section."
+                        required: false
+                      - label: "Text"
+                        name: "text"
+                        widget: markdown
+                        hint: "Markdown text for your section."
+                        required: false
+                      - label: "Custom include"
+                        name: "include"
+                        widget: text
+                        hint: "An optional html include for your section."
+                        required: false
+                  - label: "Right Column"
+                    name: "right_column"
+                    widget: object
+                    hint: "Content for the right column"
+                    required: false
+                    fields:
+                      - label: Custom Size
+                        name: "custom_size"
+                        widget: text
+                        required: false
+                        hint: "The width of your section on desktop devices. The total width for both the left and right columns must add up to 12."
+                      - label: "Image"
+                        name: "image"
+                        widget: image
+                        hint: "Select an image."
+                        required: false
+                      - label: "Image alt"
+                        name: "image_alt"
+                        widget: text
+                        hint: "Alt text for your image."
+                        required: false
+                      - label: "Style"
+                        name: "style"
+                        widget: text
+                        hint: "List of css classes for your section."
+                        required: false
+                      - label: "Text"
+                        name: "text"
+                        widget: markdown
+                        hint: "Markdown text for your section."
+                        required: false
+                      - label: "Custom include"
+                        name: "include"
+                        widget: text
+                        hint: "An optional html include for your section."
+                        required: false
               - label: Carousel Slider
                 type: slider
                 name: slider
