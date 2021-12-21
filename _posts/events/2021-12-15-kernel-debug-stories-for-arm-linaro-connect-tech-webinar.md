@@ -6,7 +6,7 @@ location: "Online "
 date: 2021-12-14 08:25:37 -05:00
 event_date: 2022-02-08 08:28:45 -05:00
 event_end_date: 2022-02-15 08:29:03 -05:00
-image: /assets/images/content/webinar-graphic-2160x1080.jpg
+image: /assets/images/content/techwebinars_events_page.jpg
 event_type: webinar
 ---
 Description: 
