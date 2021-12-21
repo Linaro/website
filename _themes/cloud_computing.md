@@ -58,8 +58,81 @@ flow:
         title_content:
           text: Linaro projects delivering quality software for Arm-based servers
           size: h2
-      - format: custom_include
-        source: themes/related_project_blocks.html
+      # - format: custom_include
+      #   source: themes/related_project_blocks.html
+      - format: block
+        style: pb-4
+        item_width: "4"
+        block_section_content:
+          blocks:
+            - title: Arm Server Architecture
+              style: related_project_block h-100
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                Technology for servers is continuously
+                evolving. For the boot architecture, this
+                means the AArch64 boot process should
+                use familiar tools already in common use
+                and active development. The Arm Server
+                Architecture project predominantly
+                focuses on Arm UEFI, GRUB2 and
+                related components.
+              buttons:
+                - title: Learn more
+                  style: btn-lg btn-primary btn-outline-primary
+                  url: https://linaro.atlassian.net/wiki/spaces/ASA/overview
+            - title: AI for Datacenter and Edge
+              style: related_project_block h-100
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                This project is focused on enablement which optimizes performance in HPC and AI computing. The project is addressing a wide range of use cases for AI training and inference, targeting Armv8.x based servers and supercomputers such as Fujitsu's high end Fugaku supercomputer, Neoverse and Cortex-A based edge devices.
+              buttons:
+                - title: Learn more
+                  style: btn-lg btn-primary btn-outline-primary
+                  url: https://linaro.atlassian.net/wiki/spaces/AIA/overview
+            - title: Big Data & Data Science
+              style: related_project_block h-100
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                With 90% of all data having been
+                created in the last two years, Big Data
+                and Data Science technologies are vital
+                and have become mature with various
+                production implementations. Linaro
+                drives engineering activities and ARMv8
+                builds for projects such as Apache
+                BigTop, Hadoop, Spark, Ambari and Drill.
+              buttons:
+                - title: Learn more
+                  style: btn-lg btn-primary btn-outline-primary
+                  url: https://linaro.atlassian.net/wiki/spaces/BDDS/overview
+            - title: Cloud Infrastructure
+              style: related_project_block h-100
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                Linaro’s aim in this space is to provide open-source cloud infrastructure projects with the capabilities to easily deploy, manage and deliver performance on Arm64. Engineering activities include technologies such as hypervisors and container based virtualization (OpenStack, Kubernetes) and Software Defined Storage (Ceph).
+              buttons:
+                - title: Learn more
+                  style: btn-lg btn-primary btn-outline-primary
+                  url: https://linaro.atlassian.net/wiki/spaces/CLOUD/overview
+            - title: Enhance Software-Defined-Storage on Arm Servers
+              style: related_project_block h-100
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                There is a shift towards using all-flash storage solutions (SSD/NVME) as opposed to traditional HDD disks due to improvements in performance. The goal of this project is to collaborate with industry leaders in the Arm server ecosystem so that we can provide competitive and leading storage solutions with Arm servers.
+              buttons:
+                - title: Learn more
+                  style: btn-lg btn-primary btn-outline-primary
+                  url: https://linaro.atlassian.net/wiki/spaces/STOR/overview
+            - title: Linaro Ecosystem Dashboard
+              style: related_project_block h-100
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                The Linaro Ecosystem Dashboard is a one-stop resource for everyone to find necessary software project info and resources about Arm support. The aim is to provide a complete picture of the Arm ecosystem landscape. At present the Linaro Ecosystem Dashboard is focused on the server landscape but Linaro will be expanding this to over verticals.
+              buttons:
+                - title: Learn more
+                  style: btn-lg btn-primary btn-outline-primary
+                  url: https://ecosystemdashboard.linaro.org/
       - format: buttons
         style: text-center
         buttons_content:
