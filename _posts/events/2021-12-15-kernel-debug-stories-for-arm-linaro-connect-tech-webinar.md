@@ -57,4 +57,9 @@ Duration of training: 2 hours 
 Format: Live, Zoom webinar and live streamed to Youtube \
 Cost: Free\
 Availability: Open to public\
-Register here: —-
+Register below or via this [link](https://www.cognitoforms.com/Linaro1/LinaroTechWebinarTrainingKernelDebugStoriesForArm)
+
+<div class="cognito">
+<script src="https://www.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
+<script>Cognito.load("forms", { id: "23" });</script>
+</div>
