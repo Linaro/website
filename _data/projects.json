@@ -75,7 +75,7 @@
                 "Theme": [
                     "Cloud Computing and Servers"
                 ],
-                "description": "The Cloud infrastructure team focuses on cloud infrastructure technologies such as Kubernetes, OpenStack, Ceph, and container runtime.<br><br>We dedicate to make open-source cloud infrastructure projects have the capabilities of easy deployment, easy management, and good performance on Arm64.<br><br>We also run the Linaro Developer Cloud. It is a pure open-source cloud, free for developers. It offers the virtual machine instances and Kubernetes as a service. Link: www.linaro.cloud",
+                "description": "The Cloud infrastructure team focuses on cloud infrastructure technologies such as Kubernetes, OpenStack, Ceph, and container runtime.<br><br>We are dedicated to providing open-source cloud infrastructure projects with the capabilities of easy deployment, easy management, and good performance on Arm64.",
                 "title": "Cloud Infrastructure"
             },
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
