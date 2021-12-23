@@ -13,6 +13,7 @@ description: >
   Android as found on a client device is
   closely related to the Android Open
   Source Project (AOSP).
+presentation_link: https://linaro.co/android-slides
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
