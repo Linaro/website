@@ -88,10 +88,6 @@ flow:
                 ART. However, some techniques that
                 work on Dalvik do not work on ART.
                 ART supports both Java and Kotlin.
-              buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
-                  url: https://linaro.atlassian.net/wiki/spaces/ASA/overview
             - title: Linux Kernel Development Targeting Android
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
@@ -111,7 +107,7 @@ flow:
               buttons:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary
-                  url: https://linaro.atlassian.net/wiki/spaces/AIA/overview
+                  url: https://linaro.atlassian.net/wiki/spaces/LI/overview
             - title: Software Device Enablement for Android
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
@@ -128,7 +124,7 @@ flow:
               buttons:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary
-                  url: https://linaro.atlassian.net/wiki/spaces/BDDS/overview
+                  url: hhttps://linaro.atlassian.net/wiki/spaces/SDEFAU/overview
       - format: buttons
         style: text-center
         buttons_content:
