@@ -15,7 +15,6 @@ keywords:
   - Ledge
   - Linaro Toolchain
   - Toolchain
-  - Linaro Developer Cloud
   - Linaro Member Builds
   - Openstack-Powered Rocky
   - Binary Toolchain Releases
@@ -58,10 +57,6 @@ flow:
               style: text-center
               content_style: d-flex align-items-center blue_block
               url: "#releases_for_snapdragon"
-            - title: Linaro Developer Cloud
-              style: text-center
-              content_style: d-flex align-items-center blue_block
-              url: "#linaro_developer_cloud"
             - title: LEDGE Reference Platform
               style: text-center
               content_style: d-flex align-items-center blue_block
@@ -235,24 +230,6 @@ flow:
 
 
             [Click here for more information on how Linaro helps companies upstream to Qualcomm platforms.](https://www.linaro.org/services/qualcomm-platforms-services/)
-      - format: title
-        style: block_bg_header
-        title_content:
-          style: font-weight-bold
-          text: Linaro Developer Cloud - Access to the latest Arm enterprise class cloud
-            instances
-          size: h2
-          id: linaro_developer_cloud
-      - format: text
-        text_content:
-          text: >
-            Deploy to Arm-based clouds in minutes and build your project today
-
-
-            Linaro Developer Cloud is a heterogeneous cluster managed by Linaro to provide developers with access to the latest Arm enterprise class cloud instances. The cluster is managed with the Openstack-Powered Ussuri release with deployment by Kolla-ansible. It runs all your favorite distributions such as Debian, CentOS, Ubuntu, RHEL and openEuler. The Linaro Developer Cloud is available for development, test, CI and cloud deployments for VM, BM and Kubernetes clusters.
-
-
-            [Sign up here for access to Linaro Developer Cloud and build your project today](https://servicedesk.linaro.org/servicedesk/customer/portal/11/user/login?destination=portal%2F11)
       - format: title
         style: block_bg_header
         title_content:
