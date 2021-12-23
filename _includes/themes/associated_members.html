@@ -9,11 +9,13 @@
             {% assign core_members = "" | split: "," %}
             {% assign other_members = "" | split: "," %}
             {% for member in members %}
+                {% assign found = "false" %}
                 {% for group in site.data.members %}
                     {% if group.id == "core" %}
                         {% for group_member in group.members %}
                             {% if group_member.name == member.name %}
                                 {% assign core_members = core_members | push: group_member %}
+                                {% assign found = "true" %}
                             {% endif %}
                         {% endfor %}
                     {% elsif group.id == "club" or group.id == "group" %}
@@ -21,12 +23,17 @@
                             {% if group_member.name == member.name %}
                                 {% unless other_members contains group_member %}
                                     {% assign other_members = other_members | push: group_member %}
+                                    {% assign found = "true" %}
                                 {% endunless %}
                             {% endif %}
                         {% endfor %}
                     {% endif %}
                 {% endfor %}
+                {% if found == "false" %}
+                    {% assign other_members = other_members | push: member %}
+                {% endif %}
             {% endfor %}
+           
             {% assign sorted_core_members = core_members | sort: 'name' %}
             {% for member in sorted_core_members %}
                 <div class="col-md col-sm-4 col col-6 vcenter-img member_col">
