@@ -1,29 +1,28 @@
 ---
 layout: post
-title: ' Linaro Developer Cloud Kubernetes as a Service'
-description: Recently, Linaro Developer Cloud has supported Kubernetes as a Service,
-  and we have finally passed all the conformance tests from CNCF as the Certified
-  Kubernetes - Hosted. The Linaro Developer Cloud Kubernetes service makes it easy
-  for you to deploy, manage, and scale Kubernetes clusters to run containerised applications
-  on the Arm64 platform.
+title: " Linaro Developer Cloud Kubernetes as a Service"
+description: Recently, Linaro Developer Cloud has supported Kubernetes as a
+  Service, and we have finally passed all the conformance tests from CNCF as the
+  Certified Kubernetes - Hosted. The Linaro Developer Cloud Kubernetes service
+  makes it easy for you to deploy, manage, and scale Kubernetes clusters to run
+  containerised applications on the Arm64 platform.
 date: 2020-07-24 12:55:00+00:00
 image: /assets/images/content/code_highway_under_2mb.jpg
 tags:
-- Linaro Developer Cloud Kubernetes
-- Linaro
-- Arm
-- Linaro Data Center Group
-- PAAS
-- OpenStack
-- Kubernetes
-- Linaro Developer Cloud
-- OpenStack Powered Cloud
+  - Linaro Developer Cloud Kubernetes
+  - Linaro
+  - Arm
+  - Linaro Data Center Group
+  - PAAS
+  - OpenStack
+  - Kubernetes
+  - Linaro Developer Cloud
+  - OpenStack Powered Cloud
 related_projects:
-- CLOUD
+  - CLOUD
 category: blog
 author: kevin.zhao@linaro.org
 ---
-
 ## **Linaro Data Center Group (LDCG)**
 
 The Cloud Infrastructure team in Linaro sits inside a group known as the Linaro Data Center and Cloud Group (LDCG). The Cloud Infrastructure focuses on open-source cloud IAAS, PAAS, and storage projects such as OpenStack, Kubernetes, and Ceph. The rest of LDCG spend their time working with Arm Server Architecture, Big Data, and HPC (High-Performance Computing).
@@ -77,7 +76,3 @@ CNCF has the Certified Kubernetes program for different vendors’ Kubernetes se
 Linaro Developer Cloud Kubernetes service now can offer the Kubernetes version 1.17 with OS Fedora-Coreos-Dev-Arm64. Now, it has passed the CNCF conformance test suites which includes more than 280 test cases and was [certified by CNCF](https://landscape.cncf.io/card-mode?selected=linaro-developer-cloud-kubernetes-service). We are the first Arm64 open source cloud to pass the CNCF conformance test and gain this certification. With this certification, Arm64 open-source platform
 
 {% include image.html path="/assets/images/content/certified-kubernetes.png" class="small-inline left" alt="Certified Kubernetes logo" %}
-
-## Ready to try the certified Kubernetes on Arm64
-
-Please come to [Linaro Developer Cloud](http://www.linaro.cloud), click the request access button on the left top. Please leave the info on the next form for requiring the Kubernetes clusters and provide strong intended usage information.
