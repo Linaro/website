@@ -36,7 +36,7 @@ flow:
             ecosystem and enable new markets on Arm architecture.
 
 
-            As technology has evolved, so has Linaro. While we continue to help maintain and evolve the Arm software ecosystem through the work we do on [toolchains](https://www.linaro.org/kernel-and-toolchain/), [security](https://www.linaro.org/security/) and [continuous integration testing](https://www.linaro.org/os-build-and-test/), we also work in several technologies and verticals to enable Arm technology. These include [Artificial Intellgence](https://www.linaro.org/artificial-intelligence/), [Android Ecosystem](https://www.linaro.org/android-ecosystem/), Datacenter and Cloud, [Edge & Fog Computing](https://www.linaro.org/trusted-substrate/) and [IoT and Embedded](https://www.linaro.org/iot-and-embedded/).
+            As technology has evolved, so has Linaro. While we continue to help maintain and evolve the Arm software ecosystem through the work we do on [toolchains](https://www.linaro.org/kernel-and-toolchain/), [security](https://www.linaro.org/security/) and [continuous integration testing](https://www.linaro.org/os-build-and-test/), we also work in several technologies and verticals to enable Arm technology. These include [Artificial Intellgence](https://www.linaro.org/artificial-intelligence/), [Android Ecosystem](https://www.linaro.org/client-devices/), [Datacenter and Cloud](https://www.linaro.org/cloud-computing-and-servers/), [Edge & Fog Computing](https://www.linaro.org/trusted-substrate/) and [IoT and Embedded](https://www.linaro.org/iot-and-embedded/).
   - row: container_row
     style: bg-light-green
     sections:
