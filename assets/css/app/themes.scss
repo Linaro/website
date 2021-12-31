@@ -1,4 +1,18 @@
 #wrapper {
+  .related_project_block {
+    border-top: 5px solid $primary;
+    h5.card-title {
+      font-weight: bold;
+    }
+  }
+  .engagement_block {
+    border: 5px solid #eee;
+    padding: 10px;
+    background-color: white;
+    h3 {
+      font-weight: bold;
+    }
+  }
   img.members-img {
     height: 150px;
   }
@@ -97,7 +111,7 @@
       border-bottom: 1px solid #000;
     }
     h1 {
-      margin-bottom: 30px !important;
+      margin-bottom: 30px;
     }
     &:after {
       position: absolute;

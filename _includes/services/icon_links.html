@@ -2,7 +2,7 @@
   <div class="row">
     {% for service in site.services %}
       {% unless service.permalink == "/services/" %}
-        <div class="col col-6 col-sm-4 col-md-3 service_col h-100 py-4">
+        <div class="col col-6 col-md-4 col-lg-2 service_col h-100 py-4">
           <div class="ds_wrapper">
             <a href="{{service.url}}">
               <img
@@ -10,7 +10,7 @@
                 alt="{{service.title}} icon"
                 src="{{service.icon}}"
               />
-              <h4 class="ds_title text-dark my-3">{{service.title}}</h4>
+              <h6 class="ds_title text-dark my-3 font-weight-bold">{{service.title}}</h6>
             </a>
           </div>
         </div>

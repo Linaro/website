@@ -22,7 +22,7 @@ items:
     url: https://www.linux-kvm.org/page/Main_Page
   - name: Ceph
     image: /assets/images/projects/ceph.png
-    url: https://ceph.com/
+    url: https://ceph.com/en/
   - name: OpenStack
     image: /assets/images/projects/open-stack.png
     url: https://www.openstack.org/
