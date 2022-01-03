@@ -1,26 +1,26 @@
 ---
-author: linaro
-category: news
-date: 2016-03-07 11:01:23
-description: Linaro announces the rollout of an Armv8 based Developer Cloud today
-  at Linaro Connect in Bangkok.
-excerpt: 'Linaro announces the rollout of an Armv8 based Developer Cloud today at
-  Linaro Connect in Bangkok.  '
-layout: post
-link: /news/linaro-announces-arm-based-developer-cloud-2/
-slug: linaro-announces-arm-based-developer-cloud-2
-tags:
-- Developer Cloud
-- LEG
-- Linaro
-- Linux
-- Linux On Arm
-- Members
-- Open Source
-title: Linaro announces Arm Based Developer Cloud
+excerpt: "Linaro announces the rollout of an Armv8 based Developer Cloud today
+  at Linaro Connect in Bangkok.  "
 wordpress_id: 10071
+layout: post
+title: Linaro announces Arm Based Developer Cloud
+image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
+category: news
+author: linaro
+slug: linaro-announces-arm-based-developer-cloud-2
+date: 2016-03-07 11:01:23
+tags:
+  - Developer Cloud
+  - LEG
+  - Linaro
+  - Linux
+  - Linux On Arm
+  - Members
+  - Open Source
+link: /news/linaro-announces-arm-based-developer-cloud-2/
+description: Linaro announces the rollout of an Armv8 based Developer Cloud
+  today at Linaro Connect in Bangkok.
 ---
-
 Bangkok, Thailand; 7 March 2016
 
 Linaro Ltd., the collaborative engineering organization developing open source software for the Arm® architecture, announced the rollout of an Armv8 based Developer Cloud today at Linaro Connect in Bangkok. In collaboration with its silicon, server and software members, Linaro is providing developers with access to a cloud-based native Arm development environment, which can be used to design, develop, port and test server, cloud and IoT applications without substantial upfront hardware investment.
@@ -33,7 +33,7 @@ The Developer Cloud is the combination of Arm based silicon vendors’ server ha
 
 The Developer Cloud is based on OpenStack, leveraging both Debian and CentOS, as the underlying cloud OS infrastructure. It will use Arm based server platforms from Linaro members AMD, Cavium,  Huawei and Qualcomm Technologies, Inc., and will expand with demand, and as new server platforms come to market. These platforms will include both single socket and dual socket configurations as well as 10/40Gb networking, scalable storage and integrated accelerators that Arm SOC partners are bringing to market.
 
-Access to the Developer Cloud will be provided via the [linaro.cloud](http://linaro.cloud/) web portal. Through the portal, developers can request cloud access and may report bugs and performance issues. The portal will also provide a developer forum to share development and porting knowledge, as well as best practices for Arm servers.
+Access to the Developer Cloud will be provided via the linaro.cloud web portal. Through the portal, developers can request cloud access and may report bugs and performance issues. The portal will also provide a developer forum to share development and porting knowledge, as well as best practices for Arm servers.
 
 **Partner Quotes**
 
