@@ -41,6 +41,11 @@ Kernel debugging involves learning a wide variety of tools whose scope is very d
 
 This training is normally reserved for members only, but we are offering a free and open to the public iteration for the first time. 
 
+**Speakers:**
+
+* Daniel Thompson, Principal Tech Lead at Linaro
+* Leo Yan, Senior Engineer at Linaro
+
 This is a two part training:
 
 * Part 1 will be held on Tuesday, February 8
