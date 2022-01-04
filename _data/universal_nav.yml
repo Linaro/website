@@ -23,8 +23,6 @@ items:
   - options:
       - title: 96Boards.ai
         url: "https://www.96boards.ai"
-      - title: Developer Cloud
-        url: "https://linaro.cloud"
       - title: Device Tree
         url: "https://www.devicetree.org"
       - title: ML PLatform
