@@ -9,13 +9,20 @@ event_end_date: 2022-02-15 08:29:03 -05:00
 image: /assets/images/content/techwebinars_events_page.jpg
 event_type: webinar
 ---
-**Format:** Live, Zoom webinar and live streamed to Youtube \
+# Kernel Debug Stories for Arm
+
+**Speakers:**
+
+* Daniel Thompson, Principal Tech Lead at Linaro 
+* Leo Yan, Senior Engineer at Linaro
+
+**Format:** Live training: Zoom webinar, Youtube livestream\
 **Cost:** Free\
 **Availability:** Open to public\
 **When:** Three session slots available to choose from:\
--Tuesday, February 8 at 9 AM GMT (In English)\
--Tuesday, February 8 at 5 PM GMT (In English) \
--Tuesday, February 15 at 2 AM UTC (In Mandarin)  \
+         -Tuesday, February 8 at 9 AM GMT (In English)\
+         -Tuesday, February 8 at 5 PM GMT (In English) \
+         -Tuesday, February 15 at 2 AM UTC (In Mandarin)  \
 **Duration:** 2 hours\
 **Register:** below or via this [link](https://www.cognitoforms.com/Linaro1/LinaroTechWebinarTrainingKernelDebugStoriesForArm)
 
@@ -51,10 +58,7 @@ Kernel debugging involves learning a wide variety of tools whose scope is very d
 
 This training is normally reserved for members only, but we are offering a free and open to the public iteration for the first time. 
 
-**Speakers:**
 
-* Daniel Thompson, Principal Tech Lead at Linaro (Feb 8 sessions)
-* Leo Yan, Senior Engineer at Linaro (Feb 15 session) 
 
 There are three opportunities to join this training:
 
@@ -62,7 +66,6 @@ There are three opportunities to join this training:
 * Tuesday, February 8 at 5 PM GMT (In English) 
 * Tuesday, February 15 at 2 AM UTC (In Mandarin) 10am CST 
 
-#### \
 **Register below:**
 
 <div class="cognito">
