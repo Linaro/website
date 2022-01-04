@@ -9,13 +9,30 @@ event_end_date: 2022-02-15 08:29:03 -05:00
 image: /assets/images/content/techwebinars_events_page.jpg
 event_type: webinar
 ---
-Description: 
+# Kernel Debug Stories for Arm
+
+**Speakers:**
+
+* Daniel Thompson, Principal Tech Lead at Linaro 
+* Leo Yan, Senior Engineer at Linaro
+
+**Format:** Live training: Zoom webinar, Youtube livestream\
+**Cost:** Free\
+**Availability:** Open to public\
+**When:** Three session slots available to choose from:\
+         -Tuesday, February 8 at 9 AM GMT (In English)\
+         -Tuesday, February 8 at 5 PM GMT (In English) \
+         -Tuesday, February 15 at 2 AM UTC (In Mandarin)  \
+**Duration:** 2 hours\
+**Register:** below or via this [link](https://www.cognitoforms.com/Linaro1/LinaroTechWebinarTrainingKernelDebugStoriesForArm)
+
+**Webinar Description:** 
 
 *I could talk to you all day about kernel debugging… but if you only gave me two hours, what are the most important things we’d want to cover?*
 
 *From its genesis as a conference presentation at Linaro Connect Budapest in 2017, Kernel Debug Stories has gone on to become the centerpiece of Linaro's Advanced Kernel Debug training course. Over the intervening years this training module has been expanded, refined and polished. Today it is a two hour introduction to a huge variety of debug tools and techniques to help you solve Linux kernel problems. This training can help anyone who has ever asked themselves "what is the best tool to help me debug this?". The answers we offer will include an eclectic mix of software tools and Arm specific features. It may have grown but today's two hour Kernel Debug Stories remains laser focused on everyday stories that resonate with kernel developers. This makes it just as densely packed with ideas and information as the original.*
 
-Synopsis:
+**Synopsis:**
 
 Kernel debugging involves learning a wide variety of tools whose scope is very different to a traditional stop-the-world debugger. By focusing on use cases rather than on the detail of exactly how each tool works we are able to cover a wide variety of advanced debug tools in a short space of time. This provides both a foundation and a real-world context for detailed examination of different debug tools.
 
@@ -41,28 +58,15 @@ Kernel debugging involves learning a wide variety of tools whose scope is very d
 
 This training is normally reserved for members only, but we are offering a free and open to the public iteration for the first time. 
 
-**Speakers:**
 
-* Daniel Thompson, Principal Tech Lead at Linaro
-* Leo Yan, Senior Engineer at Linaro
 
-This is a two part training:
+There are three opportunities to join this training:
 
-* Part 1 will be held on Tuesday, February 8
-* Part 2 will be held on Tuesday, February 15.
+* Tuesday, February 8 at 9 AM GMT (In English)
+* Tuesday, February 8 at 5 PM GMT (In English) 
+* Tuesday, February 15 at 2 AM UTC (In Mandarin) 10am CST 
 
-Each session has three opportunities to join:
-
-* 2 AM UTC (In Mandarin / 10am CST)
-* 9 AM GMT (In English)
-* 5 PM GMT (In English) 
-
-Duration of training: 2 hours 
-
-Format: Live, Zoom webinar and live streamed to Youtube \
-Cost: Free\
-Availability: Open to public\
-Register below or via this [link](https://www.cognitoforms.com/Linaro1/LinaroTechWebinarTrainingKernelDebugStoriesForArm)
+**Register below:**
 
 <div class="cognito">
 <script src="https://www.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
