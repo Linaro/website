@@ -19,12 +19,6 @@ else
   PORTS=""
 fi
 
-if [ -z "$SKIP_JEKYLL_DOCTOR" ]; then
-  export SKIP_JEKYLL_DOCTOR="skip"
-else
-  export SKIP_JEKYLL_DOCTOR=""
-fi
-
 # Are we running interactively or via Bamboo?
 if [ -t 1 ]; then
   INTER="-i"
