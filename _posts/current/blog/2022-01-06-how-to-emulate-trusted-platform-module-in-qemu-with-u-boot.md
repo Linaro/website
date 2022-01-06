@@ -60,11 +60,11 @@ and launch QEMU with swtpm support
 
 From U-Boot's command line do something along the lines of
 
-{% include image.html path="/assets/images/content/booting-linux-image-1" alt="Booting Linux image 1" %}
+{% include image.html path="/assets/images/content/booting-linux-image-1.png" alt="Booting Linux image 1" %}
 
 If everything is compiled and launched correctly, you should see the kernel reporting the location of some related EventLog pointers.
 
-{% include image.html path="/assets/images/content/booting-linux-image-2" alt="Booting Linux image 2" %}
+{% include image.html path="/assets/images/content/booting-linux-image-2.png" alt="Booting Linux image 2" %}
 
 ## Reading the EventLog
 
