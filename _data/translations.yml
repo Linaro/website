@@ -1,0 +1,48 @@
+reportAnIssue: Report an Issue
+editOnGithub: Edit on GitHub
+about: About
+read: Read
+new: New
+next: Next
+prev: Prev
+posts: Posts
+recentPosts: Recent Posts
+otherPosts: Other Posts
+postedBy: Posted by
+home: Home
+viewAllTags: View all tags
+necessaryCookies: Necessary Cookies
+necessaryCookiesText: >
+  We cannot disable neccessary cookies as these are required to remember your preferences
+  for non-essential cookies.
+necessaryCookiesTextList: "List of Necessary Cookies:"
+cookieName: Cookie Name
+usage: Usage
+postAddedInLastWeek: Post added in the last week.
+analyticsCookies: Analytics Cookies
+analyticsCookiesTextList: "List of Analytics Cookies:"
+cookiesDisabledText: Toggle this switch to enable the collection of anonymous analytics data that helps us improve our site.
+cookiesEnabledText: Toggle this switch to disable the collection of anonymous analytics data that helps us improve our site.
+estimatedReadTime: Estimated read time
+info:
+  title: linaro-jekyll-theme (the advanced enterprise ready Jekyll theme)
+  description: |-
+    The linaro-jekyll-theme is an advanced enterprise ready Jekyll theme used across the Linaro static websites.
+search:
+  search: Search
+  searchPosts: Search posts
+  clearSearch: Clear Search
+close: Close
+moreInfo: More info
+learMore: Learn more
+copyright: Copyright
+toggleNavigation: Toggle Navigation
+projects: Projects
+# CUSTOM
+homepage:
+  title1: Accelerating deployment
+  title2: in the
+  title3: Arm Ecosystem
+  headerText: >
+    Linaro has driven open source software development on Arm since 2010 and is home to many world-leading Arm software experts. Together with our members and the open source community, we drive the work needed to maintain and improve the Arm software ecosystem. Our work spans a wide range of verticals and technologies.
+  headerText2: To find out more about the work we do, click on the relevant icon below.

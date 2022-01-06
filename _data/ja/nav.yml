@@ -1,0 +1,29 @@
+universal_nav: true
+search:
+  enabled: true
+  label: Linaro
+expand_breakpoint: xl
+brand:
+  path: /assets/images/Linaro-Logo.svg
+  alt: Linaro logo
+pages:
+  - title: プロジェクト
+    url: /projects/
+  - title: メンバーシップ
+    url: /membership/
+  - title: サービス
+    url: /services/
+  - title: 支える
+    url: /support/
+  - title: ダウンロード
+    url: /downloads/
+  - title: に関しては
+    options:
+      - text: 我々について
+        url: /about/
+      - text: ブログ
+        url: /blog/
+      - text: イベント
+        url: /events/
+      - text: ニュース
+        url: /news/

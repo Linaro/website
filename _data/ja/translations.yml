@@ -1,0 +1,45 @@
+reportAnIssue: 問題を報告する
+editOnGithub: GitHubで編集
+about: 約
+read: 読む
+new: 新しい
+next: 次
+prev: 前へ
+posts: 投稿
+recentPosts: 最近の投稿
+otherPosts: その他の投稿
+postedBy: 投稿者
+home: 家
+viewAllTags: すべてのタグを表示
+necessaryCookies: 必要なクッキー
+necessaryCookiesText: >
+  必要なCookieは、必須ではないCookieの設定を記憶するために必要であるため、無効にすることはできません。
+necessaryCookiesTextList: "必要なCookieのリスト："
+cookieName: クッキー名
+usage: 使用法
+postAddedInLastWeek: 先週追加された投稿。
+analyticsCookies: アナリティクスCookie
+analyticsCookiesTextList: "アナリティクスCookieのリスト："
+cookiesDisabledText: このスイッチを切り替えると、サイトの改善に役立つ匿名の分析データの収集が可能になります。
+cookiesEnabledText: このスイッチを切り替えると、サイトの改善に役立つ匿名の分析データの収集が無効になります。
+estimatedReadTime: 推定読み取り時間
+info:
+  title: linaro-jekyll-theme（高度なエンタープライズ対応のJekyllテーマ）
+  description: |-
+    linaro-jekyll-themeは、Linaro静的Webサイト全体で使用される高度なエンタープライズ対応のJekyllテーマです。
+search:
+  search: 検索
+  searchPosts: 投稿を検索
+  clearSearch: クリア検索
+close: 選ぶ
+moreInfo: より詳しい情報
+copyright: 著作権
+toggleNavigation: ナビゲーションの切り替え
+# CUSTOM
+homepage:
+  title1: 展開の加速
+  title2: の中に
+  title3: アームエコシステム
+  headerText: >
+    Linaroは、2010年からArmでオープンソースソフトウェア開発を推進しており、世界をリードする多くのArmソフトウェア専門家の本拠地です。メンバーとオープンソースコミュニティとともに、Armソフトウェアエコシステムの維持と改善に必要な作業を推進します。私たちの仕事は、幅広い分野とテクノロジーに及びます。
+  headerText2: 私たちが行っている作業の詳細については、下の関連アイコンをクリックしてください。
