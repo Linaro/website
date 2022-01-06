@@ -70,32 +70,32 @@ If everything is compiled and launched correctly, you should see the kernel repo
 
 I am using a debian qcow2 image, where I have installed the latest tpm2 tools. If you don't have them install them with
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-1" alt="Reading the eventlog image 1" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-1.png" alt="Reading the eventlog image 1" %}
 
 The kernel exposes the eventlog in /sys. So you can read it with:
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-2" alt="Reading the eventlog image 2" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-2.png" alt="Reading the eventlog image 2" %}
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-3" alt="Reading the eventlog image 3" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-3.png" alt="Reading the eventlog image 3" %}
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-4" alt="Reading the eventlog image 4" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-4.png" alt="Reading the eventlog image 4" %}
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-5" alt="Reading the eventlog image 5" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-5.png" alt="Reading the eventlog image 5" %}
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-6" alt="Reading the eventlog image 6" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-6.png" alt="Reading the eventlog image 6" %}
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-7" alt="Reading the eventlog image 7" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-7.png" alt="Reading the eventlog image 7" %}
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-8" alt="Reading the eventlog image 8" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-8.png" alt="Reading the eventlog image 8" %}
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-9" alt="Reading the eventlog image 9" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-9.png" alt="Reading the eventlog image 9" %}
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-10" alt="Reading the eventlog image 10" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-10.png" alt="Reading the eventlog image 10" %}
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-11" alt="Reading the eventlog image 11" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-11.png" alt="Reading the eventlog image 11" %}
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-12" alt="Reading the eventlog image 12" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-12.png" alt="Reading the eventlog image 12" %}
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-13" alt="Reading the eventlog image 13" %}
+{% include image.html path="/assets/images/content/reading-the-eventlog-image-13.png" alt="Reading the eventlog image 13" %}
 
 For more information on the work Linaro does in securing edge devices, go to our [Trusted Substrate project page](https://linaro.atlassian.net/wiki/spaces/TS/overview). Trusted Substrate is an integrated firmware solution made of all necessary components to implement Arm SystemReady standards with more security options turned on.
