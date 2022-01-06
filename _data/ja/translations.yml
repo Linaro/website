@@ -33,8 +33,10 @@ search:
   clearSearch: クリア検索
 close: 選ぶ
 moreInfo: より詳しい情報
+learnMore: もっと詳しく知る
 copyright: 著作権
 toggleNavigation: ナビゲーションの切り替え
+projects: プロジェクト
 # CUSTOM
 homepage:
   title1: 展開の加速
@@ -43,3 +45,22 @@ homepage:
   headerText: >
     Linaroは、2010年からArmでオープンソースソフトウェア開発を推進しており、世界をリードする多くのArmソフトウェア専門家の本拠地です。メンバーとオープンソースコミュニティとともに、Armソフトウェアエコシステムの維持と改善に必要な作業を推進します。私たちの仕事は、幅広い分野とテクノロジーに及びます。
   headerText2: 私たちが行っている作業の詳細については、下の関連アイコンをクリックしてください。
+  stats:
+    statsText1: >
+      のLinaroパッチは提出から7日以内に受け入れられます（35日以内に75％）
+    statsText2: >
+      Linuxカーネルへの貢献者トップ10
+    statsText3: >
+      過去2年間にアップストリームプロジェクトに提出されたパッチの数
+  maintainers:
+    titleText: オープンソースソフトウェア保守者
+    subText: 合計で、LinaroMaintainersは40を超えるオープンソースプロジェクトを管理しています
+  cta:
+    membershipTitle: リナロ会員
+    membershipText: >
+      Linaroの技術分野の専門家や他の業界リーダーと協力して一般的な問題を解決したい場合は、Linaroメンバーシップが最適です。以下のビデオをクリックして、メンバーがリナロとの提携を選択した理由を確認してください。
+    membershipBtnText: リナロメンバーシップの詳細をご覧ください
+    dsTitle: リナロ開発者サービス
+    dsText: >
+      特定のプロジェクトでLinaroのArmとオープンソースソフトウェアの専門知識を活用したい場合は、Linaro Developer Servicesと連携することが適切なオプションです。
+    dsBtnText: Linaroデベロッパーサービスの詳細をご覧ください
