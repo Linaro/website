@@ -14,7 +14,8 @@ kramdown:
 encoding: utf-8
 safe: false
 livereload_ignore:
-  - .asset_pipeline/**/*
+  - .asset_pipeline/assets/js/*.js
+  - .asset_pipeline/assets/js/*.js.gz
 exclude:
   - Gemfile
   - Gemfile.lock

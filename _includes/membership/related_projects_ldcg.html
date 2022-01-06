@@ -1,0 +1,19 @@
+{% assign projects = "" | split: "," %}
+{% for project in site.data.projects.projects %}
+    {% if project.membership contains "ldcg" %}
+        {% assign projects = projects | push: project %}
+    {% endif %}
+{% endfor %}
+{% assign projects_size = projects | size %}
+{% if projects_size > 0 %}
+<div class="row">
+    <div class="col col-12">
+        <strong>Related Projects:</strong>
+        <ul>
+            {% for project in projects %}
+                <a href="/projects/#{{project['key']}}"><li>{{project["Project Information"]["title"]}}</li></a>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}

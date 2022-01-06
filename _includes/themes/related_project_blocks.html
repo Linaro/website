@@ -1,0 +1,22 @@
+<div class="row">
+    {% for project in site.data.projects["projects"] %}
+        {% assign project_themes = project["Project Information"]["Theme"] %}
+        {% for theme in project_themes %}
+            {% if theme == "Cloud Computing and Servers" %}
+                <div class="col col-12 col-md-4 pb-4">
+                    <div class="related_project_block h-100 bg-white d-flex flex-column justify-content-between align-items-start">
+                        <div class="related_project_block__content">
+                            <h3 class="font-weight-bold">{{project["Project Information"]["title"]}}</h3>
+                            <p>
+                                {{project["Project Information"]["description"] | truncatewords: 60 }}
+                            </p>
+                        </div>
+                        <a href="/projects/#{{project['key']}}" class="btn btn-lg btn-primary btn-outline-primary">
+                            Learn more
+                        </a>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>

@@ -106,7 +106,7 @@ Grub will also be enhanced to measure the DTB into a Trusted Platform Module (TP
 
 SystemReady IR can enable the best attributes of a vertical OS and an off-the-shelf distro OS but some effort and coordination is required to make this real.
 
-If you are interested in this work please subscribe to the [boot-architecture](https://lists.linaro.org/mailman/listinfo/boot-architecture) mailing list. Our next DTE call will be in early January and will be announced on the mailing list.
+If you are interested in this work please subscribe to the [boot-architecture](https://lists.linaro.org/mailman3/lists/boot-architecture.lists.linaro.org/) mailing list. Our next DTE call will be in early January and will be announced on the mailing list.
 
 ## 2020 Year in Review
 

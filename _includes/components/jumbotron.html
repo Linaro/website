@@ -43,7 +43,7 @@
 </div>
 {% else %}
 <div class="jumbotron d-flex align-items-center jumbotron-fluid {% if page.jumbotron.video %}video{% endif %}
-{% if page.jumbotron.image %}background_image{% endif%} {% if page.jumbotron.class %}{{page.jumbotron.class}}{% endif %}">
+{% if page.jumbotron.image %}background_image{% endif%} {% if page.jumbotron.class %}{{page.jumbotron.class}}{% endif %} {% if page.jumbotron.title_row %}flex-column{% endif %}">
     {% if page.jumbotron.image %}
         {% assign image_path = page.jumbotron.image  %}
         {% picture header_image {{image_path}} %}
@@ -61,26 +61,48 @@
             {% endif %}
         </video>
     {% endif %}
-    <div class="container {% if page.jumbotron.inner_class %}{{page.jumbotron.inner_class}}{% endif %}">
-        {% if page.jumbotron.svg %}
-            <div class="jumbotron-svg">
-                {% include {{page.jumbotron.svg}} %}
+    <div class="container-fluid">
+        {% if page.jumbotron.title_row %}
+        <div class="row title_row py-5">        
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12 {% if page.icon_dark %} col-md-10 col-lg-11 {% endif %}">
+                        <h1 {% if page.jumbotron.title-class %}class="{{page.jumbotron.title-class}}"{% endif %}>{{page.jumbotron.title}}</h1>
+                    </div>
+                    {% if page.icon_alt %}
+                        <div class="col col-12 col-md-2 col-lg-1 icon_col">
+                            <img class="title_icon" src="{{page.icon_alt}}" alt="{{page.title}} dark icon" />
+                        </div>
+                    {% endif %}
+                </div>
             </div>
+        </div>
         {% endif %}
-        <div class="inner_content_wrapper">
-            <h1 {% if page.jumbotron.title-class %}class="{{page.jumbotron.title-class}}"{% endif %}>{{page.jumbotron.title}}</h1>
-            {% if page.jumbotron.description %}
-            <div class="lead">
-                {{page.jumbotron.description | markdownify }}
+        <div class="row {% if page.jumbotron.title_row %}py-4{% endif %}">
+            <div class="container {% if page.jumbotron.inner_class %}{{page.jumbotron.inner_class}}{% endif %}">
+                {% if page.jumbotron.svg %}
+                    <div class="jumbotron-svg">
+                        {% include {{page.jumbotron.svg}} %}
+                    </div>
+                {% endif %}
+                <div class="inner_content_wrapper">
+                    {% unless page.jumbotron.title_row %}
+                        <h1 {% if page.jumbotron.title-class %}class="{{page.jumbotron.title-class}}"{% endif %}>{{page.jumbotron.title}}</h1>
+                    {% endunless %}
+                    {% if page.jumbotron.description %}
+                    <div class="lead">
+                        {{page.jumbotron.description | markdownify }}
+                    </div>
+                    {% endif %}
+                    {% if page.jumbotron.buttons %}
+                    <p class="lead">
+                        {% for button in page.jumbotron.buttons %}
+                            {% include flow/button.html object=button %}
+                        {% endfor %}
+                    </p>
+                    {% endif %}
+                </div>
             </div>
-            {% endif %}
-            {% if page.jumbotron.buttons %}
-            <p class="lead">
-                {% for button in page.jumbotron.buttons %}
-                    {% include flow/button.html object=button %}
-                {% endfor %}
-            </p>
-            {% endif %}
         </div>
         {% if page.jumbotron.include %}
             {% include {{page.jumbotron.include}} %}

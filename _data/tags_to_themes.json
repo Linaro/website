@@ -5,6 +5,10 @@
       "tags": ["Android Ecosystem", "LCG", "Linaro Mobile Group", "Smartphone"]
     },
     {
+      "title": "Client Devices",
+      "tags": ["Android Ecosystem", "LCG", "Linaro Mobile Group", "Smartphone"]
+    },
+    {
       "title": "Artificial Intelligence",
       "tags": ["AI", "Artificial Intelligence", "Machine Learning"]
     },
@@ -98,6 +102,26 @@
         "Security Extensions",
         "TEE",
         "Trusted Firmware"
+      ]
+    },
+    {
+      "title": "Cloud Computing and Servers",
+      "tags": [
+        "Big Data",
+        "Datacenter",
+        "Datacenter & Cloud",
+        "Developer Cloud",
+        "High Performance Computing",
+        "HPC",
+        "LDCG",
+        "LEG",
+        "Linaro Data Center Group",
+        "Linaro Developer Cloud",
+        "Linaro Developer Cloud Kubernetes",
+        "OpenStack",
+        "OpenStack Powered Cloud",
+        "Server",
+        "Servers"
       ]
     }
   ]

@@ -62,9 +62,9 @@ More information on Linaro can be found on our websites:
 
 Also subscribe to the important Linaro mailing lists to stay on top of Linaro developments:
 
-- Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
+- Announcements: [https://lists.linaro.org/mailman3/lists/linaro-announce.lists.linaro.org/](https://lists.linaro.org/mailman3/lists/linaro-announce.lists.linaro.org/)
 
-- Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
+- Development: [https://lists.linaro.org/mailman3/lists/linaro-dev.lists.linaro.org/](https://lists.linaro.org/mailman3/lists/linaro-dev.lists.linaro.org/)
 
 **KNOWN ISSUES WITH THIS RELEASE**
 
