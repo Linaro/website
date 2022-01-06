@@ -54,7 +54,7 @@ d="M1408 768q0 139-94 257t-256.5 186.5-353.5 68.5q-86 0-176-16-124 88-278 128-36
 ## See how Linaro operates first-hand
 
 Join us at the next [Linaro Connect](https://connect.linaro.org/) and subscribe to relevant [Linaro mailing
-lists](http://lists.linaro.org/mailman/listinfo).
+lists](https://lists.linaro.org/mailman3/lists/).
 
 **Running Linaro builds on your hardware**
 

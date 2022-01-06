@@ -50,7 +50,7 @@ _**About the Linaro Android Team**_
 
 _The primary goals of the Linaro Android Team is to develop and release tested [monthly builds](http://releases.linaro.org/) of Android for Galaxy Nexus, Panda, Snowball, Origen, and Versatile Express, collaborate with upstream [development efforts](https://wiki-archive.linaro.org/Platform/Android/UpstreamWork) and perform monthly [toolchain benchmarking](https://wiki-archive.linaro.org/Platform/Android/AndroidToolchainBenchmarking)._
 
-- _Mailing List:  [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
+- _Mailing List:  [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](https://lists.linaro.org/mailman3/lists/linaro-dev.lists.linaro.org/))_
 
 - _[Team Members](/about/)_
 
@@ -60,7 +60,7 @@ _**About the Linaro Kernel Team**_
 
 _The Kernel Consolidation Working Group targets the Linux kernel. Its goals are to consolidate source repositories, unify support across SoCs, develop new kernel infrastructure and features and more. Our acid test: shipping a single source tree that integrates support for multiple modern Arm SoCs._
 
-- _Mailing List: [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](http://lists.linaro.org/mailman/listinfo/linaro-dev))_
+- _Mailing List: [mailto:linaro-dev@lists.linaro.org](mailto:linaro-dev@lists.linaro.org) ([subscribe](https://lists.linaro.org/mailman3/lists/linaro-dev.lists.linaro.org/))_
 
 - _[Team Members](/about/)_
 
