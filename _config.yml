@@ -44,11 +44,11 @@ sass:
   style: compressed
   load_paths:
     - assets/css
+  sourcemap: "never"
 plugins:
   - japr
   - jekyll_picture_tag
   - jekyll-tidy
-  - jekyll-sitemap
 collections:
   company:
     output: true
@@ -289,11 +289,19 @@ picture:
   nomarkdown: false
   suppress_warnings: true
   source: ""
-  output: "assets/images"
+  output: "../generated"
   relative_url: true
+  disabled: false
 # -------- japr --------
 asset_pipeline:
   bundle: true
   compress: true
   output_path: assets/js
   gzip: true
+# Jekyll-polyglot
+i18n_enabled: true
+languages: ["en", "ja"]
+default_lang: "en"
+exclude_from_localization:
+  ["javascript", "images", "css", "public", "assets", "generated"]
+parallel_localization: false
