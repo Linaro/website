@@ -125,6 +125,7 @@ defaults:
       tags_enabled: false
       author: linaro
       permalink: /events/:title/
+      published: false
       categories: ["event_resources"]
   - scope:
       path: "_posts/awards"
