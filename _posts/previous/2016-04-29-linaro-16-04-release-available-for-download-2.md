@@ -25,7 +25,7 @@ wordpress_id: 10555
 
 > “Digital circuits are made from analog parts." _**~ Don Vonada**_
 
-Linaro 16.04 release is now available for download. See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. We encourage everybody to use the 16.04 release. To sign-up for the release mailing list go here: [https://lists.linaro.org/mailman/listinfo/linaro-release ](https://lists.linaro.org/mailman/listinfo/linaro-release)
+Linaro 16.04 release is now available for download. See the detailed highlights of this release to get an overview of what has been accomplished by the Working Groups, Landing Teams and Platform Teams. We encourage everybody to use the 16.04 release. To sign-up for the release mailing list go here: [https://lists.linaro.org/mailman3/lists/linaro-release.lists.linaro.org/](https://lists.linaro.org/mailman3/lists/linaro-release.lists.linaro.org/)
 
 Both LSK and LNG tarball releases have been discontinued this cycle and the preferred way of procuring a release is through [git.linaro.org](http://git.linaro.org/).
 
@@ -67,9 +67,9 @@ More information on Linaro can be found on our websites:
 
 Also subscribe to the important Linaro mailing lists to stay on top of Linaro developments:
 
-- Announcements: [http://lists.linaro.org/mailman/listinfo/linaro-announce](http://lists.linaro.org/mailman/listinfo/linaro-announce)
+- Announcements: [https://lists.linaro.org/mailman3/lists/linaro-announce.lists.linaro.org/](https://lists.linaro.org/mailman3/lists/linaro-announce.lists.linaro.org/)
 
-- Development: [http://lists.linaro.org/mailman/listinfo/linaro-dev](http://lists.linaro.org/mailman/listinfo/linaro-dev)
+- Development: [https://lists.linaro.org/mailman3/lists/linaro-dev.lists.linaro.org/](https://lists.linaro.org/mailman3/lists/linaro-dev.lists.linaro.org/)
 
 **KNOWN ISSUES WITH THIS RELEASE**
 
