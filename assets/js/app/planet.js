@@ -18,7 +18,7 @@ var feeds = [
   "https://marcin.juszkiewicz.com.pl/feed/", // Marcin Juszkiewicz
   "https://fullshovel.wordpress.com/feed/", // Tom Gall
   "https://translatedcode.wordpress.com/feed/", // Peter Maydell
-  "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro", // Riku Voipio
+  // "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro", // Riku Voipio
   "http://nerdrambles.wordpress.com/category/Linaro/feed/", // James Arnett
   "https://www.bennee.com/~alex/blog/tag/linaro/feed", // Alex Bennee
   "https://station.eciton.net/index.rss", // Leif Lindholm
