@@ -19,6 +19,12 @@ else
   PORTS=""
 fi
 
+if [ -z "$SKIP_JEKYLL_DOCTOR" ]; then
+  export SKIP_JEKYLL_DOCTOR="skip"
+else
+  export SKIP_JEKYLL_DOCTOR=""
+fi
+
 # Are we running interactively or via Bamboo?
 if [ -t 1 ]; then
   INTER="-i"
@@ -34,6 +40,7 @@ docker run \
   $PORTS \
   -e JEKYLL_ACTION \
   -e JEKYLL_ENV \
+  -e SKIP_JEKYLL_DOCTOR \
   -v /etc/passwd:/etc/passwd:ro \
   -v /etc/group:/etc/group:ro \
   -u "$(id -u)":"$(id -g)" \
