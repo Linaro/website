@@ -1,5 +1,6 @@
 ---
 id: 3
+title_id: IoT & Embedded
 title: IoT & Embedded
 sub_theme: false
 permalink: /iot-and-embedded/

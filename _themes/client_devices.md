@@ -1,5 +1,6 @@
 ---
 id: 15
+title_id: Client Devices
 title: Client Devices
 sub_theme: false
 permalink: /client-devices/

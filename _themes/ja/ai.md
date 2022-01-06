@@ -1,6 +1,7 @@
 ---
 id: 1
 title: 人工知能
+title_id: Artificial Intelligence
 sub_theme: false
 lang: ja
 sub_themes:

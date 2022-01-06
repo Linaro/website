@@ -1,5 +1,6 @@
 ---
 id: 4
+title_id: Kernel & Toolchain
 title: Kernel & Toolchain
 sub_theme: false
 permalink: /kernel-and-toolchain/
