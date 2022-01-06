@@ -9,3 +9,5 @@ Gemfile.lock
 .asset_pipeline
 .jekyll-cache
 *:Zone.Identifier
+generated
+scripts
