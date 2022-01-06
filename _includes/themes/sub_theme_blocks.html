@@ -3,7 +3,7 @@
         <div class="row sub_theme_blocks">
             {% for sub_theme in page.sub_themes %}
                 {% for theme in site.themes %}
-                    {% if theme.title == sub_theme %}
+                    {% if theme.title_id == sub_theme %}
                         <div class="col col-12 col-md-4 py-5 py-md-2">
                             <div class="card h-100 background_image text-white border border-white rounded-0">
                                 {% capture image_alt %}{{theme.title}}{% endcapture%}
@@ -13,7 +13,7 @@
                                     <p class="card-text">{{theme.description}}</p>
                                     <button type="button" class="btn btn-primary text-uppercase text-dark" data-toggle="modal"
                                     data-target="#{{theme.title | slugify}}">
-                                        Learn more
+                                        {{site.data.translations.learnMore}}
                                     </button>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@
                                         </div>
                                         {% if theme.content_link %}
                                         <div class="modal-footer justify-content-start">
-                                            <a class="btn btn-primary text-uppercase text-dark" href="{{content_link}}">Learn More</a>
+                                            <a class="btn btn-primary text-uppercase text-dark" href="{{content_link}}">{{site.data.translations.learnMore}}</a>
                                         </div>
                                         {% endif %}
                                     </div>

@@ -3,7 +3,7 @@
         {% for project in site.data.projects["projects"] %}
             {% assign project_themes = project["Project Information"]["Theme"] %}
             {% for theme in project_themes %}
-                {% if theme == page.title %}
+                {% if theme == page.title_id %}
                     <div class="col col-12 col-sm-6">
                         <a href="/projects/#{{project['key']}}">
                             <div class="related_project">

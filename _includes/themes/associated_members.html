@@ -1,5 +1,5 @@
 {% for theme in site.data.theme_members %}
-    {% if theme.name == page.title %}
+    {% if theme.name == page.title_id %}
         {% assign members = theme.members %}
     {% endif %}
 {% endfor %}
