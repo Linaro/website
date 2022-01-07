@@ -5,10 +5,20 @@
         {% picture feature_block_image {{image_url}} --alt {{image_alt}} %}
         <div class="latest_events_wrapper">
             <ul class="list-group list-group-flush my-3">
-                {% assign webinar_events = site.categories["Events"] | where: "event_type", "tech_days" | sort: "event_date"  %}
-                {% for event in webinar_events limit: 3  %}
+                {% assign tech_day_events = site.categories["Events"] | where: "event_type", "tech_days" | sort: "event_date"  %}
+                {% assign upcoming_events = '' | split: '' %}
+                {% for post in tech_day_events %}
+                    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                    {% assign event_date = post.event_date | date: '%s' %}
+                    {% if event_date < nowunix %}
+                    {% else %}
+                        {% assign upcoming_events = upcoming_events | push: post %}
+                    {% endif %}
+                {% endfor %}
+                {% for event in upcoming_events limit: 3  %}
                     <li class="list-group-item">
                         {{event.title}} <br/>
+                        {{event.event_date | date: "%B %d, %Y" }} <br/>
                         <a href="{{event.url}}">Find out more</a>
                     </li>
                 {% endfor %}
@@ -21,10 +31,21 @@
         {% picture feature_block_image {{image_url}} --alt {{image_alt}} %}
         <div class="latest_events_wrapper">
             <ul class="list-group list-group-flush my-3">
+
                 {% assign webinar_events = site.categories["Events"] | where: "event_type", "webinar" | sort: "event_date" %}
-                {% for event in webinar_events limit: 3  %}
+                {% assign upcoming_events = '' | split: '' %}
+                {% for post in webinar_events %}
+                    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                    {% assign event_date = post.event_date | date: '%s' %}
+                    {% if event_date < nowunix %}
+                    {% else %}
+                        {% assign upcoming_events = upcoming_events | push: post %}
+                    {% endif %}
+                {% endfor %}
+                {% for event in upcoming_events limit: 3  %}
                     <li class="list-group-item">
                         {{event.title}} <br/>
+                        {{event.event_date | date: "%B %d, %Y" }} <br/>
                         <a href="{{event.url}}">Find out more</a>
                     </li>
                 {% endfor %}
