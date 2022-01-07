@@ -14,6 +14,7 @@ $(document).ready(function () {
       let lang = $(this).attr("data-lang");
       console.log("Clicked lang: ", lang);
       localStorage.setItem("siteLang", lang);
+      localStorage.setItem("siteLangOverride", true);
       checkUserIsOnCorrectLanguage(lang);
     });
 
@@ -53,16 +54,19 @@ $(document).ready(function () {
     };
     // Get the current siteLang from local storage.
     const currentSetLang = localStorage.getItem("siteLang");
+    const userOverriden = localStorage.getItem("siteLangOverride");
     // Get the current set lang on the browser.
     var browserLang = navigator.language || navigator.userLanguage;
     // Check to see if currentLang is null or not the same as the browser lang.
     console.log("Current set lang:", currentSetLang);
     console.log("Browser lang:", browserLang);
-    if (currentSetLang === null) {
+    if (
+      currentSetLang === null ||
+      (currentSetLang !== browserLang && userOverriden === null)
+    ) {
       console.log("No current language set or the browser lang is different.");
       // Get the available locale keys.
       let availableKeys = Object.keys(i18n_site_versions);
-
       if (availableKeys.includes(browserLang)) {
         localStorage.setItem("siteLang", browserLang);
         checkUserIsOnCorrectLanguage(browserLang);
