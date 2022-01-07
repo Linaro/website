@@ -73,6 +73,7 @@ $(document).ready(function () {
       } else {
         console.log("No alternate language available");
         localStorage.setItem("siteLang", "en");
+        checkUserIsOnCorrectLanguage("en");
       }
     } else {
       console.log("A current language has been set.");
