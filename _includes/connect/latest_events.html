@@ -5,8 +5,8 @@
         {% picture feature_block_image {{image_url}} --alt {{image_alt}} %}
         <div class="latest_events_wrapper">
             <ul class="list-group list-group-flush my-3">
-                {% assign webinar_events = site.categories["Events"] | where: "event_type", "tech_days" | sort: "event_date" | limit: 3 %}
-                {% for event in webinar_events %}
+                {% assign webinar_events = site.categories["Events"] | where: "event_type", "tech_days" | sort: "event_date"  %}
+                {% for event in webinar_events limit: 3  %}
                     <li class="list-group-item">
                         {{event.title}} <br/>
                         <a href="{{event.url}}">Find out more</a>
@@ -21,8 +21,8 @@
         {% picture feature_block_image {{image_url}} --alt {{image_alt}} %}
         <div class="latest_events_wrapper">
             <ul class="list-group list-group-flush my-3">
-                {% assign webinar_events = site.categories["Events"] | where: "event_type", "webinar" | sort: "event_date" | limit: 3 %}
-                {% for event in webinar_events  %}
+                {% assign webinar_events = site.categories["Events"] | where: "event_type", "webinar" | sort: "event_date" %}
+                {% for event in webinar_events limit: 3  %}
                     <li class="list-group-item">
                         {{event.title}} <br/>
                         <a href="{{event.url}}">Find out more</a>
