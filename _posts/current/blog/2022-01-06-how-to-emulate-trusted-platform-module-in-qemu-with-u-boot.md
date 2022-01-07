@@ -57,6 +57,10 @@ you enable `CONFIG_CMD_EFIDEBUG` as well, since we will need it to
 boot our kernel.
 
 ```
+# needed when cross-compiling
+set -x ARCH arm64
+set -x CROSS_COMPILE aarch64-linux-gnu-
+# then do the build
 make -j $(nproc)
 popd
 ```
