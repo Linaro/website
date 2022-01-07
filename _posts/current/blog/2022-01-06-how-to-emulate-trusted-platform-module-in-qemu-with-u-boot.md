@@ -44,23 +44,58 @@ It can be tricky to find an Arm device with a TPMv2. If you have a board with an
 
 ## Building U-Boot
 
-{% include image.html path="/assets/images/content/building-uboot-image-1.png" alt="Building Uboot image 1" %}
+```
+git clone https://github.com/u-boot/u-boot.git
+pushd u-boot
+make qemu_arm64_defconfig
+make menuconfig
+```
+
+The qemu defconfig includes the needed `CONFIG_TPM`,
+`CONFIG_TPM2_MMIO` and `CONFIG_EFI_TCG2_PROTOCOL` options. Make sure
+you enable `CONFIG_CMD_EFIDEBUG` as well, since we will need it to
+boot our kernel.
+
+```
+make -j $(nproc)
+popd
+```
 
 ## Running QEMU
 
 Make sure swtpm is installed and running on your system. For Debian and friends there's a swtpm package, so just do
 
-{% include image.html path="/assets/images/content/running-qemu-image-1.png" alt="Running EQMU image 1" %}
+```
+sudo apt install swtpm
+mkdir /tmp/mytpm1
+swtpm socket --tpmstate dir=/tmp/mytpm1 \
+    --ctrl type=unixio,path=/tmp/mytpm1/swtpm-sock \
+    --log level=40 --tpm2 -t -d
+```
 
 and launch QEMU with swtpm support
 
-{% include image.html path="/assets/images/content/running-qemu-image-2.png" alt="Running EQMU image 2" %}
+```
+qemu-system-aarch64 -nographic -no-acpi \
+    -bios u-boot.bin -machine virt \
+    -cpu cortex-a57 -m 2G \
+    -drive if=virtio,file=<your qcow2> \
+    -chardev socket,id=chrtpm,path=/tmp/mytpm1/swtpm-sock \
+    -tpmdev emulator,id=tpm0,chardev=chrtpm \
+    -decice tpm-tis-device,tpmdev=tpm0
+```
 
 ## Booting linux
 
 From U-Boot's command line do something along the lines of
 
-{% include image.html path="/assets/images/content/booting-linux-image-1.png" alt="Booting Linux image 1" %}
+```
+virtio scan
+efidebug boot add -b 0 'Linux' virtio 0 boot/Image -s
+'root=/dev/vda'
+efidebug boot order 0
+bootefi bootmgr
+```
 
 If everything is compiled and launched correctly, you should see the kernel reporting the location of some related EventLog pointers.
 
@@ -70,7 +105,9 @@ If everything is compiled and launched correctly, you should see the kernel repo
 
 I am using a debian qcow2 image, where I have installed the latest tpm2 tools. If you don't have them install them with
 
-{% include image.html path="/assets/images/content/reading-the-eventlog-image-1.png" alt="Reading the eventlog image 1" %}
+```
+sudo apt install tpm2-tools
+```
 
 The kernel exposes the eventlog in /sys. So you can read it with:
 
