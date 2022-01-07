@@ -102,11 +102,11 @@
                     </p>
                     {% endif %}
                 </div>
+                {% if page.jumbotron.include %}
+                    {% include {{page.jumbotron.include}} %}
+                {% endif %}
             </div>
         </div>
-        {% if page.jumbotron.include %}
-            {% include {{page.jumbotron.include}} %}
-        {% endif %}
     </div>
 </div>
 {% endif %}
