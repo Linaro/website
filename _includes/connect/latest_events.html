@@ -15,13 +15,20 @@
                         {% assign upcoming_events = upcoming_events | push: post %}
                     {% endif %}
                 {% endfor %}
-                {% for event in upcoming_events limit: 3  %}
+                {% assign number_of_events = upcoming_events | size %}
+                {% if number_of_events > 0 %}
+                    {% for event in upcoming_events limit: 3  %}
+                        <li class="list-group-item">
+                            {{event.title}} <br/>
+                            {{event.event_date | date: "%B %d, %Y" }} <br/>
+                            <a href="{{event.url}}">Find out more</a>
+                        </li>
+                    {% endfor %}
+                {% else %}
                     <li class="list-group-item">
-                        {{event.title}} <br/>
-                        {{event.event_date | date: "%B %d, %Y" }} <br/>
-                        <a href="{{event.url}}">Find out more</a>
+                        No upcoming Linaro Connect Tech Day events.
                     </li>
-                {% endfor %}
+                {% endif %}
             </ul>
         </div>
     </div>
@@ -42,13 +49,20 @@
                         {% assign upcoming_events = upcoming_events | push: post %}
                     {% endif %}
                 {% endfor %}
-                {% for event in upcoming_events limit: 3  %}
+                {% assign number_of_events = upcoming_events | size %}
+                {% if number_of_events > 0 %}
+                    {% for event in upcoming_events limit: 3  %}
+                        <li class="list-group-item">
+                            {{event.title}} <br/>
+                            {{event.event_date | date: "%B %d, %Y" }} <br/>
+                            <a href="{{event.url}}">Find out more</a>
+                        </li>
+                    {% endfor %}
+                {% else %}
                     <li class="list-group-item">
-                        {{event.title}} <br/>
-                        {{event.event_date | date: "%B %d, %Y" }} <br/>
-                        <a href="{{event.url}}">Find out more</a>
+                        No upcoming Linaro Connect Webinar events.
                     </li>
-                {% endfor %}
+                {% endif %}
             </ul>
         </div>
     </div>
