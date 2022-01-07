@@ -5,18 +5,13 @@
         {% picture feature_block_image {{image_url}} --alt {{image_alt}} %}
         <div class="latest_events_wrapper">
             <ul class="list-group list-group-flush my-3">
-                <li class="list-group-item">
-                    February 15 - Client Services <br/>
-                    <a href="/events/">Find out more</a>
-                </li>
-                <li class="list-group-item">
-                    May 15 - Cloud Computing <br/>
-                    <a href="/events/">Find out more</a>
-                </li>
-                <li class="list-group-item">
-                    September 15 - Automotive, IoT & Edge <br/>
-                    <a href="/events/">Find out more</a>
-                </li>
+                {% assign webinar_events = site.categories["Events"] | where: "event_type", "tech_days" | sort: "event_date" | limit: 3 %}
+                {% for event in webinar_events %}
+                    <li class="list-group-item">
+                        {{event.title}} <br/>
+                        <a href="{{event.url}}">Find out more</a>
+                    </li>
+                {% endfor %}
             </ul>
         </div>
     </div>
@@ -26,18 +21,13 @@
         {% picture feature_block_image {{image_url}} --alt {{image_alt}} %}
         <div class="latest_events_wrapper">
             <ul class="list-group list-group-flush my-3">
-                <li class="list-group-item">
-                    February 1 - Kernel Debug Training <br/>
-                    <a href="/events/">Find out more</a>
-                </li>
-                <li class="list-group-item">
-                    March 15 - Qualcomm Modem/IPA <br/>
-                    <a href="/events/">Find out more</a>
-                </li>
-                <li class="list-group-item">
-                    June 15 - Software Supply Chain <br/>
-                    <a href="/events/">Find out more</a>
-                </li>
+                {% assign webinar_events = site.categories["Events"] | where: "event_type", "webinar" | sort: "event_date" | limit: 3 %}
+                {% for event in webinar_events  %}
+                    <li class="list-group-item">
+                        {{event.title}} <br/>
+                        <a href="{{event.url}}">Find out more</a>
+                    </li>
+                {% endfor %}
             </ul>
         </div>
     </div>
