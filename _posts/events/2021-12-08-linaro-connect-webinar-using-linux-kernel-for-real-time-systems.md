@@ -1,6 +1,5 @@
 ---
-title: "Linaro Connect Webinar: Using Linux kernel for Real-Time Systems
-  (Exclusive Member Training)"
+title: Using Linux kernel for Real-Time Systems (Member exclusive Linaro Tech Webinar)
 event: linux-for-realtime-systems
 description: "Member only training "
 location: "Online "
