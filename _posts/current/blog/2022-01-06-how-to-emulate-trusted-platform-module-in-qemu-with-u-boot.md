@@ -51,7 +51,12 @@ make qemu_arm64_defconfig
 make menuconfig
 ```
 
-{% include image.html path="/assets/images/content/building-uboot-image-1.png" alt="Building Uboot image 1" %}
+The qemu defconfig includes the needed CONFIG_TPM, CONFIG_TPM2_MMIO and CONFIG_EFI_TCG2_PROTOCOL options. Make sure you enable CONFIG_CMD_EFIDEBUG as well, since we will need it to boot our kernel.
+
+```
+make -j $(nproc)
+popd
+```
 
 ## Running QEMU
 
@@ -74,10 +79,7 @@ qemu-system-aarch64 -nographic -no-acpi \
 -drive if=virtio,file=<your qcow2> \  
 -chardev socket,id=chrtpm,path=/tmp/mytpm1/swtpm-sock \  	-tpmdev emulator,id=tpm0,chardev=chrtpm \  	
 -device tpm-tis-device,tpmdev=tpm0
-
 ```
-
-
 
 ## Booting linux
 
