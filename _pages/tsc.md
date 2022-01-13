@@ -1,10 +1,14 @@
 ---
 title: The Technical Steering Committee
 description: >
-  The Linaro Technical Steering Committee (TSC) has technical oversight over all Linaro activities. The TSC is chaired by Linaro’s CTO and includes technologists from each of the Linaro member companies, representatives of Linaro’s engineering projects and teams plus Linaro’s CEO, CTO and VP of Engineering.
+  The Linaro Technical Steering Committee (TSC) has technical oversight over all
+  Linaro activities. The TSC is chaired by Linaro’s CTO and includes
+  technologists from each of the Linaro member companies, representatives of
+  Linaro’s engineering projects and teams plus Linaro’s CEO, CTO and VP of
+  Engineering.
 permalink: /tsc/
-layout: flow
 js-package: contactForm
+layout: flow
 jumbotron:
   class: text-center header_2021
   title: The Technical Steering Committee
@@ -17,8 +21,13 @@ flow:
       - format: text
         style: text-left
         text_content:
-          text: |
-            The Linaro Technical Steering Committee (TSC) has technical oversight over all Linaro activities. The TSC is chaired by Linaro’s CTO and includes technologists from each of the Linaro member companies, representatives of Linaro’s engineering projects and teams plus Linaro’s CEO, CTO and VP of Engineering.
+          text: >
+            The Linaro Technical Steering Committee (TSC) has technical
+            oversight over all Linaro activities. The TSC is chaired by Linaro’s
+            CTO and includes technologists from each of the Linaro member
+            companies, representatives of Linaro’s engineering projects and
+            teams plus Linaro’s CEO, CTO and VP of Engineering.
+
 
             Linaro's TSC is open - if you are interested in finding out more or would like to join our upcoming Technical Steering Committee meeting, click the button below.
       - format: buttons
@@ -40,9 +49,10 @@ flow:
       - format: text
         style: text-left bg-white p-3 my-3
         text_content:
-          text: |
-            Wednesday 1 December 2021
-            Wednesday 5 January 202
+          text: |-
+            Wednesday 19 January 2022
+
+            Wednesday 16 February 2022
       - format: title
         style: bg-white p-3
         title_content:
@@ -53,8 +63,9 @@ flow:
       - format: text
         style: text-left bg-white p-3 my-3
         text_content:
-          text: |
-            [Notes from previous meeting](/downloads/)
+          text: "[Notes from previous
+            meeting](https://linaro.atlassian.net/wiki/spaces/TSC/pages/2731579\
+            8305/2021-04-21+TSC+Strategic+Meeting)"
   - row: custom_include_row
     source: engagement_request_form.html
 ---
