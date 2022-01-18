@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linaro contributions to the Linux Kernel 5.16 Release "
-description: "The Linux kernel 5.16 was released was last. As always, Linaro
+description: "The Linux kernel 5.16 was released last week. As always, Linaro
   featured in the list with several notable contributions from our highly
   skilled Kernel Engineers. In this blog, we asked these engineers to talk about
   their contributions to this release. "
