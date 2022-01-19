@@ -50,7 +50,7 @@ flow:
         style: text-left bg-white p-3 my-3
         text_content:
           text: >-
-            [Wednesday 19 January
+            [Wednesday 20 January
             2022](https://linaro.atlassian.net/l/c/cKp7NF0B)
 
 
