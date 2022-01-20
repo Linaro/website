@@ -45,6 +45,11 @@ flow:
             url: /assets/downloads/Recruitment-and-SelectionPolicyProcedure.pdf
             style: btn-secondary careers_btn
   - row: container_row
+    style: buttons_row
+    sections:
+      - format: custom_include
+        source: careers/careers_teamtailor.html
+  - row: container_row
     style: internship_row bg-primary text-white
     sections:
       - format: custom_include
