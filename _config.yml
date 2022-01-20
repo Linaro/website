@@ -301,7 +301,7 @@ asset_pipeline:
   gzip: true
 # Jekyll-polyglot
 i18n_enabled: true
-languages: ["en", "ja"]
+languages: ["en", "ja", "ch"]
 default_lang: "en"
 exclude_from_localization:
   ["javascript", "images", "css", "public", "assets", "generated"]
