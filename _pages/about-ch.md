@@ -26,8 +26,7 @@ flow:
           text: >-
             自 2010 年以来，Linaro 一直在推动 Arm 上的开源软件开发，提供了坚实的创新基础所需的工具、Linux 内核质量和安全性。 Linaro 与成员公司和开源社区合作，维护 Arm 软件生态系统并为 Arm 架构开辟新市场。
 
-
-            随着技术的发展，Linaro 也在发展。 虽然我们继续通过我们在 [工具链](https://www.linaro.org/kernel-and-toolchain/)、[安全](https://www. linaro.org/security/) 和 [持续集成测试](https://www.linaro.org/os-build-and-test/)，我们还在多种技术和垂直领域开展工作以支持 Arm 技术。 其中包括[人工智能](https://www.linaro.org/artificial-intelligence/)、[Android 生态系统](https://www.linaro.org/client-devices/)、[数据中心和云]( https://www.linaro.org/cloud-computing-and-servers/)、[边缘和雾计算](https://www.linaro.org/trusted-substrate/) 和[物联网和嵌入式](https ://www.linaro.org/iot-and-embedded/)。
+            随着技术的发展，Linaro 也在发展。 虽然我们继续通过我们在 [工具链](/kernel-and-toolchain/)、[安全](/security/) 和 [持续集成测试](/os-build-and-test/)，我们还在多种技术和垂直领域开展工作以支持 Arm 技术。 其中包括[人工智能](/artificial-intelligence/)、[Android 生态系统](/client-devices/)、[数据中心和云](/cloud-computing-and-servers/)、[边缘和雾计算](/trusted-substrate/) 和[物联网和嵌入式](/iot-and-embedded/)。
   - row: container_row
     style: bg-light-green
     sections:
