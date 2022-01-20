@@ -1,0 +1,29 @@
+universal_nav: true
+search:
+  enabled: true
+  label: Linaro
+expand_breakpoint: xl
+brand:
+  path: /assets/images/Linaro-Logo.svg
+  alt: Linaro logo
+pages:
+  - title: 项目
+    url: /projects/
+  - title: 会员资格
+    url: /membership/
+  - title: 服务
+    url: /services/
+  - title: 支持
+    url: /support/
+  - title: 下载
+    url: /downloads/
+  - title: 关于
+    options:
+      - text: 关于我们
+        url: /about/
+      - text: 博客
+        url: /blog/
+      - text: 活动
+        url: /events/
+      - text: 消息
+        url: /news/
