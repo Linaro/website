@@ -49,10 +49,12 @@ flow:
       - format: text
         style: text-left bg-white p-3 my-3
         text_content:
-          text: |-
-            Wednesday 19 January 2022
+          text: >-
+            [Wednesday 20 January
+            2022](https://linaro.atlassian.net/l/c/cKp7NF0B)
 
-            Wednesday 16 February 2022
+
+            [](https://linaro.atlassian.net/l/c/cKp7NF0B)Wednesday 16 February 2022
       - format: title
         style: bg-white p-3
         title_content:
