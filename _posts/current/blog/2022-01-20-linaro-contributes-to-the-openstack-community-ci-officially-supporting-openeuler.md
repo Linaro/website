@@ -2,10 +2,9 @@
 layout: post
 title: Linaro contributes to the OpenStack community CI officially supporting
   openEuler
-description: "At the end of 2021, openEuler enterest the list of Openstack
-  official CI test operation systems. In this blog, Linaro Engineers Linaro
-  Engineers Kevin Zhao and Xinliang Liu talk about the work involved in making
-  this happen. "
+description: "At the end of 2021, openEuler entered the list of Openstack
+  official CI test operation systems. In this blog, Linaro Engineers Kevin Zhao
+  and Xinliang Liu talk about the work involved in making this happen. "
 date: 2022-01-20 09:49:21 +00:00
 image: /assets/images/content/openstack-special-interest-group.png
 tags:
@@ -16,7 +15,7 @@ tags:
   - Huawei
   - Linaro
 category: blog
-author: kevin.zhao@linaro.org
+author: joyce.qi
 ---
 During the last day of 2021, the openEuler OpenStack SIG delivered a 2022 New Year’s gift to the developers in the OpenStack and openEuler open source communities: openEuler has successfully entered the list of OpenStack official CI test operation systems, and [DevStack, the most widely used by OpenStack developers, officially supports openEuler](https://review.opendev.org/c/openstack/devstack/+/760790)!
 
@@ -42,7 +41,10 @@ In early 2021, developers from Huawei, Linaro, Unicom Digital and China Telecom 
 
 ### What have we achieved with openEuler so far?
 
-In the middle of 2021, Linaro engineer Xinliang Liu completed the [openEuler image build  in the OpenStack upstream community](https://review.opendev.org/c/openstack/diskimage-builder/+/784363), which made the foundation for openEuler support. At the same time, developers from Huawei completed the related work of openEuler accessing the OpenStack upstream CI resource pool. Finally, the [introduction of openEuler into the OpenStack community was officially completed](https://zuul.opendev.org/t/openstack/job/devstack-platform-openEuler-20.03-SP2). Now the OpenStack upstream community not only has CI to guarantee the quality of openEuler, but users can also quickly deploy a set of OpenStack environments based on openEuler through DevStack.DevStack is an OpenStack rapid deployment kit officially developed by the OpenStack community. It is used to quickly build a complete OpenStack environment based on the latest version or specified version of git master. It is a necessary development kit for daily OpenStack developers, and all the CI tests of [all OpenStack projects are using DevStack to do the corresponding environment deployment](https://docs.openstack.org/devstack/latest/#quick-start). Now that DevStack supports openEuler, it not only provides a great help for the development work of OpenStack and openEuler developers, but also provides a technical foundation for the verification of the upstream CI of more projects in OpenStack on openEuler.
+In the middle of 2021, Linaro engineer Xinliang Liu completed the [openEuler image build  in the OpenStack upstream community](https://review.opendev.org/c/openstack/diskimage-builder/+/784363), which made the foundation for openEuler support. At the same time, developers from Huawei completed the related work of openEuler accessing the OpenStack upstream CI resource pool. Finally, the [introduction of openEuler into the OpenStack community was officially completed](https://zuul.opendev.org/t/openstack/job/devstack-platform-openEuler-20.03-SP2). Now the OpenStack upstream community not only has CI to guarantee the quality of openEuler, but users can also quickly deploy a set of OpenStack environments based on openEuler through DevStack.
+
+DevStack is an OpenStack rapid deployment kit officially developed by the OpenStack community. It is used to quickly build a complete OpenStack environment based on the latest version or specified version of git master. It is a necessary development kit for daily OpenStack developers, and all the CI tests of [all OpenStack projects are using DevStack to do the corresponding environment deployment](https://docs.openstack.org/devstack/latest/#quick-start). Now that DevStack supports openEuler, it not only provides a great help for the development work of OpenStack and openEuler developers, but also provides a technical foundation for the verification of the upstream CI of more projects in OpenStack on openEuler.
+
 At the same time, openEuler OpenStack SIG has completed the adaptation, verification and software packages of OpenStack core components of Queens, Rocky, Train, Victoria, Wallaby, etc. in multiple versions of openEuler 20.03 LTS, 21.03, 21.09, etc. [The release work](https://gitee.com/openeuler/openstack) provides openEuler users with easy-to-use and useful OpenStack software. In the future, we will continue to work to promote the integration and verification of openEuler by the main component communities in OpenStack，as well as the adaptation and tuning of each component on openEuler，and the integration with openEuler community innovation projects.
 
 {% include image.html path="/assets/images/content/openstack-special-interest-group.png" alt="Openstack Special Interest Group" %}
@@ -57,7 +59,7 @@ openEuler OpenStack SIG: 陈锐、陈硕、黄填华、李昆山、李佳伟、X
 
 For more information on the work Linaro does on openEuler, please check :
 
-* Support OpenEuler in OpenStack Disk Image Builder：https://linaro.atlassian.net/browse/EULR-10
+* Support OpenEuler in OpenStack Disk Image Builder：<https://linaro.atlassian.net/browse/EULR-10>
 * Support openEuler in OpenStack Devstack and enable basic tempest test：
-  https://linaro.atlassian.net/browse/EULR-11
-* openEuler website：https://www.openeuler.org/en/
+  <https://linaro.atlassian.net/browse/EULR-11>
+* openEuler website：<https://www.openeuler.org/en/>
