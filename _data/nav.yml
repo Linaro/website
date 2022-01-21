@@ -21,6 +21,8 @@ pages:
     options:
       - text: About Us
         url: /about/
+      - text: Careers
+        url: https://careers.linaro.org
       - text: Blogs
         url: /blog/
       - text: Events
