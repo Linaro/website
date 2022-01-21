@@ -1,5 +1,5 @@
 ---
-title: Kernel Debug Stories for Arm (Linaro Connect Tech Webinar)
+title: Kernel Debug Stories for Arm [Linaro Connect Tech Webinar]
 event: kernel-debug-stories-2021
 description: "Public Webinar "
 location: "Online "
