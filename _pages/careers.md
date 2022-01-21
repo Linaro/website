@@ -12,9 +12,9 @@ jumbotron:
   inner_class: text-center
   image: /assets/images/content/careers-image-1.jpg
   buttons:
-    - title: View our Vacancies
+    - title: View our Careers Portal
       class: btn btn-primary mt-3
-      url: https://www.linkedin.com/company/linaro/jobs/
+      url: https://careers.linaro.org
 flow:
   - row: container_row
     style: large_type introduction_row py-0
