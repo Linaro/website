@@ -21,7 +21,7 @@ pages:
     options:
       - text: About Us
         url: /about/
-      - test: Careers
+      - text: Careers
         url: /careers/
       - text: Blogs
         url: /blog/
