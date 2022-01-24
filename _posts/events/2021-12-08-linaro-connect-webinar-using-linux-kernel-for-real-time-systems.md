@@ -42,13 +42,6 @@ Details:
 -Format: Live, Zoom webinar and live streamed to Youtube \
 -Availability: Open to Linaro Members only \
 -Cost: Free\
--[Registration](https://www.cognitoforms.com/Linaro1/MemberTrainingUsingLinuxKernelForRealTimeSystems): Open, Complete the form below, or follow this [link](https://www.cognitoforms.com/Linaro1/MemberTrainingUsingLinuxKernelForRealTimeSystems) **\*Member code required** (Members have been emailed with the access code. If you are an employee of a [Linaro member company](https://www.linaro.org/membership/) and need the code, please email marketing@linaro.org)
+-[Registration](https://www.cognitoforms.com/Linaro1/MemberTrainingUsingLinuxKernelForRealTimeSystems) is now closed. 
 
-
-
-**Register Below:** 
-
-<div class="cognito">
-<script src="https://www.cognitoforms.com/s/KvRQmIn2dku6k6gGP711jw"></script>
-<script>Cognito.load("forms", { id: "22" });</script>
-</div>
+**Registration is now closed for this event. If you are an employee of a Linaro member company and would like to request a late registration please email marketing@linaro.org**
