@@ -1,5 +1,6 @@
 ---
 sub_theme: true
+lang: ch
 image: /assets/images/content/microcontroller.jpg
 title_id: Microcontrollers
 title: Microcontrollers

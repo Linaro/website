@@ -1,5 +1,6 @@
 ---
 sub_theme: true
+lang: ja
 image: /assets/images/content/Datacenter.jpg
 title_id: HPC / Server
 title: HPC /サーバー

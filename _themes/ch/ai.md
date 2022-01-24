@@ -1,7 +1,7 @@
 ---
 id: 1
+title: 人工智能
 title_id: Artificial Intelligence
-title: Artificial Intelligence
 sub_theme: false
 lang: ch
 sub_themes:

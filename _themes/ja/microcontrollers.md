@@ -1,5 +1,6 @@
 ---
 sub_theme: true
+lang: ja
 image: /assets/images/content/microcontroller.jpg
 title_id: Microcontrollers
 title: マイクロコントローラ

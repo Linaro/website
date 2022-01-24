@@ -1,5 +1,6 @@
 ---
 sub_theme: true
+lang: ch
 image: /assets/images/content/Edge_Computing.jpg
 title_id: Edge
 title: 边缘
