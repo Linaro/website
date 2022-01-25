@@ -11,10 +11,6 @@ jumbotron:
   description: ""
   inner_class: text-center
   image: /assets/images/content/careers-image-1.jpg
-  buttons:
-    - title: View our Vacancies
-      class: btn btn-primary mt-3
-      url: https://www.linkedin.com/company/linaro/jobs/
 flow:
   - row: container_row
     style: large_type introduction_row py-0
@@ -44,6 +40,11 @@ flow:
           - title: View our Recruitment Policy
             url: /assets/downloads/Recruitment-and-SelectionPolicyProcedure.pdf
             style: btn-secondary careers_btn
+  - row: container_row
+    style: buttons_row
+    sections:
+      - format: custom_include
+        source: careers/careers_teamtailor.html
   - row: container_row
     style: internship_row bg-primary text-white
     sections:
