@@ -209,7 +209,7 @@ flow:
         source: themes/quick_link_blocks.html
   - row: container_row
     style: text-center
-    background_image: /assets/images/content/Client_Devices_banner_pic.jpg
+    background_image: /assets/images/content/Auto_IoT_Edge_banner_pic.jpg
     sections:
       - format: title
         style: mt-4 text-white
