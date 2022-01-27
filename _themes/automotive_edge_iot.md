@@ -9,11 +9,11 @@ icon_dark: /assets/images/content/Auto_IoT_Edge_white.svg
 icon_alt: /assets/images/content/Auto_IoT_Edge_blue.svg
 js-package: contactForm
 description: >
-  Open source is a key ingredient of Android.
-  Android as found on a client device is
-  closely related to the Android Open
-  Source Project (AOSP).
-presentation_link: https://linaro.co/android-slides
+  Software defined functionality is no longer
+  restricted to the cloud network but is now
+  expected to extend to the edge.
+# presentation_link: https://linaro.co/android-slides
+video_resources_link: https://resources.linaro.org/en/tags/58efdcf3-835e-4667-b2b1-8340438a26a4
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
