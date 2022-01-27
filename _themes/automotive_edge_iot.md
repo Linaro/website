@@ -41,7 +41,7 @@ flow:
         breakpoint: md
         left_column:
           custom_size: 6
-          image: /assets/images/content/AutomotiveBanner.jpg
+          image: /assets/images/content/Automotive_Dashboard.jpg
         right_column:
           custom_size: 6
           style: p-3 text-white
