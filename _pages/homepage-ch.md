@@ -25,7 +25,7 @@ flow:
         style: text-center
         title_content:
           style: font-weight-bold
-          text: 利纳罗成员
+          text: Linaro会员成员
           size: h2
       - format: custom_include
         source: membership/members_section.html

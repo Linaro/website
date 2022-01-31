@@ -64,7 +64,7 @@ flow:
             或者，如果您只想访问我们公开的任何工作，请访问 [www.linaro.org/downloads](https://www.linaro.org/downloads/)。 在下载页面上，我们上传了我们工作的所有我们认为对社区有益的软件。
 
 
-            对于所有其他查询，请访问 [www.linaro.org/contact](https://www.linaro.org/contact/) 或 [下载 Linaro 简介](https://linaro.co/introduction-to -利纳罗）。
+            对于所有其他查询，请访问 [www.linaro.org/contact](https://www.linaro.org/contact/) 或 [下载 Linaro 简介](https://linaro.co/introduction-to-linaro）。
   - row: container_row
     style: members_slider_row bg-light
     sections:

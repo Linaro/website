@@ -39,9 +39,9 @@ toggleNavigation: 切换导航
 projects: 项目
 # CUSTOM
 homepage:
-  title1: 加速部署
-  title2: 在里面
-  title3: Arm 生态系统
+  title1: 加速Arm
+  title2: 
+  title3: 生态系统的部署
   headerText: >
     Linaro 自 2010 年以来一直在推动 Arm 上的开源软件开发，并且拥有许多世界领先的 Arm 软件专家。 我们与我们的成员和开源社区一起推动维护和改进 Arm 软件生态系统所需的工作。 我们的工作涉及广泛的垂直领域和技术。
   headerText2: 要了解有关我们所做工作的更多信息，请单击下面的相关图标。
@@ -56,7 +56,7 @@ homepage:
     titleText: 开源软件维护者
     subText: Linaro 维护者总共管理 40 多个开源项目
   cta:
-    membershipTitle: 利纳罗会员
+    membershipTitle: Linaro会员
     membershipText: >
       如果您想与 Linaro 的技术领域专家和其他行业领导者一起解决常见问题，那么 Linaro 会员资格是您的选择。 单击下面的视频，了解我们的会员选择与 Linaro 合作的原因：
     membershipBtnText: 了解有关 Linaro 会员资格的更多信息

@@ -9,11 +9,11 @@ social_media_icons: true
 display_contact_details: true
 # These links are displayed at the very bottom of the footer.
 company_links:
-  - name: 合法的
+  - name: 法律信息
     url: /legal/
-  - name: 饼干
+  - name: Cookies
     url: /cookies/
-  - name: 接触
+  - name: 联系方式
     url: /contact/
   - name: 网站地图
     url: /sitemap.xml
