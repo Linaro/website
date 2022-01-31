@@ -15,6 +15,5 @@ This meeting will be located conveniently in Japan and use Japanese as the nativ
 A general guidance page is available. / 初めての方はこちらもお読みください。
 Japan Technical Jamboree Guidance (Japanese/English)
 
-
-
-Masami Hiramatsu from Linaro will present a session
+Masami Hiramatsu from Linaro will present a session on Boot-time tracing and recent\
+tracing features: [https://elinux.org/Japan_​Technical_Jamboree_78#Agenda](https://elinux.org/Japan_Technical_Jamboree_78#Agenda)
