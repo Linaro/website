@@ -1,6 +1,6 @@
 <footer>
     <div class="container-fluid">
-        <div class="row strip p-t-20 p-b-20">
+        <div class="row strip pt-3 pb-3">
             <div class="container">
                 <div class="row">
                     <div class="col col-12 col-lg-3">
@@ -54,15 +54,17 @@
                 </div>
                 <div class="row">
                     <div class="col col-12">
-                        <div class="social_media_section d-flex justify-content-center align-items-center">
-                            <a href="{{site.data.footer.footer_brand.url}}/">
+                        <div class="social_media_section d-flex justify-content-between align-items-center">
+                            <a href="{{site.data.footer.footer_brand.url}}">
                                 <img src="{{site.data.footer.footer_brand.path}}" class="footer-logo mx-auto"
                                     alt="{{site.data.footer.footer_brand.alt}}" />
                             </a>
-                            {% include_cached social_media_icons.html %}
+                            <div class="icons_group">
+                                {% include_cached social_media_icons.html %}
+                            </div>
                         </div>
                     </div>
-                    <div class="col col-12">
+                    <div class="col col-12 text-white">
                         {% include components/github_edit.html pagePath=page.path pagePermalink=page.permalink %}
                         {% for link in site.data.footer.company_links %}
                         <a href="{{link.url}}">{{link.name}}</a>
@@ -71,7 +73,7 @@
                             {% endunless %}
                         {% endfor %}
                     </div>
-                    <div class="col col-12">
+                    <div class="col col-12 text-white mt-2">
                         <span class="copyright">{{site.data.translations.copyright}} &copy; {{ 'now' | date: "%Y" }} {{site.data.footer.copyright_text}}</span>
                     </div>
                     {% if site.i18n_enabled %}
