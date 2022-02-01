@@ -28,7 +28,7 @@ jumbotron:
     kernel, bluez, alsa, icu and so on. These provide key pieces of technology to Android, without which your phone
     wouldn’t be very useful. Linaro works together with Google and other industry leaders to improve and help
     maintain the Android ecosystem. This involves reducing technical debt by upstreaming open source software that
-    Android depends on. It also involves adding functionality (such as OPTEE, AI/ML), or optimization activities where
+    Android depends on. It also involves adding functionality, or optimization activities where
     changes to frameworks can improve performance, reduce the memory footprint and more.
   image: /assets/images/content/Client_Devices_banner_pic.jpg
 flow:
