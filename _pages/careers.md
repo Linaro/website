@@ -57,5 +57,5 @@ flow:
         style: text-left
         text_content:
           text: >-
-            [Internships](https://linaro.co/linaro-interns-brochure) | [View our Privacy Policy](/assets/downloads/careers-privacy-policy.pdf) | [View our Recruitment Policy](/assets/downloads/Recruitment-and-SelectionPolicyProcedure.pdf)
+            [Internships](https://linaro.co/linaro-interns-brochure) \| [View our Privacy Policy](/assets/downloads/careers-privacy-policy.pdf) \| [View our Recruitment Policy](/assets/downloads/Recruitment-and-SelectionPolicyProcedure.pdf)
 ---
