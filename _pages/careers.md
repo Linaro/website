@@ -1,58 +1,61 @@
 ---
 title: Careers at Linaro
-description: "We offer employees the opportunity to work with latest hardware &
-  leading edge technology. If you love working on open source projects, then you
-  belong at Linaro. "
+description: >
+  If you want to work on the cutting edge of Arm technology - Linaro
+  is the place to be.
 permalink: /careers/
 js-package: careers
 layout: flow
 jumbotron:
-  title: Careers at Linaro
+  title: Pioneering technology for the future
   description: ""
   inner_class: text-center
-  image: /assets/images/content/careers-image-1.jpg
+  image: /assets/images/content/developer.jpg
 flow:
   - row: container_row
-    style: large_type introduction_row py-0
+    style: bg-black text-white
     sections:
       - format: title
         style: text-left
         title_content:
           size: h2
-          text: Develop your career alongside world-class open source experts
+          text: If you want to work on the cutting edge of Arm technology - Linaro is the place to be.
       - format: text
         style: text-left
         text_content:
-          text: If you have a passion for open source and want to be part of a community,
-            then you belong at Linaro. Linaro offers you the opportunity to
-            advance your career in an outstanding environment for professional
-            growth, all while working alongside a team of world-class open
-            source experts on leading edge technology.
-  - row: container_row
-    style: buttons_row
-    sections:
-      - format: buttons
-        style: text-center
-        buttons_content:
-          - title: View our Privacy Policy
-            url: /assets/downloads/careers-privacy-policy.pdf
-            style: btn-primary careers_btn
-          - title: View our Recruitment Policy
-            url: /assets/downloads/Recruitment-and-SelectionPolicyProcedure.pdf
-            style: btn-secondary careers_btn
+          text: >-
+            You will work alongside some of the world’s leading Arm software experts, working on new technologies
+            across the entire industry. We bring industry leading companies and open source communities together to
+            develop software on Arm-based technology. Our work advances the Arm ecosystem as a whole, enabling
+            new markets on Arm Architecture. Our software can even be found on the Mars Helicopter!
+
+            Ready to develop technology for the future? Check out our positions below:
   - row: container_row
     style: buttons_row
     sections:
       - format: custom_include
         source: careers/careers_teamtailor.html
   - row: container_row
-    style: internship_row bg-primary text-white
+    style: bg-blue text-white text-center
     sections:
+      - format: title
+        style: text-center text-white
+        title_content:
+          size: h2
+          text: Working at Linaro
+      - format: text
+        style: text-center text-white
+        text_content:
+          text: >-
+            What some of our people think about working at Linaro
       - format: custom_include
-        source: careers/careers_section_interns.html
+        source: careers/careers_video.html
   - row: container_row
-    style: internship_testimonial_row
+    style: #
     sections:
-      - format: custom_include
-        source: careers/careers_section_interns_testimonials.html
+      - format: text
+        style: text-left
+        text_content:
+          text: >-
+            [Internships](https://linaro.co/linaro-interns-brochure) | [View our Privacy Policy](/assets/downloads/careers-privacy-policy.pdf) | [View our Recruitment Policy](/assets/downloads/Recruitment-and-SelectionPolicyProcedure.pdf)
 ---
