@@ -18,6 +18,7 @@
                 class="github_link github_report_issue_link" href="{{report-issue-link}}" id="submit_issue">
                     {{site.data.translations.reportAnIssue}}
                 </a>
+                <span class="pipe_separator">|</span>
     {% else %}
         {% capture github-home %}{{site.edit-on-github.repo}}{% endcapture %}
         {% capture github-docs %}{{site.edit-on-github.repo}}/tree/master/{% endcapture %}
@@ -35,6 +36,7 @@
         class="github_link github_report_issue_link" href="{{report-issue-link}}" id="submit_issue">
             {{site.data.translations.reportAnIssue}}
         </a>
+        <span class="pipe_separator">|</span>
     {% endif %}
 {% endif %}
 {% endunless %}
