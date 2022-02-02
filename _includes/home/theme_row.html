@@ -29,8 +29,9 @@
                 {% unless theme.sub_theme or theme.title == "Automotive" %}
                 <div class="tab-pane show {% if forloop.first %}active{% endif %}" id="{{theme.title | slugify}}" role="tabpanel" aria-labelledby="{{theme.title | slugify}}-tab">
                     <div class="row background_image_row">
+                        {% capture theme_image %}{% if theme.jumbotron.image %}{{theme.jumbotron.image}}{% else %}{{ theme.image }}{% endif %}{% endcapture %}
                         {% capture alt %}{{theme.title}} background{% endcapture %}
-                        {% picture header_image {{theme.image}} --alt {{alt}} %}
+                        {% picture header_image {{theme_image}} --alt {{alt}} %}
                         <div class="container text-white">
                             <div class="row theme_content_row h-100">
                                 <div class="col col-12 col-md-6 d-flex align-items-center justify-content-center small_text_mobile">
