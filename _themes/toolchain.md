@@ -1,38 +1,36 @@
 ---
 id: 1
-title: Artificial Intelligence
+title: Toolchain
 sub_theme: true
-permalink: /core-technologies/artificial-intelligence/
-image: /assets/images/content/Artifical_Intelligence.png
-icon: /assets/images/content/Icon_AI.svg
-icon_dark: /assets/images/content/Black_AI.svg
+permalink: /core-technologies/toolchain/
+image: /assets/images/content/Banner_Toolchain.jpg
+icon: /assets/images/content/Icon_Toolchain_notext.svg
 js-package: contactForm
 description: >
-  Artificial Intelligence impacts every single
-  industry and is increasingly becoming
-  part of our everyday lives - powering
-  everything from our smart home devices
-  to our digital voice assistants and social
-  media accounts.
-presentation_link: https://linaro.co/ai-slides
+  Toolchains continue to evolve as new SoC features are
+  added. Speed and space optimisations are increasingly
+  important, especially in the IoT space. New security
+  features need compiler and tool support.
+# presentation_link: https://linaro.co/ai-slides
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
-  title: Artificial Intelligence
+  title: Toolchain
   description: |
-    Artificial Intelligence impacts every single
-    industry and is increasingly becoming
-    part of our everyday lives - powering
-    everything from our smart home devices
-    to our digital voice assistants and social
-    media accounts.
+    Toolchains continue to evolve as new SoC features are
+    added. Speed and space optimisations are increasingly
+    important, especially in the IoT space. New security
+    features need compiler and tool support.
 
-    Its influence is only going to grow and as such, standardization and open reference
-    implementations will be key to help evolve this transformative technology on Arm. Linaro
-    works with industry leaders to bring the best in class Machine Learning Inferencing and
-    Artificial Intelligence (AI) to the Arm ecosystem. This involves pushing experiences optimized
-    for Arm on our member companies hardware across a range of strategic AI projects.
-  image: /assets/images/content/Artifical_Intelligence.png
+    The world is rapidly changing, and as a result the open software on computing systems is having to accommodate a shift to greater use
+    of machine learning, increasing mobile CPU performance. Linaro has provided open source tools for Arm architectures since its
+    inception in 2010, working directly with upstream communities such as GCC, Binutils, GDB, Glibc, Newlib, LLVM, Clang, LLD, LLDB,
+    QEMU, Valgrind and OpenOCD. Our mission is to improve and maintain open-source Arm toolchain projects.
+
+    We work on all aspects of system-level tools - the core development toolchain (compiler, assembler, linker, debugger), core system
+    libraries (dynamic linker, c-library), and emulation.Linaro builds and tests LLVM community integration releases for ARM and AArch64
+    architectures (http://releases.llvm.org/download.html). Linaro maintainers serve as release managers for QEMU and Glibc project.
+  image: /assets/images/content/Banner_Toolchain.jpg
 flow:
   - row: container_row
     style: bg-light py-4
@@ -41,36 +39,49 @@ flow:
         style: font-weight-bold mt-4 text-center
         title_content:
           style: font-weight-bold
-          text: Linaro Projects focused on Artificial Intelligence
+          text: Linaro Projects focused on Toolchain technology
           size: h2
       - format: block
         style: pb-4
         item_width: "6"
         block_section_content:
           blocks:
-            - title: Optimize AI for Arm Data Center & Edge
+            - title: Arm GNU Toolchain Enablement and CI
               style: engagement_block_col h-100 text-left
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
-                This project is focused on enablement which optimizes
-                performance in HPC and AI computing. The project is
-                addressing a wide range of use cases for AI training and
-                inference, targeting Armv8.x based servers and
-                supercomputers such as Fujitsu’s high end Fugaku
-                supercomputer, Neoverse and Cortex-A based edge devices.
+                The GNU Compiler Collection (GCC) is a compiler system
+                produced by the GNU Project. It supports various
+                programming languages and is a key component of the GNU
+                toolchain. It is the the standard compiler for most projects
+                related to GNU and Linux, including the Linux kernel. This
+                Linaro project focuses on improving optimizations for popular
+                Arm cores, supporting compiler sanitizers, supporting new
+                Armv8 architectural features and improving the debugging
+                experience.
               buttons:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary
-                  url: https://linaro.atlassian.net/wiki/spaces/AIA/overview
-            - title: Optimize AI for Arm Microcontrollers
+                  url: https://linaro.atlassian.net/wiki/spaces/GNU/overview
+            - title: Arm LLVM Toolchain Enablement and CI
               style: engagement_block_col h-100 text-left
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
-                The Optimize AI for Microcontrollers project is focused on the strategic AI libraries microTVM and Tensorflow Lite Micro. The aim of this project is to enable inference workloads on Arm microcontrollers while optimizing the AI compiler experience for deeply embedded environments.
+                LLVM is one of the main tools the open-source community
+                uses to compile their code. It is a set of reusable compiler and
+                toolchain technologies which are used to develop front ends
+                for any programming language and back ends of any
+                instruction set architecture. LLDB is the debugger component
+                of the LLVM project. The Linaro toolchain team actively
+                maintains the LLDB project and has ownership of Arm and
+                AArch64 target specific code base. We implement new and
+                improve existing code-size and code-speed optimizations for
+                AArch64 and Arm targets.
               buttons:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary
-                  url: https://linaro.atlassian.net/wiki/spaces/AIM/overview
+                  url: https://linaro.atlassian.net/wiki/spaces/LLVM/overview
+
       - format: buttons
         style: text-center
         buttons_content:
@@ -84,7 +95,7 @@ flow:
         source: themes/quick_link_blocks.html
   - row: container_row
     style: text-center
-    background_image: /assets/images/content/Artifical_Intelligence.png
+    background_image: /assets/images/content/Banner_Toolchain.jpg
     sections:
       - format: title
         style: mt-4 text-white

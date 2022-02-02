@@ -1,38 +1,37 @@
 ---
 id: 1
-title: Artificial Intelligence
+title: Linux Kernel
 sub_theme: true
-permalink: /core-technologies/artificial-intelligence/
-image: /assets/images/content/Artifical_Intelligence.png
-icon: /assets/images/content/Icon_AI.svg
-icon_dark: /assets/images/content/Black_AI.svg
+permalink: /core-technologies/linux-kernel/
+image: /assets/images/content/Banner_Linux_Kernel.jpg
+icon: /assets/images/content/Icon_Linux_notext.svg
 js-package: contactForm
 description: >
-  Artificial Intelligence impacts every single
-  industry and is increasingly becoming
-  part of our everyday lives - powering
-  everything from our smart home devices
-  to our digital voice assistants and social
-  media accounts.
-presentation_link: https://linaro.co/ai-slides
+  Linaro employs a significant number of
+  maintainers covering a wide range of important
+  areas. This allows us to reach far within open
+  source communities and have a real impact.
+# presentation_link: https://linaro.co/ai-slides
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
-  title: Artificial Intelligence
+  title: Linux Kernel
   description: |
-    Artificial Intelligence impacts every single
-    industry and is increasingly becoming
-    part of our everyday lives - powering
-    everything from our smart home devices
-    to our digital voice assistants and social
-    media accounts.
+    Linaro employs a significant number of
+    maintainers covering a wide range of important
+    areas. This allows us to reach far within open
+    source communities and have a real impact.
 
-    Its influence is only going to grow and as such, standardization and open reference
-    implementations will be key to help evolve this transformative technology on Arm. Linaro
-    works with industry leaders to bring the best in class Machine Learning Inferencing and
-    Artificial Intelligence (AI) to the Arm ecosystem. This involves pushing experiences optimized
-    for Arm on our member companies hardware across a range of strategic AI projects.
-  image: /assets/images/content/Artifical_Intelligence.png
+    We actively contribute to the upstream community and help facilitate
+    acceptance of Linaro code into the Linux mainline kernel. Our ultimate goal is to
+    ensure kernel consolidation - a single source tree with integrated support for
+    multiple Arm SoCs and Arm-based platforms.
+
+    We manage and implement support of new features not only dedicated to Arm
+    architecture but also covering core functionalities of the kernel. In the tradition
+    of Linux and the open source community, much of the technical discussiontakes
+    place over email and informal conversations on IRC.
+  image: /assets/images/content/Banner_Linux_Kernel.jpg
 flow:
   - row: container_row
     style: bg-light py-4
@@ -41,36 +40,48 @@ flow:
         style: font-weight-bold mt-4 text-center
         title_content:
           style: font-weight-bold
-          text: Linaro Projects focused on Artificial Intelligence
+          text: Linaro Projects focused on the Linux Kernel
           size: h2
       - format: block
         style: pb-4
         item_width: "6"
         block_section_content:
           blocks:
-            - title: Optimize AI for Arm Data Center & Edge
+            - title: Power and Performance
               style: engagement_block_col h-100 text-left
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
-                This project is focused on enablement which optimizes
-                performance in HPC and AI computing. The project is
-                addressing a wide range of use cases for AI training and
-                inference, targeting Armv8.x based servers and
-                supercomputers such as Fujitsu’s high end Fugaku
-                supercomputer, Neoverse and Cortex-A based edge devices.
+                Over the years devices have become more compact and
+                powerful yet batteries are more constrained. Linaro’s
+                Performance Project aims to improve the efficiency of all Arm
+                based Linux systems by improving Linux subsystems such as
+                the scheduler, thermal framework and traditional power
+                management subsystems. These subsystems influence
+                performance of power consumption and help systems use
+                power budget efficiently while reaching maximum
+                performance. This prevents systems from overheating and
+                crashing.
               buttons:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary
-                  url: https://linaro.atlassian.net/wiki/spaces/AIA/overview
-            - title: Optimize AI for Arm Microcontrollers
+                  url: https://linaro.atlassian.net/wiki/spaces/PERF/overview
+            - title: System Control and Management Interface
               style: engagement_block_col h-100 text-left
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
-                The Optimize AI for Microcontrollers project is focused on the strategic AI libraries microTVM and Tensorflow Lite Micro. The aim of this project is to enable inference workloads on Arm microcontrollers while optimizing the AI compiler experience for deeply embedded environments.
+                SoC have shared and critical resources which are usually
+                handled by a dedicated and secured power coprocessor (SCP).
+                This dedicated processor is in charge of gathering requirements
+                of the different subsystem/clients. However, some systems
+                cannot afford a dedicated processor or do not have enough
+                client channel for all possible subsystems. In such cases, an
+                SCMI server must be able to run a different Execution
+                environment than the usual cortex M bare metal. This Linaro
+                project addresses those use cases.
               buttons:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary
-                  url: https://linaro.atlassian.net/wiki/spaces/AIM/overview
+                  url: https://linaro.atlassian.net/wiki/spaces/SCMI/overview
       - format: buttons
         style: text-center
         buttons_content:
@@ -84,7 +95,7 @@ flow:
         source: themes/quick_link_blocks.html
   - row: container_row
     style: text-center
-    background_image: /assets/images/content/Artifical_Intelligence.png
+    background_image: /assets/images/content/Banner_Linux_Kernel.jpg
     sections:
       - format: title
         style: mt-4 text-white

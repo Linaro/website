@@ -1,38 +1,32 @@
 ---
 id: 1
-title: Artificial Intelligence
+title: Virtualization
 sub_theme: true
-permalink: /core-technologies/artificial-intelligence/
-image: /assets/images/content/Artifical_Intelligence.png
-icon: /assets/images/content/Icon_AI.svg
-icon_dark: /assets/images/content/Black_AI.svg
+permalink: /core-technologies/toolchain/
+image: /assets/images/content/Banner_Virtualization.jpg
+icon: /assets/images/content/Icon_Virtualization_notext.svg
 js-package: contactForm
 description: >
-  Artificial Intelligence impacts every single
-  industry and is increasingly becoming
-  part of our everyday lives - powering
-  everything from our smart home devices
-  to our digital voice assistants and social
-  media accounts.
-presentation_link: https://linaro.co/ai-slides
+  Virtualization can be used for almost any use case, with it playing an ever more prominent
+  role in up and coming technologies such as autonomous driving. Linaro plays a key role in QEMU - an
+  open source hypervisor.
+# presentation_link: https://linaro.co/ai-slides
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
-  title: Artificial Intelligence
+  title: Virtualization
   description: |
-    Artificial Intelligence impacts every single
-    industry and is increasingly becoming
-    part of our everyday lives - powering
-    everything from our smart home devices
-    to our digital voice assistants and social
-    media accounts.
+    From faster turnaround to reduced downtime and
+    costs, the benefits of virtualization are clear to see.
 
-    Its influence is only going to grow and as such, standardization and open reference
-    implementations will be key to help evolve this transformative technology on Arm. Linaro
-    works with industry leaders to bring the best in class Machine Learning Inferencing and
-    Artificial Intelligence (AI) to the Arm ecosystem. This involves pushing experiences optimized
-    for Arm on our member companies hardware across a range of strategic AI projects.
-  image: /assets/images/content/Artifical_Intelligence.png
+    Virtualization can be used for almost any use case, with it playing an ever more prominent
+    role in up and coming technologies such as autonomous driving. Linaro plays a key role in QEMU - an
+    open source hypervisor. Not only do Linaro employees and assignees act as main-
+    tainers for Arm-specific areas of the codebase but we also take care of areas such as TCG 
+    code-generation, build and test automation, and release management. In addition to our work
+    in QEMU, we are also driving the project Stratos, which is developing hypervisor agnostic
+    Virtio interfaces and standards to address richer ecosystems such as automotive, and IoT.
+  image: /assets/images/content/Banner_Virtualization.jpg
 flow:
   - row: container_row
     style: bg-light py-4
@@ -41,36 +35,44 @@ flow:
         style: font-weight-bold mt-4 text-center
         title_content:
           style: font-weight-bold
-          text: Linaro Projects focused on Artificial Intelligence
+          text: Linaro Projects focused on Virtualization
           size: h2
       - format: block
         style: pb-4
         item_width: "6"
         block_section_content:
           blocks:
-            - title: Optimize AI for Arm Data Center & Edge
+            - title: Enable Arm Architecture in QEMU
               style: engagement_block_col h-100 text-left
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
-                This project is focused on enablement which optimizes
-                performance in HPC and AI computing. The project is
-                addressing a wide range of use cases for AI training and
-                inference, targeting Armv8.x based servers and
-                supercomputers such as Fujitsu’s high end Fugaku
-                supercomputer, Neoverse and Cortex-A based edge devices.
+                QEMU is a free open-source emulator and virtualizer. Linaro
+                plays a key role in the project ensuring the ARM ecosystem is
+                well represented and actively maintained. We leverage our
+                expertise as maintainers to support the upstreaming of new
+                features from members and the wider community. We
+                consistently rank in the top three of companies that participate
+                in the development of this well respected project.
               buttons:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary
-                  url: https://linaro.atlassian.net/wiki/spaces/AIA/overview
-            - title: Optimize AI for Arm Microcontrollers
+                  url: https://linaro.atlassian.net/wiki/spaces/QEMU/overview
+            - title: Project Stratos
               style: engagement_block_col h-100 text-left
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
-                The Optimize AI for Microcontrollers project is focused on the strategic AI libraries microTVM and Tensorflow Lite Micro. The aim of this project is to enable inference workloads on Arm microcontrollers while optimizing the AI compiler experience for deeply embedded environments.
+                There is a growing trend towards virtualization in areas other
+                than the traditional server environment. The server enviroment
+                is uniform in nature but as we move towards a richer
+                ecosystem in automotive, medical and general mobile and IoT
+                spaces, the rich array of hypervisors and SoCs become a
+                problem. Project Stratos is working towards developing
+                hypervisor agnostic Virtio interfaces and standards.
               buttons:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary
-                  url: https://linaro.atlassian.net/wiki/spaces/AIM/overview
+                  url: https://linaro.atlassian.net/wiki/spaces/STR/overview
+
       - format: buttons
         style: text-center
         buttons_content:
@@ -84,7 +86,7 @@ flow:
         source: themes/quick_link_blocks.html
   - row: container_row
     style: text-center
-    background_image: /assets/images/content/Artifical_Intelligence.png
+    background_image: /assets/images/content/Banner_Virtualization.jpg
     sections:
       - format: title
         style: mt-4 text-white
