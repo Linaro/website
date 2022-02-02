@@ -5,7 +5,7 @@ sub_theme: false
 permalink: /cloud-computing-and-servers/
 image: /assets/images/content/CCS_banner_image.jpg
 icon: /assets/images/content/CC_and_S_icon_white.svg
-icon_dark: /assets/images/content/CC_and_S_icon_dark.svg
+icon_dark: /assets/images/content/CC_S.svg
 icon_alt: /assets/images/content/CC_and_S_icon_green.svg
 js-package: contactForm
 description: >

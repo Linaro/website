@@ -5,7 +5,7 @@ sub_theme: false
 permalink: /core-technologies/
 image: /assets/images/content/core_technologies_share_image.png
 icon: /assets/images/content/Icon_Core_Technologies_notext.svg
-icon_dark: /assets/images/content/Icon_Core_Technologies_notext.svg
+icon_dark: /assets/images/content/Core.svg
 icon_alt: /assets/images/content/Icon_Core_Technologies_notext.svg
 js-package: contactForm
 description: >

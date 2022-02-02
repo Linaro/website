@@ -2,7 +2,7 @@
 id: 1
 title: Testing & CI
 sub_theme: true
-permalink: /core-technologies/security/
+permalink: /core-technologies/testing-and-ci/
 image: /assets/images/content/Banner_Testing_CI.jpg
 icon: /assets/images/content/Icon_Testing_notext.svg
 js-package: contactForm

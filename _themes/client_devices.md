@@ -5,7 +5,7 @@ sub_theme: false
 permalink: /client-devices/
 image: /assets/images/content/Client_Devices_banner_pic.jpg
 icon: /assets/images/content/Client_Devices_icon_white.svg
-icon_dark: /assets/images/content/Client_Devices_icon_dark.svg
+icon_dark: /assets/images/content/CD.svg
 icon_alt: /assets/images/content/Client_Devices_icon.svg
 js-package: contactForm
 description: >

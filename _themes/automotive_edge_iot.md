@@ -5,7 +5,7 @@ sub_theme: false
 permalink: /automotive-iot-and-edge-devices/
 image: /assets/images/content/Auto_IoT_Edge_banner_pic.jpg
 icon: /assets/images/content/Auto_IoT_Edge_white.svg
-icon_dark: /assets/images/content/Auto_IoT_Edge_white.svg
+icon_dark: /assets/images/content/AIoTE.svg
 icon_alt: /assets/images/content/Auto_IoT_Edge_blue.svg
 js-package: contactForm
 description: >
