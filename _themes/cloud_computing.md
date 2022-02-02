@@ -1,6 +1,6 @@
 ---
 id: 14
-title: Cloud Computing and Servers
+title: Cloud Computing & Servers
 sub_theme: false
 permalink: /cloud-computing-and-servers/
 image: /assets/images/content/CCS_banner_image.jpg
