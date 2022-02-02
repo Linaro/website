@@ -5,6 +5,7 @@ description: >
   is the place to be.
 permalink: /careers/
 js-package: careers
+css_bundle: careers
 layout: flow
 jumbotron:
   title: Pioneering technology for the future
