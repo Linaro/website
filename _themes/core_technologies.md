@@ -3,7 +3,7 @@ id: 15
 title: Core Technologies
 sub_theme: false
 permalink: /core-technologies/
-image: /assets/images/content/Banner_Core_Technologies.jpg
+image: /assets/images/content/core_technologies_share_image.png
 icon: /assets/images/content/Icon_Core_Technologies_notext.svg
 icon_dark: /assets/images/content/Icon_Core_Technologies_notext.svg
 icon_alt: /assets/images/content/Icon_Core_Technologies_notext.svg
@@ -11,7 +11,7 @@ js-package: contactForm
 description: >
   One of the main objectives when forming Linaro
   was to consolidate the Arm code base.
-presentation_link: https://linaro.co/android-slides
+# presentation_link: https://linaro.co/android-slides
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
@@ -58,7 +58,7 @@ flow:
             Linaro engineers who are well versed in navigating open source
             communities in turn accelerates time to market.
   - row: container_row
-    style: bg-secondary py-4
+    style: bg-secondary py-4 text-white
     sections:
       - format: title
         style: font-weight-bold mt-4 text-white
@@ -97,8 +97,8 @@ flow:
         block_section_content:
           blocks:
             - title: Join as a Linaro Club Member
-              style: engagement_block_col h-100
-              content_style: engagement_block text-dark h-100 mb-3 mb-lg-0 engagement_block_content
+              style: engagement_block_col h-100 text-left
+              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
                 If you want to collaborate with Linaro
                 and other industry leaders on all verticals
@@ -109,8 +109,8 @@ flow:
                   style: btn-lg btn-primary btn-outline-primary
                   url: /membership/
             - title: Join as a Linaro Core Member
-              style: engagement_block_col h-100
-              content_style: engagement_block text-dark h-100 mb-3 mb-lg-0 engagement_block_content
+              style: engagement_block_col h-100 text-left
+              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
                 If you want to participate in all the
                 work Linaro does as well as have
@@ -122,8 +122,8 @@ flow:
                   style: btn-lg btn-primary btn-outline-primary
                   url: /membership/
             - title: Join our team!
-              style: engagement_block_col h-100
-              content_style: engagement_block text-dark h-100 mb-3 mb-lg-0 engagement_block_content
+              style: engagement_block_col h-100 text-left
+              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
                 We frequently hire subject matter
                 experts and maintainers - if you’re
