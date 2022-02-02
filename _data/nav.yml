@@ -20,17 +20,17 @@ pages:
           - text: Overview
             url: /core-technologies/
           - text: Artificial Intelligence
-            url: /artificial-intelligence/
+            url: /core-technologies/artificial-intelligence/
           - text: Linux Kernel
-            url: /linux-kernel/
+            url: /core-technologies/linux-kernel/
           - text: Security
-            url: /security/
+            url: /core-technologies/security/
           - text: Testing & CI
-            url: /testing-and-ci/
+            url: /core-technologies/testing-and-ci/
           - text: Toolchain
-            url: /toolchain/
+            url: /core-technologies/toolchain/
           - text: Virtualization
-            url: /virtualization/
+            url: /core-technologies/virtualization/
   - title: Membership
     options:
       - text: Membership
