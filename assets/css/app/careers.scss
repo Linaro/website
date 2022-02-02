@@ -1,4 +1,18 @@
 #wrapper {
+  .teamtailor-jobs__job {
+    border: 1px solid #eee;
+    padding: 20px 15px;
+  }
+  a.teamtailor-jobs__job-title {
+    color: black;
+    display: block;
+    font-weight: bold;
+  }
+  .careers_page {
+    img.header_background_image {
+      filter: brightness(0.6);
+    }
+  }
   // Video Embed
   .video-player {
     overflow: hidden;

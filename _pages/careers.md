@@ -8,6 +8,7 @@ js-package: careers
 css_bundle: careers
 layout: flow
 jumbotron:
+  class: careers_page align-items-baseline
   title: Pioneering technology for the future
   description: ""
   inner_class: text-center
@@ -34,6 +35,11 @@ flow:
   - row: container_row
     style: buttons_row
     sections:
+      - format: title
+        style: text-left
+        title_content:
+          size: h2
+          text: Open positions
       - format: custom_include
         source: careers/careers_teamtailor.html
   - row: container_row
