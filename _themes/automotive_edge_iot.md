@@ -165,17 +165,9 @@ flow:
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                Oniro OS is a publicly available open
-                source version of the HarmonyOS
-                operating system. Linaro is working
-                with Huawei to further the capabilities
-                of the OpenHarmony OS (around
-                trusted-boot and over-the-air
-                updates), create a collaborative,
-                OpenHarmony OS Open CI testing
-                system, and onboard Linaro
-                OpenHarmony project members and
-                their devices into the project.
+                Oniro OS is a publicly available open source version of the HarmonyOS operating system. Linaro is working with Huawei to further
+                the capabilities of the Oniro OS (around trusted-boot and over-the-air updates), create a collaborative, Oniro OS Open CI testing
+                system, and onboard Linaro Oniro project members and their devices into the project.
               buttons:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary
