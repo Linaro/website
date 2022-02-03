@@ -4,7 +4,7 @@ items:
     icon:
       png: /assets/images/content/engineering/png/artificial_intelligence.png
       svg: /assets/images/content/engineering/svg/artificial_intelligence.svg
-    url: /artificial-intelligence/
+    url: /core-technologies/artificial-intelligence/
   - title: Autonomous Vehicles
     context_image: /assets/images/content/engineering/context/autonomous_vehicles.jpg
     icon:

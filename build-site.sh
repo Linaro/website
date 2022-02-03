@@ -34,6 +34,7 @@ docker run \
   $PORTS \
   -e JEKYLL_ACTION \
   -e JEKYLL_ENV \
+  -e SKIP_JEKYLL_DOCTOR \
   -v /etc/passwd:/etc/passwd:ro \
   -v /etc/group:/etc/group:ro \
   -u "$(id -u)":"$(id -g)" \

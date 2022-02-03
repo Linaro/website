@@ -3,13 +3,13 @@ id: 14
 title: Cloud Computing & Servers
 sub_theme: false
 permalink: /cloud-computing-and-servers/
-image: /assets/images/content/CCS_banner_image.jpg
+image: /assets/images/content/cloud-computing-and-servers-share-image.png
 icon: /assets/images/content/CC_and_S_icon_white.svg
-icon_dark: /assets/images/content/CC_and_S_icon_dark.svg
+icon_dark: /assets/images/content/CC_S.svg
 icon_alt: /assets/images/content/CC_and_S_icon_green.svg
 js-package: contactForm
 description: >
-  The past few years have seen Arm being adopted more and more in the server space, with the world’s fastest supercomputer - Fujitsu’s Fugaku - running on Arm CPUs.
+  The traditional data center is transitioning from on-premise server racks to cloud technologies in third party data centers. Accelerated by the pandemic and the need for remote work, datacenter and cloud infrastructure are expected to deliver more connectivity faster - while remaining secure. To help achieve this, Linaro works with member companies to make key open source projects enabled for Arm-based servers. The work we do ensures the Arm server ecosystem can rely on quality software.
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
