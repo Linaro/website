@@ -9,10 +9,7 @@ icon_dark: /assets/images/content/CD.svg
 icon_alt: /assets/images/content/Client_Devices_icon.svg
 js-package: contactForm
 description: >
-  Open source is a key ingredient of Android.
-  Android as found on a client device is
-  closely related to the Android Open
-  Source Project (AOSP).
+  We access a wide range of applications on our devices every single day and expect things to “just work” regardless of what operating system we are using. But a lot of work happens in the background in order to deliver that seamless user experience. Linaro works closely with Google and other industry leaders to advance the Android ecosystem on Arm. This primarily involves upstreaming new features and detecting regressions. A lot of the key pieces of technology that Linaro helps deliver to Android are essential in ensuring your mobile phone works as it should.
 presentation_link: https://linaro.co/android-slides
 jumbotron:
   class: header_2021_2 theme_banner
