@@ -3,7 +3,7 @@ id: 1
 title: Toolchain
 sub_theme: true
 permalink: /core-technologies/toolchain/
-image: /assets/images/content/Banner_Toolchain.jpg
+image: /assets/images/content/toolchain-share-image.png
 icon: /assets/images/content/Icon_Toolchain_notext.svg
 js-package: contactForm
 description: >

@@ -3,7 +3,7 @@ id: 1
 title: Linux Kernel
 sub_theme: true
 permalink: /core-technologies/linux-kernel/
-image: /assets/images/content/Banner_Linux_Kernel.jpg
+image: /assets/images/content/linux-kernel-share-image.png
 icon: /assets/images/content/Icon_Linux_notext.svg
 js-package: contactForm
 description: >

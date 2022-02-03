@@ -3,7 +3,7 @@ id: 1
 title: Security
 sub_theme: true
 permalink: /core-technologies/security/
-image: /assets/images/content/Banner_Security.jpg
+image: /assets/images/content/testing-and-ci-share-image.png
 icon: /assets/images/content/Icon_Security_White.svg
 icon_dark: /assets/images/content/Icon_Security_black.svg
 js-package: contactForm

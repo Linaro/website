@@ -3,7 +3,7 @@ id: 1
 title: Virtualization
 sub_theme: true
 permalink: /core-technologies/virtualization/
-image: /assets/images/content/Banner_Virtualization.jpg
+image: /assets/images/content/virtualization-share-image.jpg
 icon: /assets/images/content/Icon_Virtualization_notext.svg
 js-package: contactForm
 description: >

@@ -3,7 +3,7 @@ id: 1
 title: Artificial Intelligence
 sub_theme: true
 permalink: /core-technologies/artificial-intelligence/
-image: /assets/images/content/Artifical_Intelligence.png
+image: /assets/images/content/ai-share-image.png
 icon: /assets/images/content/Icon_AI.svg
 icon_dark: /assets/images/content/Black_AI.svg
 js-package: contactForm
