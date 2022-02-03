@@ -1,10 +1,15 @@
+{% assign themes_to_show = "" | split: "," %}
+{% for theme in site.themes %}
+    {% unless theme.sub_theme or theme.title == "Automotive" %}
+        {% assign themes_to_show = themes_to_show | push: theme %}
+    {% endunless %}
+{% endfor %}
 <div class="row py-0" id="theme_tabs">
     <div class="container">
         <div class="col col-12 py-0">
             <div class="row py-0">
                 <div class="owl-carousel owl-theme" id="theme_slider">
-                    {% for theme in site.themes %}
-                        {% unless theme.sub_theme or theme.title == "Automotive" %}
+                    {% for theme in themes_to_show %}
                         <div class="item h-100" data-tab-id="{{theme.title | slugify}}" >
                             <a class="nav-link h-100 {% if forloop.first %}active{% endif %}"
                                 id="{{theme.title | slugify}}-tab" href="#{{theme.title | slugify}}" role="tab"
@@ -15,7 +20,6 @@
                                 </div>
                             </a>
                         </div>
-                        {% endunless %}
                     {% endfor %}
                 </div>
             </div>
@@ -25,8 +29,7 @@
 <div class="row py-0" id="theme_section">
     <div class="col col-12">
         <div class="tab-content" >
-            {% for theme in site.themes %}
-                {% unless theme.sub_theme or theme.title == "Automotive" %}
+            {% for theme in themes_to_show %}
                 <div class="tab-pane show {% if forloop.first %}active{% endif %}" id="{{theme.title | slugify}}" role="tabpanel" aria-labelledby="{{theme.title | slugify}}-tab">
                     <div class="row background_image_row">
                         {% capture theme_image %}{% if theme.jumbotron.image %}{{theme.jumbotron.image}}{% else %}{{ theme.image }}{% endif %}{% endcapture %}
@@ -49,7 +52,6 @@
                         </div>
                     </div>
                 </div>
-                {% endunless %}
             {% endfor %}
         </div>
     </div>
