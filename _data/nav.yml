@@ -47,6 +47,8 @@ pages:
             url: /community-projects/
   - title: Services
     options:
+      - text: Overview
+        url: /services/
       - text: Hands on training
         url: /services/hands-on-training/
       - text: Security
@@ -79,10 +81,10 @@ pages:
             url: /about/team/
           - text: Technical Steering Committee
             url: /tsc/
-          - text: Careers
-            url: /careers/
           - text: Contact us
             url: /contact/
+      - text: Careers
+        url: /careers/
       - text: Blogs
         url: /blog/
       - text: News
