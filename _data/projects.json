@@ -212,7 +212,8 @@
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIA/overview\">https://linaro.atlassian.net/wiki/spaces/AIA/overview</a>",
                 "Theme": [
-                    "Cloud Computing & Servers"
+                    "Cloud Computing & Servers",
+                    "Core Technologies"
                 ],
                 "description": "The Optimize AI for Arm Data Center and Edge project is hosted out of the LDCG segment group. The project involves work within strategic frameworks that broadly empower HPC and AI computing. The effort involves simple enablement to optimized efforts to maximize performance.<br><br>h2. Scope<br><br>Data Center hardware powered by Arm designs could be found across the ecosystem. From the very high end Fukaku super computer, cloud computing, and other forms, these devices can be utilized for AI training and inference. These devices are often multi node, many cores, with or without specialized offload.<br><br>Edge device compares a wide variety of Cortex-A equipped hardware. These devices might be running Android, Linux and every other operating systems. Within this class of devices their capability to performance AI workloads such as inference can vary greatly. On the low end memory might be tight and no offload exists to on the high end, they can be server like with offload and plenty of resources. Indeed Edge devices since they are Cortex-A can have quite a bit in common with HPC/Server with the exception that one does not generally perform training on an edge device.<br><br><ul><li> frameworks*:</ul></li><li> Tensorflow</li><li> PyTorch</li><li> TVM</li><ul><li> frameworks*</ul></li><li> ArmNN</li><li> Arm Compute Library (ACL)</li><li> Eigen</li><li> OneDNN</li><li> ONNX /\u00a0ONNX-RT</li><li> Tensorflow /\u00a0Tensorflow Lite\u00a0</li><li> Tosa</li><li> TVM</li></ul>",
                 "title": "Optimize AI for Arm Data Center and Edge"
@@ -230,7 +231,8 @@
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIM/overview\">https://linaro.atlassian.net/wiki/spaces/AIM/overview</a>",
                 "Theme": [
-                    "Automotive, IoT & Edge Devices"
+                    "Automotive, IoT & Edge Devices",
+                    "Core Technologies"
                 ],
                 "description": "This project involves work within strategic AI libraries as identified by the participating member companies. It is hosted out of the LITE Segment Group. <br><br>Today these activities are focused on :<br><br><ul><li> Tensorflow LIte Micro</li><li> microTVM</li></ul>",
                 "title": "Optimize AI for Arm Microcontrollers"
