@@ -799,6 +799,12 @@
 
 #wrapper {
   footer {
+    a {
+      transition: all 200ms ease;
+      &:hover {
+        color: $primary;
+      }
+    }
     .links_col a {
       color: white;
       font-weight: bolder;
