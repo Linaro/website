@@ -97,6 +97,11 @@
                 "uri": "https://www.hisilicon.com/en/"
             },
             {
+                "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
+                "name": "Red Hat",
+                "uri": "https://www.redhat.com/en"
+            },
+            {
                 "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
                 "name": "Socionext",
                 "uri": "http://www.socionext.com/en/"
