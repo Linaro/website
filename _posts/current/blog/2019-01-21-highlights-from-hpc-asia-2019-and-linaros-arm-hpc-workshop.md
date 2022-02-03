@@ -1,19 +1,21 @@
 ---
-title: 'On the Spot: Highlights from HPC Asia 2019 & Linaro’s Workshop - Open Source
-  HPC collaboration on Arm Architecture'
+title:
+  "On the Spot: Highlights from HPC Asia 2019 & Linaro’s Workshop - Open Source
+  HPC collaboration on Arm Architecture"
 author: brian-pang
 layout: post
 date: 2019-01-21 09:00:00
-description: On Jan 14th, 2019, not yet half a month into the new year,  HPC Asia
+description:
+  On Jan 14th, 2019, not yet half a month into the new year,  HPC Asia
   held its annual conference in Guangzhou, China. Led by Linaro, with Arm ecosystem
   partners, the Linaro workshop“Open Source HPC on Arm Architecture”was held on the
   first day of HPC Asia 2019. It is the first time in the events 20 year history that
   Arm ecosystem partners have joined forces under the leadership of Linaro.
 category: blog
 tags:
-- Linaro
-- Arm
-- HPC
+  - Linaro
+  - Arm
+  - HPC
 image: /assets/images/blog/hpc-workshop-banner-image.jpg
 ---
 
@@ -31,7 +33,7 @@ The participants and guest speakers included world leading experts from RIKEN (J
 
 Topics at the workshop covered all aspects of the Arm server ecosystem, from chip design, hardware, software architecture and standardization to performance tuning, and applications in biology, medicine, meteorology, astronomy, geography etc. It is exciting to see that Arm servers are being used in so many areas, contributing significantly to the global economy.
 
-As the Arm HPC world leader, experts from [RIKEN](/events/system-software-for-armv8-with-sve/) and [Fujitsu](/events/the-first-sve-enabled-arm-processor-a64fx-and-building-up-arm-hpc-ecosystem/) shared details of Post-K design,  revealed the keys to achieve high performance capabilities and gain high memory bandwidth. They also shared the AI Deep Learning research on Post-K. They pointed out the clear path for the next steps of HPC development. As a partner in HPC application, [Quantum Cloud](/events/scale-out-ai-training-on-massive-core-system/) put forward Fabric-Based Arm SoC solution,  Socionext SynQuacer via PCIe Fabric for networking, a very practical and novel method for implementing HPC with Arm SoC chips.  Huawei, [Phytium](/events/the-new-generation-of-phytiums-64cores-processor-and-ecosystem/) and Fujitsu introduced their roadmaps, strategies, newest products and applications of HPC. [HPC Systems Inc.](/events/science-cloud-services-for-computational-chemistry-with-arm-hpc/) demonstrated their application and cloud services based on Arm HPC on-site. [Gigabyte](/events/gigabyte-position-in-arm-server-market-leading-pioneer/), a system integration company, showed several comercial Arm server solutions, which are helping HPC servers to materialize. Many experts showed the Arm HPC progress through all sorts of benchmark test results. Linaro provided the "Open Innovation" stage for all partners to show their solutions, and let their diversity shine.
+As the Arm HPC world leader, experts from [RIKEN](https://www.youtube.com/watch?v=xhzlV91l-zU) and [Fujitsu](https://www.youtube.com/watch?v=mukz1rkFETk) shared details of Post-K design,  revealed the keys to achieve high performance capabilities and gain high memory bandwidth. They also shared the AI Deep Learning research on Post-K. They pointed out the clear path for the next steps of HPC development. As a partner in HPC application, [Quantum Cloud](https://www.youtube.com/watch?v=x56ALWd7OnE) put forward Fabric-Based Arm SoC solution,  Socionext SynQuacer via PCIe Fabric for networking, a very practical and novel method for implementing HPC with Arm SoC chips.  Huawei, [Phytium](https://www.youtube.com/watch?v=QviQQYoTr9Y) and Fujitsu introduced their roadmaps, strategies, newest products and applications of HPC. [HPC Systems Inc.](https://www.youtube.com/watch?v=Virzxq4ui_U) demonstrated their application and cloud services based on Arm HPC on-site. [Gigabyte](https://www.youtube.com/watch?v=ErbkhqNgCJk), a system integration company, showed several comercial Arm server solutions, which are helping HPC servers to materialize. Many experts showed the Arm HPC progress through all sorts of benchmark test results. Linaro provided the "Open Innovation" stage for all partners to show their solutions, and let their diversity shine.
 
 Several experts emphasized the role of AI acceleration based on Arm SVE, and Arm server standardization. They also acknowledged Linaro's efforts in reducing fragmentation through open source collaboration and the Arm ServerReady program. Arm pointed out that as an example, Astra, the first Arm based cluster built at Sandia National Laboratories in the US( [Sandia National Laboratories joined Linaros HPC group in August 2018](/news/sandia-national-laboratories-joins-the-linaro-hpc-special-interest-group/)),  illustrates that the time for supercomputers based on Arm-based technology has come. Arm would like to see all partners continue to make progress by collaborating in the open source community. It was inspiring to see the expert disclosures at this workshop. The Q&A sessions were very engaging.
 
