@@ -1,0 +1,103 @@
+---
+layout: base
+css_package: blog
+---
+<div itemscope="" itemtype="http://schema.org/BlogPosting" >
+    <meta itemprop="mainEntityOfPage" content="{{page.url | absolute_url}}"/>
+    <div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="{{site.schema.name}}" />
+        <meta itemprop="url" content="{{site.schema.url}}" />
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="{{site.schema.logo}}">
+          </div>
+    </div>
+<div class="container-fluid" >
+    {% if page.strap_image %}
+    <div class="row" id="image_header">
+        {% assign image_path = page.strap_image %}
+        {% capture image_alt %}{{page.title}} background image{% endcapture %}
+        {% picture header_image {{image_path}} --alt {{image_alt}} %}
+        <meta itemprop="image" content="{{image_path | absolute_url}}" />
+    </div>
+    {% else %}
+        {% assign image_path = page.image %}
+        <meta itemprop="image" content="{{image_path | absolute_url}}" />
+    {% endif %}
+    <div class="row">
+        <div class="container">
+            <h1 class="" itemprop="name headline">{{page.title}}</h1>
+        </div>
+    </div>
+    <div class="row bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-sm-2">
+                    {% assign author = site.authors | where: "username", page.author | first %}
+                    {% assign author-url = author.url %}
+                    {% assign author_name = author.name %}
+                    {% capture author_image_alt %}{{author_name}} image{% endcapture %}
+                    {% if author.image %}
+                        {% assign author_image = author.image %}
+                    {% else %}
+                        {% assign author_image = site.avatar_placeholder %}
+                    {% endif %}
+                    <div class="d-block d-md-inline-block mx-auto my-2 m-md-2 text-md-left text-center" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                        <meta itemprop="name" content="{{author_name}}" />
+                        <a href="{{author-url}}" itemprop="url" content="{{author-url | absolute_url}}">
+                            {% picture author_thumbnail {{author_image}} --alt {{author_image_alt}} %}
+                        </a>
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-10 d-flex align-items-center">
+                    <div class="row">
+                        <div class="col col-12">
+                            <div class="blockquote d-block d-md-inline-block mx-2 text-md-left text-center">
+                                <strong>{{author_name}}</strong>
+                            </div>
+                            <span class="divider d-none d-md-inline-block">|</span>
+                            <div class="post_info text-center text-md-left d-block d-md-inline-block">
+                                <div class="d-inline-block mx-2">
+                                    <time datetime="{{page.date}}" itemprop="datePublished dateModified" rel="BlogPosting">{{page.date |  date: "%A, %B %-d, %Y"}}</time>
+                                </div>
+                                <span class="divider">|</span>
+                                <div class="read_time d-inline-block mx-2">
+                                    {% include blog/read_time.html %}
+                                </div>
+                            </div>
+                        </div>
+                        {% if page.tags_enabled %}
+                        <div class="col col-12">
+                            <div class="post_tags text-center text-md-left my-2 my-sm-1">
+                                {% assign post_tags = page.tags | sort %}
+                                {% for tag in post_tags %}
+                                    <a class="btn bg-light text-dark btn-sm my-1" href="/{{page.category | downcase }}/tags/?tag={{tag}}">
+                                        {{tag}}
+                                    </a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>                  
+        </div>
+    </div>
+</div>
+<div class="container-fluid main_content">
+    <div class="row">
+        <div class="container">
+            <div class="row justify-content-sm-center">
+                <div class="col col-12 col-lg-10 py-4  blog-content">
+                    <article>
+                        {{ content }}
+                        {% include blog/post_series.html %}
+                    </article>
+                    {% include blog/disqus_comments.html %}
+                </div>
+                <div class="col col-12 col-lg-10 py-4 blog-sidebar ">
+                    {% include blog/post_sidebar.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
