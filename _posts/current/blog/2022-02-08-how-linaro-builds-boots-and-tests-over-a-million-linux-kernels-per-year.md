@@ -1,6 +1,7 @@
 ---
 layout: post
-title: How Linaro builds, boots and tests over a million Linux kernels per year
+title: How and why Linaro builds, boots and tests over a million Linux kernels
+  per year
 description: >
   In 2021, Linaro addressed an increase in Linux kernel release candidates
   whilst also detecting and reporting more than double the amount of
