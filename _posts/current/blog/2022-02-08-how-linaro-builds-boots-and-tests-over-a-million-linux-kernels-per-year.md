@@ -30,7 +30,7 @@ Linaro’s Linux Kernel Functional Testing ([LKFT](https://lkft.linaro.org/)) ha
 Our goal is to “Improve the Linux kernel quality on the Arm architecture by performing regression testing and reporting on selected Linux kernel branches and the Android Common Kernel (ACK) in real time.” 
 To achieve this, LKFT provides a testing framework which builds, boots and tests the Linux kernel. This is the core of LKFT, and we have built it into a framework, which allows us and users to easily plugin into a testing framework, namely on the Arm architecture.
 
-{% include image.html path="/assets/images/content/linux-kernel-functional-test-image.png" class="medium-inline right" alt="Linux Kernel Functional Test Image" %}
+{% include image.html path="/assets/images/content/linux-kernel-functional-test-image.png" class="medium-inline left" alt="Linux Kernel Functional Test Image" %}
 
 What does real time mean in this context? It means we are committed to the Linux community (through an SLA) to report regressions to kernel maintainers within 48 hours of changes being pushed to linux kernel branches. Our core mission is to report back regressions on Long-term support (LTS), but also stable, and upstream development branches (next/mainline) where we can. We have five full time engineers working across multiple time zones, 24/7, 365 days a year to make sure we reach our SLA target, and due to the effort of our team we have not missed a SLA. We do this across multiple hardware platforms, however we focus mainly on Arm. You can see [the list of boards tested on the LKFT website](https://lkft.linaro.org/boards/).
 
@@ -44,7 +44,7 @@ What does real time mean in this context? It means we are committed to the Linux
 
 The LKFT workload increased by 33%, while our regressions reported increased by 113%.
 
-{% include image.html path="/assets/images/content/tests-executed-by-lkft-in-2021.png" class="medium-inline right" alt="Tests executed by LKFT in 2021" %}
+{% include image.html path="/assets/images/content/tests-executed-by-lkft-in-2021.png" class="medium-inline left" alt="Tests executed by LKFT in 2021" %}
 
 We built 1,203,113 kernels configurations by the end of 2021. This is up 760% from 139k in 2020. Additionally, we almost doubled our test execution count to 144,355,862. This is a 91% increase from 75,622,248 in 2020.
 These numbers are impressive, and we will go into more detail further down the blog post explaining the increase.
