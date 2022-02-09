@@ -12,6 +12,7 @@ description: >
   important, especially in the IoT space. New security
   features need compiler and tool support.
 # presentation_link: https://linaro.co/ai-slides
+video_resources_link: https://resources.linaro.org/en/themes/e07e525f-3fa5-44db-a1b2-bc673a318fe4
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true

@@ -11,6 +11,7 @@ js-package: contactForm
 description: >
   We access a wide range of applications on our devices every single day and expect things to “just work” regardless of what operating system we are using. But a lot of work happens in the background in order to deliver that seamless user experience. Linaro works closely with Google and other industry leaders to advance the Android ecosystem on Arm. This primarily involves upstreaming new features and detecting regressions. A lot of the key pieces of technology that Linaro helps deliver to Android are essential in ensuring your mobile phone works as it should.
 presentation_link: https://linaro.co/android-slides
+video_resources_link: https://resources.linaro.org/en/themes/307811da-98f5-4cfe-b63c-72b117b9c674
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true

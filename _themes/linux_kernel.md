@@ -12,6 +12,7 @@ description: >
   areas. This allows us to reach far within open
   source communities and have a real impact.
 # presentation_link: https://linaro.co/ai-slides
+video_resources_link: https://resources.linaro.org/en/themes/e6d3ba4d-9158-42f9-8df4-28eef7ecf78e
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true

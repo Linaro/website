@@ -11,6 +11,7 @@ description: >
   role in up and coming technologies such as autonomous driving. Linaro plays a key role in QEMU - an
   open source hypervisor.
 # presentation_link: https://linaro.co/ai-slides
+video_resources_link: https://resources.linaro.org/en/themes/4176e32f-5e66-492d-bbc9-b428446048c9
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true

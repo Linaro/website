@@ -11,7 +11,7 @@ js-package: contactForm
 description: >
   Consumers expect to be always connected, always online. Supplying this demand is complex, requiring devices to process a constant stream of data and to    communicate with other types of devices - often at scale and in multiple locations. And this all needs to be done securely. The technologies driving these use cases are continuously evolving but all suffer from one common denominator - the lack of standardization. Linaro is working together with its member companies on developing open standards and interfaces which will help accelerate deployment of their Automotive, IoT and Edge solutions.
 # presentation_link: https://linaro.co/android-slides
-video_resources_link: https://resources.linaro.org/en/tags/58efdcf3-835e-4667-b2b1-8340438a26a4
+video_resources_link: https://resources.linaro.org/en/themes/50057078-8f3b-4615-8f44-67c194e43b69
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true

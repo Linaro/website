@@ -13,6 +13,7 @@ description: >
   property, communications, bank accounts,
   personal digital belongings and more.
 # presentation_link: https://linaro.co/ai-slides
+video_resources_link: https://resources.linaro.org/en/themes/78d8b871-93f5-45a9-9ed0-2cdd8769f852
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
