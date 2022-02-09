@@ -11,6 +11,7 @@ js-package: contactForm
 description: >
   There are core pieces of software that all products rely on, building blocks upon which additional functionality and features can be developed to address specific use cases. Linaro was formed in 2010 to help develop these core pieces of technology as the Arm code base was fragmented, causing delay to innovation and deployment of products. We helped achieve this and continue to evolve and co-maintain these technologies, focusing specifically on the Linux kernel, Arm toolchains, testing and CI, security and virtualization. In recent years we have also worked to bring best in class ML Inferencing & AI to the Arm ecosystem.
 # presentation_link: https://linaro.co/android-slides
+video_resources_link: https://resources.linaro.org/en/themes/cc312f4a-8546-4e22-8895-3a98acfc3e10
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true

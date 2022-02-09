@@ -12,6 +12,7 @@ description: >
   and other operating systems against a variety of emulated
   and hardware targets (IoT, embedded, and server).
 # presentation_link: https://linaro.co/ai-slides
+video_resources_link: https://resources.linaro.org/en/themes/b14ff507-8b3e-4ce4-856d-ef161e2d4214
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
