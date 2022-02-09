@@ -36,7 +36,7 @@ flow:
             ecosystem and enable new markets on Arm architecture.
 
 
-            As technology has evolved, so has Linaro. While we continue to help maintain and evolve the Arm software ecosystem through the work we do on [toolchains](/core-technologies/toolchain/), [security](/core-technologies/security/) and [continuous integration testing](/core-technologies/testing-and-ci/), we also work in several technologies and verticals to enable Arm technology. These include [Artificial Intellgence](/core-technologies/artificial-intelligence/), [Android Ecosystem](/client-devices/), [Datacenter and Cloud](/cloud-computing-and-servers/), [Edge & Fog Computing](/automotive-iot-and-edge-devices/) and [IoT and Embedded](/automotive-iot-and-edge-devices/).
+            As technology has evolved, so has Linaro. While we continue to help maintain and evolve the Arm software ecosystem through the work we do on the [Linux kernel](https://www.linaro.org/core-technologies/linux-kernel/), [toolchains](https://www.linaro.org/core-technologies/toolchain/), [security](https://www.linaro.org/core-technologies/security/) and [continuous integration testing](https://www.linaro.org/core-technologies/testing-and-ci/), we also work across several markets to enable Arm technology. These include [Automotive, IoT & Edge Devices](https://www.linaro.org/automotive-iot-and-edge-devices/), [Client Devices](https://www.linaro.org/client-devices/) and [Cloud Computing & Servers](https://www.linaro.org/cloud-computing-and-servers/). [](/core-technologies/artificial-intelligence/)
   - row: container_row
     style: bg-light-green
     sections:
