@@ -15,6 +15,7 @@ description: >
   to our digital voice assistants and social
   media accounts.
 presentation_link: https://linaro.co/ai-slides
+video_resources_link: https://resources.linaro.org/en/themes/d6090241-cd9d-4534-bd53-ce29c2814671
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true

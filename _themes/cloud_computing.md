@@ -10,6 +10,7 @@ icon_alt: /assets/images/content/CC_and_S_icon_green.svg
 js-package: contactForm
 description: >
   The traditional data center is transitioning from on-premise server racks to cloud technologies in third party data centers. Accelerated by the pandemic and the need for remote work, datacenter and cloud infrastructure are expected to deliver more connectivity faster - while remaining secure. To help achieve this, Linaro works with member companies to make key open source projects enabled for Arm-based servers. The work we do ensures the Arm server ecosystem can rely on quality software.
+video_resources_link: https://resources.linaro.org/en/themes/04687b37-4cdc-4716-a26b-64e0e55ed988
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
