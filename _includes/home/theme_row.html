@@ -4,21 +4,43 @@
         {% assign themes_to_show = themes_to_show | push: theme %}
     {% endunless %}
 {% endfor %}
-<div class="row py-0" id="theme_tabs">
+<div class="row py-0 d-block d-md-none" id="theme_tabs_mobile">
+    <div class="container">
+        <div class="col col-12 py-0">
+            <div class="row py-0">
+                {% for theme in themes_to_show %}
+                    <a class="nav-link h-100 {% if forloop.first %}active{% endif %}"
+                        id="{{theme.title | slugify}}-tab" href="#{{theme.title | slugify}}" role="tab"
+                            aria-controls="{{theme.title | slugify}}" aria-selected="true">
+                        <div class="icon_wrapper d-flex justify-content-around flex-column h-100 align-items-center text-center py-4">
+                            <img class="icon_image" src="{{theme.icon_col}}" alt="{{theme.title}} icon"/>
+                            <h3 class="text-dark font-weight-bold theme_title pt-3">{{theme.title}}</h3>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row py-0 d-none d-md-block" id="theme_tabs">
     <div class="container">
         <div class="col col-12 py-0">
             <div class="row py-0">
                 <div class="owl-carousel owl-theme" id="theme_slider">
                     {% for theme in themes_to_show %}
                         <div class="item h-100" data-tab-id="{{theme.title | slugify}}" >
-                            <a class="nav-link h-100 {% if forloop.first %}active{% endif %}"
-                                id="{{theme.title | slugify}}-tab" href="#{{theme.title | slugify}}" role="tab"
-                                    aria-controls="{{theme.title | slugify}}" aria-selected="true">
-                                <div class="icon_wrapper d-flex justify-content-around flex-column h-100 align-items-center text-center py-4">
-                                    <img class="icon_image" src="{{theme.icon}}" alt="{{theme.title}} icon"/>
-                                    <h3 class="text-white font-weight-bold theme_title pt-3">{{theme.title}}</h3>
+                            <div class="item_wrapper">
+                                <div class="item_innner_wrapper">
+                                    <a class="nav-link h-100 {% if forloop.first %}active{% endif %}"
+                                        id="{{theme.title | slugify}}-tab" href="#{{theme.title | slugify}}" role="tab"
+                                            aria-controls="{{theme.title | slugify}}" aria-selected="true">
+                                        <div class="icon_wrapper d-flex justify-content-around flex-column h-100 align-items-center text-center py-4">
+                                            <img class="icon_image" src="{{theme.icon_col}}" alt="{{theme.title}} icon"/>
+                                            <h3 class="text-dark font-weight-bold theme_title pt-3">{{theme.title}}</h3>
+                                        </div>
+                                    </a>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     {% endfor %}
                 </div>
@@ -26,26 +48,25 @@
         </div>
     </div>
 </div>
-<div class="row py-0" id="theme_section">
+<div class="row py-0 d-none d-md-block" id="theme_section">
     <div class="col col-12">
         <div class="tab-content" >
             {% for theme in themes_to_show %}
                 <div class="tab-pane show {% if forloop.first %}active{% endif %}" id="{{theme.title | slugify}}" role="tabpanel" aria-labelledby="{{theme.title | slugify}}-tab">
-                    <div class="row background_image_row">
+                    <div class="row">
                         {% capture theme_image %}{% if theme.jumbotron.image %}{{theme.jumbotron.image}}{% else %}{{ theme.image }}{% endif %}{% endcapture %}
                         {% capture alt %}{{theme.title}} background{% endcapture %}
-                        {% picture header_image {{theme_image}} --alt {{alt}} %}
-                        <div class="container text-white">
+                        <div id="theme_bg_image" class="d-none">
+                            {% picture header_image {{theme_image}} --alt {{alt}} %}
+                        </div>
+                        <div class="container text-dark">
                             <div class="row theme_content_row h-100">
-                                <div class="col col-12 col-md-6 d-flex align-items-center justify-content-center small_text_mobile">
+                                <div class="col col-12 col-md-8 d-flex align-items-center justify-content-center small_text_mobile">
                                     {{theme.description  | markdownify }}
                                 </div>
-                                <div class="col col-12 col-md-6 d-flex align-items-center justify-content-center">
+                                <div class="col col-12 col-md-4 d-flex align-items-center justify-content-center">
                                     <a href="{{theme.url}}" class="btn btn-primary mr-2 text-uppercase px-4">
                                         Learn more
-                                    </a>
-                                    <a href="/projects/#{{theme.title | slugify}}" class="btn btn-secondary mr-2 text-uppercase border-white px-4">
-                                        Projects
                                     </a>
                                 </div>
                             </div>
