@@ -273,6 +273,11 @@
         "url": "https://www.oppo.com/"
       },
       {
+        "image": "https://static.linaro.org/common/member-logos/microsoft.jpg",
+        "name": "Microsoft",
+        "uri": "https://developer.microsoft.com/en-gb/windows/"
+      },
+      {
         "image": "https://static.linaro.org/common/member-logos/quic.jpg",
         "name": "QuIC",
         "url": "/membership/quic/"
