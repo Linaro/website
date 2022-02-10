@@ -15,6 +15,17 @@ layout: flow
 flow:
   - row: custom_include_row
     source: home/homepage_header.html
+  - row: container_row
+    style: bg-black text-section
+    sections:
+      - format: text
+        style: text-left text-white highlighted_text_section px-3
+        text_content:
+          text: >
+            Linaro has driven open source software development on Arm since 2010 and is home to many
+            world-leading Arm software experts. Together with our members and the open source community, we
+            drive the work needed to maintain and improve the Arm software ecosystem. Our work spans a wide
+            range of verticals and technologies.
   - row: custom_include_row
     source: home/theme_row.html
   - row: container_row
