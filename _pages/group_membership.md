@@ -37,6 +37,20 @@ flow:
     style: bg-light mt-5
     sections:
       - format: custom_include
+        source: membership/related_group_members_lwg.html
+  - row: container_row
+    style: membership_text
+    sections:
+      - format: text
+        text_content:
+          text: |
+            The Windows on Arm project aims to establish a healthy self-sustaining Arm open source ecosystem for windows.This involves looking at a diverse set of tools, languages and frameworks and working to ensure these run natively on Windows on Arm. The ultimate goal is to work with Microsoft, Arm, Qualcomm and the open source community to establish Windows on Arm as a first-class deliverable.
+      - format: custom_include
+        source: membership/related_projects_lwg.html
+  - row: container_row
+    style: bg-light mt-5
+    sections:
+      - format: custom_include
         source: membership/related_group_members_lcg.html
   - row: container_row
     style: membership_text
