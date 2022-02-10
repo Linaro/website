@@ -14,7 +14,7 @@ tags:
 category: news
 author: linaro
 ---
-Linaro Ltd, the opensource collaborative engineering organization developing software for the Arm® ecosystem, today announced that Microsoft has joined Linaro as a Member of Linaro’s Windows on Arm Project. 
+Linaro Ltd, the open-source collaborative engineering organization developing software for the Arm® ecosystem, today announced that Microsoft has joined Linaro as a Member of Linaro’s Windows on Arm Project. 
 
 Linaro, Arm and Qualcomm Technologies, Inc. have been working together for the past year to advance Windows on Arm by building an ecosystem which supports native development, in response to user demand. In April 2021, the companies announced the availability of [the Windows 10 on Arm bot support and binary](https://www.linaro.org/news/linaro-arm-and-qualcomm-collaborate-to-enable-native-llvm-for-windows-10-on-arm/) as part of the LLVM 12.0.0 release. LLVM is one of the main tools the open-source community uses to compile their code. At the end of September 2021, Qt 6.2 was released, with Windows on Arm hardware being available as a Technology preview. The current plan is to be able to provide [full support for Windows 11 in a Qt 6.2 patch-level release](https://www.qt.io/blog/qt-6.2-lts-released). Qt is a GUI toolkit that provides cross-platform support for many open source and commercial packages across the major operating systems. Both the LLVM 12.0.0 release and the Qt 6.2 release are enabling developers to recompile applications faster as there is now native Windows on Arm support. 
 
