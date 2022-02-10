@@ -9,7 +9,7 @@ icon_dark: /assets/images/content/CD.svg
 icon_alt: /assets/images/content/Client_Devices_icon.svg
 js-package: contactForm
 description: >
-  We access a wide range of applications on our devices every single day and expect things to “just work” regardless of what operating system we are using. But a lot of work happens in the background in order to deliver that seamless user experience. Linaro works closely with Google, HiSilicon, Qualcomm and Samsung to advance the Android ecosystem on Arm. In addition to our collaboration with Google, we also work closely with Microsoft, Arm and Qualcomm to advance the Windows on Arm ecosystem. In both cases, Linaro is driving the work needed to enable open source packages to run natively on Arm-based devices running Windows and/or Android. We believe native development is key to improving performance, reducing power consumption and ultimately delivering an exceptional user experience.
+  We access a wide range of applications on our devices every single day and expect things to “just work” regardless of what operating system we are using. But a lot of work happens in the background in order to deliver that seamless user experience. Linaro works closely with Google to advance the Android ecosystem on Arm. In addition to our collaboration with Google, we also work closely with Microsoft to advance the Windows on Arm ecosystem. In both cases, Linaro is driving the work needed to enable open source packages to run natively on Arm-based devices running Windows and/or Android.
 presentation_link: https://linaro.co/android-slides
 video_resources_link: https://resources.linaro.org/en/themes/307811da-98f5-4cfe-b63c-72b117b9c674
 jumbotron:
@@ -17,7 +17,9 @@ jumbotron:
   title_row: true
   title: Client Devices
   description: |
-    There is no doubt that Arm chips can deliver an exceptional user experience through efficient power consumption, fast performance and all day battery life. But for devices running on Arm-based technology to truly leverage these capabilities, operating systems (OS) need to ensure that open source tools and applications using their OS can run natively on Arm. This is no small task and the reason why Google and Microsoft collaborate with Linaro, its members and the open source community. Linaro drives the work needed to create strong ecosystems for Android and Windows on Arm. These ecosystems play a crucial role in delivering exceptional user experiences to consumers.
+    There is no doubt that Arm chips can deliver an exceptional user experience through efficient power consumption, fast performance and all day battery life.
+
+    But for devices running on Arm-based technology to truly leverage these capabilities, operating systems (OS) need to ensure that open source tools and applications using their OS can run natively on Arm. This is no small task and the reason why Google and Microsoft collaborate with Linaro, its members and the open source community. Linaro drives the work needed to create strong ecosystems for Android and Windows on Arm. These ecosystems play a crucial role in delivering exceptional user experiences to consumers.
   image: /assets/images/content/Client_Devices_banner_pic.jpg
 flow:
   - row: custom_include_row
@@ -58,6 +60,10 @@ flow:
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
                 The Windows on Arm project aims to establish a healthy self-sustaining Arm open source ecosystem for Windows.This involves looking at a diverse set of tools, languages and frameworks and working to ensure these run natively on Windows on Arm. The ultimate goal is to establish Windows on Arm as a first-class deliverable.
+              buttons:
+                - title: Learn more
+                  style: btn-lg btn-primary btn-outline-primary
+                  url: https://linaro.atlassian.net/wiki/spaces/WOAR/overview
             - title: Android Runtime
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
