@@ -9,7 +9,7 @@ icon_dark: /assets/images/content/CD.svg
 icon_alt: /assets/images/content/Client_Devices_icon.svg
 js-package: contactForm
 description: >
-  We access a wide range of applications on our devices every single day and expect things to “just work” regardless of what operating system we are using. But a lot of work happens in the background in order to deliver that seamless user experience. Linaro works closely with Google and other industry leaders to advance the Android ecosystem on Arm. This primarily involves upstreaming new features and detecting regressions. A lot of the key pieces of technology that Linaro helps deliver to Android are essential in ensuring your mobile phone works as it should.
+  We access a wide range of applications on our devices every single day and expect things to “just work” regardless of what operating system we are using. But a lot of work happens in the background in order to deliver that seamless user experience. Linaro works closely with Google, HiSilicon, Qualcomm and Samsung to advance the Android ecosystem on Arm. In addition to our collaboration with Google, we also work closely with Microsoft, Arm and Qualcomm to advance the Windows on Arm ecosystem. In both cases, Linaro is driving the work needed to enable open source packages to run natively on Arm-based devices running Windows and/or Android. We believe native development is key to improving performance, reducing power consumption and ultimately delivering an exceptional user experience.
 presentation_link: https://linaro.co/android-slides
 video_resources_link: https://resources.linaro.org/en/themes/307811da-98f5-4cfe-b63c-72b117b9c674
 jumbotron:
@@ -17,17 +17,7 @@ jumbotron:
   title_row: true
   title: Client Devices
   description: |
-    Open source is a key ingredient of Android.
-    Android as found on a client device is
-    closely related to the Android Open
-    Source Project (AOSP).
-
-    The collection of git repositories that make up AOSP include many familiar open source projects like the Linux
-    kernel, bluez, alsa, icu and so on. These provide key pieces of technology to Android, without which your phone
-    wouldn’t be very useful. Linaro works together with Google and other industry leaders to improve and help
-    maintain the Android ecosystem. This involves reducing technical debt by upstreaming open source software that
-    Android depends on. It also involves adding functionality, or optimization activities where
-    changes to frameworks can improve performance, reduce the memory footprint and more.
+    There is no doubt that Arm chips can deliver an exceptional user experience through efficient power consumption, fast performance and all day battery life. But for devices running on Arm-based technology to truly leverage these capabilities, operating systems (OS) need to ensure that open source tools and applications using their OS can run natively on Arm. This is no small task and the reason why Google and Microsoft collaborate with Linaro, its members and the open source community. Linaro drives the work needed to create strong ecosystems for Android and Windows on Arm. These ecosystems play a crucial role in delivering exceptional user experiences to consumers.
   image: /assets/images/content/Client_Devices_banner_pic.jpg
 flow:
   - row: custom_include_row
@@ -45,30 +35,29 @@ flow:
           custom_size: 6
           style: p-3 text-white
           text: |
-            ## Advancing the Android Ecosystem on Arm
+            ## Growing ecosystems on Arm which deliver exceptional end-user experiences
 
-            In order to deliver the best end user experience, devices need to
-            be kept up to date with the latest software and integrate well
-            with third party packages. In other words, there needs to be a
-            healthy ecosystem supporting these devices. Linaro works with
-            member companies to achieve the optimal user experience by
-            helping upstream new features, reduce technical debt and
-            detect regressions.
+            In order to deliver the best end user experience, devices need to be kept up to date with the latest software and integrate well with third party packages. In other words, there needs to be a healthy ecosystem supporting these devices. Linaro works with member companies to achieve the optimal user experience by helping upstream new features, reduce technical debt and detect regressions.
   - row: container_row
     style: bg-light
     sections:
       - format: title
         style: font-weight-bold mt-4
         title_content:
-          text: Linaro Projects enabling the optimal user experience for Android on Arm
+          text: Linaro Projects helping grow the Android and Windows Ecosystems on Arm
           size: h2
       # - format: custom_include
       #   source: themes/related_project_blocks.html
       - format: block
         style: pb-4
-        item_width: "4"
+        item_width: "6"
         block_section_content:
           blocks:
+            - title: Windows on Arm
+              style: related_project_block h-100
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                The Windows on Arm project aims to establish a healthy self-sustaining Arm open source ecosystem for Windows.This involves looking at a diverse set of tools, languages and frameworks and working to ensure these run natively on Windows on Arm. The ultimate goal is to establish Windows on Arm as a first-class deliverable.
             - title: Android Runtime
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
