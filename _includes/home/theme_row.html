@@ -50,7 +50,7 @@
 </div>
 <div class="row py-0 d-none d-md-block" id="theme_section">
     <div class="col col-12">
-        <div class="tab-content" >
+        <div class="tab-content">
             {% for theme in themes_to_show %}
                 <div class="tab-pane show {% if forloop.first %}active{% endif %}" id="{{theme.title | slugify}}" role="tabpanel" aria-labelledby="{{theme.title | slugify}}-tab">
                     <div class="row">
@@ -61,13 +61,18 @@
                         </div>
                         <div class="container text-dark">
                             <div class="row theme_content_row h-100">
-                                <div class="col col-12 col-md-8 d-flex align-items-center justify-content-center small_text_mobile">
-                                    {{theme.description  | markdownify }}
-                                </div>
-                                <div class="col col-12 col-md-4 d-flex align-items-center justify-content-center">
-                                    <a href="{{theme.url}}" class="btn btn-primary mr-2 text-uppercase px-4">
-                                        Learn more
-                                    </a>
+                                <div class="theme_content_wrapper">
+                                    <div class="theme_content_inner_wrapper">
+                                        <div class="col col-12 col-md-8 d-flex align-items-center justify-content-center small_text_mobile">
+                                            {{theme.description  | markdownify }}
+                                        </div>
+                                        <div class="col col-12 col-md-4 d-flex align-items-center justify-content-center">
+                                            <a href="{{theme.url}}" class="btn btn-primary mr-2 text-uppercase px-4">
+                                                Learn more
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
