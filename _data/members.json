@@ -228,6 +228,13 @@
     "url": "/iot-and-embedded/"
   },
   {
+    "id": "lwg",
+    "members": [],
+    "membership_group_name": "LWG Members",
+    "text": "Linaro Windows Group",
+    "url": ""
+  },
+  {
     "id": "boards-sc",
     "image": "96boards-steering-committee.png",
     "members": [
