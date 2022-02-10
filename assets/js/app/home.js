@@ -12,19 +12,19 @@ $(document).ready(() => {
       responsiveClass: true,
       responsive: {
         0: {
-          items: 2,
+          items: 4,
         },
         576: {
-          items: 2,
+          items: 4,
         },
         768: {
-          items: 3,
+          items: 4,
         },
         992: {
           items: 4,
         },
         1200: {
-          items: 7,
+          items: 4,
         },
       },
     });
@@ -56,6 +56,11 @@ $(document).ready(() => {
           $(this).removeClass("active");
         }
       });
+      $(`#theme_tabs .item`).each(function () {
+        if ($(this).hasClass("selected")) {
+          $(this).removeClass("selected");
+        }
+      });
       $(`.nav-link`).each(function () {
         if ($(this).hasClass("active")) {
           $(this).removeClass("active");
@@ -64,6 +69,7 @@ $(document).ready(() => {
       let tab_id = e.currentTarget.attributes["data-tab-id"].value;
       $(`#${tab_id}-tab`).addClass("active");
       $(`#${tab_id}`).addClass("active");
+      $(this).addClass("selected");
     });
   }
   if ($(".project_button").length > 0) {
