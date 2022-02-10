@@ -69,7 +69,7 @@ $(document).ready(() => {
       let tab_id = e.currentTarget.attributes["data-tab-id"].value;
       $(`#${tab_id}-tab`).addClass("active");
       $(`#${tab_id}`).addClass("active");
-      $(this).addClass("selected");
+      $(`data-tab-id=[${tab_id}]`).addClass("selected");
     });
   }
   if ($(".project_button").length > 0) {
