@@ -1,4 +1,12 @@
 #flow_wrapper {
+  #news_alert {
+    background-color: #0083ad;
+    color: #fff;
+    a {
+      color: $primary;
+      font-style: italic;
+    }
+  }
   .highlighted_text_section {
     color: white;
     border-left: 5px solid $primary;
