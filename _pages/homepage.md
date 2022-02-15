@@ -14,6 +14,10 @@ css_bundle: home
 layout: flow
 flow:
   - row: custom_include_row
+    source: alert_banner.html
+    title: Microsoft joins Linaro to advance Windows on Arm
+    url: /news/microsoft-joins-linaro-arm-and-qualcomm-technologies-to-advance-windows-on-arm/
+  - row: custom_include_row
     source: home/homepage_header.html
   - row: container_row
     style: bg-black text-section
@@ -21,11 +25,10 @@ flow:
       - format: text
         style: text-left text-white highlighted_text_section px-3
         text_content:
-          text: >
-            Linaro has driven open source software development on Arm since 2010 and is home to many
-            world-leading Arm software experts. Together with our members and the open source community, we
-            drive the work needed to maintain and improve the Arm software ecosystem. Our work spans a wide
-            range of verticals and technologies.
+          text: |
+            Linaro works with businesses and open source communities to develop software on Arm-based technology. We create solutions that drive forward the Arm software ecosystem, enhance standardisation, promote collaboration across industries and contribute to real-world applications.
+
+            To find out more about the work we do, select one of the icons below.
   - row: custom_include_row
     source: home/theme_row.html
   - row: container_row
