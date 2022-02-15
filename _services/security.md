@@ -104,7 +104,7 @@ flow:
             deliver secure boot solutions that meet SystemReady and PSA
 
             Level 1 certifications. We have worked with Arm to extend the work of Linaro’s Edge and Fog Computing group (LEDGE) on the
-            [Trusted substrate project](/trusted-substrate/) to develop and upstream a SystemReady IR secure boot solution on NXP chipsets that have been
+            [Trusted Substrate project](/projects/#automotive-iot-edge-devices_TS) to develop and upstream a SystemReady IR secure boot solution on NXP chipsets that have been
             adopted by NXP as part of their product BSP.
 
 
