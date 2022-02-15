@@ -25,7 +25,7 @@ flow:
       - format: text
         text_content:
           text: |
-            Linaro has four segment groups: the **Linaro Consumer Group**, the **Linaro Datacenter & Cloud Group**, the
+            Linaro has five segment groups: the **Linaro Windows Group**, the **Linaro Consumer Group**, the **Linaro Datacenter & Cloud Group**, the
             **Linaro Edge & Fog Computing Group** and the **Linaro IoT & Embedded Group**. Each group has been created
             to help advance the Arm software ecosystem within a particular vertical.
   - row: container_row
