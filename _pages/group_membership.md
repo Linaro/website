@@ -1,7 +1,7 @@
 ---
 title: Group Membership
 description: >
-  Linaro has four segment groups: the Linaro Consumer Group, the Linaro Datacenter & Cloud Group, the
+  Linaro has five segment groups: the Linaro Windows Group, the Linaro Consumer Group, the Linaro Datacenter & Cloud Group, the
   Linaro Edge & Fog Computing Group and the Linaro IoT & Embedded Group. Each group has been created
   to help advance the Arm software ecosystem within a particular vertical.
 permalink: /membership/groups/
@@ -25,7 +25,7 @@ flow:
       - format: text
         text_content:
           text: |
-            Linaro has four segment groups: the **Linaro Consumer Group**, the **Linaro Datacenter & Cloud Group**, the
+            Linaro has five segment groups: the **Linaro Windows Group**, the **Linaro Consumer Group**, the **Linaro Datacenter & Cloud Group**, the
             **Linaro Edge & Fog Computing Group** and the **Linaro IoT & Embedded Group**. Each group has been created
             to help advance the Arm software ecosystem within a particular vertical.
   - row: container_row
@@ -33,6 +33,20 @@ flow:
     sections:
       - format: custom_include
         source: membership/groups.html
+  - row: container_row
+    style: bg-light mt-5
+    sections:
+      - format: custom_include
+        source: membership/related_group_members_lwg.html
+  - row: container_row
+    style: membership_text
+    sections:
+      - format: text
+        text_content:
+          text: |
+            The Windows on Arm project aims to establish a healthy self-sustaining Arm open source ecosystem for windows.This involves looking at a diverse set of tools, languages and frameworks and working to ensure these run natively on Windows on Arm. The ultimate goal is to work with Microsoft, Arm, Qualcomm and the open source community to establish Windows on Arm as a first-class deliverable.
+      - format: custom_include
+        source: membership/related_projects_lwg.html
   - row: container_row
     style: bg-light mt-5
     sections:

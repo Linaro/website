@@ -1,4 +1,83 @@
 #wrapper {
+  .two_column_feature {
+    h2 {
+      font-weight: bold;
+    }
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    transition: color 1000ms ease-in-out;
+    &:hover {
+      h5 {
+        color: $primary;
+        text-decoration: none;
+      }
+      .core_technology_block {
+        background-color: #343434;
+      }
+      .arrows_icon {
+        opacity: 0;
+      }
+    }
+  }
+  .core_technology_block {
+    border: 5px solid #878787;
+    padding: 5px;
+    img {
+      height: 50px;
+      width: auto;
+      margin: 10px 0;
+    }
+    h5 {
+      color: white;
+      transition: all 200ms ease;
+      height: 55px;
+      padding-top: 10px;
+    }
+    .arrows_icon {
+      position: absolute;
+      right: 0;
+      background-color: $secondary;
+      color: $primary;
+      padding: 0px 10px;
+      font-size: 15px;
+      opacity: 1;
+      transition: all 100ms ease;
+    }
+  }
+  .bg-lighter-blue {
+    background-color: #b3dae6;
+  }
+  a.whitepaper_link:hover .whitepaper_text {
+    height: 100%;
+  }
+  .whitepaper-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    picture img {
+      object-fit: cover;
+      height: 100%;
+    }
+    .whitepaper_text {
+      position: absolute;
+      height: 130px;
+      text-align: center;
+      background-color: black;
+      bottom: 0;
+      opacity: 0.8;
+      color: white;
+      font-size: 14px;
+      display: flex;
+      padding: 10px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      transition: all 200ms ease;
+    }
+  }
+
   .related_project_block {
     border-top: 5px solid $primary;
     h5.card-title {
@@ -10,6 +89,9 @@
     padding: 10px;
     background-color: white;
     h3 {
+      font-weight: bold;
+    }
+    h5.card-title {
       font-weight: bold;
     }
   }

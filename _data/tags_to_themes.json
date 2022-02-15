@@ -123,6 +123,22 @@
         "Server",
         "Servers"
       ]
+    },
+    {
+      "title": "Automotive, IoT & Edge Devices",
+      "tags": [
+        "Edge",
+        "Ledge",
+        "Embedded",
+        "IoT and Embedded",
+        "LITE",
+        "Lite",
+        "MbedTLS",
+        "Mobile Group",
+        "OpenAMP",
+        "PSA Certified",
+        "Zephyr"
+      ]
     }
   ]
 }

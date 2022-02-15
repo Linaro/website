@@ -234,4 +234,4 @@ arm-probe --config &lt;/path/to/config&gt; -z
 
 With our success in collecting power and performance results for Android, we hope to do the same for the Linux kernel. We also want to test patches from the Linux/Arm kernel mailing list to find any regressions and report back to the developers. Lastly, we hope to collaborate with kernelci to share resources and provide more useful results to kernel maintainers and contributors other than boot test reports.
 
-For more information on the PMWG board farm, visit [/kernel-and-toolchain/](/kernel-and-toolchain/).
+For more information on the PMWG board farm, visit [/kernel-and-toolchain/](/core-technologies/toolchain/).

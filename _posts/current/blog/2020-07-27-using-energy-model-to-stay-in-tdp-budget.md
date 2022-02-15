@@ -117,7 +117,7 @@ It is reasonable to say the in-kernel logic will greatly increase the efficiency
 
 The powercap energy model based framework will be a very powerful framework, flexible for userspace, unified for AOSP, consistent and safe to coexist with the existing frameworks.
 
-## [About the Kernel Working Group](/kernel-and-toolchain/)
+## [About the Kernel Working Group](/core-technologies/toolchain/)
 
 The Kernel Working Group’s (KWG) primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple Arm SoCs and Arm-based platforms.
 

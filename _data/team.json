@@ -82,17 +82,6 @@
       ]
     },
     {
-      "name": "David Rusling",
-      "title": "Chief Technical Officer at Linaro",
-      "company": "Linaro",
-      "image": "/assets/images/people/david-rusling.png",
-      "bio": "David always enjoyed mathematics, but America’s space program together with ‘Star Trek’ made him think that computers were really interesting and so he graduated in 1982 with a degree in Computer Science. At Digital Equipment Corporation he got involved in the port of Linux® to the Alpha processor. This gave him an abiding respect for the power of open source in general and Linux in particular. He worked on StrongArm before moving to Arm where he added tools experience. At Arm he continued to be involved in open source and as a reward for his meddling was made an Arm Fellow. He helped create Linaro, becoming its CTO in 2010.\nWhen he’s not being a techno-dweeb, David enjoys photography, hiking, cooking, fine wines and friends.\n",
-      "teams": [
-        "technical_steering_committee",
-        "executive_team"
-      ]
-    },
-    {
       "name": "Rob Booth",
       "title": "Chief Operating Officer at Linaro",
       "company": "Linaro",
@@ -167,6 +156,17 @@
       "teams": [
         "board_of_directors"
       ]
+    },
+    {
+      "teams": [
+        "executive_team",
+        "technical_steering_committee"
+      ],
+      "name": "Grant Likely",
+      "title": "Chief Technical Officer at Linaro",
+      "company": "Linaro",
+      "image": "/assets/images/content/img_2696-1-.jpg",
+      "bio": "Grant Likely is a senior technical director in the architecture group at Arm. He is responsible for the SystemReady IR program which brings interoperability between hardware, operating systems and applications to the edge and IoT ecosystems. Prior to Arm he was a Linaro Fellow in the CTO office and helped shape Linaro’s overall technical strategy when it was formed in a way that supports the different strategic goals of each Linaro group. Grant is well known in the Linux kernel development community as the previous Devicetree maintainer and as a community leader who chaired the Linux Foundation Technical Advisory Board, has helped organize conferences, and is a frequent speaker at conferences. It is through his Linux work that he saw the power of collaboration to achieve far more than any of us can individually. Working on Linux inspired him in 2005 to start a consulting business focused on helping clients build simpler and maintainable embedded Linux devices by collaborating with the developer community rather than taking from it. In each role since he has continued to seek greater collaboration and take advantage of opportunities for shared engineering."
     }
   ]
 }

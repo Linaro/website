@@ -1,0 +1,67 @@
+reportAnIssue: Report an Issue
+editOnGithub: Edit on GitHub
+about: About
+read: Read
+new: New
+next: Next
+prev: Prev
+posts: Posts
+recentPosts: Recent Posts
+otherPosts: Other Posts
+postedBy: Posted by
+home: Home
+viewAllTags: View all tags
+necessaryCookies: Necessary Cookies
+necessaryCookiesText: >
+  We cannot disable necessary cookies as these are required to remember your preferences
+  for non-essential cookies.
+necessaryCookiesTextList: "List of Necessary Cookies:"
+cookieName: Cookie Name
+usage: Usage
+postAddedInLastWeek: Post added in the last week.
+analyticsCookies: Analytics Cookies
+analyticsCookiesTextList: "List of Analytics Cookies:"
+cookiesDisabledText: Toggle this switch to enable the collection of anonymous analytics data that helps us improve our site.
+cookiesEnabledText: Toggle this switch to disable the collection of anonymous analytics data that helps us improve our site.
+estimatedReadTime: Estimated read time
+info:
+  title: linaro-jekyll-theme (the advanced enterprise ready Jekyll theme)
+  description: |-
+    The linaro-jekyll-theme is an advanced enterprise ready Jekyll theme used across the Linaro static websites.
+search:
+  search: Search
+  searchPosts: Search posts
+  clearSearch: Clear Search
+close: Close
+moreInfo: More info
+learnMore: Learn more
+copyright: Copyright
+toggleNavigation: Toggle Navigation
+projects: Projects
+# CUSTOM
+homepage:
+  title1: Accelerating deployment
+  title2: in the
+  title3: Arm Ecosystem
+  headerText: >
+    Linaro has driven open source software development on Arm since 2010 and is home to many world-leading Arm software experts. Together with our members and the open source community, we drive the work needed to maintain and improve the Arm software ecosystem. Our work spans a wide range of verticals and technologies.
+  headerText2: To find out more about the work we do, click on the relevant icon below.
+  stats:
+    statsText1: >
+      of Linaro patches are accepted within 7 days of submission (75% within 35 days)
+    statsText2: >
+      In the top 10 Contributors to the Linux kernel
+    statsText3: >
+      Number of patches submitted to upstream projects in the past 2 years
+  maintainers:
+    titleText: Open Source Software Maintainers
+    subText: In total Linaro Maintainers manage over 40 Open Source Projects
+  cta:
+    membershipTitle: Linaro Membership
+    membershipText: >
+      If you want to work with Linaro’s technical domain experts and other industry leaders on solving common problems, then Linaro membership is the option for you. Click on the videos below to find out why our members choose to partner with Linaro:
+    membershipBtnText: Find out more about Linaro Membership
+    dsTitle: Linaro Developer Services
+    dsText: >
+      If you want to leverage Linaro’s Arm and open source software expertise on a specific project, then working with Linaro Developer Services is the right option for you.
+    dsBtnText: Find out more about Linaro Developer Services
