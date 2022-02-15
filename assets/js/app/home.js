@@ -1,37 +1,88 @@
-$(document).ready(() => {
-  if ($("#theme_slider").length > 0) {
-    $("#theme_slider").owlCarousel({
-      loop: false,
-      nav: true,
-      rewind: false,
-      dots: false,
-      lazyLoad: true,
-      autoplay: false,
-      animateOut: "fadeOut",
-      animateIn: "fadeIn",
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 4,
-        },
-        576: {
-          items: 4,
-        },
-        768: {
-          items: 4,
-        },
-        992: {
-          items: 4,
-        },
-        1200: {
-          items: 4,
-        },
-      },
+var SLIDER_PAUSED = false;
+var CURRENT_TAB_NUMBER = 0;
+var ON_MOBILE = false;
+
+const switch_tab = (tab_id) => {
+  if (NOT_ON_MOBILE) {
+    $(`#theme_tabs .item`).each(function () {
+      $(this).addClass("selected");
     });
+  } else {
+    $(`.tab-pane`).each(function () {
+      if ($(this).hasClass("active")) {
+        $(this).removeClass("active");
+      }
+    });
+    $(`#theme_tabs .item`).each(function () {
+      if ($(this).hasClass("selected")) {
+        $(this).removeClass("selected");
+      }
+    });
+    $(`.nav-link`).each(function () {
+      if ($(this).hasClass("active")) {
+        $(this).removeClass("active");
+      }
+    });
+  }
+  $(`#${tab_id}-tab`).addClass("active");
+  $(`#${tab_id}`).addClass("active");
+  $(`[data-tab-id="${tab_id}"]`).addClass("selected");
+  $(`#homepage_header [data-theme-id]`).each(function () {
+    $(this).addClass("hidden_image");
+  });
+  $(`#homepage_header [data-theme-id="${tab_id}"]`).removeClass("hidden_image");
+};
+const sliderLoop = () => {
+  let tab_items = $("#theme_tabs .item");
+  let interval = setInterval(() => {
+    if (!SLIDER_PAUSED) {
+      console.log(
+        `Switching to ${$(tab_items[CURRENT_TAB_NUMBER])[0].dataset.tabId}`
+      );
+      console.log(CURRENT_TAB_NUMBER);
+      switch_tab($(tab_items[CURRENT_TAB_NUMBER])[0].dataset.tabId);
+      if (CURRENT_TAB_NUMBER < tab_items.length - 1) {
+        CURRENT_TAB_NUMBER++;
+      } else {
+        CURRENT_TAB_NUMBER = 0;
+      }
+    }
+  }, 3000);
+  $(document).on("page:beforeout", function (e) {
+    clearInterval(interval);
+  });
+};
+$(document).ready(() => {
+  if ($("#theme_tabs").length > 0) {
+    let { sm, md, lg, xl } = checkSize();
+    NOT_ON_MOBILE = sm || md || lg || xl;
+    $(window).resize(function () {
+      let { sm, md, lg, xl } = checkSize();
+      NOT_ON_MOBILE = sm || md || lg || xl;
+    });
+    sliderLoop();
+    $("#theme_tabs").hover(
+      () => {
+        SLIDER_PAUSED = true;
+      },
+      () => {
+        SLIDER_PAUSED = false;
+      }
+    );
+  }
+  if ($("#theme_section").length > 0) {
+    $("#theme_section").hover(
+      () => {
+        SLIDER_PAUSED = true;
+      },
+      () => {
+        SLIDER_PAUSED = false;
+      }
+    );
   }
   if ($("#stats_slider").length > 0) {
     $("#stats_slider").owlCarousel({
-      loop: true,
+      loop: false,
       nav: false,
       rewind: true,
       dots: false,
@@ -48,28 +99,15 @@ $(document).ready(() => {
       },
     });
   }
+
   if ($("#theme_tabs .item").length > 0) {
+    // Set initial selected tab
+    $(`[data-tab-id="automotive-iot-edge-devices"]`).addClass("selected");
     $("#theme_tabs .item").click((e) => {
       e.preventDefault();
-      $(`.tab-pane`).each(function () {
-        if ($(this).hasClass("active")) {
-          $(this).removeClass("active");
-        }
-      });
-      $(`#theme_tabs .item`).each(function () {
-        if ($(this).hasClass("selected")) {
-          $(this).removeClass("selected");
-        }
-      });
-      $(`.nav-link`).each(function () {
-        if ($(this).hasClass("active")) {
-          $(this).removeClass("active");
-        }
-      });
+      SLIDER_PAUSED = true;
       let tab_id = e.currentTarget.attributes["data-tab-id"].value;
-      $(`#${tab_id}-tab`).addClass("active");
-      $(`#${tab_id}`).addClass("active");
-      $(`data-tab-id=[${tab_id}]`).addClass("selected");
+      switch_tab(tab_id);
     });
   }
   if ($(".project_button").length > 0) {
