@@ -2,8 +2,19 @@
   class="jumbotron row d-flex align-items-baseline jumbotron-fluid background_image"
 id="homepage_header">
 <div class="homepage_header_overlay"></div>
-    {% assign alt = "Blue and purple tech waves" %}
-    {% picture header_image "/assets/images/content/IMAGE_HOMEPAGE.jpg" --alt {{alt}} %}
+    {% assign themes_to_show = "" | split: "," %}
+    {% for theme in site.themes %}
+        {% unless theme.sub_theme or theme.title == "Automotive" %}
+            {% assign themes_to_show = themes_to_show | push: theme %}
+        {% endunless %}
+    {% endfor %}
+    {% for theme in themes_to_show %}
+    <div class="theme_header_image {% if forloop.first %}{% else %}hidden_image{% endif %}" data-theme-id="{{theme.title | slugify}}" >
+      {% capture theme_image_alt %}{{theme.jumbotron.title}}{% endcapture %}
+      {% assign theme_image = theme.jumbotron.image %}
+      {% picture header_image {{theme_image}} --alt {{alt}} %}
+    </div>
+{% endfor %}
   <div class="container">
     <div class="inner_content_wrapper text-left">
       <h1 class="my-sm-4 my-2">
