@@ -30,17 +30,20 @@ flow:
         style: #
         panels:
           - title: Solve Ecosystem Quality Problems
+            icon: /assets/images/content/Quality.svg
             content: |
               Projects which aim to solve ecosystem quality problems focus primarily on testing. Here stakeholders
               collaboratively fund consistent continuous testing of key configurations to make upstream the quality
               reference. An example of one of these projects would be Linux Kernel Quality.
           - title: Deliver Upstream Support for Architecture and OS Requirements
+            icon: /assets/images/content/Upstream.svg
             content: |
               Projects which concentrate on upstream support focus on regression testing, improving technology by
               adding more functionality and increasing security across the ecosystem. Through these projects,
               member companies have access to maintainers who have a say in what does or does not get
               upstreamed. An example of one of these projects would be Upstream Maintainership.
           - title: Solve problems of Fragmentation which limit Market Deployment
+            icon: /assets/images/content/Fragmentation.svg
             content: |
               Linaro was initially formed to address fragmentation in the Arm software ecosystem and this is
               something we still do today whenever a new market emerges. The projects which address
@@ -48,6 +51,7 @@ flow:
               so that all ecosystem players work from a common reference. An example of one of these projects
               would be Trusted Substrate which aims to bring standardization to edge device firmware.
           - title: Achieve ecosystem goals by leveraging a member’s in-house codebase
+            icon: /assets/images/content/house_code.svg
             content: |
               In some cases a member will donate a project to Linaro, allowing us to leverage a codebase developed
               in-house to achieve broader ecosystem goals. Linaro provides a neutral platform where collaboration
