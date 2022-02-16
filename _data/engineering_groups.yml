@@ -4,7 +4,7 @@ items:
     icon:
       png: /assets/images/content/engineering/png/artificial_intelligence.png
       svg: /assets/images/content/engineering/svg/artificial_intelligence.svg
-    url: /artificial-intelligence/
+    url: /core-technologies/artificial-intelligence/
   - title: Autonomous Vehicles
     context_image: /assets/images/content/engineering/context/autonomous_vehicles.jpg
     icon:
@@ -40,7 +40,7 @@ items:
     icon:
       png: /assets/images/content/engineering/png/iot_and_embedded.png
       svg: /assets/images/content/engineering/svg/iot_and_embedded.svg
-    url: /iot-and-embedded/
+    url: /automotive-iot-and-edge-devices/
   - title: Security
     context_image: /assets/images/content/engineering/context/security.jpg
     icon:

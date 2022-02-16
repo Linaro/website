@@ -116,6 +116,6 @@ Currently, he is maintaining CPUidle for the ARM architecture, the timer drivers
 
 Linaro is a Member-based company focused on the de-fragmentation of the Arm software Open Source ecosystem. Linaro also supports the Arm ecosystem through customized services, training, and support. We would love to hear from you and see how we can help you with any Arm-based support, so please feel free to reach out to set up a sync at [linaro.org/contact](https://www.linaro.org/contact/)
 
-## [About the Kernel Working Group](/kernel-and-toolchain/)
+## [About the Kernel Working Group](/core-technologies/toolchain/)
 
 The Kernel Working Group’s (KWG) primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple Arm SoCs and Arm-based platforms.

@@ -220,7 +220,7 @@
     ]
   },
   {
-    "name": "Cloud Computing and Servers",
+    "name": "Cloud Computing & Servers",
     "members": [
       {
         "image": "https://static.linaro.org/common/member-logos/arm.jpg",
@@ -273,6 +273,11 @@
         "url": "https://www.oppo.com/"
       },
       {
+        "image": "https://static.linaro.org/common/member-logos/microsoft.jpg",
+        "name": "Microsoft",
+        "uri": "https://developer.microsoft.com/en-gb/windows/"
+      },
+      {
         "image": "https://static.linaro.org/common/member-logos/quic.jpg",
         "name": "QuIC",
         "url": "/membership/quic/"
@@ -286,6 +291,81 @@
         "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
         "name": "Socionext",
         "url": "/membership/socionext/"
+      }
+    ]
+  },
+  {
+    "name": "Core Technologies",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/arm.jpg",
+        "name": "Arm",
+        "url": "/membership/arm/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+        "name": "HiSilicon",
+        "url": "/membership/hisilicon/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/quic.jpg",
+        "name": "QuIC",
+        "url": "/membership/quic/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/google.jpg",
+        "name": "Google",
+        "url": "/membership/google/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
+        "name": "Socionext",
+        "url": "/membership/socionext/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/st.jpg",
+        "name": "ST",
+        "url": "/membership/st/"
+      }
+    ]
+  },
+  {
+    "name": "Automotive, IoT & Edge Devices",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/arm.jpg",
+        "name": "Arm",
+        "url": "/membership/arm/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+        "name": "HiSilicon",
+        "url": "/membership/hisilicon/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
+        "name": "NXP",
+        "url": "/membership/nxp/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
+        "name": "Socionext",
+        "url": "/membership/socionext/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/st.jpg",
+        "name": "ST",
+        "url": "/membership/st/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/quic.jpg",
+        "name": "QuIC",
+        "url": "/membership/quic/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
+        "name": "Xilinx",
+        "url": "https://www.xilinx.com/"
       }
     ]
   }

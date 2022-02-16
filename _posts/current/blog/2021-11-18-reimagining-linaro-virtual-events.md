@@ -23,24 +23,20 @@ Our plans for in-person events in 2022 are still pending while we monitor the CO
 
 Until then, here is the current plan for virtual Linaro Tech Days and Linaro Tech Webinars. We will be adding to this list over the coming months. 
 
-Linaro Tech Webinar: LIVE: “Introduction to Eigen” \
+Linaro Tech Webinar: LIVE: [“Introduction to Eigen”](https://www.linaro.org/events/introduction-to-eigen/) \
 by Everton Constantino; Linaro Engineer and Eigen Maintainer\
 Thursday 9th December, 2021 at 17:00 UTC\
-Registration [now open](https://www.linaro.org/events/introduction-to-eigen/) \
 Cost: Free
 
-Linaro Tech Webinar: LIVE "Kernel Debug Stories"\
+Linaro Tech Webinar: LIVE ["Kernel Debug Stories"](https://www.linaro.org/events/kernel-debug-stories-for-arm-linaro-connect-tech-webinar/)\
 by Daniel Thompson Linaro Principal Tech Lead \
 -February 8 (English language) \
--February 15 (Mandarin language)\
-Registration will open on January 4 on our [Linaro Events Page](https://www.linaro.org/events) \
+-February 15 (Mandarin language) \
 Cost: Free
 
-Linaro Tech Webinar on Qualcomm Modem/IPA: February 2022\
-Linaro Tech Day on Client Devices: March 2022 \
-Linaro Tech Webinar on Software Supply Chain: May 2022\
-Linaro Tech Day on Cloud Computing: June 2022 \
-Linaro Tech Webinar on SystemReady: August 2022\
+Linaro Tech Webinar on [Qualcomm Modem/IPA](https://www.linaro.org/events/ipa-enabling-data-connectivity-on-the-snapdragon-compute-platform-linaro-connect-tech-webinar/): March 2022\
+Linaro Tech Day on Core Technologies: March 2022 \
+Linaro Tech Day on Client Devices: June 2022\
 Linaro Tech Day on Automotive/IoT/Edge: September 2022
 
 All details for these events and additional events will be available on our [Linaro Events Page](https://www.linaro.org/events).
