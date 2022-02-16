@@ -2755,6 +2755,20 @@ collections:
           hint: "Description of your event.",
         }
       - {
+          label: "Coming soon",
+          name: "coming_soon",
+          widget: "boolean",
+          hint: "Set the status of this event to 'Coming soon'.",
+          required: false,
+        }
+      - {
+          label: "Visual Date Override",
+          name: "visual_date",
+          widget: "text",
+          hint: "Overrides the visual date displayed.",
+          required: false,
+        }
+      - {
           label: "Event Location",
           name: "location",
           widget: "text",
@@ -2794,7 +2808,15 @@ collections:
           label: "Event Type",
           name: "event_type",
           widget: "select",
-          options: ["attend", "sponsor", "workshop", "presenter", "webinar", "tech_days"],
+          options:
+            [
+              "attend",
+              "sponsor",
+              "workshop",
+              "presenter",
+              "webinar",
+              "tech_days",
+            ],
           hint: "The type of event that we are listing.",
         }
       - {
