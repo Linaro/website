@@ -172,7 +172,7 @@ defaults:
   #     path: "/sitemap.xml"
   #   values:
   #     redirect_from: /sitemap/
-include: ["_pages"]
+include: ["_pages", "generated"]
 # ----------- THEME / WEBSITE CONFIG ---------------------
 # Blog images/thumbs dir
 blog_images_dir: assets/images/content/
@@ -267,6 +267,7 @@ schema:
   "sameAs": "https://www.linaro.org"
 # FESS search label
 search_label: Linaro
+keep_files: ["../generated"]
 # ----------- JEKYLL PLUGINS ---------------------
 # -------- jekyll-tidy --------
 jekyll_tidy:
