@@ -173,7 +173,7 @@
         {
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by Linaro Internal.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://git.ostc-eu.org/groups/OSTC/OHOS/-/milestones\">https://git.ostc-eu.org/groups/OSTC/OHOS/-/milestones</a>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/ASOS/overview\">https://linaro.atlassian.net/wiki/spaces/ASOS/overview</a>",
                 "Theme": [
                     "Automotive, IoT & Edge Devices"
                 ],
@@ -185,8 +185,7 @@
                 "ONIR"
             ],
             "membership": [
-                "ledge",
-                "lite"
+                "ledge"
             ]
         },
         {

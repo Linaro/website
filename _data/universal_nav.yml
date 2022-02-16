@@ -21,12 +21,6 @@ items:
     icon: icon-youtube
     url: "https://www.youtube.com/LinaroOrg"
   - options:
-      - title: 96Boards.ai
-        url: "https://www.96boards.ai"
-      - title: Device Tree
-        url: "https://www.devicetree.org"
-      - title: ML PLatform
-        url: "https://www.mlplatform.org"
       - title: OpenAMP
         url: "https://www.openampproject.org"
       - title: OP-TEE
