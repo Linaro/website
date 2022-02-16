@@ -1,29 +1,35 @@
 var SLIDER_PAUSED = false;
 var CURRENT_TAB_NUMBER = 0;
-var ON_MOBILE = false;
+var ON_DESKTOP = true;
 
-const switch_tab = (tab_id) => {
-  if (NOT_ON_MOBILE) {
+const update_size = () => {
+  let { sm, md, lg, xl } = checkSize();
+  ON_DESKTOP = sm || md || lg || xl;
+  console.log("ON DESKTOP: ", ON_DESKTOP);
+  if (!ON_DESKTOP) {
     $(`#theme_tabs .item`).each(function () {
       $(this).addClass("selected");
     });
   } else {
-    $(`.tab-pane`).each(function () {
-      if ($(this).hasClass("active")) {
-        $(this).removeClass("active");
-      }
-    });
     $(`#theme_tabs .item`).each(function () {
       if ($(this).hasClass("selected")) {
         $(this).removeClass("selected");
       }
     });
-    $(`.nav-link`).each(function () {
-      if ($(this).hasClass("active")) {
-        $(this).removeClass("active");
-      }
-    });
   }
+};
+const switch_tab = (tab_id) => {
+  update_size();
+  $(`.nav-link`).each(function () {
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+    }
+  });
+  $(`.tab-pane`).each(function () {
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+    }
+  });
   $(`#${tab_id}-tab`).addClass("active");
   $(`#${tab_id}`).addClass("active");
   $(`[data-tab-id="${tab_id}"]`).addClass("selected");
@@ -34,8 +40,10 @@ const switch_tab = (tab_id) => {
 };
 const sliderLoop = () => {
   let tab_items = $("#theme_tabs .item");
+  update_size();
   let interval = setInterval(() => {
     if (!SLIDER_PAUSED) {
+      update_size();
       console.log(
         `Switching to ${$(tab_items[CURRENT_TAB_NUMBER])[0].dataset.tabId}`
       );
@@ -54,11 +62,9 @@ const sliderLoop = () => {
 };
 $(document).ready(() => {
   if ($("#theme_tabs").length > 0) {
-    let { sm, md, lg, xl } = checkSize();
-    NOT_ON_MOBILE = sm || md || lg || xl;
+    update_size();
     $(window).resize(function () {
-      let { sm, md, lg, xl } = checkSize();
-      NOT_ON_MOBILE = sm || md || lg || xl;
+      update_size();
     });
     sliderLoop();
     $("#theme_tabs").hover(
