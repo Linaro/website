@@ -5,11 +5,11 @@
                 <div class="card-header border" role="tab" id="section{{forloop.index}}Header">
                         <button class="btn btn-link btn-block text-left text-dark {% unless forloop.first %}collapsed{% endunless %}" type="button" data-toggle="collapse" data-target="#section{{forloop.index}}Content"
                             aria-expanded="true" aria-controls="section{{forloop.index}}Content">
-                            <div class="left_section">
+                            <div class="left_section d-flex justify-content-between align-items-center">
                                 {% if panel.icon %}
-                                    <img class="panel_icon" src="{{panel.icon}}" alt="{{panel.title}} icon"/>
+                                    <img class="panel_icon mr-2" src="{{panel.icon}}" alt="{{panel.title}} icon"/>
                                 {% endif %}
-                                <h2 class="mb-0">{{panel.title}}</h2>
+                                <h5 class="mb-0">{{panel.title}}</h5>
                             </div>
                             <span class="icon icon-up-open"></span>
                             <span class="icon icon-down-open"></span>
