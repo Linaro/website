@@ -15,7 +15,8 @@
                             <span class="icon icon-down-open"></span>
                         </button>
                 </div>
-                <div id="section{{forloop.index}}Content" class="mt-3 collapse {% if forloop.first %}show{% endif %}" role="tabpanel" aria-labelledby="section{{forloop.index}}Header">
+                <div id="section{{forloop.index}}Content" class="mt-3 collapse {% if forloop.first %}show{% endif %}" 
+                role="tabpanel" aria-labelledby="section{{forloop.index}}Header">
                     <div class="card-body border">
                         {{panel.content | markdownify}}
                     </div>
