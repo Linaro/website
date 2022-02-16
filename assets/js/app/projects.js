@@ -1,5 +1,5 @@
 function hideAllProjectCollapses(callback = false) {
-  $(".collapse").collapse("hide");
+  $("#accordion .collapse").collapse("hide");
   $(`.project_card`).addClass("d-none");
   $(`.project_card`).each(function () {
     if ($(this).hasClass("d-block")) {
