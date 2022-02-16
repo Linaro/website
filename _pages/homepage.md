@@ -71,11 +71,6 @@ flow:
           text: This is a snapshot of some of the projects Linaro works on
       - format: custom_include
         source: home/projects_section.html
-      - format: text
-        style: text-left text-white font-weight-bold
-        text_content:
-          text: |
-            [Click here for a complete list of projects.](/projects/)
   - row: container_row
     style: ""
     sections:
