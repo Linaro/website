@@ -1,19 +1,24 @@
 #wrapper {
   #collapsePanel {
     button {
+      .left_section {
+        img {
+          height: 40px;
+        }
+      }
       display: flex;
       justify-content: space-between;
-      span.icon.icon-up-open {
+      span.icon.icon-down-open {
         display: none;
       }
-      span.icon.icon-down-open {
+      span.icon.icon-up-open {
         display: block;
       }
       &.collapsed {
-        span.icon.icon-down-open {
+        span.icon.icon-up-open {
           display: none;
         }
-        span.icon.icon-up-open {
+        span.icon.icon-down-open {
           display: block;
         }
       }
