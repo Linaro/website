@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "Arm Transfers CMSIS-Pack Technology to Linaro "
-description: "To address the challenges facing software combability for IoT and
-  embedded microcontroller devices, Arm is transferring [CMSIS-Pack
+description: "Arm transferred [CMSIS-Pack
   technology](https://developer.arm.com/tools-and-software/embedded/cmsis/cmsis\
-  -packs) to the Linaro IoT and Embedded Group under a new project named
-  Open-CMSIS-Pack. This blog talks about the goals of the project and upcoming
-  work. "
+  -packs) to our IoT & Embedded Group under a new project named Open-CMSIS-Pack.
+  Read here about the goals of the project. "
 date: 2021-06-02 01:13:31
 image: /assets/images/content/IoT-bg.jpg
 tags:
