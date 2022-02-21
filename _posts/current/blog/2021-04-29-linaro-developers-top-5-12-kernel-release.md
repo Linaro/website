@@ -60,3 +60,5 @@ Srinivas Kandagatla is in the list of top twenty contributors by changed lines l
 In addition, Srinivas made changes to the ASoC component core driver to improve bitfield handling in an attempt to make drivers' code more readable and less error prone, see newly added functions  snd_soc_component_read_field() and snd_soc_component_write_field().
 
 Thanks to the relentless efforts from its Linux kernel developers, Linaro continues to play a critical role in maintaining and improving the Arm software ecosystem.
+
+To find out more about the work Linaro does upstream, check out our [Upstream Maintainership project](https://linaro.atlassian.net/wiki/spaces/UM/overview) where we track all our contributions. Or [contact us](https://www.linaro.org/contact/) to find out more!
