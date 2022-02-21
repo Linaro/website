@@ -1,23 +1,22 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - January 2021
-description: 'January highlight''s include a blog from Georgi Djakov on Saving Power
-  & Improving Performance With Dynamic Interconnect Scaling, an article on creating
-  Portable and Reproducible Kernel Builds with TuxMake, plus information on a new
-  tool called the Open Source Project Criticality Score. Furthermore, there are articles
-  on the LLVM Code-Size Optimization: Machine Outliner
-
-  and SVE/SVE2 support in LLVM Debugger (LLDB).'
+description: Our January edition of the monthly Engineering Highlights is
+  feature packed with several updates, together with a roundup on the year of
+  some of the key projects.
 date: 2021-02-10 11:00:00
 image: /assets/images/content/the_world.jpg
 tags:
-- Engineering Highlights
-- TuxMake
-- Open Source Security Foundation
-- LLVM
+  - Engineering Highlights
+  - TuxMake
+  - Open Source Security Foundation
+  - LLVM
 category: blog
 author: jon.burcham@linaro.org
 ---
+## Introduction
+
+In this edition of Engineering Highlights we have included articles on Saving Power & Improving Performance With Dynamic Interconnect Scaling, Creating Portable and Reproducible Kernel Builds with TuxMake, plus information on a new tool called the Open Source Project Criticality Score. Furthermore, there are articles on the LLVM Code-Size Optimization: Machine Outliner and SVE/SVE2 support in LLVM Debugger (LLDB).
 
 ## [Saving Power & Improving Performance With Dynamic Interconnect Scaling](/blog/history-of-the-interconnect-framework/)
 
@@ -71,3 +70,5 @@ The Scalable Vector Extension (SVE) adds extra SIMD capabilities and larger vari
 Linaro has successfully developed and upstreamed SVE/SVE2 support in LLDB debugger. Upcoming LLVM 12 release will host full-featured SVE support, including support for dynamically changing vector registers in both native and remote configurations.
 
 In the coming weeks Linaro toolchain team will publish a blog post describing SVE features in LLDB and how to debug a demo SVE application using LLDB debugger.
+
+To find out more about Linaro and the work we do, feel free to [contact us](https://www.linaro.org/contact/).
