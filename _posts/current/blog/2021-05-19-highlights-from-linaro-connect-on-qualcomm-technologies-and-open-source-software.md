@@ -1,12 +1,9 @@
 ---
 layout: post
-title: "Highlights from Linaro Connect on Qualcomm technologies and open source
-  software "
-description: Linaro plays a key role in the Qualcomm ecosystem, employing
-  several developers and maintainers of key Qualcomm subsystems and drivers. In
-  this blog we list the sessions presented at the most recent Linaro Virtual
-  Connect by Linaro engineers to highlight achievements related to Qualcomm
-  technologies and open source software.
+title: Qualcomm Technologies & Open Source Software at Linaro Connect
+description: In this blog we list the sessions presented at Linaro Virtual
+  Connect to highlight achievements related to Qualcomm technologies and open
+  source software.
 date: 2021-05-19 04:20:25
 image: /assets/images/content/tech_background.jpg
 tags:
