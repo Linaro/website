@@ -1,14 +1,8 @@
 ---
 layout: post
 title: Ensuring optimal performance through enhanced kernel testing
-description: "Linaro created LKFT - Linaro’s Kernel Functional Test framework -
-  to help improve the quality of the Linux kernel through functional testing on
-  Arm hardware. While functional testing plays a critical role, it does not
-  cover another aspect of paramount importance: performance. Linaro therefore
-  decided to extend LKFT to also perform performance analysis, and, in
-  particular automatic detection and reporting of performance regressions. In
-  this blog, Linaro Interns Mirco Romagnoli and Federico Gelmetti talk about the
-  functionality they have enabled to support performance testing."
+description: In this blog, Linaro Interns Mirco Romagnoli and Federico Gelmetti
+  talk about the functionality they have enabled to support performance testing.
 date: 2021-06-22 02:15:39
 image: /assets/images/content/code.jpg
 tags:
