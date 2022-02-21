@@ -5,4 +5,4 @@ last_name: Foss
 username: robert.foss
 image: /assets/images/content/robert-foss.jpg
 ---
-Robert has worked in the video codec space previously, and most recently in `big open source` doing linux graphics stack related things.
+Robert is Linux kernel developer & maintainer. He's spent much of the past decade working in the Linux graphics & video space.
