@@ -54,3 +54,5 @@ We hosted our first ever Virtual Demo Technology Showcase on Thursday, September
 **Make sure to register to start building your schedule!** 
 
 Registration was open and it is free to attend. Two weeks before Linaro Connect, the event platform opened to all registered attendees.
+
+All resources relating to this Linaro Connect event can be accessed [here](https://connect.linaro.org/resources/lvc21f/).
