@@ -1,11 +1,7 @@
 ---
 layout: post
 title: How to use LLDB to debug SVE enabled applications
-description: "In the past year Linaro completed development and upstreaming of
-  SVE support in LLDB debugger which is now available in the LLVM 12.0 release.
-  This means there is now complete LLDB debugger support for SVE vector register
-  access with dynamically changing vector lengths for different threads of the
-  same binary. In this blog, Linaro Engineer Omair Javaid talks us through how
+description: " In this blog, Linaro Engineer Omair Javaid talks us through how
   to debug SVE enabled applications using LLDB. "
 date: 2021-05-04 10:08:31
 image: /assets/images/content/tech_background_1.jpg
