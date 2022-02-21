@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Linaro Developers make an impact in Linux Kernel 5.13 release
-description: "Earlier this week the 5.13 Linux Kernel was released. It featured
-  Linaro yet again in the top twenty for both developers and employers. In this
-  blog, we asked Linaro's kernel engineers which were featured in the top twenty
-  to talk about their contributions to the kernel release. "
+description: "In this blog, we asked Linaro's kernel engineers who were featured
+  in the top twenty to talk about their contributions to the 5.13 kernel
+  release. "
 date: 2021-07-01 02:23:22
 image: /assets/images/content/services_board.jpg
 tags:
