@@ -18,6 +18,10 @@ tags:
 category: blog
 author: diana.picus
 ---
+Co-authored-by: <David Spickett>
+Co-authored-by: <Maxim Kuvyrkov>
+Co-authored-by: <Omair Javaid>
+
 At Linaro, we are working on developing, testing and releasing LLVM for the Windows on Arm (WoA) platform. This work is happening as part of [Linaro’s Windows on Arm project](https://linaro.atlassian.net/wiki/spaces/WOAR/overview). Together with Arm, Qualcomm and Microsoft, we are aiming to establish a healthy self-sustaining Arm open source ecosystem for Windows. This involves enabling open source tools and applications such as LLVM to run natively on Windows on Arm. 
 
 LLVM is a compiler infrastructure known, among other things, for its highly modular structure. If you're looking for a good C/C++ compiler for WoA, you can try to use clang from one of [the official releases](https://releases.llvm.org/) on LLVM's GitHub page. However, if you're tempted to hack on it yourself, you can follow the instructions on this page to get up and running.
@@ -43,7 +47,7 @@ After following this guide your PATH should have these extra entries:
 * C:\Program Files\LLVM\bin
 * C:\Program Files (x86)\CMake\bin
 
-For building release packages we also install 7-Zip [Download](https://www.7-zip.org/download.html) and NSIS <https://nsis.sourceforge.io/Download>.
+For building release packages we also install [7-Zip](https://www.7-zip.org/download.html) and [NSIS](https://nsis.sourceforge.io/Download).
 
 * C:\Program Files (x86)\7-Zip
 * C:\Program Files (x86)\NSIS.
@@ -100,7 +104,9 @@ To install Python, you can go to [Python.org](https://www.python.org/) and get a
 
 Go to Git - [Downloading Package](https://git-scm.com/download/win)  and get the latest 32-bit x86 installer. There is likely a copy of git in the VS Build Tools install, but we recommend installing a separate copy so that you also get the tools git for Windows is packaged with. These tools are used for testing llvm:
 
+```
 1 llvm-lit.py: <...>\llvm-project\llvm\utils\lit\lit\llvm\config.py:46: note: using lit tools: C:\Program Files (x86)\Git\usr\bin
+```
 
 You can get these tools by installing MSYS2 instead, but git for Windows is based on that so the end result is the same.
 
@@ -113,11 +119,10 @@ VS Build Tools does come with a ninja but the default one doesn’t run on WoA. 
 
 First, open a plain terminal “Command Prompt” (ignore the cross prompts shortcuts you might find in the start menu).
 Then run VsDevCmd.bat to setup the environment.
-1 "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\Tools\VsDevCmd.bat" -host_arch=x86 -arch=arm64
-2 <...>
-3 "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\Tools\VsDevCmd.bat" -test
-4 <...>
-5 set PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\DIA SDK\bin\arm64;%PATH%
+
+```
+
+```
 
 If the second test command fails, your build probably won’t work. If figuring out why it failed is difficult, go ahead and do a build anyway. The compiler’s errors will probably be more informative.
 
@@ -126,8 +131,11 @@ If the second test command fails, your build probably won’t work. If figuring 
 **Note:** We have to add the arm64 DIA (debug information access) DLL onto the path otherwise it will find the x86_32 version in BuildTools\Common7\IDE.
 
 Now check that cmake and ninja can run at all.
+
+```
 1 ninja --version
 2 cmake --version
+```
 
 If you’ve made it this far - congratulations! You are now ready to clone and build LLVM.
 
@@ -139,15 +147,23 @@ The git for Windows install will default to converting line endings to windows s
 ## Doing a Build
 
 In the same command prompt where you have run VsDevCmd.bat as described above, set your compiler(s) to be the clang-cl.exe we installed earlier:
+
+
+```
 1 set "CC=clang-cl.exe"
 2 set "CXX=clang-cl.exe"
+```
 
 Then make a folder next to your llvm checkout and from that folder:
+
+
+```
 1 cmake ..\llvm-project\llvm -DCMAKE_BUILD_TYPE=Release -DLLVM_ENABLE_PROJECTS="clang;lld;llvm" -DLLVM_ENABLE_ASSERTIONS=ON -DCMAKE_C_FLAGS="-fms-compatibility-version=19.14" -DCMAKE_CXX_FLAGS="-fms-compatibility-version=19.14" -DCMAKE_TRY_COMPILE_CONFIGURATION=Release -DLLVM_DEFAULT_TARGET_TRIPLE="arm64-pc-windows-msvc" -G Ninja
+```
 
 Some specifics:
 
-* ⚙ D92515 Bump MSVC required version to 19.14 bumped llvm’s required MSVC version, ironically meaning that clang-cl version 12 and earlier can’t build it. That’s why we need the “-fms-compatibility-version" flag to have clang-cl pretend to be a newer MSVC. You don’t need to add the -fms-compatibility-version flag for clang-cl version 13 and later.
+* ⚙ [D92515 Bump MSVC required version to 19.14](https://reviews.llvm.org/D92515) bumped llvm’s required MSVC version, ironically meaning that clang-cl version 12 and earlier can’t build it. That’s why we need the “-fms-compatibility-version" flag to have clang-cl pretend to be a newer MSVC. You don’t need to add the -fms-compatibility-version flag for clang-cl version 13 and later.
 * A known issue with some versions of cmake is that it builds all try_compile/try_run as debug even if your selected build type is release. This is why we set “-DCMAKE_TRY_COMPILE_CONFIGURATION=Release”. Not doing so causes a try_run to fail to get error message strings, so lit defaults to Linux strings and many tests will fail.
 * We set LLVM_DEFAULT_TARGET_TRIPLE manually because the prompt we use is an x86 32 bit host prompt. There is no arm64 to arm64 prompt, so cmake detects the host/default target triple “correctly” but it’s not what we really want.
 
