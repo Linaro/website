@@ -1,7 +1,8 @@
 ---
 name: Ebba Simpson
-username: ebba.simpson
 first_name: Ebba
 last_name: Simpson
-image: /assets/images/avatar-placeholder.jpg
+username: ebba.simpson
+image: /assets/images/content/ebba-simpson.jpg
 ---
+Ebba is Linaro's Marketing Director, responsible for marketing strategy, messaging and overall implementation.
