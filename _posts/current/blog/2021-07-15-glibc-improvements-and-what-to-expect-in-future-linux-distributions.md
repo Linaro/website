@@ -1,10 +1,9 @@
 ---
 layout: post
-title: GLIBC improvements and what to expect in future Linux distributions
-description: "This blog covers the recent glibc improvements in an architecture
-  specific way (with a special emphasis on aarch64) while also highlighting
-  generic features to show developers and system administrators what to expect
-  in future Linux distributions. "
+title: "GLIBC improvements & what to expect in future Linux distributions "
+description: "In this article, we cover glibc improvements in an architecture
+  way while also highlighting generic features to show what to expect in future
+  Linux distributions. "
 date: 2021-07-15 09:31:35 +01:00
 image: /assets/images/content/code.jpg
 tags:
