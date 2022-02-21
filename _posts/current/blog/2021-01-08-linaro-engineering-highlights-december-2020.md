@@ -1,21 +1,25 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - December 2020
-description: This edition of the monthly Engineering Highlights is feature packed
-  with several updates, together with a roundup on the year of some of the key projects.
+description: This edition of the monthly Engineering Highlights is feature
+  packed with several updates, together with a roundup on the year of some of
+  the key projects.
 date: 2021-01-08 12:08:24
 image: /assets/images/content/code.jpg
 tags:
-- Linaro
-- Linux
-- Zephyr
-- AI
-- LCG
-- IoT
-- LKFT
+  - Linaro
+  - Linux
+  - Zephyr
+  - AI
+  - LCG
+  - IoT
+  - LKFT
 category: blog
 author: jon.burcham@linaro.org
 ---
+## Introduction
+
+In this edition of Linaro's Engineering Highlights we have articles on the Future of 32-bit Linux, Zephyr security, the evolution of Device Tree, SystemReady IR and EBBR and more. 
 
 ## The Future of 32-bit Linux
 
@@ -406,3 +410,5 @@ This year we have seen the amalgamation of two workgroups, HPC-SIG and AI on Ser
 HPC-AI is to promote the Arm-based use of servers in high performance environments and enable intelligent decision making based on input streams. It’s an environment that wouldn’t be possible without all of the components that make up LDCG and the collaboration with notably TCWG and the rest of Linaro.
 
 What? We can do more! We are just beginning the challenge to take-on and support Neoverse in the Hyperscaler environment. This means, cloud-native, disaggregated heterogeneous, distributed computing that utilises AI/ML for smart-enablement of the backend for all those incoming API/RPC calls from the EDGE and IoT fields. Watch this space!
+
+To find out more about the work Linaro does do [get in touch](https://www.linaro.org/contact/)!
