@@ -1,21 +1,19 @@
 ---
 layout: post
 title: Force Idle When a CPU Is Overheating
-description: Some intensive tasks can necesitate the Linux kernel to cope with high
-  temperatures. On embedded systems, passive cooling is mandatory to provide a way
-  to cool down the CPUs if the Dynamic Voltage Frequency Scaling (DVFS) is not available.
-  In this article we focus on a new technique to cool down the CPUs.
+description: In this article we focus on a new technique to cool down the CPUs
+  to help avoid overheating.
 date: 2020-09-18 11:22:11+00:00
 image: /assets/images/content/chip_background_under_2mb.jpg
 tags:
-- Linaro
-- Arm
-- CPU
-- Linux Kernel
-- Embedded
-- PELT
+  - Linaro
+  - Arm
+  - CPU
+  - Linux Kernel
+  - Embedded
+  - PELT
 related_projects:
-- PERF
+  - PERF
 category: blog
 author: daniel.lezcano
 ---
