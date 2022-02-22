@@ -27,3 +27,5 @@ The Debian releases for the Qualcomm Snapdragon based 96boards platforms include
 This is the first Linaro release which provides Debian support for the RB5 platform. Debian reference images with the GNOME3 desktop environment are provided.
 
 Access the above releases, documentation, and release notes from [the Linaro downloads page](https://www.linaro.org/downloads/), community support can be provided on [the 96boards forum](https://discuss.96boards.org/).
+
+For more information on Linaro and the work we do, make sure to [get intouch](https://www.linaro.org/contact/)!
