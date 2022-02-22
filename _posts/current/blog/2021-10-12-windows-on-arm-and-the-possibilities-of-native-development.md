@@ -1,11 +1,9 @@
 ---
 layout: post
 title: Windows on Arm and the possibilities of native development
-description: A few weeks ago we hosted a panel at Linaro Virtual Connect Fall
-  2021 featuring Arm, Qualcomm and Microsoft where we discussed the current
-  status of Windows on Arm and what work is left to do. This blog is based on
-  public statements captured during the panel discussion on Windows on Arm,
-  highlighting what is possible today and why porting natively is the way to go.
+description: This blog covers public statements captured during the discussion
+  on Windows on Arm, highlighting what is possible today & why porting natively
+  is the way to go.
 date: 2021-10-12 02:05:49 +01:00
 image: /assets/images/content/llvm-image.jpg
 tags:
@@ -50,4 +48,4 @@ As for testing, there are plenty of devices to choose from- both the standard co
 
 To get started there are plenty of resources on [developer.arm.com](https://developer.arm.com/) such as case studies which talk about moving to a native Windows application. Qualcomm and Microsoft Azure have also partnered to provide support to developers. So grab a device, start porting and get involved in the community. Compile it, see what dependencies you have and let us know what needs doing!
 
-For more information on the project and how to get involved, [go to the Windows on Arm project homepage here](https://linaro.atlassian.net/wiki/spaces/WOAR/overview).
+For more information on the project and how to get involved, [go to the Windows on Arm project homepage here](https://linaro.atlassian.net/wiki/spaces/WOAR/overview). To find out more about Linaro and the work we do, [contact us here](https://www.linaro.org/contact/).
