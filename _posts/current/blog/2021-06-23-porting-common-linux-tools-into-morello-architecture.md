@@ -1,12 +1,9 @@
 ---
 layout: post
 title: Porting common Linux tools into Morello Architecture
-description: "Morello is a research program developed by Arm in collaboration
-  with the University of Cambridge. Its aim is to develop and use a Capability
-  Hardware Enhanced RISC Instructions (CHERI) architecture. Since Morello is a
-  research project, it has many loose ends and open questions. In this blog,
-  Linaro interns Lorenzo Carletti and Camilla Memola talk about the work they
-  did to help identify how easy (or difficult) Morello is to get started with. "
+description: "In this blog, Linaro interns Lorenzo Carletti & Camilla Memola
+  talk about the work they did to help identify how easy (or difficult) Morello
+  is to get started with. "
 date: 2021-06-23 09:18:44
 image: /assets/images/content/Chip_background_UNDER_2MB.jpg
 tags:
@@ -58,3 +55,5 @@ We set no rules about the tools and applications to port, but we ended up with t
 ## How to get involved with the Morello project
 
 To begin with external contributors had to sign a contributors agreement to get involved with the project. This is no longer required, making it easier for future developers interested in the project to get involved. To see what is currently being worked on or to submit merge requests, click on the Morello Project’s Gitlab link here: <https://git.morello-project.org/morello>
+
+For more information on Linaro and the work we do, [contact us here](https://www.linaro.org/contact/).
