@@ -1,21 +1,20 @@
 ---
 layout: post
+author: alex.bennee
+published: true
 title: Working on VirtIO
-description: A summary of the history of VirtIO and the areas Linaro is working on
-  for the future.
+description: This article covers a summary of the history of VirtIO and the
+  areas Linaro is working on for the future.
 date: 2020-05-20 16:00:00+00:00
 image: /assets/images/content/tech_background_1.jpg
 tags:
-- Linaro
-- Qemu
-- VirtIO
+  - Linaro
+  - Qemu
+  - VirtIO
 related_projects:
-- STR
+  - STR
 category: blog
-author: alex.bennee
-published: true
 ---
-
 {% include image.html path="/assets/images/content/virtio.png" alt="virtio diagram" %}
 
 # Introduction
@@ -181,4 +180,4 @@ requirements are best dealt with in a virtualised environment.
 
 As Linaro is an "upstream first" organisation we do our work in the
 open on public mailing lists and repositories. If you are interested
-please do get in touch.
+please [do get in touch](https://www.linaro.org/contact/).
