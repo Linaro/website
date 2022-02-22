@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "Arm Transfers CMSIS-Pack Technology to Linaro "
-description: "To address the challenges facing software combability for IoT and
-  embedded microcontroller devices, Arm is transferring [CMSIS-Pack
+description: "Arm transferred [CMSIS-Pack
   technology](https://developer.arm.com/tools-and-software/embedded/cmsis/cmsis\
-  -packs) to the Linaro IoT and Embedded Group under a new project named
-  Open-CMSIS-Pack. This blog talks about the goals of the project and upcoming
-  work. "
+  -packs) to our IoT & Embedded Group under a new project named Open-CMSIS-Pack.
+  Read here about the goals of the project. "
 date: 2021-06-02 01:13:31
 image: /assets/images/content/IoT-bg.jpg
 tags:
@@ -42,4 +40,4 @@ The Open-CMSIS-Pack project was established in April 2021. Linaro and project me
 
 STMicroelectronics, NXP Semiconductors and Arm are the founding members of the Open-CMSIS-Pack project. If you would like to support and contribute to the Open-CMSIS-Pack project, please contact contact@linaro.org.
 
-For further information about the Open-CMSIS-Pack project, visit [open-cmsis-pack.org](https://www.open-cmsis-pack.org/).
+For further information about the Open-CMSIS-Pack project, visit [open-cmsis-pack.org](https://www.open-cmsis-pack.org/). Alternatively if you want to find out more about Linaro and the work we do, make sure to [get intouch](https://www.linaro.org/contact/)!
