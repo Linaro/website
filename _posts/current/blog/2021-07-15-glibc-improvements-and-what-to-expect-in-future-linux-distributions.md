@@ -1,10 +1,9 @@
 ---
 layout: post
-title: GLIBC improvements and what to expect in future Linux distributions
-description: "This blog covers the recent glibc improvements in an architecture
-  specific way (with a special emphasis on aarch64) while also highlighting
-  generic features to show developers and system administrators what to expect
-  in future Linux distributions. "
+title: "GLIBC improvements & what to expect in future Linux distributions "
+description: "In this article, we cover glibc improvements in an architecture
+  way while also highlighting generic features to show what to expect in future
+  Linux distributions. "
 date: 2021-07-15 09:31:35 +01:00
 image: /assets/images/content/code.jpg
 tags:
@@ -135,3 +134,5 @@ The next 2.34 release, planned to be released on August 2021, will have some imp
 2. Improve more math function performance by removing the slow multiprecision paths. It affects asin, acos, tan, atan, and atan2.
 3. AArch64 MTE fixes and performance improvements for malloc implementation.
 4. 64 bit time_t support on all 32 bit architectures (such as arm-linux-gnueabi).
+
+For more information on Linaro and the work we do, do not hesitate to [get intouch](https://www.linaro.org/contact/).
