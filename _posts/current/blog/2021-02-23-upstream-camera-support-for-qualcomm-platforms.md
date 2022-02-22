@@ -1,11 +1,9 @@
 ---
 layout: post
 title: Upstream camera support for Qualcomm platforms
-description: "Since 2017 Linaro has worked with Qualcomm to enable camera
-  support on their platforms. In this blog, Linaro engineer Robert Foss talks
-  about how the Open Source CAMSS driver (with the same name) now supports the
-  next generation of ISP (image signal processor) artchitecture and what
-  improvements this entails. "
+description: "In this blog we talk about how the Open Source CAMSS driver now
+  supports the next generation of ISP (image signal processor) artchitecture and
+  what improvements this entails. "
 date: 2021-02-23 01:49:15
 image: /assets/images/content/code-background_1.jpg
 tags:
@@ -83,3 +81,5 @@ A lot of different contributors enabled this work, both directly and indirectly.
 * [Jonathan Marek ](https://gitlab.freedesktop.org/flto)for trail-blazing Titan driver work.
 * [Andrey Konovalov ](https://github.com/andrey-konovalov)for testing, finding bugs & being a great sounding board.
 * Qualcomm for sponsoring this work.
+
+For more information about Linaro and the work we do, [contact us here](https://www.linaro.org/contact/).
