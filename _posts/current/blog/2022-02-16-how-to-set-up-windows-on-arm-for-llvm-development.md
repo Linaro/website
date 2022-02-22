@@ -18,9 +18,9 @@ tags:
 category: blog
 author: diana.picus
 ---
-Co-authored-by: <David Spickett>
-Co-authored-by: <Maxim Kuvyrkov>
-Co-authored-by: <Omair Javaid>
+Co-authored-by: David Spickett
+Co-authored-by: Maxim Kuvyrkov
+Co-authored-by: Omair Javaid
 
 At Linaro, we are working on developing, testing and releasing LLVM for the Windows on Arm (WoA) platform. This work is happening as part of [Linaro’s Windows on Arm project](https://linaro.atlassian.net/wiki/spaces/WOAR/overview). Together with Arm, Qualcomm and Microsoft, we are aiming to establish a healthy self-sustaining Arm open source ecosystem for Windows. This involves enabling open source tools and applications such as LLVM to run natively on Windows on Arm. 
 
@@ -121,7 +121,11 @@ First, open a plain terminal “Command Prompt” (ignore the cross prompts shor
 Then run VsDevCmd.bat to setup the environment.
 
 ```
-
+1 "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\Tools\VsDevCmd.bat" -host_arch=x86 -arch=arm64
+2 <...>
+3 "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\Tools\VsDevCmd.bat" -test
+4 <...>
+5 set PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\DIA SDK\bin\arm64;%PATH%
 ```
 
 If the second test command fails, your build probably won’t work. If figuring out why it failed is difficult, go ahead and do a build anyway. The compiler’s errors will probably be more informative.
@@ -148,14 +152,12 @@ The git for Windows install will default to converting line endings to windows s
 
 In the same command prompt where you have run VsDevCmd.bat as described above, set your compiler(s) to be the clang-cl.exe we installed earlier:
 
-
 ```
 1 set "CC=clang-cl.exe"
 2 set "CXX=clang-cl.exe"
 ```
 
 Then make a folder next to your llvm checkout and from that folder:
-
 
 ```
 1 cmake ..\llvm-project\llvm -DCMAKE_BUILD_TYPE=Release -DLLVM_ENABLE_PROJECTS="clang;lld;llvm" -DLLVM_ENABLE_ASSERTIONS=ON -DCMAKE_C_FLAGS="-fms-compatibility-version=19.14" -DCMAKE_CXX_FLAGS="-fms-compatibility-version=19.14" -DCMAKE_TRY_COMPILE_CONFIGURATION=Release -DLLVM_DEFAULT_TARGET_TRIPLE="arm64-pc-windows-msvc" -G Ninja
