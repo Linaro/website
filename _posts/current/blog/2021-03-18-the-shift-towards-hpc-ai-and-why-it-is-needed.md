@@ -1,9 +1,8 @@
 ---
 layout: post
 title: The shift towards HPC AI and why it is needed
-description: In this blog, Linaro Director Paul Isaac's talks about the shift
-  from traditional data centers, the need for scaling and intelligent decision
-  making and how Linaro is addressing these needs through the HPC AI Project.
+description: Paul Isaac talks about the shift from traditional data centers and
+  how we are addressing these needs through the HPC AI Project.
 date: 2021-03-18 03:54:31
 image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 tags:
@@ -44,10 +43,8 @@ These efforts will be leveraged by the entire HPC community moving forward as Li
 
 ## Want to learn more?
 
-In my upcoming talk at Linaro Virtual Connect 2021 next week, I will talk about the journey of data centre transitions and readiness to support AI on a Smart Scalable HPC, including our latest “8-node” Supercomputer. From computational resource selection to Cloud-native software that brings it all together. The session is free to attend so make sure to register by clicking the link below if you'd like to find out more. Once registered, you will receive an invitation to our event tool Pine where you can access the session.
+At my talk at Linaro Virtual Connect 2021, I talked about the journey of data centre transitions and readiness to support AI on a Smart Scalable HPC, including our latest “8-node” Supercomputer. From computational resource selection to Cloud-native software that brings it all together. To watch the session, click on the link below:
 
-**LVC21-103: A Journey Towards a Smart Scalable HPC for AI** 
+[**LVC21-103: A Journey Towards a Smart Scalable HPC for AI** ](https://connect.linaro.org/resources/lvc21/lvc21-103/)
 
-Tuesday 23 March, 16.15-16.40
-
-[Register here](https://connect.linaro.org/register/) to access the session and attend
+For more information on the work we do in [Cloud Computing and Servers, click here](https://www.linaro.org/cloud-computing-and-servers/). Alternatively [contact us here](https://www.linaro.org/contact/).
