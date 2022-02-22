@@ -55,3 +55,5 @@ Linux v5.11 will support multiple platforms by four different vendors. There are
 
 Many thanks to the people who participated in the initial discussions or provided feedback during the development:
 Vincent Guittot, Saravana Kannan, Sean Sweeney, David Dai, Mike Turquette, Kevin Hilman, Alexandre Bailon, Bjorn Andersson, Daniel Lezcano, Ulf Hansson, Rob Herring, Rafael Wysocki, Evan Green, Viresh Kumar, Greg Kroah-Hartman and others.
+
+For more information on Linaro and the work we do, do not hesitate to [get intouch](https://www.linaro.org/contact/).
