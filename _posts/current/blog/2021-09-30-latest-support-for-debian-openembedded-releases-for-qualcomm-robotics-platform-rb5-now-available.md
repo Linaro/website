@@ -1,12 +1,9 @@
 ---
 layout: post
-title: Latest support for Debian & OpenEmbedded releases for Qualcomm Robotics
-  Platform (RB5) now available
-description: "A few weeks ago, Linaro released the latest support for Debian and
-  OpenEmbedded releases for the following Qualcomm Snapdragon based 96Boards
-  devices : the Dragonboard 410c, the Qualcomm Robotics platforms RB3 and the
-  Qualcomm Robotics platforms RB5. Check out this blog to find out what is new
-  in this release and where to find more information to get started. "
+title: "Latest support for Debian & OpenEmbedded releases for Qualcomm Robotics
+  Platform RB5 "
+description: "Check out this blog to find out what is new in this release and
+  where to find more information to get started. "
 date: 2021-09-30 12:03:39 +01:00
 image: /assets/images/content/code-background_1.jpg
 tags:
@@ -30,3 +27,5 @@ The Debian releases for the Qualcomm Snapdragon based 96boards platforms include
 This is the first Linaro release which provides Debian support for the RB5 platform. Debian reference images with the GNOME3 desktop environment are provided.
 
 Access the above releases, documentation, and release notes from [the Linaro downloads page](https://www.linaro.org/downloads/), community support can be provided on [the 96boards forum](https://discuss.96boards.org/).
+
+For more information on Linaro and the work we do, make sure to [get intouch](https://www.linaro.org/contact/)!
