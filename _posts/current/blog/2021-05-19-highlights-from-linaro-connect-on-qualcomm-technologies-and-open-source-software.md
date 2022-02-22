@@ -43,7 +43,6 @@ Only recently have AArch64 laptops arrived on the market that are suitable for L
 
 [](https://connect.linaro.org/resources/lvc21/lvc21-218/)In this session, Bryan O-Donoghue (Senior Engineer, Linaro) talked about adding support for the wcn3680 WiFi chipset to upstream and Android kernels. This session included a brief overview of wcn3620, wcn3660 and wcn3680, the initial state of hardware support upstream, lessons learned and more.
 
-
 In addition to the sessions presented by Linaro engineers, we were pleased to invite Dev Singh (Senior director, Business development and GM of autonomous robotics, drones and intelligent machines, Qualcomm Technologies, Inc.) to present a keynote:
 
 # [Qualcomm keynote on AI & 5G Enabling the Next Generation of Robotics](https://connect.linaro.org/resources/lvc21/lvc21-100k2/)
