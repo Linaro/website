@@ -1,11 +1,9 @@
 ---
 layout: post
 title: How to set up Windows on Arm for LLVM development
-description: "Linaro is working with Arm, Microsoft and Qualcomm to enable open
-  source tools and applications to run natively on Windows. In this blog, Diana
-  Picus, David Spickett, Maxim Kuvyrkov and Omair Javaid from Linaro's Toolchain
-  Working Group provide a step by step guide on how to set up Windows on Arm for
-  LLVM development. "
+description: " In this blog, Diana Picus, David Spickett, Maxim Kuvyrkov and
+  Omair Javaid from Linaro's Toolchain Working Group provide a step by step
+  guide on how to set up Windows on Arm for LLVM development. "
 date: 2022-02-16 10:52:19 +00:00
 image: /assets/images/content/llvm-image.jpg
 tags:
@@ -18,9 +16,7 @@ tags:
 category: blog
 author: diana.picus
 ---
-Co-authored-by: David Spickett
-Co-authored-by: Maxim Kuvyrkov
-Co-authored-by: Omair Javaid
+Co-authored-by: David Spickett, Maxim Kuvyrkov and Omair Javaid
 
 At Linaro, we are working on developing, testing and releasing LLVM for the Windows on Arm (WoA) platform. This work is happening as part of [Linaro’s Windows on Arm project](https://linaro.atlassian.net/wiki/spaces/WOAR/overview). Together with Arm, Qualcomm and Microsoft, we are aiming to establish a healthy self-sustaining Arm open source ecosystem for Windows. This involves enabling open source tools and applications such as LLVM to run natively on Windows on Arm. 
 
