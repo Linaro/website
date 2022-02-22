@@ -1,43 +1,40 @@
 ---
 related_project:
-- DTE
+  - DTE
 layout: post
 title: Device Tree - Future Improvements
-description: 'Over the years there have been countless discussions around Device Tree.
-  It is not a problem that has gone unnoticed. Still the impression seems to be that
-  little is actually happening. Why is that? Linaro are working with many SoC vendors
-  and we have maintainers in the projects discussed within this article. Since Linaro
-  is a neutral player in the Arm ecosystem, we believe that Linaro is the perfect
-  organization to address challenging problems, such as the ones described within
-  this blog. '
+description: Device Tree - Future Improvements
 date: 2020-10-23 11:08:40
 image: /assets/images/content/devicetree-logo_vertical-devicetree.png
 tags:
-- Device Tree
-- Arm
-- Linaro
-- Linux Kernel
+  - Device Tree
+  - Arm
+  - Linaro
+  - Linux Kernel
 related_projects:
-- DTE
+  - DTE
 category: blog
 author: joakim.bech
 ---
+## What is Device Tree?
+
+Device Tree is a data structure used to describe hardware. Instead of hard coding every detail of a device into an operating system, aspects of the hardware can be described in a data structure which is then passed to the operating system at boot time. 
 
 ## Device Tree - Future improvements
 
-Device Tree has been around for a long time and is a well known technology for engineers working with embedded devices. One of the key goals with Device Tree was to separate specific settings related to a specific SoC into separate configurations, in a way that would make it possible to run a generic kernel (Linux kernel) and provide different Device Tree Blobs (the name that refers to the compiled form of a Device Tree configuration, DTB for short) for different hardware configurations. Originating from [Open Firmware](https://www.kernel.org/doc/html/latest/devicetree/usage-model.html#history), Device Tree was picked up by the Linux kernel roughly fifteen years ago, as an effort to try and sort out what at the time was a rather [messy](https://lkml.org/lkml/2011/3/17/492) configuration of Arm devices. Today, you will find hundreds of DTS-files in the Linux kernel tree for all sorts of devices coming from a plethora of SoC manufacturers. In Linux kernel v5.8 there are 1833 \*.dts files, which shows the Device Tree approach of doing device configuration in Linux kernel has been pretty successful.
+Device Tree has been around for a long time and is a well known technology for engineers working with embedded devices. One of the key goals with Device Tree was to separate specific settings related to a specific SoC into separate configurations, in a way that would make it possible to run a generic kernel (Linux kernel) and provide different Device Tree Blobs (the name that refers to the compiled form of a Device Tree configuration, DTB for short) for different hardware configurations. Originating from [Open Firmware](https://www.kernel.org/doc/html/latest/devicetree/usage-model.html#history), Device Tree was picked up by the Linux kernel roughly fifteen years ago, as an effort to try and sort out what at the time was a rather [messy](https://lkml.org/lkml/2011/3/17/492) configuration of Arm devices. Today, you will find hundreds of DTS-files in the Linux kernel tree for all sorts of devices coming from a plethora of SoC manufacturers. In Linux kernel v5.8 there are 1833 *.dts files, which shows the Device Tree approach of doing device configuration in Linux kernel has been pretty successful.
 
 With this clearly being such a well established technology and having configurations for so many devices, is there any problem with it? Our embedded devices seem to boot up fine using this approach. As with other technologies, things are constantly evolving and a technology that was well designed and fully working a couple of years ago, might be in need of updates to fit better with the systems which are available and being used today. This is what Linaro, along with its members, have seen with respect to the Device Tree -- it’s not just about evolving a working technology to work with future systems, it’s also about improving usability, enhancing security, etc., which are always ongoing efforts.
 
 ## Enter firmware
 
-In a typical setup the DTB files are provided to the Linux kernel by a boot loader, such as U-Boot. However, U-Boot is more or less in the same situation as the Linux kernel. i.e., there is a need for a device configuration for U-Boot also. It doesn’t stop there either, boot loaders such as U-Boot and Linux kernel are almost always last in the boot chain. Today it’s not uncommon to see other components running before both U-Boot and Linux kernel. On Armv8-A systems you run some ROM-code (can be based on Trusted Firmware-A, BL1), a first stage boot loader (TF-A, BL2) and TEE’s (like OP-TEE). These firmware components use far less device configuration, but there is still a need to read device configuration information in these firmware components also. We’ve also seen that it’s not uncommon for these components to runtime modifications to the Device Tree in memory. It could change a value, add a node, remove a node and so on (think the “[chosen](https://www.kernel.org/doc/Documentation/devicetree/bindings/chosen.txt)” node).
+In a typical setup the DTB (Device Tree Blob) files are provided to the Linux kernel by a boot loader, such as U-Boot. However, U-Boot is more or less in the same situation as the Linux kernel. i.e., there is a need for a device configuration for U-Boot also. It doesn’t stop there either, boot loaders such as U-Boot and Linux kernel are almost always last in the boot chain. Today it’s not uncommon to see other components running before both U-Boot and Linux kernel. On Armv8-A systems you run some ROM-code (can be based on Trusted Firmware-A, BL1), a first stage boot loader (TF-A, BL2) and TEE’s (like OP-TEE). These firmware components use far less device configuration, but there is still a need to read device configuration information in these firmware components also. We’ve also seen that it’s not uncommon for these components to runtime modifications to the Device Tree in memory. It could change a value, add a node, remove a node and so on (think the “[chosen](https://www.kernel.org/doc/Documentation/devicetree/bindings/chosen.txt)” node).
 
 It is important to pinpoint that firmware isn’t just a boot thing. Some boot components, like the secure monitor and TEEs, are firmware that run all the time alongside the main operating system. Still these are not entities running “on their own”, but rather they are vital parts of the entire and coherent system. i.e., all components must have knowledge about each other. For example, take a memory carve-out that the TEE needs. The Linux kernel must in some way get notified that the TEE has taken a chunk of memory. Today this happens via Device Tree. If that didn’t take place, then the Linux kernel would have no clue that someone else is using a chunk of memory and eventually would try to use it.
 
 ## A fragmented community?
 
-When a firmware or boot loader engineer would like to use Device Tree in their firmware, what should they do? Use the DTS files in the Linux kernel? Patch those and upstream the changes made? Or copy existing DTS-files, make modifications and save them locally in that tree? Unfortunately there is no clear answer to that and we see a mix of these strategies employed. This is a bit unfortunate, since developers in the worst case would need to edit just as many DTS-files as there are copies of it. The ones who are doing that are the “good citizen engineers”. However, it seems more common that engineers just update the DTS-file in the project they are working on and forget about the rest. Maybe they don’t even know where all the DTS copies reside?
+When a firmware or boot loader engineer would like to use Device Tree in their firmware, what should they do? Use the DTS (Device Tree File Types) files in the Linux kernel? Patch those and upstream the changes made? Or copy existing DTS-files, make modifications and save them locally in that tree? Unfortunately there is no clear answer to that and we see a mix of these strategies employed. This is a bit unfortunate, since developers in the worst case would need to edit just as many DTS-files as there are copies of it. The ones who are doing that are the “good citizen engineers”. However, it seems more common that engineers just update the DTS-file in the project they are working on and forget about the rest. Maybe they don’t even know where all the DTS copies reside?
 
 In short, the Arm embedded community has, without realizing it, solved one problem (the “Arm Linux mess” in the Linux kernel), but in doing so has created another problem, i.e., a fragmented Device Tree ecosystem. This means that engineers and system architects have to deal with questions like: Where are the DTS files I need to change? How can we ensure the Device Tree configuration is in sync? How should we pass DTB between firmware components and the main OS? How can we ensure the integrity of the DTB in memory? How can we detect runtime modifications to the DTB in memory? How do we know that the runtime modifications follow the rules? What are the rules? How should we write bindings working across software projects?
 
@@ -70,3 +67,5 @@ At the Jira [page](https://projects.linaro.org/projects/DTE/) for the [Device Tr
 **Author: Joakim Bech, Distinguished Engineer, Linaro**
 
 Joakim is currently a Distinguished Engineer at Linaro and has been a Linux user for more than 15 years where he spent most of the time in his professional career working with security on embedded devices. Joakim started up the Security Working Group in Linaro in 2013 and was the lead for that team until 2020. Before joining Linaro he had various roles such as architect, team leader and development engineer.
+
+For more information on Linaro and the work we do, do not hesitate to [get intouch](https://www.linaro.org/contact/)!
