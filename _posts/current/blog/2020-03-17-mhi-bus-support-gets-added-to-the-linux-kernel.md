@@ -1,15 +1,16 @@
 ---
 layout: post
 title: MHI bus support gets added to the Linux kernel
-date: '2020-03-17 08:37:59'
+description: This article will briefly talk about the internals of MHI and its
+  implementation in the Linux kernel.
+date: 2020-03-17 08:37:59
 image: /assets/images/content/code.jpg
 tags:
-- Linux Kernel
-- Qualcomm
+  - Linux Kernel
+  - Qualcomm
 category: blog
 author: manivannan.sadhasivam
 ---
-
 Greg Kroah Hartman once said, “Buses are hard and complex. It is hard to write a bus. But it turns out that there are one or two new buses every kernel release”.
 
 Recently, [a patch series](https://lkml.org/lkml/2020/1/23/249) was posted to LKML for adding MHI (Modem Host Interface) bus support to the Linux kernel. This article will briefly talk about the internals of MHI and its implementation in the Linux kernel.
@@ -212,4 +213,8 @@ The above structure represents an MHI driver in the kernel. There is a `struct d
 
 The registered client drivers will be available in sysfs under: `/sys/bus/mhi/drivers/`
 
+### Conclusion
+
 I hope that this article provided a good overview of MHI protocol and its implementation in the Linux kernel. Reviews are actively ongoing for this patchset and things are looking good for merging this in one of the upcoming releases.
+
+For more information on Linaro and the work we do, do not hesitate to [get intouch](https://www.linaro.org/contact/).
