@@ -1,14 +1,10 @@
 ---
 layout: post
 title: Reducing code size with LLVM Machine Outliner on 32-bit Arm targets
-description: >+
-  Machine Outliner helps reduce compile time and improve performance by allowing
-  you to replace a chunk of consecutive statements with a call to a new function
-  containing those statements. In this blog, Yvan Roux talks about how Machine
-  Outliner works and how the LLVM 12.0.0 release will see 32-bit Arm targets
+description: >
+  In this article we talk about how the LLVM release will see 32-bit Arm targets
   gain full support of the Machine Outliner code size optimization for Arm and
-  Thumb-2 instruction sets.
-
+  Thumb-2 instruction sets. 
 date: 2021-04-13 02:26:45
 image: /assets/images/content/code_highway-2-.jpg
 tags:
@@ -110,3 +106,5 @@ As we have seen, Machine Outlining is always a win-win for code size optimizatio
 \[4] <https://www.youtube.com/watch?v=yorld-WSOeU>
 
 \[5] <https://en.wikipedia.org/wiki/Longest_common_substring_problem>
+
+For more information on Linaro and the work we do, do not hesitate [to contact us](https://www.linaro.org/contact/).
