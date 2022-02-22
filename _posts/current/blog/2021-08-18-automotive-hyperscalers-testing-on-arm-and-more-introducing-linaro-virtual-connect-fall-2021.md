@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Automotive, Hyperscalers, Testing on Arm and more - introducing Linaro
-  Virtual Connect Fall 2021
-description: "Schedule for Linaro Virtual Connect Fall: September 8-10, 2021."
+title: Introducing Linaro Virtual Connect Fall 2021 - Linaro
+description: Within this article, we annouce our schedule for our Linaro Virtual
+  Connect Fall 2021 which will consist of 70+ technical keynotes & sessions.
 date: 2021-08-18 08:57:31 -04:00
 image: /assets/images/content/48784720458_63040ac998_k.jpg
 strap_image: /assets/images/content/48784720458_63040ac998_k.jpg
@@ -11,13 +11,13 @@ tags:
 category: blog
 author: connect
 ---
-# Automotive, Hyperscalers, Testing on Arm and more - introducing Linaro Virtual Connect Fall 2021
+# Introducing Linaro Virtual Connect Fall 2021: Automotive, Hyperscalers, Testing on Arm and more
 
-Linaro Virtual Connect Fall 2021 (LVC21F) will take place online from September 8-10, 2021. Linaro Connect is a technical event that runs twice a year that brings together the Arm Ecosystem to discuss recent achievements and future work needed to enable Arm architecture. 
+Linaro Virtual Connect Fall 2021 (LVC21F) took place online from September 8-10, 2021. Linaro Connect is a technical event that runs twice a year that brings together the Arm Ecosystem to discuss recent achievements and future work needed to enable Arm architecture. 
 
-We are pleased to announce that the full schedule for Linaro Virtual Connect Fall 2021 is available to view here: <https://connect.linaro.org/schedule/>  
+The full schedule for Linaro Virtual Connect Fall 2021 is available to view here: <https://connect.linaro.org/schedule/>  
 
-Linaro Virtual Connect Fall 2021 will consist of 70+ technical keynotes and sessions, spanning a range of topics including Security, OS Build & Test, Automotive, Windows on Arm, IoT and Embedded, and more. We are pleased to welcome keynote speakers from Qualcomm, Huawei, Google, Informa Tech which you can read about below. We will also host a number of panels on topics such as Windows on Arm and SystemReady. For the first time in Linaro’s history we are also excited to be hosting a Virtual Demo Showcase. 
+Linaro Virtual Connect Fall 2021 consisted of 70+ technical keynotes and sessions, spanning a range of topics including Security, OS Build & Test, Automotive, Windows on Arm, IoT and Embedded, and more. We welcomed keynote speakers from Qualcomm, Huawei, Google, Informa Tech which you can read about below. We also hosted a number of panels on topics such as Windows on Arm and SystemReady. For the first time in Linaro’s history we hosted a Virtual Demo Showcase. 
 
 #### Introducing our keynote speakers:
 
@@ -49,8 +49,10 @@ Panelists: Masami Hiramatsu, Tech Lead at Linaro;  Samer El-Haj-Mahmoud, System
 
 **Virtual Demo Showcase** 
 
-We plan to host our first ever Virtual Demo Technology Showcase on Thursday, September 9. If you’ve ever been to a Linaro Connect in the past, you may remember our Demo Friday Technology showcase. Participants of Demo Friday prepared a technology demo on a wide variety of Arm Software topics including— OS Build & Test, Edge Computing and its many use cases, Linaro and community enablement including Open source development, Native software development, etc. 
+We hosted our first ever Virtual Demo Technology Showcase on Thursday, September 9. If you’ve ever been to a Linaro Connect in the past, you may remember our Demo Friday Technology showcase. Participants of Demo Friday prepared a technology demo on a wide variety of Arm Software topics including— OS Build & Test, Edge Computing and its many use cases, Linaro and community enablement including Open source development, Native software development, etc. 
 
 **Make sure to register to start building your schedule!** 
 
-Registration is now open and it is free to attend. To complete your registration, click here: <https://connect.linaro.org/register/>  Two weeks before Linaro Connect, the event platform will open to all registered attendees.
+Registration was open and it is free to attend. Two weeks before Linaro Connect, the event platform opened to all registered attendees.
+
+All resources relating to this Linaro Connect event can be accessed [here](https://connect.linaro.org/resources/lvc21f/). For more information about Linaro and the work we do, [get intouch](https://www.linaro.org/contact/)!
