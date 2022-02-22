@@ -1,11 +1,8 @@
 ---
 layout: post
 title: The many and varied uses of QEMU
-description: QEMU is a versatile virtual machine monitor (VMM) and emulator that
-  is used extensively by Linaro and it's members. While most people may be
-  familiar with it's use in hardware virtualisation it's emulation capabilities
-  enable all sorts of development. This blog gives an overview of some of the
-  engineering enabled by QEMU throughout Linaro and beyond.
+description: " This blog gives an overview of some of the engineering enabled by
+  QEMU throughout Linaro and beyond."
 date: 2021-05-18 09:00:00
 image: /assets/images/content/code-background_1.jpg
 tags:
@@ -77,3 +74,5 @@ Finally there is also the recently introduced [TCG plugins](https://qemu.readthe
 # Outro
 
 I hope this has been a useful overview of the many ways we use QEMU here in Linaro. All our work on QEMU is done in the open on the upstream development lists. If you want to play with some of the latest features please visit the [project website](https://www.qemu.org/) where you can find instructions for downloading and building from the source code. We hope to see you there ;-)
+
+For more information about Linaro and the work we do, do not hesitate to [contact us](https://www.linaro.org/contact/).
