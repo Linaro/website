@@ -80,3 +80,5 @@ The patch is by no means a full implementation of a new test for lkp-tests, but 
 ## Conclusion
 
 The contributions highlighted in this post are the first steps towards making a complete framework for automatic performance analysis. Linaro is already working on next practical steps: adding a general template for automatic email reports on performance and regressions, adding the mmtests suite in LKFT's rootfilesystem, and running multiple benchmarks from mmtests. The next important step will be to add these benchmarks into LKFT's daily runs, and report back to the community.
+
+For more information on Linaro and the work we do, reach out to us through our [contact page](https://www.linaro.org/contact/).
