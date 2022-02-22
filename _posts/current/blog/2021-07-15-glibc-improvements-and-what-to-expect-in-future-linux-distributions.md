@@ -134,3 +134,5 @@ The next 2.34 release, planned to be released on August 2021, will have some imp
 2. Improve more math function performance by removing the slow multiprecision paths. It affects asin, acos, tan, atan, and atan2.
 3. AArch64 MTE fixes and performance improvements for malloc implementation.
 4. 64 bit time_t support on all 32 bit architectures (such as arm-linux-gnueabi).
+
+For more information on Linaro and the work we do, do not hesitate to [get intouch](https://www.linaro.org/contact/).
