@@ -2,10 +2,7 @@
 layout: post
 title: Optimizing TensorFlow Convolution Performance on Aarch64
 description: In this blog, Linaro engineer Everton Constantino talks about how
-  Linaro improved TensorFlow convolution performance on Aarch64. Using an
-  experimental branch, Tensorflow is able to achieve up to 7% better performance
-  on one of MLPerf benchmarks and up to 15% on basic matrix multiplication
-  benchmarks.
+  Linaro improved TensorFlow convolution performance on Aarch64.
 date: 2021-03-11 10:19:36
 image: /assets/images/content/machine_intelligence_cover.jpg
 tags:
@@ -65,3 +62,5 @@ This work also opens the door to explore new instructions, like matrix multiplic
 #### Bibliography
 
 Goto, Kazushige. “Anatomy of High Performance Matrix Multiplication.” ACM Transactions on Mathematical Software, https://www.cs.utexas.edu/users/flame/pubs/GotoTOMS_final.pdf.
+
+[Click here](https://www.linaro.org/contact/) to contact us to find out more about Linaro.
