@@ -349,7 +349,7 @@
                 "Theme": [
                     "Client Devices"
                 ],
-                "description": null,
+                "description": "Adding support for Windows on Arm into open source projects requires official builds in CI, a long-term commitment to maintainership, and a solid, trusted relationship with the upstream project maintainers. <br><br><ul><li> each tool, language or framework*</ul></li><li> Determine if the package can be built for WoA - upstream fixes</li><li> Set up CI and testing in package maintainers CI system, or support upstream CI via Linaro surfaceProX pool</li><li> Migrate WoA CI towards WOA servers as they become available.</li><li> Coordinate with each vendor to analyse and fix regressions (Triage)</li><li> Establish trusted relationships with each project maintainer</li><li> Help the community establish WoA as a supported platform</li></ul>",
                 "title": "Windows on Arm"
             },
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10558",
