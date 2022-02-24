@@ -105,15 +105,15 @@ Since I am using the box in headless mode (the GPU support has [known issues](ht
 
 Start the installer and enable VNC
 
-{% include image.html path="/assets/images/content/enabling-vnc.png" alt="Enabling VNC" %}
+{% include image.html path="/assets/images/content/enabling-vnc.png" class="medium-inline left" alt="Enabling VNC" %}
 
 Make sure you encrypt the filesystem using a password as we'll be needing this later on:
 
-{% include image.html path="/assets/images/content/encrypting-filesystem.png" alt="Encrypting filesystem" %}
+{% include image.html path="/assets/images/content/encrypting-filesystem.png" class="medium-inline right" alt="Encrypting filesystem" %}
 
 It's worth noting that since U-Boot does not support SetVariable at runtime you'll get an error while the installer is trying to update the EFI Boot#### variables. This is far from fatal, you can just continue the installation and fix up the boot options later.
 
-{% include image.html path="/assets/images/content/encrypting-filesystem-image-2.png" alt="Encrypting filesystem image 2" %}
+{% include image.html path="/assets/images/content/encrypting-filesystem-image-2.png" class="medium-inline right" alt="Encrypting filesystem image 2" %}
 
 Once the installation completes, you will have three partitions: EFI, boot, and the LUKS encrypted root.
 
