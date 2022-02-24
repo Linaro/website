@@ -75,9 +75,11 @@ There's a lot of firmware components that need to be compiled for this to work. 
 
 You will also need complex instructions on how to compile those and assemble the image.  Using meta-trustedsubstrate makes the whole process trivial.  You can produce a firmware with:
 
+```
 git clone https://git.codelinaro.org/linaro/dependable-boot/meta-ts.git
 cd meta-ts
 kas build ci/synquacer.yml
+```
 
 ### Update the firmware
 
@@ -85,44 +87,54 @@ You can find detailed instructions [here](https://apalos.github.io/Measured%20bo
 
 All the files you need will be located at build/tmp/deploy/images/synquacer/
 
+```
 flash write cm3 ->  Control-A S -> send scp_romramfw_release.bin
 flash write arm-tf -> Control-A S -> send fip_all_arm_tf_optee.bin
 flash rawwrite 0x500000 0x100000  -> Control-A S -> send optee/tee-pager_v2.bin
 flash rawwrite 0x200000 0x100000 -> Control-A S -> send u-boot.bin
+```
+
+
 
 ### Install a distro
 
 I am using Fedora on the example here, but given that U-Boot versions since 2021.04 are SystemReady-IR compliant any COTS distro should work.
 
+```
 sudo dd if=Fedora-Server-netinst-aarch64-35-1.2.iso of=/dev/sdX bs=128M status=progress
+```
 
 Plug in your usb stick in a port and start up the board. In U-Boot's console do:
 
+```
 usb reset
 load usb 0 $kernel_addr_r efi/boot/BOOTAA64.EFI && bootefi $kernel_addr_r
+```
 
 Since I am using the box in headless mode (the GPU support has [known issues](https://www.96boards.org/documentation/enterprise/developerbox/support/known-issues.html)), installing via VNC is a nice option to avoid the console nuisance.  
 
 Start the installer and enable VNC
 
-{% include image.html path="/assets/images/content/enabling-vnc.png" class="medium-inline left" alt="Enabling VNC" %}
+{% include image.html path="/assets/images/content/enabling-vnc2.png" alt="Enabling VNC" %}
 
 Make sure you encrypt the filesystem using a password as we'll be needing this later on:
 
-{% include image.html path="/assets/images/content/encrypting-filesystem.png" class="medium-inline right" alt="Encrypting filesystem" %}
+{% include image.html path="/assets/images/content/encrypting-filesystem-v1.png" alt="Encrypting filesystem" %}
 
 It's worth noting that since U-Boot does not support SetVariable at runtime you'll get an error while the installer is trying to update the EFI Boot#### variables. This is far from fatal, you can just continue the installation and fix up the boot options later.
 
-{% include image.html path="/assets/images/content/encrypting-filesystem-image-2.png" class="medium-inline right" alt="Encrypting filesystem image 2" %}
+{% include image.html path="/assets/images/content/encrypting-filesystem-v2.png" alt="Encrypting filesystem image 2" %}
 
 Once the installation completes, you will have three partitions: EFI, boot, and the LUKS encrypted root.
 
 Reboot your board and stop U-Boot at it's console.
 
+```
 nvme scan
 efidebug boot add -b 0 Fedora nvme 0 EFI/fedora/shimaa64.efi
 efidebug boot order 0
 bootefi bootmgr
+```
 
 That should set [SHIM](https://github.com/rhboot/shim) as your first boot choice.
 
@@ -133,14 +145,18 @@ The kernel modules needed for Microsoft's fTPM are included in the Fedora35 kern
 Compiling optee_client
 On the target system, get a copy of optee_client, compile it and install it. The default installation will end up on /usr/local/sbin (future Fedora versions will include an optee-client package).
 
+```
 git clone https://github.com/OP-TEE/optee_client.git
 cd optee_client && mkdir build && cd build
 cmake ../ -DRPMB_EMU=0
 make -j$(nproc)
 sudo make install
+```
+
 Enabling fTPM on systemd
 Create /etc/systemd/system/tee-supplicant.service with the following contents
 
+```
 \[Unit]
 Description=tee supplicant
 
@@ -151,13 +167,19 @@ Restart=always
 
 \[Install]
 WantedBy=sysinit.target
+```
+
 and enable the service
 
+```
 sudo systemctl enable tee-supplicant
+```
 
 If you reboot your system now your firmwareTPM should be operational. You can check the logs with
 
+```
 sudo tpm2_eventlog /sys/kernel/security/tpm0/binary_bios_measurements
+```
 
 Sealing the key
 
@@ -165,15 +187,16 @@ Remember when you installed an encrypted filesystem? With the TPM up and running
 
 Fedora has clevis, an automated encryption framework, which can make your life easier as far as key sealing and unsealing is concerned. Make sure to install the necessary packages before you start with
 
+```
 sudo dnf install clevis clevis-luks clevis-dracut clevis-udisks2 clevis-systemd
 sudo clevis luks bind -d /dev/nvme0n1p3 tpm2 '{"pcr_ids":"7"}'
+```
 
 The PCR usage is described [here](https://trustedcomputinggroup.org/wp-content/uploads/TCG_PCClient_PFP_r1p05_v23_pub.pdf)
 
 * PCR0: SRTM, BIOS, Host Platform Extensions, Embedded Option ROMs and PI Drivers
 * PCR1: Host Platform Configuration
 * PCR2: UEFI driver and application Code
-
 * PCR3: UEFI driver and application Configuration and Data
 * PCR4: UEFI Boot Manager Code (usually the MBR) and Boot Attempts
 * PCR5: Boot Manager Code Configuration and Data (for use by the Boot Manager Code) and GPT/Partition Table
@@ -188,6 +211,7 @@ Adding tee-supplicant to your initramfs
 
 As I mentioned earlier, the fTPM relies on the op-tee supplicant for the RPMB accesses. So the missing piece of the puzzle in order to access your TPM, unseal your key and decrypt the filesystem, is to create an initramfs with the needed modules and the tee-supplicant.
 
+```
 Create /usr/lib/dracut/modules.d/60tee-supplicant/ directory, copy the /etc/systemd/system/tee-supplicant.service we created earlier and
 add a module-setup.sh file with the following contents.
 
@@ -215,8 +239,11 @@ installkernel() {
 You can now re-create your initramfs with
 
 sudo dracut --add clevis-pin-tpm2 --add tee-supplicant --force
+```
+
 If everything is setup correctly you should see something along the lines of this on your screen
 
+```
 Welcome to Fedora Linux 35 (Server Edition) dracut-055-6.fc35 (Initramfs)!
 <snip>
 \[  OK  ] Reached target Basic System.
@@ -224,6 +251,7 @@ Welcome to Fedora Linux 35 (Server Edition) dracut-055-6.fc35 (Initramfs)!
 \[  OK  ] Started tee supplicant.
 Please enter passphrase for disk Samsung SSD 960 EVO 250GB (luks-5fe9fed9-8ff0-43f6-9484-b4f16ff43093):
 but this time you won't have to supply a password!
+```
 
 ## Future work
 
