@@ -115,7 +115,7 @@ Since I am using the box in headless mode (the GPU support has [known issues](ht
 
 Start the installer and enable VNC
 
-{% include image.html path="/assets/images/content/enabling-vnc2.png" alt="Enabling VNC" %}
+{% include image.html path="/assets/images/content/enabling-vnc3.png" alt="Enabling VNC" %}
 
 Make sure you encrypt the filesystem using a password as we'll be needing this later on:
 
@@ -157,15 +157,15 @@ Enabling fTPM on systemd
 Create /etc/systemd/system/tee-supplicant.service with the following contents
 
 ```
-\[Unit]
+[Unit]
 Description=tee supplicant
 
-\[Service]
+[Service]
 User=root
 ExecStart=tee-supplicant
 Restart=always
 
-\[Install]
+[Install]
 WantedBy=sysinit.target
 ```
 
@@ -215,7 +215,7 @@ As I mentioned earlier, the fTPM relies on the op-tee supplicant for the RPMB ac
 Create /usr/lib/dracut/modules.d/60tee-supplicant/ directory, copy the /etc/systemd/system/tee-supplicant.service we created earlier and
 add a module-setup.sh file with the following contents.
 
-\#!/usr/bin/bash
+#!/usr/bin/bash
 check() {
     require_binaries /usr/local/sbin/tee-supplicant || return 1
     return 0
