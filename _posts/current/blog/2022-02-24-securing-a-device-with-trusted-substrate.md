@@ -94,8 +94,6 @@ flash rawwrite 0x500000 0x100000  -> Control-A S -> send optee/tee-pager_v2.bin
 flash rawwrite 0x200000 0x100000 -> Control-A S -> send u-boot.bin
 ```
 
-
-
 ### Install a distro
 
 I am using Fedora on the example here, but given that U-Boot versions since 2021.04 are SystemReady-IR compliant any COTS distro should work.
@@ -211,10 +209,9 @@ Adding tee-supplicant to your initramfs
 
 As I mentioned earlier, the fTPM relies on the op-tee supplicant for the RPMB accesses. So the missing piece of the puzzle in order to access your TPM, unseal your key and decrypt the filesystem, is to create an initramfs with the needed modules and the tee-supplicant.
 
-```
-Create /usr/lib/dracut/modules.d/60tee-supplicant/ directory, copy the /etc/systemd/system/tee-supplicant.service we created earlier and
-add a module-setup.sh file with the following contents.
+Create /usr/lib/dracut/modules.d/60tee-supplicant/ directory, copy the /etc/systemd/system/tee-supplicant.service we created earlier and add a module-setup.sh file with the following contents:
 
+```
 #!/usr/bin/bash
 check() {
     require_binaries /usr/local/sbin/tee-supplicant || return 1
