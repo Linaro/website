@@ -111,3 +111,8 @@ eb:
   ldcg_desc3: 共同努力解决常见问题并制定标准可减少碎片化，并帮助所有参与公司更快地将其产品推向市场。
   dev_svcs: 通过 Linaro 开发人员服务，利用我们对您项目的专业知识。
   ds_desc: Linaro 开发人员服务允许您在特定项目上一对一地使用 Linaro。
+eb_cd:
+  join_lcg: 加入 Linaro 消费者团体
+  lcg_desc1: 如果您想与 Linaro 和 Android 生态系统中的其他行业领导者特别合作，您可以加入 Linaro Consumer Group。
+  lcg_desc2: Linaro Consumer Group 的使命是通过让所有 Android 用例中的成员受益的协作活动来改善 AOSP 生态系统。
+  lcg_desc3: 与 Linaro 和其他行业领导者合作，成员公司可以为更好的产品提供出色的 Android 开发人员体验。
