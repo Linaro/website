@@ -2,6 +2,7 @@
 id: 15
 title: 核心技术
 sub_theme: false
+lang: ch
 permalink: /core-technologies/
 image: /assets/images/content/core_technologies_share_image.png
 icon: /assets/images/content/Icon_Core_Technologies_notext.svg

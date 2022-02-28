@@ -2,6 +2,7 @@
 id: 1
 title: 测试与 CI
 sub_theme: true
+lang: ch
 permalink: /core-technologies/testing-and-ci/
 image: /assets/images/content/Banner_Testing_CI.jpg
 icon: /assets/images/content/Icon_Testing_notext.svg

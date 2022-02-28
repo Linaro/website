@@ -1,4 +1,5 @@
 ---
+lang: ch
 title: 加速部署基于 Arm 的解决方案
 description: Arm 合作伙伴关系的协作平台。 成员可以在开源软件上进行协作，讨论和研究解决方案。
 permalink: /
