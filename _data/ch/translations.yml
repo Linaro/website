@@ -89,3 +89,20 @@ qlb:
   deck: 主展示台
   video: 视频资源
   news: 新闻和博客
+aiwpb:
+  car_sensors: 汽车传感器
+  sdv: 软件定义车辆和标准化需求
+  push_to_start: 自动驾驶按钮启动
+  edf: 边缘设备固件的标准化
+  ai_for_mcus: 用于 MCU 的机密 AI
+eb_iot:
+  join_ledge: 加入 Linaro 的边缘和雾计算小组
+  ledge_desc: 如果您想与 Linaro 和其他行业领导者合作开展专门应对边缘计算领域挑战的项目，Linaro Edge & Fog Computing Group 是您的选择。 Linaro Edge & Fog Computing Group 及其成员联手通过两项主要工作——Trusted Substrate 和 LEDGE 参考平台——使混合成为现实。
+  join_iot: 加入 Linaro 的物联网和嵌入式组
+  iot_desc: 如果您想与 Linaro 和其他行业领导者合作开展专门应对物联网领域挑战的项目，Linaro IoT & Embedded Group 是您的选择。 Linaro 的 IoT 和 Embedded Group 成员协同工作，以创建和支持关键标准和一流的实施，以在 Arm 生态系统中实现安全的连接设备。
+  join_team: 加入我们的团队！
+  team_desc: 我们经常聘请主题专家和维护人员 - 如果您有兴趣成为我们团队的一员，请访问 Linaro 职业页面以了解更多信息。
+  join_club: 加入 Linaro 俱乐部会员
+  club_desc: 如果您想在 Arm 生态系统的所有垂直领域与 Linaro 和其他行业领导者合作，俱乐部会员资格是您的正确选择。
+  join_core: 作为 Linaro 核心成员加入
+  core_desc: 如果您想参与 Linaro 所做的所有工作并访问您自己的专业工程团队，那么核心会员是您的正确选择。

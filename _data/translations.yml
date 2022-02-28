@@ -90,3 +90,20 @@ qlb:
   deck: Main Presentation Deck
   video: Video Resources
   news: News & Blogs
+aiwpb:
+  car_sensors: Car sensors
+  sdv: Software Defined Vehicles and the need for standardisation
+  push_to_start: Autonomous driving push button to start
+  edf: Standardization in Edge Device Firmware
+  ai_for_mcus: Confidential AI for MCUs
+eb_iot:
+  join_ledge: Join Linaro's Edge & Fog Computing Group
+  ledge_desc: If you want to collaborate with Linaro and other industry leaders on projects which specifically tackle challenges in the edge computing space, the Linaro Edge & Fog Computing Group is the option for you. The Linaro Edge & Fog Computing Group and its members have joined forces to make hybridization a reality through two major efforts - Trusted Substrate and the LEDGE Reference Platform.
+  join_iot: Join Linaro's IoT & Embedded Group
+  iot_desc: If you want to collaborate with Linaro and other industry leaders on projects which specifically tackle challenges in the IoT space, the Linaro IoT & Embedded Group is the option for you. Linaro's IoT and Embedded Group members work collaboratively to create and support key standards and best in class implementations to enable secure connected devices in the Arm ecosystem.
+  join_team: Join our team!
+  team_desc: We frequently hire subject matter experts and maintainers - if you're interested in becoming part of our team, go to the Linaro careers page to find out more.
+  join_club: Join as a Linaro Club Member
+  club_desc: If you want to collaborate with Linaro and other industry leaders on all verticals in the Arm Ecosystem, club membership is the right option for you.
+  join_core: Join as a Linaro Core Member
+  core_desc: If you want to participate in all the work Linaro does as well as have access to your own dedicated engineering team, then core membership is the right option for you.
