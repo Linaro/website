@@ -1,0 +1,93 @@
+universal_nav: true
+search:
+  enabled: true
+  label: Linaro
+expand_breakpoint: xl
+brand:
+  path: /assets/images/Linaro-Logo.svg
+  alt: Linaro logo
+pages:
+  - title: 解决方案
+    options:
+      - text: 汽车、物联网和边缘设备
+        url: /automotive-iot-and-edge-devices/
+      - text: 客户端设备
+        url: /client-devices/
+      - text: 云计算和服务器
+        url: /cloud-computing-and-servers/
+      - text: 核心技术
+        options:
+          - text: 概述
+            url: /core-technologies/
+          - text: 人工智能
+            url: /core-technologies/artificial-intelligence/
+          - text: Linux内核
+            url: /core-technologies/linux-kernel/
+          - text: 安全
+            url: /core-technologies/security/
+          - text: 测试与 CI
+            url: /core-technologies/testing-and-ci/
+          - text: 工具链
+            url: /core-technologies/toolchain/
+          - text: 虚拟化
+            url: /core-technologies/virtualization/
+  - title: 会员资格
+    options:
+      - text: 会员资格
+        options:
+          - text: 概述
+            url: /membership/
+          - text: 团体会员
+            url: /membership/groups/
+      - text: 项目
+        options:
+          - text: 所有项目
+            url: /projects/
+          - text: 社区项目
+            url: /community-projects/
+  - title: 服务
+    options:
+      - text: 概述
+        url: /services/
+      - text: 操作培训
+        url: /services/hands-on-training/
+      - text: 安全
+        url: /services/security/
+      - text: 测试和长期支持
+        url: /services/testing-and-long-term-support/
+      - text: 板级支持包
+        url: /services/board-support-packages/
+      - text: 系统性能与优化
+        url: /services/system-performance-and-optimization/
+      - text: 高通平台服务
+        url: /services/qualcomm-platforms-services/
+  - title: 资源
+    options:
+      - text: 下载
+        url: /downloads/
+      - text: Linaro 资源中心
+        url: https://resources.linaro.org
+      - text: 利纳罗连接
+        url: https://connect.linaro.org
+  - title: 支持
+    url: /support/
+  - title: 关于
+    options:
+      - text: 关于利纳罗
+        options:
+          - text: 概述
+            url: /about/
+          - text: 团队
+            url: /about/team/
+          - text: 技术指导委员会
+            url: /tsc/
+          - text: 联系我们
+            url: /contact/
+      - text: 职业生涯
+        url: /careers/
+      - text: 博客
+        url: /blog/
+      - text: 消息
+        url: /news/
+      - text: 活动
+        url: /events/

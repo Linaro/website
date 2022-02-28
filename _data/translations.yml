@@ -65,3 +65,28 @@ homepage:
     dsText: >
       If you want to leverage Linaro’s Arm and open source software expertise on a specific project, then working with Linaro Developer Services is the right option for you.
     dsBtnText: Find out more about Linaro Developer Services
+nav:
+  automotive_et_al: Automotive, IoT & Edge Devices
+  cloud_computing: Cloud Computing & Servers
+  client_devices: Client Devices
+  core_technologies: Core Technologies
+  artificial_intelligence: Artificial Intelligence
+  linux_kernel: Linux Kernel
+  security: Security
+  testing_ci: Testing & CI
+  toolchain: Toolchain
+  virtualization: Virtualization
+  projects: Projects
+  membership: Membership
+  services: Services
+  support: Support
+  downloads: Downloads
+  blogs: Blogs
+  events: Events
+  news: News
+  careers: Careers
+read_more: Read more
+qlb:
+  deck: Main Presentation Deck
+  video: Video Resources
+  news: News & Blogs

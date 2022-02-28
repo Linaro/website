@@ -300,8 +300,8 @@ asset_pipeline:
   output_path: assets/js
   gzip: true
 # Jekyll-polyglot
-i18n_enabled: false
-languages: ["en"]
+i18n_enabled: true
+languages: ["en", "ch"]
 default_lang: "en"
 exclude_from_localization:
   ["javascript", "images", "css", "public", "assets", "generated"]
