@@ -179,7 +179,7 @@ If you reboot your system now your firmwareTPM should be operational. You can ch
 sudo tpm2_eventlog /sys/kernel/security/tpm0/binary_bios_measurements
 ```
 
-Sealing the key
+#### Sealing the key
 
 Remember when you installed an encrypted filesystem? With the TPM up and running now you can automate the decryption of your root filesystem and bind the keys to specific PCRs.
 
@@ -205,7 +205,8 @@ The PCR usage is described [here](https://trustedcomputinggroup.org/wp-content/u
 * PCR23: Application Support
 
 You can use any PCR you think is appropriate for your device security, but the most scalable for us is PCR7,  which holds the EFI keys and the UEFI SecureBoot state. Measuring that would render physical attacks against the EFI variable storage useless - changing the keys would yield a different value for PCR7.  We can also use the TPM to measure the initramfs and DTB we load to the device,  providing the guarantees we need for those files.
-Adding tee-supplicant to your initramfs
+
+#### Adding tee-supplicant to your initramfs
 
 As I mentioned earlier, the fTPM relies on the op-tee supplicant for the RPMB accesses. So the missing piece of the puzzle in order to access your TPM, unseal your key and decrypt the filesystem, is to create an initramfs with the needed modules and the tee-supplicant.
 
