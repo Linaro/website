@@ -64,7 +64,7 @@ flow:
         style: ""
         title_content:
           style: font-weight-bold
-          text: Projects Linaro and its member companies collaborate on
+          text: Linaro 及其成员公司合作的项目
           size: h2
       - format: text
         style: text-left
