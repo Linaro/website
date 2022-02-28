@@ -1,8 +1,8 @@
 <div class="row">
     <div class="col col-12 col-md-6 d-flex px-md-5 flex-column justify-content-around border-right membership_col">
-        <h3 class="cta_header py-4"><span class="bullet blue"></span>{{site.data.translations.cta.membershipTitle}}</h3>
+        <h3 class="cta_header py-4"><span class="bullet blue"></span>{{site.data.translations.homepage.cta.membershipTitle}}</h3>
         <p class="cta_text">
-            {{site.data.translations.cta.membershipText}}
+            {{site.data.translations.homepage.cta.membershipText}}
         </p>
         <div class="cta_video_container">
             {% for testimonial in site.data.membership_testimonials.items %}
@@ -66,7 +66,7 @@
         </div>
         <a class="btn btn-secondary border-0 blue text-uppercase text-white" href="/membership/">
             <span class="d-none d-md-block">
-                {{site.data.translations.cta.membershipBtnText}}
+                {{site.data.translations.homepage.cta.membershipBtnText}}
             </span>
             <span class="d-block d-md-none">
                 {{site.data.translations.learnMore}}
@@ -75,16 +75,16 @@
         
     </div>
     <div class="col col-12 col-md-6 d-flex px-md-5 flex-column justify-content-around">
-        <h3 class="cta_header py-4"><span class="bullet green"></span>{{site.data.translations.cta.dsTitle}}</h3>
+        <h3 class="cta_header py-4"><span class="bullet green"></span>{{site.data.translations.homepage.cta.dsTitle}}</h3>
         <p class="cta_text">
-            {{site.data.translations.cta.dsText}}
+            {{site.data.translations.homepage.cta.dsText}}
         </p>
         <div class="cta_image_container">
             {% picture card_block_image "/assets/images/content/Rocket_4.png" --alt Rocket launching %}
         </div>
         <a class="btn btn-primary text-dark border-0 blue text-uppercase text-white" href="/services/">
             <span class="d-none d-md-block">
-                {{site.data.translations.cta.dsBtnText}}
+                {{site.data.translations.homepage.cta.dsBtnText}}
             </span>
             <span class="d-block d-md-none">
                 {{site.data.translations.learnMore}}
