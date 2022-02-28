@@ -43,9 +43,6 @@ homepage:
   title1: Accelerating deployment
   title2: in the
   title3: Arm Ecosystem
-  headerText: >
-    Linaro has driven open source software development on Arm since 2010 and is home to many world-leading Arm software experts. Together with our members and the open source community, we drive the work needed to maintain and improve the Arm software ecosystem. Our work spans a wide range of verticals and technologies.
-  headerText2: To find out more about the work we do, click on the relevant icon below.
   stats:
     statsText1: >
       of Linaro patches are accepted within 7 days of submission (75% within 35 days)
