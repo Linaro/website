@@ -104,3 +104,10 @@ eb_iot:
   join_core: 作为 Linaro 核心成员加入
   core_desc: 如果您想参与 Linaro 所做的所有工作并访问您自己的专业工程团队，那么核心会员是您的正确选择。
 projects_click_here: 点击这里查看完整的项目列表
+eb:
+  join_ldcg: 加入 Linaro 数据中心和云集团
+  ldcg_desc1: 如果您想与 Linaro 和 Arm 服务器生态系统中的其他行业领导者特别合作，您可以加入 Linaro 数据中心和云集团。
+  ldcg_desc2: Linaro 的 Datacenter & Cloud Group 旨在与其成员一起为 Arm 企业生态系统提供一个共同的开发中心。
+  ldcg_desc3: 共同努力解决常见问题并制定标准可减少碎片化，并帮助所有参与公司更快地将其产品推向市场。
+  dev_svcs: 通过 Linaro 开发人员服务，利用我们对您项目的专业知识。
+  ds_desc: Linaro 开发人员服务允许您在特定项目上一对一地使用 Linaro。

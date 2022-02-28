@@ -105,3 +105,10 @@ eb_iot:
   join_core: Join as a Linaro Core Member
   core_desc: If you want to participate in all the work Linaro does as well as have access to your own dedicated engineering team, then core membership is the right option for you.
 projects_click_here: Click here for a complete list of projects
+eb:
+  join_ldcg: Join the Linaro Datacenter & Cloud Group
+  ldcg_desc1: If you want to collaborate with Linaro and other industry leaders in the Arm Server Ecosystem specifically, you can join the Linaro Datacenter & Cloud Group.
+  ldcg_desc2: Linaro’s Datacenter & Cloud Group aims to, together with its members, provide a common development center for the Arm enterprise ecosystem.
+  ldcg_desc3: Working together to resolve common issues and develop standards reduces fragmentation and helps all participating companies deliver their products to market faster.
+  dev_svcs: Leverage our expertise on your project through Linaro Developer Services.
+  ds_desc: Linaro Developer Services allows you to work with Linaro on a one-to-one basis on your specific project. 
