@@ -42,28 +42,25 @@ homepage:
   title1: 加速Arm
   title2:
   title3: 生态系统的部署
-  headerText: >
-    Linaro has driven open source software development on Arm since 2010 and is home to many world-leading Arm software experts. Together with our members and the open source community, we drive the work needed to maintain and improve the Arm software ecosystem. Our work spans a wide range of verticals and technologies.
-  headerText2: To find out more about the work we do, click on the relevant icon below.
   stats:
     statsText1: >
-      of Linaro patches are accepted within 7 days of submission (75% within 35 days)
+      的 Linaro 补丁在提交后 7 天内被接受（75% 在 35 天内）
     statsText2: >
-      In the top 10 Contributors to the Linux kernel
+      Linux 内核贡献者前 10 名
     statsText3: >
-      Number of patches submitted to upstream projects in the past 2 years
+      过去 2 年提交给上游项目的补丁数量
   maintainers:
     titleText: Open Source Software Maintainers
     subText: In total Linaro Maintainers manage over 40 Open Source Projects
   cta:
-    membershipTitle: Linaro Membership
+    membershipTitle: Linaro会员
     membershipText: >
-      If you want to work with Linaro’s technical domain experts and other industry leaders on solving common problems, then Linaro membership is the option for you. Click on the videos below to find out why our members choose to partner with Linaro:
-    membershipBtnText: Find out more about Linaro Membership
-    dsTitle: Linaro Developer Services
+      如果您想与 Linaro 的技术领域专家和其他行业领导者一起解决常见问题，那么 Linaro 会员资格是您的选择。 单击下面的视频，了解我们的会员选择与 Linaro 合作的原因：
+    membershipBtnText: 了解有关 Linaro 会员资格的更多信息
+    dsTitle: Linaro 开发者服务
     dsText: >
-      If you want to leverage Linaro’s Arm and open source software expertise on a specific project, then working with Linaro Developer Services is the right option for you.
-    dsBtnText: Find out more about Linaro Developer Services
+      如果您想在特定项目中利用 Linaro 的 Arm 和开源软件专业知识，那么与 Linaro 开发人员服务合作是您的正确选择。
+    dsBtnText: 了解有关 Linaro 开发人员服务的更多信息
 nav:
   automotive_et_al: 汽车、物联网和边缘设备
   cloud_computing: 云计算和服务器
