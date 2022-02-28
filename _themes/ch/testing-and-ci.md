@@ -88,7 +88,7 @@ flow:
         source: themes/quick_link_blocks.html
   - row: container_row
     style: text-center
-    background_image: /assets/images/content/Banner_Core_Technologies.jpg
+    background_image: /assets/images/content/Banner_Testing_CI.jpg
     sections:
       - format: title
         style: mt-4 text-white
