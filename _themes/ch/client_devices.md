@@ -107,7 +107,7 @@ flow:
       - format: title
         style: mt-4 text-white
         title_content:
-          text: How to participate
+          text: 如何参加
           size: h2
       - format: text
         style: text-white
