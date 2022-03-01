@@ -32,7 +32,6 @@ You will have to add flang, clang and mlir to the list of enabled projects.
 You will also need to tell clang where to find the builtins, otherwise the linker will complain that it cannot find symbols such as _udivdi3 or others. Adding the path to the builtin library as described in the [Clang Compiler User’s Manual — Clang 13 documentation](https://clang.llvm.org/docs/UsersManual.html#finding-clang-runtime-libraries) doesn’t seem to be working at the moment (bug report pending). Luckily, we can work around this issue by adding the builtin library directly on every link command 
 
 (`-DCMAKE_*_LINKER_FLAGS=path/to/clang_rt.builtins-aarch64.lib`;
-```
 
 if you’re lucky you’ll only need CMAKE_EXE_LINKER_FLAGS, but depending on the compiler version you’re using and your other build flags, you might also need to set CMAKE_SHARED_LINKER_FLAGS or CMAKE_STATIC_LINKER_FLAGS).
 
