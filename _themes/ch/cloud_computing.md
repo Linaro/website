@@ -1,6 +1,7 @@
 ---
 id: 14
 title: 云计算和服务器
+slug_title: Cloud Computing & Servers
 sub_theme: false
 lang: ch
 permalink: /cloud-computing-and-servers/

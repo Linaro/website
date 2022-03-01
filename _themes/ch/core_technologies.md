@@ -1,6 +1,7 @@
 ---
 id: 15
 title: 核心技术
+slug_title: Core Technologies
 sub_theme: false
 lang: ch
 permalink: /core-technologies/

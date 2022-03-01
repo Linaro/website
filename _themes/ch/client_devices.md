@@ -1,6 +1,7 @@
 ---
 id: 15
 title: 客户端设备
+slug_title: Client Devices
 sub_theme: false
 lang: ch
 permalink: /client-devices/

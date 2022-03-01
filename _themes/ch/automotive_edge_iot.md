@@ -1,6 +1,7 @@
 ---
 id: 17
 title: 汽车、物联网和边缘设备
+slug_title: Automotive, IoT & Edge Devices
 sub_theme: false
 lang: ch
 permalink: /automotive-iot-and-edge-devices/
