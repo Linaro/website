@@ -117,3 +117,31 @@ eb_cd:
   lcg_desc1: If you want to collaborate with Linaro and other industry leaders in the Android Ecosystem specifically, you can join the Linaro Consumer Group.
   lcg_desc2: The Linaro Consumer Group’s mission is to improve the AOSP ecosystem through collaborative activities that benefit members across all Android use cases.
   lcg_desc3: Working together with Linaro and other industry leaders, member companies can enable a great Android Developer experience for better products.
+mcp:
+  value_1: Collaborate on developing standards which allow you to differentiate
+  desc_1: Linaro was formed in 2010 to address the lack of standardization on foundational Arm software. Everyone was creating their own foundational software which was then only applicable to their platforms, resulting in extra engineering effort to make it applicable to other platforms. Linaro, together with other companies working on Arm-based technology, joined forces to create standards for kernel, toolchain and security. We solved the problems we set out to fix but as new technology continues to appear, there will always be a need for standardization to reduce engineering effort and thereby accelerate innovation.
+  quote_1: Linaro is the collaboration platform for the Arm partnership. Where everyone comes together to collaborate on open source software, where conversations take place and non-differentiating solutions are discussed and worked upon.
+  value_2: Leverage Linaro’s Arm Software expertise and connection with Open Source Communities
+  desc_2: Linaro employs some of the world’s leading Arm software experts, with more than 60 software kernel maintainers looking after more than 100 open source projects. Since our inception, we have been continually ranked by LWN.net in the top ten companies which contribute to the Linux kernel - no small feat for a company with 250 engineers! We are able to successfully and efficiently deliver standardized solutions for the Arm software ecosystem because our team of Engineers are highly experienced and well connected to the Open Source Community.
+  quote_2: In order to become part of the open source community, I felt it was important to join our peers. I believe we benefited greatly from joining Linaro since we now have a connection with various communities including Linaro and the Linux Community.
+  value_3: Reduce costs on development by sharing engineering resource
+  desc_3: Once needs have been identified and strategy agreed upon, Linaro engineers work with member engineers and the open source community to deliver the solutions. Sharing engineering resource significantly reduces overall development costs and helps accelerate time to market as more engineers - with different perspectives - are able to dedicate time to building software, problem solving and troubleshooting.
+  quote_3: Linaro are like the all-star team of open source technology in many ways. This is a group of highly experienced experts that know what they’re doing. We learn a lot by being members of Linaro that we wouldn’t be able to learn in any other community.
+membership:
+  core: Core Membership
+  club: Club Membership
+  group: Group Membership
+  project: Project Membership
+  core_desc: Core members drive the direction of software development in the Arm ecosystem. They can participate in any of Linaro’s projects or segment groups and have access to their own dedicated engineering team.
+  club_desc: Club members influence the direction of Arm software development and can participate in any of Linaro’s segment groups. At an additional fee, they can also have access to their own dedicated engineering team.
+  group_desc: Group Members drive strategy within a specific vertical and can participate in any of the Linaro projects set up by their segment group. Linaro’s Segment Groups are Linaro Consumer Group, Linaro Datacenter & Cloud Group, Linaro Edge & Fog Computing Group and Linaro IoT and Embedded Group.
+  project_desc: Project Members join one Linaro project. Project membership is available by invitation only, to find out how to join at project level, email us at <a href="mailto:contact@linaro.org">contact@linaro.org</a>
+membership_form:
+  firstName: First name
+  lastName: Last name
+  company: Company
+  how: How can Linaro help you?
+  submit: Submit
+back_to_top: Back to top
+related_projects: Related Projects
+all_projects: All Projects
