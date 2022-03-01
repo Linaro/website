@@ -3,12 +3,13 @@ title: Community Projects
 description: >-
   Linaro Community Projects Division manages open source projects with open governance.
 permalink: /community-projects/
+js-package: projects
+css_bundle: projects
 layout: flow
 jumbotron:
+    class: projects_banner text-center
     title: Creating Projects that Engage with Communities
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/code_banner.jpg
+    image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:
   - row: container_row
     sections:
