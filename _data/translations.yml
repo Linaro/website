@@ -176,4 +176,8 @@ services:
   form2_email: Email Address
   form2_company: Company name
   download: Download
-  
+about:
+  team: Team
+  news: News
+  careers: Careers
+  contact: Contact us

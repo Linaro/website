@@ -175,3 +175,8 @@ services:
   form2_email: 电子邮件地址
   form2_company: 公司名
   download: 下载
+about:
+  team: 团队
+  news: 消息
+  careers: 职业生涯
+  contact: 联系我们
