@@ -122,6 +122,25 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LEDGE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/HPP/overview\">https://linaro.atlassian.net/wiki/spaces/HPP/overview</a>",
+                "Theme": [
+                    "Automotive, IoT & Edge Devices"
+                ],
+                "description": "The HPP project works on technologies for between different CPU types or different OS types.  Current technologies include:<br><br><ul><li> Remoteproc & Rpmsg</li><li> Virtio between two cores that do not share a hypervisor</li><li> System Devicetree</li><li> QEMU as a development platform for these systems</li></ul>HPP is a Linaro project but is also closely associated with the <a href=\"https://www.openampproject.org/\">OpenAMP community project</a> (also hosted at Linaro). ",
+                "title": "Heterogeneous Platform"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10418",
+            "key": [
+                "HPP"
+            ],
+            "membership": [
+                "ledge",
+                "lite"
+            ]
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AELTS/overview\">https://linaro.atlassian.net/wiki/spaces/AELTS/overview</a>",
                 "Theme": [
