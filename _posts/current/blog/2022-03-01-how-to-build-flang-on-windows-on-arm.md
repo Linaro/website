@@ -33,7 +33,7 @@ You will also need to tell clang where to find the builtins, otherwise the linke
 
 (`-DCMAKE_*_LINKER_FLAGS=path/to/clang_rt.builtins-aarch64.lib`;
 
-if you’re lucky you’ll only need CMAKE_EXE_LINKER_FLAGS, but depending on the compiler version you’re using and your other build flags, you might also need to set CMAKE_SHARED_LINKER_FLAGS or CMAKE_STATIC_LINKER_FLAGS).
+if you’re lucky you’ll only need `CMAKE_EXE_LINKER_FLAGS`, but depending on the compiler version you’re using and your other build flags, you might also need to set `CMAKE_SHARED_LINKER_FLAGS` or `CMAKE_STATIC_LINKER_FLAGS`).
 
 You should end up with a script that looks something like [this](https://github.com/rovka/f18-llvm-project/blob/flang-woa/flang/examples/build_flang.bat):
 
