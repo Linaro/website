@@ -145,3 +145,35 @@ membership_form:
 back_to_top: Back to top
 related_projects: Related Projects
 all_projects: All Projects
+services:
+  quote1: Linaro Developer Services provide deep Arm technical knowledge as well as strong relationships within various upstream communities. Their engagement in the latest Arm technologies allows for quick and solid deliverables, helping to de-risk a program. They have helped enable an Arm-based Windows laptop to support Linux, developed a variety of Docker containers for Arm-based servers, and also enabled firmware secure boot capabilities on an NXP-based system. If you need help with Arm firmware or software development, Linaro brings that professional edge.
+  quote2a: At Square, we face the challenge of maintaining our Terminal and Register hardware products, which are based on short-support-cycle mobile technology, in an industry that requires long lifespans and up-to-date security patching. After the Qualcomm SD615 processor (2014) powering our devices went end-of-life in 2018, Square chose to engage with the Arm Linux specialists at Linaro for upstream-based extended life. Having seen their previous work on the DragonBoard 410c, we were confident that upstreaming was the right path and Linaro was the right partner to deliver a new Linux kernel paired with an up-to-date Android release.
+  quote2b: The team dispatched from Linaro Developer Services was highly experienced in how to accomplish this without compromising on productization-level stability, battery life, or performance. As a result of this collaboration, Square is able to continue providing regular OS and kernel upgrades to our Terminal and Register customers for 5-10 more years. In particular, Linaro's expertise and assistance in bringing SoCs and boards into mainline ensures upstream support doesn't decay over time & provides a platform for the community to continue contributing to and benefiting from the work, reducing long term software burden.
+  form1_hdr: To find out more about Linaro Developer Services please complete this form
+  firstName: First name (required)
+  firstNameErr: Please provide a valid first name.
+  lastName: Last name (required)
+  lastNameErr: Please provide a valid last name.
+  email: Email address (required)
+  emailErr: Please provide a valid email.
+  company: Company (required)
+  companyErr: Please provide a valid company.
+  how: How can we help you?
+  which: Which services are you interested in?
+  upstream: Upstream Services
+  kernel: Kernel Services
+  training: Training & Support
+  security: Security
+  tf: Trusted Firmware
+  ltsb: Long Term Support Builds
+  server: Arm Server Deployment
+  bsps: BSPs and board bring-up
+  embedded: Embedded and mobile platforms
+  other: Other
+  hear: How did you hear about Linaro?
+  form2_hdr: Please complete to download the Developer Services Overview
+  rqd: indicates required
+  form2_email: Email Address
+  form2_company: Company name
+  download: Download
+  

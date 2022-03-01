@@ -144,3 +144,34 @@ membership_form:
 back_to_top: 回到顶部
 related_projects: 相关项目
 all_projects: 所有项目
+services:
+  quote1: Linaro 开发人员服务提供深厚的 Arm 技术知识以及与各个上游社区之间的牢固关系。 他们参与最新的 Arm 技术可以快速可靠地交付成果，帮助降低项目风险。 他们帮助基于 Arm 的 Windows 笔记本电脑支持 Linux，为基于 Arm 的服务器开发了各种 Docker 容器，并在基于 NXP 的系统上启用了固件安全启动功能。 如果您在 Arm 固件或软件开发方面需要帮助，Linaro 将为您带来专业优势。
+  quote2a: 在 Square，我们面临着维护我们的终端和注册硬件产品的挑战，这些产品基于短支持周期的移动技术，在一个需要长寿命和最新安全补丁的行业中。 在为我们的设备提供动力的 Qualcomm SD615 处理器 (2014) 于 2018 年报废后，Square 选择与 Linaro 的 Arm Linux 专家合作，以延长基于上游的使用寿命。 看过他们之前在 DragonBoard 410c 上的工作后，我们确信上游是正确的道路，而 Linaro 是提供新 Linux 内核和最新 Android 版本的正确合作伙伴。
+  quote2b: Linaro 开发人员服务部派出的团队在如何在不影响产品级稳定性、电池寿命或性能的情况下实现这一目标方面经验丰富。 由于此次合作，Square 能够继续为我们的终端和注册客户提供定期操作系统和内核升级 5-10 年。 特别是，Linaro 在将 SoC 和电路板引入主线方面的专业知识和帮助确保上游支持不会随着时间的推移而衰减，并为社区提供一个平台，让他们继续为工作做出贡献并从中受益，从而减少长期的软件负担。
+  form1_hdr: 要了解有关 Linaro 开发人员服务的更多信息，请填写此表格
+  firstName: 名字（必填）
+  firstNameErr: 请提供有效的名字。
+  lastName: 姓氏（必填）
+  lastNameErr: 请提供有效的姓氏。
+  email: 电子邮件地址（必填）
+  emailErr: 请提供有效的电子邮件。
+  company: 公司（必填）
+  companyErr: 请提供有效的公司。
+  how: 我们该怎样帮助你？
+  which: 您对哪些服务感兴趣？
+  upstream: 上游服务
+  kernel: 内核服务
+  training: 培训与支持
+  security: 安全
+  tf: 可信固件
+  ltsb: 长期支持构建
+  server: Arm 服务器部署
+  bsps: BSP 和董事会启动
+  embedded: 嵌入式和移动平台
+  other: 其他
+  hear: 你是怎么听说利纳罗的？
+  form2_hdr: 请完成以下载开发者服务概述
+  rqd: 表示需要
+  form2_email: 电子邮件地址
+  form2_company: 公司名
+  download: 下载
