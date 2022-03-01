@@ -1,15 +1,16 @@
 ---
 layout: post
 title: The KissCache caching server
-date: '2020-05-18 05:56:56'
+description: "In this blog we look at the caching server KissCache - how it is
+  used and how to set it up. "
+date: 2020-05-18 05:56:56
 image: /assets/images/content/technology-3389917_1920.jpg
 tags:
-- Server
-- KissCache
+  - Server
+  - KissCache
 category: blog
 author: remi.duraffort@linaro.org
 ---
-
 Linaro has recently developed and open-sourced [KissCache](https://git.lavasoftware.org/ivoire/kisscache/), a simple and stupid caching server built on the KISS principle: Keep It Simple Stupid.
 
 Unlike classical proxies like [Squid](http://www.squid-cache.org/) that transparently intercept traffic, in order to use KissCache one must explicitly prefix the requested URL by the URL of the local KissCache instance. KissCache will download the requested resource in the background while streaming it to the client.
@@ -30,16 +31,16 @@ In the last month, Linaro’s KissCache deployment handled more than 160k reques
 
 Linaro has long used Squid in the Linaro embedded device Lab, but it has struggled to meet our requirements to:
 
-- download each resource only once when requesting the same URL in parallel
-- cache https resources
+* download each resource only once when requesting the same URL in parallel
+* cache https resources
 
-Configuring any proxy to handle https resources is fairly difficult and requires working around the security features of SSL certificates. When a client requests [https://example.com](https://example.com/) while using a proxy, the proxy would need to provide a valid SSL certificate for 'example.com'. This will break usual assumptions about SSL certificates as only 'example.com' should be able to generate such certificates.
+Configuring any proxy to handle https resources is fairly difficult and requires working around the security features of SSL certificates. When a client requests https://example.com while using a proxy, the proxy would need to provide a valid SSL certificate for 'example.com'. This will break usual assumptions about SSL certificates as only 'example.com' should be able to generate such certificates.
 
 In order to generate a valid certificate for 'example.com', a site admin could:
 
-- generate a root certificate
-- install it on each client
-- configure the proxy to sign every requested domain with this root certificate
+* generate a root certificate
+* install it on each client
+* configure the proxy to sign every requested domain with this root certificate
 
 The client would accept this fake certificate since it is signed by a known root certificate.
 
