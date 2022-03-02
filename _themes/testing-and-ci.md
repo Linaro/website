@@ -51,7 +51,7 @@ flow:
           blocks:
             - title: Linaro Automation & Validation Architecture (LAVA)
               style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-start align-items-start
               description: |
                 LAVA is the open source Linaro Automation and Validation
                 Architecture. It is the industry standard software for embedded
@@ -65,18 +65,18 @@ flow:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary
                   url: https://validation.linaro.org/
-            - title: Tuxsuite
+            - title: TuxSuite™
               style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-start align-items-start
               description: |
-                TuxSuite™ by Linaro is the backbone of Linaro’s testing efforts. This is now available as a commercial service to help anyone interested in improving their Linux kernel testing to do so rapidly and at scale. Take your testing from limited and infrequent to constant and expansive with TuxSuite.
+                TuxSuite™ by Linaro is the backbone of Linaro’s testing efforts. This is now available as a commercial service to help anyone interested in improving their Linux kernel testing to do so rapidly and at scale. Take your testing from limited and infrequent to constant and expansive with TuxSuite™.
               buttons:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary
                   url: https://tuxsuite.com/
             - title: Linux Kernel Functional Test (LKFT)
               style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-start align-items-start
               description: |
                 Linaro’s Linux Kernel Quality program covers both Linux kernel
                 testing and testing of the LTS-derived Android-Common Kernel.
@@ -108,7 +108,7 @@ flow:
                   url: https://lkft.linaro.org/
             - title: Software Quality Dashboard Software (SQUAD)
               style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-start align-items-start
               description: |
                 SQUAD is Linaro’s open source Software Quality Dashboard
                 software. It is cloud-deployable and scalable software for
