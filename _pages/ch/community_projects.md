@@ -4,13 +4,14 @@ title: 社区项目
 description: >-
   Linaro 社区项目部通过开放治理管理开源项目。
 permalink: /community-projects/
+layout: flow
 js-package: projects
 css_bundle: projects
 layout: flow
 jumbotron:
-    class: projects_banner text-center
-    title: 创建与社区互动的项目
-    image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
+  class: projects_banner text-center
+  title: Linaro 社区项目
+  image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:
   - row: container_row
     sections:
@@ -23,7 +24,7 @@ flow:
 
                 社区项目部门的创建是为了让 Linaro 托管的开源项目成为开放治理并使其更易于访问。 Linaro 认为需要为新的、跨架构的、开源的、开放的治理项目做出选择。 虽然 Linaro 是 Arm 生态系统的主要参与者，但社区项目旨在跨架构。
 
-                社区项目部目前主持以下项目：
+                **社区项目部目前主持以下项目:**
         - format: custom_include
           source: components/community_projects_members.html
         - format: text
