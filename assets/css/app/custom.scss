@@ -798,6 +798,18 @@
 }
 
 #wrapper {
+  @include media-breakpoint-up($nav_expand_point) {
+    .navbar.hover_animated .nav-item > .dropdown-menu {
+      transition: none;
+    }
+    .navbar.hover_animated .dropdown-menu.fade-down {
+      transform: none;
+      transform-origin: 0;
+    }
+  }
+  a {
+    transition: none;
+  }
   footer {
     a {
       transition: all 200ms ease;
