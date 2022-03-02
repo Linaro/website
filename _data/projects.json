@@ -146,7 +146,7 @@
                 "Theme": [
                     "Core Technologies"
                 ],
-                "description": "LAVA\u00a0stand for\u00a0Linaro\u00a0Automated\u00a0Validation\u00a0Architecture.<br><br>LAVA is a\u00a0_continuous integration_\u00a0system for deploying operating systems onto physical and virtual hardware for running tests.<br><br>LAVA is also used to managed and share boards among teams.",
+                "description": "LAVA\u00a0stand for\u00a0Linaro\u00a0Automated\u00a0Validation\u00a0Architecture.<br><br>LAVA is a\u00a0continuous integration\u00a0system for deploying operating systems onto physical and virtual hardware for running tests.<br><br>LAVA is also used to managed and share boards among teams.",
                 "title": "LAVA (and test-definitions)"
             },
             "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
