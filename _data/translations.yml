@@ -188,4 +188,8 @@ noBio: No Bio available.
 careers:
   lookingInternship: Looking for an internship?
   internBrochure: Read about some of our interns experiences by taking a look through our intern brochure.
-  
+search_posts: Search ------ posts...
+events:
+  view: View
+  upcoming: Upcoming Events
+  past: Past Events

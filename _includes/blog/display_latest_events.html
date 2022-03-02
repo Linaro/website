@@ -14,7 +14,7 @@
 
 <div class="row py-0">
     <div class="col col-12 py-4">
-        <h2>Upcoming Events</h2>
+        <h2>{{site.data.translations.events.upcoming}}</h2>
     </div>
     {% assign upcoming_events = upcoming_events | sort: 'event_date' %}
     <div class="col col-12">
@@ -54,7 +54,7 @@
                                 {% endif %}
                             </p>
                             <p class="card-text">
-                                <a href="{{post.url}}" class="btn btn-primary">View</a>
+                                <a href="{{post.url}}" class="btn btn-primary">{{site.data.translations.events.view}}</a>
                             </p>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
             </div>
         </div>
     <div class="col col-12 py-4">
-        <h2>Past Events</h2>
+        <h2>{{site.data.translations.events.past}}</h2>
     </div>
     <div class="col col-12">
         <div class="row py-0">
@@ -103,7 +103,7 @@
                                 {% endif %}
                             </p>
                             <p class="card-text">
-                                <a href="{{post.url}}" class="btn btn-primary">View</a>
+                                <a href="{{post.url}}" class="btn btn-primary">{{site.data.translations.events.view}}</a>
                             </p>
                         </div>
                     </div>

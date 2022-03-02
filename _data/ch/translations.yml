@@ -187,3 +187,8 @@ noBio: 没有传记。
 careers:
   lookingInternship: 寻找实习？
   internBrochure: 阅读我们的实习生手册，了解我们的一些实习生经历。
+search_posts: 搜索 ------ 帖子...
+events:
+  view: 看法
+  upcoming: 即将举行的活动
+  past: 过去的事
