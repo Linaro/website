@@ -78,7 +78,7 @@ flow:
           style: p-3
           text: |
             * Introduction to Devicetree
-            * Pragmatic Linux driver development - **Part I**
+            * Pragmatic Linux driver development - **Part 1**
             * Pragmatic Linux driver development - **Part 2**
             * Symbolic debugging for Linux kernel and userspace
       - format: two_column

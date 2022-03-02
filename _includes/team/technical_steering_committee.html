@@ -19,7 +19,7 @@
                                     {{individual.bio | markdownify }}
                                 {% else %}
                                 <p>
-                                    No Bio available.
+                                    {{site.data.translations.noBio}}
                                 </p>
                                 {% endif %}
                             </div>
@@ -40,7 +40,7 @@
                     <h5 class="card-title">{{individual.name}}</h5>
                     <p class="card-text">{{individual.title}}</p>
                     <a data-toggle="modal" class="btn btn-primary" href='#{{individual.name | slugify}}'>
-                        About
+                        {{site.data.translations.about}}
                     </a>
                 </div>
             </div>

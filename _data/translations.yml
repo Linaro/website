@@ -43,9 +43,6 @@ homepage:
   title1: Accelerating deployment
   title2: in the
   title3: Arm Ecosystem
-  headerText: >
-    Linaro has driven open source software development on Arm since 2010 and is home to many world-leading Arm software experts. Together with our members and the open source community, we drive the work needed to maintain and improve the Arm software ecosystem. Our work spans a wide range of verticals and technologies.
-  headerText2: To find out more about the work we do, click on the relevant icon below.
   stats:
     statsText1: >
       of Linaro patches are accepted within 7 days of submission (75% within 35 days)
@@ -65,3 +62,134 @@ homepage:
     dsText: >
       If you want to leverage Linaro’s Arm and open source software expertise on a specific project, then working with Linaro Developer Services is the right option for you.
     dsBtnText: Find out more about Linaro Developer Services
+nav:
+  automotive_et_al: Automotive, IoT & Edge Devices
+  cloud_computing: Cloud Computing & Servers
+  client_devices: Client Devices
+  core_technologies: Core Technologies
+  artificial_intelligence: Artificial Intelligence
+  linux_kernel: Linux Kernel
+  security: Security
+  testing_ci: Testing & CI
+  toolchain: Toolchain
+  virtualization: Virtualization
+  projects: Projects
+  membership: Membership
+  services: Services
+  support: Support
+  downloads: Downloads
+  blogs: Blogs
+  events: Events
+  news: News
+  careers: Careers
+read_more: Read more
+qlb:
+  deck: Main Presentation Deck
+  video: Video Resources
+  news: News & Blogs
+aiwpb:
+  car_sensors: Car sensors
+  sdv: Software Defined Vehicles and the need for standardisation
+  push_to_start: Autonomous driving push button to start
+  edf: Standardization in Edge Device Firmware
+  ai_for_mcus: Confidential AI for MCUs
+eb_iot:
+  join_ledge: Join Linaro's Edge & Fog Computing Group
+  ledge_desc: If you want to collaborate with Linaro and other industry leaders on projects which specifically tackle challenges in the edge computing space, the Linaro Edge & Fog Computing Group is the option for you. The Linaro Edge & Fog Computing Group and its members have joined forces to make hybridization a reality through two major efforts - Trusted Substrate and the LEDGE Reference Platform.
+  join_iot: Join Linaro's IoT & Embedded Group
+  iot_desc: If you want to collaborate with Linaro and other industry leaders on projects which specifically tackle challenges in the IoT space, the Linaro IoT & Embedded Group is the option for you. Linaro's IoT and Embedded Group members work collaboratively to create and support key standards and best in class implementations to enable secure connected devices in the Arm ecosystem.
+  join_team: Join our team!
+  team_desc: We frequently hire subject matter experts and maintainers - if you're interested in becoming part of our team, go to the Linaro careers page to find out more.
+  join_club: Join as a Linaro Club Member
+  club_desc: If you want to collaborate with Linaro and other industry leaders on all verticals in the Arm Ecosystem, club membership is the right option for you.
+  join_core: Join as a Linaro Core Member
+  core_desc: If you want to participate in all the work Linaro does as well as have access to your own dedicated engineering team, then core membership is the right option for you.
+projects_click_here: Click here for a complete list of projects
+eb:
+  join_ldcg: Join the Linaro Datacenter & Cloud Group
+  ldcg_desc1: If you want to collaborate with Linaro and other industry leaders in the Arm Server Ecosystem specifically, you can join the Linaro Datacenter & Cloud Group.
+  ldcg_desc2: Linaro’s Datacenter & Cloud Group aims to, together with its members, provide a common development center for the Arm enterprise ecosystem.
+  ldcg_desc3: Working together to resolve common issues and develop standards reduces fragmentation and helps all participating companies deliver their products to market faster.
+  dev_svcs: Leverage our expertise on your project through Linaro Developer Services.
+  ds_desc: Linaro Developer Services allows you to work with Linaro on a one-to-one basis on your specific project. 
+eb_cd:
+  join_lcg: Join the Linaro Consumer Group
+  lcg_desc1: If you want to collaborate with Linaro and other industry leaders in the Android Ecosystem specifically, you can join the Linaro Consumer Group.
+  lcg_desc2: The Linaro Consumer Group’s mission is to improve the AOSP ecosystem through collaborative activities that benefit members across all Android use cases.
+  lcg_desc3: Working together with Linaro and other industry leaders, member companies can enable a great Android Developer experience for better products.
+mcp:
+  value_1: Collaborate on developing standards which allow you to differentiate
+  desc_1: Linaro was formed in 2010 to address the lack of standardization on foundational Arm software. Everyone was creating their own foundational software which was then only applicable to their platforms, resulting in extra engineering effort to make it applicable to other platforms. Linaro, together with other companies working on Arm-based technology, joined forces to create standards for kernel, toolchain and security. We solved the problems we set out to fix but as new technology continues to appear, there will always be a need for standardization to reduce engineering effort and thereby accelerate innovation.
+  quote_1: Linaro is the collaboration platform for the Arm partnership. Where everyone comes together to collaborate on open source software, where conversations take place and non-differentiating solutions are discussed and worked upon.
+  value_2: Leverage Linaro’s Arm Software expertise and connection with Open Source Communities
+  desc_2: Linaro employs some of the world’s leading Arm software experts, with more than 60 software kernel maintainers looking after more than 100 open source projects. Since our inception, we have been continually ranked by LWN.net in the top ten companies which contribute to the Linux kernel - no small feat for a company with 250 engineers! We are able to successfully and efficiently deliver standardized solutions for the Arm software ecosystem because our team of Engineers are highly experienced and well connected to the Open Source Community.
+  quote_2: In order to become part of the open source community, I felt it was important to join our peers. I believe we benefited greatly from joining Linaro since we now have a connection with various communities including Linaro and the Linux Community.
+  value_3: Reduce costs on development by sharing engineering resource
+  desc_3: Once needs have been identified and strategy agreed upon, Linaro engineers work with member engineers and the open source community to deliver the solutions. Sharing engineering resource significantly reduces overall development costs and helps accelerate time to market as more engineers - with different perspectives - are able to dedicate time to building software, problem solving and troubleshooting.
+  quote_3: Linaro are like the all-star team of open source technology in many ways. This is a group of highly experienced experts that know what they’re doing. We learn a lot by being members of Linaro that we wouldn’t be able to learn in any other community.
+membership:
+  core: Core Membership
+  club: Club Membership
+  group: Group Membership
+  project: Project Membership
+  core_desc: Core members drive the direction of software development in the Arm ecosystem. They can participate in any of Linaro’s projects or segment groups and have access to their own dedicated engineering team.
+  club_desc: Club members influence the direction of Arm software development and can participate in any of Linaro’s segment groups. At an additional fee, they can also have access to their own dedicated engineering team.
+  group_desc: Group Members drive strategy within a specific vertical and can participate in any of the Linaro projects set up by their segment group. Linaro’s Segment Groups are Linaro Consumer Group, Linaro Datacenter & Cloud Group, Linaro Edge & Fog Computing Group and Linaro IoT and Embedded Group.
+  project_desc: Project Members join one Linaro project. Project membership is available by invitation only, to find out how to join at project level, email us at <a href="mailto:contact@linaro.org">contact@linaro.org</a>
+membership_form:
+  firstName: First name
+  lastName: Last name
+  company: Company
+  how: How can Linaro help you?
+  submit: Submit
+back_to_top: Back to top
+related_projects: Related Projects
+all_projects: All Projects
+select_project: Select Project
+related_posts: Related Posts
+view_all_posts: View all posts
+services:
+  quote1: Linaro Developer Services provide deep Arm technical knowledge as well as strong relationships within various upstream communities. Their engagement in the latest Arm technologies allows for quick and solid deliverables, helping to de-risk a program. They have helped enable an Arm-based Windows laptop to support Linux, developed a variety of Docker containers for Arm-based servers, and also enabled firmware secure boot capabilities on an NXP-based system. If you need help with Arm firmware or software development, Linaro brings that professional edge.
+  quote2a: At Square, we face the challenge of maintaining our Terminal and Register hardware products, which are based on short-support-cycle mobile technology, in an industry that requires long lifespans and up-to-date security patching. After the Qualcomm SD615 processor (2014) powering our devices went end-of-life in 2018, Square chose to engage with the Arm Linux specialists at Linaro for upstream-based extended life. Having seen their previous work on the DragonBoard 410c, we were confident that upstreaming was the right path and Linaro was the right partner to deliver a new Linux kernel paired with an up-to-date Android release.
+  quote2b: The team dispatched from Linaro Developer Services was highly experienced in how to accomplish this without compromising on productization-level stability, battery life, or performance. As a result of this collaboration, Square is able to continue providing regular OS and kernel upgrades to our Terminal and Register customers for 5-10 more years. In particular, Linaro's expertise and assistance in bringing SoCs and boards into mainline ensures upstream support doesn't decay over time & provides a platform for the community to continue contributing to and benefiting from the work, reducing long term software burden.
+  form1_hdr: To find out more about Linaro Developer Services please complete this form
+  firstName: First name (required)
+  firstNameErr: Please provide a valid first name.
+  lastName: Last name (required)
+  lastNameErr: Please provide a valid last name.
+  email: Email address (required)
+  emailErr: Please provide a valid email.
+  company: Company (required)
+  companyErr: Please provide a valid company.
+  how: How can we help you?
+  which: Which services are you interested in?
+  upstream: Upstream Services
+  kernel: Kernel Services
+  training: Training & Support
+  security: Security
+  tf: Trusted Firmware
+  ltsb: Long Term Support Builds
+  server: Arm Server Deployment
+  bsps: BSPs and board bring-up
+  embedded: Embedded and mobile platforms
+  other: Other
+  hear: How did you hear about Linaro?
+  form2_hdr: Please complete to download the Developer Services Overview
+  rqd: indicates required
+  form2_email: Email Address
+  form2_company: Company name
+  download: Download
+aboutBlock:
+  team: Team
+  news: News
+  careers: Careers
+  contact: Contact us
+noBio: No Bio available.
+careers:
+  lookingInternship: Looking for an internship?
+  internBrochure: Read about some of our interns experiences by taking a look through our intern brochure.
+search_posts: Search ------ posts...
+events:
+  view: View
+  upcoming: Upcoming Events
+  past: Past Events
