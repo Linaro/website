@@ -171,7 +171,9 @@
             "key": [
                 "ACK"
             ],
-            "membership": []
+            "membership": [
+                "lcg"
+            ]
         },
         {
             "Project Information": {
@@ -293,7 +295,9 @@
             "key": [
                 "AOSP"
             ],
-            "membership": []
+            "membership": [
+                "lcg"
+            ]
         },
         {
             "Project Information": {
