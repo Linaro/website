@@ -27,7 +27,7 @@ flow:
             自 2010 年以来，Linaro 一直在推动 Arm 上的开源软件开发，提供了坚实的创新基础所需的工具、Linux 内核质量和安全性。 Linaro 与成员公司和开源社区合作，维护 Arm 软件生态系统并为 Arm 架构开辟新市场。
 
 
-            随着技术的发展，Linaro 也在发展。 虽然我们通过在 [Linux 内核](https://www.linaro.org/core-technologies/linux-kernel/)、[工具链](https://www.linaro.org/core-technologies/toolchain/)、[安全](https://www.linaro.org/core-technologies/security/)和[持续集成测试](https://www. linaro.org/core-technologies/testing-and-ci/)，我们还在多个市场开展工作以支持 Arm 技术。 其中包括 [汽车、物联网和边缘设备](https://www.linaro.org/automotive-iot-and-edge-devices/)、[客户端设备](https://www.linaro.org/client- devices/) 和 [云计算和服务器](https://www.linaro.org/cloud-computing-and-servers/)。 [](/核心技术/人工智能/)
+            随着技术的发展，Linaro 也在发展。 虽然我们通过在 [Linux 内核](https://www.linaro.org/core-technologies/linux-kernel/)、[工具链](https://www.linaro.org/core-technologies/toolchain/)、[安全](https://www.linaro.org/core-technologies/security/)和[持续集成测试](https://www.linaro.org/core-technologies/testing-and-ci/)，我们还在多个市场开展工作以支持 Arm 技术。 其中包括 [汽车、物联网和边缘设备](https://www.linaro.org/automotive-iot-and-edge-devices/)、[客户端设备](https://www.linaro.org/client-devices/) 和 [云计算和服务器](https://www.linaro.org/cloud-computing-and-servers/)。 [](/核心技术/人工智能/)
   - row: container_row
     style: bg-light-green
     sections:

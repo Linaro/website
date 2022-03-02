@@ -91,7 +91,7 @@ flow:
             用于 AArch64 和 ARM 32 位 A-Profile 内核的预构建 LLVM 本机工具链的官方社区版本由 Linaro 构建和测试，现在可在 [LLVM 的 GitHub](https://github.com/llvm/llvm -项目/发布/）。
 
 
-            除了通常的 Linux 托管 LLVM 工具链外，Linaro 现在还提供 [official LLVM Toolchain for Windows on Arm](https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.0/LLVM -12.0.0-woa64.exe) 从 LLVM 12.0.0 版本开始。
+            除了通常的 Linux 托管 LLVM 工具链外，Linaro 现在还提供 [official LLVM Toolchain for Windows on Arm](https://github.com/llvm/llvm-project/releases/download/llvmorg-12.0.0/LLVM-12.0.0-woa64.exe) 从 LLVM 12.0.0 版本开始。
 
 
             对 Arm 嵌入式处理器的 Cortex-R 和 Cortex-M 裸机目标工具链感兴趣？ 我们正在与 Arm 合作，每年提供一个新版本（每季度更新一次）。 版本维护两年。 您可以直接从 [Arm 网站](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm) 获得这些。
