@@ -3,13 +3,14 @@ title: Community Projects
 description: >-
   Linaro Community Projects Division manages open source projects with open governance.
 permalink: /community-projects/
+layout: flow
 js-package: projects
 css_bundle: projects
 layout: flow
 jumbotron:
-    class: projects_banner text-center
-    title: Creating Projects that Engage with Communities
-    image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
+  class: projects_banner text-center
+  title: Linaro Community Projects
+  image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:
   - row: container_row
     sections:
@@ -22,7 +23,7 @@ flow:
 
                 The Community Projects division was created to allow Linaro-hosted open source projects to become open-governance and make them more accessible. Linaro felt there needed to be a choice for new, cross-architecture, open source, open governance projects. While Linaro is a major player in the Arm ecosystem, community projects are intended to be cross-architecture.
 
-                The Community Projects Division currently hosts the following projects:
+                **The Community Projects Division currently hosts the following projects:**
         - format: custom_include
           source: components/community_projects_members.html
         - format: text
