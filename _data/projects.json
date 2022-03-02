@@ -142,6 +142,41 @@
         {
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://www.lavasoftware.org/\">https://www.lavasoftware.org/</a>",
+                "Theme": [
+                    "Core Technologies"
+                ],
+                "description": "<ul><li> for\u00a0*L*inaro\u00a0*A*utomated\u00a0*V*alidation\u00a0*A*rchitecture.</li></ul>LAVA is a\u00a0_continuous integration_\u00a0system for deploying operating systems onto physical and virtual hardware for running tests.</li></ul>LAVA is also used to managed and share boards among teams.</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul>",
+                "title": "LAVA (and test-definitions)"
+            },
+            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
+            "key": [
+                "LAVA"
+            ],
+            "membership": []
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LOC/overview\">https://linaro.atlassian.net/wiki/spaces/LOC/overview</a>",
+                "Theme": [
+                    "Automotive, IoT & Edge Devices",
+                    "Core Technologies"
+                ],
+                "description": "OP-TEE is an open source Trusted Execution Enviroment (TEE) implementing the Arm TrustZone technology.  Linaro is a key contributor both in terms of pushing new features as well as doing roadmap planning, maintenance, release work, vulnerability assessment and mitigation of security issues. We employ several core maintainers for the OP-TEE project as well as maintainers for the TEE framework in the Linux kernel and U-Boot.<br><br>In 2019,\u00a0<a href=\"https://www.linaro.org/news/linaro-donates-op-tee-into-the-trusted-firmware-project/\">OP-TEE was donated to Trusted Firmware</a>, a Linaro Community Project.\u00a0 Linaro is still responsible for driving the roadmap for OP-TEE in sync with the members of Linaro as well as with the\u00a0<a href=\"http://trustedfirmware.org/\">TrustedFirmware.org</a>\u00a0project.",
+                "title": "Linaro Contributions to OP-TEE"
+            },
+            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
+            "key": [
+                "OP-TEE"
+            ],
+            "membership": [
+                "ledge"
+            ]
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AELTS/overview\">https://linaro.atlassian.net/wiki/spaces/AELTS/overview</a>",
                 "Theme": [
                     "Cloud Computing & Servers"
@@ -283,6 +318,22 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://github.com/linaro/squad\">https://github.com/linaro/squad</a>",
+                "Theme": [
+                    "Core Technologies"
+                ],
+                "description": "SQUAD is a Software Quality Dashboard written in Python 3. It uses Django.<br><br>See\u00a0<a href=\"https://github.com/Linaro/squad/blob/master/doc\">the documentation folder</a>\u00a0for more documentation, or go\u00a0<a href=\"https://squad.readthedocs.io/\">browse the documentation online</a>",
+                "title": "SQUAD (and squad_client)"
+            },
+            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
+            "key": [
+                "SQUAD"
+            ],
+            "membership": []
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/SDEFAU/overview\">https://linaro.atlassian.net/wiki/spaces/SDEFAU/overview</a>",
                 "Theme": [
@@ -348,6 +399,22 @@
             "membership": [
                 "ledge"
             ]
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://tuxsuite.com/\">https://tuxsuite.com/</a>",
+                "Theme": [
+                    "Core Technologies"
+                ],
+                "description": "TuxSuite\u2122 delivers on-demand APIs and tools for building Linux kernels in parallel and at scale.",
+                "title": "TuxSuite"
+            },
+            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
+            "key": [
+                "TuxSuite"
+            ],
+            "membership": []
         },
         {
             "Project Information": {
