@@ -145,6 +145,9 @@ membership_form:
 back_to_top: Back to top
 related_projects: Related Projects
 all_projects: All Projects
+select_project: Select Project
+related_posts: Related Posts
+view_all_posts: View all posts
 services:
   quote1: Linaro Developer Services provide deep Arm technical knowledge as well as strong relationships within various upstream communities. Their engagement in the latest Arm technologies allows for quick and solid deliverables, helping to de-risk a program. They have helped enable an Arm-based Windows laptop to support Linux, developed a variety of Docker containers for Arm-based servers, and also enabled firmware secure boot capabilities on an NXP-based system. If you need help with Arm firmware or software development, Linaro brings that professional edge.
   quote2a: At Square, we face the challenge of maintaining our Terminal and Register hardware products, which are based on short-support-cycle mobile technology, in an industry that requires long lifespans and up-to-date security patching. After the Qualcomm SD615 processor (2014) powering our devices went end-of-life in 2018, Square chose to engage with the Arm Linux specialists at Linaro for upstream-based extended life. Having seen their previous work on the DragonBoard 410c, we were confident that upstreaming was the right path and Linaro was the right partner to deliver a new Linux kernel paired with an up-to-date Android release.
@@ -182,3 +185,7 @@ aboutBlock:
   careers: Careers
   contact: Contact us
 noBio: No Bio available.
+careers:
+  lookingInternship: Looking for an internship?
+  internBrochure: Read about some of our interns experiences by taking a look through our intern brochure.
+  

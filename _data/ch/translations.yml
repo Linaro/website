@@ -144,6 +144,9 @@ membership_form:
 back_to_top: 回到顶部
 related_projects: 相关项目
 all_projects: 所有项目
+select_project: 选择项目
+related_posts: 相关文章
+view_all_posts: 查看所有帖子
 services:
   quote1: Linaro 开发人员服务提供深厚的 Arm 技术知识以及与各个上游社区之间的牢固关系。 他们参与最新的 Arm 技术可以快速可靠地交付成果，帮助降低项目风险。 他们帮助基于 Arm 的 Windows 笔记本电脑支持 Linux，为基于 Arm 的服务器开发了各种 Docker 容器，并在基于 NXP 的系统上启用了固件安全启动功能。 如果您在 Arm 固件或软件开发方面需要帮助，Linaro 将为您带来专业优势。
   quote2a: 在 Square，我们面临着维护我们的终端和注册硬件产品的挑战，这些产品基于短支持周期的移动技术，在一个需要长寿命和最新安全补丁的行业中。 在为我们的设备提供动力的 Qualcomm SD615 处理器 (2014) 于 2018 年报废后，Square 选择与 Linaro 的 Arm Linux 专家合作，以延长基于上游的使用寿命。 看过他们之前在 DragonBoard 410c 上的工作后，我们确信上游是正确的道路，而 Linaro 是提供新 Linux 内核和最新 Android 版本的正确合作伙伴。
@@ -181,3 +184,6 @@ aboutBlock:
   careers: 职业生涯
   contact: 联系我们
 noBio: 没有传记。
+careers:
+  lookingInternship: 寻找实习？
+  internBrochure: 阅读我们的实习生手册，了解我们的一些实习生经历。

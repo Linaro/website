@@ -26,7 +26,7 @@
                 </ul>
                 <!--Theme tabs mobile dropdown-->
                 <select class="form-control d-block d-xl-none mb-4" id="themeSelectCollapse">
-                    <option value="allProjects">All Projects</option>
+                    <option value="allProjects">{{site.data.translations.all_projects}}</option>
                     {% for theme in site.themes %}
                         {% unless theme.sub_theme %}
                             <option value="{{theme.title | slugify}}">{{theme.title}}</option>
@@ -36,7 +36,7 @@
                 <!--Projects mobile dropdown-->
                 <div class="dropdown d-block d-xl-none mb-4" id="projectsDropdown">
                     <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Select Project
+                      {{site.data.translations.select_project}}
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         {% for project in site.data.projects["projects"] %}
@@ -118,7 +118,7 @@
                                     {% if related_blogs_len > 0 %}
                                     <div class="row py-0">
                                         <div class="col col-12 mb-4 text-center">
-                                            <h3>Related Posts</h3>
+                                            <h3>{{site.data.translations.related_posts}}</h3>
                                             <ul class="list-group">
                                                 {% assign sorted_related_posts = related_blogs | sort: 'date' | reverse | limit: 5 %}
                                                 {% for post in sorted_related_posts%}
@@ -132,7 +132,7 @@
                                         {% if related_blogs_len > 5 %}
                                         <div class="col col-12 mb-4 text-center">
                                             <a class="btn btn-primary" href="/projects/{{project['key'] | downcase }}/posts/">
-                                                View all posts
+                                                {{site.data.translations.view_all_posts}}
                                             </a>
                                         </div>
                                         {% endif %}
