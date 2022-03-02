@@ -39,7 +39,7 @@ flow:
             *   IRC
             *   [下载](/downloads/)
 
-            要获得 LDTS 票，只需发送电子邮件至 [support@linaro.org](mailto:support@linaro.org)，或者，如果您愿意，请在 [https://support.linaro.org](https: //support.linaro.org/)。
+            要获得 LDTS 票，只需发送电子邮件至 [support@linaro.org](mailto:support@linaro.org)，或者，如果您愿意，请在 [https://support.linaro.org](https://support.linaro.org/)。
 ---
 Linaro 开发者技术支持 (LDTS) 是一项向会员、Linaro 开发者服务客户和
 开源社区。 我们在这里帮助会员和客户修复、调试和解决任何与 Linaro 相关的问题
