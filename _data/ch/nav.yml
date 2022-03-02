@@ -83,6 +83,8 @@ pages:
             url: /tsc/
           - text: 联系我们
             url: /contact/
+      - text: Linaro Connect
+        url: /connect/
       - text: 职业生涯
         url: /careers/
       - text: 博客
