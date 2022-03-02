@@ -6,7 +6,7 @@ $(document).ready(function () {
       en: "/",
       "en-GB": "/",
       "en-US": "/",
-      ja: "/ja/",
+      ch: "/ch/",
     };
     // On click handler for language switcher.
     $("#language_switcher a").on("click", function (anchor) {
