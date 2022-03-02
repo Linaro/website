@@ -798,6 +798,9 @@
 }
 
 #wrapper {
+  a {
+    transition: none;
+  }
   footer {
     a {
       transition: all 200ms ease;
