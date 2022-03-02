@@ -57,7 +57,7 @@ flow:
       - format: text
         style: text-left bg-white p-3 my-3
         text_content:
-          text: "[上次会议的笔记](https://linaro.atlassian.net/wiki/spaces/TSC/pages/2731579\8305/2021-04-21+TSC+Strategic+Meeting)"
+          text: "[上次会议的笔记](https://linaro.atlassian.net/wiki/spaces/TSC/pages/27315798305/2021-04-21+TSC+Strategic+Meeting)"
   - row: custom_include_row
     source: engagement_request_form.html
 ---
