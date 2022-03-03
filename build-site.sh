@@ -26,6 +26,11 @@ else
   INTER=""
 fi
 
+# For the Linaro website, it is currently *NECESSARY*
+# to skip the Jekyll Doctor phase of the build process.
+# Jekyll Doctor falls over because of one of the gems
+# being used by the site.
+
 docker run \
   --cap-drop ALL \
   --rm \
@@ -34,7 +39,7 @@ docker run \
   $PORTS \
   -e JEKYLL_ACTION \
   -e JEKYLL_ENV \
-  -e SKIP_JEKYLL_DOCTOR \
+  -e SKIP_JEKYLL_DOCTOR="true" \
   -v /etc/passwd:/etc/passwd:ro \
   -v /etc/group:/etc/group:ro \
   -u "$(id -u)":"$(id -g)" \
