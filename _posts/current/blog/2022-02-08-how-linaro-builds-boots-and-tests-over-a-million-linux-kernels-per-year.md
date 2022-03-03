@@ -16,6 +16,7 @@ tags:
   - testing
   - CI
   - Tuxsuite
+  - LKFT
 category: blog
 author: ben.copeland@linaro.org
 ---
