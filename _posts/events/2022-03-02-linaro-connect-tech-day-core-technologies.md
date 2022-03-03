@@ -6,8 +6,8 @@ description: >
   Virtualization, Linux Kernel, and Testing & CI.
 location: Online
 date: 2022-03-02 09:55:23 -05:00
-event_date: 2022-03-02 09:55:23 -05:00
-event_end_date: 2022-03-02 09:55:23 -05:00
+event_date: 2022-03-29 11:55:23 -04:00
+event_end_date: 2022-03-30 10:10:33 -04:00
 image: /assets/images/content/tech_days_event_page_banner.png
 event_type: sponsor
 ---
