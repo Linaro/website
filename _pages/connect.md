@@ -52,5 +52,5 @@ flow:
         style: text-center text-white
         text_content:
           text: |
-            [Subscribe here]() to receive Linaro Connect email updates.
+            [Subscribe here](https://linaro.us3.list-manage.com/subscribe/post?u=14baaae786342d0d405ee59c2&id=7cf0551a9b) to receive Linaro Connect email updates.
 ---
