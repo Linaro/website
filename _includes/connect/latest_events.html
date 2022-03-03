@@ -26,15 +26,15 @@
                                 {{event.event_date | date: '%d %B %Y'}}<br/>
                             {% endif %}
                             {% if event.coming_soon %}
-                                <strong>Coming soon</strong>
+                                <strong>{{site.data.translations.events.comingSoon}}</strong>
                             {% else %}
-                                <a href="{{event.url}}">Find out more</a>
+                                <a href="{{event.url}}">{{site.data.translations.events.findOutMore}}</a>
                             {% endif %}
                         </li>
                     {% endfor %}
                 {% else %}
                     <li class="list-group-item">
-                        No upcoming Linaro Connect Tech Day events.
+                        {{site.data.translations.events.noTechDays}}
                     </li>
                 {% endif %}
             </ul>
@@ -68,15 +68,15 @@
                                 {{event.event_date | date: '%d %B %Y'}}<br/>
                             {% endif %}
                             {% if event.coming_soon %}
-                                <strong>Coming soon</strong>
+                                <strong>{{site.data.translations.events.comingSoon}}</strong>
                             {% else %}
-                                <a href="{{event.url}}">Find out more</a>
+                                <a href="{{event.url}}">{{site.data.translations.events.findOutMore}}</a>
                             {% endif %}
                         </li>
                     {% endfor %}
                 {% else %}
                     <li class="list-group-item">
-                        No upcoming Linaro Connect Webinar events.
+                        {{site.data.translations.events.noWebinars}}
                     </li>
                 {% endif %}
             </ul>

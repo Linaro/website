@@ -192,3 +192,10 @@ events:
   view: 看法
   upcoming: 即将举行的活动
   past: 过去的事
+  comingSoon: 快来了
+  findOutMore: 了解更多
+  noTechDays: 没有即将到来的 Linaro Connect 技术日活动。
+  noWebinars: 没有即将举行的 Linaro Connect 网络研讨会活动。
+  watchNow: 现在可以观看
+  recentEvent: 我们最近一次活动（2021 年 9 月）的 70 多场技术会议和主题演讲
+resources: 资源
