@@ -41,6 +41,8 @@ The most commonly used cryptographic technique while implementing secure boot is
 
 ## Encrypt-then-sign
 
+{% include image.html path="/assets/images/content/encrypt-then-sign-image.png" class="medium-inline left" alt="Encrypt then sign image" %}
+
 Security Properties:
 
 1. Confidentiality 
@@ -53,9 +55,9 @@ Shortcomings:
 * Only encrypted firmware blobs are non-repudiable to OEM / SP.
 * Signing an encrypted blob makes it immutable. Also, it doesn’t allow re-encryption on devices, aka firmware binding.
 
-{% include image.html path="/assets/images/content/encrypt-then-sign-image.png" class="medium-inline left" alt="Encrypt then sign image" %}
-
 ## Sign-then-encrypt
+
+{% include image.html path="/assets/images/content/sign-then-encrypt-image.png" class="medium-inline left" alt="Encrypt then sign image" %}
 
 Security properties:
 
@@ -69,9 +71,9 @@ Shortcomings:
 * Plain encryption doesn’t assure integrity of encrypted blobs.
 * Vulnerable to Chosen Ciphertext Attacks (CCAs).
 
-{% include image.html path="/assets/images/content/sign-then-encrypt-image.png" class="medium-inline left" alt="Encrypt then sign image" %}
-
 ## Sign-then-encrypt-then-MAC (the one we adopted)
+
+{% include image.html path="/assets/images/content/sign-then-encrypt-then-mac.png" class="medium-inline left" alt="Sign then encrypt then mac" %}
 
 Security properties:
 
@@ -85,8 +87,6 @@ Concerns addressed:
 
 * MAC tag assures integrity of encrypted blob.
 * Allows firmware re-encryption.
-
-{% include image.html path="/assets/images/content/sign-then-encrypt-then-mac.png" class="medium-inline left" alt="Sign then encrypt then mac" %}
 
 After discussion we opted for the sign-then-encrypt-then-MAC scheme. It gives us assurance of the integrity of the decrypted blob whilst providing us the option to re-encrypt the firmware on the device if needed (for example to replace an ephemeral negotiated key used to transfer it onto the device with a device-specific storage key).
 
