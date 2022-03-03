@@ -304,5 +304,5 @@ i18n_enabled: true
 languages: ["en", "ch"]
 default_lang: "en"
 exclude_from_localization:
-  ["javascript", "images", "css", "public", "assets", "generated"]
+  ["javascript", "images", "css", "public", "assets", "generated", "app"]
 parallel_localization: false
