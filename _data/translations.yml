@@ -193,3 +193,10 @@ events:
   view: View
   upcoming: Upcoming Events
   past: Past Events
+  comingSoon: Coming soon
+  findOutMore: Find out more
+  noTechDays: No upcoming Linaro Connect Tech Day events.
+  noWebinars: No upcoming Linaro Connect Webinar events.
+  watchNow: Available to watch now
+  recentEvent: Over 70 Technical Sessions and Keynotes from our most recent event (Sept 2021)
+resources: Resources
