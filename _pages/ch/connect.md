@@ -48,5 +48,5 @@ flow:
         style: text-center text-white
         text_content:
           text: |
-            [在这里订阅]() 以接收 Linaro Connect 电子邮件更新。
+            [在这里订阅](https://linaro.us3.list-manage.com/subscribe/post?u=14baaae786342d0d405ee59c2&id=7cf0551a9b) 以接收 Linaro Connect 电子邮件更新。
 ---

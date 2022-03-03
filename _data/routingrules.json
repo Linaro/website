@@ -220,8 +220,6 @@
   "^/connect-register(/?|/index.html)$ https://connect.linaro.org/ [R,L,NC]",
   "^/connect-resources(/?|/index.html)$ https://connect.linaro.org/ [R,L,NC]",
   "^/connect-resources/Q/lce12(/?|/index.html)$ https://connect.linaro.org/ [R,L,NC]",
-  "^/connect(/?|/index.html)$ https://connect.linaro.org [R,L,NC]",
-  "^/connect(/?|/index.html)$ https://connect.linaro.org/ [R,L,NC]",
   "^/connect/demo-friday(/?|/index.html)$ /blog/demo-friday-at-linaro-connect-q1-12-to-show-the-latest-linux-developments-on-arm/ [R,L,NC]",
   "^/connect/lca/lca14(/?|/index.html)$ https://connect.linaro.org/lca14/ [R,L,NC]",
   "^/connect/lce/lce13(/?|/index.html)$ https://connect.linaro.org/lce13/ [R,L,NC]",
