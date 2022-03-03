@@ -345,4 +345,4 @@ After moving the format conversion to the GPU, the qcam frame rate improved a lo
 
 ## About the Author
 
-Show is an engineer within the Multimedia Working Group. For further information on this group, click [here](https://www.linaro.org/client-devices/).
+Show is an engineer within the Multimedia Working Group. For further information on this group, click [here](/client-devices).
