@@ -14,7 +14,6 @@ related_projects: []
 category: blog
 author: show.liu@linaro.org
 ---
-
 ## libcamera
 
 [libcamera](https://libcamera.org/) is an open source friendly camera stack and userspace library. It provides an intuitive API and methods to control the complexity of camera hardware for multiple platforms. The “qcam” application is one of the built-in example programs in libcamera to demonstrate how to handle the cameras using the libcamera APIs. It is a Qt based GUI application that provides camera preview and capture functions.\*\*
@@ -346,4 +345,4 @@ After moving the format conversion to the GPU, the qcam frame rate improved a lo
 
 ## About the Author
 
-Show is an engineer within the Multimedia Working Group. For further information on this group, click [here](https://www.linaro.org/engineering/multimedia).
+Show is an engineer within the Multimedia Working Group. For further information on this group, click [here](https://www.linaro.org/client-devices/).
