@@ -304,5 +304,17 @@ i18n_enabled: true
 languages: ["en", "ch"]
 default_lang: "en"
 exclude_from_localization:
-  ["javascript", "images", "css", "public", "assets", "generated", "app"]
+  [
+    "admin",
+    "app",
+    "assets",
+    "css",
+    "generated",
+    "images",
+    "javascript",
+    "public",
+    "remote",
+    "robots.txt",
+    "favicon.ico"
+  ]
 parallel_localization: false
