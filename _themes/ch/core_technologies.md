@@ -22,7 +22,7 @@ jumbotron:
   description: |
     组建 Linaro 的主要目标之一是巩固 Arm 代码库。
 
-    多家公司和个人试图将本质上相同的代码上传到 kernel.org 所产生的代码搅动导致了碎片化，并减缓了产品的创新和交付。 Linaro 的工作，尤其是在内核方面的工作，提供了协作的焦点，并且到 2012 年情况明显改善，这是 Linus Torvalds 认识到的。 自 Linux 内核 3.10 版以来，Linaro 一直被列为全球十大公司贡献者之一，Linux 内核。 我们在 GCC 和 LLVM 等工具链上所做的工作也得到了广泛认可。 除了我们在 Linux 内核和工具链方面的工作外，我们还以通过 OP-TEE、LAVA 和 LKFT 等项目在安全和测试方面的专业知识而闻名。
+    多家公司和个人试图将本质上相同的代码上传到 kernel.org 所产生的代码搅动导致了碎片化，并减缓了产品的创新和交付。 Linaro 的工作，尤其是在内核方面的工作，提供了协作的焦点，并且到 2012 年情况明显改善，这是 Linus Torvalds 认识到的。 自 Linux 内核 3.10 版以来，Linaro 一直被列为对Linux内核做出贡献的全球前十名公司之一。 我们在 GCC 和 LLVM 等工具链上所做的工作也得到了广泛认可。 除了我们在 Linux 内核和工具链方面的工作外，我们还以通过 OP-TEE、LAVA 和 LKFT 等项目在安全和测试方面的专业知识而闻名。
   image: /assets/images/content/Banner_Core_Technologies.jpg
 flow:
   - row: custom_include_row
