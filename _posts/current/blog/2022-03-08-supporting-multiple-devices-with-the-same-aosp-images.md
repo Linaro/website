@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Supporting Multiple Devices with the same AOSP Images
-description: In this blog we discuss the benefits of having a framework for a
-  shared vendor image which supports multiple devices.
+description: In this blog Amit Pundir and John Stultz discuss the benefits of
+  having a framework for a shared vendor image which supports multiple devices.
 date: 2022-03-08 09:23:59 +00:00
 image: /assets/images/content/technology-3389917_1920-1-.jpg
 tags:
@@ -18,6 +18,8 @@ tags:
 category: blog
 author: amit.pundir@linaro.org
 ---
+Co-authored-by: John Stultz
+
 # Introduction
 
 Creating an Android device has always required and allowed for lots of custom per-device logic and features. While this has been a great benefit, allowing vendors to quickly bring new features to market, it has also caused trouble with fragmentation and lagging updates.
@@ -28,7 +30,7 @@ But even these efforts have side effects, as while vendors don’t need to redev
 
 We think this can be further improved upon. By developing a framework for a shared vendor image to support multiple devices, we think vendors can reduce both development effort and the amount of management needed for updating their devices. In this blog we talk about the work involved in creating this framework and the benefits in doing so. 
 
-# The challenge of building AOSP images for each target device 
+# The challenge of building AOSP images for each target device
 
 At the [last virtual Linaro Connect](https://connect.linaro.org/resources/lvc21f/lvc21f-307/), we discussed the new Qualcomm Robotics RB5 development board (RB5), and how by using iterative upstream development, the RB5 was able to leverage the device support present for the Qualcomm Robotics RB3 Platform Development Kit (also known as Dragonboard 845c or DB845c) already in AOSP. This made the RB5 the easiest Linaro supported development board yet to be added to AOSP.
 
@@ -40,7 +42,7 @@ The RB5 shares a lot of common IP blocks with prior gen SoCs like SDM845 (used i
 
 For the very few differences between the devices that are not abstracted away, we added a new service which probes /proc/device-tree/compatible for device details at run time to set a vendor property, which then is used to run device specific services, or set device specific configs: e.g. set correct Alsa mixer path or establishing a unique ethernet MAC address on DB845c etc.
 
-# Booting multiple devices correctly with a single kernel 
+# Booting multiple devices correctly with a single kernel
 
 The next issue we needed to solve was getting a single kernel that booted properly on both devices. Android's GKI effort has made this much easier as the core kernel is the same on all the devices, but we still need kernel driver modules in place to support both boards. So we added RB5 support in DB845c build and config fragment files in [the android-mainline tree](https://android-review.googlesource.com/c/kernel/common/+/1791854/). It made sure that build.config.db845c artifacts from android-mainline and android13-5.15 trees can boot on RB5 as well.
 
@@ -54,7 +56,7 @@ So for a concatenated dtb.img to work, we upstreamed these DTB properties for DB
 
 As of today, AOSP’s db845c-userdebug lunch build target will boot on both DB845c and RB5 devboards. Follow the build instructions from <https://wiki.linaro.org/AOSP/db845c> or download prebuilt binaries from <http://snapshots.linaro.org/96boards/dragonboard845c/linaro/aosp-master/> to boot AOSP on DB845c and RB5.
 
-# Simplified testing and development with a generic vendor image 
+# Simplified testing and development with a generic vendor image
 
 So while having generic vendor images to support multiple development boards has been a clear win for us, we also think this method of using has the potential to simplify vendor update logistics as well.
 
