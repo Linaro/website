@@ -17,4 +17,31 @@ We are happy to announce registration for the first Linaro Tech Day, which will 
 
 Linaro Tech Days are free to attend and open to the public. Sessions will be recorded and posted online for those who are not able to attend live. 
 
-Registration and schedule will be added soon on this page.
+[Registration](https://www.eventbrite.co.uk/e/linaro-connect-tech-day-core-technologies-tickets-293117461217) and schedule can be found below: 
+
+Schedule: 
+
+
+
+[Registration](https://www.eventbrite.co.uk/e/linaro-connect-tech-day-core-technologies-tickets-293117461217): 
+
+<div id="eventbrite-widget-container-293117461217"></div>
+
+<script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '293117461217',
+        iframeContainerId: 'eventbrite-widget-container-293117461217',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
