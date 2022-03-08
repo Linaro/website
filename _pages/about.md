@@ -60,22 +60,22 @@ flow:
             **Collaborate on common software projects with Linaro and other industry leaders**
 
 
-            Become a Linaro member and work with Linaro, other industry leaders and the open source community on software projects which deliver standardization and help accelerate new technologies on Arm. There are three levels of membership you can choose from - Core, Club and Group (Linaro has four Segment Groups - Linaro Consumer Group, Linaro Datacenter & Cloud Group, Linaro Edge & Fog Computing Group and Linaro IoT and Embedded Group). For more information on Linaro membership, how to participate in projects and what value our members see in membership, go to [www.linaro.org/membership](/membership/). 
+            Become a Linaro member and work with Linaro, other industry leaders and the open source community on software projects which deliver standardization and help accelerate new technologies on Arm. There are three levels of membership you can choose from - Core, Club and Group (Linaro has four Segment Groups - Linaro Consumer Group, Linaro Datacenter & Cloud Group, Linaro Edge & Fog Computing Group and Linaro IoT and Embedded Group). For more information on Linaro membership, how to participate in projects and what value our members see in membership, go to [Linaro Memberships]([www.linaro.org/membership](/membership/))[](/membership/). 
 
 
             **Leverage Linaro’s software expertise on your project**
 
 
-            If you would rather work with Linaro on a one-to-one basis and are interested in leveraging Linaro’s Arm software expertise on your project, go to [www.linaro.org/services](/services/) to speak to Linaro Developer Services. Working with our Services team allows you to leverage Linaro’s Arm software expertise and experience working with, and as part of, open source communities. 
+            If you would rather work with Linaro on a one-to-one basis and are interested in leveraging Linaro’s Arm software expertise on your project, go to [Linaro Services](www.linaro.org/services). Working with our Services team allows you to leverage Linaro’s Arm software expertise and experience working with, and as part of, open source communities. 
 
 
             **Download Linaro software**
 
 
-            Alternatively, if you just want to access any of the work we do in the open, go to [www.linaro.org/downloads](/downloads/). On the downloads page we upload all software we work on which we think will benefit the community. 
+            Alternatively, if you just want to access any of the work we do in the open, go to [](/downloads/)[downloads](www.linaro.org/downloads). On the downloads page we upload all software we work on which we think will benefit the community. 
 
 
-            For all other enquiries, go to [www.linaro.org/contact ](/contact/)or [download this Introduction to Linaro](https://linaro.co/introduction-to-linaro).
+            For all other enquiries, go to [our contact page](<www.linaro.org/contact >) [](/contact/)or [download this Introduction to Linaro](https://linaro.co/introduction-to-linaro).
   - row: container_row
     style: members_slider_row bg-light
     sections:
