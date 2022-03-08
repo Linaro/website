@@ -57,9 +57,9 @@ flow:
 ---
 ## Technical Support
 
-**96Boards Technical Support -** If you have a technical support query relating to 96Boards, please post your question on <https://discuss.96boards.org>.
+**96Boards Technical Support -** If you have a technical support query relating to 96Boards, please post your question on [96Boards](https://discuss.96boards.org). [](https://discuss.96boards.org)
 
-**Linaro Technical Support -** If you have a technical support query relating to Linaro, please go to [https://www.linaro.org/support/ ](https://www.linaro.org/support/)
+**Linaro Technical Support -** If you have a technical support query relating to Linaro, please go to [our support page](https://www.linaro.org/support/). [](https://www.linaro.org/support/)
 
 ## Legal Information
 
@@ -67,4 +67,4 @@ The Linaro legal pages/documents can be found here - [/legal/](/legal/)
 
 ## Getting Involved with the Community
 
-For discussion around Linux and Open Source on Arm, subscribe to the lists at <https://lists.linaro.org/>.
+For discussion around Linux and Open Source on Arm, subscribe to the lists on [Linaro Lists Site](https://lists.linaro.org/). [](https://lists.linaro.org/)
