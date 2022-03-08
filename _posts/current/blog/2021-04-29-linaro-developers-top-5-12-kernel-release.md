@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Linaro Developers top 5.12 Kernel release
-description: The 5.12 Kernel was released this week and saw several of Linaro's
-  engineers in the top list of contributors for changed lines and changesets.
-  Linaro also featured in the lists for top employer contributors, bug reporters
-  and test and review credits. This blog talks about some of the work that
-  contributed to these impressive stats.
+description: The 5.12 kernel release was published this week and featured Linaro
+  yet again in the top five contributors to the Linux kernel.
 date: 2021-04-29 01:02:09
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
@@ -63,3 +60,5 @@ Srinivas Kandagatla is in the list of top twenty contributors by changed lines l
 In addition, Srinivas made changes to the ASoC component core driver to improve bitfield handling in an attempt to make drivers' code more readable and less error prone, see newly added functions  snd_soc_component_read_field() and snd_soc_component_write_field().
 
 Thanks to the relentless efforts from its Linux kernel developers, Linaro continues to play a critical role in maintaining and improving the Arm software ecosystem.
+
+To find out more about the work Linaro does upstream, check out our [Upstream Maintainership project](https://linaro.atlassian.net/wiki/spaces/UM/overview) where we track all our contributions. Or [contact us](https://www.linaro.org/contact/) to find out more!

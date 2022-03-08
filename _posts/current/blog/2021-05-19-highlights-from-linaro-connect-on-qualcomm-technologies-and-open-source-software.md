@@ -1,12 +1,9 @@
 ---
 layout: post
-title: "Highlights from Linaro Connect on Qualcomm technologies and open source
-  software "
-description: Linaro plays a key role in the Qualcomm ecosystem, employing
-  several developers and maintainers of key Qualcomm subsystems and drivers. In
-  this blog we list the sessions presented at the most recent Linaro Virtual
-  Connect by Linaro engineers to highlight achievements related to Qualcomm
-  technologies and open source software.
+title: Qualcomm Technologies & Open Source Software at Linaro Connect
+description: In this blog we list the sessions presented at Linaro Virtual
+  Connect to highlight achievements related to Qualcomm technologies and open
+  source software.
 date: 2021-05-19 04:20:25
 image: /assets/images/content/tech_background.jpg
 tags:
@@ -45,7 +42,6 @@ Only recently have AArch64 laptops arrived on the market that are suitable for L
 # [Supporting Qualcomm wcn3680 WiFi on Android and upstream](https://connect.linaro.org/resources/lvc21/lvc21-218/)
 
 [](https://connect.linaro.org/resources/lvc21/lvc21-218/)In this session, Bryan O-Donoghue (Senior Engineer, Linaro) talked about adding support for the wcn3680 WiFi chipset to upstream and Android kernels. This session included a brief overview of wcn3620, wcn3660 and wcn3680, the initial state of hardware support upstream, lessons learned and more.
-
 
 In addition to the sessions presented by Linaro engineers, we were pleased to invite Dev Singh (Senior director, Business development and GM of autonomous robotics, drones and intelligent machines, Qualcomm Technologies, Inc.) to present a keynote:
 

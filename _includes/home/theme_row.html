@@ -1,54 +1,68 @@
+{% assign themes_to_show = "" | split: "," %}
+{% for theme in site.themes %}
+    {% unless theme.sub_theme %}
+        {% assign themes_to_show = themes_to_show | push: theme %}
+    {% endunless %}
+{% endfor %}
 <div class="row py-0" id="theme_tabs">
     <div class="container">
         <div class="col col-12 py-0">
             <div class="row py-0">
-                <div class="owl-carousel owl-theme" id="theme_slider">
-                    {% for theme in site.themes %}
-                        {% unless theme.sub_theme or theme.title == "Automotive" %}
-                        <div class="item h-100" data-tab-id="{{theme.title | slugify}}" >
-                            <a class="nav-link h-100 {% if forloop.first %}active{% endif %}"
-                                id="{{theme.title | slugify}}-tab" href="#{{theme.title | slugify}}" role="tab"
-                                    aria-controls="{{theme.title | slugify}}" aria-selected="true">
-                                <div class="icon_wrapper d-flex justify-content-around flex-column h-100 align-items-center text-center py-4">
-                                    <img class="icon_image" src="{{theme.icon}}" alt="{{theme.title}} icon"/>
-                                    <h3 class="text-white font-weight-bold theme_title pt-3">{{theme.title}}</h3>
-                                </div>
-                            </a>
+                {% for theme in themes_to_show %}
+                    <div class="col col-12 col-sm-6 col-md-3 item h-100 px-0" data-tab-id="{{theme.slug_title | slugify}}" >
+                        <div class="item_wrapper">
+                            <div class="item_innner_wrapper">
+                                <a class="nav-link h-100 {% if forloop.first %}active{% endif %}"
+                                    id="{{theme.slug_title | slugify}}-tab" href="#{{theme.slug_title | slugify}}" role="tab"
+                                        aria-controls="{{theme.slug_title | slugify}}" aria-selected="true">
+                                    <div class="icon_wrapper d-flex justify-content-around flex-column h-100 align-items-center text-center py-4">
+                                        <img class="icon_image" src="{{theme.icon_col}}" alt="{{theme.title}} icon"/>
+                                        <h3 class="text-dark font-weight-bold theme_title pt-3">{{theme.title}}</h3>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                        {% endunless %}
-                    {% endfor %}
-                </div>
+                    </div>
+                    <div class="col col-12 d-block d-sm-none">
+                        <a href="{{theme.url}}" class="btn btn-primary d-block text-uppercase text-white" data-theme-id="{{theme.slug_title | slugify}}">
+                            {{site.data.translations.learnMore}}
+                        </a>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </div>
 </div>
-<div class="row py-0" id="theme_section">
+<div class="row py-0 d-none d-md-block" id="theme_section">
     <div class="col col-12">
-        <div class="tab-content" >
-            {% for theme in site.themes %}
-                {% unless theme.sub_theme or theme.title == "Automotive" %}
-                <div class="tab-pane show {% if forloop.first %}active{% endif %}" id="{{theme.title | slugify}}" role="tabpanel" aria-labelledby="{{theme.title | slugify}}-tab">
-                    <div class="row background_image_row">
+        <div class="tab-content">
+            {% for theme in themes_to_show %}
+                <div class="tab-pane show {% if forloop.first %}active{% endif %}" id="{{theme.slug_title | slugify}}" role="tabpanel" aria-labelledby="{{theme.slug_title | slugify}}-tab">
+                    <div class="row">
+                        {% capture theme_image %}{% if theme.jumbotron.image %}{{theme.jumbotron.image}}{% else %}{{ theme.image }}{% endif %}{% endcapture %}
                         {% capture alt %}{{theme.title}} background{% endcapture %}
-                        {% picture header_image {{theme.image}} --alt {{alt}} %}
-                        <div class="container text-white">
+                        <div id="theme_bg_image" class="d-none">
+                            {% picture header_image {{theme_image}} --alt {{alt}} %}
+                        </div>
+                        <div class="container text-dark">
                             <div class="row theme_content_row h-100">
-                                <div class="col col-12 col-md-6 d-flex align-items-center justify-content-center small_text_mobile">
-                                    {{theme.description | truncate: 400 | markdownify }}
-                                </div>
-                                <div class="col col-12 col-md-6 d-flex align-items-center justify-content-center">
-                                    <a href="{{theme.url}}" class="btn btn-primary mr-2 text-uppercase px-4">
-                                        Learn more
-                                    </a>
-                                    <a href="/projects/#{{theme.title | slugify}}" class="btn btn-secondary mr-2 text-uppercase border-white px-4">
-                                        Projects
-                                    </a>
+                                <div class="theme_content_wrapper">
+                                    <div class="theme_content_inner_wrapper">
+                                        <div class="col col-12 col-md-8 d-flex align-items-center justify-content-center small_text_mobile">
+                                            {{theme.description | markdownify }}
+                                        </div>
+                                        <div class="col col-12 col-md-4 d-flex align-items-center justify-content-center">
+                                            <a href="{{theme.url}}" class="btn btn-primary mr-2 text-uppercase px-4 text-white" data-theme-id="{{theme.slug_title | slugify}}">
+                                                {{site.data.translations.learnMore}}
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                {% endunless %}
             {% endfor %}
         </div>
     </div>

@@ -8,7 +8,7 @@
 {% if projects_size > 0 %}
 <div class="row">
     <div class="col col-12">
-        <strong>Related Projects:</strong>
+        <strong>{{site.data.translations.related_projects}}:</strong>
         <ul>
             {% for project in projects %}
                 <a href="/projects/#{{project['key']}}"><li>{{project["Project Information"]["title"]}}</li></a>
@@ -17,3 +17,4 @@
     </div>
 </div>
 {% endif %}
+<a href="#top">{{site.data.translations.back_to_top}}</a>

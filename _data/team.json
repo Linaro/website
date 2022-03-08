@@ -108,7 +108,7 @@
       "title": "VP of Business Development at Linaro",
       "company": "Linaro",
       "image": "/assets/images/content/a-gallo-linaro.jpg",
-      "bio": "Andrea joined the Linaro Technical Steering Committee in 2010 as an ST-Ericsson Fellow before becoming a Linaro employee in 2012 as the Director of the Linaro Enterprise Group (now known as the Linaro Data Center and Cloud Group). He then went on to work as the VP of Segment Groups and Strategic Initiatives before taking on his current VP of Membership Development role. Prior to Linaro, Andrea worked at STMicroelectronics, leading the development of the world’s first USB ADSL soft-modem with WHCL certification. He also set up ST Linux teams in Noida and Bangalore for the smartphone application processors division. Andrea holds a University Degree in Telecommunication and speaks fluent French and English, in addition to his native Italian.\n",
+      "bio": "Andrea joined the Linaro Technical Steering Committee in 2010 as an ST-Ericsson Fellow before becoming a Linaro employee in 2012 as the Director of the Linaro Enterprise Group (now known as the Linaro Data Center and Cloud Group). He then went on to work as the VP of Segment Groups and Strategic Initiatives before taking on his current VP of Business Development role. Prior to Linaro, Andrea worked at STMicroelectronics, leading the development of the world’s first USB ADSL soft-modem with WHCL certification. He also set up ST Linux teams in Noida and Bangalore for the smartphone application processors division. Andrea holds a University Degree in Telecommunication and speaks fluent French and English, in addition to his native Italian.\n",
       "teams": [
         "executive_team"
       ]
@@ -156,6 +156,17 @@
       "teams": [
         "board_of_directors"
       ]
+    },
+    {
+      "teams": [
+        "executive_team",
+        "technical_steering_committee"
+      ],
+      "name": "Grant Likely",
+      "title": "Chief Technical Officer at Linaro",
+      "company": "Linaro",
+      "image": "/assets/images/content/img_2696-1-.jpg",
+      "bio": "Prior to his role as Linaro's CTO, Grant was the senior technical director in the architecture group at Arm. This involved responsibility for the SystemReady IR program which brings interoperability between hardware, operating systems and applications to the edge and IoT ecosystems. Prior to Arm Grant was a Linaro Fellow in the CTO office and helped shape Linaro’s overall technical strategy when it was formed in a way that supports the different strategic goals of each Linaro group. Grant is well known in the Linux kernel development community as the previous Devicetree maintainer and as a community leader who chaired the Linux Foundation Technical Advisory Board, has helped organize conferences, and is a frequent speaker at conferences. It is through his Linux work that he saw the power of collaboration to achieve far more than any of us can individually. Working on Linux inspired him in 2005 to start a consulting business focused on helping clients build simpler and maintainable embedded Linux devices by collaborating with the developer community rather than taking from it. In each role since he has continued to seek greater collaboration and take advantage of opportunities for shared engineering."
     }
   ]
 }

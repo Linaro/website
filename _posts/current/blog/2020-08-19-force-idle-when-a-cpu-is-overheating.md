@@ -1,25 +1,22 @@
 ---
 layout: post
 title: Force Idle When a CPU Is Overheating
-description: Some intensive tasks can necesitate the Linux kernel to cope with high
-  temperatures. On embedded systems, passive cooling is mandatory to provide a way
-  to cool down the CPUs if the Dynamic Voltage Frequency Scaling (DVFS) is not available.
-  In this article we focus on a new technique to cool down the CPUs.
+description: In this article we focus on a new technique to cool down the CPUs
+  to help avoid overheating.
 date: 2020-09-18 11:22:11+00:00
 image: /assets/images/content/chip_background_under_2mb.jpg
 tags:
-- Linaro
-- Arm
-- CPU
-- Linux Kernel
-- Embedded
-- PELT
+  - Linaro
+  - Arm
+  - CPU
+  - Linux Kernel
+  - Embedded
+  - PELT
 related_projects:
-- PERF
+  - PERF
 category: blog
 author: daniel.lezcano
 ---
-
 ## About the Kernel Working Group
 
 The Kernel Working Group’s (KWG) primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple Arm SoCs and Arm-based platforms.
@@ -80,10 +77,10 @@ When an interrupt occurs on the CPU, this CPU exits the idle routine and schedul
 
 There can be different idle routines classified by their power consumption:
 
-- Clock gating: the CPU voltage is untouched but the clock is stopped, that is the fastest idle routine to sleep and wake up, requiring less than 1us for each. But this routine has the highest power consumption. That is what the WFI instruction does on the ARM systems
-- CPU retention: the clock is stopped while the voltage is the minimum viable voltage to keep the CPU logic consistent. The power saving is better than the Clock Gating scenario above, but the wakeup is a bit longer. This idle routine does not work as effectively with recent boards having a lot of cores because the CPU is woken up by the cache coherency hardware which decreases the power saving
-- CPU power down: the clock is stopped, the voltage is zero, the cache is flushed, it is out of cache coherency and the context is saved. It takes a longer time to enter this state and wake up, the kernel literally boots the CPU, but the power saving is at its maximum as the consumption is close to zero
-- Power domain down: if all the CPUs belonging to the same power domain are powered down, then the rest of the logic used by those CPUs can be shut down as well. Even more power is saved on the system at the cost of a higher latency for the wakeup.
+* Clock gating: the CPU voltage is untouched but the clock is stopped, that is the fastest idle routine to sleep and wake up, requiring less than 1us for each. But this routine has the highest power consumption. That is what the WFI instruction does on the ARM systems
+* CPU retention: the clock is stopped while the voltage is the minimum viable voltage to keep the CPU logic consistent. The power saving is better than the Clock Gating scenario above, but the wakeup is a bit longer. This idle routine does not work as effectively with recent boards having a lot of cores because the CPU is woken up by the cache coherency hardware which decreases the power saving
+* CPU power down: the clock is stopped, the voltage is zero, the cache is flushed, it is out of cache coherency and the context is saved. It takes a longer time to enter this state and wake up, the kernel literally boots the CPU, but the power saving is at its maximum as the consumption is close to zero
+* Power domain down: if all the CPUs belonging to the same power domain are powered down, then the rest of the logic used by those CPUs can be shut down as well. Even more power is saved on the system at the cost of a higher latency for the wakeup.
 
 The idle routine selection is determined by an idle governor which does some statistics on the previous events to try to predict when the next wakeup will occur and choose the most convenient idle state.
 
@@ -134,3 +131,5 @@ The idle injection based cooling device is a bit more accurate than the DVFS tec
 If the platform is using a shared voltage domain, the idle injection and the DVFS cooling devices can be used together. When the voltage domain can be changed, the DVFS cooling device will act as expected, but when the voltage domain is locked, the cooling will fail and the temperature will continue to increase, in this case another threshold can be connected to the idle injection cooling device and this one will act as a backup.
 
 The thermal framework has a new software based cooling device doing idle injection for the ARM systems. The embedded devices, mobile and automotive, can now rely on it to make the most convenient setup for their system.
+
+For more information on the work Linaro does, get intouch through [our contact page](https://www.linaro.org/contact/).

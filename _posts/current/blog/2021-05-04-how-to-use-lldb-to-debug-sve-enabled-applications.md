@@ -1,11 +1,7 @@
 ---
 layout: post
 title: How to use LLDB to debug SVE enabled applications
-description: "In the past year Linaro completed development and upstreaming of
-  SVE support in LLDB debugger which is now available in the LLVM 12.0 release.
-  This means there is now complete LLDB debugger support for SVE vector register
-  access with dynamically changing vector lengths for different threads of the
-  same binary. In this blog, Linaro Engineer Omair Javaid talks us through how
+description: " In this blog, Linaro Engineer Omair Javaid talks us through how
   to debug SVE enabled applications using LLDB. "
 date: 2021-05-04 10:08:31
 image: /assets/images/content/tech_background_1.jpg
@@ -31,15 +27,11 @@ In the past year Linaro completed development and upstreaming of SVE support in 
 
 Click [here](https://connect.linaro.org/resources/san19/san19-204/) for a talk on LLDB support in SVE from Linaro Connect SAN19 that provides detailed information on the SVE extension features and our initial plan for supporting SVE in LLDB. Linaro has also been involved in various other Arm architecture enablement projects in LLDB and GDB. You can get an insight on all these projects by watching [our presentation from Linaro Virtual Connect LVC21](https://www.youtube.com/watch?v=5xv5CMHiG2k).
 
-
-
 ## QEMU virtual environment for LLDB SVE testing
 
 In the absence of real SVE hardware, QEMU AArch64 system mode emulation environment can be used for testing LLDB SVE support. For the purpose of this article we'll be using Ubuntu Linux 18.04 virtual machine. In order to facilitate LLDB testing using QEMU system mode emulation, we have upstreamed helper scripts under [llvm-project/lldb/scripts/lldb-test-qemu](https://github.com/llvm/llvm-project/tree/82f0e3d3ea6bf927e3397b2fb423abbc5821a30f/lldb/scripts/lldb-test-qemu). These scripts enable users to quickly set up a test environment. Click [here](https://lldb.llvm.org/use/qemu-testing.html) for detailed instructions on how to use these helper scripts for setting up an AArch64 SVE virtual machine.
 
 QEMU also has SVE support for Linux user-mode emulation. The Linaro blog [SVE in QEMU's linux-user mode](https://www.linaro.org/blog/sve-in-qemu-linux-user/) has details on how to utilize this feature for SVE debugging using GDB.
-
-
 
 ## SVE compiler support
 
@@ -80,8 +72,6 @@ int main() {
 }
 ```
 
-
-
 ## LLVM Compiler options
 
 ```
@@ -90,17 +80,11 @@ clang -g -O3 -target aarch64-linux-gnu -march=armv8-a+sve
 -I//usr/aarch64-linux-gnu/include/c++/8/aarch64-linux-gnu sve_add.c
 ```
 
-
-
 ## Debugging SVE add integer demo in LLDB
-
-
 
 ### Step 1: Launch debug session of SVE executable and stop at breakpoint
 
 {% include image.html path="/assets/images/content/image-of-debug-session-of-sve-executable-being-launched-and-stopping-at-breakpoint.png" alt="Image of debug session of SVE executable being launched and stopping at breakpoint" %}
-
-
 
 ### Step 2: LLDB is able to disassemble SVE specific instructions
 
@@ -108,19 +92,13 @@ LLDB is able to disassemble instructions belonging to Arm v8.7a including SVE sp
 
 {% include image.html path="/assets/images/content/image-of-disassembly-instructions-sve.png" alt="Image of disassembly instructions for SVE specific instructions" %}
 
-
-
 ## How to use LLDB to debug multi-threaded SVE application
 
 LLDB can debug multi-threaded linux user applications where each thread has different size configured for Z, P and FFR registers. The following instructions will provide a step by step guide to compile and debug a multi-threaded application containing SVE code.
 
-
-
 ### Step 1: Download and compile [this sample code](https://raw.githubusercontent.com/llvm/llvm-project/43ded90094f761a4763497773e722c196c69d17e/lldb/test/API/commands/register/register/aarch64_sve_registers/rw_access_dynamic_resize/main.c) from LLDB testsuite.
 
 {% include image.html path="/assets/images/content/sample-code-for-lldb-test-suite.png" alt="Sample code for LLDB test suite" %}
-
-
 
 ### Step 2: Start LLDB for debugging application compiled above
 
@@ -142,19 +120,13 @@ Next we issue a run, ideally all three breakpoints will be hit and we will see e
 
 Now we can select individual threads and read sve registers to verify that each thread has its separate vector length configured and SVE Z and P registers are sized accordingly to their configured vector size.
 
-
-
 #### Select thread 1 vector length 8
 
 {% include image.html path="/assets/images/content/thread-1-vector-length-8.png" alt="Image of thread 1 vector length 8" %}
 
-
-
 #### Select thread 2 with vector length 4
 
 {% include image.html path="/assets/images/content/thread-2-vector-length-4.png" alt="Image of thread 2 vector length 4" %}
-
-
 
 #### Select thread 2 with vector length 2
 
@@ -162,14 +134,12 @@ Now we can select individual threads and read sve registers to verify that each 
 
 ## Future plans
 
-
-
 ### Hardware Testing
 
 SVE support in LLDB debugger has been tested under QEMU virtual environment. We will have access to SVE hardware in coming weeks and any bugs found during hardware testing will be fixed in future LLVM releases.
 
-
-
 ### Platform Support
 
 SVE is currently supported on the AArch64/Linux platform, however in future support for Windows and other operating systems needs to be added. We are currently working on improving LLDB for Windows on Arm and will test/fix SVE support in Windows host - Linux target configuration.
+
+For more information on Linaro and the work we do, reach out to us on [our contact page](https://www.linaro.org/contact/).

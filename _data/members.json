@@ -1,390 +1,428 @@
 [
-    {
-        "id": "core",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/arm.jpg",
-                "name": "Arm",
-                "uri": "https://www.arm.com/products/development-tools"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
-                "name": "HiSilicon",
-                "uri": "https://www.hisilicon.com/en/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/google.jpg",
-                "name": "Google",
-                "uri": "https://about.google/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/quic.jpg",
-                "name": "QuIC",
-                "uri": "https://www.qualcomm.com/"
-            }
-        ],
-        "membership_group_name": "Core Members",
-        "text": "Core membership is the highest level within Linaro. Core members have a seat on the Linaro board of directors, two votes on the Technical Steering Committee (TSC) and unlimited access to all of Linaro\u2019s activities.",
-        "url": "/membership/"
-    },
-    {
-        "id": "club",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/st.jpg",
-                "name": "ST",
-                "uri": "https://www.st.com/content/st_com/en.html"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
-                "name": "Socionext",
-                "uri": "http://www.socionext.com/en/"
-            }
-        ],
-        "membership_group_name": "Club Members",
-        "text": "Club membership is the starting point for most of Arm\u2019s licensees who produce chips in a range of segments. There is one voted representative of the Club members on the Linaro board of directors and each Club member has one vote on the TSC.",
-        "url": "/membership/"
-    },
-    {
-        "id": "group",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
-                "name": "Red Hat",
-                "uri": "https://www.redhat.com/en"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/fujitsu.jpg",
-                "name": "Fujitsu",
-                "uri": "https://www.fujitsu.com/global/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
-                "name": "NXP",
-                "uri": "https://www.nxp.com/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/samsung.jpg",
-                "name": "Samsung",
-                "uri": "https://www.samsung.com/uk/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
-                "name": "Xilinx",
-                "uri": "https://www.xilinx.com/"
-            }
-        ],
-        "membership_group_name": "Group Members",
-        "text": "Group members have a vote on their group steering committee and an elected representative on the TSC. Group membership is a good way for companies with a focus in a particular segment to get involved and influence the direction of Linaro\u2019s work in that segment. Below are lists of the members of each group.",
-        "url": "/membership/"
-    },
-    {
-        "id": "ledge",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/arm.jpg",
-                "name": "Arm",
-                "uri": "https://www.arm.com/products/development-tools"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/st.jpg",
-                "name": "ST",
-                "uri": "https://www.st.com/content/st_com/en.html"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
-                "name": "HiSilicon",
-                "uri": "https://www.hisilicon.com/en/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
-                "name": "Socionext",
-                "uri": "http://www.socionext.com/en/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
-                "name": "Xilinx",
-                "uri": "https://www.xilinx.com/"
-            }
-        ],
-        "membership_group_name": "LEDGE Members",
-        "text": "LEDGE will initially focus on industrial use cases with major contributions in TSN technologies into the Linux kernel. It will produce an OpenEmbedded derived Reference Platform comprising a minimal set of building blocks. An end-to-end Continuous Integration process will be established with an additional set of libraries and payload  to prove the feature completeness Reference Platform. \n\nCompanies interested in working together on common open source software foundations for edge applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/edge-and-fog-computing/"
-    },
-    {
-        "id": "mi-incubator",
-        "membership_group_name": "AI Members",
-        "text": "The Artificial Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. This leads to a duplication of effort amongst all players, perpetual cost of re-integration for every new rebasing, and overall increased total cost of ownership.\n\nCompanies interested in working together on common open source software foundations for machine intelligence applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/artificial-intelligence/"
-    },
-    {
-        "id": "autonomous-vehicles-incubator",
-        "membership_group_name": "AV Members",
-        "text": "Linaro\u2019s aim is to provide a collaborative space that will allow the automotive industry, from equipment suppliers to automotive manufacturers to work on common problems. Linaro is starting to assemble the building block components that will be needed for autonomous vehicles, working with key code bases.\n\nCompanies interested in working together on common open source software foundations for autonomous vehicle applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/autonomous-vehicles/"
-    },
-    {
-        "id": "hpc-sig",
-        "membership_group_name": "HPC Members",
-        "text": "The Linaro High Performance Compute SIG (LHPS) was launched at Linaro Connect LAS16 in September 2016. \n\nThe HPC SIG is directed by a steering committee that is comprised of representatives from member companies who determine the technical agenda for the group. There is  also an Advisory Board who provide subject matter expertise and guidance as users.  HPC will benefit from Linaro\u2019s other engineering activities in the same way as Linaro\u2019s  other groups do. All groups rely on core engineering work (for example, Toolchain (GCC, LLVM) and Virtualisation (QEMU) and influence the roadmap of these common, shared projects. HPC will also leverage Linaro\u2019s work on the Enterprise Reference Platform and boot architecture from the Linaro Datacenter & Cloud Group (LDCG). \n\nCompanies interested in working together on driving the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development are invited to contact Linaro with the form below.",
-        "url": "/engineering/high-performance-computing/"
-    },
-    {
-        "id": "ldcg",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/arm.jpg",
-                "name": "Arm",
-                "uri": "https://www.arm.com/products/development-tools"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
-                "name": "HiSilicon",
-                "uri": "https://www.hisilicon.com/en/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
-                "name": "Red Hat",
-                "uri": "https://www.redhat.com/en"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/fujitsu.jpg",
-                "name": "Fujitsu",
-                "uri": "https://www.fujitsu.com/global/"
-            }
-        ],
-        "membership_group_name": "LDCG Members",
-        "text": "The purpose of the Linaro Datacenter & Cloud Group (LDCG) is to collaborate and accelerate the development of foundational open source software for Arm Server. LDCG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem.  Originally established in November 2012 as the Linaro Enterprise Group (LEG) it has evolved with the introduction of new technologies and hardware.\n\nCompanies interested in working together on common open source software foundations for datacenter & cloud applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/datacenter-and-cloud/"
-    },
-    {
-        "id": "lcg",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/arm.jpg",
-                "name": "Arm",
-                "uri": "https://www.arm.com/products/development-tools"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
-                "name": "HiSilicon",
-                "uri": "https://www.hisilicon.com/en/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/samsung.jpg",
-                "name": "Samsung",
-                "uri": "https://www.samsung.com/uk/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/google.jpg",
-                "name": "Google",
-                "uri": "https://about.google/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/quic.jpg",
-                "name": "QuIC",
-                "uri": "https://www.qualcomm.com/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/oppo.jpg",
-                "name": "OPPO"
-            }
-        ],
-        "membership_group_name": "LCG Members",
-        "text": "Linaro\u2019s collaboration with members involved in Android(\u2122) related technologies is done through the Linaro Consumer Group. \nThere are three engineering teams that work under the direction of the LCG Steering Committee\nART, LCG-Kernel and Android. Each team is focused on specific strategic efforts.\n\nCompanies interested in working together on common open source software foundations for consumer applications are invited to contact Linaro with the form below.",
-        "url": "/engineering/consumer/"
-    },
-    {
-        "id": "lite",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/arm.jpg",
-                "name": "Arm",
-                "uri": "https://www.arm.com/products/development-tools"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/st.jpg",
-                "name": "ST",
-                "uri": "https://www.st.com/content/st_com/en.html"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
-                "name": "NXP",
-                "uri": "https://www.nxp.com/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
-                "name": "Xilinx",
-                "uri": "https://www.xilinx.com/"
-            }
-        ],
-        "membership_group_name": "LITE Members",
-        "text": "The purpose of the Linaro IoT and Embedded Group (LITE) is focused on enabling secure, network connected, embedded heterogenous Cortex-A/R/M devices. This includes compute devices where the SoC has a combination of Cortex A, R, and/or M profiles and/or FPGA. Our current efforts focus on support for Arm devices in the Zephyr project and participating in the open source secure software projects such as Trusted Firmware.",
-        "url": "/iot-and-embedded/"
-    },
-    {
-        "id": "boards-sc",
-        "image": "96boards-steering-committee.png",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/arm.jpg",
-                "name": "Arm",
-                "uri": "https://www.arm.com/products/development-tools"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/st.jpg",
-                "name": "ST",
-                "uri": "https://www.st.com/content/st_com/en.html"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
-                "name": "HiSilicon",
-                "uri": "https://www.hisilicon.com/en/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
-                "name": "Red Hat",
-                "uri": "https://www.redhat.com/en"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
-                "name": "NXP",
-                "uri": "https://www.nxp.com/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
-                "name": "Socionext",
-                "uri": "http://www.socionext.com/en/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/google.jpg",
-                "name": "Google",
-                "uri": "https://about.google/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/quic.jpg",
-                "name": "QuIC",
-                "uri": "https://www.qualcomm.com/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
-                "name": "Xilinx",
-                "uri": "https://www.xilinx.com/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/arrow.jpg",
-                "name": "Arrow Electronics"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/tier4.jpg",
-                "name": "Tier IV"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/dronecode.jpg",
-                "name": "Dronecode"
-            }
-        ],
-        "membership_group_name": "96Boards Steering Committee Members",
-        "url": "https://www.96boards.org/membership/"
-    },
-    {
-        "id": "boards-mp",
-        "image": "96boards-partner.png",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/arrow.jpg",
-                "name": "Arrow Electronics"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/hoperun.jpg",
-                "name": "HopeRun"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/bipai.jpg",
-                "name": "BiPai"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/element14.jpg",
-                "name": "Element14"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/geniatech.jpg",
-                "name": "Geniatech"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/gumstix.jpg",
-                "name": "Gumstix"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/seeed.jpg",
-                "name": "Seeed"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/shiratech.jpg",
-                "name": "Shiratech"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/xunlong.jpg",
-                "name": "Xunlong"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/vamrs.jpg",
-                "name": "vamrs"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/fujitsu-electronics.jpg",
-                "name": "Fujitsu Electronics"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/fab-to-lab.jpg",
-                "name": "Fab.to.Lab"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/beiqi.jpg",
-                "name": "Xiamen Beiqi Technology Co. Ltd"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/avnet.jpg",
-                "name": "Avnet"
-            }
-        ],
-        "membership_group_name": "96Boards Manufacturing Partners",
-        "url": "https://www.96boards.org/membership/"
-    },
-    {
-        "id": "boards-partner",
-        "image": "96boards-mezzanine.png",
-        "membership_group_name": "96Boards Partners",
-        "url": "https://www.96boards.org/membership/"
-    },
-    {
-        "id": "boards-ai",
-        "image": "96boards-ai.png",
-        "members": [
-            {
-                "image": "https://static.linaro.org/common/member-logos/quic.jpg",
-                "name": "QuIC",
-                "uri": "https://www.qualcomm.com/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
-                "name": "Xilinx",
-                "uri": "https://www.xilinx.com/"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/arrow.jpg",
-                "name": "Arrow Electronics"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/hoperun.jpg",
-                "name": "HopeRun"
-            },
-            {
-                "image": "https://static.linaro.org/common/member-logos/vamrs.jpg",
-                "name": "vamrs"
-            }
-        ],
-        "membership_group_name": "96Boards AI Partners",
-        "url": "https://www.96boards.org/membership/"
-    }
+  {
+    "id": "core",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/arm.jpg",
+        "name": "Arm",
+        "uri": "https://www.arm.com/products/development-tools"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+        "name": "HiSilicon",
+        "uri": "https://www.hisilicon.com/en/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/google.jpg",
+        "name": "Google",
+        "uri": "https://about.google/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/quic.jpg",
+        "name": "QuIC",
+        "uri": "https://www.qualcomm.com/"
+      }
+    ],
+    "membership_group_name": "Core Members",
+    "text": "Core membership is the highest level within Linaro. Core members have a seat on the Linaro board of directors, two votes on the Technical Steering Committee (TSC) and unlimited access to all of Linaro\u2019s activities.",
+    "url": "/membership/"
+  },
+  {
+    "id": "club",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/st.jpg",
+        "name": "ST",
+        "uri": "https://www.st.com/content/st_com/en.html"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
+        "name": "Socionext",
+        "uri": "http://www.socionext.com/en/"
+      }
+    ],
+    "membership_group_name": "Club Members",
+    "text": "Club membership is the starting point for most of Arm\u2019s licensees who produce chips in a range of segments. There is one voted representative of the Club members on the Linaro board of directors and each Club member has one vote on the TSC.",
+    "url": "/membership/"
+  },
+  {
+    "id": "group",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
+        "name": "Red Hat",
+        "uri": "https://www.redhat.com/en"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/fujitsu.jpg",
+        "name": "Fujitsu",
+        "uri": "https://www.fujitsu.com/global/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
+        "name": "NXP",
+        "uri": "https://www.nxp.com/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/samsung.jpg",
+        "name": "Samsung",
+        "uri": "https://www.samsung.com/uk/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
+        "name": "Xilinx",
+        "uri": "https://www.xilinx.com/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/microsoft.jpg",
+        "name": "Microsoft",
+        "uri": "https://developer.microsoft.com/en-gb/windows/"
+      }
+    ],
+    "membership_group_name": "Group Members",
+    "text": "Group members have a vote on their group steering committee and an elected representative on the TSC. Group membership is a good way for companies with a focus in a particular segment to get involved and influence the direction of Linaro\u2019s work in that segment. Below are lists of the members of each group.",
+    "url": "/membership/"
+  },
+  {
+    "id": "ledge",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/arm.jpg",
+        "name": "Arm",
+        "uri": "https://www.arm.com/products/development-tools"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/st.jpg",
+        "name": "ST",
+        "uri": "https://www.st.com/content/st_com/en.html"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+        "name": "HiSilicon",
+        "uri": "https://www.hisilicon.com/en/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
+        "name": "Red Hat",
+        "uri": "https://www.redhat.com/en"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
+        "name": "Socionext",
+        "uri": "http://www.socionext.com/en/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
+        "name": "Xilinx",
+        "uri": "https://www.xilinx.com/"
+      }
+    ],
+    "membership_group_name": "LEDGE Members",
+    "text": "LEDGE will initially focus on industrial use cases with major contributions in TSN technologies into the Linux kernel. It will produce an OpenEmbedded derived Reference Platform comprising a minimal set of building blocks. An end-to-end Continuous Integration process will be established with an additional set of libraries and payload  to prove the feature completeness Reference Platform. \n\nCompanies interested in working together on common open source software foundations for edge applications are invited to contact Linaro with the form below.",
+    "url": "/engineering/edge-and-fog-computing/"
+  },
+  {
+    "id": "mi-incubator",
+    "membership_group_name": "AI Members",
+    "text": "The Artificial Intelligence initiative at Linaro aims at collaborating to reduce fragmentation in the Deep learning NN acceleration ecosystem, where currently every IP vendor forks the existing open source models and frameworks to integrate their hardware blocks and then tune for performance. This leads to a duplication of effort amongst all players, perpetual cost of re-integration for every new rebasing, and overall increased total cost of ownership.\n\nCompanies interested in working together on common open source software foundations for machine intelligence applications are invited to contact Linaro with the form below.",
+    "url": "/engineering/artificial-intelligence/"
+  },
+  {
+    "id": "autonomous-vehicles-incubator",
+    "membership_group_name": "AV Members",
+    "text": "Linaro\u2019s aim is to provide a collaborative space that will allow the automotive industry, from equipment suppliers to automotive manufacturers to work on common problems. Linaro is starting to assemble the building block components that will be needed for autonomous vehicles, working with key code bases.\n\nCompanies interested in working together on common open source software foundations for autonomous vehicle applications are invited to contact Linaro with the form below.",
+    "url": "/engineering/autonomous-vehicles/"
+  },
+  {
+    "id": "hpc-sig",
+    "membership_group_name": "HPC Members",
+    "text": "The Linaro High Performance Compute SIG (LHPS) was launched at Linaro Connect LAS16 in September 2016. \n\nThe HPC SIG is directed by a steering committee that is comprised of representatives from member companies who determine the technical agenda for the group. There is  also an Advisory Board who provide subject matter expertise and guidance as users.  HPC will benefit from Linaro\u2019s other engineering activities in the same way as Linaro\u2019s  other groups do. All groups rely on core engineering work (for example, Toolchain (GCC, LLVM) and Virtualisation (QEMU) and influence the roadmap of these common, shared projects. HPC will also leverage Linaro\u2019s work on the Enterprise Reference Platform and boot architecture from the Linaro Datacenter & Cloud Group (LDCG). \n\nCompanies interested in working together on driving the adoption of Arm in HPC through standardisation, interoperability, orchestration and use case development are invited to contact Linaro with the form below.",
+    "url": "/engineering/high-performance-computing/"
+  },
+  {
+    "id": "ldcg",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/arm.jpg",
+        "name": "Arm",
+        "uri": "https://www.arm.com/products/development-tools"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+        "name": "HiSilicon",
+        "uri": "https://www.hisilicon.com/en/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
+        "name": "Red Hat",
+        "uri": "https://www.redhat.com/en"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/fujitsu.jpg",
+        "name": "Fujitsu",
+        "uri": "https://www.fujitsu.com/global/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/quic.jpg",
+        "name": "QuIC",
+        "uri": "https://www.qualcomm.com/"
+      }
+    ],
+    "membership_group_name": "LDCG Members",
+    "text": "The purpose of the Linaro Datacenter & Cloud Group (LDCG) is to collaborate and accelerate the development of foundational open source software for Arm Server. LDCG benefits have broad industry implications, including time to market acceleration, lower development costs, and access to innovative and differentiated systems, fundamental to the Arm ecosystem.  Originally established in November 2012 as the Linaro Enterprise Group (LEG) it has evolved with the introduction of new technologies and hardware.\n\nCompanies interested in working together on common open source software foundations for datacenter & cloud applications are invited to contact Linaro with the form below.",
+    "url": "/engineering/datacenter-and-cloud/"
+  },
+  {
+    "id": "lcg",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/arm.jpg",
+        "name": "Arm",
+        "uri": "https://www.arm.com/products/development-tools"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+        "name": "HiSilicon",
+        "uri": "https://www.hisilicon.com/en/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/samsung.jpg",
+        "name": "Samsung",
+        "uri": "https://www.samsung.com/uk/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/google.jpg",
+        "name": "Google",
+        "uri": "https://about.google/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/quic.jpg",
+        "name": "QuIC",
+        "uri": "https://www.qualcomm.com/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/oppo.jpg",
+        "name": "OPPO"
+      }
+    ],
+    "membership_group_name": "LCG Members",
+    "text": "Linaro\u2019s collaboration with members involved in Android(\u2122) related technologies is done through the Linaro Consumer Group. \nThere are three engineering teams that work under the direction of the LCG Steering Committee\nART, LCG-Kernel and Android. Each team is focused on specific strategic efforts.\n\nCompanies interested in working together on common open source software foundations for consumer applications are invited to contact Linaro with the form below.",
+    "url": "/engineering/consumer/"
+  },
+  {
+    "id": "lite",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/arm.jpg",
+        "name": "Arm",
+        "uri": "https://www.arm.com/products/development-tools"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/st.jpg",
+        "name": "ST",
+        "uri": "https://www.st.com/content/st_com/en.html"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
+        "name": "NXP",
+        "uri": "https://www.nxp.com/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
+        "name": "Xilinx",
+        "uri": "https://www.xilinx.com/"
+      }
+    ],
+    "membership_group_name": "LITE Members",
+    "text": "The purpose of the Linaro IoT and Embedded Group (LITE) is focused on enabling secure, network connected, embedded heterogenous Cortex-A/R/M devices. This includes compute devices where the SoC has a combination of Cortex A, R, and/or M profiles and/or FPGA. Our current efforts focus on support for Arm devices in the Zephyr project and participating in the open source secure software projects such as Trusted Firmware.",
+    "url": "/iot-and-embedded/"
+  },
+  {
+    "id": "lwg",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/arm.jpg",
+        "name": "Arm",
+        "uri": "https://www.arm.com/products/development-tools"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/quic.jpg",
+        "name": "QuIC",
+        "uri": "https://www.qualcomm.com/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/microsoft.jpg",
+        "name": "Microsoft",
+        "uri": "https://developer.microsoft.com/en-gb/windows/"
+      }
+    ],
+    "membership_group_name": "LWG Members",
+    "text": "Linaro Windows Group",
+    "url": ""
+  },
+  {
+    "id": "boards-sc",
+    "image": "96boards-steering-committee.png",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/arm.jpg",
+        "name": "Arm",
+        "uri": "https://www.arm.com/products/development-tools"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/st.jpg",
+        "name": "ST",
+        "uri": "https://www.st.com/content/st_com/en.html"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
+        "name": "HiSilicon",
+        "uri": "https://www.hisilicon.com/en/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
+        "name": "Red Hat",
+        "uri": "https://www.redhat.com/en"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
+        "name": "NXP",
+        "uri": "https://www.nxp.com/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
+        "name": "Socionext",
+        "uri": "http://www.socionext.com/en/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/google.jpg",
+        "name": "Google",
+        "uri": "https://about.google/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/quic.jpg",
+        "name": "QuIC",
+        "uri": "https://www.qualcomm.com/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
+        "name": "Xilinx",
+        "uri": "https://www.xilinx.com/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/arrow.jpg",
+        "name": "Arrow Electronics"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/tier4.jpg",
+        "name": "Tier IV"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/dronecode.jpg",
+        "name": "Dronecode"
+      }
+    ],
+    "membership_group_name": "96Boards Steering Committee Members",
+    "url": "https://www.96boards.org/membership/"
+  },
+  {
+    "id": "boards-mp",
+    "image": "96boards-partner.png",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/arrow.jpg",
+        "name": "Arrow Electronics"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/hoperun.jpg",
+        "name": "HopeRun"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/bipai.jpg",
+        "name": "BiPai"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/element14.jpg",
+        "name": "Element14"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/geniatech.jpg",
+        "name": "Geniatech"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/gumstix.jpg",
+        "name": "Gumstix"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/seeed.jpg",
+        "name": "Seeed"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/shiratech.jpg",
+        "name": "Shiratech"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/xunlong.jpg",
+        "name": "Xunlong"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/vamrs.jpg",
+        "name": "vamrs"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/fujitsu-electronics.jpg",
+        "name": "Fujitsu Electronics"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/fab-to-lab.jpg",
+        "name": "Fab.to.Lab"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/beiqi.jpg",
+        "name": "Xiamen Beiqi Technology Co. Ltd"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/avnet.jpg",
+        "name": "Avnet"
+      }
+    ],
+    "membership_group_name": "96Boards Manufacturing Partners",
+    "url": "https://www.96boards.org/membership/"
+  },
+  {
+    "id": "boards-partner",
+    "image": "96boards-mezzanine.png",
+    "membership_group_name": "96Boards Partners",
+    "url": "https://www.96boards.org/membership/"
+  },
+  {
+    "id": "boards-ai",
+    "image": "96boards-ai.png",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/quic.jpg",
+        "name": "QuIC",
+        "uri": "https://www.qualcomm.com/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
+        "name": "Xilinx",
+        "uri": "https://www.xilinx.com/"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/arrow.jpg",
+        "name": "Arrow Electronics"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/hoperun.jpg",
+        "name": "HopeRun"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/vamrs.jpg",
+        "name": "vamrs"
+      }
+    ],
+    "membership_group_name": "96Boards AI Partners",
+    "url": "https://www.96boards.org/membership/"
+  }
 ]

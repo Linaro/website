@@ -1,15 +1,17 @@
 ---
 id: 14
-title: Cloud Computing and Servers
+title: Cloud Computing & Servers
 sub_theme: false
 permalink: /cloud-computing-and-servers/
-image: /assets/images/content/CCS_banner_image.jpg
+image: /assets/images/content/cloud-computing-and-servers-share-image.png
 icon: /assets/images/content/CC_and_S_icon_white.svg
-icon_dark: /assets/images/content/CC_and_S_icon_dark.svg
+icon_dark: /assets/images/content/CC_S.svg
 icon_alt: /assets/images/content/CC_and_S_icon_green.svg
+icon_col: /assets/images/content/Icon_Cloud_Computer_colour.svg
 js-package: contactForm
 description: >
-  The past few years have seen Arm being adopted more and more in the server space, with the world’s fastest supercomputer - Fujitsu’s Fugaku - running on Arm CPUs.
+  The traditional data center is transitioning from on-premise server racks to cloud technologies in third party data centers. Accelerated by the pandemic and the need for remote work, datacenter and cloud infrastructure are expected to deliver more connectivity faster - while remaining secure. To help achieve this, Linaro works with member companies to make key open source projects enabled for Arm-based servers. The work we do ensures the Arm server ecosystem can rely on quality software.
+video_resources_link: https://resources.linaro.org/en/themes/04687b37-4cdc-4716-a26b-64e0e55ed988
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
@@ -128,7 +130,7 @@ flow:
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                The Linaro Ecosystem Dashboard is a one-stop resource for everyone to find necessary software project info and resources about Arm support. The aim is to provide a complete picture of the Arm ecosystem landscape. At present the Linaro Ecosystem Dashboard is focused on the server landscape but Linaro will be expanding this to over verticals.
+                The Linaro Ecosystem Dashboard is a one-stop resource for everyone to find necessary software project info and resources about Arm support. The aim is to provide a complete picture of the Arm ecosystem landscape. At present the Linaro Ecosystem Dashboard is focused on the server landscape but Linaro will be expanding this to other verticals.
               buttons:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary

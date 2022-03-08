@@ -1,13 +1,9 @@
 ---
 layout: post
 title: Upstreaming support for Qualcomm PCie modems
-description: Wireless Wide Area Network (WWAN) is a form of wireless network
-  that relies on telecommunication technologies such as 3G or 4G cellular
-  networks for transferring data, specifically IP packets, and thus offering
-  internet access over mobile networks.  Linaro, in collaboration with multiple
-  OEM modem manufacturers and with Qualcomm, has worked on upstreaming
-  PCIe-based Qualcomm 4G/5G modems support in Linux. With further changes due in
-  the Linux 5.13 release, using a Qualcomm PCIe modem just got a lot easier.
+description: In this article, we cover upstreaming support for Qualcomm PCie
+  modems. With further changes due in Linux 5.13 release, using a Qualcomm PCIe
+  modem just got easier.
 date: 2021-06-01 04:35:36
 image: /assets/images/content/technology-3389917_1920-1-.jpg
 tags:
@@ -19,7 +15,6 @@ tags:
 category: blog
 author: loic.poulain
 ---
-
 # Introduction
 
 **Wireless Wide Area Network (WWAN)** is a form of wireless network that relies on telecommunication technologies such as 3G or 4G cellular networks for transferring data, specifically IP packets, and thus offering internet access over mobile networks. From the user side, such a network is accessed via a ‘modem’ implementing one or several of the cellular protocols.
@@ -34,10 +29,10 @@ For some time now, USB has become a de-facto solution to connect to WWAN/modems.
 
 Unlike other wireless technologies like WiFi or Bluetooth, the Linux kernel does not offer a unified high level API and device model for WWAN modems. A USB WWAN device is usually enumerated as a set of multiple logical devices, such as:
 
-- TTY serial devices (/dev/ttyUSB*, /dev/ttyACM*) transporting ‘legacy’ AT commands and data via point-to-point protocol (PPP).
-- cdc-wdm character devices (/dev/cdc-wdm\*) to transport modern binary based control protocols such as USB-IF MBIM (Mobile Broadband Interface Model) or QMI (Qualcomm Modem/MSM Interface).
-- Network devices (e.g. wwan0 iface) used to transport data through USB interfaces optimized for network packet transfer, and implemented as CDC-ECM, CDC-NCM, RNDIS or CDC-MBIM USB classes,
-- Virtual CD-ROM, usually hosting Windows/MacOS drivers and user manual (e.g. /dev/sr1 block device)…
+* TTY serial devices (/dev/ttyUSB*, /dev/ttyACM*) transporting ‘legacy’ AT commands and data via point-to-point protocol (PPP).
+* cdc-wdm character devices (/dev/cdc-wdm*) to transport modern binary based control protocols such as USB-IF MBIM (Mobile Broadband Interface Model) or QMI (Qualcomm Modem/MSM Interface).
+* Network devices (e.g. wwan0 iface) used to transport data through USB interfaces optimized for network packet transfer, and implemented as CDC-ECM, CDC-NCM, RNDIS or CDC-MBIM USB classes,
+* Virtual CD-ROM, usually hosting Windows/MacOS drivers and user manual (e.g. /dev/sr1 block device)…
 
 Though all the logical devices contribute to the WWAN/feature as a whole, they are each registered separately. This collection of devices varies depending on the manufacturers and models, and is possibly extended with additional interfaces for debug, firmware upgrade, GPS/GNSS and so on.
 
@@ -47,8 +42,8 @@ Below is the kernel log output on Telit FN980 USB modem connection, it shows sev
 
 This heterogeneous and relatively raw interfacing scheme does not make modems straightforward to use from the user side. For example, the wwan0 network interface is not useful alone and requires configuration using specific commands from one of the control ports (e.g. cdc-wdm0) to pass traffic. Thankfully, some userspace tools have been developed to handle that complexity, such as ModemManager, which
 
-- Identifies which logical devices (tty, net, cdc-wdm…) must be collected together to expose a consolidated view of the ‘WWAN device’ to the user.
-- Abstracts control protocols such as AT, QMI, MBIM to offer a high level unified control interface over DBUS (e.g. enable, connect, scan…).
+* Identifies which logical devices (tty, net, cdc-wdm…) must be collected together to expose a consolidated view of the ‘WWAN device’ to the user.
+* Abstracts control protocols such as AT, QMI, MBIM to offer a high level unified control interface over DBUS (e.g. enable, connect, scan…).
 
 To accomplish this, ModemManager relies on protocol libraries (libqmi, libmbim), sysfs hierarchy, uevents and vendor plugins.
 
@@ -78,9 +73,9 @@ We were pleased to find that no changes, except for a few bug fixes, were needed
 
 For example, a Telit FN980 5G PCIe device exposes the following MHI TX/RX channels:
 
-- IP_HW0: Is the path for network data, which is handled on the modem side by the IPA (IP hardware accelerator).
-- QMI: A protocol for controlling the modem that is exactly the same as for the USB variant but is instead routed over PCIe/MHI.
-- DIAG: is the modem diagnostic interface (also known as QCDM).
+* IP_HW0: Is the path for network data, which is handled on the modem side by the IPA (IP hardware accelerator).
+* QMI: A protocol for controlling the modem that is exactly the same as for the USB variant but is instead routed over PCIe/MHI.
+* DIAG: is the modem diagnostic interface (also known as QCDM).
 
 {% include image.html path="/assets/images/content/mhi-core.png" alt="MHI Core" %}
 
@@ -119,3 +114,5 @@ For WWAN, all you need is the APN, and optionally a pin to unlock the sim card.
 {% include image.html path="/assets/images/content/instructions-on-how-to-use-wwan.png" alt="Instructions on how to use WWAN" %}
 
 Enjoy!
+
+For more information on Linaro and the work that we do, [contact us here](https://www.linaro.org/contact/).

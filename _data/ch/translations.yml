@@ -1,0 +1,201 @@
+reportAnIssue: 报告问题
+editOnGithub: 在 GitHub 上编辑
+about: 关于
+read: 读
+new: 新的
+next: 下一个
+prev: 以前的
+posts: 帖子
+recentPosts: 最近的帖子
+otherPosts: 其他帖子
+postedBy: 发表者
+home: 家
+viewAllTags: 查看所有标签
+necessaryCookies: 必要的 Cookie
+necessaryCookiesText: >
+  我们无法禁用必要的 cookie，因为这些是记住您对非必要 cookie 的偏好所必需的。
+necessaryCookiesTextList: "必要 Cookie 列表:"
+cookieName: 饼干名称
+usage: 用法
+postAddedInLastWeek: 上周添加的帖子。
+analyticsCookies: 分析 Cookie
+analyticsCookiesTextList: "分析 Cookie 列表:"
+cookiesDisabledText: 切换此开关以启用有助于我们改进网站的匿名分析数据的收集。
+cookiesEnabledText: 切换此开关以启用有助于我们改进网站的匿名分析数据的收集。
+estimatedReadTime: 预计阅读时间
+info:
+  title: linaro-jekyll-theme (高级企业就绪 Jekyll 主题)
+  description: |-
+    linaro-jekyll-theme 是一个先进的企业级 Jekyll 主题，用于 Linaro 静态网站。
+search:
+  search: 搜索
+  searchPosts: 搜索帖子
+  clearSearch: 清除搜索
+close: 关闭
+moreInfo: 更多信息
+learnMore: 学到更多
+copyright: 版权
+toggleNavigation: 切换导航
+projects: 项目
+# CUSTOM
+homepage:
+  title1: 加速Arm
+  title2:
+  title3: 生态系统的部署
+  stats:
+    statsText1: >
+      的 Linaro 补丁在提交后 7 天内被接受（75% 在 35 天内）
+    statsText2: >
+      Linux 内核贡献者前 10 名
+    statsText3: >
+      过去 2 年提交给上游项目的补丁数量
+  maintainers:
+    titleText: Open Source Software Maintainers
+    subText: In total Linaro Maintainers manage over 40 Open Source Projects
+  cta:
+    membershipTitle: Linaro会员
+    membershipText: >
+      如果您想与 Linaro 的技术领域专家和其他行业领导者一起解决常见问题，那么 Linaro 会员资格是您的选择。 单击下面的视频，了解我们的会员选择与 Linaro 合作的原因：
+    membershipBtnText: 了解有关 Linaro 会员资格的更多信息
+    dsTitle: Linaro 开发者服务
+    dsText: >
+      如果您想在特定项目中利用 Linaro 的 Arm 和开源软件专业知识，那么与 Linaro 开发人员服务合作是您的正确选择。
+    dsBtnText: 了解有关 Linaro 开发人员服务的更多信息
+nav:
+  automotive_et_al: 汽车、物联网和边缘设备
+  cloud_computing: 云计算和服务器
+  client_devices: 客户端设备
+  core_technologies: 核心技术
+  artificial_intelligence: 人工智能
+  linux_kernel: Linux内核
+  security: 安全
+  testing_ci: 测试与 CI
+  toolchain: 工具链
+  virtualization: 虚拟化
+  projects: 项目
+  membership: 会员资格
+  services: 服务
+  support: 支持
+  downloads: 下载
+  blogs: 博客
+  events: 活动
+  news: 消息
+  careers: 职业生涯
+read_more: 阅读更多
+qlb:
+  deck: 主展示台
+  video: 视频资源
+  news: 新闻和博客
+aiwpb:
+  car_sensors: 汽车传感器
+  sdv: 软件定义车辆和标准化需求
+  push_to_start: 自动驾驶按钮启动
+  edf: 边缘设备固件的标准化
+  ai_for_mcus: 用于 MCU 的机密 AI
+eb_iot:
+  join_ledge: 加入 Linaro 的边缘和雾计算小组
+  ledge_desc: 如果您想与 Linaro 和其他行业领导者合作开展专门应对边缘计算领域挑战的项目，Linaro Edge & Fog Computing Group 是您的选择。 Linaro Edge & Fog Computing Group 及其成员联手通过两项主要工作——Trusted Substrate 和 LEDGE 参考平台——使混合成为现实。
+  join_iot: 加入 Linaro 的物联网和嵌入式组
+  iot_desc: 如果您想与 Linaro 和其他行业领导者合作开展专门应对物联网领域挑战的项目，Linaro IoT & Embedded Group 是您的选择。 Linaro 的 IoT 和 Embedded Group 成员协同工作，以创建和支持关键标准和一流的实施，以在 Arm 生态系统中实现安全的连接设备。
+  join_team: 加入我们的团队！
+  team_desc: 我们经常聘请主题专家和维护人员 - 如果您有兴趣成为我们团队的一员，请访问 Linaro 职业页面以了解更多信息。
+  join_club: 加入 Linaro 俱乐部会员
+  club_desc: 如果您想在 Arm 生态系统的所有垂直领域与 Linaro 和其他行业领导者合作，俱乐部会员资格是您的正确选择。
+  join_core: 作为 Linaro 核心成员加入
+  core_desc: 如果您想参与 Linaro 所做的所有工作并访问您自己的专业工程团队，那么核心会员是您的正确选择。
+projects_click_here: 点击这里查看完整的项目列表
+eb:
+  join_ldcg: 加入 Linaro 数据中心和云集团
+  ldcg_desc1: 如果您想与 Linaro 和 Arm 服务器生态系统中的其他行业领导者特别合作，您可以加入 Linaro 数据中心和云集团。
+  ldcg_desc2: Linaro 的 Datacenter & Cloud Group 旨在与其成员一起为 Arm 企业生态系统提供一个共同的开发中心。
+  ldcg_desc3: 共同努力解决常见问题并制定标准可减少碎片化，并帮助所有参与公司更快地将其产品推向市场。
+  dev_svcs: 通过 Linaro 开发人员服务，利用我们对您项目的专业知识。
+  ds_desc: Linaro 开发人员服务允许您在特定项目上一对一地使用 Linaro。
+eb_cd:
+  join_lcg: 加入 Linaro 消费者团体
+  lcg_desc1: 如果您想与 Linaro 和 Android 生态系统中的其他行业领导者特别合作，您可以加入 Linaro Consumer Group。
+  lcg_desc2: Linaro Consumer Group 的使命是通过让所有 Android 用例中的成员受益的协作活动来改善 AOSP 生态系统。
+  lcg_desc3: 与 Linaro 和其他行业领导者合作，成员公司可以为更好的产品提供出色的 Android 开发人员体验。
+mcp:
+  value_1: 合作制定标准，让您与众不同
+  desc_1: Linaro 成立于 2010 年，旨在解决基础 Arm 软件缺乏标准化的问题。 每个人都在创建自己的基础软件，这些软件当时只适用于他们的平台，导致额外的工程工作使其适用于其他平台。 Linaro 与其他致力于基于 Arm 的技术的公司联手为内核、工具链和安全性创建标准。 我们解决了我们打算解决的问题，但随着新技术的不断出现，总是需要标准化以减少工程工作量，从而加速创新。
+  quote_1: Linaro 是 Arm 合作伙伴的协作平台。 每个人都聚在一起就开源软件进行协作，在那里进行对话，讨论和研究非差异化的解决方案。
+  value_2: 利用 Linaro 的 Arm 软件专业知识和与开源社区的联系
+  desc_2: Linaro 聘请了一些世界领先的 Arm 软件专家，拥有 60 多名软件内核维护人员，负责管理 100 多个开源项目。 自成立以来，我们一直被 LWN.net 评为为 Linux 内核做出贡献的前十名公司 - 对于一家拥有 250 名工程师的公司来说，这是一项不小的壮举！ 我们能够成功且高效地为 Arm 软件生态系统提供标准化解决方案，因为我们的工程师团队经验丰富，并且与开源社区有着良好的联系。
+  quote_2: 为了成为开源社区的一员，我觉得加入我们的同行很重要。 我相信我们从加入 Linaro 中受益匪浅，因为我们现在与包括 Linaro 和 Linux 社区在内的各种社区建立了联系。
+  value_3: 通过共享工程资源降低开发成本
+  desc_3: 一旦确定了需求并就战略达成一致，Linaro 工程师将与成员工程师和开源社区合作提供解决方案。 共享工程资源可显着降低总体开发成本，并有助于加快产品上市时间，因为更多具有不同观点的工程师能够将时间用于构建软件、解决问题和故障排除。
+  quote_3: Linaro 在很多方面都像是开源技术的全明星团队。 这是一群经验丰富的专家，他们知道自己在做什么。 作为 Linaro 的成员，我们学到了很多在其他社区无法学到的东西。
+membership:
+  core: 核心会员
+  club: 俱乐部会员
+  group: 团体会员
+  project: 项目成员
+  core_desc: 核心成员推动 Arm 生态系统中的软件开发方向。 他们可以参与 Linaro 的任何项目或细分小组，并可以使用自己的专业工程团队。
+  club_desc: 俱乐部成员影响 Arm 软件开发的方向，并且可以参与 Linaro 的任何细分组。 支付额外费用后，他们还可以使用自己的专门工程团队。
+  group_desc: 集团成员在特定垂直领域内推动战略，并且可以参与其细分集团设立的任何 Linaro 项目。 Linaro 的部门集团是 Linaro 消费者集团、Linaro 数据中心和云集团、Linaro 边缘和雾计算集团以及 Linaro 物联网和嵌入式集团。
+  project_desc: 项目成员加入一个 Linaro 项目。 项目会员资格仅可通过邀请获得，要了解如何在项目级别加入，请发送电子邮件至 <a href="mailto:contact@linaro.org">contact@linaro.org</a>
+membership_form:
+  firstName: 名
+  lastName: 姓
+  company: 公司
+  how: Linaro 如何帮助您？
+  submit: 提交
+back_to_top: 回到顶部
+related_projects: 相关项目
+all_projects: 所有项目
+select_project: 选择项目
+related_posts: 相关文章
+view_all_posts: 查看所有帖子
+services:
+  quote1: Linaro 开发人员服务提供深厚的 Arm 技术知识以及与各个上游社区之间的牢固关系。 他们参与最新的 Arm 技术可以快速可靠地交付成果，帮助降低项目风险。 他们帮助基于 Arm 的 Windows 笔记本电脑支持 Linux，为基于 Arm 的服务器开发了各种 Docker 容器，并在基于 NXP 的系统上启用了固件安全启动功能。 如果您在 Arm 固件或软件开发方面需要帮助，Linaro 将为您带来专业优势。
+  quote2a: 在 Square，我们面临着维护我们的终端和注册硬件产品的挑战，这些产品基于短支持周期的移动技术，在一个需要长寿命和最新安全补丁的行业中。 在为我们的设备提供动力的 Qualcomm SD615 处理器 (2014) 于 2018 年报废后，Square 选择与 Linaro 的 Arm Linux 专家合作，以延长基于上游的使用寿命。 看过他们之前在 DragonBoard 410c 上的工作后，我们确信上游是正确的道路，而 Linaro 是提供新 Linux 内核和最新 Android 版本的正确合作伙伴。
+  quote2b: Linaro 开发人员服务部派出的团队在如何在不影响产品级稳定性、电池寿命或性能的情况下实现这一目标方面经验丰富。 由于此次合作，Square 能够继续为我们的终端和注册客户提供定期操作系统和内核升级 5-10 年。 特别是，Linaro 在将 SoC 和电路板引入主线方面的专业知识和帮助确保上游支持不会随着时间的推移而衰减，并为社区提供一个平台，让他们继续为工作做出贡献并从中受益，从而减少长期的软件负担。
+  form1_hdr: 要了解有关 Linaro 开发人员服务的更多信息，请填写此表格
+  firstName: 名字（必填）
+  firstNameErr: 请提供有效的名字。
+  lastName: 姓氏（必填）
+  lastNameErr: 请提供有效的姓氏。
+  email: 电子邮件地址（必填）
+  emailErr: 请提供有效的电子邮件。
+  company: 公司（必填）
+  companyErr: 请提供有效的公司。
+  how: 我们该怎样帮助你？
+  which: 您对哪些服务感兴趣？
+  upstream: 上游服务
+  kernel: 内核服务
+  training: 培训与支持
+  security: 安全
+  tf: 可信固件
+  ltsb: 长期支持构建
+  server: Arm 服务器部署
+  bsps: BSP 和董事会启动
+  embedded: 嵌入式和移动平台
+  other: 其他
+  hear: 你是怎么听说利纳罗的？
+  form2_hdr: 请完成以下载开发者服务概述
+  rqd: 表示需要
+  form2_email: 电子邮件地址
+  form2_company: 公司名
+  download: 下载
+aboutBlock:
+  team: 团队
+  news: 消息
+  careers: 职业生涯
+  contact: 联系我们
+noBio: 没有传记。
+careers:
+  lookingInternship: 寻找实习？
+  internBrochure: 阅读我们的实习生手册，了解我们的一些实习生经历。
+search_posts: 搜索 ------ 帖子...
+events:
+  view: 看法
+  upcoming: 即将举行的活动
+  past: 过去的事
+  comingSoon: 快来了
+  findOutMore: 了解更多
+  noTechDays: 没有即将到来的 Linaro Connect 技术日活动。
+  noWebinars: 没有即将举行的 Linaro Connect 网络研讨会活动。
+  watchNow: 现在可以观看
+  recentEvent: 我们最近一次活动（2021 年 9 月）的 70 多场技术会议和主题演讲
+resources: 资源

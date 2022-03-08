@@ -1,0 +1,172 @@
+{
+  "teamMembers": [
+    {
+      "name": "Andrew Wafaa",
+      "title": "Arm",
+      "company": "Arm",
+      "image": "/assets/images/content/WafaaProfile.jpg",
+      "bio": "Andrew Wafaa 领导 Arm 的开源办公室，负责内部和外部的开源项目。 他于 2012 年加入公司，曾在技术和营销领域担任过各种职务。 在加入 Arm 之前，他是 Fujitsu UK 的解决方案架构师，此前曾在 EMC 任职。 他在开源领域拥有近 20 年的经验，曾并继续在各种项目中担任多个董事会职位。 在进入科技界之前，安德鲁在航空领域工作了十多年，并作为一名私人飞行员慢慢回归。",
+      "teams": [
+        "technical_steering_committee"
+      ]
+    },
+    {
+      "name": "James King",
+      "title": "Arm",
+      "company": "Arm",
+      "image": "/assets/images/people/JamesKing.png",
+      "bio": "James King 领导 Arm 的开源系统软件架构小组。 他于 2014 年加入 Arm，担任过多个角色，负责领导和开发 Arm 支持的所有生态系统中的示例软件堆栈和解决方案。 在此之前，他是 Broadcom 移动部门软件架构团队的一员； 三星 2/3G 调制解调器的 LED 平台软件； 在 Sun Microsystems 为服务器开发管理软件； 并在 Madge Networks 开发网络软件。 他的工作与他在成为软件工程师之前在 CERN 获得的高能物理学博士学位没有任何关系。",
+      "teams": [
+        "technical_steering_committee"
+      ]
+    },
+    {
+      "name": "Todd Kjos",
+      "title": "Board member for Google",
+      "company": "Google",
+      "order": "7",
+      "image": "/assets/images/people/ToddKjos.jpg",
+      "bio": "Todd Kjos 是 Google 的 Android 内核团队的技术主管。 他维护 AOSP 通用内核，并且是 binder 驱动程序的 Linux 维护者。 他还领导了 Android 内核调度和 DVFS 的开发。 此前，他从事 x86 和 Itanium 服务器支持以及 Itanium 虚拟化方面的工作。",
+      "teams": [
+        "technical_steering_committee",
+        "board_of_directors"
+      ]
+    },
+    {
+      "name": "Azzedine Touzni ",
+      "title": "Qualcomm",
+      "company": "Qualcomm",
+      "image": "",
+      "bio": "",
+      "teams": [
+        "technical_steering_committee"
+      ]
+    },
+    {
+      "name": "Trilok Soni",
+      "title": "Qualcomm",
+      "company": "Qualcomm",
+      "teams": [
+        "technical_steering_committee"
+      ]
+    },
+    {
+      "name": "Kiyoshi Owada",
+      "title": "Socionext",
+      "company": "Socionext",
+      "teams": [
+        "technical_steering_committee"
+      ]
+    },
+    {
+      "name": "Eric Finco",
+      "title": "STMicroelectronics",
+      "company": "STMicroelectronics",
+      "image": "/assets/images/people/Eric-Finco.jpg",
+      "bio": "Eric Finco 是 ST-Microelectronics 的高级工程总监，负责 Linux 内核开发以及数字消费产品的硬件/软件应用。 他在 Philips、NXP、ST-Ericsson 和 ST-Microelectronics 拥有近 25 年的电信和嵌入式软件和系统经验，并在 Arm 软件和硬件生态系统工作了 18 年。 Eric 毕业于巴黎十一奥赛大学和法国格勒诺布尔理工学院 (INPG)。",
+      "teams": [
+        "technical_steering_committee"
+      ]
+    },
+    {
+      "name": "Li Gong",
+      "title": "Chief Executive Officer at Linaro",
+      "company": "Linaro",
+      "order": "1",
+      "image": "/assets/images/people/LiGong.jpg",
+      "bio": "李是一位全球经验丰富的技术专家和高管，在计算机科学、研究和产品开发以及开源技术方面拥有深厚的背景。 他曾在美国和亚洲担任过高级领导职务，曾担任 Mozilla Corporation 的总裁兼首席运营官、Microsoft 的总经理，以及 Sun Microsystems 的杰出工程师和 SRI International 的杰出科学家。 \n 毕业于北京清华大学，获得剑桥大学博士学位。 1994 年，他获得了 IEEE 通信协会授予的 Leonard G. Abraham 奖，以表彰他“对 IEEE 感兴趣的领域的技术文献做出的最重要贡献”。",
+      "teams": [
+        "technical_steering_committee",
+        "executive_team",
+        "board_of_directors"
+      ]
+    },
+    {
+      "name": "Rob Booth",
+      "title": "Chief Operating Officer at Linaro",
+      "company": "Linaro",
+      "order": "2",
+      "image": "/assets/images/people/Rob-Booth-72dpi1.jpg",
+      "bio": "Rob 在英国和国际的技术和生命科学领域，在快速增长和变化的环境中拥有丰富的运营、商业和财务经验。 他拥有蓝筹跨国学科的健康组合，从在史克公司、通用电气和 Pharmacia 担任高级职位，以及从他作为多家剑桥英国初创企业的首席执行官和首席财务官的经验中获得的创业灵活性和足智多谋，其中包括参加蝌蚪技术 plc 上市，并且是生物信息学软件工程公司 Synnomics 的联合创始人。 Rob 热衷于帮助建立公司，从稀缺资源和指导中创造最大价值。",
+      "teams": [
+        "executive_team",
+        "board_of_directors"
+      ]
+    },
+    {
+      "name": "Joe Bates",
+      "title": "General Manager and VP of Member Services at Linaro",
+      "company": "Linaro",
+      "image": "/assets/images/people/JoeBates.jpg",
+      "bio": "作为会员服务执行副总裁，Joe 负责 Linaro 会员的成功，监督 Linaro 的支持和服务战略以及运营，包括直接管理所有 Linaro 会员服务职能、参与和登陆团队。Joe 拥有超过 20 年的经验和动手能力。 风格建设和领导卓越的服务、支持和销售团队，确保客户成功并在领先的技术公司（如 Progress Software、BEA Systems、Onesource Information、Object Design 和 SavaJe Technologies）持续交付业务成果。 乔和他的家人住在波士顿地区。",
+      "teams": [
+        "executive_team"
+      ]
+    },
+    {
+      "name": "Andrea Gallo",
+      "title": "VP of Business Development at Linaro",
+      "company": "Linaro",
+      "image": "/assets/images/content/a-gallo-linaro.jpg",
+      "bio": "Andrea 于 2010 年作为 ST-Ericsson 研究员加入 Linaro 技术指导委员会，之后于 2012 年成为 Linaro 员工，担任 Linaro 企业集团（现称为 Linaro 数据中心和云集团）的总监。 然后，他继续担任部门集团和战略计划副总裁，然后担任目前的业务发展副总裁职务。 在加入 Linaro 之前，Andrea 曾在 STMicroelectronics 工作，领导开发了世界上第一个获得 WHCL 认证的 USB ADSL 软调制解调器。 他还在诺伊达和班加罗尔成立了 ST Linux 团队，负责智能手机应用处理器部门。 Andrea 拥有电信大学学位，除了母语意大利语外，还能说流利的法语和英语。",
+      "teams": [
+        "executive_team"
+      ]
+    },
+    {
+      "teams": [
+        "executive_team",
+        "technical_steering_committee"
+      ],
+      "name": "Tim Benton",
+      "title": "VP of Engineering",
+      "company": "Linaro",
+      "image": "/assets/images/content/img_8808.jpeg",
+      "bio": "Tim 在各种角色和公司中拥有超过 30 年的软件工程经验，电话和嵌入式始终是一个重要的主题。 大学毕业后，Tim 曾在多家初创公司工作，然后选择了一家被微软收购的 (STNC)，他在英国和美国工作了 12 年，领导团队并与 OEM 和移动运营商合作伙伴密切合作，开发和交付新硬件 . 在咨询构建物联网解决方案并帮助公司扭转其工程团队后，Tim 于 2017 年加入 Arm，作为开源软件集团的高级总监，他负责该团队的 250 名工程师，并与 Linaro 参与各种项目并担任委员会成员。 2020 年，蒂姆带领 Facebook 的几个团队处理了完整性领域的一些关键平台计划。 Tim 对如何有效地管理团队和构建软件以及不同的公司如何实现这一点有着浓厚的兴趣。"
+    },
+    {
+      "name": "Mark Hambleton",
+      "title": "Board member for Arm and Chairman",
+      "company": "Arm",
+      "order": "3",
+      "image": "/assets/images/people/MarkHambleton.jpg",
+      "bio": "Mark Hambleton 是 ARM 的开源软件副总裁。 Mark 于 2014 年加入 ARM，不久后接任领导开源软件团队。 在这个职位上，Mark 领导着系统软件团队，负责推动 Arm 在开源领域的领导地位，并负责与 Linaro 的软件工程关系。 在加入 Arm 之前，Mark 是代表 Broadcom 的 Linaro TSC 的成员，在 Broadcom 之前，他是诺基亚智能设备组的核心系统负责人和杰出架构师。Mark 从事开源技术近 20 年， 在 Arm 生态系统中工作超过 10 年，并在各个层面参与 Linaro 超过 5 年。",
+      "teams": [
+        "board_of_directors"
+      ]
+    },
+    {
+      "name": "Jonathan Cameron",
+      "title": "Board member for HiSilicon",
+      "company": "HiSilicon",
+      "order": "4",
+      "image": "/assets/images/people/jonathan-cameron.jpg",
+      "bio": "Jonathan 在位于英国剑桥的华为技术研发（英国）有限公司领导 ARM 服务器内核团队。 英国团队与海思内部的 ARM64 解决方案合作，为鲲鹏服务器 SoC 提供上游内核支持。 最近个人专注于 CCIX，在 CCIX 联盟的 TSC、SW 和协议工作组中发挥积极作用。\nJonathan 拥有剑桥大学的信息工程博士学位。 正是在那里，他在无线传感器平台的博士后期间第一次遇到了上游内核，随后他开发了 IIO 内核子系统，他现在已经维护了 10 多年。 他对鼓励上游内核的新贡献者特别感兴趣。",
+      "teams": [
+        "board_of_directors"
+      ]
+    },
+    {
+      "name": "Sandeep Singhai",
+      "title": "Board member for Qualcomm",
+      "company": "Qualcomm",
+      "order": "5",
+      "image": "/assets/images/people/SandeepSinghai.jpg",
+      "bio": "Sandeep Singhai 是高通创新中心的高级工程总监，他在移动 SoC、物联网、项目工程、大规模软件管理和产品商业化的功率和性能领域担任过多个领导职务。 他目前领导 Linux 和 Android HLOS 工程团队，负责提供跨高通 Snapdragon 芯片组的垂直集成软件解决方案，并在超过十亿移动设备上实现商业化。 Sandeep 在无线和物联网行业拥有 20 多年的经验，他在数据通信、广播系统和多媒体领域拥有 10 项专利。 他拥有坎普尔印度理工学院的计算机科学与工程技术硕士学位。",
+      "teams": [
+        "board_of_directors"
+      ]
+    },
+    {
+      "teams": [
+        "executive_team",
+        "technical_steering_committee"
+      ],
+      "name": "Grant Likely",
+      "title": "Chief Technical Officer at Linaro",
+      "company": "Linaro",
+      "image": "/assets/images/content/img_2696-1-.jpg",
+      "bio": "在担任 Linaro 的 CTO 之前，Grant 是 Arm 架构组的高级技术总监。这涉及 SystemReady IR 计划的责任，该计划将硬件、操作系统和应用程序之间的互操作性带入边缘和物联网生态系统。在加入 Arm Grant 之前，他是首席技术官办公室的 Linaro 研究员，并帮助塑造了 Linaro 的整体技术战略，当时它的形成方式支持每个 Linaro 集团的不同战略目标。 Grant 在 Linux 内核开发社区中广为人知，他曾是 Devicetree 的维护者，也是 Linux 基金会技术顾问委员会主席、帮助组织会议的社区领袖，并且经常在会议上发表演讲。正是通过他的 Linux 工作，他看到了协作的力量，它所取得的成就远远超过我们任何人单独所能达到的。 2005 年，从事 Linux 工作的他开始了一家咨询公司，专注于帮助客户通过与开发人员社区合作而不是从中获取信息来构建更简单和可维护的嵌入式 Linux 设备。在每个角色中，他都继续寻求更大的合作并利用共享工程的机会。"
+    }
+  ]
+}

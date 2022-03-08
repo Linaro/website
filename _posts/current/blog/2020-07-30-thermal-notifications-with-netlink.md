@@ -1,12 +1,9 @@
 ---
 layout: post
 title: Thermal Notifications With Netlink
-description:
-  This blog introduces the thermal framework design and shows where the
-  notification takes place to allow the userspace to be aware of the overall thermal
-  profile of the system. In response to the lack of thermal communication between
-  the kernel and the userspace, a solution based on the netlink has been implemented
-  for Linux v5.9.
+description: This blog introduces thermal framework design & where the
+  notification takes place to allow the userspace to be aware of the overall
+  thermal profile of the system.
 date: 2020-07-30 12:19:31+00:00
 image: /assets/images/content/electricity-1288717_1920-1-.jpg
 tags:
@@ -116,6 +113,6 @@ Currently, he is maintaining CPUidle for the ARM architecture, the timer drivers
 
 Linaro is a Member-based company focused on the de-fragmentation of the Arm software Open Source ecosystem. Linaro also supports the Arm ecosystem through customized services, training, and support. We would love to hear from you and see how we can help you with any Arm-based support, so please feel free to reach out to set up a sync at [linaro.org/contact](https://www.linaro.org/contact/)
 
-## [About the Kernel Working Group](/kernel-and-toolchain/)
+## [About the Kernel Working Group](/core-technologies/toolchain/)
 
 The Kernel Working Group’s (KWG) primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple Arm SoCs and Arm-based platforms.

@@ -44,11 +44,11 @@ sass:
   style: compressed
   load_paths:
     - assets/css
+  sourcemap: "never"
 plugins:
   - japr
   - jekyll_picture_tag
   - jekyll-tidy
-  - jekyll-sitemap
 collections:
   company:
     output: true
@@ -125,6 +125,7 @@ defaults:
       tags_enabled: false
       author: linaro
       permalink: /events/:title/
+      published: false
       categories: ["event_resources"]
   - scope:
       path: "_posts/awards"
@@ -171,7 +172,7 @@ defaults:
   #     path: "/sitemap.xml"
   #   values:
   #     redirect_from: /sitemap/
-include: ["_pages"]
+include: ["_pages", "generated"]
 # ----------- THEME / WEBSITE CONFIG ---------------------
 # Blog images/thumbs dir
 blog_images_dir: assets/images/content/
@@ -266,6 +267,7 @@ schema:
   "sameAs": "https://www.linaro.org"
 # FESS search label
 search_label: Linaro
+keep_files: ["../generated"]
 # ----------- JEKYLL PLUGINS ---------------------
 # -------- jekyll-tidy --------
 jekyll_tidy:
@@ -289,7 +291,7 @@ picture:
   nomarkdown: false
   suppress_warnings: true
   source: ""
-  output: "assets/images"
+  output: "../generated"
   relative_url: true
 # -------- japr --------
 asset_pipeline:
@@ -297,3 +299,22 @@ asset_pipeline:
   compress: true
   output_path: assets/js
   gzip: true
+# Jekyll-polyglot
+i18n_enabled: true
+languages: ["en", "ch"]
+default_lang: "en"
+exclude_from_localization:
+  [
+    "admin",
+    "app",
+    "assets",
+    "css",
+    "generated",
+    "images",
+    "javascript",
+    "public",
+    "remote",
+    "robots.txt",
+    "favicon.ico"
+  ]
+parallel_localization: false

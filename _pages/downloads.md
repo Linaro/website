@@ -252,5 +252,5 @@ flow:
             [LEDGE Reference Platform 0.3 Release](http://releases.linaro.org/components/ledge/rp-0.3/)
 
 
-            Additional information relating to the LEDGE Reference Platform can be found here:firmware.uefi.uboot.bin: U-Boot based firmware with TF-A and OP-TEE supportfirmware.uefi-edk2.bin: EDK2 based firmwareledge-iot-ledge-xxxxxxx-0.1.rootfs.wic.gz: Zipped imaged of IoT reference platformledge-gateway-ledge-xxxxxxx-0.1.rootfs.wic.gz: zipped image of the gateway reference platformledge-kernel-uefi-certs.ext4.img: Signatures used on EFI securebootledge-dev-howto.pdf - Developer Howto Documentationledge-user-guide.pdf - User Guide Documentation
+            Additional information relating to the LEDGE Reference Platform can be found [here](https://github.com/Linaro/meta-ledge)
 ---

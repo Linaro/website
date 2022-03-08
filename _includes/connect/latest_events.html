@@ -1,0 +1,85 @@
+<div class="row latest_events_row">
+    <div class="col col-12 col-sm-6 my-4 latest_events">
+        {% assign image_url = "/assets/images/content/Tech_Days.png"  %}
+        {% capture image_alt %}Linaro Tech Days{% endcapture %}
+        {% picture feature_block_image {{image_url}} --alt {{image_alt}} %}
+        <div class="latest_events_wrapper">
+            <ul class="list-group list-group-flush my-3">
+                {% assign tech_day_events = site.categories["Events"] | where: "event_type", "tech_days" | sort: "event_date"  %}
+                {% assign upcoming_events = '' | split: '' %}
+                {% for post in tech_day_events %}
+                    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                    {% assign event_date = post.event_date | date: '%s' %}
+                    {% if event_date < nowunix %}
+                    {% else %}
+                        {% assign upcoming_events = upcoming_events | push: post %}
+                    {% endif %}
+                {% endfor %}
+                {% assign number_of_events = upcoming_events | size %}
+                {% if number_of_events > 0 %}
+                    {% for event in upcoming_events limit: 3  %}
+                        <li class="list-group-item">
+                            {{event.title}} <br/>
+                            {% if event.visual_date %}
+                                {{event.visual_date}}<br/>
+                            {% else %}
+                                {{event.event_date | date: '%d %B %Y'}}<br/>
+                            {% endif %}
+                            {% if event.coming_soon %}
+                                <strong>{{site.data.translations.events.comingSoon}}</strong>
+                            {% else %}
+                                <a href="{{event.url}}">{{site.data.translations.events.findOutMore}}</a>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    <li class="list-group-item">
+                        {{site.data.translations.events.noTechDays}}
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+    <div class="col col-12 col-sm-6 my-4 latest_events">
+        {% assign image_url = "/assets/images/content/Tech_Webinars.png"  %}
+        {% capture image_alt %}Linaro Tech Webinars{% endcapture %}
+        {% picture feature_block_image {{image_url}} --alt {{image_alt}} %}
+        <div class="latest_events_wrapper">
+            <ul class="list-group list-group-flush my-3">
+
+                {% assign webinar_events = site.categories["Events"] | where: "event_type", "webinar" | sort: "event_date" %}
+                {% assign upcoming_events = '' | split: '' %}
+                {% for post in webinar_events %}
+                    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+                    {% assign event_date = post.event_date | date: '%s' %}
+                    {% if event_date < nowunix %}
+                    {% else %}
+                        {% assign upcoming_events = upcoming_events | push: post %}
+                    {% endif %}
+                {% endfor %}
+                {% assign number_of_events = upcoming_events | size %}
+                {% if number_of_events > 0 %}
+                    {% for event in upcoming_events limit: 3  %}
+                        <li class="list-group-item">
+                            {{event.title}} <br/>
+                            {% if event.visual_date %}
+                                {{event.visual_date}}<br/>
+                            {% else %}
+                                {{event.event_date | date: '%d %B %Y'}}<br/>
+                            {% endif %}
+                            {% if event.coming_soon %}
+                                <strong>{{site.data.translations.events.comingSoon}}</strong>
+                            {% else %}
+                                <a href="{{event.url}}">{{site.data.translations.events.findOutMore}}</a>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    <li class="list-group-item">
+                        {{site.data.translations.events.noWebinars}}
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</div>

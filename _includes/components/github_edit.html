@@ -1,0 +1,42 @@
+{% unless page.edit-on-github == "false" %}
+{% if site.edit-on-github.enabled and site.edit-on-github.repo %}
+    {% assign page_base = include.pagePermalink | split:"/" %}
+    {% assign page-path = include.pagePath | replace: " ", "" %}
+    {% if page_base[1] == "documentation" and site.edit-on-github.docs %}
+        {% capture github-home %}{{site.edit-on-github.docs}}{% endcapture %}
+        {% capture github-docs %}{{site.edit-on-github.docs}}/tree/master/{% endcapture %}
+        {% capture report-issue-link %}
+        {{github-home}}/issues/new?title=Problem+with+{{page-path}}&body=Please+enter+some+details+about+the+bug/issue+so+we+can+promptly+resolve+it.+%0D%0AURL%3A++{{site.url}}{{page.url}}
+        {% endcapture %}
+        {% capture edit-me-link %}{{github-docs}}{{page-path}}{% endcapture %}
+                <a aria-label="Edit this page on GitHub" title="Edit this page on GitHub" 
+                href="{{edit-me-link | replace: " ", "" }}" class="github_link github_edit_link" id="edit_on_github">
+                    {{site.data.translations.editOnGithub}}
+                </a>
+                <span class="pipe_separator">|</span>
+                <a aria-label="Report an issue on GitHub for this page" title="Report an issue on GitHub for this page" 
+                class="github_link github_report_issue_link" href="{{report-issue-link}}" id="submit_issue">
+                    {{site.data.translations.reportAnIssue}}
+                </a>
+                <span class="pipe_separator">|</span>
+    {% else %}
+        {% capture github-home %}{{site.edit-on-github.repo}}{% endcapture %}
+        {% capture github-docs %}{{site.edit-on-github.repo}}/tree/master/{% endcapture %}
+        {% capture report-issue-link %}
+        {{site.edit-on-github.repo}}/issues/new?title=Problem+with+{{page-path}}&body=Please+enter+some+details+about+the+bug/issue+so+we+can+promptly+resolve+it.+%0D%0AURL%3A++{{site.url}}{{page.url}}
+        {% endcapture %}
+        {% capture edit-me-link %}{{github-docs}}{{page-path}}{% endcapture %}
+        <a aria-label="Edit this page on GitHub" title="Edit this page on GitHub" href="{{edit-me-link | replace: " ", "" }}" 
+            type="button" class="github_link github_edit_link"
+            id="edit_on_github">
+            {{site.data.translations.editOnGithub}}
+        </a>
+        <span class="pipe_separator">|</span>
+        <a aria-label="Report an issue on GitHub for this page" title="Report an issue on GitHub for this page" 
+        class="github_link github_report_issue_link" href="{{report-issue-link}}" id="submit_issue">
+            {{site.data.translations.reportAnIssue}}
+        </a>
+        <span class="pipe_separator">|</span>
+    {% endif %}
+{% endif %}
+{% endunless %}

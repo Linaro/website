@@ -1,9 +1,65 @@
 #flow_wrapper {
+  .btn[data-theme-id="core-technologies"] {
+    background-color: #666666;
+    border: 1px solid #d7d7d7 !important;
+    &:hover {
+      background-color: #d7d7d7;
+    }
+  }
+  .btn[data-theme-id="cloud-computing-servers"] {
+    background-color: $primary;
+    border: 1px solid #ebf5d7 !important;
+    &:hover {
+      background-color: #ebf5d7;
+    }
+  }
+  .btn[data-theme-id="client-devices"] {
+    background-color: #be00be;
+    border: 1px solid #f9ebf9 !important;
+    &:hover {
+      background-color: #f9ebf9;
+    }
+  }
+  .btn[data-theme-id="automotive-iot-edge-devices"] {
+    background-color: #0bb1dd;
+    border: 1px solid #abd6e3 !important;
+    &:hover {
+      background-color: #abd6e3;
+    }
+  }
+  .banner_member {
+    width: "100%";
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+      height: 80px;
+    }
+  }
+  #news_alert {
+    background-color: #0083ad;
+    color: #fff;
+    a {
+      color: $primary;
+      font-style: italic;
+    }
+  }
+  .highlighted_text_section {
+    color: white;
+    border-left: 5px solid $primary;
+    padding-left: 10px;
+  }
+  .bg-black {
+    background-color: #000 !important;
+  }
   .block__text {
     border: none !important;
   }
   img.icon_image {
-    height: 40px;
+    height: 80px;
   }
   .row.testimonial_row {
     border-top: 10px solid white;
@@ -48,6 +104,30 @@
     font-weight: 900 !important;
   }
   #homepage_header.background_image {
+    .theme_header_image {
+      transition: all 1000ms ease;
+      opacity: 1;
+    }
+    .theme_header_image.hidden_image {
+      opacity: 0;
+    }
+    .homepage_header_overlay {
+      position: absolute;
+      background-color: black;
+      height: 260px;
+      width: 70vw;
+      background: linear-gradient(
+        90deg,
+        rgba(1, 0, 17, 1) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+      );
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        height: 200px;
+      }
+      opacity: 0.7;
+      z-index: 1;
+    }
     z-index: 0;
     height: 450px;
     &:before {
@@ -92,8 +172,13 @@
         span.font-weight-bolder {
           font-weight: 900;
         }
-        @include media-breakpoint-down(sm) {
+        border-left: 5px solid $primary;
+        padding-left: 20px;
+        margin: 50px 0 !important;
+        max-width: 840px;
+        @include media-breakpoint-down(md) {
           font-size: 38px !important;
+          border-left: none;
         }
       }
       div#header_icons_row {
@@ -111,25 +196,41 @@
     }
   }
   #theme_tabs {
-    background-color: #1e1e1e;
-    border-bottom: 5px solid $secondary;
-    border-top: 5px solid $secondary;
+    background-color: #fff;
+    padding-top: 30px !important;
     .theme_title {
       font-size: 16px;
+      height: 50px;
     }
     .nav-link.active {
-      background-color: $secondary;
       border: 0;
       border-radius: 0;
+    }
+    .item_wrapper {
+      padding: 10px;
+      border: 1px solid #eee;
+      z-index: 1;
+      position: relative;
+      margin: 8px;
+      height: 100%;
+      transition: all 500ms ease;
+      .item_innner_wrapper {
+        background-color: #eee;
+        height: 100%;
+      }
     }
   }
   #projects_section {
     .project_diagram_wrapper img {
-      height: 300px;
+      height: 400px;
       width: 100%;
       object-fit: contain;
+      margin: 40px 0;
     }
     .project_button_wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
       .btn {
         border-radius: 0;
         border: 0;
@@ -147,37 +248,41 @@
       }
     }
   }
-  #theme_slider {
-    height: 150px;
-    button.owl-prev {
-      position: absolute;
-      left: 0;
-      top: 30px;
-      height: 60px;
-      border: none;
-      background-color: $primary !important;
-      width: 20px;
+  #theme_tabs {
+    .item.h-100.selected[data-tab-id="core-technologies"] {
+      .item_wrapper {
+        border-color: #666666;
+        .item_innner_wrapper {
+          background-color: #d7d7d7 !important;
+        }
+      }
     }
-    button.owl-next {
-      position: absolute;
-      right: 0;
-      top: 30px;
-      height: 60px;
-      border: none;
-      background-color: $primary !important;
-      width: 20px;
+
+    .item.h-100.selected[data-tab-id="cloud-computing-servers"] {
+      .item_wrapper {
+        border-color: $primary;
+        .item_innner_wrapper {
+          background-color: #ebf5d7 !important;
+        }
+      }
     }
-    a.nav-link:hover {
-      background-color: #575757;
+
+    .item.h-100.selected[data-tab-id="client-devices"] {
+      .item_wrapper {
+        border-color: #be00be;
+        .item_innner_wrapper {
+          background-color: #f9ebf9 !important;
+        }
+      }
     }
-    .owl-stage-outer {
-      height: 100%;
-    }
-    .owl-stage {
-      height: 100%;
-    }
-    .owl-item {
-      height: 100%;
+
+    .item.h-100.selected[data-tab-id="automotive-iot-edge-devices"] {
+      .item_wrapper {
+        border-color: #0bb1dd;
+        .item_innner_wrapper {
+          background-color: #cfeff8 !important;
+        }
+      }
     }
   }
   .project_collab_section {
@@ -235,29 +340,48 @@
     }
   }
   #theme_section {
-    background-color: $secondary;
-    .background_image_row {
-      .header_background_image {
-        filter: brightness(1);
+    div#core-technologies.active {
+      .theme_content_wrapper {
+        border-color: #666666;
       }
-      height: 300px;
-      &:after {
-        position: absolute;
-        content: "";
-        height: 100%;
-        width: 100%;
-        top: 0;
-        z-index: 1;
-        left: 0;
-        background: linear-gradient(
-          90deg,
-          rgba(0, 0, 0, 1) 0%,
-          rgba(68, 68, 68, 0.5) 50%,
-          rgba(255, 255, 255, 0) 100%
-        );
+      .theme_content_inner_wrapper {
+        background-color: #d7d7d7;
       }
-      .container {
-        z-index: 9;
+    }
+    div#automotive-iot-edge-devices.active {
+      .theme_content_wrapper {
+        border-color: #0bb1dd;
+      }
+      .theme_content_inner_wrapper {
+        background-color: #cfeff8;
+      }
+    }
+    div#cloud-computing-servers.active {
+      .theme_content_wrapper {
+        border-color: $primary;
+      }
+      .theme_content_inner_wrapper {
+        background-color: #ebf5d7;
+      }
+    }
+    div#client-devices.active {
+      .theme_content_wrapper {
+        border-color: #be00be;
+      }
+      .theme_content_inner_wrapper {
+        background-color: #f9ebf9;
+      }
+    }
+    .theme_content_wrapper {
+      border: 1px solid #eee;
+      padding: 10px;
+      .theme_content_inner_wrapper {
+        background-color: #eee;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
       }
     }
   }

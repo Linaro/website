@@ -11,12 +11,15 @@ layout: base
     <div class="container text-center">
         <div class="inner_content_wrapper">
             <h1 class="">{{page.title}}</h1>
-            
             <p>
+                {% if page.visual_date %}
+                    {{page.visual_date}}
+                {% else %}
                 <time datetime="{{page.date}}">{{page.event_date | date: "%A, %B %-d, %Y" }} 
-                {% if page.event_end_date and page.event_date != page.event_end_date %}
-                - {{page.event_end_date | date: "%A, %B %-d, %Y" }}
-                {% endif %}</time>
+                    {% if page.event_end_date and page.event_date != page.event_end_date %}
+                    - {{page.event_end_date | date: "%A, %B %-d, %Y" }}
+                    {% endif %}</time>
+                {% endif %}
             </p>
             {% if page.event_url and page.event_url != "" %}
             <p>

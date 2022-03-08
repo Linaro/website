@@ -17,6 +17,12 @@ jumbotron:
     - title: Contact Us
       url: "#contact_form"
       style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase ds_contact_form_btn
+    - title: Download Catalogue
+      url: "/assets/pdf/Linaro_Training_Catalogue_January_2022.pdf"
+      style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase
+    - title: Download Catalogue
+      url: "/assets/pdf/Linaro_Training_Catalogue_January_2022.pdf"
+      style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase
 permalink: /services/hands-on-training/
 icon: /assets/images/content/Icon_Hands_on_training.svg
 image: /assets/images/content/Rocket_1.png
@@ -72,7 +78,7 @@ flow:
           style: p-3
           text: |
             * Introduction to Devicetree
-            * Pragmatic Linux driver development - **Part I**
+            * Pragmatic Linux driver development - **Part 1**
             * Pragmatic Linux driver development - **Part 2**
             * Symbolic debugging for Linux kernel and userspace
       - format: two_column
@@ -155,6 +161,12 @@ flow:
           - title: Contact Us
             url: "#ds_contact_form"
             style: btn btn-primary btn-sm my-2 d-inline-block d-md-none ds_contact_form_btn
+          - title: Download Catalogue
+            url: "/assets/pdf/Linaro_Training_Catalogue_January_2022.pdf"
+            style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block
+          - title: Download Catalogue
+            url: "/assets/pdf/Linaro_Training_Catalogue_January_2022.pdf"
+            style: btn btn-primary btn-lg my-2 d-inline-block d-md-none
   - row: container_row
     style: large_type bg-white text-dark text-center
     sections:

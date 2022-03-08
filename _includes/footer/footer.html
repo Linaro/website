@@ -1,0 +1,93 @@
+<footer>
+    <div class="container-fluid">
+        <div class="row strip pt-3 pb-3">
+            <div class="container">
+                <div class="row links_row">
+                    <div class="col col-12 col-sm-6 col-lg-3 links_col">
+                        <ul>
+                            <li>
+                                <a href="/automotive-iot-and-edge-devices/">
+                                    {{site.data.translations.nav.automotive_et_al}}
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/cloud-computing-and-servers/">
+                                    {{site.data.translations.nav.cloud_computing}}
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/client-devices/">
+                                    {{site.data.translations.nav.client_devices}}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-lg-3 links_col">
+                        <ul>
+                            <li><a href="/core-technologies/">{{site.data.translations.nav.core_technologies}}</a></li>
+                            <li class="sub_level_link"><a href="/core-technologies/artificial-intelligence/">{{site.data.translations.nav.artificial_intelligence}}</a></li>
+                            <li class="sub_level_link"><a href="/core-technologies/linux-kernel/">{{site.data.translations.nav.linux_kernel}}</a></li>
+                            <li class="sub_level_link"><a href="/core-technologies/security/">{{site.data.translations.nav.security}}</a></li>
+                            <li class="sub_level_link"><a href="/core-technologies/testing-and-ci/">{{site.data.translations.nav.testing_ci}}</a></li>
+                            <li class="sub_level_link"><a href="/core-technologies/toolchain/">{{site.data.translations.nav.toolchain}}</a></li>
+                            <li class="sub_level_link"><a href="/core-technologies/virtualization/">{{site.data.translations.nav.virtualization}}</a></li>
+                        </ul>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-lg-3 links_col">
+                        <ul>
+                            <li><a href="/projects/">{{site.data.translations.nav.projects}}</a></li>
+                            <li><a href="/membership/">{{site.data.translations.nav.membership}}</a></li>
+                            <li><a href="/services/">{{site.data.translations.nav.services}}</a></li>
+                            <li><a href="/support/">{{site.data.translations.nav.support}}</a></li>
+                            <li><a href="/downloads/">{{site.data.translations.nav.downloads}}</a></li>
+                        </ul>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-lg-3 links_col">
+                        <ul>
+                            <li><a href="/about/">{{site.data.translations.about}}</a></li>
+                            <li class="sub_level_link"><a href="/blog/">{{site.data.translations.nav.blogs}}</a></li>
+                            <li class="sub_level_link"><a href="/events/">{{site.data.translations.nav.events}}</a></li>
+                            <li class="sub_level_link"><a href="/news/">{{site.data.translations.nav.news}}</a></li>
+                            <li class="sub_level_link"><a href="/careers/">{{site.data.translations.nav.careers}}</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-12">
+                        <div class="social_media_section d-flex justify-content-between align-items-center">
+                            <a href="{{site.data.footer.footer_brand.url}}">
+                                <img src="{{site.data.footer.footer_brand.path}}" class="footer-logo mx-auto"
+                                    alt="{{site.data.footer.footer_brand.alt}}" />
+                            </a>
+                            <div class="icons_group">
+                                {% include_cached social_media_icons.html %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 text-white">
+                        {% include components/github_edit.html pagePath=page.path pagePermalink=page.permalink %}
+                        {% for link in site.data.footer.company_links %}
+                        <a href="{{link.url}}">{{link.name}}</a>
+                            {% unless forloop.last %}
+                                <span class="coloured-bp">|</span>
+                            {% endunless %}
+                        {% endfor %}
+                    </div>
+                    <div class="col col-12 text-white mt-2">
+                        <span class="copyright">{{site.data.translations.copyright}} &copy; {{ 'now' | date: "%Y" }} {{site.data.footer.copyright_text}}</span>
+                    </div>
+                    {% if site.i18n_enabled %}
+                        <div class="col col-12 text-white text-center" id="language_switcher">
+                            {% for lang in site.languages %}
+                                <a data-lang="{{lang}}" {% if lang == site.active_lang %}style="font-weight: bold;"{% endif %} href="#" class="lang_anchor">{{ lang }}</a>
+                                {% unless forloop.last %}
+                                    <span class="coloured-bp">&bull;</span>
+                                {% endunless %}
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,5 +1,5 @@
 ---
-author: shovan
+author: linaro
 category: news
 date: 2014-10-29 16:54:06
 description: Leading China fabless semiconductor company Spreadtrum Communications

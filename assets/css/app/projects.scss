@@ -1,7 +1,37 @@
 #wrapper {
-  #accordion .card-header {
-    img {
-      height: 48px;
+  #collapsePanel {
+    button {
+      .left_section {
+        img {
+          height: 40px;
+        }
+      }
+      display: flex;
+      justify-content: space-between;
+      span.icon.icon-down-open {
+        display: none;
+      }
+      span.icon.icon-up-open {
+        display: block;
+      }
+      &.collapsed {
+        span.icon.icon-up-open {
+          display: none;
+        }
+        span.icon.icon-down-open {
+          display: block;
+        }
+      }
+    }
+  }
+  #accordion {
+    .collapse {
+      scroll-margin-top: 100px;
+    }
+    .card-header {
+      img {
+        height: 48px;
+      }
     }
   }
   span.icon-mail {

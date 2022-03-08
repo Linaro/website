@@ -1,22 +1,26 @@
 <div
-  class="jumbotron row d-flex align-items-center jumbotron-fluid background_image"
+  class="jumbotron row d-flex align-items-baseline jumbotron-fluid background_image"
 id="homepage_header">
-    {% assign alt = "Blue and purple tech waves" %}
-    {% picture header_image "/assets/images/content/IMAGE_HOMEPAGE.jpg" --alt {{alt}} %}
+<div class="homepage_header_overlay"></div>
+    {% assign themes_to_show = "" | split: "," %}
+    {% for theme in site.themes %}
+        {% unless theme.sub_theme or theme.title == "Automotive" %}
+            {% assign themes_to_show = themes_to_show | push: theme %}
+        {% endunless %}
+    {% endfor %}
+    {% for theme in themes_to_show %}
+    <div class="theme_header_image {% if forloop.first %}{% else %}hidden_image{% endif %}" data-theme-id="{{theme.title | slugify}}" >
+      {% capture theme_image_alt %}{{theme.jumbotron.title}}{% endcapture %}
+      {% assign theme_image = theme.jumbotron.image %}
+      {% picture header_image {{theme_image}} --alt {{alt}} %}
+    </div>
+{% endfor %}
   <div class="container">
     <div class="inner_content_wrapper text-left">
       <h1 class="my-sm-4 my-2">
-        <span class="font-weight-bolder">Accelerating deployment</span> in the
-        <span class="font-weight-bolder text-primary"><br class="d-none d-sm-block"/>Arm Ecosystem</span>
+        <span class="font-weight-bolder">{{site.data.translations.homepage.title1}}</span> {{site.data.translations.homepage.title2}}
+        <span class="font-weight-bolder text-primary"><br class="d-none d-sm-block"/>{{site.data.translations.homepage.title3}}</span>
       </h1>
-      <p class="small_text_mobile"> 
-        Linaro has driven open source software development on Arm since 2010 and is home to many world-leading
-        Arm software experts. Together with our members and the open source community, we drive the work needed to
-        maintain and improve the Arm software ecosystem. Our work spans a wide range of verticals and technologies.
-      </p>
-      <p class="text-primary small_text_mobile">
-        To find out more about the work we do, click on the relevant icon below.
-      </p>
     </div>
   </div>
 </div>

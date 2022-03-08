@@ -1,12 +1,8 @@
 ---
 layout: post
 title: History Of The Interconnect Framework
-description: The Interconnect API is a framework for configuring the on-chip
-  interconnects in the system. The framework tunes the system for the best power
-  and performance while taking into account the aggregated traffic between the
-  different endpoints. It was merged in January 2019 and is available in the
-  Linux kernel since v5.1. In this article I’ll share more about the history
-  behind it.
+description: "In this article we share more about the history behind the
+  Interconnect Framework. "
 date: 2020-12-22 04:28:00
 image: /assets/images/content/city.jpg
 tags:
@@ -59,3 +55,5 @@ Linux v5.11 will support multiple platforms by four different vendors. There are
 
 Many thanks to the people who participated in the initial discussions or provided feedback during the development:
 Vincent Guittot, Saravana Kannan, Sean Sweeney, David Dai, Mike Turquette, Kevin Hilman, Alexandre Bailon, Bjorn Andersson, Daniel Lezcano, Ulf Hansson, Rob Herring, Rafael Wysocki, Evan Green, Viresh Kumar, Greg Kroah-Hartman and others.
+
+For more information on Linaro and the work we do, do not hesitate to [get intouch](https://www.linaro.org/contact/).

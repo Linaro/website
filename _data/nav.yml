@@ -7,25 +7,89 @@ brand:
   path: /assets/images/Linaro-Logo.svg
   alt: Linaro logo
 pages:
-  - title: Projects
-    url: /projects/
+  - title: Solutions
+    options:
+      - text: Automotive, IoT & Edge Devices
+        url: /automotive-iot-and-edge-devices/
+      - text: Client Devices
+        url: /client-devices/
+      - text: Cloud Computing & Servers
+        url: /cloud-computing-and-servers/
+      - text: Core Technologies
+        options:
+          - text: Overview
+            url: /core-technologies/
+          - text: Artificial Intelligence
+            url: /core-technologies/artificial-intelligence/
+          - text: Linux Kernel
+            url: /core-technologies/linux-kernel/
+          - text: Security
+            url: /core-technologies/security/
+          - text: Testing & CI
+            url: /core-technologies/testing-and-ci/
+          - text: Toolchain
+            url: /core-technologies/toolchain/
+          - text: Virtualization
+            url: /core-technologies/virtualization/
   - title: Membership
-    url: /membership/
+    options:
+      - text: Membership
+        options:
+          - text: Overview
+            url: /membership/
+          - text: Group Membership
+            url: /membership/groups/
+      - text: Projects
+        options:
+          - text: All Projects
+            url: /projects/
+          - text: Community Projects
+            url: /community-projects/
   - title: Services
-    url: /services/
+    options:
+      - text: Overview
+        url: /services/
+      - text: Hands on training
+        url: /services/hands-on-training/
+      - text: Security
+        url: /services/security/
+      - text: Testing & Long term support
+        url: /services/testing-and-long-term-support/
+      - text: Board Support Packages
+        url: /services/board-support-packages/
+      - text: System Performance & Optimization
+        url: /services/system-performance-and-optimization/
+      - text: Qualcomm Platform Services
+        url: /services/qualcomm-platforms-services/
+  - title: Resources
+    options:
+      - text: Downloads
+        url: /downloads/
+      - text: Linaro Resources Hub
+        url: https://resources.linaro.org
+      - text: Linaro Connect
+        url: https://connect.linaro.org
   - title: Support
     url: /support/
-  - title: Downloads
-    url: /downloads/
   - title: About
     options:
-      - text: About Us
-        url: /about/
+      - text: About Linaro
+        options:
+          - text: Overview
+            url: /about/
+          - text: Team
+            url: /about/team/
+          - text: Technical Steering Committee
+            url: /tsc/
+          - text: Contact us
+            url: /contact/
+      - text: Linaro Connect
+        url: /connect/
       - text: Careers
         url: /careers/
       - text: Blogs
         url: /blog/
-      - text: Events
-        url: /events/
       - text: News
         url: /news/
+      - text: Events
+        url: /events/

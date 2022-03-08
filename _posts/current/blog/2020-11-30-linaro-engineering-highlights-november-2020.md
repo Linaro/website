@@ -1,25 +1,24 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - November 2020
-description: The November highlights are full of the latest updates and news from
-  Linaro. Topics include; LITE updates, MCUboot & a new Linaro Community Project,
-  Security and Zephyr updates. Plus, future improvements for Device Tree, Kernel Working
-  Group news, setting up ARM32 architecture, Kernel validation team updates, LEDGE
-  team news, Arm 32bit startup sequence and a major eBPF fix on Aarch64 to name but
-  a few.
+description: Our November edition of the monthly Engineering Highlight is full
+  of the latest updates and news from Linaro.
 date: 2020-12-14 11:54:02
 image: /assets/images/content/electricity-1288717_1920.jpg
 tags:
-- Engineering Highlights
-- Lite
-- Device Tree
-- Kernel Working Group
-- Ledge
+  - Engineering Highlights
+  - Lite
+  - Device Tree
+  - Kernel Working Group
+  - Ledge
 related_projects:
-- DTE
+  - DTE
 category: blog
 author: jon.burcham@linaro.org
 ---
+## Introduction
+
+The November highlights are full of the latest updates and news from Linaro. Topics include; LITE updates, MCUboot & a new Linaro Community Project, Security and Zephyr updates. Plus, future improvements for Device Tree, Kernel Working Group news, setting up ARM32 architecture, Kernel validation team updates, LEDGE team news, Arm 32bit startup sequence and a major eBPF fix on Aarch64 to name but a few.
 
 ## LITE Updates
 
@@ -115,3 +114,5 @@ As a result of this change, the initrd can be located in a different filesystem 
 eBPF is the in-kernel bytecode interpreter that was introduced to deal with packet filtering and that ended up being a key technology for overall debugging and other kernel observability tooling. It is also used to build fast userland data planes that can compete with DPDK on a performance basis but has the elegance to keep natural Linux networking stack connectivity for non accelerated traffic.
 
 Aarch64 eBPF used to work properly up until eBPF bounded loops were introduced. After that introduction several test cases were [failing](https://lkml.org/lkml/2020/9/17/262) in arm64 on the BPF verifier. This prohibited arm64 platforms running BPF programs that would jump back on the 1st instruction. The patch to fix this is now upstream.
+
+For more information on Linaro and the work we do, feel free [to reach out](https://www.linaro.org/contact/).

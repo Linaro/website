@@ -1,13 +1,8 @@
 ---
 layout: post
 title: "Linaro releases LEDGE Reference Platform v0.2 "
-description: "In an effort to empower any organization to easily create a Linux
-  distribution for vertical markets, focusing on the high level features of the
-  operating system, Linaro has created the LEDGE Reference Platform. LEDGE
-  Reference Platform (RP) is a lightweight highly secure and robust container
-  runtime environment that has dependable boot and update capabilities. This
-  blog talks about the v0.2 release and what new features users can expect to
-  see. "
+description: " This blog talks about the LEDGE Reference Platform v0.2 release
+  and what new features users can expect to see. "
 date: 2021-05-20 10:03:26
 image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
 tags:
@@ -25,9 +20,9 @@ The majority of consumer electronics now consist of an abandoned firmware paired
 
 # Introducing LEDGE Reference Platform
 
-In an effort to empower any organization to easily create a Linux distribution for vertical markets, focusing on the high level features of the operating system, Linaro has created the LEDGE Reference Platform. LEDGE Reference Platform (RP) is a lightweight highly secure and robust container runtime environment that has dependable boot and update capabilities. It comes with a full set of security policies with SELinux, IMA (Linux Kernel Integrity Measurement Architecture) and other technologies and builds on [SystemReady-IR](https://developer.arm.com/architectures/system-architectures/arm-systemready/ir) and [EBBR](https://arm-software.github.io/ebbr/) specifications. Consumers of LEDGE-RP complement it with market specific components to make vertically integrated solutions. 
+In an effort to empower any organization to easily create a Linux distribution for vertical markets, focusing on the high level features of the operating system, Linaro has created the LEDGE Reference Platform. LEDGE Reference Platform (RP) is a lightweight highly secure and robust container runtime environment that has dependable boot and update capabilities. It comes with a full set of security policies with SELinux, IMA (Linux Kernel Integrity Measurement Architecture) and other technologies and builds on [SystemReady-IR](https://developer.arm.com/architectures/system-architectures/arm-systemready/ir) and [EBBR](https://arm-software.github.io/ebbr/) specifications. Consumers of LEDGE-RP complement it with market specific components to make vertically integrated solutions.
 
-To see LEDGE RP in action, [check out this demo](https://www.youtube.com/watch?v=otciKqA0hdQ) from Linaro Virtual Connect Spring 2021 where Linaro’s Maxim Uvarov demoed LEDGE RP on ST32MP1 to showcase UEFI keys provisioning and direct booting of Linux.  
+To see LEDGE RP in action, [check out this demo](https://www.youtube.com/watch?v=otciKqA0hdQ) from Linaro Virtual Connect Spring 2021 where Linaro’s Maxim Uvarov demoed LEDGE RP on ST32MP1 to showcase UEFI keys provisioning and direct booting of Linux.
 
 # What is new in LEDGE RP v0.2 release?
 
@@ -44,7 +39,7 @@ Earlier this week we released LEDGE Reference Platform v0.2 which you can [downl
 
 # Supported Platforms
 
-Although by design LEDGE-RP will run on any EBBR compliant platform, there are a number of devices that are officially supported.  For these platforms Linaro provides Trusted Substrate firmware binaries that adhere to [SystemReady-IR](https://developer.arm.com/architectures/system-architectures/arm-systemready/ir) and [EBBR ](https://arm-software.github.io/ebbr/)specifications. [Trusted Substrate](https://www.linaro.org/trusted-substrate/) is a collaborative project for the integrated, tested and packaged foundation of open source secure boot and trusted execution elements. 
+Although by design LEDGE-RP will run on any EBBR compliant platform, there are a number of devices that are officially supported. For these platforms Linaro provides Trusted Substrate firmware binaries that adhere to [SystemReady-IR](https://developer.arm.com/architectures/system-architectures/arm-systemready/ir) and [EBBR ](https://arm-software.github.io/ebbr/)specifications. [Trusted Substrate](/automotive-iot-and-edge-devices/) is a collaborative project for the integrated, tested and packaged foundation of open source secure boot and trusted execution elements.
 
 * QEMU Aarch64 (U-Boot and EDK2 support)
 * QEMU Armv7 (U-Boot and EDK2 support)
@@ -63,6 +58,6 @@ The next LEDGE Reference Platform release will be available in six months time. 
 * Standardize firmware upgrades using open source tools (fwupd)
 * UEFI Measured Boot support combined with Disk encryption based on TPMv2 with LUKS encryption by an authorized PCR policy for increased security
 * Product quality Low power networking with normal tools rather than through debug file system controlf
-* TPM for devices with RPMB support.  This will provide platforms without a discrete TPM with a viable alternative
+* TPM for devices with RPMB support. This will provide platforms without a discrete TPM with a viable alternative
 
-For more information on the LEDGE Reference Platform click [here](https://github.com/Linaro/ledge-oe-manifest).
+For more information on the LEDGE Reference Platform click [here](https://github.com/Linaro/ledge-oe-manifest). To find out more about Linaro and the work we do, make sure to [contact us](https://www.linaro.org/contact/).

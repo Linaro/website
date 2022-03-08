@@ -39,7 +39,6 @@ flow:
 
             Additional Linaro Community Support can also be found at:
 
-            *   [Get Involved](/developers/)
             *   IRC
             *   [Downloads](/downloads/)
 

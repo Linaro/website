@@ -1,33 +1,22 @@
 ---
 layout: post
 title: Protected UEFI Variables With U-Boot
-description: 'Critical system variables, like the UEFI ones, must be protected against
-  a variety of attacks.
-
-  On Arm servers and desktops, which typically run EDK2, dedicated flashes are used.
-  Those
-
-  would normally be accessible from the secure world only, since they are storing
-  critical
-
-  variables for our systems integrity and security.
-
-
-  But what''s the status of devices running on U-Boot?'
+description: Critical system variables, like the UEFI ones, must be protected
+  against a variety of attacks. In this article, we talk about protected UEFI
+  variables with U-Boot.
 date: 2021-01-04 02:16:09
 image: /assets/images/content/tech_background.jpg
 tags:
-- Bootloaders
-- Security
-- U-Boot
-- UEFI
-- Arm
+  - Bootloaders
+  - Security
+  - U-Boot
+  - UEFI
+  - Arm
 related_projects:
-- LKQ
+  - LKQ
 category: blog
 author: ilias.apalodimas@linaro.org
 ---
-
 ## **Intro**
 
 Critical system variables, like the UEFI ones, must be protected against a variety of attacks. On Arm servers and desktops, which typically run EDK2, dedicated flashes are used. Those would normally be accessible from the secure world only, since they are storing critical variables for our systems integrity and security.
@@ -231,3 +220,7 @@ Remaining storage size 15188
 Max variable size 8132
 =>
 ```
+
+### Conclusion
+
+For more information on the work we do to secure embedded devices, read about our projects Trusted Substrate and LEDGE Reference Platform on the [Automotive, IoT & Edge Devices page](https://www.linaro.org/automotive-iot-and-edge-devices/). Alternatively, [contact us here](https://www.linaro.org/contact/).

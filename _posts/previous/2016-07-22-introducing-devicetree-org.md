@@ -5,7 +5,7 @@ date: 2016-07-22 12:00:00
 category: blog
 tags: []
 image: /assets/images/blog/devicetree-logo-dark.png
-author: Linaro
+author: linaro
 ---
 
 {% include media.html media_url="https://www.youtube.com/embed/kbREjQS3moM" %}

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Using Energy Model To Stay In TDP Budget
-description:
-  "An ever-increasing number of embedded devices need fine grain control
-  on their performance in order to limit the power consumption. There are three primary
-  reasons for this: to increase the battery life, to protect the components and to
-  control the temperature. In this intriguing article, Daniel looks into the power
-  consumption complexities and the challenges this creates."
+description: In this intriguing article, Daniel Lezcano looks into the power
+  consumption complexities and the challenges this creates.
 date: 2020-07-29 10:41:16+00:00
 image: /assets/images/content/code-background_1.jpg
 tags:
@@ -22,17 +18,6 @@ related_projects:
 category: blog
 author: daniel.lezcano
 ---
-
-## [About the Author](https://www.linkedin.com/in/daniel-lezcano-8481435a/)
-
-Daniel worked in 1998 in the Space Industry and Air traffic management for distributed system projects in life safety constraints. He acquired for this project a system programming expertise.
-
-He joined IBM in 2004 and since this date he does kernel hacking and pushed upstream the resource virtualization with the namespaces. He was the author and maintainer of the Linux Container (LXC).
-
-In 2012, he joined Linaro to work in the power management team. Deeply involved in the power management improvements for the different members of Linaro, he continues to contribute and maintain some parts of the Linux kernel in the power management area.
-
-Currently, he is maintaining CPUidle for the ARM architecture, the timer drivers and the thermal framework.
-
 # Introduction
 
 An ever-increasing number of embedded devices need fine grain control on their performance in order to limit the power consumption. There are three primary reasons for this: to increase the battery life, to protect the components and to control the temperature.
@@ -75,11 +60,11 @@ As described previously, the mobile devices want to balance the power along with
 
 This is where the energy model based powercap fits perfectly:
 
-- The sysfs hierarchy allows to model the constraints of the different devices on the SoC
-- The energy model gives the power information of each device
-- The performance state callbacks allow an application to limit the power
-- The hierarchy allows an application to propagate the constraints on the different tree nodes and rebalance the free power along the child nodes
-- The powercap framework offers a single place to act on the device power, allowing a consistent and unified API
+* The sysfs hierarchy allows to model the constraints of the different devices on the SoC
+* The energy model gives the power information of each device
+* The performance state callbacks allow an application to limit the power
+* The hierarchy allows an application to propagate the constraints on the different tree nodes and rebalance the free power along the child nodes
+* The powercap framework offers a single place to act on the device power, allowing a consistent and unified API
 
 The hierarchy of the constraints is represented by a tree via the sysfs filesystem. The nodes of the tree are virtual and their purpose is to aggregate the power information from the child nodes: the power consumption is the sum of the child nodes power consumption. This also applies to the max and min power. The leaves of the tree are the real devices grouped per performance domain. If a power limit is set on a node, then the power limit is split proportionally to the children regarding their max power consumption. This power limit distribution to the child nodes is considered fair enough for most of the system using this approach like electricity grid in data centers.
 
@@ -117,7 +102,7 @@ It is reasonable to say the in-kernel logic will greatly increase the efficiency
 
 The powercap energy model based framework will be a very powerful framework, flexible for userspace, unified for AOSP, consistent and safe to coexist with the existing frameworks.
 
-## [About the Kernel Working Group](/kernel-and-toolchain/)
+## [About the Kernel Working Group](/core-technologies/toolchain/)
 
 The Kernel Working Group’s (KWG) primary focus is to be an active contributor to the upstream community and facilitate acceptance of our code into the Linux mainline kernel. Our goal is kernel consolidation - a single source tree with integrated support for multiple Arm SoCs and Arm-based platforms.
 

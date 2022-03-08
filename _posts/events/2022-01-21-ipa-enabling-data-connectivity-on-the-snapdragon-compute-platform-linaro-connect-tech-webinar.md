@@ -2,7 +2,9 @@
 title: "IPA: Enabling Data Connectivity on the Snapdragon Compute Platform
   [Linaro Connect Tech Webinar]"
 event: IPA-webinar
-description: "Public webinar "
+description: In this Linaro Connect Tech Webinar, Alex Elder will provide a
+  general hardware overview and speak about the upstream IPA Linux kernel
+  driver. Register now!
 location: "Online "
 date: 2022-01-21 04:35:34 -05:00
 event_date: 2022-03-03 04:35:34 -05:00
@@ -10,7 +12,7 @@ event_end_date: 2022-03-04 04:36:51 -05:00
 image: /assets/images/content/techwebinars_events_page-1-.jpg
 event_type: webinar
 ---
-# IPA: Enabling Data Connectivity on the Snapdragon Compute Platform
+# IPA: Enabling Data Connectivity on the Snapdragon Compute Platform - Linaro Connect Tech Webinar
 
 **Speaker:**
 
@@ -64,8 +66,6 @@ including the synchronization steps that allow the AP and modem to\
 jointly manage IPA state.  The talk will conclude with a discussion\
 of development underway to enable more advanced capabilities that\
 IPA can provide.
-
-
 
 **Register by completing the form below:**
 

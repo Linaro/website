@@ -21,8 +21,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h3 class="modal-title font-weight-bold" id="modal_title">
-          To find out more about Linaro Developer Services please complete this
-          form
+          {{site.data.translations.services.form1_hdr}}
         </h3>
         <button
           type="button"
@@ -43,11 +42,11 @@
               id="customfield_10902"
               name="customfield_10902"
               class="form-control"
-              placeholder="First name (required)"
+              placeholder="{{site.data.translations.services.firstName}}"
               required
             />
             <div class="invalid-feedback">
-              Please provide a valid first name.
+              {{site.data.translations.services.firstNameErr}}
             </div>
           </div>
           <div class="form-group">
@@ -56,11 +55,11 @@
               id="customfield_10903"
               name="customfield_10903"
               class="form-control"
-              placeholder="Last name (required)"
+              placeholder="{{site.data.translations.services.lastName}}"
               required
             />
             <div class="invalid-feedback">
-              Please provide a valid last name.
+              {{site.data.translations.services.lastNameErr}}
             </div>
           </div>
           <div class="form-group">
@@ -69,10 +68,10 @@
               id="feedback_email"
               name="email"
               class="form-control"
-              placeholder="Email address (required)"
+              placeholder="{{site.data.translations.services.email}}"
               required
             />
-            <div class="invalid-feedback">Please provide a valid email.</div>
+            <div class="invalid-feedback">{{site.data.translations.services.emailErr}}</div>
           </div>
           <div class="form-group">
             <input
@@ -80,10 +79,10 @@
               id="customfield_12401"
               name="customfield_12401"
               class="form-control"
-              placeholder="Company (required)"
+              placeholder="{{site.data.translations.services.company}}"
               required
             />
-            <div class="invalid-feedback">Please provide a valid company.</div>
+            <div class="invalid-feedback">{{site.data.translations.services.companyErr}}</div>
           </div>
           <div class="form-group">
             <textarea
@@ -91,13 +90,13 @@
               rows="3"
               name="description"
               id="description"
-              placeholder="How can we help you?"
+              placeholder="{{site.data.translations.services.how}}"
             ></textarea>
           </div>
           <div class="form-group checkbox_group">
             <div class="row py-0">
               <div class="col col-12">
-                <strong>Which services are you interested in?</strong>
+                <strong>{{site.data.translations.services.which}}</strong>
               </div>
               <div class="col col-12 col-sm-6">
                 <div class="checkbox d-block">
@@ -108,7 +107,7 @@
                     id="customfield_12904-1"
                     class="checkbox"
                   />
-                  <label for="customfield_12904-1">Upstream Services</label>
+                  <label for="customfield_12904-1">{{site.data.translations.services.upstream}}</label>
                 </div>
                 <div class="checkbox d-block">
                   <input
@@ -118,7 +117,7 @@
                     id="customfield_12904-2"
                     class="checkbox"
                   />
-                  <label for="customfield_12904-2">Kernel Services</label>
+                  <label for="customfield_12904-2">{{site.data.translations.services.kernel}}</label>
                 </div>
                 <div class="checkbox d-block">
                   <input
@@ -128,7 +127,7 @@
                     id="customfield_12904-3"
                     class="checkbox"
                   />
-                  <label for="customfield_12904-3">Training & Support</label>
+                  <label for="customfield_12904-3">{{site.data.translations.services.training}}</label>
                 </div>
                 <div class="checkbox d-block">
                   <input
@@ -138,7 +137,7 @@
                     id="customfield_12904-4"
                     class="checkbox"
                   />
-                  <label for="customfield_12904-4">Security</label>
+                  <label for="customfield_12904-4">{{site.data.translations.services.security}}</label>
                 </div>
               </div>
               <div class="col col-12 col-sm-6">
@@ -150,7 +149,7 @@
                     id="customfield_12904-5"
                     class="checkbox"
                   />
-                  <label for="customfield_12904-5">Trusted Firmware</label>
+                  <label for="customfield_12904-5">{{site.data.translations.services.tf}}</label>
                 </div>
                 <div class="checkbox d-block">
                   <input
@@ -171,7 +170,7 @@
                     class="checkbox"
                   />
                   <label for="customfield_12904-7"
-                    >Long Term Support Builds</label
+                    >{{site.data.translations.services.ltsb}}</label
                   >
                 </div>
                 <div class="checkbox d-block">
@@ -182,7 +181,7 @@
                     id="customfield_12904-8"
                     class="checkbox"
                   />
-                  <label for="customfield_12904-8">Arm Server Deployment</label>
+                  <label for="customfield_12904-8">{{site.data.translations.services.server}}</label>
                 </div>
               </div>
               <div class="col col-12 col-sm-6">
@@ -195,7 +194,7 @@
                     class="checkbox"
                   />
                   <label for="customfield_12904-9"
-                    >BSPs and board bring-up</label
+                    >{{site.data.translations.services.bsps}}</label
                   >
                 </div>
                 <div class="checkbox d-block">
@@ -207,7 +206,7 @@
                     class="checkbox"
                   />
                   <label for="customfield_12904-10"
-                    >Embedded and mobile platforms</label
+                    >{{site.data.translations.services.embedded}}</label
                   >
                 </div>
               </div>
@@ -219,7 +218,7 @@
                     id="other_services"
                     class="checkbox"
                   />
-                  <label class="my-0 mx-2" for="other_services">Other</label>
+                  <label class="my-0 mx-2" for="other_services">{{site.data.translations.services.other}}</label>
                   <input
                     type="text"
                     id="customfield_12905"
@@ -237,7 +236,7 @@
               rows="3"
               name="customfield_12903"
               id="customfield_12903"
-              placeholder="How did you hear about Linaro?"
+              placeholder="{{site.data.translations.services.hear}}"
             ></textarea>
           </div>
           <button
@@ -245,7 +244,7 @@
             type="submit"
             class="btn btn-secondary btn-lg btn-default"
           >
-            Submit
+            {{site.data.translations.membership_form.submit}}
           </button>
           <div id="feedback_error"></div>
         </form>
@@ -266,7 +265,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="modal_title">
-          Please complete to download the Developer Services Overview
+          {{site.data.translations.services.form2_hdr}}
         </h5>
         <button
           type="button"
@@ -280,7 +279,7 @@
       <div class="modal-body">
         <!-- Begin Mailchimp Signup Form -->
         <link
-          href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
+          href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css"
           rel="stylesheet"
           type="text/css"
         />
@@ -305,11 +304,11 @@
           >
             <div id="mc_embed_signup_scroll">
               <div class="indicates-required">
-                <span class="asterisk">*</span> indicates required
+                <span class="asterisk">*</span> {{site.data.translations.services.rqd}}
               </div>
               <div class="mc-field-group">
                 <label for="mce-EMAIL"
-                  >Email Address <span class="asterisk">*</span>
+                  >{{site.data.translations.services.form2_email}} <span class="asterisk">*</span>
                 </label>
                 <input
                   type="email"
@@ -321,7 +320,7 @@
               </div>
               <div class="mc-field-group">
                 <label for="mce-COMPANY"
-                  >Company name <span class="asterisk">*</span>
+                  >{{site.data.translations.services.form2_company}} <span class="asterisk">*</span>
                 </label>
                 <input
                   type="text"
@@ -355,7 +354,7 @@
               <div class="clear">
                 <input
                   type="submit"
-                  value="Download"
+                  value="{{site.data.translations.services.download}}"
                   name="subscribe"
                   id="mc-embedded-subscribe"
                   class="button"
