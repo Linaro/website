@@ -69,6 +69,13 @@
                             </div>
                         {% endif %}
                     </div>
+                    {% if block.image_below %}
+                        <div class="img_below">
+                            {% assign block_image = block.image_below %}
+                            {% capture block_image_alt %}{{block.title}} image {% endcapture %}
+                            {% picture card_block_image {{block_image}} --alt {{block_image_alt}} %}
+                        </div>
+                    {% endif %}
                     {% if block.url %}
                         </a>
                     {% endif %}
