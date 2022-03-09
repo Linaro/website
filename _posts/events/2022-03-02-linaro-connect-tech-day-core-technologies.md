@@ -21,11 +21,11 @@ Linaro Tech Days are free to attend and open to the public. Sessions will be rec
 
 
 
-#### [Schedule:](https://events.pinetool.ai/2609/#sessions) 
-
 <style> #pine-sessions { width: 100%; height: 500px; border: 0; display: block; }</style><iframe id="pine-sessions" frameborder="0" border="0" height="500" width="100%" src="https://events.pinetool.ai/2609/#widgets/sessions"></iframe>
 
-#### [Registration](https://www.eventbrite.co.uk/e/linaro-connect-tech-day-core-technologies-tickets-293117461217): 
+
+
+#### [Register](https://www.eventbrite.co.uk/e/linaro-connect-tech-day-core-technologies-tickets-293117461217)
 
 <div id="eventbrite-widget-container-293117461217"></div>
 
