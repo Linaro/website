@@ -1,190 +1,190 @@
 {
-    "maintainers_by_company": [
-        {
-            "name": "Linaro",
-            "num": "62"
-        },
-        {
-            "name": "Arm",
-            "num": "8"
-        },
-        {
-            "name": "ST",
-            "num": "2"
-        },
-        {
-            "name": "Qualcomm",
-            "num": "2"
-        },
-        {
-            "name": "Socionext",
-            "num": "1"
-        },
-        {
-            "name": "Red Hat",
-            "num": "1"
-        }
-    ],
-    "maintainers_by_project": [
-        {
-            "name": "Linux Kernel",
-            "num": "31"
-        },
-        {
-            "name": "TF-A",
-            "num": "6"
-        },
-        {
-            "name": "Zephyr",
-            "num": "5"
-        },
-        {
-            "name": "OP-TEE",
-            "num": "5"
-        },
-        {
-            "name": "U-Boot",
-            "num": "4"
-        },
-        {
-            "name": "SQUAD",
-            "num": "4"
-        },
-        {
-            "name": "QEMU",
-            "num": "3"
-        },
-        {
-            "name": "Open Embedded Layers",
-            "num": "3"
-        },
-        {
-            "name": "LLVM",
-            "num": "3"
-        },
-        {
-            "name": "glibc",
-            "num": "3"
-        },
-        {
-            "name": "Debian Packages",
-            "num": "3"
-        },
-        {
-            "name": "Yocto",
-            "num": "2"
-        },
-        {
-            "name": "Open Embedded Core",
-            "num": "2"
-        },
-        {
-            "name": "Freedesktop",
-            "num": "2"
-        },
-        {
-            "name": "AOSP",
-            "num": "2"
-        },
-        {
-            "name": "Widewine",
-            "num": "1"
-        },
-        {
-            "name": "TQFTPSERV",
-            "num": "1"
-        },
-        {
-            "name": "schedtools",
-            "num": "1"
-        },
-        {
-            "name": "RMTFS",
-            "num": "1"
-        },
-        {
-            "name": "QRTR",
-            "num": "1"
-        },
-        {
-            "name": "QDL",
-            "num": "1"
-        },
-        {
-            "name": "Playready",
-            "num": "1"
-        },
-        {
-            "name": "pil-squasher",
-            "num": "1"
-        },
-        {
-            "name": "pd-mapper",
-            "num": "1"
-        },
-        {
-            "name": "OpenStack",
-            "num": "1"
-        },
-        {
-            "name": "ODPi",
-            "num": "1"
-        },
-        {
-            "name": "moonjit",
-            "num": "1"
-        },
-        {
-            "name": "MCUboot",
-            "num": "1"
-        },
-        {
-            "name": "LAVA",
-            "num": "1"
-        },
-        {
-            "name": "KDE",
-            "num": "1"
-        },
-        {
-            "name": "GPSD",
-            "num": "1"
-        },
-        {
-            "name": "GDB",
-            "num": "1"
-        },
-        {
-            "name": "GCC",
-            "num": "1"
-        },
-        {
-            "name": "Fedora",
-            "num": "1"
-        },
-        {
-            "name": "DIAG",
-            "num": "1"
-        },
-        {
-            "name": "DebugCC",
-            "num": "1"
-        },
-        {
-            "name": "CDBA",
-            "num": "1"
-        },
-        {
-            "name": "Busybox: Buildroot",
-            "num": "1"
-        },
-        {
-            "name": "Bootrr",
-            "num": "1"
-        },
-        {
-            "name": "ALSA Project",
-            "num": "1"
-        }
-    ]
+  "maintainers_by_company": [
+    {
+      "name": "Linaro",
+      "num": "62"
+    },
+    {
+      "name": "Arm",
+      "num": "8"
+    },
+    {
+      "name": "ST",
+      "num": "2"
+    },
+    {
+      "name": "Qualcomm",
+      "num": "2"
+    },
+    {
+      "name": "Socionext",
+      "num": "1"
+    },
+    {
+      "name": "Red Hat",
+      "num": "1"
+    }
+  ],
+  "maintainers_by_project": [
+    {
+      "name": "Linux Kernel",
+      "num": "36"
+    },
+    {
+      "name": "TF-A",
+      "num": "8"
+    },
+    {
+      "name": "Zephyr",
+      "num": "6"
+    },
+    {
+      "name": "OP-TEE",
+      "num": "8"
+    },
+    {
+      "name": "U-Boot",
+      "num": "8"
+    },
+    {
+      "name": "SQUAD",
+      "num": "3"
+    },
+    {
+      "name": "QEMU",
+      "num": "5"
+    },
+    {
+      "name": "Open Embedded Layers",
+      "num": "3"
+    },
+    {
+      "name": "LLVM",
+      "num": "3"
+    },
+    {
+      "name": "glibc",
+      "num": "2"
+    },
+    {
+      "name": "Debian Packages",
+      "num": "3"
+    },
+    {
+      "name": "Yocto",
+      "num": "2"
+    },
+    {
+      "name": "Open Embedded Core",
+      "num": "2"
+    },
+    {
+      "name": "Freedesktop",
+      "num": "2"
+    },
+    {
+      "name": "AOSP",
+      "num": "2"
+    },
+    {
+      "name": "Widewine",
+      "num": "1"
+    },
+    {
+      "name": "TQFTPSERV",
+      "num": "1"
+    },
+    {
+      "name": "schedtools",
+      "num": "1"
+    },
+    {
+      "name": "RMTFS",
+      "num": "1"
+    },
+    {
+      "name": "QRTR",
+      "num": "1"
+    },
+    {
+      "name": "QDL",
+      "num": "1"
+    },
+    {
+      "name": "Playready",
+      "num": "1"
+    },
+    {
+      "name": "pil-squasher",
+      "num": "1"
+    },
+    {
+      "name": "pd-mapper",
+      "num": "1"
+    },
+    {
+      "name": "OpenStack",
+      "num": "2"
+    },
+    {
+      "name": "ODPi",
+      "num": "1"
+    },
+    {
+      "name": "moonjit",
+      "num": "1"
+    },
+    {
+      "name": "MCUboot",
+      "num": "1"
+    },
+    {
+      "name": "LAVA",
+      "num": "1"
+    },
+    {
+      "name": "KDE",
+      "num": "1"
+    },
+    {
+      "name": "GPSD",
+      "num": "1"
+    },
+    {
+      "name": "GDB",
+      "num": "1"
+    },
+    {
+      "name": "GCC",
+      "num": "1"
+    },
+    {
+      "name": "Fedora",
+      "num": "1"
+    },
+    {
+      "name": "DIAG",
+      "num": "1"
+    },
+    {
+      "name": "DebugCC",
+      "num": "1"
+    },
+    {
+      "name": "CDBA",
+      "num": "1"
+    },
+    {
+      "name": "Busybox: Buildroot",
+      "num": "2"
+    },
+    {
+      "name": "Bootrr",
+      "num": "1"
+    },
+    {
+      "name": "ALSA Project",
+      "num": "1"
+    }
+  ]
 }
