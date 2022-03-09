@@ -71,7 +71,7 @@ flow:
         block_section_content:
           blocks:
             - title: Collaboration
-              style: core_value_block h-100
+              style: core_value_block
               content_style: core_value_block__content d-flex flex-column justify-content-between align-items-start
               description: |
                 **- Stronger as a collective**
@@ -79,7 +79,7 @@ flow:
                 Linaro was created as a collaborative engineering forum. We believe that collaboration is key to driving innovation which benefits the greater good.
               image_below: /assets/images/content/Collaboration.jpg
             - title: Innovation
-              style: core_value_block h-100
+              style: core_value_block
               content_style: core_value_block__content d-flex flex-column justify-content-between align-items-start
               description: |
                 **- Technology for the future**
@@ -87,7 +87,7 @@ flow:
                 We develop technology for the future. We are proud of the role we play in enabling new markets on Arm architecture, technology which benefits the lives of so many.
               image_below: /assets/images/content/Innovation.jpg
             - title: Enthusiasm
-              style: core_value_block h-100
+              style: core_value_block
               content_style: core_value_block__content d-flex flex-column justify-content-between align-items-start
               description: |
                 **- Love what you do**
@@ -101,7 +101,8 @@ flow:
             Linaro employees are all over the globe, representing 26 countries. 90% of our staff work from home and we do also offer remote, agile and flexible working for our office-based employees. We believe flexible working promotes a better work life balance - greater ability to focus with fewer distractions, more time for family and friends, cost and time savings and as a result, higher levels of motivation. The fact that the majority of our employees work from home also allows us to maintain a smaller carbon footprint.
           title: Remote, Agile and Flexible Working
           type: image
-        format: feature_block
+        style: bg-light-gray px-3 py-3 m-1
+        format: feature_block_small
       - feature_block_content:
           image_content_path: /assets/images/content/Community.jpg
           position: left
@@ -110,7 +111,8 @@ flow:
             responsibility, we have therefore implemented two paid voluntary days per year for each staff member to go and volunteer in his or her local area. We feel this improves employees’ engagement and well-being, helps to develop individuals’ soft skills and allow employees to feel they are giving something back to the community.
           title: Community and Engagement
           type: image
-        format: feature_block
+        style: bg-light-blue px-3 py-3 m-1
+        format: feature_block_small
   - row: container_row
     style: #
     sections:
