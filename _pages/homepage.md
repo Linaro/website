@@ -14,11 +14,6 @@ css_bundle: home
 layout: flow
 flow:
   - row: custom_include_row
-    source: alert_banner.html
-    title: Microsoft joins Linaro to advance Windows on Arm
-    url: /news/microsoft-joins-linaro-arm-and-qualcomm-technologies-to-advance-windows-on-arm/
-    content_include: home/alert_banner_include.html
-  - row: custom_include_row
     source: home/homepage_header.html
   - row: container_row
     style: bg-black text-section
