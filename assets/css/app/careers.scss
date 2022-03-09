@@ -3,6 +3,7 @@
     border: 1px solid #eee;
     padding: 20px 15px;
   }
+
   a.teamtailor-jobs__job-title {
     color: black;
     display: block;
@@ -11,6 +12,15 @@
   .careers_page {
     img.header_background_image {
       filter: brightness(0.6);
+    }
+  }
+  .card.core_value_block {
+    border: 2px solid #88c4d8;
+    border-radius: 0px;
+    h5 {
+      color: #0785af;
+      font-weight: bold;
+      font-size: 26px;
     }
   }
   // Video Embed
