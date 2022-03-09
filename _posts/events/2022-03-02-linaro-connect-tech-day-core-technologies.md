@@ -17,4 +17,33 @@ We are happy to announce registration for the first Linaro Tech Day, which will 
 
 Linaro Tech Days are free to attend and open to the public. Sessions will be recorded and posted online for those who are not able to attend live. 
 
-Registration and schedule will be added soon on this page.
+[Registration](https://www.eventbrite.co.uk/e/linaro-connect-tech-day-core-technologies-tickets-293117461217) and [schedul](https://events.pinetool.ai/2609/#sessions)e can be found below: 
+
+
+
+<style> #pine-sessions { width: 100%; height: 500px; border: 0; display: block; }</style><iframe id="pine-sessions" frameborder="0" border="0" height="500" width="100%" src="https://events.pinetool.ai/2609/#widgets/sessions"></iframe>
+
+
+
+#### [Register](https://www.eventbrite.co.uk/e/linaro-connect-tech-day-core-technologies-tickets-293117461217)
+
+<div id="eventbrite-widget-container-293117461217"></div>
+
+<script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '293117461217',
+        iframeContainerId: 'eventbrite-widget-container-293117461217',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
