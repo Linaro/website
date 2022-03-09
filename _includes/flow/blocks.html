@@ -32,7 +32,7 @@
                     {% if block.url %}
                         <a href="{{block.url}}">
                     {% endif %}
-                    <div class="card h-100 {% if block.background_image %}background_image text-white{% endif %} {% if block.style %}{{block.style}}{% endif %}">
+                    <div class="card {% unless block.image_below %}h-100{% endunless %} {% if block.background_image %}background_image text-white{% endif %} {% if block.style %}{{block.style}}{% endif %}">
                         {% if block.image %}
                             {% assign block_image = block.image %}
                             {% capture block_image_alt %}{{block.title}} image {% endcapture %}
@@ -70,7 +70,7 @@
                         {% endif %}
                     </div>
                     {% if block.image_below %}
-                        <div class="img_below">
+                        <div class="img_below block_image_below my-3">
                             {% assign block_image = block.image_below %}
                             {% capture block_image_alt %}{{block.title}} image {% endcapture %}
                             {% picture card_block_image {{block_image}} --alt {{block_image_alt}} %}
