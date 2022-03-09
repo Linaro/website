@@ -1,4 +1,51 @@
 #wrapper {
+  .teamtailor-jobs__job {
+    border: 1px solid #eee;
+    padding: 20px 15px;
+  }
+
+  a.teamtailor-jobs__job-title {
+    color: black;
+    display: block;
+    font-weight: bold;
+  }
+  .careers_page {
+    img.header_background_image {
+      filter: brightness(0.6);
+    }
+  }
+  .card.core_value_block {
+    border: 2px solid #88c4d8;
+    border-radius: 0px;
+    h5 {
+      color: #0785af;
+      font-weight: bold;
+      font-size: 26px;
+    }
+  }
+  // Video Embed
+  .video-player {
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    border: 5px solid white;
+    img {
+      filter: brightness(0.5);
+    }
+    .video-player__btn {
+      color: #fff;
+      font-size: 100px;
+      @include media-breakpoint-down(md) {
+        transform: scale(1);
+      }
+      transform: scale(2);
+      left: 50%;
+      margin: -33px 0 0 -44px;
+      position: absolute;
+      text-shadow: 0 1px 1px #9c3;
+      top: 50%;
+    }
+  }
   .row.video_row {
     background-color: #e6e6e6;
     .video_placeholder_image {
