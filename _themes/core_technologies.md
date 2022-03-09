@@ -1,6 +1,7 @@
 ---
 id: 15
 title: Core Technologies
+slug_title: Core Technologies
 sub_theme: false
 permalink: /core-technologies/
 image: /assets/images/content/core_technologies_share_image.png

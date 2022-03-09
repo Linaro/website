@@ -1,6 +1,7 @@
 ---
 id: 17
 title: Automotive, IoT & Edge Devices
+slug_title: Automotive, IoT & Edge Devices
 sub_theme: false
 permalink: /automotive-iot-and-edge-devices/
 image: /assets/images/content/automotive-iot-and-edge-share-image.png
