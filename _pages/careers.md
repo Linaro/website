@@ -29,7 +29,7 @@ flow:
             You will work alongside some of the world’s leading Arm software experts, working on new technologies
             across the entire industry. We bring industry leading companies and open source communities together to
             develop software on Arm-based technology. Our work advances the Arm ecosystem as a whole, enabling
-            new markets on Arm Architecture. Our software can even be found on the Mars Helicopter!
+            new markets on Arm Architecture.
 
             Ready to develop technology for the future? Check out our positions below:
   - row: container_row
