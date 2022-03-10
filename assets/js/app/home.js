@@ -40,6 +40,7 @@ const switch_tab = (tab_id) => {
 };
 const sliderLoop = () => {
   let tab_items = $("#theme_tabs .item");
+  console.log(tab_items);
   update_size();
   let interval = setInterval(() => {
     if (!SLIDER_PAUSED) {

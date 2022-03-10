@@ -1,6 +1,7 @@
 ---
 id: 15
 title: Client Devices
+slug_title: Client Devices
 sub_theme: false
 permalink: /client-devices/
 image: /assets/images/content/client-devices-share-image.png
