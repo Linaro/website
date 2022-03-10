@@ -25,9 +25,9 @@ jobs:
         env:
           TOKEN: ${{ secrets.BUILD_REPO_TOKEN }}
 
-      - name: Trigger 96Boards update
-        run: >-
-          curl -X POST https://api.github.com/repos/96Boards/website/dispatches
-          -H 'Accept: application/vnd.github.everest-preview+json'
-          -u ${{ secrets.BUILD_REPO_TOKEN }}
-          --data '{"event_type": "UpdateMembers", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
+#       - name: Trigger 96Boards update
+#         run: >-
+#           curl -X POST https://api.github.com/repos/96Boards/website/dispatches
+#           -H 'Accept: application/vnd.github.everest-preview+json'
+#           -u ${{ secrets.BUILD_REPO_TOKEN }}
+#           --data '{"event_type": "UpdateMembers", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
