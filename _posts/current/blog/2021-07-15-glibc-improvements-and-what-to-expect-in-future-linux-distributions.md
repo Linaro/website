@@ -19,7 +19,7 @@ The recent glibc releases bring a lot of newer features, ranging from new scheme
 
 ## AArch64 PAC-RET, BTI, and MTE
 
-**glibc 2.32** supports newer Arm Architecture features: AArch64 pointer authentication for return addresses ([PAC-RET](https://events.static.linuxfound.org/sites/events/files/slides/slides_23.pdf)) and branch target identification ([Armv8.5-A BTI](https://github.com/llvm-mirror/llvm/commit/4bc81028d48c0ab07e7b429d2a98ed6d15140a23)), while glibc **2.33** supports the Arm Memory Tagging Extension ([Armv8.5-A MTE](https://www.google.com/url?q=https://developer.arm.com/-/media/Arm%2520Developer%2520Community/PDF/Arm_Memory_Tagging_Extension_Whitepaper.pdf&sa=D&source=editors&ust=1626344114788000&usg=AOvVaw0zaywww6vHZcRdqIvWcX5-)).
+**glibc 2.32** supports newer Arm Architecture features: AArch64 pointer authentication for return addresses ([PAC-RET](https://events.static.linuxfound.org/sites/events/files/slides/slides_23.pdf)) and branch target identification ([Armv8.5-A BTI](https://github.com/llvm-mirror/llvm/commit/4bc81028d48c0ab07e7b429d2a98ed6d15140a23)), while glibc **2.33** supports the Arm Memory Tagging Extension ([Armv8.5-A MTE](https://developer.arm.com/-/media/Arm%20Developer%20Community/PDF/Arm_Memory_Tagging_Extension_Whitepaper.pdf)).
 
 **PAC-RET** is an optional Armv8.3-A extension that basically detects illicit modification of pointers and data. Its main purpose is to harden programs against Return-Oriented programming (ROP) by signing and authenticating the pointers on usage such as locally-scoped pointers / stackframe or PLTs ([Procedure Linkage Table](https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html) which is an essential part of dynamic libraries) entries. Its support is done by a combination of kernel (which handles the internal cryptography key) and compiler support. glibc support was also added and requires some additional support on specific assembly routines.
 
@@ -45,7 +45,7 @@ Recent Linux version (starting from version 5.1 with complete support on 5.4) ad
 
 ## C.UTF-8
 
-**glibc 2.35* adds a new C.UTF-8 locale, already provided by some downstream distributions and some Operational Systems. The locale supports full code-point sorting for all valid Unicode code points (including Unicode 14.0).
+**glibc 2.35** adds a new C.UTF-8 locale, already provided by some downstream distributions and some Operational Systems. The locale supports full code-point sorting for all valid Unicode code points (including Unicode 14.0).
 
 ## glibc HWCAPS loader support
 
@@ -64,9 +64,9 @@ The way the library search path is defined and combined generates a lot of permu
 1. More overhead in process initialization due to the multiple filesystem access. This is mitigated by using a library search cache ([ld.so.cache](https://man7.org/linux/man-pages/man8/ld.so.8.html)).
 2. It increases the complexity to provide libraries optimized to a specific ABI or processor and how to organize and deploy the optimized builds.
 
-The solution on glibc 2.33 is a simplified search path that does not create multiple subpaths based on hardware capabilities, but rather maps it to a specific ABI subfolder. Each architecture can then define a set of ABIs, as [x86_64 has done](https://gcc.gnu.org/pipermail/gcc/2020-July/233088.html). The current scheme has a bad side effect where the possible combination of hardware capabilities does not scale well (it increases exponentially by each new hardware capability). By defining specific sets, we can limit the possible permutations.
+The solution on **glibc 2.33** is a simplified search path that does not create multiple subpaths based on hardware capabilities, but rather maps it to a specific ABI subfolder. Each architecture can then define a set of ABIs, as [x86_64 has done](https://gcc.gnu.org/pipermail/gcc/2020-July/233088.html). The current scheme has a bad side effect where the possible combination of hardware capabilities does not scale well (it increases exponentially by each new hardware capability). By defining specific sets, we can limit the possible permutations.
 
-For instance, with glibc 2.33 on x86_64 the loader now does:
+For instance, on x86_64 the loader now does:
 
 {% include image.html path="/assets/images/content/image-of-the-loader-with-glibc-2.33-on-x86_64.png" alt="Image of the loader with glibc 2.33 on x86_64" %}
 
@@ -114,11 +114,13 @@ The **glibc 2.29** replaced its generic exp, exp2, exp10f, log, log2, pow, sinf,
 
 ### Linux support
 
-The glibc 2.34 continues to improve support for Linux syscalls by adding both [evecveat](https://man7.org/linux/man-pages/man2/execveat.2.html) and (close_range)[https://man7.org/linux/man-pages/man2/close_range.2.html].
+Tje **glibc 2.30** added the getdents64 function, used on mainly by libraries to access that access the filesystem. It also added both gettid, tgkill, and getcpu to keep in sync with Linux syscalls.
 
-The glibc 2.35 added the [Restartable Sequences ABI support back](https://www.efficios.com/blog/2019/02/08/linux-restartable-sequences/). The general idea is the kernel will handle any interrupted concurrent memory operation by context switch with a registered fallback procedure. It might be used to accelerates user-space operations on per-cpu data, such as function like (sched_getcpu)[https://man7.org/linux/man-pages/man3/sched_getcpu.3.html] and possible per-cpu memory cached (such as some (memory allocator does)[https://github.com/google/tcmalloc]).
+The **glibc 2.34** continues to improve support for Linux syscalls by adding both [evecveat](https://man7.org/linux/man-pages/man2/execveat.2.html) and [close_range](https://man7.org/linux/man-pages/man2/close_range.2.html).
 
-The glibc 2.35 also adds support for (epoll_pwait2)[https://man7.org/linux/man-pages/man2/epoll_wait.2.html] syscall.
+The **glibc 2.35** added the [Restartable Sequences ABI support back](https://www.efficios.com/blog/2019/02/08/linux-restartable-sequences/). The general idea is the kernel will handle any interrupted concurrent memory operation by context switch with a registered fallback procedure. It might be used to accelerates user-space operations on per-cpu data, such as function like [sched_getcpu](https://man7.org/linux/man-pages/man3/sched_getcpu.3.html) and possible per-cpu memory cached (such as some [memory allocator does](https://github.com/google/tcmalloc)).
+
+The **glibc 2.35** also adds support for (epoll_pwait2)[https://man7.org/linux/man-pages/man2/epoll_wait.2.html] syscall.
 
 ### ISO C support
 
@@ -155,10 +157,6 @@ Similar to the pthread_clockjoin_np, these are extensions to the pthread routine
 ### twalk_r
 
 This is similar to the existing twalk function, but it passes an additional caller-supplied argument  to the callback function.
-
-### Linux getdents64, gettid, and tgkill, getcpu
-
-These are the direct maps to the Linux syscalls and keep the new glibc idea to keep in sync with Linux syscall additions.
 
 ### posix_spawn extensions
 
