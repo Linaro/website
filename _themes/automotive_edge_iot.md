@@ -188,6 +188,15 @@ flow:
                 - title: Learn more
                   style: btn-lg btn-primary btn-outline-primary
                   url: https://linaro.atlassian.net/wiki/spaces/AIM/overview
+            - title: Heterogeneous Platform
+              style: related_project_block h-100
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                The Heterogeneous Platform project is focused on software that allows the different core types or OS types to work together and creates a standards based framework to make the system developers job easier. The majority of Automotive SOCs use multiple CPU core types. Adding M profile or R profile cores to a SOC with A profile cores, allows the A profile cores to focus on the Linux tasks it is designed for, while M/R cores can focus on low latency sense/control loops, isolated security, or increased safety.
+              buttons:
+                - title: Learn more
+                  style: btn-lg btn-primary btn-outline-primary
+                  url: https://linaro.atlassian.net/wiki/spaces/HPP/overview
       - format: buttons
         style: text-center
         buttons_content:
