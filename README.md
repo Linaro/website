@@ -100,7 +100,7 @@ To add a new language, edit `_config.yml` and change `languages: ["en", "ch"]` t
 
 For each top-level folder, e.g. `_pages`, there should be a sub-directory with the matching language code, e.g. `ch`. Within that folder should be copies of the original English pages but translated to the appropriate language.
 
-**IMPORTANT!** Pages **must** have `lang: xx` after the `---` opening line, where `xx` is the matching language code. Without this line, the translated page may be displayed instead of the default English page.
+**IMPORTANT!** Pages *must* have `lang: xx` after the `---` opening line, where `xx` is the matching language code. Without this line, the translated page may be displayed instead of the default English page.
 
 ### Add multi-lingual HTML
 
