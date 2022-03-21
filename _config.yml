@@ -50,22 +50,16 @@ plugins:
   - jekyll_picture_tag
   - jekyll-tidy
 collections:
-  company:
-    output: true
-    permalink: /membership/:name/
   services:
     output: true
   themes:
     output: true
-  core:
-    output: true
-    permalink: /:collection/:path/
   authors:
     output: true
     permalink: /author/:name/
-  internships:
+  woa:
     output: true
-    permalink: /careers/internships/:name/
+    permalink: /windows-on-arm/:name/
 liquid:
   error_mode: strict
 defaults:
@@ -103,6 +97,13 @@ defaults:
       image: /assets/images/content/LinaroDSVertical.png
   - scope:
       type: "themes"
+    values:
+      layout: flow
+      css_bundle: themes
+      js-package: themes
+      image: /assets/images/content/LinaroDSVertical.png
+  - scope:
+      type: "woa"
     values:
       layout: flow
       css_bundle: themes
@@ -154,20 +155,6 @@ defaults:
       path: "_pages/projects/"
     values:
       sitemap: false
-  - scope:
-      path: ""
-      type: "company"
-    values:
-      layout: flow
-      flow:
-        - row: container_row
-          sections:
-            - format: custom_include
-              source: display_company_info.html
-  - scope:
-      type: "internships"
-    values:
-      layout: vacancy
   # - scope:
   #     path: "/sitemap.xml"
   #   values:
@@ -315,6 +302,6 @@ exclude_from_localization:
     "public",
     "remote",
     "robots.txt",
-    "favicon.ico"
+    "favicon.ico",
   ]
 parallel_localization: false
