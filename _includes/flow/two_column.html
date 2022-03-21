@@ -26,6 +26,9 @@
             {% if include.object.right_column.include %}
                 {% include {{include.object.right_column.include}} object=include.object %}
             {% endif %}
+            {% if include.object.right_column.button %}
+                {% include flow/button.html object=include.object.right_column.button %}
+            {% endif %}
             {% if include.object.right_column.image %}
                 {% assign image_path = include.object.right_column.image  %}
                 {% capture image_alt %}
