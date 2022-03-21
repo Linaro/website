@@ -8,7 +8,7 @@
                 {% for project in site.woa %}
                     {% unless project.future_project %}
                     <div class="col col-6 col-sm-3">
-                        <a  href="{{project.url">
+                        <a  href="{{project.url}}">
                             <div class="project_container">
                                 {% assign block_image = project.image %}
                                 {% capture block_image_alt %}{{project.title}} logo {% endcapture %}
@@ -33,7 +33,7 @@
                 {% for project in site.woa %}
                     {% if project.future_project %}
                     <div class="col col-6 col-sm-3">
-                        <a  href="{{project.url">
+                        <a  href="{{project.url}}">
                             <div class="project_container">
                                 {% assign block_image = project.image %}
                                 {% capture block_image_alt %}{{project.title}} logo {% endcapture %}
