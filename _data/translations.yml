@@ -200,3 +200,6 @@ events:
   watchNow: Available to watch now
   recentEvent: Over 70 Technical Sessions and Keynotes from our most recent event (Sept 2021)
 resources: Resources
+woa:
+  projects: Projects
+  futureProjects: Future Projects
