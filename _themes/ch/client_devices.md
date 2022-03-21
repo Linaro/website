@@ -22,7 +22,7 @@ jumbotron:
   description: |
     毫无疑问，Arm 芯片可以通过高效的功耗、快速的性能和全天的电池寿命提供卓越的用户体验。
 
-    但对于在基于 Arm 的技术上运行的设备以真正利用这些功能，操作系统 (OS) 需要确保使用其操作系统的开源工具和应用程序可以在 Arm 上本地运行。 这是一项不小的任务，也是 Google 和 Microsoft 与 Linaro、其成员和开源社区合作的原因。 Linaro 推动了为 Arm 上的 Android 和 Windows 创建强大的生态系统所需的工作。 这些生态系统在为消费者提供卓越的用户体验方面发挥着至关重要的作用。
+    但对于在基于 Arm 的技术上运行的设备能够真正利用这些功能，操作系统 (OS) 需要确保使用其操作系统的开源工具和应用程序可以在 Arm 上本地运行。 这是一项不小的任务，也是 Google 和 Microsoft 与 Linaro及其成员和开源社区合作的原因。 Linaro 推动了为Android 和 Windows on Arm创建强大的生态系统所需的工作。这些生态系统在为消费者提供卓越的用户体验方面发挥着至关重要的作用。
   image: /assets/images/content/Client_Devices_banner_pic.jpg
 flow:
   - row: custom_include_row
@@ -71,7 +71,7 @@ flow:
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                Android 运行时 (ART) 是 Android 上的应用程序和某些系统服务使用的托管运行时。 ART 及其前身 Dalvik 最初是专门为 Android 项目创建的。 ART 作为运行时执行 Dalvik 可执行格式和 Dex 字节码规范。 ART 和 Dalvik 是运行 Dex 字节码的兼容运行时，因此为 Dalvik 开发的应用程序在使用 ART 运行时应该可以工作。 然而，一些适用于 Dalvik 的技术不适用于 ART。 ART 支持 Java 和 Kotlin。
+                Android 运行时 (ART) 是 Android 上的应用程序和某些系统服务使用的托管运行时。 ART 及其前身 Dalvik 最初是专门为 Android 项目创建的。 ART 作为运行时执行 Dalvik Executable 格式和 Dex 字节码规范。 ART 和 Dalvik 是运行 Dex 字节码的兼容运行时，因此为 Dalvik 开发的应用程序在使用 ART 运行时应该可以工作。 然而，有些适用于 Dalvik 的技术不适用于 ART。 ART 支持 Java 和 Kotlin。
             - title: 面向 Android 的 Linux 内核开发
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start

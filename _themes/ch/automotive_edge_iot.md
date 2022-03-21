@@ -23,7 +23,7 @@ jumbotron:
     软件定义的功能不再局限于云网络，而是有望扩展到边缘。
 
 
-    自主 AI 驱动的功能正被部署到网关甚至传感器的信任位置。推动向软件定义汽车发展的Zonal Architecture革命只是行业已转向软件优先方法的一个指标。 
+    自主 AI 驱动的功能正被部署到网关甚至传感器的信任位置。推动向软件定义汽车发展的Zonal Architecture革命只是行业已转向软件优先方法的一个指示。 
   image: /assets/images/content/Auto_IoT_Edge_banner_pic.jpg
 flow:
   - row: custom_include_row
@@ -60,7 +60,7 @@ flow:
       - format: title
         style: font-weight-bold mt-4
         title_content:
-          text: Linaro Projects 为汽车、物联网和边缘用例提供标准化
+          text: Linaro Projects 为汽车、物联网和边缘场景提供标准化
           size: h2
       # - format: custom_include
       #   source: themes/related_project_blocks.html
@@ -82,16 +82,16 @@ flow:
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                Open-CMSIS-Pack 项目正在为软件组件打包和相关基础工具提供标准，用于验证、分发、集成、管理和维护微控制器软件。 它旨在为嵌入式软件创建一个灵活且易于使用的端到端开发流程——从项目创建到在真实或虚拟硬件上执行软件。
+                Open-CMSIS-Pack 项目正在为软件组件打包和相关基础工具提供标准，用于微控制器软件的验证、分发、集成、管理和维护。 它旨在为嵌入式软件创建一个灵活且易于使用的端到端开发流程——从项目创建到在真实或虚拟硬件上执行软件。
               buttons:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary
                   url: https://linaro.atlassian.net/wiki/spaces/CMSIS/overview
-            - title: 可信基板
+            - title: Trusted Substrate
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                Trusted Substrate 是一种 BIOS，可为汽车和机器人等最需要信任的嵌入式计算项目带来基于标准的安全启动和无线 (OTA) 更新。 该项目旨在将所有必要技术上游到多个项目中，以实现 Arm SystemReady 合规性。
+                Trusted Substrate 是一种 BIOS，可为汽车和机器人等最需要信任的嵌入式计算项目带来标准化的安全启动准的安全启动和无线 (OTA) 更新。 该项目旨在将所有必要技术上游到多个项目中，以实现 Arm SystemReady 兼容性。
               buttons:
                 - title: 下载白皮书
                   style: btn-lg btn-primary mb-2
@@ -126,6 +126,15 @@ flow:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary
                   url: https://linaro.atlassian.net/wiki/spaces/AIM/overview
+            - title: 异构平台
+              style: related_project_block h-100
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                异构平台项目是专注允许不同类型的CPU核和操作系统协同工作的软件，并创建基于标准的框架，使系统开发人员的工作更加情轻松。大多数汽车的SOC使用多核CPU类型。将M Profile和R profile核添加到A profile核的SOC中，允许A profile核专注于其设计的Linux任务，而M/R核可以专注于低延时感测/控制循环，隔离安全或增加安全性。
+              buttons:
+                - title: 了解更多
+                  style: btn-lg btn-primary btn-outline-primary
+                  url: https://linaro.atlassian.net/wiki/spaces/HPP/overview
       - format: buttons
         style: text-center
         buttons_content:
