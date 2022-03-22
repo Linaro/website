@@ -10,7 +10,7 @@ keywords:
   - linux
   - software projects
 js-package: about
-css_bundle: about
+css_bundle: woa
 layout: flow
 jumbotron:
   class: header_2021_2 theme_banner
@@ -26,10 +26,10 @@ jumbotron:
   image: /assets/images/content/iStock-667012914_sm.jpg
 flow:
   - row: container_row
-    style: my-3 bg-blue
+    style: my-3 bg-blue bordered-row
     sections:
       - format: text
-        style: text-left
+        style: text-center text-white
         text_content:
           text: >-
             Our mission is to establish a healthy self-sustaining Arm open source ecosystem for Windows. We look at a diverse set of tools, languages, and frameworks to support Windows on Arm
@@ -69,6 +69,39 @@ flow:
           custom_size: 4
           style: p-3
           button:
-            text: Linaro Service Desk
+            style: blue-button
+            title: Linaro Service Desk
             url: https://linaro-servicedesk.atlassian.net/servicedesk/customer/portal/22/group/85/create/301
+  - row: container_row
+    style: my-3 bg-light-gray
+    sections:
+      - format: title
+        style: text-left white-border-title font-weight-bold
+        title_content:
+          size: h3
+          text: Linaro Windows on Arm Technical Meetings
+      - format: title
+        style: text-left font-weight-bold
+        title_content:
+          size: h3
+          text: Windows on Arm Technical
+      - format: text
+        style: text-left
+        text_content:
+          text: |
+            Every two weeks on Tuesday - 4:00-5:00pm (Timezone?) <br/>
+            Google Meet joining info <br/>
+            Video call link: Meet <br/>
+            Or dial: (GB) +44 20 3957 1568 PIN: 607 467 593# <br/>
+            More phone numbers: Join this video meeting <br/>
+  - row: container_row
+    style: my-3
+    sections:
+      - format: title
+        style: text-left white-border-title font-weight-bold
+        title_content:
+          size: h3
+          text: Active Members
+      - format: custom_include
+        source: woa/members.html
 ---
