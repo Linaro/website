@@ -106,9 +106,9 @@ defaults:
       type: "woa"
     values:
       layout: flow
-      css_bundle: themes
-      js-package: themes
-      image: /assets/images/content/LinaroDSVertical.png
+      css_bundle: woa
+      js-package: about
+      image: /assets/images/content/iStock-667012914_sm.jpg
   - scope:
       path: "_posts/events"
     values:
