@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col col-12 col-sm-8">
+        <h3>{{page.title}}</h3>
+        {{content}}
+    </div>
+    <div class="col col-12 col-sm-4">
+        {% assign block_image = page.logo %}
+        {% capture block_image_alt %}{{page.title}} logo {% endcapture %}
+        {% picture card_block_image {{block_image}} --alt {{block_image_alt}} %}
+    </div>
+</div>
