@@ -43,6 +43,8 @@ pages:
         options:
           - text: All Projects
             url: /projects/
+          - text: Windows on Arm Project
+            url: /windows-on-arm/
           - text: Community Projects
             url: /community-projects/
   - title: Services
