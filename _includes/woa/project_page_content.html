@@ -2,6 +2,15 @@
     <div class="col col-12 col-sm-8">
         <h3>{{page.title}}</h3>
         {{content}}
+        {% if page.links %}
+        <ul>
+            {% for link in page.links %}
+                <li>
+                    <a href="{{link.url}}">{{link.title}}</a>
+                </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
     </div>
     <div class="col col-12 col-sm-4">
         {% assign block_image = page.logo %}
