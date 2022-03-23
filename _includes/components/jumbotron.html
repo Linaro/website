@@ -78,35 +78,37 @@
             </div>
         </div>
         {% endif %}
-        <div class="row {% if page.jumbotron.title_row %}py-4{% endif %}">
-            <div class="container {% if page.jumbotron.inner_class %}{{page.jumbotron.inner_class}}{% endif %}">
-                {% if page.jumbotron.svg %}
-                    <div class="jumbotron-svg">
-                        {% include {{page.jumbotron.svg}} %}
-                    </div>
-                {% endif %}
-                <div class="inner_content_wrapper">
-                    {% unless page.jumbotron.title_row %}
-                        <h1 {% if page.jumbotron.title-class %}class="{{page.jumbotron.title-class}}"{% endif %}>{{page.jumbotron.title}}</h1>
-                    {% endunless %}
-                    {% if page.jumbotron.description %}
-                    <div class="lead">
-                        {{page.jumbotron.description | markdownify }}
-                    </div>
+        {% if page.jumbotron.description or page.jumbotron.svg or page.jumbotron.buttons %}
+            <div class="row {% if page.jumbotron.title_row %}py-4{% endif %}">
+                <div class="container {% if page.jumbotron.inner_class %}{{page.jumbotron.inner_class}}{% endif %}">
+                    {% if page.jumbotron.svg %}
+                        <div class="jumbotron-svg">
+                            {% include {{page.jumbotron.svg}} %}
+                        </div>
                     {% endif %}
-                    {% if page.jumbotron.buttons %}
-                    <p class="lead">
-                        {% for button in page.jumbotron.buttons %}
-                            {% include flow/button.html object=button %}
-                        {% endfor %}
-                    </p>
+                    <div class="inner_content_wrapper">
+                        {% unless page.jumbotron.title_row %}
+                            <h1 {% if page.jumbotron.title-class %}class="{{page.jumbotron.title-class}}"{% endif %}>{{page.jumbotron.title}}</h1>
+                        {% endunless %}
+                        {% if page.jumbotron.description %}
+                        <div class="lead">
+                            {{page.jumbotron.description | markdownify }}
+                        </div>
+                        {% endif %}
+                        {% if page.jumbotron.buttons %}
+                        <p class="lead">
+                            {% for button in page.jumbotron.buttons %}
+                                {% include flow/button.html object=button %}
+                            {% endfor %}
+                        </p>
+                        {% endif %}
+                    </div>
+                    {% if page.jumbotron.include %}
+                        {% include {{page.jumbotron.include}} %}
                     {% endif %}
                 </div>
-                {% if page.jumbotron.include %}
-                    {% include {{page.jumbotron.include}} %}
-                {% endif %}
             </div>
-        </div>
+        {% endif %}
     </div>
 </div>
 {% endif %}
