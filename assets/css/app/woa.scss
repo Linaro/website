@@ -1,4 +1,14 @@
 #wrapper {
+  .woa_list {
+    list-style: none;
+    padding-left: 0;
+    li {
+      color: #20aaff;
+      a {
+        color: #20aaff;
+      }
+    }
+  }
   .bordered-row {
     &:before {
       border-top: 2px solid #20aaff !important;
