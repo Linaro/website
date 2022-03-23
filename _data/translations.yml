@@ -202,4 +202,5 @@ events:
 resources: Resources
 woa:
   projects: Projects
+  overview: Overview
   futureProjects: Future Projects
