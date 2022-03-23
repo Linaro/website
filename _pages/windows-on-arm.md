@@ -40,6 +40,7 @@ flow:
         style: text-left
         title_content:
           size: h3
+          style: font-weight-bold
           text: Windows on Arm Supported Projects
       - format: text
         style: text-left
@@ -79,11 +80,13 @@ flow:
         style: text-left white-border-title font-weight-bold
         title_content:
           size: h3
+          style: font-weight-bold
           text: Linaro Windows on Arm Technical Meetings
       - format: title
         style: text-left font-weight-bold
         title_content:
           size: h3
+          style: font-weight-bold
           text: Windows on Arm Technical
       - format: text
         style: text-left
@@ -101,6 +104,7 @@ flow:
         style: text-left white-border-title font-weight-bold
         title_content:
           size: h3
+          style: font-weight-bold
           text: Active Members
       - format: custom_include
         source: woa/members.html
