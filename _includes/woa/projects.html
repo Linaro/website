@@ -11,10 +11,10 @@
                         <a  href="{{project.url}}">
                             <div class="project_container">
                                 {% assign block_image = project.logo %}
-                                {% capture block_image_alt %}{{project.title}} logo {% endcapture %}
+                                {% capture block_image_alt %}{{project.name}} logo {% endcapture %}
                                 {% picture card_block_image {{block_image}} --alt {{block_image_alt}} %}
                                 <h4>
-                                    {{project.title}}
+                                    {{project.name}}
                                 </h4>
                             </div>
                         </a>
@@ -36,10 +36,10 @@
                         <a  href="{{project.url}}">
                             <div class="project_container">
                                 {% assign block_image = project.logo %}
-                                {% capture block_image_alt %}{{project.title}} logo {% endcapture %}
+                                {% capture block_image_alt %}{{project.name}} logo {% endcapture %}
                                 {% picture card_block_image {{block_image}} --alt {{block_image_alt}} %}
                                 <h4>
-                                    {{project.title}}
+                                    {{project.name}}
                                 </h4>
                             </div>
                         </a>
