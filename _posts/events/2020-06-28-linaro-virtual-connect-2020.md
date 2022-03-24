@@ -1,7 +1,7 @@
 ---
 title: "Linaro Virtual Connect 2020 "
 event: linaro-virtual-connect
-event_url: "https://connect.linaro.org "
+event_url: "/connect/"
 description: >-
   As a result of Covid-19 and concern for the safety of all attendees, we have
   cancelled all Linaro Connect events scheduled for 2020.

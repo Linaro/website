@@ -3,9 +3,7 @@ items:
     title: Linaro
     url: "https://www.linaro.org/"
   - title: Connect
-    url: "https://connect.linaro.org"
-  - title: 96Boards
-    url: "https://www.96boards.org"
+    url: "/connect/"
   - title: CodeLinaro
     url: "https://www.codelinaro.org/"
   - title: Twitter

@@ -1,7 +1,7 @@
 ---
 title: "Linaro Virtual Connect 2021 Fall "
 event: lvc21-fall
-event_url: https://connect.linaro.org/
+event_url: /connect/
 description: >
   Linaro Virtual Connect Fall will be held September 8-10, 2021.
 
@@ -10,11 +10,6 @@ description: >
   Deadline to submit proposals July 13, 2021Submission notifications July 20, 2021. Full schedule announcement and attendee registration opens August 3, 2021
 
   Pre-recorded session videos due from speakers September 1, 2021
-
-
-
-
-  https://connect.linaro.org/
 
   #LVC21F #LinaroConnect 
 date: 2021-05-18 11:46:25

@@ -32,7 +32,7 @@ We think this can be further improved upon. By developing a framework for a shar
 
 # The challenge of building AOSP images for each target device
 
-At the [last virtual Linaro Connect](https://connect.linaro.org/resources/lvc21f/lvc21f-307/), we discussed the new Qualcomm Robotics RB5 development board (RB5), and how by using iterative upstream development, the RB5 was able to leverage the device support present for the Qualcomm Robotics RB3 Platform Development Kit (also known as Dragonboard 845c or DB845c) already in AOSP. This made the RB5 the easiest Linaro supported development board yet to be added to AOSP.
+At the [last virtual Linaro Connect](https://resources.linaro.org/en/resource/8sjfJfUNX3qitL5MW6Tbfz), we discussed the new Qualcomm Robotics RB5 development board (RB5), and how by using iterative upstream development, the RB5 was able to leverage the device support present for the Qualcomm Robotics RB3 Platform Development Kit (also known as Dragonboard 845c or DB845c) already in AOSP. This made the RB5 the easiest Linaro supported development board yet to be added to AOSP.
 
 But when both developing and testing with these devices, we still had to build AOSP for each target device. It seemed clear it would be a lot nicer if we could save both time and storage and have a single target image which could be used for testing on both boards.
 

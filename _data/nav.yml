@@ -67,8 +67,6 @@ pages:
         url: /downloads/
       - text: Linaro Resources Hub
         url: https://resources.linaro.org
-      - text: Linaro Connect
-        url: https://connect.linaro.org
   - title: Support
     url: /support/
   - title: About

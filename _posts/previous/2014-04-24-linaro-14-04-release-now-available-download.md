@@ -76,4 +76,4 @@ Bug reports for this release should be filed in Launchpad against the individual
 
 **UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT USA 2014**
 
-Registration for Linaro Connect USA 2014 (LCU14), which will be in Burlingame, California from September 15 - 19, 2014 is now open.  More information on this event can be found at: [https://connect.linaro.org/lcu14/](https://connect.linaro.org/lcu14/)
+Registration for Linaro Connect USA 2014 (LCU14), which will be in Burlingame, California from September 15 - 19, 2014 is now open.
