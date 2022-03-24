@@ -3,7 +3,7 @@ items:
     title: Linaro
     url: "https://www.linaro.org/"
   - title: Connect
-    url: "https://www.linaro.org/connect/"
+    url: "/connect/"
   - title: CodeLinaro
     url: "https://www.codelinaro.org/"
   - title: Twitter
