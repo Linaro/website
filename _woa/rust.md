@@ -4,12 +4,7 @@ title: Rust - Windows on Arm
 name: Rust
 logo: /assets/images/content/windows_on_arm/Rust.png
 description: >
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-  erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-  molestie consequat.
+  Rust is a multi-paradigm, general-purpose programming language designed for performance and safety, especially safe concurrency.
 image: /assets/images/content/iStock-667012914_sm.jpg
 jumbotron:
   class: header_2021_2 theme_banner
@@ -17,16 +12,8 @@ jumbotron:
   title: Windows on Arm Project - Rust
   image: /assets/images/content/iStock-667012914_sm.jpg
 links:
-  - text: Documentation
-    url: https://llvm.org
-  - text: Link
-    url: /
-  - text: Link
-    url: /
-  - text: Link
-    url: /
-  - text: Link
-    url: /
+  - text: Download
+    url: https://forge.rust-lang.org/infra/other-installation-methods.html
 flow:
   - row: container_row
     style: #
@@ -93,13 +80,6 @@ flow:
         source: woa/members.html
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat.
+Rust is a multi-paradigm, general-purpose programming language designed for performance and safety, especially safe concurrency.
 
-Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
-iusto odio dignissim qui blandit praesent luptatum zzril delenit augue
-duis dolore te feugait nulla facilisi.
+Rust has added tier-2 support for windows on arm. Official releases are available from the rust website.

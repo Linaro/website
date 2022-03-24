@@ -3,12 +3,7 @@ title: Bazel - Windows on Arm
 name: Bazel
 logo: /assets/images/content/windows_on_arm/Bazel.png
 description: >
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-  erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-  molestie consequat.
+  Bazel is an open-source build and test tool that scalably supports multi-language and multi-platform projects. Bazel is used for many popular projects and is the only support build platform for popular frameworks like TensorFlow.
 image: /assets/images/content/iStock-667012914_sm.jpg
 jumbotron:
   class: header_2021_2 theme_banner
@@ -16,16 +11,10 @@ jumbotron:
   title: Windows on Arm Project - Bazel
   image: /assets/images/content/iStock-667012914_sm.jpg
 links:
-  - text: Documentation
-    url: https://llvm.org
-  - text: Link
-    url: /
-  - text: Link
-    url: /
-  - text: Link
-    url: /
-  - text: Link
-    url: /
+  - text: Releases
+    url: https://github.com/bazelbuild/bazel/releases
+  - text: Enablement Notes
+    url: https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28685041907/Bazel
 flow:
   - row: container_row
     style: #
@@ -92,13 +81,8 @@ flow:
         source: woa/members.html
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat.
+Bazel is an open-source build and test tool that scalably supports multi-language and multi-platform projects. Bazel is used for many popular projects and is the only support build platform for popular frameworks like TensorFlow.
 
-Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
-iusto odio dignissim qui blandit praesent luptatum zzril delenit augue
-duis dolore te feugait nulla facilisi.
+Windows on Arm support is available from Bazel v5.1
+
+> Note: Bazel v5.1 is not yet released. Bazel v6.0 pre-releases are available for windows on arm.

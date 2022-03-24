@@ -3,12 +3,10 @@ title: TclTk - Windows on Arm
 name: TclTk
 logo: /assets/images/content/windows_on_arm/TclTk.png
 description: >
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-  erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-  molestie consequat.
+  Tcl is a high-level, general-purpose, interpreted, dynamic programming language.
+
+  Tk is a platform-independent GUI framework developed for Tcl.
+
 image: /assets/images/content/iStock-667012914_sm.jpg
 jumbotron:
   class: header_2021_2 theme_banner
@@ -16,16 +14,8 @@ jumbotron:
   title: Windows on Arm Project - TclTk
   image: /assets/images/content/iStock-667012914_sm.jpg
 links:
-  - text: Documentation
-    url: https://llvm.org
-  - text: Link
-    url: /
-  - text: Link
-    url: /
-  - text: Link
-    url: /
-  - text: Link
-    url: /
+  - text: Enablement Notes
+    url: https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28698017811/Tcl+Tk
 flow:
   - row: container_row
     style: #
@@ -92,13 +82,8 @@ flow:
         source: woa/members.html
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat.
+Tcl is a high-level, general-purpose, interpreted, dynamic programming language.
 
-Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
-iusto odio dignissim qui blandit praesent luptatum zzril delenit augue
-duis dolore te feugait nulla facilisi.
+Tk is a platform-independent GUI framework developed for Tcl.
+
+Tcl/Tk has been ported for windows on arm. There are no pre-built releases available yet but can be compiled from source. Please see enablement notes for details.

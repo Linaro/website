@@ -4,12 +4,8 @@ title: node.js - Windows on Arm
 name: node.js
 logo: /assets/images/content/windows_on_arm/nodeJS.png
 description: >
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-  erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-  molestie consequat.
+  Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
+
 image: /assets/images/content/iStock-667012914_sm.jpg
 jumbotron:
   class: header_2021_2 theme_banner
@@ -17,16 +13,8 @@ jumbotron:
   title: Windows on Arm Project - node.js
   image: /assets/images/content/iStock-667012914_sm.jpg
 links:
-  - text: Documentation
-    url: https://llvm.org
-  - text: Link
-    url: /
-  - text: Link
-    url: /
-  - text: Link
-    url: /
-  - text: Link
-    url: /
+  - text: Enablement Notes
+    url: https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28696084508/Node.js
 flow:
   - row: container_row
     style: #
@@ -93,13 +81,6 @@ flow:
         source: woa/members.html
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat.
+Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
 
-Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
-iusto odio dignissim qui blandit praesent luptatum zzril delenit augue
-duis dolore te feugait nulla facilisi.
+Node.js added support for windows on arm but there are no official releases yet. It can be compiled from source. Please see enablement notes for details.

@@ -16,16 +16,10 @@ jumbotron:
   title: Windows on Arm Project - Python
   image: /assets/images/content/iStock-667012914_sm.jpg
 links:
-  - text: Documentation
-    url: https://llvm.org
-  - text: Link
-    url: /
-  - text: Link
-    url: /
-  - text: Link
-    url: /
-  - text: Link
-    url: /
+  - text: Latest Release
+    url: https://www.python.org/downloads/release/python-3110a6/
+  - text: Enablement Notes
+    url: https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28598239406/Python
 flow:
   - row: container_row
     style: #
@@ -92,13 +86,10 @@ flow:
         source: woa/members.html
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-molestie consequat.
+Python is a general-purpose high-level programming language. It is one of the most popular programming languages in the world now.
 
-Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
-iusto odio dignissim qui blandit praesent luptatum zzril delenit augue
-duis dolore te feugait nulla facilisi.
+Linaro and partners has been working together to enable windows on arm support for python and popular python packages.
+
+Python has official support for windows on arm from 3.11 release (currently at alpha) and installers are available from python.org.
+
+Python 3.10 and 3.9 experimental releases are available on [NuGet](https://www.nuget.org/packages/pythonarm64)
