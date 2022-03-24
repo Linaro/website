@@ -42,5 +42,5 @@ flow:
                 style: text-center
                 buttons:
                    - title: View
-                     url: https://connect.linaro.org/resources/
+                     url: https://resources.linaro.org/
 ---

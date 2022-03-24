@@ -13,7 +13,7 @@ category: blog
 author: andrea.gallo
 ---
 
-In less than a week, we will be hosting Linaro Connect at San Diego Paradise Point, September 23-27, 2019. We are pleased to announce that the Microsoft Azure Sphere team will be joining us, presenting an Azure Sphere IoT Track on Tuesday, September 24. If you are attending Linaro Connect you can register for these sessions by going to [the event schedule](https://connect.linaro.org/schedule/). For those following remotely, Linaro Connect keynotes will be streamed live on [Linaro’s YouTube channel](https://www.youtube.com/LinaroOrg/live) and resources for sessions will be made available by the end of the week on the [Linaro Connect website](https://connect.linaro.org/resources/). Here is a snapshot of what you can expect:
+In less than a week, we will be hosting Linaro Connect at San Diego Paradise Point, September 23-27, 2019. We are pleased to announce that the Microsoft Azure Sphere team will be joining us, presenting an Azure Sphere IoT Track on Tuesday, September 24. If you are attending Linaro Connect you can register for these sessions by going to the event schedule. For those following remotely, Linaro Connect keynotes will be streamed live on [Linaro’s YouTube channel](https://www.youtube.com/LinaroOrg/live) and resources for sessions will be made available by the end of the week on the [Linaro Connect website](https://resources.linaro.org/). Here is a snapshot of what you can expect:
 
 ## How do we keep billions of internet connected devices secure?
 
@@ -27,4 +27,4 @@ Following Ed Nightingale’s keynote, there will be a session at 11:00 AM led by
 
 Ed Nightingale will wrap up the Azure Sphere IoT track at 12:00 PM with a technical session on Azure Sphere. Ed will talk through the critical market scenarios Azure Sphere addresses, dig deep into the silicon, software, and cloud architecture that make up the solution, and share some of the project’s history. Attend this session to explore the unique security design and capabilities that make Azure Sphere-certified chips unique and why an end-to-end IoT security solution is critical. For more information, [click here](https://linaroconnectsandiego.sched.com/event/SufT/san19-216-a-view-from-industry-securing-iot-with-azure-sphere) to read the complete abstract.
 
-For more information about Linaro Connect or how to register go to [connect.linaro.org](https://connect.linaro.org). We hope to see you there!
+For more information about Linaro Connect or how to register go to the [Connect page](/connect/). We hope to see you there!

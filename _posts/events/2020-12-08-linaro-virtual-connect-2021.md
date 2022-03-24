@@ -1,7 +1,7 @@
 ---
 title: "Linaro Virtual Connect 2021 "
 event: lvc-21
-event_url: https://connect.linaro.org/
+event_url: /connect/
 description: >-
   Linaro Connect is an event that runs twice a year that brings together the Arm
   Ecosystem.
@@ -10,9 +10,6 @@ description: >-
 
 
   Due to the current climate we are running these events virtually. The next Linaro Connect will be held virtually March 23-25, 2021. 
-
-
-  http://connect.linaro.org/
 location: "Virtual "
 date: 2020-12-08 07:25:37
 event_date: 2021-03-23 08:25:37

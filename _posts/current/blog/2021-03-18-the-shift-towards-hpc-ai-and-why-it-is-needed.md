@@ -45,6 +45,6 @@ These efforts will be leveraged by the entire HPC community moving forward as Li
 
 At my talk at Linaro Virtual Connect 2021, I talked about the journey of data centre transitions and readiness to support AI on a Smart Scalable HPC, including our latest “8-node” Supercomputer. From computational resource selection to Cloud-native software that brings it all together. To watch the session, click on the link below:
 
-[**LVC21-103: A Journey Towards a Smart Scalable HPC for AI** ](https://connect.linaro.org/resources/lvc21/lvc21-103/)
+[**LVC21-103: A Journey Towards a Smart Scalable HPC for AI** ](https://resources.linaro.org/en/resource/Ra7pGC3mjyKGbuDGx5dTSi)
 
 For more information on the work we do in [Cloud Computing and Servers, click here](https://www.linaro.org/cloud-computing-and-servers/). Alternatively [contact us here](https://www.linaro.org/contact/).
