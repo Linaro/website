@@ -1,5 +1,5 @@
 ---
-future_project: true
+future_project: false
 title: Go - Windows on Arm
 name: Go
 logo: /assets/images/content/windows_on_arm/Go.png

@@ -1,5 +1,5 @@
 ---
-future_project: true
+future_project: false
 title: node.js - Windows on Arm
 name: node.js
 logo: /assets/images/content/windows_on_arm/nodeJS.png

@@ -1,5 +1,5 @@
 ---
-future_project: true
+future_project: false
 title: Rust - Windows on Arm
 name: Rust
 logo: /assets/images/content/windows_on_arm/Rust.png
