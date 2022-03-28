@@ -37,6 +37,11 @@
       padding: 10px 0;
       margin-bottom: 0px;
     }
+    img {
+      height: 140px;
+      object-fit: contain;
+      padding: 10px;
+    }
   }
   .white-border-title {
     border-bottom: 2px solid white;
