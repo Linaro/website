@@ -8,7 +8,7 @@ image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
   - linux kernel
   - 5.17linux kernel release
-  - OpenSource
+  - Open Source
 category: blog
 author: linaro
 ---
