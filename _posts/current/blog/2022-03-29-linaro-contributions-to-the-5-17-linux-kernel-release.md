@@ -73,7 +73,7 @@ Around 57 companies chose to contribute bytesting patches that went into this ke
 
 Around 62 companies reported regressions in this kernel release with Linaro securing 11th position \[3].  Linaro reported fewer regressions in the 5.17 release than in the 5.16 release and is continuously working to improve its capabilities in reporting early build and test regressions through [Linux Kernel Functional Testing (LKFT)](https://lkft.linaro.org/) - a Linaro project. 
 
-{% include image.html path="/assets/images/content/reported-by-stats-5.17-kernel-release.png" alt="Reported by stats for 5.17 kernel release" %}
+{% include image.html path="/assets/images/content/reported-by-5.17-kernel-stats.png" alt="Reported by stats for 5.17 kernel release" %}
 
 # Conclusion
 
