@@ -64,6 +64,9 @@ Around 83 companies contributed their works to this kernel release and
 Linaro secured [8th position in “Reviewed-by”](https://remword.com/kps_result/5.17_review.html). Linaro committed 269 reviewed-by, a 11% improvement from the previous release. 
 
 
+
+
+
 ## Tested-by
 
 {% include image.html path="/assets/images/content/tested-by-stats-5.17-kernel-release.png" class="medium-inline left" alt="Tested by stats for 5.17 kernel release" %}
