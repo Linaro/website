@@ -71,7 +71,7 @@ Linaro secured [8th position in “Reviewed-by”](https://remword.com/kps_resul
 
 ## Tested-by
 
-{% include image.html path="/assets/images/content/tested-by-stats-5.17-kernel-release.png" class="medium-inline left" alt="Tested by stats for 5.17 kernel release" %}
+{% include image.html path="/assets/images/content/tested-by-stats-5.17-kernel-release.png" class="medium-inline right" alt="Tested by stats for 5.17 kernel release" %}
 
 Around 57 companies chose to contribute bytesting patches that went into this kernel release. Linaro secured [7th position in “Tested-by](https://remword.com/kps_result/5.17_test.html)”, having tested 34 patches - an 18% improvement from the previous release.
 
