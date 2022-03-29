@@ -58,22 +58,22 @@ Linaro consistently ranks in the top ten companies when it comes to reviews, tes
 
 ## Reviewed-by
 
-{% include image.html path="/assets/images/content/reviewed-by-stats-5.17-kernel-release.png" alt="Reviewed by stats for 5.17 kernel release" %}
-
 Around 83 companies contributed their works to this kernel release and
 Linaro secured [8th position in “Reviewed-by”](https://remword.com/kps_result/5.17_review.html). Linaro committed 269 reviewed-by, a 11% improvement from the previous release. 
 
-## Tested-by
+{% include image.html path="/assets/images/content/reviewed-by-stats-5.17-kernel-release.png" alt="Reviewed by stats for 5.17 kernel release" %}
 
-{% include image.html path="/assets/images/content/tested-by-stats-5.17-kernel-release.png" alt="Tested by stats for 5.17 kernel release" %}
+## Tested-by
 
 Around 57 companies chose to contribute bytesting patches that went into this kernel release. Linaro secured [7th position in “Tested-by](https://remword.com/kps_result/5.17_test.html)”, having tested 34 patches - an 18% improvement from the previous release.
 
+{% include image.html path="/assets/images/content/tested-by-stats-5.17-kernel-release.png" alt="Tested by stats for 5.17 kernel release" %}
+
 ## Reported-by
 
-{% include image.html path="/assets/images/content/reported-by-stats-5.17-kernel-release.png" alt="Reported by stats for 5.17 kernel release" %}
-
 Around 62 companies reported regressions in this kernel release with Linaro securing 11th position \[3].  Linaro reported fewer regressions in the 5.17 release than in the 5.16 release and is continuously working to improve its capabilities in reporting early build and test regressions through [Linux Kernel Functional Testing (LKFT)](https://lkft.linaro.org/) - a Linaro project. 
+
+{% include image.html path="/assets/images/content/reported-by-stats-5.17-kernel-release.png" alt="Reported by stats for 5.17 kernel release" %}
 
 # Conclusion
 
