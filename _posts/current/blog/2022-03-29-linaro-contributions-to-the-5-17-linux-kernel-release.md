@@ -6,8 +6,8 @@ description: In this blog we talk about Linaro's contributions to the 5.17 Linux
 date: 2022-03-12 09:04:13 +00:00
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
-  - linux kernel
-  - 5.17linux kernel release
+  - Linux Kernel
+  - 5.17 linux kernel release
   - Open Source
 category: blog
 author: linaro
