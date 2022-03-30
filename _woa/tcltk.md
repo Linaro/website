@@ -64,11 +64,8 @@ flow:
         style: text-left
         text_content:
           text: |
-            Every two weeks on Tuesday - 4:00-5:00pm (Timezone?) <br/>
-            Google Meet joining info <br/>
-            Video call link: Meet <br/>
-            Or dial: (GB) +44 20 3957 1568 PIN: 607 467 593# <br/>
-            More phone numbers: Join this video meeting <br/>
+            Every two weeks on Tuesday - 4:00-5:00pm (GMT+1) <br/>
+            If you're interested in participating in the meeting, please contact windowsonarm@linaro.org
   - row: container_row
     style: my-3
     sections:
