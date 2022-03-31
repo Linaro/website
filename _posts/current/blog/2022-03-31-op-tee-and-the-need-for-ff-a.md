@@ -123,10 +123,9 @@ For OP-TEE this is used to enable top-half and bottom-half types of drivers. The
 
 # Stay tuned
 
-* [Subscribe](https://lists.trustedfirmware.org/mailman3/lists/op-tee.lists.trustedfirmware.org/) to the OP-TEE mailing list [op-tee@lists.trustedfirmware.org](op-tee@lists.trustedfirmware.org)
+* [Subscribe](https://lists.trustedfirmware.org/mailman3/lists/op-tee.lists.trustedfirmware.org/) to the OP-TEE mailing list op-tee@lists.trustedfirmware.org
 * Join the [Linaro OP-TEE Contributions (LOC) monthly meeting](https://www.trustedfirmware.org/meetings/) or check out the project page [Linaro's OP-TEE Contributions - Confluence](https://linaro.atlassian.net/wiki/spaces/LOC/overview)
 * Visit  the [OP-TEE page at trusted firmware](https://www.trustedfirmware.org/projects/op-tee/).
-
 
 Thank you for reading this far. If you have any questions or thoughts feel free to 
 create an issue at <https://github.com/OP-TEE/optee_os/issues> or to reach out at the mailing list. You’re also welcome to join the LOC meetings. You can also find out more on this topic by watching [the session](https://resources.linaro.org/en/resource/2aHhsEXr7LVcdwH62LrTQ6) we presented at Linaro’s Core Technologies Tech Day earlier this week.
