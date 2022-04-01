@@ -382,6 +382,7 @@
   "^/events/armhpcjapan2017(/?|/index.html)$ /events/arm-hpc-japan-2017/ [R,L,NC]",
   "^/events/attended(/?|/index.html)$ /events/ [R,L,NC]",
   "^/events/attended/ats-2018(/?|/index.html)$ /events/ [R,L,NC]",
+  "^/events/confidential-ai(/?|/index.html)$ /automotive-iot-and-edge-devices/ [R,L,NC]",
   "^/events/connect(/?|/index.html)$ /events/ [R,L,NC]",
   "^/events/introduction-to-soundwire(/?|/index.html)$ /events/ [R,L,NC]",
   "^/events/mcuboot-multi-image-support(/?|/index.html)$ /events/ [R,L,NC]",
