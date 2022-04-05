@@ -1,9 +1,9 @@
 ---
 layout: base
 ---
-<div itemscope="">
+<div itemscope itemtype="DigitalDocument">
     <div
-        class="jumbotron d-flex  align-items-center jumbotron-fluid {% if page.image %}background_image{% endif%}  header_2021_2">
+        class="jumbotron d-flex flex-column justify-content-center align-items-center jumbotron-fluid {% if page.image %}background_image{% endif%}  header_2021_2">
         {% if page.image %}
             {% assign image_path = page.image  %}
             {% picture header_image {{image_path}} %}
@@ -17,8 +17,9 @@ layout: base
     <div class="container-fluid main_content">
         <div class="row">
             <div class="container">
-                <div class="row justify-content-sm-center">
-                    <div class="col col-12 py-4  blog-content">
+                <div class="row">
+                    <div class="col col-12 py-4">
+                        <a href="{{page.whitepaper_url}}" class="btn btn-primary d-block mx-auto">View the {{page.title}} whitepaper</a>
                         <article>
                             {{ content }}
                         </article>
