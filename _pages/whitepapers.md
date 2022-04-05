@@ -7,7 +7,8 @@ layout: flow
 jumbotron:
   class: header_2021_2 theme_banner
   title: Whitepapers
-  description: ""
+  title_row: true
+  description: See all of the whitepapers produced by Linaro.
   image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:
   - row: container_row
