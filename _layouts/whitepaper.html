@@ -1,0 +1,30 @@
+---
+layout: base
+---
+<div itemscope="">
+    <div
+        class="jumbotron d-flex align-items-center jumbotron-fluid {% if page.image %}background_image{% endif%}">
+        {% if page.image %}
+            {% assign image_path = page.image  %}
+            {% picture header_image {{image_path}} %}
+        {% endif %}
+        <div class="container text-center">
+            <div class="inner_content_wrapper">
+                <h1 class="">{{page.title}}</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid main_content">
+        <div class="row">
+            <div class="container">
+                <div class="row justify-content-sm-center">
+                    <div class="col col-12 py-4  blog-content">
+                        <article>
+                            {{ content }}
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
