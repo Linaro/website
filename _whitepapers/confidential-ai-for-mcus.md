@@ -1,5 +1,6 @@
 ---
 title: Confidential AI for MCUs
 image: /assets/images/content/ConAI_promo.jpg
-url: https://linaro.co/iot-whitepaper
+description: Read the Confidential AI for MCUs whitepaper
+whitepaper_url: https://linaro.co/iot-whitepaper
 ---

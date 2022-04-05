@@ -1,5 +1,6 @@
 ---
 title: Standardisation in Edge Device Firmware
+description: Read the Standardisation in Edge Device Firmware whitepaper
 image: /assets/images/content/autonomous-driving-bg.jpg
-url: https://linaro.co/trusted-substrate-white-paper
+whitepaper_url: https://linaro.co/trusted-substrate-white-paper
 ---
