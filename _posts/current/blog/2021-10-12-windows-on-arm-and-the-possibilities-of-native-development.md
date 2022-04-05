@@ -22,7 +22,7 @@ Linaro is working with Arm and Qualcomm to bring together other participants in 
 
 In April 2021, [Linaro announced the availability of the Windows 10 on Arm support and binary as part of the LLVM 12.0.0 release](https://www.linaro.org/news/linaro-arm-and-qualcomm-collaborate-to-enable-native-llvm-for-windows-10-on-arm/). This was the first LLVM release for Windows 10 on Arm and marked a significant step towards enabling developers to build natively with LLVM on Windows 10 on Arm. LLVM is one of the main tools the open-source community uses to compile their code. 
 
-A few weeks ago, we hosted a panel at Linaro Virtual Connect Fall 2021 featuring Arm, Qualcomm and Microsoft where we discussed the current status of Windows on Arm and what work is left to do. This blog is based on public statements captured during the panel discussion on Windows on Arm, highlighting what is possible today and why porting natively is the way to go. [Click here to watch the complete discussion](https://connect.linaro.org/resources/lvc21f/lvc21f-300k2/). 
+A few weeks ago, we hosted a panel at Linaro Virtual Connect Fall 2021 featuring Arm, Qualcomm and Microsoft where we discussed the current status of Windows on Arm and what work is left to do. This blog is based on public statements captured during the panel discussion on Windows on Arm, highlighting what is possible today and why porting natively is the way to go. [Click here to watch the complete discussion](https://resources.linaro.org/en/resource/jd7koxXDVxABYdZxK5h3xF). 
 
 ## The promise of Arm hardware - all day battery life and fast performance
 

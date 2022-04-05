@@ -1,7 +1,7 @@
 ---
 title: 'Linaro Tech Days '
 event: linaro-tech-days
-event_url: 'https://connect.linaro.org/linaro-tech-days/'
+event_url: '/connect/'
 description: >-
   Linaro Tech Days is a series of technical sessions that will be presented live
   online.
@@ -49,4 +49,4 @@ those who are not able to join.
 are listed in GMT. We recommend exporting the Linaro Tech Days schedule from
 Sched.com to your personal calendar to avoid confusion.
 
-[View the resources](https://connect.linaro.org/resources/ltd20/)
+[View the resources](https://resources.linaro.org/en/tags/2014c600-6140-43ee-aa5f-db7fa650bfd5)

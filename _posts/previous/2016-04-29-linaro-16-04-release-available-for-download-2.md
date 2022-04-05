@@ -72,7 +72,3 @@ Also subscribe to the important Linaro mailing lists to stay on top of Linaro de
 **KNOWN ISSUES WITH THIS RELEASE**
 
 - Bug reports for this release should be filed in Bugzilla ([http://bugs.linaro.org](http://bugs.linaro.org/)) against the individual packages or projects that are affected.
-
-**UPCOMING LINARO CONNECT EVENTS: LINARO CONNECT BANGKOK 2016**
-
-Linaro Connect Las Vega 2016 will be held September 26-30, 2016.  More information on this event can be found at: [https://connect.linaro.org/las16/](https://connect.linaro.org/las16/)

@@ -25,7 +25,7 @@ SVE’s variable length vector registers have significant implications on how we
 
 In the past year Linaro completed development and upstreaming of SVE support in LLDB debugger which is now available in the LLVM 12 release downloadable from [releases.llvm.org](https://releases.llvm.org/). This article describes how to use LLDB to debug SVE enabled applications with dynamically changing vector register size.
 
-Click [here](https://connect.linaro.org/resources/san19/san19-204/) for a talk on LLDB support in SVE from Linaro Connect SAN19 that provides detailed information on the SVE extension features and our initial plan for supporting SVE in LLDB. Linaro has also been involved in various other Arm architecture enablement projects in LLDB and GDB. You can get an insight on all these projects by watching [our presentation from Linaro Virtual Connect LVC21](https://www.youtube.com/watch?v=5xv5CMHiG2k).
+Click [here](https://resources.linaro.org/en/resource/nG2VAJVkXiGRCjbDiVW3GX) for a talk on LLDB support in SVE from Linaro Connect SAN19 that provides detailed information on the SVE extension features and our initial plan for supporting SVE in LLDB. Linaro has also been involved in various other Arm architecture enablement projects in LLDB and GDB. You can get an insight on all these projects by watching [our presentation from Linaro Virtual Connect LVC21](https://www.youtube.com/watch?v=5xv5CMHiG2k).
 
 ## QEMU virtual environment for LLDB SVE testing
 

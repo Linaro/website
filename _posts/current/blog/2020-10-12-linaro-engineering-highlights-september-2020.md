@@ -47,19 +47,19 @@ The most popular sessions (by registration counts) were.
 
 ## Tuesday September 22 Highlights
 
-[LVC20-100K1 Opening Keynote by Li Gong](https://connect.linaro.org/resources/lvc20/lvc20-100k1/)
+[LVC20-100K1 Opening Keynote by Li Gong](https://resources.linaro.org/en/resource/cCMFrV55UD3TydmKVGLkAK)
 
 Li noted that Linaro ranked #5 in patches committed in the Linux kernel between 2007-2019, even though Linaro is only 10 years old. Li noted that new companies are starting up at a brisk pace. Companies are making their own chips, carrying differentiation from the system level to the chip level. The cost of chip design has significantly declined making custom chip design more affordable. This is a way to secure access to IP and supplies particularly in the face of on-going shortages and trade wars (see China/US). This of course has a direct impact on SoC vendors. In Li’s view, the Arm ecosystem is composed not only of hardware vendors but now major software vendors are playing a role. Linaro is enlarging its scope for these new companies and the software vendors with the idea of a franchise company. A franchise, in this context, is a sub ecosystem within the Arm ecosystem. An example is Google and Android. Linaro also has simplified its membership model to four tiers - Core, Club, Group and Project while continuing to focus on delivering value through its corps of maintainers and skilled developers. Finally, Linaro is opening up its projects and processing to a worldwide audience.
 
-[LVC20-100K2 Why Standardisation on the Edge is Critical for Success by Peter Robinson](https://connect.linaro.org/resources/lvc20/lvc20-100k2/)
+[LVC20-100K2 Why Standardisation on the Edge is Critical for Success by Peter Robinson](https://resources.linaro.org/en/resource/PTTosUJCmmdpRj3aCCWRUV)
 
 While “Edge” means many things to many people, in order for Edge solutions to be a success, the key is using the Open Standards Data Center model.. Edge platforms face several challenges including environmental, scale and cost. Which will vary depending on which Edge “tier” that platform plays in. Open standards,as with the IBM PC and various networking standards (TCP, HTTP), lower barriers to entry and protect investments in time, money and knowledge. Enterprise standards are useful. In addition to knowledge reuse, you are not locked into a single platform. You can use the right hardware with the same base software stack using the same or similar security models and processes. Provisioning and on-boarding end devices need to be deployed with general knowledge at large scale (10 of thousands) across geographic regions. Using OCI container solutions provides consistency and scalability. Standardisation in edge computing giving manufacturers and consumers more, not less, choice.
 
-[LVC20-113 Trusted Firmware Project Update](https://connect.linaro.org/resources/lvc20/lvc20-113/) by Matteo Carlini and Shebu Varghese Kuriakose
+[LVC20-113 Trusted Firmware Project Update](https://resources.linaro.org/en/resource/n68pJGdpXDBxkQwTj83vwk) by Matteo Carlini and Shebu Varghese Kuriakose
 
 The Trusted Firmware (TF) project’s mission is to collaboratively build a secure reference software implementation for Arm processors. Highlights from the past year include the addition of Mbed TLS (donated by Arm) and Hafnium (donated by Google) to TF. TF for Cortex-A (TF-A) v2.3 and TF- Cortex-M (TF-M) v1.1 were both released. Renesas and NXP joined as members. Also a new Security center was set up to provide consistency on handing security vulnerabilities and incidents. A new maintainer process was put in place including how code reviews and the patch lifecycle are managed. Half of the TF maintainers are now from outside of Arm. The project also announced that Don Harbin (Linaro) will be the TF Community manager and that the [TF website](https://www.trustedfirmware.org/) has been significantly updated. Looking ahead, TF is expanding CI/Testing efforts with more platforms, static analysis and updated user guides. The community project will also be sponsoring workshops on TF-M and Mbed TLS.
 
-A don’t miss session is [LVC20-104 On the Edge of the Real World. An Introduction](https://connect.linaro.org/resources/lvc20/lvc20-104/) by Bruno Verachten. A lively talk from Bruno on how to build home IoT systems. The bottom line? There’s a lot of choice!
+A don’t miss session is [LVC20-104 On the Edge of the Real World. An Introduction](https://resources.linaro.org/en/resource/8nB5VYQHPqWWi6L7irAero) by Bruno Verachten. A lively talk from Bruno on how to build home IoT systems. The bottom line? There’s a lot of choice!
 
 ## Wednesday September 23 Highlights
 
@@ -95,7 +95,7 @@ With distinguished presenters from around the world and from some world class le
 
 Although the current climate has curbed our celebrations for our anniversary, it has not curbed our achievements and we are proud of our successes in working together with our members and the community alike.
 
-All videos and slides from presentations are available on our Resource page at <https://connect.linaro.org/resources/lvc20/>
+All videos and slides from presentations are available on our [Resource page](https://resources.linaro.org/en/tags/3599c8da-2a90-4dc9-964f-d69a5cf15379).
 
 We look forward to our next in person event when we can enjoy some of our favorite aspects of Linaro Connect- team hacking time, Joe Bates’ morning fun facts, the “Ask Arm Anything” session, socializing after hours with colleagues and friends, Demo Friday, and everyone’s favorite: Dave Pigott’s puzzle.
 

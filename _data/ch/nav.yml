@@ -69,8 +69,6 @@ pages:
         url: /downloads/
       - text: Linaro 资源中心
         url: https://resources.linaro.org
-      - text: 利纳罗连接
-        url: https://connect.linaro.org
   - title: 支持
     url: /support/
   - title: 关于

@@ -35,6 +35,4 @@ Additionally, Linaro Connect USA 2014 will feature demos of Linaro members’ pr
 
 - Dr. Christos Kolias, Senior Research Scientist at Orange Silicon Valley  will present  “NFV:  Empowering the Network”
 
-For more information about Linaro Connect USA 2014, including how to register and to view the schedule, please visit:  [https://connect.linaro.org/lcu14/](https://connect.linaro.org/lcu14/)
-
 **About Linaro:** Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a collaborative engineering organization with over 200 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral, its goal is to provide the best software foundations to everyone, and to reduce non-differentiating and costly low level fragmentation. To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The majority of Linaro’s engineering work is open to all online. To find out more, please visit:  [](/).

@@ -15,8 +15,6 @@ author: connect
 
 Linaro Virtual Connect Fall 2021 (LVC21F) took place online from September 8-10, 2021. Linaro Connect is a technical event that runs twice a year that brings together the Arm Ecosystem to discuss recent achievements and future work needed to enable Arm architecture. 
 
-The full schedule for Linaro Virtual Connect Fall 2021 is available to view here: <https://connect.linaro.org/schedule/>  
-
 Linaro Virtual Connect Fall 2021 consisted of 70+ technical keynotes and sessions, spanning a range of topics including Security, OS Build & Test, Automotive, Windows on Arm, IoT and Embedded, and more. We welcomed keynote speakers from Qualcomm, Huawei, Google, Informa Tech which you can read about below. We also hosted a number of panels on topics such as Windows on Arm and SystemReady. For the first time in Linaro’s history we hosted a Virtual Demo Showcase. 
 
 #### Introducing our keynote speakers:
@@ -55,4 +53,4 @@ We hosted our first ever Virtual Demo Technology Showcase on Thursday, September
 
 Registration was open and it is free to attend. Two weeks before Linaro Connect, the event platform opened to all registered attendees.
 
-All resources relating to this Linaro Connect event can be accessed [here](https://connect.linaro.org/resources/lvc21f/). For more information about Linaro and the work we do, [get intouch](https://www.linaro.org/contact/)!
+All resources relating to this Linaro Connect event can be accessed [here](https://resources.linaro.org/en/tags/f4f57bc3-0bc0-4229-9cd0-0160f803f36c). For more information about Linaro and the work we do, [get intouch](https://www.linaro.org/contact/)!

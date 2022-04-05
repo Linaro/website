@@ -9,7 +9,7 @@ tags: []
 category: blog
 author: kristine-dill
 ---
-In Spring 2020, we planned to host Linaro Connect in Budapest, Hungary but due to the start of the COVID-19 pandemic we had to cancel our in-person event and thus began our journey with virtual events. We hosted our first online event [in March 2020](https://connect.linaro.org/resources/ltd20/) and have hosted two Linaro Virtual Connect events per year since then.  
+In Spring 2020, we planned to host Linaro Connect in Budapest, Hungary but due to the start of the COVID-19 pandemic we had to cancel our in-person event and thus began our journey with virtual events. We hosted our first online event [in March 2020](https://resources.linaro.org/en/tags/2014c600-6140-43ee-aa5f-db7fa650bfd5) and have hosted two Linaro Virtual Connect events per year since then.  
 
 Our virtual events have re-created some of the elements from Linaro Connect including low level technical sessions and training for developers, important industry updates and announcements, technology demos, and the opportunity to hear from and network with other software and hardware developers and maintainers. Virtual events have some benefits - low cost, ability to reach a wider audience, free attendance, and a way to continue to provide interesting and informative content to the Arm and Open Source community during the pandemic.  
 
