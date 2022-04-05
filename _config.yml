@@ -141,6 +141,7 @@ defaults:
       type: "whitepapers"
     values:
       layout: whitepaper
+      css_bundle: whitepapers
   - scope:
       path: "assets/**/*.pdf"
     values:
