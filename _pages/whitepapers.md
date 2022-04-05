@@ -2,6 +2,7 @@
 title: Whitepapers
 description: See all of the whitepapers produced by Linaro.
 permalink: /whitepapers/
+css_bundle: whitepapers
 layout: flow
 jumbotron:
   class: header_2021_2 theme_banner
