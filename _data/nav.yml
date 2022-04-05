@@ -65,6 +65,8 @@ pages:
     options:
       - text: Downloads
         url: /downloads/
+      - text: Whitepapers
+        url: /whitepapers/
       - text: Linaro Resources Hub
         url: https://resources.linaro.org
   - title: Support

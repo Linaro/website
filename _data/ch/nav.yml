@@ -65,6 +65,8 @@ pages:
     options:
       - text: 下载
         url: /downloads/
+      - text: 白皮书
+        url: /whitepapers/
       - text: Linaro 资源中心
         url: https://resources.linaro.org
   - title: 支持
