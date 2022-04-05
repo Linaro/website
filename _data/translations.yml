@@ -200,3 +200,13 @@ events:
   watchNow: Available to watch now
   recentEvent: Over 70 Technical Sessions and Keynotes from our most recent event (Sept 2021)
 resources: Resources
+footer:
+  linaroInsightsBtn: Sign up for the Linaro Insights Newsletter
+  linaroInsightsNewsletter: Linaro Insights Newsletter
+  emailAddress: Email address
+  marketingPermissions: Marketing Permissions
+  gdprText1: Linaro Insights is a monthly newsletter. Please tick the box below to confirm you are happy to recieve email communication from Linaro.
+  gdprText2: You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please visit our website.
+  gdprText3: We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.
+  learnMoreGdprText: Learn more about Mailchimp's privacy practices here.
+  join: Join

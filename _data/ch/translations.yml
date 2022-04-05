@@ -199,3 +199,13 @@ events:
   watchNow: 现在可以观看
   recentEvent: 我们最近一次活动（2021 年 9 月）的 70 多场技术会议和主题演讲
 resources: 资源
+footer:
+  linaroInsightsBtn: 订阅 Linaro Insights 时事通讯
+  linaroInsightsNewsletter: Linaro Insights 时事通讯
+  emailAddress: 电子邮箱
+  marketingPermissions: 营销许可
+  gdprText1: Linaro Insights是每月一期的时事通讯。请勾选下面的框, 以确认您很高兴收到来自Linaro的电子邮件通信。
+  gdprText2: 您可以随时通过单击我们电子邮件页脚中的链接来取消订阅。有关我们的隐私惯例的信息，请访问我们的网站。
+  gdprText3: 我们使用Mailchimp作为我们的营销平台。通过点击下面订阅，您承认您的信息将被传输到Mailchimp进行处理。
+  learnMoreGdprText: 在此处了解有关Mailchimp隐私实践的更多信息。
+  join: 加入
