@@ -1,21 +1,24 @@
 ---
-author: alex.bennee
-date: 2017-04-19 16:46:38+00:00
-layout: post
-link: /blog/core-dump/whats-new-qemu-2-9/
-slug: whats-new-qemu-2-9
-title: What's new in QEMU 2.9
 wordpress_id: 12315
-category: blog
+layout: post
+title: What's new in QEMU 2.9
+image: /assets/images/content/Banner_Virtualization.jpg
 tags:
-- Qemu
+  - Qemu
+  - Virtualization
+  - Tiny Code Generator
+  - TCG
+author: alex.bennee
+slug: whats-new-qemu-2-9
+date: 2017-04-19 16:46:38+00:00
+link: /blog/core-dump/whats-new-qemu-2-9/
+category: blog
 ---
-
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
 
 QEMU is an interesting multi-faceted open source project. It is a standard component for the Linux virtualisation stack, used by both the KVM and Xen hypervisors for device emulation. Thanks to its dynamic just-in-time recompilation engine known as the Tiny Code Generator (TCG) it is also capable of emulating other architectures on a number of hosts. This takes the form of either a full system emulation or the lighter weight user-mode emulation that allows foreign user-space binaries to be run alongside the rest of the host system.
 
-Started in 2003 by [Fabrice Bellard](https://en.wikipedia.org/wiki/Fabrice_Bellard) QEMU is now maintained by a community of mostly corporate sponsored engineers, although unaffiliated individuals are still the second largest set of contributors. The projects [codebase has continued to grow](https://www.openhub.net/p/qemu) over the years and it now has reached the point of making around 3 stable releases a year, typically one in April, August and December.
+Started in 2003 by [Fabrice Bellard](https://en.wikipedia.org/wiki/Fabrice_Bellard) QEMU is now maintained by a community of mostly corporate sponsored engineers, although unaffiliated individuals are still the second largest set of contributors. The projects codebase has continued to grow over the years and it now has reached the point of making around 3 stable releases a year, typically one in April, August and December.
 
 Linaro engineers takes an active part in development and maintenance of the project and we thought it would be useful provide an update on Arm related features in the up-coming [2.9 release](http://wiki.qemu-project.org/index.php/ChangeLog/2.9).
 
@@ -56,6 +59,6 @@ This summary is not intended to be exhaustive and has concentrated on Arm specif
 
 {% include media.html media_url="https://youtu.be/4MKXWM0koGw" %}
 
----
+- - -
 
 {% include media.html media_url="//www.slideshare.net/slideshow/embed_code/key/vAVCMSPoB3KzS7" %}
