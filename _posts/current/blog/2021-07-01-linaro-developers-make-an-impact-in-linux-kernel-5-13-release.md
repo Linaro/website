@@ -34,7 +34,7 @@ Support for 35 distinct new machines, and six new SoCs is added, which is slight
 
 Initial support for [Apple M1 platform](https://github.com/AsahiLinux/docs/wiki/SW%3ALinux) was added by Hector Martin through the SoC, giving hope for much more capable developer workstations to run Arm Linux in the future, once this support becomes complete enough to be included in distributions. The current state is fairly minimal, but a lot of the harder problems have been resolved and the remaining work is mainly about adding all the device drivers.
 
-Another noteworthy platform is at the opposite end of the spectrum, the STMicroelectronics STM32H750 microcontroller based on a Cortex-M7 with no MMU, along with support for [a developer board](https://www.cnx-software.com/2021/06/29/art-pi-stm32h750-cortex-m7-board-supports-rt-thread-mainline-linux/). While most new development has moved away from Linux on MMU-less hardware, this is a reminder that machines like this still exist and can be put into productive work.
+Another noteworthy platform is at the opposite end of the spectrum, the STMicroelectronics STM32H750 microcontroller based on a Cortex-M7 with no MMU, along with support for a developer board. While most new development has moved away from Linux on MMU-less hardware, this is a reminder that machines like this still exist and can be put into productive work.
 
 Finally, Nuvoton WPCM450 is an older baseboard management controller that got merged through the OpenBMC project. While this is an older SoC based on the 20 year old ARM926 core, it remains popular enough in modern server systems to have developers interested in needing new software for it.
 
