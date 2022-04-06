@@ -13,18 +13,15 @@ event_type: webinar
 ---
 **Speaker:** Everton Constantino, Linaro Engineer and Eigen Maintainer \
 **When:** Thursday, December 9th at 17:00-17:45 UTC (45 minutes duration)\
-**Registration:** [Here](https://linaro-org.zoom.us/webinar/register/WN_eSmtjO3JRK6qsG3vp8H7KQ)  \
 **Cost:** Free\
 **Format:** Zoom webinar 
 
 Description: 
 
-Join us on Thursday 9th December at 5pm GMT as we explore Eigen - a C++ Template Library for linear algebra and matrix manipulation.  Eigen is a foundational library used by many projects including TensorFlow for ML, and ROS the Robotic Operating System.
+On Thursday 9th December at 5pm GMT we explored Eigen - a C++ Template Library for linear algebra and matrix manipulation.  Eigen is a foundational library used by many projects including TensorFlow for ML, and ROS the Robotic Operating System.
 
-The webinar will give practical demonstrations of using Eigen in software projects. We will look at how to include Eigen in your build process and also how to use basic features of dense and sparse matrices. We will focus on Eigen's ease of use, and simplicity for getting functionality up and running. Finally, we will provide an introduction to some forthcoming features being proposed for Eigen.
+The webinar gave practical demonstrations of using Eigen in software projects. We looked at how to include Eigen in the build process and also how to use basic features of dense and sparse matrices. We focused on Eigen's ease of use, and simplicity for getting functionality up and running. Finally, provided an introduction to some forthcoming features being proposed for Eigen.
 
-The webinar will assume no previous experience with Eigen. Although a basic understanding of linear algebra and graph theory will be useful, the needed concepts and techniques will be introduced in the webinar. Basic understanding of C++ and usage of templates will be required.
+The webinar assumed no previous experience with Eigen. Although a basic understanding of linear algebra and graph theory was useful, the needed concepts and techniques were introduced in the webinar. Basic understanding of C++ and usage of templates was required.
 
-**[Register](https://linaro-org.zoom.us/webinar/register/WN_eSmtjO3JRK6qsG3vp8H7KQ)** today
-
-This webinar will be broadcasted at 17:00 UTC and the speaker: Eigen Maintainer Everton Constantino will be interacting with the audience live via the chat during the webinar so bring your questions!
+**Registration** has now closed. You can find [the session recording here](https://resources.linaro.org/en/resource/caMhWEw1qEYjzezkR5pg9k).
