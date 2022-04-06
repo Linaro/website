@@ -1,25 +1,28 @@
 ---
-author: linaro
-category: news
-date: 2014-05-29 15:59:15
-description: "Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon,
-  STMicroelectronics and ZTE have joined Linaroâ\x80\x99s new Segment Group focused
-  on accelerating open source development for Arm processors in digital home applications"
-excerpt: Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon, STMicroelectronics
-  and ZTE have joined Linaro’s new Segment Group focused on accelerating open source
-  development for Arm processors in digital home applications
-layout: post
-link: /news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/
-slug: leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms
-tags:
-- Linaro
-- Linux
-- Linux On Arm
-- Open Source
-title: 'Leaders in Digital Home Solutions Collaborate with Linaro on Arm Linux Platforms '
+excerpt: Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon,
+  STMicroelectronics and ZTE have joined Linaro’s new Segment Group focused on
+  accelerating open source development for Arm processors in digital home
+  applications
 wordpress_id: 5907
+layout: post
+title: "Leaders in Digital Home Solutions Collaborate with Linaro on Arm Linux
+  Platforms "
+image: /assets/images/content/tech_background__under_2mb.jpg
+category: news
+author: linaro
+slug: leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms
+date: 2014-05-29 15:59:15
+tags:
+  - Linaro
+  - Linux
+  - Linux On Arm
+  - Open Source
+link: /news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/
+description: "Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu,
+  Hisilicon, STMicroelectronics and ZTE have joined Linaroâs new Segment Group
+  focused on accelerating open source development for Arm processors in digital
+  home applications"
 ---
-
 ## Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon, STMicroelectronics and ZTE have joined Linaro’s new Segment Group focused on accelerating open source development for Arm processors in digital home applications
 
 CAMBRIDGE, UK; 29 MAY 2014
@@ -37,11 +40,8 @@ Members of LHG will collaborate on fundamental software platforms to enable rapi
 The LHG steering committee has selected the following key initiatives for the software engineering effort:
 
 1. A common core Linux platform. The Linaro Stable Kernel (LSK) is based on the kernel.org long-term supported (LTS) kernel. LHG will leverage this with a Group-focused baseline and add features such as DRM (digital rights management), DLNA (Digital Living Network Alliance) and CVP-2 (Commercial Video Profile 2). LHG will provide a core Linux platform build with versions to support the base layer of the RDK (Reference Design Kit), Android-based products, and manufacturer-specific Linux-based products. The LHG platform will support different vendor applications and user interfaces.
-
 2. Development of improved media framework APIs. LHG will work to establish standardized APIs to different media hardware, codecs, accelerators, and other peripheral functions across multiple members’ SoCs to improve middleware portability
-
 3. Development of a standard media security platform based on Arm Trustzone® technology. This will deliver an open source implementation of the W3C Encrypted Media Extensions (EME) standard for TrustZone-based Arm SoCs.
-
 4. Integration of key open source standards-based software. The LHG steering committee will identify key open sourced standards to be integrated by the group’s engineering team. Items already under discussion include optimized HTML5 support and DLNA CVP-2.
 
 As with LEG and LNG, LHG will utilize output from Linaro’s core engineering group and will have a representative on the Linaro Technical Steering Committee (TSC). Key shared areas include the Linaro Automated Validation Architecture (LAVA) test and continuous integration (CI) farm for member SoC enablement and validation, multicore power management, virtualization and Armv8 64-bit development**.**
@@ -58,7 +58,7 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 “As a worldwide leader in application processor shipments in Android, Allwinner is excited by the collaborative opportunity to work within Linaro to bring tip-of-tree features to Arm platforms”, said Jack Lee, CMO of Allwinner.  “OTT home entertainment is a space that we’re very focused on, given the massive growth from our key markets in China, US, and Europe.  We expect LHG will enable a stronger open source software ecosystem in OTT/IPTV, and in effect enable better Arm-powered devices for consumers in our key markets”.
 
-_About Allwinner:_ Allwinner Technology is a leading fabless design company dedicated to smart application processor SoCs and smart analog ICs. Its product line includes multi-core application processors for smart devices and smart power management ICs used by brands worldwide.
+*About Allwinner:* Allwinner Technology is a leading fabless design company dedicated to smart application processor SoCs and smart analog ICs. Its product line includes multi-core application processors for smart devices and smart power management ICs used by brands worldwide.
 
 With its focus on cutting edge UHD video processing, high performance multi-core CPU/GPU integration, and ultra-low power consumption, Allwinner Technology is a mainstream solution provider for the global tablet, internet TV, smart home device, automotive in-dash device, smart power management, and mobile connected device markets. Allwinner Technology is headquartered in Zhuhai, China. See www.allwinnertech.com for more information. Follow Allwinner on Twitter @AllwinnerTech. Media contact: [service@allwinnertech.com](mailto:service@allwinnertech.com)
 
@@ -66,7 +66,7 @@ With its focus on cutting edge UHD video processing, high performance multi-core
 
 “The convergence of mobile and home entertainment experiences creates an opportunity for Pay-TV operators, device manufacturers and others to leverage the velocity of innovation and economies of scale of the mobile ecosystem”, said Charlene Marini, vice president of marketing, embedded segments, Arm. “Linaro Home Group accelerates this reality by providing a software platform fully optimized for Arm technologies, including Arm TrustZone, to enable exciting premium content based services on the next generation connected home platforms.”
 
-_About Arm:_ [Arm](http://www.arm.com/) is at the heart of the world’s most advanced digital products. Our technology enables the creation of new markets and transformation of industries and society. We design scalable, energy efficient-processors and related technologies to deliver the intelligence in applications ranging from sensors to servers, including smartphones, tablets, enterprise infrastructure and the Internet of Things.
+*About Arm:* [Arm](http://www.arm.com/) is at the heart of the world’s most advanced digital products. Our technology enables the creation of new markets and transformation of industries and society. We design scalable, energy efficient-processors and related technologies to deliver the intelligence in applications ranging from sensors to servers, including smartphones, tablets, enterprise infrastructure and the Internet of Things.
 
 Our innovative technology is licensed by Arm Partners who have shipped more than 50 billion Systems on Chip (SoCs) containing our intellectual property since the company began in 1990. Together with our Connected Community, we are breaking down barriers to innovation for developers, designers and engineers, ensuring a fast, reliable route to market for leading electronics companies.  Learn more and join the conversation at [http://community.arm.com](http://community.arm.com/).
 
@@ -74,24 +74,24 @@ Our innovative technology is licensed by Arm Partners who have shipped more than
 
 “Delivering new video services at Internet speed through the Cloud is a reality, but we need to reduce operational complexity and fragmentation in core engineering work,” said Dr Ken Morse, CTO, Connected Devices, Cisco. “As a founding member of the Linaro Digital Home Group, we are utilizing Linaro’s shared engineering model to reduce our cost of enablement for the Arm platform, minimize complexity and help accelerate time to market for new Cisco connected home products and services.”
 
-_About Cisco:_ Cisco is the worldwide leader in IT that helps companies seize the opportunities of tomorrow by proving that amazing things can happen when you connect the previously unconnected. For ongoing news, please go to [http://thenetwork.cisco.com](http://thenetwork.cisco.com/).
+*About Cisco:* Cisco is the worldwide leader in IT that helps companies seize the opportunities of tomorrow by proving that amazing things can happen when you connect the previously unconnected. For ongoing news, please go to [http://thenetwork.cisco.com](https://thenetwork.cisco.com/c/r/newsroom/en/us/index.html).
 
 **Comcast**
 
 “The close collaboration between Arm and Linaro is a critical component for the Arm eco-system,” said Sree Kotay, Chief Software Architect for Comcast. “We are looking forward to the Linaro Digital Home Group enabling the Arm platform for our Comcast devices.  This is an important step to Arm extending beyond closed cell phone operating systems.”
 
-_About Comcast Cable:_ Comcast Cable is the nation's largest video, high-speed Internet and phone provider to residential customers under the XFINITY brand and also provides these services to businesses. Comcast has invested in technology to build an advanced network that delivers among the fastest broadband speeds, and brings customers personalized video, communications and home management offerings. Comcast Corporation (Nasdaq: CMCSA, CMCSK) is a global media and technology company. Visit www.comcastcorporation.com for more information.
+*About Comcast Cable:* Comcast Cable is the nation's largest video, high-speed Internet and phone provider to residential customers under the XFINITY brand and also provides these services to businesses. Comcast has invested in technology to build an advanced network that delivers among the fastest broadband speeds, and brings customers personalized video, communications and home management offerings. Comcast Corporation (Nasdaq: CMCSA, CMCSK) is a global media and technology company. Visit www.comcastcorporation.com for more information.
 
 **STMicroelectronics**
 
 “Linaro is a proven place to boost innovation around Linux in different market segments. As a founding member company of the Linaro Digital Home Group, STMicroelectronics is collaborating with Linaro to extend this success to the Digital Home segment including the Gateway and client markets,” said Christophe Lorieau, Director System, Software & Customer Support. “ST is working with Linaro on fundamental elements of a Linux software platform leveraging our continuing efforts with Linaro core groups including security through our open-source TEE (Trusted Execution Environment)."
 
-_About STMicroelectronics:_ ST is a global leader in the semiconductor market serving customers across the spectrum of sense and power and automotive products and embedded processing solutions. From energy management and savings to trust and data security, from healthcare and wellness to smart consumer devices, in the home, car and office, at work and at play, ST is found everywhere microelectronics make a positive and innovative contribution to people’s life. By getting more from technology to get more from life, ST stands for life.augmented. [www.st.com](https://www.st.com/content/st_com/en.html)
+*About STMicroelectronics:* ST is a global leader in the semiconductor market serving customers across the spectrum of sense and power and automotive products and embedded processing solutions. From energy management and savings to trust and data security, from healthcare and wellness to smart consumer devices, in the home, car and office, at work and at play, ST is found everywhere microelectronics make a positive and innovative contribution to people’s life. By getting more from technology to get more from life, ST stands for life.augmented. [www.st.com](https://www.st.com/content/st_com/en.html)
 
 **ZTE**
 
 “We are honored to be one of the founding members of the Linaro Digital Home Group. ZTE has achieved excellent marketing and technical performance benefits by offering home-multimedia entertainment, home-network storage and smart home solutions,” said Jill Guo, Strategic Planning Director, Ecosytem Partnership, ZTE Planning & Design Center. “In joining this new group, ZTE has strong confidence to provide products and solutions with better energy conservation and environmental protection, and an improved and richer user experience!”
 
-_About ZTE:_ ZTE is ranked in the top three vendors globally both for home gateways and set-top box products, and has very actively participated in the construction and development of China smart city cases. As the largest publicly-listed provider of telecommunications equipment in China, and a globally-leading manufacturer of smartphones, ZTE is a member of more than 70 global industry organizations and forums. ZTE has filed applications for more than 50,000 international patents, with over 14,000 already granted, and was ranked number one globally in international patent applications in 2011 and 2012 by the World Intellectual Property Organization.
+*About ZTE:* ZTE is ranked in the top three vendors globally both for home gateways and set-top box products, and has very actively participated in the construction and development of China smart city cases. As the largest publicly-listed provider of telecommunications equipment in China, and a globally-leading manufacturer of smartphones, ZTE is a member of more than 70 global industry organizations and forums. ZTE has filed applications for more than 50,000 international patents, with over 14,000 already granted, and was ranked number one globally in international patent applications in 2011 and 2012 by the World Intellectual Property Organization.
 
 To keep the company at the forefront of global technology development, ZTE is strengthening research and development of key technologies such as mobile communications, smart devices, optical networking, cloud computing and big data, as well as next-generation technologies such as 5G mobile communications. ZTE is committed to working with partners in the technology industry on an open and mutually beneficial basis, in order to promote the healthy and sustainable development of the industry.
