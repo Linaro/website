@@ -66,6 +66,9 @@ collections:
   internships:
     output: true
     permalink: /careers/internships/:name/
+  whitepapers:
+    output: true
+    permalink: /whitepapers/:name/
 liquid:
   error_mode: strict
 defaults:
@@ -134,6 +137,11 @@ defaults:
       tags_enabled: false
       permalink: "/awards/5-years/:title/"
       comments: false
+  - scope:
+      type: "whitepapers"
+    values:
+      layout: whitepaper
+      css_bundle: whitepapers
   - scope:
       path: "assets/**/*.pdf"
     values:
@@ -315,6 +323,6 @@ exclude_from_localization:
     "public",
     "remote",
     "robots.txt",
-    "favicon.ico"
+    "favicon.ico",
   ]
 parallel_localization: false

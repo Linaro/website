@@ -1,0 +1,17 @@
+<div class="row">
+    {% for whitepaper in site.whitepapers %}
+    <div class="col col-12 col-lg-4">
+        <a class="whitepaper_link" href="{{whitepaper.url}}">
+            <div class="whitepaper-wrapper">
+                {% capture image_alt %}{{whitepaper.title}} image{% endcapture%}
+                {% picture card_block_image {{whitepaper.image}} --alt {{image_alt}} %}
+                <div class="whitepaper_text">
+                    <h3>
+                        {{whitepaper.title}}
+                    </h3>
+                </div>  
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>
