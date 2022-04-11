@@ -25,12 +25,19 @@ $(document).ready(function () {
       console.log("Set lanugage: ", setLanguage);
       console.log("Set language path:", i18n_site_versions[setLanguage]);
       // Check to see if language subpath exists in the current path. E.g /ja/ in /ja/about/ or /about/
-      let hasLangInUrl = currentPath.match(/\/[A-Za-z]{2}\//g);
+      let foundLang = currentPath.match(/\/[A-Za-z]{2}\//g);
+      let foundLangPath = foundLang ? foundLang[0] : "/";
+      let hasLangInUrl =
+        foundLang &&
+        Object.keys(i18n_site_versions).includes(foundLang[0].split("/")[1]);
+      console.log("i18n_site_versions: ", Object.keys(i18n_site_versions));
+      console.log("Found lang in url: ", foundLang);
+      console.log("Has lang in url: ", hasLangInUrl);
       // Check if a lang code already exists in the pathname.
       if (hasLangInUrl) {
         console.log("language exists in url:", hasLangInUrl);
         let newPath = currentPath.replace(
-          hasLangInUrl[0],
+          foundLangPath,
           i18n_site_versions[setLanguage]
         );
         console.log(newPath);

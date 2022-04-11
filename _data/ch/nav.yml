@@ -43,6 +43,8 @@ pages:
         options:
           - text: 所有项目
             url: /projects/
+          - text: ARM 项目上的 Windows
+            url: /windows-on-arm/
           - text: 社区项目
             url: /community-projects/
   - title: 服务

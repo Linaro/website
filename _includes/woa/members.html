@@ -1,0 +1,19 @@
+<div class="col col-12">
+    <div class="row">
+        {% assign members = "" | split: "," %}
+        {% for section in site.data.members %}
+            {% if section.id == "lwg" %}
+                {% for member in section.members %}
+                    <div class="col col-6 col-sm-4 col-md-2 py-3 d-flex justify-content-center align-items-center member_col">
+                        <div class="group_member_image rounded">
+                            {% if member.uri %}<a href="{{member.uri}}">{% endif %}
+                            <img class="lazyload w-100 rounded" alt="{{member.name}} logo" data-src="{{member.image}}" 
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+                            {% if member.uri %}</a>{% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

@@ -50,22 +50,16 @@ plugins:
   - jekyll_picture_tag
   - jekyll-tidy
 collections:
-  company:
-    output: true
-    permalink: /membership/:name/
   services:
     output: true
   themes:
     output: true
-  core:
-    output: true
-    permalink: /:collection/:path/
   authors:
     output: true
     permalink: /author/:name/
-  internships:
+  woa:
     output: true
-    permalink: /careers/internships/:name/
+    permalink: /windows-on-arm/:name/
   whitepapers:
     output: true
     permalink: /whitepapers/:name/
@@ -111,6 +105,13 @@ defaults:
       css_bundle: themes
       js-package: themes
       image: /assets/images/content/LinaroDSVertical.png
+  - scope:
+      type: "woa"
+    values:
+      layout: flow
+      css_bundle: woa
+      js-package: about
+      image: /assets/images/content/iStock-667012914_sm.jpg
   - scope:
       path: "_posts/events"
     values:
@@ -162,20 +163,6 @@ defaults:
       path: "_pages/projects/"
     values:
       sitemap: false
-  - scope:
-      path: ""
-      type: "company"
-    values:
-      layout: flow
-      flow:
-        - row: container_row
-          sections:
-            - format: custom_include
-              source: display_company_info.html
-  - scope:
-      type: "internships"
-    values:
-      layout: vacancy
   # - scope:
   #     path: "/sitemap.xml"
   #   values:
