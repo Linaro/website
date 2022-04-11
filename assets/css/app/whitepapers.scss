@@ -1,0 +1,30 @@
+#wrapper {
+  a.whitepaper_link:hover .whitepaper_text {
+    height: 100%;
+  }
+  .whitepaper-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    picture img {
+      object-fit: cover;
+      height: 100%;
+    }
+    .whitepaper_text {
+      position: absolute;
+      height: 130px;
+      text-align: center;
+      background-color: black;
+      bottom: 0;
+      opacity: 0.8;
+      color: white;
+      font-size: 14px;
+      display: flex;
+      padding: 10px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      transition: all 200ms ease;
+    }
+  }
+}

@@ -67,7 +67,7 @@ With the MHI bus supported in mainline, Adding support for Qualcomm modems mostl
 
 # Adding support for PCIe MHI modems - mhi_pci_generic
 
-We started with the PCI MHI controller driver, and implemented it as a generic PCI driver compatible with all Qualcomm PCIe/MHI modems. This driver, [mhi_pci_generic](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/bus/mhi/pci_generic.c), is a tiny piece of code that essentially retrieves and prepares the PCI device resources (interrupts, memory mappings…) before registering a new MHI controller (e.g. mhi0). Once registered, the MHI core handles all the MHI operations and the PCI driver only acts as a physical bus abstraction layer for register accesses or low power transitions.
+We started with the PCI MHI controller driver, and implemented it as a generic PCI driver compatible with all Qualcomm PCIe/MHI modems. This driver, mhi_pci_generic, is a tiny piece of code that essentially retrieves and prepares the PCI device resources (interrupts, memory mappings…) before registering a new MHI controller (e.g. mhi0). Once registered, the MHI core handles all the MHI operations and the PCI driver only acts as a physical bus abstraction layer for register accesses or low power transitions.
 
 We were pleased to find that no changes, except for a few bug fixes, were needed in the MHI core. Once the mhi_pci_generic driver had registered with the MHI core we were able to see the discovered channels and transfer our attention to drivers for the logical devices.
 

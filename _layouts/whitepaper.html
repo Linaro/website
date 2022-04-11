@@ -1,0 +1,31 @@
+---
+layout: base
+---
+<div itemscope itemtype="DigitalDocument">
+    <div
+        class="jumbotron d-flex flex-column justify-content-center align-items-center jumbotron-fluid {% if page.image %}background_image{% endif%}  header_2021_2">
+        {% if page.image %}
+            {% assign image_path = page.image  %}
+            {% picture header_image {{image_path}} %}
+        {% endif %}
+        <div class="container text-center">
+            <div class="inner_content_wrapper">
+                <h1 class="">{{page.title}}</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid main_content">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12 py-4">
+                        <a href="{{page.whitepaper_url}}" class="btn btn-primary d-block mx-auto">View the {{page.title}} whitepaper</a>
+                        <article>
+                            {{ content }}
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
