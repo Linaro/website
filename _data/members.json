@@ -226,11 +226,6 @@
         "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
         "name": "NXP",
         "uri": "https://www.nxp.com/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
-        "name": "Xilinx",
-        "uri": "https://www.xilinx.com/"
       }
     ],
     "membership_group_name": "LITE Members",
