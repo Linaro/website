@@ -1,12 +1,6 @@
 ---
-excerpt: Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon,
-  STMicroelectronics and ZTE have joined Linaro’s new Segment Group focused on
-  accelerating open source development for Arm processors in digital home
-  applications
-wordpress_id: 5907
 layout: post
-title: "Leaders in Digital Home Solutions Collaborate with Linaro on Arm Linux
-  Platforms "
+title: "Leaders in Digital Home Solutions Collaborate with Linaro on Arm Linux Platforms "
 image: /assets/images/content/tech_background__under_2mb.jpg
 category: news
 author: linaro
@@ -18,10 +12,11 @@ tags:
   - Linux On Arm
   - Open Source
 link: /news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/
-description: "Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu,
-  Hisilicon, STMicroelectronics and ZTE have joined Linaroâs new Segment Group
+description: >
+  Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu,
+  Hisilicon, STMicroelectronics and ZTE have joined Linaro's new Segment Group
   focused on accelerating open source development for Arm processors in digital
-  home applications"
+  home applications
 ---
 ## Industry leaders Allwinner, Arm, Cisco, Comcast, Fujitsu, Hisilicon, STMicroelectronics and ZTE have joined Linaro’s new Segment Group focused on accelerating open source development for Arm processors in digital home applications
 
