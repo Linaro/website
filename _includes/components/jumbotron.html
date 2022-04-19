@@ -78,7 +78,7 @@
             </div>
         </div>
         {% endif %}
-        {% if page.jumbotron.description or page.jumbotron.svg or page.jumbotron.buttons %}
+        {% if page.jumbotron.description or page.jumbotron.svg or page.jumbotron.buttons or page.jumbotron.title %}
             <div class="row {% if page.jumbotron.title_row %}py-4{% endif %}">
                 <div class="container {% if page.jumbotron.inner_class %}{{page.jumbotron.inner_class}}{% endif %}">
                     {% if page.jumbotron.svg %}
