@@ -19,9 +19,9 @@ jumbotron:
   title_row: true
   title: 云计算和服务器
   description: |
-    过去几年，Arm 在服务器领域被越来越多地采用，世界上最快的超级计算机——富士通的 Fugaku——在 Arm CPU 上运行。
+    过去几年，Arm在服务器领域正被越来越多地采用，包括世界上最快的超级计算机—富士通的Fugaku—就是在Arm CPU 上运行。
 
-    众所周知，Arm 芯片主导了移动市场。 Arm 为能够设计 Arm 芯片以满足特定需求的设备制造商提供的灵活性使其成为一个有吸引力的选择。 但要使 Arm 服务器芯片继续满足需要更多存储和更多数据的企业的需求，就需要有一个软件生态系统来帮助推动功能启用、测试和错误修复。 Linaro 与其成员公司合作，加强 Arm 服务器的软件生态系统。
+    众所周知，Arm 芯片主导了移动市场。 Arm 为设备制造商提供了灵活性,他们可以设计 Arm 芯片来满足特定的需求让它成为一个有吸引力的选择。 但要使 Arm 服务器芯片继续满足需要更多存储和更多数据的企业的需求，就需要有一个软件生态系统来帮助推动功能启用、测试和错误修复。 Linaro 与其成员公司合作，加强 Arm 服务器的软件生态系统。
   image: /assets/images/content/CCS_banner_image.jpg
 flow:
   - row: custom_include_row
@@ -41,7 +41,7 @@ flow:
           text: |
             ## 让 Arm 成为一等公民
 
-            Linaro 与其成员公司一起致力于为基于 Arm 的服务器启用关键的开源项目。 我们称之为使 Arm 成为一等公民。 通过验证项目的持续构建、测试并为 Arm 服务器目标提供可用的二进制文件，Arm 生态系统能够依赖高质量的软件在生产环境中使用。
+            Linaro 与其成员公司正在努力使关键的开源项目能够支持Arm 的服务器。我们称之为使 ARM 成为一等公民。  通过验证项目的持续构建、测试并为 Arm 服务器目标提供可用的二进制文件，Arm 生态系统能够依赖高质量的软件在生产环境中使用。
   - row: container_row
     style: bg-light
     sections:
@@ -66,11 +66,11 @@ flow:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary
                   url: https://linaro.atlassian.net/wiki/spaces/ASA/overview
-            - title: 用于数据中心和边缘的 AI
+            - title: 数据中心和边缘计算的人工智能
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                该项目专注于优化 HPC 和 AI 计算性能的支持。 该项目正在解决人工智能训练和推理的广泛用例，针对基于 Armv8.x 的服务器和超级计算机，例如富士通的高端 Fugaku 超级计算机、Neoverse 和基于 Cortex-A 的边缘设备。
+                该项目专注于 HPC 和 人工智能计算的性能优化。 该项目正在解决人工智能训练和推理的广泛用例，目标是基Armv8.x 的服务器和超级计算机，例如富士通的高端 Fugaku 超级计算机、Neoverse 和基于 Cortex-A 的边缘设备。
               buttons:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary
@@ -79,7 +79,7 @@ flow:
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                在过去两年中创建了 90% 的所有数据，大数据和数据科学技术至关重要，并且已经随着各种生产实施而变得成熟。 Linaro 为 Apache BigTop、Hadoop、Spark、Ambari 和 Drill 等项目推动工程活动和 ARMv8 构建。
+                在过去两年中生成了所有数据的90%，大数据和数据科学技术至关重要，并且已经随着各种产品实践而变得成熟。  Linaro 为 Apache BigTop、Hadoop、Spark、Ambari 和 Drill 等项目推动工程活动和 ARMv8 构建。
               buttons:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary
@@ -102,11 +102,11 @@ flow:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary
                   url: https://linaro.atlassian.net/wiki/spaces/STOR/overview
-            - title: Linaro 生态系统仪表板
+            - title: Linaro 生态系统看板
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                Linaro 生态系统仪表板是一个一站式资源，供大家查找必要的软件项目信息和有关 Arm 支持的资源。 目的是提供 Arm 生态系统景观的完整图景。 目前 Linaro 生态系统仪表板专注于服务器领域，但 Linaro 将把它扩展到其他垂直领域。
+                Linaro生态系统看板是一个一站式资源，每个人都可以找到有关的ARM支持的必要软件项目信息和资源。目的是提供ARM生态系统的景观全貌。目前，Linaro生态系统看板专注于服务器领域，但Linaro将将其扩展到其他垂直领域。
               buttons:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary
@@ -135,7 +135,7 @@ flow:
         style: text-white
         text_content:
           text: |
-            有多种方式可以与 Linaro 互动。
+            有多种方式可以参与Linaro。
       - format: custom_include
         source: themes/engagement_blocks.html
       - format: buttons

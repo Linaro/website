@@ -9,7 +9,7 @@ icon: /assets/images/content/Icon_Security_White.svg
 icon_dark: /assets/images/content/Icon_Security_black.svg
 js-package: contactForm
 description: >
-  安全不再是一种选择，它是能够保护知识产权、通信、银行账户、个人数字财产等的重要因素。
+  安全不再是一种选项，它是能够保护知识产权、通信、银行账户、个人数字财产等的重要因素。
 # presentation_link: https://linaro.co/ai-slides
 video_resources_link: https://resources.linaro.org/en/themes/78d8b871-93f5-45a9-9ed0-2cdd8769f852
 jumbotron:
@@ -17,9 +17,9 @@ jumbotron:
   title_row: true
   title: 安全
   description: |
-    安全不再是一种选择，它是能够保护知识产权、通信、银行账户、个人数字财产等的重要因素。
+    安全不再是一种选项，它是能够保护知识产权、通信、银行账户、个人数字财产等的重要因素。
 
-    要开发满足所有安全标准的解决方案，您需要对需要专家团队的大量技术有深入的了解。 自 Linaro 成立以来，安全一直是一个重要主题，我们继续在设计和开发 Arm 上多个开源项目中的基本安全组件方面发挥重要作用。
+    要开发满足所有安全标准的解决方案，您需要拥有对大量技术有深入了解的专家团队。 自 Linaro 成立以来，安全一直是我们的一个重要主题，我们继续在设计和开发 Arm 上多个开源项目中的必要安全组件方面发挥重要作用。
   image: /assets/images/content/Banner_Security.jpg
 flow:
   - row: container_row
@@ -40,7 +40,7 @@ flow:
               style: engagement_block_col h-100 text-left
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
-                OP-TEE 是实现 Arm TrustZone 技术的开源可信执行环境 (TEE)。 Linaro 在使用 TrustZone 和可信执行环境 (TEE) 方面有着长期的记录。早在 2013 年，Linaro 就与 STMicroelectronics 一起开始着手准备 STMicroelectronics 的开源 TEE 专有解决方案。几个月后，OP-TEE 发布，从那时起，Linaro 一直是推动新功能以及进行路线图规划、维护、发布工作、漏洞评估和缓解安全问题的关键贡献者。我们为 P-TEE 项目雇佣了几个核心维护者，以及 Linux 内核和 U-Boot 中的 TEE 框架的维护者。由于 TEE 是 Arm 生态系统中的核心组件，因此它被用于许多不同的用例中。因此，Linaro 建立了强大的工程团队，他们知道如何使用 OP-TEE 将高效且性能良好的解决方案组合在一起，无论任务有多大。 2019 年，OP-TEE 被捐赠给了 Linaro 社区项目 [Trusted Firmware](/news/linaro-donates-op-tee-into-the-trusted-firmware-project/)。 Linaro 仍然负责与 Linaro 的成员以及 [TrustedFirmware.org 项目](https://trustedfirmware.org/) 同步推动 OP-TEE 的路线图。
+                OP-TEE 是实现 Arm TrustZone 技术的开源可信执行环境 (TEE)。 Linaro 在使用 TrustZone 和可信执行环境 (TEE) 方面有着长期的记录。早在 2013 年，Linaro 就与 STMicroelectronics 一起开始着手准备 STMicroelectronics 的开源 TEE 专有解决方案。几个月后，OP-TEE 发布，从那时起，Linaro 一直是推动新功能以及进行路线图规划、维护、发布工作、漏洞评估和缓解安全问题的关键贡献者。我们为OP-TEE项目以及 Linux 内核和 U-Boot 中的 TEE 框架雇佣了几个核心维护者。由于 TEE 是 Arm 生态系统中的核心组件，因此它被用于许多不同的用例中。因此，Linaro 建立了强大的工程团队，他们知道如何使用 OP-TEE 将高效且性能良好的解决方案组合在一起，无论任务有多大。 2019 年，OP-TEE 被捐赠给了 Linaro 社区项目 [Trusted Firmware](/news/linaro-donates-op-tee-into-the-trusted-firmware-project/)。 Linaro 仍然负责与 Linaro 的成员以及 [TrustedFirmware.org 项目](https://trustedfirmware.org/) 同步推动 OP-TEE 的路线图。
               buttons:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary

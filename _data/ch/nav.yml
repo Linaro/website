@@ -73,7 +73,7 @@ pages:
     url: /support/
   - title: 关于
     options:
-      - text: 关于利纳罗
+      - text: 关于Linaro
         options:
           - text: 概述
             url: /about/
@@ -89,7 +89,7 @@ pages:
         url: /careers/
       - text: 博客
         url: /blog/
-      - text: 消息
+      - text: 新闻
         url: /news/
       - text: 活动
         url: /events/
