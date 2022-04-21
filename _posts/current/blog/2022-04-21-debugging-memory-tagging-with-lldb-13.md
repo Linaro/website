@@ -343,7 +343,7 @@ Useful if you want to clear tags or set some recognisable default values.
 
 Note: This is included in LLDB 14, which was unreleased at time of writing (https://releases.llvm.org/14.0.0/docs/ReleaseNotes.html#changes-to-lldb).
 
-Use the new “--show-tags” argument to print out the allocation tags in line with the memory contents.
+Use the new “show-tags” argument to print out the allocation tags in line with the memory contents.
 
 ```
 (lldb) memory read mte_buf mte_buf+32 -f "x" -s8 --show-tags
