@@ -8,7 +8,8 @@ image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
   - LLDB
   - MTE
-  - Memory TaggingLLVM
+  - Memory Tagging
+  - LLVM
   - Debugging
 category: blog
 author: david.spickett
@@ -145,7 +146,6 @@ aarch64-unknown-linux-gnu-gcc -march=armv8.5-a+memtag main.c -o prog -g
 clang -target aarch64-linux-gnueabi -march=armv8.5-a+memtag main.c -o prog -g
 
 (MTE was introduced in v8.5-a but is optional, so we have to add “+memtag”)
-
 ```
 
 # The Result
@@ -236,7 +236,7 @@ That last line is a new feature in 13. Here’s an untagged region for compariso
 
 ```
 (lldb) memory region main
-\[0x0000000000400000-0x0000000000401000) r-x /mnt/virt_root/mte_blog_post_program/prog PT_LOAD[0]
+[0x0000000000400000-0x0000000000401000) r-x /mnt/virt_root/mte_blog_post_program/prog PT_LOAD[0]
 ```
 
 ## memory tag read
