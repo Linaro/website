@@ -12,9 +12,7 @@ event_type: tech_days
 ---
 # Linaro and Arm System Ready Virtual Tech Event 
 
-Linaro and Arm are hosting a 2 day online event on Arm SystemReady certification program for silicon providers, OEM/ODMs, independent firmware vendors, operating system vendors, cloud service providers and system software developers in the community on May 17 and 18, 2022.\
-\
-The agenda includes sessions on the SystemReady program overview and bands, pre-silicon testing and partner presentations. Sessions will be recorded and posted for registered attendees to view on-demand. 
+Linaro and Arm are hosting a 2 day online event on Arm SystemReady certification program for silicon providers, OEM/ODMs, independent firmware vendors, operating system vendors, cloud service providers and system software developers in the community on May 17 and 18, 2022. The agenda includes sessions on the SystemReady program overview and bands, pre-silicon testing and partner presentations. Sessions will be recorded and posted for registered attendees to view on-demand. 
 
 To attend the event, please make sure to secure your spot by registering!
 
@@ -26,7 +24,7 @@ To attend the event, please make sure to secure your spot by registering!
 
 <!-- You can customise this button any way you like -->
 
-<button id="eventbrite-widget-modal-trigger-298747039437" type="button">Buy Tickets</button>
+<button id="eventbrite-widget-modal-trigger-298747039437" type="button">Register here</button>
 
 <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
 
@@ -43,8 +41,6 @@ To attend the event, please make sure to secure your spot by registering!
         onOrderComplete: exampleCallback
     });
 </script>
-
-
 
 
 
