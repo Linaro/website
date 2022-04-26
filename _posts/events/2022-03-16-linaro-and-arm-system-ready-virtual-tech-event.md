@@ -18,11 +18,7 @@ The agenda includes sessions on the SystemReady program overview and bands, pre-
 
 To attend the event, please make sure to secure your spot by registering!
 
-## The schedule for the SystemReady Event:
 
-<style> #pine-sessions { width: 100%; height: 500px; border: 0; display: block; }</style><iframe id="pine-sessions" frameborder="0" border="0" height="500" width="100%" src="https://events.pinetool.ai/2630/#widgets/sessions"></iframe>
-
-## [Register here](https://www.eventbrite.co.uk/e/linaro-and-arm-system-ready-virtual-tech-event-tickets-298747039437)
 
 <!-- Noscript content for added SEO -->
 
@@ -47,3 +43,11 @@ To attend the event, please make sure to secure your spot by registering!
         onOrderComplete: exampleCallback
     });
 </script>
+
+
+
+
+
+## The schedule for the SystemReady Event:
+
+<style> #pine-sessions { width: 100%; height: 500px; border: 0; display: block; }</style><iframe id="pine-sessions" frameborder="0" border="0" height="500" width="100%" src="https://events.pinetool.ai/2630/#widgets/sessions"></iframe>
