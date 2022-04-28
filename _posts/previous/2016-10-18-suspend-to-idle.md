@@ -1,9 +1,8 @@
 ---
 author: andy.gross
 date: 2016-10-18 19:05:19+00:00
-excerpt: 'The Linux kernel supports a variety of sleep states.  he four sleep states
-  are suspend to idle, power-on standby (standby), suspend to ram, and suspend to
-  disk.  This blog post focuses on the implementation of suspend to idle. '
+description: >
+  In this article, Andy Gross focuses on the implementation of suspend to idle, which is a software implemented sleep state. Read about his findings here!
 layout: post
 link: /blog/suspend-to-idle/
 slug: suspend-to-idle
@@ -11,9 +10,9 @@ title: Suspend to Idle
 wordpress_id: 11797
 category: blog
 tags:
-- Kernel
-- Linaro
-- Linux On Arm
+  - Kernel
+  - Linaro
+  - Linux On Arm
 ---
 
 ## Introduction

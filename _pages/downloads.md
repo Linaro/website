@@ -1,9 +1,7 @@
 ---
 title: Builds & Downloads
-description: Linaro maintains various development repositories and makes regular
-  releases of builds such as Android, LAVA Test Framework and GNU and LLVM
-  toolchains. This page provides links to many of the more popular downloads
-  produced by Linaro’s engineering teams.
+description: >
+  This page provides links to popular downloads produced by Linaro’s engineering teams. We maintain development repositories & make regular releases of builds!
 permalink: /downloads/
 keywords:
   - GNU
