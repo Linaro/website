@@ -3,7 +3,7 @@ title: Linaro & Arm CCA Tech Event
 event: linaro-arm-cca-tech-day-2021
 event_url: ""
 description: >
-	Register your interest for a deep dive into the Arm Confidential Compute Architecture on the 23 June 2021.
+  Register your interest for a deep dive into the Arm Confidential Compute Architecture on the 23 June 2021.
 location: "Online "
 date: 2021-05-03 09:59:28
 event_date: 2021-06-23 02:00:00
