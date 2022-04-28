@@ -6,6 +6,10 @@ description: >
   Filter news posts by tag.
 jumbotron:
   title: Tagged News Posts
+  class: text-center about_header
+  image: /assets/images/content/news_sm.jpg
+  title-class: font-weight-bold my-5
+  inner_class: py-5
   description: >
     Find tagged news posts here.
 flow:
