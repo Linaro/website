@@ -81,8 +81,9 @@ flow:
                 focuses on Arm UEFI, GRUB2 and
                 related components.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Arm Server Architecture
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/ASA/overview
             - title: AI for Datacenter and Edge
               style: related_project_block h-100
@@ -90,8 +91,9 @@ flow:
               description: |
                 This project is focused on enablement which optimizes performance in HPC and AI computing. The project is addressing a wide range of use cases for AI training and inference, targeting Armv8.x based servers and supercomputers such as Fujitsu's high end Fugaku supercomputer, Neoverse and Cortex-A based edge devices.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: AI for Datacenter and Edge
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/AIA/overview
             - title: Big Data & Data Science
               style: related_project_block h-100
@@ -106,8 +108,9 @@ flow:
                 builds for projects such as Apache
                 BigTop, Hadoop, Spark, Ambari and Drill.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Big Data & Data Science
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/BDDS/overview
             - title: Cloud Infrastructure
               style: related_project_block h-100
@@ -115,8 +118,9 @@ flow:
               description: |
                 Linaro’s aim in this space is to provide open-source cloud infrastructure projects with the capabilities to easily deploy, manage and deliver performance on Arm64. Engineering activities include technologies such as hypervisors and container based virtualization (OpenStack, Kubernetes) and Software Defined Storage (Ceph).
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Cloud Infrastructure
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/CLOUD/overview
             - title: Enhance Software-Defined-Storage on Arm Servers
               style: related_project_block h-100
@@ -124,8 +128,9 @@ flow:
               description: |
                 There is a shift towards using all-flash storage solutions (SSD/NVME) as opposed to traditional HDD disks due to improvements in performance. The goal of this project is to collaborate with industry leaders in the Arm server ecosystem so that we can provide competitive and leading storage solutions with Arm servers.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Enhance Software-Defined-Storage on Arm Servers
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/STOR/overview
             - title: Linaro Ecosystem Dashboard
               style: related_project_block h-100
@@ -133,8 +138,9 @@ flow:
               description: |
                 The Linaro Ecosystem Dashboard is a one-stop resource for everyone to find necessary software project info and resources about Arm support. The aim is to provide a complete picture of the Arm ecosystem landscape. At present the Linaro Ecosystem Dashboard is focused on the server landscape but Linaro will be expanding this to other verticals.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Linaro Ecosystem Dashboard
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://ecosystemdashboard.linaro.org/
       - format: buttons
         style: text-center
@@ -161,8 +167,65 @@ flow:
         text_content:
           text: |
             There are multiple ways to engage with Linaro.
-      - format: custom_include
-        source: themes/engagement_blocks.html
+      - format: block
+        style: pb-4 text-left
+        item_width: "6"
+        block_section_content:
+          blocks:
+            - title: Join the Linaro Datacenter & Cloud Group
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                If you want to collaborate with Linaro and other industry leaders in the Arm Server Ecosystem specifically, you can join the Linaro Datacenter & Cloud Group.
+
+                Linaro’s Datacenter & Cloud Group aims to, together with its members, provide a common development center for the Arm enterprise ecosystem.
+
+                Working together to resolve common issues and develop standards reduces fragmentation and helps all participating companies deliver their products to market faster.
+              buttons:
+                - title: Linaro Datacenter & Cloud Group
+                  style: btn-lg text-btn
+                  textBtn: true
+                  url: /membership/groups/
+            - title: Join as a Linaro Club Member
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                If you want to collaborate with Linaro and other industry leaders on all verticals in the Arm Ecosystem, club membership is the right option for you.
+              buttons:
+                - title: Linaro Club Membership
+                  style: btn-lg text-btn
+                  textBtn: true
+                  url: /membership/
+            - title: Leverage our expertise on your project through Linaro Developer Services.
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                Linaro Developer Services allows you to work with Linaro on a one-to-one basis on your specific project.
+              buttons:
+                - title: Linaro Developer Services
+                  style: btn-lg text-btn
+                  textBtn: true
+                  url: /services/
+            - title: Join our team!
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                We frequently hire subject matter experts and maintainers - if you're interested in becoming part of our team, go to the Linaro careers page to find out more.
+              buttons:
+                - title: Linaro Vacancies
+                  style: btn-lg text-btn
+                  textBtn: true
+                  url: /careers/
+            - title: Join as a Linaro Core Member
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                If you want to participate in all the work Linaro does as well as have access to your own dedicated engineering team, then core membership is the right option for you.
+              buttons:
+                - title: Linaro Core Membership
+                  style: btn-lg text-btn
+                  textBtn: true
+                  url: /membership/
       - format: buttons
         buttons_content:
           - title: Contact us
