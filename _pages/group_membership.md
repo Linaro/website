@@ -10,9 +10,9 @@ js-package: membership
 css_bundle: membership
 layout: flow
 jumbotron:
-  class: text-center  header_2021
-  title: Collaborate on software and standards in key segments
+  class: text-center about_header
   title-class: font-weight-bold my-5
+  title: Collaborate on software and standards in key segments
   inner_class: py-5
   image: /assets/images/content/member__banner_image.jpg
 image: /assets/images/content/member__banner_image.jpg

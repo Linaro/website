@@ -14,8 +14,9 @@ js-package: projects
 css_bundle: projects
 layout: flow
 jumbotron:
-  class: projects_banner text-center
+  class: about_header text-center
   title: Projects
+  title-class: font-weight-bold my-5
   image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:
 

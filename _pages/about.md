@@ -17,8 +17,9 @@ js-package: about
 css_bundle: about
 layout: flow
 jumbotron:
-  class: about_page text-center h-auto
+  class: about_header text-center
   title: About Linaro
+  title-class: font-weight-bold my-5
   description: ""
   image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:

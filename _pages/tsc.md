@@ -10,7 +10,8 @@ permalink: /tsc/
 js-package: contactForm
 layout: flow
 jumbotron:
-  class: text-center header_2021
+  class: text-center about_header
+  title-class: font-weight-bold my-5
   title: The Technical Steering Committee
   description: ""
   image: /assets/images/content/membership_board.jpg

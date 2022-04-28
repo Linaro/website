@@ -9,9 +9,9 @@ keywords:
   - executive team
 layout: flow
 jumbotron:
-  description-class: smaller
   title: The Team
-  inner_class: dotted
+  class: text-center about_header
+  title-class: font-weight-bold my-5
   description: ""
   image: /assets/images/content/san19-group-photo.jpg
 flow:

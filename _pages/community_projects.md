@@ -8,7 +8,8 @@ js-package: projects
 css_bundle: projects
 layout: flow
 jumbotron:
-  class: projects_banner text-center
+  class: text-center about_header
+  title-class: font-weight-bold my-5
   title: Linaro Community Projects
   image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:
