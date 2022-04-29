@@ -18,10 +18,10 @@ keywords:
   - Binary Toolchain Releases
 layout: flow
 jumbotron:
-  class: header_2021 text-center
+  class: text-center about_header
+  title-class: font-weight-bold my-5
   image: /assets/images/content/IMAGE_HOMEPAGE.jpg
   title: Builds & Downloads
-  title-class: font-weight-bold
   description: ""
 flow:
   - row: container_row

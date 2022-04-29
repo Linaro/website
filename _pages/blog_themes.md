@@ -5,6 +5,9 @@ sitemap: false
 description: >
   Filter news & blog posts by theme.
 jumbotron:
+  class: text-center about_header
+  title-class: font-weight-bold my-5
+  image: /assets/images/content/blog_sm.jpg
   title: News & Blog Posts by Theme
 flow:
   - row: container_row
@@ -13,4 +16,3 @@ flow:
         source: blog/themes.html
         category: blog
 ---
-

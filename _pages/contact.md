@@ -11,7 +11,8 @@ keywords:
 layout: flow
 jumbotron:
   title: Contact Linaro
-  inner_class: dotted
+  class: text-center about_header
+  title-class: font-weight-bold my-5
   description: ""
   image: /assets/images/content/harston-mill.jpg
 flow:
@@ -55,6 +56,7 @@ flow:
     style: block_row contact_blocks
   - row: main_content_row
 ---
+
 ## Technical Support
 
 **96Boards Technical Support -** If you have a technical support query relating to 96Boards, please post your question on [96Boards](https://discuss.96boards.org). [](https://discuss.96boards.org)

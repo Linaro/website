@@ -21,6 +21,11 @@
     background-color: #000 !important;
   }
   .jumbotron {
+    img.header_background_image {
+      filter: brightness(0.6);
+    }
+  }
+  .jumbotron {
     .icon_col {
       img.title_icon {
         max-height: 70px;

@@ -10,7 +10,7 @@ js-package: membership
 css_bundle: membership
 layout: flow
 jumbotron:
-  class: text-center about_header header_2021
+  class: text-center about_header
   title: Become a Linaro Member
   title-class: font-weight-bold my-5
   inner_class: py-5
