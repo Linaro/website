@@ -1,5 +1,5 @@
 ---
-title: About Linaro
+title: About Us
 description: "Linaro has driven open source software development on Arm since
   2010, providing the tools, Linux kernel quality and security needed for a
   solid foundation to innovate on. We are Arm Software Experts who work with
@@ -17,8 +17,9 @@ js-package: about
 css_bundle: about
 layout: flow
 jumbotron:
-  class: about_page text-center h-auto
+  class: about_header text-center
   title: About Linaro
+  title-class: font-weight-bold my-5
   description: ""
   image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:

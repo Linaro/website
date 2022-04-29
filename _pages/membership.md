@@ -10,8 +10,8 @@ js-package: membership
 css_bundle: membership
 layout: flow
 jumbotron:
-  class: text-center about_header header_2021
-  title: Influence the future of Arm Software
+  class: text-center about_header
+  title: Become a Linaro Member
   title-class: font-weight-bold my-5
   inner_class: py-5
   image: /assets/images/content/member__banner_image.jpg

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: MHI bus support gets added to the Linux kernel
-description: This article will briefly talk about the internals of MHI and its
-  implementation in the Linux kernel.
+title: MHI Bus Support Added To Linux Kernel
+description: >
+  In this article, Manivannan Sadhasivam will briefly talk about the internals of MHI and its implementation in the Linux kernel. Read about his findings here!
 date: 2020-03-17 08:37:59
 image: /assets/images/content/code.jpg
 tags:
@@ -11,6 +11,7 @@ tags:
 category: blog
 author: manivannan.sadhasivam
 ---
+
 Greg Kroah Hartman once said, “Buses are hard and complex. It is hard to write a bus. But it turns out that there are one or two new buses every kernel release”.
 
 Recently, [a patch series](https://lkml.org/lkml/2020/1/23/249) was posted to LKML for adding MHI (Modem Host Interface) bus support to the Linux kernel. This article will briefly talk about the internals of MHI and its implementation in the Linux kernel.

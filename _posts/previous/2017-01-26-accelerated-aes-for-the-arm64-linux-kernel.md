@@ -8,12 +8,14 @@ layout: post
 link: /blog/core-dump/accelerated-aes-for-the-arm64-linux-kernel/
 slug: accelerated-aes-for-the-arm64-linux-kernel
 tags:
-- Aarch64
-- Arm
-- Kernel
-- Linux
-- Linux Kernel
-title: Accelerated AES for the Arm64 Linux kernel
+  - Aarch64
+  - Arm
+  - Kernel
+  - Linux
+  - Linux Kernel
+title: Accelerated AES for Arm64 Linux Kernel
+description: >
+  Ard Biesheuvel looks into accelerated Advanced Encryption Standard (AES) for the ARM64 Linux Kernel. Read about his findings here!
 wordpress_id: 12087
 ---
 

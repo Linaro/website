@@ -2,12 +2,10 @@
 author: eric.auger
 category: blog
 date: 2016-02-29 23:08:58
-description: While PCIe passthrough (the process of assigning a PCIe device to a VM,
-  also known as device assignment) is supported through a mostly architecture-agnostic
-  subsystem called VFIO, there are intricate details of an Arm-based system that require
-  special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
-  on Arm server systems.
-excerpt: While PCIe passthrough (the process of assigning a PCIe device to a VM, also
+description: >
+  In this article, Eric Auger takes a detailed look at the KVM PCIe/MSI Passthrough on Arm/Arm64. Read about his findings here!
+excerpt:
+  While PCIe passthrough (the process of assigning a PCIe device to a VM, also
   known as device assignment) is supported through a mostly architecture-agnostic
   subsystem called VFIO, there are intricate details of an Arm-based system that require
   special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
@@ -16,11 +14,11 @@ layout: post
 link: /blog/core-dump/kvm-pciemsi-passthrough-armarm64/
 slug: kvm-pciemsi-passthrough-armarm64
 tags:
-- Kernel
-- Linux
-- Linux On Arm
-- Qemu
-- VFIO
+  - Kernel
+  - Linux
+  - Linux On Arm
+  - Qemu
+  - VFIO
 title: KVM PCIe/MSI Passthrough on Arm/Arm64
 wordpress_id: 10013
 ---

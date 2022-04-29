@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Enabling UEFI Secure Boot on U-Boot
-description: This article looks at how enabling UEFI Secure Boot on U-Boot works
-  and what it is designed to protect you against.
+description: >
+  In this article, Takahiro Akashi looks at how UEFI Secure Boot on U-Boot works and what it is designed to protect you against. Read about it here!
 date: 2020-09-28 02:15:38
 image: /assets/images/content/tech_background_1.jpg
 tags:
@@ -14,6 +14,7 @@ tags:
 category: blog
 author: takahiro.akashi@linaro.org
 ---
+
 U-Boot is a favorite boot loader for embedded devices, supporting a variety of architectures and platforms. In the last few years, a number of new UEFI interfaces have been brought into U-Boot, and the latest element added is Secure Boot. How does it work and what is it designed to protect you against?
 
 ## UEFI U-Boot
@@ -28,18 +29,18 @@ To further strengthen interoperability (and hence compatibility with the existin
 
 At the time of writing this article, UEFI U-Boot provides :
 
-* most of boottime services (before OS starts)
-* a limited number of runtime services (after OS starts)
-* a subset of relevant protocols (block devices, console, network etc.)
-* minimal boot manager
+- most of boottime services (before OS starts)
+- a limited number of runtime services (after OS starts)
+- a subset of relevant protocols (block devices, console, network etc.)
+- minimal boot manager
 
 There is still plenty of missing features and restrictions, but the functionality is now mature enough to run software like:
 
-* EDK-II shell
-* shim and grub, or more directly
-* linux kernel
+- EDK-II shell
+- shim and grub, or more directly
+- linux kernel
 
-While the primary target OS is linux, other OSs like BSD variants are also confirmed to work with UEFI U-Boot. Furthermore, *UEFI SCT (Self Certification Tests)* can also be executed directly on U-Boot. This allows us to evaluate to what extent the current implementation is compliant with the UEFI specification and has contributed to the enhancement in conformity.
+While the primary target OS is linux, other OSs like BSD variants are also confirmed to work with UEFI U-Boot. Furthermore, _UEFI SCT (Self Certification Tests)_ can also be executed directly on U-Boot. This allows us to evaluate to what extent the current implementation is compliant with the UEFI specification and has contributed to the enhancement in conformity.
 
 ## Secure Boot: How it works?
 
@@ -53,23 +54,23 @@ Since there are a variety of articles about UEFI Secure Boot on websites, for ex
 
 There are four main signature databases used here.
 
-* PK (Platform Key)
-* KEK (Key Enrollment Key)
-* db (allow-list of signatures)
-* dbx (deny-list of signatures)
+- PK (Platform Key)
+- KEK (Key Enrollment Key)
+- db (allow-list of signatures)
+- dbx (deny-list of signatures)
 
 "db" database may have x509 certificates, hashes of images as signatures and "dbx" may additionally contain hashes of certificates.
 
 An image will be granted for loading if
 
-* it is signed and its signature is validated by one of the certificates in "db" (there can be a number of intermediate certificates involved) or
-* its message digest is found in "db"
+- it is signed and its signature is validated by one of the certificates in "db" (there can be a number of intermediate certificates involved) or
+- its message digest is found in "db"
 
 Likewise, any image will be refused if
 
-* it is signed and its signature is validated by one of the certificates in "dbx"
-* it is signed and verified by "db" but any one of certificates in a chain of trust is found in "dbx" or
-* its message digest is found in "dbx"
+- it is signed and its signature is validated by one of the certificates in "dbx"
+- it is signed and verified by "db" but any one of certificates in a chain of trust is found in "dbx" or
+- its message digest is found in "dbx"
 
 In July, the security vulnerability, named "BootHole"\[5], has drawn people's attention. Grub, the de-facto boot loader for linux and other distributions, has a security attack vector due to memory overflow and may possibly allow attackers to execute arbitrary code bypassing UEFI Secure Boot on targeted systems.
 

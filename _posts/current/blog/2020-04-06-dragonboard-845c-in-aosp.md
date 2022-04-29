@@ -1,12 +1,14 @@
 ---
 layout: post
 title: DragonBoard 845c in AOSP
-date: '2020-04-06 01:48:45'
+description: >
+  In this article, John Stultz takes a detailed look at the DragonBoard 845c in AOSP (Android Open Source Project). Read about his findings here!
+date: "2020-04-06 01:48:45"
 image: /assets/images/content/48806078402_a2756594c6_k.jpg
 tags:
-- Android Ecosystem
-- Linux Kernel
-- Upstreaming
+  - Android Ecosystem
+  - Linux Kernel
+  - Upstreaming
 category: blog
 author: john.stultz
 ---
