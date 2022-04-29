@@ -62,8 +62,9 @@ flow:
                 refining this automation software. Linaro’s members guide
                 development of represents member interest.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: LAVA
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://validation.linaro.org/
             - title: TuxSuite™
               style: engagement_block_col h-100 text-left
@@ -71,8 +72,9 @@ flow:
               description: |
                 TuxSuite™ by Linaro is the backbone of Linaro’s testing efforts. This is now available as a commercial service to help anyone interested in improving their Linux kernel testing to do so rapidly and at scale. Take your testing from limited and infrequent to constant and expansive with TuxSuite™.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: TuxSuite™
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://tuxsuite.com/
             - title: Linux Kernel Functional Test (LKFT)
               style: engagement_block_col h-100 text-left
@@ -103,8 +105,9 @@ flow:
                 before they ever hit production mobile devices. Explore Linaro’s
                 Linux kernel functional test project at:
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: LKFT
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://lkft.linaro.org/
             - title: Software Quality Dashboard Software (SQUAD)
               style: engagement_block_col h-100 text-left
@@ -121,8 +124,9 @@ flow:
                 and access layer that can give granular access to public and
                 private data separately.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: SQUAD
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://github.com/Linaro/squad
       - format: buttons
         style: text-center
@@ -150,47 +154,39 @@ flow:
           text: |
             There are multiple ways to engage with Linaro.
       - format: block
-        style: pb-4
-        item_width: "4"
+        style: pb-4 text-left
+        item_width: "6"
         block_section_content:
           blocks:
             - title: Join as a Linaro Club Member
-              style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                If you want to collaborate with Linaro
-                and other industry leaders on all verticals
-                in the Arm Ecosystem, club membership
-                is the right option for you.
+                If you want to collaborate with Linaro and other industry leaders on all verticals in the Arm Ecosystem, club membership is the right option for you.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Linaro Club Membership
+                  style: btn-lg text-btn
+                  textBtn: true
                   url: /membership/
             - title: Join as a Linaro Core Member
-              style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                If you want to participate in all the
-                work Linaro does as well as have
-                access to your own dedicated
-                engineering team, then core
-                membership is the right option for you.
+                If you want to participate in all the work Linaro does as well as have access to your own dedicated engineering team, then core membership is the right option for you.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Linaro Core Membership
+                  style: btn-lg text-btn
+                  textBtn: true
                   url: /membership/
             - title: Join our team!
-              style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                We frequently hire subject matter
-                experts and maintainers - if you’re
-                interested in becoming part of our
-                team, go to the linaro careers page to
-                find out more.
+                We frequently hire subject matter experts and maintainers - if you're interested in becoming part of our team, go to the Linaro careers page to find out more.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Linaro Vacancies
+                  style: btn-lg text-btn
+                  textBtn: true
                   url: /careers/
       - format: buttons
         buttons_content:

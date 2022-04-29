@@ -47,13 +47,14 @@
                         <div class="container text-dark">
                             <div class="row theme_content_row h-100">
                                 <div class="theme_content_wrapper">
-                                    <div class="theme_content_inner_wrapper">
-                                        <div class="col col-12 col-md-8 d-flex align-items-center justify-content-center small_text_mobile">
+                                    <div class="theme_content_inner_wrapper row mx-0">
+                                        <div class="col col-12 d-flex align-items-center justify-content-center small_text_mobile">
                                             {{theme.description | markdownify }}
                                         </div>
-                                        <div class="col col-12 col-md-4 d-flex align-items-center justify-content-center">
-                                            <a href="{{theme.url}}" class="btn btn-primary mr-2 text-uppercase px-4 text-white" data-theme-id="{{theme.slug_title | slugify}}">
-                                                {{site.data.translations.learnMore}}
+                                        <div class="col col-12">
+                                            <hr>
+                                            <a href="{{theme.url}}" class="btn btn-primary mr-2 px-4 text-white" data-theme-id="{{theme.slug_title | slugify}}">
+                                                <span class="text-uppercase font-weight-bold">>> {{site.data.translations.learnMore}}</span> {{site.data.translations.about}} {{theme.title}}
                                             </a>
                                         </div>
                                     </div>

@@ -79,7 +79,7 @@ flow:
       #   source: themes/related_project_blocks.html
       - format: block
         style: pb-4
-        item_width: "4"
+        item_width: "6"
         block_section_content:
           blocks:
             - title: Project Stratos
@@ -99,8 +99,9 @@ flow:
                 agnostic Virtio interfaces and
                 standards.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Project Stratos
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/STR/overview
             - title: Open-CMSIS-Pack
               style: related_project_block h-100
@@ -119,8 +120,9 @@ flow:
                 on real or virtual hardware - for
                 embedded software.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Open-CMSIS-Pack project
+                  style: btn-lg text-btn
+                  textBtn: true
                   url: https://linaro.atlassian.net/wiki/spaces/CMSIS/overview
             - title: Trusted Substrate
               style: related_project_block h-100
@@ -136,11 +138,13 @@ flow:
                 technologies in multiple projects to
                 enable Arm SystemReady compliance.
               buttons:
-                - title: Download White Paper
-                  style: btn-lg btn-primary mb-2
+                - title: Trusted Substrate White Paper
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.co/trusted-substrate-white-paper
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Trusted Substrate
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/TS/overview
             - title: Ledge Reference Platform
               style: related_project_block h-100
@@ -158,8 +162,9 @@ flow:
                 that has dependable boot and update
                 capabilities.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Ledge Reference Platform
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/LRP/overview
             - title: Oniro
               style: related_project_block h-100
@@ -169,8 +174,9 @@ flow:
                 the capabilities of the Oniro OS (around trusted-boot and over-the-air updates), create a collaborative, Oniro OS Open CI testing
                 system, and onboard Linaro Oniro project members and their devices into the project.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Oniro
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://git.ostc-eu.org/groups/distro/-/milestones
             - title: Optimize AI for Microcontrollers
               style: related_project_block h-100
@@ -185,8 +191,9 @@ flow:
                 AI compiler experience for deeply
                 embedded environments.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Optimize AI for Microcontrollers
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/AIM/overview
             - title: Heterogeneous Platform
               style: related_project_block h-100
@@ -194,8 +201,9 @@ flow:
               description: |
                 The Heterogeneous Platform project is focused on software that allows the different core types or OS types to work together and creates a standards based framework to make the system developers job easier. The majority of Automotive SOCs use multiple CPU core types. Adding M profile or R profile cores to a SOC with A profile cores, allows the A profile cores to focus on the Linux tasks it is designed for, while M/R cores can focus on low latency sense/control loops, isolated security, or increased safety.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Heterogeneous Platform
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/HPP/overview
       - format: buttons
         style: text-center
@@ -222,8 +230,61 @@ flow:
         text_content:
           text: |
             There are multiple ways to engage with Linaro.
-      - format: custom_include
-        source: themes/engagement_blocks_edge_iot_devices.html
+      - format: block
+        style: pb-4 text-left
+        item_width: "6"
+        block_section_content:
+          blocks:
+            - title: Join Linaro's Edge & Fog Computing Group
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                If you want to collaborate with Linaro and other industry leaders on projects which specifically tackle challenges in the edge computing space, the Linaro Edge & Fog Computing Group is the option for you. The Linaro Edge & Fog Computing Group and its members have joined forces to make hybridization a reality through two major efforts - Trusted Substrate and the LEDGE Reference Platform.
+              buttons:
+                - title: Linaro's Edge & Fog Computing Group
+                  textBtn: true
+                  style: btn-lg text-btn
+                  url: /membership/groups/
+            - title: Join Linaro's IoT & Embedded Group
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                If you want to collaborate with Linaro and other industry leaders on projects which specifically tackle challenges in the IoT space, the Linaro IoT & Embedded Group is the option for you. Linaro's IoT and Embedded Group members work collaboratively to create and support key standards and best in class implementations to enable secure connected devices in the Arm ecosystem.
+              buttons:
+                - title: Linaro's IoT & Embedded Group
+                  style: btn-lg text-btn
+                  textBtn: true
+                  url: /membership/groups/
+            - title: Join as a Linaro Club Member
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                If you want to collaborate with Linaro and other industry leaders on all verticals in the Arm Ecosystem, club membership is the right option for you.
+              buttons:
+                - title: Linaro Club Membership
+                  style: btn-lg text-btn
+                  textBtn: true
+                  url: /membership/
+            - title: Join our team!
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                We frequently hire subject matter experts and maintainers - if you're interested in becoming part of our team, go to the Linaro careers page to find out more.
+              buttons:
+                - title: Linaro Vacancies
+                  style: btn-lg text-btn
+                  textBtn: true
+                  url: /careers/
+            - title: Join as a Linaro Core Member
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                If you want to participate in all the work Linaro does as well as have access to your own dedicated engineering team, then core membership is the right option for you.
+              buttons:
+                - title: Linaro Core Membership
+                  style: btn-lg text-btn
+                  textBtn: true
+                  url: /membership/
       - format: buttons
         buttons_content:
           - title: Contact us

@@ -39,7 +39,7 @@ flow:
           text: Linaro Projects focused on Virtualization
           size: h2
       - format: block
-        style: pb-4
+        style: pb-4 text-left
         item_width: "6"
         block_section_content:
           blocks:
@@ -48,15 +48,16 @@ flow:
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
                 QEMU is a free open-source emulator and virtualizer. Linaro
-                plays a key role in the project ensuring the ARM ecosystem is
+                plays a key role in the project ensuring the Arm ecosystem is
                 well represented and actively maintained. We leverage our
                 expertise as maintainers to support the upstreaming of new
                 features from members and the wider community. We
                 consistently rank in the top three of companies that participate
                 in the development of this well respected project.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Enabling Arm Architecture in QEMU
+                  style: btn-lg text-btn
+                  textBtn: true
                   url: https://linaro.atlassian.net/wiki/spaces/QEMU/overview
             - title: Project Stratos
               style: engagement_block_col h-100 text-left
@@ -70,8 +71,9 @@ flow:
                 problem. Project Stratos is working towards developing
                 hypervisor agnostic Virtio interfaces and standards.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Project Stratos
+                  style: btn-lg text-btn
+                  textBtn: true
                   url: https://linaro.atlassian.net/wiki/spaces/STR/overview
 
       - format: buttons
@@ -100,47 +102,39 @@ flow:
           text: |
             There are multiple ways to engage with Linaro.
       - format: block
-        style: pb-4
-        item_width: "4"
+        style: pb-4 text-left
+        item_width: "6"
         block_section_content:
           blocks:
             - title: Join as a Linaro Club Member
-              style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                If you want to collaborate with Linaro
-                and other industry leaders on all verticals
-                in the Arm Ecosystem, club membership
-                is the right option for you.
+                If you want to collaborate with Linaro and other industry leaders on all verticals in the Arm Ecosystem, club membership is the right option for you.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Linaro Club Membership
+                  style: btn-lg text-btn
+                  textBtn: true
                   url: /membership/
             - title: Join as a Linaro Core Member
-              style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                If you want to participate in all the
-                work Linaro does as well as have
-                access to your own dedicated
-                engineering team, then core
-                membership is the right option for you.
+                If you want to participate in all the work Linaro does as well as have access to your own dedicated engineering team, then core membership is the right option for you.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Linaro Core Membership
+                  style: btn-lg text-btn
+                  textBtn: true
                   url: /membership/
             - title: Join our team!
-              style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                We frequently hire subject matter
-                experts and maintainers - if you’re
-                interested in becoming part of our
-                team, go to the linaro careers page to
-                find out more.
+                We frequently hire subject matter experts and maintainers - if you're interested in becoming part of our team, go to the Linaro careers page to find out more.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Linaro Vacancies
+                  style: btn-lg text-btn
+                  textBtn: true
                   url: /careers/
       - format: buttons
         buttons_content:

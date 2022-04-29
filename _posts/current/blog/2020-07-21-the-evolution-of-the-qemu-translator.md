@@ -1,20 +1,21 @@
 ---
 layout: post
-title: The Evolution Of The QEMU Translator
-description: The QEMU team sits inside a group known as the Toolchain Working Group (TCWG). This post looks at the changes the QEMU Translator has seen over the last 5 years.
+title: TThe Evolution Of The QEMU Translator
+description: >
+  In this article, Alex Bennee looks at the changes the QEMU Translator has seen over the last 5 years. Read about the evolutuion of the QEMU translator here!
 date: 2020-07-22 01:00:55+00:00
 image: /assets/images/content/tech_background_2.jpg
 tags:
-- Qemu
-- Toolchain
-- Toolchain Working Group
-- TCWG
-- TCG
-- RISU
-- SVE
-- KVM
+  - Qemu
+  - Toolchain
+  - Toolchain Working Group
+  - TCWG
+  - TCG
+  - RISU
+  - SVE
+  - KVM
 related_projects:
-- QEMU
+  - QEMU
 category: blog
 author: alex.bennee
 ---
