@@ -1,5 +1,5 @@
 ---
-title: Careers at Linaro
+title: Work With Us
 description: >
   If you want to work on the cutting edge of Arm technology - Linaro
   is the place to be.

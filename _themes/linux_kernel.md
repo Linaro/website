@@ -63,8 +63,9 @@ flow:
                 performance. This prevents systems from overheating and
                 crashing.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Power and Performance
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/PERF/overview
             - title: System Control and Management Interface
               style: engagement_block_col h-100 text-left
@@ -80,8 +81,9 @@ flow:
                 environment than the usual cortex M bare metal. This Linaro
                 project addresses those use cases.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: System Control and Management Interface
+                  textBtn: true
+                  style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/SCMI/overview
       - format: buttons
         style: text-center
@@ -109,47 +111,39 @@ flow:
           text: |
             There are multiple ways to engage with Linaro.
       - format: block
-        style: pb-4
-        item_width: "4"
+        style: pb-4 text-left
+        item_width: "6"
         block_section_content:
           blocks:
             - title: Join as a Linaro Club Member
-              style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                If you want to collaborate with Linaro
-                and other industry leaders on all verticals
-                in the Arm Ecosystem, club membership
-                is the right option for you.
+                If you want to collaborate with Linaro and other industry leaders on all verticals in the Arm Ecosystem, club membership is the right option for you.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Linaro Club Membership
+                  style: btn-lg text-btn
+                  textBtn: true
                   url: /membership/
             - title: Join as a Linaro Core Member
-              style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                If you want to participate in all the
-                work Linaro does as well as have
-                access to your own dedicated
-                engineering team, then core
-                membership is the right option for you.
+                If you want to participate in all the work Linaro does as well as have access to your own dedicated engineering team, then core membership is the right option for you.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Linaro Core Membership
+                  style: btn-lg text-btn
+                  textBtn: true
                   url: /membership/
             - title: Join our team!
-              style: engagement_block_col h-100 text-left
-              content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
+              style: related_project_block h-100 text-dark
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                We frequently hire subject matter
-                experts and maintainers - if you’re
-                interested in becoming part of our
-                team, go to the linaro careers page to
-                find out more.
+                We frequently hire subject matter experts and maintainers - if you're interested in becoming part of our team, go to the Linaro careers page to find out more.
               buttons:
-                - title: Learn more
-                  style: btn-lg btn-primary btn-outline-primary
+                - title: Linaro Vacancies
+                  style: btn-lg text-btn
+                  textBtn: true
                   url: /careers/
       - format: buttons
         buttons_content:

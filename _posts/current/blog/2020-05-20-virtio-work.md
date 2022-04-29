@@ -3,8 +3,8 @@ layout: post
 author: alex.bennee
 published: true
 title: Working on VirtIO
-description: This article covers a summary of the history of VirtIO and the
-  areas Linaro is working on for the future.
+description: >
+  In this article, Alex Bennee provides a summary of the history of VirtIO and the areas Linaro is working on for the future. Read more here!
 date: 2020-05-20 16:00:00+00:00
 image: /assets/images/content/tech_background_1.jpg
 tags:
@@ -15,6 +15,7 @@ related_projects:
   - STR
 category: blog
 ---
+
 {% include image.html path="/assets/images/content/virtio.png" alt="virtio diagram" %}
 
 # Introduction

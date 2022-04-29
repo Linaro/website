@@ -8,6 +8,15 @@
   }
 }
 #wrapper {
+  .text-btn {
+    border: none;
+    white-space: normal;
+    text-align: left;
+    &:hover {
+      background-color: transparent;
+      color: $primary;
+    }
+  }
   .bg-black {
     background-color: #000 !important;
   }

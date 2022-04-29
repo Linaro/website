@@ -1,16 +1,14 @@
 ---
 layout: post
 title: DMA BUF Heap Transition in AOSP
-description: The ION framework was one of the early components of the Android patchset.
-  It provided a way for userspace to allocate memory buffers that would be efficiently
-  shared between multiple devices. In this article John Stultz takes a detailed look
-  at the DMA BUF Heaps interface that is designed to replace ION.
+description: >
+  In this article, John Stultz takes a detailed look at the DMA BUF Heaps interface that is designed to replace ION. Read about his findings here!
 date: 2020-11-17 03:44:32
 image: /assets/images/content/tech_background__under_2mb.jpg
 tags:
-- Android Ecosystem
-- DMA BUF Heaps
-- ION
+  - Android Ecosystem
+  - DMA BUF Heaps
+  - ION
 related_projects: []
 category: blog
 author: john.stultz
@@ -30,7 +28,7 @@ CPU->GPU->Display
 
 The trouble is each of the devices in the pipeline may have different constraints: A display may only be able to use contiguous memory buffers, or an ISP may only be able to address 32bits of memory directly. No single device driver understands the possible paths a buffer might take, so the drivers also cannot understand the constraints that devices in the path may have. But if one wants to share a single buffer between all the devices in the pipeline, one needs to make sure it satisfies all the constraints of that pipeline. The ION approach left it up to userland (using the device specific gralloc library) to understand the constraints of various pipelines on a device that a buffer may be used for, and thus it could allocate from a specific ION heap that satisfied those constraints.
 
-Rebecca was also involved in the early discussions around creating DMA BUF, a generic fd-based handle to a memory buffer, and ION was one of the first users of DMA BUFs when they landed upstream. ION was later added to staging in 2013, and in the following years Laura Abbott maintained it and worked to address issues that the community had with its design. Unfortunately, vendors using ION were not very active in working with the community on ION, so it was difficult as upstream changes were made by the community for vendors to keep in sync. Some upstream changes caused ABI breaks (which is allowable in staging as part of upstreaming), which later caused vendor pain. But instead of participating in finding a good upstream solution, often vendors  just reverted upstream changes and shipped older versions of ION in their products.
+Rebecca was also involved in the early discussions around creating DMA BUF, a generic fd-based handle to a memory buffer, and ION was one of the first users of DMA BUFs when they landed upstream. ION was later added to staging in 2013, and in the following years Laura Abbott maintained it and worked to address issues that the community had with its design. Unfortunately, vendors using ION were not very active in working with the community on ION, so it was difficult as upstream changes were made by the community for vendors to keep in sync. Some upstream changes caused ABI breaks (which is allowable in staging as part of upstreaming), which later caused vendor pain. But instead of participating in finding a good upstream solution, often vendors just reverted upstream changes and shipped older versions of ION in their products.
 
 ## New Interface - DMA BUF Heaps
 
@@ -40,7 +38,7 @@ The implementation was very minimal. Part of the problem with ION was that it di
 
 Also, instead of having one chardev and specifying which heap to allocate via a heap-mask or heap-id, we instead went with the idea of simplifying it further and having one chardev per heap. This allows for better access-control using sepolicy (instead of having to provide a blanket permission to /dev/ion), avoids any limitations in the number of possible heaps (originally ION was limited to 32 heaps), and allows for more descriptive naming than simple enumeration. This also is helpful as with ION many vendors used the same heap-id number for very different heaps, making userland implementations incompatible. Further we avoid having to create a heap querying interface, and can simply use the directory file names for discovery.
 
-Andrew also implemented two initial heap drivers: the system heap and a CMA (contiguous memory area) heap. This mapped very closely to the ION heaps in staging, but were greatly simplified to help with community review. This did mean some of the optimizations done in both the ION infrastructure as well as in the ION system heap driver were dropped. This included uncached buffers, large page allocation, page pooling and deferred freeing.  The CMA heap was closer, but only added the default CMA region rather than adding all CMA regions (as some drivers expect exclusive management of their region, so exporting it to userland might break those assumptions).
+Andrew also implemented two initial heap drivers: the system heap and a CMA (contiguous memory area) heap. This mapped very closely to the ION heaps in staging, but were greatly simplified to help with community review. This did mean some of the optimizations done in both the ION infrastructure as well as in the ION system heap driver were dropped. This included uncached buffers, large page allocation, page pooling and deferred freeing. The CMA heap was closer, but only added the default CMA region rather than adding all CMA regions (as some drivers expect exclusive management of their region, so exporting it to userland might break those assumptions).
 
 ## Migrating ION users to DMA BUF Heaps
 
@@ -54,17 +52,17 @@ Patches by Linaro to provide an uncached-system heap, along with large-page allo
 
 ## Zeroing buffers
 
-Related to that, there has been some interest in heaps that completely avoid zeroing buffers.  Now it would be a very bad idea to pass a buffer to userland that hasn’t been initialized, but zeroing buffers that userland immediately passes to a device to fill is quite wasteful. This is a major tradeoff with the DMA BUF Heaps design, as drivers that allocate their own memory can quickly allocate an uninitialized buffer and have the device fill it before passing it to userspace. Whereas, if userland allocates the memory, we must clear the buffer so they don’t accidentally get access to stale kernel or other process data. Thus having some way to allocate buffers which may never be userland accessible (similar to some secure heap implementations) or finding some way to lazily zero uninitialized buffers only when userland tries to first access it would be very useful.
+Related to that, there has been some interest in heaps that completely avoid zeroing buffers. Now it would be a very bad idea to pass a buffer to userland that hasn’t been initialized, but zeroing buffers that userland immediately passes to a device to fill is quite wasteful. This is a major tradeoff with the DMA BUF Heaps design, as drivers that allocate their own memory can quickly allocate an uninitialized buffer and have the device fill it before passing it to userspace. Whereas, if userland allocates the memory, we must clear the buffer so they don’t accidentally get access to stale kernel or other process data. Thus having some way to allocate buffers which may never be userland accessible (similar to some secure heap implementations) or finding some way to lazily zero uninitialized buffers only when userland tries to first access it would be very useful.
 
 Hridya Valsaraju has also been working on patches to enable better DMA BUF tracking and accounting statistics. This will help vendors to better be able to debug issues, as when sharing lots of buffers it is easy to lose track of things and waste memory.
 
 Additionally functionality like [exposing multiple CMA heaps](https://lore.kernel.org/lkml/1594948208-4739-1-git-send-email-hayashi.kunihiko@socionext.com/) have been submitted upstream by Kunihiko Hayashi. Additional changes to enable [heaps as modules](https://lore.kernel.org/lkml/20191025234834.28214-1-john.stultz@linaro.org/) have also been submitted upstream. But with both of these changes, we don’t yet have any upstream users of such functionality, so for now these must stay out of tree, and are likely to be carried in the Android kernel until vendors can submit their heaps upstream.
 
-Additional changes to provide in-kernel allocator accessors have been included in the Android tree to match ION’s functionality. However, there is still some question as to if this is really a valid use case. This is because if a driver is using an in-kernel interface to allocate a DMA BUF, it is inherently constraining the use of that buffer, as it is not aware of where that buffer may go next. At the same time, it seems silly to have every driver re-implement a DMA BUF exporter in order to provide DMA BUFs to userland, so being able to share existing heap implementations may be reasonable.  But again, we need to see the driver implementations using those interfaces being pushed upstream before any such functionality could be included into mainline.
+Additional changes to provide in-kernel allocator accessors have been included in the Android tree to match ION’s functionality. However, there is still some question as to if this is really a valid use case. This is because if a driver is using an in-kernel interface to allocate a DMA BUF, it is inherently constraining the use of that buffer, as it is not aware of where that buffer may go next. At the same time, it seems silly to have every driver re-implement a DMA BUF exporter in order to provide DMA BUFs to userland, so being able to share existing heap implementations may be reasonable. But again, we need to see the driver implementations using those interfaces being pushed upstream before any such functionality could be included into mainline.
 
 ## Participation from vendors on DMA BUF Heaps
 
-ION is quickly fading into the sunset, but there is still a fair amount of work to do on DMA BUF Heaps. A common theme here is that we need more participation upstream from vendors on DMA BUF Heaps. Without active input and code submissions upstream from vendors using the interfaces, we do not have a sense of what changes are important for this new subsystem. There is a risk that changes made on a theoretical basis could result in practical performance issues on devices, causing additional work for vendors adapting to the new functionality. I’d like to avoid that, but we need to hear from vendors upstream on what is working and what isn’t.  Further, we are limited to what we can push upstream by what upstream users we enable.  For this reason, we very much need to have active vendor participation upstream, directly submitting changes, new heaps, and users of such code to the list.
+ION is quickly fading into the sunset, but there is still a fair amount of work to do on DMA BUF Heaps. A common theme here is that we need more participation upstream from vendors on DMA BUF Heaps. Without active input and code submissions upstream from vendors using the interfaces, we do not have a sense of what changes are important for this new subsystem. There is a risk that changes made on a theoretical basis could result in practical performance issues on devices, causing additional work for vendors adapting to the new functionality. I’d like to avoid that, but we need to hear from vendors upstream on what is working and what isn’t. Further, we are limited to what we can push upstream by what upstream users we enable. For this reason, we very much need to have active vendor participation upstream, directly submitting changes, new heaps, and users of such code to the list.
 
 ## About the Author
 

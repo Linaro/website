@@ -45,7 +45,7 @@ flow:
             experts. All of this expertise is available to you through Linaro
             Developer Services. 
 
-            [Read more](/services/hands-on-training/)
+            [View Our Hands On Training Services](/services/hands-on-training/)
   - row: container_row
     style: dotted-border-top services_feature
     sections:
@@ -61,7 +61,7 @@ flow:
             on Arm, we leverage open source to ensure you benefit from the
             latest upstream features and security fixes.
 
-            [Read more](/services/security/)
+            [View Our Security Services](/services/security/)
   - row: container_row
     style: dotted-border-top services_feature
     sections:
@@ -77,7 +77,7 @@ flow:
             your product. We offer continuous integration (CI) and automated
             validation for your software, ensuring the highest possible quality.
 
-            [Read more](/services/testing-and-long-term-support/)
+            [View Our Testing & Long Term Support Services](/services/testing-and-long-term-support/)
   - row: container_row
     style: dotted-border-top services_feature
     sections:
@@ -93,7 +93,7 @@ flow:
             board support packages, product validation and long-term support &
             maintenance. We help get your products to market faster.
 
-            [Read more](/services/board-support-packages/)
+            [View Our Board Support Packages](/services/board-support-packages/)
   - row: container_row
     style: dotted-border-top services_feature
     sections:
@@ -109,7 +109,7 @@ flow:
             from Microcontrollers to HPC super-computers - doing initial ports and
             optimising performance.we help get your products to market faster.
 
-            [Read more](/services/system-performance-and-optimization/)
+            [View Our System Performance & Optimization Services](/services/system-performance-and-optimization/)
   - row: container_row
     style: dotted-border-top dotted-border-bottom services_feature highlighted_feature
     sections:
@@ -124,7 +124,7 @@ flow:
             Linaro Developer Services is a leader in providing Linux BSP
             development, maintenance and optimization for Qualcomm platforms.
 
-            [Read more](/services/qualcomm-platforms-services/)
+            [View Our Qualcomm Platforms Services](/services/qualcomm-platforms-services/)
   - row: container_row
     id: what_our_customers_say
     style: text-center
