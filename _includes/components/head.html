@@ -3,7 +3,21 @@
     <meta charset="UTF-8">
     <title>
         {% if page.title %}
-            {{page.title}} | {% if page.category == "blog" or page.event %}Blog | {% elsif page.collection == "themes" %}Solutions | {% endif %}{{site.title}}
+            {{page.title}} | 
+            {% if page.category == "blog" or page.event %}
+                {% if page.event_type == "tech_days" %}
+                    Virtual Tech Event | 
+                {% else %}
+                    Blog | 
+                {% endif %}
+            {% elsif page.collection == "themes" %}
+                    {% if page.sub_theme %}
+                        Core Technologies | 
+                    {% else %}
+                        Solutions | 
+                    {% endif %}
+            {% endif %}
+            {{site.title}}
         {% else %}
             {{site.title}}
         {% endif %}
