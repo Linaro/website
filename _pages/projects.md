@@ -1,8 +1,7 @@
 ---
-title: Our Projects
+title: Arm Open Source Projects
 description: >
-  Our displayed projects are only a subset of the leading edge Arm developments actively being worked on by Linaro, its member partners, & open source community. 
-layout: flow
+  Interested in working with Linaro and other industry leaders on Arm open source projects? Find out more about membership and how to participate here.layout: flow
 permalink: /projects/
 keywords:
   - arm open source project
@@ -13,11 +12,10 @@ css_bundle: projects
 layout: flow
 jumbotron:
   class: about_header text-center
-  title: Projects
+  title: Arm Open Source Projects
   title-class: font-weight-bold my-5
   image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:
-
   - row: container_row
     sections:
       - format: text

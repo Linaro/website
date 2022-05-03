@@ -38,12 +38,14 @@
             {% for member in sorted_core_members %}
                 <div class="col-md col-sm-4 col col-6 vcenter-img member_col">
                     <div class="member_image mb-3 mb-sm-0">
-                    <img
-                        data-src="{{member.image}}"
-                        alt="{{member.name}}"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        class="img-fluid members-img lazyload center-block"
-                    />
+                        {% if member.uri %}<a href="{{member.uri}}">{% endif %}
+                            <img
+                                data-src="{{member.image}}"
+                                alt="{{member.name}}"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                class="img-fluid members-img lazyload center-block"
+                            />
+                        {% if member.uri %}</a>{% endif %}
                     </div>
                 </div>
             {% endfor %}
@@ -51,12 +53,14 @@
             {% for member in sorted_other_members %}
                 <div class="col-md col-sm-4 col col-6 vcenter-img member_col">
                     <div class="member_image mb-3 mb-sm-0">
-                    <img
-                        data-src="{{member.image}}"
-                        alt="{{member.name}}"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        class="img-fluid members-img lazyload center-block"
-                    />
+                        {% if member.uri %}<a href="{{member.uri}}">{% endif %}
+                            <img
+                                data-src="{{member.image}}"
+                                alt="{{member.name}}"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                class="img-fluid members-img lazyload center-block"
+                            />
+                        {% if member.uri %}</a>{% endif %}
                     </div>
                 </div>
             {% endfor %}

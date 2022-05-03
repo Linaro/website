@@ -7,9 +7,7 @@ image: /assets/images/content/virtualization-share-image.jpg
 icon: /assets/images/content/Icon_Virtualization_notext.svg
 js-package: contactForm
 description: >
-  Virtualization can be used for almost any use case, with it playing an ever more prominent
-  role in up and coming technologies such as autonomous driving. Linaro plays a key role in QEMU - an
-  open source hypervisor.
+  Virtualization can be used for any use case, with it playing a prominent role in up & coming technologies. View our Linaro Projects focused on Virtualization.
 # presentation_link: https://linaro.co/ai-slides
 video_resources_link: https://resources.linaro.org/en/themes/4176e32f-5e66-492d-bbc9-b428446048c9
 jumbotron:

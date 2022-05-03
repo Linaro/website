@@ -1,7 +1,7 @@
 ---
 title: Membership
-description: Linaro is consistently listed as one of the top five contributors
-  worldwide to the Linux Kernel and works on more than 70 open source projects.
+description: >
+  Being a Linaro member means collaborating on projects which help enable new markets on Arm and solve common problems. Become a Linaro Member today!
 permalink: /membership/
 keywords:
   - Arm
@@ -11,7 +11,7 @@ css_bundle: membership
 layout: flow
 jumbotron:
   class: text-center about_header
-  title: Become a Linaro Member
+  title: Linaro Membership
   title-class: font-weight-bold my-5
   inner_class: py-5
   image: /assets/images/content/member__banner_image.jpg
