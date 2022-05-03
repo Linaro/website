@@ -7,10 +7,7 @@ image: /assets/images/content/toolchain-share-image.png
 icon: /assets/images/content/Icon_Toolchain_notext.svg
 js-package: contactForm
 description: >
-  Toolchains continue to evolve as new SoC features are
-  added. Speed and space optimisations are increasingly
-  important, especially in the IoT space. New security
-  features need compiler and tool support.
+  Toolchains continue to evolve as new SoC features are added. Our mission is to improve & maintain open-source Arm toolchain projects.
 # presentation_link: https://linaro.co/ai-slides
 video_resources_link: https://resources.linaro.org/en/themes/e07e525f-3fa5-44db-a1b2-bc673a318fe4
 jumbotron:

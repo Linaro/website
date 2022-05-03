@@ -11,7 +11,7 @@ icon_alt: /assets/images/content/Client_Devices_icon.svg
 icon_col: /assets/images/content/Icon_Client_Devices_colour.svg
 js-package: contactForm
 description: >
-  We access a wide range of applications on our devices every single day and expect things to “just work” regardless of what operating system we are using. But a lot of work happens in the background in order to deliver that seamless user experience. Linaro works closely with Google to advance the Android ecosystem on Arm. In addition to our collaboration with Google, we also work closely with Microsoft to advance the Windows on Arm ecosystem. In both cases, Linaro is driving the work needed to enable open source packages to run natively on Arm-based devices running Windows and/or Android.
+  Linaro works with member companies to achieve the optimal user experience on client devices by helping upstream new features, reduce technical debt and detect regressions.
 presentation_link: https://linaro.co/android-slides
 video_resources_link: https://resources.linaro.org/en/themes/307811da-98f5-4cfe-b63c-72b117b9c674
 jumbotron:

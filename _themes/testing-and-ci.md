@@ -1,22 +1,19 @@
 ---
 id: 1
-title: Testing & CI
+title: Testing & Continuous Integration
 sub_theme: true
 permalink: /core-technologies/testing-and-ci/
 image: /assets/images/content/Banner_Testing_CI.jpg
 icon: /assets/images/content/Icon_Testing_notext.svg
 js-package: contactForm
 description: >
-  Linaro provides the software tools to rapidly detect build
-  and functional-test regressions in Linux, Android, Zephyr,
-  and other operating systems against a variety of emulated
-  and hardware targets (IoT, embedded, and server).
+  Linaro provides software tools to rapidly detect build & functional-test regressions in Linux, Android, Zephyr etc against variety of emulated & hardware targets.
 # presentation_link: https://linaro.co/ai-slides
 video_resources_link: https://resources.linaro.org/en/themes/b14ff507-8b3e-4ce4-856d-ef161e2d4214
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
-  title: Testing & CI
+  title: Testing & Continuous Integration
   description: |
     Linaro provides the software tools to rapidly detect build
     and functional-test regressions in Linux, Android, Zephyr,
