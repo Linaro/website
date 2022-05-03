@@ -303,6 +303,22 @@
         {
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/PERFSCMI/overview\">https://linaro.atlassian.net/wiki/spaces/PERFSCMI/overview</a>",
+                "Theme": [
+                    "Core Technologies"
+                ],
+                "description": "The performance scaling with SCMI project will extend support for the SCMI perf-domain protocol in the Linux kernel and in the firmware.<br><br>Today, the current support in the Linux kernel for the SCMI perf-domain protocol, is limited to be used for CPU frequency scaling, through the cpufreq subsystem. However, the SCMI perf-domain protocol isn't really limited to CPUs, but fits well for other generic peripheral devices too. Extended support avoids the need for SoC specific protocols/interfaces, while scaling performance for non-CPU devices.<br><br>The Linux kernel already has generic support for DVFS (Dynamic Voltage Frequency Scaling), through a mixture of subsystems/libraries. Without going into details, it should be possible to tap into the existing infrastructures, to add support for the SCMI perf-protocol. In this way, the support would be generic and nicely abstracted from lower layer drivers/subsystems.",
+                "title": "Performance Scaling with SCMI"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10415",
+            "key": [
+                "PERFSCMI"
+            ],
+            "membership": []
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/PERF/overview\">https://linaro.atlassian.net/wiki/spaces/PERF/overview</a>",
                 "Theme": [
                     "Core Technologies"
@@ -379,6 +395,22 @@
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10421",
             "key": [
                 "SCMI"
+            ],
+            "membership": []
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/TE/overview\">https://linaro.atlassian.net/wiki/spaces/TE/overview</a>",
+                "Theme": [
+                    "Core Technologies"
+                ],
+                "description": "The thermal framework in the Linux kernel is designed to protect the silicon and exports the<br>thermal zone information to userspace. That includes the temperature but<br>also the different notifications telling about the cooling device state<br>changes as well as the temperature trip point crossed the way up or down.<br><br>Even though the thermal framework works well, some features are missing<br>and some parts can be improved to prevent overshoots leading to a<br>performance drop action.<br><br>These changes are found in out of tree kernels and needs to be carried<br>into the upstream kernel conforming to the Linux coding, design and<br>implementation standards.<br><br>Some issues with the current implementation have also been found and need to be fixed to allow the thermal daemons to act correctly and in time to mitigate the thermal situation on different devices.",
+                "title": "Thermal Enhancements"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10421",
+            "key": [
+                "TE"
             ],
             "membership": []
         },
