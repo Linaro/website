@@ -2,11 +2,9 @@
 layout: post
 title: Linaro, Arm and Qualcomm® collaborate to enable native LLVM for Windows
   10 on Arm
-description: LLVM is one of the main tools the open-source community uses to
-  compile their code. Linaro, Arm and Qualcomm® have collaborated to enable
-  native LLVM for Windows 10 on Arm. This will allow developers to recompile
-  their applications much faster by using the LLVM toolchain as a native Windows
-  on Arm program.
+description: Linaro, Arm & Qualcomm® collaborated to enable native LLVM for
+  Windows 10 on Arm. Allowing developers to recompile their apps faster by using
+  the LLVM toolchain.
 date: 2021-04-20 09:02:44
 image: /assets/images/content/llvm-image.jpg
 tags:
