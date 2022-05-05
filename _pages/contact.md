@@ -1,7 +1,8 @@
 ---
 title: Contact
-description: All the latest news including press releases, blogs and social
-  media as well as Linaro events.
+description: "Please get in touch if you have any enquiries regarding Linaro
+  Memberships, Services, Careers, Linaro Connect, Media or any other general
+  questions. "
 permalink: /contact/
 keywords:
   - contact
