@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Linaro and Huawei to collaborate on OpenHarmony - a fully open-source OS
+title: "Linaro & Huawei to Collaborate on OpenHarmony: A Fully Open-Source OS"
 description: >
-  OpenHarmony is an open-source operating system targeting the concept of
-  distributed devices 
-
-  and shared pool of resources. Linaro will collaborate with Huawei and the open-source community on the engineering work needed to make OpenHarmony fully open-source.
+  Linaro will collaborate with Huawei and the open-source community on the
+  engineering work needed to make OpenHarmony fully open-source. Read more here!
 date: 2021-03-24 06:17:42
 image: /assets/images/content/openharmony-image-for-pr.jpg
 tags:
