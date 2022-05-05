@@ -2,8 +2,10 @@
 related_project:
   - DTE
 layout: post
-title: Device Tree - Future Improvements
-description: Device Tree - Future Improvements
+title: "Device Tree: Future Improvements"
+description: In this article, Joakim Bech gives an overview on what exactly
+  Device Tree is and what it does as well as its future improvements. Read more
+  here!
 date: 2020-10-23 11:08:40
 image: /assets/images/content/devicetree-logo_vertical-devicetree.png
 tags:
