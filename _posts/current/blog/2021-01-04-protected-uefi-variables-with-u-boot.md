@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Protected UEFI Variables With U-Boot
-description: Critical system variables, like the UEFI ones, must be protected
-  against a variety of attacks. In this article, we talk about protected UEFI
-  variables with U-Boot.
+description: In this article, Ilias Apalodimas takes a detailed look at
+  Protected UEFI Variables With U-Boot. Read about his findings here!
 date: 2021-01-04 02:16:09
 image: /assets/images/content/tech_background.jpg
 tags:
