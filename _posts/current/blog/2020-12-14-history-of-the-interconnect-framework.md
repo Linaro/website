@@ -1,8 +1,8 @@
 ---
 layout: post
 title: History Of The Interconnect Framework
-description: "In this article we share more about the history behind the
-  Interconnect Framework. "
+description: In this article, Georgi Djakov takes a detailed look at the history
+  behind the Interconnect Framework. Read more on his findings here!
 date: 2020-12-22 04:28:00
 image: /assets/images/content/city.jpg
 tags:
