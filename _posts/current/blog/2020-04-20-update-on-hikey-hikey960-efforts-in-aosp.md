@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Update on HiKey/HiKey960 efforts in AOSP
-date: '2020-04-20 11:21:20'
+description: In this article, John Stultz takes a look at the HiKey/HiKey960
+  efforts in AOSP as HiKey gets put into retirement. Read more here!
+date: 2020-04-20 11:21:20
 image: /assets/images/content/hikey-image1.png
 tags:
-- HiKey
-- HiKey960
-- Android Ecosystem
+  - HiKey
+  - HiKey960
+  - Android Ecosystem
 category: blog
 author: john.stultz
 ---
