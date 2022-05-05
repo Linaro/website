@@ -10,6 +10,10 @@
                 {% else %}
                     Blog | 
                 {% endif %}
+            {% elsif page.category == "news" %}
+                News | 
+            {% elsif page.collection == "authors" %}
+                Author | 
             {% elsif page.collection == "themes" %}
                     {% if page.sub_theme %}
                         Core Technologies | 
