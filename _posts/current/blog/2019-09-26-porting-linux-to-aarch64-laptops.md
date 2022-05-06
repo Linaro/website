@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Porting Linux to AArch64 Laptops
-description: In this blog, Linaro Engineer Lee Jones talks about the work he has
-  done in porting Linux to AArch64 laptops.
+description: In this article, Linaro Engineer Lee Jones talks about the work he
+  has done in porting Linux to AArch64 laptops. Read about his findings here!
 date: 2019-09-26 01:00:00
 image: /assets/images/content/porting-linux-featured-image.jpg
 tags:
