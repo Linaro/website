@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Upstream camera support for Qualcomm platforms
-description: "In this blog we talk about how the Open Source CAMSS driver now
-  supports the next generation of ISP (image signal processor) artchitecture and
-  what improvements this entails. "
+description: In this article, Robert Foss takes a detailed look at upstream
+  camera support for Qualcomm platforms. Read about his findings here!
 date: 2021-02-23 01:49:15
 image: /assets/images/content/code-background_1.jpg
 tags:
