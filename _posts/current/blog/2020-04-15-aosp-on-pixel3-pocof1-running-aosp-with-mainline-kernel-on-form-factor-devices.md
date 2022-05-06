@@ -1,10 +1,13 @@
 ---
 layout: post
-title: AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernel on form-factor devices)
-date: '2020-04-15 11:37:57'
+title: AOSP on Pixel3/PocoF1 (Running AOSP with mainline kernel on form-factor
+  devices)
+description: In this article, Amit Pundir takes a detailed look at running AOSP
+  with mainline kernel on form-factor devices. Read about his findings here!
+date: 2020-04-15 11:37:57
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
 tags:
-- Android Ecosystem
+  - Android Ecosystem
 category: blog
 author: amit.pundir@linaro.org
 ---
