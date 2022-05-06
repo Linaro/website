@@ -1,7 +1,8 @@
 ---
-title: Membership
+title: Become a Linaro Member
 description: >
-  Being a Linaro member means collaborating on projects which help enable new markets on Arm and solve common problems. Become a Linaro Member today!
+  Being a Linaro member means collaborating on projects which help enable new
+  markets on Arm and solve common problems. Become a Linaro Member today!
 permalink: /membership/
 keywords:
   - Arm
