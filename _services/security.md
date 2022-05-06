@@ -1,9 +1,8 @@
 ---
 title: Security
 description: >
-  Specialists in security and Trusted Execution Environment (TEE) on Arm, we
-  leverage open source to ensure you benefit from the latest upstream features
-  and security fixes.
+  Linaro Developer Services has deep hands-on expertise in the areas of secure
+  boot, secure operating systems and Arm’s SystemReady specifications.
 permalink: /services/security/
 service_id: 8
 keywords:
@@ -103,9 +102,7 @@ flow:
             Linaro Developer Services are also able to confidently design and
             deliver secure boot solutions that meet SystemReady and PSA
 
-            Level 1 certifications. We have worked with Arm to extend the work of Linaro’s Edge and Fog Computing group (LEDGE) on the
-            [Trusted Substrate project](/projects/#automotive-iot-edge-devices_TS) to develop and upstream a SystemReady IR secure boot solution on NXP chipsets that have been
-            adopted by NXP as part of their product BSP.
+            Level 1 certifications. We have worked with Arm to extend the work of Linaro’s Edge and Fog Computing group (LEDGE) on the [Trusted Substrate project](/projects/#automotive-iot-edge-devices_TS) to develop and upstream a SystemReady IR secure boot solution on NXP chipsets that have been adopted by NXP as part of their product BSP.
 
 
             We also maintain SystemReady IR, ES and SR solutions for the Socionext DeveloperBox.
