@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Python and Go in the Arm World
-date: '2019-12-17 03:46:40'
+description: In this article, Siddhesh Poyarekar takes a detailed look at Python
+  and Go in the Arm World. Read about his findings here!
+date: 2019-12-17 03:46:40
 image: /assets/images/content/code_banner.jpg
 tags:
-- Arm
-- Python
-- Servers
+  - Arm
+  - Python
+  - Servers
 category: blog
 author: siddhesh.poyarekar
 ---
