@@ -1,9 +1,8 @@
 ---
 title: Events
+description: Linaro attends, hosts and sponsors many events each year. See our
+  list of events we are a part of below and register your interest.
 permalink: /events/
-image: /assets/images/content/Tech_Background.jpg
-description: >
-  Linaro attends, hosts and sponsors many events each year. See the events we are a part of below.
 jumbotron:
   title: Events
   class: text-center about_header
@@ -20,4 +19,5 @@ flow:
           category: Events
       - format: custom_include
         source: blog/display_latest_events.html
+image: /assets/images/content/Tech_Background.jpg
 ---
