@@ -1,8 +1,8 @@
 ---
 title: News
+description: Get the latest news from the Linaro team, including industry news,
+  our latest projects and company news.
 permalink: /news/
-description: >
-  Here you can find all of the latest Linaro news.
 tags_enabled: true
 jumbotron:
   class: text-center about_header
