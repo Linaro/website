@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Thermal Notifications With Netlink
-description: This blog introduces thermal framework design & where the
-  notification takes place to allow the userspace to be aware of the overall
-  thermal profile of the system.
+description: Daniel Lezcano introduces thermal framework design & where
+  notification takes place to allow userspace to be aware of overall thermal
+  profile of the system.
 date: 2020-07-30 12:19:31+00:00
 image: /assets/images/content/electricity-1288717_1920-1-.jpg
 tags:
