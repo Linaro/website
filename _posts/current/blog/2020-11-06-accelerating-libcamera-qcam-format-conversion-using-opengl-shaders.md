@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Accelerating libcamera Qcam format conversion using OpenGL shaders
-description: "Within this article, we decided to contribute to accelerating Qcam
-  so we can have a much more performant demo of libcamera on some of the
-  platforms we care about. "
+description: In this article, Show Liu takes a detailed look at accelerating
+  Qcam so we have a more performant demo of libcamera on the platforms we care
+  about. Read here!
 date: 2020-11-06 10:26:43
 image: /assets/images/content/code_highway-2-.jpg
 tags:
