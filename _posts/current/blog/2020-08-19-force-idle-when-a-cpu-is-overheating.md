@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Force Idle When a CPU Is Overheating
-description: In this article we focus on a new technique to cool down the CPUs
-  to help avoid overheating.
+description: In this article, Daniel Lezcano focuses on a new technique to cool
+  down the CPUs to help avoid overheating. Click here to read about this new
+  technique!
 date: 2020-09-18 11:22:11+00:00
 image: /assets/images/content/chip_background_under_2mb.jpg
 tags:
