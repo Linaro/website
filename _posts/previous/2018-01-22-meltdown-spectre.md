@@ -1,21 +1,20 @@
 ---
-author: joakim.bech
-date: 2018-01-24 11:00:00+00:00
-title: Implications of Meltdown and Spectre &#58; Part 1
-description: The basis of the Meltdown and Spectre attacks is to make use of speculative
-  execution, out-of-order execution, branch predictors and caches, all features found
-  in modern CPUs.  These features all aim to increase performance and to avoid latencies
-  in the pipeline.  They work in conjunction with each other in quite complex ways.
-category: blog
-published: true
-tags:
-- Arm
-- TrustZone
-keywords: Meltdown, Spectre, Arm, OP-TEE, Trustzone, Speculative execution, branch
-  predictor, CPU cache, Set-Associative-Cache, side channel attack, Simple Power Analysis,
-  Differential Power Analysis, crypto,
-image: /assets/images/blog/meltdown-spectre-logo.jpg
 layout: post
+keywords: Meltdown, Spectre, Arm, OP-TEE, Trustzone, Speculative execution,
+  branch predictor, CPU cache, Set-Associative-Cache, side channel attack,
+  Simple Power Analysis, Differential Power Analysis, crypto,
+title: Implications of Meltdown and Spectre &#58; Part 1
+description: In this article, Joakim Bech looks at the implications of meltdown
+  & spectre in practice and how it could affect secure domains like TrustZone.
+  Read more here!
+image: /assets/images/blog/meltdown-spectre-logo.jpg
+tags:
+  - Arm
+  - TrustZone
+author: joakim.bech
+published: true
+date: 2018-01-24 11:00:00+00:00
+category: blog
 ---
 
 <div class="col-sm-6" markdown="1">
