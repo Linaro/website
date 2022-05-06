@@ -1,7 +1,8 @@
 ---
 title: The Team
-description: The team page shows how Linaro is run and who is on the Board of
-  Directors, Executive Team and Technical Steering Committee.
+description: Linaro is member driven. Member companies work with us to drive the
+  direction of long-term objectives & engineering priorities. Click to see our
+  Team Members.
 permalink: /about/team/
 keywords:
   - Linaro organization
