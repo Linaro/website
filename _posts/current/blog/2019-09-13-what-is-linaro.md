@@ -1,14 +1,17 @@
 ---
 layout: post
 title: What is Linaro?
-date: '2019-09-13 01:15:44'
+description: The question “what is Linaro?” usually comes shortly after “what
+  company do you work for?” I have a variety of answers honed over the years.
+  Read them here!
+date: 2019-09-13 01:15:44
 image: /assets/images/content/davidblogsep2019.jpg
 tags:
-- Arm
-- Linux
-- Open Source
-- Collaborative Engineering
-- Linaro
+  - Arm
+  - Linux
+  - Open Source
+  - Collaborative Engineering
+  - Linaro
 category: blog
 author: david.rusling
 ---
