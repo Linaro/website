@@ -2,6 +2,8 @@
 wordpress_id: 12315
 layout: post
 title: What's new in QEMU 2.9
+description: In this article, Alex Bennée provides an overview of what's new in
+  the latest 2.9 version of QEMU. Read more here!
 image: /assets/images/content/Banner_Virtualization.jpg
 tags:
   - Qemu
