@@ -1,8 +1,9 @@
 ---
 title: Our Blog
+description: Get the latest updates & news from the Linaro team, including
+  industry news, our latest projects & company news. Click to read the latest
+  updates.
 permalink: /blog/
-description: >
-  Read our official Linaro blog posts to get the latest updates and news within the industry.
 tags_enabled: true
 jumbotron:
   class: text-center about_header
