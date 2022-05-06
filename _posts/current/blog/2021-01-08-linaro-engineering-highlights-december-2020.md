@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - December 2020
-description: This edition of the monthly Engineering Highlights is feature
-  packed with several updates, together with a roundup on the year of some of
-  the key projects.
+description: In this edition of the Engineering Highlights, Jon Burcham takes a
+  detailed look at the Future of 32-bit Linux, Zephyr security, evolution of
+  Device Tree and more.
 date: 2021-01-08 12:08:24
 image: /assets/images/content/code.jpg
 tags:
