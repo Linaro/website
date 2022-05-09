@@ -1,13 +1,16 @@
 ---
 layout: post
 title: The end of an Era
-date: '2020-02-06 09:09:55'
+description: In this article, Arnd Begrmann discusses the end of an era with the
+  Linux-5.6 window, a project which has kept him busy for nealt 6 years. Read
+  more here!
+date: 2020-02-06 09:09:55
 image: /assets/images/content/2038_image.jpg
 tags:
-- Linux Kernel
-- Arm
-- Open Source
-- Software
+  - Linux Kernel
+  - Arm
+  - Open Source
+  - Software
 category: blog
 author: arnd.bergmann
 ---
