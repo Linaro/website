@@ -1,16 +1,20 @@
 ---
-author: joakim.bech
-comments: false
-date: 2014-09-03 17:06:05+00:00
-layout: post
-link: /blog/core-dump/op-tee-open-source-security-mass-market/
-slug: op-tee-open-source-security-mass-market
-title: OP-TEE, open-source security for the mass-market
 wordpress_id: 6500
-category: blog
+layout: post
+author: joakim.bech
+slug: op-tee-open-source-security-mass-market
+date: 2014-09-03 17:06:05+00:00
+comments: false
+title: OP-TEE, open-source security for the mass-market
 tags:
-- Android
-- Qemu
+  - Android
+  - Qemu
+link: /blog/core-dump/op-tee-open-source-security-mass-market/
+description: In this article, Joakim Bech takes a detailed look at the history
+  of OP-TEE, the open-source security for the mass market. Read more on what
+  OP-TEE is here.
+image: /assets/images/content/Banner_Security.jpg
+category: blog
 ---
 
 {% include image.html path="/assets/images/blog/thumb_STMicroTransparent.png" alt="thumb_STMicroTransparent" class="small-inline" %}
