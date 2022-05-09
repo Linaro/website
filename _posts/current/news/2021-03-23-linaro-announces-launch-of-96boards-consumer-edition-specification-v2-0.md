@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Linaro announces launch of 96Boards Consumer Edition Specification v2.0
-description: Linaro is pleased to announce the launch of the 96Boards Consumer
-  Edition Specification v2.0. The specification has been updated to address the
-  ever-increasing demands of high performance computing applications such as AI,
-  mixed-reality, intelligent HMI, automotive and 5G.
+description: We're pleased to announce the launch of 96Boards Consumer Edition
+  Spec v2.0. This has been updated to address the demands of HPC applications.
+  Read more here!
 date: 2021-03-23 09:28:11
 image: /assets/images/content/96boards-specification-consumer-edition-v2.jpg
 tags:
