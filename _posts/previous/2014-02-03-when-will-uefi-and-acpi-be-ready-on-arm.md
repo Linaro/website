@@ -4,8 +4,9 @@ layout: post
 keywords: Linaro, software on Arm, Linux, Linux on Arm, UEFI, ACPI, enterprisse
   software, Arm, U-Boot, FDT, kernel
 title: When Will UEFI and ACPI Be Ready On Arm?
+description: In this article, Grant Likely takes a detailed look at when will
+  UEFI & ACPI be ready on ARM. Click here to the latest updates on this topic!
 image: /assets/images/content/RGB-Linaro_Standard.png
-category: blog
 author: grant.likely
 slug: when-will-uefi-and-acpi-be-ready-on-arm
 date: 2014-02-03 18:58:27
@@ -16,11 +17,7 @@ tags:
   - Linux On Arm
   - Software
 link: /blog/when-will-uefi-and-acpi-be-ready-on-arm/
-description: Why are we doing UEFI & ACPI? Who should be using UEFI/ACPI? Will
-  U-Boot and FDT continue to be supported? Can hardware provide both ACPI & FDT?
-  Can ACPI and FDT coexist? And so on. I want to quickly address those questions
-  in this blog post, and then I want to discuss a development plan to get UEFI
-  and ACPI onto shipping servers.
+category: blog
 ---
 As part of the work to prepare for Arm servers, the Linaro Enterprise Group has spent the last year getting ACPI and UEFI working on Arm. We’ve been working closely with Arm and Arm’s partners on this to make sure the firmware architecture meets the needs of the server market.
 
