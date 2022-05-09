@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Linaro Developers top 5.12 Kernel release
-description: The 5.12 kernel release was published this week and featured Linaro
-  yet again in the top five contributors to the Linux kernel.
+description: In this article, we discuss the 5.12 kernel release, which was
+  published this week & featured Linaro yet again in the top five contributors
+  to the Linux kernel.
 date: 2021-04-29 01:02:09
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
