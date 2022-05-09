@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The many and varied uses of QEMU
-description: " This blog gives an overview of some of the engineering enabled by
-  QEMU throughout Linaro and beyond."
+description: In this article, Alex Bennée provides an overview of some of the
+  engineering enabled by QEMU throughout Linaro and beyond. Read more here!
 date: 2021-05-18 09:00:00
 image: /assets/images/content/code-background_1.jpg
 tags:
