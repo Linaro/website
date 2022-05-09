@@ -1,28 +1,27 @@
 ---
-author: christoffer.dall
-category: blog
-date: 2016-06-16 18:37:46
-description: While PCIe passthrough (the process of assigning a PCIe device to a VM,
-  also known as device assignment) is supported through a mostly architecture-agnostic
-  subsystem called VFIO, there are intricate details of an Arm-based system that require
-  special support for Message Signaled Interrupts (MSIs) in the context of VFIO passthrough
-  on Arm server systems.
-excerpt: 'The first study of Arm virtualization performance on server hardware, including
-  multi-core measurements of two popular Arm and x86 hypervisors, KVM and Xen. We
-  show how Arm hardware support for virtualization can enable much faster transitions
-  between VMs and the hypervisor, a key hypervisor operation. '
-layout: post
-link: /blog/core-dump/on-the-performance-of-arm-virtualization/
-slug: on-the-performance-of-arm-virtualization
-tags:
-- Arm
-- KVM
-- Linux
-- Linux On Arm
-- Virtualization
-- VM
-title: On the Performance of Arm Virtualization
+excerpt: "The first study of Arm virtualization performance on server hardware,
+  including multi-core measurements of two popular Arm and x86 hypervisors, KVM
+  and Xen. We show how Arm hardware support for virtualization can enable much
+  faster transitions between VMs and the hypervisor, a key hypervisor operation.
+  "
 wordpress_id: 10716
+layout: post
+title: On the Performance of Arm Virtualization
+description: In this article, Christoffer Dall takes a detailed look at the
+  Performance of Arm Virtualization. Read about his findings here!
+image: /assets/images/content/Code_Image_Core_tech.jpg
+author: christoffer.dall
+slug: on-the-performance-of-arm-virtualization
+date: 2016-06-16 18:37:46
+tags:
+  - Arm
+  - KVM
+  - Linux
+  - Linux On Arm
+  - Virtualization
+  - VM
+link: /blog/core-dump/on-the-performance-of-arm-virtualization/
+category: blog
 ---
 
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
