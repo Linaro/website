@@ -1,26 +1,27 @@
 ---
-author: linaro
-category: blog
-date: 2016-04-29 15:51:39
-description: Linaro's 16.04 release is now available for download. See the detailed
-  highlights of this release and an overview of what has been accomplished by each
-  team along with all available software downloads.
-excerpt: Linaro's 16.04 release is now available for download. See the detailed highlights
-  of this release and an overview of what has been accomplished by each team along
-  with all available software downloads.
-keywords: Linaro
-layout: post
-link: /blog/linaro-16-04-release-available-for-download-2/
-slug: linaro-16-04-release-available-for-download-2
-tags:
-- Android
-- Kernel
-- Linaro
-- Linux
-- Linux On Arm
-- Open Source
-title: Linaro 16.04 Release Available for Download
+excerpt: Linaro's 16.04 release is now available for download. See the detailed
+  highlights of this release and an overview of what has been accomplished by
+  each team along with all available software downloads.
 wordpress_id: 10555
+layout: post
+keywords: Linaro
+description: Linaro's 16.04 release is now available for download. See detailed
+  overview & highlights of what has been accomplished in this release, including
+  current downloads.
+image: /assets/images/content/Banner_Core_Technologies.jpg
+tags:
+  - Android
+  - Kernel
+  - Linaro
+  - Linux
+  - Linux On Arm
+  - Open Source
+author: linaro
+slug: linaro-16-04-release-available-for-download-2
+title: Linaro 16.04 Release Available for Download
+date: 2016-04-29 15:51:39
+link: /blog/linaro-16-04-release-available-for-download-2/
+category: blog
 ---
 
 > “Digital circuits are made from analog parts." _**~ Don Vonada**_
