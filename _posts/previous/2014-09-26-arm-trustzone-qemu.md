@@ -1,24 +1,26 @@
 ---
-author: linaro
-category: blog
-comments: false
-date: 2014-09-26 08:54:06
-description: The blog post describes why introducing Arm TrustZone support in QEMU
-  is important and the accompanying benefits. The post outlines the turbulent history
-  behind the current development as well as an explanation of the added features.
-excerpt: The blog post describes why introducing Arm TrustZone support in QEMU is
-  important and the accompanying benefits.  The post outlines the turbulent history
-  behind the current development as well as an explanation of the added features.
-layout: post
-link: /blog/core-dump/arm-trustzone-qemu/
-slug: arm-trustzone-qemu
-tags:
-- Arm
-- Qemu
-- Security Extensions
-- TrustZone
-title: Arm TrustZone in QEMU
+excerpt: The blog post describes why introducing Arm TrustZone support in QEMU
+  is important and the accompanying benefits.  The post outlines the turbulent
+  history behind the current development as well as an explanation of the added
+  features.
 wordpress_id: 6913
+layout: post
+author: linaro
+slug: arm-trustzone-qemu
+description: In this article, Linaro take a detailed look at why introducing Arm
+  TrustZone support in QEMU is important & the accompanying benefits. Read about
+  it here!
+date: 2014-09-26 08:54:06
+comments: false
+title: Arm TrustZone in QEMU
+tags:
+  - Arm
+  - Qemu
+  - Security Extensions
+  - TrustZone
+link: /blog/core-dump/arm-trustzone-qemu/
+image: /assets/images/content/Banner_Virtualization.jpg
+category: blog
 ---
 
 Ever used an application on your smartphone or tablet that accesses security sensitive information such as banking, personal health information, or credit cards? The demand for mobile devices to do more and more is rapidly growing and includes increased security sensitive tasks. At the same time, malicious apps are also flooding mobile app stores in hopes of exploiting security holes to take advantage of unsuspecting users.
