@@ -1,19 +1,21 @@
 ---
-author: jennifer.castelino
-category: blog
-date: 2014-04-24 19:06:07
-description: Linaro's 14.04 release - links to all the downloads available for this
-  release
-layout: post
-link: /blog/linaro-14-04-release-now-available-download/
-slug: linaro-14-04-release-now-available-download
-tags:
-- Android
-- Linaro
-- Software
-- Toolchain
-title: Linaro 14.04 Release Now Available for Download!
 wordpress_id: 5737
+layout: post
+title: Linaro 14.04 Release Now Available for Download!
+description: In this article, Jennifer Castelino provides an overview of what
+  has been accomplished on Linaro's latest 14.04 release, which is available to
+  download today!
+image: /assets/images/content/Banner_Linux_Kernel.jpg
+tags:
+  - Android
+  - Linaro
+  - Software
+  - Toolchain
+author: jennifer.castelino
+slug: linaro-14-04-release-now-available-download
+date: 2014-04-24 19:06:07
+link: /blog/linaro-14-04-release-now-available-download/
+category: blog
 ---
 
 > "The world is full of magical things patiently waiting for our wits to grow sharper." *~ Bertrand Russell*
