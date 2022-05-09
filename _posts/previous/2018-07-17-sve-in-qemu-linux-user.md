@@ -1,16 +1,19 @@
 ---
-title: SVE in QEMU's linux-user mode
-author: alex.bennee
 layout: post
+author: alex.bennee
+published: true
+title: ARM SVE Support in QEMU's Latest Linux-User Mode
+description: In this article, Alex Bennée takes a detailed look at the ARM SVE
+  (Scalable Vector Extension) support in the latest version of QEMU. Read more
+  here!
 date: 2018-07-17 09:00:00+00:00
-description: ARM SVE support has finally landed in the latest version of QEMU.
-category: blog
+image: /assets/images/content/Banner_Virtualization.jpg
 tags:
   - Arm
   - Linaro
   - SVE
   - Qemu
-published: true
+category: blog
 ---
 
 Arm’s innovative [Scalable Vector Extension](https://community.arm.com/processors/b/blog/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture) instructions are a new set of instructions designed for data-heavy supercomputing applications. Superficially they are similar to the existing NEON/AdvSIMD instructions in that they allow you to exploit [data parallelism](https://en.wikipedia.org/wiki/Data_parallelism) in algorithms by executing several identical operations at the same time over multiple lanes of a vector register. Where SVE differs from traditional vector processing is that the number of lanes are implementation defined. The clever part comes from a programming model that means assumptions about the number of lanes are not hard coded into the binaries. This means the same binary that runs on a mobile SoC, with a small number of lanes, can automatically take advantage of the wider lanes on a HPC supercomputing cluster, without recompiling the program.
