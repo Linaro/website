@@ -1,7 +1,10 @@
 ---
 wordpress_id: 9949
 layout: post
-title: Testing a Trusted Execution Environment
+title: "OP-TEE Test: Testing a Trusted Execution Environment"
+description: In this article, Joakim Bech provides a general background about
+  OP-TEE as well as testing OP-TEE using a tool called xtest (optee_test). Read
+  more here!
 image: /assets/images/content/Linaro-and-Riscure-release-banner.jpg
 tags: []
 author: joakim.bech
