@@ -8,7 +8,7 @@ image: /assets/images/content/toolchain-share-image.png
 icon: /assets/images/content/Icon_Toolchain_notext.svg
 js-package: contactForm
 description: >
-  随着新 SoC 功能的添加，工具链不断发展。 速度和空间优化变得越来越重要，尤其是在物联网领域。 新的安全功能需要编译器和工具支持。
+  随着新 SoC功能的增加，工具链在不断演进。速度和空间优化变得越来越重要，尤其是在物联网领域。新的安全功能需要编译器和工具支持。
 # presentation_link: https://linaro.co/ai-slides
 video_resources_link: https://resources.linaro.org/en/themes/e07e525f-3fa5-44db-a1b2-bc673a318fe4
 jumbotron:
@@ -16,11 +16,11 @@ jumbotron:
   title_row: true
   title: 工具链
   description: |
-    随着新 SoC 功能的添加，工具链不断发展。 速度和空间优化变得越来越重要，尤其是在物联网领域。 新的安全功能需要编译器和工具支持。
+    随着新 SoC功能的增加，工具链在不断演进。速度和空间优化变得越来越重要，尤其是在物联网领域。新的安全功能需要编译器和工具支持。
 
     世界瞬息万变，因此计算系统上的开放软件必须适应机器学习的更多使用，从而提高移动 CPU 性能。 Linaro 自 2010 年成立以来一直为 Arm 架构提供开源工具，直接与上游社区合作，如 GCC、Binutils、GDB、Glibc、Newlib、LLVM、Clang、LLD、LLDB、QEMU、Valgrind 和 OpenOCD。 我们的使命是改进和维护开源 Arm 工具链项目。
 
-    我们致力于系统级工具的各个方面——核心开发工具链（编译器、汇编器、链接器、调试器）、核心系统库（动态链接器、c 库）和仿真。Linaro 为 ARM 构建和测试 LLVM 社区集成版本 和 AArch64 架构 (http://releases.llvm.org/download.html)。 Linaro 维护者担任 QEMU 和 Glibc 项目的发布经理。
+    我们致力于系统级工具开发的各个方面——核心开发工具链（编译器、汇编器、链接器、调试器）、核心系统库（动态链接器、c-库）和仿真。Linaro 为 ARM和 AArch64 架构 构建和测试 LLVM 社区集成版本 (http://releases.llvm.org/download.html)。 Linaro 维护者担任 QEMU 和 Glibc 项目的发布管理人。
   image: /assets/images/content/Banner_Toolchain.jpg
 flow:
   - row: container_row
@@ -50,7 +50,7 @@ flow:
               style: engagement_block_col h-100 text-left
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
-                LLVM 是开源社区用来编译代码的主要工具之一。 它是一组可重用的编译器和工具链技术，用于开发任何编程语言的前端和任何指令集架构的后端。 LLDB 是 LLVM 项目的调试器组件。 Linaro 工具链团队积极维护 LLDB 项目，并拥有 Arm 和 AArch64 目标特定代码库。 我们为 AArch64 和 Arm 目标实施了新的并改进了现有的代码大小和代码速度优化。
+                LLVM 是开源社区用来编译代码的主要工具之一。 它是一组可重用的编译器和工具链技术，用于开发任何编程语言的前端和任何指令集架构的后端。 LLDB 是 LLVM 项目的调试器组件。 Linaro 工具链团队积极维护 LLDB 项目，并拥有 Arm 和 AArch64 目标特定代码库。 我们针对AArch64和Arm目标进行了优化，实施了新的工具，并改进了现有的代码尺寸和速度。
               buttons:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary

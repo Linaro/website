@@ -19,7 +19,7 @@ jumbotron:
   description: |
     人工智能影响着每一个行业，并且越来越多地成为我们日常生活的一部分——为从我们的智能家居设备到数字语音助手和社交媒体账户的一切提供动力。
 
-    它的影响力只会越来越大，因此标准化和开放参考实施将是帮助在 Arm 上发展这种变革性技术的关键。 Linaro 与行业领导者合作，将一流的机器学习推理和人工智能 (AI) 引入 Arm 生态系统。 这涉及在我们的成员公司硬件上通过一系列战略性 AI 项目推动针对 Arm 优化的体验。
+    它的影响力只会越来越大，因此标准化和开放参考实施将是帮助在 Arm 上发展这种变革性技术的关键。 Linaro 与行业领导者合作，给Arm生态系统带来一流的机器学习推理和人工智能。 这涉及通过一系列的战略性 AI 项目，在我们的成员公司硬件上推动 Arm 体验的优化。
   image: /assets/images/content/Artifical_Intelligence.png
 flow:
   - row: container_row
@@ -40,7 +40,7 @@ flow:
               style: engagement_block_col h-100 text-left
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
-                该项目专注于优化 HPC 和 AI 计算性能的支持。 该项目正在解决人工智能训练和推理的广泛用例，针对基于 Armv8.x 的服务器和超级计算机，例如富士通的高端 Fugaku 超级计算机、Neoverse 和基于 Cortex-A 的边缘设备。
+                目标是基于Armv8.x的服务器和超级计算机，如富士通的高端 Fugaku 超级计算机、Neoverse 和基于 Cortex-A 的边缘设备。
               buttons:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary

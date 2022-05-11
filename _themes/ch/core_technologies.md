@@ -42,7 +42,7 @@ flow:
           text: |
             ## 通过低级功能协作加快上市时间
 
-            无论市场或设备如何，所有产品都需要低级功能——工具、框架、测试机制和安全——才能发挥作用。 在内部开发这种低级功能成本高昂，并且需要广泛的专业知识，这就是成员公司选择与 Linaro 和其他行业领导者合作开发基础的原因。 这不仅使他们能够利用我们技术领域专家的专业知识，而且还通过共享工程资源降低了总体成本。 与精通开源社区导航的 Linaro 工程师一起工作可以加快产品上市时间。
+            无论市场或设备如何，所有产品都需要低层功能—工具、框架、测试机制和安全—才能发挥作用。 在内部开发这种低层功能成本高昂，并且需要广泛的专业知识，这就是成员公司曾经选择与Linaro 和其他行业领导者合作开发基础技术的原因。这不仅使他们能够利用我们技术领域专家的专业知识，而且还通过共享工程资源降低了总体成本。与Linaro精通开源社区导航的工程师一起工作可以加快产品上市时间。
   - row: container_row
     style: bg-secondary py-4 text-white
     sections:
@@ -94,7 +94,7 @@ flow:
               style: engagement_block_col h-100 text-left
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
-                如果您想参与 Linaro 所做的所有工作并访问您自己的专业工程团队，那么核心会员是您的正确选择。
+                如果您想参与 Linaro 所做的所有工作并享用您自己的专业工程团队，那么核心会员将是您的正确选择。
               buttons:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary

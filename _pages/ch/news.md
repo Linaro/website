@@ -1,12 +1,12 @@
 ---
 lang: ch
-title: 消息
+title: 新闻
 permalink: /news/
 description: >
   在这里您可以找到所有最新的 Linaro 新闻。
 tags_enabled: true
 jumbotron:
-  title: 消息
+  title: 新闻
 flow:
   - row: container_row
     sections:

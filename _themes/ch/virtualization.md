@@ -39,7 +39,7 @@ flow:
               style: engagement_block_col h-100 text-left
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content d-flex flex-column justify-content-around align-items-baseline
               description: |
-                QEMU 是一个免费的开源模拟器和虚拟器。 Linaro 在确保 ARM 生态系统得到良好代表和积极维护的项目中发挥着关键作用。 我们利用我们作为维护者的专业知识来支持成员和更广泛社区的新功能的上游化。 我们一直在参与开发这个备受推崇的项目的公司中排名前三。
+                QEMU 是一个免费的开源模拟器和虚拟器。 Linaro 在确保ARM 生态系统得到良好展示和积极维护的项目中发挥着关键作用。我们利用维护者的专业技能来支持会员和更广社区的新功能的上游。在参与开发这个备受推崇的项目的公司中，我们持续名列前三。
               buttons:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary

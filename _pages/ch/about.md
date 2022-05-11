@@ -1,6 +1,6 @@
 ---
 lang: ch
-title: 关于利纳罗
+title: 关于Linaro
 description: "自 2010 年以来，Linaro 一直在推动 Arm 上的开源软件开发，提供了坚实的创新基础所需的工具、Linux 内核质量和安全性。 我们是 Arm 软件专家，他们与行业领导者合作开展共同项目，提供标准化和差异化基础。 在通用软件上进行协作有助于减少整体碎片化，使成员公司能够加快上市时间并降低总体开发成本。"
 permalink: /about/
 keywords:
@@ -13,7 +13,7 @@ css_bundle: about
 layout: flow
 jumbotron:
   class: about_page text-center h-auto
-  title: 关于利纳罗
+  title: 关于Linaro
   description: ""
   image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 flow:

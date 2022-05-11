@@ -8,7 +8,7 @@ image: /assets/images/content/linux-kernel-share-image.png
 icon: /assets/images/content/Icon_Linux_notext.svg
 js-package: contactForm
 description: >
-  Linaro 雇佣了大量的维护人员，涵盖了广泛的重要领域。 这使我们能够在开源社区中走得更远，并产生真正的影响。
+  Linaro雇佣了大量的维护者，涵盖了广泛的重要领域。 这使我们能够在开源社区中走得更远，并产生真正的影响。
 # presentation_link: https://linaro.co/ai-slides
 video_resources_link: https://resources.linaro.org/en/themes/e6d3ba4d-9158-42f9-8df4-28eef7ecf78e
 jumbotron:
@@ -16,11 +16,11 @@ jumbotron:
   title_row: true
   title: Linux内核
   description: |
-    Linaro 雇佣了大量的维护人员，涵盖了广泛的重要领域。 这使我们能够在开源社区中走得更远，并产生真正的影响。
+    Linaro雇佣了大量的维护者，涵盖了广泛的重要领域。 这使我们能够在开源社区中走得更远，并产生真正的影响。
 
     我们积极为上游社区做出贡献，并帮助促进 Linux 主线内核接受 Linaro 代码。 我们的最终目标是确保内核整合——一个集成支持多个 Arm SoC 和基于 Arm 的平台的源代码树。
 
-    我们管理和实施对新功能的支持，不仅专用于 Arm 架构，还涵盖内核的核心功能。 在 Linux 和开源社区的传统中，大部分技术讨论都是通过电子邮件和 IRC 上的非正式对话进行的。
+    我们不仅专用于Arm架构的新功能的管理和实施支持，还涵盖了内核的核心功能。 在 Linux 和开源社区的传统中，大部分技术讨论都是通过电子邮件和 IRC 上的非正式对话进行的。
   image: /assets/images/content/Banner_Linux_Kernel.jpg
 flow:
   - row: container_row
