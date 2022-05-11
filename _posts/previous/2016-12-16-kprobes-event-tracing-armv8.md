@@ -1,15 +1,18 @@
 ---
-author: david.long
-date: 2016-12-16 17:37:39+00:00
-layout: post
-link: /blog/kprobes-event-tracing-armv8/
-slug: kprobes-event-tracing-armv8
-title: Kprobes Event Tracing on Armv8
 wordpress_id: 11979
-category: blog
+layout: post
+title: Kprobes Event Tracing on Armv8
+description: In this article, David Long takes a detailed look at Kprobes Event
+  Tracing on Armv8. Read about his findings here!
+image: /assets/images/content/40965990761_090a30658a_k.jpg
 tags:
-- Arm64
-- Kernel
+  - Arm64
+  - Kernel
+author: david.long
+slug: kprobes-event-tracing-armv8
+date: 2016-12-16 17:37:39+00:00
+link: /blog/kprobes-event-tracing-armv8/
+category: blog
 ---
 
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" %}
