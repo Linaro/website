@@ -22,8 +22,7 @@ jumbotron:
   description: |
     软件定义的功能不再局限于云网络，而是有望扩展到边缘。
 
-
-    自主 AI 驱动的功能正被部署到网关甚至传感器的信任位置。推动向软件定义汽车发展的Zonal Architecture革命只是行业已转向软件优先方法的一个指示。 
+    自主 AI 驱动的功能正被部署到网关甚至传感器等信任领域。推动向软件定义汽车发展的Zonal Architecture革命只是行业已转向软件优先方法的一个指标。推动这些场景的技术在不断发展，但都存在一个共同点-缺少开源软件标准化。
   image: /assets/images/content/Auto_IoT_Edge_banner_pic.jpg
 flow:
   - row: custom_include_row

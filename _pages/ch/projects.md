@@ -29,7 +29,7 @@ flow:
           - title: 解决生态系统质量问题
             icon: /assets/images/content/Quality.svg
             content: |
-              旨在解决生态系统质量问题的项目主要侧重于测试。 在这里，利益相关者共同资助关键配置的持续持续测试，以使上游成为质量参考。 这些项目之一的示例是 [Linux Kernel Quality](/projects/#core-technologies_LKQ)。
+              旨在解决生态系统质量问题的项目主要侧重于测试。 在这里，利益相关者共同资助关键配置的持续连续测试，以使上游成为质量参考。 这些项目之一的示例是 [Linux Kernel Quality](/projects/#core-technologies_LKQ)。
           - title: 为架构和操作系统要求提供上游支持
             icon: /assets/images/content/Upstream.svg
             content: |
