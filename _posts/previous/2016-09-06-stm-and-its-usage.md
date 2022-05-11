@@ -1,25 +1,24 @@
 ---
-author: chunyan.zhang
-category: blog
-date: 2016-09-06 04:24:15
-description: Read about System Trace Module (STM) which can not only collect trace
-  data from software sources, but also monitor hardware events. Learn how to write
-  traces to STM and how many approaches to do this, etc.
-excerpt: Read about System Trace Module (STM) which can not only collect trace data
-  from software sources, but also monitor hardware events. Learn how to write traces
-  to STM and how many approaches to do this, etc.
-layout: post
-link: /blog/core-dump/stm-and-its-usage/
-slug: stm-and-its-usage
-tags:
-- Linaro
-- Linux
-- Linux On Arm
-- Open Source Software
-title: System Trace Module (STM) and its usage
+excerpt: Read about System Trace Module (STM) which can not only collect trace
+  data from software sources, but also monitor hardware events. Learn how to
+  write traces to STM and how many approaches to do this, etc.
 wordpress_id: 11549
+layout: post
+title: System Trace Module (STM) and its usage
+description: In this article, Chunyan Zhang takes a detailed look at System
+  Trace Module (STM) and its usage. Read about his findings here!
+image: /assets/images/content/Banner_Linux_Kernel.jpg
+author: chunyan.zhang
+slug: stm-and-its-usage
+date: 2016-09-06 04:24:15
+tags:
+  - Linaro
+  - Linux
+  - Linux On Arm
+  - Open Source Software
+link: /blog/core-dump/stm-and-its-usage/
+category: blog
 ---
-
 {% include image.html path="/assets/images/blog/core-dump.png" lightbox_disabled="True" alt="Core Dump Banner" url="https://wiki-archive.linaro.org/CoreDevelopment" %}
 
 ## Introduction
@@ -73,11 +72,11 @@ Let’s start with the kernel space, and then we will see how to use STM from us
 
 ### In kernel space
 
-There’s an stm_console [1] which makes STM as an output of Linux console.  Startup the kernel compiled with CONFIG_STM_SOURCE_CONSOLE, you can see a console node under stm_source directory on the target:
+There’s an stm_console \[1] which makes STM as an output of Linux console.  Startup the kernel compiled with CONFIG_STM_SOURCE_CONSOLE, you can see a console node under stm_source directory on the target:
 
-_# ls /sys/class/stm_source/console/_
+*\# ls /sys/class/stm_source/console/*
 
-_power   stm_source_link   subsystem   uevent_
+*power   stm_source_link   subsystem   uevent*
 
 Once linked with a STM device, the stm_console will be one of outputs of the kernel console logs which will end up in the storage device connected with STM device, for example in Arm CoreSight architeture the operation would be like:
 
@@ -98,7 +97,7 @@ And then you will see the Write Pointer Register of sink device would be growing
 0x2258
 ```
 
-To get the trace out and decoded, please refer to the section **Decoding traces with OpenCSD library **below\*\*.
+To get the trace out and decoded, please refer to the section **Decoding traces with OpenCSD library** below\*\*.
 
 ### In user space
 
@@ -113,7 +112,7 @@ write(fd, trace_data, size);
 close(fd);
 ```
 
-The whole code of this example program can be found [5].
+The whole code of this example program can be found \[5].
 
 ## **Device Tree configuration of STM**
 
@@ -133,12 +132,11 @@ stm@10006000 {
                           };
                };
 };
-
 ```
 
 Readers should’ve noticed that STM has two groups of reg addresses here, the first group obviously describes the area of STM registers, the second group whose ‘reg-name’ is ‘stm-stimulus-base’ describes the physical base address and the length of stimulus ports area, stimulus ports are also known as STM channels.
 
-In the following examples of this article, I will use this STM, the whole code can be found here [2].
+In the following examples of this article, I will use this STM, the whole code can be found here \[2].
 
 ## STM source device
 
@@ -146,8 +144,7 @@ To collect software traces with STM from kernel space, stm_source device is a ne
 
 An important element of stm_source is 'stm_source_data', it includes two necessary properties which must be initialized before registering stm_source device:
 
-- stm_source name - it is just the file node name in sysfs.
-
+* stm_source name - it is just the file node name in sysfs.
 * channel numbers - it means this stm_source requests to be allocated how many channels when linking stm_source with STM device, then the driver of STM framework will look up and allocate this quantity of available channels for the stm_source according to STM master/channel management policy.
 
 ## STM master/channel management policy
@@ -184,7 +181,7 @@ Create policy rule for given STM device like below:
 mkdir /config/stp-policy/10006000.stm.xyz
 ```
 
-Here ‘10006000.stm’ as an example is an STM device name which this policy applies to. ‘10006000.stm’ must be the same with an STM device name which can be found under /dev directory.  ‘xyz’ is an arbitrary string without dot, it is necessary and would be separated with device by a dot that’s why no dot is allowed in the arbitary string.  Neither ‘_10006000.stm.xyz.abc’_ nor ‘_10006000.stm’_ is a valid name for policy rules.
+Here ‘10006000.stm’ as an example is an STM device name which this policy applies to. ‘10006000.stm’ must be the same with an STM device name which can be found under /dev directory.  ‘xyz’ is an arbitrary string without dot, it is necessary and would be separated with device by a dot that’s why no dot is allowed in the arbitary string.  Neither ‘*10006000.stm.xyz.abc’* nor ‘*10006000.stm’* is a valid name for policy rules.
 
 Create policy rules for a given stm_source class device like below:
 
@@ -203,19 +200,18 @@ After created policy rule, there will be two files 'mastesr' and 'channels' unde
 0 65535
 ```
 
-These values mean the range of masters/channels which can be used on the stm_source device whose name is the same with the rule's name (i.e. ftrace in this case), the default values come from the configuration [3] of STM device (i.e. 10006000.stm in this case)
+These values mean the range of masters/channels which can be used on the stm_source device whose name is the same with the rule's name (i.e. ftrace in this case), the default values come from the configuration \[3] of STM device (i.e. 10006000.stm in this case)
 
 The files masters/channels are configurable and the rule would be applied on the stm_source class device when being linked with any STM device.
 
 ### 3. Allocate master/channels for applications
 
 1. Set the policy rule via ioctl() interface of STM device.  One rule would include the allocated master, the first assigned channel, the number of required channels.  More details about this would be introduced in the following section **Mapping STM to user-space.**
-
-2) If an application program doesn't set policy rule for itself, when the application writing data to STM via the system call - write() - of STM device, a rule named “default” will be applied, if the “default” policy cannot be found either, like what I wrote above, the initialized configuration of STM device will be applied.
+2. If an application program doesn't set policy rule for itself, when the application writing data to STM via the system call - write() - of STM device, a rule named “default” will be applied, if the “default” policy cannot be found either, like what I wrote above, the initialized configuration of STM device will be applied.
 
 ## Mapping STM to user-space
 
-Mapping STM stimulus ports area into user space is another usage of STM.  The patch [4] added supporting mmap for CoreSight STM should be in kernel 4.9.  A sample program of this can be found here [6] which was tested on Spreadtrum’s SC9836 [2] and Arm’s Juno platform.  It maps a page of channels (i.e. 16) to user space, and writes a set of given specific data to the mmap’ed area.
+Mapping STM stimulus ports area into user space is another usage of STM.  The patch \[4] added supporting mmap for CoreSight STM should be in kernel 4.9.  A sample program of this can be found here \[6] which was tested on Spreadtrum’s SC9836 \[2] and Arm’s Juno platform.  It maps a page of channels (i.e. 16) to user space, and writes a set of given specific data to the mmap’ed area.
 
 In this sample program, the size of mapped memory must be a multiple of page-size, so the user programs have to map many channels at one time, that’s saying if each channel takes 256 bytes and hardware page size is 4096 bytes, the users have to map at least 16 channels at one time.  To be sure which channels would be mmap’ed, the program has to set a policy of channels allocation for STM device before doing mapping activity.
 
@@ -405,7 +401,7 @@ Table-1 CoreSight STM masters allocation on Juno
 
 ## Decoding traces with OpenCSD1 library
 
-Once the traces have been exported via STM, we can simply dump the traces from the sink device connected with STM in CoreSight system with ‘dd’ command, for example on the platform [2], we use ETF as the sink device, the command would look like:
+Once the traces have been exported via STM, we can simply dump the traces from the sink device connected with STM in CoreSight system with ‘dd’ command, for example on the platform \[2], we use ETF as the sink device, the command would look like:
 
 ```
 # dd if=/dev/10003000.etf of=cstraceitm.bin
@@ -420,7 +416,7 @@ Once the traces have been exported via STM, we can simply dump the traces from t
 
 The output filename should be ‘cstraceitm.bin’ which matches the configuration of OpenCSD decoding library.  It stores the raw trace data which can be decoded by the decoding library.
 
-Download the openCSD source code from [7], and build it according to the direction of “Off Target OpenCSD Compilation” on HOWTO.md, then you will see:
+Download the openCSD source code from \[7], and build it according to the direction of “Off Target OpenCSD Compilation” on HOWTO.md, then you will see:
 
 ```
 opencsd/decoder$ ls lib/linux64/dbg/
@@ -464,28 +460,28 @@ ID:20   END OF TRACE DATA
 Trace Packet Lister : Trace buffer done, processed 32768 bytes.
 ```
 
-The above trace data was just decoded from the sample program [6], the red numbers were just what the sample program wrote.  From the decoded trace data, we can see these traces came from master 0x41 of STM whose trace id is 0x1.  Each trace package has a timestamp, and ends up with a flag packet.
+The above trace data was just decoded from the sample program \[6], the red numbers were just what the sample program wrote.  From the decoded trace data, we can see these traces came from master 0x41 of STM whose trace id is 0x1.  Each trace package has a timestamp, and ends up with a flag packet.
 
 ## Final words
 
-I hope this post provided an useful introduction to STM and presented how to use it clearly.  One work related to STM is still ongoing,  which I have been doing - Ftrace integration with STM, function traces can be exported via STM once this work is done.  At this moment the 5th iteration [8] for this feature has been released.
+I hope this post provided an useful introduction to STM and presented how to use it clearly.  One work related to STM is still ongoing,  which I have been doing - Ftrace integration with STM, function traces can be exported via STM once this work is done.  At this moment the 5th iteration \[8] for this feature has been released.
 
-[1][https://elixir.bootlin.com/linux/v4.7/source/drivers/hwtracing/stm/console.c](https://elixir.bootlin.com/linux/v4.7/source/drivers/hwtracing/stm/console.c)
+\[1](https://elixir.bootlin.com/linux/v4.7/source/drivers/hwtracing/stm/console.c)
 
-[2][https://elixir.bootlin.com/linux/v4.3/source/arch/arm64/boot/dts/sprd/sc9836.dtsi?v=4.3#l178](https://elixir.bootlin.com/linux/v4.3/source/arch/arm64/boot/dts/sprd/sc9836.dtsi#L178)
+\[2](https://elixir.bootlin.com/linux/v4.3/source/arch/arm64/boot/dts/sprd/sc9836.dtsi#L178)
 
-[3][https://elixir.bootlin.com/linux/latest/source/drivers/hwtracing/coresight/coresight-stm.c](https://elixir.bootlin.com/linux/latest/source/drivers/hwtracing/coresight/coresight-stm.c)
+\[3](https://elixir.bootlin.com/linux/latest/source/drivers/hwtracing/coresight/coresight-stm.c)
 
-[4][https://patchwork.kernel.org/patch/9189197/](https://patchwork.kernel.org/patch/9189197/)
+\[4](https://patchwork.kernel.org/patch/9189197/)
 
-[5][https://git.linaro.org/people/zhang.chunyan/sample-app.git]() branch stm-write-sample
+\[5]() branch stm-write-sample
 
-[6][https://git.linaro.org/people/zhang.chunyan/sample-app.git]() branch stm-mmap-sample
+\[6]() branch stm-mmap-sample
 
-[7][https://github.com/linaro/opencsd](https://github.com/Linaro/OpenCSD)
+\[7](https://github.com/Linaro/OpenCSD)
 
-[8][https://lkml.org/lkml/2016/8/30/83](https://lkml.org/lkml/2016/8/30/83)
+\[8](https://lkml.org/lkml/2016/8/30/83)
 
----
+- - -
 
-1. OpenCSD is an open source CoreSight Trace Decode library [7], there are two articles introduced OpenCSD in Linaro Core Dump
+1. OpenCSD is an open source CoreSight Trace Decode library \[7], there are two articles introduced OpenCSD in Linaro Core Dump
