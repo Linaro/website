@@ -4,9 +4,10 @@ description: >
   Linaro Developer Services is a leader in providing Linux BSP development,
   maintenance and optimization for Qualcomm platforms such as Qualcomm
   Snapdragon. Linaro Developer Services can help companies, who use Qualcomm
-  platforms to build their products, with upstreaming, LTS and more. 
+  platforms to build their products, with upstreaming, LTS and more.
 permalink: /services/qualcomm-platforms-services/
 image: /assets/images/content/Rocket_5.png
+icon: /assets/images/content/Icon_Qualcomm.svg
 service_id: 11
 keywords:
   - Qualcomm Platforms
@@ -20,7 +21,8 @@ jumbotron:
   buttons:
     - title: Contact Us
       url: "#contact_form"
-      style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase
+      style:
+        btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase
         ds_contact_form_btn
     - title: Contact Us
       url: "#contact_form"
@@ -66,7 +68,7 @@ flow:
         text_content:
           text: |
             Linaro Developer Services has extensive experience aiding companies who use Qualcomm platforms to build their products:
-            
+
             * To upgrade Qualcomm Technologies downstream legacy Linux kernel BSP to up-to-date Linux releases and
             Long Term Support (LTS)
             * To develop and upstream optimized drivers for hardware platforms based on Qualcomm Technologies processors
@@ -123,6 +125,4 @@ flow:
         source: services/icon_links.html
   - row: custom_include_row
     source: services/developer_services_form.html
-icon: /assets/images/content/Icon_Qualcomm.svg
-image: /assets/images/content/LinaroDSVertical.png
 ---
