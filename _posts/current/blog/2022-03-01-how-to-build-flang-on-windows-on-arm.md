@@ -81,7 +81,7 @@ You should end up with a script that looks something like [this](https://github.
 Depending on which revision of flang you’re building, you should now have one or both of `f18.exe` or `flang-new.exe` in `%build_dir%/bin`.
 
 At the time of writing, clang version [13.0.0](https://www.google.com/url?q=https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.0/LLVM-13.0.0-woa64.zip&sa=D&source=docs&ust=1646131480669885&usg=AOvVaw1ILobDb_KMB4Hxid6JOAZa) is known to work for building flang without code generation support.
-However, if you want to build a flang that can generate actual binaries, you need to use custom development branches such as [this one](https://github.com/rovka/f18-llvm-project/commit/6e578e76455eee6ba006ebda911869446c45194c). The latter is based on the community’s [fir-dev branch](https://github.com/flang-compiler/f18-llvm-project/tree/fir-dev), which is currently in the process of being upstreamed, plus some minor changes to get things working on Windows on Arm. 
+However, if you want to build a flang that can generate actual binaries, you need to use custom development branches. The latter is based on the community’s [fir-dev branch](https://github.com/flang-compiler/f18-llvm-project/tree/fir-dev), which is currently in the process of being upstreamed, plus some minor changes to get things working on Windows on Arm. 
 
 You can use the steps described above to build even this version of flang, and the resulting executable should be able to compile a simple ‘hello world’ (to link it with the builtins, pass `-Xlinker /path/to/clang_rt.builtins-aarch64.lib` to flang, just as you did earlier to compile flang itself). 
 
