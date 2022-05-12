@@ -1,8 +1,9 @@
 ---
 layout: post
-title: TThe Evolution Of The QEMU Translator
+title: The Evolution Of The QEMU Translator
 description: >
-  In this article, Alex Bennee looks at the changes the QEMU Translator has seen over the last 5 years. Read about the evolutuion of the QEMU translator here!
+  In this article, Alex Bennee looks at the changes the QEMU Translator has seen
+  over the last 5 years. Read about the evolutuion of the QEMU translator here!
 date: 2020-07-22 01:00:55+00:00
 image: /assets/images/content/tech_background_2.jpg
 tags:
