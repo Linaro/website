@@ -32,8 +32,8 @@ Bill Fletcher and Kevin Townsend from Linaro’s IoT Group will be speaking abou
 
 Linaro works with businesses and open source communities to develop software on Arm-based technology. We create solutions that drive forward the Arm software ecosystem, enhance standardisation, promote collaboration across industries and contribute to real-world applications. Linaro provides:
 
-A unique safe haven for inter-company engineering collaboration with IPR policies, antitrust provisions, business neutrality and public articles of association
-Upstream open source focus - building the ecosystem with friction-free distribution, maximised ecosystem participation, established non-proprietary industry standards, cross-platform inclusivity, long-term support capability
-Collaboration processes and infrastructure for outreach, hosting, project lifecycle, operations, distributed multi-party multi-codebase project management
+* A unique safe haven for inter-company engineering collaboration with IPR policies, antitrust provisions, business neutrality and public articles of association
+* Upstream open source focus - building the ecosystem with friction-free distribution, maximised ecosystem participation, established non-proprietary industry standards, cross-platform inclusivity, long-term support capability
+* Collaboration processes and infrastructure for outreach, hosting, project lifecycle, operations, distributed multi-party multi-codebase project management
 
 If you’d like to schedule a meeting with the Linaro team face-to-face at Embedded World, please contact us at **confidential_ai@linaro.org**. We hope to see you there!
