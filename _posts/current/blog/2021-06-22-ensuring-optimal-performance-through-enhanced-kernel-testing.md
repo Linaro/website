@@ -56,7 +56,7 @@ Here you can see the workflow for LAVA and the python script that formats the me
 [](https://github.com/Linaro/test-definitions/commit/de4c57c2b8d3d877001b898a601b7753d23d2cfc)Successful run of a test
 This is an example of a successful run of the sysbenchcpu test that shows how the metrics are defined: 
 
-<https://lkft.validation.linaro.org/scheduler/job/2627776>
+https://lkft.validation.linaro.org/scheduler/job/2627776
 
 ## [](https://lkft.validation.linaro.org/scheduler/job/2627776)Adding a new testcase to lkp-tests
 
