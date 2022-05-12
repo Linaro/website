@@ -19,8 +19,7 @@ tags:
 link: /blog/core-dump/energy-aware-scheduling-eas-progress-update/
 category: blog
 ---
-
-_Authors:  Ian Rickards (Arm),  Amit Kucheria (Linaro)_
+*Authors:  Ian Rickards (Arm),  Amit Kucheria (Linaro)*
 
 **Today, power management on Linux is implemented by different subsystems that work in a largely un-coordinated manner. This makes platform adaptation difficult and tuning complex. Arm and Linaro are jointly developing "Energy Aware Scheduling", a technique that improves power management on Linux by making it more central and easier to tune.  This will improve mainline Linux support for advanced multicore SoC’s that power current and future mobile devices and other consumer products.**
 
@@ -39,9 +38,9 @@ The goal is to introduce generic energy-awareness in upstream Linux:
 
 EAS will unify 3 separate frameworks in the Linux kernel that are currently only loosely connected:
 
-- Linux scheduler (Completely Fair Scheduler - CFS)
-- Linux cpuidle
-- Linux cpufreq
+* Linux scheduler (Completely Fair Scheduler - CFS)
+* Linux cpuidle
+* Linux cpufreq
 
 These existing frameworks have their own policy mechanisms that make decisions independently. Our previous blog post covered the limitations of this approach.
 
@@ -61,7 +60,7 @@ Since the original discussions started on the Linux Kernel Mailing List in 2013,
 
 ## **Scheduler idle-state awareness**
 
-_Engineer:  Nicolas Pitre, Linaro [Merged Sep-2014, in Linux 3.18 and later]_
+*Engineer:  Nicolas Pitre, Linaro \[Merged Sep-2014, in Linux 3.18 and later]*
 
 The sched-idle enhancement makes the scheduler aware of the idle state of the CPU’s.  When waking up a cpu it will now always pick the CPU in shallowest idle-state, minimizing wake-up time and energy.
 
@@ -71,23 +70,20 @@ In the example below, a new task needs to wake up, but it will not fit on CPU#0 
 
 ## **DVFS (cpufreq) improvements**
 
-_Current situation with DVFS support in Linux_
+*Current situation with DVFS support in Linux*
 
 The existing cpufreq implementation is an extension to the Linux kernel, which uses a sampling-based approach to consider cpu time in idle along with some heuristics to control the CPU Operating Performance Point (OPP).  There are a number of disadvantages to this approach:
 
 1. Sampling based governors are slow to respond and hard to tune.
-
 2. Sampling too fast: OPP changes for small utilization spikes.
-
 3. Sampling too slow: Sudden burst of utilization might not get the necessary OPP change in time - reaction time might be poor.
-
 4. Only aware of the overall CPU loading and is not aware of task migration.
 
 {% include image.html path="/assets/images/blog/EAS-blog-5.jpg" alt="AES blog image 5" %}
 
 ## **New scheduler-driven DVFS (sched-DVFS)**
 
-_Engineers:  Mike Turquette, Linaro/Baylibre [latest PATCH v3, June-2015]_
+*Engineers:  Mike Turquette, Linaro/Baylibre \[latest PATCH v3, June-2015]*
 
 With scheduler task utilization tracking, a feature that the mainline kernel already supports, any OPP transition required will happen immediately based on the stored tracked load of the task.
 
@@ -97,12 +93,12 @@ With sched-cpufreq, when the new task is placed on CPU#1, the cpu capacity for t
 
 ## **Foundations - Frequency and capacity invariant load tracking**
 
-_Engineers:  Morten Rasmussen/Dietmar Eggemann, Arm_
+*Engineers:  Morten Rasmussen/Dietmar Eggemann, Arm*
 
 The “Per-Entity Load Tracking” (PELT) framework in the Linux kernel determines the load of a task by looking at the utilization of cpus.  The existing design of PELT tracks the CPU utilization but does not accurately track the load on different CPUs at different frequencies or with different performance per MHz.  Arm has built on the recent July-2015 rewrite of PELT from Yuyang Du to add frequency and microarchitecture support:
 
-[https://lkml.org/lkml/2015/7/15/159](https://lkml.org/lkml/2015/7/15/159) - PELT rewrite (Yuyang Du, Intel corp.)
-[https://lkml.org/lkml/2015/8/14/296](https://lkml.org/lkml/2015/8/14/296) - Frequency and microarchitecture invariance for PELT  (Arm)
+<https://lkml.org/lkml/2015/7/15/159> - PELT rewrite (Yuyang Du, Intel corp.)
+<https://lkml.org/lkml/2015/8/14/296> - Frequency and microarchitecture invariance for PELT  (Arm)
 
 **Capacity**
 This is a measure of the processing capability of a cpu.  Arm patches include enhancements for capacity to be extended with additional scaling for microarchitecture and current operating frequency. The cpu capacity at different operating points is based on measuring some standard benchmark metric ,e.g. “sysbench”
@@ -110,17 +106,17 @@ This is a measure of the processing capability of a cpu.  Arm patches include e
 **Utilization**
 Traditionally the utilization has been related to the running time.  Arm foundational patches extend this to accommodate the frequency & performance of the cpu.
 
-_Existing utilization calculation_
+*Existing utilization calculation*
 
 {% include image.html path="/assets/images/blog/EAS-8.jpg" alt="AES blog image 8" %}
 
-_New utilization calculation takes into account frequency and microarchitecture_
+*New utilization calculation takes into account frequency and microarchitecture*
 
 {% include image.html path="/assets/images/blog/EAS-image-9.jpg" alt="AES blog image 9" %}
 
 ## **Energy model**
 
-_Engineer:  Morten Rasmussen, Arm [latest RFCv5, July-2015]_
+*Engineer:  Morten Rasmussen, Arm \[latest RFCv5, July-2015]*
 
 The EAS energy model is the final piece which enables the CFS with energy-aware task scheduling.  It allows the kernel to decide at run-time which scheduling decisions are the best ones for lowest energy usage. The Energy-Aware policy is to always pick the CPU with sufficient spare capacity and smallest energy impact.
 
@@ -130,7 +126,7 @@ This also removes the magic tunables in some of the power management frameworks 
 
 The platform energy model is an accurate baseline model of the dynamic and static power used by the CPUs in the system.
 
-_Typical big.LITTLE CPU power/performance curves_
+*Typical big.LITTLE CPU power/performance curves*
 
 {% include image.html path="/assets/images/blog/EAS-image-11.jpg" alt="AES blog image 11" %}
 
@@ -140,7 +136,7 @@ For each CPU, the energy model contains the following information
 
 We are discussing the best ways to express this energy model with the open source community. One option that is being considered is using a Device Tree
 
-#### _Options for placing a waking task_
+#### *Options for placing a waking task*
 
 As seen in the diagram below, a newly waking task can sensibly be placed on either of the two CPUs - CPU#1 or CPU#3.   With the current mainline scheduler, either CPU#1 or CPU#3 could be chosen.
 
@@ -158,14 +154,14 @@ Based on the above, EAS will probably choose CPU#1 because the small additional 
 
 EAS doesn’t evaluate all the possible options. That can introduce performance hits in key scheduler pathways. Instead,  EAS narrows down the search space to:
 
-- CPU the task ran on last time.
-- CPU chosen by a simple heuristic which works out where the task fits best.
+* CPU the task ran on last time.
+* CPU chosen by a simple heuristic which works out where the task fits best.
 
 Based on the energy model, EAS evaluates which of these two options is the most energy efficient.
 
 ## **SchedTune**
 
-_Engineer:  Patrick Bellasi, Arm [posted August-2015]_
+*Engineer:  Patrick Bellasi, Arm \[posted August-2015]*
 
 The ‘interactive governor’ appeared on Android in 2010, and it has proved to be a very popular solution for maximizing battery life whilst providing a high operating point suitable for interactive tasks. However, the interactive governor was not merged into the mainline Linux kernel. There is considerable interest in having a frequency boost capability available in mainline Linux as part of cpufreq (and potentially EAS in future).
 
@@ -183,7 +179,7 @@ Arm & Linaro have been working on implementing opensource test and analysis tool
 
 ### rt-app/ WorkloadGen  (Linaro)
 
-[https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/WorkloadGen](https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/WorkloadGen)
+<https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/WorkloadGen>
 
 Most existing benchmarks run flat-out, and there are few good existing tools to run lower-intensity use cases.
 
@@ -191,20 +187,20 @@ rt-app is a linux command-line tool that creates light intensity workloads, usin
 
 ### workload-automation (Arm)
 
-[https://github.com/Arm-software/workload-automation](https://github.com/Arm-software/workload-automation)
+<https://github.com/Arm-software/workload-automation>
 
 This is a python framework for running standard tests and benchmarks on a target system. It supports:
 
-- Linux
-- Android (browser and standard benchmarks)
-- ChromeOS (telemetry benchmarks etc)
+* Linux
+* Android (browser and standard benchmarks)
+* ChromeOS (telemetry benchmarks etc)
 
 Kernel ftrace logs are captured from the Linux kernel, and workload-automation integrates with various power measurement tools, e.g. NI DAQ for measuring device power, and ChromeOS servo boards.
 
 ### TRAPpy (Arm)
 
-[https://github.com/Arm-software/trappy](https://github.com/Arm-software/trappy)
-[https://github.com/Arm-software/bart](https://github.com/Arm-software/bart)
+<https://github.com/Arm-software/trappy>
+<https://github.com/Arm-software/bart>
 
 trappy is a python-based visualization tool to help analyze ftrace data generated on a device. It depends on ipython notebook and pandas (python data analysis library), and can be used from a browser to zoom in to analyse scheduler behaviors.
 
@@ -212,7 +208,7 @@ One important feature is it contains an API used for tracking behaviors for thre
 
 ### idlestat (Linaro)
 
-[https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/Idlestat](https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/Idlestat)
+<https://wiki-archive.linaro.org/WorkingGroups/PowerManagement/Resources/Tools/Idlestat>
 
 Idlestat uses kernel frace to monitor and capture C-state and P-state transitions of CPUs over a time interval. Idlestat can also use an energy model for a given platform to help estimate the energy consumption of a given workload.
 
@@ -220,7 +216,7 @@ Idlestat can be used with sample workloads to capture and compare C-state and P-
 
 ### kernelshark (existing)
 
-[https://www.redhat.com/](https://www.redhat.com/)
+<https://www.redhat.com/>
 
 X11/GTK tool used for analysis of ftrace data, useful for detailed scheduler analysis but does not offer the API capability of ‘trappy’ above.
 
@@ -234,7 +230,7 @@ All the work on EAS is done in the open on mailing lists:
 2. eas-dev mailing lists ([http://lists.linaro.org](http://lists.linaro.org/) )
    This mailing list is to discuss experimental aspects of EAS developments that are too premature for discussion on LKML
 
-Arm provides a [git repo](http://www.linux-arm.org/git?p=linux-power.git) containing the latest EAS patched into a recent Linux kernel
+Arm provides a git repo containing the latest EAS patched into a recent Linux kernel
 
 Arm/Linaro are planning an LSK 3.18 backport of EAS (on a separate experimental branch) for availability soon, this will be the best route to Android testing.
 
@@ -261,7 +257,7 @@ Scheduler driven DVFS PATCH v3
 </td>
 
 <td markdown="1">
-[https://lkml.org/lkml/2015/6/26/620](https://lkml.org/lkml/2015/6/26/620)
+\[https://lkml.org/lkml/2015/6/26/620](https://lkml.org/lkml/2015/6/26/620)
 </td>
 </tr>
 <tr >
@@ -270,7 +266,7 @@ Scheduler driven DVFS PATCH v3
 EAS RFCv5
 </td>
 
-<td style="text-align: left;" >[https://lkml.org/lkml/2015/7/7/754](https://lkml.org/lkml/2015/7/7/754)
+<td style="text-align: left;" >\[https://lkml.org/lkml/2015/7/7/754](https://lkml.org/lkml/2015/7/7/754)
 </td>
 </tr>
 <tr >
@@ -279,7 +275,7 @@ EAS RFCv5
 SchedTune proposal
 </td>
 
-<td style="text-align: left;" >[https://lkml.org/lkml/2015/8/19/419](https://lkml.org/lkml/2015/8/19/419)
+<td style="text-align: left;" >\[https://lkml.org/lkml/2015/8/19/419](https://lkml.org/lkml/2015/8/19/419)
 </td>
 </tr>
 <tr >
@@ -289,7 +285,7 @@ Foundational Patches
 (frequency and microarchitecture contribution to capacity/utilization, split out from RFCv5)
 </td>
 
-<td style="text-align: left;" >[https://lkml.org/lkml/2015/8/14/296](https://lkml.org/lkml/2015/8/14/296)
+<td style="text-align: left;" >\[https://lkml.org/lkml/2015/8/14/296](https://lkml.org/lkml/2015/8/14/296)
 </td>
 </tr>
 <tr >
@@ -298,7 +294,7 @@ Foundational Patches
 Yuyang Du PELT rewrite v10 containing Arm enhancements to utilization calculation  (already queued for merging)
 </td>
 
-<td style="text-align: left;" >[https://lkml.org/lkml/2015/7/15/159](https://lkml.org/lkml/2015/7/15/159)
+<td style="text-align: left;" >\[https://lkml.org/lkml/2015/7/15/159](https://lkml.org/lkml/2015/7/15/159)
 </td>
 </tr>
 </tbody>
@@ -333,7 +329,7 @@ SchedTune extension for EAS
 </tr>
 </tbody>
 </table>
-[/mk_table][vc_row_inner attached="false" padding="0" visibility=""][vc_column_inner el_class="" width="1/1"][vc_empty_space height="16px"][/vc_column_inner][/vc_row_inner][mk_table title="List of Source Code Repositories" style="style1"]
+\[/mk_table]\[vc_row_inner attached="false" padding="0" visibility=""]\[vc_column_inner el_class="" width="1/1"]\[vc_empty_space height="16px"]\[/vc_column_inner]\[/vc_row_inner]\[mk_table title="List of Source Code Repositories" style="style1"]
 <table width="100%" >
 
 <tr >
@@ -349,7 +345,7 @@ EAS
 </td>
 
 <td style="text-align: center;" markdown="1">
-[http://www.linux-arm.org/git?p=linux-power.git](http://www.linux-arm.org/git?p=linux-power.git)
+http://www.linux-arm.org/git?p=linux-power.git
 </td>
 </tr>
 <tr >
@@ -359,7 +355,7 @@ Idlestat
 </td>
 
 <td style="text-align: center;" markdown="1">
-[http://git.linaro.org/power/idlestat.git](http://git.linaro.org/power/idlestat.git)
+\[http://git.linaro.org/power/idlestat.git](http://git.linaro.org/power/idlestat.git)
 </td>
 </tr>
 <tr >
@@ -369,7 +365,7 @@ rt-app/workloadgen
 </td>
 
 <td style="text-align: center;" markdown="1">
-[https://git.linaro.org/power/rt-app.git](https://git.linaro.org/power/rt-app.git)
+\[https://git.linaro.org/power/rt-app.git](https://git.linaro.org/power/rt-app.git)
 </td>
 </tr>
 <tr >
@@ -379,7 +375,7 @@ TRAPpy
 </td>
 
 <td style="text-align: center;" markdown="1">
-[https://github.com/Arm-software/trappy](https://github.com/Arm-software/trappy)
+\[https://github.com/Arm-software/trappy](https://github.com/Arm-software/trappy)
 </td>
 </tr>
 <tr >
@@ -389,7 +385,7 @@ BART
 </td>
 
 <td style="text-align: center;" markdown="1">
-[https://github.com/Arm-software/bart](https://github.com/Arm-software/bart)
+\[https://github.com/Arm-software/bart](https://github.com/Arm-software/bart)
 </td>
 </tr>
 <tr >
@@ -399,7 +395,7 @@ Workload Automation
 </td>
 
 <td style="text-align: center;" markdown="1">
-[https://github.com/Arm-software/workload-automation](https://github.com/Arm-software/workload-automation)
+\[https://github.com/Arm-software/workload-automation](https://github.com/Arm-software/workload-automation)
 </td>
 </tr>
 </tbody>
@@ -408,10 +404,10 @@ Workload Automation
 ### Further reading
 
 LWN Article: “Steps toward Power Aware Scheduling”  (25-August-2015)
-[http://lwn.net/Articles/655479/](http://lwn.net/Articles/655479/)
+<http://lwn.net/Articles/655479/>
 
 LWN article: “Teaching the scheduler about power management” (18-June-2014)
-[http://lwn.net/Articles/602479/](http://lwn.net/Articles/602479/)
+<http://lwn.net/Articles/602479/>
 
 LWN article: “Power-aware scheduling meets a line in the sand” (5-June-2013)
-[http://lwn.net/Articles/552885/](http://lwn.net/Articles/552885/)
+<http://lwn.net/Articles/552885/>
