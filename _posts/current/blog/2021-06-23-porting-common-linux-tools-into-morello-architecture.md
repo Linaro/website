@@ -44,8 +44,6 @@ capabilities enabled using specific flags. The goal of this contribution was to 
 
 The ported tool was [wget](https://www.gnu.org/software/wget/), a command-line tool for retrieving  files using HTTP, HTTPS, FTP and FTPS, the most widely used Internet protocols. The porting process to CHERI Capabilities was executed without a lot of issues, but a few problems occurred that resulted in adjustment in the source code in order to be able to port the code to Morello architecture with capabilities enabled.
 
-The steps followed to do the porting can be found here: <https://github.com/CamillaMem/wget>
-
 ## Conclusion
 
 With some initial guidance it wasn’t too difficult to port applications to run as pure capability binaries if you are somewhat used to working with an Android/AOSP build environment. 
