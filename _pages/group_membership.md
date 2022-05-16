@@ -18,17 +18,195 @@ jumbotron:
 image: /assets/images/content/member__banner_image.jpg
 flow:
   - row: container_row
-    style: membership_text
-    sections:
-      - format: text
-        text_content:
-          text: |
-            Linaro has five segment groups: the **Linaro Windows Group**, the **Linaro Consumer Group**, the **Linaro Datacenter & Cloud Group**, the **Linaro Edge & Fog Computing Group** and the **Linaro IoT & Embedded Group**. Each group has been created to help advance the Arm software ecosystem within a particular vertical.
-  - row: container_row
-    style: bg-secondary
+    style: bg-light
     sections:
       - format: custom_include
         source: membership/groups.html
+  - row: container_row
+    style: membership_text
+    sections:
+      - format: columns
+        xs: 12
+        sm: 6
+        md: 6
+        lg: 6
+        xl: 6
+        columns:
+          - sm: 4
+            md: 4
+            lg: 4
+            xl: 4
+            style: text-center p-3
+            icon: /assets/images/content/LCG_icon_colour_no_text.svg
+            text: >
+              Linaro Consumer Group
+          - sm: 8
+            md: 8
+            lg: 8
+            xl: 8
+            style: p-3
+            text: |
+              The Linaro Consumer Group’s (LCG) mission is to improve the Android
+              Open Source Project (AOSP) ecosystem through collaborative activities
+              that benefit members across all Android use cases. Working together with
+              Linaro and other industry leaders, members contribute to an exceptional
+              Android Developer experience which in turn leads to better products.
+
+              **Related Projects:**
+
+              - Linux Kernel Development Targeting Android
+              - Software Device Enablement for Android
+
+              [Back to top](#top)
+  - row: container_row
+    style: membership_text
+    sections:
+      - format: columns
+        xs: 12
+        sm: 6
+        md: 6
+        lg: 6
+        xl: 6
+        columns:
+          - sm: 4
+            md: 4
+            lg: 4
+            xl: 4
+            style: text-center p-3
+            icon: /assets/images/content/LEDGE_icon_colour_no_text.svg
+            text: >
+              Linaro Edge & Fog Computing Group
+          - sm: 8
+            md: 8
+            lg: 8
+            xl: 8
+            style: p-3
+            text: |
+              The Linaro Edge and Fog Computing group (LEDGE) and its members have
+              joined forces to make hybridization a reality through two major efforts:
+
+              - Trusted Substrate - a BIOS that brings standards-based secure booting and over-the-air (OTA) updates to the most trust-demanding embedded computing projects such as automotive and robotics.
+              - LEDGE Reference Platform - a lightweight highly secure and robust container runtime environment that has dependable boot and update capabilities.
+
+              **Related Projects:**
+
+              - Heterogeneous Platform
+              - Linaro Contributions to OP-TEE
+              - Oniro OS
+              - Trusted Substrate
+
+              [Back to top](#top)
+  - row: container_row
+    style: membership_text
+    sections:
+      - format: columns
+        xs: 12
+        sm: 6
+        md: 6
+        lg: 6
+        xl: 6
+        columns:
+          - sm: 4
+            md: 4
+            lg: 4
+            xl: 4
+            style: text-center p-3
+            icon: /assets/images/content/LITE_icon_colour_no_text.svg
+            text: >
+              Linaro IoT & Embedded Group
+          - sm: 8
+            md: 8
+            lg: 8
+            xl: 8
+            style: p-3
+            text: |
+              Linaro’s IoT and Embedded (LITE) Group members work collaboratively to
+              create and support key standards and best in class implementations to
+              enable secure connected devices in the Arm ecosystem.
+
+              **Related Projects:**
+
+              - Heterogeneous Platform
+              - Open-CMSIS-Pack
+              - Optimize AI for Arm Microcontrollers
+
+              [Back to top](#top)
+  - row: container_row
+    style: membership_text
+    sections:
+      - format: columns
+        xs: 12
+        sm: 6
+        md: 6
+        lg: 6
+        xl: 6
+        columns:
+          - sm: 4
+            md: 4
+            lg: 4
+            xl: 4
+            style: text-center p-3
+            icon: /assets/images/content/LDCG_icon_colour_no_text.svg
+            text: >
+              Linaro Datacenter & Cloud Group
+          - sm: 8
+            md: 8
+            lg: 8
+            xl: 8
+            style: p-3
+            text: |
+              Linaro’s Datacenter & Cloud Group (LDCG) aims to, together with its
+              members, provide a common development center for the Arm enterprise
+              ecosystem. Working together to resolve common issues and develop
+              standards reduces fragmentation and helps all participating companies
+              deliver their products to market faster.
+
+              **Related Projects:**
+
+              - Arm Server Architecture
+              - Arm Server CI with the OpenEuler Community
+              - Big Data & Data Science
+              - Enhance Software-Defined-Storage on Arm Servers
+              - Linaro Ecosystem Dashboard
+              - Optimize AI for Arm Data Center and Edge
+
+              [Back to top](#top)
+  - row: container_row
+    style: membership_text
+    sections:
+      - format: columns
+        xs: 12
+        sm: 6
+        md: 6
+        lg: 6
+        xl: 6
+        columns:
+          - sm: 4
+            md: 4
+            lg: 4
+            xl: 4
+            style: text-center p-3
+            icon: /assets/images/content/LWG_icon_colour_no_text.svg
+            text: >
+              Linaro Windows Group
+          - sm: 8
+            md: 8
+            lg: 8
+            xl: 8
+            style: p-3
+            text: |
+              The Windows on Arm project aims to establish a healthy self-sustaining
+              Arm open source ecosystem for Windows. This involves looking at a
+              diverse set of tools, languages and frameworks and working to ensure
+              these run natively on Windows on Arm. The ultimate goal is to work with
+              Microsoft, Arm, Qualcomm and the open source community to establish
+              Windows on Arm as a first-class deliverable.
+
+              **Related Projects:**
+
+              - Windows on Arm
+
+              [Back to top](#top)
   - row: container_row
     style: bg-light mt-5
     sections:
