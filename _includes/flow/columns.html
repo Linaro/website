@@ -1,0 +1,33 @@
+<div class="col col-12 columns_section">
+    <div class="row py-0 px-3 {% if include.object.style %}{{include.object.style}}{% endif %}">
+        {% for column in include.object.columns %}
+            <div class="columns_section_col col {% if column.xs %}col-{{column.xs}}{% elsif include.object.xs%}col-{{include.object.xs}}{% endif %}
+            {% if column.sm %}col-sm-{{column.sm}}{% elsif include.object.sm %}col-sm-{{include.object.sm}}{% endif %}
+            {% if column.md %}col-md-{{column.md}}{% elsif include.object.md %}col-md-{{include.object.md}}{% endif %}
+            {% if column.lg %}col-lg-{{column.lg}}{% elsif include.object.lg %}col-lg-{{include.object.lg}}{% endif %}
+            {% if column.xl %}col-xl-{{column.xl}}{% elsif include.object.xl %}col-xl-{{include.object.xl}}{% endif %}
+            {% if column.style %}{{column.style}}{% endif %}">
+                {% if column.icon %}
+                    <img src="{{column.icon}}" alt="{{column.icon_alt}}"/>
+                {% endif %}
+                {% if column.text %}
+                    {{ column.text | markdownify }}
+                {% endif %}
+                {% if column.include %}
+                    {% include {{column.include}} object=include.object %}
+                {% endif %}
+                {% if column.image %}
+                    {% assign image_path = column.image  %}
+                    {% capture image_alt %}
+                        {% if column.image_alt%}
+                            {{column.image}}
+                        {% else %}
+                            {{column.text | truncatewords: 4 }} featured image
+                        {% endif %}
+                    {% endcapture %}
+                    {% picture feature_block_image {{image_path}} --alt {{image_alt}} %}
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+</div>
