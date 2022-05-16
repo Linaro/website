@@ -13,9 +13,7 @@
                 {% if column.text %}
                     {{ column.text | markdownify }}
                 {% endif %}
-                {% if column.include %}
-                    {% include {{column.include}} object=include.object %}
-                {% endif %}
+
                 {% if column.image %}
                     {% assign image_path = column.image  %}
                     {% capture image_alt %}
@@ -26,6 +24,9 @@
                         {% endif %}
                     {% endcapture %}
                     {% picture feature_block_image {{image_path}} --alt {{image_alt}} %}
+                {% endif %}
+                {% if column.custom_include %}
+                    {% include {{column.custom_include}} object=section %}
                 {% endif %}
             </div>
         {% endfor %}
