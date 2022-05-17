@@ -6,15 +6,11 @@
 {% endfor %}
 {% assign projects_size = projects | size %}
 {% if projects_size > 0 %}
-<div class="row">
-    <div class="col col-12">
-        <strong>{{site.data.translations.related_projects}}:</strong>
-        <ul>
-            {% for project in projects %}
-                <a href="/projects/#{{project['key']}}"><li>{{project["Project Information"]["title"]}}</li></a>
-            {% endfor %}
-        </ul>
-    </div>
-</div>
+<strong>{{site.data.translations.related_projects}}:</strong>
+<ul>
+    {% for project in projects %}
+        <a href="/projects/#{{project['key']}}"><li>{{project["Project Information"]["title"]}}</li></a>
+    {% endfor %}
+</ul>
 {% endif %}
 <a href="#top">{{site.data.translations.back_to_top}}</a>
