@@ -52,12 +52,7 @@ flow:
               Linaro and other industry leaders, members contribute to an exceptional
               Android Developer experience which in turn leads to better products.
 
-              **Related Projects:**
-
-              - Linux Kernel Development Targeting Android
-              - Software Device Enablement for Android
-
-              [Back to top](#top)
+            custom_include: membership/related_group_members_lcg.html
           - sm: 12
             md: 12
             lg: 12
@@ -94,14 +89,7 @@ flow:
               - Trusted Substrate - a BIOS that brings standards-based secure booting and over-the-air (OTA) updates to the most trust-demanding embedded computing projects such as automotive and robotics.
               - LEDGE Reference Platform - a lightweight highly secure and robust container runtime environment that has dependable boot and update capabilities.
 
-              **Related Projects:**
-
-              - Heterogeneous Platform
-              - Linaro Contributions to OP-TEE
-              - Oniro OS
-              - Trusted Substrate
-
-              [Back to top](#top)
+            custom_include: membership/related_group_members_ledge.html
           - sm: 12
             md: 12
             lg: 12
@@ -136,13 +124,7 @@ flow:
               create and support key standards and best in class implementations to
               enable secure connected devices in the Arm ecosystem.
 
-              **Related Projects:**
-
-              - Heterogeneous Platform
-              - Open-CMSIS-Pack
-              - Optimize AI for Arm Microcontrollers
-
-              [Back to top](#top)
+            custom_include: membership/related_group_members_lite.html
           - sm: 12
             md: 12
             lg: 12
@@ -179,16 +161,7 @@ flow:
               standards reduces fragmentation and helps all participating companies
               deliver their products to market faster.
 
-              **Related Projects:**
-
-              - Arm Server Architecture
-              - Arm Server CI with the OpenEuler Community
-              - Big Data & Data Science
-              - Enhance Software-Defined-Storage on Arm Servers
-              - Linaro Ecosystem Dashboard
-              - Optimize AI for Arm Data Center and Edge
-
-              [Back to top](#top)
+            custom_include: membership/related_group_members_ldcg.html
           - sm: 12
             md: 12
             lg: 12
@@ -226,15 +199,11 @@ flow:
               Microsoft, Arm, Qualcomm and the open source community to establish
               Windows on Arm as a first-class deliverable.
 
-              **Related Projects:**
-
-              - Windows on Arm
-
-              [Back to top](#top)
+            custom_include: membership/related_projects_lwg.html
           - sm: 12
             md: 12
             lg: 12
             xl: 12
             style: p-3
-            custom_include: membership/related_projects_lwg.html
+            custom_include: membership/related_group_members_lwg.html
 ---
