@@ -58,7 +58,7 @@ flow:
             lg: 12
             xl: 12
             style: p-3
-            custom_include: membership/related_group_members_lcg.html
+            custom_include: membership/related_projects_lcg.html
   - row: container_row
     style: membership_text
     sections:
@@ -124,7 +124,7 @@ flow:
               create and support key standards and best in class implementations to
               enable secure connected devices in the Arm ecosystem.
 
-            custom_include: membership/related_group_members_lite.html
+            custom_include: membership/related_projects_lite.html
           - sm: 12
             md: 12
             lg: 12
@@ -161,7 +161,7 @@ flow:
               standards reduces fragmentation and helps all participating companies
               deliver their products to market faster.
 
-            custom_include: membership/related_group_members_ldcg.html
+            custom_include: membership/related_projects_ldcg.html
           - sm: 12
             md: 12
             lg: 12
