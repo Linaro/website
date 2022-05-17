@@ -796,6 +796,7 @@ collections:
                       "tabs",
                       "feature_block",
                       "two_column",
+                      "columns",
                       "slider",
                       "youtube",
                     ],
@@ -1035,6 +1036,97 @@ collections:
                         name: content
                         widget: markdown
                         hint: "Markdown content for your tab."
+                        required: false
+              - label: Columns
+                type: columns
+                name: columns
+                widget: "object"
+                fields:
+                  - label: Section Anchor
+                    name: section_anchor
+                    widget: string
+                    required: false
+                  - label: Section Anchor Margin Top
+                    name: section_anchor_margin
+                    widget: string
+                    required: false
+                  - label: XS Col Size
+                    name: xs
+                    widget: number
+                    required: true
+                    default: 12
+                  - label: SM Col Size
+                    name: sm
+                    widget: number
+                    required: true
+                    default: 6
+                  - label: Md Col Size
+                    name: md
+                    widget: number
+                    required: true
+                    default: 6
+                  - label: LG Col Size
+                    name: lg
+                    widget: number
+                    required: true
+                    default: 6
+                  - label: XL Col Size
+                    name: xl
+                    widget: number
+                    required: true
+                    default: 6
+                  - label: "Columns"
+                    name: "columns"
+                    widget: list
+                    identifier_field: text
+                    required: false
+                    fields:
+                      - label: XS Col Size
+                        name: xs
+                        widget: number
+                        required: false
+                        default: 12
+                      - label: SM Col Size
+                        name: sm
+                        widget: number
+                        required: false
+                        default: 6
+                      - label: Md Col Size
+                        name: md
+                        widget: number
+                        required: false
+                        default: 6
+                      - label: LG Col Size
+                        name: lg
+                        widget: number
+                        required: false
+                        default: 6
+                      - label: XL Col Size
+                        name: xl
+                        widget: number
+                        required: false
+                        default: 6
+                      - label: "Column Title"
+                        name: title
+                        widget: string
+                        required: false
+                      - label: "Column Text"
+                        name: text
+                        widget: markdown
+                        hint: "Markdown text content."
+                        required: false
+                      - label: "Column Style"
+                        name: style
+                        widget: string
+                        hint: "Space separte css classes"
+                        required: false
+                      - label: Column Icon
+                        name: icon
+                        widget: image
+                        required: false
+                      - label: Custom Include
+                        name: custom_include
+                        widget: string
                         required: false
               - label: Feature Block
                 type: feature_block
@@ -1820,6 +1912,7 @@ collections:
                       "custom_include",
                       "tabs",
                       "feature_block",
+                      "columns",
                       "slider",
                       "youtube",
                     ],
@@ -2022,6 +2115,97 @@ collections:
                                   required: false,
                                   hint: "btn-primary, btn-secondary, btn-danger, btn-warning",
                                 }
+              - label: Columns
+                type: columns
+                name: columns
+                widget: "object"
+                fields:
+                  - label: Section Anchor
+                    name: section_anchor
+                    widget: string
+                    required: false
+                  - label: Section Anchor Margin Top
+                    name: section_anchor_margin
+                    widget: string
+                    required: false
+                  - label: XS Col Size
+                    name: xs
+                    widget: number
+                    required: true
+                    default: 12
+                  - label: SM Col Size
+                    name: sm
+                    widget: number
+                    required: true
+                    default: 6
+                  - label: Md Col Size
+                    name: md
+                    widget: number
+                    required: true
+                    default: 6
+                  - label: LG Col Size
+                    name: lg
+                    widget: number
+                    required: true
+                    default: 6
+                  - label: XL Col Size
+                    name: xl
+                    widget: number
+                    required: true
+                    default: 6
+                  - label: "Columns"
+                    name: "columns"
+                    widget: list
+                    identifier_field: text
+                    required: false
+                    fields:
+                      - label: XS Col Size
+                        name: xs
+                        widget: number
+                        required: false
+                        default: 12
+                      - label: SM Col Size
+                        name: sm
+                        widget: number
+                        required: false
+                        default: 6
+                      - label: Md Col Size
+                        name: md
+                        widget: number
+                        required: false
+                        default: 6
+                      - label: LG Col Size
+                        name: lg
+                        widget: number
+                        required: false
+                        default: 6
+                      - label: XL Col Size
+                        name: xl
+                        widget: number
+                        required: false
+                        default: 6
+                      - label: "Column Title"
+                        name: title
+                        widget: string
+                        required: false
+                      - label: "Column Text"
+                        name: text
+                        widget: markdown
+                        hint: "Markdown text content."
+                        required: false
+                      - label: "Column Style"
+                        name: style
+                        widget: string
+                        hint: "Space separte css classes"
+                        required: false
+                      - label: Column Icon
+                        name: icon
+                        widget: image
+                        required: false
+                      - label: Custom Include
+                        name: custom_include
+                        widget: string
+                        required: false
               - label: Tabs
                 type: tabs
                 name: tabs

@@ -29,5 +29,7 @@
         {% include flow/feature_block_small.html object=section %}
     {% elsif section.format == "two_column" %}
         {% include flow/two_column.html object=section %}
+    {% elsif section.format == "columns" %}
+        {% include flow/columns.html object=section %}
     {% endif %}
 {% endfor %}
