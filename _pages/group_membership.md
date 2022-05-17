@@ -26,6 +26,8 @@ flow:
     style: membership_text py-3 py-sm-5
     sections:
       - format: columns
+        section_anchor: lcg
+        section_anchor_margin: 100
         xs: 12
         sm: 6
         md: 6
@@ -45,7 +47,7 @@ flow:
             md: 8
             lg: 8
             xl: 8
-            style: px-3 bg-white
+            style: p-3 bg-white
             text: |
               The Linaro Consumer Group’s (LCG) mission is to improve the Android
               Open Source Project (AOSP) ecosystem through collaborative activities
@@ -64,6 +66,8 @@ flow:
     style: membership_text py-3 py-sm-5
     sections:
       - format: columns
+        section_anchor: ledge
+        section_anchor_margin: 100
         xs: 12
         sm: 6
         md: 6
@@ -83,7 +87,7 @@ flow:
             md: 8
             lg: 8
             xl: 8
-            style: px-3 bg-white
+            style: p-3 bg-white
             text: |
               The Linaro Edge and Fog Computing group (LEDGE) and its members have
               joined forces to make hybridization a reality through two major efforts:
@@ -102,6 +106,8 @@ flow:
     style: membership_text py-3 py-sm-5
     sections:
       - format: columns
+        section_anchor: lite
+        section_anchor_margin: 100
         xs: 12
         sm: 6
         md: 6
@@ -121,7 +127,7 @@ flow:
             md: 8
             lg: 8
             xl: 8
-            style: px-3 bg-white
+            style: p-3 bg-white
             text: |
               Linaro’s IoT and Embedded (LITE) Group members work collaboratively to
               create and support key standards and best in class implementations to
@@ -138,6 +144,8 @@ flow:
     style: membership_text py-3 py-sm-5
     sections:
       - format: columns
+        section_anchor: ldcg
+        section_anchor_margin: 100
         xs: 12
         sm: 6
         md: 6
@@ -157,7 +165,7 @@ flow:
             md: 8
             lg: 8
             xl: 8
-            style: px-3 bg-white
+            style: p-3 bg-white
             text: |
               Linaro’s Datacenter & Cloud Group (LDCG) aims to, together with its
               members, provide a common development center for the Arm enterprise
@@ -176,6 +184,8 @@ flow:
     style: membership_text py-3 py-sm-5
     sections:
       - format: columns
+        section_anchor: lwg
+        section_anchor_margin: 100
         xs: 12
         sm: 6
         md: 6
@@ -195,7 +205,7 @@ flow:
             md: 8
             lg: 8
             xl: 8
-            style: px-3 bg-white
+            style: p-3 bg-white
             text: |
               The Windows on Arm project aims to establish a healthy self-sustaining
               Arm open source ecosystem for Windows. This involves looking at a
