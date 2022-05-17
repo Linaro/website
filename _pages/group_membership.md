@@ -23,7 +23,7 @@ flow:
       - format: custom_include
         source: membership/groups.html
   - row: container_row
-    style: membership_text
+    style: membership_text py-5
     sections:
       - format: columns
         xs: 12
@@ -31,12 +31,13 @@ flow:
         md: 6
         lg: 6
         xl: 6
+        style: bg-light pt-3
         columns:
           - sm: 4
             md: 4
             lg: 4
             xl: 4
-            style: text-center p-3
+            style: text-center p-3 bg-white
             icon: /assets/images/content/LCG_icon_colour_no_text.svg
             text: >
               Linaro Consumer Group
@@ -44,7 +45,7 @@ flow:
             md: 8
             lg: 8
             xl: 8
-            style: p-3
+            style: px-3 bg-white
             text: |
               The Linaro Consumer Group’s (LCG) mission is to improve the Android
               Open Source Project (AOSP) ecosystem through collaborative activities
@@ -60,7 +61,7 @@ flow:
             style: p-3
             custom_include: membership/related_group_members_lcg.html
   - row: container_row
-    style: membership_text
+    style: membership_text py-5
     sections:
       - format: columns
         xs: 12
@@ -68,12 +69,13 @@ flow:
         md: 6
         lg: 6
         xl: 6
+        style: bg-light pt-3
         columns:
           - sm: 4
             md: 4
             lg: 4
             xl: 4
-            style: text-center p-3
+            style: text-center p-3 bg-white
             icon: /assets/images/content/LEDGE_icon_colour_no_text.svg
             text: >
               Linaro Edge & Fog Computing Group
@@ -81,7 +83,7 @@ flow:
             md: 8
             lg: 8
             xl: 8
-            style: p-3
+            style: px-3 bg-white
             text: |
               The Linaro Edge and Fog Computing group (LEDGE) and its members have
               joined forces to make hybridization a reality through two major efforts:
@@ -97,7 +99,7 @@ flow:
             style: p-3
             custom_include: membership/related_group_members_ledge.html
   - row: container_row
-    style: membership_text
+    style: membership_text py-5
     sections:
       - format: columns
         xs: 12
@@ -105,12 +107,13 @@ flow:
         md: 6
         lg: 6
         xl: 6
+        style: bg-light pt-3
         columns:
           - sm: 4
             md: 4
             lg: 4
             xl: 4
-            style: text-center p-3
+            style: text-center p-3 bg-white
             icon: /assets/images/content/LITE_icon_colour_no_text.svg
             text: >
               Linaro IoT & Embedded Group
@@ -118,7 +121,7 @@ flow:
             md: 8
             lg: 8
             xl: 8
-            style: p-3
+            style: px-3 bg-white
             text: |
               Linaro’s IoT and Embedded (LITE) Group members work collaboratively to
               create and support key standards and best in class implementations to
@@ -132,7 +135,7 @@ flow:
             style: p-3
             custom_include: membership/related_group_members_lite.html
   - row: container_row
-    style: membership_text
+    style: membership_text py-5
     sections:
       - format: columns
         xs: 12
@@ -140,12 +143,13 @@ flow:
         md: 6
         lg: 6
         xl: 6
+        style: bg-light pt-3
         columns:
           - sm: 4
             md: 4
             lg: 4
             xl: 4
-            style: text-center p-3
+            style: text-center p-3 bg-white
             icon: /assets/images/content/LDCG_icon_colour_no_text.svg
             text: >
               Linaro Datacenter & Cloud Group
@@ -153,7 +157,7 @@ flow:
             md: 8
             lg: 8
             xl: 8
-            style: p-3
+            style: px-3 bg-white
             text: |
               Linaro’s Datacenter & Cloud Group (LDCG) aims to, together with its
               members, provide a common development center for the Arm enterprise
@@ -169,7 +173,7 @@ flow:
             style: p-3
             custom_include: membership/related_group_members_ldcg.html
   - row: container_row
-    style: membership_text
+    style: membership_text py-5
     sections:
       - format: columns
         xs: 12
@@ -177,12 +181,13 @@ flow:
         md: 6
         lg: 6
         xl: 6
+        style: bg-light pt-3
         columns:
           - sm: 4
             md: 4
             lg: 4
             xl: 4
-            style: text-center p-3
+            style: text-center p-3 bg-white
             icon: /assets/images/content/LWG_icon_colour_no_text.svg
             text: >
               Linaro Windows Group
@@ -190,7 +195,7 @@ flow:
             md: 8
             lg: 8
             xl: 8
-            style: p-3
+            style: px-3 bg-white
             text: |
               The Windows on Arm project aims to establish a healthy self-sustaining
               Arm open source ecosystem for Windows. This involves looking at a
