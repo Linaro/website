@@ -52,13 +52,13 @@ flow:
               Linaro and other industry leaders, members contribute to an exceptional
               Android Developer experience which in turn leads to better products.
 
-            custom_include: membership/related_group_members_lcg.html
+            custom_include: membership/related_projects_lcg.html
           - sm: 12
             md: 12
             lg: 12
             xl: 12
             style: p-3
-            custom_include: membership/related_projects_lcg.html
+            custom_include: membership/related_group_members_lcg.html
   - row: container_row
     style: membership_text
     sections:
@@ -89,13 +89,13 @@ flow:
               - Trusted Substrate - a BIOS that brings standards-based secure booting and over-the-air (OTA) updates to the most trust-demanding embedded computing projects such as automotive and robotics.
               - LEDGE Reference Platform - a lightweight highly secure and robust container runtime environment that has dependable boot and update capabilities.
 
-            custom_include: membership/related_group_members_ledge.html
+            custom_include: membership/related_projects_ledge.html
           - sm: 12
             md: 12
             lg: 12
             xl: 12
             style: p-3
-            custom_include: membership/related_projects_ledge.html
+            custom_include: membership/related_group_members_ledge.html
   - row: container_row
     style: membership_text
     sections:
