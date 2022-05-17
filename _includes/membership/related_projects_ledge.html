@@ -6,6 +6,7 @@
 {% endfor %}
 {% assign projects_size = projects | size %}
 {% if projects_size > 0 %}
+<strong>{{site.data.translations.related_projects}}:</strong>
 <ul>
     {% for project in projects %}
         <a href="/projects/#{{project['key']}}"><li>{{project["Project Information"]["title"]}}</li></a>
