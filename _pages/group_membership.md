@@ -23,7 +23,7 @@ flow:
       - format: custom_include
         source: membership/groups.html
   - row: container_row
-    style: membership_text py-5
+    style: membership_text py-3 py-sm-5
     sections:
       - format: columns
         xs: 12
@@ -61,7 +61,7 @@ flow:
             style: p-3
             custom_include: membership/related_group_members_lcg.html
   - row: container_row
-    style: membership_text py-5
+    style: membership_text py-3 py-sm-5
     sections:
       - format: columns
         xs: 12
@@ -99,7 +99,7 @@ flow:
             style: p-3
             custom_include: membership/related_group_members_ledge.html
   - row: container_row
-    style: membership_text py-5
+    style: membership_text py-3 py-sm-5
     sections:
       - format: columns
         xs: 12
@@ -135,7 +135,7 @@ flow:
             style: p-3
             custom_include: membership/related_group_members_lite.html
   - row: container_row
-    style: membership_text py-5
+    style: membership_text py-3 py-sm-5
     sections:
       - format: columns
         xs: 12
@@ -173,7 +173,7 @@ flow:
             style: p-3
             custom_include: membership/related_group_members_ldcg.html
   - row: container_row
-    style: membership_text py-5
+    style: membership_text py-3 py-sm-5
     sections:
       - format: columns
         xs: 12
