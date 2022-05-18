@@ -40,11 +40,11 @@ membership_form.onsubmit = (e) => {
     console.log(formDataPayloadBody);
     // Send the POST request.
     fetch(
-      "https://pvwhresjz0.execute-api.us-east-1.amazonaws.com/dev/formSubmit",
+      "https://avqfk3gzg2.execute-api.us-east-1.amazonaws.com/prod/formSubmit",
       {
         method: "POST",
         body: JSON.stringify(formDataPayloadBody),
-        headers: { "X-Api-Key": "xpIcQXHk0Y1XUmBBH4xUl5ScFxgddlFnEpQeSzO3" },
+        headers: { "X-Api-Key": "ox9fSkYfRK16mxy5Gv6pM121H7iAubAQ6uzsDmoW" },
       }
     )
       .then((response) => response.json())
