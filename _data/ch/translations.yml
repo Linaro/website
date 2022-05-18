@@ -146,6 +146,7 @@ membership:
 membership_form:
   firstName: 名
   lastName: 姓
+  email: 电子邮件地址（必填）
   company: 公司
   how: Linaro 如何帮助您？
   submit: 提交

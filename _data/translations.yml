@@ -148,6 +148,7 @@ membership_form:
   firstName: First name
   lastName: Last name
   company: Company
+  email: Email
   how: How can Linaro help you?
   submit: Submit
 back_to_top: Back to top
