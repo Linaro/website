@@ -1,6 +1,8 @@
 // Take the form data from developer_services_form.js and send it
 // to the feedback endpoint.
 membership_form.onsubmit = (e) => {
+  $("#submitButtonMembershipForm").addClass("disabled");
+  $("#submitButtonMembershipForm").attr("disabled", true);
   e.preventDefault();
   // Check that the form has values for the required fields
   var message = "";
@@ -21,6 +23,8 @@ membership_form.onsubmit = (e) => {
       message + "You must provide a message regarding how we can help.<br>";
   }
   if (message !== "") {
+    $("#submitButtonMembershipForm").addClass("disabled");
+    $("#submitButtonMembershipForm").attr("disabled", true);
     $("#membership_form").addClass("was-validated");
   } else {
     feedback_error.innerHTML = "";
@@ -34,16 +38,6 @@ membership_form.onsubmit = (e) => {
     }
     console.log(formData);
     console.log(formDataPayloadBody);
-    // Get the checkbox group name val.
-    var checkboxGroupName = "";
-    $(".checkbox_group input[type=checkbox]").each(function () {
-      if ($(this).attr("name") !== "other") {
-        checkboxGroupName = $(this).attr("name");
-        return true;
-      }
-    });
-    // Make sure all the checkbox values are submitted as an array.
-    formDataPayloadBody[checkboxGroupName] = data.getAll(checkboxGroupName);
     // Send the POST request.
     fetch(
       "https://pvwhresjz0.execute-api.us-east-1.amazonaws.com/dev/formSubmit",
