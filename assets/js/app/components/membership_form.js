@@ -23,8 +23,8 @@ membership_form.onsubmit = (e) => {
       message + "You must provide a message regarding how we can help.<br>";
   }
   if (message !== "") {
-    $("#submitButtonMembershipForm").addClass("disabled");
-    $("#submitButtonMembershipForm").attr("disabled", true);
+    $("#submitButtonMembershipForm").removeClass("disabled");
+    $("#submitButtonMembershipForm").attr("disabled", false);
     $("#membership_form").addClass("was-validated");
   } else {
     feedback_error.innerHTML = "";
