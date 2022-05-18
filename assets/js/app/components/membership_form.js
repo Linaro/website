@@ -21,12 +21,12 @@ membership_form.onsubmit = (e) => {
       message + "You must provide a message regarding how we can help.<br>";
   }
   if (message !== "") {
-    $("#membership_contact_form").addClass("was-validated");
+    $("#membership_form").addClass("was-validated");
   } else {
     feedback_error.innerHTML = "";
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
     // Loop over them and prevent submission
-    var data = new FormData(membership_contact_form);
+    var data = new FormData(membership_form);
     var formData = [...data];
     var formDataPayloadBody = {};
     for (var index in formData) {
@@ -56,7 +56,7 @@ membership_form.onsubmit = (e) => {
       .then((response) => response.json())
       .then((result) => {
         console.log(result);
-        membership_contact_form.style.display = "none";
+        membership_form.style.display = "none";
         feedback_response.innerHTML = result.message;
       });
   }
