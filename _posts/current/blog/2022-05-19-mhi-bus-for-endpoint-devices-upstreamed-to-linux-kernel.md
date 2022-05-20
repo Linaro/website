@@ -1,36 +1,36 @@
 ---
 layout: post
 title: MHI bus for Endpoint devices upstreamed to Linux Kernel
-description: "In this blog, Manivannan talks about how the Modern Host Interface
+description: "In this blog, Mani talks about how the Modem Host Interface
   (MHI) bus support for Endpoint devices has been upstreamed to the Linux
-  kernel. "
+  kernel."
 date: 2022-05-19 08:58:54 +01:00
 image: /assets/images/content/Tech_Background.jpg
 tags:
   - MHI
-  - Modern Host Interface
+  - Modem Host Interface
   - Qualcomm
   - Upstreaming
   - Linux kernel
 category: blog
 author: manivannan.sadhasivam
 ---
-At the start of the year 2020, I wrote [a blog on MHI bus support for Host devices](https://www.linaro.org/blog/mhi-bus-support-gets-added-to-the-linux-kernel/). Two years later I am back with an update on the MHI bus support for Endpoint devices. The timeline tells the story on its own: "Upstreaming is hard but it is always important to do so".
+At the start of the year 2020, I wrote [a blog on MHI bus support for Host devices](https://www.linaro.org/blog/mhi-bus-support-gets-added-to-the-linux-kernel/). Two years later I am back with an update on the MHI bus support for Endpoint devices. The timeline tells the story on its own: **Upstreaming is hard but it is always important to do so**.
 
-# What is Modern Host Interface (MHI)?
+# What is Modem Host Interface (MHI)?
 
 [My previous article](https://www.linaro.org/blog/mhi-bus-support-gets-added-to-the-linux-kernel/) gave a brief introduction to the Modem Host Interface (MHI) bus and its implementation in the Linux kernel. Even though the article focused on the host side implementation, the concept remains the same. So I won’t go over the details again here. But here is a short summary on MHI:
 
 MHI is the communication protocol used by the host machines to control and
-communicate with the Qualcomm modems/WLAN devices over any high speed physical bus like PCIe. MHI is represented as a "[bus device](https://www.kernel.org/doc/html/latest/driver-api/driver-model/bus.html)" in the Linux kernel with the client drivers getting bind to a set of bidirectional channels exposed as MHI devices. There are also MHI controller drivers that define the channels used by the endpoint devices like modems/WLAN chipsets. The MHI controller driver is the one that sits between the MHI bus stack and the transport bus like PCIe.
+communicate with the Qualcomm modems/WLAN devices over any high speed physical bus like PCIe. MHI is represented as a [bus device](https://www.kernel.org/doc/html/latest/driver-api/driver-model/bus.html) in the Linux kernel with the client drivers getting bind to a set of bidirectional channels exposed as MHI devices. There are also MHI controller drivers that define the channels used by the endpoint devices like modems/WLAN chipsets. The MHI controller driver is the one that sits between the MHI bus stack and the transport bus like PCIe.
 
-{% include image.html path="/assets/images/content/modern-host-interface-mhi-.png" alt="Modern Host Interface - MHI" %}
+{% include image.html path="/assets/images/content/modem-host-interface-mhi-.png" alt="Modem Host Interface - MHI" %}
 
 # Upstreaming the MHI bus for endpoint devices
 
 ## Motivation
 
-The MHI host implementation has been used widely by various OEMs for connecting their modems to a host machine. These days, adding the support for a modem device may take only a couple of lines to the [PCI_GENERIC ](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/bus/mhi/host/pci_generic.c#n449)MHI host controller driver.
+The MHI host implementation has been used widely by various OEMs for connecting their modems to a host machine. These days, adding the support for a modem device may take only a couple of lines to the [PCI_GENERIC ](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/bus/mhi/host/pci_generic.c#n449) MHI host controller driver.
 
 So while the MHI host stack continued to receive updates ever since it got merged, Linaro started to add the MHI bus support for endpoint devices in parallel. The push for the MHI endpoint support came from Qualcomm as their vision was to run the full upstream software stack on the modems. The full upstream software stack includes the Linux Kernel and the userspace components.
 
@@ -74,9 +74,10 @@ To break the dependency and make it easy to upstream, we followed the same code 
 
 {% include image.html path="/assets/images/content/mhi-endpoint-stack.png" alt="MHI Endport Stack" %}
 
-As the figure illustrates, the MHI EP stack sits in between the MHI EP controller driver and MHI EP client drivers. The MHI EP controller driver modelled as a [PCI Endpoint Function driver](https://www.kernel.org/doc/html/latest/PCI/endpoint/index.html) (PCI EPF) registers itself as "***mhi_ep<N>***" device with the MHI EP stack and handles all the interactions with the underlying bus like PCIe. It takes care of operations such as enumeration, MSI generation, event handling, and read/write to the host memory.
+As the figure illustrates, the MHI EP stack sits in between the MHI EP controller driver and MHI EP client drivers. The MHI EP controller driver modelled as a [PCI Endpoint Function driver](https://www.kernel.org/doc/html/latest/PCI/endpoint/index.html) (PCI
+EPF) registers itself as **mhi_epN** device with the MHI EP stack and handles all the interactions with the underlying bus like PCIe. It takes care of operations such as enumeration, MSI generation, event handling, and read/write to the host memory.
 
-On the other hand, the MHI EP client drivers like QRTR, IPA, WWAN, etc,... register themselves as "***IPCR, IP_HW0, QMI***" devices with the MHI EP stack and take care of transmitting the protocol specific packets between the host and the baseband processor.
+On the other hand, the MHI EP client drivers like QRTR, IPA, WWAN, etc,... register themselves as **IPCR, IP_HW0, QMI** devices with the MHI EP stack and take care of transmitting the protocol specific packets between the host and the baseband processor.
 
 ## Internal Address Translation Unit (iATU)
 
@@ -86,34 +87,37 @@ So we were left with only one option and that's iATU (internal Address Translati
 
 But soon we came up against the limitations imposed by iATU and one of them was the availability of only 8 outbound/inbound windows. The iATU uses outbound windows to map the host address space in the endpoint and inbound windows to map the endpoint address space in the host (mostly BAR region).  In the MHI EP stack, we needed to map many host buffers in the endpoint memory. But since there were only 8 windows available, we decided to keep only a couple of mappings constant and dynamically map the rest. This solved the problem for us.
 
-The other issue was the alignment requirement of the host address for mapping using the outbound window. The configuration of the PCIe IP in SDX55 required the host address to be 4k aligned. Initially, we tried to use the "**bounce buffer**" technique in the MHI host stack to allocate the 4k aligned buffers. But that proved to be costly as using the bounce buffer takes up extra cycles to [copy the buffers](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/bus/mhi/host/main.c#n191) in the host. Then finally Linaro Engineer, **Dmitry Baryshkov** pitched in and shared a trick that allowed us to map the host buffers without alignment requirements.
+The other issue was the alignment requirement of the host address for mapping using the outbound window. The configuration of the PCIe IP in SDX55 required the host address to be 4k aligned. Initially, we tried to use the **bounce buffer** technique in the MHI host stack to allocate the 4k aligned buffers. But that proved to be costly as using the bounce buffer takes up extra cycles to [copy the buffers](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/bus/mhi/host/main.c#n191) in the host. Then finally Linaro Engineer, **Dmitry Baryshkov** pitched in and shared a trick that allowed us to map the host buffers without alignment requirements.
 
 Below is the illustration of the trick. Let's assume that the endpoint needs to map the host address starting from 0x40000100 with a size of 4KB (0x1000) to its local memory at 0x10000000:
 
 1. Find out the offset of the host address that when substracted gives the 4k aligned address.
 
-offset = 0x40000100 % 0x1000; / *offset = 0x100* /
+	`offset = 0x40000100 % 0x1000; /* offset = 0x100 */`
 
 2. Allocate the endpoint memory including the offset along with the actual size.
 
-buffer = alloc_addr(0x100 + 0x1000);
-/ *alloc_addr(offset + actual size)* /
+	`buffer = alloc_addr(0x100 + 0x1000); /* alloc_addr(offset + actual size) */`
 
 3. Map the host address starting from the aligned address to the total
    size including the offset.
 
-map_addr(buffer, 0x40000100 - 0x100, 0x100 + 0x1000);
-/ *map_addr(buffer, address - offset, offset + actual size)* /
+	`map_addr(buffer, 0x40000100 - 0x100, 0x100 + 0x1000); /* map_addr(buffer, address - offset, offset + actual size) */`
 
 4. Finally we can do memcpy to the actual host address by adding the offset to the buffer with the actual size.
 
-memcpy_fromio(0x10000000, buffer + 0x100, 0x1000);
+	`memcpy_fromio(0x10000000, buffer + 0x100, 0x1000);`
 
 In the above steps, we mapped the 4k aligned address of the unaligned address, then copied only the memory that we were interested in. This proved to be a nice and elegant hack to work around the iATU limitation.
 
 ## Putting all the pieces together
 
-Once we were able to get the MHI EP stack up and running, we added all the pieces together. That included an MHI EP controller driver modelled as a PCI EPF driver and the MHI EP client driver modelled as a networking driver utilizing the ***IP_SW0 channels***. With all these drivers in place, we got SDX55 enumerated as a modem in the host and got the network devices “***mhi_swip0***” to appear at both host and endpoint representing the ***IP_SW0*** channels. Through the network device, we were able to communicate between host and endpoint over networking utilities such as ***ping, ssh, iperf,*** etc,...
+Once we were able to get the MHI EP stack up and running, we added all the pieces together. That included
+an MHI EP controller driver modelled as a PCI EPF driver and the MHI EP client driver modelled as a
+networking driver utilizing the **IP_SW0** channels. With all these drivers in place, we got SDX55 enumerated
+as a modem in the host and got the network devices **mhi_swip0** to appear at both host and endpoint
+representing the **IP_SW0** channels. Through the network device, we were able to communicate between host
+and endpoint over networking utilities such as **ping, ssh, iperf,** etc,...
 
 ## Data connectivity
 
@@ -125,7 +129,7 @@ After we thoroughly tested the stack on both SDX55 and Snapdragon 8 Gen 1 (SM845
 
 # What's next?
 
-As said above, the work is not finished yet. Our top priority is to add support for IPA and eDMA to the MHI EP stack and provide data connectivity to the host machines using the [WWAN drivers](https://www.kernel.org/doc/html/latest/networking/device_drivers/wwan/index.html). At the same time, we will continue to optimize both the MHI host and EP stacks for reducing the latency and increasing the throughput. For more information, check out some of our previous blogs and sessions on upstreaming Qualcomm modems: 
+As said above, the work is not finished yet. Our top priority is to add support for IPA and eDMA to the MHI EP stack and provide data connectivity to the host machines using the [WWAN drivers](https://www.kernel.org/doc/html/latest/networking/device_drivers/wwan/index.html). At the same time, we will continue to optimize both the MHI host and EP stacks for reducing the latency and increasing the throughput. For more information, check out some of our previous blogs and sessions on this topic:
 
 * [Linaro connect talk on upstreaming the Qualcomm modems](https://www.google.com/url?q=https://resources.linaro.org/en/resource/JW762ZTT7Qv3jtiY5UDF2U&sa=D&source=docs&ust=1652956936204910&usg=AOvVaw3HNFHvVzjoTFiAkL4gIrU3)[](https://www.linaro.org/blog/upstreaming-support-for-qualcomm-pcie-modems/)
 * [Blog on upstream host support for Qualcomm modems](https://www.linaro.org/blog/upstreaming-support-for-qualcomm-pcie-modems/)
