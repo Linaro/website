@@ -74,6 +74,8 @@ flow:
         source: woa/members.html
 ---
 
+[CMake](https://cmake.org/) is a widely used open-source, cross-platform family of tools designed to build, test, and package software.
+
 CMake support for WoA is still in progress.
 
 Please checkout [enablement notes](https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28684353912/CMake) for latest updates
