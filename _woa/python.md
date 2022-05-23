@@ -2,13 +2,7 @@
 title: Python - Windows on Arm
 name: Python
 logo: /assets/images/content/windows_on_arm/Python.png
-description: >
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-  erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-  molestie consequat.
+description: Python - Windows on Arm
 image: /assets/images/content/iStock-667012914_sm.jpg
 jumbotron:
   class: header_2021_2 theme_banner
