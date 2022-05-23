@@ -1,19 +1,17 @@
 ---
-title: CMake - Windows on Arm
-name: CMake
-logo: /assets/images/content/windows_on_arm/CMake.png
-description: >
-  CMake is a widely used open-source, cross-platform family of tools designed to build, test, and package software.
-  [Project homepage](https://cmake.org/)
+title: PostgreSQL - Windows on Arm
+name: PostgreSQL
+logo: /assets/images/content/windows_on_arm/postgres.png
+description: PostgreSQL - Windows on Arm
 image: /assets/images/content/iStock-667012914_sm.jpg
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
-  title: Windows on Arm Project - CMake
+  title: Windows on Arm Project - PostgreSQL
   image: /assets/images/content/iStock-667012914_sm.jpg
 links:
-    - text: Enablement Notes
-      url: https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28684353912/CMake
+  - text: Enablement Notes
+    url: https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28707291320/PostgreSQL
 flow:
   - row: container_row
     style: #
@@ -77,8 +75,8 @@ flow:
         source: woa/members.html
 ---
 
-[CMake](https://cmake.org/) is a widely used open-source, cross-platform family of tools designed to build, test, and package software.
+[PostgreSQL](https://www.postgresql.org/), also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.
 
-CMake support for WoA is still in progress.
+PostgreSQL support for Windows on Arm is in progress.
 
 Please see enablement notes for details.

@@ -1,19 +1,17 @@
 ---
-title: CMake - Windows on Arm
-name: CMake
-logo: /assets/images/content/windows_on_arm/CMake.png
-description: >
-  CMake is a widely used open-source, cross-platform family of tools designed to build, test, and package software.
-  [Project homepage](https://cmake.org/)
+title: Perl - Windows on Arm
+name: Perl
+logo: /assets/images/content/windows_on_arm/perl.png
+description: Perl - Windows on Arm
 image: /assets/images/content/iStock-667012914_sm.jpg
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
-  title: Windows on Arm Project - CMake
+  title: Windows on Arm Project - Perl
   image: /assets/images/content/iStock-667012914_sm.jpg
 links:
-    - text: Enablement Notes
-      url: https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28684353912/CMake
+  - text: Enablement Notes
+    url: https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28697821212/Perl
 flow:
   - row: container_row
     style: #
@@ -77,8 +75,9 @@ flow:
         source: woa/members.html
 ---
 
-[CMake](https://cmake.org/) is a widely used open-source, cross-platform family of tools designed to build, test, and package software.
+[Perl](https://Perl.org/) is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including
+system administration, web development, network programming, GUI development, and more.
 
-CMake support for WoA is still in progress.
+Perl support for Windows on Arm is available from v5.36.0
 
 Please see enablement notes for details.
