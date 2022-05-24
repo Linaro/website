@@ -48,7 +48,7 @@ flow:
               style: text-dark
               buttons:
                 - title: 保持联系
-                  url: mailto:careers@linaro.org?subject=Careers
+                  url: https://careers.linaro.org
                   icon: fa fa-email
           item_width: "3"
         format: block
@@ -56,9 +56,10 @@ flow:
     style: block_row contact_blocks
   - row: main_content_row
 ---
+
 ## 技术支援
 
-**96Boards技术支持 -** 如果您有与 96Boards 相关的技术支持查询，请在 <https://discuss.96boards.org> 上发布您的问题。
+**96Boards 技术支持 -** 如果您有与 96Boards 相关的技术支持查询，请在 <https://discuss.96boards.org> 上发布您的问题。
 
 **利纳罗技术支持 -** 如果您有与 Linaro 相关的技术支持查询，请前往 [https://www.linaro.org/support/](https://www.linaro.org/support/)
 

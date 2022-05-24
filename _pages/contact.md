@@ -48,8 +48,8 @@ flow:
             - title: Careers
               style: text-dark
               buttons:
-                - title: Get in Touch
-                  url: mailto:careers@linaro.org?subject=Careers
+                - title: View our Careers website
+                  url: https://careers.linaro.org
                   icon: fa fa-email
           item_width: "3"
         format: block
