@@ -16,9 +16,9 @@ Join us on Tuesday 28 June for our virtual Tech Day on Confidential AI. We will 
 
 
 <!-- Noscript content for added SEO -->
-<noscript><a href="https://www.eventbrite.co.uk/e/linaro-and-arm-confidential-ai-tech-event-tickets-347896988257" rel="noopener noreferrer" target="_blank">Buy Tickets on Eventbrite</a></noscript>
+<noscript><a href="https://www.eventbrite.co.uk/e/linaro-and-arm-confidential-ai-tech-event-tickets-347896988257" rel="noopener noreferrer" target="_blank">Register Here on Eventbrite</a></noscript>
 <!-- You can customise this button any way you like -->
-<button id="eventbrite-widget-modal-trigger-347896988257" type="button">Buy Tickets</button>
+<button id="eventbrite-widget-modal-trigger-347896988257" type="button">Register Here</button>
 
 <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
 
