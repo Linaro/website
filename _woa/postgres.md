@@ -1,19 +1,17 @@
 ---
-title: Python - Windows on Arm
-name: Python
-logo: /assets/images/content/windows_on_arm/Python.png
-description: Python - Windows on Arm
+title: PostgreSQL - Windows on Arm
+name: PostgreSQL
+logo: /assets/images/content/windows_on_arm/postgres.png
+description: PostgreSQL - Windows on Arm
 image: /assets/images/content/iStock-667012914_sm.jpg
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
-  title: Windows on Arm Project - Python
+  title: Windows on Arm Project - PostgreSQL
   image: /assets/images/content/iStock-667012914_sm.jpg
 links:
-  - text: Latest Release
-    url: https://www.python.org/downloads/release/python-3110a6/
   - text: Enablement Notes
-    url: https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28598239406/Python
+    url: https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28707291320/PostgreSQL
 flow:
   - row: container_row
     style: #
@@ -77,10 +75,8 @@ flow:
         source: woa/members.html
 ---
 
-Python is a general-purpose high-level programming language. It is one of the most popular programming languages in the world now.
+[PostgreSQL](https://www.postgresql.org/), also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.
 
-Linaro and partners has been working together to enable windows on arm support for python and popular python packages.
+PostgreSQL support for Windows on Arm is in progress.
 
-Python has official support for windows on arm from 3.11 release (currently at alpha) and installers are available from python.org.
-
-Python 3.10 and 3.9 experimental releases are available on [NuGet](https://www.nuget.org/packages/pythonarm64)
+Please see enablement notes for details.
