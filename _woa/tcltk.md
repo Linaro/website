@@ -1,6 +1,6 @@
 ---
-title: TclTk - Windows on Arm
-name: TclTk
+title: Tcl/Tk - Windows on Arm
+name: Tcl/Tk
 logo: /assets/images/content/windows_on_arm/TclTk.png
 description: >
   Tcl is a high-level, general-purpose, interpreted, dynamic programming language.
@@ -11,7 +11,7 @@ image: /assets/images/content/iStock-667012914_sm.jpg
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
-  title: Windows on Arm Project - TclTk
+  title: Windows on Arm Project - Tcl/Tk
   image: /assets/images/content/iStock-667012914_sm.jpg
 links:
   - text: Enablement Notes
