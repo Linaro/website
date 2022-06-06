@@ -13,7 +13,7 @@ tags:
 category: blog
 author: linaro
 ---
-The 5.18 Linux Kernel release took place at the end of May. As always, Linaro featured in the top ten companies in terms of changesets and lines changed.
+The 5.18 Linux Kernel release took place at the end of May. As always, Linaro featured in the top ten companies in terms of changesets and lines changed (based on statistics [pulled together here by LWN](https://lwn.net/Articles/895800/)).
 
 {% include image.html path="/assets/images/content/linux-kernel-5.18-release-active-employers.png" alt="Most active linux kernel 5.18 employers" %}
 
