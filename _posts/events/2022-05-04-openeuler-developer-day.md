@@ -16,9 +16,9 @@ openEuler Developer Day 2022 (ODD 2022 for short) is a developer conference init
 
 ODD 2022 brought together the main contributors and developers in the community, focusing on the technological open innovation and ecosystem development, and reflecting the value of community contribution and personal growth from the perspective of developers. The community called on more developers to join and contribute to the continuous development of openEuler.
 
-Linaro’s Senior Technical Experts in China Guodong Liu, Haojian Zhuang and Xinliang Liu spoke at the “big data and storage” sub-forum，see below details:
+Linaro’s Senior Technical Experts in China Guodong Liu, Haojian Zhuang and Xinliang Liu spoke at the “big data and storage” sub-forum，see below details and links to session resources below:
 
-Session1: Accelerating for high performance computing with Arm SVE vector instructions 
+Session1: [Accelerating for high performance computing with Arm SVE vector instructions ](https://resources.linaro.org/en/resource/iWPCMqGmwAAipyWu2Q8AZ3)
 Speaker：Guodong Xu，Haojian Zhuang，Linaro senior technique expert
 
 Session2：The status and progress of the Arm64 open HPC filesystem 
