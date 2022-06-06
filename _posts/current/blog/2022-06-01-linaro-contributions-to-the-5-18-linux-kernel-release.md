@@ -13,7 +13,7 @@ tags:
 category: blog
 author: linaro
 ---
-The 5.18 Linux Kernel release took place last week. As always, Linaro featured in the top ten companies in terms of changesets and lines changed.
+The 5.18 Linux Kernel release took place at the end of May. As always, Linaro featured in the top ten companies in terms of changesets and lines changed.
 
 {% include image.html path="/assets/images/content/linux-kernel-5.18-release-active-employers.png" alt="Most active linux kernel 5.18 employers" %}
 
@@ -26,7 +26,7 @@ He has been working on finalizing the conversion of the SPI (Serial Peripheral I
 
 {% include image.html path="/assets/images/content/linux-kernel-5.18-most-active-developers.png" alt="Most active linux kernel 5.18 developers" %}
 
-## Krzysztof Kozlowski 
+## Krzysztof Kozlowski
 
 Krzysztof Kozlowski was working on converting Devicetree bindings to DT schema format where he reached almost full coverage of the Samsung Exynos SoC bindings with the new format.  With that came a lot of fixes and corrections for DTS files (not only Samsung Exynos), mostly pointed out by the schema itself.  Krzysztof also squashed a few bugs in different drivers and the NFC stack, and improved the code quality of some other pieces. Beside patches, Krzysztof also performed many reviews as a co-maintainer of the Devicetree bindings.
 
