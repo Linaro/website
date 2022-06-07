@@ -13,11 +13,12 @@ Artificial Intelligence (AI) is increasingly used to enable Internet of Things (
 
 Join us on Tuesday 28 June for our virtual Tech Day on Confidential AI. We will launch the schedule and registration at the beginning of June.
 
-
-
 <!-- Noscript content for added SEO -->
+
 <noscript><a href="https://www.eventbrite.co.uk/e/linaro-and-arm-confidential-ai-tech-event-tickets-347896988257" rel="noopener noreferrer" target="_blank">Register Here on Eventbrite</a></noscript>
+
 <!-- You can customise this button any way you like -->
+
 <button id="eventbrite-widget-modal-trigger-347896988257" type="button">Register Here</button>
 
 <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
@@ -35,3 +36,5 @@ Join us on Tuesday 28 June for our virtual Tech Day on Confidential AI. We will 
         onOrderComplete: exampleCallback
     });
 </script>
+
+<style> #pine-sessions { width: 100%; height: 500px; border: 0; display: block; }</style><iframe id="pine-sessions" frameborder="0" border="0" height="500" width="100%" src="https://events.pinetool.ai/2693/#widgets/sessions"></iframe>
