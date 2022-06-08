@@ -57,10 +57,9 @@ flow:
     style: block_row contact_blocks
   - row: main_content_row
 ---
-
 ## Technical Support
 
-**96Boards Technical Support -** If you have a technical support query relating to 96Boards, please post your question on [96Boards](https://discuss.96boards.org). [](https://discuss.96boards.org)
+**96Boards Technical Support -** If you have a technical support query relating to 96Boards, please post your question on [96Boards](https://discuss.96boards.org/). [](https://discuss.96boards.org)
 
 **Linaro Technical Support -** If you have a technical support query relating to Linaro, please go to [our support page](https://www.linaro.org/support/). [](https://www.linaro.org/support/)
 
