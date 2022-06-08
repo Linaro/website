@@ -1,9 +1,9 @@
 ---
-title: Board Support Packages
+title: Linux BSP (Board Support Packages)
 description: >
-  Linaro Developer Services are the Board Support Package (BSP) experts. We have
-  extensive arm engineering experience helping companies with their BSP
-  development, maintenance, optimisation and long term support.
+  Linaro are Board Support Package (BSP) experts. We have extensive Arm
+  engineering experience helping companies with BSP, maintenance, optimisation &
+  LTS.
 permalink: /services/board-support-packages/
 service_id: 3
 keywords:
