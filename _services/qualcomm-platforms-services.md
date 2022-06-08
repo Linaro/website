@@ -1,8 +1,8 @@
 ---
 title: Qualcomm Platforms Services
-description: We are leaders in providing Qualcomm Services to help aid
-  development, maintenance & optimization for Qualcomm platforms such as
-  Qualcomm Snapdragon.
+description: We are leaders in Linux BSP development, maintenance & optimization
+  for Qualcomm platforms, helping companies build their products with
+  upstreaming, LTS & more.
 permalink: /services/qualcomm-platforms-services/
 service_id: 11
 keywords:
