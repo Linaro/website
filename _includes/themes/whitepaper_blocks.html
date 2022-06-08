@@ -1,0 +1,28 @@
+{% if include.object.category %}
+    {% assign associated_white_papers = "" | split: "," %}
+    {% for whitepaper in site.whitepapers %}
+        {% if whitepaper.category == include.object.category %}
+            {% assign associated_white_papers = associated_white_papers | push: whitepaper %}
+        {% endif %}
+    {% endfor %}
+    {% assign associated_white_papers_size = associated_white_papers | size %}
+    {% if associated_white_papers_size > 0 %}
+        <div class="row">
+            {% for whitepaper in associated_white_papers %}
+                <div class="col col-12 col-lg-4">
+                    <a class="whitepaper_link" href="{{whitepaper.whitepaper_url}}">
+                        <div class="whitepaper-wrapper">
+                            {% capture image_alt %}{{whitepaper.title}} image{% endcapture%}
+                            {% picture card_block_image {{whitepaper.image}} --alt {{image_alt}} %}
+                            <div class="whitepaper_text">
+                                <h3>
+                                    {{whitepaper.title}}
+                                </h3>
+                            </div>  
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endif %}
