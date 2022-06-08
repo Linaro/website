@@ -1,6 +1,7 @@
 ---
 title: Legal
-description: Information about the legal policies of Linaro's website
+description: Click to see our information about the legal policies of Linaro's
+  website. If you have any question, please do not hesitate to contact us.
 permalink: /legal/
 layout: flow
 jumbotron:
