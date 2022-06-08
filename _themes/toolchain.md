@@ -89,6 +89,17 @@ flow:
             url: /projects/
             style: btn-lg btn-primary my-2 border-white engagement_request_contact_btn
   - row: container_row
+    style: bg-lighter-blue text-center
+    sections:
+      - format: title
+        style: font-weight-bold mt-4
+        title_content:
+          text: White Papers available to download (PDF)
+          size: h2
+      - format: custom_include
+        source: themes/whitepaper_blocks.html
+        category: toolchain
+  - row: container_row
     style: bg-green
     sections:
       - format: custom_include

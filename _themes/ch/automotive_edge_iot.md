@@ -52,7 +52,8 @@ flow:
           text: 可供下载的白皮书 (PDF)
           size: h2
       - format: custom_include
-        source: themes/automotive_iot_white_paper_blocks.html
+        source: themes/whitepaper_blocks.html
+        category: automotive
   - row: container_row
     style: bg-light
     sections:
