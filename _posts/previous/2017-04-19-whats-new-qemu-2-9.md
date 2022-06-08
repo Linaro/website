@@ -22,7 +22,7 @@ QEMU is an interesting multi-faceted open source project. It is a standard compo
 
 Started in 2003 by [Fabrice Bellard](https://en.wikipedia.org/wiki/Fabrice_Bellard) QEMU is now maintained by a community of mostly corporate sponsored engineers, although unaffiliated individuals are still the second largest set of contributors. The projects codebase has continued to grow over the years and it now has reached the point of making around 3 stable releases a year, typically one in April, August and December.
 
-Linaro engineers takes an active part in development and maintenance of the project and we thought it would be useful provide an update on Arm related features in the up-coming [2.9 release](http://wiki.qemu-project.org/index.php/ChangeLog/2.9).
+Linaro engineers takes an active part in development and maintenance of the project and we thought it would be useful provide an update on Arm related features in the up-coming [2.9 release](https://wiki.qemu-project.org/index.php/ChangeLog/2.9).
 
 ## 1 AArch64 EL2 Support for TCG
 
