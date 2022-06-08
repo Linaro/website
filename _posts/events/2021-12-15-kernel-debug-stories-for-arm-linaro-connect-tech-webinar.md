@@ -1,7 +1,8 @@
 ---
 title: Kernel Debug Stories for Arm [Linaro Connect Tech Webinar]
 event: kernel-debug-stories-2021
-description: "Public Webinar "
+description: The Kernel Debug Stories for Arm (Linaro Connect Tech Webinar) was
+  held 8th & 15th February 2022. Click to read more.
 location: "Online "
 date: 2021-12-14 08:25:37 -05:00
 event_date: 2022-02-08 08:28:45 -05:00
