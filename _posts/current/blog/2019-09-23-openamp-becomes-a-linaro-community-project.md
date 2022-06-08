@@ -1,15 +1,18 @@
 ---
 layout: post
 title: OpenAMP becomes a Linaro Community Project
-date: '2019-09-23 01:00:00'
-tags:
-- Arm
-- Linux
-- Open Source
-- Collaborative Engineering
-- Linaro
-category: blog
+description: In this article, we talk about OpenAMP Project joining Linaro
+  Community Projects Division which manages open source community projects. Read
+  more here.
+date: 2019-09-23 01:00:00
 image: /assets/images/content/openampproject-banner-updates.png
+tags:
+  - Arm
+  - Linux
+  - Open Source
+  - Collaborative Engineering
+  - Linaro
+category: blog
 author: linaro
 ---
 
