@@ -2,7 +2,8 @@
 title: Using Linux kernel for Real-Time Systems (Member Exclusive Linaro Connect
   Tech Webinar)
 event: linux-for-realtime-systems
-description: "Member only training "
+description: "Using Linux kernel for Real-Time Systems was held on 18-25th Jan
+  2022 and was a Member only exclusive event. Click to read more. "
 location: "Online "
 date: 2021-12-07 04:53:30 -05:00
 event_date: 2022-01-18 04:53:30 -05:00
