@@ -41,7 +41,14 @@ feedback_form.onsubmit = (e) => {
     // Make sure all the checkbox values are submitted as an array.
     formDataPayloadBody[checkboxGroupName] = data.getAll(checkboxGroupName);
     console.log(formDataPayloadBody);
-
+    try {
+      dataLayer.push({
+        formName: "Long Contact Form",
+        event: "form_submission",
+      });
+    } catch (err) {
+      console.log("Couldn't push to dataLayer:", err);
+    }
     // Send the POST request.
     fetch(
       "https://avqfk3gzg2.execute-api.us-east-1.amazonaws.com/prod/formSubmit",
@@ -59,6 +66,18 @@ feedback_form.onsubmit = (e) => {
       });
   }
 };
+// Attach the submit handler to the form
+developer_services_download_form.addEventListener("submit", () => {
+  try {
+    dataLayer.push({
+      formName: "Downloads Form",
+      event: "form_submission",
+    });
+    console.log("Pushed to dataLayer");
+  } catch (err) {
+    console.log("Couldn't push to dataLayer:", err);
+  }
+});
 $(document).ready(function () {
   // Developer Services Contact Form
   if ($(".ds_contact_form_btn").length > 0) {

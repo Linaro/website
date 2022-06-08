@@ -41,6 +41,14 @@ $(document).ready(function () {
         });
         // Make sure all the checkbox values are submitted as an array.
         formDataPayloadBody[checkboxGroupName] = data.getAll(checkboxGroupName);
+        try {
+          dataLayer.push({
+            formName: "Short Contact Form",
+            event: "form_submission",
+          });
+        } catch (err) {
+          console.log("Couldn't push to dataLayer:", err);
+        }
         // Send the POST request.
         fetch(
           "https://avqfk3gzg2.execute-api.us-east-1.amazonaws.com/prod/formSubmit",
