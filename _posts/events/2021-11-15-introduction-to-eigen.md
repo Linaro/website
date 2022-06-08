@@ -1,7 +1,8 @@
 ---
 title: "Linaro Connect Webinar: Introduction to Eigen "
 event: "intro-to-eigen-tech-webinar "
-description: "Webinar Title: Introduction to Eigen\ 
+description: "The Introduction to Eigen Webinar was held 9th Dec 2021. Click to
+  watch our recorded session or read more about the event.
 
   \ "
 location: "Online "
