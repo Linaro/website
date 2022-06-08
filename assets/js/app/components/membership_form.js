@@ -38,6 +38,11 @@ membership_form.onsubmit = (e) => {
     }
     console.log(formData);
     console.log(formDataPayloadBody);
+    try {
+      dataLayer.push({ formName: "Membership Form", event: "form_submission" });
+    } catch (err) {
+      console.log("Couldn't push to dataLayer:", err);
+    }
     // Send the POST request.
     fetch(
       "https://avqfk3gzg2.execute-api.us-east-1.amazonaws.com/prod/formSubmit",
