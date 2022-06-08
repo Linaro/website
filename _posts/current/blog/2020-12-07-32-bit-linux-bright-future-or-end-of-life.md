@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "32-bit Linux: Bright Future Or End Of Life?"
-description: Is 32-bit the best choice for devices that do not require
-  significant resources? Arnd Bergmann looks into the past, present & possible
-  future of this technology.
+description: In this article, Arnd Bergmann provides an overview into the past,
+  present & possible future of 32-bit Linux technology. Read more here.
 date: 2020-12-07 11:27:17
 image: /assets/images/content/road-timelapse.jpg
 tags:
