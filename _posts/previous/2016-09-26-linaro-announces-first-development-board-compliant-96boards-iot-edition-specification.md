@@ -1,40 +1,40 @@
 ---
-author: linaro
-category: news
-date: 2016-09-26 19:12:46
-description: Cambridge, UK; 26 September 2016
-layout: post
-link: /news/linaro-announces-first-development-board-compliant-96boards-iot-edition-specification/
-slug: linaro-announces-first-development-board-compliant-96boards-iot-edition-specification
-tags:
-- 96Boards
-- Linaro
-- Linaro Connect
-- Linux
-- Linux On Arm
-title: Linaro Announces First Development Board Compliant with 96Boards IoT Edition
-  Specification
 wordpress_id: 11672
+layout: post
+title: Linaro Announces First Development Board Compliant with 96Boards IoT
+  Edition Specification
+description: Cambridge, UK; 26 September 2016
+image: /assets/images/content/iot_planet_under_2mb.jpg
+tags:
+  - 96Boards
+  - Linaro
+  - Linaro Connect
+  - Linux
+  - Linux On Arm
+author: linaro
+slug: linaro-announces-first-development-board-compliant-96boards-iot-edition-specification
+date: 2016-09-26 19:12:46
+link: /news/linaro-announces-first-development-board-compliant-96boards-iot-edition-specification/
+category: news
 ---
-
 Cambridge, UK; 26 September 2016
 
 Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today at Linaro Connect Las Vegas 2016 announced availability of the 96Boards ‘Carbon’ board - the first development board compliant with the 96Boards IoT Edition (IE) specification. The board is the latest addition to the 96Boards family, the open specification defining a platform for the delivery of low-cost 32-bit and 64-bit Arm ecosystem developer boards. It is available to purchase from [SeeedStudio](https://www.96boards.org/product/carbon/).
 
 Designed by SeeedStudio and Linaro, the 96Boards Carbon is an IoT reference development board targeted at IoT and embedded developers, the hobby community, and the open-source community. The board features the STM32F401RE Cortex-M4 SoC with 512KB onboard flash and *Bluetooth*® wireless technology LE. The board will be launched with Zephyr pre-installed. This is a small, scalable, real-time OS for use on resource-constrained systems.
 
-The [IoT Edition (IE) specification](https://github.com/96boards/documentation/blob/master/Specifications/96Boards-IE-Specification.pdf) is a joint effort between 96Boards, the Linaro IoT and Embedded (LITE) Group and its members. This specification is intended to foster the delivery of IoT devices using Arm Cortex-A and Cortex-R/M processors targeted at software developers, the maker community, higher education, and embedded OEMs. To comment on the specifications, please visit the [Specification forum](https://discuss.96boards.org/c/specification). If you wish to be involved in defining future versions of the specifications please contact [96Boards@Linaro.org](mailto:96Boards@Linaro.org) for information about joining the Linaro 96Boards Group.
+The [IoT Edition (IE) specification](https://github.com/96boards/documentation/blob/master/Specifications/96Boards-IE-Specification.pdf) is a joint effort between 96Boards, the Linaro IoT and Embedded (LITE) Group and its members. This specification is intended to foster the delivery of IoT devices using Arm Cortex-A and Cortex-R/M processors targeted at software developers, the maker community, higher education, and embedded OEMs. To comment on the specifications, please visit the [Specification forum](https://discuss.96boards.org/c/specification/6). If you wish to be involved in defining future versions of the specifications please contact [96Boards@Linaro.org](mailto:96Boards@Linaro.org) for information about joining the Linaro 96Boards Group.
 
 <table border="1" class="table responsive-table">
 <tbody >
 <tr >
 
 <td markdown="1">
-**COMPONENT**
+\*\*COMPONENT\*\*
 </td>
 
 <td markdown="1">
-**DESCRIPTION**
+\*\*DESCRIPTION\*\*
 </td>
 </tr>
 <tr >
@@ -202,7 +202,7 @@ Size
 
 \*Note: Flashing the nRF51 chip requires a SWD programmer such as an ST-Linkv2 or Segger JLink
 
-For more information, visit [https://www.96boards.org/product/carbon/](https://www.96boards.org/product/carbon/)
+For more information, visit <https://www.96boards.org/product/carbon/>
 
 **About Linaro**
 
