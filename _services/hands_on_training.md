@@ -1,8 +1,8 @@
 ---
-title: Hands on Training
-description: We provide advice & hands on Linux training to help significantly
-  improve working relationship with open source communities & successfully
-  achieve goals.
+title: Hands on Linux & Arm Training
+description: We provide advice & hands on Linux and Arm training to help
+  significantly improve your working relationship with open source communities &
+  help you successfully achieve goals.
 permalink: /services/hands-on-training/
 service_id: 4
 keywords:
