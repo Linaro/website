@@ -4,4 +4,5 @@ description: 阅读边缘设备固件标准化白皮书
 image: /assets/images/content/autonomous-driving-bg.jpg
 whitepaper_url: https://linaro.co/trusted-substrate-white-paper
 category: automotive
+permalink: /whitepapers/standardisation-in-edge-device-firmware/
 ---

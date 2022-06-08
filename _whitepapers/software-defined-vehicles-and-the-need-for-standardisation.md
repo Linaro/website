@@ -4,4 +4,5 @@ description: Read the Software Defined Vehicles and the need for standardisation
 image: /assets/images/content/Car_sensors.jpg
 whitepaper_url: https://linaro.co/automotive-white-paper
 category: automotive
+permalink: /whitepapers/software-defined-vehicles-and-the-need-for-standardisation/
 ---
