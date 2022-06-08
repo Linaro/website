@@ -92,7 +92,7 @@ flow:
     sections:
       - format: title
         title_content:
-          size: h3
+          size: h2
           style: text-dark font-weight-bold my-4
           text: Toolchain Optimization Services
       - format: text
@@ -149,7 +149,7 @@ flow:
     sections:
       - format: title
         title_content:
-          size: h3
+          size: h2
           style: text-dark font-weight-bold my-4
           text: Power Management Tuning Services
       - format: text
