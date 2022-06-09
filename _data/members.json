@@ -88,6 +88,18 @@
     "url": "/membership/"
   },
   {
+    "id": "project-member",
+    "members": [
+      {
+        "image": "https://static.linaro.org/common/member-logos/oppo.jpg",
+        "name": "OPPO"
+      }
+    ],
+    "membership_group_name": "Project Members",
+    "text": "Members of a sole project but their logo needs to be displayed",
+    "url": "/membership/"
+  },
+  {
     "id": "ledge",
     "members": [
       {
