@@ -4,7 +4,7 @@
 {% for member_group in site.data.members %}
     {% if member_group.id != "boards-sc" and member_group.id != "boards-mp" and member_group.id != "boards-partner" and member_group.id != "boards-ai" %}
         {% for member in member_group.members %}
-            {% if member_group.id == "core %}
+            {% if member_group.id == "core" %}
                 {% unless core_members contains member %}
                     {% assign core_members = core_members | push: member %}
                 {% endunless %}
