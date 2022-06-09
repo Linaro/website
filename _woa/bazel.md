@@ -82,4 +82,3 @@ Bazel is an open-source build and test tool that scalably supports multi-languag
 
 Windows on Arm support is available from Bazel v5.1
 
-> Note: Bazel v5.1 is not yet released. Bazel v6.0 pre-releases are available for windows on arm.
