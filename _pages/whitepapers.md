@@ -5,11 +5,11 @@ permalink: /whitepapers/
 css_bundle: whitepapers
 layout: flow
 jumbotron:
-  class: header_2021_2 theme_banner
+  class: text-center about_header
   title: Whitepapers
-  title_row: true
-  description: See all of the whitepapers produced by Linaro.
-  image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
+  title-class: font-weight-bold my-5
+  inner_class: py-5
+  image: /assets/images/content/Code_Upstream_72.jpg
 flow:
   - row: container_row
     sections:
