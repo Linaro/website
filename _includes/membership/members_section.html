@@ -1,6 +1,7 @@
 {% assign core_members = '' | split: "," %}
 {% assign club_members = '' | split: "," %}
 {% assign group_members = '' | split: "," %}
+{% assign project_members = '' | split: "," %}
 {% for member_group in site.data.members %}
     {% if member_group.id != "boards-sc" and member_group.id != "boards-mp" and member_group.id != "boards-partner" and member_group.id != "boards-ai" %}
         {% for member in member_group.members %}
@@ -16,6 +17,10 @@
                 {% unless group_members contains member %}
                     {% assign group_members = group_members | push: member %}
                 {% endunless %}
+            {% elsif member_group.id == "project-member" %}
+                {% unless project_members contains member %}
+                    {% assign project_members = project_members | push: member %}
+                {% endunless %}
             {% endif %}
         {% endfor %}
     {% endif %}
@@ -23,6 +28,7 @@
 {% assign sorted_core_members = core_members | sort: 'name' %}
 {% assign sorted_club_members = club_members | sort: 'name' %}
 {% assign sorted_group_members = group_members | sort: 'name' %}
+{% assign sorted_project_members = project_members | sort: 'name' %}
 {% assign all_members = "" | split: "," %}
 {% for member in sorted_core_members %}
     {% assign all_members = all_members | push: member %}
@@ -31,6 +37,9 @@
     {% assign all_members = all_members | push: member %}
 {% endfor %}
 {% for member in sorted_group_members %}
+    {% assign all_members = all_members | push: member %}
+{% endfor %}
+{% for member in sorted_project_members %}
     {% assign all_members = all_members | push: member %}
 {% endfor %}
 {% assign groupName = page.title %}
