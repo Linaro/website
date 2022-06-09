@@ -1,17 +1,41 @@
-{% assign members = '' | split: "," %}
+{% assign core_members = '' | split: "," %}
+{% assign club_members = '' | split: "," %}
+{% assign group_members = '' | split: "," %}
 {% for member_group in site.data.members %}
     {% if member_group.id != "boards-sc" and member_group.id != "boards-mp" and member_group.id != "boards-partner" and member_group.id != "boards-ai" %}
         {% for member in member_group.members %}
-            {% unless members contains member %}
-                {% assign members = members | push: member %}
-            {% endunless %}
+            {% if member_group.id == "core %}
+                {% unless core_members contains member %}
+                    {% assign core_members = core_members | push: member %}
+                {% endunless %}
+            {% elsif member_group.id == "club" %}
+                {% unless club_members contains member %}
+                    {% assign club_members = club_members | push: member %}
+                {% endunless %}
+            {% elsif member_group.id == "group" %}
+                {% unless group_members contains member %}
+                    {% assign group_members = group_members | push: member %}
+                {% endunless %}
+            {% endif %}
         {% endfor %}
     {% endif %}
 {% endfor %}
-{% assign sorted_members = members | sort: 'name' %}
+{% assign sorted_core_members = core_members | sort: 'name' %}
+{% assign sorted_club_members = club_members | sort: 'name' %}
+{% assign sorted_group_members = group_members | sort: 'name' %}
+{% assign all_members = "" | split: "," %}
+{% for member in sorted_core_members %}
+    {% assign all_members = all_members | push: member %}
+{% endfor %}
+{% for member in sorted_club_members %}
+    {% assign all_members = all_members | push: member %}
+{% endfor %}
+{% for member in sorted_group_members %}
+    {% assign all_members = all_members | push: member %}
+{% endfor %}
 {% assign groupName = page.title %}
 <div class="row" id="members_section">
-    {% for member in sorted_members %}
+    {% for member in all_members %}
         <div class="col col-6 col-sm-4 col-md py-3 d-flex justify-content-center align-items-center member_col">
             <div class="member_image rounded">
                 {% if member.uri %}<a href="{{member.uri}}">{% endif %}
