@@ -1,10 +1,8 @@
 ---
 title: Arm Dev Summit Korea 2020 (Virtual)
 event: arm-dev-summit-korea-2020
-event_url: https://devsummit.arm.com/
-description: |-
-  https://devsummit.arm.com/
-  Linaro Diamond Sponsor and Linaro sessions 
+event_url: ""
+description: "Linaro Diamond Sponsor and Linaro sessions "
 location: "Virtual, Korea timezone based "
 date: 2020-10-08 03:23:31
 event_date: 2020-11-04 07:23:31
