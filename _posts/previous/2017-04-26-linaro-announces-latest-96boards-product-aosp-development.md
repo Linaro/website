@@ -203,7 +203,6 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 Buy Now
 
-* [Amazon](http://linaro.co/hikey960buy-amazon) (USA) – $239.99 & FREE Shipping
 * [Lenovator](http://linaro.co/hikey960buy) (Worldwide) – $239
 * [Seeed](http://linaro.co/hikey960-seed) (Worldwide) – $239.00
 * [Alpha Star](http://linaro.co/hikey960buy-alpha)
