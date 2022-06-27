@@ -2,7 +2,9 @@
 title: Arm Dev Summit China 2020 (Virtual)
 event: arm-dev-summit-china-2020
 event_url: ""
-description: "\n\n"
+description: |+
+  Linaro presented a session at Arm Dev Summit.
+
 location: "Virtual, China timezone based "
 date: 2020-10-08 03:08:02
 event_date: 2020-11-04 07:08:02
