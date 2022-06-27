@@ -51,14 +51,9 @@ This is the patchset that enables the JSON export and load of the test results.
 [](https://github.com/gormanm/mmtests/commit/95a39b0750c16da8aadff617ca46011828b96513)**Test definition for LAVA**
 Here you can see the workflow for LAVA and the python script that formats the metrics that will be sent to LAVA.
 
-<https://github.com/Linaro/test-definitions/commit/de4c57c2b8d3d877001b898a601b7753d23d2cfc>
+<https://github.com/Linaro/test-definitions/commit/de4c57c2b8d3d877001b898a601b7753d23d2cfc>[](https://github.com/Linaro/test-definitions/commit/de4c57c2b8d3d877001b898a601b7753d23d2cfc)
 
-[](https://github.com/Linaro/test-definitions/commit/de4c57c2b8d3d877001b898a601b7753d23d2cfc)Successful run of a test
-This is an example of a successful run of the sysbenchcpu test that shows how the metrics are defined: 
-
-https://lkft.validation.linaro.org/scheduler/job/2627776
-
-## [](https://lkft.validation.linaro.org/scheduler/job/2627776)Adding a new testcase to lkp-tests
+## **Adding a new testcase to lkp-tests**
 
 by Federico Gelmetti
 
