@@ -2,7 +2,8 @@
 layout: post
 title: Booting the Mainline Linux Kernel on Qualcomm Devices
 description: >
-  In this blog, Vinod Koul shares detailed instructions to get started with the mainline Linux kernel on arm64 Qualcomm Snapdragon based devices.
+  In this blog, Vinod Koul shares detailed instructions to get started with the
+  mainline Linux kernel on arm64 Qualcomm Snapdragon based devices.
 date: 2021-10-28 08:29:06 +01:00
 image: /assets/images/content/tech_background_1.jpg
 tags:
@@ -14,7 +15,6 @@ tags:
 category: blog
 author: vinod.koul
 ---
-
 One of the benefits of Linaro Core and Club memberships is the option to have a Landing Team. A Landing Team is a group of Linaro engineers which is dedicated to one Linaro member, and whose work contributes to both private and public projects. Beginning in 2014, the Linaro Qualcomm Landing Team has been an active contributor to upstream Qualcomm platforms, building stable releases for the 96Boards Dragonboard program and adding support to the next generation Qualcomm mobile platforms. Fostering and partnering with the open source community is a primary goal of this Landing Team, often in the role of maintainers for Qualcomm sub-systems.
 
 In addition, [Linaro Developer Services](https://www.linaro.org/services/) has a dedicated team which provides Linux Board Support Package (BSP) development, maintenance and optimization for Qualcomm platforms such as Qualcomm Snapdragon, to companies building products based on Qualcomm processors. Check out Linaro Developer Services for additional information on how Linaro Developer services can help.
@@ -78,9 +78,9 @@ Now that we have built the kernel, modules and dtbs, we need to package it into 
 
 Typically in embedded programming, one would try to use a variant of [initramfs](https://www.kernel.org/doc/html/latest/filesystems/ramfs-rootfs-initramfs.html). We can build our own image using [buildroot](https://www.google.com/url?q=https://buildroot.org/&sa=D&source=docs&ust=1635411319572000&usg=AOvVaw2LC26nkb-H4FRXZ8f77ksZ) etc., but for this example, we are going to use a reference initramfs provided and maintained by Linaro that is released as a cpio image. The **latest** images from Linaro are available here:
 
-- For arm64: <https://snapshots.linaro.org/member-builds/qcomlt/testimages/arm64/latest/> especially: https://snapshots.linaro.org/member-builds/qcomlt/testimages/arm64/latest/initramfs-test-image-qemuarm64-*.rootfs.cpio.gz*
-- _For 32-bit arm: <https://snapshots.linaro.org/member-builds/qcomlt/testimages/arm/latest/>,
-  especially: https://snapshots.linaro.org/member-builds/qcomlt/testimages/arm/latest/initramfs-test-image-qemuarm-_.rootfs.cpio.gz
+* For arm64: <https://snapshots.linaro.org/member-builds/qcomlt/testimages/arm64/latest/> especially: https://snapshots.linaro.org/member-builds/qcomlt/testimages/arm64/latest/initramfs-test-image-qemuarm64-*.rootfs.cpio.gz*
+* *For 32-bit arm: <https://snapshots.linaro.org/member-builds/qcomlt/testimages/arm/latest/>,
+  especially: https://snapshots.linaro.org/member-builds/qcomlt/testimages/arm/latest/initramfs-test-image-qemuarm-*.rootfs.cpio.gz
 
 This reference initramfs also contains tiny images if one needs to keep the overall image size smaller.
 
@@ -108,7 +108,7 @@ For some boards, erasing the dtbo partition causes the bootloader to fail. So it
 
 For creating boot images which can be loaded by fastboot, we use the mkbootimg tool. This can be obtained from the skales repository. This contains various tools and we use mkbootimg for creating the image.
 
-{% include image.html path="/assets/images/content/building-the-boot-image.png" alt="Building the boot image" %}
+{% include image.html path="/assets/images/content/bootlining-image-.png" alt="Building the boot image" %}
 
 mkbootimg needs to be passed kernel, dtb and final initramfs image. First, we append the dtb image to the kernel image. Please note that we should use the appropriate DTB for the board one is working on. For the below example, we are using the Qualcomm® Robotics RB3 Development Platform as noted earlier, so the DTB used is sdm845-db845c.dtb.
 
@@ -130,7 +130,7 @@ Below is the snippet of boot log on the RB3 board:
 
 {% include image.html path="/assets/images/content/building-boot-image-7.png" alt="Building the boot image 7" %}
 
-Note that [Android Debug Bridge](https://developer.android.com/studio/command-line/adb) (adb) is _not supported_ in the default initramfs image, so it won’t work here. All the debugging needs to be performed over serial. But if the board supports Ethernet or a USB Ethernet dongle is available that can be used as well.
+Note that [Android Debug Bridge](https://developer.android.com/studio/command-line/adb) (adb) is *not supported* in the default initramfs image, so it won’t work here. All the debugging needs to be performed over serial. But if the board supports Ethernet or a USB Ethernet dongle is available that can be used as well.
 
 ## Advanced Topics
 
@@ -150,10 +150,10 @@ Once we have selected the options, we need to recompile the kernel, modules and 
 
 Various cmdline parameters are available which help in debugging. Here we discuss a few of them which can be very useful to debug some issues. A more exhaustive reference of the parameters can be found in kernel source [documentation](https://www.kernel.org/doc/html/latest/admin-guide/kernel-parameters.html).
 
-- keep_bootcon: This option does not unregister the boot console at start. This is only useful for debugging when something happens in the window between unregistering the boot console and initializing the real console.
-- ignore_loglevel: Ignore loglevel setting - this will print all kernel messages to the console. Useful for debugging. We also add it as a printk module parameter, so users could change it dynamically, usually by /sys/module/printk/parameters/ignore_loglevel.
-- earlycon: Output early console device and options. When used with no options, the early console is determined by stdout-path property in device tree's chosen node.
-- initcall_debug: This option traces initcalls as they are executed. This is very useful for working out where the kernel is dying during startup. Beware! This is very verbose.
+* keep_bootcon: This option does not unregister the boot console at start. This is only useful for debugging when something happens in the window between unregistering the boot console and initializing the real console.
+* ignore_loglevel: Ignore loglevel setting - this will print all kernel messages to the console. Useful for debugging. We also add it as a printk module parameter, so users could change it dynamically, usually by /sys/module/printk/parameters/ignore_loglevel.
+* earlycon: Output early console device and options. When used with no options, the early console is determined by stdout-path property in device tree's chosen node.
+* initcall_debug: This option traces initcalls as they are executed. This is very useful for working out where the kernel is dying during startup. Beware! This is very verbose.
 
 ### Adding content to the Boot Image
 
