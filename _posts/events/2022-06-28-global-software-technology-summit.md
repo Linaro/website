@@ -20,4 +20,4 @@ In a world of isolated workloads VirtIO provides an efficient mechanism for emul
 
 When: Wednesday 6 July 2022, 11.10-12.00 (UTC+1)
 
-[Register here](https://huawei-events.de/en/gsts22-registration.htm)
+You can find Alex's session recording (at 5:13:01) here: <https://huawei-events.de/en/gsts22-j83dco-vod.htm>
