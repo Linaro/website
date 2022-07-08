@@ -33,26 +33,39 @@ The blog assumes one is familiar with version control tools like git, steps to b
 
 There are multiple Linux kernel source trees available for one to use. For example[ Linus Torvald’s upstream kernel tree](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/), [linux-next tree](https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/), the [Qualcomm community upstream tree](https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux.git/) or [Linaro Qualcomm Landing Team’s integration tree](https://git.linaro.org/landing-teams/working/qualcomm/kernel.git/). We recommend cloning Linus' tree as it is the upstream tree for kernel development and add other related trees as remotes.
 
-{% include image.html path="/assets/images/content/getting-sources-image-1.png" alt="Getting sources image 1" %}
+```
+$ git clone 
+git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+```
 
 Optionally one can also use linux-next for integration and testing. This is a merge of most maintainer trees.
 
-{% include image.html path="/assets/images/content/getting-sources-image-2.png" alt="Getting sources image 2" %}
+```
+$ git remote add next  
+git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+```
 
 The Linaro Qualcomm Landing Team has various pieces which are works in progress. The below tree would typically contain these pieces. Look for integration-linux-qcomlt branch which is a merge of various component branches using Continuous Integration (CI).
 
-{% include image.html path="/assets/images/content/getting-sources-image-3.png" alt="Getting sources image 3" %}
+```
+$ git remote add qcomlt 
+https://git.linaro.org/landing-teams/working/qualcomm/kernel.git
+```
 
 ## Building the kernel
 
 One can use GCC to build the kernel as most of the Linux distributions include the gcc-aarch64 toolchain.
 Gcc can be installed on RPM based distributions such as Fedora by:
 
-{% include image.html path="/assets/images/content/building-the-kernel-image-1.png" alt="Building the kernel image 1" %}
+```
+$ sudo dnf install gcc-aarch64-linux-gnu
+```
 
 And on Debian based distributions by:
 
-{% include image.html path="/assets/images/content/building-the-kernel-image-2.png" alt="Building the kernel image 2" %}
+```
+$ sudo apt install gcc-aarch64-linux-gnu
+```
 
 ### Cross compiling for aarch64
 
@@ -62,15 +75,21 @@ In order to compile for a different target architecture (aarch64) on a host mach
 
 To compile the kernel, we first need to set up the configuration (“config”) file. In the kernel, we have config files for different architectures. So, on specifying the ARCH=”arm64”, the build system will pick the appropriate architecture config file:
 
-{% include image.html path="/assets/images/content/steps-to-build-the-kernel-image-1.png" alt="Steps to build the kernel image 1" %}
+```
+$ make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- defconfig
+```
 
 Then, the make command should be provided with arguments to compile the kernel, device tree bindings (dtbs) and modules as below:
 
-{% include image.html path="/assets/images/content/steps-to-build-the-kernel-image-2.png" alt="Steps to build the kernel image 2" %}
+```
+$ make -j$(nproc) ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- Image.gz dtbs modules
+```
 
 Next, we create a module library by installing and stripping modules (which helps to reduce the overall size of modules). Then we install the modules to a local directory so that we can move it to the target later. The Linux build system can do that for us, as shown below:
 
-{% include image.html path="/assets/images/content/steps-to-build-the-kernel-image-3.png" alt="Steps to build the kernel image 3" %}
+```
+$ make -j$(nproc) ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- modules_install INSTALL_MOD_PATH=./modules_dir INSTALL_MOD_STRIP=1
+```
 
 ## initramfs
 
@@ -88,11 +107,15 @@ This reference initramfs also contains tiny images if one needs to keep the over
 
 A benefit of using a compressed cpio archive is that we can concatenate several compressed cpio archives to overlay and create the final image required for boot, since all cpio archives will be decompressed and overlaid serially. Here we would like to add a module cpio archive so that initramfs finds the modules and loads them. To create the module cpio, run the following command:
 
-{% include image.html path="/assets/images/content/initramfs-image-1.png" alt="initramfs image 1" %}
+```
+$ (cd modules_dir; find . | cpio -o -H newc | gzip -9 > ../modules.cpio.gz)
+```
 
 And finally create the final initramfs image:
 
-{% include image.html path="/assets/images/content/initramfs-image-2.png" alt="initramfs image 2" %}
+```
+$ cat initramfs-test-image-qemuarm64-20210422073919-769.rootfs.cpio.gz modules.cpio.gz > final-initramfs.cpio.gz
+```
 
 ## Preparing the board
 
@@ -102,33 +125,177 @@ Many of the most recent boards ship with a dtbo partition and when loading a ker
 
 For some boards, erasing the dtbo partition causes the bootloader to fail. So it is recommended to program NULL to this partition.
 
-{% include image.html path="/assets/images/content/preparing-the-board.png" alt="Preparing the board" %}
+```
+$ dd if=/dev/zero of=zero.bin bs=4096 count=1
+
+$ fastboot flash dtbo_a zero.bin
+$ fastboot flash dtbo_b zero.bin
+
+$ fastboot reboot
+```
 
 ## Building the boot image
 
 For creating boot images which can be loaded by fastboot, we use the mkbootimg tool. This can be obtained from the skales repository. This contains various tools and we use mkbootimg for creating the image.
 
-{% include image.html path="/assets/images/content/bootlining-image-.png" alt="Building the boot image" %}
+```
+$ git clone https://git.codelinaro.org/clo/qsdk/oss/tools/skales
+```
 
 mkbootimg needs to be passed kernel, dtb and final initramfs image. First, we append the dtb image to the kernel image. Please note that we should use the appropriate DTB for the board one is working on. For the below example, we are using the Qualcomm® Robotics RB3 Development Platform as noted earlier, so the DTB used is sdm845-db845c.dtb.
 
-{% include image.html path="/assets/images/content/building-the-boot-image-2.png" alt="Building the boot image 2" %}
+```
+$ cat arch/arm64/boot/Image.gz \ 
+arch/arm64/boot/dts/qcom/sdm845-db845c.dtb > Image.gz+dtb
+
+CMDLINE="ignore_loglevel earlycon”
+
+$ ./skales/mkbootimg --kernel Image.gz+dtb \
+          --cmdline ${CMDLINE} --ramdisk final-initramfs.cpio.gz \
+          --base 0x80000000 --pagesize 4096 --output boot.img
+```
 
 The resulting boot image can be booted on your board using fastboot. It is recommended to use slot ‘b’ for booting. Slot ‘a’ can also be used if the board supports that, but some production devices don't boot when using slot 'a', so using slot 'b' is recommended in those cases.
 
 This will not program the boot image into the onboard storage (eMMC/UFS), but load it and boot from it. During a successful boot, one should see the serial console printing messages about booting the kernel and see the shell prompt on the serial console at the end.
 
-{% include image.html path="/assets/images/content/building-boot-image-3.png" alt="Building the boot image 3" %}
+```
+$ fastboot -s <board-id> set_active b
+
+
+$ fastboot -s <board-id> boot boot.img
+```
 
 Below is the snippet of boot log on the RB3 board:
 
-{% include image.html path="/assets/images/content/building-boot-image-4.png" alt="Building the boot image 4" %}
+```
 
-{% include image.html path="/assets/images/content/building-boot-image-5.png" alt="Building the boot image 5" %}
+Fastboot: Initializing...
+Fastboot: Processing commands
+Fastboot Action (Press <Right> to select): SAT
+Handling Cmd: getvar:slot-count
+Handling Cmd: set_active:a
+SetActiveSlot: _a already active slot
+Handling Cmd: download:026d9000
+Download Finished
+Handling Cmd: boot
+A/B retry count NOT decremented
+Booting Into Mission Mode
+No dtbo partition is found, Skip dtbo
+Exit key detection timer
+GetVmData: making ScmCall to get HypInfo
+GetVmData: No Vm data present! Status = (0x3)
+No Ffbm cookie found, ignore: Not Found
+Memory Base Address: 0x80000000
+Decompressing kernel image start: 13555 ms
+Decompressing kernel image done: 21000 ms
+BootLinux: failed to get dtbo image
+DTB offset is incorrect, kernel image does not have appended DTB
+Cmdline: console=tty0 console=ttyMSM0,115200n8 pd_ignore_unused clk_ignore_unused root=/dev/sda1 rw rootwait earlycon androidboot.bootdevice=1d84000.ufshc androidboot.serialno=512e84bb androidboot.baseband=msm
 
-{% include image.html path="/assets/images/content/building-boot-image-6.png" alt="Building the boot image 6" %}
+RAM Partitions
+Add Base: 0x0000000080000000 Available Length: 0x00000000FDFA0000
+WARNING: Unsupported EFI_RAMPARTITION_PROTOCOL
+ERROR: Could not get splash memory region node
+kaslr-Seed is added to chosen node
 
-{% include image.html path="/assets/images/content/building-boot-image-7.png" alt="Building the boot image 7" %}
+Shutting Down UEFI Boot Services: 22557 ms
+BDS: LogFs sync skipped, Unsupported
+App Log Flush : 0 ms
+Exit BS        [22716] UEFI End
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x517f803c]
+[    0.000000] Linux version 5.15.0-rc5-00004-gd7f6a1ce1090 (vkoul@kurma) (aarch64-linux-gnu-gcc (GCC) 11.2.1 20210728 (Red Hat Cross 11.2.1-1), GNU ld version 2.35.2-1.fc34) #22 SMP PREEMPT Wed Oct 20 19:05:17 IST 2021
+[    0.000000] Machine model: Thundercomm Dragonboard 845c
+[    0.000000] efi: UEFI not found.
+[    0.000000] earlycon: qcom_geni0 at MMIO 0x0000000000a84000 (options '115200n8')
+[    0.000000] printk: bootconsole [qcom_geni0] enabled
+
+...
+
+[    0.000000] Kernel command line: console=tty0 console=ttyMSM0,115200n8 pd_ignore_unused clk_ignore_unused root=/dev/sda1 rw rootwait earlycon androidboot.bootdevice=1d84000.ufshc androidboot.serialno=512e84bb androidboot.baseband=msm
+[    0.000000] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[    0.000000] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+[    0.000000] software IO TLB: mapped [mem 0x00000000fa000000-0x00000000fe000000] (64MB)
+[    0.000000] Memory: 3655892K/4161152K available (13056K kernel code, 1982K rwdata, 5488K rodata, 3072K init, 438K bss, 472492K reserved, 32768K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+
+...
+
+[    0.013495] printk: console [tty0] enabled
+[    0.017841] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=76800)
+[    0.028209] pid_max: default: 32768 minimum: 301
+[    0.032984] LSM: Security Framework initializing
+[    0.037791] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[    0.045277] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[    0.056323] rcu: Hierarchical SRCU implementation.
+[    0.062648] EFI services will not be available.
+[    0.067725] smp: Bringing up secondary CPUs ...
+[    0.074501] Detected VIPT I-cache on CPU1
+[    0.074640] GICv3: CPU1: found redistributor 100 region 0:0x0000000017a80000
+[    0.074795] CPU1: Booted secondary processor 0x0000000100 [0x517f803c]
+[    0.076641] Detected VIPT I-cache on CPU2
+[    0.076697] GICv3: CPU2: found redistributor 200 region 0:0x0000000017aa0000
+[    0.076778] CPU2: Booted secondary processor 0x0000000200 [0x517f803c]
+[    0.078589] Detected VIPT I-cache on CPU3
+[    0.078622] GICv3: CPU3: found redistributor 300 region 0:0x0000000017ac0000
+[    0.078689] CPU3: Booted secondary processor 0x0000000300 [0x517f803c]
+[    0.081238] CPU features: detected: Spectre-v2
+[    0.081257] Detected VIPT I-cache on CPU4
+[    0.081291] GICv3: CPU4: found redistributor 400 region 0:0x0000000017ae0000
+[    0.081360] CPU4: Booted secondary processor 0x0000000400 [0x516f802d]
+[    0.083681] Detected VIPT I-cache on CPU5
+[    0.083714] GICv3: CPU5: found redistributor 500 region 0:0x0000000017b00000
+[    0.083783] CPU5: Booted secondary processor 0x0000000500 [0x516f802d]
+[    0.086244] Detected VIPT I-cache on CPU6
+[    0.086278] GICv3: CPU6: found redistributor 600 region 0:0x0000000017b20000
+[    0.086346] CPU6: Booted secondary processor 0x0000000600 [0x516f802d]
+[    0.088967] Detected VIPT I-cache on CPU7
+[    0.089003] GICv3: CPU7: found redistributor 700 region 0:0x0000000017b40000
+[    0.089073] CPU7: Booted secondary processor 0x0000000700 [0x516f802d]
+[    0.089158] smp: Brought up 1 node, 8 CPUs
+
+...
+
+
+[  OK  ] Started Load/Save RF Kill Switch Status.
+[  OK  ] Finished Update UTMP about System Boot/Shutdown.
+[  OK  ] Finished Update is Completed.
+[  OK  ] Finished Run pending postinsts.
+[  OK  ] Reached target System Initialization.
+[  OK  ] Started Daily Cleanup of Temporary Directories.
+[  OK  ] Reached target Timers.
+[  OK  ] Listening on D-Bus System Message Bus Socket.
+[  OK  ] Reached target Sockets.
+[  OK  ] Reached target Basic System.
+         Starting Bluetooth service...
+[  OK  ] Started D-Bus System Message Bus.
+[    6.955958] NET: Registered PF_ALG protocol family
+[  OK  ] Started A minimalistic net�…Pv4, rdisc and DHCPv6 support.
+[    7.015787] 8021q: 802.1Q VLAN Support v1.8
+[  OK  ] Reached target Network.
+[  OK  ] Started QIPCRTR Name Service.
+[  OK  ] Started Qualcomm PD mapper service   7[0m.
+[  OK  ] Started Qualcomm remotefs service    0m.
+[  OK  ] Started QRTR TFTP service.
+[  OK  ] Finished Permit User Sessions.
+[  OK  ] Started Getty on tty1.
+[  OK  ] Started Serial Getty on ttyMSM0.
+[  OK  ] Reached target Login Prompts.
+[  OK  ] Stopped User Login Management.
+         Starting Load Kernel Module drm...
+[  OK  ] Finished Load Kernel Module drm.
+[  OK  ] Started Bluetooth service.
+[  OK  ] Reached target Bluetooth.
+[  OK  ] Started Qualcomm PD mapper service
+[  OK  ] Reached target Multi-User System.
+         Starting Update UTMP about System Runlevel Changes...
+Reference-Platform-Build-X11 3.0+linaro qemuarm64 ttyMSM0
+
+qemuarm64 login: root (automatic login)
+
+root@qemuarm64:~# 
+```
 
 Note that [Android Debug Bridge](https://developer.android.com/studio/command-line/adb) (adb) is *not supported* in the default initramfs image, so it won’t work here. All the debugging needs to be performed over serial. But if the board supports Ethernet or a USB Ethernet dongle is available that can be used as well.
 
@@ -140,7 +307,9 @@ In this section, we discuss some advanced topics which may be useful when workin
 
 To add or remove a component from the kernel, we can use menuconfig. It opens up the menuconfig CUI.
 
-{% include image.html path="/assets/images/content/kernel-configuration-image-2.png" alt="Kernel Configuration image 2" %}
+```
+$ make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- menuconfig
+```
 
 Tip use “/” to search for options and use the option number to navigate to that option.
 
@@ -167,7 +336,9 @@ The Linaro Qualcomm Landing Team uses bootrr to check sanity and ensure all modu
 
 The Bootrr build system supports creating cpio archives :
 
-{% include image.html path="/assets/images/content/bootr-image.png" alt="bootr image" %}
+```
+$ (cd bootrr; make cpio.gz)
+```
 
 ### Test Utilities
 
@@ -177,12 +348,28 @@ In order to automount a partition (like firmware), we can add an entry to initta
 
 We can also create symlinks, for example to link firmware to /lib/firmware/
 
-{% include image.html path="/assets/images/content/test-utilities-image-1.png" alt="Test Utilities image 1" %}
+```
+$ cat test-utils/etc/fstab
+
+/dev/root            /                    auto       defaults              1  1
+proc                 /proc                proc       defaults              0  0
+devpts               /dev/pts             devpts     mode=0620,gid=5       0  0
+tmpfs                /run                 tmpfs      mode=0755,nodev,nosuid,strictatime 0  0
+tmpfs                /var/volatile        tmpfs      defaults              0  0
+
+/dev/disk/by-partlabel/vendor_b		/mnt	auto       ro,defaults  0  0
+```
 
 After adding all the required pieces, we can create the cpio archive:
 
-{% include image.html path="/assets/images/content/test-utilities-image-2.png" alt="Test Utilities image 2" %}
+```
+$ (cd test-utils; find . | cpio -o -H newc | gzip -9 > ../test-util.cpio.gz)
+```
 
 And finally, create the final initramfs image which contains bootrr and test-utils which should be used for making the boot image:
 
-{% include image.html path="/assets/images/content/test-utilities-image-3.png" alt="Test Utilities image 3" %}
+```
+$ cat initramfs-test-image-qemuarm64-20210422073919-769.rootfs.cpio.gz \ 
+modules.cpio.gz bootrr.cpio.gz \
+test-util.cpio.gz > final-initramfs.cpio.gz
+```
