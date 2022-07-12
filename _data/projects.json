@@ -442,7 +442,7 @@
                 "description": "Trusted Substrate project ambition is to upstream all necessary technologies in multiple projects to enable SystemReady compliance. Projects can be Trusted Firmware, OP-TEE, U-Boot, SCP, Linux kernel (EFI stub) and others.<br><br>Trusted Substrate is a BIOS that brings standards based secure booting and over-the-air (OTA) updates to the most trust demanding embedded computing projects such as automotive and robotics. OTA is a key value of Trusted Substrate as it allows any firmware components to be updated with anti-bricking and anti-roll back protections, and will allow transactional updates in asymmetric computing, Cortex-A + Cortex-M solutions.",
                 "title": "Trusted Substrate"
             },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10570",
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10587",
             "key": [
                 "TS"
             ],
