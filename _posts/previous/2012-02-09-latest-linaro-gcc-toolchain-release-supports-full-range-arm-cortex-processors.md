@@ -1,13 +1,16 @@
 ---
-author: linaro
-category: news
-date: 2012-02-09 12:18:24
-description: SAN FRANCISCO - 9 FEB 2012
-layout: post
-link: /news/latest-linaro-gcc-toolchain-release-supports-full-range-arm-cortex-processors/
-slug: latest-linaro-gcc-toolchain-release-supports-full-range-arm-cortex-processors
-title: Latest Linaro GCC Toolchain Release Supports Full Range of Arm Cortex-A Processors
 wordpress_id: 4415
+layout: post
+title: Latest Linaro GCC Toolchain Release Supports Full Range of Arm Cortex-A
+  Processors
+description: Linaro announces the release the GCC Toolchain which offers full
+  support for the Arm CortexTM-A processors family. Read more here.
+image: /assets/images/content/Banner_Linux_Kernel.jpg
+author: linaro
+slug: latest-linaro-gcc-toolchain-release-supports-full-range-arm-cortex-processors
+date: 2012-02-09 12:18:24
+link: /news/latest-linaro-gcc-toolchain-release-supports-full-range-arm-cortex-processors/
+category: news
 ---
 
 SAN FRANCISCO - 9 FEB 2012
