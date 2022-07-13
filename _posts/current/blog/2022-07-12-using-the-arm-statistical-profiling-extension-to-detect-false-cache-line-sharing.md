@@ -5,6 +5,11 @@ title: Using the Arm Statistical Profiling Extension to detect false cache-line
 description: This article talks about how to use perf c2c tool with Arm Neoverse CPUs.
 date: 2022-07-12 09:38:03 +01:00
 image: /assets/images/content/code-background_1.jpg
+tags:
+  - Perf c2c tool
+  - Statistical Profiling
+  - Arm
+  - cache-line sharing
 category: blog
 author: leo_yan
 ---
