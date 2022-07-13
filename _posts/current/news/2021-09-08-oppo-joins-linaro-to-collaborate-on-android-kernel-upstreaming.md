@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "OPPO joins Linaro to collaborate on Android kernel upstreaming "
-description: "OPPO has become a Linaro project member to collaborate on Android
-  kernel upstreaming. "
+description: Linaro has announced that OPPO has joined Linaro as a Project
+  Member of the Kernel Development targeting Android Project. Read more here.
 date: 2021-09-08 10:56:56 +01:00
 image: /assets/images/content/oppt-member-2-.jpg
 tags:
