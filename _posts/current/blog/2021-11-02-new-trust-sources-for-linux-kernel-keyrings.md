@@ -1,10 +1,9 @@
 ---
 layout: post
 title: New trust sources for Linux kernel keyrings
-description: In this blog, Linaro Engineer Sumit Garg talks about how Linaro
-  helped generalize the Trusted Keys sub-system in Linux. This has made it
-  easier for kernel security developers to add support for new trust sources and
-  reduce downstream kernel technical debt.
+description: In this blog, our Engineer talks about how Linaro helped generalize
+  the Trusted Keys sub-system in Linux to add support for new trust sources.
+  Read more here.
 date: 2021-11-02 01:53:36 +00:00
 image: /assets/images/content/Security_screen.jpg
 tags:
