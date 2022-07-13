@@ -1,11 +1,8 @@
 ---
 layout: post
-title: " Linaro Developer Cloud Kubernetes as a Service"
-description: Recently, Linaro Developer Cloud has supported Kubernetes as a
-  Service, and we have finally passed all the conformance tests from CNCF as the
-  Certified Kubernetes - Hosted. The Linaro Developer Cloud Kubernetes service
-  makes it easy for you to deploy, manage, and scale Kubernetes clusters to run
-  containerised applications on the Arm64 platform.
+title: Linaro Developer Cloud Supports Kubernetes as a Service
+description: Linaro Developer Cloud has supported Kubernetes as a Service, and
+  we have finally passed all the conformance tests. Read more here.
 date: 2020-07-24 12:55:00+00:00
 image: /assets/images/content/code_highway_under_2mb.jpg
 tags:
