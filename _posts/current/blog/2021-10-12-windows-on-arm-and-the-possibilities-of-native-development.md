@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Windows on Arm and the possibilities of native development
-description: This blog covers public statements captured during the discussion
-  on Windows on Arm, highlighting what is possible today & why porting natively
-  is the way to go.
+description: This blog talks about Windows on Arm, highlighting what is possible
+  & why porting natively is the way to go. Read more here.
 date: 2021-10-12 02:05:49 +01:00
 image: /assets/images/content/llvm-image.jpg
 tags:
