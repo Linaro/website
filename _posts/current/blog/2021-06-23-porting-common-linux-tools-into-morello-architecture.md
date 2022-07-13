@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Porting common Linux tools into Morello Architecture
-description: "In this blog, Linaro interns Lorenzo Carletti & Camilla Memola
-  talk about the work they did to help identify how easy (or difficult) Morello
-  is to get started with. "
+description: In this blog, Linaro interns talk about the work they did to help
+  identify how easy (or difficult) Morello is to get started with. Read more
+  here.
 date: 2021-06-23 09:18:44
 image: /assets/images/content/Chip_background_UNDER_2MB.jpg
 tags:
