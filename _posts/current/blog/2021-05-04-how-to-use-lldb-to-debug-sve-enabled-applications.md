@@ -1,8 +1,8 @@
 ---
 layout: post
 title: How to use LLDB to debug SVE enabled applications
-description: " In this blog, Linaro Engineer Omair Javaid talks us through how
-  to debug SVE enabled applications using LLDB. "
+description: In this blog, Linaro Engineer Omair Javaid talks us through how to
+  debug SVE enabled applications using LLDB. Read more here.
 date: 2021-05-04 10:08:31
 image: /assets/images/content/tech_background_1.jpg
 tags:
