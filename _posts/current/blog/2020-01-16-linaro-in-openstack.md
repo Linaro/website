@@ -1,14 +1,17 @@
 ---
 layout: post
-title: ' Linaro in OpenStack'
-date: '2020-01-16 02:35:45'
+title: " Linaro in OpenStack"
+description: Linaro developers now use OpenStack as a way of sharing servers’
+  resources with coworkers instead of just embedded and mobile space. Read more
+  here.
+date: 2020-01-16 02:35:45
 image: /assets/images/content/DataCenter.jpg
 tags:
-- Datacenter
-- Servers
-- OpenStack
-- Arm
-- Linaro Developer Cloud
+  - Datacenter
+  - Servers
+  - OpenStack
+  - Arm
+  - Linaro Developer Cloud
 category: blog
 author: Marcin.Juszkiewicz
 ---
