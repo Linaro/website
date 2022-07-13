@@ -2,7 +2,8 @@
 layout: post
 title: Ensuring optimal performance through enhanced kernel testing
 description: In this blog, Linaro Interns Mirco Romagnoli and Federico Gelmetti
-  talk about the functionality they have enabled to support performance testing.
+  talk about ensuring optimal performance through enhanced kernel testing. Read
+  more here.
 date: 2021-06-22 02:15:39
 image: /assets/images/content/code.jpg
 tags:
