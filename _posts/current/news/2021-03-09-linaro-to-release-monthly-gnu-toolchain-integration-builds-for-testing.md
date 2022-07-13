@@ -2,9 +2,8 @@
 layout: post
 title: "Linaro to release monthly GNU Toolchain integration builds for testing "
 description: >
-  Linaro announces the availability of monthly GNU Toolchain integration builds.
-  They will bridge the gap between the official Arm releases and offer users a
-  snapshot of the upstream build.
+  Linaro announces the availability of monthly GNU Toolchain integration builds
+  that will bridge the gap between the official Arm releases. Read more here. 
 date: 2021-03-09 09:22:53
 image: /assets/images/content/gnu_integration.jpg
 tags:
