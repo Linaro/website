@@ -15,7 +15,7 @@ author: leo_yan
 ---
 # Introduction
 
-Memory operations can introduce performance bottlenecks - in a non-uniform memory access (NUMA) environment a typical case is if that multiple items of data share the same cache line, threads write to some items and read from the rest items concurrently, and these threads reside on different CPUs and even across NUMA nodes, we call it “false sharing”. In this case, it’s expensive for the cache coherency operations and causes a significant performance penalty.
+Memory operations can introduce performance bottlenecks. In a non-uniform memory access (NUMA) environment, a typical case is if multiple items of data share the same cache line.  Threads write to some items and read from the remaining items concurrently, and these threads reside on different CPUs and even across NUMA nodes -  we call this “false sharing”. In this case, it’s expensive for the cache coherency operations and causes a significant performance penalty.
 
 Perf c2c tool observes cache-to-cache line contention and allows us to identify the places in the code that provokes these cache activities, therefore, the tool can teach developers to optimise data structures (e.g. using per CPU data, or use “aligned” attribute with compiler) for avoiding false sharing.  We cannot detect false sharing issues purely in software, this is why perf c2c relies on underlying hardware mechanisms to inspect cache activity. x86 machines offer the hardware capability and this is already supported by the perf c2c tool. With the introduction of the Statistical Profiling Extensions (SPE) in Armv8.2 we can now provide similar analysis for Arm machines.
 
