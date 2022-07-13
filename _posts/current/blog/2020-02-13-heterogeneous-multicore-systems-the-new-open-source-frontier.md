@@ -1,14 +1,17 @@
 ---
 layout: post
 title: Heterogeneous Multicore Systems - The New Open Source Frontier!
-date: '2020-02-13 04:23:39'
+description: Heterogeneous multicore computing is now all-pervasive with a
+  flexible co-processor architecture making it the new open source frontier.
+  Read more here.
+date: 2020-02-13 04:23:39
 image: /assets/images/content/IoT.jpg
 tags:
-- Device Tree
-- OpenAMP
-- Zephyr
-- 96Boards
-- IoT and Embedded
+  - Device Tree
+  - OpenAMP
+  - Zephyr
+  - 96Boards
+  - IoT and Embedded
 category: blog
 author: bill.fletcher
 ---
