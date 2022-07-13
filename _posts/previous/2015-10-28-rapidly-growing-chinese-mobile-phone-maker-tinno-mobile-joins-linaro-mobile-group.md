@@ -1,21 +1,22 @@
 ---
-author: linaro
-category: news
-date: 2015-10-28 13:05:39
-description: Tinno Mobile joins Linaro Mobile Group
 excerpt: Tinno Mobile joins Linaro Mobile Group
-layout: post
-link: /news/rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group/
-slug: rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group
-tags:
-- Linaro
-- Linaro Mobile Group
-- Linux
-- Linux On Arm
-- Open Source
-title: Rapidly growing Chinese mobile phone maker Tinno Mobile joins Linaro Mobile
-  Group
 wordpress_id: 9608
+layout: post
+title: Tinno Mobile joins Linaro Mobile Group
+description: Linaro announces that Shenzhen Tinno Mobile Technology Company Ltd
+  has joined the Linaro Mobile Group (LMG). Read more here.
+image: /assets/images/content/consumer-bg.jpg
+author: linaro
+slug: rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group
+date: 2015-10-28 13:05:39
+tags:
+  - Linaro
+  - Linaro Mobile Group
+  - Linux
+  - Linux On Arm
+  - Open Source
+link: /news/rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group/
+category: news
 ---
 
 Cambridge, UK; 28 October 2015
