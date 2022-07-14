@@ -77,6 +77,6 @@ flow:
         right_column:
           custom_size: 4
           style: p-3
-          image: /assets/imags/content/96boards.jpg
+          image: /assets/images/content/96boards.jpg
           image_alt: 96Boards.org homepage screenshot
 ---
