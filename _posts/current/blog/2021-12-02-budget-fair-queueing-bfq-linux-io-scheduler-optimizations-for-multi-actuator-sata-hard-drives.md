@@ -2,10 +2,8 @@
 layout: post
 title: Budget Fair Queueing (BFQ) Linux IO Scheduler Optimizations for
   Multi-Actuator SATA Hard Drives
-description: In this blog, Linaro Interns Gabriele Felici and Davide Zini
-  (followed by Paolo Valente) talk about the extra logic they have implemented
-  in the Budget Fair Queueing (BFQ) I/O scheduler, to support multi-actuator
-  drives. This work paves the way to fully exploiting the potential of
+description: In this blog, we cover the extra logic applied in BFQ I/O scheduler
+  to support multi-actuator drives. Paving the way to exploiting potential
   multi-actuator drives.
 date: 2021-12-02 06:49:56 +00:00
 image: /assets/images/content/road-timelapse.jpg
@@ -20,6 +18,8 @@ related_projects:
 category: blog
 author: paolo.valente
 ---
+Computer operating systems use Input/output (I/O) scheduling to determine in which order operations should take place. BFQ is a proportional-share I/O scheduler which associates each process with a weight. Based on the weight, it then decides how much of the I/O bandwidth to allocate to a process.
+
 In this article, Linaro Interns Gabriele Felici and Davide Zini (followed by Paolo Valente) talk about the extra logic they have implemented in the BFQ I/O scheduler, to support multi-actuator drives.
 
 ## The challenge of managing the load balance among actuators
