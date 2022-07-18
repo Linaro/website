@@ -2,7 +2,7 @@
 title: Security
 description: >
   Linaro Developer Services has deep hands-on expertise in the areas of secure
-  boot, secure operating systems and Arm’s SystemReady specifications.
+  boot, OP-TEE, secure operating systems and Arm’s SystemReady specifications.
 permalink: /services/security/
 service_id: 8
 keywords:

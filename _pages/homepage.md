@@ -1,6 +1,8 @@
 ---
 title: Accelerating deployment of Arm-based solutions
-description: The collaboration platform for the Arm partnership. Members can collaborate on open source software, where solutions are discussed & worked upon.
+description: The collaboration platform for the Arm partnership. Where members
+  can collaborate on Arm Open Source Software and solutions are discussed &
+  worked upon.
 permalink: /
 keywords:
   - arm software
@@ -21,8 +23,13 @@ flow:
       - format: text
         style: text-left text-white highlighted_text_section px-3
         text_content:
-          text: |
-            Linaro works with businesses and open source communities to develop software on Arm-based technology. We create solutions that drive forward the Arm software ecosystem, enhance standardisation, promote collaboration across industries and contribute to real-world applications.
+          text: >
+            Linaro works with businesses and open source communities to develop
+            software on Arm-based technology. We create solutions that drive
+            forward the Arm software ecosystem, enhance standardisation, promote
+            collaboration across industries and contribute to real-world
+            applications.
+
 
             To find out more about the work we do, select one of the icons below.
   - row: custom_include_row
@@ -78,10 +85,14 @@ flow:
       - format: text
         style: text-left blockquote
         text_content:
-          text: |
-            There are multiple ways you can partner with Linaro - be it in collaboration with Linaro and
+          text: >
+            There are multiple ways you can partner with Linaro - be it in
+            collaboration with Linaro and
+
             other Linaro members or on a one-to-one basis. In addition, a lot of the work we do is in the
+
             open, meaning anything we think can benefit the community at large we will make public on
+
             our [Downloads page](/downloads/).
   - row: container_row
     sections:
