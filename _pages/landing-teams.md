@@ -11,6 +11,7 @@ keywords:
   - software projects
   - landing teams
 layout: flow
+css_bundle: landing-teams
 jumbotron:
   class: about_header text-center
   title: Linaro Landing Teams
@@ -32,10 +33,10 @@ flow:
             defined in the SoW. The landing team predominantly supports the member in two areas: upstreaming and
             testing.
       - format: collapse
-        style: null
+        style: landing_teams
         panels:
           - title: Upstreaming platforms
-            icon: /assets/images/content/Quality.svg
+            icon: /assets/images/content/Upstream_lt.svg
             content: >
               A landing team will work with the member to upstream it’s platforms to the Linux kernel so that they benefit
               from the current stable kernel version, in other words the latest software updates and security fixes. This
@@ -44,7 +45,7 @@ flow:
               (system-on-chips). Working with a landing team helps member companies leverage Linaro’s experience in
               upstreaming and the Linux kernel to build strong and healthy open source ecosystems for their platforms.
           - title: Rigorous kernel upstream testing
-            icon: /assets/images/content/Testing.svg
+            icon: /assets/images/content/Testing_lt.svg
             content: >
               Linaro has a strong track record in the field of testing, having created tools such as LAVA (Linaro Automation
               and Validation Architecture) and LKFT (Linaro’s Linux Kernel Functional Test Framework) . Landing teams
