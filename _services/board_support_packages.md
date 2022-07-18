@@ -39,8 +39,17 @@ flow:
         style: larger_type
         text_content:
           text: >-
-            Linaro Developer Services are the Board Support Package (BSP)
-            experts. We have
+            A Board Support Package (BSP) contains essential software a Computer
+            hardware device needs to work with the computer's Operating System
+            (OS). Whenever the hardware device is switched off, the bootloader
+            or boot manager on the BSP will ensure the OS and device drivers are
+            placed into memory. 
+
+
+            BSP's will differ in terms of content depending on the particular hardware device and OS. With this in mind, creating and maintaining a bespoke BSP can be a complicated and labour-intensive undertaking if you don't have the know how. 
+
+
+            Linaro Developer Services are the Board Support Package (BSP) experts. We have
 
             extensive engineering experience helping companies with their Linux and/or Android BSP
 
