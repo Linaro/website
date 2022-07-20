@@ -258,6 +258,10 @@
         "url": "/membership/arm/"
       },
       {
+        "image": "https://static.linaro.org/common/member-logos/cix.jpg",
+        "name": "CIX"
+      },
+      {
         "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
         "name": "HiSilicon",
         "url": "/membership/hisilicon/"
