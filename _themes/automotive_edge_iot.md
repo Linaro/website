@@ -58,6 +58,14 @@ flow:
             accelerate and secure deployment of their Automotive, IoT and
             Edge solutions.
   - row: container_row
+    style: text_blocks bg-secondary
+    sections:
+      - format: youtube
+        style: null
+        poster_image: /assets/images/content/confidential-ai-screen-capture.png
+        url: https://www.youtube.com/watch?v=uHXRuE1c5nI
+        title: Confidential AI
+  - row: container_row
     style: bg-lighter-blue text-center
     sections:
       - format: title
