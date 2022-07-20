@@ -123,7 +123,7 @@ flow:
                 - title: Software Device Enablement for Android
                   style: btn-lg text-btn
                   textBtn: true
-                  url: hhttps://linaro.atlassian.net/wiki/spaces/SDEFAU/overview
+                  url: https://linaro.atlassian.net/wiki/spaces/SDEFAU/overview
       - format: buttons
         style: text-center
         buttons_content:
