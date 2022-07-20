@@ -1,0 +1,40 @@
+#wrapper {
+  #collapsePanel {
+    #section2Header {
+      button {
+        .icon-wrapper {
+          background-color: #990099;
+        }
+      }
+    }
+    button {
+      .icon-wrapper {
+        background-color: #0bb1dd;
+        margin-right: 10px;
+        padding: 10px;
+      }
+      .left_section {
+        img {
+          height: 40px;
+          margin-right: 0px !important;
+        }
+      }
+      display: flex;
+      justify-content: space-between;
+      span.icon.icon-down-open {
+        display: none;
+      }
+      span.icon.icon-up-open {
+        display: block;
+      }
+      &.collapsed {
+        span.icon.icon-up-open {
+          display: none;
+        }
+        span.icon.icon-down-open {
+          display: block;
+        }
+      }
+    }
+  }
+}
