@@ -73,8 +73,8 @@ flow:
             Linux software builds for platforms based on Qualcomm
             Snapdragon processors. These releases are based on the Linux
             mainline kernel and rely solely upon open-source user space
-            packages. To access these releases click here. Alternatively,
-            check out this video on how to download the releases.
+            packages. To access these releases [click here](/downloads/#releases_for_snapdragon). Alternatively,
+            check out [this video](/services/qualcomm-platforms-services/) on how to download the releases.
         right_column:
           custom_size: 4
           style: p-3
