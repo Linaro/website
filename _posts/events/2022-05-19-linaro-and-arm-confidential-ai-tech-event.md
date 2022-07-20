@@ -18,7 +18,6 @@ schema:
   eventAttendanceMode: https://schema.org/OnlineEventAttendanceMode
   location:
     "@type": VirtualLocation
-  url: https://events.pinetool.ai/2693/#sessions
   image:
     - https://www.linaro.org/assets/images/content/tech_days_event_page_banner.png
   description: >
