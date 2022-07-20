@@ -11,14 +11,9 @@ event_end_date: 2022-05-11 11:52:38 +01:00
 image: /assets/images/content/cca-banner_v4.jpg
 event_type: sponsor
 ---
-
 Linaro and Arm are hosting a half-day online event to introduce the Arm Confidential Compute Architecture to developers in the open source community. This will be the first opportunity for developers to familiarize themselves with the hardware and software architectures and the resources available to enable OSS software development and upstreaming.
 
-The agenda will include sessions on the Realm Management Extension as well as software and attestation architectures. Speakers will be presenting live and there will be opportunities for participants to ask questions.
-
-**Registration**
-
-Complete your [free registration](https://www.eventbrite.co.uk/e/linaro-and-arm-cca-tech-event-tickets-156790910835) and you will receive an invite to login to the PINE.ai event platform before the June 23 event date. [Register](https://www.eventbrite.co.uk/e/linaro-and-arm-cca-tech-event-tickets-156790910835)[](https://www.eventbrite.co.uk/preview?eid=156790910835/)
+The agenda will include sessions on the Realm Management Extension as well as software and attestation architectures. Speakers will be presenting live and there will be opportunities for participants to ask questions.[](https://www.eventbrite.co.uk/e/linaro-and-arm-cca-tech-event-tickets-156790910835)[](https://www.eventbrite.co.uk/preview?eid=156790910835/)
 
 **Agenda**
 
