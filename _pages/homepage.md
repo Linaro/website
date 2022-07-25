@@ -18,6 +18,11 @@ flow:
   - row: custom_include_row
     source: home/homepage_header.html
   - row: container_row
+    style: bg-black
+    sections:
+      - format: custom_include
+        source: home/banner.html
+  - row: container_row
     style: bg-black text-section
     sections:
       - format: text
