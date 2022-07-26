@@ -15,7 +15,7 @@ event_end_date: 2022-09-06 08:00:10 +02:00
 image: /assets/images/content/qualcomm-tech-day-logos-1-.jpg
 event_type: tech_days
 ---
-Qualcomm Technologies are at the center of many new solutions from the edge to the cloud. A valuable extension to the portfolio of Qualcomm Innovation Center, Inc. (QuIC) is the advancement of these technologies in the Open-Source Community. To that end, QuIC works closely with Linaro in supporting their Open-Source initiatives to support devices across Linux, Android, Windows, Chrome, and Toolchains. Come see the latest Open-Source advancements and plans from QuIC and Linaro.
+Qualcomm Technologies are at the center of many new solutions from the edge to the cloud. A valuable extension to the portfolio of Qualcomm Innovation Center, Inc. (QuIC) is the advancement of these technologies in the Open-Source Community. To that end, QuIC works closely with Linaro in supporting their Open-Source initiatives to support devices across Linux, Android, Windows and Chrome. Come see the latest Open-Source advancements and plans from QuIC and Linaro.
 
 <!-- Noscript content for added SEO -->
 
