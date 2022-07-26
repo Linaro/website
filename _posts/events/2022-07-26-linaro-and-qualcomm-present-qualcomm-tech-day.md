@@ -7,6 +7,7 @@ description: >-
 
 
   The schedule and registration will launch at the beginning of August.
+coming_soon: true
 date: 2022-07-26 03:59:10 +02:00
 event_date: 2022-09-06 04:00:00 +02:00
 event_end_date: 2022-09-06 08:00:10 +02:00
