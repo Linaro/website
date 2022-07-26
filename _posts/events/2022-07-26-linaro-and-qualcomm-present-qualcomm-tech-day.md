@@ -1,5 +1,5 @@
 ---
-title: Linaro and Qualcomm present Qualcomm Tech Day
+title: "Linaro and Qualcomm present Qualcomm Tech Day "
 event: qualcomm-tech-day
 description: >-
   Join us on Tuesday 6 September for our virtual Linaro Tech Day with Qualcomm
