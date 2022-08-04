@@ -1,38 +1,29 @@
 items:
-  - title: Thomas Molgaard - Senior Director, Head of China Central Engineering at Arm
-    quote: >
-      The collaboration platform for the Arm partnership. Where everyone comes
-      together to collaborate on open source software, where conversations take
-      place and non-differentiating solutions are discussed and worked upon.
-    attribution: Thomas Molgaard, Arm
-    cover_image: /assets/images/content/arm_testimonial_cover.png
+  - title: David Whaley - Arm
+    attribution: David Whaley, Arm
+    cover_image: /assets/images/content/DavidWhaleyArm.png
     video:
-      mp4: https://static.linaro.org/videos/ThomasMolgaardMembershipTestimonial.mp4
-      webm: https://static.linaro.org/videos/ThomasMolgaardMembershipTestimonial.webm
-      ogv: https://static.linaro.org/videos/ThomasMolgaardMembershipTestimonial.ogv
-  - title: Rob Oshana - VP Software Engineering Research and Development at NXP
-      Semiconductors
-    cover_image: /assets/images/content/nxp-testimonial-cover.png
-    attribution: Rob Oshana, NXP
-    quote: >
-      One thing I like about Linaro specifically is that it is comprised of very
-      senior experts in the field, almost like the all star team of Open Source
-      Technology in many ways. This is a group of highly experienced experts
-      that know what they’re doing and we learn a lot by being part of Linaro
-      that we wouldn’t be able to learn in any other community.
+      mp4: https://static.linaro.org/videos/Arm_David_Whaley_Testimonial.mp4
+      webm: https://static.linaro.org/videos/Arm_David_Whaley_Testimonial.webm
+      ogv: https://static.linaro.org/videos/Arm_David_Whaley_Testimonial.ogv
+  - title: Dong Wei - Arm
+    attribution: Dong Wei, Arm
+    cover_image: /assets/images/content/ArmDongWei.png
     video:
-      mp4: https://static.linaro.org/videos/nxp_linaro_testimonial.mp4
-      webm: https://static.linaro.org/videos/nxp_linaro_testimonial.webm
-      ogv: https://static.linaro.org/videos/nxp_linaro_testimonial.ogv
-  - title: Kouichi Hirai - VP of Software Development at Fujitsu
-    cover_image: /assets/images/content/kouichi-hirai-fujitsu-testimonial-screen.png
-    attribution: Kouichi Hirai, Fujitsu
-    quote: >
-      In order to become part of the open source community, I felt it was very
-      important to join our peers. I believe we benefited greatly from joining
-      Linaro since we now have a connection with various communities including
-      Linaro and the Linux Community.
+      mp4: https://static.linaro.org/videos/CIX_Testimonial.mp4
+      webm: https://static.linaro.org/videos/Arm_Dong_Wei_Testimonial.webm
+      ogv: https://static.linaro.org/videos/Arm_Dong_Wei_Testimonial.ogv
+  - title: Fang Liu - CIX
+    attribution: Fang Liu, CIX
+    cover_image: /assets/images/content/ArmDongWei.png
     video:
-      mp4: https://static.linaro.org/videos/KouichiHiraiTestimonial.mp4
-      webm: https://static.linaro.org/videos/KouichiHiraiTestimonial.webm
-      ogv: https://static.linaro.org/videos/KouichiHiraiTestimonial.ogv
+      mp4: https://static.linaro.org/videos/CIX_Testimonial.mp4
+      webm: https://static.linaro.org/videos/CIX_Testimonial.mp4
+      ogv: https://static.linaro.org/videos/CIX_Testimonial.mp4
+  - title: Tomas Evensen - Xilinx
+    attribution: Tomas Evensen, Xilinx
+    cover_image: /assets/images/content/TomasEvensenXilinx.png
+    video:
+      mp4: https://static.linaro.org/videos/Xilinx_Testimonial.mp4
+      webm: https://static.linaro.org/videos/Xilinx_Testimonial.mp4
+      ogv: https://static.linaro.org/videos/Xilinx_Testimonial.mp4
