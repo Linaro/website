@@ -10,12 +10,12 @@ items:
     attribution: Dong Wei, Arm
     cover_image: /assets/images/content/ArmDongWei.png
     video:
-      mp4: https://static.linaro.org/videos/CIX_Testimonial.mp4
+      mp4: https://static.linaro.org/videos/Arm_Dong_Wei_Testimonial.mp4
       webm: https://static.linaro.org/videos/Arm_Dong_Wei_Testimonial.webm
       ogv: https://static.linaro.org/videos/Arm_Dong_Wei_Testimonial.ogv
   - title: Fang Liu - CIX
     attribution: Fang Liu, CIX
-    cover_image: /assets/images/content/ArmDongWei.png
+    cover_image: /assets/images/content/FangLiuCIX.png
     video:
       mp4: https://static.linaro.org/videos/CIX_Testimonial.mp4
       webm: https://static.linaro.org/videos/CIX_Testimonial.mp4
