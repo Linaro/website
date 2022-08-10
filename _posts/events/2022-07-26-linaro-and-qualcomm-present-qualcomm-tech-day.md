@@ -40,3 +40,5 @@ Qualcomm Technologies are at the center of many new solutions from the edge to t
         onOrderComplete: exampleCallback
     });
 </script>
+
+<style> #pine-sessions { width: 100%; height: 500px; border: 0; display: block; }</style><iframe id="pine-sessions" frameborder="0" border="0" height="500" width="100%" src="https://events.pinetool.ai/2751/#widgets/sessions"></iframe>
