@@ -19,7 +19,7 @@ When developing natively on Arm it is important to get a view of which projects 
 
 # Introducing the Linaro Ecosystem Dashboard
 
-This is why Linaro has created the Linaro Ecosystem Dashboard (LED) project, a central location developers can find information on open source projects and their status. The Linaro Ecosystem Dashboard enables developers to quickly search necessary software project details, including information on supported releases, build status, user stories and more.
+This is why Linaro has created the [Linaro Ecosystem Dashboard (LED) project](https://ecosystemdashboard.linaro.org/), a central location developers can find information on open source projects and their status. The Linaro Ecosystem Dashboard enables developers to quickly search necessary software project details, including information on supported releases, build status, user stories and more.
 
 {% include image.html path="/assets/images/content/led-image.png" alt="Image of the Linaro Ecosystem Dashboard Webpage" %}
 
