@@ -1,5 +1,5 @@
 ---
-title: Windows on Arm Project
+title: Windows on Arm Group
 description: >
   Linaro, Microsoft, Qualcomm, Arm and CIX Technology are working together to
   build a Windows on Arm ecosystem which supports native development. Read more
@@ -16,7 +16,7 @@ layout: flow
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
-  title: Windows on Arm Project
+  title: Windows on Arm Group
   description: |
     Linaro, Arm, Microsoft and Qualcomm are working
     together to build a Windows on Arm ecosystem
