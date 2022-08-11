@@ -28,7 +28,9 @@ To date there are 58 projects listed covering areas such as big data, databases,
 {% include image.html path="/assets/images/content/apache-hadoop-image.png" alt="Image of information listed for Apache Hadoop Project" %}
 
 By including latest information on as many projects as possible, the project aims to support Arm developers. As such, contributions from the community are essential!
+
 "Collaboration across the open source community is critical and it’s fantastic to see Linaro and its members working together to provide vital insights into the health of key open source software projects on Arm-based platforms. The Linaro Ecosystem Dashboard Project encourages and facilitates native development on Arm by giving software developers a central location to obtain information about latest releases, builds, potential issues and fixes for any given project." - Mark Hambleton, VP of open source software, Arm
+
 “It is very meaningful to have a platform like the Linaro Ecosystem Dashboard for Arm. It will benefit our open source community including users, developers and anyone else in the ecosystem. We are very honoured to be part of it and welcome more developers from the Arm ecosystem to join the project. Let’s work together to make our ecosystem better!” - Junping Du, General Manager of Huawei Cloud & Computing Open Source Business
 
 # How to contribute to the Linaro Ecosystem Dashboard
