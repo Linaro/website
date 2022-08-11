@@ -61,7 +61,7 @@ flow:
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                The Windows on Arm project aims to establish a healthy self-sustaining Arm open source ecosystem for Windows.This involves looking at a diverse set of tools, languages and frameworks and working to ensure these run natively on Windows on Arm. The ultimate goal is to establish Windows on Arm as a first-class deliverable.
+                The Windows on Arm group aims to establish a healthy self-sustaining Arm open source ecosystem for Windows. This involves looking at a diverse set of tools, languages and frameworks and working to ensure these run natively on Windows on Arm. The ultimate goal is to establish Windows on Arm as a first-class deliverable.
               buttons:
                 - title: Windows on Arm
                   style: btn-lg text-btn
