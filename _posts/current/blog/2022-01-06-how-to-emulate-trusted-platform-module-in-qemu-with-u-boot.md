@@ -1,10 +1,9 @@
 ---
 layout: post
 title: How to emulate Trusted Platform module in QEMU with U-Boot
-description: "In this blog, Linaro Tech Lead Ilias Apalodimas provides a step by
-  step guide to emulating Trusted Platform module in QEMU with U-Boot. Trusted
-  Platform Modules (TPM) are microcontrollers designed for cryptographic tasks.
-  "
+description: In this blog, Linaro Tech Lead Ilias Apalodimas provides a step by
+  step guide to emulating Trusted Platform module in QEMU with U-Boot. Read more
+  here!
 date: 2022-01-06 11:08:44 +00:00
 image: /assets/images/content/Trusted_Services2.jpg
 tags:
