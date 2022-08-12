@@ -1,12 +1,14 @@
 ---
 layout: post
-title: 'Standard temperature tooling now a reality in the Linux kernel '
-date: '2020-02-03 03:39:33'
+title: "Standard temperature tooling now a reality in the Linux kernel "
+description: In this blog Senior Engineer Linus Walleij talks about Linaro’s
+  involvement in temperature driver for disks in the Linux 5.6. Read more here!
+date: 2020-02-03 03:39:33
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
-- Linux Kernel
-- Arm
-- Open Source
+  - Linux Kernel
+  - Arm
+  - Open Source
 category: blog
 author: linus.walleij
 ---
