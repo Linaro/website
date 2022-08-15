@@ -4,8 +4,7 @@ excerpt: Industry leaders in the Linaro Networking Group (LNG) are collaborating
   for data plane applications on www.opendataplane.org
 wordpress_id: 4431
 layout: post
-title: Linaro launches OpenDataPlane™ (ODP) project to deliver open-source,
-  cross-platform interoperability for networking platforms
+title: Linaro launches OpenDataPlane™ (ODP) project
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
 category: news
 author: linaro
@@ -16,6 +15,7 @@ description: Industry leaders in the Linaro Networking Group (LNG) are
   collaborating to develop and host an open standard application programming
   interface (API) for data plane applications on www.opendataplane.org
 ---
+
 SANTA CLARA, US - 29 OCT 2013
 
 ## Industry leaders in the Linaro Networking Group (LNG) are collaborating to develop and host an open standard application programming interface (API) for data plane applications on www.opendataplane.org
@@ -38,7 +38,7 @@ Linaro is the place where engineers from the world’s leading technology compan
 
 To ensure commercial grade software, Linaro executes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit[](/).
 
-*Media contact:* Steve Taylor, [media@linaro.org](mailto:media@linaro.org)
+_Media contact:_ Steve Taylor, [media@linaro.org](mailto:media@linaro.org)
 
 ODP Supporting Quotes From LNG Members
 
@@ -46,42 +46,42 @@ ODP Supporting Quotes From LNG Members
 
 “We view this initiative for software compatibility at the network device layer as a fundamental building block to delivering scalable networks incorporating services flexibility,” said Ian Drew, SVP Marketing Arm. “Network operators want and need choice and there is no better forum of network stakeholders focused at this crucial layer of the optimized next generation network to provide the best possible solution.”
 
-*About Arm:* Arm designs the technology that lies at the heart of advanced digital products, from wireless, networking and consumer entertainment solutions to imaging, automotive, security and storage devices. Arm’s comprehensive product offering includes 32-bit RISC microprocessors, graphics processors, video engines, enabling software, cell libraries, embedded memories, high-speed connectivity products, peripherals and development tools. Combined with comprehensive design services, training, support and maintenance, and the company’s broad Partner community, they provide a total system solution that offers a fast, reliable path to market for leading electronics companies. See [www.arm.com](http://www.arm.com/) for more information.
+_About Arm:_ Arm designs the technology that lies at the heart of advanced digital products, from wireless, networking and consumer entertainment solutions to imaging, automotive, security and storage devices. Arm’s comprehensive product offering includes 32-bit RISC microprocessors, graphics processors, video engines, enabling software, cell libraries, embedded memories, high-speed connectivity products, peripherals and development tools. Combined with comprehensive design services, training, support and maintenance, and the company’s broad Partner community, they provide a total system solution that offers a fast, reliable path to market for leading electronics companies. See [www.arm.com](http://www.arm.com/) for more information.
 
 **Cavium**
 
 “For over 8 years Cavium customers have benefitted from our comprehensive fast-path development environment and APIs that seamlessly integrate our world-leading hardware acceleration technology with our Linux compatible data plane acceleration software,” said Imran Badr, VP of Software Engineering, Cavium. “We support and applaud Linaro’s leadership in spearheading the OpenDataPlane (ODP) API that will modularize and standardize Data Plane acceleration software across multiple vendors and architectures. This standardization will foster and accelerate the pace of innovation available to enterprise and service providers. With ODP Cavium will provide its customers with an industry standard application layer API that will provide leading networking and compute performance by virtualizing and abstracting our unique hardware acceleration across our MIPS64 and Armv8 processor families.”
 
-*About Cavium:* Cavium is a leading provider of highly integrated semiconductor products that enable intelligent processing in networking, communications and the digital home. Cavium offers a broad portfolio of integrated, software compatible processors ranging in performance from 10 Mbps to over 100 Gbps that enable secure, intelligent functionality in enterprise, data-center, broadband/consumer and access & service provider equipment. Cavium’s processors are supported by ecosystem partners that provide operating systems, tool support, reference designs and other services. Cavium’s principal offices are in San Jose, California with design team locations in California, Massachusetts, India and China. For more information, please visit:[www.cavium.com](http://www.cavium.com/).
+_About Cavium:_ Cavium is a leading provider of highly integrated semiconductor products that enable intelligent processing in networking, communications and the digital home. Cavium offers a broad portfolio of integrated, software compatible processors ranging in performance from 10 Mbps to over 100 Gbps that enable secure, intelligent functionality in enterprise, data-center, broadband/consumer and access & service provider equipment. Cavium’s processors are supported by ecosystem partners that provide operating systems, tool support, reference designs and other services. Cavium’s principal offices are in San Jose, California with design team locations in California, Massachusetts, India and China. For more information, please visit:[www.cavium.com](http://www.cavium.com/).
 
 **ENEA**
 
 “As a world leading operating systems solutions provider for Networking, we see OpenDataPlane as a much awaited step forward, driving speed and innovation in the IP application and transport domain”, said Tobias Lindquist, CTO, Enea. “ODP will be a business enabler for us, where we can continue to compete with new offers, granting our customers a greater re-use of software resources and a simpler migration between hardware platforms.”
 
-*About Enea:* Enea is a global vendor of Linux and Real-time operating system solutions including middleware, tools, protocols and services. The company is a world leader in developing software platforms for communication-driven products in multiple verticals, with extreme demands on high-availability and performance. For more information, please visit: [www.enea.com](http://www.enea.com/).
+_About Enea:_ Enea is a global vendor of Linux and Real-time operating system solutions including middleware, tools, protocols and services. The company is a world leader in developing software platforms for communication-driven products in multiple verticals, with extreme demands on high-availability and performance. For more information, please visit: [www.enea.com](http://www.enea.com/).
 
 **LSI**
 
 "LSI is a leader in developing networking products to support our customer’s needs for real time, high performance semiconductor products for latency sensitive applications,“ said Cristina Rodriguez, Director of Software Engineering, LSI.  “LSI has been driving the Linaro Networking Group’s Open DataPlane (ODP) initiative to provide a level of abstraction that will enable a seamless migration across divergent CPU architectures while striving to retain focus on the fundamental use cases that are vital for our customers to meet their deployment goals."
 
-*About LSI:* LSI Corporation designs semiconductors and software that accelerate storage and networking in datacenters, mobile networks and client computing. Our technology is the intelligence critical to enhanced application performance, and is applied in solutions created in collaboration with our partners. More information is available at [www.lsi.com](http://www.lsi.com/).
+_About LSI:_ LSI Corporation designs semiconductors and software that accelerate storage and networking in datacenters, mobile networks and client computing. Our technology is the intelligence critical to enhanced application performance, and is applied in solutions created in collaboration with our partners. More information is available at [www.lsi.com](http://www.lsi.com/).
 
 **MontaVista**
 
 “MontaVista is a leader in providing virtualized platforms for the network market with our market leading Carrier Grade Edition product. OpenDataPlane project provides a powerful and common way to present interfaces to I/O and other SoC capabilities across multiple architectures while maintaining the performance requirements of next generation network devices,” said Sanjay Raina, President of MontaVista. “MontaVista is collaborating with Linaro Network Group (LNG) to build the OpenDataPlane solution and will be integrating the technology into our market leading multi-architecture Carrier Grade Edition 7 platform.”
 
-*About MontaVista:* MontaVista Software, LLC, a wholly owned subsidiary of Cavium, Inc., is a leader in embedded Linux commercialization. For over 10 years, MontaVista has been helping embedded developers get the most out of open source by adding commercial quality, integration, hardware enablement, expert support, and the resources of the MontaVista development community. Because MontaVista customers enjoy faster time to market, more competitive device functionality, and lower total cost, more devices have been deployed with MontaVista than with any other Linux. To learn more, please visit http://www.mvista.com/.
+_About MontaVista:_ MontaVista Software, LLC, a wholly owned subsidiary of Cavium, Inc., is a leader in embedded Linux commercialization. For over 10 years, MontaVista has been helping embedded developers get the most out of open source by adding commercial quality, integration, hardware enablement, expert support, and the resources of the MontaVista development community. Because MontaVista customers enjoy faster time to market, more competitive device functionality, and lower total cost, more devices have been deployed with MontaVista than with any other Linux. To learn more, please visit http://www.mvista.com/.
 
 **Nokia Solutions and Networks**
 
 “According to NSN Technology Vision 2020 mobile networks will be required to deliver one Gigabyte of personalized data per user per day profitably to support the ever increasing consumer needs with a host of mobile applications. “To realize this vision, we need to develop new capabilities and technologies. OpenDataPlane is a big step towards our networking vision as it brings together all networking SoCs enabling portability, high capacity and power efficient implementation,” says Jarmo Hillo, Head of Processor Technology at Nokia Solutions and Networks.
 
-*About Nokia Solutions and Networks:* Nokia Solutions and Networks is the world’s specialist in mobile broadband. From the first ever call on GSM, to the first call on LTE, we operate at the forefront of each generation of mobile technology. Our global experts invent the new capabilities our customers need in their networks. We provide the world’s most efficient mobile networks, the intelligence to maximize the value of those networks, and the services to make it all work seamlessly.
+_About Nokia Solutions and Networks:_ Nokia Solutions and Networks is the world’s specialist in mobile broadband. From the first ever call on GSM, to the first call on LTE, we operate at the forefront of each generation of mobile technology. Our global experts invent the new capabilities our customers need in their networks. We provide the world’s most efficient mobile networks, the intelligence to maximize the value of those networks, and the services to make it all work seamlessly.
 
-With headquarters in Espoo, Finland, we operate in over 120 countries and had net sales of approximately 13.4 billion euros in 2012. NSN is wholly owned by Nokia Corporation. 
+With headquarters in Espoo, Finland, we operate in over 120 countries and had net sales of approximately 13.4 billion euros in 2012. NSN is wholly owned by Nokia Corporation.
 
 **Texas Instruments (TI)**
 
 “TI is excited to be a part of the development of ODP. It gives customers an open and standardized approach to software making it easier to develop with.” said Pekka Varis, chief technology officer for DSP and Multicore at TI. “ODP is a step in the right direction for customers needing high performance networking software.”
 
-*About TI:* Texas Instruments semiconductor innovations help 90,000 customers unlock the possibilities of the world as it could be – smarter, safer, greener, healthier and more fun. Our commitment to building a better future is ingrained in everything we do – from the responsible manufacturing of our semiconductors, to caring for our employees, to giving back inside our communities. This is just the beginning of our story. Learn more at [www.ti.com](http://www.ti.com/).
+_About TI:_ Texas Instruments semiconductor innovations help 90,000 customers unlock the possibilities of the world as it could be – smarter, safer, greener, healthier and more fun. Our commitment to building a better future is ingrained in everything we do – from the responsible manufacturing of our semiconductors, to caring for our employees, to giving back inside our communities. This is just the beginning of our story. Learn more at [www.ti.com](http://www.ti.com/).
