@@ -1,7 +1,7 @@
 ---
 title: Tagged News Posts
 permalink: /news/tags/
-sitemap: false
+exclude_from_sitemap: true
 description: >
   Filter news posts by tag.
 jumbotron:
