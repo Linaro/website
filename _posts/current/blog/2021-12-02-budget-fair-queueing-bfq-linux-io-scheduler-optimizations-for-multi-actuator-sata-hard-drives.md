@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Budget Fair Queueing (BFQ) Linux IO Scheduler Optimizations for
-  Multi-Actuator SATA Hard Drives
+title: BFQ Linux IO Scheduler Optimizations for Multi-Actuator SATA Hard Drives
 description: In this blog, we cover the extra logic applied in BFQ I/O scheduler
   to support multi-actuator drives. Paving the way to exploiting potential
   multi-actuator drives.
@@ -18,6 +17,7 @@ related_projects:
 category: blog
 author: paolo.valente
 ---
+
 Computer operating systems use Input/output (I/O) scheduling to determine in which order operations should take place. BFQ is a proportional-share I/O scheduler which associates each process with a weight. Based on the weight, it then decides how much of the I/O bandwidth to allocate to a process.
 
 In this article, Linaro Interns Gabriele Felici and Davide Zini (followed by Paolo Valente) talk about the extra logic they have implemented in the BFQ I/O scheduler, to support multi-actuator drives.
@@ -34,7 +34,7 @@ Yet, this new architecture poses the following important challenge: information 
 
 ## The solution: Enriching the BFQ/IO scheduler with extra logic
 
-I/O schedulers are the ideal kernel components for tackling this problem, as their role is to decide the order in which to dispatch commands. In this respect, Budget Fair Queueing (BFQ) is the most feature-rich and accurate I/O scheduler in Linux. It provides strong service guarantees on bandwidth and latency. In addition, BFQ has a rich infrastructure, which allows for accurate control over I/O. This makes BFQ a good ground for implanting extra logic that also controls per-actuator load. 
+I/O schedulers are the ideal kernel components for tackling this problem, as their role is to decide the order in which to dispatch commands. In this respect, Budget Fair Queueing (BFQ) is the most feature-rich and accurate I/O scheduler in Linux. It provides strong service guarantees on bandwidth and latency. In addition, BFQ has a rich infrastructure, which allows for accurate control over I/O. This makes BFQ a good ground for implanting extra logic that also controls per-actuator load.
 
 In collaboration with Seagate Technology, we have enriched the BFQ I/O scheduler with such extra logic. The resulting extended version of BFQ provides dramatic performance improvements, over a wide range of workloads. At the same time, it preserves the original bandwidth and latency guarantees of BFQ. As a more general contribution, the concepts and strategies used in BFQ show effective ways to take advantage of the IOPS gains of multi-actuator drives.
 
@@ -50,7 +50,7 @@ Since BFQ exploits a queue of I/O requests for each process, we started with the
 
 by Davide Zini
 
-BFQ dispatches to the drive as many I/O as the I/O subsystem deems appropriate. In particular, new I/O may be dispatched even while there is already some other I/O in service in the drive. So the drive’s internal parallelism or pipelining can be fully exploited. In particular, actuators can run in parallel. 
+BFQ dispatches to the drive as many I/O as the I/O subsystem deems appropriate. In particular, new I/O may be dispatched even while there is already some other I/O in service in the drive. So the drive’s internal parallelism or pipelining can be fully exploited. In particular, actuators can run in parallel.
 
 Yet, even after the above split, there are situations where one or more actuators are underutilized. A first simple case is with just two queues, Q1 and Q2, for a dual-actuator drive. Q1 and Q2 only contain requests for, respectively, the lower and the upper actuator. BFQ serves one queue at a time, for a while. If we represent requests for the lower/upper actuator as blue/red rectangles, then the service is as depicted in next figure:
 

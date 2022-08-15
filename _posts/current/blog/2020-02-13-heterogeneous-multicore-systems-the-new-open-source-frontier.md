@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Heterogeneous Multicore Systems - The New Open Source Frontier!
+title: Heterogeneous Multicore Systems
 description: Heterogeneous multicore computing is now all-pervasive with a
   flexible co-processor architecture making it the new open source frontier.
   Read more here.
