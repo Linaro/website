@@ -35,7 +35,7 @@ The System Control and Management Interface (SCMI) \[3] is extensible and provid
 
 Linaro will be demonstrating these technologies at Embedded World - showing communication between Zephyr RTOS \[4] and Linux on an Avenger96. Avenger96 is a community development board based on the STM32MP1 \[5]. You can meet us at the Zephyr booth (4-170).
 
-{% include image.html path="/assets/images/content/96Boards Avenger.png" alt="96Boards Avenger Board" %}
+{% include image.html path="/assets/images/content/96BoardsAvenger.png" alt="96Boards Avenger Board" %}
 
 References
 
