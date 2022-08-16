@@ -53,11 +53,11 @@ In addition, Arnd merged well over 1000 patches for modern Arm based platforms f
 
 ## Dmitry Baryshkov
 
-Dmitry continued his work on maintaining the Qualcomm display drivers, by unifying common parts of the MDP5 and DPU code bases, removing the legacy eDP driver support, and improving the use of drm_bridges throughout the drivers. In addition to this, Dmitry's work on adding support for the PCIe root-complex in SM8450 was accepted.
+Dmitry continued his work on maintaining the Qualcomm display drivers, by unifying common parts of the MDP5 and DPU code bases, removing the legacy eDP driver support, and improving the use of drm_bridges throughout the drivers. In addition to this, Dmitry's work on adding support for the PCIe root-complex  for Qualcomm Snapdragon 8 Gen 1 (e.g. SM8450) was accepted.
 
 ## Bjorn Andersson
 
-Bjorn continued the upstreaming of support for the Qualcomm 8cx Gen3 compute platform, with contributions in the form of clock drivers, interconnect providers, power-domains and remoteproc support. His work on the Qualcomm Light Pulse Generator PWM and LED driver was at last accepted, after a very long development process. Progress was also made on the journey to get external display functional on Qualcomm platforms, through improvements necessary in the USB Type-C mux and orientation switch handling code.
+Bjorn continued the upstreaming of support for the Qualcomm Snapdragon 8cx Gen3 compute platform, with contributions in the form of clock drivers, interconnect providers, power-domains and remoteproc support. His work on the Qualcomm Light Pulse Generator PWM and LED driver was at last accepted, after a very long development process. Progress was also made on the journey to get external display functional on Qualcomm platforms, through improvements necessary in the USB Type-C mux and orientation switch handling code.
 
 On the maintainer side, the bulk of the contributions came from a continuously active Qualcomm community, which resulted in Bjorn accepting patches touching upon 84 different boards, across 31 different Qualcomm platforms. In addition to work extending existing board support and adding new boards, a significant portion of these patches was improvements towards enabling DeviceTree binding validation.
 
@@ -65,7 +65,7 @@ On the maintainer side, the bulk of the contributions came from a continuously a
 
 Manivannan upstreamed the [Modem Host Interface (MHI) bus stack for the PCIe Endpoint devices](https://www.linaro.org/blog/mhi-bus-for-endpoint-devices-upstreamed-to-linux-kernel/), that gave him the #21st spot in the most active developers by changed lines for v5.19 release. Earlier, Manivannan upstreamed the [MHI bus stack for the PCIe host devices](https://www.linaro.org/blog/mhi-bus-support-gets-added-to-the-linux-kernel/) that is currently being used with various host platforms based on x86, ARM64 and MIPS architectures for bringing the network connectivity using Qualcomm modems and WLAN devices.
 
-This MHI bus support for PCIe endpoint devices will allow running the upstream kernel directly on the Qualcomm modems, WLAN devices or boards with pairs of SoCs bridged using PCIe that used to run only the downstream kernel so far. Manivannan validated the PCIe endpoint work on the Telit FN980M modem based development board and was able to get the network connectivity over PCIe on the host using MHI IP_SW0 channels.
+This MHI bus support for PCIe endpoint devices will allow running the upstream kernel directly on the Qualcomm modems, such as the Snapdragon SDX55 platform, WLAN devices or boards with pairs of SoCs bridged using PCIe that used to run only the downstream kernel so far. Manivannan validated the PCIe endpoint work on the Telit FN980M modem based development board and was able to get the network connectivity over PCIe on the host using MHI IP_SW0 channels.
 
 There is still some work pending for getting the data connectivity from the modem DSP and that is expected to land in the future releases.
 
@@ -81,8 +81,7 @@ As one of i.MX platform maintainers, Shawn helped to review and collect i.MX dev
 
 Vinod reviewed and accepted patches for a variety of platforms across the DMAengine, PHY and SoundWire subsystems.
 
-### \
-Conclusion
+### Conclusion
 
 Linaro’s position in the 5.19 kernel release and the number of Linaro kernel engineers featured as most active contributors is true testament to the crucial role Linaro continues to play in advancing the Arm software ecosystem through feature enablement, testing and maintenance. We look forward to Linus releasing more kernels on Arm development platforms!
 
