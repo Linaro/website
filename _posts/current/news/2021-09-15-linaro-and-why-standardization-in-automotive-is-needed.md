@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linaro and why Standardization in Automotive is needed "
+title: The Need for Standardization in Automotive
 description: Linaro today announced the availability of a white paper on the
   need for standardization in automotive.
 date: 2021-09-15 03:29:00 +01:00

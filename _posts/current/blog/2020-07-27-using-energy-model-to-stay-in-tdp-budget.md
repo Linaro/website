@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Energy Model To Stay In TDP Budget
+title: Power Consumption of Embedded Devices
 description: In this intriguing article, Daniel Lezcano looks into the power
   consumption complexities and the challenges this creates.
 date: 2020-07-29 10:41:16+00:00
@@ -18,6 +18,7 @@ related_projects:
 category: blog
 author: daniel.lezcano
 ---
+
 # Introduction
 
 An ever-increasing number of embedded devices need fine grain control on their performance in order to limit the power consumption. There are three primary reasons for this: to increase the battery life, to protect the components and to control the temperature.
@@ -60,11 +61,11 @@ As described previously, the mobile devices want to balance the power along with
 
 This is where the energy model based powercap fits perfectly:
 
-* The sysfs hierarchy allows to model the constraints of the different devices on the SoC
-* The energy model gives the power information of each device
-* The performance state callbacks allow an application to limit the power
-* The hierarchy allows an application to propagate the constraints on the different tree nodes and rebalance the free power along the child nodes
-* The powercap framework offers a single place to act on the device power, allowing a consistent and unified API
+- The sysfs hierarchy allows to model the constraints of the different devices on the SoC
+- The energy model gives the power information of each device
+- The performance state callbacks allow an application to limit the power
+- The hierarchy allows an application to propagate the constraints on the different tree nodes and rebalance the free power along the child nodes
+- The powercap framework offers a single place to act on the device power, allowing a consistent and unified API
 
 The hierarchy of the constraints is represented by a tree via the sysfs filesystem. The nodes of the tree are virtual and their purpose is to aggregate the power information from the child nodes: the power consumption is the sum of the child nodes power consumption. This also applies to the max and min power. The leaves of the tree are the real devices grouped per performance domain. If a power limit is set on a node, then the power limit is split proportionally to the children regarding their max power consumption. This power limit distribution to the child nodes is considered fair enough for most of the system using this approach like electricity grid in data centers.
 
