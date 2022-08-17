@@ -1,8 +1,8 @@
 ---
-excerpt: Tinno Mobile joins Linaro Mobile Group
+excerpt: Tinno Mobile Joins Linaro Mobile Group
 wordpress_id: 9608
 layout: post
-title: Tinno Mobile joins Linaro Mobile Group
+title: Tinno Mobile Joins Linaro Mobile Group
 description: Linaro announces that Shenzhen Tinno Mobile Technology Company Ltd
   has joined the Linaro Mobile Group (LMG). Read more here.
 image: /assets/images/content/consumer-bg.jpg
