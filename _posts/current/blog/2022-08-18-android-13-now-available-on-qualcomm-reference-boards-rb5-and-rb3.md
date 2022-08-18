@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android 13 now available on Qualcomm Reference Boards RB5 and RB3
+title: Android 13 now available on Qualcomm Robotics Reference RB3 and RB5 Platforms
 description: This blog talks about the Android 13 release and how it boots
   straight out of the box on the Linaro supported Reference Boards RB5 and RB3.
 date: 2022-08-18 06:05:29 +01:00
