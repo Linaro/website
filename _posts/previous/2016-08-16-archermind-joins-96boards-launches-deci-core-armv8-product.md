@@ -1,17 +1,17 @@
 ---
-author: linaro
-category: news
-date: 2016-08-16 16:39:55
-description: 'Cambridge, UK: 16 August 2016'
-layout: post
-link: /news/archermind-joins-96boards-launches-deci-core-armv8-product/
-slug: archermind-joins-96boards-launches-deci-core-armv8-product
-title: ArcherMind Joins 96Boards and Launches Deca-Core Armv8 Product
 wordpress_id: 11328
+layout: post
+title: ArcherMind Joins 96Boards and Launches Deca-Core Armv8 Product
+description: "Cambridge, UK: 16 August 2016"
+image: /assets/images/content/Banner_Core_Technologies.jpg
 tags:
-- Membership
+  - Membership
+author: linaro
+slug: archermind-joins-96boards-launches-deci-core-armv8-product
+date: 2016-08-16 16:39:55
+link: /news/archermind-joins-96boards-launches-deci-core-armv8-product/
+category: news
 ---
-
 Cambridge, UK: 16 August 2016
 
 Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today announced that ArcherMind Technology (Nanjing) Co., Ltd has joined the 96Boards initiative as a Steering Committee Member and Manufacturing Partner and they are preparing the launch of their first 96Boards product.
@@ -26,61 +26,61 @@ Founded in 2006, ArcherMind is a global, professional software service supplier 
 
 **ArcherMind MediaTek X20 Board Specifications**
 
-_Processor_
+*Processor*
 Helio X20 64-bit deca-core with:
 Two Cortex-A72 cores (2.1-2.3GHz)
 Four Cortex A53 cores (1.85GHz)
 Four Cortex-A53 cores (1.4GHz)
 
-_Graphics processor_
+*Graphics processor*
 Arm Mali-T880 MP4 800MHz
 Multimedia Support
 32MP @ 24fps / 25MP @ 30 fps
 WQXGA 2560×1600 60fps FHD 1920×1080 120fps
 4Kx2K 30fps H.265 w/HDR
 
-_Memory and Storage_
+*Memory and Storage*
 2GB LPDDR3 2CH,933MHz
 8GB EMMC5.1
 
-_Extended storage interface_
+*Extended storage interface*
 Support Micro SD card (SD3.0)
 
-_Display interface_
+*Display interface*
 HDMI Full-size Type-A, support 1080P@ 30 fps
 
-_Wireless_
+*Wireless*
 MT6631 chip
 WLAN 802.11a/b/g/n 2.4GHz and 5GHz(On-board BT and WLAN antenna)
 *Bluetooth*® wireless technology 4.1 +HS compliant
 GPS (with antenna connector)
 
-_USB interface_
+*USB interface*
 One USB2.0 high speed micro B (Device mode)
 Two USB2.0 high speed Type A (Host mode)
 
-_IO extended interface_
+*IO extended interface*
 One 40-pin Low Speed (LS) expansion connector: UART, SPI, I2S, I2C x2, GPIO x12, DC power
 One 60-pin High Speed (HS) expansion connector: 4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI
 One optional 16-pin analog expansion connector for stereo headset/line-out, speaker and analog line-in
 
-_Manual Controls_
+*Manual Controls*
 4 Mechanical Buttons: Power/Reset/Volume Up/down
 6 LED Lights:4 user controllable, 2 -or radios (BT and WLAN activity)
 
-_Power supply_
+*Power supply*
 DC input +8V ~ +18V
 
-_Operating System_
+*Operating System*
 Android Marshmallow 6.0
 
-_Size_
+*Size*
 85mm × 54mm
 
 **About 96Boards**
-96Boards is the first open specification to define a platform for the delivery of compatible low-cost, small footprint 32-bit and 64-bit Cortex-A boards from the range of Arm SoC vendors. There are currently two 96Boards specifications for low-cost Armv7-A and Armv8-A development boards: The Consumer Edition (CE), which targets the mobile, embedded and digital home segments, and the Enterprise Edition (EE), which targets the networking and server segments. To find out more, please visit [http://www.96Boards.org](http://www.96Boards.org).
+96Boards is the first open specification to define a platform for the delivery of compatible low-cost, small footprint 32-bit and 64-bit Cortex-A boards from the range of Arm SoC vendors. There are currently two 96Boards specifications for low-cost Armv7-A and Armv8-A development boards: The Consumer Edition (CE), which targets the mobile, embedded and digital home segments, and the Enterprise Edition (EE), which targets the networking and server segments. To find out more, please visit [http://www.96Boards.org](https://www.96boards.org/).
 
 **About Linaro**
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit []().
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>).
