@@ -37,20 +37,20 @@ Google develops Android to run on multiple architectures and the Linaro engageme
 
 Initial software support for the board is provided in the AOSP source tree based on the Android Common Kernel using the Linux 4.4 kernel release. Linaro and Huawei are also working on the Linux 4.9 based Android Common kernel and maintaining support for the Kirin 960 SoC in the mainline kernel.org tree, allowing for the availability of multiple Linux distributions for this board in the future.
 
-Information about the HiKey 960 board and Running Android on it will be available here: <http://source.android.com/source/devices.html>. Linaro is providing instructions for developers here: <http://linaro.co/hikey960-start>.
+Information about the HiKey 960 board and Running Android on it will be available here: <http://source.android.com/source/devices.html>. Linaro is providing instructions for developers here: [http://linaro.co/hikey960-start](https://www.96boards.org/documentation/consumer/hikey/hikey960/getting-started/index.html).
 
 **HiKey 960 board specifications**
 
 <table class="table responsive-table" >
 <tbody >
 <tr markdown="1">
-\*\*Component\*\*
-\*\*Description\*\*
+\\*\\*Component\\*\\*
+\\*\\*Description\\*\\*
 </tr>
 <tr >
 
 <td rowspan="2" markdown="1">
-\*\*SoC\*\*
+\\*\\*SoC\\*\\*
 </td>
 
 <td markdown="1">
@@ -68,7 +68,7 @@ Mali-G71 MP8 GPU
 <tr >
 
 <td markdown="1">
-\*\*Software\*\*
+\\*\\*Software\\*\\*
 </td>
 
 <td markdown="1">
@@ -78,7 +78,7 @@ AOSP with 4.4 AOSP common kernel
 <tr >
 
 <td markdown="1">
-\*\*Storage\*\*
+\\*\\*Storage\\*\\*
 </td>
 
 <td markdown="1">
@@ -88,7 +88,7 @@ AOSP with 4.4 AOSP common kernel
 <tr >
 
 <td markdown="1">
-\*\*Video Output / Display Interface\*\*
+\\*\\*Video Output / Display Interface\\*\\*
 </td>
 
 <td markdown="1">
@@ -98,17 +98,17 @@ HDMI 1.2a up to 1080p plus 4-lane MIPI DSI
 <tr >
 
 <td markdown="1">
-\*\*Connectivity\*\*
+\\*\\*Connectivity\\*\\*
 </td>
 
 <td markdown="1">
-Dual-band 802.11 b/g/n/ac WiFi and \_Bluetooth\_® wireless technology 4.1 with on board antennas
+Dual-band 802.11 b/g/n/ac WiFi and \\_Bluetooth\\_® wireless technology 4.1 with on board antennas
 </td>
 </tr>
 <tr >
 
 <td rowspan="2" markdown="1">
-\*\*USB\*\*
+\\*\\*USB\\*\\*
 </td>
 
 <td markdown="1">
@@ -124,7 +124,7 @@ Dual-band 802.11 b/g/n/ac WiFi and \_Bluetooth\_® wireless technology 4.1 with 
 <tr >
 
 <td rowspan="2" markdown="1">
-\*\*Camera\*\*
+\\*\\*Camera\\*\\*
 </td>
 
 <td markdown="1">
@@ -139,7 +139,7 @@ Dual-band 802.11 b/g/n/ac WiFi and \_Bluetooth\_® wireless technology 4.1 with 
 </tr>
 <tr >
 
-<td rowspan="3" >\*\*Expansion\*\*
+<td rowspan="3" >\\*\\*Expansion\\*\\*
 </td>
 
 <td markdown="1">
@@ -161,7 +161,7 @@ PCIe Gen2 on M.2 M Key connector
 <tr >
 
 <td markdown="1">
-\*\*Misc\*\*
+\\*\\*Misc\\*\\*
 </td>
 
 <td markdown="1">
@@ -171,7 +171,7 @@ LEDs for WiFi & Bluetooth, 4x user LEDs, power button
 <tr >
 
 <td markdown="1">
-\*\*Power Supply\*\*
+\\*\\*Power Supply\\*\\*
 </td>
 
 <td markdown="1">
@@ -181,7 +181,7 @@ LEDs for WiFi & Bluetooth, 4x user LEDs, power button
 <tr >
 
 <td markdown="1">
-\*\*Dimensions\*\*
+\\*\\*Dimensions\\*\\*
 </td>
 
 <td markdown="1">
@@ -204,8 +204,8 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 Buy Now
 
 * [Lenovator](http://linaro.co/hikey960buy) (Worldwide) – $239
-* [Seeed](http://linaro.co/hikey960-seed) (Worldwide) – $239.00
-* [Alpha Star](http://linaro.co/hikey960buy-alpha)
+* [Seeed](https://www.seeedstudio.com/hikey-960-development-board-4gb-ram-version-p-3028.html) (Worldwide) – $239.00
+* [Alpha Star](https://en.alpha-star.org/hikey960)
 * [Switch Science](http://linaro.co/hikey960-switch) (Japan)
 
 [Documentation](https://www.96boards.org/documentation/consumer/hikey960/) & [Support Forum](https://discuss.96boards.org/c/products/hikey960)
