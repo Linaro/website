@@ -1,28 +1,28 @@
 ---
-author: linaro
-category: news
-comments: false
-date: 2015-08-03 12:26:09
-description: "Meizu becomes first OEM to join Linaro Mobile Group. As a current and
-  potential customer of several of Linaroâ\x80\x99s silicon supplier members, Meizu
-  will take on a unique role in helping define the engineering activities of LMG and
-  our contributions to open source projects in the mobile space."
-excerpt: Meizu becomes first OEM to join Linaro Mobile Group.  As a current and potential
-  customer of several of Linaro’s silicon supplier members, Meizu will take on a unique
-  role in helping define the engineering activities of LMG and our contributions to
-  open source projects in the mobile space.
-layout: post
-link: /news/leading-china-smartphone-innovator-meizu-becomes-first-oem-to-join-linaro-mobile-group/
-slug: leading-china-smartphone-innovator-meizu-becomes-first-oem-to-join-linaro-mobile-group
-tags:
-- Linaro
-- Linaro Members
-- Linaro Mobile Group
-title: Leading China Smartphone Innovator Meizu becomes first OEM to join Linaro Mobile
-  Group
+excerpt: Meizu becomes first OEM to join Linaro Mobile Group.  As a current and
+  potential customer of several of Linaro’s silicon supplier members, Meizu will
+  take on a unique role in helping define the engineering activities of LMG and
+  our contributions to open source projects in the mobile space.
 wordpress_id: 9115
+layout: post
+author: linaro
+slug: leading-china-smartphone-innovator-meizu-becomes-first-oem-to-join-linaro-mobile-group
+description: "Meizu becomes first OEM to join Linaro Mobile Group. As a current
+  and potential customer of several of Linaroâs silicon supplier members,
+  Meizu will take on a unique role in helping define the engineering activities
+  of LMG and our contributions to open source projects in the mobile space."
+date: 2015-08-03 12:26:09
+comments: false
+title: Leading China Smartphone Innovator Meizu becomes first OEM to join Linaro
+  Mobile Group
+tags:
+  - Linaro
+  - Linaro Members
+  - Linaro Mobile Group
+link: /news/leading-china-smartphone-innovator-meizu-becomes-first-oem-to-join-linaro-mobile-group/
+image: /assets/images/content/37319206961_0b863ab87d_k.jpg
+category: news
 ---
-
 Cambridge, UK; 3 August 2015
 
 Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today announced that Meizu Technology Company Ltd has become the first OEM to join the Linaro Mobile Group (LMG).
@@ -36,7 +36,7 @@ LMG was formed in July 2014 to consolidate and optimize open source software for
 **About Linaro**
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company is a collaborative engineering organization with over 200 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [ ]()and [http://www.96Boards.org](http://www.96Boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [ ](<>)and [http://www.96Boards.org](https://www.96boards.org/).
 
 **About Meizu**
 Meizu, one of the top ten smartphone brands in China, is a trailblazer in the innovation and design of smartphones, and always presents graceful and user-friendly devices. Established in 2003 and headquartered in Zhuhai, China, Meizu expanded into the smartphone market in 2008 and has been committed to developing high-end smartphones ever since. Based on the business philosophy and commitment to pursuing perfection, Meizu remains focused on developing innovative and user-friendly smartphones which are characterized by state-of-the-art craftsmanship, powerful specifications and an attractive price. With more than 2000 retail stores, Meizu has built a global presence in Hong Kong, India, EU, Israel, Russia and Ukraine. For more information, please visit [www.meizu.com/en](http://www.meizu.com/en).
