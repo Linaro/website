@@ -2,7 +2,8 @@
 layout: post
 title: Power Consumption of Embedded Devices
 description: In this intriguing article, Daniel Lezcano looks into the power
-  consumption complexities and the challenges this creates.
+  consumption complexities of embedded devices and the challenges this creates.
+  Read more here!
 date: 2020-07-29 10:41:16+00:00
 image: /assets/images/content/code-background_1.jpg
 tags:
