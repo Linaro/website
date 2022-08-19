@@ -4,8 +4,10 @@ excerpt: "Linaro announces the rollout of an Armv8 based Developer Cloud today
 wordpress_id: 10071
 layout: post
 title: Linaro announces Arm Based Developer Cloud
+description: Linaro announced the rollout of an Armv8 based Developer Cloud in
+  Bangkok providing developers access to a cloud-based Arm development
+  environment.
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
-category: news
 author: linaro
 slug: linaro-announces-arm-based-developer-cloud-2
 date: 2016-03-07 11:01:23
@@ -18,8 +20,7 @@ tags:
   - Members
   - Open Source
 link: /news/linaro-announces-arm-based-developer-cloud-2/
-description: Linaro announces the rollout of an Armv8 based Developer Cloud
-  today at Linaro Connect in Bangkok.
+category: news
 ---
 Bangkok, Thailand; 7 March 2016
 
