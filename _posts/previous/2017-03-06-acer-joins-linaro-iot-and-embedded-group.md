@@ -1,23 +1,23 @@
 ---
-author: linaro
-category: news
-date: 2017-03-06 07:55:31
-description: Budapest, Hungary; Â 6 MarchÂ 2017
-layout: post
-link: /news/acer-joins-linaro-iot-and-embedded-group/
-slug: acer-joins-linaro-iot-and-embedded-group
-tags:
-- IoT
-- Linaro
-- Linaro Connect
-- Linaro Members
-- Linux
-- Linux On Arm
-- LITE
-title: Acer joins Linaro IoT and Embedded Group
 wordpress_id: 12213
+layout: post
+title: Acer joins Linaro IoT and Embedded Group
+description: Budapest, Hungary; Â 6 MarchÂ 2017
+image: /assets/images/content/27094831048_6ecb96f52a_o.jpg
+tags:
+  - IoT
+  - Linaro
+  - Linaro Connect
+  - Linaro Members
+  - Linux
+  - Linux On Arm
+  - LITE
+author: linaro
+slug: acer-joins-linaro-iot-and-embedded-group
+date: 2017-03-06 07:55:31
+link: /news/acer-joins-linaro-iot-and-embedded-group/
+category: news
 ---
-
 Budapest, Hungary;  6 March 2017
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that Acer, one of the world’s top ICT companies, has joined the Linaro IoT and Embedded (LITE) Group.
@@ -32,4 +32,4 @@ Industry interoperability of diverse, connected and secure IoT devices is a crit
 
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 300 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit []() and [http://www.96Boards.org](http://www.96boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](https://www.96boards.org/).
