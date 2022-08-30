@@ -1,26 +1,26 @@
 ---
-author: linaro
-category: news
-date: 2016-01-27 14:00:24
-description: Linaro announces a complete open source Software Reference Platform for
+excerpt: Linaro announces a complete open source Software Reference Platform for
   servers running on Armv8-A processors.
-excerpt: Linaro announces a complete open source Software Reference Platform for servers
-  running on Armv8-A processors.
-layout: post
-link: /news/linaro-announces-software-reference-platform-arm-servers/
-slug: linaro-announces-software-reference-platform-arm-servers
-tags:
-- LEG
-- Linaro
-- Linux
-- Linux On Arm
-- Members
-- Open Source
-- Servers
-title: Linaro announces Software Reference Platform for Arm servers
 wordpress_id: 9936
+layout: post
+title: Linaro announces Software Reference Platform for Arm servers
+description: Linaro announces a complete open source Software Reference Platform
+  for servers running on Armv8-A processors.
+image: /assets/images/content/Datacenter.jpg
+author: linaro
+slug: linaro-announces-software-reference-platform-arm-servers
+date: 2016-01-27 14:00:24
+tags:
+  - LEG
+  - Linaro
+  - Linux
+  - Linux On Arm
+  - Members
+  - Open Source
+  - Servers
+link: /news/linaro-announces-software-reference-platform-arm-servers/
+category: news
 ---
-
 Cambridge, UK; 27 January 2016
 
 Linaro Ltd, the collaborative engineering organization developing software for the Arm® architecture, today announced a complete open source Software Reference Platform for servers running on Armv8-A processors. Linaro released alpha source code on 23 December 2015, and plans to partner with its members to provide access to the Software Reference Platform running on developer cloud instances in Europe, China and the US in the first half of 2016.
@@ -41,4 +41,4 @@ The initial launch of the developer cloud instances will happen on existing Arm 
 
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit []() and [http://www.96Boards.org](http://www.96boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](https://www.96boards.org/).
