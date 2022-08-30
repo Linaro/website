@@ -44,13 +44,13 @@ Information about the HiKey 960 board and Running Android on it will be availabl
 <table class="table responsive-table" >
 <tbody >
 <tr markdown="1">
-\\*\\*Component\\*\\*
-\\*\\*Description\\*\\*
+\\\*\\\*Component\\\*\\\*
+\\\*\\\*Description\\\*\\\*
 </tr>
 <tr >
 
 <td rowspan="2" markdown="1">
-\\*\\*SoC\\*\\*
+\\\*\\\*SoC\\\*\\\*
 </td>
 
 <td markdown="1">
@@ -68,7 +68,7 @@ Mali-G71 MP8 GPU
 <tr >
 
 <td markdown="1">
-\\*\\*Software\\*\\*
+\\\*\\\*Software\\\*\\\*
 </td>
 
 <td markdown="1">
@@ -78,7 +78,7 @@ AOSP with 4.4 AOSP common kernel
 <tr >
 
 <td markdown="1">
-\\*\\*Storage\\*\\*
+\\\*\\\*Storage\\\*\\\*
 </td>
 
 <td markdown="1">
@@ -88,7 +88,7 @@ AOSP with 4.4 AOSP common kernel
 <tr >
 
 <td markdown="1">
-\\*\\*Video Output / Display Interface\\*\\*
+\\\*\\\*Video Output / Display Interface\\\*\\\*
 </td>
 
 <td markdown="1">
@@ -98,17 +98,17 @@ HDMI 1.2a up to 1080p plus 4-lane MIPI DSI
 <tr >
 
 <td markdown="1">
-\\*\\*Connectivity\\*\\*
+\\\*\\\*Connectivity\\\*\\\*
 </td>
 
 <td markdown="1">
-Dual-band 802.11 b/g/n/ac WiFi and \\_Bluetooth\\_® wireless technology 4.1 with on board antennas
+Dual-band 802.11 b/g/n/ac WiFi and \\\_Bluetooth\\\_® wireless technology 4.1 with on board antennas
 </td>
 </tr>
 <tr >
 
 <td rowspan="2" markdown="1">
-\\*\\*USB\\*\\*
+\\\*\\\*USB\\\*\\\*
 </td>
 
 <td markdown="1">
@@ -124,7 +124,7 @@ Dual-band 802.11 b/g/n/ac WiFi and \\_Bluetooth\\_® wireless technology 4.1 wit
 <tr >
 
 <td rowspan="2" markdown="1">
-\\*\\*Camera\\*\\*
+\\\*\\\*Camera\\\*\\\*
 </td>
 
 <td markdown="1">
@@ -139,7 +139,7 @@ Dual-band 802.11 b/g/n/ac WiFi and \\_Bluetooth\\_® wireless technology 4.1 wit
 </tr>
 <tr >
 
-<td rowspan="3" >\\*\\*Expansion\\*\\*
+<td rowspan="3" >\\\*\\\*Expansion\\\*\\\*
 </td>
 
 <td markdown="1">
@@ -161,7 +161,7 @@ PCIe Gen2 on M.2 M Key connector
 <tr >
 
 <td markdown="1">
-\\*\\*Misc\\*\\*
+\\\*\\\*Misc\\\*\\\*
 </td>
 
 <td markdown="1">
@@ -171,7 +171,7 @@ LEDs for WiFi & Bluetooth, 4x user LEDs, power button
 <tr >
 
 <td markdown="1">
-\\*\\*Power Supply\\*\\*
+\\\*\\\*Power Supply\\\*\\\*
 </td>
 
 <td markdown="1">
@@ -181,7 +181,7 @@ LEDs for WiFi & Bluetooth, 4x user LEDs, power button
 <tr >
 
 <td markdown="1">
-\\*\\*Dimensions\\*\\*
+\\\*\\\*Dimensions\\\*\\\*
 </td>
 
 <td markdown="1">
@@ -195,7 +195,7 @@ LEDs for WiFi & Bluetooth, 4x user LEDs, power button
 
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](http://www.96boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](https://www.96boards.org/).
 
 - - -
 
