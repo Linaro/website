@@ -69,4 +69,4 @@ The Linaro legal pages/documents can be found here - [/legal/](/legal/)
 
 ## Getting Involved with the Community
 
-For discussion around Linux and Open Source on Arm, subscribe to the lists on [Linaro Lists Site](https://lists.linaro.org/). [](https://lists.linaro.org/)
+For discussion around Linux and Open Source on Arm, subscribe to the lists on [Linaro Lists Site](https://lists.linaro.org/mailman3/lists/). [](https://lists.linaro.org/)
