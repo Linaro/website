@@ -257,7 +257,7 @@ Scheduler driven DVFS PATCH v3
 </td>
 
 <td markdown="1">
-\\[https://lkml.org/lkml/2015/6/26/620](https://lkml.org/lkml/2015/6/26/620)
+\\\[https://lkml.org/lkml/2015/6/26/620](https://lkml.org/lkml/2015/6/26/620)
 </td>
 </tr>
 <tr >
@@ -266,7 +266,7 @@ Scheduler driven DVFS PATCH v3
 EAS RFCv5
 </td>
 
-<td style="text-align: left;" >\\[https://lkml.org/lkml/2015/7/7/754](https://lkml.org/lkml/2015/7/7/754)
+<td style="text-align: left;" >\\\[https://lkml.org/lkml/2015/7/7/754](https://lkml.org/lkml/2015/7/7/754)
 </td>
 </tr>
 <tr >
@@ -275,7 +275,7 @@ EAS RFCv5
 SchedTune proposal
 </td>
 
-<td style="text-align: left;" >\\[https://lkml.org/lkml/2015/8/19/419](https://lkml.org/lkml/2015/8/19/419)
+<td style="text-align: left;" >\\\[https://lkml.org/lkml/2015/8/19/419](https://lkml.org/lkml/2015/8/19/419)
 </td>
 </tr>
 <tr >
@@ -285,7 +285,7 @@ Foundational Patches
 (frequency and microarchitecture contribution to capacity/utilization, split out from RFCv5)
 </td>
 
-<td style="text-align: left;" >\\[https://lkml.org/lkml/2015/8/14/296](https://lkml.org/lkml/2015/8/14/296)
+<td style="text-align: left;" >\\\[https://lkml.org/lkml/2015/8/14/296](https://lkml.org/lkml/2015/8/14/296)
 </td>
 </tr>
 <tr >
@@ -294,7 +294,7 @@ Foundational Patches
 Yuyang Du PELT rewrite v10 containing Arm enhancements to utilization calculation  (already queued for merging)
 </td>
 
-<td style="text-align: left;" >\\[https://lkml.org/lkml/2015/7/15/159](https://lkml.org/lkml/2015/7/15/159)
+<td style="text-align: left;" >\\\[https://lkml.org/lkml/2015/7/15/159](https://lkml.org/lkml/2015/7/15/159)
 </td>
 </tr>
 </tbody>
@@ -329,7 +329,7 @@ SchedTune extension for EAS
 </tr>
 </tbody>
 </table>
-\\[/mk_table]\\[vc_row_inner attached="false" padding="0" visibility=""]\\[vc_column_inner el_class="" width="1/1"]\\[vc_empty_space height="16px"]\\[/vc_column_inner]\\[/vc_row_inner]\\[mk_table title="List of Source Code Repositories" style="style1"]
+\\\[/mk_table]\\\[vc_row_inner attached="false" padding="0" visibility=""]\\\[vc_column_inner el_class="" width="1/1"]\\\[vc_empty_space height="16px"]\\\[/vc_column_inner]\\\[/vc_row_inner]\\\[mk_table title="List of Source Code Repositories" style="style1"]
 <table width="100%" >
 
 <tr >
@@ -355,7 +355,7 @@ Idlestat
 </td>
 
 <td style="text-align: center;" markdown="1">
-\\[http://git.linaro.org/power/idlestat.git](http://git.linaro.org/power/idlestat.git)
+\\\[http://git.linaro.org/power/idlestat.git](http://git.linaro.org/power/idlestat.git)
 </td>
 </tr>
 <tr >
@@ -365,7 +365,7 @@ rt-app/workloadgen
 </td>
 
 <td style="text-align: center;" markdown="1">
-\\[https://git.linaro.org/power/rt-app.git](https://git.linaro.org/power/rt-app.git)
+\\\[https://git.linaro.org/power/rt-app.git](https://git.linaro.org/power/rt-app.git)
 </td>
 </tr>
 <tr >
@@ -375,7 +375,7 @@ TRAPpy
 </td>
 
 <td style="text-align: center;" markdown="1">
-\\[https://github.com/Arm-software/trappy](https://github.com/Arm-software/trappy)
+\\\[https://github.com/Arm-software/trappy](https://github.com/Arm-software/trappy)
 </td>
 </tr>
 <tr >
@@ -385,7 +385,7 @@ BART
 </td>
 
 <td style="text-align: center;" markdown="1">
-\\[https://github.com/Arm-software/bart](https://github.com/Arm-software/bart)
+\\\[https://github.com/Arm-software/bart](https://github.com/Arm-software/bart)
 </td>
 </tr>
 <tr >
@@ -395,7 +395,7 @@ Workload Automation
 </td>
 
 <td style="text-align: center;" markdown="1">
-\\[https://github.com/Arm-software/workload-automation](https://github.com/Arm-software/workload-automation)
+\\\[https://github.com/Arm-software/workload-automation](https://github.com/Arm-software/workload-automation)
 </td>
 </tr>
 </tbody>
