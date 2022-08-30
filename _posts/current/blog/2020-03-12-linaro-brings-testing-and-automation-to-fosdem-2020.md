@@ -24,7 +24,7 @@ Here are some of the highlights:
 * [One test output format to unite them all](https://fosdem.org/2020/schedule/event/testing_one_test_output_format/) by Boris Feld was a fun talk that highlighted output format (although he is trying to solve the input format as well)
 * [Testing a large testing software](https://archive.fosdem.org/2020/schedule/event/testing_large_testing_software/) by Linaro Engineer Rémi Duraffort was a great talk on how to mock up your software so you're able to test it. Remi talked about Linaro's Automated Validation Architecture (LAVA) [](https://www.lavasoftware.org/)and how it is becoming the de facto standard to test hardware.
 * [How to fail successfully and reliably](https://fosdem.org/2020/schedule/event/testing_fail_successfully_reliably/) by Saleem Siddiqui was an interesting high level talk. Key takeaway was “to fail fast” and “fail without regrets”. That and “bikeshedding”.
-* [Writing Go(od) Tests](https://fosdem.org/2020/schedule/event/testing_writing_go_tests/) by Nikki Attea was a great talk about test driven development.
+* [Writing Go(od) Tests](https://archive.fosdem.org/2020/schedule/event/testing_writing_go_tests/) by Nikki Attea was a great talk about test driven development.
 
 For FOSDEM 2021, I’d like to see more devrooms for testing like “Automated firmware and kernel testing”. “Automated testing” can be the devroom that covers broader talks about how to harmonise test output formats.
 
