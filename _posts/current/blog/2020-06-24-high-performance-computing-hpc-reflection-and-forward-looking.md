@@ -71,7 +71,7 @@ unlock R       <--- c/c++ user control command
                <--- Register R is now rewritable and flushable
 ```
 
-Aarch64 may have a workaround to [enable/disable flushing](https://developer.arm.com/docs/ddi0595/e/aarch64-system-registers/fpcr). However, we welcome your thoughts on this topic. Email: [hpc-sig@linaro.org](mailto:hpc-sig@linaro.org)
+Aarch64 may have a workaround to [enable/disable flushing](https://developer.arm.com/documentation/ddi0595/2021-12/). However, we welcome your thoughts on this topic. Email: [hpc-sig@linaro.org](mailto:hpc-sig@linaro.org)
 
 Linaro’s HPC-SIG are working towards [profiling HPC](https://resources.linaro.org/en/resource/Ld2UGAdVvcTZRs89kSJsbr) vector dependent applications for code hotspots, bottlenecks and cache misses in the Neoverse platform.
 
