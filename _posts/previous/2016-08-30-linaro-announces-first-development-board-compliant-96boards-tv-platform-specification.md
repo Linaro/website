@@ -35,7 +35,7 @@ Developers using the Poplar board can experiment with “secure world” operati
 
 {% include image.html path="/assets/images/blog/chart-4.jpg" alt="Chart 4 Image" %}
 
-For more information, visit <http://www.96boards.org/product/poplar/>
+For more information, visit [http://www.96boards.org/product/poplar/](https://www.96boards.org/product/poplar/)
 
 **About Linaro**
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
