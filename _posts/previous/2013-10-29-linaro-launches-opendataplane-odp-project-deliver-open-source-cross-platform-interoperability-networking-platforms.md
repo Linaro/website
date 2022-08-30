@@ -58,7 +58,7 @@ ODP Supporting Quotes From LNG Members
 
 “As a world leading operating systems solutions provider for Networking, we see OpenDataPlane as a much awaited step forward, driving speed and innovation in the IP application and transport domain”, said Tobias Lindquist, CTO, Enea. “ODP will be a business enabler for us, where we can continue to compete with new offers, granting our customers a greater re-use of software resources and a simpler migration between hardware platforms.”
 
-*About Enea:* Enea is a global vendor of Linux and Real-time operating system solutions including middleware, tools, protocols and services. The company is a world leader in developing software platforms for communication-driven products in multiple verticals, with extreme demands on high-availability and performance. For more information, please visit: [www.enea.com](http://www.enea.com/).
+*About Enea:* Enea is a global vendor of Linux and Real-time operating system solutions including middleware, tools, protocols and services. The company is a world leader in developing software platforms for communication-driven products in multiple verticals, with extreme demands on high-availability and performance. For more information, please visit: [www.enea.com](https://www.enea.com/).
 
 **LSI**
 
