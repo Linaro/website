@@ -7,7 +7,12 @@ wordpress_id: 4419
 layout: post
 title: Industry Leaders Collaborate to Accelerate Software Ecosystem for Arm
   Servers, and Join Linaro
+description: AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP,
+  Marvell and Red Hat join existing Linaro members Arm, HiSilicon, Samsung and
+  ST-Ericsson to form new group focused on accelerating Linux development for
+  Arm servers
 image: /assets/images/content/linaro-logo.png
+category: news
 author: linaro
 slug: industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro
 date: 2012-11-01 12:21:45
@@ -16,13 +21,7 @@ tags:
 link: /news/industry-leaders-collaborate-to-accelerate-software-ecosystem-for-arm-servers-and-join-linaro/
 categories:
   - news
-description: AMD, AppliedMicro, Calxeda, Canonical, Cavium, Facebook, HP,
-  Marvell and Red Hat join existing Linaro members Arm, HiSilicon, Samsung and
-  ST-Ericsson to form new group focused on accelerating Linux development for
-  Arm servers
-category: news
 ---
-
 SANTA CLARA, US - 1 NOV 2012
 
 ## In summary
@@ -39,7 +38,7 @@ Speaking at Arm’s largest annual developer conference, TechCon, Arm CEO Warren
 
 “Linaro is building a high-quality software engineering team that is working with our members on the development of key enabling software for the new generation of low-power, high-performance, hyperscale servers,” said George Grey, CEO of Linaro, “We are especially pleased with the broad industry support and to be working with commercial Linux providers and OEMs in addition to SoC vendors to ensure that we meet the requirements of all members of the ecosystem.”
 
-Linaro uses a unique business model where multiple companies jointly invest in a software engineering team that creates core open source software in a collaborative and transparent environment. The effectiveness of Linaro’s approach has been demonstrated by Linaro becoming the third-largest company contributor to the Linux 3.5 kernel\*. Linaro’s contribution to improving Arm’s support in the open source Linux community has recently been recognized by Linus Torvalds\*\*.
+Linaro uses a unique business model where multiple companies jointly invest in a software engineering team that creates core open source software in a collaborative and transparent environment. The effectiveness of Linaro’s approach has been demonstrated by Linaro becoming the third-largest company contributor to the Linux 3.5 kernel\*. Linaro’s contribution to improving Arm’s support in the open source Linux community has recently been recognized by Linus Torvalds\**.
 
 “Linux is driving innovation in every area of computing from mobile and embedded to the cloud. Linaro’s enterprise efforts will bring together software engineers to help accelerate Linux development for Arm servers, and we’re confident that this new server-focused group will advance Linux in these areas and offer additional choices to Linux users around the world.” said Jim Zemlin, executive director of the Linux Foundation.
 
@@ -91,7 +90,7 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 “Cavium’s Project Thunder is designed to deliver a family of highly integrated, multi-core processors that will incorporate full custom cores built from the ground up based on the 64-bit Armv8 instruction set architecture (ISA) into an innovative system-on-chip (SoC) solution. Thunder SoCs are designed to redefine features, performance, power and cost metrics for the next generation cloud and datacenter markets,” said Raghib Hussain, CTO and Cofounder of Cavium. “We are committed to supporting Linaro’s LEG effort that will provide a unified and consistent software base for our customers and ecosystem partners. LEG’s software specifications and deliverables will accelerate Arm based server development.”
 
-*About Cavium:* Cavium is a leading provider of highly integrated semiconductor products that enable intelligent processing in networking, communications and the digital home. Cavium offers a broad portfolio of integrated, software compatible processors ranging in performance from 10 Mbps to over 100 Gbps that enable secure, intelligent functionality in enterprise, data-center, broadband/consumer and access & service provider equipment. Cavium’s processors are supported by ecosystem partners that provide operating systems, tool support, reference designs and other services. Cavium’s principal offices are in San Jose, California with design team locations in California, Massachusetts, India and China. For more information, please visit:[www.cavium.com](http://www.cavium.com/). Media contact: Angel Atondo, +1 408-943-7417 angel.atondo@cavium.com.
+*About Cavium:* Cavium is a leading provider of highly integrated semiconductor products that enable intelligent processing in networking, communications and the digital home. Cavium offers a broad portfolio of integrated, software compatible processors ranging in performance from 10 Mbps to over 100 Gbps that enable secure, intelligent functionality in enterprise, data-center, broadband/consumer and access & service provider equipment. Cavium’s processors are supported by ecosystem partners that provide operating systems, tool support, reference designs and other services. Cavium’s principal offices are in San Jose, California with design team locations in California, Massachusetts, India and China. For more information, please visit:[www.cavium.com](https://www.marvell.com/). Media contact: Angel Atondo, +1 408-943-7417 angel.atondo@cavium.com.
 
 **Facebook**
 
