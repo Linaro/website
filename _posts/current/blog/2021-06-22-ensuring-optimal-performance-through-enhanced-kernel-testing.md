@@ -69,7 +69,7 @@ The patch is by no means a full implementation of a new test for lkp-tests, but 
 
 **Resources:**
 
-\[1] <https://01.org/lkp>
+\[1] [https://01.org/lkp](http://lwn.net/Articles/555968/)
 
 \[2] <https://github.com/Linaro/test-definitions>
 
