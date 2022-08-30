@@ -17,10 +17,9 @@ tags:
 category: blog
 author: linaro
 ---
-
 ## Introduction
 
-[Morello](https://developer.arm.com/architectures/cpu-architecture/a-profile/morello) is a research program developed by Arm in collaboration with the University of Cambridge. Its aim is to develop and use a Capability Hardware Enhanced RISC Instructions (CHERI) architecture. Morello makes use of non-software-forgeable 128(+1)-bit Capabilities, which should be able to limit how references are used. This has the potential to improve memory safety, which should, in turn, make future systems more secure. Capabilities can also help with software compartmentalization, ensuring that the effects of an attack are less severe. In order to test the architecture, there is currently a Morello compatible Android build.
+[Morello](https://www.arm.com/architecture/cpu/morello) is a research program developed by Arm in collaboration with the University of Cambridge. Its aim is to develop and use a Capability Hardware Enhanced RISC Instructions (CHERI) architecture. Morello makes use of non-software-forgeable 128(+1)-bit Capabilities, which should be able to limit how references are used. This has the potential to improve memory safety, which should, in turn, make future systems more secure. Capabilities can also help with software compartmentalization, ensuring that the effects of an attack are less severe. In order to test the architecture, there is currently a Morello compatible Android build.
 
 Since Morello is a research project, it has many loose ends and open questions. A key element for new software projects is that they’re somewhat easy to get started with and work with. The purpose of the work undertaken by Linaro interns Lorenzo Carletti and Camilla Memola (overseen by Joakim Bech, Distinguished Engineer at Linaro) was to understand where Morello falls on the scale. Is it really complicated and cumbersome to work with or is it something that is fairly easy to get started with? By working on the Morello project, the Linaro interns were able to report back to the people running the project as to what work was needed to simplify getting started.
 
