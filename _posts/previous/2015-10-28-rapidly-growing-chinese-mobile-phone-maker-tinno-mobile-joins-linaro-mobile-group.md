@@ -18,7 +18,6 @@ tags:
 link: /news/rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group/
 category: news
 ---
-
 Cambridge, UK; 28 October 2015
 
 Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today announced that Shenzhen Tinno Mobile Technology Company Ltd has joined the Linaro Mobile Group (LMG).
@@ -32,7 +31,7 @@ LMG was formed in July 2014 to consolidate and optimize open source software for
 **About Linaro**
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit []() and [http://www.96Boards.org](http://www.96boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](https://www.96boards.org/).
 
 **About Tinno Mobile**
 Shenzhen Tinno Mobile Technology Company Ltd is one of the most famous mobile phone manufacturers in China. Established in 2002, the company’s headquarters are located in Shenzhen, with two factories in DongGuan specializing in designing and manufacturing mobile phones. Tinno Mobile has complete in-house capabilities including strong R&D, manufacturing and worldwide sales. The company is the manufacturer of the first double GSM double online mobile phone in the world, with its own dual SIM mobile phone core technology patent and extensive experience in this area.
