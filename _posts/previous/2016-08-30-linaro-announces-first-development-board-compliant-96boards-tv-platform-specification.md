@@ -1,25 +1,25 @@
 ---
-author: linaro
-category: news
-date: 2016-08-30 12:41:20
-description: 'Cambridge, UK: 30Â August 2016'
-layout: post
-link: /news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/
-slug: linaro-announces-first-development-board-compliant-96boards-tv-platform-specification
-tags:
-- 96Boards
-- Arm
-- Linux
-- Linux On Arm
-- Open Source
-title: Linaro Announces First Development Board Compliant with 96Boards TV Platform
-  Specification
 wordpress_id: 11512
+layout: post
+title: Linaro Announces First Development Board Compliant with 96Boards TV
+  Platform Specification
+description: "Cambridge, UK: 30Â August 2016"
+image: /assets/images/content/40965990761_090a30658a_k.jpg
+tags:
+  - 96Boards
+  - Arm
+  - Linux
+  - Linux On Arm
+  - Open Source
+author: linaro
+slug: linaro-announces-first-development-board-compliant-96boards-tv-platform-specification
+date: 2016-08-30 12:41:20
+link: /news/linaro-announces-first-development-board-compliant-96boards-tv-platform-specification/
+category: news
 ---
-
 Cambridge, UK: 30 August 2016
 
-Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today announced support for the HiSilicon ‘Poplar’ board - the first development board compliant with the 96Boards Enterprise Edition TV Platform specification. The board is the latest addition to the 96Boards family, the open specification defining a platform for the delivery of low-cost 32-bit and 64-bit Arm ecosystem developer boards. It is available to purchase for under \$100 from [Tocoding](http://en.tocoding.com/index.php/96boards-poplar/)[ Technologies](http://en.tocoding.com/index.php/96boards-poplar/).
+Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today announced support for the HiSilicon ‘Poplar’ board - the first development board compliant with the 96Boards Enterprise Edition TV Platform specification. The board is the latest addition to the 96Boards family, the open specification defining a platform for the delivery of low-cost 32-bit and 64-bit Arm ecosystem developer boards. It is available to purchase for under $100 from [Tocoding](http://en.tocoding.com/index.php/96boards-poplar/)[ Technologies](http://en.tocoding.com/index.php/96boards-poplar/).
 
 Developed by HiSilicon, Poplar is a TV reference development board targeted at set-top box (STB) developers, the hobby community, and the open-source community. The board features the Hi3798C V200 with an integrated quad-core 64-bit Arm Cortex A53 processor and high performance Mali T720 GPU, making it capable of running any commercial set-top solution based on Linux or Android. Its high performance specification also supports a premium user experience with up to H.265 HEVC decoding of 4K video at 60 frames per second. The board will be launched with Android 5.1.1 pre-installed for an instant boot out of the box.
 
@@ -35,9 +35,9 @@ Developers using the Poplar board can experiment with “secure world” operati
 
 {% include image.html path="/assets/images/blog/chart-4.jpg" alt="Chart 4 Image" %}
 
-For more information, visit [http://www.96boards.org/product/poplar/](http://www.96boards.org/product/poplar/)
+For more information, visit <http://www.96boards.org/product/poplar/>
 
-**About Linaro
-**Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
+**About Linaro**
+Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit[ ](/) and [http://www.96Boards.org](http://www.96boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit[ ](/) and [http://www.96Boards.org](https://www.96boards.org/).
