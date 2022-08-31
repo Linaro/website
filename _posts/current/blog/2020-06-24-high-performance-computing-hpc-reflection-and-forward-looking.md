@@ -71,13 +71,13 @@ unlock R       <--- c/c++ user control command
                <--- Register R is now rewritable and flushable
 ```
 
-Aarch64 may have a workaround to [enable/disable flushing](https://developer.arm.com/docs/ddi0595/e/aarch64-system-registers/fpcr). However, we welcome your thoughts on this topic. Email: [hpc-sig@linaro.org](mailto:hpc-sig@linaro.org)
+Aarch64 may have a workaround to [enable/disable flushing](https://developer.arm.com/documentation/ddi0595/2021-12/). However, we welcome your thoughts on this topic. Email: [hpc-sig@linaro.org](mailto:hpc-sig@linaro.org)
 
 Linaro’s HPC-SIG are working towards [profiling HPC](https://resources.linaro.org/en/resource/Ld2UGAdVvcTZRs89kSJsbr) vector dependent applications for code hotspots, bottlenecks and cache misses in the Neoverse platform.
 
 **Background on Scalable Vector Extension (SVE)**
 
-Prior to SVE, single-instruction-multiple-data was implemented using Arm’s Neon technology. Neon has been used predominantly in accelerating audio and video encoding/decoding as well as 2D/3D graphics. The[ Neon intrinsics](https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/intrinsics?page=1) are function calls that the compiler replaces with Neon instruction(s). [SVE intrinsics](https://developer.arm.com/docs/100891/latest/coding-considerations/using-sve-intrinsics-directly-in-your-c-code) are a different set of function calls to make use of scalable vector extension hardware. This was the first pass at agnostic vector lengths. A further development for SVE2 (to be utilised by silicon vendors in the future) will enable a common set of intrinsics which can make use of both SVE and NEON hardware optimisations, as described in the Arm presentation at Linaro’s Connect conference ([SAN19](https://resources.linaro.org/en/resource/dURtYSHjBaT7kcCpWXcXcG)).
+Prior to SVE, single-instruction-multiple-data was implemented using Arm’s Neon technology. Neon has been used predominantly in accelerating audio and video encoding/decoding as well as 2D/3D graphics. The[ Neon intrinsics](https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/intrinsics?page=1) are function calls that the compiler replaces with Neon instruction(s). [SVE intrinsics](https://developer.arm.com/documentation/100891/0612/coding-considerations/using-sve-intrinsics-directly-in-your-c-code) are a different set of function calls to make use of scalable vector extension hardware. This was the first pass at agnostic vector lengths. A further development for SVE2 (to be utilised by silicon vendors in the future) will enable a common set of intrinsics which can make use of both SVE and NEON hardware optimisations, as described in the Arm presentation at Linaro’s Connect conference ([SAN19](https://resources.linaro.org/en/resource/dURtYSHjBaT7kcCpWXcXcG)).
 
 **Related applications - [SVE in QEMU's linux-user mode](/blog/sve-in-qemu-linux-user/)**
 
