@@ -1,26 +1,27 @@
 ---
-author: linaro
-category: news
-date: 2015-03-03 14:00:23
-description: OpenDataPlane (ODP) enables proven software portability between network
-  compute platforms, regardless of the underlying instruction set architecture (ISA),
-  as well as transparent support for any hardware or software acceleration capability.
-layout: post
-link: /news/linaro-enables-wider-portability-high-speed-networking-applications-release-opendataplane-v1-0/
-slug: linaro-enables-wider-portability-high-speed-networking-applications-release-opendataplane-v1-0
-tags:
-- Connect
-- Linaro
-- Linaro Connect
-- Linux
-- Linux On Arm
-- Networking
-- Open Source
-title: Linaro Enables Wider Portability of High Speed Networking Applications with
-  Release of OpenDataPlane v1.0
 wordpress_id: 8220
+layout: post
+title: Linaro Enables Wider Portability of High Speed Networking Applications
+  with Release of OpenDataPlane v1.0
+description: OpenDataPlane (ODP) enables proven software portability between
+  network compute platforms, regardless of the underlying instruction set
+  architecture (ISA), as well as transparent support for any hardware or
+  software acceleration capability.
+image: /assets/images/content/Banner_Virtualization.jpg
+tags:
+  - Connect
+  - Linaro
+  - Linaro Connect
+  - Linux
+  - Linux On Arm
+  - Networking
+  - Open Source
+author: linaro
+slug: linaro-enables-wider-portability-high-speed-networking-applications-release-opendataplane-v1-0
+date: 2015-03-03 14:00:23
+link: /news/linaro-enables-wider-portability-high-speed-networking-applications-release-opendataplane-v1-0/
+category: news
 ---
-
 ## OpenDataPlane (ODP) enables proven software portability between network compute platforms, regardless of the underlying instruction set architecture (ISA), as well as transparent support for any hardware or software acceleration capability.
 
 Cambridge, UK; 3 March 2015
@@ -37,7 +38,7 @@ Included in this release is the definition of the ODP v1.0 APIs, an open source 
 
 **For more information about ODP, to download a copy of version 1.0, or to become involved in the project, please visit [OpenDataPlane.org.](http://www.opendataplane.org/)**
 
-**_Supporting Quotes_**
+***Supporting Quotes***
 
 **Arm**
 
@@ -63,27 +64,27 @@ Included in this release is the definition of the ODP v1.0 APIs, an open source 
 
 “Mobile broadband operators face a spread of challenges and exciting new opportunities to build profitability. Traffic growth continues almost unbounded, demanding new network capacity, yet traffic patterns are increasingly unpredictable. At the same time, providing a great network experience for subscribers is extremely important and will become critical as a principal driver of revenue. To meet these needs, operators require extreme flexibility in their network and operations to satisfy their customers by responding with rapid time-to-market performance. In parallel, they need to see a drastic reduction in their total ‘production’ cost per bit. OpenDataPlane is a continuation in our effort to provide better application portability, faster time-to-market, higher performance and lower power across all networking applications,” said Jarmo Hillo, Head of Processor Technology at Nokia Networks.
 
----
+- - -
 
 **About Linaro**
 Linaro is the place where engineers from the world’s leading technology companies define the future of Linux on Arm. The company is a not-for-profit engineering organization with over 150 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit []().
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [](<>).
 
 **About Arm** Arm is at the heart of the world's most advanced digital products. Our technology enables the creation of new markets and transformation of industries and society. We design scalable, energy-efficient processors and related technologies to deliver the intelligence in applications ranging from sensors to servers, including smartphones, tablets and the internet of things.
 
-Our innovative technology is licensed by Arm Partners who have shipped more than 60 billion system-on-chip (SoC) devices containing Arm intellectual property since the company began in 1990. Together with our Connected Community, we are breaking down barriers to innovation for developers, designers and engineers, ensuring a fast, reliable route to market for leading electronics companies. Learn more and join the conversation at [http://community.arm.com](http://community.arm.com).
+Our innovative technology is licensed by Arm Partners who have shipped more than 60 billion system-on-chip (SoC) devices containing Arm intellectual property since the company began in 1990. Together with our Connected Community, we are breaking down barriers to innovation for developers, designers and engineers, ensuring a fast, reliable route to market for leading electronics companies. Learn more and join the conversation at <http://community.arm.com>.
 
-**About Cavium** Cavium is a leading provider of highly integrated semiconductor products that enable intelligent processing in enterprise, data center, cloud and wired and wireless service provider applications. Cavium offers a broad portfolio of integrated, software-compatible processors ranging in performance from 100 Mbps to 100 Gbps that enable secure, intelligent functionality in enterprise, data-center, broadband/consumer and access and service provider equipment. Cavium’s processors are supported by ecosystem partners that provide operating systems, tool support, reference designs and other services. Cavium’s principal office is in San Jose, CA with design team locations in California, Massachusetts, India and China. For more information, please visit: [http://www.cavium.com](http://www.cavium.com).
+**About Cavium** Cavium is a leading provider of highly integrated semiconductor products that enable intelligent processing in enterprise, data center, cloud and wired and wireless service provider applications. Cavium offers a broad portfolio of integrated, software-compatible processors ranging in performance from 100 Mbps to 100 Gbps that enable secure, intelligent functionality in enterprise, data-center, broadband/consumer and access and service provider equipment. Cavium’s processors are supported by ecosystem partners that provide operating systems, tool support, reference designs and other services. Cavium’s principal office is in San Jose, CA with design team locations in California, Massachusetts, India and China. For more information, please visit: [http://www.cavium.com](<https://www.marvell.com/ >).
 
-**About ENEA** Enea is a global supplier of Linux and real-time operating system solutions, including middleware, tools, databases, and world class services, with a vision to enable communication everywhere. As a trusted and respected player in the embedded software eco system, Enea has for more than four decades delivered value and helped customers develop and maintain ground-breaking products. Every day, more than three billion people around the globe rely on Enea’s technologies in a wide range of applications in multiple verticals – from Telecom and Automotive, to Medical and Avionics. Enea has offices in Europe, North America and Asia, and is listed on NASDAQ OMX Nordic Exchange Stockholm AB. For more information please visit [www.enea.com](http://www.enea.com) or contact us at [info@enea.com](mailto:info@enea.com).
+**About ENEA** Enea is a global supplier of Linux and real-time operating system solutions, including middleware, tools, databases, and world class services, with a vision to enable communication everywhere. As a trusted and respected player in the embedded software eco system, Enea has for more than four decades delivered value and helped customers develop and maintain ground-breaking products. Every day, more than three billion people around the globe rely on Enea’s technologies in a wide range of applications in multiple verticals – from Telecom and Automotive, to Medical and Avionics. Enea has offices in Europe, North America and Asia, and is listed on NASDAQ OMX Nordic Exchange Stockholm AB. For more information please visit [www.enea.com](https://www.enea.com/) or contact us at [info@enea.com](mailto:info@enea.com).
 
 **About Freescale Semiconductor**
-Freescale Semiconductor (NYSE:FSL) enables secure, embedded processing solutions for the Internet of Tomorrow. Freescale’s solutions drive a more innovative and connected world, simplifying our lives and making us safer. While serving the world’s largest companies, Freescale is also committed to supporting science, technology, engineering and math (STEM) education, enabling the next generation of innovators. [www.freescale.com](http://www.freescale.com)
+Freescale Semiconductor (NYSE:FSL) enables secure, embedded processing solutions for the Internet of Tomorrow. Freescale’s solutions drive a more innovative and connected world, simplifying our lives and making us safer. While serving the world’s largest companies, Freescale is also committed to supporting science, technology, engineering and math (STEM) education, enabling the next generation of innovators. [www.freescale.com](https://www.nxp.com/)
 
 **About MontaVista Software** MontaVista Software, LLC, a wholly owned subsidiary of Cavium, Inc. (NASDAQ: CAVM), is a leading provider of Carrier Grade Linux and Cloud Platform solutions. For over 15 years, MontaVista has been helping Linux developers get the most out of open source by adding commercial quality, integration, hardware enablement, expert support, and the resources of the MontaVista development community. Because MontaVista customers enjoy faster time to market, more competitive device functionality, and lower total cost, more devices have been deployed with MontaVista than with any other Linux. To learn more, please visit http://www.mvista.com
 
 **About Nokia Networks**
 Nokia invests in technologies important in a world where billions of devices are connected. We are focused on three businesses: network infrastructure software, hardware and services, which we offer through Nokia Networks; location intelligence, which we provide through HERE; and advanced technology development and licensing, which we pursue through Nokia Technologies. Each of these businesses is a leader in its respective field.
 
-Nokia Networks is the world’s specialist in mobile broadband. From the first ever call on GSM, to the first call on LTE, we operate at the forefront of each generation of mobile technology. Our global experts invent the new capabilities our customers need in their networks. We provide the world’s most efficient mobile networks, the intelligence to maximize the value of those networks, and the services to make it all work seamlessly. [http://networks.nokia.com/](http://networks.nokia.com/)   [http://company.nokia.com](http://company.nokia.com)
+Nokia Networks is the world’s specialist in mobile broadband. From the first ever call on GSM, to the first call on LTE, we operate at the forefront of each generation of mobile technology. Our global experts invent the new capabilities our customers need in their networks. We provide the world’s most efficient mobile networks, the intelligence to maximize the value of those networks, and the services to make it all work seamlessly. <http://networks.nokia.com/>   <http://company.nokia.com>
