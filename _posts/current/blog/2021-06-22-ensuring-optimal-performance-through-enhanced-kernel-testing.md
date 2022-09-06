@@ -18,7 +18,6 @@ related_projects:
 category: blog
 author: linaro
 ---
-
 ## Introduction
 
 As part of Linaro’s mission to improve the Arm architecture ecosystem, Linaro created LKFT - Linaro’s Kernel Functional Test framework. The mission of Linaro’s Kernel Functional Test Framework is to improve the quality of the Linux kernel by performing functional testing on Arm hardware.
@@ -59,7 +58,7 @@ Here you can see the workflow for LAVA and the python script that formats the me
 
 by Federico Gelmetti
 
-[lkp-tests](https://01.org/lkp) \[1] is a framework aimed at testing various parts of a kernel, to track its performance and robustness.
+[lkp-tests](http://lwn.net/Articles/555968/) \[1] is a framework aimed at testing various parts of a kernel, to track its performance and robustness.
 It runs a large set of benchmarks which cover core components of the Linux kernel: virtual memory management, I/O subsystem, process scheduler, file system, network, device drivers, and more. The interest towards lkp-tests was born with the intent of adding the test cases already configured in the suite into Linaro’s [test-definitions](https://github.com/Linaro/test-definitions) \[2] suite.
 
 After a bit of digging, we came to the conclusion that the best route would be to call lkp-tests from test-definitions directly, to avoid exporting all the individual test cases from lkp-tests to test-definitions.
@@ -70,7 +69,7 @@ The patch is by no means a full implementation of a new test for lkp-tests, but 
 
 **Resources:**
 
-\[1] <https://01.org/lkp>
+\[1] [https://01.org/lkp](http://lwn.net/Articles/555968/)
 
 \[2] <https://github.com/Linaro/test-definitions>
 
