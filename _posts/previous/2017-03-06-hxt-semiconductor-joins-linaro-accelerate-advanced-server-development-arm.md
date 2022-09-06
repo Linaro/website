@@ -2,6 +2,7 @@
 wordpress_id: 12223
 layout: post
 title: HXT Semiconductor Joins Linaro to Accelerate Advanced Server Development on Arm
+description: Budapest, Hungary; 6 March 2017
 image: /assets/images/content/code.jpg
 tags:
   - Arm
@@ -10,12 +11,11 @@ tags:
   - Linaro Connect
   - Linaro Members
   - Membership
-category: news
 author: linaro
 slug: hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm
 date: 2017-03-06 07:57:57
 link: /news/hxt-semiconductor-joins-linaro-accelerate-advanced-server-development-arm/
-description: Budapest, Hungary; 6 March 2017
+category: news
 ---
 Budapest, Hungary; 6 March 2017
 
@@ -37,4 +37,4 @@ Guizhou Huaxintong Semiconductor Technologies Co., Ltd is a joint venture betwee
 
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company is headquartered in the UK with over 300 engineers working in 26 countries on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](http://www.96boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](https://www.96boards.org/).

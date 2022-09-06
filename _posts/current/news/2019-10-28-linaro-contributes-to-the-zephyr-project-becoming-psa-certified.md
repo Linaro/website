@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 'Linaro contributes to the Zephyr Project becoming PSA certified '
-date: '2019-10-28 05:38:49'
+title: Zephyr Project Becomes PSA Certified
+date: "2019-10-28 05:38:49"
 image: /assets/images/content/city.jpg
 tags:
-- Zephyr
-- IoT and Embedded
-- PSA Certified
-- Arm
-- Security
+  - Zephyr
+  - IoT and Embedded
+  - PSA Certified
+  - Arm
+  - Security
 category: news
 author: linaro
 ---

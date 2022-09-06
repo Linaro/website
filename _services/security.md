@@ -1,5 +1,5 @@
 ---
-title: Security
+title: Security | Secure Boot, OP-TEE, Trustzone, SystemReady
 description: >
   Linaro Developer Services has deep hands-on expertise in the areas of secure
   boot, OP-TEE, secure operating systems and Arm’s SystemReady specifications.
@@ -20,7 +20,8 @@ jumbotron:
   buttons:
     - title: Contact Us
       url: "#contact_form"
-      style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase
+      style:
+        btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase
         ds_contact_form_btn
     - title: Contact Us
       url: "#contact_form"

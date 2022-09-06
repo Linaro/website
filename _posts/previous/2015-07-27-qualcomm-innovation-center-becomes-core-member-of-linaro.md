@@ -1,22 +1,22 @@
 ---
-author: linaro
-category: news
-comments: false
-date: 2015-07-27 15:42:17
-description: Qualcomm Innovation Center becomes Core Member of Linaro
 excerpt: Qualcomm Innovation Center becomes Core Member of Linaro
-layout: post
-link: /news/qualcomm-innovation-center-becomes-core-member-of-linaro/
-slug: qualcomm-innovation-center-becomes-core-member-of-linaro
-tags:
-- Linaro
-- Linux
-- Linux On Arm
-- Members
-title: Qualcomm Innovation Center becomes Core Member of Linaro
 wordpress_id: 9049
+layout: post
+author: linaro
+slug: qualcomm-innovation-center-becomes-core-member-of-linaro
+description: Qualcomm Innovation Center becomes Core Member of Linaro
+date: 2015-07-27 15:42:17
+comments: false
+title: Qualcomm Innovation Center becomes Core Member of Linaro
+tags:
+  - Linaro
+  - Linux
+  - Linux On Arm
+  - Members
+link: /news/qualcomm-innovation-center-becomes-core-member-of-linaro/
+image: /assets/images/content/Code_Image_Core_tech.jpg
+category: news
 ---
-
 Cambridge, UK; 27 July 2015
 
 Linaro Ltd, the collaborative engineering organization developing open source software for the Arm® architecture, today announced that Qualcomm Innovation Center, Inc. (QuIC), a subsidiary of Qualcomm Incorporated, has become a Core Member of Linaro.
@@ -33,4 +33,4 @@ Jason Bremner, senior vice president product management for Qualcomm Technologie
 
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company is a collaborative engineering organization with over 200 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit []() and [http://www.96Boards.org](http://www.96Boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](https://www.96boards.org/).

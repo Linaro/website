@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linaro donates OP-TEE into the Trusted Firmware Project
+title: OP-TEE donated into Trusted Firmware Project
 description: "Linaro announces that OP-TEE is moving to become part of the
   Trusted Firmware open project managed by Linaro. Read more here. "
 date: 2019-09-23 01:00:00

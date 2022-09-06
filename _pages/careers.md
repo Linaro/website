@@ -139,9 +139,10 @@ flow:
       - format: text
         style: text-left
         text_content:
-          text: "[Internships](https://linaro.co/linaro-interns-brochure) \\| [View our
-            Privacy Policy](/assets/downloads/careers-privacy-policy.pdf) \\|
-            [View our Recruitment
+          text: "[Internships](https://static.linaro.org/assets/Linaro_Interns_Brochure.p\
+            df) | [View our Privacy
+            Policy](/assets/downloads/careers-privacy-policy.pdf) | [View our
+            Recruitment
             Policy](/assets/downloads/Recruitment-and-SelectionPolicyProcedure.\
             pdf)"
 ---
