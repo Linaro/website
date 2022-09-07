@@ -1,4 +1,17 @@
 #flow_wrapper {
+  .lds_section {
+    h2 {
+      font-weight: bold;
+    }
+    .left_column {
+      p {
+        font-size: 26px;
+        @include media-breakpoint-down(sm) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
   .btn[data-theme-id="core-technologies"] {
     background-color: #666666;
     border: 1px solid #d7d7d7 !important;
