@@ -116,23 +116,6 @@
     .theme_header_image.hidden_image {
       opacity: 0;
     }
-    &:before {
-      position: absolute;
-      content: "";
-      height: 15px;
-      width: 100%;
-      top: 0;
-      z-index: 2;
-      left: 0;
-      background-color: #ccc;
-      background: linear-gradient(
-        to left,
-        rgba(#000, 1) 0%,
-        rgba(#fff, 1) 100%
-      );
-      width: 100%;
-      border-bottom: 1px solid #000;
-    }
     &:after {
       position: absolute;
       content: "";
@@ -158,8 +141,6 @@
         span.font-weight-bolder {
           font-weight: 900;
         }
-        border-left: 5px solid $primary;
-        padding-left: 20px;
         margin: 50px 0 !important;
         max-width: 840px;
         @include media-breakpoint-down(md) {
@@ -190,6 +171,7 @@
     .nav-link.active {
       border: 0;
       border-radius: 0;
+      border: 1px solid $primary;
     }
     .item_wrapper {
       padding: 10px;
