@@ -1,7 +1,6 @@
 <div
   class="jumbotron row d-flex align-items-baseline jumbotron-fluid background_image"
 id="homepage_header">
-<div class="homepage_header_overlay"></div>
     {% assign themes_to_show = "" | split: "," %}
     {% for theme in site.themes %}
         {% unless theme.sub_theme or theme.title == "Automotive" %}
