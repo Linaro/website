@@ -17,6 +17,8 @@ layout: flow
 flow:
   - row: custom_include_row
     source: home/homepage_header.html
+  - row: custom_include_row
+    source: home/quick_links.html
   - row: container_row
     style: bg-light members_section
     sections:
