@@ -32,6 +32,30 @@ flow:
         source: membership/members_section.html
       - format: custom_include
         source: home/member_testimonials.html
+  - row: full_width_row
+    style: bg-white lds_section py-0
+    sections:
+      - format: two_column
+        style: #
+        breakpoint: md
+        left_column:
+          custom_size: 6
+          style: px-3 py-5
+          text: |
+            ## Linaro Developer Services
+
+            If you want to leverage Linaro’s Arm and open source software expertise on a specific project, then working with Linaro Developer Services is the right option for you.
+
+            From initial design through to development, implementation, support and training, Linaro Developer Services help you leverage open source on Arm to ensure fast time to market, exceptional quality and security, and cost effective long term maintenance..
+          buttons:
+            - title: Find out more about Linaro Developer Services
+              url: /services/
+              class: btn-primary
+        right_column:
+          custom_size: 6
+          style: rocket_svg px-0
+          image: /assets/images/content/RocketGraphic.svg
+          image_alt: Linaro Developer Services rocket launching upwards
   - row: container_row
     style: bg-secondary stats_row text-white
     sections:
@@ -46,7 +70,7 @@ flow:
   - row: custom_include_row
     source: about/maintainers_by_project.html
   - row: container_row
-    style: bg-secondary text-white py-0 project_collab_section
+    style: bg-secondary text-white py-0 mb-5 project_collab_section
     sections:
       - format: title
         style: ""
