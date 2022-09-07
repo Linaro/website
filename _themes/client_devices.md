@@ -8,7 +8,7 @@ image: /assets/images/content/client-devices-share-image.png
 icon: /assets/images/content/Client_Devices_icon_white.svg
 icon_dark: /assets/images/content/CD.svg
 icon_alt: /assets/images/content/Client_Devices_icon.svg
-icon_col: /assets/images/content/Icon_Client_Devices_colour.svg
+icon_col: /assets/images/content/Client_Devices_icon_col.svg
 js-package: contactForm
 description: >
   Linaro works with member companies to achieve the optimal user experience on client devices by helping upstream new features, reduce technical debt and detect regressions.
