@@ -51,14 +51,6 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- <div class="col col-12 col-lg-6 block__text">
-                            <blockquote>
-                                &ldquo;{{testimonial.quote}}&rdquo;
-                            </blockquote>
-                            <div class="attribution">
-                                <strong>{{testimonial.attribution}}</strong>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
                 {% endfor %}
@@ -73,5 +65,19 @@
             </span>
         </a>
         
+    </div>
+    <div class="col col-12 col-md-6 d-flex px-md-5 flex-column justify-content-around border-right membership_col">
+        <h3 class="cta_header py-4"><span class="bullet blue"></span>{{site.data.translations.homepage.cta.membershipTitle}}</h3>
+        <p class="cta_text">
+            {{site.data.translations.homepage.cta.membershipText}}
+        </p>    
+        <a class="btn btn-secondary border-0 blue text-uppercase text-white" href="/membership/">
+            <span class="d-none d-md-block">
+                {{site.data.translations.homepage.cta.membershipBtnText}}
+            </span>
+            <span class="d-block d-md-none">
+                {{site.data.translations.learnMore}}
+            </span>
+        </a>
     </div>
 </div>
