@@ -18,6 +18,9 @@
                 {% endcapture %}
                 {% picture feature_block_image {{image_path}} --alt {{image_alt}} %}
             {% endif %}
+            {% if include.object.left_column.buttons %}
+                {% include flow/buttons.html object=include.object.left_column.buttons %}
+            {% endif %}
         </div>
         <div class="col col-12 col-{{include.object.breakpoint}}-{% if include.object.right_column.custom_size%}{{include.object.right_column.custom_size}}{% else %}6{% endif %} right_column {% if include.object.right_column.style %}{{include.object.right_column.style}}{% endif %}">
             {% if include.object.right_column.text %}
