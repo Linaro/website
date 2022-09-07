@@ -14,7 +14,6 @@ id="homepage_header">
       {% picture header_image {{theme_image}} --alt {{alt}} %}
     </div>
 {% endfor %}
-
   <div class="container homepage_header_content">
     <div class="row">
       <div class="col inner_content_wrapper text-left">
@@ -25,5 +24,8 @@ id="homepage_header">
       </div>
     </div>
     {% include home/theme_row.html %}
+    <p>
+      {{site.data.homepage.text}}
+    </p>
   </div>
 </div>
