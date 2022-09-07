@@ -1,15 +1,15 @@
-<div class="row" id="quick_links_row">
+<div class="row bg-black border-primary border-top border-bottom" id="quick_links_row">
     <div class="container">
         <div class="row">
             {% for link in site.data.homepage.quick_links %}
-                <div class="col col-sm-4 quick_link">
-                    <h3 class="text-white">{{link.subject}} - 
+                <div class="col col-12 col-sm-4 quick_link d-flex align-items-center justify-content-center text-center">
+                    <h5 class="text-white font-weight-bold">{{link.subject}} - 
                         <a href="{{link.link}}">
                             <span>
                                 {{link.text}}
                             </span>
                         </a>
-                    </h3>
+                    </h5>
                 </div>
             {% endfor %}
         </div>
