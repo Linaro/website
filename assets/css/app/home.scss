@@ -168,10 +168,12 @@
       height: 50px;
       color: white;
     }
-    .nav-link.active {
-      border: 0;
+    .nav-link {
+      border: 1px solid transparent;
       border-radius: 0;
-      border: 1px solid $primary;
+      &.active {
+        border: 1px solid $primary;
+      }
     }
     .item_wrapper {
       padding: 10px;
