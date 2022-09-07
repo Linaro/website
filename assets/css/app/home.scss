@@ -104,6 +104,9 @@
     font-weight: 900 !important;
   }
   #homepage_header.background_image {
+    .homepage_header_content {
+      z-index: 2;
+    }
     .theme_header_image {
       transition: all 1000ms ease;
       opacity: 1;
@@ -128,8 +131,8 @@
       opacity: 0.7;
       z-index: 1;
     }
+    height: auto;
     z-index: 0;
-    height: 450px;
     &:before {
       position: absolute;
       content: "";
@@ -196,8 +199,6 @@
     }
   }
   #theme_tabs {
-    background-color: #fff;
-    padding-top: 30px !important;
     .theme_title {
       font-size: 16px;
       height: 50px;
@@ -208,14 +209,12 @@
     }
     .item_wrapper {
       padding: 10px;
-      border: 1px solid #eee;
       z-index: 1;
       position: relative;
       margin: 8px;
       height: 100%;
       transition: all 500ms ease;
       .item_innner_wrapper {
-        background-color: #eee;
         height: 100%;
       }
     }
@@ -251,37 +250,25 @@
   #theme_tabs {
     .item.h-100.selected[data-tab-id="core-technologies"] {
       .item_wrapper {
-        border-color: #666666;
-        .item_innner_wrapper {
-          background-color: #d7d7d7 !important;
-        }
+        border-color: $primary;
       }
     }
 
     .item.h-100.selected[data-tab-id="cloud-computing-servers"] {
       .item_wrapper {
         border-color: $primary;
-        .item_innner_wrapper {
-          background-color: #ebf5d7 !important;
-        }
       }
     }
 
     .item.h-100.selected[data-tab-id="client-devices"] {
       .item_wrapper {
-        border-color: #be00be;
-        .item_innner_wrapper {
-          background-color: #f9ebf9 !important;
-        }
+        border-color: $primary;
       }
     }
 
     .item.h-100.selected[data-tab-id="automotive-iot-edge-devices"] {
       .item_wrapper {
-        border-color: #0bb1dd;
-        .item_innner_wrapper {
-          background-color: #cfeff8 !important;
-        }
+        border-color: $primary;
       }
     }
   }
@@ -340,43 +327,10 @@
     }
   }
   #theme_section {
-    div#core-technologies.active {
-      .theme_content_wrapper {
-        border-color: #666666;
-      }
-      .theme_content_inner_wrapper {
-        background-color: #d7d7d7;
-      }
-    }
-    div#automotive-iot-edge-devices.active {
-      .theme_content_wrapper {
-        border-color: #0bb1dd;
-      }
-      .theme_content_inner_wrapper {
-        background-color: #cfeff8;
-      }
-    }
-    div#cloud-computing-servers.active {
-      .theme_content_wrapper {
-        border-color: $primary;
-      }
-      .theme_content_inner_wrapper {
-        background-color: #ebf5d7;
-      }
-    }
-    div#client-devices.active {
-      .theme_content_wrapper {
-        border-color: #be00be;
-      }
-      .theme_content_inner_wrapper {
-        background-color: #f9ebf9;
-      }
-    }
     .theme_content_wrapper {
-      border: 1px solid #eee;
       padding: 10px;
+      color: white;
       .theme_content_inner_wrapper {
-        background-color: #eee;
         padding: 10px;
         display: flex;
         flex-direction: row;
