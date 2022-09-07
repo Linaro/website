@@ -1,0 +1,14 @@
+text: >
+  Linaro works with businesses and open source communities to develop software on Arm-based technology.
+  We create solutions that drive forward the Arm software ecosystem, enhance standardisation, promote
+  collaboration across industries and contribute to real-world applications.
+quick_links:
+  - subject: Featured Project
+    text: Windows on Arm
+    link: /windows-on-arm/
+  - subject: Latest Linux Kernel Release
+    text: 5.19.1
+    link: /blog/linaro-featured-top-in-5-19-linux-kernel-release-the-first-kernel-to-be-released-on-arm64/
+  - subject: Linaro Insights Newsletter
+    text: SUBSCRIBE
+    link: /blog/
