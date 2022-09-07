@@ -108,6 +108,14 @@
     z-index: 0;
     .homepage_header_content {
       z-index: 2;
+      p {
+        font-size: 26px;
+        font-weight: bold;
+        color: white;
+        @include media-breakpoint-down(sm) {
+          font-size: 22px;
+        }
+      }
     }
     .theme_header_image {
       transition: all 1000ms ease;
