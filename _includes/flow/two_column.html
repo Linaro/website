@@ -8,15 +8,19 @@
                 {% include {{include.object.left_column.include}} object=include.object %}
             {% endif %}
             {% if include.object.left_column.image %}
-                {% assign image_path = include.object.left_column.image  %}
-                {% capture image_alt %}
-                    {% if include.object.left_column.image_alt%}
-                        {{include.object.left_column.image}}
-                    {% else %}
-                        {{include.object.left_column.text | truncatewords: 4 }} featured image
-                    {% endif %}
-                {% endcapture %}
-                {% picture feature_block_image {{image_path}} --alt {{image_alt}} %}
+                {% if include.object.left_column.image contains ".svg" %}
+                    <img src="{{include.object.left_column.image}}" alt="{{include.object.left_column.image_alt}}"/>
+                {% else %}
+                    {% assign image_path = include.object.left_column.image  %}
+                    {% capture image_alt %}
+                        {% if include.object.left_column.image_alt%}
+                            {{include.object.left_column.image}}
+                        {% else %}
+                            {{include.object.left_column.text | truncatewords: 4 }} featured image
+                        {% endif %}
+                    {% endcapture %}
+                    {% picture feature_block_image {{image_path}} --alt {{image_alt}} %}
+                {% endif %}
             {% endif %}
             {% if include.object.left_column.buttons %}
                 {% include flow/buttons.html object=include.object.left_column.buttons %}
@@ -33,15 +37,19 @@
                 {% include flow/button.html object=include.object.right_column.button %}
             {% endif %}
             {% if include.object.right_column.image %}
-                {% assign image_path = include.object.right_column.image  %}
-                {% capture image_alt %}
-                    {% if include.object.right_column.image_alt%}
-                        {{include.object.right_column.image}}
-                    {% else %}
-                        {{include.object.right_column.text | truncatewords: 4 }} featured image
-                    {% endif %}
-                {% endcapture %}
-                {% picture feature_block_image {{image_path}} --alt {{image_alt}} %}
+                {% if include.object.right_column.image contains ".svg" %}
+                    <img src="{{include.object.right_column.image}}" alt="{{include.object.right_column.image_alt}}"/>
+                {% else %}
+                    {% assign image_path = include.object.right_column.image  %}
+                    {% capture image_alt %}
+                        {% if include.object.right_column.image_alt%}
+                            {{include.object.right_column.image}}
+                        {% else %}
+                            {{include.object.right_column.text | truncatewords: 4 }} featured image
+                        {% endif %}
+                    {% endcapture %}
+                    {% picture feature_block_image {{image_path}} --alt {{image_alt}} %}
+                {% endif %}
             {% endif %}
         </div>
     </div>
