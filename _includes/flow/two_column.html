@@ -1,5 +1,5 @@
 <div class="col col-12 two_column_feature py-0 {% if include.object.style %}{{include.object.style}}{% endif %}">
-    <div class="row py-0 px-3">
+    <div class="row py-0">
         <div class="col col-12 col-{{include.object.breakpoint}}-{% if include.object.left_column.custom_size%}{{include.object.left_column.custom_size}}{% else %}6{% endif %} left_column {% if include.object.left_column.style %}{{include.object.left_column.style}}{% endif %}">
             {% if include.object.left_column.text %}
                 {{ include.object.left_column.text | markdownify }}
