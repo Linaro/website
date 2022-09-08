@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             {% for link in site.data.homepage.quick_links %}
-                <div class="col col-12 col-sm-4 quick_link d-flex align-items-center justify-content-center text-center">
+                <div class="col col-12 col-sm-4 quick_link d-flex align-items-center justify-content-center text-center {% unless forloop.last %}border-right border-primary{% endunless %}">
                     <h5 class="text-white font-weight-bold">{{link.subject}} - 
                         <a href="{{link.link}}">
                             <span>
