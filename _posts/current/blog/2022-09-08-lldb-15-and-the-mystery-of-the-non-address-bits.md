@@ -61,7 +61,7 @@ All of that is done without increasing the program’s memory usage. Take MTE fo
 
 Let’s look at the layout of a pointer on this system.
 
-{% include image.html path="/assets/images/content/layout-of-a-pointer-.png" alt="Image of a layout of a pointer" % 
+{% include image.html path="/assets/images/content/layout-of-a-pointer-.png" alt="Image of a layout of a pointer" %}
 
 Plugging in the address from the example in the introduction, we get:
 
