@@ -8,7 +8,7 @@ image: /assets/images/content/cloud-computing-and-servers-share-image.png
 icon: /assets/images/content/CC_and_S_icon_white.svg
 icon_dark: /assets/images/content/CC_S.svg
 icon_alt: /assets/images/content/CC_and_S_icon_green.svg
-icon_col: /assets/images/content/Icon_Cloud_Computer_colour.svg
+icon_col: /assets/images/content/Cloud_Computing_Servers.svg
 js-package: contactForm
 description: >
   Linaro works with its member companies on strengthening the software ecosystem for Arm servers by making key open source projects enabled for Arm-based servers.

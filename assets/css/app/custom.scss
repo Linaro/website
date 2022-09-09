@@ -114,10 +114,19 @@
       }
     }
     #members_section {
+      .member_image {
+        height: 120px;
+        background-color: white;
+        width: 100%;
+      }
       .member_col {
-        max-width: 228px;
+        @include media-breakpoint-up(xl) {
+          max-width: 225px;
+        }
         .member_image {
+          width: 100%;
           img {
+            padding: 5px;
             height: 100%;
             object-fit: contain;
           }
@@ -227,15 +236,6 @@
       }
       picture > img {
         filter: brightness(0.3) grayscale(1);
-      }
-    }
-    #members_section {
-      .member_image {
-        height: 150px;
-        background-color: white;
-        img {
-          height: 140px;
-        }
       }
     }
     figure.gradient_quote {

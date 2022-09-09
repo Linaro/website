@@ -110,8 +110,7 @@ $(document).ready(() => {
   if ($("#theme_tabs .item").length > 0) {
     // Set initial selected tab
     $(`[data-tab-id="automotive-iot-edge-devices"]`).addClass("selected");
-    $("#theme_tabs .item").click((e) => {
-      e.preventDefault();
+    $("#theme_tabs .item").hover((e) => {
       SLIDER_PAUSED = true;
       let tab_id = e.currentTarget.attributes["data-tab-id"].value;
       switch_tab(tab_id);
