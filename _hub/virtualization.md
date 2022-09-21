@@ -4,7 +4,7 @@ description: >
   Virtualization creates an abstraction layer over resources such as processors, memory,
   and storage. The dependency between an application and its operating system on
   computing resources is broken.
-general: >
+general: |-
   ## Virtualization
 
   Virtualization creates an abstraction layer over resources such as processors, memory, and storage. The dependency between an application and its operating system on computing resources is broken. The resource pool, or infrastructure, is typically referred to as the host system. 
@@ -41,7 +41,7 @@ general: >
 
   A stateless microservice depends on events rather than any saved data. Stateless services can be created rapidly without complex management and orchestration requirements. Resources are utilised more efficiently because resources do not need to be reserved for resilience.
 
-linaro: >
+linaro: |-
   ## Linaro and virtualisation
 
   Linaro ensures [Quick Emulation (QEMU) is optimised for Arm](https://linaro.atlassian.net/wiki/spaces/QEMU/overview), maintaining Arm-specific code, core translation engine developer features and significant parts of the testing automation Continuous Integration (CI) loop. QEMU is a multi-platform Virtual Machine Monitor (VMM) and emulator that provides foundational functionality for open source projects that develop for the Arm ecosystem and want first sight of new features. 

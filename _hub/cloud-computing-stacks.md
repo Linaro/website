@@ -4,7 +4,7 @@ description: >
   Open source software was originally used to describe software that was publicly
   accessible. It was juxtaposed to the typical proprietary code base. Only the original
   authors of proprietary software can legally copy, inspect, and alter that software.
-general: >
+general: |-
   ## Cloud computing stacks
 
   Cloud services can be categorised:

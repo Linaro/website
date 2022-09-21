@@ -4,7 +4,7 @@ description: >
   Upstreaming is a critical process in the collaborative maintenance and development of
   software. The creators, or more specifically, the maintainers of software, are referred to
   as upstream. Code is released downstream to a community of users.
-general: >
+general: |-
   ## Software upstreaming
 
   Upstreaming is a critical process in the collaborative maintenance and development of software. The creators, or more specifically, the maintainers of software, are referred to as upstream. Code is released downstream to a community of users.
@@ -17,7 +17,7 @@ general: >
 
   Upstreaming is a fundamental process in collaborative software development, bringing standardisation, improved performance, enhanced security and evolving functionality to a community of users. Up streamers in turn benefit from the testing efforts and expertise of downstream users. The community benefits from the collaborative and collective efforts of the community. Unintended consequences, such as degraded performance, of improvements in down streamed code are avoided.  A virtuous cycle of improvement and assurance pushes the community forward.
 
-linaro: >
+linaro: |-
   ## Linaro and upstreaming
 
   The active role we play in the Arm software ecosystem and the technical domain experts we employ also result in solutions being upstreamed quicker. Our automated testing capabilities and security expertise ensure products are more secure and of higher quality when they end up in the hands of end users.

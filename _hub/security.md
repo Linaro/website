@@ -4,7 +4,7 @@ description: >
   Virtualization creates an abstraction layer over resources such as processors, memory,
   and storage. The dependency between an application and its operating system on
   computing resources is broken.
-general: >
+general: |-
   ## Securing the future
 
   Sharing resources and on-demand provisioning of services over public networks ensure that the threats faced by modern networks and devices are both more severe and ubiquitous. Defence must be in-depth and at every layer of the stack. 
@@ -35,7 +35,7 @@ general: >
   * Program Threats
   * System Threats
 
-linaro: >
+linaro: |-
   ## Linaro and security
 
   ### OP-TEE

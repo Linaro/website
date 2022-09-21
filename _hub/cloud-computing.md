@@ -4,7 +4,7 @@ description: >
   XaaS is the delivery of a vast array of cloud=based services over remote access.
   Products, tools and technologies are delivered as services using a flexible
   consumption model.
-general: >
+general: |-
   ## Cloud computing
 
   When you use an app on your phone, the resources, such as memory and compute, you need to run that app are provided by your phone. At its simplest, cloud computing simply means that those resources are provided by something other than your phone. The resources are accessed over a network and do not exist locally.
@@ -29,7 +29,7 @@ general: >
 
   A VPC is defined using virtual networking functions, notably IP addressing, and security features. Typical security measures include access and authentication, firewalls, traffic control, configuration management and monitoring. Enterprises retain much of the reassurance of a private cloud but benefit from the enhanced architecture and improved service delivery capabilities of a public cloud provider.
 
-linaro: >
+linaro: |-
   ## Linaro and cloud computing
 
   Linaro makes significant and diverse contributions to cloud technologies such as Ceph, Rook and Open Enterprise Service Bus (EBS) as well as to infrastructure elements such as Kubernetes and OpenStack. 

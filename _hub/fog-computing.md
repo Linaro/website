@@ -4,7 +4,7 @@ description: >
   Open source software was originally used to describe software that was publicly
   accessible. It was juxtaposed to the typical proprietary code base. Only the original
   authors of proprietary software can legally copy, inspect, and alter that software.
-general: >
+general: |-
   ## FOG Computing
 
   Fog computing is often regarded as analogous to Edge computing due to the history of the development of the terms. Further confusion arises because there is usually a commonality of hardware.  However, in modern distributed networks a Fog layer can be distinguished between the Cloud and the Edge devices.

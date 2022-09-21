@@ -4,7 +4,7 @@ description: >
   The development of Edge computing is a response to the profusion of data sources and
   the volume of data being generated and transported. The Internet of Things (IoT) and the
   realisation of 5G mobile networks ensure that the rapid increase in data seen...
-general: >
+general: |-
   ## Edge computing
 
   The development of Edge computing is a response to the profusion of data sources and the volume of data being generated and transported. The Internet of Things (IoT) and the realisation of 5G mobile networks ensure that the rapid increase in data seen so far will accelerate.
@@ -13,7 +13,7 @@ general: >
   However, traffic will still be imperilled by latency, bandwidth limitations and network disruption. Latency is the enemy of time-sensitive systems and undermines the promise of the IoT and Artificial Intelligence. The vision was to automate and to speed innovation by driving actionable insight from data. Vast lakes of complex data funnelled over public networks to centralised applications currently militates against the achievement of that vision.
 
   Edge computing is simply the distribution of hitherto centralised resources such as compute and storage to the periphery of the network: to the place where the data is generated. Local networking can overcome bandwidth limitations, network disruption and most particularly latency experienced in the wider network.
-linaro: >
+linaro: |-
   ## Linaro and Edge computing
 
   ### Trusted substrate

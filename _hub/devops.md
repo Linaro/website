@@ -4,7 +4,7 @@ description: >
   It is perhaps best thought of as a movement and philosophy that, when applied
   successfully, results in (or from) a change of culture, practice, and organisation. It feeds
   off both Lean and Agile thinking but emphasises the importance of breaking...
-general: >
+general: |-
   ## DevOps
 
   It is perhaps best thought of as a movement and philosophy that, when applied successfully, results in (or from) a change of culture, practice, and organisation. It feeds off both Lean and Agile thinking but emphasises the importance of breaking down cultural impediments to change. Its ambition is to break-down silo-thinking, focusing the organisation on the rapid continuous deployment of well-defined functionality in collaboration with the customer.

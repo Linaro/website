@@ -4,7 +4,7 @@ description: >
   Open source software was originally used to describe software that was publicly
   accessible. It was juxtaposed to the typical proprietary code base. Only the original
   authors of proprietary software can legally copy, inspect, and alter that software.
-general: >
+general: |-
   ## Open Source
 
   Open source software was originally used to describe software that was publicly accessible. It was juxtaposed to the typical proprietary code base. Only the original authors of proprietary software can legally copy, inspect, and alter that software. It is made available to others based on rigidly defined licences that prescribe permissible use. Licences usually require payment. 
@@ -47,7 +47,7 @@ general: >
 
   Derived versions and redistribution on the same basis as the original must be permitted. Changes cannot be used as a justification for imposing more restrictive licence conditions.
 
-linaro: >
+linaro: |-
   ## Linaro and Open Source
 
   Many of our engineers are maintainers on open source projects in the Arm software

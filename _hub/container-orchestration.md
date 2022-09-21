@@ -4,13 +4,13 @@ description: >
   Open source software was originally used to describe software that was publicly
   accessible. It was juxtaposed to the typical proprietary code base. Only the original
   authors of proprietary software can legally copy, inspect, and alter that software.
-general: >
+general: |-
   ### General title
 
   Open source software was originally used to describe software that was publicly
   accessible. It was juxtaposed to the typical proprietary code base. Only the original
   authors of proprietary software can legally copy, inspect, and alter that software.
-linaro: >
+linaro: |-
   Many of our engineers are maintainers on open source projects in the Arm software
   ecosystem. We are uniquely positioned to drive the conversations needed between the
   open source community and industry leaders to identify opportunities, highlight problems

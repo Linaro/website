@@ -4,7 +4,7 @@ description: >
   Agile software development is a set of practices designed to enable software to be
   developed in short iterations. This can be contrasted with waterfall development where
   software is created over a long-time span, built infrequently and made...
-general: >
+general: |-
   ## Agile development
 
   Agile software development is a set of practices designed to enable software to be developed in short iterations. This can be contrasted with waterfall development where software is created over a long-time span, built infrequently and made available to users even less so. In waterfall, there are regular but infrequent releases of new major versions, with bug-fixes released as minor versions.

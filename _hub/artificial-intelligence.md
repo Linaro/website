@@ -4,7 +4,7 @@ description: >
   Artificial Intelligence (AI) is the mimicking of functions performed by the human brain
   using machines and data. The performance of the AI is improved overtime with the
   application of statistical techniques to train the AI.
-general: >
+general: |-
   ## Artificial intelligence
 
   Artificial Intelligence (AI) is the mimicking of functions performed by the human brain using machines and data. The performance of the AI is improved overtime with the application of statistical techniques to train the AI. 
@@ -39,7 +39,7 @@ general: >
 
   Strong AI is entirely speculative, the theoretical combination of the Artificial General Intelligence (AGI) and Artificial Super Intelligence (ASI). Artificial general intelligence (AGI) postulates. The machine would be self-aware and conscious with the ability to analyse and learn independently of humans and plan for its own future.
 
-linaro: >
+linaro: |-
   ## Linaro and AI
 
   Linaro’s Confidential AI project ensures:

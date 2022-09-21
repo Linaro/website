@@ -4,7 +4,7 @@ description: >
   Continuous integration (CI) is the process of automating and integrating code changes
   and updates into the software development process. Typically, a developer will create
   code locally, subject it to testing and then frequently propose the code for integration...
-general: >
+general: |-
   ## Continuous integration, delivery and deployment
 
   Continuous integration (CI) is the process of automating and integrating code changes and updates into the software development process. Typically, a developer will create code locally, subject it to testing and then frequently propose the code for integration into the code base. Automated tools ensure that the proposed update is valid and error-free before it is integrated. Many developers may contribute changes before a new version of the software is proposed for release to users.
@@ -35,7 +35,7 @@ general: >
 
   The C/CD pipeline is distinguished by the use of automation tools to ensure code quality and rapid development processes. As software progresses down the pipeline it is subjected to pre-defined quality gateways. Test automation is used to identify dependencies, security issues, API usage, and performance earlier. The pipeline pushes code to different environments and ultimately delivers applications to production environments and real users.
 
-linaro: >
+linaro: |-
   ## Linaro and Continuous integration, delivery and deployment
 
   ### Linaro Automation and Validation Architecture (LAVA)

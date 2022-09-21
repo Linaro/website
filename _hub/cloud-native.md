@@ -4,7 +4,7 @@ description: >
   The Cloud-Native Computing Foundation (CNCF) defines cloud native:
   “Cloud-native technologies empower organisations to build and run scalable applications
   in modern, dynamic environments such as public, private, and hybrid...
-general: >
+general: |-
   ## Cloud native
 
   The Cloud-Native Computing Foundation (CNCF) defines cloud native:
