@@ -35,11 +35,10 @@ layout: base
     <div class="row">
         <div class="container">
             <div class="row justify-content-sm-center">
-                <div class="col col-12 col-sm-9 py-4 content">
-                    {{page.general | markdownify}}
-                    {{page.linaro | markdownify}}
+                <div class="col col-12 col-md-9 py-4 content">
+                    {{content}}
                 </div>
-                <div class="col col-12 col-sm-3 py-4 sidebar ">
+                <div class="col col-12 col-md-3 py-4 sidebar ">
                     {% include learning_hub/learning_hub_sidebar.html %}
                 </div>
             </div>
