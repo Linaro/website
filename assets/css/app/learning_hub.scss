@@ -1,4 +1,37 @@
 #wrapper {
+  .row.whitepapers_section {
+    position: relative;
+    background-color: #999;
+    @include media-breakpoint-up(sm) {
+      background-color: transparent;
+    }
+    &:before {
+      @include media-breakpoint-up(sm) {
+        content: "";
+        width: 70vw;
+        background-color: #999;
+        height: 100%;
+        position: absolute;
+      }
+    }
+  }
+  .row.why_section {
+    position: relative;
+    background-color: #ccc;
+    @include media-breakpoint-up(sm) {
+      background-color: transparent;
+    }
+    &:before {
+      @include media-breakpoint-up(sm) {
+        content: "";
+        width: 70vw;
+        background-color: #ccc;
+        height: 100%;
+        position: absolute;
+      }
+    }
+  }
+
   span.title_tag {
     font-size: 26px;
     font-weight: bold;
