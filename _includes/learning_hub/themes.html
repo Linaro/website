@@ -6,23 +6,19 @@
 {% endfor %}
 <div class="col col-12 themes_col">
     <div class="row">
-        <div class="col col-12 col-sm-8">
-            <div class="row">
-                {% for theme in themes_to_show %}
-                    <div class="col col-6 col-md-3 item h-100 px-0">
-                        <div class="item_wrapper">
-                            <div class="item_innner_wrapper">
-                                <a class="h-100" href="{{theme.url}}">
-                                    <div class="icon_wrapper d-flex justify-content-around flex-column h-100 align-items-center text-center py-4">
-                                        <img class="icon_image" src="{{theme.icon_col}}" alt="{{theme.title}} icon"/>
-                                        <h3 class="font-weight-bold theme_title pt-3">{{theme.title}}</h3>
-                                    </div>
-                                </a>
+        {% for theme in themes_to_show %}
+            <div class="col col-6 col-md-3 item h-100 px-0">
+                <div class="item_wrapper">
+                    <div class="item_innner_wrapper">
+                        <a class="h-100" href="{{theme.url}}">
+                            <div class="icon_wrapper d-flex justify-content-around flex-column h-100 align-items-center text-center py-4">
+                                <img class="icon_image" src="{{theme.icon_col}}" alt="{{theme.title}} icon"/>
+                                <h3 class="font-weight-bold theme_title pt-3">{{theme.title}}</h3>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                {% endfor %}
+                </div>
             </div>
-        </div>
+        {% endfor %}
     </div>
 </div>
