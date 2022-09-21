@@ -1,4 +1,9 @@
 #wrapper {
+  span.title_tag {
+    font-size: 26px;
+    font-weight: bold;
+    color: $primary;
+  }
   .box_wrapper {
     padding: 10px;
     border: 1px solid #999;
