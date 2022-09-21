@@ -28,7 +28,7 @@ flow:
       - format: custom_include
         source: learning_hub/learning_hub.html
   - row: container_row
-    style: why_section
+    style: why_section mb-5
     sections:
       - format: title
         title_content:
@@ -37,7 +37,7 @@ flow:
       - format: custom_include
         source: learning_hub/testimonials.html
   - row: container_row
-    style: whitepapers_section
+    style: whitepapers_section mb-5
     sections:
       - format: title
         title_content:
@@ -46,7 +46,7 @@ flow:
       - format: custom_include
         source: learning_hub/whitepapers.html
   - row: container_row
-    style: whitepapers_section
+    style: themes_section
     sections:
       - format: text
         style: text-left
