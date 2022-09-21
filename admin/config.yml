@@ -604,6 +604,27 @@ collections:
                           widget: string,
                           required: false,
                         }
+  - label: "Learning Hub"
+    name: "learning_hub"
+    folder: "_hub"
+    identifier_field: "title"
+    summary: "{{fields.title}}"
+    editor:
+      preview: true
+    preview_path: "{{slug}}"
+    create: true
+    description: >
+      This collection allows you to add/edit/delete learning hub content on Linaro.org.
+    slug: "{{permalink}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - {
+          label: "Page Content",
+          name: "body",
+          widget: "markdown",
+          required: true,
+        }
   - label: "Pages"
     name: "pages"
     folder: "_pages"
