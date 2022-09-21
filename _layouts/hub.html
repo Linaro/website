@@ -2,31 +2,31 @@
 layout: base
 ---
 <div itemscope="">
-<div
-    class="jumbotron d-flex align-items-center jumbotron-fluid {% if page.image %}background_image{% endif%}">
-    {% if page.image %}
-        {% assign image_path = page.image  %}
-        {% picture header_image {{image_path}} %}
-    {% endif %}
-    <div class="container text-center">
-        <div class="inner_content_wrapper">
-            <span class="title_tag">Linaro Learning Hub</span>
-            <h1 class="learning_hub_title">{{page.title}}</h1>
+    <div
+        class="jumbotron d-flex align-items-center jumbotron-fluid {% if page.image %}background_image{% endif%}">
+        {% if page.image %}
+            {% assign image_path = page.image  %}
+            {% picture header_image {{image_path}} %}
+        {% endif %}
+        <div class="container text-center">
+            <div class="inner_content_wrapper">
+                <span class="title_tag">Linaro Learning Hub</span>
+                <h1 class="learning_hub_title font-weight-bold">{{page.title}}</h1>
+            </div>
         </div>
     </div>
-</div>
-<div class="container-fluid main_content">
-    <div class="row">
-        <div class="container">
-            <div class="row justify-content-sm-center">
-                <div class="col col-12 col-md-9 py-4 content">
-                    {{content}}
-                </div>
-                <div class="col col-12 col-md-3 py-4 sidebar ">
-                    {% include learning_hub/learning_hub_sidebar.html %}
+    <div class="container-fluid main_content">
+        <div class="row">
+            <div class="container">
+                <div class="row justify-content-sm-center">
+                    <div class="col col-12 col-md-9 py-4 content order-12 order-md-1">
+                        {{content}}
+                    </div>
+                    <div class="col col-12 col-md-3 py-4 sidebar order-1 order-md-12">
+                        {% include learning_hub/learning_hub_sidebar.html %}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>
