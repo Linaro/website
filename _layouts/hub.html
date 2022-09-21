@@ -1,0 +1,49 @@
+---
+layout: base
+---
+<div itemscope="">
+<div
+    class="jumbotron d-flex align-items-center jumbotron-fluid {% if page.image %}background_image{% endif%}">
+    {% if page.image %}
+        {% assign image_path = page.image  %}
+        {% picture header_image {{image_path}} %}
+    {% endif %}
+    <div class="container text-center">
+        <div class="inner_content_wrapper">
+            <h1 class="">{{page.title}}</h1>
+            <p>
+                {% if page.visual_date %}
+                    {{page.visual_date}}
+                {% else %}
+                <time datetime="{{page.date}}">{{page.event_date | date: "%A, %B %-d, %Y" }} 
+                    {% if page.event_end_date and page.event_date != page.event_end_date %}
+                    - {{page.event_end_date | date: "%A, %B %-d, %Y" }}
+                    {% endif %}</time>
+                {% endif %}
+            </p>
+            {% if page.event_url and page.event_url != "" %}
+            <p>
+                <a href="{{page.event_url}}" class="btn btn-primary">
+                    Visit Website
+                </a>
+            </p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+<div class="container-fluid main_content">
+    <div class="row">
+        <div class="container">
+            <div class="row justify-content-sm-center">
+                <div class="col col-12 col-sm-9 py-4 content">
+                    {{page.general | markdownify}}
+                    {{page.linaro | markdownify}}
+                </div>
+                <div class="col col-12 col-sm-3 py-4 sidebar ">
+                    {% include learning_hub/learning_hub_sidebar.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
