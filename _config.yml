@@ -100,7 +100,7 @@ defaults:
     values:
       layout: hub
       css_bundle: learning-hub
-      image: /assets/images/social-media-image.png
+      image: /assets/images/content/37258684572_e7b51c154e_o.jpg
   - scope:
       type: "services"
     values:
