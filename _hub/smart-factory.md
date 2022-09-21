@@ -5,55 +5,11 @@ description: >
   accessible. It was juxtaposed to the typical proprietary code base. Only the original
   authors of proprietary software can legally copy, inspect, and alter that software.
 general: >
-  ### General title
+  ## The Smart Factory
 
-  Open source software was originally used to describe software that was publicly
-  accessible. It was juxtaposed to the typical proprietary code base. Only the original
-  authors of proprietary software can legally copy, inspect, and alter that software.
-linaro: >
-  Many of our engineers are maintainers on open source projects in the Arm software
-  ecosystem. We are uniquely positioned to drive the conversations needed between the
-  open source community and industry leaders to identify opportunities, highlight problems
-  and propose solutions.
+  The Smart factory is the result of the application of various connective technologies to achieve hyper-flexible and self-adapting manufacturing capabilities. Industry 4.0 describes the application of advanced sensors, embedded software, the Industrial Internet of Things (IoT), cloud computing and enhanced analytics to digitalise the manufacturing process. 
 
-  ### Linux Kernel Quality program
+  Sensors and smart objects collect, collate and stream data. Data is continuously shared through connected machines, devices and production systems. Data is used to collaboratively optimise supply management, production efficiency and fault management in real-time.
 
-  Linaro’s Linux Kernel Quality program encompasses both Linux kernel testing and testing
-  of the Long Term Supported (LTS)-derived Android common kernel from the Android
-  Open Source Project (AOSP).
-
-  See project
-
-  ### Linux Kernel Functional Testing
-
-  Linaro’s Linux Kernel Functional Testing (LKFT) framework is a long-running project that
-  provides unparalleled coverage over 6 Linux LTS releases, the linux-next branch and
-  linux-mainline branches. Functional regression testing is performed in real-time over an
-  array of release, architecture and target combinations.
-
-  See project
-
-  ### CI toolchain
-
-  Toolchain benchmarking and analysis is a linchpin of Linaro’s Open Source toolchain
-  community citizenship. It is foundational to overall toolchain quality and Continuous
-  Integration (CI) efforts. The detection of code-speed regressions, code-size regressions
-  and build/boot breakages helps ensure the quality and robustness of Open-Source
-  toolchains.
-
-  The toolchain CI projects aims to:
-  • Secure Linaro members’ investment in toolchain optimization.
-  • Contribute to the overall sustainability of the open source toolchain community.
-  • Bring value to the Arm architecture ecosystem.
-
-  For more information on this project, check out this White Paper on How to Protect
-  Investment in Code Optimisation with Linaro’s Toolchain CI.
-
-  ### Stratos
-
-  Project Stratos is decoupling the dependencies inherent in proprietary implementations of
-  hypervisors and System on a Chip (SoC). Creating open source front and back ends
-  preserves the ability of manufactures to respond to innovation and maintain a cost and
-  security-optimised development cycle.
-  See project
+  Industrial IoT is simply an optimisation of typical IoT technologies for manaufacturing.to improve operational efficiency, control and visibility based on actionable metrics.  Big Data and Analytics is employed to optimise AI and inform self-improving systems and processes.
 ---

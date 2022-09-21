@@ -5,55 +5,55 @@ description: >
   Products, tools and technologies are delivered as services using a flexible
   consumption model.
 general: >
-  ### General title
+  ## Cloud computing
 
-  Open source software was originally used to describe software that was publicly
-  accessible. It was juxtaposed to the typical proprietary code base. Only the original
-  authors of proprietary software can legally copy, inspect, and alter that software.
+  When you use an app on your phone, the resources, such as memory and compute, you need to run that app are provided by your phone. At its simplest, cloud computing simply means that those resources are provided by something other than your phone. The resources are accessed over a network and do not exist locally.
+
+  In practice, cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet. Typically, the resources exist in server farms, are extensible, and are metered based on use. 
+
+  Different flavours of cloud computing exist:
+
+  ### Public cloud
+
+  Hardware, software and supporting infrastructure is owned and operated by a cloud provider. The provider delivers computing resources like servers and storage over the internet. Typically, services are accessed and managed through a web-browser.
+
+  ### Private cloud
+
+  Hardware, software and supporting infrastructure is owned and operated by a business or organisation.  Cloud computing resources are used exclusively. A private cloud can be physically located on the premises of the operator or maintained by a cloud provider. 
+
+  ### Hybrid cloud
+
+  A hybrid cloud combines public and private cloud resources. Cloud computing resources are provided by both public and private clouds, but typically for different purposes due to technological legacy or regulatory requirements. Data and applications can be shared between the resources based on security and compliance policies.
+
+  A Virtual Private Cloud (VPC) is a service on public cloud infrastructure that enables the definition of a secure and discrete service delivery environment. An enterprise can define and control a virtual network that is logically isolated from all other public cloud tenants (users).
+
+  A VPC is defined using virtual networking functions, notably IP addressing, and security features. Typical security measures include access and authentication, firewalls, traffic control, configuration management and monitoring. Enterprises retain much of the reassurance of a private cloud but benefit from the enhanced architecture and improved service delivery capabilities of a public cloud provider.
+
 linaro: >
-  Many of our engineers are maintainers on open source projects in the Arm software
-  ecosystem. We are uniquely positioned to drive the conversations needed between the
-  open source community and industry leaders to identify opportunities, highlight problems
-  and propose solutions.
+  ## Linaro and cloud computing
 
-  ### Linux Kernel Quality program
+  Linaro makes significant and diverse contributions to cloud technologies such as Ceph, Rook and Open Enterprise Service Bus (EBS) as well as to infrastructure elements such as Kubernetes and OpenStack. 
 
-  Linaro’s Linux Kernel Quality program encompasses both Linux kernel testing and testing
-  of the Long Term Supported (LTS)-derived Android common kernel from the Android
-  Open Source Project (AOSP).
+  OpenEBS is just another example of Linaro’s commitment to the evolution of cloud native architecture. OpenEBS follows the Container Attached Storage (CAS) architectural model so that the storage controller and storage replicas are containerised. Service orchestrators are able to automate the management of storage and persitency both locally and in a distributed system. 
 
-  See project
+  Rook is an open source cloud native storage orchestrator providing for a diverse range of storage solutions in cloud native ecosystems. Rock transforms storage software into self-managing, self-scaling and self-healing services. It utilises underlaying services provided by cloud-native container management, scheduling and orchestration platforms.
 
-  ### Linux Kernel Functional Testing
+  Rook automates:
+  * deployment
+  * bootstrapping
+  * configuration 
+  * provisioning
+  * scaling
+  * upgrading
+  * migration
+  * monitoring, and
+  * resource management 
 
-  Linaro’s Linux Kernel Functional Testing (LKFT) framework is a long-running project that
-  provides unparalleled coverage over 6 Linux LTS releases, the linux-next branch and
-  linux-mainline branches. Functional regression testing is performed in real-time over an
-  array of release, architecture and target combinations.
+  Linaros cloud infrastructure projects are dedicated to ensuring that capabilities are easily deployed, managed and achieve optimal performance over Arm64. 
 
-  See project
+  Linaro:
 
-  ### CI toolchain
-
-  Toolchain benchmarking and analysis is a linchpin of Linaro’s Open Source toolchain
-  community citizenship. It is foundational to overall toolchain quality and Continuous
-  Integration (CI) efforts. The detection of code-speed regressions, code-size regressions
-  and build/boot breakages helps ensure the quality and robustness of Open-Source
-  toolchains.
-
-  The toolchain CI projects aims to:
-  • Secure Linaro members’ investment in toolchain optimization.
-  • Contribute to the overall sustainability of the open source toolchain community.
-  • Bring value to the Arm architecture ecosystem.
-
-  For more information on this project, check out this White Paper on How to Protect
-  Investment in Code Optimisation with Linaro’s Toolchain CI.
-
-  ### Stratos
-
-  Project Stratos is decoupling the dependencies inherent in proprietary implementations of
-  hypervisors and System on a Chip (SoC). Creating open source front and back ends
-  preserves the ability of manufactures to respond to innovation and maintain a cost and
-  security-optimised development cycle.
-  See project
+  * Participates in upstreaming for Ceph, Lustre, BeeGFS and other key technologies ensuring Arm64 support and providing a common Continuous integration framework.
+  * Ensures performance optimisation and performs benchmark.
+  * Drives the community of partners and members to help the adoption of benchmarked storage solutions.
 ---

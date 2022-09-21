@@ -5,55 +5,45 @@ description: >
   accessible. It was juxtaposed to the typical proprietary code base. Only the original
   authors of proprietary software can legally copy, inspect, and alter that software.
 general: >
-  ### General title
+  ## Smart City
 
-  Open source software was originally used to describe software that was publicly
-  accessible. It was juxtaposed to the typical proprietary code base. Only the original
-  authors of proprietary software can legally copy, inspect, and alter that software.
-linaro: >
-  Many of our engineers are maintainers on open source projects in the Arm software
-  ecosystem. We are uniquely positioned to drive the conversations needed between the
-  open source community and industry leaders to identify opportunities, highlight problems
-  and propose solutions.
+  A Smart City solves the challenges of urban living through the deployment of an integrated suite of technologies. Automation, machine learning and the Internet of Things (IoT) are employed to deliver innovative solutions to complex challenges in urban environments.
 
-  ### Linux Kernel Quality program
+  While IOT and Edge computing are the primary enablers for Smart Cites, a variety of supporting technologies are also required:
 
-  Linaro’s Linux Kernel Quality program encompasses both Linux kernel testing and testing
-  of the Long Term Supported (LTS)-derived Android common kernel from the Android
-  Open Source Project (AOSP).
+  ### Application Programming Interfaces (APIs)
 
-  See project
+  APIs enable the integration of databases, applications and AI to deliver complex real-time solutions that can provide both background services such as environmental controls and interactive services like smart payments for transit.
 
-  ### Linux Kernel Functional Testing
+  ### Artificial Intelligence (AI)
 
-  Linaro’s Linux Kernel Functional Testing (LKFT) framework is a long-running project that
-  provides unparalleled coverage over 6 Linux LTS releases, the linux-next branch and
-  linux-mainline branches. Functional regression testing is performed in real-time over an
-  array of release, architecture and target combinations.
+  AI enables services to appear intuitive and respond in real-time to changeable situations such as congestion or climate. Services can be automatically reconfigured and optimised to respond to new situations. Personalised services can be delivered dynamically.
 
-  See project
+  ### Cloud Computing Services
 
-  ### CI toolchain
+  The Cloud provides the necessary resources for the delivery of centralised services. Edge and FOG devices provide for time and latency-sensitive applications at the periphery.
 
-  Toolchain benchmarking and analysis is a linchpin of Linaro’s Open Source toolchain
-  community citizenship. It is foundational to overall toolchain quality and Continuous
-  Integration (CI) efforts. The detection of code-speed regressions, code-size regressions
-  and build/boot breakages helps ensure the quality and robustness of Open-Source
-  toolchains.
+  ### Dashboards
 
-  The toolchain CI projects aims to:
-  • Secure Linaro members’ investment in toolchain optimization.
-  • Contribute to the overall sustainability of the open source toolchain community.
-  • Bring value to the Arm architecture ecosystem.
+  Machine-to-machine communication, function automation and the application of AI predominate in Smart Cities. Humans are not included in the loop because of the need for real-time and interactive functionality, or because the volume of data flows exceeds human capacity. However, human supervision and instruction remains desirable. Dashboards represent key performance indicators in an easily consumable format permitting humans an insight into system functionality and enable evidence-based intervention if required.
 
-  For more information on this project, check out this White Paper on How to Protect
-  Investment in Code Optimisation with Linaro’s Toolchain CI.
+  ### Machine Learning (ML)
 
-  ### Stratos
+  Smart Cities are data driven. Vast flows of data are generated, transmitted and processed.  ML employs the data to make applications smarter and optimise functionality.
 
-  Project Stratos is decoupling the dependencies inherent in proprietary implementations of
-  hypervisors and System on a Chip (SoC). Creating open source front and back ends
-  preserves the ability of manufactures to respond to innovation and maintain a cost and
-  security-optimised development cycle.
-  See project
+  ### Machine-to-Machine Communication
+
+  Machines, in the form of IOT devices like sensors, and complex applications delivered at the periphery or as core services, will constantly interact. The speed and volume of such communication, exceeding human capabilities, lay at the heart of the Smart City. 
+
+  ### Mesh Networks
+
+  A meshed network is a network where multiple devices form a single network, for instance, a primary aim of 5G is constant connectivity and uninterrupted connectivity irrespective of how the connection is delivered. A meshed Wi-Fi network is one where multiple devices deliver connectivity in contrast to a single router defining a single network. Meshed networks are self-healing, robust and provide multiple pathways for data.
+
+  Smart Cities will deliver a complex suite of services including:
+
+  * environmental monitoring, warning and mitigation
+  * integrated traffic management and capacity optimisation
+  * climate control
+  * real-estate monitoring and management
+  * personalised service delivery
 ---

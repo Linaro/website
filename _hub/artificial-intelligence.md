@@ -5,55 +5,56 @@ description: >
   using machines and data. The performance of the AI is improved overtime with the
   application of statistical techniques to train the AI.
 general: >
-  ### General title
+  ## Artificial intelligence
 
-  Open source software was originally used to describe software that was publicly
-  accessible. It was juxtaposed to the typical proprietary code base. Only the original
-  authors of proprietary software can legally copy, inspect, and alter that software.
+  Artificial Intelligence (AI) is the mimicking of functions performed by the human brain using machines and data. The performance of the AI is improved overtime with the application of statistical techniques to train the AI. 
+
+  The ambitions for AI vary considerably: from the tedium of practicality, the trawling of vast data sets to discover patterns and significance that has hitherto eluded the human mind to the so far unachieved promise of self-aware and referential entities that exist alongside humans. AI can be decomposed into related but distinct disciplines that can be applied in conjunction or distinctly to achieve divergent and complex ambitions. 
+
+  ### Machine Learning (ML)
+
+  A machine is trained to achieve a task that it was not programmed for by feeding it data and applying statistical techniques to improve performance over time. Learning can be supervised, using labelled data, or unsupervised, using unlabelled data. Labelling enables machines to more easily interact with data, but the process of developing ontologies is by definition prescriptive. Machine Learning is dependent to a greater degree on human interaction.
+
+  ### Deep Learning (DL)
+
+  Data is run through a multi-layered biologically inspired neural network. The machine learns deeply, making connections and evaluating significance. Deep learning automates many of the data extraction and hierarchy establishment processes that are required for machine learning.
+
+  ### Big Data and Analytics (BDA)
+
+  Big Data and analytics is often seen as a foundational technology for AI. However, AI itself is a combination and application of various technologies and in this way, BDA is a full-and essential member of the AI ecosystem.
+
+  BDA is concerned with vast lakes of diverse data sets characterised by volume, velocity and variety. The profusion of data outputs means data streams flow from sensors, devices, video/audio, networks, log files, transactional applications, web and social media. Data is meaningless and without value until it can be characterised, analysed, processed and applied. ML can then be applied to utilise the data in real-time.
+
+  ### Natural language processing (NLP)
+
+  NLP is the application of computational linguistics, statistical modelling and Machine Learning and Deep learning algorithmic modelling. Computational linguistics creates a rule-based model of human language that enables machines to better engage with language and meaning. NLP enables machines to analyse, process and comprehend human language including the nuances of intended meaning and sentiment.  
+
+  The contrasting ambitions for AI can be characterised:
+
+  ### Narrow AI
+
+  Narrow AI is trained to perform well-defined if complex tasks. Humans specify the outcomes, but AI enables them. Digital assistants, image recognition and autonomous vehicles are the result of the application of the art of the possible.
+
+  ### Strong AI
+
+  Strong AI is entirely speculative, the theoretical combination of the Artificial General Intelligence (AGI) and Artificial Super Intelligence (ASI). Artificial general intelligence (AGI) postulates. The machine would be self-aware and conscious with the ability to analyse and learn independently of humans and plan for its own future.
+
 linaro: >
-  Many of our engineers are maintainers on open source projects in the Arm software
-  ecosystem. We are uniquely positioned to drive the conversations needed between the
-  open source community and industry leaders to identify opportunities, highlight problems
-  and propose solutions.
+  ## Linaro and AI
 
-  ### Linux Kernel Quality program
+  Linaro’s Confidential AI project ensures:
 
-  Linaro’s Linux Kernel Quality program encompasses both Linux kernel testing and testing
-  of the Long Term Supported (LTS)-derived Android common kernel from the Android
-  Open Source Project (AOSP).
+  * Deployed AI model integrity assured in remote devices
+      * Protects investment in either model development or 3rd party model licensing
+      * Manages model security and lifecycle independent from platform
+  * AI data integrity assured within remote devices
+    * Assures that inputs come from expected sensor sources
+    * Data pipeline confidentiality assurance
+    * Provides trust that inference results have not been tampered with
+  * Best developer experience for building and deploying ML models
+    * Minimises necessity to stitch together CSP and SiP tooling
+    * Platform specifics are taken into account under the hood
+    * Provides ease of deployment and time to market benefits
 
-  See project
-
-  ### Linux Kernel Functional Testing
-
-  Linaro’s Linux Kernel Functional Testing (LKFT) framework is a long-running project that
-  provides unparalleled coverage over 6 Linux LTS releases, the linux-next branch and
-  linux-mainline branches. Functional regression testing is performed in real-time over an
-  array of release, architecture and target combinations.
-
-  See project
-
-  ### CI toolchain
-
-  Toolchain benchmarking and analysis is a linchpin of Linaro’s Open Source toolchain
-  community citizenship. It is foundational to overall toolchain quality and Continuous
-  Integration (CI) efforts. The detection of code-speed regressions, code-size regressions
-  and build/boot breakages helps ensure the quality and robustness of Open-Source
-  toolchains.
-
-  The toolchain CI projects aims to:
-  • Secure Linaro members’ investment in toolchain optimization.
-  • Contribute to the overall sustainability of the open source toolchain community.
-  • Bring value to the Arm architecture ecosystem.
-
-  For more information on this project, check out this White Paper on How to Protect
-  Investment in Code Optimisation with Linaro’s Toolchain CI.
-
-  ### Stratos
-
-  Project Stratos is decoupling the dependencies inherent in proprietary implementations of
-  hypervisors and System on a Chip (SoC). Creating open source front and back ends
-  preserves the ability of manufactures to respond to innovation and maintain a cost and
-  security-optimised development cycle.
-  See project
+  Linaro drives engineering activities and ARMv8 builds. for Apache Ambari, BigTop, Spark and Hadoop. The aim of Confidential AI is to make AArch64 a first class citizen in the Big Data, Analytics and Data Science community..
 ---

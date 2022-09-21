@@ -5,55 +5,11 @@ description: >
   accessible. It was juxtaposed to the typical proprietary code base. Only the original
   authors of proprietary software can legally copy, inspect, and alter that software.
 general: >
-  ### General title
+  ## IoT
 
-  Open source software was originally used to describe software that was publicly
-  accessible. It was juxtaposed to the typical proprietary code base. Only the original
-  authors of proprietary software can legally copy, inspect, and alter that software.
-linaro: >
-  Many of our engineers are maintainers on open source projects in the Arm software
-  ecosystem. We are uniquely positioned to drive the conversations needed between the
-  open source community and industry leaders to identify opportunities, highlight problems
-  and propose solutions.
+  The Internet of Things (IoT) is the extension of connectivity from humans, machines and applications to any thing that can have a unique identifier. The thing can be a synthetic or a natural object with an IP address and client. Things can communicate with each other, the cloud, humans, and applications but without direct human initiation. Billions of connected devices collect and collate data to make the physical environment smarter.
 
-  ### Linux Kernel Quality program
+  A web-enabled smart device has an embedded system consisting of, for example, processors, sensors, and a communicator. It collects data and shares it using a IoT gateway or edge server. IoT devices can process and use data locally, share it with other devices and work collaboratively or simply share it with the edge server. The edge/fog server can make decisions about which data should be processed and where processing should occur. Local filtering and processing enable real-time decision-making based on vast data streams from a profusion of sources.
 
-  Linaro’s Linux Kernel Quality program encompasses both Linux kernel testing and testing
-  of the Long Term Supported (LTS)-derived Android common kernel from the Android
-  Open Source Project (AOSP).
-
-  See project
-
-  ### Linux Kernel Functional Testing
-
-  Linaro’s Linux Kernel Functional Testing (LKFT) framework is a long-running project that
-  provides unparalleled coverage over 6 Linux LTS releases, the linux-next branch and
-  linux-mainline branches. Functional regression testing is performed in real-time over an
-  array of release, architecture and target combinations.
-
-  See project
-
-  ### CI toolchain
-
-  Toolchain benchmarking and analysis is a linchpin of Linaro’s Open Source toolchain
-  community citizenship. It is foundational to overall toolchain quality and Continuous
-  Integration (CI) efforts. The detection of code-speed regressions, code-size regressions
-  and build/boot breakages helps ensure the quality and robustness of Open-Source
-  toolchains.
-
-  The toolchain CI projects aims to:
-  • Secure Linaro members’ investment in toolchain optimization.
-  • Contribute to the overall sustainability of the open source toolchain community.
-  • Bring value to the Arm architecture ecosystem.
-
-  For more information on this project, check out this White Paper on How to Protect
-  Investment in Code Optimisation with Linaro’s Toolchain CI.
-
-  ### Stratos
-
-  Project Stratos is decoupling the dependencies inherent in proprietary implementations of
-  hypervisors and System on a Chip (SoC). Creating open source front and back ends
-  preserves the ability of manufactures to respond to innovation and maintain a cost and
-  security-optimised development cycle.
-  See project
+  The IoT requires frugal processors such as Radio Frequency Identity (RFID) chips, ubiquitous and scalable connectivity and IPv6 addressing to provide the billions of identities required. Smart homes, a network of connected devices enabling users to control their environment or delegate control to virtual assistants is the practical application of the IoT of things. The ambition is ubiquitous connectivity and the evolution of smart factories and ultimately smart cities.
 ---

@@ -5,55 +5,22 @@ description: >
   “Cloud-native technologies empower organisations to build and run scalable applications
   in modern, dynamic environments such as public, private, and hybrid...
 general: >
-  ### General title
+  ## Cloud native
 
-  Open source software was originally used to describe software that was publicly
-  accessible. It was juxtaposed to the typical proprietary code base. Only the original
-  authors of proprietary software can legally copy, inspect, and alter that software.
-linaro: >
-  Many of our engineers are maintainers on open source projects in the Arm software
-  ecosystem. We are uniquely positioned to drive the conversations needed between the
-  open source community and industry leaders to identify opportunities, highlight problems
-  and propose solutions.
+  The Cloud-Native Computing Foundation (CNCF) defines cloud native:
+  “Cloud-native technologies empower organisations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach. These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil.”
 
-  ### Linux Kernel Quality program
+  A cloud native application would radically differ from a traditional or in-tier or monolithic application. A typical cloud native application is decomposed into isolated microservices. Each service is self-contained and encapsulates its own code, data, and dependencies. A service is deployed in a software container and managed by a container orchestrator. It owns its own datastore determined by the type of data service required rather than a single uniform relational database.
 
-  Linaro’s Linux Kernel Quality program encompasses both Linux kernel testing and testing
-  of the Long Term Supported (LTS)-derived Android common kernel from the Android
-  Open Source Project (AOSP).
+  Moreover, cloud native applications are designed to be developed and managed within a cloud environment leveraging an automated Continuous Integration (CI) and deployment toolchain.
 
-  See project
+  ### Cloud Native Principles
 
-  ### Linux Kernel Functional Testing
+  Five key principles drive the design of cloud native software:
 
-  Linaro’s Linux Kernel Functional Testing (LKFT) framework is a long-running project that
-  provides unparalleled coverage over 6 Linux LTS releases, the linux-next branch and
-  linux-mainline branches. Functional regression testing is performed in real-time over an
-  array of release, architecture and target combinations.
-
-  See project
-
-  ### CI toolchain
-
-  Toolchain benchmarking and analysis is a linchpin of Linaro’s Open Source toolchain
-  community citizenship. It is foundational to overall toolchain quality and Continuous
-  Integration (CI) efforts. The detection of code-speed regressions, code-size regressions
-  and build/boot breakages helps ensure the quality and robustness of Open-Source
-  toolchains.
-
-  The toolchain CI projects aims to:
-  • Secure Linaro members’ investment in toolchain optimization.
-  • Contribute to the overall sustainability of the open source toolchain community.
-  • Bring value to the Arm architecture ecosystem.
-
-  For more information on this project, check out this White Paper on How to Protect
-  Investment in Code Optimisation with Linaro’s Toolchain CI.
-
-  ### Stratos
-
-  Project Stratos is decoupling the dependencies inherent in proprietary implementations of
-  hypervisors and System on a Chip (SoC). Creating open source front and back ends
-  preserves the ability of manufactures to respond to innovation and maintain a cost and
-  security-optimised development cycle.
-  See project
+  * Scalable
+  * Resilient
+  * Manageable
+  * Observable
+  * Automated
 ---
