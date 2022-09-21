@@ -1,21 +1,8 @@
 #wrapper {
-  .row.whitepapers_section {
-    position: relative;
-    background-color: #999;
-    @include media-breakpoint-up(sm) {
-      background-color: transparent;
-    }
-    &:before {
-      @include media-breakpoint-up(sm) {
-        content: "";
-        width: 70vw;
-        background-color: #999;
-        height: 100%;
-        position: absolute;
-      }
-    }
+  .main_content {
+    font-size: 1.2rem;
   }
-  .row.why_section {
+  .row.whitepapers_section {
     position: relative;
     background-color: #ccc;
     @include media-breakpoint-up(sm) {
@@ -26,6 +13,22 @@
         content: "";
         width: 70vw;
         background-color: #ccc;
+        height: 100%;
+        position: absolute;
+      }
+    }
+  }
+  .row.why_section {
+    position: relative;
+    background-color: #666;
+    @include media-breakpoint-up(sm) {
+      background-color: transparent;
+    }
+    &:before {
+      @include media-breakpoint-up(sm) {
+        content: "";
+        width: 70vw;
+        background-color: #666;
         height: 100%;
         position: absolute;
       }
