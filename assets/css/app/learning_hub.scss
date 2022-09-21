@@ -1,4 +1,8 @@
 #wrapper {
+  .box_wrapper {
+    padding: 10px;
+    border: 1px solid #999;
+  }
   .whitepaper_wrapper {
     img.card-img-top {
       height: 200px;
@@ -25,19 +29,22 @@
       font-size: 22px;
     }
   }
-  .learning_hub_sidebar.sticky-top {
-    top: 80px;
-    z-index: 0;
-  }
-  ul.learning_hub_sidebar_list {
-    list-style: none;
-    padding-left: 0;
+  .learning_hub_sidebar {
     h3 {
+      color: black !important;
       width: 100%;
       border-bottom: 1px solid #10819e;
       padding-bottom: 10px;
       font-size: 20px;
     }
+    &.sticky-top {
+      top: 80px;
+      z-index: 0;
+    }
+  }
+  ul.learning_hub_sidebar_list {
+    list-style: none;
+    padding-left: 0;
     li {
       padding-top: 5px;
       position: relative;
