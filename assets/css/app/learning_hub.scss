@@ -1,4 +1,30 @@
 #wrapper {
+  .whitepaper_wrapper {
+    img.card-img-top {
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+  }
+  .item_wrapper {
+    padding: 20px;
+    .item_innner_wrapper {
+      border: 1px solid #c9c9c9;
+      height: 200px;
+      padding: 10px;
+      transition: all 100ms ease;
+      &:hover {
+        background-color: #c9c9c9;
+      }
+    }
+    img.icon_image {
+      height: 100px;
+    }
+    h3.theme_title.pt-3 {
+      color: #333;
+      font-size: 22px;
+    }
+  }
   .learning_hub_sidebar.sticky-top {
     top: 80px;
     z-index: 0;
