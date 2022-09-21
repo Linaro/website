@@ -1,8 +1,9 @@
-<div class="container">
-    {% for hub_article in site.hub %}
-        <div class="col col-12">
+<div class="col col-12">
+    <div class="row">
+        {% for hub_article in site.hub %}
+        <div class="col col-12 px-0">
             <h3>{{hub_article.title}}</h3>
-            <div class="box_wrapper">
+            <div class="box_wrapper mb-2">
                 <p>
                     {{hub_article.description}}
                     <a href="{{hub_article.url}}">
@@ -11,5 +12,6 @@
                 </p>
             </div>
         </div>
-    {% endfor  %}
+        {% endfor  %}
+    </div>
 </div>
