@@ -42,6 +42,7 @@ flow:
       - format: title
         title_content:
           size: h3
+          style: text-white
           text: Whitepapers
       - format: custom_include
         source: learning_hub/whitepapers.html
