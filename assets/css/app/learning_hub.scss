@@ -1,0 +1,26 @@
+#wrapper {
+  ul.learning_hub_sidebar_list {
+    list-style: none;
+    padding-left: 0;
+    h3 {
+      width: 100%;
+      border-bottom: 1px solid #10819e;
+      padding-bottom: 10px;
+      font-size: 20px;
+    }
+    li {
+      padding-top: 5px;
+      position: relative;
+      &:before {
+        border-left: 5px solid #10819e;
+        content: "";
+        position: absolute;
+        left: -15px;
+        height: 100%;
+      }
+      a {
+        color: black;
+      }
+    }
+  }
+}
