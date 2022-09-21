@@ -2,6 +2,22 @@
     "projects": [
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by WOA SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CLIENTPC/overview\">https://linaro.atlassian.net/wiki/spaces/CLIENTPC/overview</a>",
+                "Theme": [
+                    "Client Devices"
+                ],
+                "description": "The Client PC project aims to investigate and develop firmware and kernel solutions for enabling fully functional client PCs for Arm-based hardware.<br><br>The project's initial focus will be to prototype and develop UEFI+ACPI firmware for a reference platform that can boot major client operating systems like Linux and Windows out of the box with full driver support, power and performance management capabilities, etc.<br><br>Future phases of the project will focus on other open-source solutions needed for the client PC market, such as firmware-based trusted platform modules.<br><br>The current scope of project is platform bring-up (NXP I.MX8M) and power and performance management firmware prototype(FVP)",
+                "title": "ARM client PC"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10402",
+            "key": [
+                "CLIENTPC"
+            ],
+            "membership": []
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/GNU/overview\">https://linaro.atlassian.net/wiki/spaces/GNU/overview</a>",
                 "Theme": [
@@ -479,6 +495,22 @@
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10424",
             "key": [
                 "UM"
+            ],
+            "membership": []
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by WOA SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/WPERF/overview\">https://linaro.atlassian.net/wiki/spaces/WPERF/overview</a>",
+                "Theme": [
+                    "Client Devices"
+                ],
+                "description": "Take the Linux perf tool and port it to windows on Arm with the same API  so that you can do deep performance analysis (equivalent to Intel vtune tool).<br><br>The counting model, for obtaining aggregate counts of occurrences of special events, and <br><br><ul><li> Currently under development in wperf{-driver} prototype implemented by Jiong. </li><li> Will be developed and improved in short-term. </li><li> Less complex then sampling model.</li></ul> The sampling model, for determining the frequencies of event occurrences produced by program locations at the function, basic block, and/or instruction levels.",
+                "title": "Windows Perf"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10407",
+            "key": [
+                "WPERF"
             ],
             "membership": []
         },
