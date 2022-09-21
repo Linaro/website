@@ -28,21 +28,23 @@ flow:
       - format: custom_include
         source: learning_hub/learning_hub.html
   - row: container_row
+    id: testimonials
     style: why_section mb-5
     sections:
       - format: title
         title_content:
           size: h3
+          style: text-white
           text: Why companies join Linaro
       - format: custom_include
         source: learning_hub/testimonials.html
   - row: container_row
+    id: whitepapers
     style: whitepapers_section mb-5
     sections:
       - format: title
         title_content:
           size: h3
-          style: text-white
           text: Whitepapers
       - format: custom_include
         source: learning_hub/whitepapers.html
