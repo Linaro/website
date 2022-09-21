@@ -1,0 +1,34 @@
+
+<div class="col col-12 learning_hub_sidebar p-0">
+    <div class="row">
+        <div class="col col-12">
+            <h3>Go to section</h3>
+            <ul class="learning_hub_sidebar_list">
+                {% for section in site.hub %}
+                    <li class="section_link {% if page.url == section.url %}active{% endif %}"><a href="{{section.url}}">{{section.title}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-12">
+            <a href="/learning-hub/#why-companies-join-linaro">
+                <h3>Why companies join Linaro</h3>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-12">
+            <a href="/learning-hub/#whitepapers">
+                <h3>Whitepapers</h3>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-12">
+            <a href="https://resources.linaro.org/">
+                <h3>Technical Videos</h3>
+            </a>
+        </div>
+    </div>
+</div>
