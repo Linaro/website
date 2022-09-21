@@ -57,6 +57,9 @@ collections:
   authors:
     output: true
     permalink: /author/:name/
+  hub:
+    output: true
+    permalink: /learning-hub/:name/
   woa:
     output: true
     permalink: /windows-on-arm/:name/
@@ -90,6 +93,13 @@ defaults:
     values:
       layout: author
       sitemap: false
+      image: /assets/images/social-media-image.png
+  - scope:
+      path: ""
+      type: "hub"
+    values:
+      layout: hub
+      css_bundle: learning-hub
       image: /assets/images/social-media-image.png
   - scope:
       type: "services"
