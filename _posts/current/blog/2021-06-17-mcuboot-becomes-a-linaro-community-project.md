@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MCUboot becomes a Linaro Community Project
+title: MCUboot Becomes a Linaro Community Project
 description: MCUboot Project joined the Linaro Community Projects Division, the
   division of Linaro managing open source community projects. Read about MCUboot
   here.
