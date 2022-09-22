@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linaro Announces Appointment of New VP of Engineering Tim Benton
+title: Linaro Announces Appointment of new VP of Engineering Tim Benton
 description: Linaro announces the appointment of Tim Benton as VP of
   Engineering. Read more about Tim's experience in software development here.
 date: 2021-06-24 09:00:00
