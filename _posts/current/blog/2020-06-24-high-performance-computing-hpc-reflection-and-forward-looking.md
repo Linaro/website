@@ -1,11 +1,9 @@
 ---
 layout: post
 title: " High Performance Computing (HPC), Reflection and Forward-looking."
-description: In 2018 we discussed the first step for ARM into High Performance
-  Computing (HPC). Since then, Linaro has been working to increase awareness of
-  the successes within the High Performance Computing ARM ecosystem. HPC now
-  forms a key part of our activities, plus an association with Fugaku - the No.1
-  Supercomputer in the world (according to the Top500 bi-annual review).
+description: High Performance Computing forms a key part of our Linaro Connect
+  activities and our virtual conferences. Here we reflect and look at what's
+  next for HPC.
 date: 2020-06-26 04:22:14+00:00
 image: /assets/images/content/hpc-bg.jpg
 tags:
