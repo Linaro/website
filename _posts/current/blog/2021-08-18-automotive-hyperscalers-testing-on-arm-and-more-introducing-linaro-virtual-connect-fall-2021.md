@@ -3,6 +3,7 @@ layout: post
 title: Introducing Linaro Virtual Connect Fall 2021 - Linaro
 description: Within this article, we annouce our schedule for our Linaro Virtual
   Connect Fall 2021 which will consist of 70+ technical keynotes & sessions.
+  Read more here.
 date: 2021-08-18 08:57:31 -04:00
 image: /assets/images/content/48784720458_63040ac998_k.jpg
 strap_image: /assets/images/content/48784720458_63040ac998_k.jpg
