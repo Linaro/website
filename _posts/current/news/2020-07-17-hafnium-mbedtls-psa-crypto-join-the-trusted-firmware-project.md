@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Hafnium, MbedTLS, PSA Crypto join the Trusted Firmware Project
-description: Hafnium, MbedTLS and the PSA Crypto Project join the Trusted
-  Firmware Project to collaborate on development of secure software solutions.
-  Read more here!
+description: "Trusted Firmware announced that Hafnium, MbedTLS and the PSA
+  Crypto Project transitioned into its project scope to collaborate on secure
+  software solutions. "
 date: 2020-07-17 12:40:55+00:00
 image: /assets/images/content/trusted-firmware.jpg
 tags:
