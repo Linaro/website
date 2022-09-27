@@ -1,8 +1,9 @@
 ---
 layout: post
-title: The KissCache caching server
-description: "In this blog we look at the caching server KissCache - how it is
-  used and how to set it up. "
+title: The KissCache Caching Server
+description: "In this blog, we take a look at the open-sourced KissCache, a
+  simple server built on the KISS principle: Keep It Simple Stupid. Read more
+  here."
 date: 2020-05-18 05:56:56
 image: /assets/images/content/technology-3389917_1920.jpg
 tags:
