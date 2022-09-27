@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Linaro contributions to the Linux Kernel 5.16 Release "
-description: "The Linux kernel 5.16 was released last week. As always, Linaro
-  featured in the list with several notable contributions from our highly
-  skilled Kernel Engineers. In this blog, we asked these engineers to talk about
-  their contributions to this release. "
+description: In this blog, we asked the Linaro developers to talk about the
+  contributions and impact they made to the Linux kernel 5.16 release. Read
+  about the release here.
 date: 2022-01-18 09:36:32 +00:00
 image: /assets/images/content/careers-image-1.jpg
 tags:
