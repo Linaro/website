@@ -2,7 +2,7 @@
     "projects": [
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by WOA SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LWG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CLIENTPC/overview\">https://linaro.atlassian.net/wiki/spaces/CLIENTPC/overview</a>",
                 "Theme": [
                     "Client Devices"
@@ -500,7 +500,7 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by WOA SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LWG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/WPERF/overview\">https://linaro.atlassian.net/wiki/spaces/WPERF/overview</a>",
                 "Theme": [
                     "Client Devices"
@@ -516,7 +516,7 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by WOA SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LWG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/WOAR/overview\">https://linaro.atlassian.net/wiki/spaces/WOAR/overview</a>",
                 "Theme": [
                     "Client Devices"
