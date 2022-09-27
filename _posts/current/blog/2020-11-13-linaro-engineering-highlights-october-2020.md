@@ -1,16 +1,14 @@
 ---
 layout: post
 title: Linaro Engineering Highlights - October 2020
-description: October's Engineering highlights include an overview of the new Arm Devsummit,  Linaro's
-  contributions for the Linux Kernel 5.9. Plus an overview of recent blogs including
-  'Accelerating libcamera Qcam format conversion using OpenGL shaders' and 'DMA BUF
-  Heap Transition in AOSP'.
+description: October's Engineering highlights include an overview of the new Arm
+  Devsummit and Linaro's contributions for the Linux Kernel 5.9. Read more here.
 date: 2020-11-13 01:15:35
 image: /assets/images/content/iot_planet_under_2mb.jpg
 tags:
-- Linaro
-- Engineering highlights
-- Linux
+  - Linaro
+  - Engineering highlights
+  - Linux
 category: blog
 author: jon.burcham@linaro.org
 ---
