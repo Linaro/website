@@ -2,7 +2,8 @@
 layout: post
 title: Linaro Engineering Highlights - November 2020
 description: Our November edition of the monthly Engineering Highlight is full
-  of the latest updates and news from Linaro.
+  of the latest updates and news from Linaro. Read about November's activities
+  here.
 date: 2020-12-14 11:54:02
 image: /assets/images/content/electricity-1288717_1920.jpg
 tags:
