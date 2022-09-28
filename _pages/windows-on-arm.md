@@ -64,7 +64,7 @@ flow:
                 - title: Client PC
                   textBtn: true
                   style: btn-lg text-btn
-                  url: /
+                  url: https://linaro.atlassian.net/wiki/spaces/CLIENTPC
             - title: WPerf
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
@@ -76,7 +76,7 @@ flow:
                 - title: WPerf
                   textBtn: true
                   style: btn-lg text-btn
-                  url: /
+                  url: https://linaro.atlassian.net/wiki/spaces/WPERF
   - row: container_row
     style: null
     sections:
