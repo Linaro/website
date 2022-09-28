@@ -1,5 +1,5 @@
 ---
-title: Windows on Arm Group
+title: Windows on Arm Project
 description: >
   Linaro, Microsoft, Qualcomm, Arm and CIX Technology are working together to
   build a Windows on Arm ecosystem which supports native development. Read more
@@ -16,14 +16,9 @@ layout: flow
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
-  title: Windows on Arm Group
+  title: Windows on Arm Project
   description: |
-    Linaro, Arm, Microsoft and Qualcomm are working
-    together to build a Windows on Arm ecosystem
-    which supports native development. We believe
-    native development is key to unlocking better user
-    experiences and broader adoption of Windows on
-    Arm platforms.
+    Linaro is working with Arm, CIX Technology, Microsoft and Qualcomm to build a Windows on Arm ecosystem which supports native development. We believe nativ development is key to unlocking better user experiences and broader adoption of Windows on Arm platforms.
   image: /assets/images/content/iStock-667012914_sm.jpg
 flow:
   - row: container_row
@@ -48,21 +43,40 @@ flow:
         style: text-left
         text_content:
           text: >
-            The work we do to grow the Arm open source ecosystem for Windows
-            involves setting up CI
+            The work we do to grow the Arm open source ecosystem for Windows involves setting up CI and testing, coordinating with vendors to analyze and fix regressions and establishing relationships with project maintainers. Below you will find all the projects we are currently working on along with projects we plan to enable for Windows on Arm in the future.
 
-            and testing, coordinating with vendors to analyze and fix regressions and establishing
-
-            relationships with project maintainers. Below you will find all the projects we are currently
-
-            working on along with projects we plan to enable for Windows on Arm in the future.
-
-
-            To find out more about how well supported a project is in Windows on Arm, click on the
-
-            relevant project or product below.
+            To find out more about how well supported a project is in Windows on Arm, click on the relevant project or product below.
       - format: custom_include
         source: woa/projects.html
+      - format: block
+        style: pb-4
+        item_width: "6"
+        block_section_content:
+          blocks:
+            - title: Client PC
+              style: related_project_block h-100
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                **UEFI+ACPI Firmware for Arm-based client devices.**
+
+                This project aims to enable booting both Linux and Windows on ARM based client machines using the same ARM SystemReady SR compliant UEFI/ACPI firmware.
+              buttons:
+                - title: Client PC
+                  textBtn: true
+                  style: btn-lg text-btn
+                  url: /
+            - title: WPerf
+              style: related_project_block h-100
+              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
+              description: |
+                **Performance analysis tool for Windows**
+
+                An open-source performance analysis tool for Windows similar to Linux Perf.
+              buttons:
+                - title: WPerf
+                  textBtn: true
+                  style: btn-lg text-btn
+                  url: /
   - row: container_row
     style: null
     sections:
