@@ -31,7 +31,7 @@ flow:
             ecosystem for Windows. We look at a diverse set of tools, languages,
             and frameworks to support Windows on Arm
   - row: container_row
-    style: my-3 bg-light-gray
+    style: my-3
     sections:
       - format: title
         style: text-left
@@ -78,7 +78,7 @@ flow:
                   style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/WPERF
   - row: container_row
-    style: null
+    style: my-3 bg-light-gray
     sections:
       - format: two_column
         style: null
@@ -95,6 +95,17 @@ flow:
             style: blue-button
             title: Linaro Service Desk
             url: https://linaro-servicedesk.atlassian.net/servicedesk/customer/portal/22/group/85/create/301
+  - row: container_row
+    style: my-3
+    sections:
+      - format: title
+        style: text-left white-border-title font-weight-bold
+        title_content:
+          size: h3
+          style: font-weight-bold
+          text: Windows on Arm Portfolio Roadmap
+      - format: custom_include
+        source: woa/roadmap.html
   - row: container_row
     style: my-3 bg-light-gray
     sections:
