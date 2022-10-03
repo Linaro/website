@@ -1,18 +1,20 @@
-show_preview_links: true
 backend:
-  name: git-gateway
-  branch: develop
-  squash_merges: true
-slug:
-  encoding: ascii
-  clean_accents: true
-sanitize_replacement: "-"
+  name: github
+  repo: linaro/website
+  branch: master
+  use_graphql: false
+  preview_context: Deploy preview
+  open_authoring: true
 publish_mode: editorial_workflow
-local_backend: true
-mediaFolder: assets/images/content
 logo_url: https://www.linaro.org/assets/images/content/Linaro-Logo.svg
 site_url: https://www.linaro.org
 display_url: https://www.linaro.org
+show_preview_links: true
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+media_folder: assets/images/content
 collections:
   - label: Homepage Data
     name: homepage

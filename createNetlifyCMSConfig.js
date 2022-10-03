@@ -1470,26 +1470,25 @@ const header = {
   ],
 };
 const config = {
-  show_preview_links: true,
-  // Backend configuration, in this case with git
   backend: {
-    name: "git-gateway",
-    branch: "develop",
-    squash_merges: true,
+    name: "github",
+    repo: "linaro/website",
+    branch: "master",
+    use_graphql: false,
+    preview_context: "Deploy preview",
+    open_authoring: true,
   },
-  slug: {
-    encoding: "ascii",
-    clean_accents: true,
-  },
-  sanitize_replacement: "-",
   publish_mode: "editorial_workflow",
-  // Local backend is used during development
-  local_backend: true,
-  mediaFolder: "assets/images/content",
   logo_url: "https://www.linaro.org/assets/images/content/Linaro-Logo.svg",
   site_url: "https://www.linaro.org",
   display_url: "https://www.linaro.org",
-  // The Pages collection
+  show_preview_links: true,
+  slug: {
+    encoding: "ascii",
+    clean_accents: true,
+    sanitize_replacement: "-",
+  },
+  media_folder: "assets/images/content",
   collections: [
     {
       label: "Homepage Data",
