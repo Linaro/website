@@ -2662,10 +2662,6 @@ collections:
         widget: hidden
         default: flow
         required: true
-      - label: URL
-        name: permalink
-        widget: string
-        required: true
       - label: Service ID
         name: service_id
         widget: number
