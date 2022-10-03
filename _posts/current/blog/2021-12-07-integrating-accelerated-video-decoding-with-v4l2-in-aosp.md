@@ -2,14 +2,7 @@
 layout: post
 title: Integrating Accelerated Video Decoding in AOSP
 description: >
-  Upstream enabled development boards are critical to the work Linaro does as
-  they provide a platform to develop and validate new solutions, as well as
-  allow us to demonstrate the value of those solutions to upstream maintainers,
-  and also as a vehicle for testing to ensure external regressions are caught
-  and quickly fixed. One area that has commonly been missing on AOSP development
-  boards is open implementations of accelerated video decoding. In this blog,
-  Linaro Engineer John Stultz talks about the work Linaro has done to integrate
-  accelerated video decording with v412 in AOSP.
+  In this blog, Linaro Engineer John Stultz talks about the work Linaro has done to integrate accelerated video decoding with v412 in AOSP. Read more here.
 date: 2021-12-07 08:47:03 +00:00
 image: /assets/images/content/technology-3389917_1920.jpg
 tags:

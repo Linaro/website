@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Linaro contributions to the Linux Kernel 5.16 Release "
-description: In this blog, we asked the Linaro developers to talk about the
-  contributions and impact they made to the Linux kernel 5.16 release. Read
-  about the release here.
+title: Linaro contributions to the Linux Kernel 5.16 Release
+description: >
+  In this blog, we asked the Linaro developers to talk about the contributions and impact they made to the Linux kernel 5.16 release. Read about the release here.
 date: 2022-01-18 09:36:32 +00:00
 image: /assets/images/content/careers-image-1.jpg
 tags:
@@ -14,6 +13,7 @@ tags:
 category: blog
 author: linaro
 ---
+
 The 5.16 kernel release was published last week and featured several Linaro developers in the top twenty contributors to the Linux kernel (as highlighted in [LWN.nets development statistics](https://lwn.net/Articles/880699/)) - both by changesets and changed lines.
 
 {% include image.html path="/assets/images/content/5.16-kernel-release-active-developers.png" alt="5.16 Kernel Release Most Active Developers" %}
@@ -30,7 +30,7 @@ In comparison, the 5.17 merge cycle has started with less than 800 Arm SoC speci
 
 <https://lore.kernel.org/linux-arm-kernel/CAK8P3a0RDZpLtWjMEU1QVWSjOoqRAH6QxQ+ZQnJc8LwaV7m+JQ@mail.gmail.com/t/>
 
-### Dmitry Baryshkov - Refactoring of interconnect drivers for Qualcomm platforms 
+### Dmitry Baryshkov - Refactoring of interconnect drivers for Qualcomm platforms
 
 The largest part of Dmitry’s contributions during this cycle is related to refactoring for the interconnect drivers for some of the Qualcomm platforms (sdm660, msm8916, msm8939). These changes have generified support for QoS (Quality of Service) settings for the in-chip bandwidth management. This improves support and performance of older (but still used) platforms. Dmitry’s other contributions were mostly concentrated around the Qualcomm Display driver (MSM DRM), Qualcomm clock and MPP (multi-purpose pin) controllers.
 
