@@ -2,7 +2,7 @@
   "name": "linaro.org",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:kylekirkby/website-1.git",
+  "repository": "git@github.com:linaro/website.git",
   "author": "Kyle Kirkby <kyle.kirkby@linaro.org>",
   "license": "MIT",
   "dependencies": {
