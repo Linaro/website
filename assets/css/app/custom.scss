@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 #flow_wrapper {
   font-size: 1.2rem !important;
   @include media-breakpoint-down(md) {
@@ -519,6 +522,9 @@
   }
   nav#main-navigation {
     z-index: 999;
+  }
+  .blog-content {
+    word-break: break-word;
   }
   #main_content {
     word-break: break-word;
