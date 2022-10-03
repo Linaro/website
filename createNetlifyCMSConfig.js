@@ -2453,12 +2453,6 @@ const config = {
       fields: [
         ...pageMetaFields,
         {
-          label: "URL",
-          name: "permalink",
-          widget: "string",
-          required: true,
-        },
-        {
           label: "Service ID",
           name: "service_id",
           widget: "number",
