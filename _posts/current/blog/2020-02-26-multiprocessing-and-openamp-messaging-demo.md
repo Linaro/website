@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Multiprocessing and OpenAMP Messaging Demo
-description: Linaro and its members are developing a set of software components
-  and tools to help with a system approach to multiprocessing. Watch a demo
-  video here.
+description: >
+  Linaro and its members are developing a set of software components and tools to help with a system approach to multiprocessing. Watch a demo video here.
 date: 2020-02-26 11:54:46
 image: /assets/images/content/Billsdemo.png
 tags:

@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Linaro Engineering Highlights - January 2021
-description: Our January edition of the monthly Engineering Highlights is
-  feature packed with several updates, together with a roundup on the year of
-  some of the key projects.
+title: Linaro Engineering Highlights | January 2021
+description: >
+  Our January edition of the Engineering Highlights is feature packed with several updates, together with a roundup on the year of some of the key projects.
 date: 2021-02-10 11:00:00
 image: /assets/images/content/the_world.jpg
 tags:
@@ -14,6 +13,7 @@ tags:
 category: blog
 author: jon.burcham@linaro.org
 ---
+
 ## Introduction
 
 In this edition of Engineering Highlights we have included articles on Saving Power & Improving Performance With Dynamic Interconnect Scaling, Creating Portable and Reproducible Kernel Builds with TuxMake, plus information on a new tool called the Open Source Project Criticality Score. Furthermore, there are articles on the LLVM Code-Size Optimization: Machine Outliner and SVE/SVE2 support in LLVM Debugger (LLDB).
@@ -59,7 +59,7 @@ Machine Outlining is a code-size optimization initially developed for AArch64. I
 
 The typical code size reduction is around 5% for ARM and 4% for Thumb2 mode -- and that’s on top of the aggressive code-size optimizations enabled by -Oz compiler flag. In several cases the new optimization provided more than 25% code-size reduction -- on large C++ applications or when combined with link-time optimizations (LTO).
 
-The optimization will be available in the upcoming LLVM 12 release, and it is enabled by default for M-profile cores at -Oz optimization level. It can also be turned on with -*moutline* compiler flag.
+The optimization will be available in the upcoming LLVM 12 release, and it is enabled by default for M-profile cores at -Oz optimization level. It can also be turned on with -_moutline_ compiler flag.
 
 ## SVE/SVE2 support in LLVM Debugger (LLDB)
 
