@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BFQ Linux IO Scheduler Optimizations for Multi-Actuator SATA Hard Drives
+title: BFQ Linux IO Scheduler Optimizations
 description: In this blog, we cover the extra logic applied in BFQ I/O scheduler
   to support multi-actuator drives. Paving the way to exploiting potential
   multi-actuator drives.
