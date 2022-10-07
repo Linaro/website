@@ -1,5 +1,6 @@
 ---
 layout: base
+toc: true
 ---
 <div itemscope="">
     <div
@@ -20,7 +21,12 @@ layout: base
             <div class="container">
                 <div class="row justify-content-sm-center">
                     <div class="col col-12 col-md-9 py-4 content order-1">
-                        {{content}}
+                        <div id="table-of-contents">
+                            {{ content | toc_only }}
+                        </div>  
+                        <div id="markdown-content">
+                            {{ content | inject_anchors }}
+                        </div>
                     </div>
                     <div class="col col-12 col-md-3 py-4 sidebar order-12">
                         {% include learning_hub/learning_hub_sidebar.html %}
