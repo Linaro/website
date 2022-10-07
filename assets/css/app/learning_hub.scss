@@ -1,4 +1,24 @@
 #wrapper {
+  div#table-of-contents {
+    z-index: 1;
+    position: relative;
+    li {
+      list-style: circle !important;
+      margin-left: 25px;
+      padding-left: 5px;
+      color: #10819e;
+    }
+  }
+  #markdown-content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      scroll-margin-top: 100px;
+    }
+  }
   .main_content {
     font-size: 1.2rem;
   }
