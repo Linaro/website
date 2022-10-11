@@ -22,7 +22,7 @@ collections:
       preview: false
     format: yaml
     files:
-      - label: Team Members
+      - label: Homepage Data
         name: team
         file: _data/homepage.yml
         fields:
