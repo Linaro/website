@@ -57,6 +57,10 @@ collections:
   authors:
     output: true
     permalink: /author/:name/
+  hub:
+    output: true
+    toc: true
+    permalink: /learning-hub/:name/
   woa:
     output: true
     permalink: /windows-on-arm/:name/
@@ -91,6 +95,14 @@ defaults:
       layout: author
       sitemap: false
       image: /assets/images/social-media-image.png
+  - scope:
+      path: ""
+      type: "hub"
+    values:
+      layout: hub
+      toc: true
+      css_bundle: learning-hub
+      image: /assets/images/content/37258684572_e7b51c154e_o.jpg
   - scope:
       type: "services"
     values:
@@ -313,3 +325,12 @@ exclude_from_localization:
     "favicon.ico",
   ]
 parallel_localization: false
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_class: list-group docs_nav sticky-top
+  sublist_class: "list-group"
+  item_class: toc-entry
+  item_prefix: toc-
