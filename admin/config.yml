@@ -22,7 +22,7 @@ collections:
       preview: false
     format: yaml
     files:
-      - label: Team Members
+      - label: Homepage Data
         name: team
         file: _data/homepage.yml
         fields:
@@ -35,7 +35,7 @@ collections:
             widget: list
             fields:
               - label: Subject
-                name: subejct
+                name: subject
                 widget: string
                 hint: The subject text (text in white)
                 required: true
