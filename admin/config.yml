@@ -23,7 +23,7 @@ collections:
     format: yaml
     files:
       - label: Homepage Data
-        name: team
+        name: homepage
         file: _data/homepage.yml
         fields:
           - label: Header text
