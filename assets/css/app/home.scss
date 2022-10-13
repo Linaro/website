@@ -1,42 +1,26 @@
 #flow_wrapper {
-  .btn[data-theme-id="core-technologies"] {
-    background-color: #666666;
-    border: 1px solid #d7d7d7 !important;
-    &:hover {
-      background-color: #d7d7d7;
+  #quick_links_row {
+    a {
+      color: $primary;
+    }
+    .quick_link {
+      @include media-breakpoint-down(sm) {
+        border: 0 !important;
+      }
     }
   }
-  .btn[data-theme-id="cloud-computing-servers"] {
-    background-color: $primary;
-    border: 1px solid #ebf5d7 !important;
-    &:hover {
-      background-color: #ebf5d7;
+  .lds_section {
+    h2 {
+      font-weight: bold;
     }
-  }
-  .btn[data-theme-id="client-devices"] {
-    background-color: #be00be;
-    border: 1px solid #f9ebf9 !important;
-    &:hover {
-      background-color: #f9ebf9;
-    }
-  }
-  .btn[data-theme-id="automotive-iot-edge-devices"] {
-    background-color: #0bb1dd;
-    border: 1px solid #abd6e3 !important;
-    &:hover {
-      background-color: #abd6e3;
-    }
-  }
-  .banner_member {
-    width: "100%";
-    height: 100px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @include media-breakpoint-down(sm) {
-      width: 100%;
-      height: 80px;
+    .left_column {
+      p {
+        font-size: 26px;
+        max-width: 800px;
+        @include media-breakpoint-down(sm) {
+          font-size: 18px;
+        }
+      }
     }
   }
   #news_alert {
@@ -46,11 +30,6 @@
       color: $primary;
       font-style: italic;
     }
-  }
-  .highlighted_text_section {
-    color: white;
-    border-left: 5px solid $primary;
-    padding-left: 10px;
   }
   .bg-black {
     background-color: #000 !important;
@@ -86,66 +65,29 @@
     -webkit-text-stroke-color: #ffffff;
     display: block;
   }
-  .members_slider_wrapper {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    .item {
-      height: 182px !important;
-      img.member_image {
-        width: 200px;
-        height: 100px;
-        object-fit: contain;
-      }
-    }
-  }
   .stats_header {
     font-weight: 900 !important;
   }
   #homepage_header.background_image {
+    height: auto;
+    z-index: 0;
+    .homepage_header_content {
+      z-index: 2;
+      p {
+        font-size: 26px;
+        font-weight: bold;
+        color: white;
+        @include media-breakpoint-down(sm) {
+          font-size: 22px;
+        }
+      }
+    }
     .theme_header_image {
       transition: all 1000ms ease;
       opacity: 1;
     }
     .theme_header_image.hidden_image {
       opacity: 0;
-    }
-    .homepage_header_overlay {
-      position: absolute;
-      background-color: black;
-      height: 260px;
-      width: 70vw;
-      background: linear-gradient(
-        90deg,
-        rgba(1, 0, 17, 1) 0%,
-        rgba(0, 0, 0, 0.4) 100%
-      );
-      @include media-breakpoint-down(md) {
-        width: 100%;
-        height: 200px;
-      }
-      opacity: 0.7;
-      z-index: 1;
-    }
-    z-index: 0;
-    height: 450px;
-    &:before {
-      position: absolute;
-      content: "";
-      height: 15px;
-      width: 100%;
-      top: 0;
-      z-index: 2;
-      left: 0;
-      background-color: #ccc;
-      background: linear-gradient(
-        to left,
-        rgba(#000, 1) 0%,
-        rgba(#fff, 1) 100%
-      );
-      width: 100%;
-      border-bottom: 1px solid #000;
     }
     &:after {
       position: absolute;
@@ -172,8 +114,6 @@
         span.font-weight-bolder {
           font-weight: 900;
         }
-        border-left: 5px solid $primary;
-        padding-left: 20px;
         margin: 50px 0 !important;
         max-width: 840px;
         @include media-breakpoint-down(md) {
@@ -196,26 +136,27 @@
     }
   }
   #theme_tabs {
-    background-color: #fff;
-    padding-top: 30px !important;
     .theme_title {
-      font-size: 16px;
+      font-size: 20px;
       height: 50px;
+      color: white;
     }
-    .nav-link.active {
-      border: 0;
+    .nav-link {
+      border: 1px solid transparent;
       border-radius: 0;
+      padding-bottom: 20px;
+      &.active {
+        border: 1px solid $primary;
+      }
     }
     .item_wrapper {
       padding: 10px;
-      border: 1px solid #eee;
       z-index: 1;
       position: relative;
       margin: 8px;
       height: 100%;
       transition: all 500ms ease;
       .item_innner_wrapper {
-        background-color: #eee;
         height: 100%;
       }
     }
@@ -244,43 +185,6 @@
         &.active {
           background-color: #11809f;
           color: white;
-        }
-      }
-    }
-  }
-  #theme_tabs {
-    .item.h-100.selected[data-tab-id="core-technologies"] {
-      .item_wrapper {
-        border-color: #666666;
-        .item_innner_wrapper {
-          background-color: #d7d7d7 !important;
-        }
-      }
-    }
-
-    .item.h-100.selected[data-tab-id="cloud-computing-servers"] {
-      .item_wrapper {
-        border-color: $primary;
-        .item_innner_wrapper {
-          background-color: #ebf5d7 !important;
-        }
-      }
-    }
-
-    .item.h-100.selected[data-tab-id="client-devices"] {
-      .item_wrapper {
-        border-color: #be00be;
-        .item_innner_wrapper {
-          background-color: #f9ebf9 !important;
-        }
-      }
-    }
-
-    .item.h-100.selected[data-tab-id="automotive-iot-edge-devices"] {
-      .item_wrapper {
-        border-color: #0bb1dd;
-        .item_innner_wrapper {
-          background-color: #cfeff8 !important;
         }
       }
     }
@@ -340,43 +244,10 @@
     }
   }
   #theme_section {
-    div#core-technologies.active {
-      .theme_content_wrapper {
-        border-color: #666666;
-      }
-      .theme_content_inner_wrapper {
-        background-color: #d7d7d7;
-      }
-    }
-    div#automotive-iot-edge-devices.active {
-      .theme_content_wrapper {
-        border-color: #0bb1dd;
-      }
-      .theme_content_inner_wrapper {
-        background-color: #cfeff8;
-      }
-    }
-    div#cloud-computing-servers.active {
-      .theme_content_wrapper {
-        border-color: $primary;
-      }
-      .theme_content_inner_wrapper {
-        background-color: #ebf5d7;
-      }
-    }
-    div#client-devices.active {
-      .theme_content_wrapper {
-        border-color: #be00be;
-      }
-      .theme_content_inner_wrapper {
-        background-color: #f9ebf9;
-      }
-    }
     .theme_content_wrapper {
-      border: 1px solid #eee;
       padding: 10px;
+      color: white;
       .theme_content_inner_wrapper {
-        background-color: #eee;
         padding: 10px;
         display: flex;
         flex-direction: row;

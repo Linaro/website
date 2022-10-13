@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Add support to retrieve correct TA load address with ASLR enabled
+title: Add Support to Retrieve TA Load Address w/ ASLR Enabled
 description: This blog details how two interns enabled debugging in Open
   Portable Trusted Execution Environment (OPTEE) using GDB. Read more here.
 date: 2020-11-26 12:46:01
@@ -15,7 +15,7 @@ author: paolo.valente
 
 Recently two interns worked with Linaro to solve a real engineering problem. We are grateful for the work they undertook and this blog details their achievements: -
 
-Luca and Simone have enabled debugging in Open Portable Trusted Execution Environment (OPTEE) using GDB. We added support to retrieve the correct load addresses of Trusted Applications (TA) even when ASLR (Address Space Layout Randomization) is enabled. ASLR is a new functionality that shuffles memory addresses to improve security against malicious memory accesses; in this context, the load address of a TA is unknowable at prior, requiring a check at execution time to build the symbols table of GDB with the actual addresses. 
+Luca and Simone have enabled debugging in Open Portable Trusted Execution Environment (OPTEE) using GDB. We added support to retrieve the correct load addresses of Trusted Applications (TA) even when ASLR (Address Space Layout Randomization) is enabled. ASLR is a new functionality that shuffles memory addresses to improve security against malicious memory accesses; in this context, the load address of a TA is unknowable at prior, requiring a check at execution time to build the symbols table of GDB with the actual addresses.
 
 ## Contribution
 

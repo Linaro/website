@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ensuring optimal performance through enhanced kernel testing
+title: Enhanced Kernel Testing for Optimal Performance
 description: In this blog, Linaro Interns Mirco Romagnoli and Federico Gelmetti
   talk about ensuring optimal performance through enhanced kernel testing. Read
   more here.
@@ -20,23 +20,23 @@ author: linaro
 ---
 ## Introduction
 
-As part of Linaro’s mission to improve the Arm architecture ecosystem, Linaro created LKFT - Linaro’s Kernel Functional Test framework. The mission of Linaro’s Kernel Functional Test Framework is to improve the quality of the Linux kernel by performing functional testing on Arm hardware. 
+As part of Linaro’s mission to improve the Arm architecture ecosystem, Linaro created LKFT - Linaro’s Kernel Functional Test framework. The mission of Linaro’s Kernel Functional Test Framework is to improve the quality of the Linux kernel by performing functional testing on Arm hardware.
 
 While functional testing plays a critical role in ensuring the quality of the kernel, it does not cover another aspect of paramount importance: performance. Linaro therefore decided to extend LKFT to also perform performance analysis, and, in particular automatic detection and reporting of performance regressions. We started this effort a few years ago and today we have contributed to the mmtests benchmark suite. This allows us to run mmtests benchmarks in LAVA (Linaro Automation and Validation Architecture), publish the result to squad (Software Quality Dashboard) and then do post processing to find out if we have regressed between the different kernel versions.
 
-In this blog, Linaro Interns Mirco Romagnoli and Federico Gelmetti talk about the functionality they have enabled to support performance testing. 
+In this blog, Linaro Interns Mirco Romagnoli and Federico Gelmetti talk about the functionality they have enabled to support performance testing.
 
 ## Adding MMTests support to LAVA
 
-by Mirco Romagnoli 
+by Mirco Romagnoli
 
 Thanks to a recent series of patches, LAVA now supports the execution of tests from the MMTests benchmark suite.
 
-MMTests is a well-proven configurable test suite that runs performance tests against arbitrary workloads and allows you to compare the results of these tests to detect regressions or improvements of different kernel revisions. Up until now, the comparison script required the raw data of the different runs to be on the filesystem, no other loading method was supported. Every time the test boards were used by LAVA, the memory would be wiped, resulting in the raw data used for comparisons being lost at each execution. 
+MMTests is a well-proven configurable test suite that runs performance tests against arbitrary workloads and allows you to compare the results of these tests to detect regressions or improvements of different kernel revisions. Up until now, the comparison script required the raw data of the different runs to be on the filesystem, no other loading method was supported. Every time the test boards were used by LAVA, the memory would be wiped, resulting in the raw data used for comparisons being lost at each execution.
 
 With this patch however, it is now possible to save results and retrieve them to make comparisons. The results of these tests can be exported to JSON, this file can then be used to make the comparisons without the need to have the raw metrics on the filesystem. This allows us to run a MMTests' test, export the results to JSON and then save the results as metrics on LAVA. By giving a specific name to each metric the JSON file can eventually be rebuilt and used with the compare script.
 
-To find out more, click on the links below to see what has been done: 
+To find out more, click on the links below to see what has been done:
 
 **MMTests patchset**
 This is the patchset that enables the JSON export and load of the test results.
@@ -58,7 +58,7 @@ Here you can see the workflow for LAVA and the python script that formats the me
 
 by Federico Gelmetti
 
-[lkp-tests](https://01.org/lkp) \[1] is a framework aimed at testing various parts of a kernel, to track its performance and robustness.
+[lkp-tests](http://lwn.net/Articles/555968/) \[1] is a framework aimed at testing various parts of a kernel, to track its performance and robustness.
 It runs a large set of benchmarks which cover core components of the Linux kernel: virtual memory management, I/O subsystem, process scheduler, file system, network, device drivers, and more. The interest towards lkp-tests was born with the intent of adding the test cases already configured in the suite into Linaro’s [test-definitions](https://github.com/Linaro/test-definitions) \[2] suite.
 
 After a bit of digging, we came to the conclusion that the best route would be to call lkp-tests from test-definitions directly, to avoid exporting all the individual test cases from lkp-tests to test-definitions.
@@ -69,7 +69,7 @@ The patch is by no means a full implementation of a new test for lkp-tests, but 
 
 **Resources:**
 
-\[1] <https://01.org/lkp>
+\[1] [https://01.org/lkp](http://lwn.net/Articles/555968/)
 
 \[2] <https://github.com/Linaro/test-definitions>
 

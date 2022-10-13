@@ -32,7 +32,7 @@ The core part of MHI are logical channels, which are used to transfer data packe
 
 The channel configuration is static, which means the purpose of channel is fixed and will not be changed during runtime. The below picture illustrates the exchange of messages over IPCR channel with PCI-E as the physical interface.
 
-![](/assets/images/content/ipcr-channel.png "ipcr-channel")
+{% include image.html path="/assets/images/content/ipcr-channel.png" alt="ipcr-channel" %}
 
 ```c
 struct mhi_chan {

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " Linaro in OpenStack"
+title: Linaro is now part of OpenStack
 description: Linaro developers now use OpenStack as a way of sharing servers’
   resources with coworkers instead of just embedded and mobile space. Read more
   here.

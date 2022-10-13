@@ -1,0 +1,12 @@
+text: >
+  Linaro 与企业和开源社区合作，在基于 Arm 的技术上开发软件。 我们创建的解决方案，推动 Arm 软件生态系统向前发展，增强标准化，促进 跨行业协作，为实际应用做出贡献。
+quick_links:
+  - subject: 特色项目
+    text: Windows on Arm
+    link: /windows-on-arm/
+  - subject: 最新的 Linux 内核版本
+    text: 5.19.1
+    link: /blog/linaro-featured-top-in-5-19-linux-kernel-release-the-first-kernel-to-be-released-on-arm64/
+  - subject: Linaro Insights Newsletter
+    text: SUBSCRIBE
+    link: https://linaro.us3.list-manage.com/subscribe/post?u=14baaae786342d0d405ee59c2&id=bcfa4abc8f
