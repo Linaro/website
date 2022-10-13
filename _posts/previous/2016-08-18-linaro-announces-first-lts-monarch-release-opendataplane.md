@@ -1,15 +1,15 @@
 ---
-author: linaro
-category: news
-date: 2016-08-18 14:34:13
-description: 'Cambridge, UK: 18 August 2016'
-layout: post
-link: /news/linaro-announces-first-lts-monarch-release-opendataplane/
-slug: linaro-announces-first-lts-monarch-release-opendataplane
-title: Linaro Announces First LTS Monarch Release of OpenDataPlane
 wordpress_id: 11334
+layout: post
+title: Linaro Announces First LTS Monarch Release of OpenDataPlane
+description: "Cambridge, UK: 18 August 2016"
+image: /assets/images/content/electricity-1288717_1920.jpg
+author: linaro
+slug: linaro-announces-first-lts-monarch-release-opendataplane
+date: 2016-08-18 14:34:13
+link: /news/linaro-announces-first-lts-monarch-release-opendataplane/
+category: news
 ---
-
 Cambridge, UK: 18 August 2016
 
 Linaro Ltd, the collaborative engineering organization developing open-source software for its member companies, today announced the availability of the first Long Term Support (LTS) Monarch release of OpenDataPlane®. The OpenDataPlane project is an open-source, cross-platform set of application programming interfaces (APIs) for the networking Software Defined Data Plane.The code released is production ready and has been demonstrated by Linaro Networking group (LNG) members and their partners.
@@ -35,8 +35,8 @@ OpenDataPlane is developed jointly by LNG members and the wider open-source comm
 “ODP’s new OpenDataPlane ® LTS Monarch release supports rapid migration to a platform with accelerators, thereby enabling the throughput and efficiency required by today’s enterprise edge networking markets,” said ‎Sam Fuller, Head of Strategy System Solutions, Digital Networking at NXP Semiconductors. “NXP is pleased to announce support for the Monarch ODP API in a release that is available now on our multicore QorIQ processors based on Arm Cortex technology.”
 
 **About LNG**
-The Linaro Networking Group (LNG) was founded in February 2013 and now consists of fourteen member companies including Arm, Broadcom, Cavium, Inc., Cisco, ENEA, Ericsson, Freescale, HiSilicon, MontaVista, Nokia, Texas Instruments, Wind, ZTE and Linaro. The OpenDataPlane project was established from the start of LNG to produce an open-source, cross-platform application programming interface (API) for the networking data plane, that offers both portability and automatic access to vendor-optimized platform acceleration capabilities, as well as linear scalability for applications deployed in many-core system environments. To find out more, please visit [http://www.opendataplane.org/](http://www.opendataplane.org/)
+The Linaro Networking Group (LNG) was founded in February 2013 and now consists of fourteen member companies including Arm, Broadcom, Cavium, Inc., Cisco, ENEA, Ericsson, Freescale, HiSilicon, MontaVista, Nokia, Texas Instruments, Wind, ZTE and Linaro. The OpenDataPlane project was established from the start of LNG to produce an open-source, cross-platform application programming interface (API) for the networking data plane, that offers both portability and automatic access to vendor-optimized platform acceleration capabilities, as well as linear scalability for applications deployed in many-core system environments. To find out more, please visit <http://www.opendataplane.org/>
 
 **About Linaro**
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit []() and [http://www.96Boards.org](http://www.96Boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](https://www.96boards.org/).

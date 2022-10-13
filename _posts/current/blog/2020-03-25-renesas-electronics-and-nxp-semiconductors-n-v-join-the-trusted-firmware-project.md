@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Renesas Electronics and NXP Semiconductors N.V. join the Trusted Firmware
-  Project
+title: 2 New Members Join Trusted Firmware Project
 description: Renesas Electronics and NXP Semiconductors N.V. join the Trusted
   Firmware Project hosted by Linaro, as new members. Read more here.
 date: 2020-03-25 05:34:48

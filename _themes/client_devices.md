@@ -8,7 +8,7 @@ image: /assets/images/content/client-devices-share-image.png
 icon: /assets/images/content/Client_Devices_icon_white.svg
 icon_dark: /assets/images/content/CD.svg
 icon_alt: /assets/images/content/Client_Devices_icon.svg
-icon_col: /assets/images/content/Icon_Client_Devices_colour.svg
+icon_col: /assets/images/content/Client_Devices_icon_col.svg
 js-package: contactForm
 description: >
   Linaro works with member companies to achieve the optimal user experience on client devices by helping upstream new features, reduce technical debt and detect regressions.
@@ -110,15 +110,7 @@ flow:
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
               description: |
-                Hardware with good software
-                support, such as 96Boards, is a critical
-                tool both for testing and validation of
-                the latest AOSP and latest stable and
-                upstream kernels, but also key for
-                prototyping both new hardware and
-                software. This Linaro Project aims to
-                produce development boards which
-                can be used for testing AOSP.
+                Hardware with good software support, such as 96Boards, is a critical tool both for testing and validation of the latest AOSP and latest stable and upstream kernels, but also key for prototyping both new hardware and software. This Linaro project aims to advance Arm based development boards for the Android ecosystem for a wide range of purposes including kernel validation, Android development and device enablement.
               buttons:
                 - title: Software Device Enablement for Android
                   style: btn-lg text-btn

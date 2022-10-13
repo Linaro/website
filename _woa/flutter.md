@@ -9,11 +9,11 @@ image: /assets/images/content/iStock-667012914_sm.jpg
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
-  title: Windows on Arm Project - Dart
+  title: Windows on Arm Project - Flutter
   image: /assets/images/content/iStock-667012914_sm.jpg
 links:
-    - text: Enablement Notes
-      url: https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28745138193/Dart+Flutter
+  - text: Enablement Notes
+    url: https://linaro.atlassian.net/wiki/spaces/WOAR/pages/28745138193/Dart+Flutter
 flow:
   - row: container_row
     style: #

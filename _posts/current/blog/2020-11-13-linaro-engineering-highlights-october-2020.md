@@ -1,122 +1,129 @@
 ---
 layout: post
-title: Linaro Engineering Highlights - October 2020
-description: October's Engineering highlights include an overview of the new Arm Devsummit,  Linaro's
-  contributions for the Linux Kernel 5.9. Plus an overview of recent blogs including
-  'Accelerating libcamera Qcam format conversion using OpenGL shaders' and 'DMA BUF
-  Heap Transition in AOSP'.
+title: Linaro Engineering Highlights | October 2020
+description: October's Engineering highlights include an overview of the new Arm
+  Devsummit and Linaro's contributions for the Linux Kernel 5.9. Read more here.
 date: 2020-11-13 01:15:35
 image: /assets/images/content/iot_planet_under_2mb.jpg
 tags:
-- Linaro
-- Engineering highlights
-- Linux
+  - Linaro
+  - Engineering highlights
+  - Linux
 category: blog
 author: jon.burcham@linaro.org
 ---
 
 ## 2020 Arm DevSummit
 
-{% include image.html path="/assets/images/content/simon-segars.jpg" class="small-inline left" alt="Simon Segars - Arm CEO image" %} For 2020, Arm retooled its fall conference to be more developer oriented as Arm DevSummit. With the recent news that Nvidia is acquiring Arm, the keynote by Arm CEO Simon Segars and fireside chat with both Simon Segars and Nvidia CEO Jensen Huang provided an opportunity to comment on the potential benefits of an Arm - Nvidia partnership. {% include image.html path="/assets/images/content/jenson-haung.jpg" class="small-inline left" alt="Jenson Huang - Nvidia CEO image" %} Both CEO’s endorsed Linaro as partners in Open Source work now and in the future. Mark Hambleton, Arm Vice President of Open Source Software, reinforced this view in his keynote titled “The Software Side of Arm”. 
+{% include image.html path="/assets/images/content/simon-segars.jpg" class="small-inline left" alt="Simon Segars - Arm CEO image" %}
+
+For 2020, Arm retooled its fall conference to be more developer oriented as Arm DevSummit. With the recent news that Nvidia is acquiring Arm, the keynote by Arm CEO Simon Segars and fireside chat with both Simon Segars and Nvidia CEO Jensen Huang provided an opportunity to comment on the potential benefits of an Arm - Nvidia partnership.
+
+{% include image.html path="/assets/images/content/jenson-haung.jpg" class="small-inline right" alt="Jenson Huang - Nvidia CEO image" %}
+
+Both CEO’s endorsed Linaro as partners in Open Source work now and in the future. Mark Hambleton, Arm Vice President of Open Source Software, reinforced this view in his keynote titled “The Software Side of Arm”.
 
 Linaro engineers and collaborators contributed 15 sessions (https://devsummit.arm.com/agenda/?search=Linaro#/) including:
 
-* Paul Isaacs’ , Director LDCG, HPC-SIG “Beyond ML – A Neuromorphic Approach to AI”
-* Ilias Apalodimas, LEDGE Tech Lead “LEDGE Reference Platform: Architecture and Generic Kernel Image”
-* François-Frédéric Ozog, Director LEDGE, “Linux as Firmware: LinuxBoot on Arm”
-* Kevin Townsend, LITE Engineer “Secure Devices With TF-M and Zephyr”
-* Tom Gall, Director LCG and AI/ML “uTVM, an AI Compiler for Arm Microcontrollers”
-* David Koenen, Sr. Product Manager, Arm “Network, DC and HPC Development with Scalable Development and CXL
-* Neil Trevett, VP Developer Ecosystems and Khronos President, NVIDIA “Khronos Open Standards for Accelerating Interactive Experiences
-* Dong Wei, Arm Fellow, Arm “Making Arm Devices “Just Work!”
-* Lloyd Watts, CEO, Neocortix, Inc.”Distributed Computing COVID-19 Vaccine Research on Arm Devices”
-* Ilias Apalodimas, LEDGE Tech Lead “Securing an EBBR Compliant Arm Platform”
-* Kevin Zhao, Tech Lead, LDCG and Xinliang Liu, Senior Engineer, LDCG “Kubernetes as a Service – Open Source Cloud on Arm64”
+- Paul Isaacs’ , Director LDCG, HPC-SIG “Beyond ML – A Neuromorphic Approach to AI”
+- Ilias Apalodimas, LEDGE Tech Lead “LEDGE Reference Platform: Architecture and Generic Kernel Image”
+- François-Frédéric Ozog, Director LEDGE, “Linux as Firmware: LinuxBoot on Arm”
+- Kevin Townsend, LITE Engineer “Secure Devices With TF-M and Zephyr”
+- Tom Gall, Director LCG and AI/ML “uTVM, an AI Compiler for Arm Microcontrollers”
+- David Koenen, Sr. Product Manager, Arm “Network, DC and HPC Development with Scalable Development and CXL
+- Neil Trevett, VP Developer Ecosystems and Khronos President, NVIDIA “Khronos Open Standards for Accelerating Interactive Experiences
+- Dong Wei, Arm Fellow, Arm “Making Arm Devices “Just Work!”
+- Lloyd Watts, CEO, Neocortix, Inc.”Distributed Computing COVID-19 Vaccine Research on Arm Devices”
+- Ilias Apalodimas, LEDGE Tech Lead “Securing an EBBR Compliant Arm Platform”
+- Kevin Zhao, Tech Lead, LDCG and Xinliang Liu, Senior Engineer, LDCG “Kubernetes as a Service – Open Source Cloud on Arm64”
 
 Videos of the session are available through November 23, 2020 to registered attendees.
 
 ## Linaro Top Contributor To Linux Test Project (LTP)
 
-{% include image.html path="/assets/images/content/linux-kernel-security.png" class="small-inline left" alt="linux-kernel-security image" %}Viresh Kumar from the Kernel Working Group (KWG) has been addressing missing syscalls in the Linux Test Project activity since October 2019, contributing 108 commits to date.
+{% include image.html path="/assets/images/content/linux-kernel-security.png" class="small-inline left" alt="linux-kernel-security image" %}
+
+Viresh Kumar from the Kernel Working Group (KWG) has been addressing missing syscalls in the Linux Test Project activity since October 2019, contributing 108 commits to date.
 Major areas of work during the previous year have included:
 
-* Support added for following (12+) syscalls: pidfd_open, io_pgetevents, fsmount, fsopen, fsconfig, fsmount, move_mount, fspick, open_tree, openat2, pidfd_send_signal, clone3.
-* 64bit timespec support added for following (25+) syscalls: clock_gettime64, clock_settime64, clock_adjtime64, clock_getres_time64, clock_nanosleep_time64, timer_gettime64, timer_settime64, timerfd_gettime64, timerfd_settime64, utimensat_time64, pselect6_time64, ppoll_time64, io_pgetevents_time64, recvmmsg_time64, mq_timedsend_time64, mq_timedreceive_time64, semtimedop_time64, rt_sigtimedwait_time64, futex_time64, sched_rr_get_interval_time64, ppoll_time64 and more.
+- Support added for following (12+) syscalls: pidfd_open, io_pgetevents, fsmount, fsopen, fsconfig, fsmount, move_mount, fspick, open_tree, openat2, pidfd_send_signal, clone3.
+- 64bit timespec support added for following (25+) syscalls: clock_gettime64, clock_settime64, clock_adjtime64, clock_getres_time64, clock_nanosleep_time64, timer_gettime64, timer_settime64, timerfd_gettime64, timerfd_settime64, utimensat_time64, pselect6_time64, ppoll_time64, io_pgetevents_time64, recvmmsg_time64, mq_timedsend_time64, mq_timedreceive_time64, semtimedop_time64, rt_sigtimedwait_time64, futex_time64, sched_rr_get_interval_time64, ppoll_time64 and more.
 
 During this work, a lot of cleanup was requested by maintainers. These additional tasks were combined with the tests that were being extended to improve the overall test suite. All this work resulted in Linaro again featuring in the top contributors list.
 
-* 3rd position in May release: <https://lwn.net/Articles/820636/>
-* 2nd position in September release: <https://lwn.net/Articles/833136/>
+- 3rd position in May release: <https://lwn.net/Articles/820636/>
+- 2nd position in September release: <https://lwn.net/Articles/833136/>
 
 ## Linaro Retains Top Ten position for Linux Kernel 5.9 contributions
 
-Linaro ranked as the 5th largest contributor by changesets in Linux 5.9  \[1]: 
+Linaro ranked as the 5th largest contributor by changesets in Linux 5.9 \[1]:
 
 **By Changesets**
 
-| (None)       | 1377    |   9.3%     |
-| ------------ | ------- | ---------- |
-| Intel        | 1336    |   9.0%     |
-| Red Hat      | 1006    |   6.8%     |
-| (Unknown)    | 895     |   6.0%     |
-| AMD          | 848     |   5.7%     |
-| **Linaro**   | **842** |   **5.7%** |
-| Google       | 662     |   4.5%     |
-| SUSE         | 554     |   3.7%     |
-| (Consultant) | 504     |   3.4%     |
-| IBM          | 478     |   3.2%     |
+| (None)       | 1377    | 9.3%     |
+| ------------ | ------- | -------- |
+| Intel        | 1336    | 9.0%     |
+| Red Hat      | 1006    | 6.8%     |
+| (Unknown)    | 895     | 6.0%     |
+| AMD          | 848     | 5.7%     |
+| **Linaro**   | **842** | **5.7%** |
+| Google       | 662     | 4.5%     |
+| SUSE         | 554     | 3.7%     |
+| (Consultant) | 504     | 3.4%     |
+| IBM          | 478     | 3.2%     |
 
 Linaro’s position was driven by a prodigious 520 changesets from Lee Jones (Developer Services) who was the most prolific contributor to 5.9.
 
 **By Changesets**
 
-| **Lee Jones**        | **520** |   **3.5%** |
-| -------------------- | ------- | ---------- |
-| Christoph Hellwig    | 292     |   2.0%     |
-| Randy Dunlap         | 261     |   1.8%     |
-| Alexander A. Klimov  | 187     |   1.3%     |
-| Ben Skeggs           | 137     |   0.9%     |
-| Chris Wilson         | 135     |   0.9%     |
-| Laurent Pinchart     | 135     |   0.9%     |
-| Evan Quan            | 113     |   0.8%     |
-| Pierre-Louis Bossart | 113     |   0.8%     |
-| Gustavo A. R. Silva  | 110     |   0.7%     |
+| **Lee Jones**        | **520** | **3.5%** |
+| -------------------- | ------- | -------- |
+| Christoph Hellwig    | 292     | 2.0%     |
+| Randy Dunlap         | 261     | 1.8%     |
+| Alexander A. Klimov  | 187     | 1.3%     |
+| Ben Skeggs           | 137     | 0.9%     |
+| Chris Wilson         | 135     | 0.9%     |
+| Laurent Pinchart     | 135     | 0.9%     |
+| Evan Quan            | 113     | 0.8%     |
+| Pierre-Louis Bossart | 113     | 0.8%     |
+| Gustavo A. R. Silva  | 110     | 0.7%     |
 
-Even  by lines changed, which is a less useful metric, Linaro was 10th
+Even by lines changed, which is a less useful metric, Linaro was 10th
 
 **By Lines Changes**
 
-| AMD        | 243874    |   29.4%    |
-| ---------- | --------- | ---------- |
-| Intel      | 56635     |   6.8%     |
-| Red Hat    | 39347     |   4.8%     |
-| IBM        | 35658     |   4.3%     |
-| (None)     | 30232     |   3.7%     |
-| Google     | 29715     |   3.6%     |
-| (Unknown)  | 29421     |   3.6%     |
-| Mellanox   | 24149     |   2.9%     |
-| Facebook   | 22410     |   2.7%     |
-| **Linaro** | **19271** |   **2.3%** |
+| AMD        | 243874    | 29.4%    |
+| ---------- | --------- | -------- |
+| Intel      | 56635     | 6.8%     |
+| Red Hat    | 39347     | 4.8%     |
+| IBM        | 35658     | 4.3%     |
+| (None)     | 30232     | 3.7%     |
+| Google     | 29715     | 3.6%     |
+| (Unknown)  | 29421     | 3.6%     |
+| Mellanox   | 24149     | 2.9%     |
+| Facebook   | 22410     | 2.7%     |
+| **Linaro** | **19271** | **2.3%** |
 
-Increasingly, Linaro’s  involvement in testing is also reaching the spotlight. Naresh Kamboju from the Kernel Validation team (KV) achieved the 6th spot as a reporter of issues. It has to be pointed out that the top three spots are taken by bots that can churn out impressive numbers of reports. LKFT has aspirations to reach into this bot territory.
+Increasingly, Linaro’s involvement in testing is also reaching the spotlight. Naresh Kamboju from the Kernel Validation team (KV) achieved the 6th spot as a reporter of issues. It has to be pointed out that the top three spots are taken by bots that can churn out impressive numbers of reports. LKFT has aspirations to reach into this bot territory.
 
- **Reported By**
+**Reported By**
 
-| kernel test robot  | 169 |   17.1% |
-| ------------------ | --- | ------- |
-| Syzbot             | 91  |   9.2%  |
-| Hulk Robot         | 67  |   6.8%  |
-| Dan Carpenter      | 23  |   2.3%  |
-| Stephen Rothwell   | 17  |   1.7%  |
-| Naresh Kamboju     | 16  |   1.6%  |
-| Randy Dunlap       | 16  |   1.6%  |
-| Lars-Peter Clausen | 13  |   1.3%  |
-| Qian Cai           | 12  |   1.2%  |
-| Colin Ian King     | 8   |   0.8%  |
+| kernel test robot  | 169 | 17.1% |
+| ------------------ | --- | ----- |
+| Syzbot             | 91  | 9.2%  |
+| Hulk Robot         | 67  | 6.8%  |
+| Dan Carpenter      | 23  | 2.3%  |
+| Stephen Rothwell   | 17  | 1.7%  |
+| Naresh Kamboju     | 16  | 1.6%  |
+| Randy Dunlap       | 16  | 1.6%  |
+| Lars-Peter Clausen | 13  | 1.3%  |
+| Qian Cai           | 12  | 1.2%  |
+| Colin Ian King     | 8   | 0.8%  |
 
 \[1] <https://lwn.net/Articles/834085/> Jonathan Corbet
 
 ## Accelerating libcamera Qcam format conversion using OpenGL shaders
+
 **By Show Liu, MultiMedia Working Group (MMWG), Socionext**
 
 {% include image.html path="/assets/images/content/pi-lib-camera.png" class="small-inline left" alt="libcamera image" %}
@@ -147,10 +154,10 @@ And in this new class, reimplement the initializeGL(), resizeGL() and paintGL() 
 
 See our upcoming blog post for more detail on what was implemented in these apis, but the code has already been merged into libcamera git tree. Interested readers can refer to the following commits in libcamera repo
 
-* <https://git.linuxtv.org/libcamera.git/commit/?id=4a4a3e715b8314c56a2a32788d92fdec464af7b7>
-* <https://git.linuxtv.org/libcamera.git/commit/?id=2daa704c968c8aa7a4b209450f228b41e9d42d85>
-* <https://git.linuxtv.org/libcamera.git/commit/?id=9db6ce0ba499eba53db236558d783a4ff7aa3896>
-* <https://git.linuxtv.org/libcamera.git/commit/?id=219cbfe76b5a7d9d8206c71aa6115ff8befcff9b>
+- <https://git.linuxtv.org/libcamera.git/commit/?id=4a4a3e715b8314c56a2a32788d92fdec464af7b7>
+- <https://git.linuxtv.org/libcamera.git/commit/?id=2daa704c968c8aa7a4b209450f228b41e9d42d85>
+- <https://git.linuxtv.org/libcamera.git/commit/?id=9db6ce0ba499eba53db236558d783a4ff7aa3896>
+- <https://git.linuxtv.org/libcamera.git/commit/?id=219cbfe76b5a7d9d8206c71aa6115ff8befcff9b>
 
 The result of moving the format conversion onto the GPU, is that the qcam frame rate improved a lot. On RockPi4b platform the frame rate now reaches **30.0x** fps with the capture resolution set to **1920x1080**.
 
@@ -160,7 +167,7 @@ The result of moving the format conversion onto the GPU, is that the qcam frame 
 
 #### Scheduler Fairness Micro Conference
 
-Vincent presented an update about the fairness problem of the cfs load balancer. 
+Vincent presented an update about the fairness problem of the cfs load balancer.
 
 There are cases which can't be statically balanced and need dynamic and smarter tasks migration to ensure same running time for all tasks (according to their nice priority). After describing a typical problem where the unfairness can reach more than 40%, Vincent described multiple root cause of the unfairness: [Watch recording](https://youtu.be/UQNOT20aCEg)
 

@@ -1,14 +1,17 @@
 ---
 layout: post
 title: NXP Becomes Club Member of Linaro
-date: '2019-09-23 01:00:00'
+description: Linaro announced that NXP Semiconductors has joined Linaro as a
+  Club member, after working together on IoT & embedded development. Read more
+  here.
+date: 2019-09-23 01:00:00
 image: /assets/images/content/PR_Linaro_NXP_banner_pic.jpg
 tags:
-- Linaro
-- NXP
-- Club Member
-- Membership
-- Members
+  - Linaro
+  - NXP
+  - Club Member
+  - Membership
+  - Members
 category: news
 author: linaro
 ---

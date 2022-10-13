@@ -16,7 +16,6 @@ tags:
 category: blog
 author: jon.burcham@linaro.org
 ---
-
 ### **Linaro AI Project: uTVM**
 
 By Tom Gall, Director, AI/ML Project Lead
@@ -59,7 +58,7 @@ By Ryan Arnold, Director, System Technologies
 
 Unlike classical proxies like Squid that transparently intercept traffic, in order to use KissCache one must explicitly prefix the requested URL by the URL of the local KissCache instance. KissCache will download the requested resource in the background while streaming it to the client. Kisscache’s primary use case is for downloading and caching https (secure) content. It preserves the chain of trust, whereas Squid really only works properly with non-secure content.
 
-If many clients are requesting the same resource, KissCache will download it only once and stream the content to every client. In the last month, Linaro’s KissCache deployment handled more than 160k requests, serving 32TB of data while only downloading 1TB from outside of the Linaro lab. This has a real cost savings of over \$2000 per month.
+If many clients are requesting the same resource, KissCache will download it only once and stream the content to every client. In the last month, Linaro’s KissCache deployment handled more than 160k requests, serving 32TB of data while only downloading 1TB from outside of the Linaro lab. This has a real cost savings of over $2000 per month.
 
 ### **Tuxpub - The Serverless Cloud-Based Artifact Server**
 
@@ -69,15 +68,15 @@ By Ryan Arnold, Director, System Technologies
 
 At Linaro, we have often hosted artifacts from Amazon S3 using a custom tool known as Linaro License Protection (LLP). LLP started life serving files from local disk storage, then later moved to use Amazon S3. Technically LLP provides an S3 browsing interface. However it was never designed to run under a serverless architecture. This coupled with other necessary Linaro/License features (such as authentication) means that LLP doesn’t fit a “simple serverless” model.
 
-Linaro is presently working on a SaaS offering called [TuxBuild](https://gitlab.com/Linaro/tuxbuild) (and companion service called TuxBoot). These technologies are implemented using the new serverless model and have a need to provide artifacts from cloud storage using a lightweight application that provides a file browser as a web-based user front end.
+Linaro is presently working on a SaaS offering called [TuxBuild](https://gitlab.com/Linaro/tuxsuite) (and companion service called TuxBoot). These technologies are implemented using the new serverless model and have a need to provide artifacts from cloud storage using a lightweight application that provides a file browser as a web-based user front end.
 
 The original implementation of Tuxpub used Javascript, but we quickly realised it wasn’t scalable, it wasn’t conformant with what web tools expect, and it lacked features which our users were demanding (such as the ability to pull the file contents in JSON) for browsing programmatically. After searching for existing solutions we discovered that there were no available light-weight tools to solve our problems!
 
 We built a wishlist of the following features and requirements that we felt a proper file server would honour and set about building tuxpub:
 
-- Serverless methodology for easy deployment and management
-- Ability to block the index page so people cannot browse other folders
-- Allow users to access a JSON output of the page for easy downloading
+* Serverless methodology for easy deployment and management
+* Ability to block the index page so people cannot browse other folders
+* Allow users to access a JSON output of the page for easy downloading
 
 The following is a sample file browser front-end being served by tuxpub for the TuxBuild project:
 
@@ -102,9 +101,9 @@ Linaro can deploy our tuxpub instances with two lines of code and a config file!
   }
 ```
 
-With these files a developer needs to build up a [pipenv](https://realpython.com/pipenv-guide/) file with _“pipenv install --deploy”_, and then deploy it into AWS Lambda with _“zappa deploy dev”_.
+With these files a developer needs to build up a [pipenv](https://realpython.com/pipenv-guide/) file with *“pipenv install --deploy”*, and then deploy it into AWS Lambda with *“zappa deploy dev”*.
 
-One can even run the application locally with _“S3_BUCKET=storage.dev.lkft.org S3_REGION=us-east-1 ROOT_INDEX_LISTING=True FLASK_APP=tuxpub flask run”_.
+One can even run the application locally with *“S3_BUCKET=storage.dev.lkft.org S3_REGION=us-east-1 ROOT_INDEX_LISTING=True FLASK_APP=tuxpub flask run”*.
 
 ##### **What are the limitations?**
 
@@ -126,7 +125,7 @@ By Tom Gall, Director, Linaro Consumer Group
 
 The RDK 3.0 port to iMX8M reached a new milestone where <https://rdkcentral.com/> now contains detailed information on how to [build](https://wiki.rdkcentral.com/display/RDK/Build+Procedure+for+64bit+RDK+Media+Client+using+Thud+Yocto+2.6) and also [run](https://wiki.rdkcentral.com/display/RDK/Run+RDK+3.0+Features+on+i.MX8MQ) the RDK 3.0 on MCIMX8M-EVK NXP board. In addition, work has already progressed rapidly on the migration to Yocto Dunfell LTS release which is documented [here](https://wiki.rdkcentral.com/display/RDK/Yocto+3.1+LTS+build+procedure+for+RDK-V+on+i.MX8MQ). The i.MX8M SoC has become the Linaro reference SoC for secure video path developments for the major ecosystems Linaro is involved with for secure video (RDK, Linux & AOSP) where a fully secure video pipeline is required.
 
-Features showcased in the i.MX8M RDK port include the App Manager <https://www.sparkui.org/> framework. This is a cross platform application engine that allows STB applications to be written in JavaScript but access the native rendering functionality of the underlying platform. The other main showcased feature is the Thunder application framework (aka, WPEFramework) and the integration of DRM technologies from Linaro into the wpewebkit browser to facilitate the playback of protected content. Linaro has upstreamed many patches to [meta-wpe](https://github.com/WebPlatformForEmbedded/meta-wpe), [Thunder](https://github.com/rdkcentral/Thunder), [ThunderNanoServices](https://github.com/rdkcentral/ThunderNanoServices), [WPEWebKit](https://github.com/WebPlatformForEmbedded/WPEWebKit) and the ocdm-\* plugins as part of this project. It has been an example of the productive collaboration that can happen inside Linaro between Comcast, NXP and Linaro engineers.
+Features showcased in the i.MX8M RDK port include the App Manager <https://www.sparkui.org/> framework. This is a cross platform application engine that allows STB applications to be written in JavaScript but access the native rendering functionality of the underlying platform. The other main showcased feature is the Thunder application framework (aka, WPEFramework) and the integration of DRM technologies from Linaro into the wpewebkit browser to facilitate the playback of protected content. Linaro has upstreamed many patches to [meta-wpe](https://github.com/WebPlatformForEmbedded/meta-wpe), [Thunder](https://github.com/rdkcentral/Thunder), [ThunderNanoServices](https://github.com/rdkcentral/ThunderNanoServices), [WPEWebKit](https://github.com/WebPlatformForEmbedded/WPEWebKit) and the ocdm-* plugins as part of this project. It has been an example of the productive collaboration that can happen inside Linaro between Comcast, NXP and Linaro engineers.
 
 ### **Raspberry Pi Libcamera Initiative**
 
@@ -148,8 +147,8 @@ In more technical terms, LEDGE Reference Platform is a lightweight highly secure
 
 There are actually three images built: 64 bits, 32 bits, 32 bits with LPAE enabled. With Stage 3, the LEDGE Reference Platform can be booted with UEFI SecureBoot (U-Boot or EDK2) and it was verified that:
 
-- A single 64 bits image can be booted on QEMU, NXP LS21060ARDB, Socionext Synquacer( and expect to achieve this with kernel 5.8 on TI AM65XX)
-- A single 32 bits image can be booted on TI AM572x and BEAGLEBOARD-X15, ST STM32MP157C-DK2 and QEMU
+* A single 64 bits image can be booted on QEMU, NXP LS21060ARDB, Socionext Synquacer( and expect to achieve this with kernel 5.8 on TI AM65XX)
+* A single 32 bits image can be booted on TI AM572x and BEAGLEBOARD-X15, ST STM32MP157C-DK2 and QEMU
 
 Reference Platform stage 4 has started. It will come with an integrated standard and generalized firmware update features based on UEFI update capsules. We shall build on system-d defined boot-blessing capabilities to provide a robust boot orchestration scheme that will leverage hardware anti-bricking and anti-rollback features.
 
@@ -181,8 +180,8 @@ Zephyr 2.3 RC1 was used writing this, but 2.3 may be finalised by the time you r
 
 At present, the TF-M integration has been tested on the following platforms, and will not work on Windows out of the box:
 
-- Ubuntu 18.04 using Zephyr SDK 0.11.3
-- macOS Mojave using QEMU 4.2.0 with gcc-arm-none-eabi-7-2018-q2-update
+* Ubuntu 18.04 using Zephyr SDK 0.11.3
+* macOS Mojave using QEMU 4.2.0 with gcc-arm-none-eabi-7-2018-q2-update
 
 ##### **Zephyr Setup**
 
@@ -320,9 +319,9 @@ Consult the PSA API documentation or TF-M source code, linked below, for details
 
 The following links are useful to further develop custom applications based on Zephyr 2.3+ and TF-M:
 
-- PSA API Documentation: Click [here](https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation)
-- TF-M Source Code:[](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/) Click [here](https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/tree/).
-- Zephyr’s fork of TF-M for any pull requests or bug reports: Click [here](https://github.com/zephyrproject-rtos/trusted-firmware-m).[](https://github.com/zephyrproject-rtos/trusted-firmware-m)
+* PSA API Documentation: Click [here](https://developer.arm.com/architectures/security-architectures/platform-security-architecture/documentation)
+* TF-M Source Code:[](https://git.trustedfirmware.org/trusted-firmware-m.git/tree/) Click [here](https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/tree/).
+* Zephyr’s fork of TF-M for any pull requests or bug reports: Click [here](https://github.com/zephyrproject-rtos/trusted-firmware-m).[](https://github.com/zephyrproject-rtos/trusted-firmware-m)
 
 ### **Community News**
 

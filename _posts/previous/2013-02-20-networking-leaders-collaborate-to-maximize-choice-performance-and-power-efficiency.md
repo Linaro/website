@@ -7,18 +7,17 @@ wordpress_id: 4422
 layout: post
 title: Networking Leaders Collaborate to Maximize Choice, Performance and Power
   Efficiency
-image: /assets/images/content/IMAGE_HOMEPAGE.jpg
-category: news
-author: linaro
-slug: networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency
-date: 2013-02-20 12:24:07
-link: /news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/
 description: Industry leaders including AppliedMicro, Arm, Enea, FreescaleÂ®,
   LSI, MontaVista, Nokia Siemens Networks and Texas Instruments (TI) have formed
   a new group focused on accelerating Linux development for Arm processors in
   cloud and mobile infrastructure.
+image: /assets/images/content/IMAGE_HOMEPAGE.jpg
+author: linaro
+slug: networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency
+date: 2013-02-20 12:24:07
+link: /news/networking-leaders-collaborate-to-maximize-choice-performance-and-power-efficiency/
+category: news
 ---
-
 CAMBRIDGE, UK - 20 FEB 2013
 
 ## Industry leaders including AppliedMicro, Arm, Enea, Freescale®, LSI, MontaVista, Nokia Siemens Networks and Texas Instruments (TI) have formed a new group focused on accelerating Linux development for Arm processors in cloud and mobile infrastructure.
@@ -31,23 +30,20 @@ Networking infrastructure is undergoing a transformation driven by the ramp in d
 
 “The strength of the Arm community is in working together and innovating,” said George Grey, CEO of Linaro. “We are very pleased to host the new Linaro Networking Group software engineering team, focused on consolidating and optimizing common software for networking equipment applications using Arm SoCs. We look forward to working with SoC vendors, equipment manufacturers and members of the software ecosystem in building and maintaining world-class open source foundation software for this market.”
 
-Linaro has a unique business model where multiple companies jointly invest in a software engineering team that creates core open source software in a collaborative and transparent environment. The effectiveness of Linaro’s approach has been demonstrated by Linaro becoming one of the largest company contributors to recent Linux kernels\*. Linaro’s contribution to improving Arm’s support in the open source Linux community has also been recognized by Linus Torvalds\*\*.
+Linaro has a unique business model where multiple companies jointly invest in a software engineering team that creates core open source software in a collaborative and transparent environment. The effectiveness of Linaro’s approach has been demonstrated by Linaro becoming one of the largest company contributors to recent Linux kernels\*. Linaro’s contribution to improving Arm’s support in the open source Linux community has also been recognized by Linus Torvalds\**.
 
 “Linux and collaborative development are the drivers for innovation supporting new data and networking demands. The Linaro Networking Group will help advance important work in this area,” said Jim Zemlin, executive director at The Linux Foundation. “We look forward to ongoing collaboration with Linaro, including its participation at this year’s Embedded Linux Conference.”
 
 An interim steering committee for LNG has been meeting since the end of 2012 and has agreed on four initial areas of work:
 
 1. Virtualization support with considerations for real-time performance, I/O optimization, robustness and heterogeneous operating environments on multi-core SoCs.
-
 2. Real-time operations and the Linux kernel optimizations for the control and data plane.
-
 3. Packet processing optimizations that maximize performance and minimize latency in data flows through the network.
-
 4. Dealing with legacy software and mixed-endian issues prevalent in the networking space.
 
 Linaro expects initial software deliveries from the Linaro Networking Group during the first half of 2013 with on-going monthly releases thereafter.
 
-_\*Sources: Statistics from the 3.7 development cycle Jonathan Corbet, LWN, 28 November 2012: (subscription required), Who wrote 3.5? Greg Kroah-Hartman, LWN, 25 July 2012:[ https://lwn.net/Articles/507986/](https://lwn.net/Articles/507986/) (subscription required) and earlier LWN articles._
+*\*Sources: Statistics from the 3.7 development cycle Jonathan Corbet, LWN, 28 November 2012: (subscription required), Who wrote 3.5? Greg Kroah-Hartman, LWN, 25 July 2012:[ https://lwn.net/Articles/507986/](https://lwn.net/Articles/507986/) (subscription required) and earlier LWN articles.*
 
 _Source: Torvalds touts Linux’s advances in power, Arm and cell phones Paula Rooney, ZDNet, 30 August 2012
 
@@ -59,7 +55,7 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 **Linaro Networking Group (LNG) Founding Member Testimonials**
 
----
+- - -
 
 **Applied Micro Circuits Corporation**
 
@@ -69,7 +65,7 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 Media contact: Diane Orr, diane@orr-co.com.
 
----
+- - -
 
 **Arm**
 
@@ -77,23 +73,23 @@ Media contact: Diane Orr, diane@orr-co.com.
 
 *About Arm:* Arm designs the technology that lies at the heart of advanced digital products, from wireless, networking and consumer entertainment solutions to imaging, automotive, security and storage devices. Arm’s comprehensive product offering includes 32-bit RISC microprocessors, graphics processors, video engines, enabling software, cell libraries, embedded memories, high-speed connectivity products, peripherals and development tools. Combined with comprehensive design services, training, support and maintenance, and the company’s broad Partner community, they provide a total system solution that offers a fast, reliable path to market for leading electronics companies. See [www.arm.com](http://www.arm.com/) for more information. Media contacts: Raymond Deplazes, armus@racepointgroup.com; Simon Hilliard, armuk@racepointgroup.com.
 
----
+- - -
 
 **ENEA**
 
 “Enea has provided software for Arm based architectures since the nineties. Our membership in the Linaro Networking Group (LNG) reflects our commitment to Linux and to Arm in the networking space. It is an important strategic step towards our goal to become the leading embedded Linux provider for Arm based systems”, says Tobias Lindquist, CTO, Enea. “As an independent Linux provider, Enea is in a strong position to focus on the needs of network equipment manufacturers and on software solutions that are hardware vendor agnostic”.
 
-*About Enea:* Enea is a global vendor of Linux and Real-time operating system solutions including middleware, tools, protocols and services. The company is a world leader in developing software platforms for communication-driven products in multiple verticals, with extreme demands on high-availability and performance. For more information, please visit: [www.enea.com](http://www.enea.com/). Media contact: Catharina Paulcén, catharina.paulcen@enea.com.
+*About Enea:* Enea is a global vendor of Linux and Real-time operating system solutions including middleware, tools, protocols and services. The company is a world leader in developing software platforms for communication-driven products in multiple verticals, with extreme demands on high-availability and performance. For more information, please visit: [www.enea.com](https://www.enea.com/). Media contact: Catharina Paulcén, catharina.paulcen@enea.com.
 
----
+- - -
 
 **Freescale Semiconductor**
 
 “With strong market share leadership in communications processing and a deep understanding of both Linux and Arm technologies, Freescale is well positioned to play a key role in accelerating Linux development for the Arm architecture,” said Tareq Bustami, vice president of product management for Freescale’s Digital Networking group. “Serving as a founding member of the Linaro Networking Group is an extension of our work within open source and a new focus for our relationship with Linaro. We look forward to working together with other leading players within the group to advance Linux technology for our customers and the larger industry.”
 
-*About Freescale:* Freescale Semiconductor is a global leader in embedded processing solutions, providing industry-leading products that are advancing the automotive, consumer, industrial and networking markets. From microprocessors and microcontrollers to sensors, analog integrated circuits and connectivity – our technologies are the foundation for the innovations that make our world greener, safer, healthier and more connected. Some of our key applications and end-markets include automotive safety, hybrid and all-electric vehicles, next generation wireless infrastructure, smart energy management, portable medical devices, consumer appliances and smart mobile devices. The company is based in Austin, Texas, and has design, research and development, manufacturing and sales operations around the world. See[ www.freescale.com](http://www.freescale.com/) for more information.
+*About Freescale:* Freescale Semiconductor is a global leader in embedded processing solutions, providing industry-leading products that are advancing the automotive, consumer, industrial and networking markets. From microprocessors and microcontrollers to sensors, analog integrated circuits and connectivity – our technologies are the foundation for the innovations that make our world greener, safer, healthier and more connected. Some of our key applications and end-markets include automotive safety, hybrid and all-electric vehicles, next generation wireless infrastructure, smart energy management, portable medical devices, consumer appliances and smart mobile devices. The company is based in Austin, Texas, and has design, research and development, manufacturing and sales operations around the world. See[ www.freescale.com](https://www.nxp.com/) for more information.
 
----
+- - -
 
 **LSI**
 
@@ -101,7 +97,7 @@ Media contact: Diane Orr, diane@orr-co.com.
 
 *About LSI:* LSI Corporation designs semiconductors and software that accelerate storage and networking in datacenters, mobile networks and client computing. Our technology is the intelligence critical to enhanced application performance, and is applied in solutions created in collaboration with our partners. More information is available at [www.lsi.com](http://www.lsi.com/).
 
----
+- - -
 
 **MontaVista**
 
@@ -109,7 +105,7 @@ Media contact: Diane Orr, diane@orr-co.com.
 
 *About MontaVista:* MontaVista Software, LLC, a wholly owned subsidiary of Cavium, Inc. (NASDAQ: CAVM), is a leader in embedded Linux commercialization. For over 10 years, MontaVista has been helping embedded developers get the most out of open source by adding commercial quality, integration, hardware enablement, expert support, and the resources of the MontaVista development community. Because MontaVista customers enjoy faster time to market, more competitive device functionality, and lower total cost, more devices have been deployed with MontaVista than with any other Linux. To learn more, please visit http://www.mvista.com/.
 
----
+- - -
 
 **Nokia Siemens Networks**
 
@@ -119,7 +115,7 @@ Media contact: Diane Orr, diane@orr-co.com.
 
 With headquarters in Espoo, Finland, Nokia Siemens Networks operates in over 100 countries and had net sales of approximately 13.8 billion euros in 2012. More information is available at [www.nokiasiemensnetworks.com](http://www.nokiasiemensnetworks.com/). Media contact: Riitta Mård, riitta.mard@nsn.com.
 
----
+- - -
 
 **Texas Instruments (TI)**
 

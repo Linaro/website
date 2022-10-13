@@ -1,16 +1,18 @@
 ---
 title: Search
 permalink: /search/
+exclude_from_sitemap: true
 layout: flow
 jumbotron:
-    title: Search
-    inner_class: dotted
-    description: ""
-    image: /assets/images/content/bkk19-group-photo.jpg
+  title: Search
+  inner_class: dotted
+  description: ""
+  image: /assets/images/content/bkk19-group-photo.jpg
 description: |-
-    Search the Linaro Website.
+  Search the Linaro Website.
 css_bundle: search
 ---
+
 <script>
   (function() {
     var fess = document.createElement('script');
