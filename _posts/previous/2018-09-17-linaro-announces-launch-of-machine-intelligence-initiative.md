@@ -1,17 +1,18 @@
 ---
-title: Linaro announces launch of Machine Intelligence Initiative
-author: linaro
 layout: post
+title: Linaro announces Launch of Machine Intelligence Initiative
+description: "The Machine Intelligence Initiative aims to reduce redundant
+  engineering in the deep learning and neural network acceleration ecosystem.
+  Read more here. "
 date: 2018-09-17 09:00:00+00:00
-description: Linaro announces launch of Machine Intelligence Initiative to reduce
-  redundant engineering and fragmentation in the deep learning and neural network
-  acceleration ecosystem and accelerate development of new technology solutions.
-category: news
+image: /assets/images/content/AINNBanner.png
 tags:
-- Linaro
-- Linaro Connect
-- Arm
-- Google
+  - Linaro
+  - Linaro Connect
+  - Arm
+  - Google
+category: news
+author: linaro
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, announced today that it is launching its Machine Intelligence Initiative as a focal point for collaborative engineering in this space. Arm is supporting this new initiative with engineering resources and by opening up Arm’s Neural Network (NN) inference engine to external contributions. Arm, Linaro, and the other members of the Machine Intelligence Initiative will collaborate to reduce redundant engineering and fragmentation in the deep learning and neural network acceleration ecosystem and accelerate development of new technology solutions.
