@@ -7,10 +7,8 @@ wordpress_id: 9115
 layout: post
 author: linaro
 slug: leading-china-smartphone-innovator-meizu-becomes-first-oem-to-join-linaro-mobile-group
-description: "Meizu becomes first OEM to join Linaro Mobile Group. As a current
-  and potential customer of several of Linaroâs silicon supplier members,
-  Meizu will take on a unique role in helping define the engineering activities
-  of LMG and our contributions to open source projects in the mobile space."
+description: Meizu, a leading Chinese smartphone innovator, becomes first OEM to
+  join the Linaro Mobile Group. Read more here.
 date: 2015-08-03 12:26:09
 comments: false
 title: Leading China Smartphone Innovator Meizu becomes first OEM to join Linaro
