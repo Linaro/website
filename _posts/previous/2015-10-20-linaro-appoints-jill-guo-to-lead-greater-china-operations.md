@@ -3,9 +3,10 @@ excerpt: Linaro announced that Jill Guo has been appointed as the Executive Vice
   President to head up the company’s growing Greater China operations.
 wordpress_id: 9547
 layout: post
-title: Linaro appoints Jill Guo to lead Greater China operations
-description: "Linaro announced that Jill Guo has been appointed as the Executive
-  Vice President to head up the companyâs growing Greater China operations."
+title: Linaro appoints Jill Guo to Lead Greater China Operations
+description: Linaro announces that Jill Guo has been appointed as the Executive
+  Vice President to head up the company's Greater China operations. Read more
+  here.
 image: /assets/images/content/PR_96Boards_banner_pic.jpg
 author: linaro
 slug: linaro-appoints-jill-guo-to-lead-greater-china-operations
