@@ -3,7 +3,8 @@ wordpress_id: 11666
 layout: post
 title: Linaro Announces LITE - Collaborative Software Engineering for the
   Internet of Things (IoT)
-description: Cambridge, UK; 26 September 2016
+description: Linaro announces the launch of the Linaro IoT and Embedded (LITE)
+  Segment Group allowing industry leaders to collaborate. Read more here.
 image: /assets/images/content/27094831048_6ecb96f52a_o.jpg
 tags:
   - IoT
