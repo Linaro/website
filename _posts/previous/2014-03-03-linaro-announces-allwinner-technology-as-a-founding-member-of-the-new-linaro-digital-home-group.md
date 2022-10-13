@@ -1,14 +1,15 @@
 ---
-author: linaro
-category: news
-date: 2014-03-03 12:05:03
-description: Allwinner Technology invests in open source community by joining Linaro
-layout: post
-link: /news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/
-slug: linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group
-title: Linaro announces Allwinner Technology as a founding member of the new Linaro
-  Digital Home Group
 wordpress_id: 5061
+layout: post
+title: Allwinner Technology joins the Linaro Digital Home Group
+description: Allwinner Technology, a leading Chinese application processor
+  design company joins the Linaro Digital Home Group. Read more here.
+image: /assets/images/content/30921188158_953bca1c9f_k.jpg
+author: linaro
+slug: linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group
+date: 2014-03-03 12:05:03
+link: /news/linaro-announces-allwinner-technology-as-a-founding-member-of-the-new-linaro-digital-home-group/
+category: news
 ---
 
 ## Allwinner Technology invests in open source community by joining Linaro
