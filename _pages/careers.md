@@ -1,8 +1,8 @@
 ---
 title: Careers at Linaro
-description: We offer employees the opportunity to work with latest hardware &
-  leading edge technology. If you love working on open source projects, then you
-  belong at Linaro.
+description: We offer employees the opportunity to develop software on Arm-based
+  technology. Find out more about the Arm-based technology careers Linaro offers
+  today!
 permalink: /careers/
 js-package: careers
 css_bundle: careers
