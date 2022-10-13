@@ -8,7 +8,7 @@ image: /assets/images/content/core_technologies_share_image.png
 icon: /assets/images/content/Icon_Core_Technologies_notext.svg
 icon_dark: /assets/images/content/Core.svg
 icon_alt: /assets/images/content/Icon_Core_Technologies_notext.svg
-icon_col: /assets/images/content/Icon_Core_Technologies_Colour.svg
+icon_col: /assets/images/content/Core_Technologies.svg
 js-package: contactForm
 description: >
   There are core pieces of software that all products rely on, building blocks upon which additional functionality and features can be developed to address specific use cases. Linaro was formed in 2010 to help develop these core pieces of technology as the Arm code base was fragmented, causing delay to innovation and deployment of products. We helped achieve this and continue to evolve and co-maintain these technologies, focusing specifically on the Linux kernel, Arm toolchains, testing and CI, security and virtualization. In recent years we have also worked to bring best in class ML Inferencing & AI to the Arm ecosystem.

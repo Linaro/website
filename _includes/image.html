@@ -1,0 +1,12 @@
+{% if include.alt %}
+    {% capture image_alt %}{{include.alt}}{% endcapture %}
+{% else %}
+    {% capture image_alt %}{{page.title}} content image{% endcapture %}
+{% endif %}
+{% if include.class %}
+    {% capture image_class %}{{include.class}}{% endcapture %}
+{% else %}
+    {% capture image_class %}{% endcapture %}
+{% endif %}
+{% picture blog_image {{include.path}} class="{{image_class}}"  --alt {{image_alt}} --class {{image_class}} %}
+

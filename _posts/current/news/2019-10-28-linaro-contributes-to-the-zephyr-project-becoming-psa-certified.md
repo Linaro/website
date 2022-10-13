@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "Linaro contributes to the Zephyr Project becoming PSA certified "
+title: Zephyr Project Becomes PSA Certified
 description: Linaro is a collaborative member of the Zephyr Project which has
   been awarded a Level 1 Platform Security Architecture (PSA) certificate . Read
   more here!
-date: 2019-10-28 05:38:49
 image: /assets/images/content/city.jpg
 tags:
   - Zephyr

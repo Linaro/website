@@ -12,7 +12,7 @@ layout:
         {% comment %}<!-- very lazy check to see if page is in the exclude list - this means excluded pages are not gonna be in the sitemap at all, write exceptions as necessary -->{% endcomment %}
         {% unless site.exclude_from_localization contains node.path %}
             {% comment %}<!-- I am assuming if there's not layout assigned, then not include the page in the sitemap, you may want to change this -->{% endcomment %}
-            {% if node.layout %}
+            {% if node.layout and exclude_from_sitemap != false %}
                 <url>
                     <loc>{% if lang == site.default_lang %}{{ node.url | absolute_url }}{% else %}{{ node.url | prepend: lang | prepend: '/' | absolute_url }}{% endif %}</loc>
                 </url>

@@ -8,7 +8,7 @@ image: /assets/images/content/automotive-iot-and-edge-share-image.png
 icon: /assets/images/content/Auto_IoT_Edge_white.svg
 icon_dark: /assets/images/content/AIoTE.svg
 icon_alt: /assets/images/content/Auto_IoT_Edge_blue.svg
-icon_col: /assets/images/content/Icon_Automotive_IoT_Edge_colour.svg
+icon_col: /assets/images/content/Auto_IoT_Edge_icon.svg
 js-package: contactForm
 description: >
   Linaro works with its member companies on developing open standards & interfaces which helps accelerate deployment of their Automotive, IoT and Edge solutions.

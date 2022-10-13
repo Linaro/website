@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New trust sources for Linux kernel keyrings
+title: New Trust Sources for Linux Kernel Keyrings
 description: In this blog, our Engineer talks about how Linaro helped generalize
   the Trusted Keys sub-system in Linux to add support for new trust sources.
   Read more here.
@@ -16,23 +16,18 @@ tags:
 category: blog
 author: sumit.garg
 ---
+
 {% include image.html path="/assets/images/content/linux-keyrings.png" alt="Linux Keyrings Image" %}
-
-
 
 ## Introduction
 
-Protecting key confidentiality is essential for many kernel security use-cases such as disk encryption, file encryption and protecting the integrity of file metadata. Trusted keys are symmetric keys created within the kernel. The kernel also provides a mechanism to export trusted keys to user-space for storage as an opaque blob and for the user-space to later reload them onto Linux keyring without the user-space knowing how to decrypt the opaque blob. Trusted keys make it impossible for userspace compromises to leak key material. In order to embed trust in Trusted Keys however, there is a requirement for the availability of a Trust Source. 
+Protecting key confidentiality is essential for many kernel security use-cases such as disk encryption, file encryption and protecting the integrity of file metadata. Trusted keys are symmetric keys created within the kernel. The kernel also provides a mechanism to export trusted keys to user-space for storage as an opaque blob and for the user-space to later reload them onto Linux keyring without the user-space knowing how to decrypt the opaque blob. Trusted keys make it impossible for userspace compromises to leak key material. In order to embed trust in Trusted Keys however, there is a requirement for the availability of a Trust Source.
 
 In this blog, we will look at how we generalized the Trusted Keys sub-system in Linux. This has made it easier for kernel security developers to add support for new trust sources and reduce downstream kernel technical debt.
-
-
 
 ## What is a trust source?
 
 A trust source provides the source of security for Trusted Keys. New trusted keys are created from random numbers generated in the trust source. Trusted keys can be encrypted/decrypted using a unique secret key known only to the trust source, which never leaves the trust source’s boundary. Unique secret key usage via crypto operations is protected by a strong access control policy within the trust source.
-
-
 
 ## Background: Trusted Platform Module as a trust source
 
@@ -40,17 +35,13 @@ Trusted Keys were introduced in the Linux kernel from v2.6.38. Since this featur
 
 {% include image.html path="/assets/images/content/trusted-platform-module.png" alt="Trusted Platform Module Image" %}
 
-
-
 ## Using TrustZone as a trust source
 
-Many embedded systems do come with alternative hardware mechanisms such as Arm TrustZone, crypto engines etc. that are capable of  providing a source of trust. These mechanisms can be leveraged to support Trusted Keys encryption and decryption operation. This has led to the implementation of software-based TPM but that too has its shortcomings. A full-featured software TPM is a large and complicated software stack. This makes it difficult to port and, on constrained devices with limited flash space, it may be difficult to fit along with the boot firmware.
+Many embedded systems do come with alternative hardware mechanisms such as Arm TrustZone, crypto engines etc. that are capable of providing a source of trust. These mechanisms can be leveraged to support Trusted Keys encryption and decryption operation. This has led to the implementation of software-based TPM but that too has its shortcomings. A full-featured software TPM is a large and complicated software stack. This makes it difficult to port and, on constrained devices with limited flash space, it may be difficult to fit along with the boot firmware.
 
 A Trusted Execution Environment (TEE) based on Arm TrustZone provides hardware based isolation to perform trusted operations. For example, the open source TEE implementation, [Open Portable TEE (OP-TEE)](https://optee.readthedocs.io/en/latest/), is supported on approx. 80 platforms from various SoC vendors. OP-TEE offers a standardized TEE client API (compliant with GlobalPlatform TEE Client API [Specification v1.0](https://globalplatform.org/specs-library/tee-client-api-specification/)) to perform cryptographic operations using a Hardware Unique Key (HUK) that is only accessible within the TEE. The HUK can be utilized to perform encrypt/decrypt operations for Trusted keys. The encrypted trusted key blob can be exported to user-space which can later be decrypted and loaded in kernel keyring.
 
 {% include youtube.html url="https://www.youtube.com/watch?v=kJdI_flEMR4" title="SAN19-413 TEE based Trusted Keys in Linux" %}
-
-
 
 ## Adding a trust source framework
 
@@ -66,14 +57,12 @@ As a result, as part of the v5.13 kernel release cycle, the trust source framewo
 
 {% include image.html path="/assets/images/content/trusted-keys-core.png" alt="Trusted Keys Core Image" %}
 
-
-
 ## Using crypto hardware as a trust source
 
 Since the Trusted Keys sub-system was introduced to the kernel in 5.13, it has gained some attention from the kernel community. Ahmad Fatoum from Pengutronix has proposed a new trust source based on NXP’s [Cryptographic Acceleration and Assurance Module (CAAM)](https://lore.kernel.org/linux-integrity/cover.9fc9298fd9d63553491871d043a18affc2dbc8a8.1626885907.git-series.a.fatoum@pengutronix.de/). The CAAM is included in recent NXP’s i.MX and QorIQ SoCs. It can directly Advanced Encryption Standard (AES) encrypt/decrypt user data using a unique never-disclosed device-specific key. We were rather flattered by the [Ahmad’s summary](https://lore.kernel.org/linux-integrity/1530428a-ad2c-a169-86a7-24bfafb9b9bd@pengutronix.de/) of how adding support for pluggable trust sources improves the upstream kernel:
 
-*“The users I meant are humans, e.g. system integrators. They need to think about
-burning fuses, signing bootloaders, verifying kernel and root file systems, encrypting file systems and safekeeping their crypto keys. Ample opportunity for stuff to go wrong. They would benefit from having relevant kernel functionality integrated with each other instead of having to carry downstream patches, which we and many others did for years. We now finally have a chance to drop this technical debt thanks to Sumit's trusted key rework and improve user security along the way.”*
+_“The users I meant are humans, e.g. system integrators. They need to think about
+burning fuses, signing bootloaders, verifying kernel and root file systems, encrypting file systems and safekeeping their crypto keys. Ample opportunity for stuff to go wrong. They would benefit from having relevant kernel functionality integrated with each other instead of having to carry downstream patches, which we and many others did for years. We now finally have a chance to drop this technical debt thanks to Sumit's trusted key rework and improve user security along the way.”_
 
 We have also seen patches from Richard Weinberger who has proposed a trust source using a simpler NXP device called the [Data Co-Processor (DCP)](https://lore.kernel.org/linux-integrity/20210614201620.30451-1-richard@nod.at/). This peripheral is found on older NXP SoCs such as i.mx6ull. Its big brother, CAAM, can directly encrypt and decrypt blobs in hardware but the DCP cannot do this. Instead the DCP is capable of performing AES operations using hardware-bound keys. These keys are not accessible to the operating system, although the encryption/decryption operation needs aid from software.
 

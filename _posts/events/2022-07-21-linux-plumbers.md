@@ -37,7 +37,7 @@ The possible topics could be:
 * devicetree (unless they have their own microconf)
 * identifying old machine support that may be either still in active use vs only in hobbyist/retro-computing vs completely obsolete and broken
 
-For more information on this conference, click [here](https://lpc.events/event/16/contributions/1142/).
+For more information on this Micro Conference, click [here](https://lpc.events/event/16/contributions/1142/).
 
 ## Real-time and Scheduling Micro Conference
 
@@ -69,9 +69,42 @@ This year’s topics to be discussed include:
 * Better support for new processors
 * What’s next?
 
-
 \[1] https://www.kernel.org/doc/html/latest/tools/rtla/rtla.html
 \[2] https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/core-scheduling.html
 \[3] https://lore.kernel.org/lkml/20220311161406.23497-1-vincent.guittot@linaro.org/
 
-For more information on this conference click[ here](https://lpc.events/event/16/contributions/1151/).
+For more information on this Micro Conference click[ here](https://lpc.events/event/16/contributions/1151/).
+
+## Power Management and Thermal Control Micro Conference
+
+### **A generic energy model description:**
+
+Daniel Lezcano (Linaro)
+
+The energy model is dispatched through implicit values in the device
+tree and the power values are deduced from the formula P=CxFxV² by the
+energy model in the kernel.
+Unfortunately, the description is a bit fuzzy if the device is using the
+Adaptative Voltage Scaling or not performance based, as a battery or a
+back light.
+On the other side, complex energy models exist on out of tree kernels
+like Android, meaning there is a need for such a description.
+A generic energy model description will help to have a clear of view of
+the power contributors for thermal, power consumers for accounting and
+performance
+
+### Combining DTPM with the thermal control framework
+
+Daniel Lezcano (Linaro)
+
+The DTPM framework and the thermal control framework are using the same
+algorithm and mechanism when the power numbers are involved. That
+results in duplicated code. The DTPM framework interacts with the user space but nothing prevent to
+provide an in-kernel API where the power based cooling devices can
+directly act on. That will result in a simpler code and very explicit
+power value usage. In addition, if the SCMI is supported by DTPM, no
+changes will be needed in the thermal cooling devices. The result will
+be one generic power based cooling device supporting any device
+(devfreq, cpufreq, ...) with an energy model (DT or SCMI based).
+
+For more information on this Micro Conference, click [here](https://lpc.events/event/16/contributions/1158/).

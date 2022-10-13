@@ -6,7 +6,7 @@ Hosted in this repo are the markdown content files associated with the website. 
 
 This static Jekyll site is using the [`jumbo-jekyll-theme`](https://github.com/linaro-marketing/jumbo-jekyll-theme). Please take a moment to review the guides on the [theme's GitHub wiki](https://github.com/linaro-marketing/jumbo-jekyll-theme/wiki).
 
-*****
+---
 
 ## Contributing
 
@@ -37,7 +37,7 @@ The built web site directory will be `production.linaro.org`.
 
 For more information, please see the [build container wiki](https://github.com/linaro-its/jekyll-build-container/wiki) and the [link checker wiki](https://github.com/linaro-its/jekyll-link-checker/wiki).
 
-*****
+---
 
 ## Guides
 
@@ -51,7 +51,7 @@ Linaro.org specific guides:
 
 TODO
 
-*****
+---
 
 ## Adding events to the events page
 
@@ -61,15 +61,14 @@ Events listed on the events/ page are added through simply adding the `event:tru
 value in front matter of that specific page.
 
 ```yaml
-...
-event: true
-...
 
+---
+event: true
 ```
 
 ### Adding Connect Events
 
-Connect events are added through the _data/connects.yml data file. Simply copy and existing entry in this file and add the new Connect event. Make sure to update the date specified
+Connect events are added through the \_data/connects.yml data file. Simply copy and existing entry in this file and add the new Connect event. Make sure to update the date specified
 in the entry as this is what is used to make sure the events are listed in the correct order (most recent first).
 
 ```yaml
@@ -79,9 +78,9 @@ in the entry as this is what is used to make sure the events are listed in the c
   start-date: 2018-09-17 09:00:00
   end-date: 2018-09-21 09:00:00
   location:
-      venue: Hyatt Regency Vancouver
-      city: Vancouver
-      country: Canada
+    venue: Hyatt Regency Vancouver
+    city: Vancouver
+    country: Canada
 ```
 
 ## URL Redirections
@@ -107,3 +106,11 @@ For each top-level folder, e.g. `_pages`, there should be a sub-directory with t
 Under `_data` there should be a sub-directory with the matching language code, e.g. `ch`. Within that folder should be - at a minimum - the file `translations.yml`. Each entry in that file should be translated to the appropriate language. This will then be used by HTML within the website.
 
 If adding new HTML to the website, replace direct text with a handlebars tag like `{{site.data.translations.services.form2_email}}` where `services.form2_email` gets replaced with the appropriate tag combination from the translation file.
+
+### Netlify CMS Config
+
+The `createNetlifyCMSConfig.js` Node.js script will generate the required NetlifyCMS YAML config file and output at `admin/config.yml`.
+
+```js
+yarn install && node createNetlifyCMSConfig.js
+```

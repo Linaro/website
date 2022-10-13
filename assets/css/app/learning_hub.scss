@@ -1,0 +1,125 @@
+#wrapper {
+  div#table-of-contents {
+    z-index: 1;
+    position: relative;
+    li {
+      list-style: circle !important;
+      margin-left: 25px;
+      padding-left: 5px;
+      color: #10819e;
+    }
+  }
+  #markdown-content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      scroll-margin-top: 100px;
+    }
+  }
+  .main_content {
+    font-size: 1.2rem;
+  }
+  .row.whitepapers_section {
+    position: relative;
+    background-color: #ccc;
+    @include media-breakpoint-up(sm) {
+      background-color: transparent;
+    }
+    &:before {
+      @include media-breakpoint-up(sm) {
+        content: "";
+        width: 70vw;
+        background-color: #ccc;
+        height: 100%;
+        position: absolute;
+      }
+    }
+  }
+  .row.why_section {
+    position: relative;
+    background-color: #666;
+    @include media-breakpoint-up(sm) {
+      background-color: transparent;
+    }
+    &:before {
+      @include media-breakpoint-up(sm) {
+        content: "";
+        width: 70vw;
+        background-color: #666;
+        height: 100%;
+        position: absolute;
+      }
+    }
+  }
+
+  span.title_tag {
+    font-size: 26px;
+    font-weight: bold;
+    color: $primary;
+  }
+  .box_wrapper {
+    padding: 10px;
+    border: 1px solid #999;
+  }
+  .whitepaper_wrapper {
+    img.card-img-top {
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+  }
+  .item_wrapper {
+    padding: 20px;
+    .item_innner_wrapper {
+      border: 1px solid #c9c9c9;
+      height: 200px;
+      padding: 10px;
+      transition: all 100ms ease;
+      &:hover {
+        background-color: #c9c9c9;
+      }
+    }
+    img.icon_image {
+      height: 100px;
+    }
+    h3.theme_title.pt-3 {
+      color: #333;
+      font-size: 22px;
+    }
+  }
+  .learning_hub_sidebar {
+    h3 {
+      color: black !important;
+      width: 100%;
+      border-bottom: 1px solid #10819e;
+      padding-bottom: 10px;
+      font-size: 22px;
+    }
+    &.sticky-top {
+      top: 80px;
+      z-index: 0;
+    }
+  }
+  ul.learning_hub_sidebar_list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 18px;
+    li {
+      padding-top: 5px;
+      position: relative;
+      &.active:before {
+        border-left: 5px solid #10819e;
+        content: "";
+        position: absolute;
+        left: -15px;
+        height: 100%;
+      }
+      a {
+        color: black;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "linaro.org",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:linaro/website.git",
+  "author": "Kyle Kirkby <kyle.kirkby@linaro.org>",
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.1.2"
+  }
+}

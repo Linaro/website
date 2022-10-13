@@ -1,6 +1,6 @@
 ---
 id: 14
-title: Cloud Computing & Servers
+title: Arm Based Cloud Computing and Servers
 slug_title: Cloud Computing & Servers
 sub_theme: false
 permalink: /cloud-computing-and-servers/
@@ -8,10 +8,10 @@ image: /assets/images/content/cloud-computing-and-servers-share-image.png
 icon: /assets/images/content/CC_and_S_icon_white.svg
 icon_dark: /assets/images/content/CC_S.svg
 icon_alt: /assets/images/content/CC_and_S_icon_green.svg
-icon_col: /assets/images/content/Icon_Cloud_Computer_colour.svg
+icon_col: /assets/images/content/Cloud_Computing_Servers.svg
 js-package: contactForm
 description: >
-  Linaro works with its member companies on strengthening the software ecosystem for Arm servers by making key open source projects enabled for Arm-based servers.
+  Linaro works with member companies to strengthen the software ecosystem for Arm servers by making open source projects enabled for Arm-based servers.
 video_resources_link: https://resources.linaro.org/en/themes/04687b37-4cdc-4716-a26b-64e0e55ed988
 jumbotron:
   class: header_2021_2 theme_banner

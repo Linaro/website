@@ -1,21 +1,21 @@
 ---
-title: Linaro announces launch of 96Boards System-on-Module (SOM) Specification
-author: linaro
 layout: post
+title: Linaro announces launch of 96Boards System-on-Module (SOM) Specification
+description: Linaro Ltd, the open source collaborative engineering organization
+  developing software for the Arm® ecosystem, today announced the publication of
+  version 1.0 of 96Boards System-on-Module (SOM) specifications. 96Boards is
+  Linaro’s initiative to build a single software and hardware community across
+  low-cost development boards based on Arm technology.
 date: 2019-04-01 03:00:00
-description: Linaro Ltd, the open source collaborative engineering organization developing
-  software for the Arm® ecosystem, today announced the publication of version 1.0
-  of 96Boards System-on-Module (SOM) specifications. 96Boards is Linaro’s initiative
-  to build a single software and hardware community across low-cost development boards
-  based on Arm technology.
-category: news
-tags:
-- Linaro
-- Arm
-- Open Source
-- AI
-- Rockchip
 image: /assets/images/blog/96Boards-SoM-Carrier-Board-Angle.png
+tags:
+  - Linaro
+  - Arm
+  - Open Source
+  - AI
+  - Rockchip
+category: news
+author: linaro
 ---
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced the publication of version 1.0 of 96Boards System-on-Module (SOM) specifications. 96Boards is Linaro’s initiative to build a single software and hardware community across low-cost development boards based on Arm technology.
@@ -76,7 +76,7 @@ The two form factors are defined as **SOM-WA/SOM-WB** with the below pinouts to 
 
 </div>
 
-With the publication of the specifications, Linaro is also launching two 96Boards Compute SOM designs with Rockchip and Beiqicloud - TB-96AI and TB-96AIoT - and a 96Boards SOM Carrier Board.  TB-96AI features the latest high-performance AI processing chip RK3399Pro while the TB-96AIoT is equipped with the RK1808 AIoT chip with ultra low power consumption. The 96Boards Compute SOM designs are available for purchase today from [Beiqicloud.com](http://beiqicloud.com).
+With the publication of the specifications, Linaro is also launching two 96Boards Compute SOM designs with Rockchip and Beiqicloud - TB-96AI and TB-96AIoT - and a 96Boards SOM Carrier Board.  TB-96AI features the latest high-performance AI processing chip RK3399Pro while the TB-96AIoT is equipped with the RK1808 AIoT chip with ultra low power consumption. The 96Boards Compute SOM designs are available for purchase today from [Beiqicloud.com](https://www.bearkey.com.cn/en/).
 
 ### TB-96AI
 
@@ -132,6 +132,6 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 ### About Beiqicloud
 
-Beiqicloud is 96Boards Compute SoM Lead partner, which is also the most powerful solution design and manufacturer of Rockchip SOC platform. The supporting manufacturers have passed ISO9001-2008 、ISO14001-2004、OHSAS18001-2001. Please contact sales@beiqicloud.com for business cooperation. For more information about SoM board and Carrier board, please visit [http://www.beiqicloud.com](http://www.beiqicloud.com)
+Beiqicloud is 96Boards Compute SoM Lead partner, which is also the most powerful solution design and manufacturer of Rockchip SOC platform. The supporting manufacturers have passed ISO9001-2008 、ISO14001-2004、OHSAS18001-2001. Please contact sales@beiqicloud.com for business cooperation. For more information about SoM board and Carrier board, please visit [http://www.beiqicloud.com](https://www.bearkey.com.cn/en/)
 
 About Rockchip and ToybrickRockchip is China’s leading fabless semiconductor company and has been honored with China Chip Awards for 12 times. Since its establishment, Rockchip is committed to providing technical innovation and prompt support to fuel successful growth for customers. Being a pioneering IC design company, Rockchip offers comprehensive and professional end-to-end SoC (system-on-chip) for AI, smart voice, IPC, fast charger, tablet, IPTV/OTT-Box, ARM PC, embedded applications, VR, robot, drone, image processor, CVR, Internet of Things (IoT),  smart audio products etc.Toybrick, Rockchip’s AI development platform, integrates software and hardware development into one platform. In terms of hardware, Toybrick provides various series of development platforms and reference designs to satisfy different user groups. For software, it offers stable system, rich development tools, and series of AI cases and open source communities.Toybrick is aiming at providing efficient, convenient and stable services, enabling developers to quickly develop AI applications, accelerating the process of industry application development, and improving the whole industry ecology. To find out more, please visit [http://t.rock-chips.com](http://t.rock-chips.com/portal.php)

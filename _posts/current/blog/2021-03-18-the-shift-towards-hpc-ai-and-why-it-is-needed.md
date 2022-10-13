@@ -1,8 +1,9 @@
 ---
 layout: post
-title: The shift towards HPC AI and why it is needed
-description: Paul Isaac talks about the shift from traditional data centers and
-  how we are addressing these needs through the HPC AI Project.
+title: The shift towards HPC AI and Why it is Needed
+description: Linaro’s HPC AI Project develops technologies which leverage AI in
+  infrastructure management tasks such as orchestration and autoscaling. Read
+  more here.
 date: 2021-03-18 03:54:31
 image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 tags:

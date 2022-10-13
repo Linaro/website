@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OPPO joins Linaro to collaborate on Android kernel upstreaming "
+title: OPPO Join the Android Kernel Upstream Project
 description: Linaro has announced that OPPO has joined Linaro as a Project
   Member of the Kernel Development targeting Android Project. Read more here.
 date: 2021-09-08 10:56:56 +01:00
@@ -10,11 +10,12 @@ tags:
 category: news
 author: linaro
 ---
-Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that OPPO has joined Linaro as a Project Member of [the Kernel Development targeting Android Project](https://linaro.atlassian.net/wiki/spaces/LCGSC/pages/15846998590/Kernel+Development+Targeting+Android). 
+
+Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that OPPO has joined Linaro as a Project Member of [the Kernel Development targeting Android Project](https://linaro.atlassian.net/wiki/spaces/LCGSC/pages/15846998590/Kernel+Development+Targeting+Android).
 
 OPPO is one of the world's leading innovators and manufacturers of smart devices, with operations in over 50 countries and regions. The company created the world's first rollable smartphone OPPO X and produces smartphones, smart devices, audio devices, as well as software and internet services built around its ColorOS operating system enjoyed by 440 million monthly active users worldwide
 
-OPPO is continuously deepening its collaboration with Android. Linaro has a team of experts and a strong track record in upstreaming Arm software to Android. Becoming a Linaro member is the logical next step in OPPO's aim to deliver the most up-to-date software and to reduce the cost of maintaining out-of-tree code. 
+OPPO is continuously deepening its collaboration with Android. Linaro has a team of experts and a strong track record in upstreaming Arm software to Android. Becoming a Linaro member is the logical next step in OPPO's aim to deliver the most up-to-date software and to reduce the cost of maintaining out-of-tree code.
 
 Linaro plays a key role in upstreaming Arm open-source software to Android, and by working with Linaro, leading device makers like OPPO will be able to accelerate the pace to secure, connected smart devices to their users.
 

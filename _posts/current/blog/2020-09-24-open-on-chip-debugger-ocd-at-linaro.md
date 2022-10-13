@@ -35,7 +35,7 @@ Linaro toolchain working group maintains [a wiki area for OpenOCD](https://colla
 Following pages provide quick start for validation and testing of OpenOCD on Arm:
 
 * [Getting started with OpenOCD Development](https://collaborate.linaro.org/display/TCWGPUB/Getting+started+with+OpenOCD+Development)
-* [Raspberry Pi Linux kernel debugging with OpenOCD](https://collaborate.linaro.org/display/TCWGPUB/Raspberry+Pi+Linux+kernel+debugging+with+OpenOCD)
+* [Raspberry Pi Linux kernel debugging with OpenOCD](https://linaro.atlassian.net/wiki/spaces/TCWGPUB/pages/25296346120/Raspberry+Pi+Linux+kernel+debugging+with+OpenOCD)
 * [Debug Zephyr app on Nitrogen board with OpenOCD](https://collaborate.linaro.org/display/TCWGPUB/Debug+Zephyr+app+on+Nitrogen+board+with+OpenOCD)
 
 To find out more about Linaro and the work we do, [contact us here](https://www.linaro.org/contact/).
