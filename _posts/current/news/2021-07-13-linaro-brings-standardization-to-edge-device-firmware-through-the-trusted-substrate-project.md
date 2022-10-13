@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Linaro brings standardization to edge device firmware through the Trusted
-  Substrate Project
+title: Importance of Standardized Firmware
 description: Linaro has a track record of bringing Arm vendors together on the
   Linux kernel and is currently extending this to firmware with the Trusted
   Substrate Project. This press release talks about the White Paper Linaro has

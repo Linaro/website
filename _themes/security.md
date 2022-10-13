@@ -1,6 +1,6 @@
 ---
 id: 1
-title: Security
+title: Security on Arm
 sub_theme: true
 permalink: /core-technologies/security/
 image: /assets/images/content/testing-and-ci-share-image.png
@@ -17,7 +17,7 @@ video_resources_link: https://resources.linaro.org/en/themes/78d8b871-93f5-45a9-
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
-  title: Security
+  title: Security on Arm
   description: |
     Security is no longer an option, it is a vital
     ingredient to be able to protect intellectual

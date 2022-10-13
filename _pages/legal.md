@@ -96,7 +96,7 @@ flow:
               LEC-ELA-00989-V1.0, 03 May 2010. Address updated September 2012. Copyright (c) 2010 Linaro Limited
           - title: Privacy policy
             content: >
-              
+
               As an organization Linaro Limited is committed to fairness, both in the collection and use of personal information. Fairness has two elements:
 
 
@@ -319,7 +319,7 @@ flow:
               LEC-ELA-00990-V2.0, 27 April, 2010, Copyright (c) 2010 Linaro Limited
           - title: Trademark usage
             content: >
-              
+
               Linaro® is a registered trademark of Linaro in the United Kingdom and other countries
 
 
@@ -595,7 +595,8 @@ flow:
               TO COMPLY WITH THIS IP POLICY.
           - title: Antitrust Guidelines
             content: >
-              
+              View the Antitrust policy [here](/engineering/antitrust-policy/).
+
               The defined terms in these Antitrust Guidelines shall have the same meanings given to them in
 
               these Rules.
@@ -1038,8 +1039,7 @@ flow:
               to the benefit of all Participants in Linaro.
           - title: Connect Cancellation policy
             content: >
-              **Cancellation policy:**
-
+              **Cancellation policy:*
               If you need to cancel for any reason please contact us by emailing [connect@linaro.org](mailto:connect@linaro.org). Refunds will only be issued for cancellations received at least 3 weeks prior to the first day of the event and may take up to 14 days to process. Please note that we reserve the right to charge a 5% processing fee on all refunds.
 
 
@@ -1050,4 +1050,7 @@ flow:
             content: >
               To view Linaro's Articles of Association please click
               [here](/assets/pdf/Linaro-Articles-of-Association-New-June-2010.pdf).
+          - title: GDPR
+            content: >
+              [GDPR details](/legal/gdpr/)
 ---

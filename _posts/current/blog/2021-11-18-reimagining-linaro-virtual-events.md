@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Reimagining Linaro Virtual Events "
-description: "Linaro Events Blog "
+description: In 2020 we hosted our first online event and in is this blog we
+  will explore some of the benefits and challenges of virtual events in the last
+  2 years.
 date: 2021-11-18 11:46:45 -05:00
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 strap_image: /assets/images/content/30921188158_953bca1c9f_k.jpg

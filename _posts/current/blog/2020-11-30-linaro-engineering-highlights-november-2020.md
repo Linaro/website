@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Linaro Engineering Highlights - November 2020
-description: Our November edition of the monthly Engineering Highlight is full
-  of the latest updates and news from Linaro.
+title: Linaro Engineering Highlights | November 2020
+description: >
+  Our November edition of the monthly Engineering Highlight is full of the latest updates and news from Linaro. Read about November's activities here.
 date: 2020-12-14 11:54:02
 image: /assets/images/content/electricity-1288717_1920.jpg
 tags:
@@ -16,6 +16,7 @@ related_projects:
 category: blog
 author: jon.burcham@linaro.org
 ---
+
 ## Introduction
 
 The November highlights are full of the latest updates and news from Linaro. Topics include; LITE updates, MCUboot & a new Linaro Community Project, Security and Zephyr updates. Plus, future improvements for Device Tree, Kernel Working Group news, setting up ARM32 architecture, Kernel validation team updates, LEDGE team news, Arm 32bit startup sequence and a major eBPF fix on Aarch64 to name but a few.
@@ -27,15 +28,15 @@ The November highlights are full of the latest updates and news from Linaro. Top
 
 ## MCUboot - A New Linaro Community Project
 
-{% include image.html path="/assets/images/content/mcuboot-logo.png" class="small-inline left" alt="MCUboot logo" %}We are very pleased and delighted to give an update on the MCUboot project's move to open governance. MCUboot originated with the company runtime.io which was acquired by JuulLabs in November 2018. 
+{% include image.html path="/assets/images/content/mcuboot-logo.png" class="small-inline left" alt="MCUboot logo" %}We are very pleased and delighted to give an update on the MCUboot project's move to open governance. MCUboot originated with the company runtime.io which was acquired by JuulLabs in November 2018.
 
 The MCUboot github repo was formally and properly migrated from JuulLabs to the [mcu-tools github project](https://github.com/mcu-tools/mcuboot). We avoided having to fork the project and will retain the history by migrating. A website, [mcuboot.com](http://mcuboot.com/), already exists outside of JuulLabs and points to the correct github.
 
 Thanks to David Brown (Maintainer), Reed Hinkle (Arm), Fabio Utzig (Maintainer), Aditi Hilbert (JuulLabs), and Andy Gross (JuulLabs) for giving the migration the final push to completion. Many people have been involved in this effort since January and it has taken many hands to move MCUboot to be under the Linaro Community Project umbrella.
 
-The pledge is to keep the MCUboot project governance and administration minimal to allow the contributors to continue to build the best little bootloader in RTOS's. 
+The pledge is to keep the MCUboot project governance and administration minimal to allow the contributors to continue to build the best little bootloader in RTOS's.
 
-Next Steps: We are now recruiting Founding Members for MCUboot. The membership fee will cover administrative and hosting costs along with some potential funding to promote MCUboot. Once we have 4 Founding Members, a board meeting will be scheduled to begin a project charter review and approval process. In the meantime, the technical meetings and leadership will continue under David Brown’s  and Fabio's guidance. Again, the goal is to not disturb what is already working. 
+Next Steps: We are now recruiting Founding Members for MCUboot. The membership fee will cover administrative and hosting costs along with some potential funding to promote MCUboot. Once we have 4 Founding Members, a board meeting will be scheduled to begin a project charter review and approval process. In the meantime, the technical meetings and leadership will continue under David Brown’s and Fabio's guidance. Again, the goal is to not disturb what is already working.
 
 We have drafted a membership presentation and have a draft charter (based on the OpenAMP project) available. Please contact [Vicky Janicki](mailto:vicky.janicki@linaro.org), [Reed Hinkel](mailto:reed.hinkel@arm.com) or [David Brown](mailto:david.brown@linaro.org) for the files.
 
@@ -47,7 +48,7 @@ We have drafted a membership presentation and have a draft charter (based on the
 
 **By Joakim Bech, Distinguished Engineer**
 
-{% include image.html path="/assets/images/content/devicetree-logo_vertical-devicetree.png" class="small-inline left" alt="Device Tree icon" %} Device Tree has been around for a long time and is a well known technology for engineers working with embedded devices. One of the key goals with Device Tree was to separate specific settings related to a specific SoC into separate configurations, in a way that would make it possible to run a generic kernel (Linux kernel) and provide different Device Tree Blobs (the name that refers to the compiled form of a Device Tree configuration, DTB for short) for different hardware configurations. Originating from Open Firmware, Device Tree was picked up by the Linux kernel roughly fifteen years ago, as an effort to try and sort out what at the time was a rather messy configuration of Arm devices. Today, you will find hundreds of DTS-files in the Linux kernel tree for all sorts of devices coming from a plethora of SoC manufacturers. In Linux kernel v5.8 there are 1833 *.dts files, which shows the Device Tree approach of doing device configuration in Linux kernel has been pretty successful.
+{% include image.html path="/assets/images/content/devicetree-logo_vertical-devicetree.png" class="small-inline left" alt="Device Tree icon" %} Device Tree has been around for a long time and is a well known technology for engineers working with embedded devices. One of the key goals with Device Tree was to separate specific settings related to a specific SoC into separate configurations, in a way that would make it possible to run a generic kernel (Linux kernel) and provide different Device Tree Blobs (the name that refers to the compiled form of a Device Tree configuration, DTB for short) for different hardware configurations. Originating from Open Firmware, Device Tree was picked up by the Linux kernel roughly fifteen years ago, as an effort to try and sort out what at the time was a rather messy configuration of Arm devices. Today, you will find hundreds of DTS-files in the Linux kernel tree for all sorts of devices coming from a plethora of SoC manufacturers. In Linux kernel v5.8 there are 1833 \*.dts files, which shows the Device Tree approach of doing device configuration in Linux kernel has been pretty successful.
 
 **[Continue reading](https://www.linaro.org/blog/device-tree-future-improvements/)….**
 
@@ -80,7 +81,7 @@ arm_memblock_init() in arch/arm/mm/init.c is called, resulting in a number of me
 
 {% include image.html path="/assets/images/content/lkft-icon.png" class="small-inline left" alt="LKFT icon" %} Linus Walleji from the KWG has worked on the ARMv7 enablement of KASAN which was delivered in the recent 5.11 release.
 
-KASAN is the Linux kernel support for a kernel address sanitization. (KASAN, <http://lwn.net/Articles/612153/>) uses compiler instrumentation present in GCC 4.9 and above based releases to identify invalid memory accesses as they occur with low-performance overhead. KASAN can be used to both improve testing of code and help developers diagnose problems. This feature requires per architecture implementation in the kernel that was available for x86-64 systems but previously not for ARMv7 systems. 
+KASAN is the Linux kernel support for a kernel address sanitization. (KASAN, <http://lwn.net/Articles/612153/>) uses compiler instrumentation present in GCC 4.9 and above based releases to identify invalid memory accesses as they occur with low-performance overhead. KASAN can be used to both improve testing of code and help developers diagnose problems. This feature requires per architecture implementation in the kernel that was available for x86-64 systems but previously not for ARMv7 systems.
 
 The first issue \[1] KASAN for Armv7 uncovered quickly followed the merge. Naresh Kamboju reported the first bug revealed two hours after discovery on a Beaglebone X15, six hours later, Vignesh\[2] posted a fix.
 
@@ -91,15 +92,15 @@ Failure to boot is a blocker for running a full LKFT test plan. When we solve th
 
 1. BUG: KASAN: global-out-of-bounds in soc_device_match on arm. <https://lore.kernel.org/linux-next/CA+G9fYvQ9R2i8FsQcvb7f8aYv1v1+vq_OsOtg9YEtHGRvx+zxQ@mail.gmail.com/>
 2. serial: 8250: 8250_omap: Fix possible array out of bounds access. <https://lore.kernel.org/linux-serial/20201111112653.2710-1-vigneshr@ti.com/>
-3. arm: kasan: WARNING: CPU: 0 PID: 0 at arch/arm/kernel/insn.c:47 __arm_gen_branch. <https://lore.kernel.org/linux-next/CA+G9fYtrOq66zz8ux=G+SDH7ZUJevv-L0W+xvtERHAJCuCmj_g@mail.gmail.com/>
+3. arm: kasan: WARNING: CPU: 0 PID: 0 at arch/arm/kernel/insn.c:47 \_\_arm_gen_branch. <https://lore.kernel.org/linux-next/CA+G9fYtrOq66zz8ux=G+SDH7ZUJevv-L0W+xvtERHAJCuCmj_g@mail.gmail.com/>
 
 ## LEDGE Team News
 
 ## Linux EFI Stub as a minimal EFI OS Loader
 
- **By lias Apalodimas, LEDGE Technical Lead**
+**By lias Apalodimas, LEDGE Technical Lead**
 
-{% include image.html path="/assets/images/content/ledge.jpg" class="small-inline left" alt="Ledge icon" %} 
+{% include image.html path="/assets/images/content/ledge.jpg" class="small-inline left" alt="Ledge icon" %}
 
 UEFI booting process (as in EDK2 and U-Boot) assumes the operating system provides an EFI application that stages memory with all necessary artifacts before transferring execution to the OS kernel. In that context, Linux can be booted directly if configured without an initial ram disk (or it is embedded in the kernel) and the device tree or ACPI tables passed as EFI tables. If there is an initial ram disk (initrd), the standard solution is to have grub.efi stage memory and chain-boot to linux kernel.
 

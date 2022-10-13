@@ -1,28 +1,28 @@
 ---
-author: linaro
-category: news
-date: 2017-03-06 12:00:37
-description: Linaro Ltd, the open source collaborative engineering organization developing
-  software for the ArmÂ® ecosystem, today announced that Google Inc. has joined Linaro
-  as a Club member.
-excerpt: Linaro Ltd, the open source collaborative engineering organization developing
-  software for the Arm® ecosystem, today announced that Google Inc. has joined Linaro
-  as a Club member.
-layout: post
-link: /news/google-becomes-club-member-linaro/
-slug: google-becomes-club-member-linaro
-tags:
-- Club Member
-- Google
-- Linaro
-- Linaro Connect
-- Linux
-- Linux On Arm
-- Membership
-title: Google Becomes Club Member of Linaro
+excerpt: Linaro Ltd, the open source collaborative engineering organization
+  developing software for the Arm® ecosystem, today announced that Google Inc.
+  has joined Linaro as a Club member.
 wordpress_id: 12216
+layout: post
+title: Google Becomes Club Member of Linaro
+description: Linaro Ltd, the open source collaborative engineering organization
+  developing software for the ArmÂ® ecosystem, today announced that Google Inc.
+  has joined Linaro as a Club member.
+image: /assets/images/content/Client_Devices_banner_pic.jpg
+author: linaro
+slug: google-becomes-club-member-linaro
+date: 2017-03-06 12:00:37
+tags:
+  - Club Member
+  - Google
+  - Linaro
+  - Linaro Connect
+  - Linux
+  - Linux On Arm
+  - Membership
+link: /news/google-becomes-club-member-linaro/
+category: news
 ---
-
 Budapest, Hungary; 6 March 2017
 
 Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced that Google Inc. has joined Linaro as a Club member.
@@ -43,4 +43,4 @@ Google has a proven track record in the Linux and the Open Source Community. It 
 
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 300 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit []() and [http://www.96Boards.org](http://www.96boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](https://www.96boards.org/).

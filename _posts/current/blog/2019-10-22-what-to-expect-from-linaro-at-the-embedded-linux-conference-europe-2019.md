@@ -1,13 +1,13 @@
 ---
 layout: post
 title: What to expect from Linaro at the Embedded Linux Conference (Europe) 2019
-date: '2019-10-22 10:48:58'
+date: "2019-10-22 10:48:58"
 image: /assets/images/content/40965990761_090a30658a_k.jpg
 tags:
-- Linaro
-- Collaborative Engineering
-- Linux
-- Embedded
+  - Linaro
+  - Collaborative Engineering
+  - Linux
+  - Embedded
 category: blog
 author: bill.fletcher
 ---
@@ -26,9 +26,9 @@ for the Arm Ecosystem and how we work with members to consolidate codebases in t
 - The Linaro open source hardware and software ecosystem around the STMicroelectronics STM32MP1
 - LAVA which powers the Linux Kernel Functional Test (LKFT) project
 
-![](/assets/images/content/openamp-demo.jpg "STM32MP1 community hardware demonstrating OpenAMP and Zephyr")
+{% include image.html path="/assets/images/content/openamp-demo.jpg" alt="STM32MP1 community hardware demonstrating OpenAMP and Zephyr" %}
 
-![](/assets/images/content/lava-demo.jpg "Latest Developments in Linaro’s LAVA CI Infrastructure Project")
+{% include image.html path="/assets/images/content/lava-demo.jpg" alt="Latest Developments in Linaro’s LAVA CI Infrastructure Project" %}
 
 You can find us, our members and projects on the following stands:
 

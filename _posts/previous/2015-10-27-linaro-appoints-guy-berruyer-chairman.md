@@ -1,23 +1,23 @@
 ---
-author: linaro
-category: news
-date: 2015-10-27 13:07:00
-description: Linaro announced that Guy Berruyer has been appointed as Chairman of
+excerpt: Linaro announced that Guy Berruyer has been appointed as Chairman of
   the Linaro Board.
-excerpt: Linaro announced that Guy Berruyer has been appointed as Chairman of the
-  Linaro Board.
-layout: post
-link: /news/linaro-appoints-guy-berruyer-chairman/
-slug: linaro-appoints-guy-berruyer-chairman
-tags:
-- Linaro
-- Linux
-- Linux On Arm
-- Open Source
-title: Linaro appoints Guy Berruyer Chairman
 wordpress_id: 9600
+layout: post
+title: Linaro appoints Guy Berruyer Chairman
+description: Linaro announced that Guy Berruyer has been appointed as Chairman
+  of the Linaro Board.
+image: /assets/images/content/30921188158_953bca1c9f_k.jpg
+author: linaro
+slug: linaro-appoints-guy-berruyer-chairman
+date: 2015-10-27 13:07:00
+tags:
+  - Linaro
+  - Linux
+  - Linux On Arm
+  - Open Source
+link: /news/linaro-appoints-guy-berruyer-chairman/
+category: news
 ---
-
 Cambridge, UK; October 27, 2015
 
 Linaro Ltd, the collaborative engineering organisation developing open source software for the Arm® architecture, today announced that Guy Berruyer has been appointed to the position of Chairman of the [Linaro Board.](/about/team/)
@@ -33,4 +33,4 @@ Mr Berruyer, a French national, with a degree in Electrical Engineering and an M
 **About Linaro**
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit []() and [http://www.96Boards.org](http://www.96boards.org).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](https://www.96boards.org/).

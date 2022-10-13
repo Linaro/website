@@ -6,15 +6,15 @@ wordpress_id: 4431
 layout: post
 title: Linaro launches OpenDataPlane™ (ODP) project to deliver open-source,
   cross-platform interoperability for networking platforms
+description: The Linaro Networking Group are collaborating to develop an open
+  standard application programming interface for data plane applications. Read
+  more here!
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
-category: news
 author: linaro
 slug: linaro-launches-opendataplane-odp-project-deliver-open-source-cross-platform-interoperability-networking-platforms
 date: 2013-10-29 12:31:46
 link: /news/linaro-launches-opendataplane-odp-project-deliver-open-source-cross-platform-interoperability-networking-platforms/
-description: Industry leaders in the Linaro Networking Group (LNG) are
-  collaborating to develop and host an open standard application programming
-  interface (API) for data plane applications on www.opendataplane.org
+category: news
 ---
 SANTA CLARA, US - 29 OCT 2013
 
@@ -52,13 +52,13 @@ ODP Supporting Quotes From LNG Members
 
 “For over 8 years Cavium customers have benefitted from our comprehensive fast-path development environment and APIs that seamlessly integrate our world-leading hardware acceleration technology with our Linux compatible data plane acceleration software,” said Imran Badr, VP of Software Engineering, Cavium. “We support and applaud Linaro’s leadership in spearheading the OpenDataPlane (ODP) API that will modularize and standardize Data Plane acceleration software across multiple vendors and architectures. This standardization will foster and accelerate the pace of innovation available to enterprise and service providers. With ODP Cavium will provide its customers with an industry standard application layer API that will provide leading networking and compute performance by virtualizing and abstracting our unique hardware acceleration across our MIPS64 and Armv8 processor families.”
 
-*About Cavium:* Cavium is a leading provider of highly integrated semiconductor products that enable intelligent processing in networking, communications and the digital home. Cavium offers a broad portfolio of integrated, software compatible processors ranging in performance from 10 Mbps to over 100 Gbps that enable secure, intelligent functionality in enterprise, data-center, broadband/consumer and access & service provider equipment. Cavium’s processors are supported by ecosystem partners that provide operating systems, tool support, reference designs and other services. Cavium’s principal offices are in San Jose, California with design team locations in California, Massachusetts, India and China. For more information, please visit:[www.cavium.com](http://www.cavium.com/).
+*About Cavium:* Cavium is a leading provider of highly integrated semiconductor products that enable intelligent processing in networking, communications and the digital home. Cavium offers a broad portfolio of integrated, software compatible processors ranging in performance from 10 Mbps to over 100 Gbps that enable secure, intelligent functionality in enterprise, data-center, broadband/consumer and access & service provider equipment. Cavium’s processors are supported by ecosystem partners that provide operating systems, tool support, reference designs and other services. Cavium’s principal offices are in San Jose, California with design team locations in California, Massachusetts, India and China. For more information, please visit:[www.cavium.com](https://www.marvell.com/).
 
 **ENEA**
 
 “As a world leading operating systems solutions provider for Networking, we see OpenDataPlane as a much awaited step forward, driving speed and innovation in the IP application and transport domain”, said Tobias Lindquist, CTO, Enea. “ODP will be a business enabler for us, where we can continue to compete with new offers, granting our customers a greater re-use of software resources and a simpler migration between hardware platforms.”
 
-*About Enea:* Enea is a global vendor of Linux and Real-time operating system solutions including middleware, tools, protocols and services. The company is a world leader in developing software platforms for communication-driven products in multiple verticals, with extreme demands on high-availability and performance. For more information, please visit: [www.enea.com](http://www.enea.com/).
+*About Enea:* Enea is a global vendor of Linux and Real-time operating system solutions including middleware, tools, protocols and services. The company is a world leader in developing software platforms for communication-driven products in multiple verticals, with extreme demands on high-availability and performance. For more information, please visit: [www.enea.com](https://www.enea.com/).
 
 **LSI**
 

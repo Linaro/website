@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to use LLDB to debug SVE enabled applications
+title: Using LLDB to Debug SVE Enabled Applications
 description: In this blog, Linaro Engineer Omair Javaid talks us through how to
   debug SVE enabled applications using LLDB. Read more here.
 date: 2021-05-04 10:08:31
@@ -19,9 +19,10 @@ related_projects:
 category: blog
 author: Omair.Javaid@linaro.org
 ---
+
 Scalable Vector Extension (SVE) is an extension of the Arm v8-A AArch64 instruction set developed to target HPC workloads. The SVE extension introduces a new instruction set which operates on a set of vector and predicate registers. The main striking feature of SVE is its Vector Length Agnosticism (VLA) which practically means that it has 32 size-configurable vector registers called Z registers with a minimum length of 128 bits (16 bytes). The size of each of these Z registers can be increased in multiples of 128 bits upto a maximum of 2048 bits. Unlike traditional SIMD architectures which have a fixed vector register length, SVE only specifies a maximum vector length. This allows for use-case specific vector length configurations on the same hardware as well as on different architecture versions designed for target specific workloads. SVE VLA programming strives to use the same program binary to be run on any implementation of the architecture with different vector length configurations.
 
-SVE’s variable length vector registers have significant implications on how we implement target support in debuggers. Register access of variable sized registers requiring dynamic size update at run-time has never been supported for any targets in the past. After the introduction of SVE extension, Arm contributed debugger support in GDB debugger. Now Linaro has developed complete LLDB debugger support for SVE vector register access with dynamically changing vector lengths for different threads of the same binary. 
+SVE’s variable length vector registers have significant implications on how we implement target support in debuggers. Register access of variable sized registers requiring dynamic size update at run-time has never been supported for any targets in the past. After the introduction of SVE extension, Arm contributed debugger support in GDB debugger. Now Linaro has developed complete LLDB debugger support for SVE vector register access with dynamically changing vector lengths for different threads of the same binary.
 
 In the past year Linaro completed development and upstreaming of SVE support in LLDB debugger which is now available in the LLVM 12 release downloadable from [releases.llvm.org](https://releases.llvm.org/). This article describes how to use LLDB to debug SVE enabled applications with dynamically changing vector register size.
 
@@ -35,7 +36,7 @@ QEMU also has SVE support for Linux user-mode emulation. The Linaro blog [SVE in
 
 ## SVE compiler support
 
-[SVE example code](https://developer.arm.com/documentation/101726/0210/Coding-for-Scalable-Vector-Extension--SVE-/SVE-Vector-Length-Agnostic--VLA--programming/For-and-While-loop-vectorization) below adds two integer arrays using function add_int_arrays_acle written using Arm C language extension (ACLE) for SVE. Compiler’s supporting SVE auto vectorization will auto generate similar SVE code without making use of ACLE intrinsics. 
+[SVE example code](https://developer.arm.com/documentation/101726/0210/Coding-for-Scalable-Vector-Extension--SVE-/SVE-Vector-Length-Agnostic--VLA--programming/For-and-While-loop-vectorization) below adds two integer arrays using function add_int_arrays_acle written using Arm C language extension (ACLE) for SVE. Compiler’s supporting SVE auto vectorization will auto generate similar SVE code without making use of ACLE intrinsics.
 
 LLVM clang compiler does not have auto vectorization in LLVM-12 release but can compile ACLE for SVE code. We may use any of the GCC 9.0 and onwards releases to generate SVE auto vectorization code. Click [here](https://www.google.com/url?q=https://developer.arm.com/tools-and-software/open-source-software/developer-tools/llvm-toolchain/architecture-support&sa=D&source=editors&ust=1620130218065000&usg=AOvVaw2ExP224MQGrxisgoXOr7bZ) for the release timeline of various SVE features in LLVM.
 
@@ -75,8 +76,8 @@ int main() {
 ## LLVM Compiler options
 
 ```
-clang -g -O3 -target aarch64-linux-gnu -march=armv8-a+sve 
--I//usr/aarch64-linux-gnu/include 
+clang -g -O3 -target aarch64-linux-gnu -march=armv8-a+sve
+-I//usr/aarch64-linux-gnu/include
 -I//usr/aarch64-linux-gnu/include/c++/8/aarch64-linux-gnu sve_add.c
 ```
 

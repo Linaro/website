@@ -1,23 +1,23 @@
 ---
-author: linaro
-category: news
-date: 2015-02-09 01:55:19
-description: 96Boards is an open hardware specification for Arm 32-bit and 64-bit
-  developer boards, and a Community Program for software delivery to developers, makers
-  and OEMs
-layout: post
-link: /news/linaro-announces-96boards-initiative-accelerate-arm-software-development/
-slug: linaro-announces-96boards-initiative-accelerate-arm-software-development
-tags:
-- Linaro
-- Linaro Connect
-- Linux
-- Linux On Arm
-- Open Source
-title: Linaro announces 96Boards initiative to accelerate Arm software development
 wordpress_id: 7920
+layout: post
+title: Linaro announces 96Boards initiative to accelerate Arm software development
+description: 96Boards is an open hardware specification for Arm 32-bit and
+  64-bit developer boards, and a Community Program for software delivery to
+  developers, makers and OEMs
+image: /assets/images/content/Code_Image_Core_tech.jpg
+tags:
+  - Linaro
+  - Linaro Connect
+  - Linux
+  - Linux On Arm
+  - Open Source
+author: linaro
+slug: linaro-announces-96boards-initiative-accelerate-arm-software-development
+date: 2015-02-09 01:55:19
+link: /news/linaro-announces-96boards-initiative-accelerate-arm-software-development/
+category: news
 ---
-
 ## 96Boards is an open hardware specification for Arm 32-bit and 64-bit developer boards, and a Community Program for software delivery to developers, makers and OEMs
 
 HONG KONG, China; 9  FEBRUARY 2015
@@ -26,11 +26,11 @@ Linaro Ltd, the not-for-profit engineering organization developing open source s
 
 96Boards is the first open hardware specification that provides a platform for the delivery of compatible low cost, small footprint 32-bit and 64-bit Cortex-A boards from the full range of Arm SoC vendors. Standardized expansion buses for peripheral I/O, display and cameras allow the hardware ecosystem to develop a range of compatible add-on products that will work on any 96Boards product over the lifetime of the platform.
 
-In addition, the 96Boards website at [www.96Boards.org](http://www.96boards.org) provides software downloads and updates, information on products compatible with 96Boards and a forum for software developers, makers and OEMs.
+In addition, the 96Boards website at [www.96Boards.org](https://www.96boards.org/) provides software downloads and updates, information on products compatible with 96Boards and a forum for software developers, makers and OEMs.
 
 The 96Boards initiative is designed to offer a single software and hardware community across multiple vendor boards supporting a range of different features. A fixed set of minimum functions including USB, SD, HDMI and standardized low speed and high speed peripheral connectors are provided. Vendors may add customized hardware and feature sets provided the minimum functions are available. We expect this to extend the platform life, increase the market for add-on hardware, and accelerate open source upstreaming of support for new SoC features.
 
-Specifications for low-cost Armv7-A and Armv8-A development boards target the mobile, embedded, digital home, networking and server segments. The first of these standards - the Consumer Edition - is available now from [www.96Boards.org](http://www.96boards.org). The second - the Enterprise Edition - will be available in Q2 2015.  These specifications are intended to foster the delivery of multiple Arm hardware platforms targeted at software developers, the maker community, higher education, and embedded OEMs.
+Specifications for low-cost Armv7-A and Armv8-A development boards target the mobile, embedded, digital home, networking and server segments. The first of these standards - the Consumer Edition - is available now from [www.96Boards.org](https://www.96boards.org/). The second - the Enterprise Edition - will be available in Q2 2015.  These specifications are intended to foster the delivery of multiple Arm hardware platforms targeted at software developers, the maker community, higher education, and embedded OEMs.
 
 Prior to the launch of 96Boards compatible boards, Linaro will work with the board manufacturers and chip suppliers to bring up core software and ensure stability of the platform, including continuous integration testing in Linaro’s Automated Validation Architecture (LAVA). The core software will include builds of Debian and Android running on a recent mainline kernel. Additional software may be made available, depending on the target market for the individual boards.
 
@@ -50,4 +50,4 @@ Prior to the launch of 96Boards compatible boards, Linaro will work with the boa
 
 Linaro is the place where engineers from the world’s leading technology companies define the future of open source on Arm. The company is a not-for-profit engineering organization with over 200 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. For more information about Linaro, visit []().
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro’s engineering work is open to all online. For more information about Linaro, visit [](<>).

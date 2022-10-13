@@ -19,7 +19,7 @@ flow:
       - format: tabs
         tabs:
           - title: For Linaro Members
-            content: >
+            content: >-
               If your company is a Linaro member, Linaro Developer Technical
               Support is one of the benefits you get. We are here to guide and
               support you on Linaro’s software releases, contributions to open
@@ -32,9 +32,9 @@ flow:
               The scope of support we provide is very broad, reflecting the many different areas Linaro operates in. Examples of technologies around which we provide support include GNU and LLVM toolchains for Arm platforms, Linux kernel (including mainline, Linaro Stable Kernel and kernel testing), power optimization and testing, OP-TEE, QEMU/KVM, LAVA, SQUAD and any work by your landing team.
 
 
-              To raise an LDTS ticket simply send an e-mail to [support@linaro.org](mailto:support@linaro.org) from your company e-mail address or, if you prefer, register using your company e-mail address at [https://support.linaro.org](https://support.linaro.org). LDTS uses domain names to prioritize tickets from member companies, if you do not use your company e-mail address then your ticket will not be prioritized correctly.
+              To raise an LDTS ticket simply send an e-mail to [support@linaro.org](mailto:support@linaro.org) from your company e-mail address or, if you prefer, register using your company e-mail address at [https://support.linaro.org](https://servicedesk.linaro.org/servicedesk/customer/portal/6/user/login?destination=portal%2F10). LDTS uses domain names to prioritize tickets from member companies, if you do not use your company e-mail address then your ticket will not be prioritized correctly.
           - title: For Linaro Developer Services Customers
-            content: >
+            content: >-
               Linaro Developer Technical Support is available to [Linaro
               Developer Services](/services/) customers at an additional fee as
               part of their contract. The scope of cover will vary depending on
@@ -44,9 +44,9 @@ flow:
               If you are unsure about the scope of your contract then please raise a ticket with us nonetheless. Our engineers are briefed on the support levels for each customer and if you do not receive support as part of your contract we will treat your query as a community ticket (see next tab).
 
 
-              To raise an LDTS ticket simply send an e-mail to [support@linaro.org](mailto:support@linaro.org) from company e-mail address or, if you prefer, register using your company e-mail address at [https://support.linaro.org](https://support.linaro.org). LDTS uses domain names to prioritize tickets from our customers, if you do not use your company e-mail address then your ticket will not be prioritized correctly.
+              To raise an LDTS ticket simply send an e-mail to [support@linaro.org](mailto:support@linaro.org) from company e-mail address or, if you prefer, register using your company e-mail address at [https://support.linaro.org](https://servicedesk.linaro.org/servicedesk/customer/portal/6/user/login?destination=portal%2F10). LDTS uses domain names to prioritize tickets from our customers, if you do not use your company e-mail address then your ticket will not be prioritized correctly.
           - title: For the wider community
-            content: >
+            content: >-
               As an Open Source consortium, Linaro does not have a commercial
               product set; rather, we are Member funded for Member directed
               projects and efforts for Linux on Arm. Community (non-Member)
@@ -61,12 +61,12 @@ flow:
               Additional Linaro Community Support can also be found at:
 
 
-              *   IRC
+              * IRC
 
-              *   [Downloads](/downloads/)
+              * [Downloads](/downloads/)
 
 
-              To raise an LDTS ticket simply send an e-mail to [support@linaro.org](mailto:support@linaro.org) or, if you prefer, register at [https://support.linaro.org](https://support.linaro.org/).
+              To raise an LDTS ticket simply send an e-mail to [support@linaro.org](mailto:support@linaro.org) or, if you prefer, register at [https://support.linaro.org](https://servicedesk.linaro.org/servicedesk/customer/portal/6/user/login?destination=portal%2F10).
 ---
 
 Linaro Developer Technical Support (LDTS) is a service available to members, Linaro Developer Services clients and
