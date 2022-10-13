@@ -1,26 +1,23 @@
 ---
 layout: post
-title: Linaro - A Decade of Achievement
-description: Founded in 2010, Linaro will be celebrating its 10th Anniversary on the
-  18th June 2020. The technological world has evolved significantly throughout this
-  time, but one thing remains consistent and that is Linaro's expertise and collaboration
-  within the Arm ecosystem. In this thought provoking article, David Rusling (CTO
-  at Linaro) takes a look back at how Linaro came to be and also how the company has
-  moved forward throughout the years.
+title: A Decade of Achievement at Linaro
+description: " In this article, former Linaro CTO David Rusling takes a look at
+  how Linaro came to be and how the company has moved forward throughout the
+  last 10 years. Read more here."
 date: 2020-06-18 03:21:00
 image: /assets/images/content/10-year-graphic-horizonal1.png
 tags:
-- Linaro
-- Arm
-- Networking
-- Datacentre
-- Big Data
-- SoC
-- Linux
-- Linux Kernel
-- Android Ecosystem
-- Ledge
-- Linus Torvalds
+  - Linaro
+  - Arm
+  - Networking
+  - Datacentre
+  - Big Data
+  - SoC
+  - Linux
+  - Linux Kernel
+  - Android Ecosystem
+  - Ledge
+  - Linus Torvalds
 category: blog
 author: david.rusling
 ---
