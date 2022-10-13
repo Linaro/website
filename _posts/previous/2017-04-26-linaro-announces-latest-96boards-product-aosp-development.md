@@ -12,13 +12,8 @@ link: /news/linaro-announces-latest-96boards-product-aosp-development/
 image: /assets/images/content/Client_Devices_banner_pic.jpg
 categories:
   - news
-description: "[96Boards OpenHours 25 April 2017 6.00pm PST, 26 April 2017 9.00am
-  CST] Linaro Ltd, the open source collaborative engineering organization
-  developing software for the ArmÂ® ecosystem, today announced the availability
-  of the HiKey 960 96Boards development platform from Linaro Core member Huawei.
-  Designed to provide access to the latest Arm mobile technology for AOSP
-  developers, this new board is now listed on the 96Boards website and is
-  available through global distribution channels."
+description: Linaro today announced the availability of the HiKey 960 96Boards
+  development platform from Linaro Core member Huawei. Read more here.
 category: news
 ---
 [96Boards OpenHours](https://www.96boards.org/) 25 April 2017 6.00pm PST, 26 April 2017 9.00am CST] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced the availability of the [HiKey 960 96Boards](https://www.96boards.org/product/hikey960/) development platform from Linaro Core member Huawei. Designed to provide access to the latest Arm mobile technology for AOSP developers, this new board is now listed on the 96Boards website and is available through global distribution channels.
@@ -44,13 +39,13 @@ Information about the HiKey 960 board and Running Android on it will be availabl
 <table class="table responsive-table" >
 <tbody >
 <tr markdown="1">
-\\\\\*\\\\\*Component\\\\\*\\\\\*
-\\\\\*\\\\\*Description\\\\\*\\\\\*
+\\\\\\*\\\\\\*Component\\\\\\*\\\\\\*
+\\\\\\*\\\\\\*Description\\\\\\*\\\\\\*
 </tr>
 <tr >
 
 <td rowspan="2" markdown="1">
-\\\\\*\\\\\*SoC\\\\\*\\\\\*
+\\\\\\*\\\\\\*SoC\\\\\\*\\\\\\*
 </td>
 
 <td markdown="1">
@@ -68,7 +63,7 @@ Mali-G71 MP8 GPU
 <tr >
 
 <td markdown="1">
-\\\\\*\\\\\*Software\\\\\*\\\\\*
+\\\\\\*\\\\\\*Software\\\\\\*\\\\\\*
 </td>
 
 <td markdown="1">
@@ -78,7 +73,7 @@ AOSP with 4.4 AOSP common kernel
 <tr >
 
 <td markdown="1">
-\\\\\*\\\\\*Storage\\\\\*\\\\\*
+\\\\\\*\\\\\\*Storage\\\\\\*\\\\\\*
 </td>
 
 <td markdown="1">
@@ -88,7 +83,7 @@ AOSP with 4.4 AOSP common kernel
 <tr >
 
 <td markdown="1">
-\\\\\*\\\\\*Video Output / Display Interface\\\\\*\\\\\*
+\\\\\\*\\\\\\*Video Output / Display Interface\\\\\\*\\\\\\*
 </td>
 
 <td markdown="1">
@@ -98,17 +93,17 @@ HDMI 1.2a up to 1080p plus 4-lane MIPI DSI
 <tr >
 
 <td markdown="1">
-\\\\\*\\\\\*Connectivity\\\\\*\\\\\*
+\\\\\\*\\\\\\*Connectivity\\\\\\*\\\\\\*
 </td>
 
 <td markdown="1">
-Dual-band 802.11 b/g/n/ac WiFi and \\\\\_Bluetooth\\\\\_® wireless technology 4.1 with on board antennas
+Dual-band 802.11 b/g/n/ac WiFi and \\\\\\_Bluetooth\\\\\\_® wireless technology 4.1 with on board antennas
 </td>
 </tr>
 <tr >
 
 <td rowspan="2" markdown="1">
-\\\\\*\\\\\*USB\\\\\*\\\\\*
+\\\\\\*\\\\\\*USB\\\\\\*\\\\\\*
 </td>
 
 <td markdown="1">
@@ -124,7 +119,7 @@ Dual-band 802.11 b/g/n/ac WiFi and \\\\\_Bluetooth\\\\\_® wireless technology 4
 <tr >
 
 <td rowspan="2" markdown="1">
-\\\\\*\\\\\*Camera\\\\\*\\\\\*
+\\\\\\*\\\\\\*Camera\\\\\\*\\\\\\*
 </td>
 
 <td markdown="1">
@@ -139,7 +134,7 @@ Dual-band 802.11 b/g/n/ac WiFi and \\\\\_Bluetooth\\\\\_® wireless technology 4
 </tr>
 <tr >
 
-<td rowspan="3" >\\\\\*\\\\\*Expansion\\\\\*\\\\\*
+<td rowspan="3" >\\\\\\*\\\\\\*Expansion\\\\\\*\\\\\\*
 </td>
 
 <td markdown="1">
@@ -161,7 +156,7 @@ PCIe Gen2 on M.2 M Key connector
 <tr >
 
 <td markdown="1">
-\\\\\*\\\\\*Misc\\\\\*\\\\\*
+\\\\\\*\\\\\\*Misc\\\\\\*\\\\\\*
 </td>
 
 <td markdown="1">
@@ -171,7 +166,7 @@ LEDs for WiFi & Bluetooth, 4x user LEDs, power button
 <tr >
 
 <td markdown="1">
-\\\\\*\\\\\*Power Supply\\\\\*\\\\\*
+\\\\\\*\\\\\\*Power Supply\\\\\\*\\\\\\*
 </td>
 
 <td markdown="1">
@@ -181,7 +176,7 @@ LEDs for WiFi & Bluetooth, 4x user LEDs, power button
 <tr >
 
 <td markdown="1">
-\\\\\*\\\\\*Dimensions\\\\\*\\\\\*
+\\\\\\*\\\\\\*Dimensions\\\\\\*\\\\\\*
 </td>
 
 <td markdown="1">
@@ -195,7 +190,7 @@ LEDs for WiFi & Bluetooth, 4x user LEDs, power button
 
 Linaro is leading collaboration on open source development in the Arm ecosystem. The company has over 250 engineers working on consolidating and optimizing open source software for the Arm architecture, including developer tools, the Linux kernel, Arm power management, and other software infrastructure. Linaro is distribution neutral: it wants to provide the best software foundations to everyone by working upstream, and to reduce non-differentiating and costly low level fragmentation. The effectiveness of the Linaro approach has been demonstrated by Linaro’s growing membership, and by Linaro consistently being listed as one of the top five company contributors, worldwide, to Linux kernels since 3.10.
 
-To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [](<>) and [http://www.96Boards.org](https://www.96boards.org/).
+To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [http://www.96Boards.org](https://www.96boards.org/).
 
 - - -
 
@@ -203,7 +198,6 @@ To ensure commercial quality software, Linaro’s work includes comprehensive te
 
 Buy Now
 
-* [Lenovator](http://linaro.co/hikey960buy) (Worldwide) – $239
 * [Seeed](https://www.seeedstudio.com/hikey-960-development-board-4gb-ram-version-p-3028.html) (Worldwide) – $239.00
 * [Alpha Star](https://en.alpha-star.org/hikey960)
 * [Switch Science](http://linaro.co/hikey960-switch) (Japan)
