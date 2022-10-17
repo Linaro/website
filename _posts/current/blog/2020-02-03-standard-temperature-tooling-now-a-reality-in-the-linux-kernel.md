@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Standard Temperature Tooling in the Linux kernel
-date: "2020-02-03 03:39:33"
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
   - Linux Kernel
