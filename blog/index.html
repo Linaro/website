@@ -5,6 +5,14 @@ description: Get the latest updates & news from the Linaro team, including
   updates.
 permalink: /blog/
 tags_enabled: true
+pagination:
+    enabled: true
+    category: blog
+    permalink: "/:num/"
+    trail:
+        before: 2
+        after: 2
+layout: flow
 jumbotron:
   class: text-center about_header
   title: Our Blog
@@ -21,7 +29,10 @@ flow:
           search_label: LinaroBlog
           category: blog
       - format: custom_include
-        source: blog/display_latest_posts.html
+        source: blog/display_posts.html
         category: blog
         limit: 22
+      - format: custom_include
+        path: /blog/:num/
+        source: blog/pagination.html
 ---

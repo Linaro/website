@@ -11,6 +11,13 @@ body {
   }
 }
 #wrapper {
+  #pagination_panel li.page-item.active a {
+    color: white;
+  }
+  #pagination_panel li:hover > a.page-link {
+    background-color: $primary;
+    color: white;
+  }
   .text-btn {
     border: none;
     white-space: normal;

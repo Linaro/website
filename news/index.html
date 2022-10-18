@@ -10,6 +10,14 @@ jumbotron:
   title-class: font-weight-bold my-5
   inner_class: py-5
   image: /assets/images/content/news_sm.jpg
+pagination:
+    enabled: true
+    category: news
+    permalink: "/:num/"
+    trail:
+        before: 2
+        after: 2
+layout: flow
 flow:
   - row: container_row
     sections:
@@ -17,10 +25,13 @@ flow:
         source: blog/post_search.html
         payload:
           name: url
-          search_label: LinaroNews
+          search_label: LinaroBlog
           category: news
       - format: custom_include
-        source: blog/display_latest_posts.html
-        category: news
+        source: blog/display_posts.html
+        category: blog
         limit: 22
+      - format: custom_include
+        path: /news/:num/
+        source: blog/pagination.html
 ---

@@ -49,6 +49,7 @@ plugins:
   - japr
   - jekyll_picture_tag
   - jekyll-tidy
+  - jekyll-paginate-v2
 collections:
   services:
     output: true
@@ -67,6 +68,27 @@ collections:
   whitepapers:
     output: true
     permalink: /whitepapers/:name/
+# Permalink style to be used for paginating pages in pagination.html
+paginate_path: /blog/:num/
+paginate_path_news: /news/:num/
+paginate_path_authors: /authors/:num/
+# Jekyll Pagination V2 Configuration
+pagination:
+  # Default pagination path for Jekyll Posts
+  # For other permalinks set in the front matter of the post index page
+  permalink: /blog/:num/
+  # Enabled or not?
+  enabled: true
+  # Home many posts to display by default
+  per_page: 10
+  # Number of pages to show either side of the current page i.e - 1, 2, {3}, 4, 5
+  trail:
+    before: 2
+    after: 2
+  # Reverse the order of paginated pages
+  sort_reverse: true
+  # Field to sort posts by when paginating
+  sort_field: "date"
 liquid:
   error_mode: strict
 defaults:
@@ -252,6 +274,8 @@ social_media_channels:
 disqus:
   enabled: false
   shortname: Linaro
+autopages:
+  enabled: false
 # Edit on GitHub Settings
 edit-on-github:
   enabled: true
