@@ -2,9 +2,9 @@
 <div class="col col-12">
     <div class="owl-carousel owl-theme" id="members_slider">
         {% for group in site.data.members %}
-            {% if group.id == "core" or group.id == "club" or group.id == "group" or group.id == "autonomous-vehicles-incubator" or group.id == "hpc-sig" %}
+            {% if group.id == "core" or group.id == "club" or group.id == "group" or group.id == "autonomous-vehicles-incubator" or group.id == "hpc-sig" or group.id == "project-member" %}
                 {% for member in group.members %}
-                    {% unless unique_linaro_members contains member%}
+                    {% unless unique_linaro_members contains member %}
                         <div>
                             <div class="item">
                                 <div class="member_image bg-white my-4 d-flex justify-items-center align-items-center">
