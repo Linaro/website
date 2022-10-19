@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The shift towards HPC AI and Why it is Needed
+title: The shift towards HPC AI and Why it's Needed
 description: Linaro’s HPC AI Project develops technologies which leverage AI in
   infrastructure management tasks such as orchestration and autoscaling. Read
   more here.
@@ -18,17 +18,18 @@ related_projects:
 category: blog
 author: paul.isaacs
 ---
+
 ## The need for scaling and intelligent decision making
 
 The shift from on-premise data centers to Infrastructure-as-a-Service (IaaS) has been happening for some time. Whilst storage density has improved significantly (a terabyte now fits on a device the size of a postage stamp), data centers are becoming too big to fit conventional offices. The amount of data being processed requires huge amounts of computational hardware to convert into meaningful time-sensitive information. Engineering resources to maintain this hardware becomes an operational overhead that detracts from the core business.
 
-There is a need to scale to handle the Petabytes of data, deliver the results across national boundaries and to prioritize shifting workloads. As a result, we see data centers transitioning and consolidating. Across the global market this transition is confirmed by the server-class computing shipments to end-user companies being in decline year on year. 
+There is a need to scale to handle the Petabytes of data, deliver the results across national boundaries and to prioritize shifting workloads. As a result, we see data centers transitioning and consolidating. Across the global market this transition is confirmed by the server-class computing shipments to end-user companies being in decline year on year.
 
-How do we address these computational needs? 
+How do we address these computational needs?
 
 ## Introducing Linaro’s HPC AI Project
 
-Linaro’s HPC AI Project aims to develop technologies which leverage Artificial Intelligence (AI) in infrastructure management tasks such as orchestration and autoscaling. Managing workloads isn’t just about bandwidth. It is also about knowing when to prioritise what task. This is achieved by supporting workloads through intelligent enablement of infrastructure.  
+Linaro’s HPC AI Project aims to develop technologies which leverage Artificial Intelligence (AI) in infrastructure management tasks such as orchestration and autoscaling. Managing workloads isn’t just about bandwidth. It is also about knowing when to prioritise what task. This is achieved by supporting workloads through intelligent enablement of infrastructure.
 
 HPC AI aims to balance data centre workloads across available racks/server chassis in an efficient manner, whether that be to complete the task in the shortest time, maximise the number of parallel jobs or minimise the number of active chassis. The permutations of possibilities are seemingly endless which is why Linaro will incorporate not just Machine Learning models and frameworks into the operation but also aim towards the higher-level artificial intelligence. The benefits of which play into the needs of Hyperscalers as well as the more conventional Cloud Computing.
 
