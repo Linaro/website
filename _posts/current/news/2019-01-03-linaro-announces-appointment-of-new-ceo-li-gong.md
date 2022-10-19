@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linaro Announces Appointment of new CEO Li Gong
+title: Linaro announces Appointment of new CEO Li Gong
 description: Linaro announced that the company has appointed Li Gong as its new
   CEO. Li has more than two decades of experience in senior leadership. Read
   more here.

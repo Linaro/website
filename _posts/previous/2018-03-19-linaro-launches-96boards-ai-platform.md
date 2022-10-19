@@ -16,6 +16,7 @@ published: true
 date: 2018-03-19 00:00:00
 category: news
 ---
+
 [Hong Kong, China, 19 March 2018] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced [96Boards.ai](https://www.96boards.ai) and availability of a range of compatible member 96Boards platforms for developers working on AI hardware and software solutions.
 
 “The Linaro Connect keynote demonstration of high performance real-time computer vision and intelligent audio processing, supported by machine learning algorithms and deep learning technology, shows how far developers can now go with readily available 96Boards AI development platforms based on the latest SoCs” said George Grey, Linaro CEO. “What’s most impressive is the choice of platforms that developers can use today to innovate and produce their own AI enabled products.”

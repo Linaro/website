@@ -1,7 +1,7 @@
 ---
 wordpress_id: 5059
 layout: post
-title: Linaro announces Qualcomm as the latest industry leader to become a member
+title: Linaro Announces Qualcomm as the latest Member
 description: Qualcomm, a wireless technology leader, builds on open source
   footprint by joining Linaro as a club member. Read more here.
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg

@@ -7,7 +7,7 @@ featured_on_home: true
 published: true
 date: 2017-04-26 11:16:13+00:00
 home_cat: boards
-title: Linaro Announces Latest 96Boards Product for AOSP Development
+title: Latest 96Boards Product for AOSP Development
 link: /news/linaro-announces-latest-96boards-product-aosp-development/
 image: /assets/images/content/Client_Devices_banner_pic.jpg
 categories:
@@ -16,6 +16,7 @@ description: Linaro today announced the availability of the HiKey 960 96Boards
   development platform from Linaro Core member Huawei. Read more here.
 category: news
 ---
+
 [96Boards OpenHours](https://www.96boards.org/) 25 April 2017 6.00pm PST, 26 April 2017 9.00am CST] Linaro Ltd, the open source collaborative engineering organization developing software for the Arm® ecosystem, today announced the availability of the [HiKey 960 96Boards](https://www.96boards.org/product/hikey960/) development platform from Linaro Core member Huawei. Designed to provide access to the latest Arm mobile technology for AOSP developers, this new board is now listed on the 96Boards website and is available through global distribution channels.
 
 While all AOSP developers will find the board useful, it is developers who want to work closer to the hardware who will gain maximum advantage from it. This will include mobile developers looking to enable support and innovative functionality with new and existing sensors, security and other peripheral hardware and software, and developers working on derivative products for markets like digital signage, point of sale (POS), robotics and others outside the traditional mobile AOSP space.
@@ -192,14 +193,14 @@ Linaro is leading collaboration on open source development in the Arm ecosystem.
 
 To ensure commercial quality software, Linaro’s work includes comprehensive test and validation on member hardware platforms. The full scope of Linaro engineering work is open to all online. To find out more, please visit [http://www.96Boards.org](https://www.96boards.org/).
 
-- - -
+---
 
 {% include media.html media_url="https://www.youtube.com/watch?v=-6AVlw4VwRQ" %}
 
 Buy Now
 
-* [Seeed](https://www.seeedstudio.com/hikey-960-development-board-4gb-ram-version-p-3028.html) (Worldwide) – $239.00
-* [Alpha Star](https://en.alpha-star.org/hikey960)
-* [Switch Science](http://linaro.co/hikey960-switch) (Japan)
+- [Seeed](https://www.seeedstudio.com/hikey-960-development-board-4gb-ram-version-p-3028.html) (Worldwide) – $239.00
+- [Alpha Star](https://en.alpha-star.org/hikey960)
+- [Switch Science](http://linaro.co/hikey960-switch) (Japan)
 
 [Documentation](https://www.96boards.org/documentation/consumer/hikey/hikey960/index.html) & [Support Forum](https://discuss.96boards.org/c/products/hikey960)

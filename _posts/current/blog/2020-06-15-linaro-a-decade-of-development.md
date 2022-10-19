@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Decade of Achievement at Linaro
+title: A Decade of Achievement
 description: " In this article, former Linaro CTO David Rusling takes a look at
   how Linaro came to be and how the company has moved forward throughout the
   last 10 years. Read more here."

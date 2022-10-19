@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linaro announces Launch of Machine Intelligence Initiative
+title: Linaro Launches Machine Intelligence Initiative
 description: "The Machine Intelligence Initiative aims to reduce redundant
   engineering in the deep learning and neural network acceleration ecosystem.
   Read more here. "

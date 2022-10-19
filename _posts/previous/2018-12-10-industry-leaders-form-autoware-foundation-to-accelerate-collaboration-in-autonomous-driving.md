@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Industry leaders form Autoware Foundation to accelerate collaboration in
-  autonomous driving
+title: Autoware Foundation to Focus on Autonomous Driving
 description: Linaro will collaborate with Tier IV, Inc., and US-based company
   Apex.AI to form the Autoware Foundation to focus on autonomous driving. Read
   more here.
