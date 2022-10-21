@@ -12,7 +12,6 @@ css_bundle: connect
 layout: flow
 jumbotron:
   class: connect_header header_2021
-  image: 
   title: About
   svg: connect/header_svg.html
   image: /assets/images/content/Tech_Background.jpg
