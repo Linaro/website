@@ -14,7 +14,6 @@ css_bundle: connect
 layout: flow
 jumbotron:
   class: connect_header header_2021 h-auto
-  image: 
   title: Linaro Connect
   title-class: d-none
   svg: connect/header_svg.html
