@@ -69,7 +69,7 @@ The good news is that everything is already handled in Python. It will correctly
 ### Physical machines
 
 * Any Windows on Arm Laptop/Tablet ( for example, the [Microsoft Surface Pro X](https://www.microsoft.com/en-us/d/surface-pro-x/8xtmb6c575md?activetab=pivot%3aoverviewtab), Lenovo Thinkpad X13s, HP Elite Folio, Samsung Galaxy Book Go)
-* Soon to be available: [Microsoft Volterra](https://blogs.windows.com/windowsdeveloper/2022/05/24/create-next-generation-experiences-at-scale-with-windows/). A great devkit for developers.
+* Now available: [Microsoft Volterra](https://blogs.windows.com/windowsdeveloper/2022/05/24/create-next-generation-experiences-at-scale-with-windows/). A great devkit for developers.
 * Raspberry Pi 4: Small but cheap and flexible to use. Here is [how to install Windows on it](https://www.tomshardware.com/how-to/install-windows-11-raspberry-pi). 
 
 Apple M1: You can run a Windows on Arm machine for free and easily using [UTM](https://mac.getutm.app/). Pricey but might be worth it if you need to support that platform, too.
