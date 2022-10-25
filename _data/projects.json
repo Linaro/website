@@ -285,7 +285,7 @@
                 "Theme": [
                     "Automotive, IoT & Edge Devices"
                 ],
-                "description": null,
+                "description": "Lead the evolution of the definition of the CMSIS-Pack specification. Backed by documentation and training material and CLI tools for major host platforms",
                 "title": "Open-CMSIS-Pack"
             },
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10552",
