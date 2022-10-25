@@ -61,3 +61,5 @@ This course covers the “social” aspects of upstream kernel development. It i
   * Handling regressions and bisectability testing
 * What do do when you are ignored
 * Case study: Mailbox upstreaming
+
+▶ [REGISTER HERE](https://www.cognitoforms.com/Linaro1/MemberTrainingUpstreamKernelDevelopment)
