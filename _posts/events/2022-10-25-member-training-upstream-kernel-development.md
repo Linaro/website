@@ -22,8 +22,8 @@ visual_date: |-
   Sessions will be two and a half hours long.
 location: Online
 date: 2022-10-25 02:53:10 +02:00
-event_date: 2022-11-29 02:53:10 +01:00
-event_end_date: 2022-12-06 02:53:10 +01:00
+event_date: 2022-11-29 09:00:10 +01:00
+event_end_date: 2022-12-06 05:00:10 +01:00
 image: /assets/images/content/93323729_3151337844888083_6694084118570860544_n.jpg
 event_type: webinar
 ---
