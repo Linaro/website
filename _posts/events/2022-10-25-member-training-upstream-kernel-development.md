@@ -20,7 +20,7 @@ visual_date: |-
   on Tuesday Nov 29 and Tuesday Dec 6 at 04:00 PM GMT. 
 
   Sessions will be two and a half hours long.
-location: Online
+location: "Online "
 date: 2022-10-25 02:53:10 +02:00
 event_date: 2022-11-29 09:00:10 +01:00
 event_end_date: 2022-12-06 05:00:10 +01:00
