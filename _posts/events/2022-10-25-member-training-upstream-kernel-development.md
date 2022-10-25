@@ -60,7 +60,7 @@ This course covers the “social” aspects of upstream kernel development. It i
   * Static checkers
   * Handling regressions and bisectability testing
 * What do do when you are ignored
-* Case study: Mailbox upstreaming
+* Case study: Mailbox upstreaming 
 
 <form action="https://www.cognitoforms.com/Linaro1/MemberTrainingUpstreamKernelDevelopment">
 
