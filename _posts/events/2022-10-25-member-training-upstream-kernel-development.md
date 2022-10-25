@@ -64,6 +64,8 @@ This course covers the “social” aspects of upstream kernel development. It i
 
 
 
+<!-- You can customise this button any way you like -->
+
 <form action="https://www.cognitoforms.com/Linaro1/MemberTrainingUpstreamKernelDevelopment">
 
 <button type="button">Register here</button>
