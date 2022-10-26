@@ -16,7 +16,7 @@
                         {% unless theme.sub_theme %}
                             <li class="nav-item col text-center h-100 px-0">
                                 <a class="font-weight-bold text-dark nav-link d-flex flex-column align-items-center justify-content-center h-100" data-toggle="tab" 
-                                data-theme="{{theme.title | slugify}}" href="#{{theme.title | slugify}}">
+                                data-theme="{{theme.slug_title | slugify}}" href="#{{theme.slug_title | slugify}}">
                                     <img class="tab_icon" src="{{theme.icon_dark}}" alt="{{theme.title}} icon"/>
                                     {{theme.title}}
                                 </a>
@@ -29,7 +29,7 @@
                     <option value="allProjects">{{site.data.translations.all_projects}}</option>
                     {% for theme in site.themes %}
                         {% unless theme.sub_theme %}
-                            <option value="{{theme.title | slugify}}">{{theme.title}}</option>
+                            <option value="{{theme.slug_title | slugify}}">{{theme.title}}</option>
                         {% endunless %}
                     {% endfor %}
                 </select>
@@ -59,7 +59,7 @@
         <div class="row">
             <div class="col col-12">
                 {% for theme in site.themes %}
-                <div class="theme_description d-none" data-theme-id="{{theme.title | slugify}}">
+                <div class="theme_description d-none" data-theme-id="{{theme.slug_title | slugify}}">
                     {% unless theme.sub_theme %}
                     {{theme.jumbotron.description | markdownify}}
                     {% endunless %}
