@@ -20,11 +20,11 @@ visual_date: |-
   on Tuesday Nov 29 and Tuesday Dec 6 at 04:00 PM GMT. 
 
   Sessions will be two and a half hours long.
-location: Online
+location: "Online "
 date: 2022-10-25 02:53:10 +02:00
 event_date: 2022-11-29 09:00:10 +01:00
 event_end_date: 2022-12-06 05:00:10 +01:00
-image: /assets/images/content/93323729_3151337844888083_6694084118570860544_n.jpg
+image: /assets/images/content/techwebinars_events_pages.jpg
 event_type: webinar
 ---
 This course covers the “social” aspects of upstream kernel development. It is best suited to trainees who understand how to write kernel drivers and want ideas and pragmatic advice in order to engage more effectively with the wider kernel community. Trainees will learn how to confidently participate in upstream kernel development and, in particular, how to contribute new kernel drivers.
@@ -60,14 +60,10 @@ This course covers the “social” aspects of upstream kernel development. It i
   * Static checkers
   * Handling regressions and bisectability testing
 * What do do when you are ignored
-* Case study: Mailbox upstreaming
-
-
-
-<!-- You can customise this button any way you like -->
+* Case study: Mailbox upstreaming 
 
 <form action="https://www.cognitoforms.com/Linaro1/MemberTrainingUpstreamKernelDevelopment">
 
-<button type="button">Register here</button>
+<button type="submit">Register here</button>
 
 </form>
