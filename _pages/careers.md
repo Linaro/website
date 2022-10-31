@@ -1,5 +1,5 @@
 ---
-title: Careers at Linaro
+title: Careers at Linaro | Software Careers
 description: We offer employees the opportunity to develop software on Arm-based
   technology. Find out more about the Arm-based technology careers Linaro offers
   today!
@@ -138,7 +138,8 @@ flow:
       - format: text
         style: text-left
         text_content:
-          text: "[Internships](https://static.linaro.org/assets/Linaro_Interns_Brochure.p\
+          text:
+            "[Internships](https://static.linaro.org/assets/Linaro_Interns_Brochure.p\
             df) | [View our Privacy
             Policy](/assets/downloads/careers-privacy-policy.pdf) | [View our
             Recruitment
