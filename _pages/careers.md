@@ -9,7 +9,7 @@ css_bundle: careers
 layout: flow
 jumbotron:
   class: careers_page align-items-baseline
-  title: Pioneering technology for the future
+  title: "Careers at the cutting-edge of Arm technology "
   description: ""
   inner_class: text-center
   image: /assets/images/content/developer.jpg
@@ -21,9 +21,7 @@ flow:
         style: text-left
         title_content:
           size: h2
-          text:
-            If you want to work on the cutting edge of Arm technology - Linaro is the
-            place to be.
+          text: Pioneering Technology for the Future
       - format: text
         style: text-left
         text_content:
