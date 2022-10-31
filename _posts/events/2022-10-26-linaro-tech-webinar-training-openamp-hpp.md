@@ -11,6 +11,7 @@ description: >
 
   The projects will highlight 3 areas:
 
+
   Upstream build and use with Linux and Zephyr
 
   Virtio devices other than rpmsg on CPU cores that do not share a hypervisor
