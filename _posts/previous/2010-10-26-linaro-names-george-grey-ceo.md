@@ -1,18 +1,18 @@
 ---
-author: linaro
-category: news
-date: 2010-10-26 12:01:05
-description: CAMBRIDGE, UK - 26 OCT 2010
-layout: post
-link: /news/linaro-names-george-grey-ceo/
-slug: linaro-names-george-grey-ceo
-title: Linaro names George Grey as CEO
 wordpress_id: 4400
+layout: post
+title: Linaro names George Grey as CEO
+description: CAMBRIDGE, UK - 26 OCT 2010
+image: /assets/images/content/george_grey_hi_res.jpg
+author: linaro
+slug: linaro-names-george-grey-ceo
+date: 2010-10-26 12:01:05
+link: /news/linaro-names-george-grey-ceo/
+category: news
 ---
-
 CAMBRIDGE, UK - 26 OCT 2010
 
-Linaro, at its inaugural developer conference, announced that its board of directors has named George Grey as the company's chief executive officer. Grey's 27-year career has included a number of software and hardware high-tech companies in Europe and the U.S. Prior to this role, he was founder and CEO of Mobicious, a mobile content start-up, and president and COO of SavaJe, a Java-based smart phone operating system.
+Linaro, at its inaugural developer conference, announced that its board of directors has named George Grey as the company's chief executive officer. Grey's 27-year [career](https://www.linaro.org/careers/) has included a number of software and hardware high-tech companies in Europe and the U.S. Prior to this role, he was founder and CEO of Mobicious, a mobile content start-up, and president and COO of SavaJe, a Java-based smart phone operating system.
 
 Linaro was created to be an independent company to address the challenges associated with accelerating open source software (OSS) on systems on chip. (SoC). It was launched by its founding companies - Arm, IBM, Freescale, Samsung, ST-Ericsson and Texas Instruments - at Computex in June, with an interim executive leadership team provided by Arm.  Acting Executive Director Tom Lantzsch will resign from his role immediately and become an advisor to the company, while Ben Cade will remain as an executive director, sharing the office with Grey, until year end.
 
