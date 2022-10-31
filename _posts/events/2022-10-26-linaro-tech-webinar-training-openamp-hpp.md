@@ -20,7 +20,7 @@ description: >
 
 
   Each area will have slides, a demo, and links to resources that attendees can try out on their own after the event. Live Q&A will occur during the event and a Discord channel will be available for people wanting to engage afterward.
-coming_soon: true
+coming_soon: false
 location: Online
 date: 2022-10-31 10:56:46 +01:00
 event_date: 2022-12-13 05:00:46 +01:00
