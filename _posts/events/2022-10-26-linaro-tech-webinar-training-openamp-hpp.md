@@ -1,7 +1,7 @@
 ---
 title: OpenAMP and Heterogenous Processing Project Webinar
 event: " Linaro-Tech-Webinar-OpenAMP/HPP"
-event_url: https://www.cognitoforms.com/Linaro1/LinaroTechWebinarTrainingOpenAMPHPP
+event_url: https://www.cognitoforms.com/Linaro1/OpenAMPAndHeterogenousProcessingProjectWebinar
 description: >
   The OpenAMP community project and Linaro’s Heterogenous Processing Project are
   presenting a webinar on Tuesday 13 December.  The projects will talk about
