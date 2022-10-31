@@ -68,6 +68,6 @@ At the Jira [page](https://projects.linaro.org/projects/DTE/) for the [Device Tr
 
 **Author: Joakim Bech, Distinguished Engineer, Linaro**
 
-Joakim is currently a Distinguished Engineer at Linaro and has been a Linux user for more than 15 years where he spent most of the time in his professional career working with security on embedded devices. Joakim started up the Security Working Group in Linaro in 2013 and was the lead for that team until 2020. Before joining Linaro he had various roles such as architect, team leader and development engineer.
+Joakim is currently a Distinguished Engineer at Linaro and has been a Linux user for more than 15 years where he spent most of the time in his professional [career](https://www.linaro.org/careers/) working with security on embedded devices. Joakim started up the Security Working Group in Linaro in 2013 and was the lead for that team until 2020. Before joining Linaro he had various roles such as architect, team leader and development engineer.
 
 For more information on Linaro and the work we do, do not hesitate to [get intouch](https://www.linaro.org/contact/)!
