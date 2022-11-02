@@ -122,6 +122,32 @@ const flowFrontMatter = {
       required: false,
     },
     {
+      label: "Absolute Image",
+      name: "absolute_image",
+      widget: "object",
+      required: false,
+      fields: [
+        {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          required: false,
+        },
+        {
+          label: "Image Alt",
+          name: "image_alt",
+          widget: "string",
+          required: false,
+        },
+        {
+          label: "Image style",
+          name: "style",
+          widget: "string",
+          required: false,
+        },
+      ],
+    },
+    {
       label: "Row Style",
       name: "style",
       widget: "string",
