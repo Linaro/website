@@ -8,7 +8,7 @@ id="homepage_header">
         {% endunless %}
     {% endfor %}
     {% for theme in themes_to_show %}
-    <div class="theme_header_image {% if forloop.first %}{% else %}hidden_image{% endif %}" data-theme-id="{{theme.title | slugify}}" >
+    <div class="theme_header_image {% if forloop.first %}{% else %}hidden_image{% endif %}" data-theme-id="{{theme.slug_title | slugify}}" >
       {% capture theme_image_alt %}{{theme.jumbotron.title}}{% endcapture %}
       {% assign theme_image = theme.jumbotron.image %}
       {% picture header_image {{theme_image}} --alt {{alt}} %}

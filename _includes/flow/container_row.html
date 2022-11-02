@@ -1,5 +1,9 @@
 <div {% if include.object.id %}id="{{include.object.id}}"{% endif %}  class="row {% if include.object.style %}{{include.object.style}}{% endif %}
 {% if include.object.background_image %}background_image_row text-white{% endif %}">
+{% if include.object.absolute_image %}
+    <img class="position-absolute absolute_positioned_image {{include.object.absolute_image.style}}"
+     src="{{include.object.absolute_image.image}}" class="{{include.object.absolute_image.image_alt}}" />
+{% endif %}
 {% if include.object.background_image %}
     {% assign row_background_image = include.object.background_image %}
     {% capture row_background_image_alt %}background image{% endcapture %}

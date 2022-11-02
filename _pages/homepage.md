@@ -32,8 +32,12 @@ flow:
         source: membership/members_section.html
       - format: custom_include
         source: home/member_testimonials.html
-  - row: full_width_row
-    style: bg-white lds_section py-0
+  - row: container_row
+    style: bg-white lds_section py-0 overflow-hidden
+    absolute_image:
+      style: rocket_svg px-0
+      image: /assets/images/content/RocketGraphic.svg
+      image_alt: Linaro Developer Services rocket launching upwards
     sections:
       - format: two_column
         style: #
@@ -51,11 +55,6 @@ flow:
             - title: Find out more about Linaro Developer Services
               url: /services/
               class: btn-primary
-        right_column:
-          custom_size: 6
-          style: rocket_svg px-0
-          image: /assets/images/content/RocketGraphic.svg
-          image_alt: Linaro Developer Services rocket launching upwards
   - row: container_row
     style: bg-secondary stats_row text-white
     sections:
