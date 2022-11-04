@@ -104,6 +104,22 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CA/overview\">https://linaro.atlassian.net/wiki/spaces/CA/overview</a>",
+                "Theme": [
+                    "Automotive, IoT & Edge Devices"
+                ],
+                "description": "An end-to-end proof-of-concept demonstrating modern security best practices for Armv8-M, based on open source software and open standards, with AI/ML as a use case.",
+                "title": "Confidential AI - UNDER CONSTRUCTION"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10414",
+            "key": [
+                "CA"
+            ],
+            "membership": []
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/QEMU/overview\">https://linaro.atlassian.net/wiki/spaces/QEMU/overview</a>",
                 "Theme": [
