@@ -110,7 +110,7 @@
                     "Automotive, IoT & Edge Devices"
                 ],
                 "description": "An end-to-end proof-of-concept demonstrating modern security best practices for Armv8-M, based on open source software and open standards, with AI/ML as a use case.",
-                "title": "Confidential AI - UNDER CONSTRUCTION"
+                "title": "Confidential AI"
             },
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10414",
             "key": [
