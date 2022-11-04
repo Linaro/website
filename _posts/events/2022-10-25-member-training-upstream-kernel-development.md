@@ -10,14 +10,15 @@ description: >-
 
 
   This course covers the “social” aspects of upstream kernel development. It is best suited to trainees who understand how to write kernel drivers and want ideas and pragmatic advice in order to engage more effectively with the wider kernel community. Trainees will learn how to confidently participate in upstream kernel development and, in particular, how to contribute new kernel drivers.
-visual_date: |-
+visual_date: >
   This course will be held in 2 sessions. 
 
-  • Part I: Mechanics  
-  on Tuesday, Nov 29 and Tuesday, Dec 6 at 08:00 am GMT. 
 
-  • Part II: Tips, tools and techniques  
-  on Tuesday Nov 29 and Tuesday Dec 6 at 04:00 PM GMT. 
+  [ Part I: Mechanics ] takes place on Tuesday, Nov 29 at either 08:00am and 04:00pm GMT (depending on your timezone). 
+
+
+  [ Part II: Tips, tools and techniques ] is on Tuesday Dec 6 at either 08:00am and 04:00pm GMT. 
+
 
   Sessions will be two and a half hours long.
 location: "Online "
