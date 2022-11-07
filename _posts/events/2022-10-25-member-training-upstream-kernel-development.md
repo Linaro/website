@@ -63,7 +63,7 @@ This course covers the “social” aspects of upstream kernel development. It i
 * What do do when you are ignored
 * Case study: Mailbox upstreaming 
 
-<form action="https://www.cognitoforms.com/Linaro1/OpenAMPAndHeterogenousProcessingProjectWebinar">
+<form action="https://www.cognitoforms.com/Linaro1/MemberTrainingUpstreamKernelDevelopment"> 
 
 <button type="submit">Register here</button>
 
