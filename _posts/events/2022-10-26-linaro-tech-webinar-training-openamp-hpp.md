@@ -2,12 +2,10 @@
 title: OpenAMP and Heterogenous Processing Project Webinar
 event: " Linaro-Tech-Webinar-OpenAMP/HPP"
 event_url: ""
-description: Join us on December 13, 2022 at 17:00 UTC for a webinar presented
+description: "Join us on December 13, 2022 at 17:00 UTC for a webinar presented
   by the [OpenAMP community project](http://openampproject.org/) and Linaro’s
   [Heterogenous Platform
-  Project](https://linaro.atlassian.net/wiki/spaces/HPP/overview).  Live Q&A
-  will occur during the event and a Discord channel will be available for people
-  wanting to engage afterward.
+  Project](https://linaro.atlassian.net/wiki/spaces/HPP/overview).  "
 coming_soon: false
 location: Online
 date: 2022-10-31 10:56:46 +01:00
@@ -42,7 +40,7 @@ Mathieu Poirier, Kernel Maintainer, Linaro
 
 Tammy Leino, Software Engineer, Siemens
 
-
+Live Q&A will occur during the event and a Discord channel will be available for people wanting to engage afterward.
 
 <form action="https://www.cognitoforms.com/Linaro1/OpenAMPAndHeterogenousProcessingProjectWebinar">
 
