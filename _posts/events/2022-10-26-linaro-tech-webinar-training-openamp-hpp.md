@@ -41,3 +41,11 @@ Bruce Ashfield, Lopper / Yocto Maintainer, AMD Xilinx
 Mathieu Poirier, Kernel Maintainer, Linaro
 
 Tammy Leino, Software Engineer, Siemens
+
+
+
+<form action="https://www.cognitoforms.com/Linaro1/OpenAMPAndHeterogenousProcessingProjectWebinar">
+
+<button type="submit">Register here</button>
+
+</form>
