@@ -18,7 +18,7 @@ event_type: webinar
 ---
 The projects will talk about progress that has been made over the last 3 years with a special focus on current work.  
 
-Three areas will be highlighted:
+**Three areas will be highlighted:**
 
 * Upstream build and use with the Linux kernel and [Zephyr](https://www.zephyrproject.org/)
 * Virtio devices other than rpmsg on CPU cores that do not share a hypervisor
@@ -26,7 +26,7 @@ Three areas will be highlighted:
 
 Each area will have slides, a demo, and links to resources that attendees can use to reproduce the demos on their own and try things out after the event.  
 
-Speakers and Panelists:
+**Speakers and Panelists:**
 
 Bill Mills, Principal Technical Consultant, Linaro
 
