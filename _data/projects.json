@@ -296,25 +296,6 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIA/overview\">https://linaro.atlassian.net/wiki/spaces/AIA/overview</a>",
-                "Theme": [
-                    "Cloud Computing & Servers",
-                    "Core Technologies"
-                ],
-                "description": "The Optimize AI for Arm Data Center and Edge project is hosted out of the LDCG segment group. The project involves work within strategic frameworks that broadly empower HPC and AI computing. The effort involves simple enablement to optimized efforts to maximize performance.<br><br>Scope<br><br>Data Center hardware powered by Arm designs could be found across the ecosystem. From the very high end Fukaku super computer, cloud computing, and other forms, these devices can be utilized for AI training and inference. These devices are often multi node, many cores, with or without specialized offload.<br><br>Edge device compares a wide variety of Cortex-A equipped hardware. These devices might be running Android, Linux and every other operating systems. Within this class of devices their capability to performance AI workloads such as inference can vary greatly. On the low end memory might be tight and no offload exists to on the high end, they can be server like with offload and plenty of resources. Indeed Edge devices since they are Cortex-A can have quite a bit in common with HPC/Server with the exception that one does not generally perform training on an edge device.<br><br>Strategic frameworks:<br><br><ul><li> Tensorflow</li><li> PyTorch</li><li> TVM</li></ul>Secondary frameworks<br><br><ul><li> ArmNN</li><li> Arm Compute Library (ACL)</li><li> Eigen</li><li> OneDNN</li><li> ONNX /\u00a0ONNX-RT</li><li> Tensorflow /\u00a0Tensorflow Lite\u00a0</li><li> Tosa</li><li> TVM</li></ul>",
-                "title": "Optimize AI for Arm Data Center and Edge"
-            },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10556",
-            "key": [
-                "AIA"
-            ],
-            "membership": [
-                "ldcg"
-            ]
-        },
-        {
-            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIM/overview\">https://linaro.atlassian.net/wiki/spaces/AIM/overview</a>",
                 "Theme": [
@@ -443,6 +424,25 @@
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10575",
             "key": [
                 "ASA"
+            ],
+            "membership": [
+                "ldcg"
+            ]
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIA/overview\">https://linaro.atlassian.net/wiki/spaces/AIA/overview</a>",
+                "Theme": [
+                    "Cloud Computing & Servers",
+                    "Core Technologies"
+                ],
+                "description": "The Optimize AI for Arm Data Center and Edge project is hosted out of the LDCG segment group. The project involves work within strategic frameworks that broadly empower HPC and AI computing. The effort involves simple enablement to optimized efforts to maximize performance.<br><br>Scope<br><br>Data Center hardware powered by Arm designs could be found across the ecosystem. From the very high end Fukaku super computer, cloud computing, and other forms, these devices can be utilized for AI training and inference. These devices are often multi node, many cores, with or without specialized offload.<br><br>Edge device compares a wide variety of Cortex-A equipped hardware. These devices might be running Android, Linux and every other operating systems. Within this class of devices their capability to performance AI workloads such as inference can vary greatly. On the low end memory might be tight and no offload exists to on the high end, they can be server like with offload and plenty of resources. Indeed Edge devices since they are Cortex-A can have quite a bit in common with HPC/Server with the exception that one does not generally perform training on an edge device.<br><br>Strategic frameworks:<br><br><ul><li> Tensorflow</li><li> PyTorch</li><li> TVM</li></ul>Secondary frameworks<br><br><ul><li> ArmNN</li><li> Arm Compute Library (ACL)</li><li> Eigen</li><li> OneDNN</li><li> ONNX /\u00a0ONNX-RT</li><li> Tensorflow /\u00a0Tensorflow Lite\u00a0</li><li> Tosa</li><li> TVM</li></ul>",
+                "title": "TensorFlow"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10556",
+            "key": [
+                "AIA"
             ],
             "membership": [
                 "ldcg"
