@@ -30,7 +30,8 @@ flow:
       - format: text
         style: text-center text-white
         text_content:
-          text: Our mission is to establish a healthy self-sustaining Arm open source
+          text:
+            Our mission is to establish a healthy self-sustaining Arm open source
             ecosystem for Windows. We look at a diverse set of tools, languages,
             and frameworks to support Windows on Arm
   - row: container_row
@@ -118,6 +119,17 @@ flow:
           text: Windows on Arm Portfolio Roadmap
       - format: custom_include
         source: woa/roadmap.html
+  - row: container_row
+    style: my-3 bg-light-gray
+    sections:
+      - format: title
+        style: text-left white-border-title font-weight-bold
+        title_content:
+          size: h3
+          style: font-weight-bold
+          text: Testimonials from Members of the Linaro Windows Group
+      - format: custom_include
+        source: woa/testimonials.html
   - row: container_row
     style: my-3 bg-light-gray
     sections:
