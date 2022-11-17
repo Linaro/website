@@ -1,0 +1,16 @@
+items:
+  - title: Arm - Windows on Arm Testimonial
+    cover_image: /assets/images/content/woa_arm_testimonial.png
+    ogv: https://static.linaro.org/videos/Windows_on_Arm_Arm.ogv
+    webm: https://static.linaro.org/videos/Windows_on_Arm_Arm.webm
+    mp4: https://static.linaro.org/videos/Windows_on_Arm_Arm.mp4
+  - title: CIX - Windows on Arm Testimonial
+    cover_image: /assets/images/content/woa_cix_testimonial.png
+    ogv: https://static.linaro.org/videos/Windows_on_Arm_CIX.ogv
+    webm: https://static.linaro.org/videos/Windows_on_Arm_CIX.ogv
+    mp4: https://static.linaro.org/videos/Windows_on_Arm_CIX.ogv
+  - title: Microsoft - Windows on Arm Testimonial
+    cover_image: /assets/images/content/woa_microsoft_testimonial.png
+    ogv: https://static.linaro.org/videos/Windows_on_Arm_Microsoft.ogv
+    webm: https://static.linaro.org/videos/Windows_on_Arm_Microsoft.ogv
+    mp4: https://static.linaro.org/videos/Windows_on_Arm_Microsoft.ogv

@@ -1,0 +1,46 @@
+<div class="row my-4">
+    {% for testimonial in site.data.windows_on_arm_testimonials.items %}
+        <div class="col col-12 col-sm-4 block__image">
+            <a data-toggle="modal" href='#testimonial{{forloop.index}}'>
+                <div class="video_placeholder_image d-flex align-items-center justify-content-center text-center flex-column position-relative">
+                    {% assign image_url = testimonial.cover_image  %}
+                    {% capture image_alt %}{{testimonial.attribution}} cover image{% endcapture %}
+                    {% picture feature_block_image {{image_url}} --alt {{image_alt}} %}
+                    <div class="play_button position-absolute">
+                        <i class="icon-youtube-play" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+</div>
+{% for testimonial in site.data.windows_on_arm_testimonials.items %}
+<div class="modal fade video_modal" id="testimonial{{forloop.index}}">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">{{testimonial.title}}</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video class="lazyload img-fluid testimonial_video" controls="controls" preload="none">
+                        {% if testimonial.ogv %}
+                        <source src="{{testimonial.ogv}}" type="video/ogg">
+                        {% endif %}
+                        {% if testimonial.webm %}
+                        <source src="{{testimonial.webm}}" type="video/webm">
+                        {% endif %}
+                        {% if testimonial.mp4 %}
+                        <source src="{{testimonial.mp4}}" type="video/mp4">
+                        {% endif %}
+                    </video>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
