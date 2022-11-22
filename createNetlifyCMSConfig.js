@@ -1759,7 +1759,7 @@ const config = {
       files: [
         {
           label: "Windows on Arm Testimonials",
-          name: "engineering_groups",
+          name: "windows_on_arm_testimonials",
           file: "_data/windows_on_arm_testimonials.yml",
           fields: [
             {
