@@ -14,7 +14,7 @@ tags:
   - Qualcomm
   - Upstream
 category: blog
-author: linaro
+author: Neil.Armstrong
 ---
 Linaro Engineers Abel Vesa and Neil Armstrong enabled upstream Linux on the [recently announced](https://www.qualcomm.com/news/releases/2022/11/snapdragon-8-gen-2-defines-a-new-standard-for-premium-smartphone) Qualcomm Snapdragon 8 Gen 2 Mobile Platform, the newest Snapdragon processor. The initial support was posted on November 16th on the Linux kernel mailing lists for review by the Linux developers community. With the set of patches released by Linaro engineers, it is also possible to boot an AOSP mini image. Since 2014, Linaro Engineers have been working closely with Qualcomm Engineers to enable Snapdragon platforms to work with Mainline Linux.
 
