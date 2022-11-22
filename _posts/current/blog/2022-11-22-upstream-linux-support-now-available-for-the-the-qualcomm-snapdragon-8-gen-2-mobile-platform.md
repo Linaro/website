@@ -6,7 +6,7 @@ description: "In this blog, we look at what features Linaro has upstreamed for
   the Qualcomm Snapdragon 8 Gen 2 Mobile Platform and how to run an AOSP image
   using Mainline. "
 date: 2022-11-22 10:29:17 +00:00
-image: /assets/images/content/Banner_Virtualization.jpg
+image: /assets/images/content/Tech_Background.jpg
 tags:
   - Snapdragon 8 Gen 2 Mobile Platform
   - Android
