@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Upstream Linux support now available for the the Qualcomm Snapdragon 8
-  Gen 2 Mobile Platform
+title: Upstream Linux support now available for the the Snapdragon 8 Gen 2
+  Mobile Platform
 description: "In this blog, we look at what features Linaro has upstreamed for
-  the Qualcomm Snapdragon 8 Gen 2 Mobile Platform and how to run an AOSP image
-  using Mainline. "
+  the Snapdragon 8 Gen 2 Mobile Platform and how to run an AOSP image using
+  Mainline. "
 date: 2022-11-22 10:29:17 +00:00
 image: /assets/images/content/Tech_Background.jpg
 tags:
@@ -16,7 +16,7 @@ tags:
 category: blog
 author: Neil.Armstrong
 ---
-Linaro Engineers Abel Vesa and Neil Armstrong enabled upstream Linux on the [recently announced](https://www.qualcomm.com/news/releases/2022/11/snapdragon-8-gen-2-defines-a-new-standard-for-premium-smartphone) Qualcomm Snapdragon 8 Gen 2 Mobile Platform, the newest Snapdragon processor. The initial support was posted on November 16th on the Linux kernel mailing lists for review by the Linux developers community. With the set of patches released by Linaro engineers, it is also possible to boot an AOSP mini image. Since 2014, Linaro Engineers have been working closely with Qualcomm Engineers to enable Snapdragon platforms to work with Mainline Linux.
+Linaro Engineers Abel Vesa and Neil Armstrong enabled upstream Linux on the [recently announced](https://www.qualcomm.com/news/releases/2022/11/snapdragon-8-gen-2-defines-a-new-standard-for-premium-smartphone) Snapdragon 8 Gen 2 Mobile Platform, the newest Snapdragon processor. The initial support was posted on November 16th on the Linux kernel mailing lists for review by the Linux developers community. With the set of patches released by Linaro engineers, it is also possible to boot an AOSP mini image. Since 2014, Linaro Engineers have been working closely with Qualcomm Engineers to enable Snapdragon platforms to work with Mainline Linux.
 
 This is a significant achievement to be able to run such a recent upstream Linux kernel right after the announcement of a new SoC, and a testimony to the close working partnership between Qualcomm and Linaro.
 
