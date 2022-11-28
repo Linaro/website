@@ -2478,19 +2478,19 @@ const config = {
           label: "Alt Icon",
           name: "icon_alt",
           widget: "image",
-          required: true,
+          required: false,
         },
         {
           label: "Dark Icon",
           name: "icon_dark",
           widget: "image",
-          required: true,
+          required: false,
         },
         {
           label: "Coloured Icon",
           name: "icon_col",
           widget: "image",
-          required: true,
+          required: false,
         },
         {
           label: "Presentation Link",
