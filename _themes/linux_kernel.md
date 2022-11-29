@@ -36,7 +36,7 @@ jumbotron:
 
     architecture but also covering core functionalities of the kernel. In the tradition
 
-    of Linux and the open source community, much of the technical discussiontakes
+    of Linux and the open source community, much of the technical discussion takes
 
     place over email and informal conversations on IRC.
   image: /assets/images/content/Banner_Linux_Kernel.jpg
