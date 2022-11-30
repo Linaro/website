@@ -23,12 +23,13 @@ jumbotron:
     This is the ONLY place where developers, maintainers of both hardware and software
     can collaborate and discuss common problems.
   include: connect/resources_available.html
-  image: /assets/images/content/Tech_Background.jpg
+  image: /assets/images/content/Connect23_Background_1.jpg
 flow:
   - row: custom_include_row
+    background_image: /assets/images/content/Connect23_Background_2.jpg
     source: connect/connect_nav.html
   - row: container_row
-    background_image: /assets/images/content/Tech_Background.jpg
+    background_image: /assets/images/content/Connect23_Background_2.jpg
     style: py-0 connect_landing_page
     sections:
       - format: title
