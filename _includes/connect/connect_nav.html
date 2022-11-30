@@ -3,7 +3,7 @@
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             {% for tab in site.data.connect_info.tabs %}
             <li class="nav-item">
-              <a class="nav-link {% if forloop.first %}active{% endif %}" id="{{tab.title | slugify}}-tab" data-toggle="tab" href="#{{tab.title | slugify}}" role="tab" aria-controls="{{tab.title | slugify}}" aria-selected="true">{{title}}</a>
+              <a class="nav-link {% if forloop.first %}active{% endif %}" id="{{tab.title | slugify}}-tab" data-toggle="tab" href="#{{tab.title | slugify}}" role="tab" aria-controls="{{tab.title | slugify}}" aria-selected="true">{{tab.title}}</a>
             </li>
             {% endfor %}
           </ul>
@@ -13,7 +13,7 @@
   <div class="tab-content" id="tabContent">
     {% for tab in site.data.connect_info.tabs %}
     <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" id="{{tab.title | slugify}}" role="tabpanel" aria-labelledby="{{tab.title | slugify}}-tab">
-      {{tab.content | markdownify}}
+      {{tab.text | markdownify}}
     </div>
     {% endfor %}
   </div>
