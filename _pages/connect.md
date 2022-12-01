@@ -16,27 +16,15 @@ jumbotron:
   class: connect_header header_2021 h-auto
   title: Linaro Connect
   title-class: d-none
-  svg: connect/header_svg.html
-  description: |
-    Linaro Connect is a series of events that brings together the Arm Ecosystem.
-
-    This is the ONLY place where developers, maintainers of both hardware and software
-    can collaborate and discuss common problems.
-  include: connect/resources_available.html
+  include: connect/connect_header.html
   image: /assets/images/content/Connect23_Background_1.jpg
 flow:
   - row: custom_include_row
     background_image: /assets/images/content/Connect23_Background_2.jpg
     source: connect/connect_nav.html
   - row: container_row
-    background_image: /assets/images/content/Connect23_Background_2.jpg
-    style: py-0 connect_landing_page
+    style: py-4 connect_landing_page
     sections:
-      - format: title
-        style: text-left text-uppercase text-primary
-        title_content:
-          size: h3
-          text: New for 2022
       - format: text
         style: text-left text-white
         text_content:

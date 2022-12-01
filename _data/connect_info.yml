@@ -1,52 +1,70 @@
+tabs_row_background_image: /assets/images/content/Connect23_Background_2.jpg
+header_text_left: |
+  Once a year, Engineers, Technical Leadership and
+  world-leading Arm Software Experts come together
+  for engineering sessions and hacking at Linaro
+  Connect. Here discussions on the future of Arm open
+  source software are held and solutions implemented.
+  If you want to know what is happening in the Arm
+  software ecosystem, look no further.
+header_text_right: |
+  The next Linaro Connect will be held in London, UK
+  on **Wednesday 26- Friday 28 April 2023**
+  Registration is now open!
+header_register_button: true
+header_register_button_text: Register
+header_register_button_link: https://www.eventbrite.co.uk/e/linaro-connect-london-lhr23-registration-467575730597
 tabs:
   - title: Registration
-    text: |-
+    text: |
       Register for Linaro Connect and join hundreds of the world's leading Arm Open Source engineers.
 
-      The next Linaro Connect will be held in London, United Kingdom, Wednesday 26-Friday 28 April 2023 at
-      the Park Plaza Riverbank.
+      The next Linaro Connect will be held in **London, United Kingdom, Wednesday 26-Friday 28 April 2023 at
+      the Park Plaza Riverbank**.
 
       We are offering a discounted ticket rate of $900 if you register before the end of January. Tickets will be
       $1,200 from February onwards. Speakers receive free passes.*
 
       *Linaro Member Companies get a discounted rate regardless of when they book. If you are a Linaro
-      Member Company, please contact connect@linaro.org to receive your discount code if you haven’t
+      Member Company, please contact [connect@linaro.org](mailto:connect@linaro.org) to receive your discount code if you haven’t
       already received it.
   - title: Call for proposals
-    text: |-
+    text: |
       Linaro Connect provides a platform to discuss and learn about the leading software topics, challenges and
       opportunities in the Arm Ecosystem today. What are the problems, innovations and hands-on knowledge
       that today’s Arm Developers are working on?
 
-      We will be launching the Call for Proposals on Wed 14 December 2023.
+      **We will be launching the Call for Proposals on Wed 14 December 2023.**
 
       See below key deadlines:
 
-      • Deadline to submit proposals: Wednesday 1 March 2023
-      • Schedule launch: Wednesday 15 March 2023
-      • Slides to be submitted: Wednesday 19 April 2023
+      * Deadline to submit proposals: **Wednesday 1 March 2023**
+
+      * Schedule launch: **Wednesday 15 March 2023**
+
+      * Slides to be submitted: **Wednesday 19 April 2023**
 
       From the smallest devices (IoT and embedded) to big data (enterprise), there is an Arm solution. We
       welcome proposals for technical presentations and discussions and Birds of a Feather (BoF). Want to
       share what you’ve been working on? Submit your proposal today!
   - title: Accomodation & travel
-    text: |-
-      The next Linaro Connect will be held in London, United Kingdom Wednesday 26-Friday 28 April 2023 at
-      the Park Plaza Riverbank.
+    text: |
+      The next Linaro Connect will be held in **London, United Kingdom Wednesday 26-Friday 28 April 2023 at
+      the Park Plaza Riverbank**.
 
       Linaro Member Companies can book a room at the Park Plaza Riverbank here (add hotel link) using their
-      Member discount code. Please contact connect@linaro.org to receive your discount code if you haven't
+      Member discount code. Please contact [connect@linaro.org](mailto:connect@linaro.org) to receive your discount code if you haven't
       already.
 
       All other attendees can book a room at the Park Plaza Riverbank here (add hotel link) using the Linaro
-      group code (####). Please contact connect@linaro.org if you have any issue with this code.
+      group code (####). Please contact [connect@linaro.org](mailto:connect@linaro.org) if you have any issue with this code.
   - title: Sponsorship
-    text: |-
-      Linaro Connect London 2023 is the first in-person event Linaro Connect in three years!
+    text: |
+      **Linaro Connect London 2023 is the first in-person event Linaro Connect in three years!**
 
       Hundreds of attendees - from highly specialised Linux on Arm developers to Software Engineers and
       Technical Architects - come to Linaro Connect to share ideas with fellow experts, plan future engineering
       work and learn what is going on in the industry.
 
       Sponsorship of the event puts your brand in front of world-leading Arm Software Experts. If you'd like to
-      sponsor, download our Sponsorship Prospectus here and contact connect@linaro.org to find out more.
+      sponsor, [download our Sponsorship Prospectus here](https://linaro.co/linaro-connect-sponsorship-2023) and contact [connect@linaro.org](mailto:connect@linaro.org) to find out more.

@@ -1,13 +1,129 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .border#{$infix}-top {
+      border-top: $border-width solid $border-color !important;
+    }
+    .border#{$infix}-right {
+      border-right: $border-width solid $border-color !important;
+    }
+    .border#{$infix}-bottom {
+      border-bottom: $border-width solid $border-color !important;
+    }
+    .border#{$infix}-left {
+      border-left: $border-width solid $border-color !important;
+    }
+
+    .border#{$infix}-top-0 {
+      border-top: 0 !important;
+    }
+    .border#{$infix}-right-0 {
+      border-right: 0 !important;
+    }
+    .border#{$infix}-bottom-0 {
+      border-bottom: 0 !important;
+    }
+    .border#{$infix}-left-0 {
+      border-left: 0 !important;
+    }
+
+    .border#{$infix}-x {
+      border-left: $border-width solid $border-color !important;
+      border-right: $border-width solid $border-color !important;
+    }
+
+    .border#{$infix}-y {
+      border-top: $border-width solid $border-color !important;
+      border-bottom: $border-width solid $border-color !important;
+    }
+  }
+}
+
 #wrapper {
+  img.header_background_image.lazyloaded {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+  }
+  a#connect_register_button {
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 20px 50px;
+    font-weight: bold;
+    color: $primary;
+    background-color: black;
+    border: 1px solid #eee;
+    font-size: 24px;
+  }
+  .connect_header_row {
+    z-index: 9999;
+    position: relative;
+    margin: 150px 0;
+    .header_text {
+      font-weight: normal;
+      strong {
+        color: $primary;
+      }
+    }
+  }
+
+  img.connect_header_svg {
+    height: 200px;
+    object-fit: contain;
+    width: 100%;
+  }
+  section {
+    position: relative;
+    margin: -16px;
+  }
+
+  .tab_content_row {
+    z-index: 2;
+    position: relative;
+    color: white;
+    min-height: 500px;
+    strong {
+      color: $primary;
+    }
+    a {
+      color: $primary;
+    }
+  }
+  ul#myTab {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: stretch;
+    border-bottom: none;
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    li {
+      flex: 1;
+      width: 100%;
+      a {
+        font-weight: bold;
+        color: #98cc33;
+        background-color: transparent;
+        border: none;
+        &.active {
+          color: white;
+        }
+      }
+    }
+  }
   .connect_header {
     padding-top: 0px;
     p {
       margin-bottom: 30px;
-      font-weight: bold;
       font-size: 24px;
     }
   }
   .connect_landing_page {
+    background-color: #000;
     a {
       color: #98cc32;
     }
@@ -24,7 +140,9 @@
   }
 
   .connect_nav_wrapper {
-    background-color: black;
+    background-color: #000000ad;
+    border-top: 1px solid #6c6c6c;
+    border-bottom: 1px solid #6c6c6c;
     color: white;
     .nav-item {
       border-right: 1px solid white;
