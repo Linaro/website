@@ -1517,6 +1517,80 @@ const config = {
   media_folder: "assets/images/content",
   collections: [
     {
+      label: "Connect Landing Page data",
+      name: "connect",
+      editor: {
+        preview: false,
+      },
+      format: "yaml",
+      files: [
+        {
+          label: "Page Data",
+          name: "page_data",
+          file: "_data/connect_info.yml",
+          fields: [
+            {
+              label: "Header Text (left)",
+              name: "header_text_left",
+              widget: "markdown",
+              required: false,
+            },
+            {
+              label: "Header Text (right)",
+              name: "header_text_right",
+              widget: "markdown",
+              required: false,
+            },
+            {
+              label: "header_register_button",
+              name: "header_register_button",
+              widget: "boolean",
+              default: true,
+            },
+            {
+              label: "Header Register button text",
+              name: "header_register_button_text",
+              widget: "string",
+              required: false,
+            },
+            {
+              label: "Header Register button link",
+              name: "header_register_button_link",
+              widget: "string",
+              required: false,
+            },
+            {
+              label: "Tabs Row Background image",
+              name: "tabs_row_background_image",
+              widget: "image",
+              required: false,
+            },
+            {
+              label: "Tabs",
+              name: "tabs",
+              widget: "list",
+              fields: [
+                {
+                  label: "Title",
+                  name: "title",
+                  widget: "string",
+                  hint: "The tab title",
+                  required: true,
+                },
+                {
+                  label: "Text",
+                  name: "text",
+                  widget: "markdown",
+                  hint: "The tab text.",
+                  required: true,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
       label: "Homepage Data",
       name: "homepage",
       editor: {
