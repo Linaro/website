@@ -13,7 +13,7 @@ keywords:
 css_bundle: connect
 layout: flow
 jumbotron:
-  class: connect_header header_2021 h-auto
+  class: connect_header header_2022 h-auto
   title: Linaro Connect
   title-class: d-none
   include: connect/connect_header.html

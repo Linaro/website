@@ -41,6 +41,9 @@
 }
 
 #wrapper {
+  .bordered-content {
+    border-color: #6c6c6c !important;
+  }
   img.header_background_image.lazyloaded {
     position: absolute;
     height: 100%;
@@ -59,9 +62,12 @@
     font-size: 24px;
   }
   .connect_header_row {
-    z-index: 9999;
+    z-index: 1;
     position: relative;
     margin: 150px 0;
+    @include media-breakpoint-down(md) {
+      margin: 50px 0;
+    }
     .header_text {
       font-weight: normal;
       strong {
@@ -145,9 +151,9 @@
     border-bottom: 1px solid #6c6c6c;
     color: white;
     .nav-item {
-      border-right: 1px solid white;
+      border-right: 1px solid #6c6c6c;
       width: 120px;
-      border-left: 1px solid white;
+      border-left: 1px solid #6c6c6c;
       border-radius: 0;
       a {
         color: white;
