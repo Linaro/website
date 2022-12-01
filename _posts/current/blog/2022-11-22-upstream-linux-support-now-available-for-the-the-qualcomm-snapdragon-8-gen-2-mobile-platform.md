@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Upstream Linux support now available for the the Snapdragon 8 Gen 2
-  Mobile Platform
+title: Upstream Linux support now available for the Snapdragon 8 Gen 2 Mobile Platform
 description: "In this blog, we look at what features Linaro has upstreamed for
   the Snapdragon 8 Gen 2 Mobile Platform and how to run an AOSP image using
   Mainline. "
