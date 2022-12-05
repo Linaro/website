@@ -31,7 +31,7 @@ The wiring harness has also been a big problem in terms of space and weight; Acc
 
 In the zonal architecture, electric devices including sensors/actuators will be connected to ECUs on the servers via zonal gateways. Networks between them will then be converged and replaced from traditional CANbus technology to standard ethernet which will bring in a single unified bus as system-wide networking, simplifying the complexity of network management and reducing a total cost of physical wiring.
 
-{% include image.html path="/assets/images/content/zonal-architecture-image.png" alt="Image of zonal architecture" %
+{% include image.html path="/assets/images/content/zonal-architecture-image.png" alt="Image of zonal architecture" %}
 
 # T﻿ime Sensitive Networking and Performance
 
@@ -68,7 +68,7 @@ While we will have to learn more about system criteria, in particular, network t
 
 Assuming the network configuration, including TSN, is properly set up and all the traffic is arbitrated at some manageable level, we can expect that this model will tell us enough fundamentals to understand basic behaviors of a system (OS and hypervisor) under mixed and congested network traffic load.
 
-{% include image.html path="/assets/images/content/evalutation-model-.png" alt="Image of evaluation model" %
+{% include image.html path="/assets/images/content/evalutation-model-.png" alt="Image of evaluation model" %}
 
 ## V﻿irtual Network Interface
 
@@ -98,23 +98,23 @@ a-1) kernel bridge:
 
 This is a default configuration when a network device is set up with a tap interface.
 
-{% include image.html path="/assets/images/content/kernel-bridge.png" alt="Image of kernel bridge" %
+{% include image.html path="/assets/images/content/kernel-bridge.png" alt="Image of kernel bridge" %}
 
 a-2) Open vSwitch:
 The kernel bridge in (a-1) case will be replaced with in-kernel openvswitch module. Since packets are handled per-interrupt base and vhost-net and virtio components still remain in the data path, unlike "userspace offload" case below, we see little improvement thanks to this simple replacement.
 
-{% include image.html path="/assets/images/content/open-vswitch-image.png" alt="Image of open vswitch" %
+{% include image.html path="/assets/images/content/open-vswitch-image.png" alt="Image of open vswitch" %}
 
 a-3) XDP-based bridge:
 Two XDP programs are to be installed for ingress and egress paths. When a new packet arrives at a port, its destination is looked up in an internal table by XDP program. If it is destined to guest VM (in ingress case), it will be redirected to a corresponding tap interface as a fast data path. Other packets are passed on to the normal kernel network stack (in this case, kernel bridge) as a slow data path.
 
-{% include image.html path="/assets/images/content/xdp-based-bridge.png" alt="Image of XDP-based bridge " %
+{% include image.html path="/assets/images/content/xdp-based-bridge.png" alt="Image of XDP-based bridge " %}
 
 ### macvtap
 
 Macvtap is a combination of macvlan and tap interface. Each macvtap interface has its own mac address on an associated physical network interface and all the packets destined to this address are directly redirected to a guest VM at the low layer of kernel network stack.
 
-{% include image.html path="/assets/images/content/macvtap-image.png" alt="Image of macvtap" %
+{% include image.html path="/assets/images/content/macvtap-image.png" alt="Image of macvtap" %}
 
 ### Userspace offload
 
@@ -122,14 +122,14 @@ This is an advanced configuration to skip most of the kernel software stack on t
 
 Open vSwitch is one such technology and can utilize either DPDK (Data Path Development Kit) or AF_XDP socket to bypass kernel overhead. AF_XDP support seems to be experimental as of now, though.
 
-{% include image.html path="/assets/images/content/userspace-offloading.png" alt="Image of userspace offloading" %
+{% include image.html path="/assets/images/content/userspace-offloading.png" alt="Image of userspace offloading" %}
 
 ### PCI pass through
 
 Some NICs have virtual functions of network interfaces (SR-IOV), which are directly exposed to guest VMs with assistance from VFIO framework and work as isolated network devices on VMs. As we skip most of the overhead imposed by the host or hypervisor, we can expect the optimal performance in a virtual machine environment.
 This solution, however, comes with limitations. First, available virtual functions are subject to the hardware. Second, managing packets going out of different virtual machines is complicated and the traffic may not be well arbitrated to satisfy latency requirements.
 
-{% include image.html path="/assets/images/content/pci-pass-through.png" alt="Image of PCI pass-through" %
+{% include image.html path="/assets/images/content/pci-pass-through.png" alt="Image of PCI pass-through" %}
 
 ## T﻿railer
 
