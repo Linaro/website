@@ -1,4 +1,5 @@
 ---
+lang: ch
 title: About Linaro Connect
 description: >
   Linaro Connect 是汇集 Arm 生态系统的一系列活动。 这是开发人员、硬件和软件维护人员可以协作和讨论常见问题的唯一场所。
