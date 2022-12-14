@@ -521,7 +521,7 @@
                 "Theme": [
                     "Client Devices"
                 ],
-                "description": "Take the Linux perf tool and port it to windows on Arm with the same API  so that you can do deep performance analysis (equivalent to Intel vtune tool).<br><br>The counting model, for obtaining aggregate counts of occurrences of special events, and <br><br><ul><li> Currently under development. </li><li> Will be developed and improved in short-term. </li><li> Less complex then sampling model.</li></ul> The sampling model, for determining the frequencies of event occurrences produced by program locations at the function, basic block, and/or instruction levels.",
+                "description": "This project aims to create a Windows on Arm perf tool with the same command line interface as the Linux perf tool so that you can do deep performance analysis(equivalent to Intel vtune tool).<br><br>Currently we support the *counting model*, for obtaining aggregate counts of occurrences of special events, and<br><br><ul><li> Currently under development.</li><li> Will be developed and improved in short-term.</li><li> Less complex then sampling model.</li></ul>In the future we will support the *sampling model*, for determining the frequencies of event occurrences produced by program locations at the function, basic block, and/or instruction levels.",
                 "title": "Windows Perf"
             },
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10407",
