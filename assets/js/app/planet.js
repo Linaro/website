@@ -21,7 +21,7 @@ var feeds = [
   // "http://suihkulokki.blogspot.com/feeds/posts/default/-/linaro", // Riku Voipio
   "http://nerdrambles.wordpress.com/category/Linaro/feed/", // James Arnett
   "https://www.bennee.com/~alex/blog/tag/linaro/feed", // Alex Bennee
-  "https://station.eciton.net/index.rss", // Leif Lindholm
+  // "https://station.eciton.net/index.rss", // Leif Lindholm
   // "https://blog.duraffort.fr/feed/tag/linaro/rss", // Remi Duraffort
   "https://www.davidb.org/index.xml", // David Brown
   "http://www.redfelineninja.org.uk/daniel/category/linaro/feed/", // Daniel Thompson
