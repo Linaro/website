@@ -28,8 +28,6 @@ event_end_date: 2022-12-06 05:00:10 +01:00
 image: /assets/images/content/techwebinars_events_pages.jpg
 event_type: webinar
 ---
-This course covers the “social” aspects of upstream kernel development. It is best suited to trainees who understand how to write kernel drivers and want ideas and pragmatic advice in order to engage more effectively with the wider kernel community. Trainees will learn how to confidently participate in upstream kernel development and, in particular, how to contribute new kernel drivers.
-
 ## Part I: Mechanics
 
 * What is Upstreaming?
@@ -63,7 +61,7 @@ This course covers the “social” aspects of upstream kernel development. It i
 * What do do when you are ignored
 * Case study: Mailbox upstreaming 
 
-<form action="https://www.cognitoforms.com/Linaro1/MemberTrainingUpstreamKernelDevelopment">
+<form action="https://www.cognitoforms.com/Linaro1/MemberTrainingUpstreamKernelDevelopment"> 
 
 <button type="submit">Register here</button>
 
