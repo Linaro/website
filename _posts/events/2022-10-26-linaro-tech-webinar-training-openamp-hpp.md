@@ -1,7 +1,7 @@
 ---
 title: OpenAMP and Heterogenous Processing Project Webinar
 event: " Linaro-Tech-Webinar-OpenAMP/HPP"
-event_url: ""
+event_url: https://www.cognitoforms.com/Linaro1/OpenAMPAndHeterogenousProcessingProjectWebinar
 description: "Join us on December 13, 2022 at 17:00 UTC for a webinar presented
   by the [OpenAMP community project](http://openampproject.org/) and Linaro’s
   [Heterogenous Platform
@@ -22,7 +22,7 @@ The projects will talk about progress that has been made over the last 3 years w
 * Virtio devices other than rpmsg on CPU cores that do not share a hypervisor
 * System Devicetree hands-on with the [Looper tool](https://github.com/devicetree-org/lopper)
 
-Each area will have slides, a demo, and links to resources that attendees can use to reproduce the demos on their own and try things out after the event.  
+Each area will have slides, a demo, and links to resources that attendees can use to reproduce the demos on their own and try things out after the event.   
 
 **Speakers and Panelists:**
 
