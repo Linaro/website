@@ -1,9 +1,8 @@
 ---
 title: Security on Arm
 description: >
-  Security is no longer an option, it is a vital ingredient to be able to
-  protect intellectual property, communications, bank accounts, personal digital
-  belongings and more.
+  Linaro plays an instrumental role in designing the essential security
+  components found across multiple open source projects on Arm. Read more here!
 permalink: /core-technologies/security/
 js-package: contactForm
 sub_theme: true
