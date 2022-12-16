@@ -7,12 +7,9 @@ quick_links:
   - subject: Featured Project
     text: Windows on Arm
     link: /windows-on-arm/
-    subejct: Featured Project
-  - subject: Windows on Arm now supported
+  - subject: "Upstream Linux support now available "
     text: Snapdragon 8 Gen 2 Mobile Platform
     link: https://www.linaro.org/blog/upstream-linux-support-now-available-for-the-the-qualcomm-snapdragon-8-gen-2-mobile-platform/
-    subejct: "Upstream Linux support now available "
   - subject: Linaro Insights Newsletter
     text: SUBSCRIBE
     link: https://linaro.us3.list-manage.com/subscribe/post?u=14baaae786342d0d405ee59c2&id=bcfa4abc8f
-    subejct: Linaro Insights Newsletter
