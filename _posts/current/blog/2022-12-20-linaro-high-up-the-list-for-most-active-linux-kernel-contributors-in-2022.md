@@ -20,21 +20,21 @@ The 6.1 Linux Kernel was released last week and featured Linaro yet again in [LW
 
 In LWN’s latest development statistics, they also look at who has been most active throughout the year. We are proud to say that a Linaro developer - Krzysztof Kozlowski - is the most active developer by changesets for 2022. Dmitry Baryshkov - another Linaro engineer - is also featured in the list for 20 most active developers. 
 
-{% include image.html path="/assets/images/content/most-active-developers-5.16-to-6.1.png" alt="List of most active developers 5.16 to 6.1 Linux Kernel Releases" %  
+{% include image.html path="/assets/images/content/most-active-developers-5.16-to-6.1.png" alt="List of most active developers 5.16 to 6.1 Linux Kernel Releases" %}
 
 Linaro was the 6th most active employer by changesets and 4th most active by lines changed. 
 
-{% include image.html path="/assets/images/content/most-active-employers-5.16-6.1.png" alt="List of most active employers 5.16 to 6.1 Linux Kernel Releases" %  
+{% include image.html path="/assets/images/content/most-active-employers-5.16-6.1.png" alt="List of most active employers 5.16 to 6.1 Linux Kernel Releases" %}
 
 On the list for most active maintainers and developers for non-author signoffs in 2022 we have Vinod Koul and Shawn Guo. Non-author signoffs are defined by the application of a Signed-off-by tag to a patch written by somebody else. This tends to happen when a Maintainer accepts a patch and adds it to their repository to eventually send upstream. Linaro is the second most active employer for non-author signoffs, no small feat for a company with 150 employees! 
 
 These statistics are testament to our highly skilled Engineers and the influential roles they play in supporting open source communities and driving the Arm software ecosystem as a whole forward.
 
-{% include image.html path="/assets/images/content/non-author-signoffs-5.16-6.1.png" alt="List of most non-author signoffs 5.16 to 6.1 Linux Kernel Releases" %  
+{% include image.html path="/assets/images/content/non-author-signoffs-5.16-6.1.png" alt="List of most non-author signoffs 5.16 to 6.1 Linux Kernel Releases" %}
 
 Now let's get back to the latest 6.1 Kernel Release and find out what Linaro’s Engineers contributed with. 
 
-{% include image.html path="/assets/images/content/most-active-6.1-developers-.png" alt="List of most active developers 6.1 Linux Kernel Release" %  
+{% include image.html path="/assets/images/content/most-active-6.1-developers-.png" alt="List of most active developers 6.1 Linux Kernel Release" %}
 
 ## Krzysztof Kozlowski - Qualcomm Devicetree sources and bindings
 
@@ -78,7 +78,7 @@ And finally the thermal zone callback to set the trip point has been moved to th
 
 All the thermal ARM drivers have been changed to support the generic trip points but the merge for this set of changes is postponed for the v6.3 release.
 
-{% include image.html path="/assets/images/content/test-and-review-credits-6.1-kernel-release.png" alt="List of most test and review credits 6.1 Linux Kernel Release" %  
+{% include image.html path="/assets/images/content/test-and-review-credits-6.1-kernel-release.png" alt="List of most test and review credits 6.1 Linux Kernel Release" %}
 
 ## Naresh Kamboju - Linaro Kernel Validation Test CI
 
@@ -88,7 +88,7 @@ LKFT’s objective is kernel validation on Arm64 on Qualcomm SoC’s (DragonBoar
 
 While on this release LKFT and Naresh are featured prominently on the top-15 list of Tested-By’s, the work done by LKFT on testing patches and reporting problems traces back a long way before making it into Linux Mainline, as many of the reports happen on Linux Next. By letting the LKFT machinery run on a series of patches or a subsystem tree, kernel developers have access to a wide range of build architectures and to automated testing on physical hardware which would otherwise not be available to them. This imprints quality on the patches before getting merged on Mainline, like the CLK series before reaching Linux 6.1.
 
-{% include image.html path="/assets/images/content/6.1-most-active-employers.png" alt="List of most active employers 6.1 Linux Kernel Release" %  
+{% include image.html path="/assets/images/content/6.1-most-active-employers.png" alt="List of most active employers 6.1 Linux Kernel Release" %} 
 
 ## Conclusion
 
