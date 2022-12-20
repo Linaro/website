@@ -27,3 +27,10 @@ items:
       mp4: https://static.linaro.org/videos/Xilinx_Testimonial.mp4
       webm: https://static.linaro.org/videos/Xilinx_Testimonial.mp4
       ogv: https://static.linaro.org/videos/Xilinx_Testimonial.mp4
+  - title: Tomas Evensen - Xilinx
+    attribution: Sandeep Singhai, Qualcomm
+    cover_image: /assets/images/content/Qualcomm_Sandeep_testimonial.png
+    video:
+      mp4: https://static.linaro.org/videos/Qualcomm_Sandeep_testimonial.mp4
+      webm: https://static.linaro.org/videos/Qualcomm_Sandeep_testimonial.webm
+      ogv: https://static.linaro.org/videos/Qualcomm_Sandeep_testimonial.ogv
