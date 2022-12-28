@@ -22,7 +22,7 @@ jumbotron:
   description: |
     毫无疑问，Arm 芯片可以通过高效的功耗、快速的性能和全天的电池寿命提供卓越的用户体验。
 
-    但对于在基于 Arm 的技术上运行的设备能够真正利用这些功能，操作系统 (OS) 需要确保使用其操作系统的开源工具和应用程序可以在 Arm 上本地运行。 这是一项不小的任务，也是 Google 和 Microsoft 与 Linaro及其成员和开源社区合作的原因。 Linaro 推动了为Android 和 Windows on Arm创建强大的生态系统所需的工作。这些生态系统在为消费者提供卓越的用户体验方面发挥着至关重要的作用。
+    但要使Arm 技术上运行的设备能真正利用这些功能，操作系统 (OS) 需要确保使用该操作系统的开源工具和应用程序能够在 Arm 上本地运行。 这是一项不小的任务，也是 Google 和 Microsoft 与 Linaro、其会员和开源社区合作的原因。 Linaro 推动了创建强大的Android 和 Windows on Arm生态系统所需要的工作。 这些生态系统在为消费者提供卓越的用户体验方面发挥着至关重要的作用。
   image: /assets/images/content/Client_Devices_banner_pic.jpg
 flow:
   - row: custom_include_row
