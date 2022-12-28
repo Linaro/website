@@ -49,7 +49,7 @@
     {% endif %}
 
     <link rel="icon" href="{{site.favicon}}" type="image/png" />
-    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}" />
     <!-- Meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Jekyll v4" />
