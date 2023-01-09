@@ -30,15 +30,15 @@
                     </div>
                 </div>
             </div>
-            <div class="card h-100 mb-5">
+            <div class="card h-100 mb-2">
                 <img class="card-img-top equal-height-card-img lazyload"
                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                     data-src="{% if individual.image and individual.image != '' %}{{individual.image}}{% else %}/assets/images/content/placeholder.jpg{% endif %}"
-                    style="height: 240px; object-fit: cover;"
+                    style="height: 245px; object-fit: cover;"
                     alt="{{individual.name}} profile image">
-                <div class="card-body">
+                <div class="card-body" >
                     <h5 class="card-title">{{individual.name}}</h5>
-                    <p class="card-text">{{individual.title}}</p>
+                    <p class="card-text" style="font-size: 1rem">{{individual.title}}</p>
                     <a data-toggle="modal" class="btn btn-primary" href='#{{individual.name | slugify}}'>
                         {{site.data.translations.about}}
                     </a>
