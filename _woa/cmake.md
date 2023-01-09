@@ -79,6 +79,6 @@ flow:
 
 [CMake](https://cmake.org/) is a widely used open-source, cross-platform family of tools designed to build, test, and package software.
 
-CMake support for WoA is still in progress.
+CMake support for WoA is available from v3.24
 
 Please see enablement notes for details.
