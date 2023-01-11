@@ -189,24 +189,6 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LI/overview\">https://linaro.atlassian.net/wiki/spaces/LI/overview</a>",
-                "Theme": [
-                    "Client Devices"
-                ],
-                "description": "Enable and maintain upstream kernels to work well with Android/AOSP.\u00a0<br><br>Parts of this effort include regular testing of upstream kernels with AOSP and the creation of regression reports to the community, and then authoring fixes to specific issues to passing along to the correct community to take action.<br><br>Another area of effort is upstreaming functionality found in the Android Common Kernel, back into the mainline kernel.\u00a0 This makes it easier to test and validate upstream kernels with AOSP, as well as helps broaden the interest and use of functionality developed initially for android, and ensures the functionality continues to work and be maintained as part of the kernel stable ABI guarantee.<br><br>Some of the current ongoing areas of effort have been: GKI: Enabling and improving driver modularity and DMA BUF Heaps transition from ION.",
-                "title": "Linaro Collaboration Advancing Android"
-            },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10572",
-            "key": [
-                "ACK"
-            ],
-            "membership": [
-                "lcg"
-            ]
-        },
-        {
-            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LOC/overview\">https://linaro.atlassian.net/wiki/spaces/LOC/overview</a>",
                 "Theme": [
@@ -240,6 +222,24 @@
             ],
             "membership": [
                 "ldcg"
+            ]
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LI/overview\">https://linaro.atlassian.net/wiki/spaces/LI/overview</a>",
+                "Theme": [
+                    "Client Devices"
+                ],
+                "description": "Enable and maintain upstream kernels to work well with Android/AOSP.\u00a0<br><br>Parts of this effort include regular testing of upstream kernels with AOSP and the creation of regression reports to the community, and then authoring fixes to specific issues to passing along to the correct community to take action.<br><br>Another area of effort is upstreaming functionality found in the Android Common Kernel, back into the mainline kernel.\u00a0 This makes it easier to test and validate upstream kernels with AOSP, as well as helps broaden the interest and use of functionality developed initially for android, and ensures the functionality continues to work and be maintained as part of the kernel stable ABI guarantee.<br><br>Some of the current ongoing areas of effort have been: GKI: Enabling and improving driver modularity and DMA BUF Heaps transition from ION.",
+                "title": "Linux Kernel Development Targeting Android"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10572",
+            "key": [
+                "ACK"
+            ],
+            "membership": [
+                "lcg"
             ]
         },
         {
