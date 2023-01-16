@@ -4,17 +4,17 @@ on:
   pull_request_target:
     branches: [ master ]
 
+# Cancel in-progress jobs or runs for the current workflow
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   process-pull-request:
     runs-on: self-hosted
     steps:
-      - name: Cancel previous runs
-        uses: n1hility/cancel-previous-runs@v2
-        with: 
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Fetch git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           ssh-key: ${{ secrets.LINARO_BUILD_KEY }}

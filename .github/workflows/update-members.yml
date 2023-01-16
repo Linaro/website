@@ -14,7 +14,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Fetch git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           ssh-key: ${{ secrets.LINARO_BUILD_KEY }}
