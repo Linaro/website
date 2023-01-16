@@ -639,7 +639,6 @@
   "^/blog/vm-system-specification-v2-arm-processors(/?|/index.html)$ /blog/ [R,L,NC]",
   "^/blog/using-markets-with-linaro-android-builds(/?|/index.html)$ /blog/ [R,L,NC]",
   "^/blog/upstreaming-support-for-qualcomm-pcie-\\*\\*\\*\\*ms(/?|/index.html)$ /blog/ [R,L,NC]",
-  "^/blog/upstreaming-support-for-qualcomm-pcie-****ms(/?|/index.html)$ /blog/ [R,L,NC]",
   "^/blog/ubuntu-rack-deployment-within-the-armv8-server-lab(/?|/index.html)$ /blog/ [R,L,NC]",
   "^/blog/ubuntu-linaro-evaluation-build-2012-03-1-for-snowball(/?|/index.html)$ /blog/ [R,L,NC]",
   "^/blog/twenty-three-years-and-counting-down(/?|/index.html)$ /blog/ [R,L,NC]",
