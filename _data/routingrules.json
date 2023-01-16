@@ -1,7 +1,7 @@
 [
   "^/cdn-cgi/l/email-protection(/?|/index.html)$ / [R,L,NC]",
   "^/blog/lhg-updates-w3c-eme-solution-96boards-hikey-platform(/?|/index.html)$ /blog/ [R,L,NC]",
-  "^/blog/upstreaming-support-for-qualcomm-pcie-****ms(/?|/index.html)$ /blog/ [R,L,NC]",
+  "^/blog/upstreaming-support-for-qualcomm-pcie-\\*\\*\\*\\*ms(/?|/index.html)$ /blog/ [R,L,NC]",
   "^/events/workshop/arm-hpc-asia-2019(/?|/index.html)$ /events/ [R,L,NC]",
   "^/documents/download/c2df5509df84260a37f8feae73dcaf7b4fbb998d2ff1b(/?|/index.html)$ /downloads/ [R,L,NC]",
   "^/blog/angry-birds-panda-board(/?|/index.html)$ /blog/ [R,L,NC]",
