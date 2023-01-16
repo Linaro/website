@@ -1,7 +1,7 @@
 ---
 title: Huawei Connect 2021
 event: huawei-connect-2021
-event_url: https://www.huawei.com/en/events/huaweiconnect2021
+event_url: ""
 description: "Huawei Connect 2021. Dive into Digital "
 location: "Shanghai, China and online. "
 date: 2021-08-12 09:27:37 -04:00
@@ -27,5 +27,3 @@ Specifically, at this year's event, you can:
 * Exchange ideas with top technical experts and developers
 * Explore new ICT innovations for industry applications
 * Gain hands-on experience with leading ICT technologies like cloud, AI, and 5G
-
-https://www.huawei.com/en/events/huaweiconnect2021
