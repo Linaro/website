@@ -68,7 +68,7 @@ Currently [libcamera](https://libcamera.org/index.html) is a very useful develop
 
 Recent Linaro contributions towards libcamera have enabled GPU accelerated format conversion and debayering for the [libcamera/qcam](https://libcamera.org/getting-started.html) test application, you can read more about it [here](https://www.linaro.org/blog/accelerating-libcamera-qcam-format-conversion-using-opengl-shaders/).
 
-Other Linaro contributions to the Linux camera landscape include work in both user space with libcamera and in the kernel with camera sensor drivers, ISP drivers and V4L2 API work. Linaro has also contributed the Open Embedded [libcamera](http://cgit.openembedded.org/meta-openembedded/tree/meta-multimedia/recipes-multimedia/libcamera/libcamera.bb?h=master) recipe for developers building their products with Yocto Project based Linux distributions. 
+Other Linaro contributions to the Linux camera landscape include work in both user space with libcamera and in the kernel with camera sensor drivers, ISP drivers and V4L2 API work. Linaro has also contributed the Open Embedded libcamera recipe for developers building their products with Yocto Project based Linux distributions. 
 
 Further developments regarding software and GPU debayering are expected for libcamera, and hopefully the community will see libcamera debayering enabled for all of its data paths soon enough.
 
