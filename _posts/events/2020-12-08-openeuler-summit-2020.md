@@ -1,7 +1,7 @@
 ---
 title: openEuler Summit 2020
 event: open-euler-summit-2020
-event_url: https://openeuler.org/en/interaction/summit-list/
+event_url: ""
 description: >-
   Linaro Sessions December 25: 
 
