@@ -2610,6 +2610,38 @@ const config = {
       ],
     },
     {
+      label: "Learning Hub",
+      name: "learning_hub_articles",
+      folder: "_hub",
+      identifier_field: "title",
+      summary: "{{fields.description}}",
+      editor: {
+        preview: false,
+      },
+      create: true,
+      description: "Manage the learning hub articles.",
+      fields: [
+        {
+          label: "Article Title",
+          name: "title",
+          widget: "string",
+          required: true,
+        },
+        {
+          label: "Article Description",
+          name: "description",
+          widget: "string",
+          required: true,
+        },
+        {
+          label: "Article Content",
+          widget: "markdown",
+          name: "body",
+          required: true,
+        },
+      ],
+    },
+    {
       name: "news",
       label: "News Posts",
       folder: "_posts/current/news",
