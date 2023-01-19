@@ -57,11 +57,12 @@ tabs:
        - Continuous Integration
        - Virtualization
        - Security and Trust 
-       - Compliance and Open Standards
-         (SOAFEE, SystemReady, Project Cassini)
+       - Compliance and Open Standards (SOAFEE, SystemReady, Project Cassini)
+
       Client Devices
        - Android, Linux Kernel Development and Virtualization
        - Windows on Arm and Native Support
+
       IoT
        - AI and Microcontrollers
        - RTOS, Security and Trust 
