@@ -24,7 +24,7 @@ tabs:
       The next Linaro Connect will be held in London, United Kingdom, Wednesday 26-Friday 28 April 2023 at the Park Plaza Riverbank.
 
 
-      We are offering a discounted ticket rate of **£900** if you register before the end of January. Tickets will be **£1,200** from February onwards. Speakers receive free passes.\*
+      We are offering a discounted ticket rate of **£900** if you register before the end of February. Tickets will be **£1,200** from March onwards. Speakers receive free passes.\*
 
 
       \*Linaro Member Companies get a discounted rate regardless of when they book. If you are a Linaro Member Company, please contact connect@linaro.org to receive your discount code if you haven’t already received it.
@@ -34,9 +34,6 @@ tabs:
       software topics, challenges and opportunities in the Arm Ecosystem today.
       What are the problems, innovations and hands-on knowledge that today’s Arm
       Developers are working on?
-
-
-      We will be launching the Call for Proposals on **Wed 21 December 2023**.
 
 
       See below key deadlines:
@@ -50,6 +47,26 @@ tabs:
 
 
       From the smallest devices (IoT and embedded) to big data (enterprise), there is an Arm solution. We welcome proposals for technical presentations and discussions and Birds of a Feather (BoF).
+
+      Con
+
+      While we welcome technical proposals on all topics related to Arm software, we are particularly interested in seeing sessions on the following topics:
+
+
+      Automotive, Industrial and Edge
+       - Continuous Integration
+       - Virtualization
+       - Security and Trust 
+       - Compliance and Open Standards
+         (SOAFEE, SystemReady, Project Cassini)
+      Client Devices
+       - Android, Linux Kernel Development and Virtualization
+       - Windows on Arm and Native Support
+      IoT
+       - AI and Microcontrollers
+       - RTOS, Security and Trust 
+
+      To view slides or videos from the keynotes and sessions from previous Linaro Virtual Connect events for inspiration for your submission, please go to our Resources page.
 
 
       [Submit your proposals here](https://sessionize.com/linaro-connect-2023/)
