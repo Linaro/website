@@ -278,25 +278,6 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIM/overview\">https://linaro.atlassian.net/wiki/spaces/AIM/overview</a>",
-                "Theme": [
-                    "Automotive, IoT & Edge Devices",
-                    "Core Technologies"
-                ],
-                "description": "This project involves work within strategic AI libraries as identified by the participating member companies. It is hosted out of the LITE Segment Group. <br><br>Today these activities are focused on :<br><br><ul><li> Tensorflow LIte Micro</li><li> microTVM</li></ul>",
-                "title": "Optimize AI for Arm Microcontrollers"
-            },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10555",
-            "key": [
-                "AIM"
-            ],
-            "membership": [
-                "lite"
-            ]
-        },
-        {
-            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/PERFSCMI/overview\">https://linaro.atlassian.net/wiki/spaces/PERFSCMI/overview</a>",
                 "Theme": [
@@ -380,7 +361,7 @@
         {
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/ASA/overview\">https://linaro.atlassian.net/wiki/spaces/ASA/overview</a>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/SRCPC/overview\">https://linaro.atlassian.net/wiki/spaces/SRCPC/overview</a>",
                 "Theme": [
                     "Cloud Computing & Servers"
                 ],
