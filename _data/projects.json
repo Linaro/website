@@ -398,7 +398,7 @@
         {
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/AIA/overview\">https://linaro.atlassian.net/wiki/spaces/AIA/overview</a>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/TENS/overview\">https://linaro.atlassian.net/wiki/spaces/TENS/overview</a>",
                 "Theme": [
                     "Cloud Computing & Servers",
                     "Core Technologies"
