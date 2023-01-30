@@ -178,11 +178,6 @@
         "image": "https://static.linaro.org/common/member-logos/fujitsu.jpg",
         "name": "Fujitsu",
         "uri": "https://www.fujitsu.com/global/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/quic.jpg",
-        "name": "QuIC",
-        "uri": "https://www.qualcomm.com/"
       }
     ],
     "membership_group_name": "LDCG Members",
