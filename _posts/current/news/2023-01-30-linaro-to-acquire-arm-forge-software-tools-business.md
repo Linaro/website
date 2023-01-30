@@ -12,7 +12,7 @@ tags:
   - Performance tools
   - Software
   - high performance computing
-category: new
+category: news
 author: linaro
 ---
 Linaro Limited, the UK open source collaborative engineering organisation which develops software solutions and 
