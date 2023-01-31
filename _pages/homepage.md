@@ -16,6 +16,8 @@ css_bundle: home
 layout: flow
 flow:
   - row: custom_include_row
+    source: home/banner.html
+  - row: custom_include_row
     source: home/homepage_header.html
   - row: custom_include_row
     source: home/quick_links.html
