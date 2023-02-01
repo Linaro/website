@@ -226,24 +226,6 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LI/overview\">https://linaro.atlassian.net/wiki/spaces/LI/overview</a>",
-                "Theme": [
-                    "Client Devices"
-                ],
-                "description": "Enable and maintain upstream kernels to work well with Android/AOSP.\u00a0<br><br>Parts of this effort include regular testing of upstream kernels with AOSP and the creation of regression reports to the community, and then authoring fixes to specific issues to passing along to the correct community to take action.<br><br>Another area of effort is upstreaming functionality found in the Android Common Kernel, back into the mainline kernel.\u00a0 This makes it easier to test and validate upstream kernels with AOSP, as well as helps broaden the interest and use of functionality developed initially for android, and ensures the functionality continues to work and be maintained as part of the kernel stable ABI guarantee.<br><br>Some of the current ongoing areas of effort have been: GKI: Enabling and improving driver modularity and DMA BUF Heaps transition from ION.",
-                "title": "Linux Kernel Development Targeting Android"
-            },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10572",
-            "key": [
-                "ACK"
-            ],
-            "membership": [
-                "lcg"
-            ]
-        },
-        {
-            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/LKQ\">https://linaro.atlassian.net/wiki/spaces/LKQ</a>",
                 "Theme": [
@@ -307,24 +289,6 @@
                 "SQUAD"
             ],
             "membership": []
-        },
-        {
-            "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/SDEFAU/overview\">https://linaro.atlassian.net/wiki/spaces/SDEFAU/overview</a>",
-                "Theme": [
-                    "Client Devices"
-                ],
-                "description": "Hardware with good software support, such as 96Boards, is a critical tool both for testing and validation of the latest AOSP and latest stable and upstream kernels, but also key for prototyping both new hardware and software.\u00a0<br><br>While, with the Google Pixel Phones, there are a number of form-factor devices which are supported in AOSP, those devices are (for the most part) locked to a specific vendor BSP kernel. Given the time required to go from early bringup to shipping a product, the kernel supported by the form factor devices are always one and a half to two years old by the time they ship. This means these devices have little value for testing the current upstream kernel, and each device is really only useful for testing updates to the -stable kernel release it shipped with. This makes them less than ideal for developing any functionality that can be pushed upstream into the mainline kernel.\u00a0<br><br>Additionally, because the form-factor devices are enclosed, there is little ability to prototype hardware that didn\u2019t ship on the device.\u00a0<br><br>Hardware with a well implemented software stack integrated into AOSP is able to solve both of these issues, as we prioritize devices that are close to upstream and continually push to upstream any board specific patches needed, so we are able to always move forward to newer kernels and continue to support a wide array of stable kernels.\u00a0<br><br>This allows us to quickly find and report regressions that come up in the mainline or -stable branches that might affect Android/AOSP.<br><br>Also hardware in the form of developer boards (devboards) are useful platforms for developing new functionality. The DMABUF Heaps interface, which replaces ION in future kernels, was prototyped and validated on the AOSP devboards, allowing us to confidently know that the patches we were submitting upstream would work well with Android. Additionally, initial prototyping of Google\u2019s GKI effort was done on AOSP devboards, in order to work out issues and to minimize issues that vendors might run into and slow product shipping. Google developers have also used these boards to validate changes such as filesystem and UFS crypto changes that they were pushing upstream.\u00a0 This is much better than having to develop in Android against an older device kernel and then forward porting the patch to the latest upstream kernel and, having no other way to validate it, hoping it works properly when it makes it upstream.<br><br>Since the devboards have a wider array of expansion ports that often can be used to prototype and validate new hardware designs that are targeting Android, making it easier for vendors to validate their kernel drivers and Android HALs against the latest mainline kernels and AOSP userland.",
-                "title": "Software Device Enablement for Android"
-            },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10571",
-            "key": [
-                "AOSP"
-            ],
-            "membership": [
-                "lcg"
-            ]
         },
         {
             "Project Information": {
