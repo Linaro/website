@@ -14,24 +14,18 @@ schema:
   endDate: 2023-04-28T17:00+00:00
   eventStatus: https://schema.org/EventScheduled
   eventAttendanceMode: https://schema.org/OfflineEventAttendanceMode
-  location: {		
-      "@type": Place,
-      name: Park Plaza Riverbank,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: 18 Albert Embankment,
-        addressLocality: London,
-        postalCode: SE1 7TJ,
-        addressCountry: GB
-      }
-    },
-  performer: {
-      "@type": Person,
-      name: Numerous presenters, including Grant Likely, Linaro CTO
-    }
-title: Linaro Connect 2023
-event: linaro-connect-2023
-description: Once a year, Engineers, Technical Leadership and world-leading Arm Software Experts come together for engineering sessions and hacking at Linaro Connect. Here discussions on the future of Arm Open Source Software are held and solutions implemented. If you want to know what is happening in the Arm software ecosystem, look no further.
+  location: 	
+    "@type": Place
+    name: Park Plaza Riverbank
+    address:
+      "@type": "PostalAddress"
+      streetAddress: 18 Albert Embankment
+      addressLocality: London
+      postalCode: SE1 7TJ
+      addressCountry: GB
+  title: Linaro Connect 2023
+  event: linaro-connect-2023
+  description: Once a year, Engineers, Technical Leadership and world-leading Arm Software Experts come together for engineering sessions and hacking at Linaro Connect. Here discussions on the future of Arm Open Source Software are held and solutions implemented. If you want to know what is happening in the Arm software ecosystem, look no further.
 location: >-
   Park Plaza Riverbank
   18 Albert Embankment
