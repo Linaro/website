@@ -1,7 +1,7 @@
 ---
 title: Linaro & Huawei Tech Day
 event: linaro_and_ huawei_tech_day
-event_url: https://www.eventbrite.co.uk/e/linaro-huawei-tech-day-tickets-529367361027
+event_url: ""
 description: Come see the latest Open Source advancements and plans from Huawei and Linaro.
 coming_soon: false
 date: 2023-02-03 05:48:11 +01:00
