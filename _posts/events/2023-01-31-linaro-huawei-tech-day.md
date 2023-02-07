@@ -20,6 +20,8 @@ The agenda for this virtual event will include sessions on BigTop, Arm CCA, Onir
 
 
 
+
+
 <!-- Noscript content for added SEO -->
 
 <noscript><a href="https://www.eventbrite.co.uk/e/linaro-huawei-tech-day-tickets-529367361027" rel="noopener noreferrer" target="_blank">Register Here on Eventbrite</a></noscript>
@@ -44,4 +46,4 @@ The agenda for this virtual event will include sessions on BigTop, Arm CCA, Onir
     });
 </script>
 
-<style> #pine-sessions { width: 100%; height: 500px; border: 0; display: block; }</style><iframe id="pine-sessions" frameborder="0" border="0" height="500" width="100%" src="https://events.pinetool.ai/2972/#sessions"></iframe>
+<style> #pine-sessions { width: 100%; height: 500px; border: 0; display: block; }</style><iframe id="pine-sessions" frameborder="0" border="0" height="500" width="100%" src="https://events.pinetool.ai/2972/#widgets/sessions"></iframe>
