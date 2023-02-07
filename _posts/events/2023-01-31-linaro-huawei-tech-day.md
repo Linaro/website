@@ -43,3 +43,5 @@ The agenda for this virtual event will include sessions on BigTop, Arm CCA, Onir
         onOrderComplete: exampleCallback
     });
 </script>
+
+<style> #pine-sessions { width: 100%; height: 500px; border: 0; display: block; }</style><iframe id="pine-sessions" frameborder="0" border="0" height="500" width="100%" src="https://events.pinetool.ai/2972/#sessions"></iframe>
