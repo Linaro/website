@@ -6,7 +6,7 @@ description: Come see the latest Open Source advancements and plans from Huawei 
 coming_soon: true
 date: 2023-02-03 05:48:11 +01:00
 event_date: 2023-03-07 09:00:29 +01:00
-event_end_date: 2023-03-07 11:30:11 +01:00
+event_end_date: 2023-03-07 11:45:11 +01:00
 image: /assets/images/content/image-31-01-2023-at-17.55.jpeg
 event_type: tech_days
 ---
