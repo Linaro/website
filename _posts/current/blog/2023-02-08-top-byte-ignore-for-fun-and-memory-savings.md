@@ -51,9 +51,7 @@ Why is this good? We can put data in that top byte and crucially, won’t have t
 ```
 #include <stdint.h>
 
-
 typedef int* TaggedIntPtr;
-
 
 int getInt(TaggedIntPtr ptr) {
    ptr = (TaggedIntPtr)((uintptr_t)ptr & ~((uintptr_t)0xFF << 56));
@@ -83,7 +81,7 @@ We’re going to look at a building block of an imaginary [LISP interpreter](htt
 
 We want to evaluate an expression like this:
 
-(+ 1 (+ 1 2) (+ 3 5))
+\    (+ 1 (+ 1 2) (+ 3 5))                  
 
 We expect to get the result 12.
 
@@ -108,7 +106,7 @@ For simplicity’s sake let's execute functions as we go. So we are never puttin
 
 How big will this table get? Take this expression:
 
-(+ 1 1 1 1 1 1 1 1 1 1)
+\    (+ 1 1 1 1 1 1 1 1 1 1)
 
 Do we want to create 10 unique entries for the value 1, when we know they are essentially constants? Let’s say that we don’t. We can’t afford to use that much memory.
 
@@ -122,7 +120,7 @@ With all that, this is a symbol table entry:
 
 We’ll use that symbol index (the index of the entry in the table) to reference the symbol. For example:
 
-(+ 1 2)
+\    (+ 1 2)
 
 1 will be symbol index 0 and 2 will be symbol index 1. The result of the function will be symbol index 0, the slot having been freed when we decremented the reference count of both arguments to 0.
 
@@ -138,7 +136,6 @@ With no TBI and no bit level techniques this is what a Symbol table entry could 
 
 ```
 #include <stdint.h>
-
 
 struct Symbol {
    uintptr_t value;
@@ -178,7 +175,6 @@ With TBI here’s what an entry looks like:
 ```
 #include <stdint.h>
 
-
 typedef uintptr_t Symbol;
 ```
 
@@ -208,17 +204,14 @@ uint8_t getType(const Symbol* sym) {
    return *sym >> 60;
 }
 
-
 uint8_t getReferenceCount(const Symbol* sym) {
    return (*sym >> 56) & 0xF;
 }
-
 
 uint32_t getUnsignedInteger(const Symbol* sym) {
    // Note: Type checking not shown.
    return *sym & UINT32_MAX;
 }
-
 
 const char* getString(const Symbol* sym) {
    // Note: Type checking not shown.
@@ -266,7 +259,7 @@ greater_than:
 
 Therefore the function returns true because the top byte of pointer 3 is greater than the top byte of pointer 2. We know that this isn’t right because they point to the same location. Clearly we did not intend to include the top byte in the calculation.
 
-Note: Having different top bytes for pointers into the same object is improbable but not impossible. Take this as an extreme (and potentially undefined behaviour) example for illustration purposes.
+**Note**: Having different top bytes for pointers into the same object is improbable but not impossible. Take this as an extreme (and potentially undefined behaviour) example for illustration purposes.
 
 This is the key problem passing tagged pointers to syscalls, libraries, etc. If they don’t specifically clean the pointers then you will get unpredictable results. This is why Linux has required that anyone doing a syscall should do that themselves.
 
@@ -370,4 +363,4 @@ If TBI being platform specific worries you, perhaps look into exploiting the ali
 
 If you want an existing project that uses TBI, the full source of the use case described in this post can be found [here](https://gitlab.com/Linaro/tcwg/tbi_lisp). Another thing to check out is the Hardware Assisted Address Sanitizer ([HWASAN](https://clang.llvm.org/docs/HardwareAssistedAddressSanitizerDesign.html)). Worst case, you find some bugs!
 
-If you want to follow Linaro’s work to support TBI and extensions like it, check out the [LLVM](https://linaro.atlassian.net/wiki/spaces/LLVM/overview) and [GNU](https://linaro.atlassian.net/wiki/spaces/GNU/overview) projects. If you have any questions, please contact us at linaro-toolchain@lists.linaro.org.
+If you want to follow Linaro’s work to support TBI and extensions like it, check out the [LLVM](https://linaro.atlassian.net/wiki/spaces/LLVM/overview) and [GNU](https://linaro.atlassian.net/wiki/spaces/GNU/overview) projects. If you have any questions, please contact us at [linaro-toolchain@lists.linaro.org](linaro-toolchain@lists.linaro.org).
