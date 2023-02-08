@@ -363,4 +363,4 @@ If TBI being platform specific worries you, perhaps look into exploiting the ali
 
 If you want an existing project that uses TBI, the full source of the use case described in this post can be found [here](https://gitlab.com/Linaro/tcwg/tbi_lisp). Another thing to check out is the Hardware Assisted Address Sanitizer ([HWASAN](https://clang.llvm.org/docs/HardwareAssistedAddressSanitizerDesign.html)). Worst case, you find some bugs!
 
-If you want to follow Linaro’s work to support TBI and extensions like it, check out the [LLVM](https://linaro.atlassian.net/wiki/spaces/LLVM/overview) and [GNU](https://linaro.atlassian.net/wiki/spaces/GNU/overview) projects. If you have any questions, please contact us at [linaro-toolchain@lists.linaro.org](linaro-toolchain@lists.linaro.org).
+If you want to follow Linaro’s work to support TBI and extensions like it, check out the [LLVM](https://linaro.atlassian.net/wiki/spaces/LLVM/overview) and [GNU](https://linaro.atlassian.net/wiki/spaces/GNU/overview) projects. If you have any questions, please contact us at **linaro-toolchain@lists.linaro.org**.
