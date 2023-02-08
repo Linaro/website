@@ -81,7 +81,9 @@ We’re going to look at a building block of an imaginary [LISP interpreter](htt
 
 We want to evaluate an expression like this:
 
-{% include image.html path="/assets/images/content/first-calculation.png" alt="first calculation" %}    
+```
+(+ 1 (+ 1 2) (+ 3 5))
+```
 
 We expect to get the result 12.
 
@@ -106,7 +108,9 @@ For simplicity’s sake let's execute functions as we go. So we are never puttin
 
 How big will this table get? Take this expression:
 
-{% include image.html path="/assets/images/content/second-calculation.png" alt="second calculation" %}    
+```
+(+ 1 1 1 1 1 1 1 1 1 1)
+```
 
 Do we want to create 10 unique entries for the value 1, when we know they are essentially constants? Let’s say that we don’t. We can’t afford to use that much memory.
 
@@ -120,7 +124,9 @@ With all that, this is a symbol table entry:
 
 We’ll use that symbol index (the index of the entry in the table) to reference the symbol. For example:
 
-{% include image.html path="/assets/images/content/third-calculation.png" alt="third calculation" %}
+```
+(+ 1 2)
+```
 
 1 will be symbol index 0 and 2 will be symbol index 1. The result of the function will be symbol index 0, the slot having been freed when we decremented the reference count of both arguments to 0.
 
