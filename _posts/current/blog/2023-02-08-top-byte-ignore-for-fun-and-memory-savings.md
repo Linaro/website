@@ -322,7 +322,7 @@ Bit fields or otherwise, find ways to assert early and often that you have the l
 
 You might be wondering why we care. If the layout changes that’s fine as long as we don’t share runtime data across platforms, right? Imagine the compiler decided to put “unused” first. We would be writing our type and refcount over the top of the virtual address instead of into the free bits.
 
-Note: Endian also plays a role here, the same advice applies.
+**Note:** Endian also plays a role here, the same advice applies.
 
 ## Portability
 
