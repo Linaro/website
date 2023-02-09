@@ -233,12 +233,16 @@ I just showed you some tempting memory savings. With benefits come costs and TBI
 
 If you look at the current [ABI for AArch64](https://github.com/ARM-software/abi-aa/blob/main/aapcs64/aapcs64.rst) you will find just a couple of mentions of tagged pointers ([here](https://github.com/ARM-software/abi-aa/blob/main/aapcs64/aapcs64.rst#pointers), [here](https://github.com/ARM-software/abi-aa/blob/main/aapcs64/aapcs64.rst#memory-addresses)). Where it says that the use of tagged addresses is platform specific.
 
-For example a Linux syscall that takes a user space pointer. Can you leave your top byte data in it? The answer isn’t great for us. Maybe it will work now but in future it will likely not.
+**Correction:** A previous version of this article referred to an old version of the Linux documentation that did not include the Tagged Address ABI. This has been corrected and the text updated to reflect that.
 
-From the [Linux documentation](https://www.kernel.org/doc/Documentation/arm64/tagged-pointers.txt):
-“For these reasons, passing non-zero address tags to the kernel via system calls is forbidden, and using a non-zero address tag for sp is strongly discouraged.”
+For example a Linux syscall that takes a user space pointer. Can you leave your top byte data in it? Yes, if you opt into the Tagged Address ABI.
 
-From experience I know that some syscalls will work but others will not. Why is that the case? It depends on what that syscall does with your pointer. Let’s consider a common operation, perhaps you want to compare the position of two items in an array.
+From the [Linux documentation](https://www.kernel.org/doc/Documentation/arm64/tagged-pointers.rst):
+“For these reasons, when the AArch64 Tagged Address ABI is disabled, passing non-zero address tags to the kernel via system calls is forbidden, and using a non-zero address tag for sp is strongly discouraged.”
+
+Opting into the ABI is described [here](https://www.kernel.org/doc/Documentation/arm64/tagged-address-abi.rst). From experience I know that if you do not do so, some syscalls will work but others will not. Why is that the case and why would you want an ABI just for this?
+
+It depends on what that syscall does with your pointer. Let’s consider a common operation, perhaps you want to compare the position of two items in an array.
 
 ```
 bool greater_than(void* lhs, void* rhs) {
@@ -267,7 +271,7 @@ Therefore the function returns true because the top byte of pointer 3 is greater
 
 **Note**: Having different top bytes for pointers into the same object is improbable but not impossible. Take this as an extreme (and potentially undefined behaviour) example for illustration purposes.
 
-This is the key problem passing tagged pointers to syscalls, libraries, etc. If they don’t specifically clean the pointers then you will get unpredictable results. This is why Linux has required that anyone doing a syscall should do that themselves.
+This is the key problem passing tagged pointers to syscalls, libraries, etc. If they don’t specifically clean the pointers then you will get unpredictable results. This is why Linux has required that anyone doing a syscall should opt into the Tagged Address ABI, or remove the bits themselves.
 
 Some places do this scrubbing. One example is [here](https://sourceware.org/git/?p=glibc.git;a=blob;f=sysdeps/aarch64/multiarch/memcpy_a64fx.S;h=c4eab06176d9ff67d3a2de2e2e168b00d8ce87b2;hb=HEAD) (search for “/* Clear special tag bits”). However that’s just one function in glibc. There are many more and checking that they all do this is likely not viable.
 
