@@ -293,22 +293,6 @@
         {
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/STR/overview\">https://linaro.atlassian.net/wiki/spaces/STR/overview</a>",
-                "Theme": [
-                    "Automotive, IoT & Edge Devices"
-                ],
-                "description": "There is a growing trend  towards virtualization in areas other than the tradition server environment. The server enviroment is uniform in nature but as we move towards a richer echosystem in automotive, medical and general mobile and the IoT spaces, the rich array of hypervisors and SoCs become a problem.<br><br>Project Stratos is working towards developing hypervisor agnostic Virtio interfaces and standards.<br>The four key areas of interest are<br><br><ul><li> High performance Virtio interfaces</li><li> Virtual Machine Monitors with a safety island</li><li> Boot Orchestration</li><li> Written Standards for the hypercalls</li></ul>",
-                "title": "Stratos - Hypervisor Abstraction"
-            },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10567",
-            "key": [
-                "STR"
-            ],
-            "membership": []
-        },
-        {
-            "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/SCMI/overview\">https://linaro.atlassian.net/wiki/spaces/SCMI/overview</a>",
                 "Theme": [
                     "Core Technologies"
