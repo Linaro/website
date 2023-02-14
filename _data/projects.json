@@ -242,6 +242,22 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LEDGE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/ORKO/overview\">https://linaro.atlassian.net/wiki/spaces/ORKO/overview</a>",
+                "Theme": [
+                    "Automotive, IoT & Edge Devices"
+                ],
+                "description": "Enabling Virtualisation and VirtIO for the Trusted Reference Strack (TRS)",
+                "title": "Orko"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10421",
+            "key": [
+                "ORKO"
+            ],
+            "membership": []
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/PERFSCMI/overview\">https://linaro.atlassian.net/wiki/spaces/PERFSCMI/overview</a>",
                 "Theme": [
