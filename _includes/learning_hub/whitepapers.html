@@ -4,7 +4,7 @@
             <div class="row py-0">
                 {% for whitepaper in site.whitepapers %}
                     <div class="col col-12 col-sm-6 pb-4">
-                        <a href="{{whitepaper.url}}">
+                        <a href="{{whitepaper.whitepaper_url}}">
                             <div class="whitepaper_wrapper text-center h-100">
                                 {% capture image_path %}{{whitepaper.image}}{% endcapture %}
                                 {% capture block_image_alt %}{{whitepaper.title}} image {% endcapture %}

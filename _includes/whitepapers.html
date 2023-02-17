@@ -1,7 +1,7 @@
 <div class="row">
     {% for whitepaper in site.whitepapers %}
     <div class="col col-12 col-lg-4 mb-4">
-        <a class="whitepaper_link" href="{{whitepaper.url}}">
+        <a class="whitepaper_link" href="{{whitepaper.whitepaper_url}}">
             <div class="whitepaper-wrapper">
                 {% capture image_alt %}{{whitepaper.title}} image{% endcapture%}
                 {% picture card_block_image {{whitepaper.image}} --alt {{image_alt}} %}
