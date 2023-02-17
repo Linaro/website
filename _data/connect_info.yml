@@ -16,7 +16,7 @@ header_register_button_link: https://www.eventbrite.co.uk/e/linaro-connect-londo
 tabs_row_background_image: /assets/images/content/Connect23_Background_2.jpg
 tabs:
   - title: Registration
-    text: >
+    text: >-
       Register for Linaro Connect and join hundreds of the world’s leading Arm
       Open Source engineers.
 
@@ -24,10 +24,18 @@ tabs:
       The next Linaro Connect will be held in London, United Kingdom, Wednesday 26-Friday 28 April 2023 at the Park Plaza Riverbank.
 
 
-      We are offering a discounted ticket rate of **£900** if you register before the end of February. Tickets will be **£1,200** from March onwards. Speakers receive free passes.\*
+      We are offering a discounted ticket rate of **£900** if you register before the end of February. Tickets will be **£1,200** from March onwards. Speakers receive free passes.*
 
 
       \*Linaro Member Companies get a discounted rate regardless of when they book. If you are a Linaro Member Company, please contact connect@linaro.org to receive your discount code if you haven’t already received it.
+
+
+
+
+      **Outline Schedule of the week:** 
+
+
+      ![](/assets/images/content/connect_2023_cfp_mailchimp_banner-copy-2x-100-2.jpg)
   - title: Call for proposals
     text: >-
       Linaro Connect provides a platform to discuss and learn about the leading
