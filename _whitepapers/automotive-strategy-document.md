@@ -1,5 +1,5 @@
 ---
-title: Automotive Strategy Document
+title: Linaro Automotive Strategy
 image: /assets/images/content/automotive_doc_image.jpg
 description: Read the Automotive Strategy Document whitepaper
 whitepaper_url: https://linaro.co/LinaroAutomotiveStrategyDocument
