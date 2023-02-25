@@ -314,7 +314,7 @@
                 "description": "Primarily focused on Server Standardisation. Examples to include SBSA, xBBR to enable simplified adoption of mainline builds on new server hardware.",
                 "title": "System Ready Compliant Platform Collaboration"
             },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10575",
+            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
             "key": [
                 "SRCPC"
             ],
