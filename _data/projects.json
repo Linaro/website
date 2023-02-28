@@ -247,7 +247,7 @@
                 "Theme": [
                     "Automotive, IoT & Edge Devices"
                 ],
-                "description": "Enabling Virtualisation and VirtIO for the Trusted Reference Strack (TRS)",
+                "description": "Enabling Virtualisation and VirtIO for the Trusted Reference Stack (TRS)",
                 "title": "Orko"
             },
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10421",
