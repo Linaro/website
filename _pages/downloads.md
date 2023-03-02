@@ -135,7 +135,7 @@ flow:
 
             - [Recommended Debian Architectures](https://docs.lavasoftware.org/lava/installing_on_debian.html#recommended-debian-architectures)
 
-            - [Administering LAVA using Docker — LAVA 2021.05 documentation](https://docs.lavasoftware.org/lava/docker-admin.html?#official-lava-software-docker-images)
+            - [Administering LAVA using Docker — LAVA documentation](https://docs.lavasoftware.org/lava/docker-admin.html?#official-lava-software-docker-images)
 
             - [Click here to find out more about LAVA.](https://validation.linaro.org/)
       - format: title
