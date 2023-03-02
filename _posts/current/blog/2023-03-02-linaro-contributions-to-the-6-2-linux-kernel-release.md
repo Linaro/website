@@ -16,7 +16,7 @@ author: linaro
 ---
 {% include image.html path="/assets/images/content/most-active-6.2-employers.png" alt="Most active 6.2 Employers" %}
 
-As the development statistics compiled by LWN demonstrate, Linaro employees remain key code reviewers and committers. Except for writing code, a significant number of all v6.2 reviews came from Linaro engineers, placing the company as second reviewer for that release. Linaro employs several Linux kernel maintainers which were responsible for applying 6.5% of all v6.2 commits. A lot of code is not only written by Linaro, but is actually going through our hands and eyes.
+As the development statistics compiled by [LWN](https://lwn.net/Articles/923410/) demonstrate, Linaro employees remain key code reviewers and committers. Except for writing code, a significant number of all v6.2 reviews came from Linaro engineers, placing the company as second reviewer for that release. Linaro employs several Linux kernel maintainers which were responsible for applying 6.5% of all v6.2 commits. A lot of code is not only written by Linaro, but is actually going through our hands and eyes.
 
 In this blog, we asked the Linaro Engineers featured in LWN’s list of most active developers to the 6.2 Kernel Release to talk about their contributions.
 
@@ -69,7 +69,7 @@ Linaro consistently ranks in the top ten for companies who review, test and repo
 
 {% include image.html path="/assets/images/content/test-and-review-credits-6.2-kernel-release.png" alt="Test and review credits 6.2 kernel release" %}
 
-### Reviewed-by - Linaro in third place 
+### Reviewed-by - Linaro in third place
 
 Around 76 companies contributed to the v6.2 kernel release. [Linaro secured 3rd position](https://remword.com/kps_result/6.2_review.html) in “Reviewed-by” of this kernel release by committing 835 Reviewed-by.
 
