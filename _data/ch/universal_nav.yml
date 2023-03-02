@@ -1,7 +1,6 @@
 items:
-  - active: true
-    title: Linaro
-    url: "https://www.linaro.org/"
+  - title: Linaro Forge
+    url: "https://www.linaroforge.com/"
   - title: Connect
     url: "/connect/"
   - title: CodeLinaro
