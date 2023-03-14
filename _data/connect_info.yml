@@ -33,7 +33,11 @@ tabs:
       **Outline Schedule of the week:**
 
 
-      ![](/assets/images/content/connect_schedule-no-background_v3.svg)
+      ```
+
+      <a id="sched-embed" href="//linaroconnect2023.sched.com/" data-sched-bg="dark">View the LinaroConnect 2023 schedule &amp; directory.</a><script type="text/javascript" src="//linaroconnect2023.sched.com/js/embed.js"></script>
+
+      ```
   - title: Call for proposals
     text: >-
       Linaro Connect provides a platform to discuss and learn about the leading
