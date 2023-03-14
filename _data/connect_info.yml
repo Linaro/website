@@ -38,8 +38,8 @@ tabs:
       <a id="sched-embed" href="//linaroconnect2023.sched.com/" data-sched-bg="dark">View the LinaroConnect 2023 schedule &amp; directory.</a><script type="text/javascript" src="//linaroconnect2023.sched.com/js/embed.js"></script>
 
       ```
-  - title: Call for proposals
-    text: >-
+  - title: Speakers Information
+    text: >
       Linaro Connect provides a platform to discuss and learn about the leading
       software topics, challenges and opportunities in the Arm Ecosystem today.
       What are the problems, innovations and hands-on knowledge that today’s Arm
@@ -49,39 +49,14 @@ tabs:
       See below key deadlines:
 
 
-      * Deadline to submit proposals: Wednesday 1 March 2023
-
-      * Schedule launch: Wednesday 15 March 2023
-
-      * Slides to be submitted: Wednesday 19 April 2023
+      All slides need to be submitted by Wednesday 19 April 2023.
 
 
-      From the smallest devices (IoT and embedded) to big data (enterprise), there is an Arm solution. We welcome proposals for technical presentations and discussions and Birds of a Feather (BoF).
-
-      While we welcome technical proposals on all topics related to Arm software, we are particularly interested in seeing sessions on the following topics:
 
 
-      * Automotive, Industrial and Edge
 
-        * Continuous Integration
-        * Virtualization
-        * Security and Trust 
-        * Compliance and Open Standards (SOAFEE, SystemReady, Project Cassini)
-
-      * Client Devices
-
-        * Android, Linux Kernel Development and Virtualization
-        * Windows on Arm and Native Support
-
-      * IoT
-
-        * AI and Microcontrollers
-        * RTOS, Security and Trust 
 
       To view slides or videos from the keynotes and sessions from previous Linaro Virtual Connect events for inspiration for your submission, please go to our Resources page.
-
-
-      [Submit your proposals here](https://sessionize.com/linaro-connect-2023/)
   - title: Accomodation & travel
     text: >
       The next Linaro Connect will be held in London, United Kingdom Wednesday
