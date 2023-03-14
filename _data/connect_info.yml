@@ -16,7 +16,7 @@ header_register_button_link: https://www.eventbrite.co.uk/e/linaro-connect-londo
 tabs_row_background_image: /assets/images/content/Connect23_Background_2.jpg
 tabs:
   - title: Registration
-    text: >-
+    text: >+
       Register for Linaro Connect and join hundreds of the world’s leading Arm
       Open Source engineers.
 
@@ -29,15 +29,6 @@ tabs:
 
       \*Linaro Member Companies get a discounted rate regardless of when they book. If you are a Linaro Member Company, please contact connect@linaro.org to receive your discount code if you haven’t already received it.
 
-
-      **Outline Schedule of the week:**
-
-
-      ```
-
-      <a id="sched-embed" href="//linaroconnect2023.sched.com/" data-sched-bg="dark">View the LinaroConnect 2023 schedule &amp; directory.</a><script type="text/javascript" src="//linaroconnect2023.sched.com/js/embed.js"></script>
-
-      ```
   - title: Speakers Information
     text: >
       Linaro Connect provides a platform to discuss and learn about the leading
@@ -83,3 +74,11 @@ tabs:
       Sponsorship of the event puts your brand in front of world-leading Arm Software Experts. If you'd like to
 
       sponsor, [download our Sponsorship Prospectus here](https://linaro.co/linaro-connect-sponsorship-2023) and contact [connect@linaro.org](mailto:connect@linaro.org) to find out more.
+  - text: >-
+      
+      ```
+
+      <a id="sched-embed" href="//linaroconnect2023.sched.com/" data-sched-bg="dark">View the LinaroConnect 2023 schedule &amp; directory.</a><script type="text/javascript" src="//linaroconnect2023.sched.com/js/embed.js"></script>
+
+      ```
+    title: Schedule
