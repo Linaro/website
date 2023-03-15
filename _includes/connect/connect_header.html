@@ -1,31 +1,61 @@
 <div class="row connect_header_row">
-    <div class="col col-12 col-md-6 px-1 px-md-5 border-md-right bordered-content">
-        <img src="/assets/images/content/Connect23_logo.svg" class="connect_header_svg" alt="Connect Logo 2023"/>
-        <div class="header_text">
-            {{site.data.connect_info.header_text_left | markdownify}}
-        </div>
+  <div
+    class="col col-12 col-md-6 px-1 px-md-5 border-md-right bordered-content"
+  >
+    <img
+      src="/assets/images/content/Connect23_logo.svg"
+      class="connect_header_svg"
+      alt="Connect Logo 2023"
+    />
+    <div class="header_text">
+      {{site.data.connect_info.header_text_left | markdownify}}
     </div>
-    <div class="col col-12 col-md-6 px-1 px-md-5">
-        <img src="/assets/images/content/Date_outlined.svg" class="connect_header_svg" alt="Connect Date"/>
-        <div class="header_text">
-            {{site.data.connect_info.header_text_right | markdownify}}
-        </div>
-        {% if site.data.connect_info.header_register_button %}
-            <a href="{{site.data.connect_info.header_register_button_link}}" class="btn btn-primary" id="connect_register_button">
-                {{site.data.connect_info.header_register_button_text}}
-            </a>
-        {% endif %}
+  </div>
+  <div class="col col-12 col-md-6 px-1 px-md-5">
+    <img
+      src="/assets/images/content/Date_outlined.svg"
+      class="connect_header_svg"
+      alt="Connect Date"
+    />
+    <div class="header_text">
+      {{site.data.connect_info.header_text_right | markdownify}}
     </div>
-    <div class="row" id="sponsors_section">
-        <div class="col col-6 col-sm-4 col-md-3 col-xl py-3 d-flex justify-content-center align-items-center member_col">
-            <div class="member_image rounded">
-                <img class="lazyload w-100 rounded" alt="Arm logo" data-src="https://static.linaro.org/common/member-logos/arm.jpg" 
-                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-            </div>
-            <div class="member_image rounded">
-                <img class="lazyload w-100 rounded" alt="Qualcomm logo" data-src="https://static.linaro.org/common/member-logos/qualcomm.png" 
-                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-            </div>
+    {% if site.data.connect_info.header_register_button %}
+    <a
+      href="{{site.data.connect_info.header_register_button_link}}"
+      class="btn btn-primary"
+      id="connect_register_button"
+    >
+      {{site.data.connect_info.header_register_button_text}}
+    </a>
+    {% endif %}
+  </div>
+  <div class="row" id="sponsors_section">
+    <div
+      class="col col-6 col-sm-4 col-md-3 col-xl py-3 d-flex justify-content-center align-items-center member_col"
+    >
+      <div class="d-flex justify-content-center align-items-center">
+        <div
+          class="member_image rounded h-150 d-flex justify-content-center align-items-center"
+        >
+          <img
+            class="lazyload rounded h-140"
+            alt="Arm logo"
+            data-src="https://static.linaro.org/common/member-logos/arm-no-white-background.png"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          />
         </div>
+        <div
+          class="member_image rounded h-150 d-flex justify-content-center align-items-center"
+        >
+          <img
+            class="lazyload rounded h-140"
+            alt="Qualcomm logo"
+            data-src="https://static.linaro.org/common/member-logos/qualcomm.png"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          />
+        </div>
+      </div>
     </div>
+  </div>
 </div>
