@@ -29,13 +29,8 @@ tabs:
 
       \*Linaro Member Companies get a discounted rate regardless of when they book. If you are a Linaro Member Company, please contact connect@linaro.org to receive your discount code if you haven’t already received it.
 
-  - text: >-
-      ```
-
-      <a id="sched-embed" href=“https://linaroconnect2023.sched.com/" data-sched-bg="dark">View the LinaroConnect 2023 schedule &amp; directory.</a><script type="text/javascript" src="https://linaroconnect2023.sched.com/js/embed.js"></script>
-
-      ```
-    title: Schedule
+  - title: Schedule
+    custom_include: connect/connect_schedule.html
   - title: Speakers Information
     text: >
       Linaro Connect provides a platform to discuss and learn about the leading
