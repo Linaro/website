@@ -155,26 +155,6 @@ flow:
                   textBtn: true
                   style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/TS/overview
-            - title: Ledge Reference Platform
-              style: related_project_block h-100
-              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
-              description: |
-                In an effort to empower any
-                organization to easily create a Linux
-                distribution for vertical markets,
-                focusing on the high level features of
-                the operating system, Linaro has
-                created the LEDGE Reference
-                Platform. LEDGE Reference Platform
-                (RP) is a lightweight highly secure and
-                robust container runtime environment
-                that has dependable boot and update
-                capabilities.
-              buttons:
-                - title: Ledge Reference Platform
-                  textBtn: true
-                  style: btn-lg text-btn
-                  url: https://linaro.atlassian.net/wiki/spaces/LRP/overview
             - title: Oniro
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
