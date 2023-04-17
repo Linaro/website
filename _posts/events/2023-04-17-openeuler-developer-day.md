@@ -1,5 +1,5 @@
 ---
-title: openEuler Developer Day
+title: openEuler Developer Day 2023
 event: openEuler_Developer_Day
 event_url: https://www.openeuler.org/zh/interaction/summit-list/devday2023/
 description: >
