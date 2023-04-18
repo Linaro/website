@@ -5,12 +5,7 @@ event_url: https://www.openeuler.org/zh/interaction/summit-list/devday2023/
 description: >
   OpenEuler Developer Day is a top developer summit initiated by the openEuler
   community under the OpenAtom Foundation, aimed at continuously promoting
-  innovation and breakthroughs in operating systems and basic software. This ODD
-  2023 will comprehensively showcase the features of the newly released
-  innovative version 23.03, as well as technological achievements in diverse
-  computing and cross-scenario collaboration, share business practices based on
-  openEuler across various industries, exhibit openEuler's cooperation and
-  research progress with international open source communities and universities.
+  innovation and breakthroughs in operating systems and basic software. 
 location: Kerry Hotel Pudong, Shanghai
 date: 2023-04-17 11:45:30 +01:00
 event_date: 2023-04-20 11:45:30 +01:00
