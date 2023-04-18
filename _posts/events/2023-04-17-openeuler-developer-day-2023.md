@@ -1,6 +1,6 @@
 ---
 title: openEuler Developer Day 2023
-event: openEuler_Developer_Day
+event: openeuler-developer-day-2023
 event_url: https://www.openeuler.org/zh/interaction/summit-list/devday2023/
 description: >
   OpenEuler Developer Day is a top developer summit initiated by the openEuler
@@ -30,6 +30,6 @@ In addition, Linaro's Senior Software Engineer Haojian Zhuang and Huawei Technol
 
 You are welcome to  visit our booth at the openEuler Developer Day and meet our experts for further discussion and collaboration.
 
-C﻿onference registration QR code:
+Conference registration QR code:
 
 {% include image.html path="/assets/images/content/openeuler-qr-code.png" alt="QR code for registration for openEuler Day" %}
