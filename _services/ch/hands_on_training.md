@@ -17,10 +17,10 @@ jumbotron:
       url: "#contact_form"
       style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase ds_contact_form_btn
     - title: 下载目录
-      url: "/assets/pdf/Linaro_Training_Catalogue_January_2022.pdf"
+      url: "/assets/pdf/Linaro_Training_Catalogue_February_2023.pdf"
       style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block text-uppercase
     - title: 下载目录
-      url: "/assets/pdf/Linaro_Training_Catalogue_January_2022.pdf"
+      url: "/assets/pdf/Linaro_Training_Catalogue_February_2023.pdf"
       style: btn btn-primary btn-sm my-2 d-inline-block d-md-none text-uppercase
 permalink: /services/hands-on-training/
 icon: /assets/images/content/Icon_Hands_on_training.svg
@@ -148,10 +148,10 @@ flow:
             url: "#ds_contact_form"
             style: btn btn-primary btn-sm my-2 d-inline-block d-md-none ds_contact_form_btn
           - title: 下载目录
-            url: "/assets/pdf/Linaro_Training_Catalogue_January_2022.pdf"
+            url: "/assets/pdf/Linaro_Training_Catalogue_February_2023.pdf"
             style: btn btn-primary btn-lg my-md-3 d-none d-md-inline-block
           - title: 下载目录
-            url: "/assets/pdf/Linaro_Training_Catalogue_January_2022.pdf"
+            url: "/assets/pdf/Linaro_Training_Catalogue_February_2023.pdf"
             style: btn btn-primary btn-lg my-2 d-inline-block d-md-none
   - row: container_row
     style: large_type bg-white text-dark text-center
