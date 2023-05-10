@@ -8,6 +8,8 @@ image: /assets/images/content/Banner_Virtualization.jpg
 tags:
   - TSN
   - latency
+  - Time sensitive networking
+  - Automotive
 category: blog
 author: takahiro.akashi@linaro.org
 ---
