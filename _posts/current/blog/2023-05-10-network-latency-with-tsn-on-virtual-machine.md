@@ -60,3 +60,34 @@ The definition of gate list can vary from system to system depending on applicat
 The duration times (interval) of each time slot may be arbitrary, but these odd (and prime) numbers are chosen not to easily resonate with the kernel tick (4 msec by default).
 
 {% include image.html path="/assets/images/content/duration-times-.png" alt="Duration times" %}
+
+## Other Optimisation
+
+On top of TSN (Qbv) scheduler, I found that a couple of additional practices in my experiments are quite effective and should be applied to get better results. Please note that we don’t care about any power management or performance scaling aspect here as our target board (MACCHIATObin) supports neither cpufreq nor cpuidle at the time of writing. In general, it might be a good idea to turn off the power management or performance scaling if you want to optimize for minimal latency.
+
+### CPU isolation and affinity
+
+First of all, the guest VM running as a user process on the host is at risk of being preempted at any time by the host OS/hypervisor, which may end up in the process being suspended for an unpredictable period. To avoid this situation, one processor is isolated from the kernel scheduling and the kvm process is bound to the cpu by masking its CPU affinity list.
+
+Furthermore, in the OVS + AF_XDP case, we want to additionally allocate more processors in the isolated-cpu list due to the nature of AF_XDP support. See "e. tap + Open VSwitch with AF_XDP".
+The  following parameter in the kernel command line control the isolation:
+
+**isolcpus=nohz,domain,managed_irq,3**
+
+### Prioritising kernel threads
+
+It is important to understand how interrupts for received packets are handled in the host kernel and packets are passed by to the guest VM. On PREEMPT_RT kernel, a top-half of a device driver (or hardirq) is executed in a dedicated IRQ (interrupt request) thread and then a bottom-half (or softirq) is executed in a (per-cpu) softirq thread. A softirq may also be directly called in any context where local_bh_enable() is called whatever the context is.
+
+In the bottom-half, a driver usually invokes a NAPI (New API) framework for polling a network port and retrieving packets from a RX queue. Depending on a network device type and its associated packet handler (a bridge function for instance), an appropriate network stack will be called out to determine how a received packet should be processed and where it should be forwarded to.
+
+In the case of vhost-kernel based virtio-net (it is the case in my experiments except OVS+AF_XDP case), this will result in waking up a per-virtio-net vhost thread and notifying it of an arrival of packet. Vhost thread is responsible for injecting a virtual interrupt for the device and kicking up a vcpu (virtual central processing unit) for the kvm process.
+
+A couple of context switches may take place before a packet finally reaches the guest VM. From the viewpoint of the real-time aspect, we want to manage them carefully to cut short the flow path. While IRQ threads are running under SCHED_FIFO (priority 90), softirq threads and vhost threads belong to SCHED_OTHER (time-sharing class) by default.
+
+That said, my early experiments suggest that the bottom-half code is mostly executed immediately following hardirq, I only put a vhost thread in SCHED_FIFO after starting the guest VM.
+
+{% include image.html path="/assets/images/content/prioritising-kernel-threads.png" alt="Prioritising kernel threads" %}
+
+### Packet filtering with IRQ affinity
+
+While the network bandwidth is split by time slots using Qbv scheduler, IRQ affinity and RSS (Receive Side Scaling) may help distribute the burden by the kernel stack in packet handling to different processors.
