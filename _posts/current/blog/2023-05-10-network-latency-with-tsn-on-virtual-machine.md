@@ -105,3 +105,127 @@ d. Open VSwitch bridge
 e. Open VSwitch with AF_XDP
 
 In this section, I describe how I configure the network for each type of technologies and then how I start the guest VM's in my experiments. I preferred to use primitive command tools rather than using a kind of virtual machine manager like virsh/libvirt so that I can have full control over the test environment.
+
+## a. tap + kernel bridge
+
+Create a VLAN port and a bridge device, then attach the port to the bridge:
+
+```
+# ip link add link enp1s0 enp1s0.5 type vlan id 5
+# ip addr add 192.168.30.2/24 dev enp1s0.5
+# ip link set enp1s0.5 up
+
+# ip link add tmpbr0 type bridge
+# ip link set enp1s0.5 master tmpbr0
+# ip link set tmpbr0 up
+```
+
+Then start a guest VM, specifying this device at the kvm command line as follows:
+
+```
+# qemu-system-aarch64 -machine virt -cpu host -smp 1 -m 2G ... \
+     -netdev tap,br=tmpbr0,id=net0,vhost=on,\
+		helper=/usr/lib/qemu/qemu-bridge-helper \
+     -device virtio-net-pci,netdev=net0,mac=${MAC_ADDR}
+```
+
+## b. macvtap
+
+Create a macvtap device:
+
+```
+# ip link add link enp1s0 name macvtap0 address ${MAC_ADDR} \
+      type macvtap mode bridge
+# ip link set macvtap0 up
+```
+
+Then start a guest VM, specifying this device at the kvm command line as follows:
+
+```
+# qemu-system-aarch64 -machine virt -cpu host -smp 1 -m 2G ... \
+     -netdev tap,id=net0,vhost=on,fd=3 \
+     -device virtio-net-pci,netdev=net0,mac=${MAC_ADDR} \
+     3<> /dev/tap${TAP_NUM}
+```
+
+## c. tap + XDP
+
+David Ahern has made a very interesting study, in this area. His interest may be in the cloud environment, but his approach can also be applied to embedded systems. Since his sample code is quite useful, I re-use it with a minor change to fit it into my test purpose.
+There are two XDP (eXpress Data Path) programs, xdp_l2fwd and xdp_vmegress_simple. They are loaded and attached to a physical NIC port and a tap device for the guest VM, respectively. When a packet is to be sent out from the egress port, XDP programs are called out to determine if any action is needed for that packet using their own database (or map in XDP term). If the program returns XDP_REDIRECT, the packet will be directly redirected to another port. If it returns XDP_PASS, the packet will be simply forwarded to the kernel network stack as usual.
+
+{% include image.html path="/assets/images/content/xdp-bridge.png" alt="XDP bridge" %}
+
+If you want to try this case, first download the modified code from my repository  and build eBPF programs:
+
+```
+$ git clone -b latency_i225 \
+       https://git.linaro.org/people/takahiro.akashi/bpf-progs.git
+$ cd bpf-progs
+$ make
+```
+
+We use a "tap" configuration as a slow data path and so need to set up the network as in the case of "tap". After that, we can load and attach two eBPF binaries built above onto, respectively, the physical NIC and the tap device for the guest.
+
+```
+# scripts/l2fwd-simple.sh 
+```
+
+In the middle of running this script, you will be asked to start a guest VM:
+
+```
+# qemu-system-aarch64 -machine virt -cpu host -smp 1 -m 2G ... \
+     -netdev tap,br=tmpbr0,id=net0,vhost=on,\
+		helper=/usr/lib/qemu/qemu-bridge-helper \
+     -device virtio-net-pci,netdev=net0,mac=${MAC_ADDR}
+```
+
+## d. tap + Open VSwitch
+
+You can use the distro's Open VSwitch package as is. But if you also want to try Open VSwitch + AF_XDP configuration, it's time for you to compile the code for yourself because AF_XDP support is yet seen as an experimental feature and is not enabled by default.
+AF_XDP support requires libbpf from 'tools' of the linux repository: (See more details in OVS's Documentation/intro/install/afxdp.rst)
+
+```
+$ cd linux's tools/lib/bpf
+$ make
+# make install
+# make install_headers
+```
+
+Then,
+
+```
+$ git clone https://github.com/openvswitch/ovs
+$ cd ovs
+$ ./configure --prefix=/ --enable-afxdp --with-dpdk=shared
+$ make
+# make install
+# systemctl start openvswitch-switch.service
+```
+
+Create an OVS bridge device:
+
+```
+# ovs-vsctl add-br tmpovsbr0
+# ovs-vsctl add-port tmpovsbr0 enp1s0
+# ip link set tmpovsbr0 up
+# ip addr add 192.168.20.2/24 dev tmpovsbr0
+```
+
+Then start a guest VM, specifying this device at the kvm command line as follows:
+
+```
+# kvm -machine virt -cpu host -smp 1 -m 2G ... \
+     -netdev tap,id=net0,br=tmpovsbr0,vhost=on,\
+      script=/somewhere/ifup-ovs.sh,downscript=/somewhere/ifdown-ovs.sh \
+     -device virtio-net-pci,netdev=net0,mac=${MAC_ADDR}
+```
+
+Where ifup-ovs.sh looks like:
+
+```
+#!/bin/sh
+ovs-vsctl add-port tmpovsbr2 $1
+ip link set $1 up
+```
+
+## e. tap + Open VSwitch with AF_XDP
