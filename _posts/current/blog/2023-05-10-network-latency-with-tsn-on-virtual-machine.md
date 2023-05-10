@@ -91,3 +91,17 @@ That said, my early experiments suggest that the bottom-half code is mostly exec
 ### Packet filtering with IRQ affinity
 
 While the network bandwidth is split by time slots using Qbv scheduler, IRQ affinity and RSS (Receive Side Scaling) may help distribute the burden by the kernel stack in packet handling to different processors.
+
+{% include image.html path="/assets/images/content/packet-filtering-with-irq-affinity.png" alt="Packet filtering with irq affinity" %}
+
+# Set up network bridges under virtio
+
+As I mentioned in my previous article, my study covers the following network bridge types:
+
+a. tap (+ kernel bridge)
+b. macvtap
+c. XDP-based bridge
+d. Open VSwitch bridge
+e. Open VSwitch with AF_XDP
+
+In this section, I describe how I configure the network for each type of technologies and then how I start the guest VM's in my experiments. I preferred to use primitive command tools rather than using a kind of virtual machine manager like virsh/libvirt so that I can have full control over the test environment.
