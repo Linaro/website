@@ -13,7 +13,7 @@ date: 2023-05-11 03:08:11 +02:00
 event_date: 2023-05-16 10:30:11 +02:00
 event_end_date: 2023-05-18 01:00:11 +02:00
 image: /assets/images/content/rmacc-banner.png
-event_type: presenter
+event_type: sponsor
 ---
 Speaker:  Beau Paisley, Principal Solutions Architect at Linaro
 
