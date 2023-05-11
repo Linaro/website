@@ -2,10 +2,10 @@
 title: "ISC High performance 2023  "
 event: "isc-high-performance-2023  "
 event_url: https://www.isc-hpc.com/agenda-2023.html
-description: Linaro Forge will be at the ISC High performance on  21-25 May 2023
-  in Hamburg, Germany. “Expect an active collaborative exchange on high
-  performance computing, machine learning, data analytics and quantum
-  computing.”
+description: >
+  Linaro Forge will be at the ISC High performance on  21-25 May 2023 in
+  Hamburg, Germany. “Expect an active collaborative exchange on high performance
+  computing, machine learning, data analytics and quantum computing.”
 visual_date: |
   21-25 May 2023 
 location: "Hamburg, Germany "
