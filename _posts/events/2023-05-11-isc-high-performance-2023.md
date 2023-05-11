@@ -1,7 +1,7 @@
 ---
 title: "ISC High performance 2023  "
 event: "isc-high-performance-2023  "
-event_url: "https://www.isc-hpc.com "
+event_url: https://www.isc-hpc.com/agenda-2023.html
 description: >
   Linaro will be at the ISC High performance on  21-25 May 2023 in Hamburg,
   Germany. 
