@@ -16,8 +16,6 @@ event_type: presenter
 ---
 Linaro will be presenting 6 sessions: 
 
-
-
 * **Zephyr Project Developer Summit**
 
 [(Virtual) Leveraging Compiler Code Instrumentation for Zephyr Tracing & Profiling Tools ](https://eoss2023.sched.com/event/1LecF/virtual-leveraging-compiler-code-instrumentation-for-zephyr-tracing-profiling-tools-gustavo-romero-kevin-townsend-linaro#)June 26 • 12:00 - 12:40 CEST
@@ -39,7 +37,8 @@ Speakers: David Brown, [](https://drive.google.com/file/d/1Q3ZJy4UiMpTX-Jq2PB5_H
 [How to Get Your DT Schema Bindings Accepted in Less Than 10 Iterations ](https://eoss2023.sched.com/event/1LcNo/how-to-get-your-dt-schema-bindings-accepted-in-less-than-10-iterations-krzysztof-kozlowski-linaro#)\
 June 28 • 14:50 - 15:30 CEST
 
-[Preparing Linux Real-Time Kernel and Tuning Robotics Platform with Modern ARM64 SoC ](https://eoss2023.sched.com/event/1LcOp/preparing-linux-real-time-kernel-and-tuning-robotics-platform-with-modern-arm64-soc-krzysztof-kozlowski-linaro#)June 29 • 12:10 - 12:50 CEST
+[Preparing Linux Real-Time Kernel and Tuning Robotics Platform with Modern ARM64 SoC](https://eoss2023.sched.com/event/1LcOp/preparing-linux-real-time-kernel-and-tuning-robotics-platform-with-modern-arm64-soc-krzysztof-kozlowski-linaro#)\
+June 29 • 12:10 - 12:50 CEST
 
 Speaker: Krzysztof Kozlowsk,[ ](https://drive.google.com/file/d/18Eb56Fs4ekLYLie_dpSYIf91D2JuJyQ7/view?usp=share_link)Senior Linux Kernel Engineer
 
