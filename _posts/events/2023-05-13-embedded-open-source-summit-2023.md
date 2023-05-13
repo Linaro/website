@@ -18,7 +18,8 @@ Linaro will be presenting 6 sessions: 
 
 * **Zephyr Project Developer Summit**
 
-[(Virtual) Leveraging Compiler Code Instrumentation for Zephyr Tracing & Profiling Tools ](https://eoss2023.sched.com/event/1LecF/virtual-leveraging-compiler-code-instrumentation-for-zephyr-tracing-profiling-tools-gustavo-romero-kevin-townsend-linaro#)June 26 • 12:00 - 12:40 CEST
+[(Virtual) Leveraging Compiler Code Instrumentation for Zephyr Tracing & Profiling Tools ](https://eoss2023.sched.com/event/1LecF/virtual-leveraging-compiler-code-instrumentation-for-zephyr-tracing-profiling-tools-gustavo-romero-kevin-townsend-linaro#)\
+June 26 • 12:00 - 12:40 CEST
 
 Speakers, Kevin Townsend, Technical Lead, Linaro and Gustavo Romero, Software Engineer, Linaro
 
