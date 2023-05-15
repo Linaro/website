@@ -343,7 +343,7 @@ Meanwhile, the latency may swing between a large minus and a large plus and this
 
 I want to exclude all these irregular values from statistics to understand static and average behaviors. While it is crucial to eliminate any possibility of big latencies in real-time applications, it's a bit beyond the scope of my study here.
 
-{% include image.html path="/assets/images/content/data-range-and-latencies.png" alt="data range and latencies" %
+{% include image.html path="/assets/images/content/data-range-and-latencies.png" alt="data range and latencies" %}
 
 Here is the stats comparison; one for using the whole data in a 15-minute run and the other against a 5-minute portion where the latencies are relatively stable. Obviously the maximum latency drops, while the average is almost the same and the standard deviation can be reduced which I believe reflects a general character of the graphs.
 
