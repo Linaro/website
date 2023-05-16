@@ -1,7 +1,8 @@
 ---
 title: Anything as a Service (XaaS)
-description: Anything as a Service describes cloud-based services being
-  delivered over remote access.
+description: Anything as a Service is the delivery of a vast array of
+  cloud-based services over remote access. Products, tools and technologies are
+  delivered as services using a flexible consumption model.
 ---
 
 ## Anything as a Service (XaaS)
