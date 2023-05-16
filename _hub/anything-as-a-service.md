@@ -1,9 +1,7 @@
 ---
 title: Anything as a Service (XaaS)
-description: >
-  Open source software was originally used to describe software that was publicly
-  accessible. It was juxtaposed to the typical proprietary code base. Only the original
-  authors of proprietary software can legally copy, inspect, and alter that software.
+description: Anything as a Service describes cloud-based services being
+  delivered over remote access.
 ---
 
 ## Anything as a Service (XaaS)
