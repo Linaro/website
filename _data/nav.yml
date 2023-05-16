@@ -13,6 +13,9 @@ pages:
         url: /automotive-iot-and-edge-devices/
       - text: Client Devices
         url: /client-devices/
+        options:
+          - text: Windows on Arm Group
+            url: /windows-on-arm/
       - text: Cloud Computing & Servers
         url: /cloud-computing-and-servers/
       - text: Core Technologies
@@ -43,8 +46,6 @@ pages:
         options:
           - text: All Projects
             url: /projects/
-          - text: Windows on Arm Group
-            url: /windows-on-arm/
           - text: Community Projects
             url: /community-projects/
   - title: Services
