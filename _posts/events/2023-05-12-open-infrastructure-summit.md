@@ -20,6 +20,6 @@ event_type: presenter
 ---
 With the increasing adoption rate of the Arm64 architecture, there is an emerging trend of introducing Arm64 servers to the HPC area. HPC storage is the fundamental infrastructure of the HPC framework. The functionality, stability and performance are the three emphases for HPC users to choose their HPC infrastructure. Addressing the three areas is critical for Arm64 architecture to enter into the HPC world.
 
-Kevin Zao, Tech Lead and Xinliang Liu, Engineer at Linaro will be presenting ”[Explore the HPC Storage on Arm64](https://vancouver2023.openinfra.dev/a/schedule?_ga=2.217089170.586854029.1683727808-1263697548.1683727808#;)”  on Thursday June 15th at 11:00-11:30 PT.
+Kevin Zhao, Tech Lead and Xinliang Liu, Engineer at Linaro will be presenting ”[Explore the HPC Storage on Arm64](https://vancouver2023.openinfra.dev/a/schedule?_ga=2.217089170.586854029.1683727808-1263697548.1683727808#;)”  on Thursday June 15th at 11:00-11:30 PT.
 
 In this presentation, we will share our works for HPC storage Lustre, DAOS, Ceph and BeeGFS on Arm64. It includes the enablement, stability and performance optimization for the HPC storage framework. The details for setting up and maintaining Arm64 CI, producing the Arm64 release of different operating systems for Lustre and DAOS will also be shared. We will also cover the IO500 performance optimization method for the HPC storage and some user scenarios will also be covered.
