@@ -104,11 +104,6 @@
         "uri": "https://www.arm.com/products/development-tools"
       },
       {
-        "image": "https://static.linaro.org/common/member-logos/st.jpg",
-        "name": "ST",
-        "uri": "https://www.st.com/content/st_com/en.html"
-      },
-      {
         "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
         "name": "HiSilicon",
         "uri": "https://www.hisilicon.com/en/"
