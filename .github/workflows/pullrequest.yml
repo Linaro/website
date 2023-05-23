@@ -4,9 +4,9 @@ on:
   pull_request_target:
     branches: [ master ]
 
-# Cancel in-progress jobs or runs for the current workflow
+# Cancel in-progress jobs or runs for the current pull request
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.event.number }}
   cancel-in-progress: true
 
 jobs:
