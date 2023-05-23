@@ -1,9 +1,8 @@
 ---
 title: IoT
-description: >
-  Open source software was originally used to describe software that was publicly
-  accessible. It was juxtaposed to the typical proprietary code base. Only the original
-  authors of proprietary software can legally copy, inspect, and alter that software.
+description: "The Internet of Things (IoT) is the extension of connectivity from
+  humans, machines and applications to any thing that can have a unique
+  identifier. "
 ---
 
 ## IoT
