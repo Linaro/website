@@ -11,4 +11,8 @@ header_register_button: false
 header_register_button_text: Register
 header_register_button_link: https://www.eventbrite.co.uk/e/linaro-connect-london-lhr23-registration-467575730597
 tabs_row_background_image: /assets/images/content/Connect23_Background_2.jpg
-tabs: []
+tabs:
+  - title: Ressources
+    text: For those who were unable to attend the previous Linaro Connect 23, videos
+      and presentations are available on [Linaro Resource
+      Hub](https://resources.linaro.org/en/events/aX4ZACECGES4EJ8jkU9Coe).
