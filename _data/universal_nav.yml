@@ -20,11 +20,7 @@ items:
   - options:
       - title: OpenAMP
         url: "https://www.openampproject.org"
-      - title: OP-TEE
-        url: "https://www.op-tee.org"
       - title: Trusted Firmware
         url: "https://www.trustedfirmware.org/"
-      - title: MCUboot
-        url: "https://www.mcuboot.com/"
     hamburger_toggle: true
     title: Projects
