@@ -7,12 +7,14 @@ header_text_left: |
   If you want to know what is happening in the Arm
   software ecosystem, look no further.
 header_text_right: |
-  The next Linaro Connect will be held in London, UK
-  on **Wednesday 26- Friday 28 April 2023**
-  Registration is now open!
-header_register_button: true
-header_register_button_text: Register
-header_register_button_link: https://www.eventbrite.co.uk/e/linaro-connect-london-lhr23-registration-467575730597
+  Upcoming Linaro Connect will be available soon!
+
+# The next Linaro Connect will be held in London, UK
+# on **Wednesday 26- Friday 28 April 2023**
+# Registration is now open!
+# header_register_button: true
+# header_register_button_text: Register
+# header_register_button_link: https://www.eventbrite.co.uk/e/linaro-connect-london-lhr23-registration-467575730597
 tabs_row_background_image: /assets/images/content/Connect23_Background_2.jpg
 tabs:
   - title: Registration
