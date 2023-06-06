@@ -106,44 +106,6 @@ flow:
     style: membership_text py-3 py-sm-5
     sections:
       - format: columns
-        section_anchor: lite
-        section_anchor_margin: 100
-        xs: 12
-        sm: 6
-        md: 6
-        lg: 6
-        xl: 6
-        style: bg-light pt-3
-        columns:
-          - sm: 4
-            md: 4
-            lg: 4
-            xl: 4
-            style: text-center p-3 bg-white
-            icon: /assets/images/content/LITE_icon_colour_no_text.svg
-            text: >
-              Linaro IoT & Embedded Group
-          - sm: 8
-            md: 8
-            lg: 8
-            xl: 8
-            style: p-3 bg-white
-            text: |
-              Linaro’s IoT and Embedded (LITE) Group members work collaboratively to
-              create and support key standards and best in class implementations to
-              enable secure connected devices in the Arm ecosystem.
-
-            custom_include: membership/related_projects_lite.html
-          - sm: 12
-            md: 12
-            lg: 12
-            xl: 12
-            style: p-3
-            custom_include: membership/related_group_members_lite.html
-  - row: container_row
-    style: membership_text py-3 py-sm-5
-    sections:
-      - format: columns
         section_anchor: ldcg
         section_anchor_margin: 100
         xs: 12

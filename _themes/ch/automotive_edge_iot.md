@@ -78,15 +78,6 @@ flow:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary
                   url: https://linaro.atlassian.net/wiki/spaces/STR/overview
-            - title: Open-CMSIS-Pack
-              style: related_project_block h-100
-              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
-              description: |
-                Open-CMSIS-Pack 项目正在为软件组件打包和相关基础工具提供标准，用于微控制器软件的验证、分发、集成、管理和维护。 它旨在为嵌入式软件创建一个灵活且易于使用的端到端开发流程——从项目创建到在真实或虚拟硬件上执行软件。
-              buttons:
-                - title: 了解更多
-                  style: btn-lg btn-primary btn-outline-primary
-                  url: https://linaro.atlassian.net/wiki/spaces/CMSIS/overview
             - title: Trusted Substrate
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
@@ -117,15 +108,6 @@ flow:
                 - title: 了解更多
                   style: btn-lg btn-primary btn-outline-primary
                   url: https://git.ostc-eu.org/groups/distro/-/milestones
-            - title: Optimize AI for Microcontrollers
-              style: related_project_block h-100
-              content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start
-              description: |
-                Optimize AI for Microcontrollers 项目专注于战略 AI 库 microTVM 和 Tensorflow Lite Micro。 该项目的目的是在 Arm 微控制器上启用推理工作负载，同时优化深度嵌入式环境的 AI 编译器体验。
-              buttons:
-                - title: 了解更多
-                  style: btn-lg btn-primary btn-outline-primary
-                  url: https://linaro.atlassian.net/wiki/spaces/AIM/overview
             - title: 异构平台
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column justify-content-between align-items-start

@@ -224,24 +224,6 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CMSIS/overview\">https://linaro.atlassian.net/wiki/spaces/CMSIS/overview</a>",
-                "Theme": [
-                    "Automotive, IoT & Edge Devices"
-                ],
-                "description": "Lead the evolution of the definition of the CMSIS-Pack specification. Backed by documentation and training material and CLI tools for major host platforms",
-                "title": "Open-CMSIS-Pack"
-            },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10552",
-            "key": [
-                "CMSIS"
-            ],
-            "membership": [
-                "lite"
-            ]
-        },
-        {
-            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LEDGE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/ORKO/overview\">https://linaro.atlassian.net/wiki/spaces/ORKO/overview</a>",
                 "Theme": [
