@@ -1,9 +1,8 @@
 ---
 title: Container Orchestration
-description: >
-  Open source software was originally used to describe software that was publicly
-  accessible. It was juxtaposed to the typical proprietary code base. Only the original
-  authors of proprietary software can legally copy, inspect, and alter that software.
+description: A container orchestrator manages workloads and services. It
+  automates the management, deployment, and scaling of containers across
+  multiple servers by abstracting the underlying infrastructure.
 ---
 
 ## Container orchestration
