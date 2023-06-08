@@ -5,7 +5,9 @@ title: WindowsPerf release 2.4.0 introduces the first stable version of sampling
 description: In this blog we talk about the highlights from the WindowsPerf
   2.4.0 release. Read more here!
 date: 2023-06-08 04:06:32 +01:00
-image: /assets/images/content/Tech_Background.jpg
+image: /assets/images/content/blog_python_woa.jpg
+tags:
+  - Windows on Arm
 category: blog
 author: " Przemyslaw_Wirkus"
 ---
@@ -36,27 +38,27 @@ You can find Linaro Connect 2023 WindowsPerf introductory presentation [here](ht
 
 # Highlights from the 2.4.0 Release
 
-You can find a full list of improvements here. Below is a summary of the highlights:
+You can find a full list of improvements [here](https://gitlab.com/Linaro/WindowsPerf/windowsperf/-/releases/2.4.0#changelog). Below is a summary of the highlights:
 
 * Signed Kernel driver - users do not have to disable SecureBoot to use WindowsPerf.
 * Stop sampling when the sampled process exits.
 * Comma separated printouts for large values of counters.
-* New tool wperf-devgen which will help users install WindowsPerf signed Kernel driver without devgen on their system.
+* New tool [wperf-devgen](https://gitlab.com/Linaro/WindowsPerf/windowsperf/-/blob/main/wperf-devgen/README.md) which will help users install WindowsPerf signed Kernel driver without devgen on their system.
 * Improvements to timeline.
 * Deduce from command line image and PDB file(s) for sampled executable.
 * Add to sampling support for DLLs symbols resolution.
 
 Release 2.4.0 is a reflection of our carefully crafted roadmap. We work with customers in order to deliver critical new features and functionalities as soon as possible. We’ve been able to squeeze in a three month development window the majority of requested features and stability improvements. We’ve worked on driver stability and refactored user-space application to pave the way for new incoming features such as C API library support, annotate feature (with perf.data format support), integration with MSVC extension framework and WPA plugin base. We are looking forward to the next release when we will present even more great features. This release is dedicated to native Windows on Arm developers porting their applications to WOA, experienced engineers seeking native ARM64 PMU performance tools, toolchain engineers running microbenchmarks and more!
 
-# Sampling CPython example
+## Sampling CPython example
 
 In this example we will build CPython from sources and execute simple instructions in Python interactive mode to obtain sampling from CPython runtime image. To achieve that we will:
 
 * Build CPython binaries targeting ARM64 from sources in debug mode.
 
   * We need access to PE and PDB files for symbol resolution in CPython executable and associated DLLs built with the project.
-* Pin python_d.exe interactive console to CPU core no. 1.
-* Try to calculate an absurdly large integer number Googolplex to stress CPython and get a simple workload.
+* Pin `python_d.exe` interactive console to CPU core no. 1.
+* Try to calculate an absurdly large integer number [Googolplex](https://en.wikipedia.org/wiki/Googolplex) to stress CPython and get a simple workload.
 * Run counting and sampling to obtain some simple event information.
 
 Let's go...
@@ -79,22 +81,22 @@ Date:   Tue Mar 14 10:05:54 2023 -0600
 Python 3.12.0a6+ (heads/main:1ff81c0cb6, Mar 14 2023, 16:26:50) [MSC v.1935 64 bit (ARM64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
-
 ```
 
-We will now copy above CPython binaries from PCbuild/arm64 build directory to our WOA ARM64 machine. Do not forget the Lib directory containing extra libs CPython!
+We will now copy above CPython binaries from `PCbuild/arm64 build` directory to our WOA ARM64 machine. Do not forget the Lib directory containing extra libs CPython!
 
 ### Example 1: Sampling CPython executing Googolplex calculation
 
-* Let’s pin a new CPython  python_d.exe  process (_d suffix tells us it’s an executable with debug information!) on CPU core no. 1:
+1. Let’s pin a new CPython `python_d.exe`  process (_d suffix tells us it’s an executable with debug information!) on CPU core no. 1:
 
 ```
 > cd PCbuild/arm64
 > start /affinity 2 python_d.exe
 ```
 
-* Check with the Task Manager if python_d.exe is running on core no. 1. 
-* Newly created CPython interactive window will allow us to execute example workloads. In the below example we will calculate a very large integer 10^10^100.
+2. Check with the Task Manager if `python_d.exe` is running on core no. 1. 
+
+3. Newly created CPython interactive window will allow us to execute example workloads. In the below example we will calculate a very large integer `10^10^100`.
 
 ```
 Python 3.12.0a6+ (heads/main:1ff81c0cb6, Mar 14 2023, 16:26:50) [MSC v.1935 64 bit (ARM64)] on win32
@@ -102,9 +104,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 10**10**100
 ```
 
-Note: start command line switch /affinity <hexaffinity> applies the specified processor affinity mask (expressed as a hexadecimal number) to the new application. In our example decimal 2 is 0x02 or 0b0010. This value denotes CPU core no. 1 as 1 is a 1st bit in the mask, where the mask is indexed from 0 (zero).
+Note: [start](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/start) command line switch `/affinity <hexaffinity>` applies the specified processor affinity mask (expressed as a hexadecimal number) to the new application. In our example decimal `2` is `0x02` or `0b0010`. This value denotes CPU core no. 1 as 1 is a 1st bit in the mask, where the mask is indexed from 0 (zero).
 
-* Execute counting to assess which events are “hot” - this step of course varies from use case to use case. In our case we knew that Googleplex calculation will influence events from the imix metric.
+4. Execute counting to assess which events are “hot” - this step of course varies from use case to use case. In our case we knew that Googleplex calculation will influence events from the `imix` metric.
 
 ```
 >wperf stat -m imix -c 1 sleep 3
@@ -126,10 +128,10 @@ note: 'e' - normal event, 'gN' - grouped event with group number N, metric name 
                 3.31 seconds time elapsed
 ```
 
-* Sampling for ld_spec event which, by looking at counting is dominant (at least for imix metrics).
+5. Sampling for `ld_spec` event which, by looking at counting is dominant (at least for imix metrics).
 
-Let's sample for the ld_spec event. Please note that you can specify process image name and PDB file name with wperf’s -pdb_file python_d.pdb and -image_name python_d.exe command line options. In our case wperf is able to deduce image name (same as PE file name) and PDB file from PE file name.
-We can stop sampling by pressing Ctrl-C in wperf console or sampling will end when sampled process exits.
+Let's sample for the `ld_spec` event. Please note that you can specify process image name and PDB file name with wperf’s `-pdb_file python_d.pdb` and `-image_name python_d.exe` command line options. In our case `wperf` is able to deduce image name (same as PE file name) and PDB file from PE file name.
+We can stop sampling by pressing `Ctrl-C` in `wperf` console or sampling will end when sampled process exits.
 
 ```
 >wperf sample -e ld_spec:100000 -pe_file python_d.exe -c 1
@@ -159,19 +161,19 @@ sampling ....e.e.e.e.e.eCtrl-C received, quit counting... done!
   0.13%         1  _PyLong_New:python312_d.dll
 ```
 
-In the above example we can see that the majority of code executed by CPython's python_d.exe executable resides inside the python312_d.dll file.
-Note that in sampling ....e.e.e.e.e. progressing printout . represents sample payload (of 128 samples) received from the driver. 'e' represents an unsuccessful attempt to fetch the whole sample payload. wperf is polling wperf-driver awaiting sample payload.
+In the above example we can see that the majority of code executed by CPython's `python_d.exe` executable resides inside the `python312_d.dll` file.
+Note that in `sampling ....e.e.e.e.e.` progressing printout . represents sample payload (of 128 samples) received from the driver. 'e' represents an unsuccessful attempt to fetch the whole sample payload. `wperf `is polling `wperf-driver` awaiting sample payload.
 
 ### Example 2: sampling of CPython executable on ARM64 running simple Fibonacci lambda
 
-* Let's execute a new portion of code to see a totally different sampling profile. Please note that again CPython executes code from its python312_d.dll.
+1. Let's execute a new portion of code to see a totally different sampling profile. Please note that again CPython executes code from its `python312_d.dll`.
 
 ```
 >>> fib = lambda n: n if n < 2 else fib(n-1) + fib(n-2)
 >>> fib (100)
 ```
 
-* Sampling again for ld_spec:
+2. Sampling again for `ld_spec`:
 
 ```
 >wperf sample -e ld_spec:10000 -pe_file python_d.exe -pdb_file python_d.pdb -image_name python_d.exe -c 1
@@ -211,18 +213,16 @@ sampling ....ee.e.eCtrl-C received, quit counting... done!
   0.26%         1  _Py_IncRefTotal:python312_d.dll
   0.26%         1  _PyFrame_SetStackPointer:python312_d.dll
   0.26%         1  unknown
-
 ```
 
 WindowsPerf can annotate which “hot” functions are executed when given event occurrences overflow counties. Please remember that in-depth performance analysis of sampling results is not trivial and may require you factor in effects such as performance events skid.
 
 # WindowsPerf releases update
 
-We’re planning to have a major release every three months with the next release 2.5.0 coming in June/July 2023. During the time between the releases, we will be able to implement 2-3 new major features (derived from our requirements), improve documentation and fix issues.
+We’re planning to have a major release every three months with the next release 2.5.0 coming in June/July 2023. During the time between the releases, we will be able to implement 2-3 new major features (derived from our [requirements](https://gitlab.com/Linaro/WindowsPerf/windowsperf/-/requirements_management/requirements)), improve documentation and fix issues.
 
 # Where to find us?
 
-For source code and binary releases please visit our WindowsPerf webpage at GitLab. Additional project resources include WindowsPerf Wiki and WindowsPerf JIRA project board.
+For source code and binary releases please visit our [WindowsPerf webpage at GitLab](https://gitlab.com/Linaro/WindowsPerf/windowsperf). Additional project resources include [WindowsPerf Wiki](https://linaro.atlassian.net/wiki/spaces/WPERF/overview) and [WindowsPerf JIRA](https://linaro.atlassian.net/jira/software/c/projects/WPERF/boards/169) project board.
 
-
-If you have any questions, issues you would like to raise please visit our WindowsPerf GitLab issue page and create a new issue with a clear description of the problem you're facing or issue you want help with.
+If you have any questions, issues you would like to raise please visit our [WindowsPerf GitLab issue page](https://gitlab.com/Linaro/WindowsPerf/windowsperf/-/issues) and create a new issue with a clear description of the problem you're facing or issue you want help with.
