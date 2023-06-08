@@ -57,7 +57,7 @@ flow:
             **Collaborate on common software projects with Linaro and other industry leaders**
 
 
-            Become a Linaro member and work with Linaro, other industry leaders and the open source community on software projects which deliver standardization and help accelerate new technologies on Arm. There are three levels of membership you can choose from - Core, Club and Group (Linaro has four Segment Groups - Linaro Consumer Group, Linaro Datacenter & Cloud Group, Linaro Edge & Fog Computing Group and Linaro IoT and Embedded Group). For more information on Linaro membership, how to participate in projects and what value our members see in membership, go to [Linaro Membership](/membership/). 
+            Become a Linaro member and work with Linaro, other industry leaders and the open source community on software projects which deliver standardization and help accelerate new technologies on Arm. There are three levels of membership you can choose from - Core, Club and Group (Linaro has four Segment Groups - Linaro Consumer Group, Linaro Datacenter & Cloud Group, Linaro Edge & Fog Computing Group and Linaro Windows Group). For more information on Linaro membership, how to participate in projects and what value our members see in membership, go to [Linaro Membership](/membership/). 
 
 
             **Leverage Linaro’s software expertise on your project**
