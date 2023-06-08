@@ -30,14 +30,6 @@ flow:
     style: bg-blue py-4 mb-5
     sections: []
   - row: container_row
-    style: text_blocks bg-secondary
-    sections:
-      - format: youtube
-        style: null
-        poster_image: /assets/images/content/confidential-ai-screen-capture.png
-        url: https://www.youtube.com/watch?v=uHXRuE1c5nI
-        title: Confidential AI
-  - row: container_row
     style: bg-lighter-blue text-center
     sections:
       - format: title
@@ -84,28 +76,6 @@ flow:
                   textBtn: true
                   style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/STR/overview
-            - title: Open-CMSIS-Pack
-              style: related_project_block h-100
-              content_style: related_project_block__content d-flex flex-column
-                justify-content-between align-items-start
-              description: |
-                The Open-CMSIS-Pack project is
-                delivering a standard for software
-                component packaging and related
-                foundation tools for validation,
-                distribution, integration, management,
-                and maintenance of microcontroller
-                software. It aims to create a flexible
-                and easy to use end to end
-                development flow - from project
-                creation to execution of the software
-                on real or virtual hardware - for
-                embedded software.
-              buttons:
-                - title: Open-CMSIS-Pack project
-                  style: btn-lg text-btn
-                  textBtn: true
-                  url: https://linaro.atlassian.net/wiki/spaces/CMSIS/overview
             - title: Trusted Substrate
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column
@@ -146,24 +116,6 @@ flow:
                   textBtn: true
                   style: btn-lg text-btn
                   url: https://git.ostc-eu.org/groups/distro/-/milestones
-            - title: Optimize AI for Microcontrollers
-              style: related_project_block h-100
-              content_style: related_project_block__content d-flex flex-column
-                justify-content-between align-items-start
-              description: |
-                The Optimize AI for Microcontrollers
-                project is focused on the strategic AI
-                libraries microTVM and Tensorflow
-                Lite Micro. The aim of this project is to
-                enable inference workloads on Arm
-                microcontrollers while optimizing the
-                AI compiler experience for deeply
-                embedded environments.
-              buttons:
-                - title: Optimize AI for Microcontrollers
-                  textBtn: true
-                  style: btn-lg text-btn
-                  url: https://linaro.atlassian.net/wiki/spaces/AIM/overview
             - title: Heterogeneous Platform
               style: related_project_block h-100
               content_style: related_project_block__content d-flex flex-column
@@ -229,23 +181,6 @@ flow:
                 - title: Linaro's Edge & Fog Computing Group
                   textBtn: true
                   style: btn-lg text-btn
-                  url: /membership/groups/
-            - title: Join Linaro's IoT & Embedded Group
-              style: related_project_block h-100 text-dark
-              content_style: related_project_block__content d-flex flex-column
-                justify-content-between align-items-start
-              description: >
-                If you want to collaborate with Linaro and other industry
-                leaders on projects which specifically tackle challenges in the
-                IoT space, the Linaro IoT & Embedded Group is the option for
-                you. Linaro's IoT and Embedded Group members work
-                collaboratively to create and support key standards and best in
-                class implementations to enable secure connected devices in the
-                Arm ecosystem.
-              buttons:
-                - title: Linaro's IoT & Embedded Group
-                  style: btn-lg text-btn
-                  textBtn: true
                   url: /membership/groups/
             - title: Join as a Linaro Club Member
               style: related_project_block h-100 text-dark
