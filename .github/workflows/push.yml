@@ -5,17 +5,17 @@ on:
     branches: [ master ]
   workflow_dispatch:
 
+# Cancel in-progress jobs or runs for the current workflow
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   process-push:
     runs-on: self-hosted
     steps:
-      - name: Cancel previous runs
-        uses: n1hility/cancel-previous-runs@v2
-        with: 
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Fetch git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ssh-key: ${{ secrets.LINARO_BUILD_KEY }}
           path: website
@@ -26,7 +26,7 @@ jobs:
       - run: env
 
       - name: Directory push/pop
-        uses: linaro-its/directory-push-and-pop@v2.4
+        uses: linaro-its/directory-push-and-pop@v3.0
         with:
           cacheDirectory: /srv/site-builds
           namedDirectory: ${{ env.SITE_URL }}

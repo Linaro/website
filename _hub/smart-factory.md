@@ -1,9 +1,8 @@
 ---
 title: Smart Factory
-description: >
-  Open source software was originally used to describe software that was publicly
-  accessible. It was juxtaposed to the typical proprietary code base. Only the original
-  authors of proprietary software can legally copy, inspect, and alter that software.
+description: The Smart factory is the result of the application of various
+  connective technologies to achieve hyper-flexible and self-adapting
+  manufacturing capabilities.
 ---
 
 ## The Smart Factory

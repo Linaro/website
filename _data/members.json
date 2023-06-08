@@ -59,11 +59,6 @@
         "uri": "https://www.fujitsu.com/global/"
       },
       {
-        "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
-        "name": "NXP",
-        "uri": "https://www.nxp.com/"
-      },
-      {
         "image": "https://static.linaro.org/common/member-logos/samsung.jpg",
         "name": "Samsung",
         "uri": "https://www.samsung.com/uk/"
@@ -107,11 +102,6 @@
         "image": "https://static.linaro.org/common/member-logos/arm.jpg",
         "name": "Arm",
         "uri": "https://www.arm.com/products/development-tools"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/st.jpg",
-        "name": "ST",
-        "uri": "https://www.st.com/content/st_com/en.html"
       },
       {
         "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
@@ -178,11 +168,6 @@
         "image": "https://static.linaro.org/common/member-logos/fujitsu.jpg",
         "name": "Fujitsu",
         "uri": "https://www.fujitsu.com/global/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/quic.jpg",
-        "name": "QuIC",
-        "uri": "https://www.qualcomm.com/"
       }
     ],
     "membership_group_name": "LDCG Members",
@@ -238,11 +223,6 @@
         "image": "https://static.linaro.org/common/member-logos/st.jpg",
         "name": "ST",
         "uri": "https://www.st.com/content/st_com/en.html"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
-        "name": "NXP",
-        "uri": "https://www.nxp.com/"
       }
     ],
     "membership_group_name": "LITE Members",
@@ -300,11 +280,6 @@
         "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
         "name": "Red Hat",
         "uri": "https://www.redhat.com/en"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
-        "name": "NXP",
-        "uri": "https://www.nxp.com/"
       },
       {
         "image": "https://static.linaro.org/common/member-logos/socionext.jpg",

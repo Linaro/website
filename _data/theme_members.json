@@ -48,11 +48,6 @@
         "url": "/membership/fujitsu/"
       },
       {
-        "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
-        "name": "NXP",
-        "url": "/membership/nxp/"
-      },
-      {
         "image": "https://static.linaro.org/common/member-logos/st.jpg",
         "name": "ST",
         "url": "/membership/st/"
@@ -71,11 +66,6 @@
         "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
         "name": "HiSilicon",
         "url": "/membership/hisilicon/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
-        "name": "NXP",
-        "url": "/membership/nxp/"
       },
       {
         "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
@@ -196,11 +186,6 @@
         "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
         "name": "HiSilicon",
         "url": "/membership/hisilicon/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
-        "name": "NXP",
-        "url": "/membership/nxp/"
       },
       {
         "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
@@ -345,11 +330,6 @@
         "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
         "name": "HiSilicon",
         "url": "/membership/hisilicon/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/nxp.jpg",
-        "name": "NXP",
-        "url": "/membership/nxp/"
       },
       {
         "image": "https://static.linaro.org/common/member-logos/socionext.jpg",

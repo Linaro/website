@@ -7,16 +7,18 @@ header_text_left: |
   If you want to know what is happening in the Arm
   software ecosystem, look no further.
 header_text_right: |
-  The next Linaro Connect will be held in London, UK
-  on **Wednesday 26- Friday 28 April 2023**
-  Registration is now open!
-header_register_button: true
-header_register_button_text: Register
-header_register_button_link: https://www.eventbrite.co.uk/e/linaro-connect-london-lhr23-registration-467575730597
+  Upcoming Linaro Connect will be available soon!
+
+# The next Linaro Connect will be held in London, UK
+# on **Wednesday 26- Friday 28 April 2023**
+# Registration is now open!
+# header_register_button: true
+# header_register_button_text: Register
+# header_register_button_link: https://www.eventbrite.co.uk/e/linaro-connect-london-lhr23-registration-467575730597
 tabs_row_background_image: /assets/images/content/Connect23_Background_2.jpg
 tabs:
   - title: Registration
-    text: >
+    text: >+
       Register for Linaro Connect and join hundreds of the world’s leading Arm
       Open Source engineers.
 
@@ -24,35 +26,32 @@ tabs:
       The next Linaro Connect will be held in London, United Kingdom, Wednesday 26-Friday 28 April 2023 at the Park Plaza Riverbank.
 
 
-      We are offering a discounted ticket rate of **£900** if you register before the end of January. Tickets will be **£1,200** from February onwards. Speakers receive free passes.\*
+      We are offering a discounted ticket rate of **£900** if you register before the end of February. Tickets will be **£1,200** from March onwards. Speakers receive free passes.*
 
 
       \*Linaro Member Companies get a discounted rate regardless of when they book. If you are a Linaro Member Company, please contact connect@linaro.org to receive your discount code if you haven’t already received it.
-  - title: Call for proposals
-    text: >-
+
+  - title: Schedule
+    custom_include: connect/connect_schedule.html
+  - title: Speakers Information
+    text: >
       Linaro Connect provides a platform to discuss and learn about the leading
       software topics, challenges and opportunities in the Arm Ecosystem today.
       What are the problems, innovations and hands-on knowledge that today’s Arm
       Developers are working on?
 
 
-      We will be launching the Call for Proposals on **Wed 21 December 2023**.
-
-
       See below key deadlines:
 
 
-      * Deadline to submit proposals: Wednesday 1 March 2023
-
-      * Schedule launch: Wednesday 15 March 2023
-
-      * Slides to be submitted: Wednesday 19 April 2023
+      All slides need to be submitted by Wednesday 19 April 2023.
 
 
-      From the smallest devices (IoT and embedded) to big data (enterprise), there is an Arm solution. We welcome proposals for technical presentations and discussions and Birds of a Feather (BoF).
 
 
-      [Submit your proposals here](https://sessionize.com/linaro-connect-2023/)
+
+
+      To view slides or videos from the keynotes and sessions from previous Linaro Virtual Connect events for inspiration for your submission, please go to our Resources page.
   - title: Accomodation & travel
     text: >
       The next Linaro Connect will be held in London, United Kingdom Wednesday
@@ -79,3 +78,24 @@ tabs:
       Sponsorship of the event puts your brand in front of world-leading Arm Software Experts. If you'd like to
 
       sponsor, [download our Sponsorship Prospectus here](https://linaro.co/linaro-connect-sponsorship-2023) and contact [connect@linaro.org](mailto:connect@linaro.org) to find out more.
+  - title: Code of Conduct
+    text: >
+      Linaro Ltd, as host for Linaro Connect, is dedicated to providing a harassment-free experience for participants at all of our events. Linaro events are working conferences intended for professional networking and collaboration in the Linux community. They exist to encourage the open exchange of ideas and expression and require an environment that recognizes the inherent worth of every person and group. While at Linaro events or related ancillary or social events, any participants, including speakers, attendees, volunteers, sponsors, exhibitors, booth staff and anyone else, should not engage in harassment in any form of communication or media including email, texting and social media.
+
+
+      All event participants are expected to behave in accordance with professional standards, with both the Linaro Connect Code of Conduct as well as their respective employer's policies governing  appropriate workplace behavior, and applicable laws.
+
+
+      Harassment will not be tolerated in any form, including but not limited to harassment based on gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion or any other status protected by laws in which the conference or program is being held. Harassment includes the use of abusive, offensive or degrading language, intimidation, stalking, harassing photography or recording, inappropriate physical contact, sexual imagery and unwelcome sexual advances or requests for sexual favors.. Any report of harassment at one of our events will be addressed immediately. Participants asked to stop any harassing behavior are expected to comply immediately. Anyone who witnesses or is subjected to unacceptable behavior should notify a conference organizer at once.
+
+
+      Exhibitors should not use sexualized images, activities, or other material in their booths and must refrain from the use of sexualized clothing/uniforms/costumes, or otherwise creating a sexualized environment. Speakers should not use sexual language, images, or any language or images that would constitute harassment as defined above in their talks.
+
+
+      If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, ranging from issuance of a warning to the offending individual to  expulsion from the conference with no refund, depending on the circumstances. Linaro reserves the right to exclude any participant found to be engaging in harassing behavior from participating in any further Linaro events, trainings or other activities.
+
+
+      If you are being harassed, notice that someone else is being harassed, or have any other concerns relating to harassment, please contact a member of conference staff immediately. Conference staff can be identified by t-shirts/staff badges onsite; and an organizer can be found at the event registration counter at any time. You are also encouraged to contact Diane Cheshire, Group HR Director at diane (dot) cheshire (at) linaro (dot) org.
+
+
+      Conference staff will be happy to provide support to participants, including contacting hotel/venue security or local law enforcement, when appropriate, providing escorts, or otherwise assisting those experiencing harassment to ensure that they feel safe for the duration of the conference. We value your attendance.

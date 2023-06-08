@@ -1,9 +1,7 @@
 ---
 title: Smart Cities
-description: >
-  Open source software was originally used to describe software that was publicly
-  accessible. It was juxtaposed to the typical proprietary code base. Only the original
-  authors of proprietary software can legally copy, inspect, and alter that software.
+description: A Smart City solves the challenges of urban living through the
+  deployment of an integrated suite of technologies.
 ---
 
 ## Smart City

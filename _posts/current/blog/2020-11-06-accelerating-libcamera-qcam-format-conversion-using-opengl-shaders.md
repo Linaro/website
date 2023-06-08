@@ -323,7 +323,7 @@ oid ViewFinderGL::doRender()
 		break;
 ```
 
-The code has already been merged into the libcamera git tree \[6], but if you’re interested in the specific patches that implement what we’ve talked about in this post then please take a look at the following commits
+The code has already been merged into the libcamera git tree, but if you’re interested in the specific patches that implement what we’ve talked about in this post then please take a look at the following commits
 
 * <https://git.linuxtv.org/libcamera.git/commit/?id=4a4a3e715b8314c56a2a32788d92fdec464af7b7>
 * <https://git.linuxtv.org/libcamera.git/commit/?id=2daa704c968c8aa7a4b209450f228b41e9d42d85>
@@ -341,7 +341,6 @@ After moving the format conversion to the GPU, the qcam frame rate improved a lo
 3. <https://github.com/gjasny/v4l-utils/blob/master/utils/qv4l2/capture-win-gl.cpp#L1547>
 4. <https://learnopengl.com/Getting-started/Hello-Triangle>
 5. <https://learnopengl.com/Getting-started/Textures>
-6. <https://git.linuxtv.org/libcamera.git/tree/src/qcam>
 
 ## About the Author
 

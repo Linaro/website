@@ -1,9 +1,10 @@
 ---
 title: CI, Delivery & Deployment
 description: >
-  Continuous integration (CI) is the process of automating and integrating code changes
-  and updates into the software development process. Typically, a developer will create
-  code locally, subject it to testing and then frequently propose the code for integration...
+  Continuous integration (CI) is the process of automating and integrating code
+  changes and updates into the software development process. Typically, a
+  developer will create code locally, subject it to testing and then frequently
+  propose the code for integration...
 ---
 
 ## Continuous integration, delivery and deployment
@@ -61,12 +62,6 @@ TuxBuild ™ exposes an on-demand API to build massive quantities of Linux kerne
 #### TuxPub
 
 TuxPub™ is the open source AWS S3-backed Serverless File Server, used by TuxSuite to globally distribute build artefacts.
-
-### Linaro’s Linux Kernel Quality program
-
-Linaros Linux Kernel Quality program encompasses both Linux kernel testing and testing of the Long Term Supported (LTS)-derived Android common kernel from the Android Open Source Project (AOSP).
-
-Linaro’s Linux Kernel Functional Testing (LKFT) framework is a long-running project that provides unparalleled coverage over 6 Linux LTS releases, the linux-next branch and linux-mainline branches. Functional regression testing is performed in real-time over an array of release, architecture and target combinations.
 
 ### Linaro Software Quality Dashboard (SQUAD)
 

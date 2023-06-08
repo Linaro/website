@@ -1,9 +1,7 @@
 ---
 title: FOG Computing
-description: >
-  Open source software was originally used to describe software that was publicly
-  accessible. It was juxtaposed to the typical proprietary code base. Only the original
-  authors of proprietary software can legally copy, inspect, and alter that software.
+description: " The role of Fog is to preserve cloud and networking resources and
+  ensure the vast data flows from the Edge are exploited intelligently."
 ---
 
 ## FOG Computing
