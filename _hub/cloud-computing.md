@@ -1,9 +1,9 @@
 ---
 title: Cloud Computing
-description: >
-  XaaS is the delivery of a vast array of cloud-based services over remote access.
-  Products, tools and technologies are delivered as services using a flexible
-  consumption model.
+description: When you use an app on your phone, the resources, such as memory
+  and compute, you need to run that app are provided by your phone. At its
+  simplest, cloud computing simply means that those resources are provided by
+  something other than your phone.
 ---
 
 ## Cloud computing
