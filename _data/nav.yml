@@ -12,9 +12,11 @@ pages:
       - text: Automotive, IoT & Edge Devices
         url: /automotive-iot-and-edge-devices/
       - text: Client Devices
-        url: /client-devices/
+        url: ""
         options:
-          - text: Windows on Arm Group
+          - text: "Client Devices "
+            url: /client-devices/
+          - text: "Windows on Arm "
             url: /windows-on-arm/
       - text: Cloud Computing & Servers
         url: /cloud-computing-and-servers/

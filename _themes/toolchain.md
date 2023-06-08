@@ -1,13 +1,13 @@
 ---
 id: 1
-title: Toolchain
+title: Toolchain | Arm Toolchain | Linaro
 sub_theme: true
 permalink: /core-technologies/toolchain/
 image: /assets/images/content/toolchain-share-image.png
 icon: /assets/images/content/Icon_Toolchain_notext.svg
 js-package: contactForm
 description: >
-  Toolchains continue to evolve as new SoC features are added. Our mission is to improve & maintain open-source Arm toolchain projects.
+  Toolchains continue to evolve as new SoC features are added. Our mission is to improve & maintain open-source Arm toolchain projects. Read more here!
 # presentation_link: https://linaro.co/ai-slides
 video_resources_link: https://resources.linaro.org/en/themes/e07e525f-3fa5-44db-a1b2-bc673a318fe4
 jumbotron:
