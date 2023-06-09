@@ -65,8 +65,6 @@ Let's go...
 
 Let's first build CPython locally in debug mode. We will in this example cross-compile CPython to the ARM64 target. Build machine in this example is x64 host
 
-U﻿nset
-
 ```
 > git clone git@github.com:python/cpython.git
 > cd cpython
@@ -87,16 +85,15 @@ We will now copy above CPython binaries from `PCbuild/arm64 build` directory to 
 
 ### Example 1: Sampling CPython executing Googolplex calculation
 
-1. Let’s pin a new CPython `python_d.exe`  process (_d suffix tells us it’s an executable with debug information!) on CPU core no. 1:
+* Let’s pin a new CPython `python_d.exe`  process (_d suffix tells us it’s an executable with debug information!) on CPU core no. 1:
 
 ```
 > cd PCbuild/arm64
 > start /affinity 2 python_d.exe
 ```
 
-2. Check with the Task Manager if `python_d.exe` is running on core no. 1. 
-
-3. Newly created CPython interactive window will allow us to execute example workloads. In the below example we will calculate a very large integer `10^10^100`.
+* Check with the Task Manager if `python_d.exe` is running on core no. 1. 
+* Newly created CPython interactive window will allow us to execute example workloads. In the below example we will calculate a very large integer `10^10^100`.
 
 ```
 Python 3.12.0a6+ (heads/main:1ff81c0cb6, Mar 14 2023, 16:26:50) [MSC v.1935 64 bit (ARM64)] on win32
@@ -106,7 +103,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Note: [start](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/start) command line switch `/affinity <hexaffinity>` applies the specified processor affinity mask (expressed as a hexadecimal number) to the new application. In our example decimal `2` is `0x02` or `0b0010`. This value denotes CPU core no. 1 as 1 is a 1st bit in the mask, where the mask is indexed from 0 (zero).
 
-4. Execute counting to assess which events are “hot” - this step of course varies from use case to use case. In our case we knew that Googleplex calculation will influence events from the `imix` metric.
+* Execute counting to assess which events are “hot” - this step of course varies from use case to use case. In our case we knew that Googleplex calculation will influence events from the `imix` metric.
 
 ```
 >wperf stat -m imix -c 1 sleep 3
@@ -128,7 +125,7 @@ note: 'e' - normal event, 'gN' - grouped event with group number N, metric name 
                 3.31 seconds time elapsed
 ```
 
-5. Sampling for `ld_spec` event which, by looking at counting is dominant (at least for imix metrics).
+* Sampling for `ld_spec` event which, by looking at counting is dominant (at least for imix metrics).
 
 Let's sample for the `ld_spec` event. Please note that you can specify process image name and PDB file name with wperf’s `-pdb_file python_d.pdb` and `-image_name python_d.exe` command line options. In our case `wperf` is able to deduce image name (same as PE file name) and PDB file from PE file name.
 We can stop sampling by pressing `Ctrl-C` in `wperf` console or sampling will end when sampled process exits.
@@ -162,18 +159,18 @@ sampling ....e.e.e.e.e.eCtrl-C received, quit counting... done!
 ```
 
 In the above example we can see that the majority of code executed by CPython's `python_d.exe` executable resides inside the `python312_d.dll` file.
-Note that in `sampling ....e.e.e.e.e.` progressing printout . represents sample payload (of 128 samples) received from the driver. 'e' represents an unsuccessful attempt to fetch the whole sample payload. `wperf `is polling `wperf-driver` awaiting sample payload.
+Note that in `sampling ....e.e.e.e.e.` progressing printout . represents sample payload (of 128 samples) received from the driver. 'e' represents an unsuccessful attempt to fetch the whole sample payload. `wperf`is polling `wperf-driver` awaiting sample payload.
 
 ### Example 2: sampling of CPython executable on ARM64 running simple Fibonacci lambda
 
-1. Let's execute a new portion of code to see a totally different sampling profile. Please note that again CPython executes code from its `python312_d.dll`.
+* Let's execute a new portion of code to see a totally different sampling profile. Please note that again CPython executes code from its `python312_d.dll`.
 
 ```
 >>> fib = lambda n: n if n < 2 else fib(n-1) + fib(n-2)
 >>> fib (100)
 ```
 
-2. Sampling again for `ld_spec`:
+* Sampling again for `ld_spec`:
 
 ```
 >wperf sample -e ld_spec:10000 -pe_file python_d.exe -pdb_file python_d.pdb -image_name python_d.exe -c 1
