@@ -159,7 +159,7 @@ sampling ....e.e.e.e.e.eCtrl-C received, quit counting... done!
 ```
 
 In the above example we can see that the majority of code executed by CPython's `python_d.exe` executable resides inside the `python312_d.dll` file.
-Note that in `sampling ....e.e.e.e.e.` progressing printout . represents sample payload (of 128 samples) received from the driver. 'e' represents an unsuccessful attempt to fetch the whole sample payload. `wperf`is polling `wperf-driver` awaiting sample payload.
+Note that in `sampling ....e.e.e.e.e.` progressing printout '.'  represents sample payload (of 128 samples) received from the driver. 'e' represents an unsuccessful attempt to fetch the whole sample payload. `wperf`is polling `wperf-driver` awaiting sample payload.
 
 ### Example 2: sampling of CPython executable on ARM64 running simple Fibonacci lambda
 
