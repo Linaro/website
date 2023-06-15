@@ -73,7 +73,7 @@
                 "Theme": [
                     "Cloud Computing & Servers"
                 ],
-                "description": "The aim of this project is to make AArch64 a first class citizen in the Big Data, Analytics and Data Science community (e.g., Hadoop, Spark, etc.). Big Data and Data Science technologies are vital and have become mature with various production implementations. Linaro drives engineering activities and ARMv8 builds. for Apache Ambari, BigTop, Spark and Hadoop.",
+                "description": "The aim of this project is to make AArch64 a first class citizen in the Big Data, Analytics and Data Science community (e.g., Hadoop, Spark, etc.). Big Data and Data Science technologies are vital and have become mature with various production implementations. Linaro drives engineering activities and ARMv8 builds. for Apache Ambari, BigTop, Spark and Hadoop.<br><br>This project sponsored by Huawei.",
                 "title": "Big Data & Data Science"
             },
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10564",
@@ -86,19 +86,21 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CA/overview\">https://linaro.atlassian.net/wiki/spaces/CA/overview</a>",
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CCR/overview\">https://linaro.atlassian.net/wiki/spaces/CCR/overview</a>",
                 "Theme": [
-                    "Automotive, IoT & Edge Devices"
+                    "Cloud Computing & Servers"
                 ],
-                "description": "An end-to-end proof-of-concept demonstrating modern security best practices for Armv8-M, based on open source software and open standards, with AI/ML as a use case.",
-                "title": "Confidential AI"
+                "description": "DRAFT\u2026Need a name\u2026Confidential Compute Architecture\u2026.",
+                "title": "Confidential Computing on Realms (CCR)"
             },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10414",
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10415",
             "key": [
-                "CA"
+                "CCR"
             ],
-            "membership": []
+            "membership": [
+                "ldcg"
+            ]
         },
         {
             "Project Information": {
@@ -123,7 +125,7 @@
                 "Theme": [
                     "Cloud Computing & Servers"
                 ],
-                "description": "The goal is to remove the gaps with x86 by collaborating together in the Arm server ecosystem, so that we can provide competitive and leading storage solutions with Arm servers.<br><br>Deliverables are focused around:<br><br><ul><li> Participate in the upstream communities of Ceph/Lustre/BeeGFS/etc for ARM64 support, setup CI testing on Arm servers, and drive the official ARM64 releases;</li><li> Performance optimizations by leveraging key ARM64 architecture features (storage related benchmark testing can be done for the profiling);</li><li> Drive community promotion by members/partners together for storage solutions on Arm servers to help customer adoptions;</li></ul>",
+                "description": "The goal is to remove the gaps with x86 by collaborating together in the Arm server ecosystem, so that we can provide competitive and leading storage solutions with Arm servers.<br><br>Deliverables are focused around:<br><br><ul><li> Participate in the upstream communities of Ceph/Lustre/BeeGFS/etc for ARM64 support, setup CI testing on Arm servers, and drive the official ARM64 releases;</li><li> Performance optimizations by leveraging key ARM64 architecture features (storage related benchmark testing can be done for the profiling);</li><li> Drive community promotion by members/partners together for storage solutions on Arm servers to help customer adoptions;</li></ul>This project is sponsored by Huawei.",
                 "title": "Enhance Software-Defined-Storage on Arm Servers"
             },
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10560",
@@ -195,7 +197,7 @@
                 "Theme": [
                     "Cloud Computing & Servers"
                 ],
-                "description": "The Ecosystem Landscape Dashboard Project is to create and support a public platform to house a unified ecosystem landscape of open source projects.  This platform (a web site) will include a dashboard for each project with resources to educate a developer as to the status about the project.  The vision for the site is as a unified communication hub and connection point to the latest community resources.  Project will enable contributions from communities to assist in growing the platform dataset. <br><br>When successful, it will provide a one-stop resource, which can help everyone find necessary software project information and resources about Arm support through this platform whether it\u2019s the first or the 500th time the user needs community data for development on Arm.  <br><br>This project is *not* limited to one segment and is intended to cover the arm ecosystem.",
+                "description": "The Ecosystem Landscape Dashboard Project is to create and support a public platform to house a unified ecosystem landscape of open source projects.  This platform (a web site) will include a dashboard for each project with resources to educate a developer as to the status about the project.  The vision for the site is as a unified communication hub and connection point to the latest community resources.  Project will enable contributions from communities to assist in growing the platform dataset. <br><br>When successful, it will provide a one-stop resource, which can help everyone find necessary software project information and resources about Arm support through this platform whether it\u2019s the first or the 500th time the user needs community data for development on Arm.  <br><br>This project is *not* limited to one segment and is intended to cover the arm ecosystem.<br><br>This project is sponsored by Huawei.",
                 "title": "Linaro Ecosystem Dashboard"
             },
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10406",
@@ -224,7 +226,25 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LEDGE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LITE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CMSIS/overview\">https://linaro.atlassian.net/wiki/spaces/CMSIS/overview</a>",
+                "Theme": [
+                    "Automotive, IoT & Edge Devices"
+                ],
+                "description": "Lead the evolution of the definition of the CMSIS-Pack specification. Backed by documentation and training material and CLI tools for major host platforms",
+                "title": "Open-CMSIS-Pack"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10552",
+            "key": [
+                "CMSIS"
+            ],
+            "membership": [
+                "lite"
+            ]
+        },
+        {
+            "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/ORKO/overview\">https://linaro.atlassian.net/wiki/spaces/ORKO/overview</a>",
                 "Theme": [
                     "Automotive, IoT & Edge Devices"
