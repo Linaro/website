@@ -129,6 +129,11 @@ flow:
       - format: custom_include
         source: woa/testimonials.html
   - row: container_row
+    style: bg-green
+    sections:
+      - format: custom_include
+        source: woa/tagged_blogs.html
+  - row: container_row
     style: my-3 bg-light-gray
     sections:
       - format: title
