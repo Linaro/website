@@ -13,7 +13,7 @@ author: andrea.gallo
 ---
 # Introduction
 
-Microsoft Build is an annual conference event held by Microsoft, targeted at software engineers and web developers using Windows. Linaro was present at the Microsoft BUILD event in Seattle on May 23rd-25th, 2023. From a broad conference perspective, the focus was on the integration of generative AI across the entire range of products by Microsoft. This enables unprecedented use cases, for example the new Microsoft copilot AI-based assistant could analyse a test report from github, identify every test failure and create a corresponding Jira ticket, assign it to the right engineers, send email notifications and calendar reminders.
+Microsoft Build is an annual conference event held by Microsoft, targeted at software engineers and web developers from the Azure and Windows ecosystem. Linaro was present at the Microsoft BUILD event in Seattle on May 23rd-25th, 2023. From a broad conference perspective, the focus was on the integration of generative AI across the entire range of products by Microsoft. This enables unprecedented use cases, for example the new Microsoft copilot AI-based assistant could analyse a test report from github, identify every test failure and create a corresponding Jira ticket, assign it to the right engineers, send email notifications and calendar reminders.
 
 At the conference, Microsoft also announced an increasing number of new applications being released with native support for Windows on Arm. In this blog we take a closer look at what this means for the Windows on Arm ecosystem and the role Linaro has played in these significant achievements. 
 
