@@ -12,6 +12,7 @@ keywords:
 js-package: about
 css_bundle: woa
 layout: flow
+video_resources_link: https://resources.linaro.org/en/tags/0e965752-e803-4fd8-9a71-f01c5c1a113f
 jumbotron:
   class: header_2021_2 theme_banner
   title_row: true
@@ -128,6 +129,11 @@ flow:
           text: Testimonials from Members of the Linaro Windows Group
       - format: custom_include
         source: woa/testimonials.html
+  - row: container_row
+    style: bg-green
+    sections:
+      - format: custom_include
+        source: woa/tagged_resources_and_blogs.html
   - row: container_row
     style: my-3 bg-light-gray
     sections:
