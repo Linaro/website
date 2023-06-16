@@ -9,7 +9,7 @@ tags:
   - HPC
   - Linaro Forge
 category: blog
-author: linaro
+author: Florent.Lebeau
 ---
 Continuous integration or CI is widely used in software engineering to improve software integration and quality, especially for large projects that involve a lot of developers. Naturally, high performance computing (HPC) applications can benefit from CI frameworks such as [Jenkins](https://www.jenkins.io/) to make sure that the software meets precision and performance requirements as the code grows and optimizations are performed.
 CI tools are essentially robots that manage projects to build, test across many resources and perform these operations in parallel. They can be interfaced with control version software, build systems, or unit test frameworks for a better integration in the development workflow. Finally, they collect and aggregate data to display the “health” of the application in terms of validated tests as the application is being developed.
