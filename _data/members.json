@@ -31,11 +31,6 @@
     "id": "club",
     "members": [
       {
-        "image": "https://static.linaro.org/common/member-logos/st.jpg",
-        "name": "ST",
-        "uri": "https://www.st.com/content/st_com/en.html"
-      },
-      {
         "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
         "name": "Socionext",
         "uri": "http://www.socionext.com/en/"
@@ -218,11 +213,6 @@
         "image": "https://static.linaro.org/common/member-logos/arm.jpg",
         "name": "Arm",
         "uri": "https://www.arm.com/products/development-tools"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/st.jpg",
-        "name": "ST",
-        "uri": "https://www.st.com/content/st_com/en.html"
       }
     ],
     "membership_group_name": "LITE Members",
@@ -265,11 +255,6 @@
         "image": "https://static.linaro.org/common/member-logos/arm.jpg",
         "name": "Arm",
         "uri": "https://www.arm.com/products/development-tools"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/st.jpg",
-        "name": "ST",
-        "uri": "https://www.st.com/content/st_com/en.html"
       },
       {
         "image": "https://static.linaro.org/common/member-logos/hisilicon.jpg",
