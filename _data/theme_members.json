@@ -46,11 +46,6 @@
         "image": "https://static.linaro.org/common/member-logos/fujitsu.jpg",
         "name": "Fujitsu",
         "url": "/membership/fujitsu/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/st.jpg",
-        "name": "ST",
-        "url": "/membership/st/"
       }
     ]
   },
@@ -76,11 +71,6 @@
         "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
         "name": "Socionext",
         "url": "/membership/socionext/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/st.jpg",
-        "name": "ST",
-        "url": "/membership/st/"
       }
     ]
   },
@@ -106,11 +96,6 @@
         "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
         "name": "Socionext",
         "url": "/membership/socionext/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/st.jpg",
-        "name": "ST",
-        "url": "/membership/st/"
       }
     ]
   },
@@ -136,11 +121,6 @@
         "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
         "name": "Socionext",
         "url": "/membership/socionext/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/st.jpg",
-        "name": "ST",
-        "url": "/membership/st/"
       }
     ]
   },
@@ -196,11 +176,6 @@
         "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
         "name": "Socionext",
         "url": "/membership/socionext/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/st.jpg",
-        "name": "ST",
-        "url": "/membership/st/"
       }
     ]
   },
@@ -310,11 +285,6 @@
         "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
         "name": "Socionext",
         "url": "/membership/socionext/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/st.jpg",
-        "name": "ST",
-        "url": "/membership/st/"
       }
     ]
   },
@@ -335,11 +305,6 @@
         "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
         "name": "Socionext",
         "url": "/membership/socionext/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/st.jpg",
-        "name": "ST",
-        "url": "/membership/st/"
       },
       {
         "image": "https://static.linaro.org/common/member-logos/quic.jpg",
