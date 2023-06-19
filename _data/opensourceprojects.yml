@@ -100,9 +100,6 @@ items:
   - name: GNU
     image: /assets/images/projects/gnu.png
     url: https://www.gnu.org/
-  - name: MCU Boot
-    image: /assets/images/content/mcuboot.png
-    url: https://mcuboot.com/
   - name: MicroPython
     image: /assets/images/content/micropython.png
     url: http://micropython.org/

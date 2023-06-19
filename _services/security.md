@@ -70,10 +70,7 @@ flow:
         style: null
         text_content:
           text: >
-            Linaro is a contributor to each of these projects. In addition, the
-            Linaro Community Projects Division hosts the [Trusted Firmware
-
-            project](https://www.trustedfirmware.org/) and the [MCUboot project](https://www.mcuboot.com/).
+            Linaro is a contributor to each of these projects. In addition, the Linaro Community Projects Division hosts the [Trusted Firmware project](https://www.trustedfirmware.org/).
 
 
             We have direct experience using these projects to deliver optimized trusted boot solutions to a number of customers; on Arm

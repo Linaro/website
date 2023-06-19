@@ -41,7 +41,7 @@ flow:
           - title: 通过利用成员的内部代码库实现生态系统目标
             icon: /assets/images/content/house_code.svg
             content: |
-              在某些情况下，成员会向 Linaro 捐赠一个项目，使我们能够利用内部开发的代码库来实现更广泛的生态系统目标。 Linaro 提供了一个中立的平台，可以使用我们的工具和流程建立协作。 一旦项目启动并运行，它可以继续从 Linaro 工程协作中受益，或者可选择演变为 Linaro 社区项目，这是一个具有独立治理的项目。 迄今为止，共有三个 Linaro 社区项目 - [MCUboot](https://www.mcuboot.com/index.html)、[OpenAMP](https://www.openampproject.org/) 和 [Trusted Firmware](https ://www.trustedfirmware.org/）。
+              在某些情况下，成员会向 Linaro 捐赠一个项目，使我们能够利用内部开发的代码库来实现更广泛的生态系统目标。 Linaro 提供了一个中立的平台，可以使用我们的工具和流程建立协作。 一旦项目启动并运行，它可以继续从 Linaro 工程协作中受益，或者可选择演变为 Linaro 社区项目，这是一个具有独立治理的项目。 迄今为止，有两个 Linaro 社区项目 - [OpenAMP](https://www.openampproject.org/) 和 [Trusted Firmware](https ://www.trustedfirmware.org/）。
       - format: text
         text_content:
           text: |

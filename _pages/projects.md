@@ -75,9 +75,7 @@ flow:
 
               benefit from Linaro engineering collaboration or optionally evolve into a Linaro Community Project, a
 
-              project with stand-alone governance. To date there are three Linaro Community Projects - [MCUboot](https://www.mcuboot.com/index.html),
-
-              [OpenAMP](https://www.openampproject.org/) and [Trusted Firmware](https://www.trustedfirmware.org/).
+              project with stand-alone governance. To date there are two Linaro Community Projects - [OpenAMP](https://www.openampproject.org/) and [Trusted Firmware](https://www.trustedfirmware.org/).
       - format: text
         text_content:
           text: >

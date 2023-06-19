@@ -24,7 +24,5 @@ items:
         url: "https://www.op-tee.org"
       - title: Trusted Firmware
         url: "https://www.trustedfirmware.org/"
-      - title: MCUboot
-        url: "https://www.mcuboot.com/"
     hamburger_toggle: true
     title: Projects
