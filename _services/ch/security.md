@@ -63,7 +63,7 @@ flow:
         style: null
         text_content:
           text: >
-            Linaro 是每个项目的贡献者。 此外，Linaro 社区项目部负责托管 [Trusted Firmware 项目](https://www.trustedfirmware.org/) 和 [MCUboot 项目](https://www.mcuboot.com/)。
+            Linaro 是其中每个项目的贡献者。 此外，Linaro 社区项目部主持了 [Trusted Firmware 项目](https://www.trustedfirmware.org/)。
 
 
             我们在使用这些项目为许多客户提供优化的可信引导解决方案方面拥有直接经验； 在 Arm 服务器、机顶盒、嵌入式/物联网系统和使用 OpenBMC 的服务器 BMC 环境中。
