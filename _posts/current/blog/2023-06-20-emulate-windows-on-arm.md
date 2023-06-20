@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Emulate Windows on Arm
+title: How to emulate Windows on Arm
 description: This blog is about emulating Windows on Arm on any Linux x64 machine
 date: 2023-06-20 12:19:17 +01:00
 image: /assets/images/content/coding.jpg
