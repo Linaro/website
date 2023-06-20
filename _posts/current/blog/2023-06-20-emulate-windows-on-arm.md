@@ -5,7 +5,7 @@ description: This blog is about emulating Windows on Arm on any Linux x64 machin
 date: 2023-06-20 12:19:17 +01:00
 image: /assets/images/content/coding.jpg
 tags:
-  - WindowsonArm
+  - Windows on Arm
 category: blog
 author: pierrick_bouvier
 ---
