@@ -81,7 +81,7 @@ While there are [some](https://lists.freedesktop.org/archives/virglrenderer-deve
 
 For QEMU several groups have proposed [various](https://patchew.org/QEMU/20220926142422.22325-1-antonio.caggiano@collabora.com/) [patches](https://patchew.org/QEMU/20230312092244.451465-1-ray.huang@amd.com/) to [enhance](https://patchew.org/QEMU/20230421011223.718-1-gurchetansingh@chromium.org/) the virtio-gpu device with various extensions. We intended to help with review while also integrating those patches with QEMU’s recent [xenpvh](https://patchew.org/QEMU/20230411224746.16152-1-vikram.garhwal@amd.com/) support and start making measurements on real HW on how much each abstraction costs. We also want to explore using the CrosVM [Wayland backend](https://crosvm.dev/book/devices/wayland.html) (which uses vhost-user under the hood) and see how hard it is to integrate with QEMU’s xenpvh mode and our Xen vhost-user Frontend.
 
-**Stand-alone virtio-gpu daemon**
+### **Stand-alone virtio-gpu daemon**
 
 While we are using QEMU to help with bootstrapping VirtIO devices in our SOAFEE platform, our vision is still very much to have stand-alone hypervisor independent daemons written in Rust utilising [rust-vmm components](https://github.com/rust-vmm). There are a number of other reasons why having a standalone daemon is useful:
 
