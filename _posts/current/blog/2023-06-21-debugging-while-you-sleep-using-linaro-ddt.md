@@ -4,7 +4,7 @@ title: Debugging while you sleep using Linaro DDT
 description: In this blog we talk about how to debug offline using Linaro DDT.
   Read more here!
 date: 2018-04-24 12:57:38 +01:00
-image: /assets/images/content/Banner_Toolchain.jpg
+image: /assets/images/content/DataCenter.jpg
 tags:
   - Linaro Forge
   - HPC
