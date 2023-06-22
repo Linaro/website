@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Debugging While You Sleep with DDT
+title: More Debugging While You Sleep with DDT
 description: In this blog we provide a step by step guide to debugging with
   Linaro DDT. Read more here!
 date: 2019-04-02 02:53:28 +01:00
@@ -11,7 +11,9 @@ tags:
 category: blog
 author: Beau_Paisley
 ---
-In this post I am going to focus on running DDT from the command line. I will present a few use cases on how the utility of offline debugging can be expanded by running from the command line and post-processing CSV output.
+It’s been close to a year since my first [Debugging While You Sleep blog](https://www.linaro.org/blog/debugging-while-you-sleep-using-linaro-ddt/) on offline debugging with the Linaro DDT HPC debugger.  A lot of bugs have passed under the bridge and I know that the next year will bring many more but along with healthy living, offline debugging will ensure that there are very few sleepless nights! 
+
+In my first post on offline debugging I focused on using the DDT graphical user interface for creating session files and analyzing the debugging output in HTML. In this post I am going to focus on running DDT from the command line. I will present a few use cases on how the utility of offline debugging can be expanded by running from the command line and post-processing CSV output.
 
 # Look Like a Guru – Embrace the Command Line
 

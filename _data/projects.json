@@ -86,24 +86,6 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CCR/overview\">https://linaro.atlassian.net/wiki/spaces/CCR/overview</a>",
-                "Theme": [
-                    "Cloud Computing & Servers"
-                ],
-                "description": "DRAFT\u2026Need a name\u2026Confidential Compute Architecture\u2026.",
-                "title": "Confidential Computing on Realms (CCR)"
-            },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10415",
-            "key": [
-                "CCR"
-            ],
-            "membership": [
-                "ldcg"
-            ]
-        },
-        {
-            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/QEMU/overview\">https://linaro.atlassian.net/wiki/spaces/QEMU/overview</a>",
                 "Theme": [
