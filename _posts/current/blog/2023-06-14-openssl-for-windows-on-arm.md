@@ -40,7 +40,7 @@ Notice that in this particular case OpenSSL was compiled on hardware that lacks 
 
 {% include image.html path="/assets/images/content/clang-cl-as-the-assembler-openssl.png" alt="clang cl as the assembler openssl" %}
 
-Here the improvements gained from using clang-cl as the assembler are quite obvious. Further analysis on the full benchmark needs to be done, evaluating all the points where performance is still not as expected along with possible causes and solutions. One drawback from our measurements right now is that we are not building for targets with the crypto extension. Because of that we are using the generic implementation even when compiling with assembly support as there is no alternative when the extension is not available. The results obtained are usually equivalent to or just slightly better than the emulated version. 
+Here the improvements gained from using clang-cl as the assembler are quite obvious. Further analysis on the full benchmark needs to be done, evaluating all the points where performance is still not as expected along with possible causes and solutions. Here the improvements gained from using clang-cl as the assembler are quite obvious. Further analysis on the full benchmark needs to be done, evaluating all the points where performance is still not as expected along with possible causes and solutions.  
 
 Linaro continues to drive forward the Windows on Arm ecosystem and results like this prove our commitment to keep it in good shape. We are aware that further investigations and improvements are still required and we will stay committed to improving and enhancing the open source environment for the platform. 
 
