@@ -15,4 +15,11 @@ flow:
     sections:
       - format: custom_include
         source: whitepapers.html
+      - format: title
+        style: font-weight-bold mt-4
+        title_content:
+          text: Archive
+          size: h2
+      - format: custom_include
+        source: whitepaper_archive.html
 ---

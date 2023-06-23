@@ -1,6 +1,6 @@
 <div class="row">
     {% for whitepaper in site.whitepapers %}
-    {% if whitepaper.category != 'archive' %}
+    {% if whitepaper.category == 'archive' %}
     <div class="col col-12 col-lg-4 mb-4">
         <a class="whitepaper_link" href="{{whitepaper.whitepaper_url}}">
             <div class="whitepaper-wrapper">
