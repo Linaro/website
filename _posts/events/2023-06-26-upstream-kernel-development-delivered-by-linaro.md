@@ -12,7 +12,7 @@ description: >-
   This course covers the “social” aspects of upstream kernel development. It is best suited to trainees who understand how to write kernel drivers but have not previously worked alongside the wider kernel community. Trainees will learn how to confidently participate in upstream kernel development and, in particular, how to contribute new kernel drivers.
 visual_date: "\n"
 location: Online
-date: 2023-06-26 04:02:04 +02:00
+date: 2023-06-26 07:21:48 +02:00
 event_date: 2023-07-11 06:00:04 +02:00
 event_end_date: 2023-07-18 08:30:04 +02:00
 image: /assets/images/content/techwebinars_events_page.jpg
