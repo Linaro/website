@@ -26,11 +26,11 @@ This course will be held in 2 sessions.
 
 Sessions will be two and a half hours long.
 
+**Please note this training is only available to Google employees.**
+
 ## Part I: Mechanics
 
 * What is Upstreaming?
-
-
 * How the Linux project is organised
 * How to Upstream?\
         ○ Patch Preparation\
@@ -43,11 +43,9 @@ Sessions will be two and a half hours long.
           ○ Further reading\
           ○ Minarai - Learning by watching    
 
-## Part II: Tips, tools and techniques      
+## Part II: Tips, tools and techniques
 
 * Talking with upstream
-
-
 * Tags
 * Thinking like a maintainer
 * Kernel versioning and release flow
