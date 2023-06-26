@@ -15,7 +15,7 @@ The Forge team is pleased to announce [our first major release as part of Linaro
 
 ## Rebranding
 
-New logos, new colorways, and it all looks really cool!  For support please reach us now at **support@forge.linaro.com**. Find us on the web now at, [www.linaroforge.com](www.linaroforge.com) 
+New logos, new colorways, and it all looks really cool!  For support please reach us now at **support@forge.linaro.com**. Find us on the web now at, [www.linaroforge.com](https://www.linaroforge.com/) 
 
 ## The Continued Democratization of HPC with Python
 
