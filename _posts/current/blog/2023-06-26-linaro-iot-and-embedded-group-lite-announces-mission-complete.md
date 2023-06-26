@@ -7,7 +7,7 @@ description: This blog  highlight the achievements of Linaro's IoT & Embedded
   integration, and end-to-end best practices. Discover more about their
   accomplishments.
 date: 2023-06-27 08:00:27 +02:00
-image: /assets/images/content/iot_planet_under_2mb.jpg
+image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
 strap_image: ""
 tags:
   - IoT and Embedded
