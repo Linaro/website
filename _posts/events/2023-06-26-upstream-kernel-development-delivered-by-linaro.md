@@ -4,12 +4,12 @@ event: upstream-kernel-development-delivered-by-linaro
 event_url: https://www.cognitoforms.com/Linaro1/UpstreamKernelDevelopmentdeliveredByLinaro
 description: >-
   Upstream Kernel Development shows trainees how to contribute to the Linux
-  kernel. Thisincludes understanding the role of kernel maintainers, how to best
-  align their work withthe Linux release schedule, how to handle feedback and
-  what to do if things don’t go toplan.
+  kernel. This includes understanding the role of kernel maintainers, how to
+  best align their work with the Linux release schedule, how to handle feedback
+  and what to do if things don’t go to plan.
 
 
-  This course covers the “social” aspects of upstream kernel development. It is bestsuited to trainees who understand how to write kernel drivers but have not previouslyworked alongside the wider kernel community. Trainees will learn how to confidentlyparticipate in upstream kernel development and, in particular, how to contribute newkernel drivers.
+  This course covers the “social” aspects of upstream kernel development. It is best suited to trainees who understand how to write kernel drivers but have not previously worked alongside the wider kernel community. Trainees will learn how to confidently participate in upstream kernel development and, in particular, how to contribute new kernel drivers.
 visual_date: "\n"
 location: Online
 date: 2023-06-26 04:02:04 +02:00
