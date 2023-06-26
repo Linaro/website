@@ -1,5 +1,5 @@
 ---
-title: Upstream Kernel Development (delivered by Linaro)
+title: "Google training: Upstream Kernel Development (delivered by Linaro)"
 event: upstream-kernel-development-delivered-by-linaro
 event_url: https://www.cognitoforms.com/Linaro1/UpstreamKernelDevelopmentdeliveredByLinaro
 description: >-
