@@ -11,7 +11,7 @@ tags:
 category: blog
 author: Beau_Paisley
 ---
-The Forge team is pleased to announce our first major release as part of Linaro.  This release includes myriad enhancements, improvements, and fixes and we are proud to have it out the door on time with all of the commitments that were made long before Linaro was a twinkle in our eye.  Moving to Linaro created a lot of unforeseen tasks such as setting up new laptops, learning new IT systems, new employee paperwork,  etc. but the team knuckled down and got it done.   This blog will provide a survey of the new capabilities and you can expect to see more in depth details in the future.  We encourage you to reach out to the team at **sales@forge.linaro.com** for a personal in-depth overview of what’s new.
+The Forge team is pleased to announce [our first major release as part of Linaro](https://www.linaroforge.com/downloadForge/). This release includes myriad enhancements, improvements, and fixes and we are proud to have it out the door on time with all of the commitments that were made long before Linaro was a twinkle in our eye.  Moving to Linaro created a lot of unforeseen tasks such as setting up new laptops, learning new IT systems, new employee paperwork,  etc. but the team knuckled down and got it done.   This blog will provide a survey of the new capabilities and you can expect to see more in depth details in the future.  We encourage you to reach out to the team at **sales@forge.linaro.com** for a personal in-depth overview of what’s new.
 
 ## Rebranding
 
@@ -31,8 +31,6 @@ DDT has improvements to existing Python capabilities and many additions.
 * Halting on uncaught Python exceptions
 * Improved evaluation of Matrix and Record Array objects
 * Show f-string variables in the current line tab of the variable view
-
-
 
 ### Performance Engineering Tools Enhancements for Python
 
@@ -58,7 +56,7 @@ The CPU name is now included in the Performance Reports and MAP metadata output.
 
 The architecture and usability of DDT and MAP has been highly optimized over the years to support large scale SPMD (single process multiple data) applications.  As we have been watching the evolving design of HPC codes take on other design paradigms we have been evolving our tools to support those models.   With this release, MAP has made several user interface enhancements to simplify the analysis of OpenMP threaded codes, non OpenMP threaded codes and GPU codes. 
 
-## Currency 
+## Currency
 
 Forge is a complex and mature product that works in environments with many interacting technologies.  Keeping the tools stable and robust with all of the changing versions of compilers, OpenMP libraries, MPI systems, etc. takes a lot of ongoing in-depth work that does not appear as new functionality to every user.   Please see the release notes in the distribution for all of these changes.
 
