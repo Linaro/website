@@ -6,8 +6,8 @@ description: This blog  highlight the achievements of Linaro's IoT & Embedded
   source projects have successfully implemented architecture support, security
   integration, and end-to-end best practices. Discover more about their
   accomplishments.
-date: 2023-06-27 08:00:27 +02:00
-image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
+date: 2023-06-27 09:00:27 +02:00
+image: /assets/images/content/code_highway_small.jpg
 strap_image: ""
 tags:
   - IoT and Embedded
