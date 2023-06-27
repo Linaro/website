@@ -7,17 +7,18 @@ brand:
   path: /assets/images/Linaro-Logo.svg
   alt: Linaro logo
 pages:
-  - title: Solutions
+  - title: Working Groups
     options:
+      - text: Working Groups
+        options:
+          - text: Working Groups
+            url: /working-groups/
+          - text: Projects
+            url: /projects/
       - text: Automotive, IoT & Edge Devices
         url: /automotive-iot-and-edge-devices/
-      - text: Client Devices
-        url: ""
-        options:
-          - text: "Client Devices "
-            url: /client-devices/
-          - text: "Windows on Arm "
-            url: /windows-on-arm/
+      - text: Android Ecosystem
+        url: /android-ecosystem/
       - text: Cloud Computing & Servers
         url: /cloud-computing-and-servers/
       - text: Core Technologies
@@ -36,20 +37,8 @@ pages:
             url: /core-technologies/toolchain/
           - text: Virtualization
             url: /core-technologies/virtualization/
-  - title: Membership
-    options:
-      - text: Membership
-        options:
-          - text: Overview
-            url: /membership/
-          - text: Group Membership
-            url: /membership/groups/
-      - text: Projects
-        options:
-          - text: All Projects
-            url: /projects/
-          - text: Community Projects
-            url: /community-projects/
+      - text: Windows on Arm
+        url: /windows-on-arm/
   - title: Services
     options:
       - text: Overview
