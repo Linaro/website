@@ -15,7 +15,7 @@ The Forge team is pleased to announce [our first major release as part of Linaro
 
 ## Rebranding
 
-New logos, new colorways, and it all looks really cool!  For support please reach us now at **support@forge.linaro.com**. Find us on the web now at, [www.linaroforge.com](www.linaroforge.com) 
+New logos, new colorways, and it all looks really cool!  For support please reach us now at **support@forge.linaro.com**. Find us on the web now at, [www.linaroforge.com](https://www.linaroforge.com/) 
 
 ## The Continued Democratization of HPC with Python
 
@@ -62,4 +62,4 @@ Forge is a complex and mature product that works in environments with many inter
 
 ## Continuing the Journey
 
-To obtain more information on Forge please visit us at <https://www.linaroforge.com>.  If you would like to schedule an overview presentation  of our tools, or a detailed brief of what’s new in this release  please contact the Forge sales team at **sales@forge.linaro.com**.   And, if you think that this blog was even half as worthwhile as a tabloid at the grocery check out, please hit the like and subscribe buttons.  Or, at least  make sure to [subscribe to our newsletter](https://linaro.us3.list-manage.com/subscribe?u=14baaae786342d0d405ee59c2&id=bcfa4abc8f) to hear about more in the future.
+To obtain more information on Forge please visit us at <https://www.linaroforge.com>.  If you would like to schedule an overview presentation  of our tools, or a detailed brief of what’s new in this release  please contact the Forge sales team at **sales@forge.linaro.com**.   And, if you think that this blog was even half as worthwhile as a tabloid at the grocery check out, please make sure to [subscribe to our newsletter](https://linaro.us3.list-manage.com/subscribe?u=14baaae786342d0d405ee59c2&id=bcfa4abc8f) to hear about more in the future.
