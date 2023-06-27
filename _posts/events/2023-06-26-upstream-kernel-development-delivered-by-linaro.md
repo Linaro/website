@@ -20,9 +20,9 @@ event_type: webinar
 ---
 This course will be held in 2 sessions.
 
-**Part I: Mechanics**, takes place on Tuesday, July 11 at 06:00pm GMT. 
+**Part I: Mechanics**, takes place on Tuesday, July 11 at 04:00pm GMT. 
 
-**Part II: Tips, tools and techniques**, is on Tuesday July 18 at 06:00pm GMT. 
+**Part II: Tips, tools and techniques**, is on Tuesday July 18 at 04:00pm GMT. 
 
 Sessions will be two and a half hours long.
 
