@@ -7,20 +7,18 @@ permalink: /android-ecosystem/
 image: /assets/images/content/client-devices-share-image.png
 icon: /assets/images/content/Client_Devices_icon_white.svg
 icon_dark: /assets/images/content/CD.svg
-icon_alt: /assets/images/content/Client_Devices_icon.svg
+icon_alt: /assets/images/content/Client_Devices_icon_white.svg
 icon_col: /assets/images/content/Client_Devices_icon_col.svg
 js-package: contactForm
 description: >
   Arm is the dominant CPU architecture in modern smartphones because of its efficient power consumption, fast performance and all day battery life. Ensuring Android devices run smoothly on Arm is therefore crucial to deliver an exceptional user experience. 
-presentation_link: https://linaro.co/android-slides
+# presentation_link: https://linaro.co/android-slides
 video_resources_link: https://resources.linaro.org/en/themes/307811da-98f5-4cfe-b63c-72b117b9c674
 jumbotron:
-  class: header_2021_2 theme_banner
+  class: header_no_bold_first_para theme_banner
   title_row: true
   title: Android Ecosystem
   description: |
-    
-
     Arm is the dominant CPU architecture in modern smartphones because of its efficient power consumption, fast performance and all day battery life. Ensuring Android devices run smoothly on Arm is therefore crucial to deliver an exceptional user experience. 
   image: /assets/images/content/Client_Devices_banner_pic.jpg
 flow:
@@ -58,6 +56,11 @@ flow:
             ## Maintaining Secure and Up to Date Android Devices
 
             There are millions of Android devices all over the world that need to be kept secure and up to date. But how do you make that happen? Linaro has been active in the Android community for many years, specialising in getting security patches and features upstreamed so that the community as a whole can benefit. Equally crucial to ensuring Android devices are secure and up to date is the regular testing of upstream kernels. Linaro created the testing framework which is used to do just this - Linux Kernel Functional Test (LKFT). Linaro runs regular tests of upstream kernels with AOSP and creates regression reports to the community, authoring fixes to specific issues which are then passed along to the correct community to take action.
+  - row: container_row
+    style: bg-light-gray
+    sections:
+      - format: custom_include
+        source: themes/android_ecosystem_testimonial.html
   - row: custom_include_row
     source: themes/associated_members.html
   - row: container_row

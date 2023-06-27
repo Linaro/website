@@ -92,6 +92,46 @@ body {
       }
     }
   }
+  .jumbotron.background_image.header_no_bold_first_para {
+    z-index: 0;
+    height: auto;
+    .inner_content_wrapper {
+      position: relative;
+      z-index: 9;
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      top: 0;
+      z-index: 1;
+      left: 0;
+      background: linear-gradient(
+        to left,
+        rgba(#000, 0) 0%,
+        rgba(#000, 1) 100%
+      );
+    }
+    .header_background_image {
+      filter: brightness(0.6);
+    }
+    padding: 0px;
+    picture {
+      width: 100%;
+    }
+    &:before {
+      position: relative;
+    }
+    .title_row {
+      h1 {
+        margin-bottom: 0;
+      }
+    }
+  }
   .coloured_bullet_list {
     ul {
       list-style: none;
