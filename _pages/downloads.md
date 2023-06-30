@@ -11,7 +11,6 @@ keywords:
   - GCC
   - Cortex-A GCC 8.3-2019.03
   - Arm
-  - Ledge
   - Linaro Toolchain
   - Toolchain
   - Linaro Member Builds
@@ -56,10 +55,6 @@ flow:
               style: text-center
               content_style: d-flex align-items-center blue_block
               url: "#releases_for_snapdragon"
-            - title: LEDGE Reference Platform
-              style: text-center
-              content_style: d-flex align-items-center blue_block
-              url: "#ledge_rp"
   - row: container_row
     style: text_blocks_1
     sections:
@@ -231,27 +226,4 @@ flow:
 
 
             [Click here for more information on how Linaro helps companies upstream to Qualcomm platforms.](https://www.linaro.org/services/qualcomm-platforms-services/)
-      - format: title
-        style: block_bg_header
-        title_content:
-          id: ledge_rp
-          style: font-weight-bold
-          text: LEDGE RP - A secure and robust container runtime environment
-          size: h2
-      - format: text
-        text_content:
-          text: >-
-            The LEDGE Reference Platform (RP) is a lightweight highly secure and
-            robust container runtime environment that has dependable boot and
-            update capabilities. It comes with a full set of security policies
-            with SELinux, IMA (Linux Kernel Integrity Measurement Architecture)
-            and other technologies and builds on SystemReady-IR and EBBR
-            specifications.The complete Ledge Reference Platform v0.3 Release
-            can be accessed here:
-
-
-            [LEDGE Reference Platform 0.3 Release](http://releases.linaro.org/components/ledge/rp-0.3/)
-
-
-            Additional information relating to the LEDGE Reference Platform can be found [here](https://github.com/Linaro/meta-ledge)
 ---
