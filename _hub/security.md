@@ -55,7 +55,7 @@ Outputs of the project include upstream contributions and reference implementati
 The current list of topics are:
 
 - System DeviceTree
-- [Matter](https://en.wikipedia.org/wiki/Matter_(standard) Connectivity Integration
+- [Matter](https://en.wikipedia.org/wiki/Matter_(standard)) Connectivity Integration
 - MCU Power Management
 - MCUBoot Development
 - Zephyr RTOS Development
