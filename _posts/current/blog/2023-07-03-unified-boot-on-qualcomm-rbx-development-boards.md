@@ -58,7 +58,6 @@ Create image
 $mkbootimg --kernel u-boot.bin.gz-dtb \
     --ramdisk qrb4210-rb2.itb --pagesize 4096 \
     --base 0x80000000 --output boot.img
-
 ```
 
 ## Chainloading
