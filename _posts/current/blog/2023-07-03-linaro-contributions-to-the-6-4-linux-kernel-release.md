@@ -24,15 +24,21 @@ In this blog, we asked the Linaro Engineers featured in LWN’s list of most act
 
 {% include image.html path="/assets/images/content/most-active-6.4-kernel-release-developers2.png" alt="Most active 6.4 Kernel Release Developers" %}
 
+
+
 ## Krzysztof Kozlowski
 
 In the v6.4 kernel, Krzysztof contributed Audio support for the Qualcomm SM8550 SoC: digital codecs, Soundwire controllers and respective DTS. He also added a Qualcomm QRD8550 board with that SoC. As with every cycle, Krzysztof was on a cleaning and fixing spree bringing Qualcomm SoC bindings and DTS files closer to full DT schema compliance. Krzysztof also worked on cleanups in Samsung SoC DTS and hardware monitoring drivers, tree-wide improvements of of_device_id table usage and fixes for 1-Wire subsystem, which he recently took as maintainer.
 
 With almost two hundred Reviewed-by credits for the Devicetree bindings, Krzysztof made it to the top reviewers list for this release. 
 
+
+
 ## Konrad Dybcio
 
-Konrad’s work this cycle mainly revolved around improving and cleaning up existing SoC drivers, fixing regressions (such as ensuring the Last Level Cache is properly initialized on the SM8550 platform), addressing some long-standing issues and laying some groundwork for larger patchsets coming next cycle. On top of that, he introduced support for the Qualcomm Robotics RB1 board. Konrad also reviewed tons of incoming patches.
+Konrad’s work this cycle mainly revolved around improving and cleaning up existing SoC drivers, fixing regressions (such as ensuring the Last Level Cache is properly initialized on the SM8550 platform), addressing some long-standing issues and laying some groundwork for larger patchsets coming next cycle. On top of that, he introduced support for the Qualcomm Robotics RB1 board. Konrad also reviewed tons of incoming patches. 
+
+
 
 ## Manivannan Sadhasivam
 
@@ -40,9 +46,15 @@ In this release, Manivannan mostly worked on Qualcomm PCI and EDAC/LLCC drivers 
 
 {% include image.html path="/assets/images/content/test-and-review-credits-in-6.4.png" alt="Test and review credits in 6.4" %}
 
+
+
 ## Dmitry Baryshkov 
 
-This cycle Dmitry’s work included reviewing a large part of changes for the Qualcomm Display driver (drm/msm), which accounted for more than a half of his Reviewed-by tags. Dmitry also assisted in reviewing Qualcomm-specific patches, including the DT (Device Tree) changes as well as patches targeting Qualcomm clock, interconnect and PHY drivers.
+This cycle Dmitry’s work included reviewing a large part of changes for the Qualcomm Display driver (drm/msm), which accounted for more than a half of his Reviewed-by tags. Most of the display patches were generic enough and did not target any particular platform, but worked towards improving user experience on all recent Qualcomm platforms, including SM8450 and SM8550.
+
+Also Dmitry assisted in reviewing other Qualcomm-specific patches, including the DT (Device Tree) changes as well as patches targeting Qualcomm clock, interconnect and PHY drivers.
+
+
 
 ## Conclusion
 
