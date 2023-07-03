@@ -23,3 +23,19 @@ author: linaro
 In this blog, we asked the Linaro Engineers featured in LWN’s list of most active developers to the 6.4 Kernel Release to talk about their contributions.
 
 {% include image.html path="/assets/images/content/most-active-6.4-kernel-release-developers2.png" alt="Most active 6.4 Kernel Release Developers" %}
+
+## Krzysztof Kozlowski
+
+In the v6.4 kernel, Krzysztof contributed Audio support for the Qualcomm SM8550 SoC: digital codecs, Soundwire controllers and respective DTS. He also added a Qualcomm QRD8550 board with that SoC. As with every cycle, Krzysztof was on a cleaning and fixing spree bringing Qualcomm SoC bindings and DTS files closer to full DT schema compliance. Krzysztof also worked on cleanups in Samsung SoC DTS and hardware monitoring drivers, tree-wide improvements of of_device_id table usage and fixes for 1-Wire subsystem, which he recently took as maintainer.
+
+With almost two hundred Reviewed-by credits for the Devicetree bindings, Krzysztof made it to the top reviewers list for this release. 
+
+## Konrad Dybcio
+
+Konrad’s work this cycle mainly revolved around improving and cleaning up existing SoC drivers, fixing regressions, addressing some long-standing issues and laying some groundwork for larger patchsets coming next cycle. On top of that, he introduced support for the Qualcomm Robotics RB1 board. Konrad also reviewed tons of incoming patches.
+
+## Manivannan Sadhasivam
+
+In this release, Manivannan mostly worked on Qualcomm PCI and EDAC/LLCC drivers along with several devicetree fixes/improvements. Most notably, Manivannan reworked the PCI endpoint notifiers to a callback-based mechanism to pass the events from Endpoint controllers to function drivers. In addition, the PCI Root Complex (RC) support for Qualcomm SDX55 SoC was also added on top of a cleanup of the Qualcomm PCIe RC driver. Finally, Manivannan fixed the Qualcomm EDAC/LLCC drivers to use SoC specific register offsets instead of hardcoded offsets to fix the crash observed on SM8450 SoC.
+
+{% include image.html path="/assets/images/content/test-and-review-credits-in-6.4.png" alt="Test and review credits in 6.4" %}
