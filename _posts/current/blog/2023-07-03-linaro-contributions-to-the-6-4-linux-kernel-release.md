@@ -4,7 +4,7 @@ title: Linaro Contributions to the 6.4 Linux Kernel Release
 description: In this article, we discuss the 6.4 kernel release, which was
   published last week & featured Linaro yet again in the top five contributors
   to the Linux kernel.
-date: 2023-07-04 09:00:35 +01:00
+date: 2023-07-04 12:59:08 +01:00
 image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
   - Linux kernel
