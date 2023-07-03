@@ -54,7 +54,7 @@ This cycle Dmitry’s work included reviewing a large part of changes for the Qu
 
 Also Dmitry assisted in reviewing other Qualcomm-specific patches, including the DT (Device Tree) changes as well as patches targeting Qualcomm clock, interconnect and PHY drivers.
 
-
+ 
 
 ## Conclusion
 
