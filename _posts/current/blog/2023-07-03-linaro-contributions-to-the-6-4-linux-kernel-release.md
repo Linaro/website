@@ -36,7 +36,7 @@ Konrad’s work this cycle mainly revolved around improving and cleaning up exis
 
 ## Manivannan Sadhasivam
 
-In this release, Manivannan mostly worked on Qualcomm PCI and EDAC/LLCC drivers along with several devicetree fixes/improvements. Most notably, Manivannan reworked the PCI endpoint notifiers to a callback-based mechanism to pass the events from Endpoint controllers to function drivers. In addition, the PCI Root Complex (RC) support for Qualcomm SDX55 SoC was also added on top of a cleanup of the Qualcomm PCIe RC driver. Finally, Manivannan fixed the Qualcomm EDAC/LLCC drivers to use SoC specific register offsets instead of hardcoded offsets to fix the crash observed on SM8450 SoC.
+In this release, Manivannan mostly worked on Qualcomm PCI and EDAC/LLCC drivers along with several devicetree fixes/improvements. Most notably, Manivannan reworked the PCI endpoint notifiers to a callback-based mechanism to pass the events from Endpoint controllers to function drivers. In addition, the PCIe Root Complex (RC) support for Qualcomm SDX55 SoC was also added on top of a cleanup of the Qualcomm PCIe RC driver. With this, users can now access the PCIe devices connected to the SDX55 SoC. Finally, Manivannan fixed the Qualcomm EDAC/LLCC drivers to use SoC specific register offsets instead of hardcoded offsets to fix the crash observed on SM8450 SoC. This will allow the users to use both EDAC and LLCC drivers on the SM8450 SoC.
 
 {% include image.html path="/assets/images/content/test-and-review-credits-in-6.4.png" alt="Test and review credits in 6.4" %}
 
