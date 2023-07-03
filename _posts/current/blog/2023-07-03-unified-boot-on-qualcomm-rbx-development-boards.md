@@ -7,7 +7,7 @@ description: "This blog talks about benefits of Linaro Core and Club memberships
   The Linaro Qualcomm Landing Team has been actively involved since 2014,
   building stable releases for the 96Boards Dragonboard program and supporting
   next-gen Qualcomm mobile platforms. #Linaro #LandingTeam #OpenSource"
-date: 2023-07-03 11:49:33 +01:00
+date: 2023-07-06 08:30:33 +01:00
 image: /assets/images/content/96boards-specification-consumer-edition-v2.jpg
 category: blog
 author: vinod.koul
