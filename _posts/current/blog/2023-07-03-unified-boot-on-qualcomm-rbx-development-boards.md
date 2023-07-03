@@ -46,7 +46,20 @@ The choice of U-boot as a medium for chain loading is due to a variety of factor
 
 The ABL would chain load the U-boot FIT image. We use an android boot image with u-boot.bin instead of linux kernel, and FIT image instead of initramfs. Android bootloader expects gzipped kernel with appended dtb, so we mimic linux to satisfy the stock bootloader requirement.
 
-{% include image.html path="/assets/images/content/gzip-u-boot.png" alt="android boot image with u-boot.bin" %}
+```
+gzip u-boot
+$ gzip u-boot.bin
+
+append dtb to gzipped u-boot
+$ cat u-boot.bin.gz "$mock_dtb" > u-boot.bin.gz-dtb
+
+Create image
+
+$mkbootimg --kernel u-boot.bin.gz-dtb \
+    --ramdisk qrb4210-rb2.itb --pagesize 4096 \
+    --base 0x80000000 --output boot.img
+
+```
 
 ## Chainloading
 
@@ -59,6 +72,8 @@ The devicetree is always loaded from local storage and provisioned along with th
 Linaro Qualcomm Landing Team Sr. Engineer Bhupesh Sharma demoed this work using newly introduced Qualcomm Snapdragon [Robotics RB1 Platform](https://www.qualcomm.com/products/internet-of-things/industrial/industrial-automation/qualcomm-robotics-rb1-platform) and [Robotics RB2 Platform](https://www.qualcomm.com/products/internet-of-things/industrial/industrial-automation/qualcomm-robotics-rb2-platform) using u-boot to chain load the load the device tree and kernel from the local storage
 
 The video of the demo can be found on [Linaro’s youtube channel](https://www.youtube.com/watch?v=jH3Eea1rHgA).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jH3Eea1rHgA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Future work
 
