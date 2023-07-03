@@ -74,6 +74,8 @@ The video of the demo can be found on [Linaro’s youtube channel](https://www.y
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jH3Eea1rHgA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
+
 ## Future work
 
 In future, Linaro is looking forward to supporting more platforms using this method and being able to support Unified boot image across multiple platforms.
