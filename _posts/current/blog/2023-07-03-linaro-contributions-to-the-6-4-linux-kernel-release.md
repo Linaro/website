@@ -32,7 +32,7 @@ With almost two hundred Reviewed-by credits for the Devicetree bindings, Krzyszt
 
 ## Konrad Dybcio
 
-Konrad’s work this cycle mainly revolved around improving and cleaning up existing SoC drivers, fixing regressions, addressing some long-standing issues and laying some groundwork for larger patchsets coming next cycle. On top of that, he introduced support for the Qualcomm Robotics RB1 board. Konrad also reviewed tons of incoming patches.
+Konrad’s work this cycle mainly revolved around improving and cleaning up existing SoC drivers, fixing regressions (such as ensuring the Last Level Cache is properly initialized on the SM8550 platform), addressing some long-standing issues and laying some groundwork for larger patchsets coming next cycle. On top of that, he introduced support for the Qualcomm Robotics RB1 board. Konrad also reviewed tons of incoming patches.
 
 ## Manivannan Sadhasivam
 
