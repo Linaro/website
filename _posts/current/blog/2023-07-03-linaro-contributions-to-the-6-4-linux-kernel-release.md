@@ -16,7 +16,7 @@ tags:
 category: blog
 author: linaro
 ---
-{% include image.html path="/assets/images/content/jusegq_tzotnczo4uohhvb-zqehyip45488mhrv-kn5noolwpalt5co9ulfzdnw6g6edeqw27nqjyd-gwvg7uklohgkaxzq-swzyz64f3g2m4g-6hh4o4yvwsfja.png" alt="Most active 6.4 Kernel Release Developers" %}
+{% include image.html path="/assets/images/content/most-active-6.4-employers.png" alt="Most active 6.4 employers" %}
 
 [LWN’s development statistics](https://lwn.net/Articles/936113/) from the 6.4 Kernel release featured Linaro as one of the top five employers in terms of contributions to the Linux kernel. Statistics like these show Linaro’s continued commitment to driving the Arm open source ecosystem forward. 
 
@@ -39,3 +39,11 @@ Konrad’s work this cycle mainly revolved around improving and cleaning up exis
 In this release, Manivannan mostly worked on Qualcomm PCI and EDAC/LLCC drivers along with several devicetree fixes/improvements. Most notably, Manivannan reworked the PCI endpoint notifiers to a callback-based mechanism to pass the events from Endpoint controllers to function drivers. In addition, the PCI Root Complex (RC) support for Qualcomm SDX55 SoC was also added on top of a cleanup of the Qualcomm PCIe RC driver. Finally, Manivannan fixed the Qualcomm EDAC/LLCC drivers to use SoC specific register offsets instead of hardcoded offsets to fix the crash observed on SM8450 SoC.
 
 {% include image.html path="/assets/images/content/test-and-review-credits-in-6.4.png" alt="Test and review credits in 6.4" %}
+
+## Dmitry Baryshkov 
+
+This cycle Dmitry’s work included reviewing a large part of changes for the Qualcomm Display driver (drm/msm), which accounted for more than a half of his Reviewed-by tags. Dmitry also assisted in reviewing Qualcomm-specific patches, including the DT (Device Tree) changes as well as patches targeting Qualcomm clock, interconnect and PHY drivers.
+
+## Conclusion
+
+Given Linaro has 150+ employees, it is no small feat to be consistently featured in the list for most active employers to the Linux Kernel! That so many of our Engineers are regularly featured is also testament to their hard work and level of expertise. To find out more about Linaro’s role in the Linux kernel, check out our [Upstream Maintainership project page](https://linaro.atlassian.net/wiki/spaces/UM/overview). Alternatively if you would like to leverage this expertise and work with Linaro on successfully building and deploying your Arm-based product, read about the services we provide [here](https://www.linaro.org/services/).
