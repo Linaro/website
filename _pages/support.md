@@ -67,6 +67,15 @@ flow:
 
 
               To raise an LDTS ticket simply send an e-mail to [support@linaro.org](mailto:support@linaro.org) or, if you prefer, register at [https://support.linaro.org](https://servicedesk.linaro.org/servicedesk/customer/portal/6/user/login?destination=portal%2F10).
+          - title: For Linaro Forge
+            content: >-
+              Linaro Forge has its own set of support channels. Technical support cases should be directed at
+              [support@forge.linaro.com](mailto:support@forge.linaro.com). The Sales team can be reached via
+              [sales@forge.linaro.com](mailto:sales@forge.linaro.com).
+
+
+              More information can be found on the dedicated
+              [Linaro Forge page](https://www.linaroforge.com/about/).
 ---
 
 Linaro Developer Technical Support (LDTS) is a service available to members, Linaro Developer Services clients and
