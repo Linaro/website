@@ -26,14 +26,51 @@ flow:
         style: text-left
         text_content:
           text: >-
-            Linaro has driven open source software development on Arm since
-            2010, providing the tools, Linux kernel quality and security needed
-            for a solid foundation to innovate on. Linaro works with member
-            companies and the open source community to maintain the Arm software
-            ecosystem and enable new markets on Arm architecture.
+            Linaro works across a wide range of software platforms and Industry
+            segments. Our goal is to make it easier for companies to work with,
+            and leverage, Arm open source software. 
 
 
-            As technology has evolved, so has Linaro. While we continue to help maintain and evolve the Arm software ecosystem through the work we do on the [Linux kernel](https://www.linaro.org/core-technologies/linux-kernel/), [toolchains](https://www.linaro.org/core-technologies/toolchain/), [security](https://www.linaro.org/core-technologies/security/) and [continuous integration testing](https://www.linaro.org/core-technologies/testing-and-ci/), we also work across several markets to enable Arm technology. These include [Automotive, IoT & Edge Devices](https://www.linaro.org/automotive-iot-and-edge-devices/), [Client Devices](https://www.linaro.org/client-devices/) and [Cloud Computing & Servers](https://www.linaro.org/cloud-computing-and-servers/).
+            We do this in multiple ways:
+
+
+            # Membership
+
+
+            The collaborative projects we work on together with Industry leaders and the open source community tackle common challenges felt across most Industry segments. To read about [Membership](https://www.linaro.org/membership/), click here.  
+
+
+            # Services 
+
+
+            While the working groups work on non-differentiating technology that all participating companies can benefit from, other companies may simply want help building, deploying and maintaining their products. In this scenario, they can work on a 1:1 basis with Linaro Developer Services, a team of experts who provide training, help building board support packages, testing and long term support and Qualcomm platform services. For more information, click [here](https://www.linaro.org/services/). 
+
+
+            # Products 
+
+
+            Linaro offers a range of software tools SoCs need to succeed in the Arm ecosystem. LinaroForge, CodeLinaro and Tuxsuite are all aimed at making it easier to develop, publish and maintain your software while ensuring it is secure and high quality. 
+
+
+            ## [Linaro Forge](https://www.linaroforge.com/)
+
+
+            An interoperable toolkit for debugging and profiling
+
+
+            ## [CodeLinaro](https://www.codelinaro.org/)
+
+
+            A single platform for your software distribution
+
+
+            ## [Tuxsuite](https://tuxsuite.com/)
+
+
+            On-demand APIs and tools for building and testing Linux kernels in parallel and at scale. 
+
+
+            Regardless of how customers engage with Linaro, they all share one thing in common - the need for expertise and experience which makes it easier for them to work with Arm software and be competitive in the Arm ecosystem. Linaro provides that expertise.
   - row: container_row
     style: bg-light-green
     sections:
@@ -41,38 +78,7 @@ flow:
         source: about/blocks.html
   - row: container_row
     style: bg-secondary
-    sections:
-      - format: custom_include
-        source: about/youtube_embed.html
-  - row: container_row
-    sections:
-      - format: text
-        style: text-left
-        text_content:
-          text: >-
-            There are multiple ways to engage with Linaro and benefit from the
-            work we do.
-
-
-            **Collaborate on common software projects with Linaro and other industry leaders**
-
-
-            Become a Linaro member and work with Linaro, other industry leaders and the open source community on software projects which deliver standardization and help accelerate new technologies on Arm. There are three levels of membership you can choose from - Core, Club and Group (Linaro has four Segment Groups - Linaro Consumer Group, Linaro Datacenter & Cloud Group, Linaro Edge & Fog Computing Group and Linaro Windows Group). For more information on Linaro membership, how to participate in projects and what value our members see in membership, go to [Linaro Membership](/membership/). 
-
-
-            **Leverage Linaro’s software expertise on your project**
-
-
-            If you would rather work with Linaro on a one-to-one basis and are interested in leveraging Linaro’s Arm software expertise on your project, go to [Linaro Services](/services/). Working with our Services team allows you to leverage Linaro’s Arm software expertise and experience working with, and as part of, open source communities. 
-
-
-            **Download Linaro software**
-
-
-            Alternatively, if you just want to access any of the work we do in the open, go to [downloads](/downloads/). On the downloads page we upload all software we work on which we think will benefit the community. 
-
-
-            For all other enquiries, go to [our contact page](/contact/) or [download this Introduction to Linaro](https://linaro.co/introduction-to-linaro).
+    sections: []
   - row: container_row
     style: members_slider_row bg-light
     sections:
