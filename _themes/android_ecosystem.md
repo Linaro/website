@@ -43,7 +43,7 @@ flow:
   - row: container_row
     style: bg-white py-0
     absolute_image:
-      style: px-0
+      style: mx-0 justify-content-center align-items-center d-flex w-50 object-fit-cover
       image: /assets/images/content/Maintaining_Secure_image.jpg
     sections:
       - format: two_column
