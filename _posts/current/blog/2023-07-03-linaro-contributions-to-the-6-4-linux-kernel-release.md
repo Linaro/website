@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Linaro Contributions to the 6.4 Linux Kernel Release
-description: In this article, we discuss the 6.4 kernel release, which was
+description: In this blog, we discuss the 6.4 kernel release, which was
   published last week & featured Linaro yet again in the top five contributors
   to the Linux kernel.
-date: 2023-07-04 09:00:35 +01:00
+date: 2023-07-04 12:59:08 +01:00
 image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
   - Linux kernel
@@ -30,15 +30,13 @@ In this blog, we asked the Linaro Engineers featured in LWN’s list of most act
 
 In the v6.4 kernel, Krzysztof contributed Audio support for the Qualcomm SM8550 SoC: digital codecs, Soundwire controllers and respective DTS. He also added a Qualcomm QRD8550 board with that SoC. As with every cycle, Krzysztof was on a cleaning and fixing spree bringing Qualcomm SoC bindings and DTS files closer to full DT schema compliance. Krzysztof also worked on cleanups in Samsung SoC DTS and hardware monitoring drivers, tree-wide improvements of of_device_id table usage and fixes for 1-Wire subsystem, which he recently took as maintainer.
 
-With almost two hundred Reviewed-by credits for the Devicetree bindings, Krzysztof made it to the top reviewers list for this release. 
+With almost two hundred Reviewed-by credits for the Devicetree bindings, Krzysztof made it to the top reviewers list for this release.
 
 
 
 ## Konrad Dybcio
 
-Konrad’s work this cycle mainly revolved around improving and cleaning up existing SoC drivers, fixing regressions (such as ensuring the Last Level Cache is properly initialized on the SM8550 platform), addressing some long-standing issues and laying some groundwork for larger patchsets coming next cycle. On top of that, he introduced support for the Qualcomm Robotics RB1 board. Konrad also reviewed tons of incoming patches. 
-
-
+Konrad’s work this cycle mainly revolved around improving and cleaning up existing SoC drivers, fixing regressions (such as ensuring the Last Level Cache is properly initialized on the SM8550 platform), addressing some long-standing issues and laying some groundwork for larger patchsets coming next cycle. On top of that, he introduced support for the Qualcomm Robotics RB1 board. Konrad also reviewed tons of incoming patches.
 
 ## Manivannan Sadhasivam
 
@@ -54,7 +52,7 @@ This cycle Dmitry’s work included reviewing a large part of changes for the Qu
 
 Also Dmitry assisted in reviewing other Qualcomm-specific patches, including the DT (Device Tree) changes as well as patches targeting Qualcomm clock, interconnect and PHY drivers.
 
- 
+
 
 ## Conclusion
 
