@@ -9,16 +9,21 @@ description: "This blog talks about benefits of Linaro Core and Club memberships
   next-gen Qualcomm mobile platforms. #Linaro #LandingTeam #OpenSource"
 date: 2023-07-06 08:30:33 +01:00
 image: /assets/images/content/96boards-specification-consumer-edition-v2.jpg
+tags:
+  - Android
+  - Linux kernel
+  - Open Source
+  - Qualcomm
 category: blog
 author: vinod.koul
 ---
 One of the benefits of Linaro Core and Club memberships is the optional Landing Team. A Landing Team is a group of Linaro engineers dedicated to one Linaro member, and whose work contributes to both private and public projects. Beginning in 2014, the Linaro Qualcomm Landing Team has been an active contributor to upstream Qualcomm platforms, building stable releases for the 96Boards Dragonboard program and adding support to the next generation Qualcomm mobile platforms. Fostering and partnering with the open source community is a primary goal of this Landing Team, often in the role of maintainers for Qualcomm sub-systems.
 
-In addition, Linaro Developer Services has a dedicated team which helps companies build, deploy and maintain Arm products. The team offers a wide range of services, including Linux Board Support Package (BSP) development, maintenance and optimization for Qualcomm platforms such as Qualcomm Snapdragon, to companies building products based on Qualcomm processors. Check out [Linaro Developer Services](https://www.linaro.org/services/qualcomm-platforms-services/) for additional information on how Linaro Developer services can help.
+In addition, Linaro Developer Services has a dedicated team which helps companies build, deploy and maintain Arm products. The team offers a wide range of services, including Linux Board Support Package (BSP) development, maintenance and optimization for Qualcomm platforms such as Qualcomm Snapdragon, to companies building products based on Qualcomm processors. Check out the [Linaro Developer Services](https://www.linaro.org/services/qualcomm-platforms-services/) for additional information on how Linaro Developer services can help.
 
 As an example,in this blog, Senior Tech Lead Vinod Koul from the Linaro Qualcomm Landing Team shares details on how his team achieved unified boot on multiple Qualcomm Snapdragon devices.
 
-For the context of this blog, unified boot refers to the ability of multiple platforms being able to boot from the same boot image. So for example, a single boot image on a USB stick can be placed into more than one target platform and successfully boot. An advantage to this feature is lowering the maintenance costs of supporting multiple separate builds and boot images.
+For the context of this blog, unified boot refers to the ability of multiple platforms being able to boot from the same boot image. For example, a single boot image on a USB stick can be placed into more than one target platform and successfully boot. An advantage to this feature is lowering the maintenance costs of supporting multiple separate builds and boot images.
 
 ## Qualcomm Boot Flow
 
@@ -34,7 +39,7 @@ This limitation can be overcome by using U-boot to perform the task of loading t
 
 {% include image.html path="/assets/images/content/unified-boot-using-u-boot.png" alt="Unified Boot using U-boot" %}
 
-In this mechanism, the existing bootloader chain on the Qualcomm Snapdragon device can be utilised “as is”. Here the u-boot is chainloaded as an Android boot image by Qualcomm’s  ABL bootloader. Then, using the U-boot, we can load a generic arm64 Linux kernel image.
+In this mechanism, the existing bootloader chain on the Qualcomm Snapdragon device can be utilised “as-is”. Here the u-boot is chainloaded as an Android boot image by Qualcomm’s  ABL bootloader. Then, using the U-boot, we can load a generic arm64 Linux kernel image.
 
 ## U-Boot
 
@@ -78,6 +83,6 @@ The video of the demo can be found on [Linaro’s youtube channel](https://www.y
 
 In future, Linaro is looking forward to supporting more platforms using this method and being able to support Unified boot image across multiple platforms.
 
-Also, ABL is a component which performs the task of loading appended Kernel which now is performed by U-boot, so we might be able to drop ABL and load u-boot directly.
+Also, ABL is a component which performs the task of loading an appended Kernel which now is performed by U-boot, so we might be able to drop ABL and load u-boot directly.
 
 For more information on the work Linaro does on Qualcomm platforms and how we can help you build, deploy and maintain products based on Qualcomm processors, go to our [Qualcomm platform services page](https://www.linaro.org/services/qualcomm-platforms-services/).
