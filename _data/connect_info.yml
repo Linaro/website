@@ -6,9 +6,9 @@ header_text_left: |
   source software are held and solutions implemented.
   If you want to know what is happening in the Arm
   software ecosystem, look no further.
+header_register_button: false
 tabs_row_background_image: /assets/images/content/Connect23_Background_2.jpg
 tabs:
-  - title: Ressources
+  - title: Resources
     text: For those who were unable to attend the previous Linaro Connect 23, videos
-      and presentations are available on [Linaro Resource
-      Hub](https://resources.linaro.org/en/events/aX4ZACECGES4EJ8jkU9Coe).
+      and presentations are available on Linaro Resource Hub.

@@ -22,7 +22,9 @@ Before diving into details, it’s important to mention that this work focuses o
 
 By combining both, we can run windows-arm64 binaries on a linux x64 machine:
 
-**`qemu-aarch64 /path/to/wine-arm64/wine ./program.exe`**
+```
+qemu-aarch64 /path/to/wine-arm64/wine ./program.exe
+```
 
 ## QEMU
 
@@ -56,7 +58,9 @@ Image is published as [linaro/wine-arm64](https://hub.docker.com/r/linaro/wine-a
 
 A convenient wrapper named wine-arm64 (calling wine through qemu-user), available on PATH, allows you to execute any Windows on Arm executable.
 
-`docker run -it --rm linaro/wine-arm64 wine-arm64 cmd.exe /c 'echo Hello World'`
+```
+docker run -it --rm linaro/wine-arm64 wine-arm64 cmd.exe /c 'echo Hello World'
+```
 
 Details and implementation can be found here: [Unified docker image](https://gitlab.com/Linaro/windowsonarm/woa-linux#unified-docker-image)
 
@@ -68,26 +72,35 @@ GitLab and GitHub pipeline examples can be found [here](https://gitlab.com/Linar
 
 A GitHub job running Windows on Arm “Hello World” is as simple as:
 
-`jobs:``  cmd-hello-world:``    runs-on: ubuntu-latest``    container: linaro/wine-arm64``    steps:``      - run: wine-arm64 cmd.exe /c 'echo Hello World'`
+```
+jobs:
+  cmd-hello-world:
+    runs-on: ubuntu-latest
+    container: linaro/wine-arm64
+    steps:
+      - run: wine-arm64 cmd.exe /c 'echo Hello World'
+```
 
 For GitLab:
 
-`cmd-hello-world:`
-
-`  image: linaro/wine-arm64``  script:``    - wine-arm64 cmd.exe /c 'echo Hello World'`
+```
+cmd-hello-world:
+  image: linaro/wine-arm64
+  script:
+    - wine-arm64 cmd.exe /c 'echo Hello World'
+```
 
 Beyond CI environment, you can manually run examples like this:
 
-`docker run -it --rm linaro/wine-arm64`
+```
+docker run -it --rm linaro/wine-arm64
+# it will open a shell in container
+git clone https://gitlab.com/Linaro/windowsonarm/woa-linux-examples
+cd woa-linux-examples
+./job-cmd-hello-world.sh
+./job-llvm-mingw-windows-arm64-hello-world.sh
 
-`# it will open a shell in container`\
-`git clone `[`https://gitlab.com/Linaro/windowsonarm/woa-linux-examples`](https://gitlab.com/Linaro/windowsonarm/woa-linux-examples)``
-
-`cd woa-linux-examples`
-
-`./job-cmd-hello-world.sh`
-
-`./job-llvm-mingw-windows-arm64-hello-world.sh`
+```
 
 Among the examples we provide, you can be interested in:
 

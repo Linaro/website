@@ -40,6 +40,9 @@ flow:
             *   [下载](/downloads/)
 
             要获得 LDTS 票，只需发送电子邮件至 [support@linaro.org](mailto:support@linaro.org)，或者，如果您愿意，请在 [https://support.linaro.org](https://support.linaro.org/)。
+        - title: 对于利纳罗锻造厂
+          content: >-
+            Linaro Forge 有自己的一套支持渠道。 技术支持案例应发送至 [support@forge.linaro.com](mailto:support@forge.linaro.com)。 您可以通过 [sales@forge.linaro.com](mailto:sales@forge.linaro.com) 联系销售团队。
 ---
 Linaro 开发者技术支持 (LDTS) 是一项向会员、Linaro 开发者服务客户和
 开源社区。 我们在这里帮助会员和客户修复、调试和解决任何与 Linaro 相关的问题

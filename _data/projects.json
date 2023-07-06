@@ -86,6 +86,24 @@
         },
         {
             "Project Information": {
+                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
+                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/CCR/overview\">https://linaro.atlassian.net/wiki/spaces/CCR/overview</a>",
+                "Theme": [
+                    "Cloud Computing & Servers"
+                ],
+                "description": "Confidential computing is a security and privacy-enhancing computational technique focused on protecting data in use. It can be used in conjunction with storage and network encryption, which protect data at rest and data in transit respectively.<br><br>The technology protects data in use by performing computations in a hardware-base trusted execution environment (TEE). Even though the ideas behind confidential computing are not necessarily new, with the Arm TrustZone being a good example of a confidential computing environment that is available for quite some time, there has been recently a race amongst chip providers to allow full fledged operating systems to run in trusted execution environments.<br><br>Arm\u2019s solution for this is specified in the <a href=\"https://www.arm.com/architecture/security-features/arm-confidential-compute-architecture\">Confidential Computing Architecture (CCA)</a>. The trusted execution environments capable of running full fledged operating systems, also known as confidential virtual machines, are called Realms in this specification. The specification describes what is needed to be enabled in the hardware to run Realms, through the Realm Management Extension (RME). It also describes changes needed in the firmware, both in Trusted Firmware-A and in the newly introduced Real Management Monitor (RMM), along with other changes needed in the system software level to properly run Realms.<br><br>The Arm\u2019s specification is focused on hardware and system software. It does not cover the user level tools that are being used to build, configure, run, and manage confidential virtual machines and their workloads. This is, however, also an important aspect of the Confidential Computing ecosystem.<br><br>Hence, this project will work to make sure that both the lower level bits, as well as the user space and higher level applications, work well on Arm platforms. The scope, however, is limited to confidential VMs, or Realms as they are called in the Arm ecosystem. We will not focus efforts, in this project, on the TEEs that are also available through the TrustZone technology on Arm processors.",
+                "title": "Confidential Computing on Realms (CCR)"
+            },
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10415",
+            "key": [
+                "CCR"
+            ],
+            "membership": [
+                "ldcg"
+            ]
+        },
+        {
+            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/QEMU/overview\">https://linaro.atlassian.net/wiki/spaces/QEMU/overview</a>",
                 "Theme": [
