@@ -1,7 +1,7 @@
 <div class="row border-top border-white my-4">
     <div class="col col-12 col-md-6 d-flex px-md-5 flex-column justify-content-around membership_col">
         <div class="cta_video_container">
-            <div class="modal fade video_modal" id="testimonial{{forloop.index}}">
+            <div class="modal fade video_modal" id="testimonial">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -18,6 +18,20 @@
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item testimonial">
+                <div class="row">
+                    <div class="col col-12 block__image">
+                        <a data-toggle="modal" href='#testimonial'>
+                            <div class="video_placeholder_image d-flex align-items-center justify-content-center text-center flex-column position-relative">
+                                {% picture feature_block_image "/assets/images/content/ToddKjosGoogle.png" --alt "Todd Kjos, Google cover image" %}
+                                <div class="play_button position-absolute">
+                                    <i class="icon-youtube-play" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
