@@ -5,21 +5,19 @@ description: >
 permalink: /working-groups/
 keywords:
   - Arm
-  - Open Source
+  - Open Sources
 jumbotron:
-  class: about_header
+  class: about_header h-auto
   title: Linaro Working Groups
   title-class: font-weight-bold my-5
+  include: themes/working_groups_header.html
+  image: /assets/images/content/Working_groups_banner.jpg
 flow:
   - row: container_row
     style: bg-light
     sections:
-      - format: text
-        text_content:
-          text: >-
-            ## Linaro offers multiple ways to engage in collaborative engineering
-
-            Companies collaborate with Linaro and other industry leaders on open source projects which address specific needs and challenges. A company can choose to join one project, multiple projects within a specific working group or all projects which Linaro drives.
+      - format: custom_include
+        source: themes/collaborative_engineering.html
   - row: container_row
     sections:
       - format: custom_include
@@ -35,7 +33,7 @@ flow:
         title_content:
           size: h4
           style: text-dark
-          text: If you are interested in working with Linaro and other industry leading experts on finding solutions to shared problems, fill out our Membership form here. The Business Development team will then be in touch to discuss your requirements further. 
+          text: If you are interested in working with Linaro and other industry leading experts on finding solutions to shared problems, fill out our Membership form here. The Business Development team will then be in touch to discuss your requirements further.
       - format: custom_include
         source: membership/membership_form.html
     style: membership_form large_type bg-primary text-white

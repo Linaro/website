@@ -40,8 +40,8 @@ flow:
             For devices running on Arm-based technology to truly leverage the Arm CPU’s power consumption, performance and all day battery life capabilities, it is necessary to ensure that open source tools and applications using Android can run natively on Arm. It is also essential to ensure that Android devices are continually maintained, updated and secure.
 
             These are no small tasks which any one company can tackle on its own. This is why companies join the Linaro Consumer Group.
-  # - row: container_row
-    style: bg-white
+  - row: container_row
+    style: bg-white py-0 overflow-hidden
     sections:
       - format: custom_include
         source: themes/android_maintaining.html
