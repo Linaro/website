@@ -1,7 +1,7 @@
 ---
 title: IoT Integration Lab
 description: The IoT Integration Lab is a joint project between Arm and Linaro to create interoperability between vendors creating embedded Linux products. 
-permalink: /federatedlabs/IoTIntegrationLab
+permalink: /federatedlabs/IoTIntegrationLab/
 layout: flow
 flow:
     - row: container_row
