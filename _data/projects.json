@@ -249,7 +249,7 @@
                 "Theme": [
                     "Automotive, IoT & Edge Devices"
                 ],
-                "description": "Enabling Virtualisation and VirtIO for the Trusted Reference Stack (TRS)",
+                "description": "Code named Orko, this project is about providing the foundational work needed to support VirtIO interfaces in the upstream by providing both the specs and implementations that the automotive industry can leverage in their future platforms. <br><br> ",
                 "title": "Orko"
             },
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10421",
