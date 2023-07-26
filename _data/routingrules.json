@@ -911,7 +911,6 @@
   "^/app/images/press/CMYK-LogoSet/CMYK-Linaro_Standard.eps$ /assets/images/people/CMYK-Linaro_Standard.eps [R,L,NC]",
   "^/app/images/press/CMYK-LogoSet/CMYK-Linaro_Grey.eps$ /assets/images/people/CMYK-Linaro_Grey.eps [R,L,NC]",
   "^/antitrust-policy(/?|/index.html)$ /legal/#antitrust_guidelines [R,L,NC]",
-  "^/android-ecosystem(/?|/index.html)$ /client-devices/ [R,L,NC]",
   "^/accelerated-builds-of-android-ice-cream-sandwich-now-available-on-linaro-member-boards(/?|/index.html)$ /news/accelerated-builds-android-ice-cream-sandwich-now-available-linaro-member-boards/ [R,L,NC]",
   "^/about/tsc(/?|/index.html)$ /about/team/technical-steering-committee/ [R,L,NC]",
   "^/about/team/technical-steering-committee(/?|/index.html)$ /about/team/ [R,L,NC]",
