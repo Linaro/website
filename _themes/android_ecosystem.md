@@ -58,11 +58,13 @@ flow:
       - format: custom_include
         source: themes/quick_link_blocks.html
   - row: container_row
-    style: text-center
     sections:
-      - format: buttons
-        buttons_content:
-          - title: Contact us
-            url: "#contact_form"
-            style: btn-lg btn-primary my-2 border-white engagement_request_contact_btn
+      - format: title
+        title_content:
+          size: h4
+          style: text-dark
+          text: If you are interested in working with Linaro and other industry leading experts on finding solutions to shared problems, fill out our Membership form here. The Business Development team will then be in touch to discuss your requirements further.
+      - format: custom_include
+        source: membership/membership_form.html
+    style: membership_form large_type bg-primary text-white
 ---
