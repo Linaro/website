@@ -21,6 +21,15 @@ flow:
   - row: container_row
     sections:
       - format: custom_include
+        source: project_membership.html
+  - row: container_row
+    style: bg-light
+    sections:
+      - format: custom_include
+        source: segment_group_membership.html
+  - row: container_row
+    sections:
+      - format: custom_include
         source: working_groups.html
   - row: container_row
     style: bg-light

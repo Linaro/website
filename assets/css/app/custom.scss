@@ -288,6 +288,7 @@ body {
         filter: brightness(0.3) grayscale(1);
       }
     }
+    
     figure.gradient_quote {
       blockquote {
         padding: 0;
@@ -328,6 +329,53 @@ body {
       position: relative;
       padding: 20px;
       background-color: white;
+      border: 1px solid red;
+      border: 10px solid;
+      border-image-slice: 1;
+      border-width: 3px;
+      border-image-source: linear-gradient(to top left, $primary, #0083ad);
+    }
+
+    figure.gradient_quote_grey {
+      blockquote {
+        padding: 0;
+        background-color: E5E5E5;
+        border-left: 0;
+        &:before {
+          display: none;
+          margin-left: 0px;
+          padding: 0px;
+        }
+      }
+      &:after {
+        content: "\0201D";
+        position: absolute;
+        bottom: -20px;
+        right: -15px;
+        font-size: 68px;
+        text-align: center;
+        line-height: 71px;
+        background-color: #E5E5E5;
+        width: 40px;
+        height: 40px;
+        color: $primary;
+      }
+      &:before {
+        content: "\0201C";
+        position: absolute;
+        // top: -20px;
+        left: -15px;
+        font-size: 68px;
+        text-align: center;
+        line-height: 71px;
+        background-color: #E5E5E5;
+        width: 40px;
+        height: 40px;
+        color: #0083ad;
+      }
+      position: relative;
+      padding: 20px;
+      background-color: E5E5E5;
       border: 1px solid red;
       border: 10px solid;
       border-image-slice: 1;
