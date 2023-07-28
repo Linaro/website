@@ -288,12 +288,14 @@ body {
         filter: brightness(0.3) grayscale(1);
       }
     }
-    
+
     figure.gradient_quote {
       blockquote {
-        padding: 0;
+        margin: 0;
+        padding: 0 30px;
         background-color: white;
         border-left: 0;
+        position: relative;
         &:before {
           display: none;
           margin-left: 0px;
@@ -303,26 +305,26 @@ body {
       &:after {
         content: "\0201D";
         position: absolute;
-        bottom: -20px;
-        right: -15px;
-        font-size: 68px;
+        bottom: -27px;
+        right: -6px;
+        font-size: 90px;
         text-align: center;
-        line-height: 71px;
+        line-height: 70px;
         background-color: white;
-        width: 40px;
+        width: 27px;
         height: 40px;
         color: $primary;
       }
       &:before {
         content: "\0201C";
         position: absolute;
-        top: -20px;
-        left: -15px;
-        font-size: 68px;
+        top: -31px;
+        left: -10px;
+        font-size: 90px;
         text-align: center;
-        line-height: 71px;
+        line-height: 102px;
         background-color: white;
-        width: 40px;
+        width: 27px;
         height: 40px;
         color: #0083ad;
       }
@@ -339,7 +341,7 @@ body {
     figure.gradient_quote_grey {
       blockquote {
         padding: 0;
-        background-color: E5E5E5;
+        background-color: #e5e5e5;
         border-left: 0;
         &:before {
           display: none;
@@ -350,26 +352,26 @@ body {
       &:after {
         content: "\0201D";
         position: absolute;
-        bottom: -20px;
-        right: -15px;
-        font-size: 68px;
+        bottom: -27px;
+        right: -6px;
+        font-size: 90px;
         text-align: center;
-        line-height: 71px;
-        background-color: #E5E5E5;
-        width: 40px;
+        line-height: 70px;
+        background-color: #e5e5e5;
+        width: 27px;
         height: 40px;
         color: $primary;
       }
       &:before {
         content: "\0201C";
         position: absolute;
-        // top: -20px;
-        left: -15px;
-        font-size: 68px;
+        top: -31px;
+        left: -10px;
+        font-size: 90px;
         text-align: center;
-        line-height: 71px;
-        background-color: #E5E5E5;
-        width: 40px;
+        line-height: 102px;
+        background-color: #e5e5e5;
+        width: 27px;
         height: 40px;
         color: #0083ad;
       }
