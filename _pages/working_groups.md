@@ -9,7 +9,7 @@ keywords:
 jumbotron:
   class: about_header h-auto
   title: Linaro Working Groups
-  title-class: font-weight-bold my-5
+  title-class: font-weight-bold my-5 indent_header_text
   include: themes/working_groups_header.html
   image: /assets/images/content/Working_groups_banner.jpg
 flow:
