@@ -2,7 +2,7 @@
 layout: post
 title: Linaro helps openEuler to officially join Ceph support matrix
 description: "This blog is about openEuleran open source operating system for
-  digital infrastructure "
+  digital infrastructure. "
 date: 2023-08-11 10:38:17 +01:00
 image: /assets/images/content/screenshot-2023-08-11-at-11.37.28.png
 tags:
