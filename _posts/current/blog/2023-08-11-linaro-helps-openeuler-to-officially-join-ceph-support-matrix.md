@@ -19,11 +19,13 @@ In December 2022, Linaro joined the openEuler Software-Define Storage (SDS) Spec
 
 
 {% include image.html path="/assets/images/content/openeuler01.jpeg" alt=" C openEuler announcement" %}
+Figure 1: openEuler announcement
 
 On July 20 2023, under the joint promotion and contribution of Linaro and the openEuler SDS SIG, the Ceph community merged the pull request for openEuler native support, which means that the openEuler officially joined the [Ceph support matrix](https://docs.ceph.com/en/latest/install/get-packages/#openeuler) and passed the CI verification.
 
 
 {% include image.html path="/assets/images/content/openeuler2.png" alt=" Ceph download page for openEuler packages" %}
+Figure 2: Ceph download page for openEuler packages
 
 Currently, openEuler finished the porting and compatibility test for multiple versions of Ceph. The openEuler community will continue to adapt the support for the new versions of Ceph, enrich the coverage of the openEuler Ceph integration test and follow the Ceph upstream release schedule. Besides, the SDS SIG has set up the Ceph on [openEuler daily CI jobs](https://github.com/openeuler-mirror/ceph-daily-build).
 
