@@ -7,12 +7,15 @@ brand:
   path: /assets/images/Linaro-Logo.svg
   alt: Linaro logo
 pages:
-  - title: 解决方案
+  - title: 工作组
     options:
       - text: 汽车、物联网和边缘设备
         url: /automotive-iot-and-edge-devices/
       - text: 客户端设备
-        url: /client-devices/
+        url: ""
+        options:
+          - text: "客户端设备 "
+            url: /client-devices/
       - text: 云计算和服务器
         url: /cloud-computing-and-servers/
       - text: 核心技术
@@ -31,6 +34,8 @@ pages:
             url: /core-technologies/toolchain/
           - text: 虚拟化
             url: /core-technologies/virtualization/
+      - text: 手臂上的 Windows
+        url: /windows-on-arm/
   - title: 会员资格
     options:
       - text: 会员资格
@@ -43,8 +48,6 @@ pages:
         options:
           - text: 所有项目
             url: /projects/
-          - text: ARM 项目上的 Windows
-            url: /windows-on-arm/
           - text: 社区项目
             url: /community-projects/
   - title: 服务

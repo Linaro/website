@@ -11,6 +11,9 @@ body {
   }
 }
 #wrapper {
+  .indent_header_text {
+    padding-left: 1.25rem;
+  }
   #pagination_panel li.page-item.active a {
     color: white;
   }
@@ -60,6 +63,46 @@ body {
         font-size: 33px;
         font-weight: bold;
         margin: 30px 0;
+      }
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      top: 0;
+      z-index: 1;
+      left: 0;
+      background: linear-gradient(
+        to left,
+        rgba(#000, 0) 0%,
+        rgba(#000, 1) 100%
+      );
+    }
+    .header_background_image {
+      filter: brightness(0.6);
+    }
+    padding: 0px;
+    picture {
+      width: 100%;
+    }
+    &:before {
+      position: relative;
+    }
+    .title_row {
+      h1 {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .jumbotron.background_image.header_no_bold_first_para {
+    z-index: 0;
+    height: auto;
+    .inner_content_wrapper {
+      position: relative;
+      z-index: 9;
+      p {
+        margin-bottom: 1rem;
       }
     }
     &:after {
@@ -248,10 +291,60 @@ body {
         filter: brightness(0.3) grayscale(1);
       }
     }
+
     figure.gradient_quote {
       blockquote {
-        padding: 0;
+        margin: 0;
+        padding: 0 30px;
         background-color: white;
+        border-left: 0;
+        position: relative;
+        &:before {
+          display: none;
+          margin-left: 0px;
+          padding: 0px;
+        }
+      }
+      &:after {
+        content: "\0201D";
+        position: absolute;
+        bottom: -27px;
+        right: -6px;
+        font-size: 90px;
+        text-align: center;
+        line-height: 70px;
+        background-color: white;
+        width: 27px;
+        height: 40px;
+        color: $primary;
+      }
+      &:before {
+        content: "\0201C";
+        position: absolute;
+        top: -31px;
+        left: -10px;
+        font-size: 90px;
+        text-align: center;
+        line-height: 102px;
+        background-color: white;
+        width: 27px;
+        height: 40px;
+        color: #0083ad;
+      }
+      position: relative;
+      padding: 20px;
+      background-color: white;
+      border: 1px solid red;
+      border: 10px solid;
+      border-image-slice: 1;
+      border-width: 3px;
+      border-image-source: linear-gradient(to top left, $primary, #0083ad);
+    }
+
+    figure.gradient_quote_grey {
+      blockquote {
+        padding: 0;
+        background-color: #e5e5e5;
         border-left: 0;
         &:before {
           display: none;
@@ -262,32 +355,32 @@ body {
       &:after {
         content: "\0201D";
         position: absolute;
-        bottom: -20px;
-        right: -15px;
-        font-size: 68px;
+        bottom: -27px;
+        right: -6px;
+        font-size: 90px;
         text-align: center;
-        line-height: 71px;
-        background-color: white;
-        width: 40px;
+        line-height: 70px;
+        background-color: #e5e5e5;
+        width: 27px;
         height: 40px;
         color: $primary;
       }
       &:before {
         content: "\0201C";
         position: absolute;
-        top: -20px;
-        left: -15px;
-        font-size: 68px;
+        top: -31px;
+        left: -10px;
+        font-size: 90px;
         text-align: center;
-        line-height: 71px;
-        background-color: white;
-        width: 40px;
+        line-height: 102px;
+        background-color: #e5e5e5;
+        width: 27px;
         height: 40px;
         color: #0083ad;
       }
       position: relative;
       padding: 20px;
-      background-color: white;
+      background-color: E5E5E5;
       border: 1px solid red;
       border: 10px solid;
       border-image-slice: 1;
