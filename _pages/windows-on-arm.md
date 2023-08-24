@@ -61,19 +61,8 @@ flow:
   - row: container_row
     style: bg-light-gray
     sections:
-      - format: two_column
-        style: #
-        breakpoint: md
-        left_column:
-          custom_size: 6
-          image: /assets/images/content/woa_microsoft_testimonial.png
-        right_column:
-          custom_size: 6
-          style: p-3 text-black
-          text: |
-            ## Why work with Linaro?
-
-            Linaro is driving the collaborative work needed to build a self-sustaining Windows on Arm ecosystem. All of the work enabling Windows to run natively on Arm is made possible through the collaboration between Linaro and its members in the Linaro Windows on Arm Group. Joining the Linaro Windows on Arm Group allows you to be part of the conversation which decides what work needs to be prioritized and how.
+      - format: custom_include
+        source: woa/marcus_testimonial.html
   - row: container_row
     sections:
       - format: block
