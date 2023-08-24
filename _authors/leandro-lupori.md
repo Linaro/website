@@ -2,7 +2,7 @@
 name: "Leandro Lupori "
 first_name: "Leandro "
 last_name: Lupori
-username: "Leandro Lupori "
+username: "leandro.lupori "
 image: /assets/images/content/avatar-placeholder.png
 ---
 Prior to joining Linaro as a Toolchain Engineer, I worked with system software, binary translation and embedded systems programming.\
