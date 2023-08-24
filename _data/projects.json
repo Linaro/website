@@ -332,7 +332,7 @@
                     "Cloud Computing & Servers",
                     "Core Technologies"
                 ],
-                "description": "Linaro's hosted activities to improve and support the Google TensorFlow project",
+                "description": "Linaro's hosted activities to improve and support the Google <a href=\"https://www.tensorflow.org/\">+TensorFlow+</a> project on AArch64 via continuous integration to ensure Arm 64bit is a first class citizen.<br><br><br><br>Google TensorFlow is a high profile framework used in a wide variety of ways to provide Machine Learning wherever it is needed, from edge devices to high end servers. It has a large community who contribute to and make use of TensorFlow in their research projects or businesses.",
                 "title": "TensorFlow"
             },
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10588",
