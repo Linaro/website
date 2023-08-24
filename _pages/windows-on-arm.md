@@ -25,37 +25,57 @@ jumbotron:
   image: /assets/images/content/iStock-667012914_sm.jpg
 flow:
   - row: container_row
-    style: my-3 bg-blue bordered-row
+    style: my-3 bg-dark-gray
     sections:
-      - format: text
-        style: text-center text-white
-        text_content:
-          text: Our mission is to establish a healthy self-sustaining Arm open source
-            ecosystem for Windows. We look at a diverse set of tools, languages,
-            and frameworks to support Windows on Arm
+      - format: two_column
+        style: #
+        breakpoint: md
+        left_column:
+          custom_size: 6
+          image: /assets/images/content/windows_on_arm/Chip_background_v2.jpg
+        right_column:
+          custom_size: 6
+          style: p-3 text-white
+          text: |
+            ## Windows and Open Source
+
+            There is no doubt that Arm chips can deliver an exceptional user experience through efficient power consumption, fast performance and all day battery life. But for devices running on Arm-based technology to truly leverage these capabilities, operating systems (OS) need to ensure that open source tools and applications using their OS can run natively on Arm.
+
+            This is no small task and the reason why the Linaro Windows on Arm Group exists - to establish a healthy self-sustaining Arm open source ecosystem for Windows.
   - row: container_row
-    style: my-3
+    style: my-3 bg-light-gray
     sections:
       - format: title
         style: text-left
         title_content:
           size: h3
           style: font-weight-bold
-          text: Windows on Arm Supported Projects
+          text: Enabling Windows to run natively on Arm
       - format: text
         style: text-left
         text_content:
           text: >
-            The work we do to grow the Arm open source ecosystem for Windows
-            involves setting up CI and testing, coordinating with vendors to
-            analyze and fix regressions and establishing relationships with
-            project maintainers. Below you will find all the projects we are
-            currently working on along with projects we plan to enable for
-            Windows on Arm in the future.
-
-            To find out more about how well supported a project is in Windows on Arm, click on the relevant project or product below.
+            Below is a list of all the projects the Linaro Windows Group plans to enable for Windows on Arm. The work the group does to grow the Arm open source ecosystem for Windows involves setting up CI and testing, coordinating with vendors to analyze and fix regressions and establishing relationships with project maintainers.
       - format: custom_include
         source: woa/projects.html
+  - row: container_row
+    style: bg-light-gray
+    sections:
+      - format: two_column
+        style: #
+        breakpoint: md
+        left_column:
+          custom_size: 6
+          image: /assets/images/content/woa_microsoft_testimonial.png
+        right_column:
+          custom_size: 6
+          style: p-3 text-black
+          text: |
+            ## Why work with Linaro?
+
+            Linaro is driving the collaborative work needed to build a self-sustaining Windows on Arm ecosystem. All of the work enabling Windows to run natively on Arm is made possible through the collaboration between Linaro and its members in the Linaro Windows on Arm Group. Joining the Linaro Windows on Arm Group allows you to be part of the conversation which decides what work needs to be prioritized and how.
+  - row: container_row
+    sections:
       - format: block
         style: pb-4
         item_width: "6"
@@ -90,23 +110,21 @@ flow:
                   style: btn-lg text-btn
                   url: https://linaro.atlassian.net/wiki/spaces/WPERF
   - row: container_row
-    style: my-3 bg-light-gray
+    style: my-3 bg-dark-gray
     sections:
-      - format: two_column
-        style: null
-        breakpoint: md
-        left_column:
-          custom_size: 8
-          style: p-3
-          text: |
-            **Provide feedback or request support for a missing package**
-        right_column:
-          custom_size: 4
-          style: p-3
-          button:
-            style: blue-button
-            title: Linaro Service Desk
-            url: https://linaro-servicedesk.atlassian.net/servicedesk/customer/portal/22/group/85/create/301
+      - format: title
+        style: text-left font-weight-bold
+        title_content:
+          size: h3
+          style: font-weight-bold text-white
+          text: Testimonials from Linaro Windows Group members
+      - format: custom_include
+        source: woa/testimonials.html
+  - row: container_row
+    style: bg-green
+    sections:
+      - format: custom_include
+        source: woa/tagged_resources_and_blogs.html
   - row: container_row
     style: my-3
     sections:
@@ -126,27 +144,11 @@ flow:
         title_content:
           size: h3
           style: font-weight-bold
-          text: Testimonials from Members of the Linaro Windows Group
-      - format: custom_include
-        source: woa/testimonials.html
-  - row: container_row
-    style: bg-green
-    sections:
-      - format: custom_include
-        source: woa/tagged_resources_and_blogs.html
-  - row: container_row
-    style: my-3 bg-light-gray
-    sections:
-      - format: title
-        style: text-left white-border-title font-weight-bold
-        title_content:
-          size: h3
-          style: font-weight-bold
           text: Linaro Windows on Arm Technical Meetings
       - format: title
         style: text-left font-weight-bold
         title_content:
-          size: h3
+          size: h4
           style: font-weight-bold
           text: Windows on Arm Technical
       - format: text
@@ -167,5 +169,4 @@ flow:
           text: Active Members
       - format: custom_include
         source: woa/members.html
-image: /assets/images/content/iStock-667012914_sm.jpg
 ---

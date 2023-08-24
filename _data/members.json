@@ -228,9 +228,9 @@
         "uri": "https://www.arm.com/products/development-tools"
       },
       {
-        "image": "https://static.linaro.org/common/member-logos/quic.jpg",
-        "name": "QuIC",
-        "uri": "https://www.qualcomm.com/"
+        "image": "https://static.linaro.org/common/member-logos/cix.jpg",
+        "name": "CIX",
+        "uri": "https://www.cixtech.com/"
       },
       {
         "image": "https://static.linaro.org/common/member-logos/microsoft.jpg",
@@ -238,9 +238,9 @@
         "uri": "https://developer.microsoft.com/en-gb/windows/"
       },
       {
-        "image": "https://static.linaro.org/common/member-logos/cix.jpg",
-        "name": "CIX",
-        "uri": "https://www.cixtech.com/"
+        "image": "https://static.linaro.org/common/member-logos/quic.jpg",
+        "name": "QuIC",
+        "uri": "https://www.qualcomm.com/"
       }
     ],
     "membership_group_name": "LWG Members",
