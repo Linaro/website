@@ -3,7 +3,7 @@ name: "Leandro Lupori "
 first_name: "Leandro "
 last_name: Lupori
 username: "leandro.lupori "
-image: /assets/images/content/avatar-placeholder.png
+image: /assets/images/content/leandro-l.jpg
 ---
 Prior to joining Linaro as a Toolchain Engineer, I worked with system software, binary translation and embedded systems programming.\
 Early in my career I spent 3 years as a System Analyst at AsGa, developing software for telecommunication equipments that ran a custom embedded Linux, using the C language.\
