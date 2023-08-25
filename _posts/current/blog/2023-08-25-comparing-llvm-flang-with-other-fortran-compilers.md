@@ -13,11 +13,11 @@ tags:
 category: blog
 author: "leandro.lupori "
 ---
-## Introduction
+# Introduction
 
 LLVM’s Fortran compiler, Flang, is currently under active development and Linaro Toolchain Working Group (TCWG) is a significant contributor to these efforts. We have fixed many bugs in Flang, improved compile time of large array constants and have more developments in progress. Flang is still not considered production-ready, but how does it compare with other Fortran compilers? This blog post provides an overview of this issue, focusing on performance.
 
-## Test setup
+# Test setup
 
 Before listing the compilers used in the performance tests, it’s important to know that Flang is often referred to as “LLVM Flang” to differentiate itself from “Classic Flang” - these are two separate and independent Fortran compilers. Classic Flang is an out-of-tree Fortran compiler targeting LLVM. It is an open-sourced version of pgfortran, a commercial Fortran compiler from PGI/NVIDIA. 
 
@@ -37,25 +37,25 @@ The benchmarks were run using Linaro TCWG's automated benchmarking infrastructur
 
 SPEC’s C, C++ and Fortran sources were all built with the -O3 optimization flag. Regarding NUMA control, the benchmarks were taskset to cores 36-47, NUMA node 3.
 
-## Results
+# Results
 
 Unlike LLVM Flang and Gfortran, Classic Flang failed to build the 507.cactuBSSN_r benchmark and produced incorrect results for 521.wrf_r, so these benchmarks were omitted in speedup graphs and were also excluded when calculating the geometric mean. This means that, at least with regards to SPEC 2017, LLVM Flang is already more compliant than Classic Flang now.
 
-Figure 1 and Figure 2 show the execution time of the benchmarks, in seconds, for each compiler. Smaller bars are better.
+**Figure 1 and Figure 2 show the execution time of the benchmarks, in seconds, for each compiler. Smaller bars are better.**
 
 {% include image.html path="/assets/images/content/figure-1.png" alt="SPEC CPU 2017 execution times, for all benchmarks." %}
-Figure 1: SPEC CPU 2017 execution times, for all benchmarks.
+<p>Figure 1: SPEC CPU 2017 execution times, for all benchmarks.&nbsp;</p>
 
 {% include image.html path="/assets/images/content/figure-2.png" alt="SPEC CPU 2017 execution times, for Fortran benchmarks." %}
-Figure 2: SPEC CPU 2017 execution times, for Fortran benchmarks.
+<p>Figure 2: SPEC CPU 2017 execution times, for Fortran benchmarks.&nbsp;</p>
 
-Figure 3 and Figure 4 show the speedup of the benchmarks, relative to Classic Flang 15, for each compiler.
+**Figure 3 and Figure 4 show the speedup of the benchmarks, relative to Classic Flang 15, for each compiler.**
 
 {% include image.html path="/assets/images/content/figure-3.png" alt="SPEC CPU 2017 speedups, for all benchmarks." %}
-Figure 3: SPEC CPU 2017 speedups, for all benchmarks.
+<p>Figure 3: SPEC CPU 2017 speedups, for all benchmarks.&nbsp;</p>
 
 {% include image.html path="/assets/images/content/figure-4.png" alt="SPEC CPU 2017 speedups, for Fortran benchmarks" %}
-Figure 4: SPEC CPU 2017 speedups, for Fortran benchmarks.
+<p>Figure 4: SPEC CPU 2017 speedups, for Fortran benchmarks.&nbsp;</p>
 
 In the previous graphs, it can be seen that the performance of benchmarks that don’t use Fortran are, in most cases, pretty close between the compilers. In benchmarks using Fortran, however, the variation is much higher. This shows the main performance differences between the tested toolchains reside in their Fortran frontends and not on backend optimizations, that are applied after the source code is lowered to intermediate representation.
 
@@ -65,7 +65,7 @@ Among the benchmark results, the one that draws the most attention is 548.exchan
 
 The geometric mean of Fortran benchmarks shows that LLVM Flang is about 48% slower than Classic Flang, that is overall 23% slower than Gfortran. However, it’s important to remember that benchmarks 521.wrf_r and 507.cactuBSSN_r were excluded from the geometric mean, because Classic Flang couldn’t compile the latter and produced wrong results for the former. Just by being able to compile and run those correctly is already a big advantage of LLVM Flang over Classic Flang, but it also manages to perform just a bit worse than Gfortran on the first and better than it on the second.
 
-## Conclusion
+# Conclusion
 
 LLVM Flang’s performance is not yet at the same level as that of Classic Flang and Gfortran, which was expected, given it is still not ready. But it’s good to see that LLVM Flang is already able to compile and run correctly all of SPEC CPU 2017 benchmarks. Regarding its performance, it’s about 48% slower than Classic Flang overall and no more than 2 times slower than it in the worst case. It’s still a considerable difference, but LLVM Flang’s developers have been actively working on improving the compiler’s performance, as well as standards support, compatibility with other Fortran software and bug fixes.
 
@@ -74,8 +74,6 @@ HLFIR (High Level Fortran Intermediate Representation) is among the current effo
 Besides that, support for OpenMP 1.1 \[9] is also almost complete and support for OpenACC is being added at a fast pace. There is still some way to go for LLVM Flang to reach production-ready status, but it looks like the end of the road is not that far off.
 
 To find more information about Linaro’s work on LLVM Flang, see [Flang Support in LLVM](https://linaro.atlassian.net/wiki/spaces/LLVM/pages/28687990785/Flang+support+in+LLVM+FLANG). To get involved and contribute with the Flang Project, check [Getting Involved](https://flang.llvm.org/docs/GettingInvolved.html). Finally, if you want to get in touch with the Linaro Toolchain Working Group, or are interested in working with us to accelerate the development of Flang, don’t hesitate to reach out on our public mailing list [linaro-toolchain@lists.linaro.org](mailto:linaro-toolchain@lists.linaro.org) or privately via [support@linaro.org](mailto:support@linaro.org) .
-
-
 
 ## References
 
