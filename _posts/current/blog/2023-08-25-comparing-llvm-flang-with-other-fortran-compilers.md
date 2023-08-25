@@ -41,21 +41,21 @@ SPEC’s C, C++ and Fortran sources were all built with the -O3 optimization fla
 
 Unlike LLVM Flang and Gfortran, Classic Flang failed to build the 507.cactuBSSN_r benchmark and produced incorrect results for 521.wrf_r, so these benchmarks were omitted in speedup graphs and were also excluded when calculating the geometric mean. This means that, at least with regards to SPEC 2017, LLVM Flang is already more compliant than Classic Flang now.
 
-Figure 1 and Figure 2 show the execution time of the benchmarks, in seconds, for each compiler. Smaller bars are better.
+**Figure 1 and Figure 2 show the execution time of the benchmarks, in seconds, for each compiler. Smaller bars are better.**
 
 {% include image.html path="/assets/images/content/figure-1.png" alt="SPEC CPU 2017 execution times, for all benchmarks." %}
-Figure 1: SPEC CPU 2017 execution times, for all benchmarks.
+<p>Figure 1: SPEC CPU 2017 execution times, for all benchmarks.&nbsp;</p>
 
 {% include image.html path="/assets/images/content/figure-2.png" alt="SPEC CPU 2017 execution times, for Fortran benchmarks." %}
-Figure 2: SPEC CPU 2017 execution times, for Fortran benchmarks.
+<p>Figure 2: SPEC CPU 2017 execution times, for Fortran benchmarks.&nbsp;</p>
 
-Figure 3 and Figure 4 show the speedup of the benchmarks, relative to Classic Flang 15, for each compiler.
+**Figure 3 and Figure 4 show the speedup of the benchmarks, relative to Classic Flang 15, for each compiler.**
 
 {% include image.html path="/assets/images/content/figure-3.png" alt="SPEC CPU 2017 speedups, for all benchmarks." %}
-Figure 3: SPEC CPU 2017 speedups, for all benchmarks.
+<p>Figure 3: SPEC CPU 2017 speedups, for all benchmarks.&nbsp;</p>
 
 {% include image.html path="/assets/images/content/figure-4.png" alt="SPEC CPU 2017 speedups, for Fortran benchmarks" %}
-Figure 4: SPEC CPU 2017 speedups, for Fortran benchmarks.
+<p>Figure 4: SPEC CPU 2017 speedups, for Fortran benchmarks.&nbsp;</p>
 
 In the previous graphs, it can be seen that the performance of benchmarks that don’t use Fortran are, in most cases, pretty close between the compilers. In benchmarks using Fortran, however, the variation is much higher. This shows the main performance differences between the tested toolchains reside in their Fortran frontends and not on backend optimizations, that are applied after the source code is lowered to intermediate representation.
 
