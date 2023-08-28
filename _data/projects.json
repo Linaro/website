@@ -73,7 +73,7 @@
                 "Theme": [
                     "Cloud Computing & Servers"
                 ],
-                "description": "The aim of this project is to make AArch64 a first class citizen in the Big Data, Analytics and Data Science community (e.g., Hadoop, Spark, etc.). Big Data and Data Science technologies are vital and have become mature with various production implementations. Linaro drives engineering activities and ARMv8 builds. for Apache Ambari, BigTop, Spark and Hadoop.<br><br>This project sponsored by Huawei.",
+                "description": "The aim of this project is to make AArch64 a first class citizen in the Big Data, Analytics and Data Science community. Big Data and Data Science technologies are vital and have become mature with various production implementations. Linaro drives engineering activities and ARMv8 builds for Apache BigTop, Ambari, Spark and Hadoop.<br><br>Apache Bigtop (project for development of testing and packaging of the Apache Hadoop ecosystem) provides the only Open Source distro for big data and it supports a more comprehensive list of components and architectures than any closed source distro. It provides distros for all commercial Hadoop implementations (Cloudera, AWS, MapR, IBM, Pivotal, EMC, Azure).",
                 "title": "Big Data & Data Science"
             },
             "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10564",
