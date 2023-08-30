@@ -45,7 +45,7 @@ You can find a full list of improvements [here](https://gitlab.com/Linaro/Window
 
 ## Annotate example while sampling CPython
 
-First make sure you have CPython compiled along with its PDB files. You can see detailed instructions here [CPython cross-build on x64 machine targeting ARM64](https://gitlab.com/Linaro/WindowsPerf/windowsperf/-/tree/main/wperf?ref_type=heads#cpython-cross-build-on-x64-machine-targeting-arm64). Now start the python_d.exe executable and make sure it is pinned to a single core, here we assume it is on core 1. You can pin the application through the task manager or using the command:
+First make sure you have CPython compiled along with its PDB files. You can see detailed instructions here [CPython cross-build on x64 machine targeting ARM64](https://gitlab.com/Linaro/WindowsPerf/windowsperf/-/tree/main/wperf?ref_type=heads#cpython-cross-build-on-x64-machine-targeting-arm64). Now start the python_d.exe executable and make sure it is pinned to a single core, here we assume it is on core 1. You can pin the application through the task manager or using the command: 
 
 ```
 > cmd /c “start /affinity 2 python_d.exe”
@@ -79,7 +79,6 @@ x_mul:python313_d.dll
         C:\Users\$USER\source\repos\cpython\Objects\longobject.c  3540         1
         C:\Users\$USER\source\repos\cpython\Objects\longobject.c  3557         1
         C:\Users\$USER\source\repos\cpython\Objects\longobject.c  3571         1
-
 ```
 
 \
