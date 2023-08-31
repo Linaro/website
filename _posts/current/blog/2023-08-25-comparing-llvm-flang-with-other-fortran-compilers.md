@@ -11,7 +11,7 @@ image: /assets/images/content/Banner_Toolchain.jpg
 tags:
   - toolchain
 category: blog
-author: "leandro.lupori "
+author: leandro.lupori
 ---
 # Introduction
 
