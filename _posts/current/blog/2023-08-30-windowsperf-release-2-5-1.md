@@ -7,7 +7,6 @@ description: >
   to please users of this popular performance monitoring tool.
 date: 2023-08-31 12:44:56 +02:00
 image: /assets/images/content/Auto_IoT_Edge_banner_pic.jpg
-strap_image: ""
 tags:
   - Windows on Arm
 category: blog
