@@ -5,7 +5,7 @@ description: >
   In this blog we talk about the highlights from the WindowsPerf 2.5.1 release
   and show how this release continues the development of WindowsPerf and is sure
   to please users of this popular performance monitoring tool.
-date: 2023-08-30 02:44:11 +02:00
+date: 2023-08-31 12:44:56 +02:00
 image: /assets/images/content/Chip_background_UNDER_2MB.jpg
 strap_image: ""
 tags:
@@ -47,7 +47,7 @@ You can find a full list of improvements [here](https://gitlab.com/Linaro/Window
 
 First make sure you have CPython compiled along with its PDB files. You can see detailed instructions here [CPython cross-build on x64 machine targeting ARM64](https://gitlab.com/Linaro/WindowsPerf/windowsperf/-/tree/main/wperf?ref_type=heads#cpython-cross-build-on-x64-machine-targeting-arm64). Now start the python_d.exe executable and make sure it is pinned to a single core, here we assume it is on core 1. You can pin the application through the task manager or using the command: 
 
-```
+```powershell
 > cmd /c “start /affinity 2 python_d.exe”
 ```
 
@@ -59,13 +59,13 @@ notice that the argument to affinity is an affinity mask not the core number its
 
 Now go back to the command line and start `wperf` with:
 
-```
+```powershell
 > wperf sample -e ld_spec:100000 --pe_file python_d.exe  --pdb_file python_d.pdb --image_name python_d.exe -c 1  --annotate
 ```
 
 Here follows part of the output you should see:
 
-```
+```powershell
 x_mul:python313_d.dll
         Source file                                               Line number  Hits
         ===========                                               ===========  ====
