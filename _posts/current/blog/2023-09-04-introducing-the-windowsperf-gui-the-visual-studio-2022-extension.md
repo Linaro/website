@@ -8,9 +8,8 @@ date: 2023-08-31 06:07:36 +02:00
 image: /assets/images/content/Chip_background_UNDER_2MB.jpg
 tags:
   - Windows on Arm
-  - WPerf
 category: blog
-author: everton.constantino
+author: nader.zouaoui
 ---
 The WindowsPerf team is excited to unveil the WindowsPerf GUI (Graphical User Interface) project, a Visual Studio 2022 extension designed to bring a seamless UI experience to WindowsPerf, the command-line performance profiling tool for Windows on Arm.
 
