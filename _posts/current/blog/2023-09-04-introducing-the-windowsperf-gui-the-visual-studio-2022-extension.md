@@ -44,7 +44,7 @@ WindowsPerf settings UI tutorial
 
 Beyond the primary profiling functionalities, we realized the importance of understanding the environment in which WindowsPerf operates. With the Tools -> WindowsPerf *Host Data* pathway, users can pull up a detailed window highlighting various tests executed by WindowsPerf and their corresponding results (the result of executing `wperf test` command). See this feature in action here:
 
-![WindowsPerf additional host data UI tutorial](/assets/images/content/wperf-host-data.gif "WindowsPerf settings UI tutorial"){:width="100%"}
+![WindowsPerf additional host data UI tutorial](/assets/images/content/wperf-host-data.gif "WindowsPerf additional host data UI tutorial"){:width="100%"}
 
 WindowsPerf additional host data UI tutorial
 
