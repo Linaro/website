@@ -34,14 +34,17 @@ Once the path is set, a simple click on the ‘Validate’ button will not only 
 
 **An added safeguard?** The extension remains dormant until this step is executed, ensuring you’re always on the right track. For a clearer understanding, have a look at the following illustration:
 
-![WindowsPerf settings UI tutorial](/assets/images/content/update-settings.gif)
+{% include image.html path="/assets/images/content/update-settings.gif" alt="WindowsPerf settings UI tutorial" %}
 
-### \
-Gain Insights with Host Data
+WindowsPerf settings UI tutoria
+
+### Gain Insights with Host Data
 
 Beyond the primary profiling functionalities, we realized the importance of understanding the environment in which WindowsPerf operates. With the Tools -> WindowsPerf Host Data pathway, users can pull up a detailed window highlighting various tests executed by WindowsPerf and their corresponding results (the result of executing wperf test command). See this feature in action here:
 
-![](/assets/images/content/wperf-host-data.gif)
+{% include image.html path="/assets/images/content/wperf-host-data.gif" alt="WindowsPerf additional host data UI tutorial" %}
+
+WindowsPerf additional host data UI tutorial
 
 ### Transparent and Detailed Outputs
 
