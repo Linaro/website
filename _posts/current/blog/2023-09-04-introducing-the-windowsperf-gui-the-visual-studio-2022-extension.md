@@ -14,7 +14,9 @@ author: nader.zouaoui
 ---
 The WindowsPerf team is excited to unveil the WindowsPerf GUI (Graphical User Interface) project, a Visual Studio 2022 extension designed to bring a seamless UI experience to WindowsPerf, the command-line performance profiling tool for Windows on Arm.
 
-The project is a Linaro open-source initiative, It lives under the GitLab repo [vs-extension](https://gitlab.com/Linaro/WindowsPerf/vs-extension).What is WindowsPerf?
+The project is a Linaro open-source initiative, It lives under the GitLab repo [vs-extension](https://gitlab.com/Linaro/WindowsPerf/vs-extension).
+
+## What is WindowsPerf?
 
 WindowsPerf is a (Linux perf inspired) lightweight Windows on Arm performance profiling tool. Profiling is based on ARM64 PMU (Performance Monitor Unit) and its hardware counters.
 
@@ -40,7 +42,7 @@ WindowsPerf settings UI tutorial
 
 ### Gain Insights with Host Data
 
-Beyond the primary profiling functionalities, we realized the importance of understanding the environment in which WindowsPerf operates. With the Tools -> WindowsPerf Host Data pathway, users can pull up a detailed window highlighting various tests executed by WindowsPerf and their corresponding results (the result of executing wperf test command). See this feature in action here:
+Beyond the primary profiling functionalities, we realized the importance of understanding the environment in which WindowsPerf operates. With the Tools -> WindowsPerf *Host Data* pathway, users can pull up a detailed window highlighting various tests executed by WindowsPerf and their corresponding results (the result of executing `wperf test` command). See this feature in action here:
 
 ![WindowsPerf additional host data UI tutorial](/assets/images/content/wperf-host-data.gif){:width="100%"}
 
@@ -50,7 +52,7 @@ WindowsPerf additional host data UI tutorial
 
 Every developer knows the significance of transparent logs and outputs. We’ve ensured that all commands executed via the GUI, and their subsequent outputs, are meticulously logged. 
 
-To access this treasure trove of information, simply head to View -> Output and select WindowsPerf Output from the dropdown.
+To access this treasure trove of information, simply head to View -> Output and select *WindowsPerf* Output from the dropdown.
 
 ### On the horizon: Sampling UI
 
