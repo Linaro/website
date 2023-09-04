@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Introducing the WindowsPerf GUI: the Visual Studio 2022 extension"
-description: In this blog, learn about the WindowsPerf GUI, a powerful Visual
+description: "In this blog, learn about the WindowsPerf GUI, a powerful Visual
   Studio 2022 extension developed by the WindowsPerf team. Find out more about
-  what exactly WindowsPerf is, and why we need a graphical interface.
+  what exactly WindowsPerf is, and why we need a graphical interface. "
 date: 2023-08-31 06:07:36 +02:00
 image: /assets/images/content/Chip_background_UNDER_2MB.jpg
 tags:
