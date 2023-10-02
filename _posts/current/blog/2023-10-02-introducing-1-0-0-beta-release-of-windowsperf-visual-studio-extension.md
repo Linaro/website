@@ -1,15 +1,10 @@
 ---
 layout: post
 title: Introducing 1.0.0-beta release of WindowsPerf Visual Studio extension
-description: >-
-  The WindowsPerf team is excited to unveil the WindowsPerf GUI (Graphical User
-  Interface) project, a Visual Studio 2022 extension designed to bring a
-  seamless UI experience to WindowsPerf, the command-line performance profiling
-  tool for Windows on Arm.
-
-  The project is a Linaro open-source initiative, It lives under the GitLab repo vs-extension.
-
-  Find out more about what exactly WindowsPerf is, and why we need a graphical interface. 
+description: "Introducing WindowsPerf 1.0.0-beta Visual Studio extension:
+  Explore the new sampling feature for optimized code performance. Dive deep
+  into what's already there, tutorial steps, and upcoming features in this
+  Linaro open-source initiative. Download and be a part of our journey!"
 date: 2023-10-02 10:31:29 +01:00
 image: /assets/images/content/Code_Image_Core_tech.jpg
 tags:
@@ -71,7 +66,7 @@ A unique feature to note: As you configure, the dialogue offers a real-time prev
 
 Once satisfied with your configuration, click save.
 
-{% include image.html path="/assets/images/content/configuring-the-sampling-parameters.png" alt="Configuring the Sampling Parameters" %}
+{% include image.html path="/assets/images/content/configuring-the-sampling-parameters.png" alt="Sampling settings dialog for the WindowsPerf GUI" %}
 
 ### Initiating the Sampling Process
 
@@ -91,11 +86,11 @@ An added convenience: Any accessible source file appears as a clickable hyperlin
 
 ### Implementing Code Adjustments
 
-{% include image.html path="/assets/images/content/implementing-code-adjustments-1.png" alt="Implementing Code Adjustments 1" %}
+{% include image.html path="/assets/images/content/implementing-code-adjustments-1.png" alt="Sampling explorer window for WindowsPerf GUI" %}
 
 Based on the insights gathered from the sampling results, proceed to make any required optimizations or edits to your source code.
 
-{% include image.html path="/assets/images/content/implementing-code-adjustments-2.png" alt="Implementing Code Adjustments 2" %}
+{% include image.html path="/assets/images/content/implementing-code-adjustments-2.png" alt="How to open a file from the sampling explorer in WindowsPerf GUI" %}
 
 ### Re-evaluating Post Edits
 
