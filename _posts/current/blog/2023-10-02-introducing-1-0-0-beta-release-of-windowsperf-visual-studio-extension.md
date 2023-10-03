@@ -116,7 +116,7 @@ Users will soon be able to execute sampling on processes (`wperf sample` command
 
 ### Introducing the Counting Feature
 
-We're thrilled to announce that support will be extended for the counting model in WindowsPerf (`wperf stat` command line option). This addition aims to provide developers with even more comprehensive tools for performance analysis and optimization.
+We're thrilled to announce that support will be extended for the counting model in WindowsPerf (`wperf stat` command line option). This addition aims to provide developers with even more comprehensive tools for performance analysis and optimization. 
 
 ### Be a Part of Our Journey
 
