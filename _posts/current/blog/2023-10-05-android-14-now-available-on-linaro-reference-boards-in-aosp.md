@@ -21,7 +21,9 @@ The source code for the latest Android release - Android 14 - is out! The androi
 
 This day-0 boot of Android 14 release has been made possible due to Linaro's long-standing collaboration with Google, the upstream community, as well as the upstream efforts of Linaro's Android team and Linaro’s landing team for Qualcomm. While there is always something more to do, this is a highly satisfying demonstration of the work done to keep these devboards in sync with AOSP. 
 
-{% include image.html path="/assets/images/content/image-of-rb5-running-android-14.png" alt="Easter-egg Image of Android 14 running on RB5" %}  {% include image.html path="/assets/images/content/image-of-hikey960-running-android-14.png" alt="Easter-egg Image of Android 14 running on Hikey960" %}
+{% include image.html path="/assets/images/content/image-of-rb5-running-android-14.png" alt="Easter-egg Image of Android 14 running on RB5" %}  
+
+{% include image.html path="/assets/images/content/image-of-hikey960-running-android-14.png" alt="Easter-egg Image of Android 14 running on Hikey960" %}
 
 ## How to get Android 14 to boot on Linaro reference devboards?
 
@@ -36,8 +38,6 @@ For advanced users who want to build the AOSP images from source, please follow 
 ## Benefits of Linaro Reference Devboards
 
 Linaro supports a variety of development boards to ensure that the AOSP operating system runs smoothly and efficiently on those devices, across versions. Using a Linaro reference devboard for AOSP development offers a number of benefits. These boards are tested and supported by a team of experts, ensuring that developers have access to the latest software updates and bug fixes. In addition, using a Linaro supported devboard can help reduce development time and costs, as developers can be confident that the software they are developing will run smoothly on the chosen hardware.
-
-
 
 ## Want to learn more and collaborate?
 
