@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android 14 now available on Linaro reference boards in AOSP
+title: Linaro Reference devboards boot Android 14 on the day of release
 description: >
   The source code for the latest Android release - Android 14 - is out! The
   android14-release branch boots straight out of the box on the Linaro supported
@@ -9,7 +9,14 @@ description: >
 date: 2023-10-05 11:03:05 +01:00
 image: /assets/images/content/screenshot-2023-10-05-at-11.34.24.png
 tags:
-  - android
+  - ": android14"
+  - AOSP
+  - devboards
+  - HiSilicon Hikey960
+  - Qualcomm RB5
+  - Qualcomm RB3
+  - Android
+  - Qualcomm Robotics Kit
 category: blog
 author: amit.pundir@linaro.org
 ---
@@ -17,7 +24,7 @@ The source code for the latest Android release - Android 14 - is out! The androi
 
 This day-0 boot of Android 14 release has been made possible due to Linaro's long-standing collaboration with Google, the upstream community, as well as the upstream efforts of Linaro's Android and landing teams. While there is always more work to do, this is a highly satisfying demonstration of the work of all the teams involved.
 
-{% include image.html path="/assets/images/content/image-of-rb5-running-android-14.png" alt="mage of RB5 running Android 14" %}  {% include image.html path="/assets/images/content/image-of-hikey960-running-android-14.png" alt="Image of Hikey960 running Android 14" %}
+{% include image.html path="/assets/images/content/image-of-rb5-running-android-14.png" alt="Easter-egg Image of Android 14 running on RB5" %}  {% include image.html path="/assets/images/content/image-of-hikey960-running-android-14.png" alt="Easter-egg Image of Android 14 running on Hikey960" %}
 
 ### How to get Android 14 to boot on Linaro supported devboards?
 
