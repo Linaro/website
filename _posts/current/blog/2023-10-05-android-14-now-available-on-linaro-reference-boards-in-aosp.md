@@ -41,6 +41,6 @@ Linaro supports a variety of development boards to ensure that the AOSP operatin
 
 ## Want to learn more and collaborate?
 
-For more information on the work we do to keep these devices running well with AOSP, go to our [Linaro Collaboration Advancing Android project page](https://linaro.atlassian.net/wiki/spaces/LCAA/overview).
+To learn more about the work we do around devboards and AOSP, connect with us on IRC at #aosp-developers and/or #linaro-android on OFTC. You could also contact us at [amit.pundir@linaro.org](mailto:amit.pundir@linaro.org) or [sumit.semwal@linaro.org.](mailto:sumit.semwal@linaro.org)
 
 Linaro is also working towards enabling a “Dev-boards for Android” community to provide a collaborative space for developers desirous of keeping AOSP running with relevant kernels on various devices. Stay tuned for more details on this soon!
