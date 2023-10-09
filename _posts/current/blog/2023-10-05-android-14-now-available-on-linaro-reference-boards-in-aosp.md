@@ -21,9 +21,10 @@ The source code for the latest Android release - Android 14 - is out! The androi
 
 This day-0 boot of Android 14 release has been made possible due to Linaro's long-standing collaboration with Google, the upstream community, as well as the upstream efforts of Linaro's Android team and Linaro’s landing team for Qualcomm. While there is always something more to do, this is a highly satisfying demonstration of the work done to keep these devboards in sync with AOSP. 
 
-{% include image.html path="/assets/images/content/image-of-rb5-running-android-14.png" alt="Easter-egg Image of Android 14 running on RB5" %}  
+{% include image.html path="/assets/images/content/image-of-rb5-running-android-14.jpg" alt="Easter-egg Image of Android 14 running on RB5" %} 
 
-{% include image.html path="/assets/images/content/image-of-hikey960-running-android-14.png" alt="Easter-egg Image of Android 14 running on Hikey960" %}
+
+{% include image.html path="/assets/images/content/image-of-hikey960-running-android-14.jpg" alt="Easter-egg Image of Android 14 running on Hikey960" %}
 
 ## How to get Android 14 to boot on Linaro reference devboards?
 
