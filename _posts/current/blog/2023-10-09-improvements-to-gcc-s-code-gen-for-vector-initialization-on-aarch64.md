@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Improvements to GCC’s code-gen for vector initialization on AArch64
-description: Linaro’s Toolchain Working Group is working on compiler
-  optimizations in GCC and this blog post is about our recent improvements to
-  vector initialization for NEON, which benefits the auto-vectorizer as well as
-  code written using NEON intrinsics.
+description: >-
+  The blog post is about Linaro TCWG's improvements to code-gen in GCC for NEON
+  vector initialization on AArch64 target. The post details a few
+
+  examples of the improvements, and the rationale behind them.
 date: 2023-10-09 12:37:37 +01:00
 image: /assets/images/content/Banner_Toolchain.jpg
 tags:
