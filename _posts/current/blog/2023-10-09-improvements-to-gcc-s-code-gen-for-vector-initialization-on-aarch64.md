@@ -14,7 +14,7 @@ category: blog
 author: " PrathameshKulkarni"
 ---
 <br>
-Linaro’s Toolchain Working Group is working on compiler optimizations in GCC and this blog post is about our recent improvements to vector initialization for NEON, which benefits the auto-vectorizer as well as code written using NEON intrinsics.*
+Linaro’s Toolchain Working Group is working on compiler optimizations in GCC and this blog post is about our recent improvements to vector initialization for NEON, which benefits the auto-vectorizer as well as code written using NEON intrinsics.
 
 # What is vector initialization?
 
