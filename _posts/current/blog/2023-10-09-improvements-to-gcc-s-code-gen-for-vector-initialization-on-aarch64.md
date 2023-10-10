@@ -170,7 +170,7 @@ f_s16:
 \
 While the fallback sequence is shorter, each successive ins instruction has dependency on previous one (because it has to update v0 from previous ins along with setting the vector lane), which forces the entire sequence to execute serially. With the divide and conquer approach the code-gen for initializing respective halves is interleaved and can thus be parallelized as illustrated in the diagram below:
 
-{% include image.html path="/assets/images/content/improvements-to-gcc-s-code-gen-for-vector-initialization-on-aarch64.png" alt="Improvements to gcc’s code-gen for vector initialization on AArch64" %}
+{% include image.html path="/assets/images/content/improvements-to-gcc-s-code-gen-for-vector-initialization-on-aarch64.png" alt=" Diagram that illustrates parallel execution of instructions to initialize two halves of the vector " %}
 
 Note that this strategy may not always be optimal. For example:
 
@@ -227,7 +227,6 @@ int8x16_t f_s8(int8_t x)
   return (int8x16_t) { x, x, x, x, x, x, x, x,
                                             x, x, x, x, x, x, x, 1 };
 }
-
 ```
 
 Code-gen:
@@ -253,8 +252,6 @@ f_s8:
         ret
 ```
 
-
-
 Which is pretty verbose because gcc used a heuristic to load a constant first and then insert the rest of the elements. The heuristic has been tweaked in [9eb757d11746c006c044ff45538b956be7f5859c](https://gcc.gnu.org/git/?p=gcc.git;a=commit;h=9eb757d11746c006c044ff45538b956be7f5859c) so that only if a single constant element is found, the vector is filled with the same element using dup and the single constant is instead inserted into the vector. The resulting code-gen sequence thus becomes:
 
 ```cpp
@@ -268,8 +265,6 @@ f_s8:
 \
 While this is unconditionally a win for a single constant, extending to multiple constants (or repeated instances of a same constant) gets trickier with more complicated trade-offs, and is thus not implemented currently. The above divide and conquer approach also may help to address the issue partially in case of multiple constants, for instance, if one-half of the vector can be initialized using dup.
 
-
-
 # Using xzr register to insert 0s
 
 Consider the following contrived test case:
@@ -282,7 +277,6 @@ int8x16_t foo(int8x16_t v)
   v[1] = 0;
   return v;
 }
-
 ```
 
 \
@@ -295,11 +289,7 @@ foo:
         ret
 ```
 
-
-
 The [movi instruction](https://developer.arm.com/documentation/dui0801/l/A64-SIMD-Vector-Instructions/MOVI--vector---A64-?lang=en) in code above is redundant since we can use wzr/xzr for assigning 0:
-
-
 
 ```cpp
 foo:
@@ -325,7 +315,5 @@ In the future, we plan to address more cases where vector initialization is sub-
 # Further reading
 
 1. [Mailing list discussion on divide and conquer approach](https://gcc.gnu.org/pipermail/gcc-patches/2022-November/607488.html)
-
 2. [NEON instruction set](https://developer.arm.com/documentation/dui0801/l/A64-SIMD-Vector-Instructions/A64-SIMD-Vector-instructions-in-alphabetical-order)
-
 3. [Getting started with GCC](https://gcc.gnu.org/wiki/GettingStarted)
