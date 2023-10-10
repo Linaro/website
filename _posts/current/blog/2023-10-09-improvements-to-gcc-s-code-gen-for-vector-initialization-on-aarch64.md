@@ -11,7 +11,7 @@ image: /assets/images/content/Banner_Toolchain.jpg
 tags:
   - Toolchain
 category: blog
-author: linaro
+author: " PrathameshKulkarni"
 ---
 Linaro’s Toolchain Working Group is working on compiler optimizations in GCC and this blog post is about our recent improvements to vector initialization for NEON, which benefits the auto-vectorizer as well as code written using NEON intrinsics.
 
