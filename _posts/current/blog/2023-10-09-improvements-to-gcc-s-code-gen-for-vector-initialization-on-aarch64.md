@@ -13,7 +13,8 @@ tags:
 category: blog
 author: " PrathameshKulkarni"
 ---
-Linaro’s Toolchain Working Group is working on compiler optimizations in GCC and this blog post is about our recent improvements to vector initialization for NEON, which benefits the auto-vectorizer as well as code written using NEON intrinsics.
+<br>
+Linaro’s Toolchain Working Group is working on compiler optimizations in GCC and this blog post is about our recent improvements to vector initialization for NEON, which benefits the auto-vectorizer as well as code written using NEON intrinsics.*
 
 # What is vector initialization?
 
@@ -31,13 +32,11 @@ int8x16_t f(int8_t x)
 }
 ```
 
+
+
 In this case, the compiler detects that all the elements used to initialize the vector are the same, and it can thus use a single dup instruction to fill up the vector:
 
-```cpp
-f:
-        dup     v0.16b, w0
-        ret
-```
+
 
 Another example:
 
@@ -51,6 +50,8 @@ int8x16_t foo()
 }
 ```
 
+
+
 In this case, the compiler detects that we are loading all constants, and thus it uses a constant pool to store all the constants and uses adrp+ldr to fill up the vector:
 
 ```cpp
@@ -60,7 +61,11 @@ foo:
         ret
 ```
 
+
+
 .LC0 is the address of the constant pool that stores the above constants (not shown in the code-gen). While these tricks work well in isolation, they however produce suboptimal code-gen when combined together.
+
+
 
 For example:
 
@@ -73,6 +78,8 @@ int8x16_t foo(int8_t x)
                        x, 4, x, 5, x, 6, x, 7 };
 }
 ```
+
+
 
 results in following code-gen:
 
@@ -101,7 +108,8 @@ v_odd = { 0, 1, 2, 3, 4, 5, 6, 7 };
 v_res = zip1 v_even, v_odd;
 ```
 
-\
+
+
 Note that v_even and v_odd contain only 8 elements, as opposed to 16 in v_res, so the type of v_even and v_odd would be int16x8_t, rather than int8x16_t. For this purpose, we stop recursing when v_res is 64 bits (since we don’t support 32-bit vectors on aarch64).
 
 With this approach, the code-gen becomes:
@@ -133,6 +141,8 @@ int16x8_t f_s16 (int16_t x0, int16_t x1, int16_t x2, int16_t x3,
 }
 ```
 
+
+
 Fallback code-gen sequence:
 
 ```cpp
@@ -148,6 +158,8 @@ f_s16:
         ins     v0.h[7], w7
         ret
 ```
+
+
 
 Divide and conquer code-gen sequence:
 
@@ -183,6 +195,8 @@ int8x16_t f_s8(int8_t x, int8_t y)
                                             8, 9, 10, 11, 12, 13, 14 };
 }
 ```
+
+
 
 Fallback code-gen sequence:
 
@@ -229,6 +243,8 @@ int8x16_t f_s8(int8_t x)
 }
 ```
 
+
+
 Code-gen:
 
 ```cpp
@@ -251,6 +267,8 @@ f_s8:
         ins     v0.b[14], w0
         ret
 ```
+
+
 
 Which is pretty verbose because gcc used a heuristic to load a constant first and then insert the rest of the elements. The heuristic has been tweaked in [9eb757d11746c006c044ff45538b956be7f5859c](https://gcc.gnu.org/git/?p=gcc.git;a=commit;h=9eb757d11746c006c044ff45538b956be7f5859c) so that only if a single constant element is found, the vector is filled with the same element using dup and the single constant is instead inserted into the vector. The resulting code-gen sequence thus becomes:
 
@@ -288,6 +306,8 @@ foo:
         ins     v0.b[1], v31.b[0]
         ret
 ```
+
+
 
 The [movi instruction](https://developer.arm.com/documentation/dui0801/l/A64-SIMD-Vector-Instructions/MOVI--vector---A64-?lang=en) in code above is redundant since we can use wzr/xzr for assigning 0:
 
