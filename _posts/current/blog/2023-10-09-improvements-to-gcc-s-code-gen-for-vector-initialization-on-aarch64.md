@@ -32,11 +32,7 @@ int8x16_t f(int8_t x)
 }
 ```
 
-
-
 In this case, the compiler detects that all the elements used to initialize the vector are the same, and it can thus use a single dup instruction to fill up the vector:
-
-
 
 Another example:
 
@@ -50,8 +46,6 @@ int8x16_t foo()
 }
 ```
 
-
-
 In this case, the compiler detects that we are loading all constants, and thus it uses a constant pool to store all the constants and uses adrp+ldr to fill up the vector:
 
 ```cpp
@@ -61,11 +55,7 @@ foo:
         ret
 ```
 
-
-
 .LC0 is the address of the constant pool that stores the above constants (not shown in the code-gen). While these tricks work well in isolation, they however produce suboptimal code-gen when combined together.
-
-
 
 For example:
 
@@ -78,8 +68,6 @@ int8x16_t foo(int8_t x)
                        x, 4, x, 5, x, 6, x, 7 };
 }
 ```
-
-
 
 results in following code-gen:
 
@@ -108,8 +96,6 @@ v_odd = { 0, 1, 2, 3, 4, 5, 6, 7 };
 v_res = zip1 v_even, v_odd;
 ```
 
-
-
 Note that v_even and v_odd contain only 8 elements, as opposed to 16 in v_res, so the type of v_even and v_odd would be int16x8_t, rather than int8x16_t. For this purpose, we stop recursing when v_res is 64 bits (since we don’t support 32-bit vectors on aarch64).
 
 With this approach, the code-gen becomes:
@@ -123,7 +109,6 @@ foo:
         ret
 ```
 
-\
 The compiler loads ‘x’ (represented by w0), into v31.8b (v_even) and the constants in d0 (v_odd). The result of interleaving the vectors is then combined with zip1.
 
 For some terminology, let’s call the code-gen without using divide and conquer approach as “fallback sequence”. The same approach is eventually used by the divide and conquer approach after we cannot divide the initializer sequence into more halves.
@@ -141,8 +126,6 @@ int16x8_t f_s16 (int16_t x0, int16_t x1, int16_t x2, int16_t x3,
 }
 ```
 
-
-
 Fallback code-gen sequence:
 
 ```cpp
@@ -158,8 +141,6 @@ f_s16:
         ins     v0.h[7], w7
         ret
 ```
-
-
 
 Divide and conquer code-gen sequence:
 
@@ -196,8 +177,6 @@ int8x16_t f_s8(int8_t x, int8_t y)
 }
 ```
 
-
-
 Fallback code-gen sequence:
 
 ```cpp
@@ -209,7 +188,6 @@ f_s8:
         ret
 ```
 
-\
 Code-gen sequence with divide and conquer approach:
 
 ```cpp
@@ -224,7 +202,6 @@ f_s8:
         ret
 ```
 
-\
 In this case we generate code recursively for the following halves { x, 1, 3, 5, 7, 9, 11, 13 } and {y, 2, 4, 6, 8, 10, 12, 14} and combine the result with zip1, which is less efficient than fallback code-gen, which simply loads the constants from the constant pool and uses two ins instructions for inserting ‘x’ and ‘y’ respectively.
 
 Since we do not know beforehand if the divide and conquer strategy will result in better code-gen compared to fallback version, we generate code sequences using both approaches and compare the cost of each sequence and the one with lesser cost wins.
@@ -242,8 +219,6 @@ int8x16_t f_s8(int8_t x)
                                             x, x, x, x, x, x, x, 1 };
 }
 ```
-
-
 
 Code-gen:
 
@@ -268,8 +243,6 @@ f_s8:
         ret
 ```
 
-
-
 Which is pretty verbose because gcc used a heuristic to load a constant first and then insert the rest of the elements. The heuristic has been tweaked in [9eb757d11746c006c044ff45538b956be7f5859c](https://gcc.gnu.org/git/?p=gcc.git;a=commit;h=9eb757d11746c006c044ff45538b956be7f5859c) so that only if a single constant element is found, the vector is filled with the same element using dup and the single constant is instead inserted into the vector. The resulting code-gen sequence thus becomes:
 
 ```cpp
@@ -280,7 +253,6 @@ f_s8:
         ret
 ```
 
-\
 While this is unconditionally a win for a single constant, extending to multiple constants (or repeated instances of a same constant) gets trickier with more complicated trade-offs, and is thus not implemented currently. The above divide and conquer approach also may help to address the issue partially in case of multiple constants, for instance, if one-half of the vector can be initialized using dup.
 
 # Using xzr register to insert 0s
@@ -297,7 +269,6 @@ int8x16_t foo(int8x16_t v)
 }
 ```
 
-\
 Code-gen:
 
 ```cpp
@@ -306,8 +277,6 @@ foo:
         ins     v0.b[1], v31.b[0]
         ret
 ```
-
-
 
 The [movi instruction](https://developer.arm.com/documentation/dui0801/l/A64-SIMD-Vector-Instructions/MOVI--vector---A64-?lang=en) in code above is redundant since we can use wzr/xzr for assigning 0:
 
