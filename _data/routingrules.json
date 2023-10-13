@@ -32,7 +32,7 @@
   "^/sig/hpc(/?|/index.html)$ /engineering/high-performance-computing/ [R,L,NC]",
   "^/sig(/?|/index.html)$ /engineering/ [R,L,NC]",
   "^/services/verification-testing-ci(/?|/index.html)$ /services/ [R,L,NC]",
-  "^/services/training(/?|/index.html)$ /services/ [R,L,NC]",
+  "^/services/training(/?|/index.html)$ /services/hands-on-training/ [R,L,NC]",
   "^/services/toolchain-optimization-services(/?|/index.html)$ /services/system-performance-and-optimization/ [R,L,NC]",
   "^/services/testing-validation-services(/?|/index.html)$ /services/testing-and-long-term-support/ [R,L,NC]",
   "^/services/servers-gateways-development-boards(/?|/index.html)$ /services/ [R,L,NC]",
