@@ -887,6 +887,7 @@
   "^/author/bernhard-rosenkranzer(/?|/index.html)$ /blog/ [R,L,NC]",
   "^/author/baolinwang(/?|/index.html)$ /author/baolin-wang/ [R,L,NC]",
   "^/author/arndbergmann(/?|/index.html)$ /author/arnd-bergmann/ [R,L,NC]",
+  "^/assets/pdf/Linaro_Training_Catalogue_January_2023.pdf$ /assets/pdf/Linaro_Training_Catalogue_February_2023.pdf [R,L,NC]",
   "^/artificial-intelligence(/?|/index.html)$ / [R,L,NC]",
   "^/armv8(/?|/index.html)$ /engineering/projects/ [R,L,NC]",
   "^/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices(/?|/index.html)$ /news/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/ [R,L,NC]",
