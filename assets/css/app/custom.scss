@@ -11,6 +11,9 @@ body {
   }
 }
 #wrapper {
+  .indent_header_text {
+    padding-left: 1.25rem;
+  }
   #pagination_panel li.page-item.active a {
     color: white;
   }
