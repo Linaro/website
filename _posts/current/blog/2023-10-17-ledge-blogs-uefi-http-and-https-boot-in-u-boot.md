@@ -1,11 +1,11 @@
 ---
 layout: post
 title: LEDGE Blogs - UEFI HTTP and HTTPs Boot in U-Boot
-description: "In this blog, we delve into the fascinating world of network
-  booting—a crucial process for embedded and server-class systems. Focusing
-  particularly on Arm-based boards, we uncover the pivotal role played by
-  U-Boot, the preferred bootloader, in configuring initial settings and loading
-  operating systems. "
+description: UEFI HTTP boot simplifies the network boot process by allowing the
+  firmware to retrieve operating system images and EFI executables directly from
+  an HTTP server. This eliminates the need for unsecure protocols like TFTP
+  (Trivial File Transfer Protocol) and enables mass deployment using public
+  networks.  Let’s go through the current U-Boot status and roadmap.
 date: 2023-10-17 01:28:08 +02:00
 image: /assets/images/content/istock-860653830sm.jpg
 tags:
