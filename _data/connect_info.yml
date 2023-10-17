@@ -1,8 +1,8 @@
 header_text_left_title: |
   Join us at Linaro Connect, where innovation meets collaboration!
-header_text_left: |
-  Discover the future of ARM open-source software, network with industry leaders, engineers, and ARM software experts, and don't forget the Linaro Connect hacking sessions.
-  Let's connect, learn, and innovate together.
+header_text_left:
+  - Discover the future of ARM open-source software, network with industry leaders, engineers, and ARM software experts, and don't forget the Linaro Connect hacking sessions.
+  - Let's connect, learn, and innovate together.
 header_text_right_title: |
   Linaro connect will take place at Melia Avenida America, Madrid, Spain
 header_text_right: |
@@ -12,16 +12,20 @@ header_register_button: true
 tabs_row_background_image: /assets/images/content/Connect24_Background_2.jpg
 tabs:
   - title: Registration
-    text: Content for Registration.
+    text: REGISTRATION OPENS XX/12/2023.
   - title: Call for Proposals
-    text: Content for Call for Proposals.
+    text: CALL FOR PROPOSALS.
+    description:
+      - Our call for proposals(CFP) is just around the corner.This is your chance to share your insights experiences,and innovations with the global ARM ecosystem community.
+      - Stay turned for updates and get ready to submit your compelling talks.
+    bold_text: Let's amplify the impact of Arm together!
   - title: Sponsorship Opportunities
-    text: Content for Sponsorship Opportunities.
+    text: SPONSORSHIP INFORMATION COMING SOON!.
   - title: Program
-    text: Content for Program.
+    text: PROGRAM OF EVENTS COMING SOON!.
   - title: Speakers
-    text: Content for Speakers.
+    text: SPEAKER INFORMATION COMING SOON!.
   - title: Hotels & Travel
-    text: Content for Hotels & Travel.
+    text: HOTEL & TRAVEL INFORMATION COMING SOON!.
   - title: Code of Conduct
-    text: Content for Code of Conduct.
+    text: CODE OF CONDUCT.

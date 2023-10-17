@@ -68,6 +68,11 @@
     @include media-breakpoint-down(md) {
       margin: 50px 0;
     }
+    .connect_header_row .container h1,
+    .connect_header_row .container h2 {
+      color: black !important;
+    }
+
     .header_text {
       font-weight: bold;
       font-size: 30px;

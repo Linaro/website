@@ -20,10 +20,10 @@ jumbotron:
   image: /assets/images/content/Connect24_Background_2.jpg
 flow:
   - row: custom_include_row
-    background_image: /assets/images/content/Connect24_Background_2.jpg
+    # background_image: /assets/images/content/Connect24_Background_2.jpg
     source: connect/connect_nav.html
   - row: container_row
-    style: py-4 connect_landing_page
+    style: py-4
     # sections:
     #   - format: text
     #     style: text-left text-white

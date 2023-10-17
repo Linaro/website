@@ -8,34 +8,40 @@
       alt="Connect Logo 2024"
     />
     <div class="header_title" style="color: black !important">
-      {{site.data.connect_info.header_text_left_title | markdownify}}
+      <h1>{{site.data.connect_info.header_text_left_title | markdownify}}</h1>
     </div>
     <div class="header_text">
-      <h1 style="color: black !important">
-        {{site.data.connect_info.header_text_left | markdownify}}
-      </h1>
+      <h2 style="color: black !important">
+        {% for desc in site.data.connect_info.header_text_left%} {{desc |
+        markdownify}} {% endfor %}
+      </h2>
     </div>
   </div>
   <div class="col col-12 col-md-6 px-1 px-md-5">
     <img
-      src="/assets/images/content/May2024.png"
+      src="/assets/images/content/May2024.svg"
       class="connect_header_svg"
       alt="Connect Date"
     />
     <div class="header_text">
-      <h1 style="color: black !important">
+      <h2 style="color: black !important">
         {{site.data.connect_info.header_text_right_title | markdownify}}
-      </h1>
+      </h2>
     </div>
     <div class="header_title" style="color: black !important">
-      {{site.data.connect_info.header_text_right | markdownify}}
+      <h1>{{site.data.connect_info.header_text_right | markdownify}}</h1>
     </div>
     {% if site.data.connect_info.header_register_button %}
     <a
       href="{{site.data.connect_info.header_register_button_link}}"
       class="btn"
       id="connect_register_button"
-      style="border-radius: 25px; border: 1px solid #644228"
+      style="
+        border-radius: 25px;
+        border: 1px solid #644228;
+        padding: 10px 24px;
+        font-weight: bold;
+      "
     >
       {{site.data.connect_info.header_register_button_text}}
     </a>

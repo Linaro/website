@@ -31,9 +31,14 @@
         >
           {% if tab.custom_include %} {% include {{tab.custom_include}} %} {%
           else %}
-          <div class="text-custom-brown">
-            {{tab.text | markdownify}} {% endif %}
+          <div class="text-custom-brown">{{tab.text | markdownify}}</div>
+          {% for desc in tab.description %}
+          <div style="color: black">{{desc | markdownify}}</div>
+          {% endfor %}
+          <div style="font-size: 30px; font-weight: bold; color: black">
+            {{tab.bold_text}}
           </div>
+          {% endif %}
         </div>
         {% endfor %}
       </div>
