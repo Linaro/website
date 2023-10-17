@@ -49,24 +49,24 @@ Example of downloading debian iso image and starting the OS installer.  The com
 ```
 qemu-system-aarch64 -nographic -machine virt -cpu cortex-a57 -bios u-boot.bin \
 
-\-m 4096 \
+-m 4096 \
 
-\-drive if=none,file=test.img,format=raw,id=hd0 \
+-drive if=none,file=test.img,format=raw,id=hd0 \
 
-\-device virtio-blk-device,drive=hd0 \
+-device virtio-blk-device,drive=hd0 \
 
-\-device virtio-net-device,netdev=net0 \
+-device virtio-net-device,netdev=net0 \
 
-\-netdev tap,ifname=tap0,id=net0 \
+-netdev tap,ifname=tap0,id=net0 \
 
-\-device virtio-net-device,netdev=net1 \
+-device virtio-net-device,netdev=net1 \
 
-\-netdev user,id=net1
+-netdev user,id=net1
 
 
-\=> setenv loadaddr 0x41000000
+=> setenv loadaddr 0x41000000
 
-\=> lwip wget http://192.168.2.100/mini.iso
+=> lwip wget http://192.168.2.100/mini.iso
 
 eth0: virtio-net#29 52:54:00:12:34:57 active
 
@@ -78,17 +78,17 @@ downloading http://192.168.2.100/mini.iso to addr 0x41000000
 
 153399296 bytes successfully downloaded.
 
-\=> blkmap create debian
+=> blkmap create debian
 
 Created "debian"
 
-\=> setexpr fileblks ${filesize} / 0x200
+=> setexpr fileblks ${filesize} / 0x200
 
-\=> blkmap map debian 0 ${fileblks} mem 0x41000000
+=> blkmap map debian 0 ${fileblks} mem 0x41000000
 
 Block 0x0+0xa99cc9 mapped to 0x41000000
 
-\=> ls blkmap 0:2 /
+=> ls blkmap 0:2 /
 
          efi/
 
@@ -96,11 +96,11 @@ Block 0x0+0xa99cc9 mapped to 0x41000000
 
     88   ubootefi.var
 
-\=> fatload blkmap 0:2 0x4b000000 efi/boot/bootaa64.efi;
+=> fatload blkmap 0:2 0x4b000000 efi/boot/bootaa64.efi;
 
 979672 bytes read in 4 ms (233.6 MiB/s)
 
-\=> bootefi 0x4b000000 ${fdt_addr}
+=> bootefi 0x4b000000 ${fdt_addr}
 ```
 
 \
