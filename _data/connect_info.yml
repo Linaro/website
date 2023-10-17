@@ -1,14 +1,27 @@
+header_text_left_title: |
+  Join us at Linaro Connect, where innovation meets collaboration!
 header_text_left: |
-  Once a year, Engineers, Technical Leadership and
-  world-leading Arm Software Experts come together
-  for engineering sessions and hacking at Linaro
-  Connect. Here discussions on the future of Arm open
-  source software are held and solutions implemented.
-  If you want to know what is happening in the Arm
-  software ecosystem, look no further.
-header_register_button: false
-tabs_row_background_image: /assets/images/content/Connect23_Background_2.jpg
+  Discover the future of ARM open-source software, network with industry leaders, engineers, and ARM software experts, and don't forget the Linaro Connect hacking sessions.
+  Let's connect, learn, and innovate together.
+header_text_right_title: |
+  Linaro connect will take place at Melia Avenida America, Madrid, Spain
+header_text_right: |
+  Be part of this unique event!
+header_register_button_text: SAVE THE DATE
+header_register_button: true
+tabs_row_background_image: /assets/images/content/Connect24_Background_2.jpg
 tabs:
-  - title: Resources
-    text: For those who were unable to attend the previous Linaro Connect 23, videos
-      and presentations are available on Linaro Resource Hub.
+  - title: Registration
+    text: Content for Registration.
+  - title: Call for Proposals
+    text: Content for Call for Proposals.
+  - title: Sponsorship Opportunities
+    text: Content for Sponsorship Opportunities.
+  - title: Program
+    text: Content for Program.
+  - title: Speakers
+    text: Content for Speakers.
+  - title: Hotels & Travel
+    text: Content for Hotels & Travel.
+  - title: Code of Conduct
+    text: Content for Code of Conduct.

@@ -3,28 +3,39 @@
     class="col col-12 col-md-6 px-1 px-md-5 border-md-right bordered-content"
   >
     <img
-      src="/assets/images/content/Connect23_logo.svg"
+      src="/assets/images/content/Connect24_logo.png"
       class="connect_header_svg"
-      alt="Connect Logo 2023"
+      alt="Connect Logo 2024"
     />
+    <div class="header_title" style="color: black !important">
+      {{site.data.connect_info.header_text_left_title | markdownify}}
+    </div>
     <div class="header_text">
-      {{site.data.connect_info.header_text_left | markdownify}}
+      <h1 style="color: black !important">
+        {{site.data.connect_info.header_text_left | markdownify}}
+      </h1>
     </div>
   </div>
   <div class="col col-12 col-md-6 px-1 px-md-5">
     <img
-      src="/assets/images/content/April2024.svg"
+      src="/assets/images/content/May2024.png"
       class="connect_header_svg"
       alt="Connect Date"
     />
     <div class="header_text">
+      <h1 style="color: black !important">
+        {{site.data.connect_info.header_text_right_title | markdownify}}
+      </h1>
+    </div>
+    <div class="header_title" style="color: black !important">
       {{site.data.connect_info.header_text_right | markdownify}}
     </div>
     {% if site.data.connect_info.header_register_button %}
     <a
       href="{{site.data.connect_info.header_register_button_link}}"
-      class="btn btn-primary"
+      class="btn"
       id="connect_register_button"
+      style="border-radius: 25px; border: 1px solid #644228"
     >
       {{site.data.connect_info.header_register_button_text}}
     </a>

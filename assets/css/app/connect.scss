@@ -56,9 +56,9 @@
     border-radius: 0;
     padding: 20px 50px;
     font-weight: bold;
-    color: $primary;
-    background-color: black;
-    border: 1px solid #eee;
+    color: #644228;
+    // background-color: black;
+    border: 1px solid #644228;
     font-size: 24px;
   }
   .connect_header_row {
@@ -69,11 +69,23 @@
       margin: 50px 0;
     }
     .header_text {
-      font-weight: normal;
+      font-weight: bold;
+      font-size: 30px;
       strong {
-        color: $primary;
+        color: black;
       }
     }
+    .header_title {
+      font-weight: bold;
+      font-size: 40px;
+      strong {
+        color: black;
+      }
+    }
+  }
+  .text-custom-brown {
+    color: #b77236;
+    font-weight: bold;
   }
 
   img.connect_header_svg {
@@ -146,7 +158,7 @@
   }
 
   .connect_nav_wrapper {
-    background-color: #000000ad;
+    background-color: black;
     border-top: 1px solid #6c6c6c;
     border-bottom: 1px solid #6c6c6c;
     color: white;
