@@ -9,7 +9,12 @@ description: "In this blog, we delve into the fascinating world of network
 date: 2023-10-17 01:28:08 +02:00
 image: /assets/images/content/istock-860653830sm.jpg
 tags:
-  - embedded U-Boot SystemReady UEFI  Bootloaders UEFI_HTTP Fedora
+  - embedded
+  - U-Boot
+  - SystemReady
+  - UEFI
+  - Bootloaders
+  - UEFI_HTTP
 category: blog
 author: MaximUvarov
 ---
