@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LEDGE Blogs - UEFI HTTP and HTTPs Boot in U-Boot
+title: UEFI HTTP and HTTPs Boot in U-Boot
 description: UEFI HTTP boot simplifies the network boot process by allowing the
   firmware to retrieve operating system images and EFI executables directly from
   an HTTP server. This eliminates the need for unsecure protocols like TFTP
