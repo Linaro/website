@@ -1,18 +1,17 @@
 ---
 layout: post
 title: LEDGE Blogs - UEFI HTTP and HTTPs Boot in U-Boot
-description: >
-  Network boot is widely used for booting embedded and server class systems.
-  Historically for Arm-based boards, U-Boot is the preferred bootloader used to
-  set up the board's initial settings and load the operating system. According
-  to git history, the initial git commit for the network was created in Dec
-  2000, i.e. almost 23 years ago.  
+description: "In this blog, we delve into the fascinating world of network
+  booting—a crucial process for embedded and server-class systems. Focusing
+  particularly on Arm-based boards, we uncover the pivotal role played by
+  U-Boot, the preferred bootloader, in configuring initial settings and loading
+  operating systems. "
 date: 2023-10-17 01:28:08 +02:00
 image: /assets/images/content/istock-860653830sm.jpg
 tags:
   - embedded U-Boot SystemReady UEFI  Bootloaders UEFI_HTTP Fedora
 category: blog
-author: linaro
+author: MaximUvarov
 ---
 ## Introduction
 
