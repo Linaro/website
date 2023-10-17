@@ -104,7 +104,7 @@ Block 0x0+0xa99cc9 mapped to 0x41000000
 ```
 
 \
-Note: We are in the process of upstreaming patches. The command sequence above will be part of the UEFI [Bootmanager](https://lore.kernel.org/u-boot/20230922071119.1439482-1-masahisa.kojima@linaro.org/).
+**Note**: We are in the process of upstreaming patches. The command sequence above will be part of the UEFI [Bootmanager](https://lore.kernel.org/u-boot/20230922071119.1439482-1-masahisa.kojima@linaro.org/).
 
 Then we can see loader grub bootloader:
 
