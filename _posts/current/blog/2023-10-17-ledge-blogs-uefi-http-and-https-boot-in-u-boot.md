@@ -103,7 +103,7 @@ Note: We are in the process of upstreaming patches. The command sequence above w
 
 Then we can see loader grub bootloader:
 
-![GRUB boot loader screen](/assets/images/content/gnu-grub-version-2.12~rc1-7.png)
+{% include image.html path="/assets/images/content/gnu-grub-version-2.12~rc1-7.png" alt="GRUB boot loader screen" %}
 
 ## U-Boot Implementation
 
