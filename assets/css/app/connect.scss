@@ -44,22 +44,34 @@
   .bordered-content {
     border-color: #6c6c6c !important;
   }
+  .jumbotron.background_image .container p {
+    color: black !important;
+    font-weight: bold !important;
+  }
   img.header_background_image.lazyloaded {
     position: absolute;
     height: 100%;
     top: 0;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
+    filter: brightness() !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
   a#connect_register_button {
     text-transform: uppercase;
     border-radius: 0;
     padding: 20px 50px;
     font-weight: bold;
-    color: #644228;
+    color: #a05d2a;
     // background-color: black;
-    border: 1px solid #644228;
+    border: 1px solid #a05d2a;
     font-size: 24px;
+    @include media-breakpoint-down(sm) {
+      color: white;
+      border: 1px solid white;
+    }
   }
   .connect_header_row {
     z-index: 1;
