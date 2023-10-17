@@ -58,6 +58,7 @@ qemu-system-aarch64 -nographic -machine virt -cpu cortex-a57 -bios u-boot.bin \
 
 \-netdev user,id=net1
 
+
 \=> setenv loadaddr 0x41000000
 
 \=> lwip wget http://192.168.2.100/mini.iso
@@ -102,7 +103,7 @@ Note: We are in the process of upstreaming patches. The command sequence above w
 
 Then we can see loader grub bootloader:
 
-![](/assets/images/content/gnu-grub-version-2.12~rc1-7.png)
+![GRUB boot loader screen](/assets/images/content/gnu-grub-version-2.12~rc1-7.png)
 
 ## U-Boot Implementation
 
