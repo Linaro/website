@@ -66,7 +66,7 @@ qemu-system-aarch64 -nographic -machine virt -cpu cortex-a57 -bios u-boot.bin \
 
 => setenv loadaddr 0x41000000
 
-=> lwip wget http://192.168.2.100/mini.iso
+=> wget http://192.168.2.100/mini.iso
 
 eth0: virtio-net#29 52:54:00:12:34:57 active
 
