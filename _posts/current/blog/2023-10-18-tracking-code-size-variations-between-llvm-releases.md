@@ -71,7 +71,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p style="text-align: center;">Figure 4: Commits impacting code size (AArch64)</p                                                                               |
 
-<table style="width: 800px; height: 800px;">
+<table style="width: 800px; height: 600px;">
 <tbody>
 <tr>
 <td style="width: 33px;">
