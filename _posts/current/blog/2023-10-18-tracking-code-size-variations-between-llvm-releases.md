@@ -12,7 +12,7 @@ tags:
 category: blog
 author: linaro
 ---
-## INTRODUCTION
+### INTRODUCTION
 
 Code size is critical for a wide range of software.
 
@@ -28,7 +28,7 @@ Linaro Toolchain Working Group (TCWG) started working on several activities rela
 
 This blog post will be about one of these activities: the automated tracking of code size. We'll compare between the latest LLVM releases [[6](https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.iytzetzdrla7)], and take a quick look at the largest variations.<br><br>
 
-## **CODE SIZE TRACKING USING LNT**
+### CODE SIZE TRACKING USING LNT
 
 Measuring code size on a regular basis has several benefits. It allows detection of significant regressions and improvements. It can also provide interesting feedback on specific developments, and when looking at a higher level, interesting information such as variations between releases.
 
@@ -42,13 +42,13 @@ Note that an official LLVM LNT dashboard has been available for a long time, and
 
 There are also several TCWG Jenkins jobs that measure code size on different benchmarks, targets and optimization levels, aiming at detecting significant regressions and improvements, identifying exact responsible commits and notifying developers [[11](https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.6akgup371zc2)].<br><br>
 
-## EVOLUTION OF THE CODE SIZE ON SPEC BENCHMARK (AT -Oz OPTIMIZATION LEVEL)
+### EVOLUTION OF THE CODE SIZE ON SPEC BENCHMARK (AT -Oz OPTIMIZATION LEVEL)
 
-**{% include image.html path="/assets/images/content/figure-1-evolution-of-code-size-aarch64-.png" alt="Figure 1: Evolution of code size (AArch64)" width="70%"%}**
+{% include image.html path="/assets/images/content/figure-1-evolution-of-code-size-aarch64-.png" alt="Figure 1: Evolution of code size (AArch64)" width="70%"%}
 
 Figure 1: Evolution of code size (AArch64)
 
-**{% include image.html path="/assets/images/content/figure-2-evolution-of-code-size-x86_64-.png" alt="Figure 2: Evolution of code size (X86_64)" width="70%" %}**
+{% include image.html path="/assets/images/content/figure-2-evolution-of-code-size-x86_64-.png" alt="Figure 2: Evolution of code size (X86_64)" width="70%" %}
 
 Figure 2: Evolution of code size (X86_64)
 
@@ -63,17 +63,15 @@ Note that the apparent increase between LLVM 14.0 and LLVM 15.0 is misleading. I
 
 While the variations caused by these 15 commits look small (from 0.06% to 0.6%), they all contain larger variations on individual benchmarks (ranging from 0.8% to 5.2%). Also, when looking at individual benchmarks, about 40 commits result in a variation of more than 1.0% (not ignoring reverts and relands).
 
-**{% include image.html path="/assets/images/content/figure-3-evolution-of-code-size-fixed-aarch64-.png" alt="Figure 3: Evolution of code size - fixed (AArch64)" %}**
+{% include image.html path="/assets/images/content/figure-3-evolution-of-code-size-fixed-aarch64-.png" alt="Figure 3: Evolution of code size - fixed (AArch64)" %}
 
-Figure 3: Evolution of code size - fixed (AArch64)
+Figure 3: Evolution of code size - fixed (AArch64) <br><br>
 
-<br>
+### COMMITS IMPACTING -Oz CODE SIZE
 
-## COMMITS IMPACTING -Oz CODE SIZE
+{% include image.html path="/assets/images/content/figure-4-commits-impacting-code-size-aarch64-.png" alt="[Figure 4: Commits impacting code size (AArch64)" %}
 
-**{% include image.html path="/assets/images/content/figure-4-commits-impacting-code-size-aarch64-.png" alt="[Figure 4: Commits impacting code size (AArch64)" %}**
-
-Figure 4: Commits impacting code size (AArch64)
+Figure 4: Commits impacting code size (AArch64) <br>
 
 <table style="width: 800px; height: 600px;">
 <tbody>
@@ -244,15 +242,13 @@ Figure 4: Commits impacting code size (AArch64)
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
+
 
 These are some of the biggest AArch64 code size variations on SPEC CPU (2006 & 2017) benchmarks since tag llvmorg-13-init, ignoring revert/reland commits.
 
-One can observe that MachineOutliner (V10, V11, V13) and AArch64 target specific patches (V4, V8, V12, V15) represent almost half of these variations. The remaining commits are mostly about generic optimizations (like MachineSink or AggressiveInstCombine).
+One can observe that MachineOutliner (V10, V11, V13) and AArch64 target specific patches (V4, V8, V12, V15) represent almost half of these variations. The remaining commits are mostly about generic optimizations (like MachineSink or AggressiveInstCombine). <br><br>
 
-<br>
-
-## NEXT
+### NEXT
 
 Linaro TCWG is currently working on several other activities related to code size reduction for LLVM AArch64.
 
@@ -280,9 +276,9 @@ For more information on Linaro's work on toolchains and compilers, check out the
 
 {% include image.html path="/assets/images/content/figure-8-lnt-dashboard-14-.png" alt="Figure 8: LNT dashboard" %}
 
-Figure 8: LNT dashboard [[14](https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.de9gruo50m55)]
+Figure 8: LNT dashboard [[14](https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.de9gruo50m55)]<br><br>
 
-## REFERENCES
+### REFERENCES
 
 \[1] [Inlining for Code Size Reduction](https://homepages.dcc.ufmg.br/~fernando/publications/papers/SBLP21Pacheco.pdf)
 
