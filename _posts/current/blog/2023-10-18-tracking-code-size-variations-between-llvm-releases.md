@@ -46,11 +46,11 @@ There are also several TCWG Jenkins jobs that measure code size on different ben
 
 {% include image.html path="/assets/images/content/figure-1-evolution-of-code-size-aarch64-.png" alt="Figure 1: Evolution of code size (AArch64)" width="70%"%}
 
-Figure 1: Evolution of code size (AArch64)
+*Figure 1: Evolution of code size (AArch64)*
 
 {% include image.html path="/assets/images/content/figure-2-evolution-of-code-size-x86_64-.png" alt="Figure 2: Evolution of code size (X86_64)" width="70%" %}
 
-Figure 2: Evolution of code size (X86_64)
+*Figure 2: Evolution of code size (X86_64)*
 
 Several observations can be made by looking at code size evolution (AArch64 / -Oz) through the last LLVM releases (Figure 1 & Figure 3):
 
@@ -65,13 +65,13 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 
 {% include image.html path="/assets/images/content/figure-3-evolution-of-code-size-fixed-aarch64-.png" alt="Figure 3: Evolution of code size - fixed (AArch64)" %}
 
-Figure 3: Evolution of code size - fixed (AArch64) <br><br>
+*Figure 3: Evolution of code size - fixed (AArch64) <br><br>*
 
 ### COMMITS IMPACTING -Oz CODE SIZE
 
 {% include image.html path="/assets/images/content/figure-4-commits-impacting-code-size-aarch64-.png" alt="[Figure 4: Commits impacting code size (AArch64)" %}
 
-Figure 4: Commits impacting code size (AArch64) <br>
+*Figure 4: Commits impacting code size (AArch64) <br>*
 
 <table style="width: 800px; height: 600px;">
 <tbody>
@@ -83,7 +83,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">+0.15%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">[NFCI] SCEVExpander: emit intrinsics for integral {u,s}{min,max} SCEV expressions</span></p>
+<p><span style="font-weight: 400;">\[NFCI] SCEVExpander: emit intrinsics for integral {u,s}{min,max} SCEV expressions</span></p>
 </td>
 </tr>
 <tr>
@@ -94,7 +94,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">+0.06%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">[SLP]Improve cost model for the vectorized extractelements.</span></p>
+<p><span style="font-weight: 400;">\[SLP]Improve cost model for the vectorized extractelements.</span></p>
 </td>
 </tr>
 <tr>
@@ -105,7 +105,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">-0.06%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">Return "[CGCall] Annotate`this` argument with alignment"</span></p>
+<p><span style="font-weight: 400;">Return "\[CGCall] Annotate\`this\` argument with alignment"</span></p>
 </td>
 </tr>
 <tr>
@@ -116,7 +116,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">+0.41%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">[AArch64] Make -mcpu=generic schedule for an in-order core</span></p>
+<p><span style="font-weight: 400;">\[AArch64] Make -mcpu=generic schedule for an in-order core</span></p>
 </td>
 </tr>
 <tr>
@@ -138,7 +138,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">[IRGen] Do not overwrite existing attributes in CGCall.</span></p>
+<p><span style="font-weight: 400;">\[IRGen] Do not overwrite existing attributes in CGCall.</span></p>
 </td>
 </tr>
 <tr>
@@ -149,7 +149,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">+0.60%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">Reland "[Driver] Default CLANG_DEFAULT_PIE_ON_LINUX to ON""</span></p>
+<p><span style="font-weight: 400;">Reland "\[Driver] Default CLANG_DEFAULT_PIE_ON_LINUX to ON""</span></p>
 </td>
 </tr>
 <tr>
@@ -160,7 +160,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">-0.17%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">[AArch64] Split fuse-literals feature</span></p>
+<p><span style="font-weight: 400;">\[AArch64] Split fuse-literals feature</span></p>
 </td>
 </tr>
 <tr>
@@ -171,7 +171,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">[MachineSink] replace MachineLoop with MachineCycle</span></p>
+<p><span style="font-weight: 400;">\[MachineSink] replace MachineLoop with MachineCycle</span></p>
 </td>
 </tr>
 <tr>
@@ -182,7 +182,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">+0.25%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">[MachineOutliner][AArch64] NFC: Split MBBs into "outlinable ranges"</span></p>
+<p><span style="font-weight: 400;">\[MachineOutliner]\[AArch64] NFC: Split MBBs into "outlinable ranges"</span></p>
 </td>
 </tr>
 <tr>
@@ -193,7 +193,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">[MachineOutliner] Make getOutliningType partially target-independent</span></p>
+<p><span style="font-weight: 400;">\[MachineOutliner] Make getOutliningType partially target-independent</span></p>
 </td>
 </tr>
 <tr>
@@ -204,7 +204,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">-0.08%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">[AArch64] Cost-model vector splat LD1Rs to avoid unprofitable SLP vectorisation</span></p>
+<p><span style="font-weight: 400;">\[AArch64] Cost-model vector splat LD1Rs to avoid unprofitable SLP vectorisation</span></p>
 </td>
 </tr>
 <tr>
@@ -215,7 +215,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">+0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">[MachineOutliner] Fix label outlining regression introduced in D125072</span></p>
+<p><span style="font-weight: 400;">\[MachineOutliner] Fix label outlining regression introduced in D125072</span></p>
 </td>
 </tr>
 <tr>
@@ -226,7 +226,7 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">[AggressiveInstCombine] Enable also for -O2</span></p>
+<p><span style="font-weight: 400;">\[AggressiveInstCombine] Enable also for -O2</span></p>
 </td>
 </tr>
 <tr>
@@ -237,12 +237,11 @@ Figure 4: Commits impacting code size (AArch64) <br>
 <p><span style="font-weight: 400; color: #ff0000;">-0.22%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">[AArch64] Combine SELECT_CC patterns that match smin(a,0) and smax(a,0)</span></p>
+<p><span style="font-weight: 400;">\[AArch64] Combine SELECT_CC patterns that match smin(a,0) and smax(a,0)</span></p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 These are some of the biggest AArch64 code size variations on SPEC CPU (2006 & 2017) benchmarks since tag llvmorg-13-init, ignoring revert/reland commits.
 
@@ -258,17 +257,17 @@ Linaro TCWG is currently working on several other activities related to code siz
 
 {% include image.html path="/assets/images/content/figure-5-impact-of-inlining-flags-on-deepsjeng-.png" alt="Figure 5: impact of inlining flags on deepsjeng" %}
 
-Figure 5: impact of inlining flags on deepsjeng
+*Figure 5: impact of inlining flags on deepsjeng*
 
 {% include image.html path="/assets/images/content/figure-6-impact-of-optimization-flags-on-aosp.png" alt="Figure 6: impact of optimization flags on AOSP" %}
 
-Figure 6: impact of optimization flags on AOSP
+*Figure 6: impact of optimization flags on AOSP*
 
 * Analysis of code size reduction opportunities using inlining optimization. Specifying a custom inlining threshold value could result in a code size reduction of more than 3% on AOSP compared to -Oz. On this project, tenths of objects are at least 2 times larger with -Oz than with -O2 due to a lower threshold in this level. While this still needs to be analysed, it at least shows that there may be room for interesting improvements here \[Figure 7]. This may be an interesting topic for a future blog post.
 
 {% include image.html path="/assets/images/content/figure-7-code-size-for-inline-threshold-values.png" alt="Figure 7: code size for inline-threshold values" %}
 
-Figure 7: code size for inline-threshold values
+*Figure 7: code size for inline-threshold values*
 
 For the LNT dashboard itself, the plan is to continue the tracking, adding measurements obtained with latest LLVM versions everyday. Measurement of performance and of code size generated with other optimization levels could also be added in the future.
 
@@ -276,7 +275,7 @@ For more information on Linaro's work on toolchains and compilers, check out the
 
 {% include image.html path="/assets/images/content/figure-8-lnt-dashboard-14-.png" alt="Figure 8: LNT dashboard" %}
 
-Figure 8: LNT dashboard [[14](https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.de9gruo50m55)]<br><br>
+*Figure 8: LNT dashboard [[14](https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.de9gruo50m55)]<br><br>*
 
 ### REFERENCES
 
