@@ -46,11 +46,11 @@ There are also several TCWG Jenkins jobs that measure code size on different ben
 
 {% include image.html path="/assets/images/content/figure-1-evolution-of-code-size-aarch64-.png" alt="Figure 1: Evolution of code size (AArch64)" width="70%"%}
 
-*Figure 1: Evolution of code size (AArch64)*
+*Figure 1: Evolution of code size (AArch64) <br><br>*
 
 {% include image.html path="/assets/images/content/figure-2-evolution-of-code-size-x86_64-.png" alt="Figure 2: Evolution of code size (X86_64)" width="70%" %}
 
-*Figure 2: Evolution of code size (X86_64)*
+*Figure 2: Evolution of code size (X86_64) <br><br>*
 
 Several observations can be made by looking at code size evolution (AArch64 / -Oz) through the last LLVM releases (Figure 1 & Figure 3):
 
@@ -71,7 +71,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 
 {% include image.html path="/assets/images/content/figure-4-commits-impacting-code-size-aarch64-.png" alt="[Figure 4: Commits impacting code size (AArch64)" %}
 
-*Figure 4: Commits impacting code size (AArch64) <br>*
+*Figure 4: Commits impacting code size (AArch64) <br><br>*
 
 <table style="width: 800px; height: 600px;">
 <tbody>
@@ -257,17 +257,17 @@ Linaro TCWG is currently working on several other activities related to code siz
 
 {% include image.html path="/assets/images/content/figure-5-impact-of-inlining-flags-on-deepsjeng-.png" alt="Figure 5: impact of inlining flags on deepsjeng" %}
 
-*Figure 5: impact of inlining flags on deepsjeng*
+*Figure 5: impact of inlining flags on deepsjeng <br><br>*
 
 {% include image.html path="/assets/images/content/figure-6-impact-of-optimization-flags-on-aosp.png" alt="Figure 6: impact of optimization flags on AOSP" %}
 
-*Figure 6: impact of optimization flags on AOSP*
+*Figure 6: impact of optimization flags on AOSP <br><br>*
 
 * Analysis of code size reduction opportunities using inlining optimization. Specifying a custom inlining threshold value could result in a code size reduction of more than 3% on AOSP compared to -Oz. On this project, tenths of objects are at least 2 times larger with -Oz than with -O2 due to a lower threshold in this level. While this still needs to be analysed, it at least shows that there may be room for interesting improvements here \[Figure 7]. This may be an interesting topic for a future blog post.
 
 {% include image.html path="/assets/images/content/figure-7-code-size-for-inline-threshold-values.png" alt="Figure 7: code size for inline-threshold values" %}
 
-*Figure 7: code size for inline-threshold values*
+*Figure 7: code size for inline-threshold values <br><br>*
 
 For the LNT dashboard itself, the plan is to continue the tracking, adding measurements obtained with latest LLVM versions everyday. Measurement of performance and of code size generated with other optimization levels could also be added in the future.
 
