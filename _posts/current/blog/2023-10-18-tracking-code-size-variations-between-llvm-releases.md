@@ -71,175 +71,174 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p style="text-align: center;">Figure 4: Commits impacting code size (AArch64)</p                                                                               |
 
-
-
-<table>
+<table style="width: 800px; height: 800px;">
 <tbody>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400;"><span style="background-color: #ffcc00;">V1</span>&nbsp;</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">+0.15%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">[NFCI] SCEVExpander: emit intrinsics for integral {u,s}{min,max} SCEV expressions</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V2</span><span style="font-weight: 400;">&nbsp;</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">+0.06%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">[SLP]Improve cost model for the vectorized extractelements.</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V3</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">-0.06%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">Return "[CGCall] Annotate `this` argument with alignment"</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V4</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">+0.41%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">[AArch64] Make -mcpu=generic schedule for an in-order core</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V5</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">-0.56%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">Making the code compliant to the documentation about Floating Point support default values for C/C++.</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V6</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">[IRGen] Do not overwrite existing attributes in CGCall.</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V7</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">+0.60%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">Reland "[Driver] Default CLANG_DEFAULT_PIE_ON_LINUX to ON""</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V8</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">-0.17%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">[AArch64] Split fuse-literals feature</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V9</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">[MachineSink] replace MachineLoop with MachineCycle</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V10</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">+0.25%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">[MachineOutliner][AArch64] NFC: Split MBBs into "outlinable ranges"</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V11</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">[MachineOutliner] Make getOutliningType partially target-independent</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V12</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">-0.08%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">[AArch64] Cost-model vector splat LD1Rs to avoid unprofitable SLP vectorisation</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V13</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">+0.09%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">[MachineOutliner] Fix label outlining regression introduced in D125072</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V14</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">[AggressiveInstCombine] Enable also for -O2</span></p>
 </td>
 </tr>
 <tr>
-<td>
+<td style="width: 33px;">
 <p><span style="font-weight: 400; background-color: #ffcc00;">V15</span></p>
 </td>
-<td>
+<td style="width: 54.625px;">
 <p><span style="font-weight: 400; color: #ff0000;">-0.22%</span></p>
 </td>
-<td>
+<td style="width: 344.375px;">
 <p><span style="font-weight: 400;">[AArch64] Combine SELECT_CC patterns that match smin(a,0) and smax(a,0)</span></p>
 </td>
 </tr>
 </tbody>
 </table>
+<p>&nbsp;</p>
 <p><br /><br /></p>
