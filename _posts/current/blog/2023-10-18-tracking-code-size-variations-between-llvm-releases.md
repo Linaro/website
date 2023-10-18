@@ -44,11 +44,13 @@ There are also several TCWG Jenkins jobs that measure code size on different ben
 
 ## EVOLUTION OF THE CODE SIZE ON SPEC BENCHMARK (AT -Oz OPTIMIZATION LEVEL)
 
-| {% include image.html path="/assets/images/content/figure-1-evolution-of-code-size-aarch64-.png" alt="Figure 1: Evolution of code size (AArch64)" %} | {% include image.html path="/assets/images/content/figure-2-evolution-of-code-size-x86_64-.png" alt="Figure 2: Evolution of code size (X86_64)" %} |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p style="text-align: center;">Figure 1: Evolution of code size (AArch64)</p>                                                                        | <p style="text-align: center;">Figure 2: Evolution of code size (X86_64)</p>                                                                       |
+**{% include image.html path="/assets/images/content/figure-1-evolution-of-code-size-aarch64-.png" alt="Figure 1: Evolution of code size (AArch64)" width="70%"%}**
 
-Code size was measured on SPEC with the 8 last LLVM major releases (from 10.0 to 17.0) \[Figure 1] \[Figure 2]. The 100 most important variations on average on SPEC (from llvmorg-13-init to current main branch, only looking at AArch64 target) were then bisected to identify exact commits \[Figure 4]. This is approximately 1200 runs for now (on a 160-cpu AArch64 machine, that's about 5 days of elapsed time, or 200 days of user time). It continues to grow as new measurements are added daily.
+Figure 1: Evolution of code size (AArch64)
+
+**{% include image.html path="/assets/images/content/figure-2-evolution-of-code-size-x86_64-.png" alt="Figure 2: Evolution of code size (X86_64)" width="70%" %}**
+
+Figure 2: Evolution of code size (X86_64)
 
 Several observations can be made by looking at code size evolution (AArch64 / -Oz) through the last LLVM releases (Figure 1 & Figure 3):
 
@@ -63,13 +65,13 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 
 | {% include image.html path="/assets/images/content/figure-3-evolution-of-code-size-fixed-aarch64-.png" alt="Figure 3: Evolution of code size - fixed (AArch64)" %} |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <p style="text-align: center;">Figure 3: Evolution of code size - fixed (AArch64)</p>                                                                              |
+| Figure 3: Evolution of code size - fixed (AArch64)                                                                                                                 |
 
 ## COMMITS IMPACTING -Oz CODE SIZE
 
 | {% include image.html path="/assets/images/content/figure-4-commits-impacting-code-size-aarch64-.png" alt="[Figure 4: Commits impacting code size (AArch64)" %} |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p style="text-align: center;">Figure 4: Commits impacting code size (AArch64)</p                                                                               |
+| Figure 4: Commits impacting code size (AArch64)                                                                                                                 |
 
 <table style="width: 800px; height: 600px;">
 <tbody>
@@ -81,7 +83,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">+0.15%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\[NFCI] SCEVExpander: emit intrinsics for integral {u,s}{min,max} SCEV expressions</span></p>
+<p><span style="font-weight: 400;">\\\\\[NFCI] SCEVExpander: emit intrinsics for integral {u,s}{min,max} SCEV expressions</span></p>
 </td>
 </tr>
 <tr>
@@ -92,7 +94,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">+0.06%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\[SLP]Improve cost model for the vectorized extractelements.</span></p>
+<p><span style="font-weight: 400;">\\\\\[SLP]Improve cost model for the vectorized extractelements.</span></p>
 </td>
 </tr>
 <tr>
@@ -103,7 +105,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.06%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">Return "\[CGCall] Annotate \\`this\\` argument with alignment"</span></p>
+<p><span style="font-weight: 400;">Return "\\\\\[CGCall] Annotate \\\\\\`this\\\\\\` argument with alignment"</span></p>
 </td>
 </tr>
 <tr>
@@ -114,7 +116,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">+0.41%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\[AArch64] Make -mcpu=generic schedule for an in-order core</span></p>
+<p><span style="font-weight: 400;">\\\\\[AArch64] Make -mcpu=generic schedule for an in-order core</span></p>
 </td>
 </tr>
 <tr>
@@ -136,7 +138,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\[IRGen] Do not overwrite existing attributes in CGCall.</span></p>
+<p><span style="font-weight: 400;">\\\\\[IRGen] Do not overwrite existing attributes in CGCall.</span></p>
 </td>
 </tr>
 <tr>
@@ -147,7 +149,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">+0.60%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">Reland "\[Driver] Default CLANG_DEFAULT_PIE_ON_LINUX to ON""</span></p>
+<p><span style="font-weight: 400;">Reland "\\\\\[Driver] Default CLANG_DEFAULT_PIE_ON_LINUX to ON""</span></p>
 </td>
 </tr>
 <tr>
@@ -158,7 +160,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.17%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\[AArch64] Split fuse-literals feature</span></p>
+<p><span style="font-weight: 400;">\\\\\[AArch64] Split fuse-literals feature</span></p>
 </td>
 </tr>
 <tr>
@@ -169,7 +171,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\[MachineSink] replace MachineLoop with MachineCycle</span></p>
+<p><span style="font-weight: 400;">\\\\\[MachineSink] replace MachineLoop with MachineCycle</span></p>
 </td>
 </tr>
 <tr>
@@ -180,7 +182,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">+0.25%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\[MachineOutliner]\[AArch64] NFC: Split MBBs into "outlinable ranges"</span></p>
+<p><span style="font-weight: 400;">\\\\\[MachineOutliner]\\\\\[AArch64] NFC: Split MBBs into "outlinable ranges"</span></p>
 </td>
 </tr>
 <tr>
@@ -191,7 +193,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\[MachineOutliner] Make getOutliningType partially target-independent</span></p>
+<p><span style="font-weight: 400;">\\\\\[MachineOutliner] Make getOutliningType partially target-independent</span></p>
 </td>
 </tr>
 <tr>
@@ -202,7 +204,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.08%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\[AArch64] Cost-model vector splat LD1Rs to avoid unprofitable SLP vectorisation</span></p>
+<p><span style="font-weight: 400;">\\\\\[AArch64] Cost-model vector splat LD1Rs to avoid unprofitable SLP vectorisation</span></p>
 </td>
 </tr>
 <tr>
@@ -213,7 +215,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">+0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\[MachineOutliner] Fix label outlining regression introduced in D125072</span></p>
+<p><span style="font-weight: 400;">\\\\\[MachineOutliner] Fix label outlining regression introduced in D125072</span></p>
 </td>
 </tr>
 <tr>
@@ -224,7 +226,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\[AggressiveInstCombine] Enable also for -O2</span></p>
+<p><span style="font-weight: 400;">\\\\\[AggressiveInstCombine] Enable also for -O2</span></p>
 </td>
 </tr>
 <tr>
@@ -235,7 +237,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.22%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\[AArch64] Combine SELECT_CC patterns that match smin(a,0) and smax(a,0)</span></p>
+<p><span style="font-weight: 400;">\\\\\[AArch64] Combine SELECT_CC patterns that match smin(a,0) and smax(a,0)</span></p>
 </td>
 </tr>
 </tbody>
@@ -254,5 +256,54 @@ Linaro TCWG is currently working on several other activities related to code siz
 
 * Compiler benchmarking. TCWG also runs multiple other benchmarking jobs, which measure performance and code size generated by LLVM and GCC compilers on various benchmarks and configurations (targets and optimization levels) [[11](<* https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.6akgup371zc2>)].
 * Tracking of the AOSP code size. A Jenkins job is run regularly to measure the code size of the AOSP project. If a significant variation is detected (on the whole project or on a subset), the commits since the last build on the AOSP and LLVM repositories are bisected to identify the exact commit responsible for the variation. This should help avoid unexpected code size increases [[12](<* https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.1ht5phb9lfnc>)].
+* Identification of compiler tuning opportunities. Experimentation with combinations of optimization flags and thresholds were performed on both AOSP project and SPEC benchmarks. Several optimization flags and thresholds beneficial to code size reduction compared to -Oz optimization level were identified. This could be used for compiler tuning (changing optimizations run by default or default threshold values), or simply for choosing different flags when building. For example, it has been shown that such combinations could lead to ~6% code size reduction on AOSP compared to -Oz \[Figure 6]. Performances were also measured on benchmarks to show the impact on performances, even if not really important at -Oz level \[Figure 5] [[13](https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.cgttxxkteh13)].
 
-Identification of compiler tuning opportunities. Experimentation with combinations of optimization flags and thresholds were performed on both AOSP project and SPEC benchmarks. Several optimization flags and thresholds beneficial to code size reduction compared to -Oz optimization level were identified. This could be used for compiler tuning (changing optimizations run by default or default threshold values), or simply for choosing different flags when building. For example, it has been shown that such combinations could lead to ~6% code size reduction on AOSP compared to -Oz \[Figure 6]. Performances were also measured on benchmarks to show the impact on performances, even if not really important at -Oz level \[Figure 5] [[13](https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.cgttxxkteh13)].
+|     |     |
+| --- | --- |
+|     |     |
+|     |     |
+
+<br><br>
+
+Analysis of code size reduction opportunities using inlining optimization. Specifying a custom inlining threshold value could result in a code size reduction of more than 3% on AOSP compared to -Oz. On this project, tenths of objects are at least 2 times larger with -Oz than with -O2 due to a lower threshold in this level. While this still needs to be analysed, it at least shows that there may be room for interesting improvements here \[Figure 7]. This may be an interesting topic for a future blog post.
+
+For the LNT dashboard itself, the plan is to continue the tracking, adding measurements obtained with latest LLVM versions everyday. Measurement of performance and of code size generated with other optimization levels could also be added in the future.
+
+For more information on Linaro's work on toolchains and compilers, check out the project page [here](https://linaro.atlassian.net/wiki/spaces/LLVM/overview). You can also contact us at linaro-toolchain@lists.linaro.org. 
+
+|     |
+| --- |
+|     |
+|     |
+
+<br> <br>
+
+## REFERENCES
+
+\[1] [Inlining for Code Size Reduction](https://homepages.dcc.ufmg.br/~fernando/publications/papers/SBLP21Pacheco.pdf)
+
+\[2] [Uber Blog: How Uber Deals with Large iOS App Size](https://www.uber.com/en-FR/blog/how-uber-deals-with-large-ios-app-size/), [CGO21 paper](https://eng.uber.com/wp-content/uploads/2021/02/cgo21main-p112-p-dbdebd6-49049-preprint.pdf)
+
+\[3] [2022 LLVM Dev Mtg: Inlining for Size](https://www.youtube.com/watch?v=8Uiv2RsPim4), [paper](https://dl.acm.org/doi/pdf/10.1145/3519941.3535074)
+
+\[4] [2022 LLVM Dev Mtg: Linker Code Size Optimization for Native Mobile Applications](https://www.youtube.com/watch?v=YXUKxQQ_qTM), [paper](https://arxiv.org/pdf/2210.07311v1.pdf)
+
+\[5] Android Open Source Project <https://source.android.com/>
+
+\[6] The LLVM Compiler Infrastructure Project <https://llvm.org/>
+
+\[7] Standard Performance Evaluation Corporation <https://www.spec.org>
+
+\[8] Linaro LNT dashboard (WIP) <http://llvm.validation.linaro.org:38000/>
+
+\[9] <https://ci.linaro.org/view/tcwg-all/job/tcwg-lnt-run-spec-codesize/>
+
+\[10] LLVM LNT [http://lnt.llvm.org/](https://ci.linaro.org/view/tcwg-all/job/tcwg-lnt-run-spec-codesize/)
+
+\[11] <https://ci.linaro.org/view/tcwg_bmk/>
+
+\[12] <https://ci.linaro.org/view/tcwg_aosp/>
+
+\[13] <https://www.slideshare.net/linaroorg/bkk16308-the-tool-called-autotuned-optimization-system-atos>
+
+## \[14] [Linaro LNT dashboard graph](http://llvm.validation.linaro.org:38000/db_default/v4/tcwg_spec_codesize/graph?xaxis_date=yes&normalize_by_median=yes&moving_window_size=10&limit=0&plot.55.10=6.55.10&plot.57.10=6.57.10&plot.59.10=6.59.10&plot.61.10=6.61.10&plot.63.10=6.63.10&plot.65.10=6.65.10&plot.67.10=6.67.10&plot.69.10=6.69.10&plot.71.10=6.71.10&submit=Update)
