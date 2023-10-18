@@ -63,4 +63,17 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 
 | {% include image.html path="/assets/images/content/figure-3-evolution-of-code-size-fixed-aarch64-.png" alt="Figure 3: Evolution of code size - fixed (AArch64)" %} |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <p style="text-align: center;">Figure 3: Evolution of code size - fixed (AArch64)</p>                                                                                                                 |
+| <p style="text-align: center;">Figure 3: Evolution of code size - fixed (AArch64)</p>                                                                              |
+
+
+
+## COMMITS IMPACTING -Oz CODE SIZE
+
+
+
+![](/assets/images/content/figure-4-commits-impacting-code-size-aarch64-.png)
+
+|     |
+| --- |
+|     |
+|     |
