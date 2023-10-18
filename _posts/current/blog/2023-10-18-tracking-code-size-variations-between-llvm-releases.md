@@ -10,7 +10,7 @@ tags:
   - Toolchain
   - Code Size
 category: blog
-author: linaro
+author: Antoine Moynault
 ---
 ### INTRODUCTION
 
