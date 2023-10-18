@@ -63,15 +63,17 @@ Note that the apparent increase between LLVM 14.0 and LLVM 15.0 is misleading. I
 
 While the variations caused by these 15 commits look small (from 0.06% to 0.6%), they all contain larger variations on individual benchmarks (ranging from 0.8% to 5.2%). Also, when looking at individual benchmarks, about 40 commits result in a variation of more than 1.0% (not ignoring reverts and relands).
 
-| {% include image.html path="/assets/images/content/figure-3-evolution-of-code-size-fixed-aarch64-.png" alt="Figure 3: Evolution of code size - fixed (AArch64)" %} |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Figure 3: Evolution of code size - fixed (AArch64)                                                                                                                 |
+**{% include image.html path="/assets/images/content/figure-3-evolution-of-code-size-fixed-aarch64-.png" alt="Figure 3: Evolution of code size - fixed (AArch64)" %}**
+
+Figure 3: Evolution of code size - fixed (AArch64)
+
+<br>
 
 ## COMMITS IMPACTING -Oz CODE SIZE
 
-| {% include image.html path="/assets/images/content/figure-4-commits-impacting-code-size-aarch64-.png" alt="[Figure 4: Commits impacting code size (AArch64)" %} |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Figure 4: Commits impacting code size (AArch64)                                                                                                                 |
+**{% include image.html path="/assets/images/content/figure-4-commits-impacting-code-size-aarch64-.png" alt="[Figure 4: Commits impacting code size (AArch64)" %}**
+
+Figure 4: Commits impacting code size (AArch64)
 
 <table style="width: 800px; height: 600px;">
 <tbody>
@@ -83,7 +85,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">+0.15%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\\\\\[NFCI] SCEVExpander: emit intrinsics for integral {u,s}{min,max} SCEV expressions</span></p>
+<p><span style="font-weight: 400;">\\\\\\\\\\[NFCI] SCEVExpander: emit intrinsics for integral {u,s}{min,max} SCEV expressions</span></p>
 </td>
 </tr>
 <tr>
@@ -94,7 +96,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">+0.06%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\\\\\[SLP]Improve cost model for the vectorized extractelements.</span></p>
+<p><span style="font-weight: 400;">\\\\\\\\\\[SLP]Improve cost model for the vectorized extractelements.</span></p>
 </td>
 </tr>
 <tr>
@@ -105,7 +107,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.06%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">Return "\\\\\[CGCall] Annotate \\\\\\`this\\\\\\` argument with alignment"</span></p>
+<p><span style="font-weight: 400;">Return "\\\\\\\\\\[CGCall] Annotate \\\\\\\\\\\`this\\\\\\\\\\\` argument with alignment"</span></p>
 </td>
 </tr>
 <tr>
@@ -116,7 +118,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">+0.41%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\\\\\[AArch64] Make -mcpu=generic schedule for an in-order core</span></p>
+<p><span style="font-weight: 400;">\\\\\\\\\\[AArch64] Make -mcpu=generic schedule for an in-order core</span></p>
 </td>
 </tr>
 <tr>
@@ -160,7 +162,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.17%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\\\\\[AArch64] Split fuse-literals feature</span></p>
+<p><span style="font-weight: 400;">\\\\\\\\\\[AArch64] Split fuse-literals feature</span></p>
 </td>
 </tr>
 <tr>
@@ -171,7 +173,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\\\\\[MachineSink] replace MachineLoop with MachineCycle</span></p>
+<p><span style="font-weight: 400;">\\\\\\\\\\[MachineSink] replace MachineLoop with MachineCycle</span></p>
 </td>
 </tr>
 <tr>
@@ -182,7 +184,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">+0.25%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\\\\\[MachineOutliner]\\\\\[AArch64] NFC: Split MBBs into "outlinable ranges"</span></p>
+<p><span style="font-weight: 400;">\\\\\\\\\\[MachineOutliner]\\\\\\\\\\[AArch64] NFC: Split MBBs into "outlinable ranges"</span></p>
 </td>
 </tr>
 <tr>
@@ -193,7 +195,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\\\\\[MachineOutliner] Make getOutliningType partially target-independent</span></p>
+<p><span style="font-weight: 400;">\\\\\\\\\\[MachineOutliner] Make getOutliningType partially target-independent</span></p>
 </td>
 </tr>
 <tr>
@@ -204,7 +206,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.08%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\\\\\[AArch64] Cost-model vector splat LD1Rs to avoid unprofitable SLP vectorisation</span></p>
+<p><span style="font-weight: 400;">\\\\\\\\\\[AArch64] Cost-model vector splat LD1Rs to avoid unprofitable SLP vectorisation</span></p>
 </td>
 </tr>
 <tr>
@@ -215,7 +217,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">+0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\\\\\[MachineOutliner] Fix label outlining regression introduced in D125072</span></p>
+<p><span style="font-weight: 400;">\\\\\\\\\\[MachineOutliner] Fix label outlining regression introduced in D125072</span></p>
 </td>
 </tr>
 <tr>
@@ -226,7 +228,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.09%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\\\\\[AggressiveInstCombine] Enable also for -O2</span></p>
+<p><span style="font-weight: 400;">\\\\\\\\\\[AggressiveInstCombine] Enable also for -O2</span></p>
 </td>
 </tr>
 <tr>
@@ -237,7 +239,7 @@ While the variations caused by these 15 commits look small (from 0.06% to 0.6%),
 <p><span style="font-weight: 400; color: #ff0000;">-0.22%</span></p>
 </td>
 <td style="width: 344.375px;">
-<p><span style="font-weight: 400;">\\\\\[AArch64] Combine SELECT_CC patterns that match smin(a,0) and smax(a,0)</span></p>
+<p><span style="font-weight: 400;">\\\\\\\\\\[AArch64] Combine SELECT_CC patterns that match smin(a,0) and smax(a,0)</span></p>
 </td>
 </tr>
 </tbody>
@@ -256,27 +258,29 @@ Linaro TCWG is currently working on several other activities related to code siz
 
 * Compiler benchmarking. TCWG also runs multiple other benchmarking jobs, which measure performance and code size generated by LLVM and GCC compilers on various benchmarks and configurations (targets and optimization levels) [[11](<* https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.6akgup371zc2>)].
 * Tracking of the AOSP code size. A Jenkins job is run regularly to measure the code size of the AOSP project. If a significant variation is detected (on the whole project or on a subset), the commits since the last build on the AOSP and LLVM repositories are bisected to identify the exact commit responsible for the variation. This should help avoid unexpected code size increases [[12](<* https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.1ht5phb9lfnc>)].
-* Identification of compiler tuning opportunities. Experimentation with combinations of optimization flags and thresholds were performed on both AOSP project and SPEC benchmarks. Several optimization flags and thresholds beneficial to code size reduction compared to -Oz optimization level were identified. This could be used for compiler tuning (changing optimizations run by default or default threshold values), or simply for choosing different flags when building. For example, it has been shown that such combinations could lead to ~6% code size reduction on AOSP compared to -Oz \[Figure 6]. Performances were also measured on benchmarks to show the impact on performances, even if not really important at -Oz level \[Figure 5] [[13](https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.cgttxxkteh13)].
+* Identification of compiler tuning opportunities. Experimentation with combinations of optimization flags and thresholds were performed on both AOSP project and SPEC benchmarks. Several optimization flags and thresholds beneficial to code size reduction compared to -Oz optimization level were identified. This could be used for compiler tuning (changing optimizations run by default or default threshold values), or simply for choosing different flags when building. For example, it has been shown that such combinations could lead to ~6% code size reduction on AOSP compared to -Oz \[Figure 6]. Performances were also measured on benchmarks to show the impact on performances, even if not really important at -Oz level \[Figure 5] [[13](https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.cgttxxkteh13)]
 
-|     |     |
-| --- | --- |
-|     |     |
-|     |     |
+{% include image.html path="/assets/images/content/figure-5-impact-of-inlining-flags-on-deepsjeng-.png" alt="Figure 5: impact of inlining flags on deepsjeng" %}
 
-<br><br>
+Figure 5: impact of inlining flags on deepsjeng
 
-Analysis of code size reduction opportunities using inlining optimization. Specifying a custom inlining threshold value could result in a code size reduction of more than 3% on AOSP compared to -Oz. On this project, tenths of objects are at least 2 times larger with -Oz than with -O2 due to a lower threshold in this level. While this still needs to be analysed, it at least shows that there may be room for interesting improvements here \[Figure 7]. This may be an interesting topic for a future blog post.
+{% include image.html path="/assets/images/content/figure-6-impact-of-optimization-flags-on-aosp.png" alt="Figure 6: impact of optimization flags on AOSP" %}
+
+Figure 6: impact of optimization flags on AOSP
+
+* Analysis of code size reduction opportunities using inlining optimization. Specifying a custom inlining threshold value could result in a code size reduction of more than 3% on AOSP compared to -Oz. On this project, tenths of objects are at least 2 times larger with -Oz than with -O2 due to a lower threshold in this level. While this still needs to be analysed, it at least shows that there may be room for interesting improvements here \[Figure 7]. This may be an interesting topic for a future blog post.
+
+{% include image.html path="/assets/images/content/figure-7-code-size-for-inline-threshold-values.png" alt="Figure 7: code size for inline-threshold values" %}
+
+Figure 7: code size for inline-threshold values
 
 For the LNT dashboard itself, the plan is to continue the tracking, adding measurements obtained with latest LLVM versions everyday. Measurement of performance and of code size generated with other optimization levels could also be added in the future.
 
 For more information on Linaro's work on toolchains and compilers, check out the project page [here](https://linaro.atlassian.net/wiki/spaces/LLVM/overview). You can also contact us at linaro-toolchain@lists.linaro.org. 
 
-|     |
-| --- |
-|     |
-|     |
+{% include image.html path="/assets/images/content/figure-8-lnt-dashboard-14-.png" alt="Figure 8: LNT dashboard" %}
 
-<br> <br>
+Figure 8: LNT dashboard [[14](https://docs.google.com/document/d/1Y98bqJ9xPyNSfGESUBlFrFkYEbIo_aRBaZ9rFTGaUFs/edit#bookmark=id.de9gruo50m55)]
 
 ## REFERENCES
 
@@ -306,4 +310,4 @@ For more information on Linaro's work on toolchains and compilers, check out the
 
 \[13] <https://www.slideshare.net/linaroorg/bkk16308-the-tool-called-autotuned-optimization-system-atos>
 
-## \[14] [Linaro LNT dashboard graph](http://llvm.validation.linaro.org:38000/db_default/v4/tcwg_spec_codesize/graph?xaxis_date=yes&normalize_by_median=yes&moving_window_size=10&limit=0&plot.55.10=6.55.10&plot.57.10=6.57.10&plot.59.10=6.59.10&plot.61.10=6.61.10&plot.63.10=6.63.10&plot.65.10=6.65.10&plot.67.10=6.67.10&plot.69.10=6.69.10&plot.71.10=6.71.10&submit=Update)
+\[14] [Linaro LNT dashboard graph](http://llvm.validation.linaro.org:38000/db_default/v4/tcwg_spec_codesize/graph?xaxis_date=yes&normalize_by_median=yes&moving_window_size=10&limit=0&plot.55.10=6.55.10&plot.57.10=6.57.10&plot.59.10=6.59.10&plot.61.10=6.61.10&plot.63.10=6.63.10&plot.65.10=6.65.10&plot.67.10=6.67.10&plot.69.10=6.69.10&plot.71.10=6.71.10&submit=Update)
