@@ -46,6 +46,21 @@ There are also several TCWG Jenkins jobs that measure code size on different ben
 
 | {% include image.html path="/assets/images/content/figure-1-evolution-of-code-size-aarch64-.png" alt="Figure 1: Evolution of code size (AArch64)" %} | {% include image.html path="/assets/images/content/figure-2-evolution-of-code-size-x86_64-.png" alt="Figure 2: Evolution of code size (X86_64)" %} |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Figure 1: Evolution of code size                                                                                                                     | Figure 2: Evolution of code size (X86_64)                                                                                                          |
+| <p style="text-align: center;">Figure 1: Evolution of code size (AArch64)</p>                                                                        | <p style="text-align: center;">Figure 2: Evolution of code size (X86_64)</p>                                                                       |
 
-<br> <br>
+Code size was measured on SPEC with the 8 last LLVM major releases (from 10.0 to 17.0) \[Figure 1] \[Figure 2]. The 100 most important variations on average on SPEC (from llvmorg-13-init to current main branch, only looking at AArch64 target) were then bisected to identify exact commits \[Figure 4]. This is approximately 1200 runs for now (on a 160-cpu AArch64 machine, that's about 5 days of elapsed time, or 200 days of user time). It continues to grow as new measurements are added daily.
+
+Several observations can be made by looking at code size evolution (AArch64 / -Oz) through the last LLVM releases (Figure 1 & Figure 3):
+
+* On average, code size is smaller from release to release since LLVM 10.0. It seems this is not the case on x86_64, maybe because size is less important there (size variations on target x86_64 were not specifically analysed).
+* This decrease is constant (since LLVM 12.0), but slight. Only 1% decrease on average on SPEC benchmarks since LLVM 12.0. Less if we compare with LLVM 10.0.
+
+Note that the apparent increase between LLVM 14.0 and LLVM 15.0 is misleading. It actually corresponds to the enablement by default on linux of Position Independent Executable (PIE) generation by clang (Figure 4 V7). A decrease between LLVM 13.0 and LLVM 14.0 also corresponds to a change of default (about FP contraction, Figure 4 V5). Using -fPIE/-pie and -ffp-contract=on for fairer comparison change the variations as shown in Figure 3. Results obtained on X86_64 (Figure 2) would surely also be different doing this. 
+
+* It's mainly something about small variations. Only a few commits stand out for both increase and decrease. Less than 10 commits lead to a code size variation (increase or decrease) of more than 0.1% on average on Smber PEC benchmarks. The biggest variations are listed in the next section.
+
+While the variations caused by these 15 commits look small (from 0.06% to 0.6%), they all contain larger variations on individual benchmarks (ranging from 0.8% to 5.2%). Also, when looking at individual benchmarks, about 40 commits result in a variation of more than 1.0% (not ignoring reverts and relands).
+
+| {% include image.html path="/assets/images/content/figure-3-evolution-of-code-size-fixed-aarch64-.png" alt="Figure 3: Evolution of code size - fixed (AArch64)" %} |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p style="text-align: center;">Figure 3: Evolution of code size - fixed (AArch64)</p>                                                                                                                 |
