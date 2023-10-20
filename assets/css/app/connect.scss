@@ -95,12 +95,18 @@
       strong {
         color: black;
       }
+      @include media-breakpoint-down(sm) {
+        color: white;
+      }
     }
     .header_title {
       font-weight: bold;
       font-size: 40px;
       strong {
         color: black;
+      }
+      @include media-breakpoint-down(sm) {
+        color: white;
       }
     }
   }
