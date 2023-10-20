@@ -8,7 +8,7 @@ date: 2023-09-04 01:09:28 +02:00
 image: /assets/images/content/Chip_background_UNDER_2MB.jpg
 tags:
   - Windows on Arm
-  - WPerf
+  - WindowsPerf
 category: blog
 author: nader.zouaoui
 ---
