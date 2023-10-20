@@ -32,14 +32,33 @@
       <h1>{{site.data.connect_info.header_text_right | markdownify}}</h1>
     </div>
     {% if site.data.connect_info.header_register_button %}
-    <a
-      href="{{site.data.connect_info.header_register_button_link}}"
-      class="btn"
-      id="connect_register_button"
-      style="border-radius: 25px; padding: 10px 24px; font-weight: bold"
-    >
-      {{site.data.connect_info.header_register_button_text}}
-    </a>
+    <div class="dropdown show">
+      <a
+        class="btn btn-secondary dropdown-toggle"
+        href="#"
+        role="button"
+        id="dropdownMenuLink"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        {{site.data.connect_info.header_register_button_text}}
+      </a>
+
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a
+          href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWg4czdidjJsYnJuc2R1ZmxzaGhpc3VtcmkgbGluYXJvLm9yZ181N2k3OW5rbXVjdWZ2bjRycG0ybWxka2tlb0Bn&amp;tmsrc=linaro.org_57i79nkmucufvn4rpm2mldkkeo%40group.calendar.google.com"
+          class="dropdown-item"
+          >Add to Google Calendar</a
+        >
+        <a
+          href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWg4czdidjJsYnJuc2R1ZmxzaGhpc3VtcmkgbGluYXJvLm9yZ181N2k3OW5rbXVjdWZ2bjRycG0ybWxka2tlb0Bn&amp;tmsrc=linaro.org_57i79nkmucufvn4rpm2mldkkeo%40group.calendar.google.com"
+          class="dropdown-item"
+          >Download an .ICS file</a
+        >
+      </div>
+    </div>
+
     {% endif %}
   </div>
 </div>

@@ -76,13 +76,17 @@
   .connect_header_row {
     z-index: 1;
     position: relative;
-    margin: 150px 0;
+    margin-top: 20px;
+    margin-bottom: 300px;
+    // margin: 150px 0;
     @include media-breakpoint-down(md) {
       margin: 50px 0;
     }
-    .connect_header_row .container h1,
-    .connect_header_row .container h2 {
+    .connect_header_row .container {
       color: black !important;
+      @include media-breakpoint-down(sm) {
+        color: white;
+      }
     }
 
     .header_text {
