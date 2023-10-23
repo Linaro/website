@@ -50,14 +50,17 @@
   }
   img.header_background_image.lazyloaded {
     position: absolute;
-    height: 100%;
+    // height: 100%;
     top: 0;
+    left: 0;
     width: 100%;
-    object-fit: fill;
+    height: 100%;
+    margin: 0 auto;
+    // object-fit: cover;
     filter: brightness() !important;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
   }
   a#connect_register_button {
     text-transform: uppercase;
@@ -73,6 +76,12 @@
       border: 1px solid white;
     }
   }
+  .dropdown_header {
+    @include media-breakpoint-down(sm) {
+      color: white !important;
+      border-color: white !important;
+    }
+  }
   .connect_header_row {
     z-index: 1;
     position: relative;
@@ -82,6 +91,7 @@
     @include media-breakpoint-down(md) {
       margin: 50px 0;
     }
+
     .connect_header_row .container {
       color: black !important;
       @include media-breakpoint-down(sm) {
@@ -162,9 +172,15 @@
   }
   .connect_header {
     padding-top: 0px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     p {
       margin-bottom: 30px;
       font-size: 24px;
+    }
+    @media screen and (min-width: 2200px) {
+      padding-top: 6%;
     }
   }
   .connect_landing_page {
