@@ -11,7 +11,7 @@ tags:
   - WindowsPerf
   - Windows On Arm
 category: blog
-author: everton.constantino
+author: " Przemyslaw_Wirkus"
 ---
 ## Introduction
 
