@@ -650,6 +650,7 @@
   "^/blog/toolchain-blog(/?|/index.html)$ /blog/ [R,L,NC]",
   "^/blog/thursday-of-linaro-connect-budapest-2017(/?|/index.html)$ /blog/ [R,L,NC]",
   "^/blog/thoughts-after-autoware-96Boards-demo-at-et2018(/?|/index.html)$ /blog/ [R,L,NC]",
+  "^/blog/themes(/?|/index.html)$ /blog/ [R,L,NC]",
   "^/blog/the-linaro-iks-code-now-publicly-available(/?|/index.html)$ /blog/ [R,L,NC]",
   "^/blog/the-linaro-developers-summit-last-week-in-budapest-was-really-impressive(/?|/index.html)$ /blog/ [R,L,NC]",
   "^/blog/the-linaro-android-platform-team-period-march-7-to-march-13(/?|/index.html)$ /blog/ [R,L,NC]",
