@@ -2,9 +2,9 @@
 layout: post
 title: " Upstream Linux support now available for the the Qualcomm Snapdragon 8
   Gen 3 Mobile Platform"
-description: Effortless upstream Linux integration, powerful performance
+description: "Effortless upstream Linux integration, powerful performance
   optimization, running AOSP with Mainline and last but not least continued
-  collaboration
+  collaboration "
 date: 2023-10-26 12:02:02 +02:00
 image: /assets/images/content/stack.png
 tags:
