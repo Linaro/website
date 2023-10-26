@@ -47,11 +47,9 @@ With the recent series of patches released by Linaro, the following features are
 
 All patches sent for review are also integrated and available in the following development [branch](https://git.codelinaro.org/linaro/qcomlt/demos/linux/-/tree/topic/sm8650/demo/aosp-next-20231016) on CodeLinaro.org.
 
-{% include image.html path="/assets/images/content/snapdragon-8-gen-3-mobile-platform.png" alt="Snapdragon 8 Gen 3 Mobile Platform" %}
+{% include image.html path="/assets/images/content/snapdragon-8-gen-3-mobile-platform.png" alt=" On the left: Screenshot of CPU Info (open-source) App showing information on the running system │ On the right: FishTank WebGL sample running in Firefox for Android " %}
 
-{% include image.html path="/assets/images/content/te3oohadzhyx4qgbgtvi2obo3rblehqruczrhjq1l6eafj7_xn1d7-hu4ut5yjruo0ycwhnltxapakltjqtb_a0pylxgn1-tgdurjpvfylun0hm-pyjzn4i7sswl.png" alt="Snapdragon 8 Gen 3 Mobile Platform" %}
-
-{% include image.html path="/assets/images/content/t7oky6w8060jncgxxsyzvkxr_xl10ywvbvqfkqmb14xzuizdkoa2zqcqoraf5so8tspeoffrr-emtmpdh63mnspttiu76l_6l8q6kgbapoavneh91loa_usx1frr.png" alt="Snapdragon 8 Gen 3 Mobile Platform" %}
+{% include image.html path="/assets/images/content/development-kit-and-screenshot-of-the-android-version-menu-.png" alt="On the left: Picture of a Qualcomm Development Kit with the attached debug board │ On the right: Screenshot of the Android Version menu showing the device running Android 14 and running the v6.6-rc6 based Linux tree" %}
 
 **Qualcomm Snapdragon 8 Gen 3 Running Android 14**
 
@@ -64,11 +62,11 @@ To generate an AOSP image for the Snapdragon 8 Gen 3 Qualcomm Reference Device u
 Download the Android source tree:
 
 ```
-$ mkdir AOSP\
-$ cd AOSP\
-$ AOSP=$PWD\
-$ repo init -u https://android.googlesource.com/platform/manifest -b master\
-$ repo sync -j\`nproc\`
+$ mkdir AOSP
+$ cd AOSP
+$ AOSP=$PWD
+$ repo init -u https://android.googlesource.com/platform/manifest -b master
+$ repo sync -j`nproc`
 ```
 
 Prepare SM8650 device config by pulling this pathset:
@@ -93,7 +91,6 @@ $ mkdir $AOSP/device/linaro/dragonboard-kernel/android-6.6/
 $ cp arch/arm64/boot/Image.gz arch/arm64/boot/dts/qcom/sm8650-qrd.dtb \
 	 $AOSP/device/linaro/dragonboard-kernel/android-6.6/
 $ find ./ -name "*.ko" -exec cp {} $AOSP/device/linaro/dragonboard-kernel/android-6.6/ \;
-
 ```
 
 Build AOSP
