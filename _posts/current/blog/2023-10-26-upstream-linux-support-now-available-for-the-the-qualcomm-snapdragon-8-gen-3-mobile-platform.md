@@ -13,7 +13,7 @@ tags:
   - Snapdragon
   - ""
 category: blog
-author: linaro
+author: Neil.Armstrong
 ---
 At Linaro, we're thrilled to share the latest development in our ongoing collaboration with Qualcomm. Linaro Engineer Neil Armstrong has successfully enabled upstream Linux support for the [Qualcomm Snapdragon 8 Gen 3 Mobile Platform](https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-8-series-mobile-platforms/snapdragon-8-gen-3-mobile-platform), the latest addition to the Snapdragon processor family.
 
