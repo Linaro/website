@@ -47,9 +47,10 @@ With the recent series of patches released by Linaro, the following features are
 
 All patches sent for review are also integrated and available in the following development [branch](https://git.codelinaro.org/linaro/qcomlt/demos/linux/-/tree/topic/sm8650/demo/aosp-next-20231016) on CodeLinaro.org.
 
-{% include image.html path="/assets/images/content/snapdragon-8-gen-3-mobile-platform.png" alt=" On the left: Screenshot of CPU Info (open-source) App showing information on the running system │ On the right: FishTank WebGL sample running in Firefox for Android " %}
+{% include image.html path="/assets/images/content/snapdragon-8-gen-3-mobile-platform.png" alt="On the left Screenshot of CPU Info (open-source) App showing information on the running system. On the right: FishTank WebGL sample running in Firefox for Android" %}
 
-{% include image.html path="/assets/images/content/development-kit-and-screenshot-of-the-android-version-menu-.png" alt="On the left: Picture of a Qualcomm Development Kit with the attached debug board │ On the right: Screenshot of the Android Version menu showing the device running Android 14 and running the v6.6-rc6 based Linux tree" %}
+
+{% include image.html path="/assets/images/content/development-kit-and-screenshot-of-the-android-version-menu-.png" alt="On the left: Picture of a Qualcomm Development Kit with the attached debug board. On the right: Screenshot of the Android Version menu showing the device running Android 14 and running the v6.6-rc6 based Linux tree" %}
 
 **Qualcomm Snapdragon 8 Gen 3 Running Android 14**
 
