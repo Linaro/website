@@ -73,7 +73,7 @@ Download the Android source tree:
 
 Prepare SM8650 device config by pulling this pathset:
 
-`$ cd device/linaro/dragonboard``$ git fetch https://git.codelinaro.org/linaro/qcomlt/demos/device_linaro_dragonboard.git \``topic/sm8650/demo/android-14-20231016 && git checkout FETCH_HEAD`
+```$ cd device/linaro/dragonboard``$ git fetch https://git.codelinaro.org/linaro/qcomlt/demos/device_linaro_dragonboard.git \``topic/sm8650/demo/android-14-20231016 && git checkout FETCH_HEAD```
 
 Build the Linaro SM8550 tree containing the patches sent for review:
 
@@ -82,7 +82,7 @@ Build the Linaro SM8550 tree containing the patches sent for review:
 `-b topic/sm8650/demo/aosp-next-20231016 sm8650-kernel`\
 `$ cd sm8650-kernel`\
 `$ make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- \`\
-`      rbX_aosp_defconfig`\
+`rbX_aosp_defconfig`\
 ``$ make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- -j`nproc` ``\
 `$ mkdir $AOSP/device/linaro/dragonboard-kernel/android-6.6/`\
 `$ cp arch/arm64/boot/Image.gz arch/arm64/boot/dts/qcom/sm8650-qrd.dtb \`\
@@ -91,11 +91,11 @@ Build the Linaro SM8550 tree containing the patches sent for review:
 
 Build AOSP
 
-`$ cd $AOSP``$ . build/envsetup.sh``$ lunch qrd8650-userdebug```$ make -j`nproc` ``
+````$ cd $AOSP``$ . build/envsetup.sh``$ lunch qrd8650-userdebug```$ make -j````nproc` 
 
 Flash AOSP Images
 
-`$ cd out/target/product/qrd8650/``$ fastboot erase super erase boot erase vendor_boot \``          erase userdata erase metadata erase dtbo erase recovery``$ fastboot flash -S 256M super ./super.img flash boot ./boot.img \``          flash vendor_boot ./vendor_boot.img format:ext4 metadata \``          flash userdata ./userdata.img reboot`
+```$ cd out/target/product/qrd8650/``$ fastboot erase super erase boot erase vendor_boot \``          erase userdata erase metadata erase dtbo erase recovery``$ fastboot flash -S 256M super ./super.img flash boot ./boot.img \``          flash vendor_boot ./vendor_boot.img format:ext4 metadata \``          flash userdata ./userdata.img reboot```
 
 # Next steps
 
