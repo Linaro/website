@@ -8,10 +8,9 @@ description: "Effortless upstream Linux integration, powerful performance
 date: 2023-10-26 12:02:02 +02:00
 image: /assets/images/content/stack.png
 tags:
-  - LinuxKernel
+  - Linux Kernel
   - Qualcomm
   - Snapdragon
-  - ""
 category: blog
 author: Neil.Armstrong
 ---
