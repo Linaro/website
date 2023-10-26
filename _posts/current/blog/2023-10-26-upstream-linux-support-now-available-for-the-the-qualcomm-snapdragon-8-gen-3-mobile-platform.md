@@ -2,11 +2,9 @@
 layout: post
 title: " Upstream Linux support now available for the the Qualcomm Snapdragon 8
   Gen 3 Mobile Platform"
-description: >
-  We're thrilled to share the latest development in our ongoing collaboration
-  with Qualcomm. Linaro Engineer Neil Armstrong has successfully enabled
-  upstream Linux support for the Qualcomm Snapdragon 8 Gen 3 Mobile Platform,
-  the latest addition to the Snapdragon processor family.
+description: Effortless upstream Linux integration, powerful performance
+  optimization, running AOSP with Mainline and last but not least continued
+  collaboration
 date: 2023-10-26 12:02:02 +02:00
 image: /assets/images/content/stack.png
 tags:
