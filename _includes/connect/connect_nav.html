@@ -1,27 +1,43 @@
 <section>
-    {% assign row_background_image = site.data.connect_info.tabs_row_background_image %}
-    {% capture row_background_image_alt %}background image{% endcapture %}
-    {% picture header_image {{row_background_image}} --alt {{block_image_alt}} %}
-  <div class="row connect_nav_wrapper background_image_row text-white">
+  <div class="row connect_nav_wrapper text-white background_image_row">
     <div class="container">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-          {% for tab in site.data.connect_info.tabs %}
-          <li class="nav-item">
-            <a class="nav-link {% if forloop.first %}active{% endif %}" id="{{tab.title | slugify}}-tab" data-toggle="tab" href="#{{tab.title | slugify}}" role="tab" aria-controls="{{tab.title | slugify}}" aria-selected="true">{{tab.title}}</a>
-          </li>
-          {% endfor %}
-        </ul>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        {% for tab in site.data.connect_info.tabs %}
+        <li class="nav-item">
+          <a
+            class="nav-link {% if forloop.first %}active{% endif %}"
+            id="{{tab.title | slugify}}-tab"
+            data-toggle="tab"
+            href="#{{tab.title | slugify}}"
+            role="tab"
+            aria-controls="{{tab.title | slugify}}"
+            aria-selected="true"
+            >{{tab.title}}</a
+          >
+        </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
-  <div class="row tab_content_row">
-    <div class="container">
+  <div class="row tab_content_row" style="background-color: #efefef">
+    <div class="container bg-white">
       <div class="tab-content my-5 p-2" id="tabContent">
         {% for tab in site.data.connect_info.tabs %}
-        <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" id="{{tab.title | slugify}}" role="tabpanel" aria-labelledby="{{tab.title | slugify}}-tab">
-          {% if tab.custom_include %}
-            {% include {{tab.custom_include}} %}
-          {% else %}
-            {{tab.text | markdownify}}
+        <div
+          class="tab-pane fade {% if forloop.first %}show active{% endif %}"
+          id="{{tab.title | slugify}}"
+          role="tabpanel"
+          aria-labelledby="{{tab.title | slugify}}-tab"
+        >
+          {% if tab.custom_include %} {% include {{tab.custom_include}} %} {%
+          else %}
+          <div class="text-custom-brown">{{tab.text | markdownify}}</div>
+          {% for desc in tab.description %}
+          <div style="color: black">{{desc | markdownify}}</div>
+          {% endfor %}
+          <div style="font-size: 30px; font-weight: bold; color: black">
+            {{tab.bold_text}}
+          </div>
           {% endif %}
         </div>
         {% endfor %}

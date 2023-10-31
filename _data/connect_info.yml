@@ -1,14 +1,41 @@
-header_text_left: |
-  Once a year, Engineers, Technical Leadership and
-  world-leading Arm Software Experts come together
-  for engineering sessions and hacking at Linaro
-  Connect. Here discussions on the future of Arm open
-  source software are held and solutions implemented.
-  If you want to know what is happening in the Arm
-  software ecosystem, look no further.
-header_register_button: false
-tabs_row_background_image: /assets/images/content/Connect23_Background_2.jpg
+header_text_left_title: |
+  Join us at Linaro Connect, where innovation meets collaboration!
+header_text_left:
+  - Discover the future of ARM open-source software, network with industry leaders, engineers, and ARM software experts, and don't forget the Linaro Connect hacking sessions.
+  - Let's connect, learn, and innovate together.
+header_text_right_title: |
+  Linaro connect will take place at Melia Avenida America, Madrid, Spain
+header_text_right: |
+  Be part of this unique event!
+header_register_button_text: SAVE THE DATE
+header_register_button: true
+tabs_row_background_image: /assets/images/content/Connect24_Background_2.jpg
 tabs:
-  - title: Resources
-    text: For those who were unable to attend the previous Linaro Connect 23, videos
-      and presentations are available on Linaro Resource Hub.
+  - title: Registration
+    text: REGISTRATION WILL BE OPENED SOON.
+    description: In the meantime you can save the dates by clicking on the button above.
+  - title: Call for Proposals
+    text: CALL FOR PROPOSALS.
+    description:
+      - Our call for proposals (CFP) is just around the corner. This is your chance to share your insights, experiences and innovations with the global ARM ecosystem community.
+      - Stay tuned for updates and get ready to submit your compelling talks.
+    bold_text: Let's amplify the impact of Arm together!
+  - title: Sponsorship Opportunities
+    text: SPONSORSHIP INFORMATION COMING SOON!
+  - title: Program
+    text: PROGRAM OF EVENTS COMING SOON!
+  - title: Speakers
+    text: SPEAKER INFORMATION COMING SOON!
+  - title: Hotels & Travel
+    text: HOTEL & TRAVEL INFORMATION COMING SOON!
+  - title: Code of Conduct
+    text: Code of Conduct
+    description:
+      - Linaro Ltd, as host for Linaro Connect, is dedicated to providing a harassment-free experience for participants at all of our events. Linaro events are working conferences intended for professional networking and collaboration in the Linux community. They exist to encourage the open exchange of ideas and expression and require an environment that recognizes the inherent worth of every person and group. While at Linaro events or related ancillary or social events, any participants, including speakers, attendees, volunteers, sponsors, exhibitors, booth staff and anyone else, should not engage in harassment in any form of communication or media including email, texting and social media.
+      - All event participants are expected to behave in accordance with professional standards, with both the Linaro Connect Code of Conduct as well as their respective employer’s policies governing appropriate workplace behavior, and applicable laws.
+      - Harassment will not be tolerated in any form, including but not limited to harassment based on gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion or any other status protected by laws in which the conference or program is being held. Harassment includes the use of abusive, offensive or degrading language, intimidation, stalking, harassing photography or recording, inappropriate physical contact, sexual imagery and unwelcome sexual advances or requests for sexual favors.. Any report of harassment at one of our events will be addressed immediately. Participants asked to stop any harassing behavior are expected to comply immediately. Anyone who witnesses or is subjected to unacceptable behavior should notify a conference organizer at once.
+      - Exhibitors should not use sexualized images, activities, or other material in their booths and must refrain from the use of sexualized clothing/uniforms/costumes, or otherwise creating a sexualized environment. Speakers should not use sexual language, images, or any language or images that would constitute harassment as defined above in their talks.
+      - If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, ranging from issuance of a warning to the offending individual to expulsion from the conference with no refund, depending on the circumstances. Linaro reserves the right to exclude any participant found to be engaging in harassing behavior from participating in any further Linaro events, trainings or other activities.
+      - If you are being harassed, notice that someone else is being harassed, or have any other concerns relating to harassment, please contact a member of conference staff immediately. Conference staff can be identified by t-shirts/staff badges onsite; and an organizer can be found at the event registration counter at any time. You are also encouraged to contact Diane Cheshire, Group HR Director at diane.cheshire@linaro.org
+      - Conference staff will be happy to provide support to participants, including contacting hotel/venue security or local law enforcement, when appropriate, providing escorts, or otherwise assisting those experiencing harassment to ensure that they feel safe for the duration of the conference.
+      - We value your attendance.

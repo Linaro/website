@@ -3,31 +3,66 @@
     class="col col-12 col-md-6 px-1 px-md-5 border-md-right bordered-content"
   >
     <img
-      src="/assets/images/content/Connect23_logo.svg"
+      src="/assets/images/content/Connect24_logo.png"
       class="connect_header_svg"
-      alt="Connect Logo 2023"
+      alt="Connect Logo 2024"
     />
+    <div class="header_title" style="color: black !important">
+      <h1>{{site.data.connect_info.header_text_left_title | markdownify}}</h1>
+    </div>
     <div class="header_text">
-      {{site.data.connect_info.header_text_left | markdownify}}
+      <h2 style="color: black !important">
+        {% for desc in site.data.connect_info.header_text_left%} {{desc |
+        markdownify}} {% endfor %}
+      </h2>
     </div>
   </div>
   <div class="col col-12 col-md-6 px-1 px-md-5">
     <img
-      src="/assets/images/content/April2024.svg"
+      src="/assets/images/content/May2024.svg"
       class="connect_header_svg"
       alt="Connect Date"
     />
     <div class="header_text">
-      {{site.data.connect_info.header_text_right | markdownify}}
+      <h2 style="color: black !important">
+        {{site.data.connect_info.header_text_right_title | markdownify}}
+      </h2>
+    </div>
+    <div class="header_title" style="color: black !important">
+      <h1>{{site.data.connect_info.header_text_right | markdownify}}</h1>
     </div>
     {% if site.data.connect_info.header_register_button %}
-    <a
-      href="{{site.data.connect_info.header_register_button_link}}"
-      class="btn btn-primary"
-      id="connect_register_button"
-    >
-      {{site.data.connect_info.header_register_button_text}}
-    </a>
+    <div class="dropdown show">
+      <a
+        class="btn dropdown-toggle dropdown_header"
+        style="border: 2px solid #b77236; color: #b77236"
+        href="#"
+        role="button"
+        id="dropdownMenuLink"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        {{site.data.connect_info.header_register_button_text}}
+      </a>
+
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a
+          href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWg4czdidjJsYnJuc2R1ZmxzaGhpc3VtcmkgbGluYXJvLm9yZ181N2k3OW5rbXVjdWZ2bjRycG0ybWxka2tlb0Bn&amp;tmsrc=linaro.org_57i79nkmucufvn4rpm2mldkkeo%40group.calendar.google.com"
+          class="dropdown-item"
+          style="color: #b77236"
+          >Add to Google Calendar</a
+        >
+        <a
+          href="/assets/downloads/Linaro_Connect_Madrid_2024.ics"
+          download="Linaro Connect Madrid 2024"
+          class="dropdown-item"
+          style="color: #b77236"
+          >Download an .ICS file</a
+        >
+      </div>
+    </div>
+
     {% endif %}
   </div>
 </div>
