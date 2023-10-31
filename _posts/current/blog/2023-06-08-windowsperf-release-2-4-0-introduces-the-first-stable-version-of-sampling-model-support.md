@@ -8,6 +8,7 @@ date: 2023-06-08 04:06:32 +01:00
 image: /assets/images/content/blog_python_woa.jpg
 tags:
   - Windows on Arm
+  - WindowsPerf
 category: blog
 author: " Przemyslaw_Wirkus"
 ---
