@@ -16,7 +16,7 @@ tags:
   - Embedded
   - CapsuleUpdates
 category: blog
-author: linaro
+author: sughosh.ganu
 ---
 # Need for standardized firmware updates
 
