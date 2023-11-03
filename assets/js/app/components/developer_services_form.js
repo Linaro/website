@@ -4,16 +4,16 @@ feedback_form.onsubmit = (e) => {
   e.preventDefault();
   // Check that the form has values for the required fields
   var message = "";
-  if (customfield_10902.value === "") {
+  if (customfield_13155.value === "") {
     message = message + "You must provide a first name.<br>";
   }
-  if (customfield_10903.value === "") {
+  if (customfield_13156.value === "") {
     message = message + "You must provide a last name.<br>";
   }
   if (feedback_email.value === "") {
     message = message + "You must provide an email address.<br>";
   }
-  if (customfield_12401.value === "") {
+  if (customfield_13368.value === "") {
     message = message + "You must provide a Company name.<br>";
   }
   if (message !== "") {
