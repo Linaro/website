@@ -77,9 +77,9 @@ $(document).ready(function () {
   }
   // If the other field exsits
   // If clicked then toggle the disabled prop.
-  if ($("#customfield_13201").length > 0) {
+  if ($("#customfield_13373").length > 0) {
     $("#other").on("click", function () {
-      $("#customfield_13201").prop("disabled", function (i, v) {
+      $("#customfield_13373").prop("disabled", function (i, v) {
         return !v;
       });
     });
