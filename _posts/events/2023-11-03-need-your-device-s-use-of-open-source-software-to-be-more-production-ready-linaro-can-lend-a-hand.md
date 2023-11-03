@@ -30,8 +30,10 @@ Our services are tailor-made to meet your specific needs. Listen to Linaro’s D
 
 Don't miss this opportunity, reserve your spot today.
 
-Register now: 
 
 
+<form action="https://www.cognitoforms.com/Linaro1/LinaroWebinarDeveloperServices">
 
-<script src="https://www.cognitoforms.com/f/seamless.js" data-key="KvRQmIn2dku6k6gGP711jw" data-form="37"></script>
+<button type="submit">Register here</button>
+
+</form>
