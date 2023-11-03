@@ -1,7 +1,7 @@
 ---
 title: Need your device’s use of open-source software to be more
   production-ready? Linaro can lend a hand.
-event: Linaro-Developer- Services-Webinar
+event: Linaro-Developer-Services-Webinar
 description: Linaro Webinar - Developer Services
 location: Online
 date: 2023-11-03 12:24:52 +00:00
