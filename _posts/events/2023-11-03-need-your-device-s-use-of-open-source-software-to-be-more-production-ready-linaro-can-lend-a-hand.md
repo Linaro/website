@@ -34,6 +34,6 @@ Our services are tailor-made to meet your specific needs. Listen to Linaro’s D
 
 Don't miss this opportunity, reserve your spot today.
 
-Register now: <div class="cognito">
+Register now: 
 
-<script src="https://www.cognitoforms.com/f/seamless.js" data-key="KvRQmIn2dku6k6gGP711jw" data-form="37"></script></div>
+<div class="cognito"><script src="https://www.cognitoforms.com/f/seamless.js" data-key="KvRQmIn2dku6k6gGP711jw" data-form="37"></script></div>
