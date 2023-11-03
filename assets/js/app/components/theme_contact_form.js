@@ -40,6 +40,8 @@ theme_contact_form.onsubmit = (e) => {
     });
     // Make sure all the checkbox values are submitted as an array.
     formDataPayloadBody[checkboxGroupName] = data.getAll(checkboxGroupName);
+    // Remove the "other" checkbox from the payload.
+    delete formDataPayloadBody["other"];
     // Send the POST request.
     fetch(
       "https://avqfk3gzg2.execute-api.us-east-1.amazonaws.com/prod/formSubmit",
@@ -66,9 +68,9 @@ $(document).ready(function () {
   }
   // If the other field exsits
   // If clicked then toggle the disabled prop.
-  if ($("#customfield_12907").length > 0) {
+  if ($("#customfield_13371").length > 0) {
     $("#other").on("click", function () {
-      $("#customfield_12907").prop("disabled", function (i, v) {
+      $("#customfield_13371").prop("disabled", function (i, v) {
         return !v;
       });
     });

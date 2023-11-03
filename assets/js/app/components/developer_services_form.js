@@ -40,6 +40,8 @@ feedback_form.onsubmit = (e) => {
     });
     // Make sure all the checkbox values are submitted as an array.
     formDataPayloadBody[checkboxGroupName] = data.getAll(checkboxGroupName);
+    // Remove the "other_services" checkbox from the payload.
+    delete formDataPayloadBody["other_services"];
     console.log(formDataPayloadBody);
     try {
       dataLayer.push({

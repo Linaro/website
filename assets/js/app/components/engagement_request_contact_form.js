@@ -41,6 +41,8 @@ $(document).ready(function () {
         });
         // Make sure all the checkbox values are submitted as an array.
         formDataPayloadBody[checkboxGroupName] = data.getAll(checkboxGroupName);
+        // Remove the "other" checkbox from the payload.
+        delete formDataPayloadBody["other"];
         try {
           dataLayer.push({
             formName: "Short Contact Form",
