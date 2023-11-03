@@ -92,9 +92,9 @@ $(document).ready(function () {
     });
   }
   // Check form exists in HTML
-  if ($("#customfield_12905").length > 0) {
+  if ($("#customfield_13369").length > 0) {
     $("#other_services").on("click", function () {
-      $("#customfield_12905").prop("disabled", function (i, v) {
+      $("#customfield_13369").prop("disabled", function (i, v) {
         return !v;
       });
     });
