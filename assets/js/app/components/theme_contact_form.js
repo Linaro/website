@@ -4,16 +4,16 @@ theme_contact_form.onsubmit = (e) => {
   e.preventDefault();
   // Check that the form has values for the required fields
   var message = "";
-  if (customfield_10902.value === "") {
+  if (customfield_13155.value === "") {
     message = message + "You must provide a first name.<br>";
   }
-  if (customfield_10903.value === "") {
+  if (customfield_13156.value === "") {
     message = message + "You must provide a last name.<br>";
   }
   if (email.value === "") {
     message = message + "You must provide an email address.<br>";
   }
-  if (customfield_12401.value === "") {
+  if (customfield_13368.value === "") {
     message = message + "You must provide a Company name.<br>";
   }
   if (message !== "") {
@@ -40,6 +40,8 @@ theme_contact_form.onsubmit = (e) => {
     });
     // Make sure all the checkbox values are submitted as an array.
     formDataPayloadBody[checkboxGroupName] = data.getAll(checkboxGroupName);
+    // Remove the "other" checkbox from the payload.
+    delete formDataPayloadBody["other"];
     // Send the POST request.
     fetch(
       "https://avqfk3gzg2.execute-api.us-east-1.amazonaws.com/prod/formSubmit",
@@ -66,9 +68,9 @@ $(document).ready(function () {
   }
   // If the other field exsits
   // If clicked then toggle the disabled prop.
-  if ($("#customfield_12907").length > 0) {
+  if ($("#customfield_13371").length > 0) {
     $("#other").on("click", function () {
-      $("#customfield_12907").prop("disabled", function (i, v) {
+      $("#customfield_13371").prop("disabled", function (i, v) {
         return !v;
       });
     });

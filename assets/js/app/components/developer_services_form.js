@@ -4,16 +4,16 @@ feedback_form.onsubmit = (e) => {
   e.preventDefault();
   // Check that the form has values for the required fields
   var message = "";
-  if (customfield_10902.value === "") {
+  if (customfield_13155.value === "") {
     message = message + "You must provide a first name.<br>";
   }
-  if (customfield_10903.value === "") {
+  if (customfield_13156.value === "") {
     message = message + "You must provide a last name.<br>";
   }
   if (feedback_email.value === "") {
     message = message + "You must provide an email address.<br>";
   }
-  if (customfield_12401.value === "") {
+  if (customfield_13368.value === "") {
     message = message + "You must provide a Company name.<br>";
   }
   if (message !== "") {
@@ -40,6 +40,8 @@ feedback_form.onsubmit = (e) => {
     });
     // Make sure all the checkbox values are submitted as an array.
     formDataPayloadBody[checkboxGroupName] = data.getAll(checkboxGroupName);
+    // Remove the "other_services" checkbox from the payload.
+    delete formDataPayloadBody["other_services"];
     console.log(formDataPayloadBody);
     try {
       dataLayer.push({
@@ -92,9 +94,9 @@ $(document).ready(function () {
     });
   }
   // Check form exists in HTML
-  if ($("#customfield_12905").length > 0) {
+  if ($("#customfield_13369").length > 0) {
     $("#other_services").on("click", function () {
-      $("#customfield_12905").prop("disabled", function (i, v) {
+      $("#customfield_13369").prop("disabled", function (i, v) {
         return !v;
       });
     });
