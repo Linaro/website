@@ -39,3 +39,7 @@ With a UEFI-based firmware implementation, the OS depends on the firmware for va
 # Current Status
 
 Many platforms in U-Boot currently enable the UEFI Capsule Update functionality for updating firmware on the device. The A/B Update functionality is currently supported for a couple of platforms from ST and Socionext. However, adding support for the feature on a platform is just a matter of enabling the feature and adding some very basic platform-specific code. [Contact](mailto:support@linaro.org) us if you are interested.
+
+# How can a vendor leverage this work
+
+Linaro recognizes the difficulties and challenges facing vendors who want to provide a standard compliant firmware that serves their needs without compromising security, distribution compatibility, and update-ability. To help them overcome such challenges, Linaro has developed a standards based FW. We call it TrustedSubstate. With the help of our Developer Services team, vendors are able to productise TrustedSubstrate to their own needs in record time.
