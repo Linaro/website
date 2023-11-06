@@ -80,12 +80,6 @@
   },
   {
     "id": "project-member",
-    "members": [
-      {
-        "image": "https://static.linaro.org/common/member-logos/oppo.jpg",
-        "name": "OPPO"
-      }
-    ],
     "membership_group_name": "Project Members",
     "text": "Members of a sole project but their logo needs to be displayed",
     "url": "/membership/"
@@ -196,10 +190,6 @@
         "image": "https://static.linaro.org/common/member-logos/quic.jpg",
         "name": "QuIC",
         "uri": "https://www.qualcomm.com/"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/oppo.jpg",
-        "name": "OPPO"
       }
     ],
     "membership_group_name": "LCG Members",
