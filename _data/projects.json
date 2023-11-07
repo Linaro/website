@@ -50,24 +50,6 @@
         },
         {
             "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LEDGE SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/BP/overview\">https://linaro.atlassian.net/wiki/spaces/BP/overview</a>",
-                "Theme": [
-                    "Automotive, IoT & Edge Devices"
-                ],
-                "description": "Blueprints goal is to showcase the usage of Arm technologies by providing segment specific reference for seeding the ecosystem. Accelerate customer solution TTM by providing open-source reference blueprint and enable scale by creating a rich ecosystem of system integration partners to scale Arm tech and act as an integration point for Arm and eco-system partners to integrate open-source technology components to enhance the value of Arm tech.<br><br>We are actively engaged in the Automotive blueprints to support the industry\u2019s efforts in building a Scalable Open Architecture for Embedded Edge (<a href=\"https://soafee.io/\">SOAFEE</a>).",
-                "title": "Automotive Blueprint"
-            },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10583",
-            "key": [
-                "BP"
-            ],
-            "membership": [
-                "ledge"
-            ]
-        },
-        {
-            "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by LDCG SC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/BDDS/overview\">https://linaro.atlassian.net/wiki/spaces/BDDS/overview</a>",
                 "Theme": [
