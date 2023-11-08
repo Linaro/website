@@ -3,8 +3,8 @@ title: Need your device’s use of open-source software to be more
   production-ready? Linaro can lend a hand.
 event: Linaro-webinar-developer-services
 description: |-
-  📆 Date: [December 12th 2023]
-  🕒 Time: [4pm GMT] 
+  📆 Date: December 12th 2023
+  🕒 Time: 4pm GMT
   🌐 Online Event: Join from anywhere
 date: 2023-11-03 10:32:14 +00:00
 event_date: 2023-12-12 12:32:14 +00:00
