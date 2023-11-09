@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installing Fedora with UEFI HTTP boot
+title: "Installing Fedora with UEFI HTTP boot "
 description: >
   With the addition of UEFI HTTP Boot support in U-Boot on a SystemReady-IR
   platform we can install and run Fedora on the fly instead of using a local
