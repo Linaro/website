@@ -3,16 +3,17 @@ title: Need your device’s use of open-source software to be more
   production-ready? Linaro can lend a hand.
 event: Linaro-webinar-developer-services
 description: "Speaker: Davide Ricci Director Developer Services"
-location: |-
-  📆 Date: December 12th 2023
-  🕒 Time: 4pm GMT
-  🌐 Online Event: Join from anywhere
+location: ""
 date: 2023-11-03 10:32:14 +00:00
 event_date: 2023-12-12 12:32:14 +00:00
 event_end_date: 2023-12-12 05:32:14 +00:00
 image: /assets/images/content/ds-webinar-banner-for-event-page.jpg
 event_type: webinar
 ---
+📆 Date: December 12th 2023\
+🕒 Time: 4pm GMT\
+🌐 Online Event: Join from anywhere
+
 Linaro is the powerhouse behind the Arm open-source software ecosystem. 
 
 We enable companies to  harness  the transformative power of open-source software and its ability to revolutionize devices across a wide range of different use cases. We also understand the challenges of using open-source software in production environments. 
