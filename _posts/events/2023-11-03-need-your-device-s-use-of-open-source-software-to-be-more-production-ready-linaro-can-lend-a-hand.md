@@ -2,7 +2,7 @@
 title: Need your device’s use of open-source software to be more
   production-ready? Linaro can lend a hand.
 event: Linaro-webinar-developer-services
-description: Davide Ricci Director Developer Services
+description: "Speaker: Davide Ricci Director Developer Services"
 location: |-
   📆 Date: December 12th 2023
   🕒 Time: 4pm GMT
