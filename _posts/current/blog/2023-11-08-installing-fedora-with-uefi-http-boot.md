@@ -17,7 +17,7 @@ tags:
   - UEFI_HTTP
   - Fedora
 category: blog
-author: linaro
+author: Masahisa.Kojima
 ---
 # Introduction
 
