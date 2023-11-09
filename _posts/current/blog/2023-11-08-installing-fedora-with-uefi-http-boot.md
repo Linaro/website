@@ -41,8 +41,8 @@ We are using the Socionext Developerbox in this blog. A new “efidebug boot add
 
 ```
 dhcp
-	setenv loadaddr 90000000
-	setenv serverip 192.168.1.1
+setenv loadaddr 90000000
+setenv serverip 192.168.1.1
 efidebug boot add -u 3 fedora-netinst http://dl.fedoraproject.org/pub/fedora/linux/releases/38/Server/aarch64/iso/Fedora-Server-netinst-aarch64-38-1.6.iso
 bootmenu
 ```
@@ -88,7 +88,7 @@ After the installation completes, reboot the board and manually add the boot opt
 
 ```
 efidebug boot add -b 5 fedora mmc 0:1 EFI/fedora/grubaa64.efi
-	efidebug boot order 5
+efidebug boot order 5
 ```
 
 # Future work
