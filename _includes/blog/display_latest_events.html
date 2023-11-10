@@ -1,115 +1,106 @@
 {% assign event_posts = site.categories.Events | sort: 'event_date' | reverse %}
-{% assign past_events = '' | split: '' %}
-{% assign upcoming_events = '' | split: '' %}
-
-{% for post in event_posts %}
-    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-    {% assign event_date = post.event_date | date: '%s' %}
-    {% if event_date < nowunix %}
-        {% assign past_events = past_events | push: post %}
-    {% else %}
-        {% assign upcoming_events = upcoming_events | push: post %}
-    {% endif %}
-{% endfor %}
+{% assign past_events = '' | split: '' %} {% assign upcoming_events = '' |
+split: '' %} {% for post in event_posts %} {% capture nowunix %}{{'now' | date:
+'%s'}}{% endcapture %} {% assign event_date = post.event_date | date: '%s' %} {%
+if event_date < nowunix %} {% assign past_events = past_events | push: post %}
+{% else %} {% assign upcoming_events = upcoming_events | push: post %} {% endif
+%} {% endfor %}
 
 <div class="row py-0">
-    <div class="col col-12 py-4">
-        <h2>{{site.data.translations.events.upcoming}}</h2>
-    </div>
-    {% assign upcoming_events = upcoming_events | sort: 'event_date' %}
-    <div class="col col-12">
-        <div class="row py-0">
-        {% for post in upcoming_events %}
-            {% assign timeframe = 604800 %}
-            {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
-            {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
-                <div class="col col-12 col-sm-6 col-lg-4 blog-post-item-col p-3">
-                    <div class="card h-100 ">
-                        <div class="blog_image_header">
-                            {% if post.image %}
-                                {% assign block_image = post.image  %}
-                                {% capture block_image_alt %}{{post.title}} image {% endcapture %}
-                            {% else %}
-                                {% assign block_image = site.post_placeholder  %}
-                                {% capture block_image_alt %}Blog post placeholder image {% endcapture %}
-                            {% endif %}
-                            {% picture featured_blog_image {{block_image}} --alt {{block_image_alt}} %}
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">{{post.title}}</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">{% if post.event_date %}
-                                {{post.event_date | date: "%A, %B %-d, %Y" }}
-                                {% if post.event_end_date %}
-                                    - {{post.event_end_date | date: "%A, %B %-d, %Y" }}
-                                {% endif %}
-                            {% else %}
-                                {{post.date | date: "%A, %B %-d, %Y" }}
-                            {% endif %}</h6>
-                            <span class="event_tag {{post.event_type}}">{{event_tag_text}}</span>
-                            <p class="card-text">
-                                {% if post.description %}
-                                    {{post.description | strip_html | truncatewords:30 }}
-                                {% else %}
-                                    {{ post.content | strip_html | truncatewords:30 }}
-                                {% endif %}
-                            </p>
-                            <p class="card-text">
-                                <a href="{{post.url}}" class="btn btn-primary">{{site.data.translations.events.view}}</a>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-                {% endfor %}
-            </div>
+  <div class="col col-12 py-4">
+    <h2>{{site.data.translations.events.upcoming}}</h2>
+  </div>
+  {% assign upcoming_events = upcoming_events | sort: 'event_date' %}
+  <div class="col col-12">
+    <div class="row py-0">
+      {% for post in upcoming_events %} {% assign timeframe = 604800 %} {%
+      assign post_in_seconds = post.date | date: "%s" | plus: 0 %} {% assign
+      recent_posts = "now" | date: "%s" | minus: timeframe %}
+      <div class="col col-12 col-sm-6 col-lg-4 blog-post-item-col p-3">
+        <div class="card h-100">
+          <div class="">
+            {% if post.image %} {% assign block_image = post.image %} {% capture
+            block_image_alt %}{{post.title}} image {% endcapture %} {% else %}
+            {% assign block_image = site.post_placeholder %} {% capture
+            block_image_alt %}Blog post placeholder image {% endcapture %} {%
+            endif %} {% picture featured_blog_image {{block_image}} --alt
+            {{block_image_alt}} %}
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">{{post.title}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              {% if post.event_date %} {{post.event_date | date: "%A, %B %-d,
+              %Y" }} {% if post.event_end_date %} - {{post.event_end_date |
+              date: "%A, %B %-d, %Y" }} {% endif %} {% else %} {{post.date |
+              date: "%A, %B %-d, %Y" }} {% endif %}
+            </h6>
+            <span class="event_tag {{post.event_type}}"
+              >{{event_tag_text}}</span
+            >
+            <p class="card-text">
+              {% if post.description %} {{post.description | strip_html |
+              truncatewords:30 }} {% else %} {{ post.content | strip_html |
+              truncatewords:30 }} {% endif %}
+            </p>
+            <p class="card-text">
+              <a href="{{post.url}}" class="btn btn-primary"
+                >{{site.data.translations.events.view_last}}</a
+              >
+            </p>
+          </div>
         </div>
-    <div class="col col-12 py-4">
-        <h2>{{site.data.translations.events.past}}</h2>
+      </div>
+      {% endfor %}
     </div>
-    <div class="col col-12">
-        <div class="row py-0">
-            {% for post in past_events %}
-                {% assign timeframe = 604800 %}
-                {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
-                {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
-                <div class="col col-12 col-sm-6 col-lg-4 blog-post-item-col p-3">
-                    <div class="card h-100 ">
-                        <div class="blog_image_header">
-                            {% if post.image %}
-                                {% assign block_image = post.image  %}
-                                {% capture block_image_alt %}{{post.title}} image {% endcapture %}
-                            {% else %}
-                                {% assign block_image = site.post_placeholder  %}
-                                {% capture block_image_alt %}Blog post placeholder image {% endcapture %}
-                            {% endif %}
-                            {% picture featured_blog_image {{block_image}} --alt {{block_image_alt}} %}
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">{{post.title}}</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">{% if post.event_date %}
-                                {{post.event_date | date: "%A, %B %-d, %Y" }}
-                                {% if post.event_end_date %}
-                                    - {{post.event_end_date | date: "%A, %B %-d, %Y" }}
-                                {% endif %}
-                            {% else %}
-                                {{post.date | date: "%A, %B %-d, %Y" }}
-                            {% endif %}</h6>
-                            <span class="event_tag {{post.event_type}}">{{event_tag_text}}</span>
-                            <p class="card-text">
-                                {% if post.description %}
-                                    {{post.description | strip_html | truncatewords:30 }}
-                                {% else %}
-                                    {{ post.content | strip_html | truncatewords:30 }}
-                                {% endif %}
-                            </p>
-                            <p class="card-text">
-                                <a href="{{post.url}}" class="btn btn-primary">{{site.data.translations.events.view}}</a>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            {% endfor %}
+  </div>
+  <div class="col col-12 py-4">
+    <h2>{{site.data.translations.events.past}}</h2>
+  </div>
+  <div class="col col-12">
+    <div class="row py-0">
+      {% for post in past_events %} {% assign timeframe = 604800 %} {% assign
+      post_in_seconds = post.date | date: "%s" | plus: 0 %} {% assign
+      recent_posts = "now" | date: "%s" | minus: timeframe %}
+      <div class="col col-12 col-sm-6 col-lg-4 blog-post-item-col p-3">
+        <div class="card h-100">
+          <div class="">
+            {% if post.image %} {% assign block_image = post.image %} {% capture
+            block_image_alt %}{{post.title}} image {% endcapture %} {% else %}
+            {% assign block_image = site.post_placeholder %} {% capture
+            block_image_alt %}Blog post placeholder image {% endcapture %} {%
+            endif %} {% picture featured_blog_image {{block_image}} --alt
+            {{block_image_alt}} %}
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">{{post.title}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              {% if post.event_date %} {{post.event_date | date: "%A, %B %-d,
+              %Y" }} {% if post.event_end_date %} - {{post.event_end_date |
+              date: "%A, %B %-d, %Y" }} {% endif %} {% else %} {{post.date |
+              date: "%A, %B %-d, %Y" }} {% endif %}
+            </h6>
+            <span class="event_tag {{post.event_type}}"
+              >{{event_tag_text}}</span
+            >
+            <p class="card-text">
+              {% if post.description %} {{post.description | strip_html |
+              truncatewords:30 }} {% else %} {{ post.content | strip_html |
+              truncatewords:30 }} {% endif %}
+            </p>
+            <p class="card-text">
+              {% if post.view_last %}
+              <a href="{{post.url}}" class="btn btn-primary"
+                >{{site.data.translations.events.view_last}}</a
+              >
+              {% else %}
+              <a href="{{post.url}}" class="btn btn-primary"
+                >{{site.data.translations.events.view}}</a
+              >{% endif %}
+            </p>
+          </div>
         </div>
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </div>

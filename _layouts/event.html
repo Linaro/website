@@ -1,80 +1,86 @@
 ---
 layout: base
 ---
-<div itemscope="">
-<div
-    class="jumbotron d-flex align-items-center jumbotron-fluid {% if page.image %}background_image{% endif%}">
-    {% if page.image %}
-        {% assign image_path = page.image  %}
-        {% picture header_image {{image_path}} %}
-    {% endif %}
-    <div class="container text-center">
-        <div class="inner_content_wrapper">
-            <h1 class="">{{page.title}}</h1>
-            <p>
-                {% if page.visual_date %}
-                    {{page.visual_date}}
-                {% else %}
-                <time datetime="{{page.date}}">{{page.event_date | date: "%A, %B %-d, %Y" }} 
-                    {% if page.event_end_date and page.event_date != page.event_end_date %}
-                    - {{page.event_end_date | date: "%A, %B %-d, %Y" }}
-                    {% endif %}</time>
-                {% endif %}
-            </p>
-            {% if page.event_url and page.event_url != "" %}
-            <p>
-                <a href="{{page.event_url}}" class="btn btn-primary">
-                    Visit Website
-                </a>
-            </p>
-            {% endif %}
-        </div>
-    </div>
-</div>
-<div class="container-fluid main_content">
-    <div class="row">
-        <div class="container">
-            <div class="row justify-content-sm-center">
-                <div class="col col-12 col-lg-10 py-4  blog-content">
-                    <article>
-                        {{ page.description | markdownify }}
-                        {{ content }}
-                        {% include events/display-event-resources.html event=page.event %}
-                        {% assign event_posts_size = site.categories["event_resources"] | where: 'event', page.event | size %}
-                        {% if event_posts_size > 0 %}
-                        <div class="row events-row">
-                            {% assign event_details = site.posts | where: "event", include.event | first %}
-                            {% assign event_posts = site.categories["event_resources"] | where:'event',include.event | sort: 'date' | reverse %}
-                            {% for post in event_posts %}
-                            <div class="col col-12 col-sm-4">
-                                <a href="{{post.url}}">
-                                    <div class="event-block">
-                                        {% if post.image %}
-                                        <div class="event-image lazyload"
-                                            style="background: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{post.image.path}}')">
-                                        </div>
-                                        {% else %}
-                                        <div class="event-image lazyload"
-                                            style="background: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{event_details.image.path}}')">
-                                        </div>
-                                        {% endif %}
-                                        <div class="event-title">
-                                            <h3>{{post.title}}</h3>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            {% endfor %}
-                        </div>
-                        {% endif %}
 
-                    </article>
-                </div>
-                <div class="col col-12 col-lg-10 py-4 blog-sidebar ">
-                    {% include_cached blog/post_sidebar.html %}
-                </div>
-            </div>
-        </div>
+<div itemscope="">
+  <div
+    class="jumbotron d-flex align-items-center jumbotron-fluid {% if page.image %}background_image{% endif%}"
+  >
+    {% if page.image %} {% assign image_path = page.image %} {% picture
+    header_image {{image_path}} %} {% endif %}
+    <div class="container text-center">
+      <div class="inner_content_wrapper">
+        <h1 class="">{{page.title}}</h1>
+        <p>
+          {% if page.visual_date %} {{page.visual_date}} {% else %}
+          <time datetime="{{page.date}}"
+            >{{page.event_date | date: "%A, %B %-d, %Y" }} {% if
+            page.event_end_date and page.event_date != page.event_end_date %} -
+            {{page.event_end_date | date: "%A, %B %-d, %Y" }} {% endif %}</time
+          >
+          {% endif %}
+        </p>
+        {% if page.event_url and page.event_url != "" %}
+        <p>
+          <a href="{{page.event_url}}" class="btn btn-primary">
+            Visit Website
+          </a>
+        </p>
+        {% endif %} {% if page.event_url_last and page.event_url_last != "" %}
+        <p>
+          <a href="{{page.event_url_last}}" class="btn btn-primary">
+            Register
+          </a>
+        </p>
+        {% endif %}
+      </div>
     </div>
-</div>
+  </div>
+  <div class="container-fluid main_content">
+    <div class="row">
+      <div class="container">
+        <div class="row justify-content-sm-center">
+          <div class="col col-12 col-lg-10 py-4 blog-content">
+            <article>
+              {{ page.description | markdownify }} {{ content }} {% include
+              events/display-event-resources.html event=page.event %} {% assign
+              event_posts_size = site.categories["event_resources"] | where:
+              'event', page.event | size %} {% if event_posts_size > 0 %}
+              <div class="row events-row">
+                {% assign event_details = site.posts | where: "event",
+                include.event | first %} {% assign event_posts =
+                site.categories["event_resources"] | where:'event',include.event
+                | sort: 'date' | reverse %} {% for post in event_posts %}
+                <div class="col col-12 col-sm-4">
+                  <a href="{{post.url}}">
+                    <div class="event-block">
+                      {% if post.image %}
+                      <div
+                        class="event-image lazyload"
+                        style="background: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{post.image.path}}')"
+                      ></div>
+                      {% else %}
+                      <div
+                        class="event-image lazyload"
+                        style="background: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{event_details.image.path}}')"
+                      ></div>
+                      {% endif %}
+                      <div class="event-title">
+                        <h3>{{post.title}}</h3>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </article>
+          </div>
+          <div class="col col-12 col-lg-10 py-4 blog-sidebar">
+            {% include_cached blog/post_sidebar.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
