@@ -201,6 +201,7 @@ careers:
 search_posts: Search ------ posts...
 events:
   view: View
+  view_last : Register
   upcoming: Upcoming Events
   past: Past Events
   comingSoon: Coming soon
