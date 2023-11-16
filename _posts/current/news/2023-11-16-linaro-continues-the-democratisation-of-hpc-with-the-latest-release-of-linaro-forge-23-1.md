@@ -2,10 +2,10 @@
 layout: post
 title: "Linaro Continues the Democratisation of HPC with the Latest Release of
   Linaro Forge 23.1 "
-description: In conjunction with SC23 Linaro has released Linaro Forge 23.1.
+description: "In conjunction with SC23 Linaro has released Linaro Forge 23.1.
   This release significantly expands the capabilities of the Forge Debugging and
   Performance Engineering tools for both novice and expert HPC developers,
-  analysts, and application users.
+  analysts, and application users. "
 date: 2023-11-16 09:32:08 +01:00
 image: /assets/images/content/Banner_Core_Technologies.jpg
 tags:
