@@ -19,7 +19,6 @@ tags:
 category: blog
 author: linaro
 ---
-
 {% include image.html path="/assets/images/content/most-active-employers-6.2-through-6.6.png" alt="Most active employers, 6.2 through 6.6" %}
 
 With V6.6 Linaro celebrates another year of contributions to the Linux Kernel. Through our engineers’ expertise and dedication, we explore the significant contributions they have made gaining valuable insights into the Linux kernel development process from V6.2 to the current V6.6 release.
@@ -28,7 +27,7 @@ Linaro has the biggest maintainer impact among all releases:
 
 {% include image.html path="/assets/images/content/top-non-author-signoffs-6.2-to-6.6.png" alt="Top non-author signoffs, 6.2 to 6.6" %}
 
-<br>
+
 <br>
 
 {% include image.html path="/assets/images/content/most-active-6.6-emplovers.png" alt="Most active 6.6 emplovers" %}
