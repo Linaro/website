@@ -7,7 +7,7 @@ description: >
   Through our engineers’ expertise and dedication, we explore the significant
   contributions they have made gaining valuable insights into the Linux kernel
   development process from V6.2 to the current V6.6 release.
-date: 2023-11-17 06:34:33 +01:00
+date: 2023-11-20 08:34:33 +01:00
 image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
   - 6.6 kernel release
