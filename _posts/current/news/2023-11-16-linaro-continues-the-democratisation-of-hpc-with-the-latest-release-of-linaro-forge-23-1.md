@@ -15,7 +15,7 @@ tags:
   - Performance tools
   - Software
   - high performance computing
-category: blog
+category: news
 author: linaro
 ---
 In conjunction with SC23 Linaro has released Linaro Forge 23.1. This release significantly expands the capabilities of the Forge Debugging and Performance Engineering tools for both novice and expert HPC developers, analysts, and application users.   
