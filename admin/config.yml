@@ -3868,7 +3868,7 @@ collections:
       - label: Category
         name: category
         widget: hidden
-        default: blog
+        default: news
       - label: Author
         name: author
         widget: relation
