@@ -145,7 +145,7 @@
                     "Core Technologies"
                 ],
                 "description": "LAVA\u00a0stand for\u00a0Linaro\u00a0Automated\u00a0Validation\u00a0Architecture.<br><br>LAVA is a\u00a0continuous integration\u00a0system for deploying operating systems onto physical and virtual hardware for running tests.<br><br>LAVA is also used to managed and share boards among teams.",
-                "title": "LAVA (and test-definitions)"
+                "title": "LAVA and test-definitions"
             },
             "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
             "key": [
@@ -246,7 +246,7 @@
                     "Core Technologies"
                 ],
                 "description": "SQUAD is a Software Quality Dashboard written in Python 3. It uses Django.<br><br>See\u00a0<a href=\"https://github.com/Linaro/squad/blob/master/doc\">the documentation folder</a>\u00a0for more documentation, or go\u00a0<a href=\"https://squad.readthedocs.io/\">browse the documentation online</a>",
-                "title": "SQUAD (and squad_client)"
+                "title": "SQUAD and SQUAD Client"
             },
             "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
             "key": [
