@@ -241,22 +241,6 @@
         {
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://github.com/linaro/squad\">https://github.com/linaro/squad</a>",
-                "Theme": [
-                    "Core Technologies"
-                ],
-                "description": "SQUAD is a Software Quality Dashboard written in Python 3. It uses Django.<br><br>See\u00a0<a href=\"https://github.com/Linaro/squad/blob/master/doc\">the documentation folder</a>\u00a0for more documentation, or go\u00a0<a href=\"https://squad.readthedocs.io/\">browse the documentation online</a>",
-                "title": "SQUAD and SQUAD Client"
-            },
-            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
-            "key": [
-                "SQUAD"
-            ],
-            "membership": []
-        },
-        {
-            "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/SCMI/overview\">https://linaro.atlassian.net/wiki/spaces/SCMI/overview</a>",
                 "Theme": [
                     "Core Technologies"
