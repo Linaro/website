@@ -58,9 +58,7 @@ Outside of the rust-vmm ecosystem, crosvm also comes with a few additional virti
 
 This layered toolbox architecture helped us when [adding Xen support](https://github.com/rust-vmm/vm-memory/pull/241) by abstracting the required memory mapping logic away from the daemon. After adding Xen guest memory maps to vm-memory, Xen support for the entire rust-vmm ecosystem came “for free”. It also paves the way for more secure memory models where access is granted on page granularity instead of the entire guest memory. Eventually this will allow offloading device backends to other virtual machines that may be highly restricted in their access.
 
-
 {% include image.html path="/assets/images/content/rust-vmm.png" alt="A diagram that illustrates rust-vmm's layers of abstraction. vmm-sys-util and vm-memory serve as the lowest level building blocks. vm-virtio, vhost and vhost then become increasingly more abstract" %}
-
 
 *rust-vmm is organized into many crates that abstract individual aspects of virtualization. Of particular interest for us are vm-memory (abstraction of mmap’d guest memory), virtio-queue (tools for handling virtio descriptors) and vhost-user-backend (implementation of the vhost-user protocol). While the number of crates may be overwhelming at start, it allows you to pick and choose the tools needed for the particular task.*
 
@@ -69,28 +67,3 @@ Overall, rust-vmm is maturing into a versatile and highly reusable ecosystem. Th
 # Outlook
 
 Linaro is working towards showcasing all the newly developed features in a Demo during Connect 2024. We plan to demonstrate SOAFEE use-cases on top of our [Trusted Reference Stack](https://gitlab.com/Linaro/trusted-reference-stack/trs). Our roadmap and current work items can be viewed on our [project page](https://linaro.atlassian.net/wiki/spaces/ORKO/overview). If you are interested in collaborating feel free to say hello on #linaro-virtualization on libera.chat or checkout our other [virtualization blog posts](https://www.linaro.org/blog/tags/?tag=Virtualization).
-
-
-
-Editing Notes:
-
-* Timeline (first release):
-
-Cros-vm: September 2017?
-
-Firecracker: re:Invent 2018
-
-Rust-vmm: December 2018
-
-Cloud-hypervisor: May 2019
-
-* Credit people / and or companies for the contributions.
-* Mention QSD, cros-vm gpu work
-
-
-
-  * Dropped QSD since I did not find a nice way to integrate it and it helped little with the narrative.
-* Review abbreviations
-* cros-vm or CrosVM?
-
-  * crosvm!
