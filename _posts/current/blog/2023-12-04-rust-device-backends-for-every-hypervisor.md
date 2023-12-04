@@ -24,7 +24,7 @@ Virtio has standardized how paravirtualized guests talk with host devices. Inste
 
 {% include image.html path="/assets/images/content/virtio_.png" alt="Diagram that demonstrates the execution path of a virtio-backend device. By not trapping on a system bus level, some abstraction layers in both host and guest kernel become unnecessary." %}
 
-*With the guest kernel coordinating, virtio allows to avoid frequent and costly traps on low-level system level. Instead, a generic virtio driver can efficiently transfer buffers to the virtio backend.*
+Figure 1: With the guest kernel coordinating, virtio allows to avoid frequent and costly traps on low-level system level. Instead, a generic virtio driver can efficiently transfer buffers to the virtio backend.
 
 # The missing edge
 
@@ -60,7 +60,7 @@ This layered toolbox architecture helped us when [adding Xen support](https://gi
 
 {% include image.html path="/assets/images/content/rust-vmm.png" alt="A diagram that illustrates rust-vmm's layers of abstraction. vmm-sys-util and vm-memory serve as the lowest level building blocks. vm-virtio, vhost and vhost then become increasingly more abstract" %}
 
-*rust-vmm is organized into many crates that abstract individual aspects of virtualization. Of particular interest for us are vm-memory (abstraction of mmap’d guest memory), virtio-queue (tools for handling virtio descriptors) and vhost-user-backend (implementation of the vhost-user protocol). While the number of crates may be overwhelming at start, it allows you to pick and choose the tools needed for the particular task.*
+Figure 2: rust-vmm is organized into many crates that abstract individual aspects of virtualization. Of particular interest for us are vm-memory (abstraction of mmap’d guest memory), virtio-queue (tools for handling virtio descriptors) and vhost-user-backend (implementation of the vhost-user protocol). While the number of crates may be overwhelming at start, it allows you to pick and choose the tools needed for the particular task.
 
 Overall, rust-vmm is maturing into a versatile and highly reusable ecosystem. The flexibility makes it a great choice to demonstrate new virtualization technologies and the rigorously tested Rust code base provides confidence in code and changes.
 
