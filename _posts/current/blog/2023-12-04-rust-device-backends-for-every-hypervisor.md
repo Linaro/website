@@ -22,9 +22,11 @@ As part of project [Orko](https://linaro.atlassian.net/wiki/spaces/ORKO/overview
 
 Virtio has standardized how paravirtualized guests talk with host devices. Instead of going down the stack to the very bottom where a device access is trapped and a physical device is faked, we switch at a higher level. Instead of trying to emulate a very specific piece of hardware, virtio provides a protocol for each type of device. The guest can then efficiently issue requests to a device without caring about the details of the backend implementation. This removes the need for hypervisor-specific drivers in the guest. Efficient shared-memory structures also reduce the number of context switches to the hypervisor. Overall this allows virtio to simplify both the guest and the hypervisor side while also providing great performance.
 
+Figure 1
+
 {% include image.html path="/assets/images/content/virtio_.png" alt="Diagram that demonstrates the execution path of a virtio-backend device. By not trapping on a system bus level, some abstraction layers in both host and guest kernel become unnecessary." %}
 
-Figure 1: With the guest kernel coordinating, virtio allows to avoid frequent and costly traps on low-level system level. Instead, a generic virtio driver can efficiently transfer buffers to the virtio backend.
+With the guest kernel coordinating, virtio allows to avoid frequent and costly traps on low-level system level. Instead, a generic virtio driver can efficiently transfer buffers to the virtio backend.
 
 # The missing edge
 
@@ -57,6 +59,8 @@ As of today, that repository has daemons for GPIO, I2C, random number generators
 Outside of the rust-vmm ecosystem, crosvm also comes with a few additional virtio backends. However, these backends are built into the KVM-backed crosvm hypervisor and cannot easily be used in other setups. While some rust-vmm components originated in crosvm, rust-vmm exports them as reusable components. This allows hypervisors and vhost-user daemons to use the same building blocks without needing to reinvent the wheel.
 
 This layered toolbox architecture helped us when [adding Xen support](https://github.com/rust-vmm/vm-memory/pull/241) by abstracting the required memory mapping logic away from the daemon. After adding Xen guest memory maps to vm-memory, Xen support for the entire rust-vmm ecosystem came “for free”. It also paves the way for more secure memory models where access is granted on page granularity instead of the entire guest memory. Eventually this will allow offloading device backends to other virtual machines that may be highly restricted in their access.
+
+Figure 2
 
 {% include image.html path="/assets/images/content/rust-vmm.png" alt="A diagram that illustrates rust-vmm's layers of abstraction. vmm-sys-util and vm-memory serve as the lowest level building blocks. vm-virtio, vhost and vhost then become increasingly more abstract" %}
 
