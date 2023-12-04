@@ -14,7 +14,7 @@ tags:
   - Virtio
   - Vhost
 category: blog
-author: linaro
+author: Erik.Schilling
 ---
 As part of project [Orko](https://linaro.atlassian.net/wiki/spaces/ORKO/overview) we have been busy improving the ecosystem of edge-computing. A fundamental part of that has been the infrastructure work to enable hypervisor agnostic virtio backends. Today we are giving a status update on our work in this area and discuss how the rust-vmm ecosystem helps us with our mission.
 
