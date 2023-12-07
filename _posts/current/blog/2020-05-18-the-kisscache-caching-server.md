@@ -12,7 +12,7 @@ category: blog
 author: remi.duraffort@linaro.org
 ---
 
-Linaro has recently developed and open-sourced [KissCache](https://git.lavasoftware.org/ivoire/kisscache/), a simple and stupid caching server built on the KISS principle: Keep It Simple Stupid.
+Linaro has recently developed and open-sourced [KissCache](https://gitlab.com/linaro/kisscache/), a simple and stupid caching server built on the KISS principle: Keep It Simple Stupid.
 
 Unlike classical proxies like [Squid](http://www.squid-cache.org/) that transparently intercept traffic, in order to use KissCache one must explicitly prefix the requested URL by the URL of the local KissCache instance. KissCache will download the requested resource in the background while streaming it to the client.
 
@@ -54,7 +54,7 @@ KissCache does not need to implement such an SSL hack since the client is direct
 To quickly create a local instance of KissCache do the following:
 
 ```
-git clone https://git.lavasoftware.org/ivoire/KissCache cd KissCache
+git clone https://gitlab.com/linaro/KissCache cd KissCache
 docker-compose build
 docker-compose up
 ```
@@ -97,4 +97,4 @@ KissCache access can be restricted to a given network. Only IPs from a specific 
 
 KissCache is licenced under the MIT licence.
 
-The source code is available on [GitLab](https://git.lavasoftware.org/ivoire/kisscache). Feel free to create an issue or to send a merge request.
+The source code is available on [GitLab](https://gitlab.com/linaro/kisscache). Feel free to create an issue or to send a merge request.
