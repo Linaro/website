@@ -117,8 +117,8 @@ flow:
             推荐的两种安装 Lava 的方法是通过 DEB 或 Docker：
 
 
-            - [推荐的 Debian 架构](https://docs.lavasoftware.org/lava/installing_on_debian.html#recommended-debian-architectures)
-            - [使用 Docker 管理 LAVA — LAVA 2021.05 文档](https://docs.lavasoftware.org/lava/docker-admin.html?#official-lava-software-docker-images)
+            - [推荐的 Debian 架构](https://lava.readthedocs.io/en/latest/admin/basic-tutorials/instance/install/#debian)
+            - [使用 Docker 管理 LAVA — LAVA 2023.10 文档](https://lava.readthedocs.io/en/latest/admin/basic-tutorials/instance/install/#docker)
 
             - [单击此处了解有关 LAVA 的更多信息。](https://validation.linaro.org/)
       - format: title

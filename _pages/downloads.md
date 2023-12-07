@@ -128,9 +128,9 @@ flow:
             The two recommended ways to install Lava is either via DEB or Docker:
 
 
-            - [Recommended Debian Architectures](https://docs.lavasoftware.org/lava/installing_on_debian.html#recommended-debian-architectures)
+            - [Recommended Debian Architectures](https://lava.readthedocs.io/en/latest/admin/basic-tutorials/instance/install/#debian)
 
-            - [Administering LAVA using Docker — LAVA documentation](https://docs.lavasoftware.org/lava/docker-admin.html?#official-lava-software-docker-images)
+            - [Administering LAVA using Docker — LAVA documentation](https://lava.readthedocs.io/en/latest/admin/basic-tutorials/instance/install/#docker)
 
             - [Click here to find out more about LAVA.](https://validation.linaro.org/)
       - format: title
