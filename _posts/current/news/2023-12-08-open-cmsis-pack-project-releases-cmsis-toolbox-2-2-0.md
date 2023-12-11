@@ -5,8 +5,9 @@ description: Latest news from the Linaro-hosted Open CMSIS Pack project which
   has released an enhanced version of the CMSIS-Toolbox suite of command-line
   tools for IoT and embedded software packaging.
 date: 2023-12-07 03:14:09 +00:00
-image: /assets/images/content/screenshot-2023-12-07-at-13.39.25.png
-strap_image: /assets/images/content/whatsapp-image-2023-06-21-at-14.25.03.jpeg
+# image: /assets/images/content/screenshot-2023-12-07-at-13.39.25.png
+# strap_image: /assets/images/content/whatsapp-image-2023-06-21-at-14.25.03.jpeg
+image: /assets/images/content/whatsapp-image-2023-06-21-at-14.25.03.jpeg
 tags:
   - RTOS
   - MCU
@@ -21,6 +22,7 @@ related_projects: []
 category: news
 author: bill.fletcher
 ---
+
 The Open CMSIS Pack project, which is hosted by Linaro, has released CMSIS-Toolbox Version 2.2.0. CMSIS-Toolbox provides a set of command-line tools to work with software packs in Open-CMSIS-Pack format.
 
 CMSIS-Toolbox Version 2.2.0 contains:
@@ -49,4 +51,3 @@ Open-CMSIS-Pack is a public project hosted by Linaro. Anyone is welcome to bring
 {% include image.html path="/assets/images/content/stm32-development-board.jpg" alt="Picture of an STM32 development board supported by STMicroelectronics tools that leverage Open CMSIS Pack " %}
 
 {% include image.html path="/assets/images/content/microcontroller-based-iot-hardware.jpg" alt="Picture of typical microcontroller-based IoT hardware where Open CMSIS Pack is applicable" %}
-
