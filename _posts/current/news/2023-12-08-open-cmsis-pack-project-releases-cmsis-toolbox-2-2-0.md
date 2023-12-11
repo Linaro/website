@@ -6,7 +6,7 @@ description: Latest news from the Linaro-hosted Open CMSIS Pack project which
   tools for IoT and embedded software packaging.
 date: 2023-12-07 03:14:09 +00:00
 image: /assets/images/content/screenshot-2023-12-07-at-13.39.25.png
-strap_image: /assets/images/content/screenshot-2023-12-07-at-13.38.51.png
+strap_image: /assets/images/content/whatsapp-image-2023-06-21-at-14.25.03.jpeg
 tags:
   - RTOS
   - MCU
