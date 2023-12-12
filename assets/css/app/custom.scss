@@ -676,7 +676,7 @@ body {
   .latest-featured-post picture .post_index_header_image {
     max-width: 100%;
     max-height: 100%;
-    object-fit: cover;
+    object-fit: inherit;
   }
   #feedback_response {
     div {
