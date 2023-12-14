@@ -6,7 +6,7 @@ description: >
   of device classes. Much of this was enabled with the help of the rust-vmm
   ecosystem. This blog post provides a status update and provides a short
   summary of the Rust-based virtualization ecosystem.
-date: 2023-12-04 05:01:39 +07:00
+date: 2023-12-14 12:42:53 +07:00
 image: /assets/images/content/Code_Image_Core_tech.jpg
 tags:
   - Virtualization
