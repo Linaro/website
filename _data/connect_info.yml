@@ -7,13 +7,13 @@ header_text_right_title: |
   Linaro connect will take place at Melia Avenida America, Madrid, Spain
 header_text_right: |
   Be part of this unique event!
-header_register_button_text: SAVE THE DATE
+header_register_button_text: REGISTER
 header_register_button: true
 tabs_row_background_image: /assets/images/content/Connect24_Background_2.jpg
 tabs:
   - title: Registration
-    text: REGISTRATION WILL BE OPENED SOON.
-    description: In the meantime you can save the dates by clicking on the button above.
+    text: >
+      [Register](https://www.eventbrite.co.uk/e/linaro-connect-2024-tickets-750604467167?aff=oddtdtcreator) for Linaro Connect and join hundreds of the world's learning Arm Open Source engineers.
   - title: Call for Proposals
     text: CALL FOR PROPOSALS.
     description:
