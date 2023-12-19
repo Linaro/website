@@ -15,31 +15,25 @@ tabs_row_background_image: /assets/images/content/Connect24_Background_2.jpg
 tabs:
   - title: Registration
     text: >-
-      <p><b></b></p>
+      **Get ready for the next Linaro Connect in Madrid, Spain.**
 
-      <p style="text-align: left;color: rgb(183, 114, 54);font-size: 19.200001px;"><b><strong style="color: rgb(152, 204, 51);"><span style="color: rgb(0, 0, 0);">Get ready for the next Linaro Connect in Madrid, Spain.</span></strong></b></p>
 
-      <p></p>
+      Tuesday 14 - Friday 17 May 2024 at the Melia Avenida America.
 
-      <p style="text-align: start;color: rgb(0, 0, 0);">Tuesday 14 - Friday 17 May 2024 &nbsp;at the Melia Avenida America.</p>
 
-      <p style="text-align: start;color: rgb(0, 0, 0);"><a href="https://www.eventbrite.co.uk/e/linaro-connect-2024-tickets-750604467167">Register today</a> and join the world&rsquo;s leading Arm Open Source ecosystem.</p>
+      Register today  and join the world’s leading Arm Open Source ecosystem .
 
-      <p style="text-align: start;color: rgb(0, 0, 0);">Get your ticket today at a discounted rate of &pound;750.00 (until end of February 2024).&nbsp;</p>
 
-      <p style="text-align: start;color: rgb(0, 0, 0);">Full ticket price would be then &pound; 1,100.00&nbsp;</p>
+      Get your ticket today at a discounted rate of $ 950.00 (until end of February 2024). 
 
-      <p style="text-align: start;color: rgb(0, 0, 0);">Speakers that get their talks accepted will access the event with a complimentary speaker pass.</p>
+
+      Full ticket price would be then $ 1,350.00
+
+
+      Speakers that get their talks accepted will access the event with a complimentary speaker pass.
     description: In the meantime you can save the dates by clicking on the button above.
   - title: Call for Proposals
-    text: '<p><span style="font-style: normal; font-variant-caps: normal;
-      letter-spacing: normal; text-indent: 0px; text-transform: none;
-      white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px;
-      text-decoration: none; caret-color: rgb(183, 114, 54); color: rgb(0, 0,
-      0); font-family: Lato; font-size: 19.200001px; font-weight: 700;
-      text-align: left; background-color: rgb(255, 255, 255); float: none;
-      display: inline !important;">Call for Proposals will open on January
-      2024.</span></p>'
+    text: "**Call for Proposals will open on January 2024.**"
     description:
       - Our call for proposals (CFP) is just around the corner. This is your
         chance to share your insights, experiences and innovations with the
