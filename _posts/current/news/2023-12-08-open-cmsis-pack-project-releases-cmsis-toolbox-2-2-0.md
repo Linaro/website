@@ -7,8 +7,8 @@ description: Latest news from the Linaro-hosted Open CMSIS Pack project which
 date: 2023-12-07 03:14:09 +00:00
 image: /assets/images/content/screenshot-2023-12-07-at-13.38.51.png
 strap_image: /assets/images/content/whatsapp-image-2023-06-21-at-14.25.03.jpeg
-# image: /assets/images/content/whatsapp-image-2023-06-21-at-14.25.03.jpeg
 tags:
+  - CMSIS
   - RTOS
   - MCU
   - microcontroller
@@ -22,8 +22,9 @@ related_projects: []
 category: news
 author: bill.fletcher
 ---
-
 The Open CMSIS Pack project, which is hosted by Linaro, has released CMSIS-Toolbox Version 2.2.0. CMSIS-Toolbox provides a set of command-line tools to work with software packs in Open-CMSIS-Pack format.
+
+CMSIS-Toolbox 2.2.0 adds [generator integration](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/build-operation.md#generator-integration), extends [translation controls](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/YML-Input-Format.md#translation-control), adds [context set](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/build-overview.md#working-with-context-set), adds [pack locking](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/YML-CBuild-Format.md#pack-locking), and improves [linker script management](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/build-overview.md#linker-script-management). Refer to [release information](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/releases/tag/2.2.0) for more details.
 
 CMSIS-Toolbox Version 2.2.0 contains:
 
