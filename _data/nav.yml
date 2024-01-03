@@ -9,8 +9,10 @@ brand:
 pages:
   - title: Working Groups
     options:
-      - text: Working Groups
+      - text: Projects
         options:
+          - text: Big Top
+            url: /big-top/
           - text: Working Groups
             url: /working-groups/
           - text: Projects
