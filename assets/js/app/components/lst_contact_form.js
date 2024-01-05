@@ -1,7 +1,7 @@
 $(document).ready(function () {
   // Check form exists and setup onsubmit handler
-  if ($("#lts_contact_form").length > 0) {
-    $("#lts_contact_form").on("submit", function (e) {
+  if ($("#submitButtonLtsForm").length > 0) {
+    $("#submitButtonLtsForm").on("submit", function (e) {
       e.preventDefault();
 
       // Check that the form has values for the required fields
@@ -20,10 +20,10 @@ $(document).ready(function () {
       }
 
       if (message !== "") {
-        $("#lts_contact_form").addClass("was-validated");
+        $("#submitButtonLtsForm").addClass("was-validated");
       } else {
         $("#feedback_error").html("");
-        var data = new FormData($("#lts_contact_form")[0]);
+        var data = new FormData($("#submitButtonLtsForm")[0]);
         var formData = [...data];
         var formDataPayloadBody = {};
         for (var index in formData) {
