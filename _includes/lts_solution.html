@@ -1,0 +1,101 @@
+<div class="card-body">
+  <div class="row align-items-center">
+    <div class="d-flex flex-column text-center mb-4 mb-md-0">
+      <p style="font-size: 42px; font-weight: 700">
+        Linaro's LTS solution is the foundation for your secure and supported
+        boot-to-kernel ecosystem.
+      </p>
+      <div class="d-flex flex-row flex-wrap justify-content-center">
+        <div class="feature-column">
+          <img
+            src="/assets/images/content/Huge_Expertise.svg"
+            class="feature-img"
+            alt="Huge Expertise photo"
+          />
+          <p style="font-weight: 700">Huge Expertise</p>
+        </div>
+
+        <div class="feature-column">
+          <img
+            src="/assets/images/content/Proven_Quality.svg"
+            class="feature-img"
+            alt="Proven Quality photo"
+          />
+          <p style="font-weight: 700">Proven Quality</p>
+        </div>
+
+        <div class="feature-column">
+          <img
+            src="/assets/images/content/Tailored_LTS.svg"
+            class="feature-img"
+            alt="Tailored LTS photo"
+          />
+          <p style="font-weight: 700">Tailored LTS</p>
+        </div>
+
+        <div class="feature-column">
+          <img
+            src="/assets/images/content/Customization.svg"
+            class="feature-img"
+            alt="Customization photo"
+          />
+          <p style="font-weight: 700">Customization</p>
+        </div>
+
+        <div class="feature-column">
+          <img
+            src="/assets/images/content/Collaboration.svg"
+            class="feature-img"
+            alt="Collaboration photo"
+          />
+          <p style="font-weight: 700">Collaboration</p>
+        </div>
+      </div>
+      <button
+        id="contactButton"
+        style="
+          background-color: #99cc33;
+          border-radius: 90px;
+          color: white;
+          border: none;
+          text-align: center;
+          padding: 12px 28px;
+          display: inline-block;
+          margin: 4px 2px;
+          width: 207px;
+          font-weight: 700;
+          justify-content: center;
+        "
+        class="mx-auto mt-4"
+        onclick="smoothScrollTo('lts_contact_form')"
+      >
+        Contact Us
+      </button>
+    </div>
+  </div>
+</div>
+<style>
+  .feature-column {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .feature-img {
+    width: 212px;
+
+    height: 176px;
+    margin-bottom: 10px;
+  }
+</style>
+<script>
+  function smoothScrollTo(targetId) {
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }
+</script>

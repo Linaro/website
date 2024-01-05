@@ -31,6 +31,7 @@
             width: 207px;
             font-weight: 700;
           "
+          onclick="smoothScrollTo('bigtop_contact_form')"
         >
           Contact Us
         </button>
@@ -46,3 +47,15 @@
     }
   }
 </style>
+<script>
+  function smoothScrollTo(targetId) {
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }
+</script>

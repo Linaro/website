@@ -13,6 +13,8 @@ pages:
         options:
           - text: Big Top
             url: /big-top/
+          - text: LTS
+            url: /lts/
           - text: Working Groups
             url: /working-groups/
           - text: Projects
