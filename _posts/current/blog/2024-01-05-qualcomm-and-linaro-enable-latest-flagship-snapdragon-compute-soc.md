@@ -1,12 +1,21 @@
 ---
 layout: post
 title: Qualcomm and Linaro Enable Latest Flagship Snapdragon Compute SoC
-description: Description TBA
+description: >
+  Running fully fledged Debian desktop (including GPU rendering) with patches on
+  top of linux-next on the X Elite (X1E80100) platform even before it has been
+  announced
 date: 2024-01-05 06:10:33 +07:00
 image: /assets/images/content/Auto_IoT_Edge_banner_pic.jpg
 tags:
   - Qualcomm
+  - X1e80100
+  - Xelite
+  - Debian
+  - Fedora
   - Snapdragon
+  - Arm64
+  - Arm64laptops
 category: blog
 author: linaro
 ---
@@ -49,16 +58,13 @@ Linaro provides [a step-by-step guide](https://git.codelinaro.org/linaro/qcomlt/
 
 The installer also brings GRUB, which provides dual boot support out-of-the-box and also allows chainloading other EFI applications, including the Fastboot EFI app. Booting via fastboot protocol helps a lot when it comes to rapid kernel development and testing because it avoids the need to build the deb package and install it manually. Instead, you can boot the kernel image with the devicetree blob and the initramfs (including the modules) provided via a boot image (similar to other mobile platforms).
 
-![](/assets/images/content/debian-running-.png "Debian running")
+{% include image.html path="/assets/images/content/debian-running-.png" alt="Debian running on top of latest linux-next, with GPU rendering, on Snapdragon X Elite (X1E80100) Compute Reference Device" %}
 
-\
-*Debian running on top of latest linux-next, with GPU rendering, on Snapdragon X Elite (X1E80100) Compute Reference Device*
+
 
 # What’s next
 
 The upstreaming effort will continue in the coming months and will include more boards/platforms/features based on X1E80100. The engineers from both Qualcomm and Linaro will continue to work closely with upstream maintainers to get all support needed by the X1E80100 accepted upstream. Work is underway to enable audio and camera support as well; these features are planned for inclusion in the Linux v6.8 kernel.
-
-
 
 # Want to learn more?
 
