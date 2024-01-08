@@ -5,8 +5,8 @@ description: >
   actively being worked on by Linaro, its member partners, & open source
   community.
 permalink: /lts/
-layout: flow
 js-package: lts
+layout: flow
 jumbotron:
   class: about_header text-center
   title: Enhance the longevity of your Linux-based device.

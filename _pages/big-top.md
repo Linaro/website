@@ -5,10 +5,6 @@ description: >
   actively being worked on by Linaro, its member partners, & open source
   community.
 permalink: /big-top/
-keywords:
-  - arm open source project
-  - software
-  - open-source
 js-package: bigtop
 css_bundle: projects
 layout: flow
