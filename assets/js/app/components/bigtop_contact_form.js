@@ -1,34 +1,37 @@
 $(document).ready(function () {
   // Check form exists and setup onsubmit handler
-  if ($("#submitButtonBigtopForm").length > 0) {
-    $("#submitButtonBigtopForm").on("submit", function (e) {
+  if ($("#bigtop_contact_form_modal").length > 0) {
+    bigtop_contact_form.onsubmit = (e) => {
       e.preventDefault();
 
       // Check that the form has values for the required fields
       var message = "";
-      if ($("#customfield_13155").val() === "") {
+      if (customfield_13155.value === "") {
         message = message + "You must provide a first name.<br>";
       }
-      if ($("#customfield_13156").val() === "") {
+      if (customfield_13156.value === "") {
         message = message + "You must provide a last name.<br>";
       }
-      if ($("#email").val() === "") {
+      if (email.value === "") {
         message = message + "You must provide an email address.<br>";
       }
-      if ($("#customfield_13368").val() === "") {
+      if (customfield_13368.value === "") {
         message = message + "You must provide a Company name.<br>";
       }
 
       if (message !== "") {
-        $("#submitButtonBigtopForm").addClass("was-validated");
+        $("#bigtop_contact_form").addClass("was-validated");
       } else {
-        $("#feedback_error").html("");
-        var data = new FormData($("#submitButtonBigtopForm")[0]);
+        feedback_error.innerHTML = "";
+        var data = new FormData(bigtop_contact_form);
+        console.log("data", data);
         var formData = [...data];
         var formDataPayloadBody = {};
         for (var index in formData) {
           formDataPayloadBody[formData[index][0]] = formData[index][1];
         }
+        console.log(formData);
+        console.log(formDataPayloadBody);
 
         // Send the POST request to your form submission endpoint
         fetch(
@@ -44,22 +47,19 @@ $(document).ready(function () {
           .then((response) => response.json())
           .then((result) => {
             console.log(result);
-            $("#bigtop_contact_form").hide();
-            $("#feedback_response").html(result.message);
-          })
-          .catch((error) => console.error("Error:", error));
+            bigtop_contact_form.style.display = "none";
+            feedback_response.innerHTML = result.message;
+          });
       }
+    };
+  }
+  // Contact Form Button Click handler
+  if ($(".submitButtonBigtopForm").length > 0) {
+    $(".submitButtonBigtopForm").on("click", () => {
+      $("#bigtop_contact_form_modal").modal("toggle");
     });
   }
-
-  // Additional code for handling the contact form button click
-  if ($(".bigtop_contact_form_btn").length > 0) {
-    $(".bigtop_contact_form_btn").on("click", () => {
-      $("#bigtop_contact_form").modal("toggle");
-    });
-  }
-
-  // If the other field exists
+  // If the other field exsits
   // If clicked then toggle the disabled prop.
   if ($("#customfield_13373").length > 0) {
     $("#other").on("click", function () {
