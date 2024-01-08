@@ -17,7 +17,7 @@ tags:
   - Arm64
   - Arm64laptops
 category: blog
-author: linaro
+author: Abel.vesa
 ---
 # Running fully fledged Debian desktop (including GPU rendering) with patches on top of linux-next on the X Elite (X1E80100) platform even before it has been announced
 
