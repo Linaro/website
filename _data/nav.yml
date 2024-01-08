@@ -7,18 +7,18 @@ brand:
   path: /assets/images/Linaro-Logo.svg
   alt: Linaro logo
 pages:
-  - title: Working Groups
+  - title: Projects
     options:
-      - text: Projects
+      - text: Working Groups
         options:
-          - text: Big Top
-            url: /big-top/
-          - text: LTS
-            url: /lts/
           - text: Working Groups
             url: /working-groups/
           - text: Projects
             url: /projects/
+      - text: Big Top
+        url: /big-top/
+      - text: LTS
+        url: /lts/
       - text: Automotive, IoT & Edge Devices
         url: /automotive-iot-and-edge-devices/
       - text: Android Ecosystem
