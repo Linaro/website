@@ -9,7 +9,7 @@ keywords:
   - arm open source project
   - software
   - open-source
-js-package: projects
+js-package: bigtop
 css_bundle: projects
 layout: flow
 jumbotron:

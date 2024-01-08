@@ -6,6 +6,7 @@ description: >
   community.
 permalink: /lts/
 layout: flow
+js-package: lts
 jumbotron:
   class: about_header text-center
   title: Enhance the longevity of your Linux-based device.
