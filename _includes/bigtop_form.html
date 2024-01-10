@@ -1,13 +1,13 @@
 <div
   style="background-color: #9ecc33"
-  class="rounded p-3 membership_form_container"
+  class="rounded p-3 membership_form_container mt-3 mb-3"
   id="bigtop_contact_form_modal"
 >
 <div class="translate-middle ">
-  <p class="text-black" style="font-size: 30px;font-weight: 700;">
+  <h1 class="text-black" style="font-size: 30px;font-weight: 700;">
     Contact us to learn more about how our consulting services can empower your
     Big Data projects with Apache Bigtop.
-  </p>
+  </h1>
   <div id="feedback_response"></div>
 
   <form id="bigtop_contact_form" class="needs-validation" novalidate>
@@ -38,7 +38,7 @@
       <input
         type="email"
         name="email"
-        placeholder="Email"
+        placeholder="Email address"
         id="email"
         class="form-control"
         required
@@ -49,13 +49,19 @@
       <input
         type="text"
         name="customfield_13368"
-        placeholder="Company"
+        placeholder="Company name"
         id="customfield_13368"
         class="form-control"
         required
       />
       <div class="invalid-feedback">Please provide a valid company name.</div>
     </div>
+          <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="customfield_checkbox" name="customfield_checkbox" required>
+          <label class="form-check-label" for="flexCheckDefault">
+     <div class="d-flex flex-row"><p>I’ve read and agreed to Linaro’s <a class="icon-link-hover" href="https://www.linaro.org/legal#privacy-policy2">Privacy Policy</a></p></div>
+  </label>
+</div>
 </div>
     <button
       id="submitButtonBigtopForm"
@@ -77,6 +83,11 @@
     </button>
     <div id="feedback_error"></div>
   </form>
-
- 
 </div>
+<style>
+  @media (max-width: 991px) {
+    h1 {
+      font-size: 28px !important;
+    }
+  }
+</style>

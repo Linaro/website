@@ -3,10 +3,10 @@
     <div
       class="col-12 col-md-6 order-md-1 d-flex flex-column justify-content-center p-2"
     >
-      <div class="d-flex flex-column text-center">
-        <p style="font-size: 36px; font-weight: 700">
+      <div class="d-flex flex-column text-left">
+        <h1 style="font-size: 36px; font-weight: 700">
           Linaro Long Term Support helps you:
-        </p>
+        </h1>
 
         <div class="d-flex flex-row align-items-start mb-3">
           <span
@@ -18,7 +18,7 @@
               width: 70px;
               height: 42px;
               margin-right: 10px;
-              align-self: flex-start; /* Align the checkmark to the start */
+              align-self: flex-start;
             "
             >&#10003;</span
           >
@@ -53,14 +53,16 @@
 
     <div
       style="box-shadow: 10px 10px 5px rgb(216, 218, 219)"
-      class="card col-12 col-md-6 order-md-2 d-flex align-items-center justify-content-center bg-white p-2"
+      class="card col-12 col-md-6 order-md-2 d-flex align-items-center justify-content-center bg-white p-4"
     >
       <div class="d-flex flex-column text-center">
-        <p style="font-weight: 700; font-size: 36px; text-align: left">
+        <h1
+          style="font-weight: 700; font-size: 36px; text-align: left"
+          class="mb-md-4 mb-0 pl-2"
+        >
           We offer LTS versions of key firmware projects, including:
-        </p>
-
-        <div class="d-flex flex-row align-items-center mb-3">
+        </h1>
+        <div class="d-flex flex-column flex-md-row justify-content-center">
           <div style="margin: 21px">
             <img
               class="logo-img"
@@ -69,13 +71,7 @@
               style="width: 62px; height: 62px"
             />
           </div>
-          <p style="font-size: 24px; text-align: left">
-            <span style="font-weight: 700">OP-TEE: </span>Linaro maintains
-            OP-TEE and is the trusted partner for your secure OS needs
-          </p>
-        </div>
 
-        <div class="d-flex flex-row align-items-center mb-3">
           <div>
             <img
               class="logo-img"
@@ -84,13 +80,7 @@
               style="width: 103px; height: 103px"
             />
           </div>
-          <p style="font-size: 24px; text-align: left">
-            <span style="font-weight: 700">TF-A: </span>Linaro hosts and runs
-            all CI for Trusted Firmware-A (TF-A)
-          </p>
-        </div>
 
-        <div class="d-flex flex-row align-items-center">
           <div style="margin: 21px">
             <img
               class="logo-img"
@@ -99,10 +89,6 @@
               style="width: 62px; height: 62px"
             />
           </div>
-          <p style="font-size: 24px; text-align: left">
-            <span style="font-weight: 700">U-Boot: </span>Linaro supports an LTS
-            version of U-Boot
-          </p>
         </div>
       </div>
     </div>
@@ -123,5 +109,10 @@
     /* width: 80px;
     height: 80px; */
     margin-right: 10px;
+  }
+  @media (max-width: 991px) {
+    h1 {
+      font-size: 28px !important;
+    }
   }
 </style>

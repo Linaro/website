@@ -11,9 +11,9 @@
       class="col-12 col-md-8 order-md-2 d-flex flex-column justify-content-center"
     >
       <div>
-        <h2 style="font-size: 36px; font-weight: 700">
+        <h1 style="font-size: 36px; font-weight: 700">
           Explore the World of <span style="color: #cc0033">Apache Bigtop</span>
-        </h2>
+        </h1>
         <p style="font-size: 24px">
           It’s not just a Big Data distribution; it’s the key to unlocking your
           data-driven future from initial planning to successful deployment.
@@ -46,6 +46,11 @@
       justify-content: center !important;
     }
   }
+  @media (max-width: 991px) {
+    h1 {
+      font-size: 28px !important;
+    }
+  }
 </style>
 <script>
   function smoothScrollTo(targetId) {
@@ -55,6 +60,7 @@
       targetElement.scrollIntoView({
         behavior: "smooth",
         block: "start",
+        inline: "nearest",
       });
     }
   }

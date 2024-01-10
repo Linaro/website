@@ -1,10 +1,10 @@
 <div class="card-body">
   <div class="row align-items-center">
     <div class="d-flex flex-column text-center mb-4 mb-md-0">
-      <p style="font-size: 42px; font-weight: 700">
+      <h1 style="font-size: 42px; font-weight: 700">
         Linaro's LTS solution is the foundation for your secure and supported
         boot-to-kernel ecosystem.
-      </p>
+      </h1>
       <div class="d-flex flex-row flex-wrap justify-content-center">
         <div class="feature-column">
           <img
@@ -81,10 +81,15 @@
   }
 
   .feature-img {
-    width: 212px;
+    width: 200px;
 
-    height: 176px;
+    height: 134px;
     margin-bottom: 10px;
+  }
+  @media (max-width: 991px) {
+    h1 {
+      font-size: 28px !important;
+    }
   }
 </style>
 <script>
@@ -95,6 +100,7 @@
       targetElement.scrollIntoView({
         behavior: "smooth",
         block: "start",
+        inline: "nearest",
       });
     }
   }

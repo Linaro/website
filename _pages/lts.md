@@ -17,6 +17,7 @@ flow:
     sections:
       - format: custom_include
         source: lts_solution.html
+        class: font-weight-bold
   - row: container_row
     style: bg-light
     sections:

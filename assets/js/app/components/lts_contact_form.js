@@ -15,6 +15,9 @@ $(document).ready(function () {
       if (email.value === "") {
         message = message + "You must provide an email address.<br>";
       }
+      if (!customfield_checkbox.checked) {
+        message = message + "You must accept Linaro’s policy.<br>";
+      }
       if (customfield_13368.value === "") {
         message = message + "You must provide a Company name.<br>";
       }
@@ -48,6 +51,7 @@ $(document).ready(function () {
           .then((result) => {
             console.log(result);
             lts_contact_form.style.display = "none";
+            submitButtonLtsForm.style.display = "none";
             feedback_response.innerHTML = result.message;
           });
       }
