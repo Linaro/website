@@ -8,17 +8,19 @@
           Linaro Long Term Support helps you:
         </h1>
 
-        <div class="d-flex flex-row align-items-start mb-3">
+        <div class="d-flex flex-row mb-3">
           <span
             style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
               border: 5px solid #99cc33;
               border-radius: 50%;
-              font-weight: 700;
+              font-weight: bolder;
               padding: 3px;
-              width: 70px;
-              height: 42px;
+              width: 50px;
+              height: 33px;
               margin-right: 10px;
-              align-self: flex-start;
             "
             >&#10003;</span
           >
@@ -50,25 +52,23 @@
         </div>
       </div>
     </div>
-
     <div
-      style="box-shadow: 10px 10px 5px rgb(216, 218, 219)"
-      class="card col-12 col-md-6 order-md-2 d-flex align-items-center justify-content-center bg-white p-4"
+      class="col-12 col-md-6 order-md-1 d-flex flex-column justify-content-center p-2 bg-white"
     >
-      <div class="d-flex flex-column text-center">
-        <h1
-          style="font-weight: 700; font-size: 36px; text-align: left"
-          class="mb-md-4 mb-0 pl-2"
-        >
+      <div class="d-flex flex-column text-left">
+        <h1 style="font-size: 36px; font-weight: 700" class="ml-md-4">
           We offer LTS versions of key firmware projects, including:
         </h1>
-        <div class="d-flex flex-column flex-md-row justify-content-center">
+
+        <div
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center add_margin"
+        >
           <div style="margin: 21px">
             <img
               class="logo-img"
               src="/assets/images/content/OPTEE_logo.svg"
               alt="OP-TEE Logo"
-              style="width: 62px; height: 62px"
+              style="width: 72px; height: 72px"
             />
           </div>
 
@@ -77,7 +77,7 @@
               class="logo-img"
               src="/assets/images/content/TF_logo.svg"
               alt="TF-A Logo"
-              style="width: 103px; height: 103px"
+              style="width: 124px; height: 111px"
             />
           </div>
 
@@ -86,33 +86,46 @@
               class="logo-img"
               src="/assets/images/content/U-Boot_Logo.png"
               alt="U-Boot Logo"
-              style="width: 62px; height: 62px"
+              style="width: 62px; height: 70px"
             />
           </div>
         </div>
+        <div></div>
+        <div></div>
       </div>
     </div>
   </div>
 </div>
 <style>
   .check-mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 5px solid #99cc33;
     border-radius: 50%;
     font-weight: 700;
     padding: 3px;
-    width: 42px;
-    height: 42px;
+    width: 30px;
+    height: 33px;
     margin-right: 10px;
   }
 
   .logo-img {
-    /* width: 80px;
-    height: 80px; */
     margin-right: 10px;
   }
   @media (max-width: 991px) {
     h1 {
       font-size: 28px !important;
+    }
+  }
+  .add_margin {
+    margin-bottom: 13%;
+    margin-top: 13%;
+  }
+  @media (max-width: 767px) {
+    .add_margin {
+      margin-bottom: 0 !important;
+      margin-top: 0 !important;
     }
   }
 </style>

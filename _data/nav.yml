@@ -15,14 +15,10 @@ pages:
             url: /working-groups/
           - text: Projects
             url: /projects/
-      - text: LTS
-        options:
-          - text: Linux Long Term Support (LTS)
-            url: /lts/
-      - text: Big Top
-        options:
-          - text: Apache Big Top
-            url: /big-top/
+      - text: Linux Long Term Support (LTS)
+        url: /lts/
+      - text: Apache Big Top
+        url: /big-top/
       - text: Automotive, IoT & Edge Devices
         url: /automotive-iot-and-edge-devices/
       - text: Android Ecosystem
