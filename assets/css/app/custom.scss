@@ -33,6 +33,11 @@ body {
   .bg-black {
     background-color: #000 !important;
   }
+  .custome-back {
+    background-image: url("/assets/images/content/abstract_background_sphere_tall.jpg");
+    background-position: bottom;
+    background-size: cover;
+  }
   .jumbotron {
     img.header_background_image {
       filter: brightness(0.6);
@@ -817,6 +822,9 @@ body {
   }
   .bg-blue {
     background-color: #0083b0 !important;
+  }
+  .bg-black {
+    background-color: #000000 !important;
   }
   .bg-light-gray {
     background-color: #d1d1d1 !important;

@@ -7,7 +7,7 @@ brand:
   path: /assets/images/Linaro-Logo.svg
   alt: Linaro logo
 pages:
-  - title: Working Groups
+  - title: Projects
     options:
       - text: Working Groups
         options:
@@ -15,6 +15,10 @@ pages:
             url: /working-groups/
           - text: Projects
             url: /projects/
+      - text: Linux Long Term Support (LTS)
+        url: /lts/
+      - text: Apache Big Top
+        url: /big-top/
       - text: Automotive, IoT & Edge Devices
         url: /automotive-iot-and-edge-devices/
       - text: Android Ecosystem
