@@ -10,7 +10,7 @@ image: /assets/images/content/Auto_IoT_Edge_banner_pic.jpg
 tags:
   - Qualcomm
   - X1e80100
-  - Xelite
+  - X Elite
   - Debian
   - Snapdragon
   - Arm64
