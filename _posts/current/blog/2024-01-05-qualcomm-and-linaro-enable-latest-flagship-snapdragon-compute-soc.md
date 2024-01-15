@@ -20,7 +20,7 @@ author: Abel.vesa
 ---
 # Running fully fledged Debian desktop (including GPU rendering) with patches on top of linux-next on the X Elite (X1E80100) platform even before it has been announced
 
-For many years the Qualcomm Landing Team at Linaro has joined forces with Qualcomm to help deliver launch-day support for new chips. This year we have been developing a kernel that supports the recently-announced Snapdragon X Elite. In previous years we have been able to provide basic boot-to-shell support on launch day. This year not only did we have these ready to roll but we already had full Debian desktop working, complete with display, GPU and WiFi.
+For many years the Qualcomm Landing Team at Linaro has joined forces with Qualcomm to help deliver launch-day support for new chips. Last couple of months we have been developing a kernel that supports the recently-announced Snapdragon X Elite. In previous years we have been able to provide basic boot-to-shell support on launch day. This year not only did we have these ready to roll but we already had full Debian desktop working, complete with display, GPU and WiFi.
 
 The collaboration between Qualcomm and Linaro engineers, harnessed together, has pushed  the boundaries of initial upstream support beyond just basic boot-to-shell. The patches will be driven all the way into the mainline in the coming months. In the meantime, a public [tree](https://git.codelinaro.org/linaro/qcomlt/demos/linux/-/tree/x1e80100) based on the most recent linux-next is available. This builds upon the years-long efforts of Linaro engineers making upstream bring-up easier for each new Qualcomm platform.
 
@@ -58,8 +58,6 @@ Linaro provides [a step-by-step guide](https://git.codelinaro.org/linaro/qcomlt/
 The installer also brings GRUB, which provides dual boot support out-of-the-box and also allows chainloading other EFI applications, including the Fastboot EFI app. Booting via fastboot protocol helps a lot when it comes to rapid kernel development and testing because it avoids the need to build the deb package and install it manually. Instead, you can boot the kernel image with the devicetree blob and the initramfs (including the modules) provided via a boot image (similar to other mobile platforms).
 
 {% include image.html path="/assets/images/content/debian-running-.png" alt="Debian running on top of latest linux-next, with GPU rendering, on Snapdragon X Elite (X1E80100) Compute Reference Device" %}
-
-
 
 # What’s next
 
