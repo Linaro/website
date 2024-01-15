@@ -14,7 +14,6 @@ tags:
   - SystemReady
   - UEFI
   - Security
-  - Bootloaders
 category: blog
 author: ilias.apalodimas@linaro.org
 ---

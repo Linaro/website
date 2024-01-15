@@ -13,7 +13,6 @@ tags:
   - U-Boot
   - SystemReady
   - UEFI
-  - Bootloaders
   - UEFI_HTTP
 category: blog
 author: MaximUvarov

@@ -10,7 +10,7 @@ tags:
   - Qualcomm
   - Snapdragon
   - Linux Kernel
-  - arm64
+  - Arm
 category: blog
 author: vinod.koul
 ---

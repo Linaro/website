@@ -10,7 +10,7 @@ tags:
   - open source
   - Qualcomm
   - Lenovo
-  - Arm64
+  - Arm
 category: blog
 author: linaro
 ---

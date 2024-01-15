@@ -15,7 +15,6 @@ tags:
   - SystemReady_SIE
   - UEFI
   - Security
-  - Bootloaders
   - UEFI_SecureBoot
 category: blog
 author: ilias.apalodimas@linaro.org

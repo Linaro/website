@@ -6,7 +6,7 @@ description: In this article, David Long takes a detailed look at Kprobes Event
   Tracing on Armv8. Read about his findings here!
 image: /assets/images/content/40965990761_090a30658a_k.jpg
 tags:
-  - Arm64
+  - Arm
   - Kernel
 author: david.long
 slug: kprobes-event-tracing-armv8

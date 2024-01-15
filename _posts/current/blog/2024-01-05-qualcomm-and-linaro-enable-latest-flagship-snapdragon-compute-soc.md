@@ -14,7 +14,7 @@ tags:
   - Debian
   - Fedora
   - Snapdragon
-  - Arm64
+  - Arm
   - Arm64laptops
 category: blog
 author: Abel.vesa

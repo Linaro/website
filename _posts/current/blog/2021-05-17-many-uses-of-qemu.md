@@ -11,7 +11,6 @@ tags:
   - MTE
   - SVE
   - SVE2
-  - BTI
   - IoT
   - SBSA
   - open source
