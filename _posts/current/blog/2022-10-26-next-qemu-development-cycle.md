@@ -8,7 +8,6 @@ image: /assets/images/content/code-background_1.jpg
 tags:
   - QEMU
   - emulation
-  - CCA
   - Realms
   - RME
   - SBSA
