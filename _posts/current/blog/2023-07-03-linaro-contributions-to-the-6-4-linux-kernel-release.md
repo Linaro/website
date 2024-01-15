@@ -7,12 +7,11 @@ description: In this blog, we discuss the 6.4 kernel release, which was
 date: 2023-07-04 12:59:08 +01:00
 image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
-  - Linux kernel
-  - 6.4 kernel release
+  - Linux Kernel
+  - Kernel Release
   - open source
   - software
-  - arm
-  - linux
+  - Arm
 category: blog
 author: linaro
 ---

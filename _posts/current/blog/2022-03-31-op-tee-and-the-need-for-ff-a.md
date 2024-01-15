@@ -10,7 +10,7 @@ tags:
   - OP-TEE
   - Trustzone
   - FF-A
-  - Arm Firmware Framework for Arm A-Profile
+  - Arm
   - TEE
   - Trusted Execution Environment
   - Trusted Firmware

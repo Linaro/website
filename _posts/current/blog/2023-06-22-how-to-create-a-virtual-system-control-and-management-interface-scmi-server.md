@@ -8,7 +8,7 @@ description: This blog talks about the creation of a virtual SCMI server to fill
 date: 2023-06-22 03:31:47 +02:00
 image: /assets/images/content/Datacenter.jpg
 tags:
-  - Linux kernel
+  - Linux Kernel
 category: blog
 author: vincent.guittot
 ---

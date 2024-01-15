@@ -6,8 +6,8 @@ description: In this blog we look at Linaro's contributions to the Linux Kernel
 date: 2022-12-20 12:04:50 +00:00
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
-  - Linux kernel
-  - 6.1 kernel release
+  - Linux Kernel
+  - Kernel Release
   - LKFT
   - Qualcomm
   - Thermal Work

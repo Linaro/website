@@ -11,7 +11,6 @@ image: /assets/images/content/37319206961_0b863ab87d_k.jpg
 tags:
   - PELT
   - CPU
-  - Linux Scheduler
   - Linux Kernel
 category: blog
 author: vincent.guittot

@@ -7,8 +7,7 @@ description: In this article, David Rusling answers if Linaro a distribution
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
 tags:
   - Arm
-  - Kernel
-  - Linux
+  - Linux Kernel
   - Software
   - Tools
 author: david.rusling

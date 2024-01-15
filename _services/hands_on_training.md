@@ -7,7 +7,7 @@ permalink: /services/hands-on-training/
 service_id: 4
 keywords:
   - training
-  - Linux
+  - Linux Kernel
   - Arm
   - open source
   - onsite

@@ -8,7 +8,7 @@ permalink: /services/board-support-packages/
 service_id: 3
 keywords:
   - AOSP
-  - Linux
+  - Linux Kernel
   - OpenEmbedded
   - Yocto
   - Debian

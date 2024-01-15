@@ -19,7 +19,7 @@ tags:
   - Trusted Firmware
   - UEFI
   - CPU
-  - Android Ecosystem
+  - Android
   - Open Source
   - HPC
 category: blog

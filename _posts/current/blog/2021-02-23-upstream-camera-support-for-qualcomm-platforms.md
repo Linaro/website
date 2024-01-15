@@ -12,7 +12,7 @@ tags:
   - dragonboard 410c
   - Titan
   - libcamera
-  - linux kernel
+  - Linux Kernel
   - open source
 category: blog
 author: robert.foss

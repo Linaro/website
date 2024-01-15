@@ -6,8 +6,8 @@ description: "In this blog we talk about Linaro's contributions to the Linux
 date: 2022-06-01 10:22:01 +01:00
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
-  - linux kernel
-  - 5.18 release
+  - Linux Kernel
+  - Kernel Release
   - open source
   - upstreaming
 category: blog

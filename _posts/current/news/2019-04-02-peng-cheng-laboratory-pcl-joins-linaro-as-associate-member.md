@@ -12,8 +12,8 @@ tags:
 - Membership
 - Open Source
 - Arm
-- Linux
-- AI
+- Linux Kernel
+- Artificial Intelligence
 - Datacenter & Cloud
 image: /assets/images/blog/pcl-join-as-associate-member.jpg
 ---

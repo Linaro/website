@@ -15,8 +15,7 @@ tags:
   - Developer Cloud
   - LEG
   - Linaro
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Members
   - Open Source
 link: /news/linaro-announces-arm-based-developer-cloud-2/

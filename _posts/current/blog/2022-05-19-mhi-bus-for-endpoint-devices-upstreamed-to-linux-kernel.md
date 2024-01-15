@@ -11,7 +11,7 @@ tags:
   - Modem Host Interface
   - Qualcomm
   - Upstreaming
-  - Linux kernel
+  - Linux Kernel
 category: blog
 author: manivannan.sadhasivam
 ---

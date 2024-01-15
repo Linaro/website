@@ -12,8 +12,7 @@ slug: first-systems-software-company-acadine-joins-linaro-mobile-group
 date: 2015-10-29 13:03:01
 tags:
   - Linaro
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Members
   - Mobile Group
   - Open Source

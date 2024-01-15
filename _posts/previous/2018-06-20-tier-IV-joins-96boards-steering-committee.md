@@ -16,7 +16,7 @@ tags:
 - Rock960
 - HiKey960
 - Linaro
-- Linux
+- Linux Kernel
 - Open Source
 - Membership
 ---

@@ -21,8 +21,7 @@ tags:
   - Connect Events
   - Linaro
   - Linaro Connect
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Open Source
   - Software
   - Membership

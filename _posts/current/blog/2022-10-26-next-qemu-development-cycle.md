@@ -14,8 +14,8 @@ tags:
   - SBSA
   - open source
   - software
-  - arm
-  - linux
+  - Arm
+  - Linux Kernel
 category: blog
 author: alex.bennee
 ---

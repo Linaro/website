@@ -14,8 +14,7 @@ tags:
   - LEG
   - Linaro
   - Linaro Connect
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Membership
 author: linaro
 slug: linaro-announces-fujitsus-collaboration-accelerate-high-performance-computing-arm

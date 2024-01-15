@@ -13,11 +13,9 @@ tags:
   - Datacentre
   - Big Data
   - SoC
-  - Linux
   - Linux Kernel
-  - Android Ecosystem
+  - Android
   - Ledge
-  - Linus Torvalds
 category: blog
 author: david.rusling
 ---

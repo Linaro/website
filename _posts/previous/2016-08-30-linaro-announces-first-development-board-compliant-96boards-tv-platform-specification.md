@@ -8,8 +8,7 @@ image: /assets/images/content/40965990761_090a30658a_k.jpg
 tags:
   - 96Boards
   - Arm
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Open Source
 author: linaro
 slug: linaro-announces-first-development-board-compliant-96boards-tv-platform-specification

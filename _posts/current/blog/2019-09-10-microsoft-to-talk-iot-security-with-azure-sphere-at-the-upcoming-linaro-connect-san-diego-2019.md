@@ -6,7 +6,7 @@ date: '2019-09-10 09:22:35'
 image: /assets/images/content/microsoft-sphere-2.jpg
 tags:
 - Linaro Connect
-- Linux
+- Linux Kernel
 - Security
 - IoT and Embedded
 category: blog

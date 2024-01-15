@@ -16,10 +16,9 @@ tags:
 - LDCG
 - Cloud Kubernetes
 - Linaro Developer Cloud
-- Linux
+- Linux Kernel
 - Toolchain
-- Linux Kernel Functional Test
-- Kernel Validation Team
+- Kernel Development
 - Toolchain Working Group
 category: blog
 author: jon.burcham@linaro.org

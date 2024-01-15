@@ -7,11 +7,9 @@ date: 2021-03-11 10:19:36
 image: /assets/images/content/machine_intelligence_cover.jpg
 tags:
   - tensorflow
-  - ai
+  - Artificial Intelligence
   - machine learning
-  - mlperf
-  - eigen
-  - Aarch64
+  - AArch64
 related_projects:
   - AI
 category: blog

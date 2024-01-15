@@ -13,8 +13,7 @@ date: 2016-01-27 14:00:24
 tags:
   - LEG
   - Linaro
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Members
   - Open Source
   - Servers

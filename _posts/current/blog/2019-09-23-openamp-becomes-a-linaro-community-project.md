@@ -8,7 +8,7 @@ date: 2019-09-23 01:00:00
 image: /assets/images/content/openampproject-banner-updates.png
 tags:
   - Arm
-  - Linux
+  - Linux Kernel
   - Open Source
   - Collaborative Engineering
   - Linaro

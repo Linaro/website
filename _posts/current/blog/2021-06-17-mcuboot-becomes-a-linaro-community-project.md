@@ -9,7 +9,7 @@ tags:
   - MCUboot
   - Linaro Community Project
   - Security
-  - Linux
+  - Linux Kernel
   - Open Source
   - Software
 category: blog

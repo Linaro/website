@@ -8,7 +8,7 @@ image: /assets/images/content/tech_background_1.jpg
 tags:
   - Qemu
   - UEFI
-  - Linux
+  - Linux Kernel
   - Linaro
   - Arm
 category: blog

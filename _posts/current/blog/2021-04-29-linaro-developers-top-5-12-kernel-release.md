@@ -7,12 +7,11 @@ description: In this article, we discuss the 5.12 kernel release, which was
 date: 2021-04-29 01:02:09
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
-  - Linux kernel
-  - 5.12 kernel release
+  - Linux Kernel
+  - Kernel Release
   - open source
   - software
-  - arm
-  - linux
+  - Arm
 category: blog
 author: linaro
 ---

@@ -12,8 +12,7 @@ tags:
   - Connect
   - Linaro
   - Linaro Connect
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Networking
   - Open Source
 author: linaro

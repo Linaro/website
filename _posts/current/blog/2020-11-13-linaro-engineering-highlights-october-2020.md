@@ -8,7 +8,7 @@ image: /assets/images/content/iot_planet_under_2mb.jpg
 tags:
   - Linaro
   - Engineering highlights
-  - Linux
+  - Linux Kernel
 category: blog
 author: jon.burcham@linaro.org
 ---

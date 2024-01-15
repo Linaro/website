@@ -11,9 +11,8 @@ image: /assets/images/content/10-year-graphic-horizonal1.png
 tags:
   - Linaro
   - Arm
-  - AI
-  - Linux
-  - Kernel
+  - Artificial Intelligence
+  - Linux Kernel
   - LKFT
 category: blog
 author: jon.burcham@linaro.org

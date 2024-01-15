@@ -11,8 +11,7 @@ tags:
   - Connect
   - Linaro
   - Linaro Connect
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Open Source
 author: linaro
 slug: linaro-announces-marvell-founding-member-linaro-community-boards-group

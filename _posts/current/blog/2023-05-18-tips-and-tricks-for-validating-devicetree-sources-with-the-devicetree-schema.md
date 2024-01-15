@@ -11,7 +11,7 @@ tags:
   - DTS
   - Devicetree sources
   - Devicetree schema
-  - Linux kernel
+  - Linux Kernel
 category: blog
 author: Krzysztof_Kozlowski
 ---

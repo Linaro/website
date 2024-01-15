@@ -10,7 +10,7 @@ tags:
   - Qualcomm
   - open source software
   - upstream
-  - linux
+  - Linux Kernel
   - dragonboard 410c
   - Robotics RB5
   - Dragonboard 820c

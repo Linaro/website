@@ -11,7 +11,7 @@ date: 2023-07-06 10:48:17 +02:00
 image: /assets/images/content/96boards-specification-consumer-edition-v2.jpg
 tags:
   - Android
-  - Linux kernel
+  - Linux Kernel
   - Open Source
   - Qualcomm
 category: blog

@@ -15,8 +15,7 @@ slug: opencsd-operation-use-library
 date: 2016-07-29 21:57:01+00:00
 tags:
   - Linaro
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Open Source Software
 link: /blog/core-dump/opencsd-operation-use-library/
 category: blog

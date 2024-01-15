@@ -10,8 +10,7 @@ tags:
   - Connect Events
   - Linaro
   - Linaro Connect
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Open Source
 author: linaro
 slug: linaro-updates-schedule-list-keynote-speakers-linaro-connect-las-vegas-2016

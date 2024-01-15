@@ -12,7 +12,7 @@ tags:
   - Dragonboard410c
   - Debian
   - OpenEmbedded
-  - Linux
+  - Linux Kernel
   - Snapdragon
   - 96Boards
 category: blog

@@ -6,7 +6,7 @@ description: This blog talks about the Android 13 release and how it boots
 date: 2022-08-18 06:05:29 +01:00
 image: /assets/images/content/Client_Devices_banner_pic.jpg
 tags:
-  - Android13
+  - Android
   - Qualcomm RB3
   - Qualcomm RB5
   - Qualcomm Robotics Kit

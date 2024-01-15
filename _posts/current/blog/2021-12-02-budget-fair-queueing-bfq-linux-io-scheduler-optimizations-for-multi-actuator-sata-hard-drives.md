@@ -10,7 +10,7 @@ tags:
   - BFQ
   - I/OScheduler
   - Budget Fair Queueing
-  - Linux IO Optimizations
+  - Linux Kernel
   - Multi-Actuator SATA HardDrives
 related_projects:
   - PERF

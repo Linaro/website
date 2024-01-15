@@ -20,7 +20,7 @@ slug: linaro-and-microsoft-collaborate-on-secure-media-solutions-for-arm-based-s
 tags:
 - Arm
 - Linaro
-- Linux On Arm
+- Linux Kernel
 - Open Source
 title: Linaro and Microsoft collaborate on secure media solutions for Arm-based SoCs
 wordpress_id: 9236

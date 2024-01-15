@@ -15,7 +15,7 @@ tags:
 - Engineering Highlights
 - Linaro
 - Arm
-- Linux
+- Linux Kernel
 - OSPM
 - Power Management
 - VirtIO

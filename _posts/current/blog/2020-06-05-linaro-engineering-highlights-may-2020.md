@@ -12,7 +12,7 @@ tags:
   - Tuxpub
   - Ledge
   - Raspberry Pi
-  - AI
+  - Artificial Intelligence
 category: blog
 author: jon.burcham@linaro.org
 ---

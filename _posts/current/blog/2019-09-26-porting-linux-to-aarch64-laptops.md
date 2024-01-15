@@ -7,7 +7,7 @@ date: 2019-09-26 01:00:00
 image: /assets/images/content/porting-linux-featured-image.jpg
 tags:
   - Arm
-  - Linux
+  - Linux Kernel
   - Open Source
   - Collaborative Engineering
 category: blog

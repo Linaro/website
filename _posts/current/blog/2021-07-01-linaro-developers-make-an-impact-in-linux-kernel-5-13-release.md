@@ -7,8 +7,8 @@ description: "In this blog, we asked Linaro's kernel engineers who were featured
 date: 2021-07-01 02:23:22
 image: /assets/images/content/services_board.jpg
 tags:
-  - linux kernel
-  - 5.13 kernel
+  - Linux Kernel
+  - Kernel Release
   - open source
   - Linaro
 category: blog

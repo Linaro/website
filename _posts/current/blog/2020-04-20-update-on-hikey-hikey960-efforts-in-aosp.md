@@ -8,7 +8,7 @@ image: /assets/images/content/hikey-image1.png
 tags:
   - HiKey
   - HiKey960
-  - Android Ecosystem
+  - Android
 category: blog
 author: john.stultz
 ---

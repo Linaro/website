@@ -10,8 +10,7 @@ slug: linaro-announces-actions-technology-founding-member-linaro-community-board
 tags:
 - Linaro
 - Linaro Connect
-- Linux
-- Linux On Arm
+- Linux Kernel
 - Open Source
 title: Linaro announces Actions Technology as a founding member of the Linaro Community
   Boards Group

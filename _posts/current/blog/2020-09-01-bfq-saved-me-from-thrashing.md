@@ -7,7 +7,7 @@ date: 2020-09-02 10:13:04
 image: /assets/images/content/technology-3389917_1920-1-.jpg
 tags:
 - Linaro
-- Linux
+- Linux Kernel
 - OOM
 - Thrashing
 related_projects:

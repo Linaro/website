@@ -9,7 +9,7 @@ tags:
   - VP of Engineering
   - Tim Benton
   - open source
-  - linux
+  - Linux Kernel
 category: news
 author: linaro
 ---

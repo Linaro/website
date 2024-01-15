@@ -10,7 +10,7 @@ tags:
   - TBI
   - LLVM
   - GNU
-  - AARch64
+  - AArch64
   - Virtual Adresses
   - Toolchain
 category: blog
