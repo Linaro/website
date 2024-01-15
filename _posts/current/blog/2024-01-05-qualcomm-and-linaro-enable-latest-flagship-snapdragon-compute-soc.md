@@ -12,7 +12,6 @@ tags:
   - X1e80100
   - Xelite
   - Debian
-  - Fedora
   - Snapdragon
   - Arm64
   - Arm64laptops
