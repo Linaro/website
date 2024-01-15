@@ -13,7 +13,7 @@
   "^/trusted-substrate(/?|/index.html)$ /automotive-iot-and-edge-devices/ [R,L,NC]",
   "^/training(/?|/index.html)$ /services/training/ [R,L,NC]",
   "^/tpm(/?|/index.html)$ https://linaro.atlassian.net/wiki/spaces/TPM/overview [R,L,NC]",
-  "^/toolchain(/?|/index.html)$ https://launchpad.net/gcc-linaro/4.8/?utm_source=linaro&utm_medium=slider&utm_content=button&utm_campaign=toolchain_slider_link [R,L,NC]",
+  "^/toolchain(/?|/index.html)$ /projects [R,L,NC]",
   "^/themes/trusted-services(/?|/index.html)$ / [R,L,NC]",
   "^/themes/over-the-air-updates(/?|/index.html)$ / [R,L,NC]",
   "^/themes/microcontrollers(/?|/index.html)$ / [R,L,NC]",
