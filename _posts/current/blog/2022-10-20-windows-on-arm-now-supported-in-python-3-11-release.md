@@ -7,7 +7,7 @@ date: 2022-10-20 10:26:27 +01:00
 image: /assets/images/content/blog_python_woa.jpg
 tags:
   - Python
-  - Windows on Arm
+  - Windows On Arm
   - Python 3.11
 category: blog
 author: pierrick_bouvier

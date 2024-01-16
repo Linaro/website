@@ -11,7 +11,6 @@ tags:
   - Synthmark
   - audio latency
   - power
-  - performance
   - CPU
 related_projects: []
 category: blog

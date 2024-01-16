@@ -10,7 +10,6 @@ category: blog
 tags:
   - Linaro
   - Arm
-  - Performance
   - Open Source
   - Power Management
 image: /assets/images/blog/collect-power-measurements-in-ci.png

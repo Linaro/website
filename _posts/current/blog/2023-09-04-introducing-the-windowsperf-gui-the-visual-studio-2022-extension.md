@@ -7,8 +7,7 @@ description: "In this blog, learn about the WindowsPerf GUI, a powerful Visual
 date: 2023-09-04 01:09:28 +02:00
 image: /assets/images/content/Chip_background_UNDER_2MB.jpg
 tags:
-  - Windows on Arm
-  - WindowsPerf
+  - Windows On Arm
 category: blog
 author: nader.zouaoui
 ---

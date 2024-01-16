@@ -9,7 +9,6 @@ tags:
   - Perf c2c tool
   - Statistical Profiling
   - Arm
-  - cache-line sharing
 category: blog
 author: leo_yan
 ---
