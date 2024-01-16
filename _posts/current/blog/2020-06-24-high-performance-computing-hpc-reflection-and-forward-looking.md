@@ -15,7 +15,7 @@ tags:
   - Fugaku
   - Supercomputers
   - Supercomputing
-  - Linaro Developer Cloud
+  - Cloud
   - Open Hpc
 related_projects:
   - HPCAI

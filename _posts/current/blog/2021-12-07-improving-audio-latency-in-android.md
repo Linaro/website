@@ -12,7 +12,7 @@ tags:
   - audio latency
   - power
   - performance
-  - CPUs
+  - CPU
 related_projects: []
 category: blog
 author: paolo.valente

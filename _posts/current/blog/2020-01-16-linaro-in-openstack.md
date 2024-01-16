@@ -11,7 +11,7 @@ tags:
   - Servers
   - OpenStack
   - Arm
-  - Linaro Developer Cloud
+  - Cloud
 category: blog
 author: Marcin.Juszkiewicz
 ---

@@ -14,8 +14,8 @@ tags:
 - TuxMake
 - Qemu
 - LDCG
-- Cloud Kubernetes
-- Linaro Developer Cloud
+- Kubernetes
+- Cloud
 - Linux Kernel
 - Toolchain
 - Kernel Development

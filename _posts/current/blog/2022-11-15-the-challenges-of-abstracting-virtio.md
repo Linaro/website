@@ -10,7 +10,7 @@ tags:
   - VirtIO
   - Virtualization
   - Project Stratos
-  - Cloud Native Development
+  - Cloud
 category: blog
 author: alex.bennee
 ---

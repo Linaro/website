@@ -14,7 +14,7 @@ tags:
   - Open-CMSIS-Pack
   - IoT and Embedded
   - microcontroller software
-  - CMSIS-pack
+  - CMSIS Technology
 category: blog
 author: bill.fletcher
 ---

@@ -6,14 +6,13 @@ description: Linaro Developer Cloud has supported Kubernetes as a Service, and
 date: 2020-07-24 12:55:00+00:00
 image: /assets/images/content/code_highway_under_2mb.jpg
 tags:
-  - Linaro Developer Cloud Kubernetes
+  - Kubernetes
   - Linaro
   - Arm
   - Linaro Data Center Group
   - PAAS
   - OpenStack
-  - Kubernetes
-  - Linaro Developer Cloud
+  - Cloud
   - OpenStack Powered Cloud
 related_projects:
   - CLOUD
