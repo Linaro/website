@@ -9,7 +9,7 @@ tags:
   - Linux Kernel
   - Kernel Release
   - open source
-  - upstreaming
+  - Upstream
 category: blog
 author: linaro
 ---

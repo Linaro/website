@@ -7,11 +7,10 @@ date: 2023-02-08 09:32:00 +00:00
 image: /assets/images/content/Code_Image_Core_tech.jpg
 tags:
   - Top Byte Ignore
-  - TBI
   - LLVM
   - GNU
   - AArch64
-  - Virtual Adresses
+  - VirtIO
   - Toolchain
 category: blog
 author: david.spickett

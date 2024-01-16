@@ -11,9 +11,7 @@ tags:
   - ProjectStratos
   - Automotive
   - Hypervisor
-  - Vhost
-  - Virtio
-  - ""
+  - VirtIO
 category: blog
 author: viresh.kumar
 ---

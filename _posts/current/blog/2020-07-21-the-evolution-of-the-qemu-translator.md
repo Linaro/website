@@ -9,9 +9,6 @@ image: /assets/images/content/tech_background_2.jpg
 tags:
   - Qemu
   - Toolchain
-  - Toolchain Working Group
-  - TCWG
-  - TCG
   - RISU
   - SVE
   - KVM

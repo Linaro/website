@@ -7,7 +7,7 @@ permalink: /services/security/
 service_id: 8
 keywords:
   - Security
-  - Trustzone
+  - TrustZone
   - OP-TEE
   - Secure Boot
   - GlobalPlatform

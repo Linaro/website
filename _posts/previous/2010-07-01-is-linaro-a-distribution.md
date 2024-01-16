@@ -9,7 +9,7 @@ tags:
   - Arm
   - Linux Kernel
   - Software
-  - Tools
+  - Toolchain
 author: david.rusling
 slug: is-linaro-a-distribution
 date: 2010-07-01 16:50:00+00:00

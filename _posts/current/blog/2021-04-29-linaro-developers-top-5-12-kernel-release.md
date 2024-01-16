@@ -10,7 +10,7 @@ tags:
   - Linux Kernel
   - Kernel Release
   - open source
-  - software
+  - Software
   - Arm
 category: blog
 author: linaro

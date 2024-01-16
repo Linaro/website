@@ -10,7 +10,7 @@ tags:
   - Kernel Release
   - LKFT
   - Qualcomm
-  - Thermal Work
+  - Thermal Framework
 category: blog
 author: linaro
 ---

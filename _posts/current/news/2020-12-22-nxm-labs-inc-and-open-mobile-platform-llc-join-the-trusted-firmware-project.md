@@ -7,7 +7,7 @@ description: Linaro is proud to announce that NXM Labs Inc. and Open Mobile Plat
 date: 2021-01-04 04:17:34
 image: /assets/images/content/linaro-logo.png
 tags:
-- Trusted Firmware
+- Trusted Substrate
 category: news
 author: jon.burcham@linaro.org
 ---

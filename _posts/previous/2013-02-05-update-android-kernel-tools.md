@@ -14,7 +14,7 @@ tags:
   - Android
   - Kernel
   - Linaro
-  - Tools
+  - Toolchain
 link: /blog/android-blog/update-android-kernel-tools/
 category: blog
 ---

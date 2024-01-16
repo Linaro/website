@@ -11,7 +11,7 @@ tags:
 - Engineering Highlights
 - Linaro Connect
 - Virtual Connect 2020
-- TuxMake
+- Tuxsuite
 - Qemu
 - LDCG
 - Kubernetes
@@ -19,7 +19,6 @@ tags:
 - Linux Kernel
 - Toolchain
 - Kernel Development
-- Toolchain Working Group
 category: blog
 author: jon.burcham@linaro.org
 related_projects:

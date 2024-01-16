@@ -9,7 +9,7 @@ image: /assets/images/content/tech_background.jpg
 tags:
   - Qualcomm
   - open source software
-  - upstream
+  - Upstream
   - Linux Kernel
   - Robotics RB5
   - Dragonboard

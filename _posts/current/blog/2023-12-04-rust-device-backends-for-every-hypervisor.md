@@ -11,8 +11,7 @@ image: /assets/images/content/Code_Image_Core_tech.jpg
 tags:
   - Virtualization
   - Rust
-  - Virtio
-  - Vhost
+  - VirtIO
 category: blog
 author: Erik.Schilling
 ---

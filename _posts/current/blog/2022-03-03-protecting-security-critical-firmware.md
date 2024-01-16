@@ -9,7 +9,7 @@ image: /assets/images/content/Linaro-and-Riscure-release-banner.jpg
 tags:
   - Security
   - OP-TEE
-  - Trusted Firmware
+  - Trusted Substrate
   - Open Portable Trusted Execution Environment
   - TF-A
   - Securekey

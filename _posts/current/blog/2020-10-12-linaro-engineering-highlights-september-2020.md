@@ -16,7 +16,7 @@ tags:
   - Linaro
   - Arm
   - Linux Kernel
-  - Trusted Firmware
+  - Trusted Substrate
   - UEFI
   - CPU
   - Android

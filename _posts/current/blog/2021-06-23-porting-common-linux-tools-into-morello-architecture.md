@@ -13,7 +13,7 @@ tags:
   - CHERI
   - Capability Hardware Enhanced RISC Instructions
   - cURL
-  - wget
+  - U-Boot
 category: blog
 author: linaro
 ---

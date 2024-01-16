@@ -7,13 +7,11 @@ date: 2020-06-26 04:22:14+00:00
 image: /assets/images/content/hpc-bg.jpg
 tags:
   - HPC
-  - TOFU
   - Opensource Toolchains
   - High Performance Computing
   - Arm
   - Linaro
   - Fugaku
-  - Supercomputers
   - Supercomputing
   - Cloud
   - Open Hpc

@@ -9,7 +9,6 @@ tags:
   - Qemu
   - Virtualization
   - Tiny Code Generator
-  - TCG
 author: alex.bennee
 slug: whats-new-qemu-2-9
 date: 2017-04-19 16:46:38+00:00

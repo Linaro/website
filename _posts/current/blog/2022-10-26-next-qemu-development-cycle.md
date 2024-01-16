@@ -12,7 +12,7 @@ tags:
   - RME
   - SBSA
   - open source
-  - software
+  - Software
   - Arm
   - Linux Kernel
 category: blog

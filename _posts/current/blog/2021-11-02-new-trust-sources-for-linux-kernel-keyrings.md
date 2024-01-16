@@ -9,9 +9,8 @@ image: /assets/images/content/Security_screen.jpg
 tags:
   - Linux Kernel
   - Security
-  - TPM
-  - Trusted Platform Module
-  - Trustzone
+  - Trusted Platform
+  - TrustZone
   - Trust Source
 category: blog
 author: sumit.garg

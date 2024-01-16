@@ -14,7 +14,7 @@ tags:
   - Linux Kernel
   - Arm
   - open source
-  - software
+  - Software
 category: blog
 author: linaro
 ---

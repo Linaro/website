@@ -14,7 +14,7 @@ tags:
   - LAVA
   - Linaro Automation and Validation Architecture
   - SQUAD
-  - Software Quality Dashboard
+  - Software
 related_projects:
   - LKQ
 category: blog

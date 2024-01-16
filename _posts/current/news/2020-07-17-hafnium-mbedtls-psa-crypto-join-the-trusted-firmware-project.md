@@ -6,7 +6,7 @@ description: >
 date: 2020-07-17 12:40:55+00:00
 image: /assets/images/content/trusted-firmware.jpg
 tags:
-  - Trusted Firmware
+  - Trusted Substrate
   - Hafnium
   - MbedTLS
   - PSA Crypto Project

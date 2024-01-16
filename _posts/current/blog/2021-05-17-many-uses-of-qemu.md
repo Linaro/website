@@ -14,7 +14,7 @@ tags:
   - IoT
   - SBSA
   - open source
-  - software
+  - Software
   - Arm
   - Linux Kernel
 category: blog

@@ -7,9 +7,8 @@ description: In this blog, Linaro Tech Lead Ilias Apalodimas provides a step by
 date: 2022-01-06 11:08:44 +00:00
 image: /assets/images/content/Trusted_Services2.jpg
 tags:
-  - Trusted Platform Module
-  - TPM
-  - UBoot
+  - Trusted Platform
+  - U-Boot
   - QEMU
   - Firmware
 category: blog

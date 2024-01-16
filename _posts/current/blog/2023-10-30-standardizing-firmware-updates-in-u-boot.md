@@ -14,7 +14,7 @@ tags:
   - Firmware_update
   - UEFI
   - Embedded
-  - CapsuleUpdates
+  - Tuxsuite
 category: blog
 author: sughosh.ganu
 ---

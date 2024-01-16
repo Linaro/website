@@ -16,7 +16,6 @@ slug: kvm-pciemsi-passthrough-armarm64
 tags:
   - Linux Kernel
   - Qemu
-  - VFIO
 title: KVM PCIe/MSI Passthrough on Arm/Arm64
 wordpress_id: 10013
 ---

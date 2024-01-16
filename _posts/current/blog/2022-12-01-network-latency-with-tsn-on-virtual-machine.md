@@ -9,7 +9,6 @@ tags:
   - SDV
   - Software defined vehicle
   - Time Sensitive Networking
-  - TSN
 category: blog
 author: takahiro.akashi@linaro.org
 ---

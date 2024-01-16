@@ -6,7 +6,6 @@ description: In this blog we talk about the challenges of abstracting Virtio.
 date: 2022-11-15 04:46:14 +00:00
 image: /assets/images/content/virtualization-image.png
 tags:
-  - VIrtIO abstraction camera
   - VirtIO
   - Virtualization
   - Project Stratos

@@ -6,7 +6,6 @@ description: In this article, we look at how to address Network Latency through
 date: 2023-05-15 09:34:27 +01:00
 image: /assets/images/content/Banner_Virtualization.jpg
 tags:
-  - TSN
   - Time Sensitive Networking
   - Network Latency
   - Virtualization

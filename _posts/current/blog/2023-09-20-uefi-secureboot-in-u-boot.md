@@ -12,10 +12,9 @@ image: /assets/images/content/Tech_Background.jpg
 tags:
   - Embedded
   - U-Boot
-  - SystemReady_SIE
+  - SystemReady
   - UEFI
   - Security
-  - UEFI_SecureBoot
 category: blog
 author: ilias.apalodimas@linaro.org
 ---

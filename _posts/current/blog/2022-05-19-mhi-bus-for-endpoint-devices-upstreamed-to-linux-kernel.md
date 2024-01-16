@@ -10,7 +10,7 @@ tags:
   - MHI
   - Modem Host Interface
   - Qualcomm
-  - Upstreaming
+  - Upstream
   - Linux Kernel
 category: blog
 author: manivannan.sadhasivam

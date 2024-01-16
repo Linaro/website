@@ -7,7 +7,7 @@ tags:
   - Artificial Intelligence
   - Machine Learning
   - HPC
-  - Supercomputers
+  - Supercomputing
 category: blog
 author: paul.isaacs
 ---

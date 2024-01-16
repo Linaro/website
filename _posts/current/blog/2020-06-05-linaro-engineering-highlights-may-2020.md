@@ -9,7 +9,7 @@ image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
 tags:
   - Linaro
   - KissCache
-  - Tuxpub
+  - Tuxsuite
   - Ledge
   - Raspberry Pi
   - Artificial Intelligence

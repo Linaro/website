@@ -7,7 +7,7 @@ date: 2021-02-10 11:00:00
 image: /assets/images/content/the_world.jpg
 tags:
   - Engineering Highlights
-  - TuxMake
+  - Tuxsuite
   - Open Source Security Foundation
   - LLVM
 category: blog

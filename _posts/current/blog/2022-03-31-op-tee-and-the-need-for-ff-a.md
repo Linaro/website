@@ -8,12 +8,12 @@ image: /assets/images/content/Linaro-and-Riscure-release-banner.jpg
 tags:
   - Security
   - OP-TEE
-  - Trustzone
+  - TrustZone
   - FF-A
   - Arm
   - TEE
   - Trusted Execution Environment
-  - Trusted Firmware
+  - Trusted Substrate
 category: blog
 author: jens.wiklander
 ---
