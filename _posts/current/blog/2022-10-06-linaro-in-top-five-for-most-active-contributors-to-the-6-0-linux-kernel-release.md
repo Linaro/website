@@ -8,7 +8,7 @@ date: 2022-10-06 03:51:13 +01:00
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
   - Linux Kernel
-  - open source
+  - Open Source
   - Arm
 category: blog
 author: linaro

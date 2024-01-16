@@ -11,7 +11,7 @@ tags:
   - openEuler
   - OpenStack
   - CI
-  - open source
+  - Open Source
   - Huawei
   - Linaro
 category: blog

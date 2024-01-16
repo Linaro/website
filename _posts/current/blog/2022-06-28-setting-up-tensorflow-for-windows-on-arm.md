@@ -7,7 +7,6 @@ date: 2022-06-28 10:34:14 +01:00
 image: /assets/images/content/Banner_AI.jpg
 tags:
   - Windows On Arm
-  - bazel
   - Machine Learning
 category: blog
 author: everton.constantino

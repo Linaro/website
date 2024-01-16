@@ -9,7 +9,7 @@ tags:
   - Linux Kernel
   - 32 bit
   - Arm
-  - open source
+  - Open Source
 category: blog
 author: arnd.bergmann
 ---

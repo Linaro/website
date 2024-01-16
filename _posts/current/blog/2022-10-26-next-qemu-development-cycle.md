@@ -7,7 +7,7 @@ date: 2022-10-26 09:00:00
 image: /assets/images/content/code-background_1.jpg
 tags:
   - QEMU
-  - open source
+  - Open Source
   - Software
   - Arm
   - Linux Kernel

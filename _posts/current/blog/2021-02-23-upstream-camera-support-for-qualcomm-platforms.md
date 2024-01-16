@@ -10,7 +10,7 @@ tags:
   - Dragonboard
   - Titan
   - Linux Kernel
-  - open source
+  - Open Source
 category: blog
 author: robert.foss
 ---

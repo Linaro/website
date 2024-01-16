@@ -11,7 +11,7 @@ tags:
   - Artificial Intelligence
   - Datacenter
   - Arm
-  - open source
+  - Open Source
 related_projects:
   - HPCAI
 category: blog

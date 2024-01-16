@@ -9,7 +9,7 @@ image: /assets/images/content/services_board.jpg
 tags:
   - Linux Kernel
   - Kernel Release
-  - open source
+  - Open Source
   - Linaro
 category: blog
 author: linaro

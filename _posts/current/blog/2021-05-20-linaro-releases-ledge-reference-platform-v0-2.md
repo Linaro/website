@@ -9,7 +9,6 @@ tags:
   - LEDGE Reference Platform
   - SystemReady
   - LEDGE
-  - dependable boot
   - UEFI
   - U-Boot
   - Linux Kernel

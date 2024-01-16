@@ -6,9 +6,7 @@ description: |
 date: 2023-10-05 11:03:05 +01:00
 image: /assets/images/content/screenshot-2023-10-05-at-11.34.24.png
 tags:
-  - android14
   - AOSP
-  - devboards
   - HiSilicon Hikey960
   - Qualcomm
   - Android

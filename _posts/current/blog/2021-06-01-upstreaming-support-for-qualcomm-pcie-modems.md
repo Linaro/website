@@ -8,7 +8,7 @@ image: /assets/images/content/technology-3389917_1920-1-.jpg
 tags:
   - Qualcomm
   - Linux kernel
-  - open source
+  - Open Source
 category: blog
 author: loic.poulain
 ---

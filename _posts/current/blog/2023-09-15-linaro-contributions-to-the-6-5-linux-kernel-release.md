@@ -11,7 +11,7 @@ tags:
   - Kernel Release
   - Linux Kernel
   - Arm
-  - open source
+  - Open Source
   - Software
 category: blog
 author: linaro

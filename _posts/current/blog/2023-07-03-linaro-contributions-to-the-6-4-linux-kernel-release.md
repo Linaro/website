@@ -9,7 +9,7 @@ image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
   - Linux Kernel
   - Kernel Release
-  - open source
+  - Open Source
   - Software
   - Arm
 category: blog

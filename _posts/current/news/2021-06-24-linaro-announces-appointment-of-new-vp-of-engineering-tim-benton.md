@@ -8,7 +8,7 @@ image: /assets/images/content/30921188158_953bca1c9f_k.jpg
 tags:
   - VP of Engineering
   - Tim Benton
-  - open source
+  - Open Source
   - Linux Kernel
 category: news
 author: linaro

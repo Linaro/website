@@ -10,7 +10,7 @@ tags:
   - MTE
   - SVE
   - IoT
-  - open source
+  - Open Source
   - Software
   - Arm
   - Linux Kernel
