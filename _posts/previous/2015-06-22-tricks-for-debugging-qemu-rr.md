@@ -13,7 +13,7 @@ slug: tricks-for-debugging-qemu-rr
 tags:
 - Arm
 - Linaro
-- Qemu
+- QEMU
 title: Tricks for debugging QEMU — rr
 wordpress_id: 8764
 ---

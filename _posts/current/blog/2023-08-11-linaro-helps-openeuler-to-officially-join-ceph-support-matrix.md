@@ -9,7 +9,7 @@ date: 2023-08-11 10:38:17 +01:00
 image: /assets/images/content/screenshot-2023-08-11-at-11.37.28.png
 tags:
   - Linux Kernel
-  - Opensource
+  - Open Source
 category: blog
 author: kevin.zhao@linaro.org
 ---

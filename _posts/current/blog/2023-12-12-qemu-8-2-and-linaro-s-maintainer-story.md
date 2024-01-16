@@ -8,15 +8,9 @@ description: >
 date: 2023-12-12 04:12:03 +07:00
 image: /assets/images/content/Banner_Core_Technologies.jpg
 tags:
-  - qemu
-  - RME
-  - Realms
+  - QEMU
   - Computing
-  - community
-  - maintainers
-  - maintainership
-  - security
-  - architecture
+  - Security
 category: blog
 author: alex.bennee
 ---

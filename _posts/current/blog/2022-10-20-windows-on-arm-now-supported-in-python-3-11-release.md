@@ -8,7 +8,6 @@ image: /assets/images/content/blog_python_woa.jpg
 tags:
   - Python
   - Windows On Arm
-  - Python 3.11
 category: blog
 author: pierrick_bouvier
 ---

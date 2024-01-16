@@ -8,7 +8,7 @@ image: /assets/images/content/machine_intelligence_cover.jpg
 tags:
   - tensorflow
   - Artificial Intelligence
-  - machine learning
+  - Machine Learning
   - AArch64
 related_projects:
   - AI

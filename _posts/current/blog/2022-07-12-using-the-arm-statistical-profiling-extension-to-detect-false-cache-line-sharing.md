@@ -6,7 +6,6 @@ description: This article talks about how to use perf c2c tool with Arm Neoverse
 date: 2022-07-12 09:38:03 +01:00
 image: /assets/images/content/code-background_1.jpg
 tags:
-  - Perf c2c tool
   - Arm
 category: blog
 author: leo_yan

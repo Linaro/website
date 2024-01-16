@@ -8,7 +8,7 @@ image: /assets/images/content/the_world.jpg
 tags:
   - Engineering Highlights
   - Tuxsuite
-  - Open Source Security Foundation
+  - Open Source
   - LLVM
 category: blog
 author: jon.burcham@linaro.org

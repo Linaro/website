@@ -7,12 +7,11 @@ description: In this intriguing article, Daniel Lezcano looks into the power
 date: 2020-07-29 10:41:16+00:00
 image: /assets/images/content/code-background_1.jpg
 tags:
-  - SoC Power Consumption
+  - SoC
   - Power Management
   - Thermal Framework
   - GPU
-  - RAPL
-  - Powercap
+  - Power Management
   - DeviceTree
 related_projects:
   - PERF

@@ -8,9 +8,8 @@ image: /assets/images/content/technology-3389917_1920.jpg
 tags:
   - AOSP
   - Dragonboard
-  - Qualcomm Robotics kit
-  - RB3
-  - RB5
+  - Qualcomm
+  - Robotics
   - video decoding
 category: blog
 author: john.stultz

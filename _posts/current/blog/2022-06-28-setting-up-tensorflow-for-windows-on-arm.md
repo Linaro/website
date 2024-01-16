@@ -9,7 +9,7 @@ tags:
   - Windows On Arm
   - tensor flow
   - bazel
-  - machine learning
+  - Machine Learning
 category: blog
 author: everton.constantino
 ---

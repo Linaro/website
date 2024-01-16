@@ -12,7 +12,6 @@ tags:
   - Trusted Substrate
   - Open Portable Trusted Execution Environment
   - TF-A
-  - Securekey
   - Encryption
 category: blog
 author: sumit.garg

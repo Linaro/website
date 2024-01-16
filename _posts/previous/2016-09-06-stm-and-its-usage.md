@@ -14,7 +14,7 @@ date: 2016-09-06 04:24:15
 tags:
   - Linaro
   - Linux Kernel
-  - Open Source Software
+  - Open Source
 link: /blog/core-dump/stm-and-its-usage/
 category: blog
 ---

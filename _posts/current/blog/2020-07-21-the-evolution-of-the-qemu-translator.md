@@ -9,7 +9,6 @@ image: /assets/images/content/tech_background_2.jpg
 tags:
   - Qemu
   - Toolchain
-  - RISU
   - SVE
   - KVM
 related_projects:

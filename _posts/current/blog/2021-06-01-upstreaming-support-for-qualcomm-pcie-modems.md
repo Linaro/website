@@ -8,7 +8,6 @@ image: /assets/images/content/technology-3389917_1920-1-.jpg
 tags:
   - Qualcomm
   - Linux kernel
-  - PCIe modem
   - open source
 category: blog
 author: loic.poulain

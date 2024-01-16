@@ -8,7 +8,7 @@ date: 2020-01-16 02:35:45
 image: /assets/images/content/DataCenter.jpg
 tags:
   - Datacenter
-  - Servers
+  - Server
   - OpenStack
   - Arm
   - Cloud

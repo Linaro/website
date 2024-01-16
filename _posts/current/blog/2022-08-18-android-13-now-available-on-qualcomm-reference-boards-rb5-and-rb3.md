@@ -7,9 +7,7 @@ date: 2022-08-18 06:05:29 +01:00
 image: /assets/images/content/Client_Devices_banner_pic.jpg
 tags:
   - Android
-  - Qualcomm RB3
-  - Qualcomm RB5
-  - Qualcomm Robotics Kit
+  - Qualcomm
   - AOSP
 category: blog
 author: amit.pundir@linaro.org

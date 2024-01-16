@@ -12,7 +12,7 @@ tags:
   - Arm
   - Linaro
   - SVE
-  - Qemu
+  - QEMU
 category: blog
 ---
 

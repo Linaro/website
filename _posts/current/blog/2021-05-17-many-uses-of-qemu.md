@@ -7,12 +7,9 @@ date: 2021-05-18 09:00:00
 image: /assets/images/content/code-background_1.jpg
 tags:
   - QEMU
-  - emulation
   - MTE
   - SVE
-  - SVE2
   - IoT
-  - SBSA
   - open source
   - Software
   - Arm

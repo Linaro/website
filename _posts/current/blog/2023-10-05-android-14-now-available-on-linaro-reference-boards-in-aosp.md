@@ -10,10 +10,8 @@ tags:
   - AOSP
   - devboards
   - HiSilicon Hikey960
-  - Qualcomm RB5
-  - Qualcomm RB3
+  - Qualcomm
   - Android
-  - Qualcomm Robotics Kit
 category: blog
 author: amit.pundir@linaro.org
 ---

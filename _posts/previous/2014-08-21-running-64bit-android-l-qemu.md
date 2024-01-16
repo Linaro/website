@@ -8,7 +8,7 @@ comments: false
 title: Running Android L Developer Preview on 64-bit Arm QEMU
 tags:
   - Android
-  - Qemu
+  - QEMU
 description: >
   In this article, Alex Bennee takes a  look at running Android L Developer preview on a 64-bit Arm QEMU. Read about his findings here!
 link: /blog/core-dump/running-64bit-android-l-qemu/

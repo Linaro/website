@@ -10,9 +10,7 @@ link: /blog/android-blog/androidization-of-linux-kernel/
 slug: androidization-of-linux-kernel
 tags:
 - Android
-- Android
 - Linaro
-- Patch
 title: Androidization of linux kernel
 wordpress_id: 1392
 ---

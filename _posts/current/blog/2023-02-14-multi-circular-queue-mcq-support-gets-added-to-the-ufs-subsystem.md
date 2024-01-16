@@ -8,7 +8,6 @@ image: /assets/images/content/Banner_Virtualization.jpg
 tags:
   - Universal Flash Storage
   - MCQ
-  - Multi-Circular Queue
   - Qualcomm
   - Linux Kernel
 category: blog

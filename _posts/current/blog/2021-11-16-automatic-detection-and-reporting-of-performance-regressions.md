@@ -13,7 +13,6 @@ tags:
   - Kernel Development
   - LAVA
   - Linaro Automation and Validation Architecture
-  - SQUAD
   - Software
 related_projects:
   - LKQ

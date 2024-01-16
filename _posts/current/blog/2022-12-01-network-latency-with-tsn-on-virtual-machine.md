@@ -6,9 +6,8 @@ description: This blog talks about Time Sensitive Networking and its role in the
 date: 2022-12-01 03:24:01 +00:00
 image: /assets/images/content/Automotive_Dashboard.jpg
 tags:
-  - SDV
   - Software defined vehicle
-  - Time Sensitive Networking
+  - Networking
 category: blog
 author: takahiro.akashi@linaro.org
 ---

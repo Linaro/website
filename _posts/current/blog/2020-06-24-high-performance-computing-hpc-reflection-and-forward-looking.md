@@ -7,7 +7,7 @@ date: 2020-06-26 04:22:14+00:00
 image: /assets/images/content/hpc-bg.jpg
 tags:
   - HPC
-  - Opensource Toolchains
+  - Open Source
   - High Performance Computing
   - Arm
   - Linaro

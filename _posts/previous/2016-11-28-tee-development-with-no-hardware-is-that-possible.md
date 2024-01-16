@@ -14,7 +14,7 @@ date: 2016-11-28 17:06:06
 tags:
   - Linaro
   - Linux Kernel
-  - Qemu
+  - QEMU
   - TEE
 link: /blog/tee-development-with-no-hardware-is-that-possible/
 category: blog

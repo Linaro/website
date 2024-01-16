@@ -7,10 +7,6 @@ date: 2022-10-26 09:00:00
 image: /assets/images/content/code-background_1.jpg
 tags:
   - QEMU
-  - emulation
-  - Realms
-  - RME
-  - SBSA
   - open source
   - Software
   - Arm

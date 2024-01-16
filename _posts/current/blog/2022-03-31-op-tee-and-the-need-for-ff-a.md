@@ -12,7 +12,6 @@ tags:
   - FF-A
   - Arm
   - TEE
-  - Trusted Execution Environment
   - Trusted Substrate
 category: blog
 author: jens.wiklander

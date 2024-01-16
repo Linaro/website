@@ -10,7 +10,6 @@ tags:
   - BFQ
   - I/OScheduler
   - Linux Kernel
-  - Multi-Actuator SATA HardDrives
 related_projects:
   - PERF
 category: blog

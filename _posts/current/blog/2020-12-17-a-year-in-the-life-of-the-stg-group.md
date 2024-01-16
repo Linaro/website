@@ -8,7 +8,6 @@ description: "In this article we look at the work from just one of Linaro's many
 date: 2020-12-22 01:00:00
 image: /assets/images/content/abstract-small.jpg
 tags:
-  - STG
   - Tuxsuite
 category: blog
 author: ryan.arnold@linaro.org

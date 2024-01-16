@@ -8,7 +8,6 @@ date: 2022-05-19 08:58:54 +01:00
 image: /assets/images/content/Tech_Background.jpg
 tags:
   - MHI
-  - Modem Host Interface
   - Qualcomm
   - Upstream
   - Linux Kernel

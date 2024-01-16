@@ -16,7 +16,7 @@ tags:
   - Linux Kernel
   - Members
   - Open Source
-  - Servers
+  - Server
 link: /news/linaro-announces-software-reference-platform-arm-servers/
 category: news
 ---
