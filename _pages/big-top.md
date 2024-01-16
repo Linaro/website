@@ -10,7 +10,7 @@ css_bundle: projects
 layout: flow
 jumbotron:
   class: about_header text-center
-  title: Automate and ease your Big Data processes on ARM with Linaro’s Apache Bigtop Consulting.
+  title: Automate and ease your Big Data processes on Arm with Linaro’s Apache Bigtop Consulting.
   title-class: font-weight-bold my-5
   image: /assets/images/content/bigtop_banner.jpg
 flow:
