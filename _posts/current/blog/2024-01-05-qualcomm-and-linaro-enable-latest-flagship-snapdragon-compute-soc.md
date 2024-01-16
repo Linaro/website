@@ -61,7 +61,7 @@ The installer also includes GRUB, which provides dual-boot support out-of-the-bo
 
 # What’s next
 
-The upstreaming effort will continue in the coming months and will include more boards/platforms/features based on X1E80100. The engineers from both Qualcomm and Linaro will continue to work closely with upstream maintainers to get all support needed by the X1E80100 accepted upstream. Work is underway to enable audio and camera support as well; these features are planned for inclusion in the Linux v6.8 kernel.
+The upstreaming effort will continue in the coming months and will include more boards/platforms/features based on X1E80100. The engineers from both Qualcomm and Linaro will continue to work closely with upstream maintainers to get all support needed by the X1E80100 accepted upstream. Work is underway to enable audio and camera support as well; these features are planned for inclusion in the Linux v6.9 kernel.
 
 # Want to learn more?
 
