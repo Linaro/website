@@ -9,7 +9,7 @@ image: /assets/images/content/abstract-small.jpg
 tags:
 - Linaro
 - Engineering Highlights
-- Connect
+- Linaro Connect
 - Virtual Connect 2020
 - TuxMake
 - Qemu

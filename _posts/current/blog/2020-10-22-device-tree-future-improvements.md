@@ -9,7 +9,7 @@ description: In this article, Joakim Bech gives an overview on what exactly
 date: 2020-10-23 11:08:40
 image: /assets/images/content/devicetree-logo_vertical-devicetree.png
 tags:
-  - Device Tree
+  - DeviceTree
   - Arm
   - Linaro
   - Linux Kernel

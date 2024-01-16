@@ -8,7 +8,6 @@ description: Marvell invests in enabling the open source development community
   board
 image: /assets/images/content/DataCenter.jpg
 tags:
-  - Connect
   - Linaro
   - Linaro Connect
   - Linux Kernel

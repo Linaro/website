@@ -7,7 +7,7 @@ layout: post
 link: /news/linaro-announces-keynote-speakers-linaro-connect-usa-2014/
 slug: linaro-announces-keynote-speakers-linaro-connect-usa-2014
 tags:
-- Connect
+- Linaro Connect
 - Linaro Events
 title: Linaro announces Keynote Speakers for Linaro Connect USA 2014
 wordpress_id: 6344

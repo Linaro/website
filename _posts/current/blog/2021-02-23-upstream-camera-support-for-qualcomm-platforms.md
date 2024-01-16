@@ -7,7 +7,7 @@ date: 2021-02-23 01:49:15
 image: /assets/images/content/code-background_1.jpg
 tags:
   - Qualcomm
-  - dragonboard 410c
+  - Dragonboard
   - Titan
   - Linux Kernel
   - open source

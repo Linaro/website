@@ -6,11 +6,9 @@ description: In this blog we share some useful commands you can use with the
 date: 2023-05-18 01:09:31 +01:00
 image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
-  - Devicetree
-  - DT
+  - DeviceTree
+  - Datacenter
   - DTS
-  - Devicetree sources
-  - Devicetree schema
   - Linux Kernel
 category: blog
 author: Krzysztof_Kozlowski

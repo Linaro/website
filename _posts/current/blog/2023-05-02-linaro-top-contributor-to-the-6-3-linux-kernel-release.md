@@ -10,7 +10,7 @@ tags:
   - Linux Kernel
   - Qualcomm
   - Kernel Release
-  - Devicetree
+  - DeviceTree
   - Snapdragon
   - 32 bit
 category: blog

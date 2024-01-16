@@ -9,7 +9,7 @@ tags:
   - Kubernetes
   - Linaro
   - Arm
-  - Linaro Data Center Group
+  - Datacenter
   - PAAS
   - OpenStack
   - Cloud

@@ -11,7 +11,7 @@ description: September's Engineering Highlights include a brief summary of our
 date: 2020-10-12 12:29:25+00:00
 image: /assets/images/content/binary-2910663_1920.jpg
 tags:
-  - Connect
+  - Linaro Connect
   - Engineering Highlights
   - Linaro
   - Arm

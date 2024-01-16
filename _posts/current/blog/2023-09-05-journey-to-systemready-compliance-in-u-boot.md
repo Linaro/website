@@ -9,7 +9,7 @@ description: >
 date: 2023-09-05 12:48:35 +02:00
 image: /assets/images/content/tech_background__under_2mb.jpg
 tags:
-  - embedded
+  - Embedded
   - U-Boot
   - SystemReady
   - UEFI

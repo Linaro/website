@@ -10,7 +10,7 @@ tags:
   - Linaro
   - Arm
   - Networking
-  - Datacentre
+  - Datacenter
   - Big Data
   - SoC
   - Linux Kernel

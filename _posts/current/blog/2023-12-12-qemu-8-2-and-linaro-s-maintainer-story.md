@@ -11,7 +11,7 @@ tags:
   - qemu
   - RME
   - Realms
-  - Confidential Computing
+  - Computing
   - community
   - maintainers
   - maintainership

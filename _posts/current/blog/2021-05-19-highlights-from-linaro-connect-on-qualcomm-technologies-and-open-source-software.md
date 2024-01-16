@@ -11,9 +11,8 @@ tags:
   - open source software
   - upstream
   - Linux Kernel
-  - dragonboard 410c
   - Robotics RB5
-  - Dragonboard 820c
+  - Dragonboard
   - Robotics RB3
   - Snapdragon
 category: blog

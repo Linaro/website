@@ -8,7 +8,7 @@ image: /assets/images/content/electricity-1288717_1920.jpg
 tags:
   - Engineering Highlights
   - Lite
-  - Device Tree
+  - DeviceTree
   - Kernel Working Group
   - Ledge
 related_projects:

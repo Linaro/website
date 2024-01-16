@@ -7,7 +7,7 @@ date: 2021-12-07 08:47:03 +00:00
 image: /assets/images/content/technology-3389917_1920.jpg
 tags:
   - AOSP
-  - Qualcomm Dragonboard 845c
+  - Dragonboard
   - Qualcomm Robotics kit
   - RB3
   - RB5

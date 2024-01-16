@@ -9,7 +9,7 @@ image: /assets/images/content/code-background_1.jpg
 tags:
   - Qualcomm
   - RB5
-  - Dragonboard410c
+  - Dragonboard
   - Debian
   - OpenEmbedded
   - Linux Kernel

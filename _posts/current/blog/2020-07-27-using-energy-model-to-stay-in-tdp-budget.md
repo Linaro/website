@@ -13,7 +13,7 @@ tags:
   - GPU
   - RAPL
   - Powercap
-  - Device Tree
+  - DeviceTree
 related_projects:
   - PERF
 category: blog

@@ -12,7 +12,7 @@ tags:
   - RTOS
   - MCU
   - microcontroller
-  - embedded
+  - Embedded
   - IoT
   - Arm-based
   - VSCode

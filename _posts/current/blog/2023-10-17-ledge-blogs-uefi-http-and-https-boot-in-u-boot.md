@@ -9,7 +9,7 @@ description: UEFI HTTP boot simplifies the network boot process by allowing the
 date: 2023-10-17 01:28:08 +02:00
 image: /assets/images/content/istock-860653830sm.jpg
 tags:
-  - embedded
+  - Embedded
   - U-Boot
   - SystemReady
   - UEFI

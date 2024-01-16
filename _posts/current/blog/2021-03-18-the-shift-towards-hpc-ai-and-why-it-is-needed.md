@@ -9,7 +9,7 @@ image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 tags:
   - HPC
   - Artificial Intelligence
-  - data center
+  - Datacenter
   - Arm
   - open source
 related_projects:
