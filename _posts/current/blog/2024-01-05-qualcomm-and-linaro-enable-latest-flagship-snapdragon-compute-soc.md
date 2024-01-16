@@ -38,7 +38,7 @@ The first series includes the following features:
 * Compute Reference Device (CRD) board support, with coverage of all the drivers above
 * Qualcomm Compute Platform (QCP) board support, also covering the drivers above
 
-At the time of writing this, the interconnects, pinctrl and power domains have already been merged.
+At the time of writing, the interconnects, pinctrl and power domains have already been merged.
 
 Patches for the remaining features are already under review; they include support for:
 
@@ -55,7 +55,7 @@ Linaro’s Qualcomm Landing Team has prepared a [kernel tree on CodeLinaro](http
 
 Linaro provides [a step-by-step guide](https://git.codelinaro.org/linaro/qcomlt/demos/debian-12-installer-image) on how to prepare the installer media that will take you all the way through to a full Debian system, including GPU and WiFi support. 
 
-The installer includes brings GRUB, which provides dual-boot support out-of-the-box and also allows chainloading other EFI applications, including the Fastboot EFI app. Booting via fastboot protocol helps a lot when it comes to rapid kernel development and testing because it avoids the need to build the deb package and install it manually. Instead, you can boot the kernel image with the devicetree blob and the initramfs (including the modules) provided via a boot image (similar to other mobile platforms).
+The installer also includes GRUB, which provides dual-boot support out-of-the-box and also allows chainloading other EFI applications, including the Fastboot EFI app. Booting via fastboot protocol helps a lot when it comes to rapid kernel development and testing because it avoids the need to build the deb package and install it manually. Instead, you can boot the kernel image with the devicetree blob and the initramfs (including the modules) provided via a boot image (similar to other mobile platforms).
 
 {% include image.html path="/assets/images/content/debian-running-.png" alt="Debian running on top of latest linux-next, with GPU rendering, on Snapdragon X Elite (X1E80100) Compute Reference Device" %}
 
@@ -67,8 +67,6 @@ The upstreaming effort will continue in the coming months and will include more 
 
 If you want to follow closely the upstreaming of the X1E80100, you can head to [https://lore.kernel.org/all/?q=X1E80100](https://lore.kernel.org/all/?q=x1e80100).
 
-More information about the Snapdragon X Elite (X1E80100) can be found here:
-
-<https://docs.qualcomm.com/bundle/publicresource/87-71417-1_REV_C_Snapdragon_X_Elite_Product_Brief.pdf>
+More information about the Snapdragon X Elite (X1E80100) can be found here: <https://docs.qualcomm.com/bundle/publicresource/87-71417-1_REV_C_Snapdragon_X_Elite_Product_Brief.pdf>
 
 For more information about what Linaro’s Qualcomm Platform Services does and has to offer, please head to <https://www.linaro.org/services/qualcomm-platforms-services/>
