@@ -8,7 +8,6 @@ image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
   - DeviceTree
   - Datacenter
-  - DTS
   - Linux Kernel
 category: blog
 author: Krzysztof_Kozlowski

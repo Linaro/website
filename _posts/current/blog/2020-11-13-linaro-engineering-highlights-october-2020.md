@@ -7,7 +7,7 @@ date: 2020-11-13 01:15:35
 image: /assets/images/content/iot_planet_under_2mb.jpg
 tags:
   - Linaro
-  - Engineering highlights
+  - Engineering Highlights
   - Linux Kernel
 category: blog
 author: jon.burcham@linaro.org

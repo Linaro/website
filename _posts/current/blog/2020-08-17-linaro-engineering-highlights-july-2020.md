@@ -10,9 +10,8 @@ tags:
 - Linaro
 - Engineering Highlights
 - Linaro Connect
-- Virtual Connect 2020
 - Tuxsuite
-- Qemu
+- QEMU
 - Kubernetes
 - Cloud
 - Linux Kernel

@@ -11,7 +11,6 @@ tags:
   - Security
   - Trusted Platform
   - TrustZone
-  - Trust Source
 category: blog
 author: sumit.garg
 ---

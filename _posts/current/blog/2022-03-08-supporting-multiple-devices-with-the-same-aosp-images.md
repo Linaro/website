@@ -13,8 +13,6 @@ tags:
   - Google
   - Android
   - GKI
-  - DB845c
-  - RB5
 category: blog
 author: amit.pundir@linaro.org
 ---

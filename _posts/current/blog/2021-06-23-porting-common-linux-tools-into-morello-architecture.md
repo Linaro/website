@@ -10,7 +10,6 @@ tags:
   - Morello
   - Arm
   - Security
-  - Capability Hardware Enhanced RISC Instructions
   - U-Boot
 category: blog
 author: linaro

@@ -8,7 +8,7 @@ date: 2022-08-16 09:48:30 +01:00
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
   - Kernel Release
-  - Linux
+  - Linux Kernel
   - Arm
 category: blog
 author: linaro

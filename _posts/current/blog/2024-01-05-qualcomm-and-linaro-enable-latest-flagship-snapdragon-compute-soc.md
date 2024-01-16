@@ -9,8 +9,6 @@ date: 2024-01-05 06:10:33 +07:00
 image: /assets/images/content/Auto_IoT_Edge_banner_pic.jpg
 tags:
   - Qualcomm
-  - X1e80100
-  - Xelite
   - Debian
   - Fedora
   - Snapdragon

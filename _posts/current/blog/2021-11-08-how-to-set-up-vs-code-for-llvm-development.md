@@ -9,8 +9,7 @@ description: >
 date: 2021-11-08 01:36:21 +00:00
 image: /assets/images/content/code_highway-2-.jpg
 tags:
-  - WoA
-  - Windows on Arm
+  - Windows On Arm
   - LLVM
   - LLDB
 category: blog

@@ -13,7 +13,7 @@ tags:
   - PAAS
   - OpenStack
   - Cloud
-  - OpenStack Powered Cloud
+  - OpenStack
 related_projects:
   - CLOUD
 category: blog

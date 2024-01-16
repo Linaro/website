@@ -9,7 +9,7 @@ image: /assets/images/content/code_ecosystem.jpg
 tags:
   - Linaro
   - LED
-  - Information hub for open source projects on Arm
+  - Arm
 category: blog
 author: linaro
 ---

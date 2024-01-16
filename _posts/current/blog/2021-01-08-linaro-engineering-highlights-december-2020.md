@@ -9,7 +9,7 @@ image: /assets/images/content/code.jpg
 tags:
   - Linaro
   - Linux Kernel
-  - Zephyr
+  - Zephyr Project
   - Artificial Intelligence
   - IoT
   - LKFT

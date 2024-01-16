@@ -8,7 +8,6 @@ image: /assets/images/content/code-background_1.jpg
 tags:
   - Qualcomm
   - Dragonboard
-  - Titan
   - Linux Kernel
   - Open Source
 category: blog

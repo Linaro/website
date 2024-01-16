@@ -9,8 +9,8 @@ date: 2021-04-13 02:26:45
 image: /assets/images/content/code_highway-2-.jpg
 tags:
   - LLVM
-  - Code optimization
-  - Arm software
+  - Code Optimization
+  - Arm
 related_projects:
   - LLVM
 category: blog

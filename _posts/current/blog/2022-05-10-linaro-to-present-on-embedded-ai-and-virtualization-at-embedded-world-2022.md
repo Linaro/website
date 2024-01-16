@@ -7,7 +7,7 @@ description: "In this blog Bill Fletcher talks about the two sessions Linaro
 date: 2022-05-10 09:06:39 +01:00
 image: /assets/images/content/ConAI_promo.jpg
 tags:
-  - Confidential AI
+  - Artificial Intelligence
   - Embedded
   - Virtualization
   - Automotive

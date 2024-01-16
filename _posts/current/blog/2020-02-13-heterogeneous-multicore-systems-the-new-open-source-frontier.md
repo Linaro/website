@@ -9,7 +9,7 @@ image: /assets/images/content/IoT.jpg
 tags:
   - DeviceTree
   - OpenAMP
-  - Zephyr
+  - Zephyr Project
   - 96Boards
   - IoT
 category: blog

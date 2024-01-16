@@ -6,7 +6,7 @@ description: In this blog, Linaro engineer Everton Constantino talks about how
 date: 2021-03-11 10:19:36
 image: /assets/images/content/machine_intelligence_cover.jpg
 tags:
-  - Windows on Arm
+  - Windows On Arm
   - Artificial Intelligence
   - Machine Learning
   - AArch64

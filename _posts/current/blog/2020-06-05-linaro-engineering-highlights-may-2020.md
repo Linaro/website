@@ -10,7 +10,7 @@ tags:
   - Linaro
   - KissCache
   - Tuxsuite
-  - Ledge
+  - LEDGE
   - Raspberry Pi
   - Artificial Intelligence
 category: blog

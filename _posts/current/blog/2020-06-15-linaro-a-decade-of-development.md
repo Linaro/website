@@ -15,7 +15,7 @@ tags:
   - SoC
   - Linux Kernel
   - Android
-  - Ledge
+  - LEDGE
 category: blog
 author: david.rusling
 ---
