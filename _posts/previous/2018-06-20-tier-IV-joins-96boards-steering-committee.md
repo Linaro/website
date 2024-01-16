@@ -14,7 +14,7 @@ tags:
 - Members
 - Arm
 - Rock960
-- HiKey960
+- HiKey
 - Linaro
 - Linux Kernel
 - Open Source

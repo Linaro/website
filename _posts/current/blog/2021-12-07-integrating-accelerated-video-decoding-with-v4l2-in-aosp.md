@@ -10,7 +10,6 @@ tags:
   - Dragonboard
   - Qualcomm
   - Robotics
-  - video decoding
 category: blog
 author: john.stultz
 ---

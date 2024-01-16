@@ -9,8 +9,8 @@ tags:
   - Engineering Highlights
   - Lite
   - DeviceTree
-  - Kernel Working Group
-  - Ledge
+  - Kernel Development
+  - LEDGE
 related_projects:
   - DTE
 category: blog

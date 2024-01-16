@@ -14,7 +14,6 @@ tags:
   - HPC
   - Performance tools
   - Software
-  - high performance computing
 category: news
 author: linaro
 ---

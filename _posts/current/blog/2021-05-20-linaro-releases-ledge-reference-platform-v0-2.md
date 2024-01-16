@@ -8,7 +8,7 @@ image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
 tags:
   - LEDGE Reference Platform
   - SystemReady
-  - container runtime
+  - LEDGE
   - dependable boot
   - UEFI
   - U-Boot

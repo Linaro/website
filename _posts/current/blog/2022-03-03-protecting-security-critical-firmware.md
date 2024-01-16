@@ -10,7 +10,7 @@ tags:
   - Security
   - OP-TEE
   - Trusted Substrate
-  - Open Portable Trusted Execution Environment
+  - Firmware
   - TF-A
   - Encryption
 category: blog

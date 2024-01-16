@@ -8,7 +8,7 @@ tags:
 - Linaro Connect
 - Linux Kernel
 - Security
-- IoT and Embedded
+- IoT
 category: blog
 author: andrea.gallo
 ---

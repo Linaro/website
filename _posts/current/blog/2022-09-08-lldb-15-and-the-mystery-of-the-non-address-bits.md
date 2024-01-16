@@ -8,11 +8,9 @@ image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
   - LLDB
   - LLVM
-  - Non-Address Bits
   - Memory Tagging
   - Toolchain
   - MTE
-  - LLDB 15
 category: blog
 author: david.spickett
 ---

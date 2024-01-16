@@ -12,7 +12,7 @@ date: 2013-02-05 02:53:36
 tags:
   - Android
   - Android
-  - Kernel
+  - Linux Kernel
   - Linaro
   - Toolchain
 link: /blog/android-blog/update-android-kernel-tools/

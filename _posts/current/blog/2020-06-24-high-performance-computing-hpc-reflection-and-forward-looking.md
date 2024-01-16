@@ -8,13 +8,11 @@ image: /assets/images/content/hpc-bg.jpg
 tags:
   - HPC
   - Open Source
-  - High Performance Computing
   - Arm
   - Linaro
   - Fugaku
   - Supercomputing
   - Cloud
-  - Open Hpc
 related_projects:
   - HPCAI
 category: blog

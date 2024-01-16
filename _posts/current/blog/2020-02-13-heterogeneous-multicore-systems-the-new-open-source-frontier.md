@@ -11,7 +11,7 @@ tags:
   - OpenAMP
   - Zephyr
   - 96Boards
-  - IoT and Embedded
+  - IoT
 category: blog
 author: bill.fletcher
 ---

@@ -13,7 +13,6 @@ description: Mathieu Poirier looks at how the CoreSight framework, found in
   user space level.
 image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
-  - Kernel
   - Linux Kernel
 author: mathieu.poirier
 slug: coresight-perf-and-the-opencsd-library

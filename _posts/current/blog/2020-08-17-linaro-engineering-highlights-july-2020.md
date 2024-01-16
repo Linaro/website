@@ -13,7 +13,6 @@ tags:
 - Virtual Connect 2020
 - Tuxsuite
 - Qemu
-- LDCG
 - Kubernetes
 - Cloud
 - Linux Kernel

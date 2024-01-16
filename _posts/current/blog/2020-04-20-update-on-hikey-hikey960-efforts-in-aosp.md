@@ -7,7 +7,6 @@ date: 2020-04-20 11:21:20
 image: /assets/images/content/hikey-image1.png
 tags:
   - HiKey
-  - HiKey960
   - Android
 category: blog
 author: john.stultz

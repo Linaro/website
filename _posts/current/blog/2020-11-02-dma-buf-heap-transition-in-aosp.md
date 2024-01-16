@@ -8,7 +8,7 @@ image: /assets/images/content/tech_background__under_2mb.jpg
 tags:
   - Android
   - DMA BUF Heaps
-  - ION
+  - IO
 related_projects: []
 category: blog
 author: john.stultz

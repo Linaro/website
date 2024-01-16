@@ -6,8 +6,7 @@ description: In this article, Alan Bennett provides an overview of the LAVA (
   Linaro Automation and Validation Architecture) fundamentals. Read more here!
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
-  - Lava
-  - Lava
+  - LAVA
 author: alan.bennett
 slug: lava-fundamentals
 date: 2011-08-12 21:24:00+00:00

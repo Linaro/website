@@ -12,7 +12,7 @@ tags:
   - LKFT
   - Kernel Development
   - LAVA
-  - Linaro Automation and Validation Architecture
+  - Linaro
   - Software
 related_projects:
   - LKQ

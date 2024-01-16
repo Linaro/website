@@ -8,7 +8,7 @@ permalink: /services/testing-and-long-term-support/
 service_id: 9
 image: /assets/images/content/Rocket_3.png
 keywords:
-  - testing
+  - Testing
   - automated testing
   - validation
   - LAVA

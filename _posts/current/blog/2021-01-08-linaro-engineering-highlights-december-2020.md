@@ -11,7 +11,6 @@ tags:
   - Linux Kernel
   - Zephyr
   - Artificial Intelligence
-  - LCG
   - IoT
   - LKFT
 category: blog

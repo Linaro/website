@@ -13,7 +13,7 @@ image: /assets/images/content/code_banner.jpg
 tags:
   - Linux Kernel
   - Kernel Development
-  - testing
+  - Testing
   - CI
   - Tuxsuite
   - LKFT

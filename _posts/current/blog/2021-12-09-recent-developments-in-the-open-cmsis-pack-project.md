@@ -12,7 +12,7 @@ date: 2021-12-09 09:21:57 +00:00
 image: /assets/images/content/96b-nitrogen-relays-resize.jpg
 tags:
   - Open-CMSIS-Pack
-  - IoT and Embedded
+  - IoT
   - CMSIS Technology
 category: blog
 author: bill.fletcher

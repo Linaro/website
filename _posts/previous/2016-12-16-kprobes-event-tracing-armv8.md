@@ -7,7 +7,7 @@ description: In this article, David Long takes a detailed look at Kprobes Event
 image: /assets/images/content/40965990761_090a30658a_k.jpg
 tags:
   - Arm
-  - Kernel
+  - Linux Kernel
 author: david.long
 slug: kprobes-event-tracing-armv8
 date: 2016-12-16 17:37:39+00:00

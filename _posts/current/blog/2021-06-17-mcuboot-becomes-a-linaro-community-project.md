@@ -7,7 +7,7 @@ date: 2021-06-17 09:00:00
 image: /assets/images/content/cyber-security.jpg
 tags:
   - MCUboot
-  - Linaro Community Project
+  - Linaro
   - Security
   - Linux Kernel
   - Open Source

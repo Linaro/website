@@ -10,7 +10,6 @@ tags:
   - Windows On Arm
   - LLVM
   - Microsoft
-  - Visual Studio
 category: blog
 author: diana.picus
 ---

@@ -7,7 +7,7 @@ description: Linaro is a collaborative member of the Zephyr Project which has
 image: /assets/images/content/city.jpg
 tags:
   - Zephyr
-  - IoT and Embedded
+  - IoT
   - PSA Certified
   - Arm
   - Security

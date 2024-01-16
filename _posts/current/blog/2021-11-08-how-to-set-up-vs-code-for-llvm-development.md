@@ -12,8 +12,6 @@ tags:
   - WoA
   - Windows on Arm
   - LLVM
-  - Visual Studio Code
-  - LLVM
   - LLDB
 category: blog
 author: Omair.Javaid@linaro.org
