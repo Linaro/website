@@ -24,7 +24,7 @@ Trusted Applications (TAs) could initially only be verified with a single public
 
 Subkeys support was introduced in OP-TEE version 3.20.0 (released January 20th, 2023)  to provide a public key hierarchy allowing different actors to sign different TAs without sharing a private key.
 
-{% include image.html path="/assets/images/figure-1-signing-tas-with-a-common-root-key-.png" alt="Figure 1: Signing TAs with a common root key" %}
+{% include image.html path="/assets/images/content/figure-1-signing-tas-with-a-common-root-key-.png" alt="Figure 1: Signing TAs with a common root key" %}
 
 \
 **Figure 1: Signing TAs with a common root key**
@@ -33,7 +33,7 @@ The private key of the root key is needed when signing TA8 in the example in Fig
 
 Problem: if the private key of the root key leaks any of the TAs can be updated by someone with access to that key.
 
-{% include image.html path="/assets/images/figure-2-signing-tas-with-a-subkey.png" alt="Figure 2: Signing TAs with a subkey" %}
+{% include image.html path="/assets/images/content/figure-2-signing-tas-with-a-subkey.png" alt="Figure 2: Signing TAs with a subkey" %}
 
 \
 **Figure 2: Signing TAs with a subkey**\
