@@ -555,6 +555,7 @@
   "^/community(/?|/index.html)$ /hub/ [R,L,NC]",
   "^/commercial-sponsors(/?|/index.html)$ / [R,L,NC]",
   "^/cloud(/?|/index.html)$ https://linaro.cloud [R,L,NC]",
+  "^/client-devices(/?|/index.html)$ /android-ecosystem [R,L,NC]",
   "^/cdn-cgi/l/email-protection(/?|/index.html)$ / [R,L,NC]",
   "^/careers/swg-careers/security-working-group(/?|/index.html)$ /careers/ [R,L,NC]",
   "^/careers/rss(/?|/index.html)$ /careers/ [R,L,NC]",
