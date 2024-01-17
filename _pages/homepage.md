@@ -70,19 +70,4 @@ flow:
         source: home/stats_row.html
   - row: custom_include_row
     source: about/maintainers_by_project.html
-  - row: container_row
-    style: bg-secondary text-white py-0 mb-5 project_collab_section
-    sections:
-      - format: title
-        style: ""
-        title_content:
-          style: font-weight-bold
-          text: Projects Linaro and its member companies collaborate on
-          size: h2
-      - format: text
-        style: text-left
-        text_content:
-          text: This is a snapshot of some of the projects Linaro works on
-      - format: custom_include
-        source: home/projects_section.html
 ---
