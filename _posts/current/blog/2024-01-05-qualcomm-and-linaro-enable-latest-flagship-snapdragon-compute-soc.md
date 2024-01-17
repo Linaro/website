@@ -12,7 +12,6 @@ tags:
   - Debian
   - Snapdragon
   - Arm
-  - Arm64laptops
 category: blog
 author: Abel.vesa
 ---
