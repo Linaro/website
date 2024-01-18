@@ -33,8 +33,49 @@ tabs:
 
       Note: Speakers that get their talks accepted will access the event with a complimentary speaker pass.
   - title: Call for Proposals
-    description:
-      - Call for Proposals will open on January 2024.
+    description: |
+      [CLICK HERE TO SUBMIT YOUR PROPOSAL](https://www.kitefor.events/events/linaro-connect-24/call_for_papers/3)
+
+      Ready to showcase your expertise at the forefront of Arm technology?
+
+      The Linaro Connect Madrid 2024 event is calling for your proposals! Share your insights, innovations, and experiences with a global audience of tech enthusiasts, developers, and industry leaders.
+
+      Why presenting at Linaro Connect?
+
+      * Engage with a diverse community of Arm experts.
+      * Showcase your work to a global audience.
+      * Foster collaboration and exchange ideas.
+
+      DATES TO REMEMBER
+
+      CFP closes → 1 April 2024
+
+      CFP notifications → 16 April 2024
+
+      Schedule Announcement → 18 April 2024
+
+      Slides Submission → 1 May 2024
+
+      TOPICS AND CATEGORIES:
+
+      * AI & Machine Learning
+      * Android
+      * Automation and Validation
+      * Automotive
+      * Big Data
+      * Confidential Compute
+      * Data Center and Cloud
+      * High Performance Computing
+      * IoT and Embedded
+      * Gateway and Edge Computing
+      * Linux kernel
+      * Open Source Development
+      * Security
+      * SystemReady and Standards
+      * Trusted Firmware
+      * Toolchain
+      * Networking
+      * Virtualization
   - title: Sponsorship Opportunities
     description: |
       Linaro Connect Madrid 2024 is where Arm excellence gathers and gets together for 4 days full immersion about how to best implement, leverage and foster the Arm solutions. 
@@ -46,7 +87,9 @@ tabs:
       * Meet with your peers from developers and operations experts to corporate developers and senior technology executives 
       * Associate your brand with one of the fastest-growing ecosystems 
 
-      Download our Sponsorship Prospectus [here](https://fileserver.linaro.org/s/nF9DqMCzCzgWtHp) and contact connect@linaro.org to find out more!
+      Download our Sponsorship Prospectus [here](https://fileserver.linaro.org/s/nF9DqMCzCzgWtHp)
+      
+      Contact connect@linaro.org to find out more!
 
   - title: Program
     text: PROGRAM OF EVENTS COMING SOON!
