@@ -42,7 +42,7 @@
                 "description": "Development of LLVM Toolchain:<br><br><ul><li> Clang compiler</li><ul><li>  We implement new and improve existing code-size and code-speed optimizations for AArch64 and ARM targets.</ul></li><li> LLDB debugger</li><ul><li> We develop support for new ARMv8.x architectural features and improve debugging experience.</ul></li><li> Compiler-RT runtime libraries</li><ul><li>  We port and improve compiler sanitizers (ASAN, TSAN, etc.) to AArch64 and ARM architectures.  Sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.</ul></li><li> LLD linker</li><ul><li> In LLD linker we implement ELF section-level optimizations, as well as workarounds for hardware errata.</li></ul></li></ul>",
                 "title": "Arm LLVM Toolchain Enablement and CI"
             },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10422",
+            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
             "key": [
                 "LLVM"
             ],
@@ -58,7 +58,7 @@
                 "description": "The aim of this project is to make AArch64 a first class citizen in the Big Data, Analytics and Data Science community. Big Data and Data Science technologies are vital and have become mature with various production implementations. Linaro drives engineering activities and ARMv8 builds for Apache BigTop, Ambari, Spark and Hadoop.<br><br>Apache Bigtop (project for development of testing and packaging of the Apache Hadoop ecosystem) provides the only Open Source distro for big data and it supports a more comprehensive list of components and architectures than any closed source distro. It provides distros for all commercial Hadoop implementations (Cloudera, AWS, MapR, IBM, Pivotal, EMC, Azure).",
                 "title": "Big Data & Data Science"
             },
-            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10564",
             "key": [
                 "BDDS"
             ],
@@ -94,7 +94,7 @@
                 "description": "Expanding various tools (especially QEMU) to emulate new ARM architectural features so open source projects can rapidly adopt the latest technology. We also continually improve ARMs hardware virtualization aiming for feature parity with other popular enterprise architectures.",
                 "title": "Enable Arm Architecture in QEMU"
             },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10562",
+            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
             "key": [
                 "QEMU"
             ],
@@ -283,7 +283,7 @@
                 "description": "Linaro's hosted activities to improve and support the Google <a href=\"https://www.tensorflow.org/\">+TensorFlow+</a> project on AArch64 via continuous integration to ensure Arm 64bit is a first class citizen.<br><br><br><br>Google TensorFlow is a high profile framework used in a wide variety of ways to provide Machine Learning wherever it is needed, from edge devices to high end servers. It has a large community who contribute to and make use of TensorFlow in their research projects or businesses.",
                 "title": "TensorFlow"
             },
-            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10588",
             "key": [
                 "TENS"
             ],
@@ -301,7 +301,7 @@
                 "description": "The thermal framework in the Linux kernel is designed to protect the silicon and exports the<br>thermal zone information to userspace. That includes the temperature but<br>also the different notifications telling about the cooling device state<br>changes as well as the temperature trip point crossed the way up or down.<br><br>Even though the thermal framework works well, some features are missing<br>and some parts can be improved to prevent overshoots leading to a<br>performance drop action.<br><br>These changes are found in out of tree kernels and needs to be carried<br>into the upstream kernel conforming to the Linux coding, design and<br>implementation standards.<br><br>Some issues with the current implementation have also been found and need to be fixed to allow the thermal daemons to act correctly and in time to mitigate the thermal situation on different devices.",
                 "title": "Thermal Enhancements"
             },
-            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10421",
             "key": [
                 "TE"
             ],
@@ -383,7 +383,7 @@
                 "description": "Windows on Arm ecosystem is a growing list of open source tools, libraries, compilers and software that are used by developers, companies and other software vendors. The key to a sustaining WoA ecosystem is to help these open source projects port their existing s/w to Arm architecture on Windows and help them with build and runtime issues leveraging the Windows and Arm architecture expertise at Linaro.<br><br><br><br>By working with the open source community Linaro helps foster strong relationships between the community and partners in the industry benefiting both equally. The goal of this project is to ensure sustainability of this software ecosystem for all Arm partners running the Windows operating system.",
                 "title": "Windows on Arm"
             },
-            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10558",
             "key": [
                 "WOA"
             ],
