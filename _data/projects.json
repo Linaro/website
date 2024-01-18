@@ -42,7 +42,7 @@
                 "description": "Development of LLVM Toolchain:<br><br><ul><li> Clang compiler</li><ul><li>  We implement new and improve existing code-size and code-speed optimizations for AArch64 and ARM targets.</ul></li><li> LLDB debugger</li><ul><li> We develop support for new ARMv8.x architectural features and improve debugging experience.</ul></li><li> Compiler-RT runtime libraries</li><ul><li>  We port and improve compiler sanitizers (ASAN, TSAN, etc.) to AArch64 and ARM architectures.  Sanitizer changes are then merged into GCC to have both LLVM and GNU toolchains provide sanitizer features.</ul></li><li> LLD linker</li><ul><li> In LLD linker we implement ELF section-level optimizations, as well as workarounds for hardware errata.</li></ul></li></ul>",
                 "title": "Arm LLVM Toolchain Enablement and CI"
             },
-            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10422",
             "key": [
                 "LLVM"
             ],
@@ -94,7 +94,7 @@
                 "description": "Expanding various tools (especially QEMU) to emulate new ARM architectural features so open source projects can rapidly adopt the latest technology. We also continually improve ARMs hardware virtualization aiming for feature parity with other popular enterprise architectures.",
                 "title": "Enable Arm Architecture in QEMU"
             },
-            "icon": "https://www.linaro.org/assets/images/Linaro-Sprinkle.png",
+            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10562",
             "key": [
                 "QEMU"
             ],
