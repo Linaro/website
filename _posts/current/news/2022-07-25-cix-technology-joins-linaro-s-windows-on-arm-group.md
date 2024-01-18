@@ -6,8 +6,7 @@ description: Today CIX Technology joined Linaro's Windows on Arm Group. Read the
 date: 2022-07-25 07:13:18 +01:00
 image: /assets/images/content/cix_1.png
 tags:
-  - windows on arm
-  - woa
+  - Windows On Arm
   - CIX Technology
   - SystemReady
 category: news

@@ -6,10 +6,8 @@ description: In this blog, Paul Liu talks about how HTTP is now supported in
 date: 2023-01-24 01:39:16 +00:00
 image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
-  - U-boot
+  - U-Boot
   - HTTP
-  - TCP
-  - wget
 category: blog
 author: paul_liu
 ---

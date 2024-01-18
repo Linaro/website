@@ -11,8 +11,7 @@ tags:
   - Linaro
   - Open Source
   - Arm
-  - Linux
-  - Kernel
+  - Linux Kernel
   - Software
 image: /assets/images/blog/uncompressed_crowd4.JPG
 ---

@@ -8,8 +8,6 @@ date: 2020-07-30 12:19:31+00:00
 image: /assets/images/content/electricity-1288717_1920-1-.jpg
 tags:
   - Thermal Framework
-  - Thermal Zone
-  - Thermal Notifications
   - Netlink
 related_projects:
   - PERF

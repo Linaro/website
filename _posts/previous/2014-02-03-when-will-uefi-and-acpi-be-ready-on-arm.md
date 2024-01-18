@@ -11,10 +11,8 @@ author: grant.likely
 slug: when-will-uefi-and-acpi-be-ready-on-arm
 date: 2014-02-03 18:58:27
 tags:
-  - Kernel
   - Linaro
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Software
 link: /blog/when-will-uefi-and-acpi-be-ready-on-arm/
 category: blog

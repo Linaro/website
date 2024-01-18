@@ -6,10 +6,8 @@ description: In this blog, we look at Multi-Circular Queue (MCQ) support and how
 date: 2023-02-14 01:21:12 +00:00
 image: /assets/images/content/Banner_Virtualization.jpg
 tags:
-  - UFS
   - Universal Flash Storage
   - MCQ
-  - Multi-Circular Queue
   - Qualcomm
   - Linux Kernel
 category: blog

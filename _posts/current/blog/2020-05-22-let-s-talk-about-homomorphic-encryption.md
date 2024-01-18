@@ -7,7 +7,7 @@ description: In this blog post we’re going to set aside the traditional
 date: 2020-05-22 12:16:28
 image: /assets/images/content/cyber-security.jpg
 tags:
-  - Homomorphic Encryption
+  - Encryption
   - Linaro
 category: blog
 author: joakim.bech

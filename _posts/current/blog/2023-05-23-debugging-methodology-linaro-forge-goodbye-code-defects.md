@@ -8,7 +8,6 @@ image: /assets/images/content/Banner_Toolchain.jpg
 tags:
   - HPC
   - Linaro Forge
-  - Linaro DDT
   - Debugging
 category: blog
 author: Beau_Paisley

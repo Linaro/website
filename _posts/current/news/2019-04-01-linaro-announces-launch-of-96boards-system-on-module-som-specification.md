@@ -12,7 +12,7 @@ tags:
   - Linaro
   - Arm
   - Open Source
-  - AI
+  - Artificial Intelligence
   - Rockchip
 category: news
 author: linaro

@@ -11,9 +11,9 @@ description: >
 date: 2022-02-08 02:14:57 +00:00
 image: /assets/images/content/code_banner.jpg
 tags:
-  - Linux kernel quality
-  - Linux kernel functional test
-  - testing
+  - Linux Kernel
+  - Kernel Development
+  - Testing
   - CI
   - Tuxsuite
   - LKFT

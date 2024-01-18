@@ -7,8 +7,7 @@ description: "In this blog we look back at the first year of Linaro's Windows
 date: 2022-12-19 09:28:41 +00:00
 image: /assets/images/content/blog_python_woa.jpg
 tags:
-  - Windows on Arm
-  - WOA
+  - Windows On Arm
   - Arm
   - Microsoft
   - Linaro

@@ -9,8 +9,7 @@ tags:
   - 96Boards
   - Linaro
   - Linaro Connect
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
 author: linaro
 slug: linaro-announces-first-development-board-compliant-96boards-iot-edition-specification
 date: 2016-09-26 19:12:46

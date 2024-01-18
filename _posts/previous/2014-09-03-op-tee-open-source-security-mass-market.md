@@ -8,7 +8,7 @@ comments: false
 title: OP-TEE, open-source security for the mass-market
 tags:
   - Android
-  - Qemu
+  - QEMU
 link: /blog/core-dump/op-tee-open-source-security-mass-market/
 description: In this article, Joakim Bech takes a detailed look at the history
   of OP-TEE, the open-source security for the mass market. Read more on what

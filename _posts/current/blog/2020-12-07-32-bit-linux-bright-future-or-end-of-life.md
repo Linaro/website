@@ -6,11 +6,10 @@ description: In this article, Arnd Bergmann provides an overview into the past,
 date: 2020-12-07 11:27:17
 image: /assets/images/content/road-timelapse.jpg
 tags:
-  - Linux
+  - Linux Kernel
   - 32 bit
-  - 64 bit
   - Arm
-  - open source
+  - Open Source
 category: blog
 author: arnd.bergmann
 ---

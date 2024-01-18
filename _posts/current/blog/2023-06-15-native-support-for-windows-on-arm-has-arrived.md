@@ -7,7 +7,7 @@ description: In this blog, we look at some of the big announcements made at
 date: 2023-06-15 11:22:14 +01:00
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
 tags:
-  - Windows on Arm
+  - Windows On Arm
 category: blog
 author: andrea.gallo
 ---

@@ -7,7 +7,6 @@ layout: post
 link: /news/linaro-announces-keynote-speakers-demos-upcoming-linaro-connect-hong-kong/
 slug: linaro-announces-keynote-speakers-demos-upcoming-linaro-connect-hong-kong
 tags:
-- Connect
 - Connect Events
 - Linaro
 - Linaro Connect

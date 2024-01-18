@@ -9,8 +9,7 @@ tags:
   - IoT
   - Linaro
   - Linaro Connect
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - LITE
   - Open Source
 author: linaro

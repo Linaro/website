@@ -7,7 +7,7 @@ date: 2019-09-23 01:00:00
 image: /assets/images/content/PR_Trusted_Firmware_banner_pic.jpg
 tags:
   - Linaro
-  - Trusted Firmware
+  - Trusted Substrate
 category: news
 author: linaro
 ---

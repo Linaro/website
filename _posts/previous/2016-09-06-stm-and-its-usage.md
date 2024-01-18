@@ -13,9 +13,8 @@ slug: stm-and-its-usage
 date: 2016-09-06 04:24:15
 tags:
   - Linaro
-  - Linux
-  - Linux On Arm
-  - Open Source Software
+  - Linux Kernel
+  - Open Source
 link: /blog/core-dump/stm-and-its-usage/
 category: blog
 ---

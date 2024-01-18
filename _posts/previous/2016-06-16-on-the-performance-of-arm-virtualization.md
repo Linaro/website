@@ -16,8 +16,7 @@ date: 2016-06-16 18:37:46
 tags:
   - Arm
   - KVM
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Virtualization
   - VM
 link: /blog/core-dump/on-the-performance-of-arm-virtualization/

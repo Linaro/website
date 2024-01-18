@@ -13,8 +13,7 @@ slug: linaro-appoints-jill-guo-to-lead-greater-china-operations
 date: 2015-10-20 15:25:54
 tags:
   - Linaro
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Open Source
 link: /news/linaro-appoints-jill-guo-to-lead-greater-china-operations/
 category: news

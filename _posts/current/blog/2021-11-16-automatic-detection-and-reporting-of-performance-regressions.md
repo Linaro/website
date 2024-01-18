@@ -10,11 +10,10 @@ date: 2021-11-16 05:09:40 +00:00
 image: /assets/images/content/tech_background.jpg
 tags:
   - LKFT
-  - Linux Kernel Functional Test
+  - Kernel Development
   - LAVA
-  - Linaro Automation and Validation Architecture
-  - SQUAD
-  - Software Quality Dashboard
+  - Linaro
+  - Software
 related_projects:
   - LKQ
 category: blog

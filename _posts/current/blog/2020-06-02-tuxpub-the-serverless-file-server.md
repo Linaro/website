@@ -4,10 +4,8 @@ title: tuxpub - The Serverless File Server
 date: '2020-06-02 12:10:28'
 image: /assets/images/content/code_highway_small.jpg
 tags:
-- Tuxpub
+- Tuxsuite
 - Server
-- Tux Build
-- Tuxboot
 category: blog
 author: ben.copeland@linaro.org
 ---

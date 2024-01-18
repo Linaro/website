@@ -9,9 +9,7 @@ description: "The scheduler has seen a lot of change over the past couple of
 date: 2020-04-06 04:10:19
 image: /assets/images/content/37319206961_0b863ab87d_k.jpg
 tags:
-  - PELT
   - CPU
-  - Linux Scheduler
   - Linux Kernel
 category: blog
 author: vincent.guittot

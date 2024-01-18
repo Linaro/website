@@ -7,7 +7,7 @@ description: In this article, Amit Pundir takes a detailed look at running AOSP
 date: 2020-04-15 11:37:57
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
 tags:
-  - Android Ecosystem
+  - Android
 category: blog
 author: amit.pundir@linaro.org
 ---

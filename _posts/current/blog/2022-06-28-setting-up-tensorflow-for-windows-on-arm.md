@@ -6,10 +6,8 @@ description: In this blog, Everton Constantino talks about how to set up
 date: 2022-06-28 10:34:14 +01:00
 image: /assets/images/content/Banner_AI.jpg
 tags:
-  - windows on arm
-  - tensor flow
-  - bazel
-  - machine learning
+  - Windows On Arm
+  - Machine Learning
 category: blog
 author: everton.constantino
 ---

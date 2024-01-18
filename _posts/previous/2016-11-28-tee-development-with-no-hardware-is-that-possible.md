@@ -13,9 +13,8 @@ slug: tee-development-with-no-hardware-is-that-possible
 date: 2016-11-28 17:06:06
 tags:
   - Linaro
-  - Linux
-  - Linux On Arm
-  - Qemu
+  - Linux Kernel
+  - QEMU
   - TEE
 link: /blog/tee-development-with-no-hardware-is-that-possible/
 category: blog

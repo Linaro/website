@@ -6,9 +6,9 @@ description: >
 date: 2022-01-18 09:36:32 +00:00
 image: /assets/images/content/careers-image-1.jpg
 tags:
-  - Linux kernel
+  - Linux Kernel
   - Qualcomm
-  - 5.16 kernel release
+  - Kernel Release
   - Arm
 category: blog
 author: linaro

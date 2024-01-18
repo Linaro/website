@@ -6,10 +6,8 @@ description: In this article, Alex Bennée provides an overview of what's new in
   the latest 2.9 version of QEMU. Read more here!
 image: /assets/images/content/Banner_Virtualization.jpg
 tags:
-  - Qemu
+  - QEMU
   - Virtualization
-  - Tiny Code Generator
-  - TCG
 author: alex.bennee
 slug: whats-new-qemu-2-9
 date: 2017-04-19 16:46:38+00:00

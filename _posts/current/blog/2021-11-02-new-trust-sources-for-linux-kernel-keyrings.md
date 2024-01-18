@@ -7,12 +7,10 @@ description: In this blog, our Engineer talks about how Linaro helped generalize
 date: 2021-11-02 01:53:36 +00:00
 image: /assets/images/content/Security_screen.jpg
 tags:
-  - Linux kernel keyrings
+  - Linux Kernel
   - Security
-  - TPM
-  - Trusted Platform Module
-  - Trustzone
-  - Trust Source
+  - Trusted Platform
+  - TrustZone
 category: blog
 author: sumit.garg
 ---

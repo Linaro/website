@@ -10,8 +10,7 @@ comments: false
 title: Qualcomm Innovation Center becomes Core Member of Linaro
 tags:
   - Linaro
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Members
 link: /news/qualcomm-innovation-center-becomes-core-member-of-linaro/
 image: /assets/images/content/Code_Image_Core_tech.jpg

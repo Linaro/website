@@ -12,11 +12,8 @@ date: 2015-07-22 20:22:08
 comments: false
 title: How To Add A New System Service To Android 5
 tags:
-  - Android
-  - Kernel
   - Linaro
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Android
 link: /blog/adding-a-new-system-service-to-android-5-tips-and-how-to/
 image: /assets/images/content/Client_Devices_banner_pic.jpg

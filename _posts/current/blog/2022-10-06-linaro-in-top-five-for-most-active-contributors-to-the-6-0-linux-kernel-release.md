@@ -7,10 +7,9 @@ description: "In this blog we talk about Linaro's contributions to the 6.0 Linux
 date: 2022-10-06 03:51:13 +01:00
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
-  - linux kernel
-  - "6.0"
-  - open source
-  - Arm Soc
+  - Linux Kernel
+  - Open Source
+  - Arm
 category: blog
 author: linaro
 ---

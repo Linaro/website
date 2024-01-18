@@ -14,7 +14,6 @@ slug: linaro-announces-lemaker-as-a-member-of-the-linaro-community-boards-group
 date: 2015-06-20 00:04:38
 tags:
   - 96Boards
-  - LCG
   - Linaro
 link: /news/linaro-announces-lemaker-as-a-member-of-the-linaro-community-boards-group/
 category: news

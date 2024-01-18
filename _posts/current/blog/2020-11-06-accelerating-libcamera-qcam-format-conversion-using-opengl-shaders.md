@@ -7,7 +7,7 @@ description: In this article, Show Liu takes a detailed look at accelerating
 date: 2020-11-06 10:26:43
 image: /assets/images/content/code_highway-2-.jpg
 tags:
-  - libcamera
+  - Qualcomm
   - RockPi4B
   - Rockchip RK3399
 related_projects: []

@@ -9,7 +9,7 @@ date: 2020-05-20 16:00:00+00:00
 image: /assets/images/content/tech_background_1.jpg
 tags:
   - Linaro
-  - Qemu
+  - QEMU
   - VirtIO
 related_projects:
   - STR

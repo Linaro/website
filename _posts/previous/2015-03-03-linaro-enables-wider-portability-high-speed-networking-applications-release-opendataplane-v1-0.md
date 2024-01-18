@@ -9,11 +9,9 @@ description: OpenDataPlane (ODP) enables proven software portability between
   software acceleration capability.
 image: /assets/images/content/Banner_Virtualization.jpg
 tags:
-  - Connect
   - Linaro
   - Linaro Connect
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Networking
   - Open Source
 author: linaro

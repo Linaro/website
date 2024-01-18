@@ -11,7 +11,7 @@ tags:
 - Arm
 - LEG
 - Linaro
-- Linux On Arm
+- Linux Kernel
 title: Linaro announces Alibaba Group as latest member
 wordpress_id: 8428
 ---

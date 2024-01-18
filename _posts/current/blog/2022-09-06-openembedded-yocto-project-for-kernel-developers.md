@@ -6,8 +6,7 @@ description: "In this blog we look at how to have a working filesystem image
 date: 2022-09-06 01:34:53 +01:00
 image: /assets/images/content/Code_Image_Core_tech.jpg
 tags:
-  - Yocto
-  - The Yocto Project
+  - Yocto Project
   - OpenEmbedded
   - Kernel Development
   - Training

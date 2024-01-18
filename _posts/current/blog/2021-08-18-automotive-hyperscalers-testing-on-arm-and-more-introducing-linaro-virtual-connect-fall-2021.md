@@ -7,7 +7,7 @@ date: 2021-08-18 08:57:31 -04:00
 image: /assets/images/content/48784720458_63040ac998_k.jpg
 strap_image: /assets/images/content/48784720458_63040ac998_k.jpg
 tags:
-  - connect
+  - Linaro Connect
 category: blog
 author: connect
 ---

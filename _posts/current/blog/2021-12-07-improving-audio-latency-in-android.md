@@ -8,11 +8,8 @@ description: How do you save power on a power-constrained system while always
 date: 2021-12-07 01:43:00 +00:00
 image: /assets/images/content/code.jpg
 tags:
-  - Synthmark
-  - audio latency
-  - power
-  - performance
-  - CPUs
+  - Android
+  - CPU
 related_projects: []
 category: blog
 author: paolo.valente

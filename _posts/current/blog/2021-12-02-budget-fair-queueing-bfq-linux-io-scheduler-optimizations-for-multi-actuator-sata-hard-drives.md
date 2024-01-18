@@ -9,9 +9,7 @@ image: /assets/images/content/road-timelapse.jpg
 tags:
   - BFQ
   - I/OScheduler
-  - Budget Fair Queueing
-  - Linux IO Optimizations
-  - Multi-Actuator SATA HardDrives
+  - Linux Kernel
 related_projects:
   - PERF
 category: blog

@@ -8,10 +8,8 @@ layout: post
 link: /blog/core-dump/accelerated-aes-for-the-arm64-linux-kernel/
 slug: accelerated-aes-for-the-arm64-linux-kernel
 tags:
-  - Aarch64
+  - AArch64
   - Arm
-  - Kernel
-  - Linux
   - Linux Kernel
 title: Accelerated AES for Arm64 Linux Kernel
 description: >

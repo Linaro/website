@@ -8,7 +8,6 @@ description: >
 date: 2023-10-23 11:43:39 +02:00
 image: /assets/images/content/istock-1220974008_sm.jpg
 tags:
-  - WindowsPerf
   - Windows On Arm
 category: blog
 author: " Przemyslaw_Wirkus"

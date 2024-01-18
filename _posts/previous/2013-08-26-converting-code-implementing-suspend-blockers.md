@@ -13,10 +13,7 @@ slug: converting-code-implementing-suspend-blockers
 date: 2013-08-26 13:33:07
 tags:
   - Android
-  - Android
-  - Android Kernel
   - Linaro
-  - Linux
   - Linux Kernel
 link: /blog/android-blog/converting-code-implementing-suspend-blockers/
 category: blog

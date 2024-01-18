@@ -6,9 +6,9 @@ description: >
 date: 2020-11-17 03:44:32
 image: /assets/images/content/tech_background__under_2mb.jpg
 tags:
-  - Android Ecosystem
+  - Android
   - DMA BUF Heaps
-  - ION
+  - IO
 related_projects: []
 category: blog
 author: john.stultz

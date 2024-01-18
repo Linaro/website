@@ -12,8 +12,7 @@ slug: linaro-appoints-guy-berruyer-chairman
 date: 2015-10-27 13:07:00
 tags:
   - Linaro
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Open Source
 link: /news/linaro-appoints-guy-berruyer-chairman/
 category: news

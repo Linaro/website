@@ -6,7 +6,6 @@ description: In this article, Ilias Apalodimas takes a detailed look at
 date: 2021-01-04 02:16:09
 image: /assets/images/content/tech_background.jpg
 tags:
-  - Bootloaders
   - Security
   - U-Boot
   - UEFI

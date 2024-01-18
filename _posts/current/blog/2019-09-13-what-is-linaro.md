@@ -8,7 +8,7 @@ date: 2019-09-13 01:15:44
 image: /assets/images/content/davidblogsep2019.jpg
 tags:
   - Arm
-  - Linux
+  - Linux Kernel
   - Open Source
   - Collaborative Engineering
   - Linaro

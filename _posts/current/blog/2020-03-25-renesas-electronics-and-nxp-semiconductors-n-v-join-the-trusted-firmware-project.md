@@ -6,7 +6,7 @@ description: Renesas Electronics and NXP Semiconductors N.V. join the Trusted
 date: 2020-03-25 05:34:48
 image: /assets/images/content/shutterstock_723213985-web.jpg
 tags:
-  - Trusted Firmware
+  - Trusted Substrate
   - NXP
   - Security
   - Arm

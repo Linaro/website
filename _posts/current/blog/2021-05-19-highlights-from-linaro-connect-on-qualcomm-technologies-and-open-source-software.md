@@ -8,13 +8,11 @@ date: 2021-05-19 04:20:25
 image: /assets/images/content/tech_background.jpg
 tags:
   - Qualcomm
-  - open source software
-  - upstream
-  - linux
-  - dragonboard 410c
-  - Robotics RB5
-  - Dragonboard 820c
-  - Robotics RB3
+  - Open Source
+  - Upstream
+  - Linux Kernel
+  - Robotics
+  - Dragonboard
   - Snapdragon
 category: blog
 author: nicolas.dechesne

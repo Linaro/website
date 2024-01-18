@@ -8,11 +8,10 @@ date: 2021-03-18 03:54:31
 image: /assets/images/content/Dots_lines_datacenter_UNDER_2MB.jpg
 tags:
   - HPC
-  - AI
-  - data center
-  - artificial intelligence
+  - Artificial Intelligence
+  - Datacenter
   - Arm
-  - open source
+  - Open Source
 related_projects:
   - HPCAI
 category: blog

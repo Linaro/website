@@ -8,12 +8,11 @@ image: /assets/images/content/tech_background_1.jpg
 tags:
   - LLVM
   - SVE
-  - AArcg64
+  - AArch64
   - HPC
   - LLDB
   - Debugging
-  - Kernel
-  - Linux
+  - Linux Kernel
 related_projects:
   - LLVM
 category: blog

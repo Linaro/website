@@ -9,7 +9,6 @@ date: 2020-05-07 04:47:27
 image: /assets/images/content/code.jpg
 tags:
 - Linaro
-- News
 category: blog
 author: jon.burcham@linaro.org
 ---

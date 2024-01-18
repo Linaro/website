@@ -7,7 +7,7 @@ description: In this blog, David Brown explains the process and measures taken
 date: 2020-11-26 04:21:45
 image: /assets/images/content/cyber-security.jpg
 tags:
-  - Zephyr
+  - Zephyr Project
   - Security
   - Lite
 category: blog

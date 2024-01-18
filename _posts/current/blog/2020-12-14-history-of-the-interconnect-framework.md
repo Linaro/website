@@ -6,7 +6,6 @@ description: In this article, Georgi Djakov takes a detailed look at the history
 date: 2020-12-22 04:28:00
 image: /assets/images/content/city.jpg
 tags:
-  - Power & Performance
   - BUS scaling
 related_projects:
   - PERF

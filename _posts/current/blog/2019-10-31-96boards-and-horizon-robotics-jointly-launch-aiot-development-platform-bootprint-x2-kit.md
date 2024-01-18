@@ -6,7 +6,7 @@ date: '2019-10-31 11:48:43'
 image: /assets/images/content/27094831048_6ecb96f52a_o.jpg
 tags:
 - 96Boards
-- AI
+- Artificial Intelligence
 - Arm
 - Developer
 category: news

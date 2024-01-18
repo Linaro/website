@@ -9,10 +9,10 @@ image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
   - Linux Kernel
   - Qualcomm
-  - 6.3Kernel Release
-  - Devicetree
+  - Kernel Release
+  - DeviceTree
   - Snapdragon
-  - 32-bit Arm
+  - 32 bit
 category: blog
 author: linaro
 ---

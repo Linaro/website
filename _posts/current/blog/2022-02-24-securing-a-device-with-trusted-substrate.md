@@ -8,7 +8,7 @@ image: /assets/images/content/Banner_Security.jpg
 tags:
   - Trusted Substrate
   - UEFI
-  - Uboot
+  - U-Boot
   - Embedded
   - Security
 category: blog

@@ -7,11 +7,11 @@ description: Heterogeneous multicore computing is now all-pervasive with a
 date: 2020-02-13 04:23:39
 image: /assets/images/content/IoT.jpg
 tags:
-  - Device Tree
+  - DeviceTree
   - OpenAMP
-  - Zephyr
+  - Zephyr Project
   - 96Boards
-  - IoT and Embedded
+  - IoT
 category: blog
 author: bill.fletcher
 ---

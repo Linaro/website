@@ -8,10 +8,10 @@ date: 2021-06-22 02:15:39
 image: /assets/images/content/code.jpg
 tags:
   - LKFT
-  - Linaro's Kernel Functional Test Framework
+  - Kernel Development
   - Linux Kernel
   - LAVA
-  - Linaro Automation and Validation Architecture
+  - Linaro
   - MMTests
 related_projects:
   - LKQ

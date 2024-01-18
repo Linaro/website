@@ -8,7 +8,7 @@ image: /assets/images/content/Code_Upstream_72.jpg
 tags:
   - LLVM
   - Toolchain
-  - Code Size
+  - Code Optimization
 category: blog
 author: Antoine Moynault
 ---

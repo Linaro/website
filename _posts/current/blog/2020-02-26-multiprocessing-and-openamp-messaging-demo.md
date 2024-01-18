@@ -6,9 +6,8 @@ description: >
 date: 2020-02-26 11:54:46
 image: /assets/images/content/Billsdemo.png
 tags:
-  - Multiprocessing
   - OpenAMP
-  - Zephyr
+  - Zephyr Project
   - IoT
   - Embedded
   - 96Boards

@@ -6,12 +6,10 @@ title: Linaro Updates Schedule and List of Keynote Speakers for Linaro Connect
 description: "Cambridge, UK: 1 September 2016"
 image: /assets/images/content/48784720458_63040ac998_k.jpg
 tags:
-  - Connect
   - Connect Events
   - Linaro
   - Linaro Connect
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Open Source
 author: linaro
 slug: linaro-updates-schedule-list-keynote-speakers-linaro-connect-las-vegas-2016

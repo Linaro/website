@@ -14,8 +14,7 @@ slug: energy-aware-scheduling-eas-progress-update
 date: 2015-09-18 19:01:52
 tags:
   - Arm
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
 link: /blog/core-dump/energy-aware-scheduling-eas-progress-update/
 category: blog
 ---
