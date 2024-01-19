@@ -7,7 +7,7 @@ description: >
   media.  Let’s see how we can use the feature and install a standard Fedora
   distro on the fly, instead of installing it via local media.
 date: 2024-01-19 10:00:49 +07:00
-image: /assets/images/content/Auto_IoT_Edge_banner_pic.jpg
+image: /assets/images/content/Banner_Virtualization.jpg
 tags:
   - embedded
   - U-Boot
