@@ -6,7 +6,7 @@ description: >
   platform we can install and run Fedora on the fly instead of using a local
   media.  Let’s see how we can use the feature and install a standard Fedora
   distro on the fly, instead of installing it via local media.
-date: 2023-11-08 04:53:41 +01:00
+date: 2024-01-19 10:00:49 +07:00
 image: /assets/images/content/Auto_IoT_Edge_banner_pic.jpg
 tags:
   - embedded
