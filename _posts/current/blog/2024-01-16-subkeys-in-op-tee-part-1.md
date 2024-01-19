@@ -5,7 +5,7 @@ description: Up to now, Trusted Applications (TAs) for OP-TEE could be signed
   and later verified by a single certificate. When multiple vendors are involved
   though having a single signer doesn’t scale well. In this blog, we will
   explore the latest OP-TEE additions allowing multiple signers of TAs.
-date: 2024-01-16 09:42:06 +07:00
+date: 2024-01-22 11:48:06 +07:00
 image: /assets/images/content/Code_Image_Core_tech.jpg
 tags:
   - OP-TEE
