@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Subkeys in OP-TEE part I
+title: "Subkeys in OP-TEE part I "
 description: Up to now, Trusted Applications (TAs) for OP-TEE could be signed
   and later verified by a single certificate. When multiple vendors are involved
   though having a single signer doesn’t scale well. In this blog, we will
@@ -48,9 +48,7 @@ In this blog we did a quick overview of subkeys, in the coming part 2 we will do
 * Join the [Linaro OP-TEE Contributions (LOC) monthly meeting](https://www.trustedfirmware.org/meetings/) or check out the project page [Linaro's OP-TEE Contributions - Confluence](https://linaro.atlassian.net/wiki/spaces/LOC/overview)
 * Visit the [OP-TEE page](https://www.trustedfirmware.org/projects/op-tee/) at trusted firmware.
 
-Thank you for reading this far. If you have any questions or thoughts feel free to 
-
-create an issue at <https://github.com/OP-TEE/optee_os/issues> or to reach out on the mailing list. You’re also welcome to join the LOC meetings.
+Thank you for reading this far. If you have any questions or thoughts feel free to create an issue at <https://github.com/OP-TEE/optee_os/issues> or to reach out on the mailing list. You’re also welcome to join the LOC meetings.
 
 # References
 
