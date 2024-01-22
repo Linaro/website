@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Subkeys in OP-TEE part I
+title: "Subkeys in OP-TEE part I "
 description: Up to now, Trusted Applications (TAs) for OP-TEE could be signed
   and later verified by a single certificate. When multiple vendors are involved
   though having a single signer doesn’t scale well. In this blog, we will
