@@ -9,9 +9,8 @@ image: /assets/images/content/tech_background_1.jpg
 tags:
   - Qualcomm
   - Snapdragon
-  - Linux
-  - kernel
-  - arm64
+  - Linux Kernel
+  - Arm
 category: blog
 author: vinod.koul
 ---

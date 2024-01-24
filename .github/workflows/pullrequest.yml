@@ -31,7 +31,7 @@ jobs:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Merge test branch
-        uses: linaro-its/merge-test-branch@v2.6
+        uses: linaro-its/merge-test-branch@v2.7
         with:
           path: website
 

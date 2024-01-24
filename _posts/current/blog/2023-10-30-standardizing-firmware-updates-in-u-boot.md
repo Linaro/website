@@ -11,10 +11,9 @@ image: /assets/images/content/istock-1201405775_150dpi.jpg
 tags:
   - U-Boot
   - Firmware
-  - Firmware_update
   - UEFI
   - Embedded
-  - CapsuleUpdates
+  - Tuxsuite
 category: blog
 author: sughosh.ganu
 ---

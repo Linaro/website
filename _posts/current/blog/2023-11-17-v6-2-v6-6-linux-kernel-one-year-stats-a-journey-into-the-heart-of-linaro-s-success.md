@@ -10,12 +10,11 @@ description: >
 date: 2023-11-20 08:34:33 +01:00
 image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
-  - 6.6 kernel release
-  - Linux kernel
-  - arm
-  - linux
-  - open source
-  - software
+  - Kernel Release
+  - Linux Kernel
+  - Arm
+  - Open Source
+  - Software
 category: blog
 author: linaro
 ---

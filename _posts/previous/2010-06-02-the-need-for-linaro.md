@@ -8,7 +8,7 @@ title: The need for Linaro
 category: blog
 tags:
 - Arm
-- Linux
+- Linux Kernel
 - Open Source
 ---
 

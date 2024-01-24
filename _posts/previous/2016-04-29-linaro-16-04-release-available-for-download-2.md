@@ -11,10 +11,8 @@ description: Linaro's 16.04 release is now available for download. See detailed
 image: /assets/images/content/Banner_Core_Technologies.jpg
 tags:
   - Android
-  - Kernel
   - Linaro
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Open Source
 author: linaro
 slug: linaro-16-04-release-available-for-download-2

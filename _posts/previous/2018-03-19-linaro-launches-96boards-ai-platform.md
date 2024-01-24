@@ -7,10 +7,9 @@ description: Linaro announces 96Boards.ai and availability of a range of
 image: /assets/images/blog/96boards-ai.png
 tags:
   - Linaro
-  - Connect
+  - Linaro Connect
   - 96Boards
   - Artificial Intelligence
-  - AI
 author: linaro
 published: true
 date: 2018-03-19 00:00:00

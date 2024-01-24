@@ -9,7 +9,7 @@ category: news
 published: true
 tags:
 - Linaro
-- Connect
+- Linaro Connect
 - LTS
 - Software
 keywords: Linaro, Connect, HKG18, OpenDataPlane, New Release, LTS, Tiger, Moth, Software

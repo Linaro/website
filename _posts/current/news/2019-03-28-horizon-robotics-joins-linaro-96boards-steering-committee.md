@@ -12,7 +12,7 @@ tags:
 - Linaro
 - Arm
 - Open Source
-- AI
+- Artificial Intelligence
 image: /assets/images/content/machine-learning-bg.jpg
 ---
 

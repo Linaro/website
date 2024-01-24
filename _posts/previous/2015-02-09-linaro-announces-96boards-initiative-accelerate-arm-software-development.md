@@ -9,8 +9,7 @@ image: /assets/images/content/Code_Image_Core_tech.jpg
 tags:
   - Linaro
   - Linaro Connect
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Open Source
 author: linaro
 slug: linaro-announces-96boards-initiative-accelerate-arm-software-development

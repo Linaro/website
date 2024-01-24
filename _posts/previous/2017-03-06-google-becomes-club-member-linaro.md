@@ -17,8 +17,7 @@ tags:
   - Google
   - Linaro
   - Linaro Connect
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Membership
 link: /news/google-becomes-club-member-linaro/
 category: news

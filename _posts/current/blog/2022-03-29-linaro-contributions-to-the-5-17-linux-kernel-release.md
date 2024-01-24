@@ -7,7 +7,7 @@ date: 2022-03-12 09:04:13 +00:00
 image: /assets/images/content/30921180788_34ce2cd5f8_c.jpg
 tags:
   - Linux Kernel
-  - 5.17 linux kernel release
+  - Kernel Release
   - Open Source
 category: blog
 author: linaro

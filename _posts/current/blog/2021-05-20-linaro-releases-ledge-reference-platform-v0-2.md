@@ -6,10 +6,8 @@ description: " This blog talks about the LEDGE Reference Platform v0.2 release
 date: 2021-05-20 10:03:26
 image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
 tags:
-  - LEDGE Reference Platform
   - SystemReady
-  - container runtime
-  - dependable boot
+  - LEDGE
   - UEFI
   - U-Boot
   - Linux Kernel

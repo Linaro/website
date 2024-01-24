@@ -6,12 +6,11 @@ description: In this article, David Spickett talks about how Top Byte Ignore
 date: 2023-02-08 09:32:00 +00:00
 image: /assets/images/content/Code_Image_Core_tech.jpg
 tags:
-  - Top Byte Ignore
-  - TBI
+  - Memory Tagging
   - LLVM
   - GNU
-  - AARch64
-  - Virtual Adresses
+  - AArch64
+  - VirtIO
   - Toolchain
 category: blog
 author: david.spickett

@@ -9,7 +9,7 @@ description: This blog  highlight the achievements of Linaro's IoT & Embedded
 date: 2023-06-27 09:00:26 +02:00
 image: /assets/images/content/IoT_Planet_UNDER_2MB.jpg
 tags:
-  - IoT and Embedded
+  - IoT
 category: blog
 author: bill.fletcher
 ---

@@ -15,8 +15,8 @@ comments: false
 title: Arm TrustZone in QEMU
 tags:
   - Arm
-  - Qemu
-  - Security Extensions
+  - QEMU
+  - Security
   - TrustZone
 link: /blog/core-dump/arm-trustzone-qemu/
 image: /assets/images/content/Banner_Virtualization.jpg

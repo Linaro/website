@@ -10,9 +10,8 @@ title: Suspend to Idle
 wordpress_id: 11797
 category: blog
 tags:
-  - Kernel
   - Linaro
-  - Linux On Arm
+  - Linux Kernel
 ---
 
 ## Introduction

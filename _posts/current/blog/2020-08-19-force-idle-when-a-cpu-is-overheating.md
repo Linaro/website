@@ -12,7 +12,6 @@ tags:
   - CPU
   - Linux Kernel
   - Embedded
-  - PELT
 related_projects:
   - PERF
 category: blog

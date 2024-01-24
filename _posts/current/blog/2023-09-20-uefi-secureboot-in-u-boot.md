@@ -10,13 +10,11 @@ description: >
 date: 2023-09-20 01:39:53 +02:00
 image: /assets/images/content/Tech_Background.jpg
 tags:
-  - embedded
+  - Embedded
   - U-Boot
-  - SystemReady_SIE
+  - SystemReady
   - UEFI
   - Security
-  - Bootloaders
-  - UEFI_SecureBoot
 category: blog
 author: ilias.apalodimas@linaro.org
 ---

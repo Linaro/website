@@ -10,7 +10,7 @@ tags:
   - GNU Toolchain
   - Arm
   - Open source
-  - Linux
+  - Linux Kernel
   - Software
 category: news
 author: linaro

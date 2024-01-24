@@ -4,8 +4,7 @@ title: 'Linaro Tech Days: A livestream event of technical sessions'
 date: '2020-03-13 07:08:16'
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
 tags:
-- Linaro Tech Days
-- Virtual Event
+- Linaro
 - Linaro Connect
 - Arm
 - Open Source

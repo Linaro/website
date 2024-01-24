@@ -9,7 +9,7 @@ date: 2021-04-20 09:02:44
 image: /assets/images/content/llvm-image.jpg
 tags:
   - LLVM
-  - Windows10
+  - Windows On Arm
   - Arm
   - Microsoft
   - Qualcomm

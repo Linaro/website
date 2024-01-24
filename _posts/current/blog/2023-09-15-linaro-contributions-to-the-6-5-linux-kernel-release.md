@@ -8,12 +8,11 @@ description: In this blog post, we engage with Linaro Engineers who have been
 date: 2023-09-15 04:41:10 +02:00
 image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
-  - 6.5 kernel release
-  - Linux kernel
-  - arm
-  - linux
-  - open source
-  - software
+  - Kernel Release
+  - Linux Kernel
+  - Arm
+  - Open Source
+  - Software
 category: blog
 author: linaro
 ---

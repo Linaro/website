@@ -8,8 +8,7 @@ description: "Introducing WindowsPerf 1.0.0-beta Visual Studio extension:
 date: 2023-10-02 10:31:29 +01:00
 image: /assets/images/content/Code_Image_Core_tech.jpg
 tags:
-  - WindowsPerf
-  - Windows on Arm
+  - Windows On Arm
 category: blog
 author: nader.zouaoui
 ---

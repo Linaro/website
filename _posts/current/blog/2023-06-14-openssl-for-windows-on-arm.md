@@ -6,7 +6,7 @@ description: In this blog we talk about how to enable OpenSSL for Windows on
 date: 2023-06-14 01:14:59 +01:00
 image: /assets/images/content/Code_Image_Core_tech.jpg
 tags:
-  - Windows on Arm
+  - Windows On Arm
 category: blog
 author: everton.constantino
 ---

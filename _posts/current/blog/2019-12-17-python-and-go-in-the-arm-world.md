@@ -8,7 +8,7 @@ image: /assets/images/content/code_banner.jpg
 tags:
   - Arm
   - Python
-  - Servers
+  - Server
 category: blog
 author: siddhesh.poyarekar
 ---

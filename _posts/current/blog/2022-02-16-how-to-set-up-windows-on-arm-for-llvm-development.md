@@ -7,12 +7,9 @@ description: " In this blog, Diana Picus, David Spickett, Maxim Kuvyrkov and
 date: 2022-02-16 10:52:19 +00:00
 image: /assets/images/content/llvm-image.jpg
 tags:
-  - windowsonarm
-  - Windows
+  - Windows On Arm
   - LLVM
-  - Windows11
   - Microsoft
-  - Visual Studio
 category: blog
 author: diana.picus
 ---

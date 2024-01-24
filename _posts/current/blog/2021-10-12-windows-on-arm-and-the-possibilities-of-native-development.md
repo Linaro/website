@@ -6,14 +6,12 @@ description: This blog talks about Windows on Arm, highlighting what is possible
 date: 2021-10-12 02:05:49 +01:00
 image: /assets/images/content/llvm-image.jpg
 tags:
-  - Windows
-  - WoA
+  - Windows On Arm
   - Snapdragon
   - Qualcomm
   - Microsoft
   - Arm
   - LLVM
-  - Windows10
 category: blog
 author: ebba.simpson
 ---

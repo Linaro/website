@@ -27,7 +27,7 @@ icon: /assets/images/content/Icon_Hands_on_training.svg
 image: /assets/images/content/Rocket_1.png
 keywords:
   - training
-  - Linux
+  - Linux Kernel
   - Arm
   - open source
   - onsite

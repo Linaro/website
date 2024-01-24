@@ -8,11 +8,10 @@ date: 2021-09-30 12:03:39 +01:00
 image: /assets/images/content/code-background_1.jpg
 tags:
   - Qualcomm
-  - RB5
-  - Dragonboard410c
+  - Dragonboard
   - Debian
   - OpenEmbedded
-  - Linux
+  - Linux Kernel
   - Snapdragon
   - 96Boards
 category: blog

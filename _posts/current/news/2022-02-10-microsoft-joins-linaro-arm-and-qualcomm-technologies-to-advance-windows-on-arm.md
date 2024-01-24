@@ -6,11 +6,10 @@ description: Microsoft joins Linaro as a Member of the Windows on Arm Project.
 date: 2022-02-10 01:44:16 +00:00
 image: /assets/images/content/windows-on-arm-project-image.png
 tags:
-  - Windows on Arm
+  - Windows On Arm
   - Microsoft
   - Qualcomm
   - Arm
-  - Windows11
 category: news
 author: linaro
 ---

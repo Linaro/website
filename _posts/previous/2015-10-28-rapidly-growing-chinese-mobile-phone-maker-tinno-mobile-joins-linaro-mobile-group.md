@@ -12,8 +12,7 @@ date: 2015-10-28 13:05:39
 tags:
   - Linaro
   - Linaro Mobile Group
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Open Source
 link: /news/rapidly-growing-chinese-mobile-phone-maker-tinno-mobile-joins-linaro-mobile-group/
 category: news

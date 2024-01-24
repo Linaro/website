@@ -8,12 +8,10 @@ date: 2022-05-17 01:15:46 +01:00
 image: /assets/images/content/Banner_Virtualization.jpg
 tags:
   - Rust
-  - ProjectStratos
+  - Project Stratos
   - Automotive
   - Hypervisor
-  - Vhost
-  - Virtio
-  - ""
+  - VirtIO
 category: blog
 author: viresh.kumar
 ---

@@ -8,7 +8,7 @@ date: 2018-12-10 09:00:00+00:00
 image: /assets/images/content/road-timelapse.jpg
 tags:
   - Linaro
-  - AI
+  - Artificial Intelligence
   - Networking
   - Security
   - Big Data

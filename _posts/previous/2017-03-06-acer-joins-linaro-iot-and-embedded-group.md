@@ -9,8 +9,7 @@ tags:
   - Linaro
   - Linaro Connect
   - Linaro Members
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - LITE
 author: linaro
 slug: acer-joins-linaro-iot-and-embedded-group

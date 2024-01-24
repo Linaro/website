@@ -8,8 +8,7 @@ slug: leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms
 date: 2014-05-29 15:59:15
 tags:
   - Linaro
-  - Linux
-  - Linux On Arm
+  - Linux Kernel
   - Open Source
 link: /news/leaders-digital-home-solutions-collaborate-linaro-arm-linux-platforms/
 description: >

@@ -7,12 +7,8 @@ description: >
 date: 2020-07-22 01:00:55+00:00
 image: /assets/images/content/tech_background_2.jpg
 tags:
-  - Qemu
+  - QEMU
   - Toolchain
-  - Toolchain Working Group
-  - TCWG
-  - TCG
-  - RISU
   - SVE
   - KVM
 related_projects:

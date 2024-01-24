@@ -10,14 +10,12 @@ tags:
   - Linaro
   - Arm
   - Networking
-  - Datacentre
+  - Datacenter
   - Big Data
   - SoC
-  - Linux
   - Linux Kernel
-  - Android Ecosystem
-  - Ledge
-  - Linus Torvalds
+  - Android
+  - LEDGE
 category: blog
 author: david.rusling
 ---

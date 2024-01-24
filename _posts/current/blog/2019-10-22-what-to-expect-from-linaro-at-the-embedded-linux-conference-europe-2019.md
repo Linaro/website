@@ -6,7 +6,7 @@ image: /assets/images/content/40965990761_090a30658a_k.jpg
 tags:
   - Linaro
   - Collaborative Engineering
-  - Linux
+  - Linux Kernel
   - Embedded
 category: blog
 author: bill.fletcher

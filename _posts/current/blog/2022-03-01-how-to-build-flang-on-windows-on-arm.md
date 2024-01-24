@@ -5,8 +5,7 @@ description: "In this blog post we look at how to build flang on Windows on Arm.
 date: 2022-03-01 09:38:26 +00:00
 image: /assets/images/content/llvm-image.jpg
 tags:
-  - Windows on Arm
-  - Windows
+  - Windows On Arm
   - Flang
   - LLVM
   - Clang

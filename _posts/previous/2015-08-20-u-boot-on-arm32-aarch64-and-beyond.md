@@ -14,7 +14,7 @@ layout: post
 link: /blog/core-dump/u-boot-on-arm32-aarch64-and-beyond/
 slug: u-boot-on-arm32-aarch64-and-beyond
 tags:
-  - Aarch64
+  - AArch64
   - Arm
 title: U-Boot on Arm32, AArch64 & Beyond
 wordpress_id: 9094

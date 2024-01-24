@@ -7,9 +7,9 @@ description: >
 date: 2020-04-06 01:48:45
 image: /assets/images/content/48806078402_a2756594c6_k.jpg
 tags:
-  - Android Ecosystem
+  - Android
   - Linux Kernel
-  - Upstreaming
+  - Upstream
 category: blog
 author: john.stultz
 ---

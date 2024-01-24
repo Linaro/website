@@ -6,9 +6,9 @@ description: >
 date: 2020-09-28 02:15:38
 image: /assets/images/content/tech_background_1.jpg
 tags:
-  - Qemu
+  - QEMU
   - UEFI
-  - Linux
+  - Linux Kernel
   - Linaro
   - Arm
 category: blog

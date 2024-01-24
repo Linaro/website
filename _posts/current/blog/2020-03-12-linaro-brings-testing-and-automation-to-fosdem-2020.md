@@ -7,7 +7,6 @@ date: 2020-03-12 09:16:32
 image: /assets/images/content/48806077322_d5b5e6aaa0_k.jpg
 tags:
   - Testing
-  - Automation
   - LKFT
   - Linux Kernel
 category: blog

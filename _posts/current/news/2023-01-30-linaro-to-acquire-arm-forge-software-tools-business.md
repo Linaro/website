@@ -11,7 +11,6 @@ tags:
   - Debugging tools
   - Performance tools
   - Software
-  - high performance computing
 category: news
 author: linaro
 ---

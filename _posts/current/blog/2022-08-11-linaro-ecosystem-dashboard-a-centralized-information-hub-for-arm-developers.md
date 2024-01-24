@@ -7,9 +7,9 @@ description: This blog talks about Linaro's Ecosystem Dashboard - an information
 date: 2022-08-11 10:08:25 +01:00
 image: /assets/images/content/code_ecosystem.jpg
 tags:
-  - Linaro Ecosystem Dashboard
+  - Linaro
   - LED
-  - Information hub for open source projects on Arm
+  - Arm
 category: blog
 author: linaro
 ---

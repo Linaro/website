@@ -7,10 +7,9 @@ description: In this article, David Rusling answers if Linaro a distribution
 image: /assets/images/content/30921188158_953bca1c9f_k.jpg
 tags:
   - Arm
-  - Kernel
-  - Linux
+  - Linux Kernel
   - Software
-  - Tools
+  - Toolchain
 author: david.rusling
 slug: is-linaro-a-distribution
 date: 2010-07-01 16:50:00+00:00

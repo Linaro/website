@@ -7,13 +7,9 @@ date: 2021-02-23 01:49:15
 image: /assets/images/content/code-background_1.jpg
 tags:
   - Qualcomm
-  - CAMMS
-  - camera support
-  - dragonboard 410c
-  - Titan
-  - libcamera
-  - linux kernel
-  - open source
+  - Dragonboard
+  - Linux Kernel
+  - Open Source
 category: blog
 author: robert.foss
 ---

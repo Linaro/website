@@ -8,10 +8,9 @@ date: 2021-01-08 12:08:24
 image: /assets/images/content/code.jpg
 tags:
   - Linaro
-  - Linux
-  - Zephyr
-  - AI
-  - LCG
+  - Linux Kernel
+  - Zephyr Project
+  - Artificial Intelligence
   - IoT
   - LKFT
 category: blog

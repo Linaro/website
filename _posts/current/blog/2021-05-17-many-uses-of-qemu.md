@@ -7,17 +7,13 @@ date: 2021-05-18 09:00:00
 image: /assets/images/content/code-background_1.jpg
 tags:
   - QEMU
-  - emulation
   - MTE
   - SVE
-  - SVE2
-  - BTI
   - IoT
-  - SBSA
-  - open source
-  - software
-  - arm
-  - linux
+  - Open Source
+  - Software
+  - Arm
+  - Linux Kernel
 category: blog
 author: alex.bennee
 ---

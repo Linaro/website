@@ -8,8 +8,7 @@ date: 2020-11-09 02:34:26
 image: /assets/images/content/open_source_keyboard_under_2mbjpg.jpg
 tags:
   - Linaro
-  - Linux
-  - Kernel
+  - Linux Kernel
 category: blog
 author: daniel.lezcano
 ---

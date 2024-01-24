@@ -10,7 +10,7 @@ tags:
   - Open-CMSIS-Pack
   - CMSIS Technology
   - Arm
-  - IoT and Embedded
+  - IoT
 category: blog
 author: francois.ozog
 ---

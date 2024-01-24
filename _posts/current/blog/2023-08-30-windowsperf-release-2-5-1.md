@@ -8,8 +8,7 @@ description: >
 date: 2023-08-31 12:44:56 +02:00
 image: /assets/images/content/Auto_IoT_Edge_banner_pic.jpg
 tags:
-  - Windows on Arm
-  - WindowsPerf
+  - Windows On Arm
 category: blog
 author: everton.constantino
 ---
