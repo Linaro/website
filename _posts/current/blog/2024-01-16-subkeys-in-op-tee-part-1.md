@@ -10,7 +10,6 @@ image: /assets/images/content/Code_Image_Core_tech.jpg
 tags:
   - OP-TEE
   - Security
-  - trusted_applications
 category: blog
 author: jens.wiklander
 ---
