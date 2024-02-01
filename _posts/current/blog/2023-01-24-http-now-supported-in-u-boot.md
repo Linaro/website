@@ -7,7 +7,6 @@ date: 2023-01-24 01:39:16 +00:00
 image: /assets/images/content/Banner_Linux_Kernel.jpg
 tags:
   - U-Boot
-  - HTTP
 category: blog
 author: paul_liu
 ---
