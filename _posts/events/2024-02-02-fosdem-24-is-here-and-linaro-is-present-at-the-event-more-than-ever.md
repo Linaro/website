@@ -7,8 +7,8 @@ description: The 2024 edition of Fosdem will take place on February 3rd-4th and
   expertise and contribution to the open source ecosystem, has been accepted to
   present eight talks, setting a new record for their presence and acceptance
   ratio at the event.
-visual_date: 3 & 4 February 2024
-location: Brussels
+visual_date: ""
+location: ""
 date: 2024-02-02 08:49:28 +08:00
 event_date: 2024-02-03 09:30:52 +08:00
 event_end_date: 2024-02-04 05:50:28 +08:00
