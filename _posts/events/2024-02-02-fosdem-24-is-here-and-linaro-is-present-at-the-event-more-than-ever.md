@@ -12,7 +12,7 @@ location: ""
 date: 2024-02-02 08:49:28 +08:00
 event_date: 2024-02-03 09:30:52 +08:00
 event_end_date: 2024-02-04 05:50:28 +08:00
-image: /assets/images/content/screenshot-2024-02-02-at-20.53.48.png
+image: /assets/images/content/fkmo2oqwyaio783.jpg
 event_type: attend
 ---
 \
