@@ -29,13 +29,6 @@
   },
   {
     "id": "club",
-    "members": [
-      {
-        "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
-        "name": "Socionext",
-        "uri": "http://www.socionext.com/en/"
-      }
-    ],
     "membership_group_name": "Club Members",
     "text": "Club membership is the starting point for most of Arm\u2019s licensees who produce chips in a range of segments. There is one voted representative of the Club members on the Linaro board of directors and each Club member has one vote on the TSC.",
     "url": "/membership/"
@@ -101,11 +94,6 @@
         "image": "https://static.linaro.org/common/member-logos/red-hat.jpg",
         "name": "Red Hat",
         "uri": "https://www.redhat.com/en"
-      },
-      {
-        "image": "https://static.linaro.org/common/member-logos/socionext.jpg",
-        "name": "Socionext",
-        "uri": "http://www.socionext.com/en/"
       },
       {
         "image": "https://static.linaro.org/common/member-logos/xilinx.jpg",
