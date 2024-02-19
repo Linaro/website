@@ -10,7 +10,7 @@ image: /assets/images/content/screenshot-2023-08-11-at-11.37.28-485-980828-2.web
 tags:
   - Windows On Arm
 category: blog
-author: everton.constantino
+author: " Przemyslaw_Wirkus"
 ---
 We are happy to announce the latest WindowsPerf release version [3.3.0](https://gitlab.com/Linaro/WindowsPerf/windowsperf/-/releases/3.3.0). This major release is a continuation of WindowsPerf development effort. For previous release information check [this content](https://www.linaro.org/blog/windowsperf-release-3-0-0) out.
 
