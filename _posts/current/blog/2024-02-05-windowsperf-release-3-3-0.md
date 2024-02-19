@@ -30,7 +30,7 @@ Double-dash marks the end of the wperf command line option list. After double-da
 
 * We’ve made significant improvements to WindowsPerf Kernel Driver stability:
 
-  * Fixes issues with IOCTL input/output buffer misuse.
+  * Fixed issues with IOCTL input/output buffer misuse.
   * Improvements to hardware resource allocation.
 * Timeline feature can now output JSON, in addition to CSV output file.
 * We’ve [fixed a memory leak](https://gitlab.com/Linaro/WindowsPerf/windowsperf/-/merge_requests/461) inside our PDB / PE file APIs. Users who run e.g. \`wperf-lib\` based sampling experienced significant memory leaks.
