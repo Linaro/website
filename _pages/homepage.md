@@ -28,7 +28,7 @@ flow:
         style: text-center
         title_content:
           style: font-weight-bold
-          text: Linaro Members
+          text: Trusted by Leading Companies
           size: h2
       - format: custom_include
         source: membership/members_section.html
