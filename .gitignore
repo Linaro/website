@@ -12,3 +12,4 @@ Gemfile.lock
 generated
 scripts
 node_modules
+/.well-known

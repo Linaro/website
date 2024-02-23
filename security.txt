@@ -1,0 +1,2 @@
+Contact: mailto:psirt@linaro.org
+Canonical: https://www.linaro.com/.well-known/security.txt

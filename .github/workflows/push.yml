@@ -32,6 +32,21 @@ jobs:
           namedDirectory: ${{ env.SITE_URL }}
           destinationDirectory: ${{ github.workspace }}/website
 
+      - name: set branch env
+        run: echo "BRANCH=${{ github.ref_name }}" >> $GITHUB_ENV
+      - name: security.txt
+        # If running on master branch, add signed security.txt file to repo before building
+        if: env.BRANCH == 'master'
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          /srv/github-action-scripts/sign-security.sh
+          if [ -f "security.txt.asc" ]; then
+            mkdir "$GITHUB_WORKSPACE/.well-known"
+            mv security.txt.asc "$GITHUB_WORKSPACE/.well-known/security.txt"
+          else
+            echo "No security.txt.asc produced"
+          fi
+
       - name: Build site
         run: /srv/github-action-scripts/build-jekyll-site.sh
         env:

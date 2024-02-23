@@ -31,6 +31,7 @@ exclude:
   - .sass-cache
   - staging.linaro.org
   - production.linaro.org
+  - security.txt
 # Breadcrumb banner image
 breadcrumb_banner: /assets/images/content/code_banner.jpg
 # Toggle the animated navbar dropdown feature
