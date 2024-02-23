@@ -74,7 +74,7 @@ flow:
                 - title: LAVA
                   textBtn: true
                   style: btn-lg text-btn
-                  url: https://validation.linaro.org/
+                  url: https://www.lavasoftware.org/
             - title: TuxSuite™
               style: engagement_block_col h-100 text-left
               content_style: engagement_block text-dark h-100 mb-lg-0 engagement_block_content
