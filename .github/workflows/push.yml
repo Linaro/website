@@ -38,13 +38,13 @@ jobs:
         # If running on master branch, add signed security.txt file to repo before building
         if: env.BRANCH == 'master'
         run: |
-          cd "$GITHUB_WORKSPACE"
+          cd "$GITHUB_WORKSPACE/website"
           pwd
           ls
           /srv/github-action-scripts/sign-security.sh
           if [ -f "security.txt.asc" ]; then
-            mkdir "$GITHUB_WORKSPACE/.well-known"
-            mv security.txt.asc "$GITHUB_WORKSPACE/.well-known/security.txt"
+            mkdir ".well-known"
+            mv security.txt.asc ".well-known/security.txt"
           else
             echo "No security.txt.asc produced"
           fi
