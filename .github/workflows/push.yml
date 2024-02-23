@@ -39,6 +39,8 @@ jobs:
         if: env.BRANCH == 'master'
         run: |
           cd "$GITHUB_WORKSPACE"
+          pwd
+          ls
           /srv/github-action-scripts/sign-security.sh
           if [ -f "security.txt.asc" ]; then
             mkdir "$GITHUB_WORKSPACE/.well-known"
