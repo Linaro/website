@@ -2,9 +2,7 @@
 title: "Long Term Support (LTS) for the Linux Kernel : what’s changing now? "
 event: LTS Linux Kernel
 description: >
-  Speaker: 
-
-
+  
   📆 Date: April 3rd 2024
 
   🕒 Time: 4:30pm GMT (1530 UTC)
