@@ -6,7 +6,7 @@ description: >+
   has been reduced to two years. What does it mean for ODMs and Silicon Vendors?
   What’s changing? And which new challenges have to be overcome?
 
-date: 2024-02-27 09:50:03 +00:00
+date: 2024-02-27 11:50:03 +00:00
 event_date: 2024-04-03 05:30:00 +01:00
 event_end_date: 2024-04-03 04:30:03 +01:00
 image: /assets/images/content/lts-webinar.png
