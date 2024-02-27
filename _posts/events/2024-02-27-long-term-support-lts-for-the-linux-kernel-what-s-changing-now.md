@@ -2,7 +2,7 @@
 title: "Long Term Support (LTS) for the Linux Kernel : what’s changing now? "
 event: LTS Linux Kernel
 description: >
-  Speaker: Davide Ricci Director Developer Services
+  Speaker: 
 
 
   📆 Date: April 3rd 2024
