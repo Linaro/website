@@ -1,8 +1,5 @@
 <div class="row">
     <div class="col col-12">
-        <h3 class="white-border-title font-weight-bold">{{site.data.translations.woa.projects}}</h3>
-    </div>
-    <div class="col col-12">
         <div class="projects_wrapper">
             <div class="row">
                 {% for project in site.woa %}
@@ -22,6 +19,9 @@
                     {% endunless %}
                 {% endfor %}
             </div>
+        </div>
+        <div>
+            <p><b>For feedback or request support for a missing package, <a href="https://linaro-servicedesk.atlassian.net/servicedesk/customer/portal/22/group/85/create/301">click here</a>.</b></p>
         </div>
     </div>
 </div>
