@@ -9,13 +9,10 @@ description: >
 date: 2024-01-19 10:00:49 +07:00
 image: /assets/images/content/Banner_Virtualization.jpg
 tags:
-  - embedded
+  - Embedded
   - U-Boot
-  - SystemReady
   - UEFI
-  - Bootloaders
-  - UEFI_HTTP
-  - Fedora
+  - SystemReady
 category: blog
 author: Masahisa.Kojima
 ---

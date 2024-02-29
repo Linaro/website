@@ -225,22 +225,6 @@
         {
             "Project Information": {
                 "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
-                "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/PERFSCMI/overview\">https://linaro.atlassian.net/wiki/spaces/PERFSCMI/overview</a>",
-                "Theme": [
-                    "Core Technologies"
-                ],
-                "description": "The performance scaling with SCMI project will extend support for the SCMI perf-domain protocol in the Linux kernel and in the firmware.<br><br>Today, the current support in the Linux kernel for the SCMI perf-domain protocol, is limited to be used for CPU frequency scaling, through the cpufreq subsystem. However, the SCMI perf-domain protocol isn't really limited to CPUs, but fits well for other generic peripheral devices too. Extended support avoids the need for SoC specific protocols/interfaces, while scaling performance for non-CPU devices.<br><br>The Linux kernel already has generic support for DVFS (Dynamic Voltage Frequency Scaling), through a mixture of subsystems/libraries. Without going into details, it should be possible to tap into the existing infrastructures, to add support for the SCMI perf-protocol. In this way, the support would be generic and nicely abstracted from lower layer drivers/subsystems.",
-                "title": "Performance Scaling with SCMI"
-            },
-            "icon": "https://linaro.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10415",
-            "key": [
-                "PERFSCMI"
-            ],
-            "membership": []
-        },
-        {
-            "Project Information": {
-                "How to participate": "<p>Participation in this project can be achieved through Linaro Membership. The project is managed by TSC.</p><p></p><p>Visit the <a href=\"https://www.linaro.org/membership/\">Linaro Membership</a> page for more information.</p>",
                 "Project Homepage": "<a href=\"https://linaro.atlassian.net/wiki/spaces/SCMI/overview\">https://linaro.atlassian.net/wiki/spaces/SCMI/overview</a>",
                 "Theme": [
                     "Core Technologies"
