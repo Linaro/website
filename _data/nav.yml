@@ -15,8 +15,8 @@ pages:
             url: /working-groups/
           - text: Projects
             url: /projects/
-      # - text: Linux Long Term Support (LTS)
-      #   url: /lts/
+      - text: Linux Long Term Support (LTS)
+        url: /lts/
       - text: Apache Big Top
         url: /big-top/
       - text: Automotive, IoT & Edge Devices
