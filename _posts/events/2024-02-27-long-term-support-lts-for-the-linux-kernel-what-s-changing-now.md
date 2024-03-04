@@ -1,5 +1,5 @@
 ---
-title: "Long Term Support (LTS) for the Linux Kernel : what’s changing now? "
+title: " - Long Term Support (LTS) for the Linux Kernel : what’s changing now? - "
 event: LTS Linux Kernel
 description: >+
   Long Term Linux Kernel Support (LTS) for Embedded, Edge and Automotive devices
