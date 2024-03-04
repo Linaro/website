@@ -28,7 +28,7 @@ Linaro LTS Kernel and Firmware Solutions
 
 Linaro, has deep and wide Linux Kernel engineering and maintenance expertise. Join Tom Gall (Director Vertical Technologies), Dan Carpenter (LTS Lead Architect) and Bill Fletcher (Solutions Director) as they explore the issues, and lay out how Silicon Vendors, ODMs and other organisations operating in the Arm ecosystem can successfully satisfy customer needs, meet government mandates and achieve their organisational requirements for a high quality Linux Kernel, U-Boot, Trusted Firmware A and OPTEE in support of their product goals.
 
-<form action="https://www.cognitoforms.com/Linaro1/_">
+<form action="https://www.eventbrite.co.uk/e/long-term-support-lts-for-the-linux-kernel-whats-changing-now-tickets-856142694847?aff=oddtdtcreator">
 
 <button type="submit">Register here</button>
 
