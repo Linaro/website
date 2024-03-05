@@ -14,7 +14,6 @@ event_end_date: 2024-04-03 05:15:05 +01:00
 image: /assets/images/content/lts-webinar.png
 event_type: webinar
 ---
-
 📆 Date: April 3rd 2024
 <br>🕒 Time: 4:30pm GMT
 <br>🌐 Online Event: Join from anywhere
@@ -30,8 +29,6 @@ Companies need to be aware of new legislation that imposes new obligations on th
 Linaro LTS Kernel and Firmware Solutions
 
 Linaro, has deep and wide Linux Kernel engineering and maintenance expertise. Join Tom Gall (Director Vertical Technologies), Dan Carpenter (LTS Lead Architect) and Bill Fletcher (Solutions Director) as they explore the issues, and lay out how Silicon Vendors, ODMs and other organisations operating in the Arm ecosystem can successfully satisfy customer needs, meet government mandates and achieve their organisational requirements for a high quality Linux Kernel, U-Boot, Trusted Firmware A and OPTEE in support of their product goals.
-
-Duration: 45 minutes (30 mins + 15 mins Q&A)
 
 <form action="https://www.eventbrite.co.uk/e/long-term-support-lts-for-the-linux-kernel-whats-changing-now-tickets-856142694847?_gl=1*i9xl9a*_ga*MTk4MzMzODY1My4xNzA5MjIyMDM0*_ga_E12E6FXFVK*MTcwOTYzMDkyMS4zLjEuMTcwOTYzMTI1My4wLjAuMA..">
 
