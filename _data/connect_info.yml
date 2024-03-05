@@ -100,7 +100,7 @@ tabs:
       Contact connect@linaro.org to find out more!
 
   - title: Program
-    text: PROGRAM OF EVENTS COMING SOON!
+    custom_include: connect/connect_program.html
   - title: Speakers
     text: SPEAKER INFORMATION COMING SOON!
   - title: Hotels & Travel
