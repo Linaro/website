@@ -1,5 +1,5 @@
 ---
-title: "Long Term Support (LTS) for the Linux Kernel : what’s changing now? "
+title: " - Long Term Support (LTS) for the Linux Kernel : what’s changing now? - "
 event: LTS Linux Kernel
 description: >+
   Long Term Linux Kernel Support (LTS) for Embedded, Edge and Automotive devices
@@ -16,8 +16,6 @@ event_type: webinar
 <br>🕒 Time: 4:30pm GMT (1530 UTC)
 <br>🌐 Online Event: Join from anywhere
 
-
-
 Community LTS Kernel Support Returns to 2 Years 
 
 At the 2023 Open Source Summit Europe, it was announced that the Linux Kernel will return to two years of LTS support by the community. What does this mean fodomr ODMs, Silicon Vendors and solution providers who ship the Linux Kernel in product and had been expecting six years of support?
@@ -30,4 +28,8 @@ Linaro LTS Kernel and Firmware Solutions
 
 Linaro, has deep and wide Linux Kernel engineering and maintenance expertise. Join Tom Gall (Director Vertical Technologies), Dan Carpenter (LTS Lead Architect) and Bill Fletcher (Solutions Director) as they explore the issues, and lay out how Silicon Vendors, ODMs and other organisations operating in the Arm ecosystem can successfully satisfy customer needs, meet government mandates and achieve their organisational requirements for a high quality Linux Kernel, U-Boot, Trusted Firmware A and OPTEE in support of their product goals.
 
-Duration: 45 minutes (30 mins + 15 mins Q&A)
+<form action="https://www.eventbrite.co.uk/e/long-term-support-lts-for-the-linux-kernel-whats-changing-now-tickets-856142694847?aff=oddtdtcreator">
+
+<button type="submit">Register here</button>
+
+</form>
