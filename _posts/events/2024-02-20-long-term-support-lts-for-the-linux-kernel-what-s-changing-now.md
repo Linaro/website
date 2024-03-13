@@ -3,9 +3,10 @@ event_url_last: https://www.eventbrite.co.uk/e/long-term-support-lts-for-the-lin
 title: "Long Term Support (LTS) for the Linux Kernel : what’s changing now? "
 event: LTS Webinar
 description: >+
-  Long Term Linux Kernel Support (LTS) for Embedded, Edge and Automotive devices
-  has been reduced to two years. What does it mean for ODMs and Silicon Vendors?
-  What’s changing? And which new challenges have to be overcome?
+  Is 2 years Long Term Linux Kernel Support (LTS) for Embedded, Edge and
+  Automotive devices enough for ODMs and Silicon Vendors? What new government
+  mandates (e.g. E.U. Cyber Resilience Act) are influencing your kernel
+  strategy? 
 
 date: 2024-02-20 09:50:05 +00:00
 view_last: Register
@@ -18,9 +19,9 @@ event_type: webinar
 <br>🕒 Time: 4:30pm GMT
 <br>🌐 Online Event: Join from anywhere
 
-Community LTS Kernel Support Returns to 2 Years
+Community LTS Kernel Support Has Been Reduced
 
-At the 2023 Open Source Summit Europe, it was announced that the Linux Kernel will return to two years of LTS support by the community. What does this mean for ODMs, Silicon Vendors and solution providers who ship the Linux Kernel in product and had been expecting six years of support?
+The Linux Kernel community offers two years of LTS support by default. Is this enough for ODMs, Silicon Vendors and solution providers who ship the Linux Kernel in product and had been expecting six years of support?
 
 New Government Mandates Impact Open Source Software
 
