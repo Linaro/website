@@ -11,7 +11,7 @@ image: /assets/images/content/Banner_Security.jpg
 tags:
   - Security
 category: blog
-author: linaro
+author: joakim.bech
 ---
 This article aims to inform readers about the significance of "security.txt", its framework, global adoption, and provides a straightforward implementation guide to encourage its widespread use showing how in Linaro we’ve done it.
 
