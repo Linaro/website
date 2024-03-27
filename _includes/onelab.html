@@ -150,6 +150,23 @@
       </ul>
     </div>
 </section>
+<div class="main-wrapper">
+    <div class="main-wrapper-container">
+      <div class="title">Supporting Partners</div>
+      <div class="title-line"></div>
+      <div class="partners">
+        <div class="partner"><img src="../assets/images/content/cropped-adlink-logo.png" alt="ADLINK Logo"></div>
+        <div class="partner"><img src="../assets/images/content/amdxilinx.svg" alt="AMD XILINX Logo"></div>
+        <div class="partner"><img src="../assets/images/content/arm.svg" alt="ARM Logo"></div>
+        <div class="partner"><img src="../assets/images/content/Bosch.svg" alt="BOSCH Logo"></div>
+        <div class="partner"><img src="../assets/images/content/OPENEULER.svg" alt="OpenEuler Logo"></div>
+        <div class="partner"><img src="../assets/images/content/Qualcomm.svg" alt="Qualcomm Logo"></div>
+        <div class="partner"><img src="../assets/images/content/Renesas.svg" alt="Renesas Logo"></div>
+        <div class="partner"><img src="../assets/images/content/Texas Instruments.svg" alt="Texas Instruments Logo"></div>
+      </div>
+    </div>
+  </div>
+  
 <style>
     /* ONELab Section Styling */
     .banner-section {
@@ -486,6 +503,47 @@
         background-color: white;
         color: #6c6c6c;
         margin-right: 12px;
-    }        
+    }  
+    
+    
+    .main-wrapper {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  .main-wrapper-container {
+    width: 80%;
+    max-width: 1200px; /* Adjust this value as needed */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .title-line {
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 20px;
+  }
+  .partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Changed to space-around for better spacing */
+    align-items: center;
+  }
+  .partner {
+    flex: 1 1 20%; /* Changed to flex-grow, flex-shrink, and flex-basis */
+    margin: 10px;
+  }
+  .partner img {
+    max-width: 100%;
+    height: auto;
+  }
+   
+
 </style>
 
