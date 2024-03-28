@@ -50,6 +50,7 @@ $(document).ready(function () {
             onelab_contact_form.style.display = "none";
             submitButtononelabForm.style.display = "none";
             feedback_response.innerHTML = result.message;
+            form_text.style.display = "none"
           });
       }
     };
