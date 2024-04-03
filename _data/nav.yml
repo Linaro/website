@@ -43,6 +43,8 @@ pages:
             url: /core-technologies/virtualization/
       - text: Windows on Arm
         url: /windows-on-arm/
+      - text: OneLab
+        url: /onelab/
   - title: Services
     options:
       - text: Overview
