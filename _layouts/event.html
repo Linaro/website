@@ -26,6 +26,12 @@ layout: base
             Visit Website
           </a>
         </p>
+        {% endif %}{% if page.event_url_register %}
+        <p>
+          <a href="{{page.event_url_register}}" class="btn btn-primary">
+            Watch it
+          </a>
+        </p>
         {% endif %} {% if page.event_url_last and page.event_url_last != "" %}
         <p>
           <a href="{{page.event_url_last}}" class="btn btn-primary">

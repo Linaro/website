@@ -15,6 +15,7 @@ event_end_date: 2024-04-03 05:15:05 +01:00
 image: /assets/images/content/lts-webinar.png
 event_type: webinar
 ---
+
 📆 Date: April 3rd 2024
 <br>🕒 Time: 4:30pm GMT
 <br>🌐 Online Event: Join from anywhere
