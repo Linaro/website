@@ -1,5 +1,5 @@
 ---
-event_url_last: https://www.cognitoforms.com/Linaro1/_
+event_url_register: https://resources.linaro.org/en/resource/dEPLPFVSLsjPV6VqyHr3WX
 title: Need your device’s use of open-source software to be more
   production-ready? Linaro can lend a hand.
 event: Linaro-webinar-developer-services
@@ -12,6 +12,7 @@ event_end_date: 2023-12-12 05:32:14 +00:00
 image: /assets/images/content/ds-webinar-banner-for-event-page.jpg
 event_type: webinar
 ---
+
 📆 Date: December 12th 2023\
 🕒 Time: 4pm GMT\
 🌐 Online Event: Join from anywhere
@@ -24,11 +25,11 @@ Linaro's Developer Services works with Arm and device makers to build, deploy, a
 
 Our journey will bring you to know more about:
 
-* How we can help you solve complex problems, from feasibility to implementation thanks to our deep knowledge of the Arm ecosystem
-* Developing your device software, from Board Support Packages and Board bring-up to end-to-end vertical solutions
-* Designing your device software with security and safety in mind, from secure boot to application and OS image signature
-* Hosting and testing on our end-to-end platform that automates builds and testing via our CI/CD solution, Simplifying IP compliance and product deployment using our artifacts like CVE reports, SBOMs, resilient OTA infra, secure software signatures
-* Reducing costs and effort to maintain your products thanks to our long-term support and maintenance services.
+- How we can help you solve complex problems, from feasibility to implementation thanks to our deep knowledge of the Arm ecosystem
+- Developing your device software, from Board Support Packages and Board bring-up to end-to-end vertical solutions
+- Designing your device software with security and safety in mind, from secure boot to application and OS image signature
+- Hosting and testing on our end-to-end platform that automates builds and testing via our CI/CD solution, Simplifying IP compliance and product deployment using our artifacts like CVE reports, SBOMs, resilient OTA infra, secure software signatures
+- Reducing costs and effort to maintain your products thanks to our long-term support and maintenance services.
 
 Our services are tailor-made to meet your specific needs. Listen to Linaro’s Developer Services Director, Davide Ricci, on how Linaro can enhance the quality of your products and drive their success in a cost-effective, efficient, and secure manner.
 
