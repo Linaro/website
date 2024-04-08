@@ -514,3 +514,161 @@ Indeed you see that reference count has changed. The top byte now has the value 
 `0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
 
 `0xfffff7fed010: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
+
+\
+Stepping over the “+”, you see that “2” appears in memory on the second line above (offset 0x10). This is the result of “1+1”.
+
+Now that “+” has finished, it no longer needs its arguments. For each argument of the “+” you decrement that argument’s reference count by 1. In this case both arguments are the same symbol so you start with a reference count of 2, 2 - 1 - 1 = 0, so there are no remaining references to the “1” symbol.
+
+This means you can delete the symbol. Here an earlier detail is important. I chose to start type values at 1 so that 0 could be used as the “untagged” allocation tag value.
+
+\
+`(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32 -f bytes`
+
+`0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x0)`
+
+`0xfffff7fed010: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
+
+\
+Freeing the symbol calls tagged_free which resets the memory tag to 0 for the memory on the first line above (offset 0x00). You see that the result “2” remains undisturbed on the second line (offset 0x10) with the expected tag 1.
+
+In our case this “untagging” step is not required as you have disabled tag checks. It is purely to aid debugging and demonstrating the interpreter.
+
+# Conclusion
+
+Should you do this? Probably not, but perhaps not never.
+
+The first drawback is that everything must be aligned and expanded to a 16 byte granule. That is 2 times the size of our uint64_t UnsignedInt, and any String not a multiple of 16 bytes will also be wasting space.
+
+You could mitigate this by having a smarter allocator that can pool the same types to be next to each other, as shown in Figure 8.
+
+<div align="left">
+    <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
+        <tbody>
+            <tr>
+                <td rowspan="2" style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Address</span></strong></p>
+                </td>
+                <td colspan="2" style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Tagged Allocator</span></strong></p>
+                </td>
+                <td colspan="2" style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">&ldquo;Smart&rdquo; Tagged Allocator</span></strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Tag</span></strong></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Contents</span></strong></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Tag</span></strong></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Contents</span></strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">0x00</span></strong></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">1</span></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">UnsignedInt 1</span></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">1</span></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">UnsignedInt 1</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">0x08</span></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">1</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); text-align: center;"></td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">1</span></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">UnsignedInt 2</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">0x10</span></strong></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">1</span></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">UnsignedInt 2</span></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">2</span></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">String &ldquo;abc&rdquo;</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">0x18</span></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">1</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); text-align: center;"></td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">2</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); text-align: center;"></td>
+            </tr>
+            <tr>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">0x20</span></strong></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">2</span></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">String &ldquo;abc&rdquo;</span></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">0</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); text-align: center;"></td>
+            </tr>
+            <tr>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">0x28</span></p>
+                </td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">2</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); text-align: center;"></td>
+                <td style="border: solid #000000 1pt;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">0</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); text-align: center;"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p style="text-align: center;"><span style="font-size:11pt;">Figure 8: Improved layout by sharing granules</span></p>
+
+Though this can also be done without memory tagging by having one allocation area per type and checking what area the pointer points to. Is a range check going to be faster than pulling the allocation tag from tag memory? Hard to say without access to a specific implementation.
+
+16 byte alignment also means that all pointers’ 4 least significant bits will be 0. So you could use those bits instead of the allocation tag. This means masking a few more times than you would have done tag lookups, but it could run on systems without MTE, including non-Arm systems.
+
+Of course all this requires completely disabling the memory safety benefits of MTE. If you were willing to give up the “extra” bits and include the type value in the pointer instead, you could enable tag checking again. However you would need some intelligence in the allocator to recover the memory safety benefits.
+
+The allocator used here does not attempt to separate two allocations of the same type. So an overflow from one into the other will not be detected as the allocation tags will be the same.
