@@ -78,10 +78,9 @@ Top Byte Ignore is quite literal. When enabled, the top byte of a pointer is ign
             <td style="border: solid rgb(5, 5, 5); width: 33.3333%; text-align: center;"><span style="font-size:11pt;">48 Bit Virtual Address</span><br></td>
         </tr>
     </tbody>
-
-</table> <br>
-<div style=" font-size: 14px; text-align: center;">Figure 1: Pointer contents when using TBI
+</table> 
 </div>
+<p style="text-align: center;"><span style="font-size:11pt;">Figure 1: Pointer contents when using TBI</span></p>
 
 <br>Crucially these are not like “free bits” you get from alignment assumptions. You can assume that a pointer to a 4 byte aligned address has its 2 least significant bits set to 0. So you can put 2 bits of your own data there, as long as you remove them before using the pointer. In contrast, when using TBI you do not ever need to remove your data from the pointer.
 
@@ -113,12 +112,12 @@ The same applies to the “Unused” bits between the end of the top byte and th
             <td style="width: 25%; border: solid rgb(5, 5, 5);">48 Bit Virtual address</td>
         </tr>
     </tbody>
-
-</table> <br>
-<div style=" font-size: 14px; text-align: center;">Figure 2: Pointer contents when using TBI and MTE
+</table> 
 </div>
+<p style="text-align: center;"><span style="font-size:11pt;">Figure 2: Pointer contents when using TBI and MTE</span></p>
 
-Memory tagging builds on TBI by using the bottom 4 bits of that top byte to store a 4 bit “logical tag” as shown in Figure 2.
+
+<br>Memory tagging builds on TBI by using the bottom 4 bits of that top byte to store a 4 bit “logical tag” as shown in Figure 2.
 
 This is paired with an “allocation tag” which is stored in separate tag memory. When you access memory the two tags are compared. If they are different, an exception is raised.
 
@@ -158,12 +157,11 @@ This is paired with an “allocation tag” which is stored in separate tag memo
             </td>
         </tr>
     </tbody>
+</table>  
+</div> 
+<p style="text-align: center;"><span style="font-size:11pt;">Figure 3: Memory accesses using MTE</span></p>
 
-</table> <br>
-<div style=" font-size: 14px; text-align: center;">Figure 3: Memory accesses using MTE
-</div>
-
-That is the intended use of MTE, memory safety. Imagine one of those buffers is for a username and you forget to limit the number of characters copied into it. With MTE, you can prevent a buffer overflow that would otherwise cause a security issue.
+<br>That is the intended use of MTE, memory safety. Imagine one of those buffers is for a username and you forget to limit the number of characters copied into it. With MTE, you can prevent a buffer overflow that would otherwise cause a security issue.
 
 Luckily for us, this tag checking can be disabled. Why is that allowed? One reason is to allow porting of applications that are not yet memory safe. You can fix a memory safety issue and then run without tag checks to make sure the application still functions properly. Then turn the tag checks back on to find the next issue.
 
@@ -199,11 +197,11 @@ In addition to a reference count, you need the symbol’s type. So I split the t
             <td style="border: solid rgb(5, 5, 5); width: 33.3333%; text-align: center;; width: 25.0000%;"><span style="font-size:11pt;">Address of the symbol&rsquo;s value</span><br></td>
         </tr>
     </tbody>
-</table> <br>
-<div style=" font-size: 14px; text-align: center;">Figure 4: Layout of Symbol pointer using TBI only
+  </table>
 </div>
+<p style="text-align: center;"><span style="font-size:11pt;">Figure 4: Layout of Symbol pointer using TBI only</span></p>
 
-Reference count and type had a range of 0-15. Reference count of 0 meant a symbol could be destroyed. The type values were 0 for UnsignedInt and 1 for String.
+<br>Reference count and type had a range of 0-15. Reference count of 0 meant a symbol could be destroyed. The type values were 0 for UnsignedInt and 1 for String.
 
 # Taking the Safety Off
 
@@ -211,7 +209,7 @@ The new plan is to use both MTE and TBI with the symbol pointers. The type of th
 
 To make that work you need to disable tag checking in the memory where the symbol values are allocated. Since there is no longer a logical tag in the pointer and only by chance could the bottom 4 bits of the reference count match the allocation tag and pass the tag check.
 
-<br>
+
 <div align="left">
     <table style="border: none; border-collapse: collapse; width: 100%;">
         <tbody>
@@ -254,12 +252,9 @@ To make that work you need to disable tag checking in the memory where the symbo
         </tbody>
     </table>
 </div>
+<p style="text-align: center;"><span style="font-size:11pt;">Figure 5: Layout of Symbol pointer when using TBI and MTE</span></p>
 
-</table> <br>
-<div style=" font-size: 14px; text-align: center;">Figure 5: Layout of Symbol pointer when using TBI and MTE
-</div>
-
-One thing you are not required to do, but this interpreter will do, is starting the type numbering at 1 instead of 0. This is because the convention (it is not hardware enforced) is that a memory tag of 0 means that tagged memory has just been allocated, or has had its tag reset to 0 where it previously had a non-zero tag. Sometimes referred to as “untagging”.
+<br>One thing you are not required to do, but this interpreter will do, is starting the type numbering at 1 instead of 0. This is because the convention (it is not hardware enforced) is that a memory tag of 0 means that tagged memory has just been allocated, or has had its tag reset to 0 where it previously had a non-zero tag. Sometimes referred to as “untagging”.
 
 Any pointer to allocated memory will have a non-zero tag. Therefore setting the memory’s tag back to 0 invalidates all the pointers previously given out to the program. This prevents exploits like “use after free”. Where memory is accessed after it has been freed, corrupting new allocations that may now occupy that memory.
 
@@ -388,7 +383,6 @@ In this example there is an UnsignedInt symbol (type value = 1) with value 99 an
     </table>
 </div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 7: Symbol memory allocation</span></p>
-</p>
 
 <br>In Figure 7 you can see that:
 
