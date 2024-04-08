@@ -86,8 +86,6 @@ Top Byte Ignore is quite literal. When enabled, the top byte of a pointer is ign
 <div style=" font-size: 14px; text-align: center;">Figure 1: Pointer contents when using TBI
 </div>
 
-
-
 <br>Crucially these are not like “free bits” you get from alignment assumptions. You can assume that a pointer to a 4 byte aligned address has its 2 least significant bits set to 0. So you can put 2 bits of your own data there, as long as you remove them before using the pointer. In contrast, when using TBI you do not ever need to remove your data from the pointer.
 
 The same applies to the “Unused” bits between the end of the top byte and the start of the virtual address. Though these are generally unused (the virtual address can be extended) they are still counted for addressing purposes. So again you could use those bits, but you would have to remove them every time you use the pointer to access memory.
@@ -122,7 +120,6 @@ The same applies to the “Unused” bits between the end of the top byte and th
 </table> <br>
 <div style=" font-size: 14px; text-align: center;">Figure 2: Pointer contents when using TBI and MTE
 </div>
-
 
 Memory tagging builds on TBI by using the bottom 4 bits of that top byte to store a 4 bit “logical tag” as shown in Figure 2.
 
@@ -169,9 +166,6 @@ This is paired with an “allocation tag” which is stored in separate tag memo
 <div style=" font-size: 14px; text-align: center;">Figure 3: Memory accesses using MTE
 </div>
 
-
-
-
 That is the intended use of MTE, memory safety. Imagine one of those buffers is for a username and you forget to limit the number of characters copied into it. With MTE, you can prevent a buffer overflow that would otherwise cause a security issue.
 
 Luckily for us, this tag checking can be disabled. Why is that allowed? One reason is to allow porting of applications that are not yet memory safe. You can fix a memory safety issue and then run without tag checks to make sure the application still functions properly. Then turn the tag checks back on to find the next issue.
@@ -212,4 +206,113 @@ In addition to a reference count, you need the symbol’s type. So I split the t
 <div style=" font-size: 14px; text-align: center;">Figure 4: Layout of Symbol pointer using TBI only
 </div>
 
+Reference count and type had a range of 0-15. Reference count of 0 meant a symbol could be destroyed. The type values were 0 for UnsignedInt and 1 for String.
 
+# Taking the Safety Off
+
+The new plan is to use both MTE and TBI with the symbol pointers. The type of the symbol will be stored in the allocation tag, leaving the whole top byte free for reference counting. So instead of only 15 references, you can have up to 255.
+
+To make that work you need to disable tag checking in the memory where the symbol values are allocated. Since there is no longer a logical tag in the pointer and only by chance could the bottom 4 bits of the reference count match the allocation tag and pass the tag check.
+
+<p><br></p>
+<div align="left">
+    <table style="border: none; border-collapse: collapse; width: 100%;">
+        <tbody>
+            <tr>
+                <td style="border:  solid rgb(0, 0, 0); width: 34.7791%; text-align: center;">
+                    <p><strong><span style="font-size:11pt;">Tag Memory</span></strong></p>
+                </td>
+                <td colspan="3" style="border:  solid rgb(0, 0, 0); width: 65.0572%; text-align: center;">
+                    <p><strong><span style="font-size:11pt;">Pointer</span></strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border:  solid rgb(0, 0, 0); width: 34.7791%; text-align: center;">
+                    <p><strong><span style="font-size:11pt;">Allocation Tag</span></strong></p>
+                </td>
+                <td style="border:  solid rgb(0, 0, 0); width: 21.4492%; text-align: center;">
+                    <p><strong><span style="font-size:11pt;">Bits 63-56</span></strong></p>
+                </td>
+                <td style="border:  solid rgb(0, 0, 0); text-align: center; width: 21.595%;">
+                    <p><strong><span style="font-size:11pt;">Bits 55-48</span></strong></p>
+                </td>
+                <td style="border:  solid rgb(0, 0, 0); text-align: center; width: 22.0131%;">
+                    <p><strong><span style="font-size:11pt;">Bits 47-0</span></strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border:  solid rgb(0, 0, 0); width: 34.7791%; text-align: center;">
+                    <p><span style="font-size:11pt;">Type</span></p>
+                </td>
+                <td style="border:  solid rgb(0, 0, 0); width: 21.4492%; text-align: center;">
+                    <p><span style="font-size:11pt;">Reference Count</span></p>
+                </td>
+                <td style="border:  solid rgb(0, 0, 0); text-align: center; width: 21.595%;">
+                    <p><span style="font-size:11pt;">Unused</span></p>
+                </td>
+                <td style="border:  solid rgb(0, 0, 0); text-align: center; width: 22.0131%;">
+                    <p><span style="font-size:11pt;">Virtual Address</span></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</table> <br>
+<div style=" font-size: 14px; text-align: center;">Figure 5: Layout of Symbol pointer when using TBI and MTE
+</div>
+
+One thing you are not required to do, but this interpreter will do, is starting the type numbering at 1 instead of 0. This is because the convention (it is not hardware enforced) is that a memory tag of 0 means that tagged memory has just been allocated, or has had its tag reset to 0 where it previously had a non-zero tag. Sometimes referred to as “untagging”.
+
+
+
+Any pointer to allocated memory will have a non-zero tag. Therefore setting the memory’s tag back to 0 invalidates all the pointers previously given out to the program. This prevents exploits like “use after free”. Where memory is accessed after it has been freed, corrupting new allocations that may now occupy that memory.
+
+
+
+Tag checking is disabled, so you do not have to do this “untagging”. I am choosing to do it to clearly show how symbol garbage collection works later in this article. Deleted symbols’ memory locations will have their memory tags reset to 0.
+
+# Tagged Allocations
+
+The core of the interpreter is the Symbol and SymbolTable classes. The SymbolTable is a vector of Symbols. Symbols are the pointer sized value you saw earlier.
+
+
+
+Each symbol has to allocate storage for the actual value of the symbol, so the next step is to substitute in an allocator that also tags memory.
+
+
+
+What I have written is very simple, just enough to get the demo working. The MTE specific operations are provided by the [Arm C Language Extensions](https://developer.arm.com/documentation/101028/0012/10--Memory-tagging-intrinsics) (ACLE).
+
+
+
+Note: If you want to see more “standard” memory allocator (though without memory tagging), check out my Arm Learning Paths [“Write a Dynamic Memory Allocator”](https://learn.arm.com/learning-paths/cross-platform/dynamic-memory-allocator/) and [“Adding Memory Tagging to a Dynamic Memory Allocator”](https://learn.arm.com/learning-paths/laptops-and-desktops/memory-tagged-dynamic-memory-allocator/).
+
+
+
+In summary:
+
+* [tagged_heap_init](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/TaggedStorage.cpp#L44)  does a one time setup and is called from [main](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/main.cpp#L49):
+* * Allocate a large chunk of tagged memory using mmap and the PROT_MTE flag to enable memory tagging.
+  * Ignore tag faults in this memory by using the PR_MTE_TCF_NONE option.
+* [tagged_malloc](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/TaggedStorage.cpp#L91) replicates malloc, with an extra argument to pass in the new allocation tag.
+* [tagged_free](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/TaggedStorage.cpp#L114) replaces free, with an extra argument which is the size of the allocation to free. Since the interpreter knows what type it is freeing, the allocator does not have to keep track of this.
+* Allocations always continue forwards (sometimes referred to as a “bump allocator”).
+* tagged_free does not “free” memory, it just sets the allocation tags to 0.
+* All new and delete calls in the interpreter will be replaced with tagged_malloc and tagged_free.
+
+
+
+Allocation tags apply to “granules” and a “granule” is 16 bytes of memory. This means that each symbol must allocate at least 16 bytes, or a multiple of 16 bytes. So all our UnsignedInts will take up more memory than they need to, as will many other types (more on this in the conclusion).
+
+
+
+The final step was to rewrite [Symbol::GetType](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/Symbol.cpp#L145) to read back the allocation tag from tag memory instead of masking the pointer.
+
+
+
+With the allocator in place you can use the 4 bit memory tag plus the top byte you already had. For a total of 12 “free” bits of metadata.
+
+## Example Allocation
+
+In this example there is an UnsignedInt symbol (type value = 1) with value 99 and a reference count of 25.
