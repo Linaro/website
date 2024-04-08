@@ -444,3 +444,73 @@ The core of the check is [Symbol::GetType](https://gitlab.com/Linaro/tcwg/tbi_li
 __arm_mte_get_tag is an ACLE function that produces the instruction [“ldg”](https://developer.arm.com/documentation/ddi0602/2023-06/Base-Instructions/LDG--Load-Allocation-Tag-). It takes a pointer to an address and returns that same pointer with its logical tag set to the allocation tag of the memory it points to. The interpreter then shifts and masks the result to get just the tag.
 
 You can use the debugger to confirm what the error told us. Our first argument, “1”, will be index 0 in the symbol table.
+
+`(lldb) p/x symbol_table.GetSymbol(0)`
+
+`(const Symbol)  (m_value = 0x0100fffff7fed000)`
+
+It contains a pointer with some part of the top byte set. This is the reference count of 1. Not to be confused with the type value of UnsignedInt, which is also 1. The type value is in the allocation tag, as shown below.
+
+`(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32`
+
+`0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ (tag: 0x1)`
+
+`0xfffff7fed010: 61 62 63 00 00 00 00 00 00 00 00 00 00 00 00 00  abc............. (tag: 0x2)`
+
+On the first line (offset 0x00) you will see an allocation tag (the type value) of 1, with the literal value 1 set in the first byte of memory.
+
+Each line is 16 bytes (1 granule), so the second line will be a different symbol. This must be index 1, “abc”. You can see the stored ASCII characters on line 2 (offset 0x10).
+
+You can also get to this second symbol’s allocation from the symbol table, where it will be index 1.
+
+`(lldb) p/x symbol_table.GetSymbol(1)`
+
+`(const Symbol)  (m_value = 0x0100fffff7fed010)`
+
+It has a reference count of 1, as you would expect. There is no sign of the type value (2) in the top byte, as that is stored in the allocation tag. Following this pointer you get to the same location as before, where “abc” is stored.
+
+`(lldb) p/x (const char*)symbol_table.GetSymbol(1).m_value`
+
+`(const char *) 0x0100fffff7fed010 "abc"`
+
+From this you can see how the interpreter can take arguments as indexes into the symbol table, use those to find the symbol’s type from the allocation tag and perform a type check.
+
+## Reference Counting
+
+Storing the type in the allocation tag means you can have much larger reference counts than if you had to share the top byte. I will not show the limit of that (it is tested [here](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/commit/8679b1d0d1a1f22c39116624ead50d262910d2b2#2b02418196b18e5b2b610661283933c0715abfee_129_128) if you are really interested), only a minimal example of reference counting.
+
+Expression: (+ 1 1)
+
+Our first stop is when the first 1 is allocated, at the end of [consume_unsigned_integer](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/Parser.cpp#L66). Here you see the new symbol with a reference count of 1 set in the top byte.
+
+`(lldb) p/x m_symbol_table.GetSymbol(0)`
+
+`(const Symbol)  (m_value = 0x0100fffff7fed000)`
+
+``\
+The allocation for the Symbol has an allocation tag of 1, which matches its UnsignedInt type value of 1.
+
+`(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32 -f bytes`
+
+`0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
+
+You will not get a type error this time, so you can continue until after the type check in [do_plus](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/Execute.cpp#L28).
+
+`(lldb) p symbol_table.m_symbols.size()`
+
+`(std::vector<Symbol>::size_type) 1`
+
+``\
+You still have 1 symbol, which is expected as you should not need another Symbol for the second 1.
+
+`(lldb) p/x symbol_table.GetSymbol(0)`
+
+`(const Symbol)  (m_value = 0x0200fffff7fed000)`
+
+Indeed you see that reference count has changed. The top byte now has the value 2 since you are representing 2 “1”s with 1 Symbol. Of course 1+1 is 2 and you will need a new Symbol for that.
+
+`(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32 -f bytes`
+
+`0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
+
+`0xfffff7fed010: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
