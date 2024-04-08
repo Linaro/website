@@ -672,3 +672,134 @@ Though this can also be done without memory tagging by having one allocation are
 Of course all this requires completely disabling the memory safety benefits of MTE. If you were willing to give up the “extra” bits and include the type value in the pointer instead, you could enable tag checking again. However you would need some intelligence in the allocator to recover the memory safety benefits.
 
 The allocator used here does not attempt to separate two allocations of the same type. So an overflow from one into the other will not be detected as the allocation tags will be the same.
+
+<p style="text-align: center;"><br></p>
+<div align="left">
+    <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
+        <tbody>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 33.9312%;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Memory Offset</span></strong></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 33.8949%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">0x00</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 32.0403%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">0x10</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 33.9312%;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Symbol Name</span></strong></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 33.8949%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">A</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 32.0403%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">B</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 33.9312%;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Symbol Type</span></strong></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 33.8949%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">String</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 32.0403%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">String</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 33.9312%;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Allocation Tag</span></strong></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 33.8949%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">2</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 32.0403%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">2</span></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p style="text-align: center;"><span style="font-size:11pt;">Figure 9: Sequential allocation of identical symbol types</span></p>
+
+In figure 9 you can see that when using a pointer to symbol A, a program could overflow into symbol B without an exception being raised. You can mitigate this by interleaving types in memory but you are limited by the order in which the interpreter asks for them to be allocated. So you may need expensive fragmenting steps to ensure a safe layout.
+
+Notice that the goal here is keeping values of the same type away from each other and I just talked about doing the opposite to mitigate a different issue. Once you have decided that memory tags are something more than arbitrary values, you have to work very hard to keep the memory safety benefits.
+
+If you want to buck convention despite all that, you could use all the previously mentioned techniques and get 16 bits of metadata in total. Top byte, plus the 4 bit allocation tag, plus 4 least significant bits from alignment. Which application needs that? Not sure but whatever it is, it would likely have a low memory budget.
+
+<div align="left">
+    <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
+        <tbody>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 19.2754%;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Tag Memory</span></strong></p>
+                </td>
+                <td colspan="4" style="border: 1pt solid rgb(0, 0, 0); width: 80.628%;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Pointer</span></strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 19.2754%;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Allocation Tag</span></strong></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 20.1902%;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Top Byte</span></strong></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 20.0174%;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Unused</span></strong></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 19.8392%;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Virtual Address</span></strong></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 20.6439%;">
+                    <p style="text-align: center;"><strong><span style="font-size:11pt;">Bits 3-0</span></strong><strong><span style="font-size:11pt;"><br></span></strong><strong><span style="font-size:11pt;">(known to be 0)</span></strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 19.2754%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">4 bits</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 20.1902%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">8 bits</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 20.0174%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">N/A</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 19.8392%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">N/A</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 20.6439%;">
+                    <p style="text-align: center;"><span style="font-size:11pt;">4 bits</span></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p style="text-align: center;"><span style="font-size:11pt;">Figure 10: Available bits when using TBI, MTE and alignment assumptions</span></p>
+
+Finally, I made an assumption earlier that you already have a system with MTE. If you were instead designing a system from scratch you would have to consider the cost of enabling MTE.
+
+
+
+The biggest question is where to store the tags. The architecture does not tell designers exactly how to store allocation tags, but one suggested method using a [portion of your Dynamic Random-Access Memory](https://www.youtube.com/watch?v=qzQNoYwcH2g&t=290s) (DRAM). If you wanted to tag all your memory and achieve the LISP machine dream I referenced earlier, it would be a 3% overhead (1 extra byte per 32 bytes).
+
+
+
+If you want to learn more about the intended uses of MTE you can read the [“Memory Tagging Extension User Guide for Android Developers”](https://community.arm.com/arm-community-blogs/b/operating-systems-blog/posts/new-mte-user-guide). Even if you are not an Android developer, it is a good overview. You can also experiment on Linux using QEMU.
+
+
+
+The source code for what I have shown is available [here](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/tree/memory_tagged) under the MIT licence. If you want to try a production quality implementation of tagged memory allocation, I suggest GLIBC’s [tagging options](https://www.gnu.org/software/libc/manual/html_node/Memory-Related-Tunables.html). [This paper](https://arxiv.org/abs/2209.00307) also includes a survey of existing MTE enabled allocators.
+
+
+
+If you want to write your own allocator, Arm has Learning Paths on [writing a dynamic memory allocator](https://learn.arm.com/learning-paths/cross-platform/dynamic-memory-allocator/) and [adding memory tagging to an allocator](https://learn.arm.com/learning-paths/laptops-and-desktops/memory-tagged-dynamic-memory-allocator/).
+
+
+
+If you want to know more about Linaro’s work enabling new Arm features, check out the [LLVM](https://linaro.atlassian.net/wiki/spaces/LLVM/overview?homepageId=23494132193) and [GNU](https://linaro.atlassian.net/wiki/spaces/GNU/overview) project pages. Alternatively you can reach out on our public mailing list linaro-toolchain@lists.linaro.org or privately via support@linaro.org.
