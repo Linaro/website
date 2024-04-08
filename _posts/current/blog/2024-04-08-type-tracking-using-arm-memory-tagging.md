@@ -440,3 +440,7 @@ The core of the check is [Symbol::GetType](https://gitlab.com/Linaro/tcwg/tbi_li
 <span style="font-size:9pt;">                                 0xf);</span>
 <span style="font-size:9pt;">}</span></pre>
 <p><br></p>
+
+__arm_mte_get_tag is an ACLE function that produces the instruction [“ldg”](https://developer.arm.com/documentation/ddi0602/2023-06/Base-Instructions/LDG--Load-Allocation-Tag-). It takes a pointer to an address and returns that same pointer with its logical tag set to the allocation tag of the memory it points to. The interpreter then shifts and masks the result to get just the tag.
+
+You can use the debugger to confirm what the error told us. Our first argument, “1”, will be index 0 in the symbol table.
