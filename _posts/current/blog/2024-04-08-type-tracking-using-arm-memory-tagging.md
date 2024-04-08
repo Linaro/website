@@ -301,18 +301,106 @@ In summary:
 * tagged_free does not “free” memory, it just sets the allocation tags to 0.
 * All new and delete calls in the interpreter will be replaced with tagged_malloc and tagged_free.
 
-
-
 Allocation tags apply to “granules” and a “granule” is 16 bytes of memory. This means that each symbol must allocate at least 16 bytes, or a multiple of 16 bytes. So all our UnsignedInts will take up more memory than they need to, as will many other types (more on this in the conclusion).
 
-
-
 The final step was to rewrite [Symbol::GetType](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/Symbol.cpp#L145) to read back the allocation tag from tag memory instead of masking the pointer.
-
-
 
 With the allocator in place you can use the 4 bit memory tag plus the top byte you already had. For a total of 12 “free” bits of metadata.
 
 ## Example Allocation
 
 In this example there is an UnsignedInt symbol (type value = 1) with value 99 and a reference count of 25.
+
+<div align="left">
+    <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
+        <tbody>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 36.1551%; text-align: center;">
+                    <p><strong><span style="font-size:11pt;">Bits 63-56</span></strong></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 33.848%; text-align: center;">
+                    <p><strong><span style="font-size:11pt;">Bits 55-48</span></strong></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 29.9593%; text-align: center;">
+                    <p><strong><span style="font-size:11pt;">Bits 47-0</span></strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 36.1551%; text-align: center;">
+                    <p><span style="font-size:11pt;">Reference count of 25 (0x19)</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 33.848%; text-align: center;">
+                    <p><span style="font-size:11pt;">Unused</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 29.9593%; text-align: center;">
+                    <p><span style="font-size:11pt;">Pointer to allocator storage offset 0x00.&nbsp;</span></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p style="text-align: center;"><span style="font-size:11pt;">Figure 6: Symbol pointer</span></p>
+<p><br></p>
+<div align="left">
+    <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
+        <tbody>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 29.6407%; text-align: center;">
+                    <p><strong><span style="font-size:11pt;">Address (relative)</span></strong></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 42.7681%; text-align: center;">
+                    <p><strong><span style="font-size:11pt;">Allocation Tag</span></strong><strong><span style="font-size:11pt;"><br></span></strong><strong><span style="font-size:11pt;">(Type Value)</span></strong></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); text-align: center; width: 27.5561%;">
+                    <p><strong><span style="font-size:11pt;">Value</span></strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 29.6407%; text-align: center;">
+                    <p><span style="font-size:11pt;">0x00</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 42.7681%; text-align: center;">
+                    <p><span style="font-size:11pt;">1</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); text-align: center; width: 27.5561%;">
+                    <p><span style="font-size:11pt;">99</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 29.6407%; text-align: center;">
+                    <p><span style="font-size:11pt;">0x08</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 42.7681%; text-align: center;">
+                    <p><span style="font-size:11pt;">1</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); text-align: center; width: 27.5561%;">
+                    <p><span style="font-size:11pt;">0</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 29.6407%; text-align: center;">
+                    <p><span style="font-size:11pt;">0x10</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 42.7681%; text-align: center;">
+                    <p><span style="font-size:11pt;">0</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); text-align: center; width: 27.5561%;">
+                    <p><span style="font-size:11pt;">?</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 29.6407%; text-align: center;">
+                    <p><span style="font-size:11pt;">&hellip;</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); width: 42.7681%; text-align: center;">
+                    <p><span style="font-size:11pt;">0</span></p>
+                </td>
+                <td style="border: 1pt solid rgb(0, 0, 0); text-align: center; width: 27.5561%;">
+                    <p><span style="font-size:11pt;">?</span></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p style="text-align: center;"><span style="font-size:11pt;">Figure 7: Symbol memory allocation</span></p>
+<p><br></p>
