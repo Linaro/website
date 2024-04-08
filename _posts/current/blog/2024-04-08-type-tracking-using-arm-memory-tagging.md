@@ -264,11 +264,7 @@ To make that work you need to disable tag checking in the memory where the symbo
 
 One thing you are not required to do, but this interpreter will do, is starting the type numbering at 1 instead of 0. This is because the convention (it is not hardware enforced) is that a memory tag of 0 means that tagged memory has just been allocated, or has had its tag reset to 0 where it previously had a non-zero tag. Sometimes referred to as “untagging”.
 
-
-
 Any pointer to allocated memory will have a non-zero tag. Therefore setting the memory’s tag back to 0 invalidates all the pointers previously given out to the program. This prevents exploits like “use after free”. Where memory is accessed after it has been freed, corrupting new allocations that may now occupy that memory.
-
-
 
 Tag checking is disabled, so you do not have to do this “untagging”. I am choosing to do it to clearly show how symbol garbage collection works later in this article. Deleted symbols’ memory locations will have their memory tags reset to 0.
 
@@ -276,19 +272,11 @@ Tag checking is disabled, so you do not have to do this “untagging”. I am ch
 
 The core of the interpreter is the Symbol and SymbolTable classes. The SymbolTable is a vector of Symbols. Symbols are the pointer sized value you saw earlier.
 
-
-
 Each symbol has to allocate storage for the actual value of the symbol, so the next step is to substitute in an allocator that also tags memory.
-
-
 
 What I have written is very simple, just enough to get the demo working. The MTE specific operations are provided by the [Arm C Language Extensions](https://developer.arm.com/documentation/101028/0012/10--Memory-tagging-intrinsics) (ACLE).
 
-
-
 Note: If you want to see more “standard” memory allocator (though without memory tagging), check out my Arm Learning Paths [“Write a Dynamic Memory Allocator”](https://learn.arm.com/learning-paths/cross-platform/dynamic-memory-allocator/) and [“Adding Memory Tagging to a Dynamic Memory Allocator”](https://learn.arm.com/learning-paths/laptops-and-desktops/memory-tagged-dynamic-memory-allocator/).
-
-
 
 In summary:
 
@@ -403,4 +391,52 @@ In this example there is an UnsignedInt symbol (type value = 1) with value 99 an
     </table>
 </div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 7: Symbol memory allocation</span></p>
+</p>
+
+In Figure 7 you can see that:
+
+* The size of the UnsignedInt has been rounded up to 16 bytes (1 granule).
+* The first 16 bytes of memory are tagged with 1 which is the type value for UnsignedInt. 
+* The value at offset 0x00 is 99, and the next 8 bytes are unused since our numbers are only 8 bytes (uint64_t in C terms).
+* A slot follows at offset 0x10, which remains tagged with 0 because it is not in use.
+
+That is the theory, now for the reality.
+
+# Examples
+
+## Type Errors
+
+Expression: (+ 1 “abc”)
+
+Result: “Error: All arguments to + must be the same type”
+
+This example:
+
+* Uses both the UnsignedInt (type=1) and String (type=2) type values.
+* Cleary does a type check.
+* Has 2 symbols with 2 different literal values (1 and “abc”).
+
+Note: If you want to follow along, you will have to have at least [LLDB 13](https://github.com/llvm/llvm-project/releases/tag/llvmorg-13.0.1) and be running in a system simulator like qemu-system-aarch64. As qemu-aarch64 does not support the memory tagging debug protocol packets at this time.
+
+You will stop in [do_plus](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/Execute.cpp#L28) which is where the type error is raised, then step to the type check itself.
+
+<p><br></p>
+<pre><span style="font-size:9pt;">if (std::adjacent_find(arguments.cbegin(), arguments.cend(),</span>
+<span style="font-size:9pt;">                        [&amp;symbol_table](SymbolIndex lhs, SymbolIndex rhs) {</span>
+<span style="font-size:9pt;">                          return symbol_table.GetSymbol(lhs).GetType() !=</span>
+<span style="font-size:9pt;">                                 symbol_table.GetSymbol(rhs).GetType();</span>
+<span style="font-size:9pt;">                        }) != arguments.end())</span>
+<span style="font-size:9pt;">   return &quot;All arguments to + must be the same type&quot;;</span></pre><br>
+
+This code walks all the arguments to “+”. Whatever the type of the first argument is, all of the subsequent arguments should have that same type. In this case the first argument is an UnsignedInt, so the next one should also be an UnsignedInt. It is actually a String, so the type check fails.
+
+The core of the check is [Symbol::GetType](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/Symbol.cpp#L145):
+
+<p><br></p>
+<pre><span style="font-size:9pt;">SymbolType Symbol::GetType() const {</span>
+<span style="font-size:9pt;">  return static_cast&lt;SymbolType&gt;((reinterpret_cast&lt;uintptr_t&gt;(__arm_mte_get_tag(</span>
+<span style="font-size:9pt;">                                      reinterpret_cast&lt;void *&gt;(m_value))) &gt;&gt;</span>
+<span style="font-size:9pt;">                                  REFCOUNT_LSB) &amp;</span>
+<span style="font-size:9pt;">                                 0xf);</span>
+<span style="font-size:9pt;">}</span></pre>
 <p><br></p>
