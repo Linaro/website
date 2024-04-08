@@ -116,7 +116,6 @@ The same applies to the “Unused” bits between the end of the top byte and th
 </div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 2: Pointer contents when using TBI and MTE</span></p>
 
-
 <br>Memory tagging builds on TBI by using the bottom 4 bits of that top byte to store a 4 bit “logical tag” as shown in Figure 2.
 
 This is paired with an “allocation tag” which is stored in separate tag memory. When you access memory the two tags are compared. If they are different, an exception is raised.
@@ -208,7 +207,6 @@ In addition to a reference count, you need the symbol’s type. So I split the t
 The new plan is to use both MTE and TBI with the symbol pointers. The type of the symbol will be stored in the allocation tag, leaving the whole top byte free for reference counting. So instead of only 15 references, you can have up to 255.
 
 To make that work you need to disable tag checking in the memory where the symbol values are allocated. Since there is no longer a logical tag in the pointer and only by chance could the bottom 4 bits of the reference count match the allocation tag and pass the tag check.
-
 
 <div align="left">
     <table style="border: none; border-collapse: collapse; width: 100%;">
@@ -411,42 +409,49 @@ Note: If you want to follow along, you will have to have at least [LLDB 13](http
 
 You will stop in [do_plus](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/Execute.cpp#L28) which is where the type error is raised, then step to the type check itself.
 
-<p><br></p>
-<pre><span style="font-size:9pt;">if (std::adjacent_find(arguments.cbegin(), arguments.cend(),</span>
-<span style="font-size:9pt;">                        [&amp;symbol_table](SymbolIndex lhs, SymbolIndex rhs) {</span>
-<span style="font-size:9pt;">                          return symbol_table.GetSymbol(lhs).GetType() !=</span>
-<span style="font-size:9pt;">                                 symbol_table.GetSymbol(rhs).GetType();</span>
-<span style="font-size:9pt;">                        }) != arguments.end())</span>
-<span style="font-size:9pt;">   return &quot;All arguments to + must be the same type&quot;;</span></pre><br>
+```
+if (std::adjacent_find(arguments.cbegin(), arguments.cend(),
+                        [&symbol_table](SymbolIndex lhs, SymbolIndex rhs) {
+                          return symbol_table.GetSymbol(lhs).GetType() !=
+                                 symbol_table.GetSymbol(rhs).GetType();
+                        }) != arguments.end())
+   return "All arguments to + must be the same type";
+
+```
 
 This code walks all the arguments to “+”. Whatever the type of the first argument is, all of the subsequent arguments should have that same type. In this case the first argument is an UnsignedInt, so the next one should also be an UnsignedInt. It is actually a String, so the type check fails.
 
 The core of the check is [Symbol::GetType](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/Symbol.cpp#L145):
 
-<p><br></p>
-<pre><span style="font-size:9pt;">SymbolType Symbol::GetType() const {</span>
-<span style="font-size:9pt;">  return static_cast&lt;SymbolType&gt;((reinterpret_cast&lt;uintptr_t&gt;(__arm_mte_get_tag(</span>
-<span style="font-size:9pt;">                                      reinterpret_cast&lt;void *&gt;(m_value))) &gt;&gt;</span>
-<span style="font-size:9pt;">                                  REFCOUNT_LSB) &amp;</span>
-<span style="font-size:9pt;">                                 0xf);</span>
-<span style="font-size:9pt;">}</span></pre>
-<p><br></p>
+```
+SymbolType Symbol::GetType() const {
+  return static_cast<SymbolType>((reinterpret_cast<uintptr_t>(__arm_mte_get_tag(
+                                      reinterpret_cast<void *>(m_value))) >>
+                                  REFCOUNT_LSB) &
+                                 0xf);
+}
+
+```
 
 __arm_mte_get_tag is an ACLE function that produces the instruction [“ldg”](https://developer.arm.com/documentation/ddi0602/2023-06/Base-Instructions/LDG--Load-Allocation-Tag-). It takes a pointer to an address and returns that same pointer with its logical tag set to the allocation tag of the memory it points to. The interpreter then shifts and masks the result to get just the tag.
 
 You can use the debugger to confirm what the error told us. Our first argument, “1”, will be index 0 in the symbol table.
 
-`(lldb) p/x symbol_table.GetSymbol(0)`
+```
+(lldb) p/x symbol_table.GetSymbol(0)
 
-`(const Symbol)  (m_value = 0x0100fffff7fed000)`
+(const Symbol)  (m_value = 0x0100fffff7fed000)
+```
 
 It contains a pointer with some part of the top byte set. This is the reference count of 1. Not to be confused with the type value of UnsignedInt, which is also 1. The type value is in the allocation tag, as shown below.
 
+```
 `(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32`
 
 `0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ (tag: 0x1)`
 
 `0xfffff7fed010: 61 62 63 00 00 00 00 00 00 00 00 00 00 00 00 00  abc............. (tag: 0x2)`
+```
 
 On the first line (offset 0x00) you will see an allocation tag (the type value) of 1, with the literal value 1 set in the first byte of memory.
 
@@ -454,15 +459,19 @@ Each line is 16 bytes (1 granule), so the second line will be a different symbol
 
 You can also get to this second symbol’s allocation from the symbol table, where it will be index 1.
 
+```
 `(lldb) p/x symbol_table.GetSymbol(1)`
 
 `(const Symbol)  (m_value = 0x0100fffff7fed010)`
+```
 
 It has a reference count of 1, as you would expect. There is no sign of the type value (2) in the top byte, as that is stored in the allocation tag. Following this pointer you get to the same location as before, where “abc” is stored.
 
+```
 `(lldb) p/x (const char*)symbol_table.GetSymbol(1).m_value`
 
 `(const char *) 0x0100fffff7fed010 "abc"`
+```
 
 From this you can see how the interpreter can take arguments as indexes into the symbol table, use those to find the symbol’s type from the allocation tag and perform a type check.
 
@@ -474,37 +483,49 @@ Expression: (+ 1 1)
 
 Our first stop is when the first 1 is allocated, at the end of [consume_unsigned_integer](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/Parser.cpp#L66). Here you see the new symbol with a reference count of 1 set in the top byte.
 
+```
 `(lldb) p/x m_symbol_table.GetSymbol(0)`
 
 `(const Symbol)  (m_value = 0x0100fffff7fed000)`
 
-``\
+``
+```
+
 The allocation for the Symbol has an allocation tag of 1, which matches its UnsignedInt type value of 1.
 
+```
 `(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32 -f bytes`
 
 `0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
+```
 
 You will not get a type error this time, so you can continue until after the type check in [do_plus](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/Execute.cpp#L28).
 
+```
 `(lldb) p symbol_table.m_symbols.size()`
 
 `(std::vector<Symbol>::size_type) 1`
 
-``\
+``
+```
+
 You still have 1 symbol, which is expected as you should not need another Symbol for the second 1.
 
+```
 `(lldb) p/x symbol_table.GetSymbol(0)`
 
 `(const Symbol)  (m_value = 0x0200fffff7fed000)`
+```
 
 Indeed you see that reference count has changed. The top byte now has the value 2 since you are representing 2 “1”s with 1 Symbol. Of course 1+1 is 2 and you will need a new Symbol for that.
 
+```
 `(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32 -f bytes`
 
 `0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
 
 `0xfffff7fed010: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
+```
 
 \
 Stepping over the “+”, you see that “2” appears in memory on the second line above (offset 0x10). This is the result of “1+1”.
@@ -513,12 +534,13 @@ Now that “+” has finished, it no longer needs its arguments. For each argume
 
 This means you can delete the symbol. Here an earlier detail is important. I chose to start type values at 1 so that 0 could be used as the “untagged” allocation tag value.
 
-\
+```
 `(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32 -f bytes`
 
 `0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x0)`
 
 `0xfffff7fed010: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
+```
 
 \
 Freeing the symbol calls tagged_free which resets the memory tag to 0 for the memory on the first line above (offset 0x00). You see that the result “2” remains undisturbed on the second line (offset 0x10) with the expected tag 1.
@@ -723,7 +745,6 @@ Notice that the goal here is keeping values of the same type away from each othe
 
 If you want to buck convention despite all that, you could use all the previously mentioned techniques and get 16 bits of metadata in total. Top byte, plus the 4 bit allocation tag, plus 4 least significant bits from alignment. Which application needs that? Not sure but whatever it is, it would likely have a low memory budget. 
 
-<br>
 <div align="left">
     <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
         <tbody>
@@ -776,22 +797,12 @@ If you want to buck convention despite all that, you could use all the previousl
 
 Finally, I made an assumption earlier that you already have a system with MTE. If you were instead designing a system from scratch you would have to consider the cost of enabling MTE.
 
-
-
 The biggest question is where to store the tags. The architecture does not tell designers exactly how to store allocation tags, but one suggested method using a [portion of your Dynamic Random-Access Memory](https://www.youtube.com/watch?v=qzQNoYwcH2g&t=290s) (DRAM). If you wanted to tag all your memory and achieve the LISP machine dream I referenced earlier, it would be a 3% overhead (1 extra byte per 32 bytes).
-
-
 
 If you want to learn more about the intended uses of MTE you can read the [“Memory Tagging Extension User Guide for Android Developers”](https://community.arm.com/arm-community-blogs/b/operating-systems-blog/posts/new-mte-user-guide). Even if you are not an Android developer, it is a good overview. You can also experiment on Linux using QEMU.
 
-
-
 The source code for what I have shown is available [here](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/tree/memory_tagged) under the MIT licence. If you want to try a production quality implementation of tagged memory allocation, I suggest GLIBC’s [tagging options](https://www.gnu.org/software/libc/manual/html_node/Memory-Related-Tunables.html). [This paper](https://arxiv.org/abs/2209.00307) also includes a survey of existing MTE enabled allocators.
 
-
-
 If you want to write your own allocator, Arm has Learning Paths on [writing a dynamic memory allocator](https://learn.arm.com/learning-paths/cross-platform/dynamic-memory-allocator/) and [adding memory tagging to an allocator](https://learn.arm.com/learning-paths/laptops-and-desktops/memory-tagged-dynamic-memory-allocator/).
-
-
 
 If you want to know more about Linaro’s work enabling new Arm features, check out the [LLVM](https://linaro.atlassian.net/wiki/spaces/LLVM/overview?homepageId=23494132193) and [GNU](https://linaro.atlassian.net/wiki/spaces/GNU/overview) project pages. Alternatively you can reach out on our public mailing list linaro-toolchain@lists.linaro.org or privately via support@linaro.org.
