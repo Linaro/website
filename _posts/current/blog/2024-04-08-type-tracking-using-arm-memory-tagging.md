@@ -13,11 +13,8 @@ tags:
   - AArch64
   - Memory Tagging
   - MTE
-  - Top Byte Ignore
-  - TBI
-  - Garbage Collection
 category: blog
-author: alan.bennett
+author: david.spickett
 ---
 # Memory Tagging is (Usually) For Memory Safety
 
