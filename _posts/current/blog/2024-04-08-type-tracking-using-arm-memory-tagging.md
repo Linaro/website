@@ -214,7 +214,7 @@ The new plan is to use both MTE and TBI with the symbol pointers. The type of th
 
 To make that work you need to disable tag checking in the memory where the symbol values are allocated. Since there is no longer a logical tag in the pointer and only by chance could the bottom 4 bits of the reference count match the allocation tag and pass the tag check.
 
-<p><br></p>
+<br>
 <div align="left">
     <table style="border: none; border-collapse: collapse; width: 100%;">
         <tbody>
@@ -328,7 +328,7 @@ In this example there is an UnsignedInt symbol (type value = 1) with value 99 an
     </table>
 </div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 6: Symbol pointer</span></p>
-<p><br></p>
+<br>
 <div align="left">
     <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
         <tbody>
@@ -393,7 +393,7 @@ In this example there is an UnsignedInt symbol (type value = 1) with value 99 an
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 7: Symbol memory allocation</span></p>
 </p>
 
-In Figure 7 you can see that:
+<br>In Figure 7 you can see that:
 
 * The size of the UnsignedInt has been rounded up to 16 bytes (1 granule).
 * The first 16 bytes of memory are tagged with 1 which is the type value for UnsignedInt. 
@@ -542,7 +542,7 @@ The first drawback is that everything must be aligned and expanded to a 16 byte 
 
 You could mitigate this by having a smarter allocator that can pool the same types to be next to each other, as shown in Figure 8.
 
-<div align="left">
+<br><div align="left">
     <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
         <tbody>
             <tr>
@@ -673,7 +673,7 @@ Of course all this requires completely disabling the memory safety benefits of M
 
 The allocator used here does not attempt to separate two allocations of the same type. So an overflow from one into the other will not be detected as the allocation tags will be the same.
 
-<p style="text-align: center;"><br></p>
+<p style="text-align: center;"></p>
 <div align="left">
     <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
         <tbody>
@@ -730,8 +730,9 @@ In figure 9 you can see that when using a pointer to symbol A, a program could o
 
 Notice that the goal here is keeping values of the same type away from each other and I just talked about doing the opposite to mitigate a different issue. Once you have decided that memory tags are something more than arbitrary values, you have to work very hard to keep the memory safety benefits.
 
-If you want to buck convention despite all that, you could use all the previously mentioned techniques and get 16 bits of metadata in total. Top byte, plus the 4 bit allocation tag, plus 4 least significant bits from alignment. Which application needs that? Not sure but whatever it is, it would likely have a low memory budget.
+If you want to buck convention despite all that, you could use all the previously mentioned techniques and get 16 bits of metadata in total. Top byte, plus the 4 bit allocation tag, plus 4 least significant bits from alignment. Which application needs that? Not sure but whatever it is, it would likely have a low memory budget. 
 
+<br>
 <div align="left">
     <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
         <tbody>
