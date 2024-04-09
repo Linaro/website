@@ -40,6 +40,8 @@ Linaro has enabled trust, quality, and collaboration since 2010.
 
 Visit [www.linaro.org](http://www.linaro.org/)
 
+Qualcomm branded products are products of Qualcomm Technologies, Inc. and/or its subsidiaries.   
 
+Qualcomm patented technologies are licensed by Qualcomm Incorporated.    
 
-Qualcomm branded products are products of Qualcomm Technologies, Inc. and/or its subsidiaries.     Qualcomm patented technologies are licensed by Qualcomm Incorporated.    Qualcomm is a trademark or registered trademark of Qualcomm Incorporated.
+Qualcomm is a trademark or registered trademark of Qualcomm Incorporated.
