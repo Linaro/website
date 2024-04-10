@@ -22,7 +22,7 @@ As the number of connected devices continues to grow exponentially, there is a p
 
 Scaling data insight and value requires edge devices to seamlessly integrate with centralized cloud environments, forming a confederated hybrid cloud capable of delivering services efficiently and at scale. Operational efficiency becomes crucial as edge compute infrastructure expands, encompassing both development costs and ongoing operational expenses. Furthermore, fostering agile innovation demands an adaptable development flow that facilitates rapid prototyping and continuous improvement.
 
-**Introducing the IoT Integration Lab:**
+**Introducing the ONELab:**
 
 ONELab has been conceived to address these challenges and enable interoperability testing at scale for Edge and IoT devices. This innovative service provides a platform for Silicon Vendors (SiPs) and Original Design Manufacturers (ODMs) to continuously test interoperability with operating systems and cloud services, ensuring readiness for cloud-native edge deployments.
 
