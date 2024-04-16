@@ -3,9 +3,10 @@ event_url_last: https://www.eventbrite.co.uk/e/long-term-support-lts-for-the-lin
 title: "Long Term Support (LTS) for the Linux Kernel : what’s changing now? "
 event: LTS Webinar
 description: >+
-  Long Term Linux Kernel Support (LTS) for Embedded, Edge and Automotive devices
-  has been reduced to two years. What does it mean for ODMs and Silicon Vendors?
-  What’s changing? And which new challenges have to be overcome?
+  Is 2 years Long Term Linux Kernel Support (LTS) for Embedded, Edge and
+  Automotive devices enough for ODMs and Silicon Vendors? What new government
+  mandates (e.g. E.U. Cyber Resilience Act) are influencing your kernel
+  strategy? 
 
 date: 2024-02-20 09:50:05 +00:00
 view_last: Register
@@ -19,9 +20,9 @@ event_type: webinar
 <br>🕒 Time: 4:30pm GMT
 <br>🌐 Online Event: Join from anywhere
 
-Community LTS Kernel Support Returns to 2 Years
+Community LTS Kernel Support Has Been Reduced
 
-At the 2023 Open Source Summit Europe, it was announced that the Linux Kernel will return to two years of LTS support by the community. What does this mean for ODMs, Silicon Vendors and solution providers who ship the Linux Kernel in product and had been expecting six years of support?
+The Linux Kernel community offers two years of LTS support by default. Is this enough for ODMs, Silicon Vendors and solution providers who ship the Linux Kernel in product and had been expecting six years of support?
 
 New Government Mandates Impact Open Source Software
 
@@ -30,8 +31,6 @@ Companies need to be aware of new legislation that imposes new obligations on th
 Linaro LTS Kernel and Firmware Solutions
 
 Linaro, has deep and wide Linux Kernel engineering and maintenance expertise. Join Tom Gall (Director Vertical Technologies), Dan Carpenter (LTS Lead Architect) and Bill Fletcher (Solutions Director) as they explore the issues, and lay out how Silicon Vendors, ODMs and other organisations operating in the Arm ecosystem can successfully satisfy customer needs, meet government mandates and achieve their organisational requirements for a high quality Linux Kernel, U-Boot, Trusted Firmware A and OPTEE in support of their product goals.
-
-Duration: 45 minutes (30 mins + 15 mins Q&A)
 
 <form action="https://www.eventbrite.co.uk/e/long-term-support-lts-for-the-linux-kernel-whats-changing-now-tickets-856142694847?_gl=1*i9xl9a*_ga*MTk4MzMzODY1My4xNzA5MjIyMDM0*_ga_E12E6FXFVK*MTcwOTYzMDkyMS4zLjEuMTcwOTYzMTI1My4wLjAuMA..">
 
