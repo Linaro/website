@@ -79,7 +79,6 @@ Top Byte Ignore is quite literal. When enabled, the top byte of a pointer is ign
         </tr>
     </tbody>
 </table> 
-</div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 1: Pointer contents when using TBI</span></p>
 
 <br>Crucially these are not like “free bits” you get from alignment assumptions. You can assume that a pointer to a 4 byte aligned address has its 2 least significant bits set to 0. So you can put 2 bits of your own data there, as long as you remove them before using the pointer. In contrast, when using TBI you do not ever need to remove your data from the pointer.
@@ -113,7 +112,6 @@ The same applies to the “Unused” bits between the end of the top byte and th
         </tr>
     </tbody>
 </table> 
-</div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 2: Pointer contents when using TBI and MTE</span></p>
 
 <br>Memory tagging builds on TBI by using the bottom 4 bits of that top byte to store a 4 bit “logical tag” as shown in Figure 2.
@@ -157,7 +155,6 @@ This is paired with an “allocation tag” which is stored in separate tag memo
         </tr>
     </tbody>
 </table>  
-</div> 
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 3: Memory accesses using MTE</span></p>
 
 <br>That is the intended use of MTE, memory safety. Imagine one of those buffers is for a username and you forget to limit the number of characters copied into it. With MTE, you can prevent a buffer overflow that would otherwise cause a security issue.
@@ -197,7 +194,6 @@ In addition to a reference count, you need the symbol’s type. So I split the t
         </tr>
     </tbody>
   </table>
-</div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 4: Layout of Symbol pointer using TBI only</span></p>
 
 <br>Reference count and type had a range of 0-15. Reference count of 0 meant a symbol could be destroyed. The type values were 0 for UnsignedInt and 1 for String.
@@ -208,7 +204,6 @@ The new plan is to use both MTE and TBI with the symbol pointers. The type of th
 
 To make that work you need to disable tag checking in the memory where the symbol values are allocated. Since there is no longer a logical tag in the pointer and only by chance could the bottom 4 bits of the reference count match the allocation tag and pass the tag check.
 
-<div align="left">
     <table style="border: none; border-collapse: collapse; width: 100%;">
         <tbody>
             <tr>
@@ -249,7 +244,6 @@ To make that work you need to disable tag checking in the memory where the symbo
             </tr>
         </tbody>
     </table>
-</div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 5: Layout of Symbol pointer when using TBI and MTE</span></p>
 
 <br>One thing you are not required to do, but this interpreter will do, is starting the type numbering at 1 instead of 0. This is because the convention (it is not hardware enforced) is that a memory tag of 0 means that tagged memory has just been allocated, or has had its tag reset to 0 where it previously had a non-zero tag. Sometimes referred to as “untagging”.
@@ -289,7 +283,6 @@ With the allocator in place you can use the 4 bit memory tag plus the top byte y
 
 In this example there is an UnsignedInt symbol (type value = 1) with value 99 and a reference count of 25.
 
-<div align="left">
     <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
         <tbody>
             <tr>
@@ -316,10 +309,8 @@ In this example there is an UnsignedInt symbol (type value = 1) with value 99 an
             </tr>
         </tbody>
     </table>
-</div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 6: Symbol pointer</span></p>
 <br>
-<div align="left">
     <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
         <tbody>
             <tr>
@@ -379,7 +370,6 @@ In this example there is an UnsignedInt symbol (type value = 1) with value 99 an
             </tr>
         </tbody>
     </table>
-</div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 7: Symbol memory allocation</span></p>
 
 <br>In Figure 7 you can see that:
@@ -555,7 +545,7 @@ The first drawback is that everything must be aligned and expanded to a 16 byte 
 
 You could mitigate this by having a smarter allocator that can pool the same types to be next to each other, as shown in Figure 8.
 
-<br><div align="left">
+<br>
     <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
         <tbody>
             <tr>
@@ -675,7 +665,6 @@ You could mitigate this by having a smarter allocator that can pool the same typ
             </tr>
         </tbody>
     </table>
-</div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 8: Improved layout by sharing granules</span></p>
 
 Though this can also be done without memory tagging by having one allocation area per type and checking what area the pointer points to. Is a range check going to be faster than pulling the allocation tag from tag memory? Hard to say without access to a specific implementation.
@@ -687,7 +676,6 @@ Of course all this requires completely disabling the memory safety benefits of M
 The allocator used here does not attempt to separate two allocations of the same type. So an overflow from one into the other will not be detected as the allocation tags will be the same.
 
 <p style="text-align: center;"></p>
-<div align="left">
     <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
         <tbody>
             <tr>
@@ -736,7 +724,6 @@ The allocator used here does not attempt to separate two allocations of the same
             </tr>
         </tbody>
     </table>
-</div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 9: Sequential allocation of identical symbol types</span></p>
 
 In figure 9 you can see that when using a pointer to symbol A, a program could overflow into symbol B without an exception being raised. You can mitigate this by interleaving types in memory but you are limited by the order in which the interpreter asks for them to be allocated. So you may need expensive fragmenting steps to ensure a safe layout.
@@ -745,7 +732,6 @@ Notice that the goal here is keeping values of the same type away from each othe
 
 If you want to buck convention despite all that, you could use all the previously mentioned techniques and get 16 bits of metadata in total. Top byte, plus the 4 bit allocation tag, plus 4 least significant bits from alignment. Which application needs that? Not sure but whatever it is, it would likely have a low memory budget. 
 
-<div align="left">
     <table style="border: none; border-collapse: collapse; margin-right: calc(0%); width: 100%;">
         <tbody>
             <tr>
@@ -792,7 +778,6 @@ If you want to buck convention despite all that, you could use all the previousl
             </tr>
         </tbody>
     </table>
-</div>
 <p style="text-align: center;"><span style="font-size:11pt;">Figure 10: Available bits when using TBI, MTE and alignment assumptions</span></p>
 
 Finally, I made an assumption earlier that you already have a system with MTE. If you were instead designing a system from scratch you would have to consider the cost of enabling MTE.
