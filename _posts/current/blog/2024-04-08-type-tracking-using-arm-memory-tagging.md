@@ -406,7 +406,6 @@ if (std::adjacent_find(arguments.cbegin(), arguments.cend(),
                                  symbol_table.GetSymbol(rhs).GetType();
                         }) != arguments.end())
    return "All arguments to + must be the same type";
-
 ```
 
 This code walks all the arguments to “+”. Whatever the type of the first argument is, all of the subsequent arguments should have that same type. In this case the first argument is an UnsignedInt, so the next one should also be an UnsignedInt. It is actually a String, so the type check fails.
@@ -420,7 +419,6 @@ SymbolType Symbol::GetType() const {
                                   REFCOUNT_LSB) &
                                  0xf);
 }
-
 ```
 
 __arm_mte_get_tag is an ACLE function that produces the instruction [“ldg”](https://developer.arm.com/documentation/ddi0602/2023-06/Base-Instructions/LDG--Load-Allocation-Tag-). It takes a pointer to an address and returns that same pointer with its logical tag set to the allocation tag of the memory it points to. The interpreter then shifts and masks the result to get just the tag.
@@ -429,18 +427,15 @@ You can use the debugger to confirm what the error told us. Our first argument, 
 
 ```
 (lldb) p/x symbol_table.GetSymbol(0)
-
 (const Symbol)  (m_value = 0x0100fffff7fed000)
 ```
 
 It contains a pointer with some part of the top byte set. This is the reference count of 1. Not to be confused with the type value of UnsignedInt, which is also 1. The type value is in the allocation tag, as shown below.
 
 ```
-`(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32`
-
-`0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ (tag: 0x1)`
-
-`0xfffff7fed010: 61 62 63 00 00 00 00 00 00 00 00 00 00 00 00 00  abc............. (tag: 0x2)`
+(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32
+0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ (tag: 0x1)
+0xfffff7fed010: 61 62 63 00 00 00 00 00 00 00 00 00 00 00 00 00  abc............. (tag: 0x2)
 ```
 
 On the first line (offset 0x00) you will see an allocation tag (the type value) of 1, with the literal value 1 set in the first byte of memory.
@@ -450,17 +445,15 @@ Each line is 16 bytes (1 granule), so the second line will be a different symbol
 You can also get to this second symbol’s allocation from the symbol table, where it will be index 1.
 
 ```
-`(lldb) p/x symbol_table.GetSymbol(1)`
-
-`(const Symbol)  (m_value = 0x0100fffff7fed010)`
+(lldb) p/x symbol_table.GetSymbol(1)
+(const Symbol)  (m_value = 0x0100fffff7fed010)
 ```
 
 It has a reference count of 1, as you would expect. There is no sign of the type value (2) in the top byte, as that is stored in the allocation tag. Following this pointer you get to the same location as before, where “abc” is stored.
 
 ```
-`(lldb) p/x (const char*)symbol_table.GetSymbol(1).m_value`
-
-`(const char *) 0x0100fffff7fed010 "abc"`
+(lldb) p/x (const char*)symbol_table.GetSymbol(1).m_value
+(const char *) 0x0100fffff7fed010 "abc"
 ```
 
 From this you can see how the interpreter can take arguments as indexes into the symbol table, use those to find the symbol’s type from the allocation tag and perform a type check.
@@ -474,50 +467,39 @@ Expression: (+ 1 1)
 Our first stop is when the first 1 is allocated, at the end of [consume_unsigned_integer](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/Parser.cpp#L66). Here you see the new symbol with a reference count of 1 set in the top byte.
 
 ```
-`(lldb) p/x m_symbol_table.GetSymbol(0)`
-
-`(const Symbol)  (m_value = 0x0100fffff7fed000)`
-
-``
+(lldb) p/x m_symbol_table.GetSymbol(0)
+(const Symbol)  (m_value = 0x0100fffff7fed000)
 ```
 
 The allocation for the Symbol has an allocation tag of 1, which matches its UnsignedInt type value of 1.
 
 ```
-`(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32 -f bytes`
-
-`0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
+(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32 -f bytes
+0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)
 ```
 
 You will not get a type error this time, so you can continue until after the type check in [do_plus](https://gitlab.com/Linaro/tcwg/tbi_lisp/-/blob/0daeeb3a7715a99356451bd62651c6006667faf9/Execute.cpp#L28).
 
 ```
-`(lldb) p symbol_table.m_symbols.size()`
-
-`(std::vector<Symbol>::size_type) 1`
-
-``
+(lldb) p symbol_table.m_symbols.size()
+(std::vector<Symbol>::size_type) 1
 ```
 
 You still have 1 symbol, which is expected as you should not need another Symbol for the second 1.
 
 ```
-`(lldb) p/x symbol_table.GetSymbol(0)`
-
-`(const Symbol)  (m_value = 0x0200fffff7fed000)`
+(lldb) p/x symbol_table.GetSymbol(0)
+(const Symbol)  (m_value = 0x0200fffff7fed000)
 ```
 
 Indeed you see that reference count has changed. The top byte now has the value 2 since you are representing 2 “1”s with 1 Symbol. Of course 1+1 is 2 and you will need a new Symbol for that.
 
 ```
-`(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32 -f bytes`
-
-`0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
-
-`0xfffff7fed010: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
+(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32 -f bytes
+0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)
+0xfffff7fed010: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)
 ```
 
-\
 Stepping over the “+”, you see that “2” appears in memory on the second line above (offset 0x10). This is the result of “1+1”.
 
 Now that “+” has finished, it no longer needs its arguments. For each argument of the “+” you decrement that argument’s reference count by 1. In this case both arguments are the same symbol so you start with a reference count of 2, 2 - 1 - 1 = 0, so there are no remaining references to the “1” symbol.
@@ -525,14 +507,11 @@ Now that “+” has finished, it no longer needs its arguments. For each argume
 This means you can delete the symbol. Here an earlier detail is important. I chose to start type values at 1 so that 0 could be used as the “untagged” allocation tag value.
 
 ```
-`(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32 -f bytes`
-
-`0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x0)`
-
-`0xfffff7fed010: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)`
+(lldb) memory read 0x0100fffff7fed000 --show-tags -c 32 -f bytes
+0xfffff7fed000: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x0)
+0xfffff7fed010: 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (tag: 0x1)
 ```
 
-\
 Freeing the symbol calls tagged_free which resets the memory tag to 0 for the memory on the first line above (offset 0x00). You see that the result “2” remains undisturbed on the second line (offset 0x10) with the expected tag 1.
 
 In our case this “untagging” step is not required as you have disabled tag checks. It is purely to aid debugging and demonstrating the interpreter.
