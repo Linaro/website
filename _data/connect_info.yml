@@ -101,8 +101,6 @@ tabs:
 
   - title: Program
     custom_include: connect/connect_program.html
-  - title: Speakers
-    text: SPEAKER INFORMATION COMING SOON!
   - title: Hotels & Travel
     description:
       - The next Linaro Connect will be held in Madrid, Spain, Tuesday 14 - Friday 17 May 2024 at the Melia Avenida America.
