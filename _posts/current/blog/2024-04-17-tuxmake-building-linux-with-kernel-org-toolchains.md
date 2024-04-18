@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TuxMake: Building Linux with kernel.org toolchains"
+title: "TuxMake: Building Linux with kernel.org LLVM toolchains"
 description: >
   This blog talks about how support has been introduced for kernel.org LLVM
   toolchains. Click here to read more!
@@ -10,7 +10,7 @@ tags:
   - Testing
   - Linux Kernel
 category: blog
-author: linaro
+author: senthil_kumaran
 ---
 # Introduction
 
