@@ -6,7 +6,7 @@ description: >
   you ignore all the advice and use memory tags for your own data? In this
   article I will show you how to do that. It seems like a bad idea, but you
   might be surprised by the results.
-date: 2024-04-08 09:17:02 +00:00
+date: 2024-04-19 05:01:55 +01:00
 image: /assets/images/content/Code_Image_Core_tech.jpg
 tags:
   - Arm
