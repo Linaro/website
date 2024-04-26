@@ -15,7 +15,7 @@ author: jens.wiklander
 ---
 # Introduction
 
-[In part 1 of this blog series](https://www.linaro.org/blog/subkeys-in-op-tee-part-1/) we gave a quick overview of subkeys, here we are starting where we left off by going into more details. If you are attending Linaro Connect in three weeks time, make sure to check out the session [10 years with OP-TEE](https://www.kitefor.events/events/linaro-connect-24/submissions/94) where a panel will discuss the history of the OP-TEE and what they think the future has in store for the project.
+[In part 1 of this blog series](https://www.linaro.org/blog/subkeys-in-op-tee-part-1/) we gave a quick overview of subkeys, here we are starting where we left off by going into more details. If you are attending Linaro Connect in three weeks time, make sure to check out the session [10 years with OP-TEE](https://www.kitefor.events/events/linaro-connect-24/submissions/94) where a panel will discuss the history of OP-TEE and what they think the future has in store for the project.
 
 # Subkeys
 
@@ -135,7 +135,7 @@ Thank you for reading this far. This concludes the two-part series on subkeys in
 
 ## References
 
-\[1]	UUIDv5 and namespaces are described in [RFC4122](https://datatracker.ietf.org/doc/html/rfc4122). Note that OP-TEE uses a truncated SHA-512 instead of the weak SHA-1 hash when deriving a new UUID from a namespace and name
-\[2]	[GlobalPlatform TEE Client API Specification v1.0](https://www.google.com/url?q=https://globalplatform.org/specs-library/tee-client-api-specification/&sa=D&source=docs&ust=1714145793395645&usg=AOvVaw1SOHFCG6aCnPod2GUBLuGO)
-\[3]	OP-TEE documentation, subkey section <https://optee.readthedocs.io/en/latest/architecture/subkeys.html>
-\[4]	[GlobalPlatform Internal Core API Specification v1.3.1](https://globalplatform.org/specs-library/tee-internal-core-api-specification/)
+1. UUIDv5 and namespaces are described in [RFC4122](https://datatracker.ietf.org/doc/html/rfc4122). Note that OP-TEE uses a truncated SHA-512 instead of the weak SHA-1 hash when deriving a new UUID from a namespace and name
+2. [GlobalPlatform TEE Client API Specification v1.0](https://www.google.com/url?q=https://globalplatform.org/specs-library/tee-client-api-specification/&sa=D&source=docs&ust=1714145793395645&usg=AOvVaw1SOHFCG6aCnPod2GUBLuGO)
+3. OP-TEE documentation, subkey section <https://optee.readthedocs.io/en/latest/architecture/subkeys.html>
+4. [GlobalPlatform Internal Core API Specification v1.3.1](https://globalplatform.org/specs-library/tee-internal-core-api-specification/)[](https://globalplatform.org/specs-library/tee-internal-core-api-specification/)
