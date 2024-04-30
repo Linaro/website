@@ -73,6 +73,10 @@
       {
         "image": "https://static.linaro.org/common/member-logos/remarkable.jpg",
         "name": "remarkable"
+      },
+      {
+        "image": "https://static.linaro.org/common/member-logos/adlink.jpg",
+        "name": "Adlink"
       }
     ],
     "membership_group_name": "Group Members",
