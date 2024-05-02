@@ -51,24 +51,6 @@
       ]
     },
     {
-      "name": "Kiyoshi Owada",
-      "title": "Socionext",
-      "company": "Socionext",
-      "teams": [
-        "technical_steering_committee"
-      ]
-    },
-    {
-      "name": "Eric Finco",
-      "title": "STMicroelectronics",
-      "company": "STMicroelectronics",
-      "image": "/assets/images/people/Eric-Finco.jpg",
-      "bio": "Eric Finco is Senior Engineering Director at ST-Microelectronics heading up Linux kernel development as well as hardware/software applications for digital consumer products. He has almost 25 years experience in telecom and embedded software and systems at Philips, NXP, ST-Ericsson and ST-Microelectronics and has worked for 18 years in the Arm software and hardware ecosystem. Eric graduated from Paris XI- Orsay University and the Grenoble Institute of Technology (INPG) in France.\n",
-      "teams": [
-        "technical_steering_committee"
-      ]
-    },
-    {
       "name": "Li Gong",
       "title": "Chief Executive Officer at Linaro",
       "company": "Linaro",
@@ -91,26 +73,6 @@
       "teams": [
         "executive_team",
         "board_of_directors"
-      ]
-    },
-    {
-      "name": "Joe Bates",
-      "title": "General Manager & VP Developer Services at Linaro",
-      "company": "Linaro",
-      "image": "/assets/images/content/joe_bates_new.jpg",
-      "bio": "Joe is the General Manager and Vice President responsible for Linaro’s Developer Services business unit. He is Linaro employee number 2 and has been with the company since 2011. He has many years of experience and a hands-on style building and leading exceptional services, support and sales teams that consistently deliver business results at leading technology companies such as Progress Software, BEA Systems, Onesource Information and Object Design. Joe resides with his family in the Boston area.",
-      "teams": [
-        "executive_team"
-      ]
-    },
-    {
-      "name": "Andrea Gallo",
-      "title": "VP of Business Development at Linaro",
-      "company": "Linaro",
-      "image": "/assets/images/content/a-gallo-linaro.jpg",
-      "bio": "Andrea joined the Linaro Technical Steering Committee in 2010 as an ST-Ericsson Fellow before becoming a Linaro employee in 2012 as the Director of the Linaro Enterprise Group (now known as the Linaro Data Center and Cloud Group). He then went on to work as the VP of Segment Groups and Strategic Initiatives before taking on his current VP of Business Development role. Prior to Linaro, Andrea worked at STMicroelectronics, leading the development of the world’s first USB ADSL soft-modem with WHCL certification. He also set up ST Linux teams in Noida and Bangalore for the smartphone application processors division. Andrea holds a University Degree in Telecommunication and speaks fluent French and English, in addition to his native Italian.\n",
-      "teams": [
-        "executive_team"
       ]
     },
     {
