@@ -119,20 +119,20 @@ flow:
         text_content:
           text: >
             The Linaro Automated Validation Architecture (LAVA) is a test and
-            continuous integration framework that Linaro uses to validate its
+            continuous-integration framework that Linaro uses to validate its
             releases. The source is open so that Linaro member companies and
             others can create their own instantiations and run proprietary tests
             within this standard framework.
 
 
-            The two recommended ways to install Lava is either via DEB or Docker:
+            The two recommended ways to install LAVA is either via DEB or Docker:
 
 
             - [Recommended Debian Architectures](https://lava.readthedocs.io/en/latest/admin/basic-tutorials/instance/install/#debian)
 
             - [Administering LAVA using Docker — LAVA documentation](https://lava.readthedocs.io/en/latest/admin/basic-tutorials/instance/install/#docker)
 
-            - [Click here to find out more about LAVA.](https://validation.linaro.org/)
+            - [Click here to learn more about LAVA.](https://gitlab.com/lava)
       - format: title
         style: icon_heading
         title_content:
@@ -142,13 +142,13 @@ flow:
       - format: text
         text_content:
           text: >
-            SQUAD is a web based reporting tool. It was created by Linaro to
-            cover basic test result reporting for Linaro teams. It can collect
-            pass/fail results and benchmarks from direct submissions or from
-            testing tools like LAVA.
+            SQUAD is a web-based reporting tool. It was created by Linaro to
+            cover basic test result reporting for Linaro teams. SQUAD collects
+            pass/fail/skip results, benchmarks, and other test systems from
+            direct submissions or testing tools like LAVA and TuxSuite.
 
 
-            - [Click here to download SQUAD](https://pypi.org/project/squad-client/)
+            - [Click here to download SQUAD](https://github.com/Linaro/squad)
 
             - [Click here to find out more about SQUAD](https://squad.readthedocs.io/en/latest/)
       - format: title
@@ -167,10 +167,10 @@ flow:
             and on a wider scale.
 
 
-            You can either [download the TuxSuite client](https://docs.tuxsuite.com/#install-and-configure) to use Linaro’s TuxSuite service, or you can download the backend tools to run on your own.
+            You can either [download the TuxSuite client](https://docs.tuxsuite.com/#install-and-configure) to use Linaro’s TuxSuite service or download the backend tools to run independently.
 
 
-            Tuxmake automates Linux builds across different architectures, configurations, targets, and toolchains. Specify your choices, and TuxMake drives the build for you, doing the same steps in the same way every time. [Download Tuxmake here](https://tuxmake.org/#installing-tuxmake).
+            Tuxmake automates Linux builds across different architectures, configurations, targets, and toolchains. Specify your choices, and TuxMake drives the build for you, taking the same steps every time. [Download Tuxmake here](https://tuxmake.org/#installing-tuxmake).
 
 
             Tuxrun automates booting and testing Linux under QEMU. It supports almost all architectures supported by TuxMake. [Download Tuxrun here](https://tuxrun.org/install-pypi/).
