@@ -112,7 +112,7 @@ jobs:
 
 plan.yaml
 
-![plan.yaml](/assets/images/content/plan-yaml.gif" "Plan Yaml"){:width="100%"}
+![plan.yaml](/assets/images/content/plan-yaml.gif "Plan Yaml"){:width="100%"}
 
 # Conclusion
 
