@@ -112,7 +112,7 @@ jobs:
 
 plan.yaml
 
-{% include image.html path="/assets/images/content/plan-yaml.gif" alt="Plan yaml" %}
+![plan.yaml]{% include image.html path="/assets/images/content/plan-yaml.gif" "Plan Yaml"){:width="100%"}
 
 # Conclusion
 
